@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="rw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Amezi Runner</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@700&display=swap');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html,body { width:100%; height:100%; overflow:hidden; background:#111; }
+
+#video {
+  position:fixed; inset:0; width:100%; height:100%;
+  object-fit:cover; z-index:0;
+  transform:scaleX(-1);
+  filter:brightness(0.52) saturate(0.65);
+}
+#canvas { position:fixed; inset:0; z-index:2; pointer-events:none; }
+#face-canvas { position:fixed; inset:0; z-index:3; pointer-events:none; transform:scaleX(-1); }
+#pfx    { position:fixed; inset:0; z-index:5; pointer-events:none; }
+
+/* Filter picker bar */
+#filter-bar {
+  position:fixed; bottom:110px; left:50%; transform:translateX(-50%);
+  z-index:11; display:flex; gap:10px; align-items:center;
+  background:rgba(0,0,0,.55); border:1px solid rgba(232,147,10,.35);
+  border-radius:50px; padding:7px 14px;
+  backdrop-filter:blur(8px); pointer-events:all;
+}
+.filt-btn {
+  width:42px; height:42px; border-radius:50%; border:2px solid transparent;
+  background:rgba(255,255,255,.1); font-size:22px;
+  cursor:pointer; display:flex; align-items:center; justify-content:center;
+  transition:all .2s;
+}
+.filt-btn:hover  { background:rgba(255,255,255,.22); transform:scale(1.15); }
+.filt-btn.active { border-color:#e8930a; background:rgba(232,147,10,.25); transform:scale(1.1); }
+
+/* heard word floats near the sphere */
+#heard-word {
+  position:fixed; z-index:6; pointer-events:none;
+  font-family:'Bebas Neue',sans-serif;
+  font-size:clamp(20px,5.5vw,40px);
+  color:#fff; letter-spacing:3px; text-transform:uppercase;
+  text-shadow:2px 2px 0 #000, 0 0 16px rgba(255,255,255,.35);
+  white-space:nowrap; opacity:0;
+  transform:translate(-50%,-50%); transition:opacity .2s;
+}
+#heard-word.show { opacity:1; }
+
+/* HUD */
+#hud {
+  position:fixed; inset:0; z-index:10; pointer-events:none;
+  display:flex; flex-direction:column;
+  justify-content:space-between; align-items:center;
+  padding:16px 16px 26px;
+}
+#top-bar { display:flex; justify-content:space-between; align-items:center; width:100%; max-width:460px; }
+.hbox { background:rgba(0,0,0,.65); border:1px solid rgba(232,147,10,.45); border-radius:6px; padding:6px 13px; text-align:center; backdrop-filter:blur(4px); }
+.hlabel { font-family:'Barlow Condensed',sans-serif; font-size:10px; letter-spacing:3px; color:#e8930a; text-transform:uppercase; }
+.hval   { font-family:'Bebas Neue',sans-serif; font-size:34px; color:#fff; line-height:1; text-shadow:2px 2px 0 #000; }
+
+/* Timer bar under status */
+#timer-bar-wrap {
+  width: clamp(160px, 45vw, 300px);
+  height: 8px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+#timer-bar {
+  height: 100%;
+  width: 100%;
+  background: #e8930a;
+  border-radius: 4px;
+  transform-origin: left;
+  transition: background 0.3s;
+}
+
+#status { font-family:'Barlow Condensed',sans-serif; font-size:15px; letter-spacing:3px; text-transform:uppercase; color:rgba(255,255,255,.85); text-shadow:1px 1px 2px #000; text-align:center; min-height:20px; }
+#status.fail { color:#ff2d2d; animation:blink .45s ease infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.25} }
+
+#mic-wrap { pointer-events:all; display:flex; flex-direction:column; align-items:center; gap:7px; }
+#mic-btn { width:66px; height:66px; border-radius:50%; border:3px solid rgba(255,255,255,.7); background:rgba(0,0,0,.65); color:#fff; font-size:26px; cursor:pointer; display:flex; align-items:center; justify-content:center; backdrop-filter:blur(6px); transition:all .2s; }
+#mic-btn.on { border-color:#ff2d2d; background:rgba(255,45,45,.25); animation:mpulse .7s ease-in-out infinite; }
+@keyframes mpulse { 0%,100%{box-shadow:0 0 0 0 rgba(255,45,45,.5)} 50%{box-shadow:0 0 0 16px rgba(255,45,45,0)} }
+#mic-lbl { font-family:'Barlow Condensed',sans-serif; font-size:12px; letter-spacing:2px; color:rgba(255,255,255,.65); text-shadow:1px 1px 2px #000; text-transform:uppercase; }
+
+#combo-pop { position:fixed; top:18%; left:50%; transform:translateX(-50%); z-index:12; pointer-events:none; opacity:0; transition:opacity .15s; text-align:center; }
+#combo-pop.show { opacity:1; }
+#combo-pop span { font-family:'Bebas Neue',sans-serif; font-size:clamp(40px,11vw,74px); color:#f5c400; letter-spacing:5px; text-shadow:3px 3px 0 #000,0 0 35px rgba(245,196,0,.55); display:block; animation:cpop .3s cubic-bezier(.34,1.56,.64,1) forwards; }
+@keyframes cpop { 0%{transform:scale(.25)} 100%{transform:scale(1)} }
+
+#muffle { position:fixed; inset:0; z-index:9; pointer-events:none; background:rgba(30,0,0,0); transition:background .4s; }
+#muffle.on { background:rgba(40,0,0,.38); }
+#vig { position:fixed; inset:0; z-index:1; pointer-events:none; background:radial-gradient(ellipse at center,transparent 38%,rgba(0,0,0,.72) 100%); }
+
+#intro { position:fixed; inset:0; z-index:100; background:rgba(0,0,0,.95); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:18px; padding:30px; }
+#intro h1 { font-family:'Bebas Neue',sans-serif; font-size:clamp(44px,13vw,90px); color:#fff; letter-spacing:5px; text-align:center; line-height:.95; text-shadow:4px 4px 0 #e8930a; }
+#intro p { font-family:'Barlow Condensed',sans-serif; font-size:clamp(16px,4.5vw,20px); color:rgba(255,255,255,.75); text-align:center; max-width:340px; line-height:1.5; }
+#intro p b { color:#e8930a; }
+#go-btn { background:#e8930a; color:#000; border:none; font-family:'Bebas Neue',sans-serif; font-size:27px; letter-spacing:4px; padding:14px 50px; border-radius:6px; cursor:pointer; box-shadow:0 6px 22px rgba(232,147,10,.4); transition:transform .15s; margin-top:4px; }
+#go-btn:hover { transform:scale(1.06); }
+.nosrwarn { color:#ff6b6b; font-size:13px; border:1px solid #ff6b6b; padding:7px 14px; border-radius:5px; text-align:center; display:none; }
+
+#finished {
+  position:fixed; inset:0; z-index:99; background:rgba(0,0,0,.92);
+  display:none; flex-direction:column; align-items:center; justify-content:center; gap:18px;
+}
+#finished h1 {
+  font-family:'Bebas Neue',sans-serif; font-size:clamp(48px,14vw,100px);
+  color:#e8930a; letter-spacing:6px; text-shadow:4px 4px 0 #000;
+  text-align:center; line-height:.95;
+}
+#finished p {
+  font-family:'Barlow Condensed',sans-serif; font-size:clamp(18px,5vw,26px);
+  color:rgba(255,255,255,.8); letter-spacing:2px; text-align:center;
+}
+#finished p b { color:#f5c400; font-size:1.3em; }
+#replay-btn {
+  background:#e8930a; color:#000; border:none;
+  font-family:'Bebas Neue',sans-serif; font-size:26px; letter-spacing:4px;
+  padding:13px 44px; border-radius:6px; cursor:pointer;
+  box-shadow:0 6px 20px rgba(232,147,10,.4); transition:transform .15s; margin-top:6px;
+}
+#replay-btn:hover { transform:scale(1.06); }
+body::after { content:''; position:fixed; inset:0; z-index:200; pointer-events:none; background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,.02) 2px,rgba(0,0,0,.02) 4px); }
+</style>
+</head>
+<body>
+
+<div id="vig"></div>
+<div id="muffle"></div>
+<video id="video" autoplay muted playsinline></video>
+<canvas id="canvas"></canvas>
+<canvas id="face-canvas"></canvas>
+<canvas id="pfx"></canvas>
+<div id="heard-word"></div>
+
+<!-- Filter picker -->
+<div id="filter-bar">
+  <button class="filt-btn" data-filter="none"    title="None">🚫</button>
+  <button class="filt-btn" data-filter="hat"     title="Hat">🎩</button>
+  <button class="filt-btn" data-filter="glasses" title="Glasses">🕶️</button>
+  <button class="filt-btn" data-filter="mustache"title="Moustache">👨</button>
+  <button class="filt-btn" data-filter="crown"   title="Crown">👑</button>
+  <button class="filt-btn" data-filter="bunny"   title="Bunny">🐰</button>
+  <button class="filt-btn" data-filter="party"   title="Party">🥳</button>
+</div>
+
+<div id="hud">
+  <div id="top-bar">
+    <div class="hbox"><div class="hlabel">Amanota</div><div class="hval" id="score-v">0</div></div>
+    <div class="hbox"><div class="hlabel">Combo 🔥</div><div class="hval" id="combo-v">0</div></div>
+  </div>
+  <div id="status">VUGA UKWEZI</div>
+  <div id="mic-wrap">
+    <button id="mic-btn">🎤</button>
+    <div id="mic-lbl">KANDA UVUGE</div>
+  </div>
+</div>
+
+<div id="combo-pop"><span id="combo-txt"></span></div>
+
+<div id="finished">
+  <h1>WARARANGIJE!<br>🎉</h1>
+  <p>Amezi yose wayavuze neza!<br>Amanota: <b id="fin-score">0</b> &nbsp;|&nbsp; Combo: <b id="fin-combo">0</b></p>
+  <button id="replay-btn">▶ ONGERA</button>
+</div>
+
+<div id="intro">
+  <h1>AMEZI<br>RUNNER</h1>
+  <p>Impira izaza iva mu nzira ikwegera hagati. <b>Ihagarara.</b> Vuga ijambo iri muri yo — izongera gukomeza inzira nyuma y'aho!</p>
+  <div id="no-sr" class="nosrwarn">⚠️ Koresha Chrome cyangwa Edge</div>
+  <button id="go-btn">▶ TANGIRA</button>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+// DATA
+// ═══════════════════════════════════════════════════════════════
+const MONTHS = ["MUTARAMA","GASHYANTARE","WERURWE","MATA","GICURASI",
+                "KAMENA","NYAKANGA","KANAMA","NZELI","UKWAKIRA","UGUSHYINGO","UKUBOZA"];
+
+// ═══════════════════════════════════════════════════════════════
+// CANVAS
+// ═══════════════════════════════════════════════════════════════
+const C    = document.getElementById("canvas");
+const ctx  = C.getContext("2d");
+const P    = document.getElementById("pfx");
+const pctx = P.getContext("2d");
+const FC   = document.getElementById("face-canvas");
+const fctx = FC.getContext("2d");
+function resize(){
+  C.width=P.width=FC.width=window.innerWidth;
+  C.height=P.height=FC.height=window.innerHeight;
+}
+resize();
+window.addEventListener("resize", resize);
+
+// ═══════════════════════════════════════════════════════════════
+// FACE FILTERS — MediaPipe FaceMesh
+// ═══════════════════════════════════════════════════════════════
+let faceMesh = null, faceResults = null;
+let activeFilter = "none";
+
+// Init filter button clicks
+document.querySelectorAll(".filt-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filt-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeFilter = btn.dataset.filter;
+  });
+});
+document.querySelector('.filt-btn[data-filter="none"]').classList.add("active");
+
+async function initFaceMesh(videoEl) {
+  // Load MediaPipe FaceMesh from CDN
+  const script1 = document.createElement("script");
+  script1.src = "https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/face_mesh.js";
+  document.head.appendChild(script1);
+  await new Promise(r => script1.onload = r);
+
+  const script2 = document.createElement("script");
+  script2.src = "https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js";
+  document.head.appendChild(script2);
+  await new Promise(r => script2.onload = r);
+
+  faceMesh = new FaceMesh({ locateFile: f =>
+    `https://cdn.jsdelivr.net/npm/@mediapipe/face_mesh/${f}` });
+
+  faceMesh.setOptions({
+    maxNumFaces: 1,
+    refineLandmarks: true,
+    minDetectionConfidence: 0.5,
+    minTrackingConfidence: 0.5
+  });
+
+  faceMesh.onResults(results => { faceResults = results; });
+
+  const camera = new Camera(videoEl, {
+    onFrame: async () => { await faceMesh.send({ image: videoEl }); },
+    width: 640, height: 480
+  });
+  camera.start();
+}
+
+// ── Helper: get landmark screen position ─────────────────────
+function lm(landmarks, idx) {
+  const l = landmarks[idx];
+  // Face canvas is mirrored (scaleX(-1)), so x is already flipped
+  // but we need to map from [0,1] to screen coords
+  const W = FC.width, H = FC.height;
+  return { x: l.x * W, y: l.y * H, z: l.z };
+}
+
+// ── Draw all accessories for current frame ─────────────────────
+function drawFaceFilters() {
+  fctx.clearRect(0, 0, FC.width, FC.height);
+  if (activeFilter === "none" || !faceResults || !faceResults.multiFaceLandmarks) return;
+  for (const landmarks of faceResults.multiFaceLandmarks) {
+    switch(activeFilter) {
+      case "hat":      drawHat(landmarks);      break;
+      case "glasses":  drawGlasses(landmarks);  break;
+      case "mustache": drawMustache(landmarks);  break;
+      case "crown":    drawCrown(landmarks);     break;
+      case "bunny":    drawBunny(landmarks);     break;
+      case "party":    drawParty(landmarks);     break;
+    }
+  }
+}
+
+// ── HAT (top hat above forehead) ─────────────────────────────
+function drawHat(lms) {
+  const foreL  = lm(lms, 234);  // left temple
+  const foreR  = lm(lms, 454);  // right temple
+  const top    = lm(lms, 10);   // top of forehead
+
+  const cx   = (foreL.x + foreR.x) / 2;
+  const brimW = Math.abs(foreR.x - foreL.x) * 1.3;
+  const brimH = brimW * 0.18;
+  const hatH  = brimW * 0.75;
+  const hatW  = brimW * 0.68;
+  const by    = top.y - brimH * 0.3;  // brim Y
+  const ty    = by - hatH;             // hat top Y
+
+  fctx.save();
+  // Brim
+  fctx.beginPath();
+  fctx.ellipse(cx, by, brimW/2, brimH/2, 0, 0, Math.PI*2);
+  fctx.fillStyle = "#1a1a1a"; fctx.fill();
+  fctx.strokeStyle="#333"; fctx.lineWidth=2; fctx.stroke();
+  // Body
+  fctx.beginPath();
+  fctx.rect(cx - hatW/2, ty, hatW, hatH);
+  fctx.fillStyle = "#111"; fctx.fill();
+  fctx.strokeStyle="#333"; fctx.lineWidth=2; fctx.stroke();
+  // Hat band
+  fctx.fillStyle = "#e8930a";
+  fctx.fillRect(cx - hatW/2, ty + hatH*0.72, hatW, hatH*0.14);
+  // Shine
+  fctx.fillStyle = "rgba(255,255,255,0.07)";
+  fctx.fillRect(cx - hatW*0.3, ty + 4, hatW*0.12, hatH*0.55);
+  fctx.restore();
+}
+
+// ── GLASSES ───────────────────────────────────────────────────
+function drawGlasses(lms) {
+  const leftEye  = lm(lms, 33);
+  const rightEye = lm(lms, 263);
+  const noseBr   = lm(lms, 168);
+
+  const eyeDist = Math.abs(rightEye.x - leftEye.x);
+  const r       = eyeDist * 0.34;
+  const lc      = { x: leftEye.x,  y: leftEye.y  + r*0.1 };
+  const rc      = { x: rightEye.x, y: rightEye.y + r*0.1 };
+
+  fctx.save();
+  fctx.lineWidth   = Math.max(3, r*0.15);
+  fctx.strokeStyle = "#1a1a1a";
+
+  // Left lens
+  fctx.beginPath(); fctx.arc(lc.x, lc.y, r, 0, Math.PI*2);
+  fctx.fillStyle = "rgba(0,180,255,0.25)"; fctx.fill(); fctx.stroke();
+  // Right lens
+  fctx.beginPath(); fctx.arc(rc.x, rc.y, r, 0, Math.PI*2);
+  fctx.fillStyle = "rgba(0,180,255,0.25)"; fctx.fill(); fctx.stroke();
+  // Bridge
+  fctx.beginPath();
+  fctx.moveTo(lc.x + r, lc.y); fctx.lineTo(rc.x - r, rc.y);
+  fctx.stroke();
+  // Left arm
+  fctx.beginPath();
+  fctx.moveTo(lc.x - r, lc.y); fctx.lineTo(lc.x - r*2.2, lc.y - r*0.1);
+  fctx.stroke();
+  // Right arm
+  fctx.beginPath();
+  fctx.moveTo(rc.x + r, rc.y); fctx.lineTo(rc.x + r*2.2, rc.y - r*0.1);
+  fctx.stroke();
+  // Shine
+  fctx.strokeStyle="rgba(255,255,255,0.35)"; fctx.lineWidth=1.5;
+  fctx.beginPath(); fctx.arc(lc.x-r*0.2, lc.y-r*0.2, r*0.35, -2.2, -0.9); fctx.stroke();
+  fctx.beginPath(); fctx.arc(rc.x-r*0.2, rc.y-r*0.2, r*0.35, -2.2, -0.9); fctx.stroke();
+  fctx.restore();
+}
+
+// ── MOUSTACHE ─────────────────────────────────────────────────
+function drawMustache(lms) {
+  const lipTop = lm(lms, 13);   // top lip center
+  const lipL   = lm(lms, 61);   // lip left
+  const lipR   = lm(lms, 291);  // lip right
+  const nose   = lm(lms, 2);
+
+  const cx   = (lipL.x + lipR.x) / 2;
+  const cy   = (nose.y + lipTop.y) / 2 + 2;
+  const w    = Math.abs(lipR.x - lipL.x) * 1.25;
+  const h    = w * 0.32;
+
+  fctx.save();
+  fctx.fillStyle = "#2a1a0a";
+  // Left curl
+  fctx.beginPath();
+  fctx.moveTo(cx, cy);
+  fctx.bezierCurveTo(cx - w*0.1, cy - h*0.5, cx - w*0.45, cy - h*0.8, cx - w*0.5, cy);
+  fctx.bezierCurveTo(cx - w*0.45, cy + h*0.5, cx - w*0.15, cy + h*0.4, cx, cy + h*0.2);
+  fctx.closePath(); fctx.fill();
+  // Right curl
+  fctx.beginPath();
+  fctx.moveTo(cx, cy);
+  fctx.bezierCurveTo(cx + w*0.1, cy - h*0.5, cx + w*0.45, cy - h*0.8, cx + w*0.5, cy);
+  fctx.bezierCurveTo(cx + w*0.45, cy + h*0.5, cx + w*0.15, cy + h*0.4, cx, cy + h*0.2);
+  fctx.closePath(); fctx.fill();
+  // Highlight
+  fctx.strokeStyle="rgba(255,255,255,0.12)"; fctx.lineWidth=1.5;
+  fctx.beginPath(); fctx.moveTo(cx-w*0.35, cy-h*0.3); fctx.lineTo(cx-w*0.1, cy-h*0.55); fctx.stroke();
+  fctx.restore();
+}
+
+// ── CROWN ─────────────────────────────────────────────────────
+function drawCrown(lms) {
+  const foreL = lm(lms, 234);
+  const foreR = lm(lms, 454);
+  const top   = lm(lms, 10);
+
+  const cx   = (foreL.x + foreR.x) / 2;
+  const w    = Math.abs(foreR.x - foreL.x) * 1.15;
+  const h    = w * 0.55;
+  const by   = top.y + h*0.1;
+  const ty   = by - h;
+
+  fctx.save();
+  // Crown body
+  fctx.beginPath();
+  fctx.moveTo(cx - w/2, by);
+  fctx.lineTo(cx - w/2, ty + h*0.3);
+  fctx.lineTo(cx - w*0.3, ty + h*0.55);
+  fctx.lineTo(cx - w*0.15, ty);
+  fctx.lineTo(cx, ty + h*0.4);
+  fctx.lineTo(cx + w*0.15, ty);
+  fctx.lineTo(cx + w*0.3, ty + h*0.55);
+  fctx.lineTo(cx + w/2, ty + h*0.3);
+  fctx.lineTo(cx + w/2, by);
+  fctx.closePath();
+  const grad = fctx.createLinearGradient(cx, ty, cx, by);
+  grad.addColorStop(0,   "#ffe566");
+  grad.addColorStop(0.5, "#e8930a");
+  grad.addColorStop(1,   "#c06000");
+  fctx.fillStyle = grad; fctx.fill();
+  fctx.strokeStyle="#c06000"; fctx.lineWidth=2; fctx.stroke();
+  // Gems
+  const gems = [[cx - w*0.28, ty+h*0.52,"#ff4466"],[cx, ty+h*0.38,"#44aaff"],[cx+w*0.28,ty+h*0.52,"#44ff88"]];
+  gems.forEach(([gx,gy,gc])=>{
+    fctx.beginPath(); fctx.arc(gx,gy,w*0.045,0,Math.PI*2);
+    fctx.fillStyle=gc; fctx.fill();
+    fctx.strokeStyle="rgba(0,0,0,0.4)"; fctx.lineWidth=1; fctx.stroke();
+  });
+  fctx.restore();
+}
+
+// ── BUNNY EARS ────────────────────────────────────────────────
+function drawBunny(lms) {
+  const foreL = lm(lms, 234);
+  const foreR = lm(lms, 454);
+  const top   = lm(lms, 10);
+
+  const cx    = (foreL.x + foreR.x) / 2;
+  const faceW = Math.abs(foreR.x - foreL.x);
+  const earH  = faceW * 1.1;
+  const earW  = faceW * 0.22;
+  const earY  = top.y - earH * 0.1;
+  const off   = faceW * 0.28;
+
+  fctx.save();
+  [cx - off, cx + off].forEach((ex, i) => {
+    const lean = i === 0 ? -0.1 : 0.1;
+    fctx.save();
+    fctx.translate(ex, earY);
+    fctx.rotate(lean);
+    // Outer ear
+    fctx.beginPath();
+    fctx.ellipse(0, -earH*0.4, earW/2, earH/2, 0, 0, Math.PI*2);
+    fctx.fillStyle="#f8d0e0"; fctx.fill();
+    fctx.strokeStyle="rgba(220,160,180,0.8)"; fctx.lineWidth=2; fctx.stroke();
+    // Inner ear
+    fctx.beginPath();
+    fctx.ellipse(0, -earH*0.4, earW*0.28, earH*0.35, 0, 0, Math.PI*2);
+    fctx.fillStyle="#ff99bb"; fctx.fill();
+    fctx.restore();
+  });
+  fctx.restore();
+}
+
+// ── PARTY HAT ─────────────────────────────────────────────────
+function drawParty(lms) {
+  const foreL = lm(lms, 234);
+  const foreR = lm(lms, 454);
+  const top   = lm(lms, 10);
+
+  const cx   = (foreL.x + foreR.x) / 2 - 10;
+  const faceW = Math.abs(foreR.x - foreL.x);
+  const hatH  = faceW * 0.95;
+  const baseW = faceW * 0.55;
+  const bY    = top.y + 5;
+  const tY    = bY - hatH;
+
+  fctx.save();
+  fctx.translate(cx, 0);
+  fctx.rotate(0.18); // tilt
+
+  // Hat cone
+  fctx.beginPath();
+  fctx.moveTo(0, tY);
+  fctx.lineTo(-baseW/2, bY);
+  fctx.lineTo( baseW/2, bY);
+  fctx.closePath();
+  const grad = fctx.createLinearGradient(0,tY,0,bY);
+  grad.addColorStop(0,"#ff44cc");
+  grad.addColorStop(0.5,"#ffee00");
+  grad.addColorStop(1,"#44ccff");
+  fctx.fillStyle=grad; fctx.fill();
+  fctx.strokeStyle="rgba(0,0,0,0.2)"; fctx.lineWidth=1.5; fctx.stroke();
+
+  // Polka dots
+  [[0, tY+hatH*0.3,"#fff",4],[baseW*0.22,bY-hatH*0.25,"#ff99ee",5],
+   [-baseW*0.18,bY-hatH*0.5,"#ffee66",4]].forEach(([dx,dy,dc,dr])=>{
+    fctx.beginPath(); fctx.arc(dx,dy,dr,0,Math.PI*2);
+    fctx.fillStyle=dc; fctx.fill();
+  });
+
+  // Pom pom at top
+  fctx.beginPath(); fctx.arc(0, tY, baseW*0.13, 0, Math.PI*2);
+  fctx.fillStyle="#fff"; fctx.fill();
+
+  // Elastic band suggestion
+  fctx.beginPath();
+  fctx.ellipse(0, bY, baseW/2, baseW*0.12, 0, 0, Math.PI);
+  fctx.strokeStyle="rgba(0,0,0,0.3)"; fctx.lineWidth=1.5; fctx.stroke();
+
+  fctx.restore();
+}
+
+
+// ═══════════════════════════════════════════════════════════════
+// ROAD — diagonal, constant width, no perspective shrink
+// Matches the sketch: slightly oblique strip across the screen
+// ═══════════════════════════════════════════════════════════════
+const ROAD_ANGLE  = -16 * Math.PI / 180; // radians, slight upward diagonal
+const ROAD_W      = () => Math.min(C.width, C.height) * 0.26;
+
+// Road anchor: center of road at ~70% down screen
+const roadAnchor  = () => ({ x: C.width * 0.5, y: C.height * 0.72 });
+
+// Road direction unit vector
+const RDX = Math.cos(ROAD_ANGLE); // along road
+const RDY = Math.sin(ROAD_ANGLE);
+const RNX = -RDY;                 // perpendicular (road width)
+const RNY =  RDX;
+
+// Convert road-local coord (along, across) → screen XY
+// 'along' = 0 is the anchor, positive goes "forward" (upper-right in screen)
+// In our game, sphere travels from far (large positive along) to 0 (center), 
+// then continues to negative along (past camera, exits lower-left)
+function roadToScreen(along, across) {
+  const a = roadAnchor();
+  return {
+    x: a.x + RDX * along + RNX * across,
+    y: a.y + RDY * along + RNY * across
+  };
+}
+
+// The screen center (where sphere stops and waits)
+// We find the 'along' value such that roadToScreen(along, 0) ≈ screen center
+function roadAlongAtCenter() {
+  // Solve: anchor.x + RDX*along = W*0.5 → along = (W*0.5 - anchor.x) / RDX
+  const a = roadAnchor();
+  return (C.width * 0.42 - a.x) / RDX;
+}
+
+let dashOff = 0;
+let roadScrollSpd = 1.4;
+
+function drawRoad() {
+  const W = C.width, H = C.height;
+  const RW   = ROAD_W();
+  const HALF = RW / 2;
+  const EXT  = Math.max(W, H) * 1.6;
+  const a    = roadAnchor();
+
+  // 4 corners
+  const p = (along, side) => ({
+    x: a.x + RDX*along + RNX*side,
+    y: a.y + RDY*along + RNY*side
+  });
+  const A = p(-EXT, -HALF), B = p( EXT, -HALF);
+  const D = p( EXT,  HALF), E = p(-EXT,  HALF);
+
+  ctx.save();
+  ctx.beginPath(); ctx.rect(0,0,W,H); ctx.clip();
+
+  // Road fill — dark asphalt
+  ctx.beginPath();
+  ctx.moveTo(A.x,A.y); ctx.lineTo(B.x,B.y);
+  ctx.lineTo(D.x,D.y); ctx.lineTo(E.x,E.y);
+  ctx.closePath();
+  ctx.fillStyle = "#1c1c1c"; ctx.fill();
+
+  // Amber edge lines
+  ctx.lineWidth = 5; ctx.strokeStyle = "#e8930a";
+  ctx.beginPath(); ctx.moveTo(A.x,A.y); ctx.lineTo(B.x,B.y); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(E.x,E.y); ctx.lineTo(D.x,D.y); ctx.stroke();
+
+  // White dashed center line
+  ctx.lineWidth = 3; ctx.strokeStyle = "rgba(255,255,255,.72)";
+  ctx.setLineDash([36,26]); ctx.lineDashOffset = -dashOff;
+  ctx.beginPath();
+  ctx.moveTo(a.x-RDX*EXT, a.y-RDY*EXT);
+  ctx.lineTo(a.x+RDX*EXT, a.y+RDY*EXT);
+  ctx.stroke(); ctx.setLineDash([]);
+
+  ctx.restore();
+  dashOff = (dashOff + roadScrollSpd * 0.9) % 62;
+}
+
+// ═══════════════════════════════════════════════════════════════
+// 3D SPHERE DRAWING
+// Uses radial gradient to fake a lit 3D ball
+// ═══════════════════════════════════════════════════════════════
+function drawSphere(cx, cy, r, baseColor, glowColor, state, pulse, word) {
+  if (r < 2) return;
+  ctx.save();
+
+  // Shadow on road beneath sphere
+  ctx.beginPath();
+  ctx.ellipse(cx + r*0.15, cy + r*0.72, r*0.85, r*0.22, ROAD_ANGLE, 0, Math.PI*2);
+  ctx.fillStyle = "rgba(0,0,0,0.45)";
+  ctx.fill();
+
+  // Outer glow ring
+  const glowAlpha = state === "WAITING" ? (0.4 + 0.3*Math.sin(pulse)) : 0.3;
+  ctx.shadowColor = glowColor;
+  ctx.shadowBlur  = state === "WAITING" ? 28 : 16;
+
+  // Main sphere — radial gradient faking 3D light (light from upper-left)
+  const lightX = cx - r * 0.35;
+  const lightY = cy - r * 0.38;
+  const grad = ctx.createRadialGradient(lightX, lightY, r*0.05, cx, cy, r);
+
+  if (state === "FAIL") {
+    grad.addColorStop(0,   "rgba(255,160,160,1)");
+    grad.addColorStop(0.35,"rgba(220,50,50,0.95)");
+    grad.addColorStop(0.75,"rgba(140,0,0,0.9)");
+    grad.addColorStop(1,   "rgba(60,0,0,1)");
+  } else if (state === "LEAVING") {
+    grad.addColorStop(0,   "rgba(160,255,180,1)");
+    grad.addColorStop(0.35,"rgba(0,210,100,0.95)");
+    grad.addColorStop(0.75,"rgba(0,120,60,0.9)");
+    grad.addColorStop(1,   "rgba(0,50,20,1)");
+  } else {
+    // Normal — amber/gold sphere
+    grad.addColorStop(0,   "rgba(255,230,140,1)");
+    grad.addColorStop(0.3, "rgba(240,160,30,0.95)");
+    grad.addColorStop(0.7, "rgba(180,90,0,0.9)");
+    grad.addColorStop(1,   "rgba(80,30,0,1)");
+  }
+
+  ctx.beginPath();
+  ctx.arc(cx, cy, r, 0, Math.PI*2);
+  ctx.fillStyle = grad;
+  ctx.fill();
+
+  // Specular highlight — small bright spot upper-left
+  const specGrad = ctx.createRadialGradient(
+    lightX - r*0.08, lightY - r*0.08, 0,
+    lightX,          lightY,          r*0.45
+  );
+  specGrad.addColorStop(0,   "rgba(255,255,255,0.75)");
+  specGrad.addColorStop(0.5, "rgba(255,255,255,0.15)");
+  specGrad.addColorStop(1,   "rgba(255,255,255,0)");
+  ctx.beginPath();
+  ctx.arc(cx, cy, r, 0, Math.PI*2);
+  ctx.fillStyle = specGrad;
+  ctx.fill();
+
+  // Subtle rim light on bottom-right edge
+  const rimGrad = ctx.createRadialGradient(
+    cx + r*0.5, cy + r*0.5, r*0.4,
+    cx + r*0.5, cy + r*0.5, r*1.1
+  );
+  rimGrad.addColorStop(0, "rgba(255,180,60,0)");
+  rimGrad.addColorStop(1, "rgba(255,180,60,0.18)");
+  ctx.beginPath();
+  ctx.arc(cx, cy, r, 0, Math.PI*2);
+  ctx.fillStyle = rimGrad;
+  ctx.fill();
+
+  // Border ring
+  const ringCol = state === "FAIL"    ? "rgba(255,80,80,0.9)"
+                : state === "LEAVING" ? "rgba(0,230,118,0.9)"
+                : state === "WAITING" ? `rgba(255,255,255,${0.6+0.3*Math.sin(pulse)})`
+                : "rgba(232,147,10,0.7)";
+  ctx.shadowBlur  = 0;
+  ctx.strokeStyle = ringCol;
+  ctx.lineWidth   = state === "WAITING" ? 3.5 : 2.5;
+  ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI*2); ctx.stroke();
+
+  // Pulsing outer ring when WAITING
+  if (state === "WAITING") {
+    const outerA = 0.25 + 0.22 * Math.sin(pulse);
+    ctx.strokeStyle = `rgba(255,255,255,${outerA})`;
+    ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.arc(cx, cy, r + 10 + Math.sin(pulse)*6, 0, Math.PI*2); ctx.stroke();
+  }
+
+  // Word text on sphere
+  const fs = Math.max(9, Math.round(r * 0.44));
+  ctx.shadowBlur   = 4; ctx.shadowColor = "rgba(0,0,0,0.9)";
+  ctx.font         = `900 ${fs}px 'Bebas Neue',sans-serif`;
+  ctx.textAlign    = "center";
+  ctx.textBaseline = "middle";
+  ctx.strokeStyle  = "rgba(0,0,0,0.7)"; ctx.lineWidth = 4;
+  ctx.strokeText(state === "LEAVING" ? "✓" : word, cx, cy);
+  ctx.fillStyle = state === "FAIL" ? "#ffaaaa" : "#ffffff";
+  ctx.fillText(state === "LEAVING" ? "✓" : word, cx, cy);
+
+  ctx.restore();
+}
+
+// ═══════════════════════════════════════════════════════════════
+// SPHERE — single active sphere rolling along the road
+//
+// STATES:
+//   INCOMING  → rolling from far-right toward center, slowing down
+//   WAITING   → stopped at center, pulses, awaiting correct word
+//   LEAVING   → correct word spoken: resumes rolling forward (exits left)
+//   FAIL      → wrong word: shakes in place
+// ═══════════════════════════════════════════════════════════════
+
+let sphere     = null;
+let wordQueue  = [];
+
+const SPAWN_ALONG  = () =>  C.width * 0.85;
+
+function enqueue() {
+  // Load all months in order — no repeats, game ends when list is empty
+  wordQueue = [...MONTHS];
+}
+
+function spawnSphere() {
+  if (wordQueue.length === 0) {
+    // All words done — show finish screen
+    doFinished();
+    return;
+  }
+  const word = wordQueue.shift();
+  sphere = {
+    word,
+    along:      SPAWN_ALONG(),
+    speed:      0,
+    state:      "INCOMING",
+    pulse:      0,
+    shakeOff:   0,
+    shakePhase: 0,
+    travelledOut: 0,
+    nextSpawned:  false,
+  };
+  setStatus("VUGA UKWEZI", false);
+}
+
+// Sphere radius — constant size (big!)
+const SPHERE_R = () => Math.min(C.width, C.height) * 0.13;
+
+// How far "across" the road the sphere sits (centered on road = 0)
+const SPHERE_ACROSS = 0;
+
+function updateSphere() {
+  if (!sphere) return;
+
+  const centerAlong = roadAlongAtCenter();
+
+  if (sphere.state === "INCOMING") {
+    const dist      = sphere.along - centerAlong;
+    const targetSpd = dist > 0 ? Math.max(2, dist * 0.045) : 0;
+    sphere.speed    = sphere.speed * 0.85 + targetSpd * 0.15;
+    sphere.along   -= sphere.speed;
+
+    if (sphere.along <= centerAlong) {
+      sphere.along = centerAlong;
+      sphere.speed = 0;
+      sphere.state = "WAITING";
+      setStatus("🎤 VUGA: " + sphere.word, false);
+    }
+
+  } else if (sphere.state === "WAITING") {
+    sphere.pulse += 0.055;
+
+  } else if (sphere.state === "LEAVING") {
+    sphere.speed         = Math.min(sphere.speed + 1.4, 20);
+    sphere.along        -= sphere.speed;
+    sphere.travelledOut  = (sphere.travelledOut || 0) + sphere.speed;
+
+    if (sphere.travelledOut > C.width * 1.3 && !sphere.nextSpawned) {
+      sphere.nextSpawned = true;
+      sphere = null;
+      setTimeout(()=>{ if(gState==="PLAYING") spawnSphere(); }, 380);
+      return;
+    }
+
+  } else if (sphere.state === "FAIL") {
+    sphere.shakePhase += 0.4;
+    sphere.shakeOff    = Math.sin(sphere.shakePhase * 9) * 10 * Math.exp(-sphere.shakePhase * 0.18);
+    if (sphere.shakePhase > 5) {
+      sphere.state      = "WAITING";
+      sphere.shakeOff   = 0;
+      sphere.shakePhase = 0;
+      sphere.along      = centerAlong;
+    }
+  }
+}
+
+function renderSphere() {
+  if (!sphere) return;
+  const pos = roadToScreen(sphere.along, SPHERE_ACROSS);
+  const cx  = pos.x + (sphere.state === "FAIL" ? sphere.shakeOff : 0);
+  const cy  = pos.y;
+  const R   = SPHERE_R();
+
+  const glowCol = sphere.state === "FAIL"    ? "#ff2d2d"
+                : sphere.state === "LEAVING" ? "#00e676"
+                : sphere.state === "WAITING" ? "#ffffff"
+                : "#e8930a";
+
+  drawSphere(cx, cy, R, "#e8930a", glowCol, sphere.state, sphere.pulse, sphere.word);
+}
+
+// ═══════════════════════════════════════════════════════════════
+// HEARD WORD — floats below/beside sphere
+// ═══════════════════════════════════════════════════════════════
+const heardEl = document.getElementById("heard-word");
+function showHeard(text) {
+  if (!sphere) return;
+  const R   = SPHERE_R();
+  const pos = roadToScreen(sphere.along + (sphere.shakeOff||0), SPHERE_ACROSS);
+  heardEl.textContent = text;
+  heardEl.style.left  = (pos.x - R*0.3) + "px";
+  heardEl.style.top   = (pos.y + R + 24) + "px";
+  heardEl.style.transform = "translate(-50%,0)";
+  heardEl.classList.add("show");
+}
+function hideHeard() { heardEl.classList.remove("show"); }
+
+// ═══════════════════════════════════════════════════════════════
+// PARTICLES
+// ═══════════════════════════════════════════════════════════════
+let parts = [];
+function burst(x,y,col,n=26){
+  for(let i=0;i<n;i++){
+    const a=(Math.PI*2/n)*i+Math.random()*.5, s=2+Math.random()*8;
+    parts.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s-1.5,life:1,dec:.018+Math.random()*.015,r:3+Math.random()*5,col});
+  }
+}
+function drawParticles(){
+  pctx.clearRect(0,0,P.width,P.height);
+  parts=parts.filter(p=>{
+    p.x+=p.vx; p.y+=p.vy; p.vy+=.15; p.life-=p.dec;
+    if(p.life<=0) return false;
+    pctx.globalAlpha=p.life; pctx.fillStyle=p.col;
+    pctx.beginPath(); pctx.arc(p.x,p.y,p.r*p.life,0,Math.PI*2); pctx.fill();
+    return true;
+  });
+  pctx.globalAlpha=1;
+}
+
+// ═══════════════════════════════════════════════════════════════
+// AUDIO
+// ═══════════════════════════════════════════════════════════════
+let actx,mGain,lpf,beatTimer,beatN=0;
+const BPM=96, BEAT=(60/BPM)*1000;
+
+function buildAudio(){
+  if(actx) actx.close();
+  actx=new(window.AudioContext||window.webkitAudioContext)();
+  mGain=actx.createGain(); mGain.gain.value=.45;
+  lpf=actx.createBiquadFilter(); lpf.type="lowpass"; lpf.frequency.value=22000; lpf.Q.value=.8;
+  mGain.connect(lpf); lpf.connect(actx.destination);
+  beatN=0; clearInterval(beatTimer); beatTimer=setInterval(doBeat,BEAT);
+}
+function doBeat(){
+  beatN++;
+  const t=actx.currentTime;
+  if(beatN%4===1||beatN%4===3){
+    const o=actx.createOscillator(),g=actx.createGain();
+    o.connect(g);g.connect(mGain);
+    o.frequency.setValueAtTime(150,t); o.frequency.exponentialRampToValueAtTime(38,t+.18);
+    g.gain.setValueAtTime(.72,t); g.gain.exponentialRampToValueAtTime(.001,t+.28);
+    o.start(t); o.stop(t+.29);
+  }
+  if(beatN%4===2||beatN%4===0){
+    const buf=actx.createBuffer(1,actx.sampleRate*.12,actx.sampleRate);
+    const d=buf.getChannelData(0);
+    for(let i=0;i<d.length;i++) d[i]=(Math.random()*2-1)*Math.exp(-i/(actx.sampleRate*.042));
+    const s=actx.createBufferSource(),g=actx.createGain();
+    s.buffer=buf;s.connect(g);g.connect(mGain);
+    g.gain.setValueAtTime(.45,t); g.gain.exponentialRampToValueAtTime(.001,t+.12);
+    s.start(t);
+  }
+  const hb=actx.createBuffer(1,actx.sampleRate*.04,actx.sampleRate);
+  const hd=hb.getChannelData(0);
+  for(let i=0;i<hd.length;i++) hd[i]=(Math.random()*2-1)*.15;
+  const h=actx.createBufferSource(),hg=actx.createGain(),hf=actx.createBiquadFilter();
+  hf.type="highpass"; hf.frequency.value=9000;
+  h.buffer=hb;h.connect(hf);hf.connect(hg);hg.connect(mGain);
+  hg.gain.setValueAtTime(beatN%2===0?.35:.18,t); hg.gain.exponentialRampToValueAtTime(.001,t+.04);
+  h.start(t);
+}
+function playSuccess(){
+  if(!actx) return;
+  const t=actx.currentTime;
+  [0,.07,.14].forEach((d,i)=>{
+    const o=actx.createOscillator(),g=actx.createGain();
+    o.connect(g);g.connect(mGain); o.type="sine";
+    o.frequency.value=[880,1108,1320][i];
+    g.gain.setValueAtTime(.3,t+d); g.gain.exponentialRampToValueAtTime(.001,t+d+.3);
+    o.start(t+d); o.stop(t+d+.31);
+  });
+}
+function playFail(){
+  if(!actx) return;
+  const t=actx.currentTime;
+  const o=actx.createOscillator(),g=actx.createGain();
+  o.connect(g);g.connect(mGain); o.type="sawtooth";
+  o.frequency.setValueAtTime(190,t); o.frequency.exponentialRampToValueAtTime(50,t+.3);
+  g.gain.setValueAtTime(.42,t); g.gain.exponentialRampToValueAtTime(.001,t+.35);
+  o.start(t); o.stop(t+.36);
+}
+function setMuffled(on){
+  if(!actx) return;
+  lpf.frequency.setTargetAtTime(on?350:22000,actx.currentTime,.18);
+  mGain.gain.setTargetAtTime(on?.22:.45,actx.currentTime,.2);
+  document.getElementById("muffle").classList.toggle("on",on);
+}
+
+// ═══════════════════════════════════════════════════════════════
+// GAME STATE
+// ═══════════════════════════════════════════════════════════════
+let gState="IDLE", score=0, combo=0, maxCombo=0;
+
+function onCorrect(){
+  if(!sphere || sphere.state!=="WAITING") return;
+
+  sphere.state        = "LEAVING";
+  sphere.speed        = 3;
+  sphere.travelledOut = 0;
+  sphere.nextSpawned  = false;
+  hideHeard();
+
+  const pos = roadToScreen(sphere.along, SPHERE_ACROSS);
+  burst(pos.x, pos.y, "#00e676", 20);
+  burst(pos.x, pos.y, "#e8930a", 12);
+
+  playSuccess(); setMuffled(false);
+  combo++; maxCombo=Math.max(maxCombo,combo);
+  score+=10+combo*5;
+  updateScoreUI(); showComboPop();
+  setStatus("VUGA UKWEZI", false);
+}
+
+function onWrong(heard){
+  if(!sphere || sphere.state!=="WAITING") return;
+  showHeard(heard);
+  sphere.state      = "FAIL";
+  sphere.shakePhase = 0;
+  // No life penalty — just shake and wait
+  playFail(); setMuffled(true);
+  setStatus("❌ ONGERA UVUGE: "+sphere.word, true);
+}
+
+// ═══════════════════════════════════════════════════════════════
+// SPEECH RECOGNITION
+// ═══════════════════════════════════════════════════════════════
+const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+let recog=null,srOn=false;
+
+function initSR(){
+  if(!SR) return;
+  recog=new SR();
+  recog.continuous=true; recog.interimResults=true; recog.lang="rw-RW";
+  recog.onresult=e=>{
+    for(let i=e.resultIndex;i<e.results.length;i++){
+      const txt=e.results[i][0].transcript.toUpperCase().trim();
+      onHeard(txt, e.results[i].isFinal);
+    }
+  };
+  recog.onend=()=>{ srOn=false; micBtn.classList.remove("on"); if(gState!=="IDLE") setTimeout(startSR,300); };
+  recog.onerror=e=>{ srOn=false; if(e.error!=="no-speech"&&e.error!=="aborted") setTimeout(startSR,400); };
+}
+function startSR(){
+  if(!recog||srOn) return;
+  try{ recog.start(); srOn=true; micBtn.classList.add("on"); micLbl.textContent="IMVAHO..."; }catch(e){}
+}
+function stopSR(){
+  if(!recog||!srOn) return;
+  try{ recog.stop(); }catch(e){} srOn=false; micBtn.classList.remove("on"); micLbl.textContent="KANDA UVUGE";
+}
+
+function onHeard(text, isFinal){
+  if(gState==="IDLE") return;
+  if(!sphere || sphere.state!=="WAITING") return;
+
+  showHeard(text);
+  const words  = text.split(/\s+/);
+  const target = sphere.word;
+  const matched= words.some(w=>w===target||lev(w,target)<=2);
+
+  if(matched) onCorrect();
+  else if(isFinal) onWrong(text);
+}
+
+function lev(a,b){
+  const m=a.length,n=b.length;
+  const dp=Array.from({length:m+1},(_,i)=>Array.from({length:n+1},(_,j)=>i===0?j:j===0?i:0));
+  for(let i=1;i<=m;i++) for(let j=1;j<=n;j++)
+    dp[i][j]=a[i-1]===b[j-1]?dp[i-1][j-1]:1+Math.min(dp[i-1][j],dp[i][j-1],dp[i-1][j-1]);
+  return dp[m][n];
+}
+
+// ═══════════════════════════════════════════════════════════════
+// UI
+// ═══════════════════════════════════════════════════════════════
+const micBtn=document.getElementById("mic-btn");
+const micLbl=document.getElementById("mic-lbl");
+function setStatus(msg,fail){ const el=document.getElementById("status"); el.textContent=msg; el.className=fail?"fail":""; }
+function updateScoreUI(){ document.getElementById("score-v").textContent=score; document.getElementById("combo-v").textContent=combo; }
+let cT;
+function showComboPop(){
+  if(combo<2) return;
+  const el=document.getElementById("combo-pop"),tx=document.getElementById("combo-txt");
+  const msgs={2:"NEZA! ×2",3:"VUGA! ×3",4:"HARIKA! ×4",5:"🔥 ×5"};
+  tx.textContent=combo>=6?"🔥🔥 ×"+combo:(msgs[combo]||"🔥 ×"+combo);
+  el.classList.add("show"); tx.style.animation="none"; tx.offsetHeight; tx.style.animation="";
+  clearTimeout(cT); cT=setTimeout(()=>el.classList.remove("show"),1300);
+}
+
+function doFinished(){
+  gState="IDLE"; stopSR(); setMuffled(false); clearInterval(beatTimer);
+  document.getElementById("fin-score").textContent = score;
+  document.getElementById("fin-combo").textContent = maxCombo;
+  document.getElementById("finished").style.display = "flex";
+}
+
+// ═══════════════════════════════════════════════════════════════
+// MAIN LOOP
+// ═══════════════════════════════════════════════════════════════
+function loop(){
+  ctx.clearRect(0,0,C.width,C.height);
+  drawRoad();
+  updateSphere();
+  renderSphere();
+  drawParticles();
+  drawFaceFilters();
+  requestAnimationFrame(loop);
+}
+
+// ═══════════════════════════════════════════════════════════════
+// START / RESTART
+// ═══════════════════════════════════════════════════════════════
+function startGame(){
+  score=0; combo=0; maxCombo=0;
+  gState="PLAYING"; sphere=null; wordQueue=[]; parts=[];
+  beatN=0; dashOff=0;
+  updateScoreUI();
+  setStatus("VUGA UKWEZI",false); setMuffled(false); hideHeard();
+  document.getElementById("finished").style.display="none";
+  enqueue(); buildAudio(); startSR();
+  setTimeout(spawnSphere, 700);
+}
+
+micBtn.addEventListener("click",()=>{ if(gState==="IDLE") return; srOn?stopSR():startSR(); });
+document.getElementById("replay-btn").addEventListener("click", startGame);
+if(!SR) document.getElementById("no-sr").style.display="block";
+
+document.getElementById("go-btn").addEventListener("click", async ()=>{
+  document.getElementById("intro").style.display="none";
+  try{
+    const s=await navigator.mediaDevices.getUserMedia({video:{facingMode:"user"},audio:true});
+    const vid = document.getElementById("video");
+    vid.srcObject=s;
+    s.getAudioTracks().forEach(t=>t.stop());
+    // Start face mesh after video is playing
+    vid.addEventListener("loadeddata", ()=>{ initFaceMesh(vid); }, { once:true });
+  }catch(e){
+    document.getElementById("video").style.display="none";
+    try{ const m=await navigator.mediaDevices.getUserMedia({audio:true}); m.getTracks().forEach(t=>t.stop()); }catch(e2){}
+  }
+  resize(); window.addEventListener("resize",resize);
+  initSR(); requestAnimationFrame(loop); startGame();
+});
+</script>
+</body>
+</html>

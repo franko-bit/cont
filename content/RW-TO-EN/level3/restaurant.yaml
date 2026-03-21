@@ -1,0 +1,1563 @@
+lesson:
+  name: "Resitora"
+  description: "Learn restaurant vocabulary and phrases in English"
+  xp_reward: 500
+
+exercises:
+
+  # 1. Translation Exercises - Basic Restaurant Words ONLY (Safe for single words)
+  # Basic Vocabulary
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'Resitora' mu Cyongereza?"
+    answer: "Restaurant"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'Ikarita y’ibiryo' mu Cyongereza?"
+    answer: "Menu"
+    xp_reward: 15
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'Ameza' mu Cyongereza?"
+    answer: "Table"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'Intebe' mu Cyongereza?"
+    answer: "Chair"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'Umukozi wa resitora' mu Cyongereza?"
+    answer: "Waiter"
+    xp_reward: 15
+
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'Umukozi w’akazi ka resitora' mu Cyongereza?"
+    answer: "Waitress"
+    xp_reward: 18
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'Umukiriya' mu Cyongereza?"
+    answer: "Customer"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'Gutumiza' mu Cyongereza?"
+    answer: "Order"
+    xp_reward: 10
+
+  # Food and Drink
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'Ibiryo' mu Cyongereza?"
+    answer: "Food"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'Ikiribwa' mu Cyongereza?"
+    answer: "Drink"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'Amazi' mu Cyongereza?"
+    answer: "Water"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'Jus' mu Cyongereza?"
+    answer: "Juice"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'Ikawa' mu Cyongereza?"
+    answer: "Coffee"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'Icyayi' mu Cyongereza?"
+    answer: "Tea"
+    xp_reward: 10
+
+  # Meals
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'Ifunguro rya mu gitondo' mu Cyongereza?"
+    answer: "Breakfast"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'Ifunguro rya saa sita' mu Cyongereza?"
+    answer: "Lunch"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Ifunguro rya nimugoroba' mu Cyongereza?"
+    answer: "Dinner"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Ibiribwa by’inyongera' mu Cyongereza?"
+    answer: "Dessert"
+    xp_reward: 15
+
+  # Bill and Payment
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Ibarura' mu Cyongereza?"
+    answer: "Bill / Check"
+    xp_reward: 10
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Agaciro k’umukozi' mu Cyongereza?"
+    answer: "Tip"
+    xp_reward: 15
+
+  # Utensils
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Iforoke' mu Cyongereza?"
+    answer: "Fork"
+    xp_reward: 10
+
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Icyuma cyo gukata' mu Cyongereza?"
+    answer: "Knife"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Ikiyiko' mu Cyongereza?"
+    answer: "Spoon"
+    xp_reward: 10
+
+  - id: 24
+    type: translation
+    question: "Wavuga ute 'Isahani' mu Cyongereza?"
+    answer: "Plate"
+    xp_reward: 10
+
+  - id: 25
+    type: translation
+    question: "Wavuga ute 'Agapapuro k’isuku' mu Cyongereza?"
+    answer: "Napkin"
+    xp_reward: 15
+
+  # Common Phrases
+  - id: 26
+    type: translation
+    question: "Wavuga ute 'Ndashaka gutumiza ibiryo' mu Cyongereza?"
+    answer: "I would like to order food"
+    xp_reward: 18
+
+  - id: 27
+    type: translation
+    question: "Wavuga ute 'Nshobora kubona ikarita y’ibiryo?' mu Cyongereza?"
+    answer: "Can I see the menu?"
+    xp_reward: 18
+
+  - id: 28
+    type: translation
+    question: "Wavuga ute 'Ndashaka amazi' mu Cyongereza?"
+    answer: "I want water"
+    xp_reward: 12
+
+  - id: 29
+    type: translation
+    question: "Wavuga ute 'Ndashaka ikawa' mu Cyongereza?"
+    answer: "I want coffee"
+    xp_reward: 12
+
+  - id: 30
+    type: translation
+    question: "Wavuga ute 'Nshobora kubona ibarura?' mu Cyongereza?"
+    answer: "Can I have the bill?"
+    xp_reward: 15
+
+  - id: 31
+    type: translation
+    question: "Wavuga ute 'Ibiryo biraryoshye' mu Cyongereza?"
+    answer: "The food is delicious"
+    xp_reward: 15
+
+  - id: 32
+    type: translation
+    question: "Wavuga ute 'Mufite ibiryo by’abatarya inyama?' mu Cyongereza?"
+    answer: "Do you have vegetarian food?"
+    xp_reward: 20
+
+  - id: 33
+    type: translation
+    question: "Wavuga ute 'Mfite allergie ku binyamisogwe' mu Cyongereza?"
+    answer: "I am allergic to nuts"
+    xp_reward: 20
+
+  - id: 34
+    type: translation
+    question: "Wavuga ute 'Ameza y’abantu babiri, ndabinginze' mu Cyongereza?"
+    answer: "Table for two, please"
+    xp_reward: 18
+
+  - id: 35
+    type: translation
+    question: "Wavuga ute 'Nshobora kwicara hano?' mu Cyongereza?"
+    answer: "Can I sit here?"
+    xp_reward: 15
+
+  # Sentences About Eating
+  - id: 36
+    type: translation
+    question: "Wavuga ute 'Ndirya umuceri' mu Cyongereza?"
+    answer: "I am eating rice"
+    xp_reward: 15
+
+  - id: 37
+    type: translation
+    question: "Wavuga ute 'Ari kunywa jus' mu Cyongereza?"
+    answer: "She is drinking juice"
+    xp_reward: 15
+
+  - id: 38
+    type: translation
+    question: "Wavuga ute 'Turimo gutumiza ibiryo' mu Cyongereza?"
+    answer: "We are ordering food"
+    xp_reward: 18
+
+  - id: 39
+    type: translation
+    question: "Wavuga ute 'Akunda ikawa' mu Cyongereza?"
+    answer: "He likes coffee"
+    xp_reward: 12
+
+  - id: 40
+    type: translation
+    question: "Wavuga ute 'Barimo gusangira ibiryo by’inyongera' mu Cyongereza?"
+    answer: "They are sharing a dessert"
+    xp_reward: 20
+
+  - id: 41
+    type: translation
+    question: "Wavuga ute 'Resitora irakomeye' mu Cyongereza?"
+    answer: "The restaurant is busy"
+    xp_reward: 15
+
+  # 2. Multiple Choice
+  - id: 42
+    type: multiple_choice
+    question: "'Resitora' bisobanura iki?"
+    options:
+      - "Menu"
+      - "Restaurant"
+      - "Table"
+      - "Chair"
+    answer: "Restaurant"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "'Ikarita y’ibiryo' bisobanura iki?"
+    options:
+      - "Bill"
+      - "Menu"
+      - "Plate"
+      - "Fork"
+    answer: "Menu"
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "'Ameza' bisobanura iki?"
+    options:
+      - "Chair"
+      - "Table"
+      - "Plate"
+      - "Spoon"
+    answer: "Table"
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "'Ikawa' bisobanura iki?"
+    options:
+      - "Tea"
+      - "Coffee"
+      - "Juice"
+      - "Water"
+    answer: "Coffee"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "'Ibarura' bisobanura iki?"
+    options:
+      - "Menu"
+      - "Bill"
+      - "Tip"
+      - "Order"
+    answer: "Bill"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "'Nshobora kubona ikarita y’ibiryo?' bisobanura iki?"
+    options:
+      - "Can I have the bill?"
+      - "Can I see the menu?"
+      - "Can I sit here?"
+      - "Do you have vegetarian food?"
+    answer: "Can I see the menu?"
+    xp_reward: 18
+
+  - id: 48
+    type: multiple_choice
+    question: "'Ibiryo biraryoshye' bisobanura iki?"
+    options:
+      - "The food is cold"
+      - "The food is delicious"
+      - "The food is expensive"
+      - "The food is spicy"
+    answer: "The food is delicious"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 49
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'iresitora mu Cyongereza"
+    tts_text: "Resitora"
+    answer: "Restaurant"
+    translation: "Resitora"
+    xp_reward: 20
+
+  - id: 50
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'iresitora mu Cyongereza"
+    tts_text: "Ameza"
+    answer: "Table"
+    translation: "Ameza"
+    xp_reward: 20
+
+  - id: 51
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'iresitora mu Cyongereza"
+    tts_text: "Ikawa"
+    answer: "Coffee"
+    translation: "Ikawa"
+    xp_reward: 20
+
+  - id: 52
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'iresitora mu Cyongereza"
+    tts_text: "Ibarura"
+    answer: "Bill"
+    translation: "Ibarura"
+    xp_reward: 20
+
+  - id: 53
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Ndashaka amazi"
+    answer: "I want water"
+    translation: "Ndashaka amazi"
+    xp_reward: 22
+
+  - id: 55
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Ibiryo biraryoshye"
+    answer: "The food is delicious"
+    translation: "Ibiryo biraryoshye"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 57
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ijambo rikwiye"
+    tts_text: "Resitora"
+    options:
+      - "Menu"
+      - "Restaurant"
+      - "Table"
+    answer: "Restaurant"
+    xp_reward: 15
+
+  - id: 58
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ijambo rikwiye"
+    tts_text: "Ikawa"
+    options:
+      - "Tea"
+      - "Coffee"
+      - "Juice"
+    answer: "Coffee"
+    xp_reward: 15
+
+  - id: 59
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ijambo rikwiye"
+    tts_text: "Ibarura"
+    options:
+      - "Menu"
+      - "Bill"
+      - "Tip"
+    answer: "Bill"
+    xp_reward: 15
+
+  - id: 60
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye"
+    tts_text: "Ndashaka amazi"
+    options:
+      - "I want coffee"
+      - "I want water"
+      - "I want tea"
+    answer: "I want water"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 62
+    type: speaking
+    question: "Vuga iri jambo ry'iresitora mu Cyongereza"
+    prompt: "Resitora"
+    translation: "Restaurant"
+    xp_reward: 15
+
+  - id: 63
+    type: speaking
+    question: "Vuga iri jambo ry'iresitora mu Cyongereza"
+    prompt: "Ameza"
+    translation: "Table"
+    xp_reward: 15
+
+  - id: 64
+    type: speaking
+    question: "Vuga iri jambo ry'iresitora mu Cyongereza"
+    prompt: "Ikawa"
+    translation: "Coffee"
+    xp_reward: 15
+
+  - id: 65
+    type: speaking
+    question: "Vuga iri jambo ry'iresitora mu Cyongereza"
+    prompt: "Ibarura"
+    translation: "Bill"
+    xp_reward: 15
+
+  - id: 66
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Ndashaka amazi"
+    translation: "I want water"
+    xp_reward: 18
+
+  - id: 67
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Ibiryo biraryoshye"
+    translation: "The food is delicious"
+    xp_reward: 18
+
+  - id: 69
+    type: speaking
+    question: "Vuga ubu busabe mu Cyongereza"
+    prompt: "Ameza yabantu babiri ndabinginze"
+    translation: "Table for two, please"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 70
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Ndashaka amazi'"
+    word_bank: ["I", "want", "water", "coffee", "tea", "juice"]
+    correct_answer: ["I", "want", "water"]
+    xp_reward: 15
+
+  - id: 71
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Ndashaka ikawa'"
+    word_bank: ["I", "want", "coffee", "water", "tea", "juice"]
+    correct_answer: ["I", "want", "coffee"]
+    xp_reward: 15
+
+  - id: 72
+    type: word_bank
+    question: "Ubaka ikibazo cy'icyongereza gisobanura 'Nshobora kubona ikarita y’ibiryo?'"
+    word_bank: ["Can", "I", "see", "the", "menu", "bill", "table"]
+    correct_answer: ["Can", "I", "see", "the", "menu"]
+    xp_reward: 20
+
+  - id: 73
+    type: word_bank
+    question: "Ubaka ikibazo cy'icyongereza gisobanura 'Nshobora kubona ibarura?'"
+    word_bank: ["Can", "I", "have", "the", "bill", "menu", "check"]
+    correct_answer: ["Can", "I", "have", "the", "bill"]
+    xp_reward: 18
+
+  - id: 74
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Ibiryo biraryoshye'"
+    word_bank: ["The", "food", "is", "delicious", "busy", "good"]
+    correct_answer: ["The", "food", "is", "delicious"]
+    xp_reward: 15
+
+  - id: 75
+    type: word_bank
+    question: "Ubaka ubusabe bw'icyongereza busobanura 'Ameza y’abantu babiri, ndabinginze'"
+    word_bank: ["Table", "for", "two", "please", "three", "people"]
+    correct_answer: ["Table", "for", "two", "please"]
+    xp_reward: 20
+
+  - id: 76
+    type: word_bank
+    question: "Ubaka ikibazo cy'icyongereza gisobanura 'Nshobora kwicara hano?'"
+    word_bank: ["Can", "I", "sit", "here", "there", "please"]
+    correct_answer: ["Can", "I", "sit", "here"]
+    xp_reward: 15
+
+  - id: 77
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Ndirya umuceri'"
+    word_bank: ["I", "am", "eating", "rice", "food", "drinking"]
+    correct_answer: ["I", "am", "eating", "rice"]
+    xp_reward: 15
+
+  - id: 78
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Ari kunywa jus'"
+    word_bank: ["She", "is", "drinking", "juice", "coffee", "water"]
+    correct_answer: ["She", "is", "drinking", "juice"]
+    xp_reward: 18
+
+  - id: 79
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Turimo gutumiza ibiryo'"
+    word_bank: ["We", "are", "ordering", "food", "drinks", "dessert"]
+    correct_answer: ["We", "are", "ordering", "food"]
+    xp_reward: 18
+
+  - id: 80
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Akunda ikawa'"
+    word_bank: ["He", "likes", "coffee", "tea", "juice", "water"]
+    correct_answer: ["He", "likes", "coffee"]
+    xp_reward: 12
+
+  - id: 81
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Resitora irakomeye'"
+    word_bank: ["The", "restaurant", "is", "busy", "big", "nice"]
+    correct_answer: ["The", "restaurant", "is", "busy"]
+    xp_reward: 15
+
+  # 7. Sentence Scramble
+  - id: 82
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ndashaka amazi'"
+    scrambled_words: ["water", "want", "I"]
+    correct_sentence: "I want water"
+    translation: "Ndashaka amazi"
+    xp_reward: 12
+
+  - id: 83
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ndashaka ikawa'"
+    scrambled_words: ["coffee", "want", "I"]
+    correct_sentence: "I want coffee"
+    translation: "Ndashaka ikawa"
+    xp_reward: 12
+
+  - id: 84
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nshobora kubona ikarita y’ibiryo?'"
+    scrambled_words: ["see", "Can", "I", "the", "menu"]
+    correct_sentence: "Can I see the menu?"
+    translation: "Nshobora kubona ikarita y’ibiryo?"
+    xp_reward: 20
+
+  - id: 85
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nshobora kubona ibarura?'"
+    scrambled_words: ["have", "Can", "I", "the", "bill"]
+    correct_sentence: "Can I have the bill?"
+    translation: "Nshobora kubona ibarura?"
+    xp_reward: 18
+
+  - id: 86
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ibiryo biraryoshye'"
+    scrambled_words: ["delicious", "is", "The", "food"]
+    correct_sentence: "The food is delicious"
+    translation: "Ibiryo biraryoshye"
+    xp_reward: 15
+
+  - id: 87
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ameza y’abantu babiri, ndabinginze'"
+    scrambled_words: ["two", "Table", "for", "please"]
+    correct_sentence: "Table for two, please"
+    translation: "Ameza y’abantu babiri, ndabinginze"
+    xp_reward: 20
+
+  - id: 88
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nshobora kwicara hano?'"
+    scrambled_words: ["sit", "Can", "I", "here"]
+    correct_sentence: "Can I sit here?"
+    translation: "Nshobora kwicara hano?"
+    xp_reward: 15
+
+  - id: 89
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ndirya umuceri'"
+    scrambled_words: ["eating", "I", "am", "rice"]
+    correct_sentence: "I am eating rice"
+    translation: "Ndirya umuceri"
+    xp_reward: 15
+
+  - id: 90
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ari kunywa jus'"
+    scrambled_words: ["drinking", "She", "is", "juice"]
+    correct_sentence: "She is drinking juice"
+    translation: "Ari kunywa jus"
+    xp_reward: 18
+
+  - id: 91
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Turimo gutumiza ibiryo'"
+    scrambled_words: ["ordering", "We", "are", "food"]
+    correct_sentence: "We are ordering food"
+    translation: "Turimo gutumiza ibiryo"
+    xp_reward: 18
+
+  - id: 92
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Akunda ikawa'"
+    scrambled_words: ["likes", "He", "coffee"]
+    correct_sentence: "He likes coffee"
+    translation: "Akunda ikawa"
+    xp_reward: 12
+
+  - id: 93
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Resitora irakomeye'"
+    scrambled_words: ["busy", "is", "The", "restaurant"]
+    correct_sentence: "The restaurant is busy"
+    translation: "Resitora irakomeye"
+    xp_reward: 15
+
+  # 8. Fill in the Blank
+  - id: 94
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "I want ___."
+    options: ["water", "food", "coffee"]
+    correct_answer: "water"
+    translation: "Ndashaka amazi"
+    xp_reward: 10
+
+  - id: 95
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "I want ___."
+    options: ["coffee", "water", "tea"]
+    correct_answer: "coffee"
+    translation: "Ndashaka ikawa"
+    xp_reward: 10
+
+  - id: 96
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza ikibazo"
+    text_with_blank: "Can I see the ___?"
+    options: ["menu", "bill", "table"]
+    correct_answer: "menu"
+    translation: "Nshobora kubona ikarita y’ibiryo?"
+    xp_reward: 15
+
+  - id: 97
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza ikibazo"
+    text_with_blank: "Can I have the ___?"
+    options: ["bill", "menu", "water"]
+    correct_answer: "bill"
+    translation: "Nshobora kubona ibarura?"
+    xp_reward: 15
+
+  - id: 98
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "The food is ___."
+    options: ["delicious", "busy", "good"]
+    correct_answer: "delicious"
+    translation: "Ibiryo biraryoshye"
+    xp_reward: 12
+
+  - id: 99
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza ubusabe"
+    text_with_blank: "Table for ___, please."
+    options: ["two", "three", "four"]
+    correct_answer: "two"
+    translation: "Ameza y’abantu babiri, ndabinginze"
+    xp_reward: 15
+
+  - id: 100
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza ikibazo"
+    text_with_blank: "Can I sit ___?"
+    options: ["here", "there", "please"]
+    correct_answer: "here"
+    translation: "Nshobora kwicara hano?"
+    xp_reward: 12
+
+  - id: 101
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "I am eating ___."
+    options: ["rice", "food", "meat"]
+    correct_answer: "rice"
+    translation: "Ndirya umuceri"
+    xp_reward: 12
+
+  - id: 102
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "She is drinking ___."
+    options: ["juice", "coffee", "water"]
+    correct_answer: "juice"
+    translation: "Ari kunywa jus"
+    xp_reward: 15
+
+  - id: 103
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "We are ordering ___."
+    options: ["food", "drinks", "dessert"]
+    correct_answer: "food"
+    translation: "Turimo gutumiza ibiryo"
+    xp_reward: 15
+
+  - id: 104
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "He likes ___."
+    options: ["coffee", "tea", "juice"]
+    correct_answer: "coffee"
+    translation: "Akunda ikawa"
+    xp_reward: 10
+
+  - id: 105
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "The restaurant is ___."
+    options: ["busy", "big", "nice"]
+    correct_answer: "busy"
+    translation: "Resitora irakomeye"
+    xp_reward: 12
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 106
+    type: picture_word
+    question: "Aka ni kahe kantu?"
+    image_url: "https://source.unsplash.com/featured/?restaurant"
+    options: ["Restaurant", "Table", "Menu"]
+    correct_answer: "Restaurant"
+    xp_reward: 10
+
+  - id: 107
+    type: picture_word
+    question: "Iki ni iki?"
+    image_url: "https://source.unsplash.com/featured/?table"
+    options: ["Table", "Chair", "Menu"]
+    correct_answer: "Table"
+    xp_reward: 10
+
+  - id: 108
+    type: picture_word
+    question: "Iki ni iki?"
+    image_url: "https://source.unsplash.com/featured/?chair"
+    options: ["Chair", "Table", "Fork"]
+    correct_answer: "Chair"
+    xp_reward: 10
+
+  - id: 109
+    type: picture_word
+    question: "Iki ni ikinyobwa ki?"
+    image_url: "https://source.unsplash.com/featured/?coffee"
+    options: ["Coffee", "Tea", "Juice"]
+    correct_answer: "Coffee"
+    xp_reward: 10
+
+  - id: 110
+    type: picture_word
+    question: "Iki ni ikinyobwa ki?"
+    image_url: "https://source.unsplash.com/featured/?tea"
+    options: ["Tea", "Coffee", "Water"]
+    correct_answer: "Tea"
+    xp_reward: 10
+
+  - id: 111
+    type: picture_word
+    question: "Iki ni ikinyobwa ki?"
+    image_url: "https://source.unsplash.com/featured/?juice"
+    options: ["Juice", "Water", "Milk"]
+    correct_answer: "Juice"
+    xp_reward: 10
+
+  - id: 112
+    type: picture_word
+    question: "Iki ni igikoresho ki?"
+    image_url: "https://source.unsplash.com/featured/?fork"
+    options: ["Fork", "Spoon", "Knife"]
+    correct_answer: "Fork"
+    xp_reward: 10
+
+  - id: 113
+    type: picture_word
+    question: "Iki ni igikoresho ki?"
+    image_url: "https://source.unsplash.com/featured/?spoon"
+    options: ["Spoon", "Fork", "Plate"]
+    correct_answer: "Spoon"
+    xp_reward: 10
+
+  - id: 114
+    type: picture_word
+    question: "Iki ni igikoresho ki?"
+    image_url: "https://source.unsplash.com/featured/?knife"
+    options: ["Knife", "Fork", "Spoon"]
+    correct_answer: "Knife"
+    xp_reward: 12
+
+  - id: 115
+    type: picture_word
+    question: "Iki ni iki?"
+    image_url: "https://source.unsplash.com/featured/?plate"
+    options: ["Plate", "Bowl", "Cup"]
+    correct_answer: "Plate"
+    xp_reward: 10
+
+  - id: 116
+    type: picture_word
+    question: "Iki ni iki?"
+    image_url: "https://source.unsplash.com/featured/?napkin"
+    options: ["Napkin", "Towel", "Paper"]
+    correct_answer: "Napkin"
+    xp_reward: 12
+
+  # 10. Word Matching
+  - id: 117
+    type: matching
+    question: "Huza amagambo y'iresitora"
+    pairs:
+      - left: "Restaurant"
+        right: "Resitora"
+      - left: "Menu"
+        right: "Ikarita y’ibiryo"
+      - left: "Table"
+        right: "Ameza"
+      - left: "Chair"
+        right: "Intebe"
+      - left: "Waiter"
+        right: "Umukozi wa resitora"
+      - left: "Customer"
+        right: "Umukiriya"
+      - left: "Order"
+        right: "Gutumiza"
+    xp_reward: 25
+
+  - id: 118
+    type: matching
+    question: "Huza ibinyobwa"
+    pairs:
+      - left: "Water"
+        right: "Amazi"
+      - left: "Juice"
+        right: "Jus"
+      - left: "Coffee"
+        right: "Ikawa"
+      - left: "Tea"
+        right: "Icyayi"
+    xp_reward: 15
+
+  - id: 119
+    type: matching
+    question: "Huza ibiryo"
+    pairs:
+      - left: "Breakfast"
+        right: "Ifunguro rya mu gitondo"
+      - left: "Lunch"
+        right: "Ifunguro rya saa sita"
+      - left: "Dinner"
+        right: "Ifunguro rya nimugoroba"
+      - left: "Dessert"
+        right: "Ibiribwa by’inyongera"
+    xp_reward: 20
+
+  - id: 120
+    type: matching
+    question: "Huza ibikoresho"
+    pairs:
+      - left: "Fork"
+        right: "Iforoke"
+      - left: "Knife"
+        right: "Icyuma cyo gukata"
+      - left: "Spoon"
+        right: "Ikiyiko"
+      - left: "Plate"
+        right: "Isahani"
+      - left: "Napkin"
+        right: "Agapapuro k’isuku"
+    xp_reward: 18
+
+  - id: 121
+    type: matching
+    question: "Huza imvugo z'iresitora"
+    pairs:
+      - left: "I want water"
+        right: "Ndashaka amazi"
+      - left: "Can I see the menu?"
+        right: "Nshobora kubona ikarita y’ibiryo?"
+      - left: "Can I have the bill?"
+        right: "Nshobora kubona ibarura?"
+      - left: "The food is delicious"
+        right: "Ibiryo biraryoshye"
+      - left: "Table for two"
+        right: "Ameza y’abantu babiri"
+    xp_reward: 25
+
+  # 12. Choose Missing Word
+  - id: 122
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "I want ___."
+    missing_word_position: 2
+    options: ["water", "food", "coffee"]
+    correct_answer: "water"
+    translation: "Ndashaka amazi"
+    xp_reward: 10
+
+  - id: 123
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "Can I see the ___?"
+    missing_word_position: 4
+    options: ["menu", "bill", "table"]
+    correct_answer: "menu"
+    translation: "Nshobora kubona ikarita y’ibiryo?"
+    xp_reward: 15
+
+  - id: 124
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "Can I have the ___?"
+    missing_word_position: 4
+    options: ["bill", "menu", "water"]
+    correct_answer: "bill"
+    translation: "Nshobora kubona ibarura?"
+    xp_reward: 15
+
+  - id: 125
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "The food is ___."
+    missing_word_position: 3
+    options: ["delicious", "busy", "good"]
+    correct_answer: "delicious"
+    translation: "Ibiryo biraryoshye"
+    xp_reward: 12
+
+  - id: 126
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "Table for ___, please."
+    missing_word_position: 2
+    options: ["two", "three", "four"]
+    correct_answer: "two"
+    translation: "Ameza y’abantu babiri"
+    xp_reward: 15
+
+  - id: 127
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "I am eating ___."
+    missing_word_position: 3
+    options: ["rice", "food", "meat"]
+    correct_answer: "rice"
+    translation: "Ndirya umuceri"
+    xp_reward: 12
+
+  # 13. Read and Answer
+  - id: 128
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Ndashaka amazi. Nshobora kubona ikarita y’ibiryo?"
+    question: "Umuntu ashaka kunywa iki?"
+    options: ["Coffee", "Water", "Tea", "Juice"]
+    correct_answer: "Water"
+    xp_reward: 12
+
+  - id: 129
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Ibiryo biraryoshye. Ndirya umuceri. Ari kunywa jus."
+    question: "Ari kunywa iki?"
+    options: ["Water", "Coffee", "Juice", "Tea"]
+    correct_answer: "Juice"
+    xp_reward: 15
+
+  - id: 130
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Turimo gutumiza ibiryo. Akunda ikawa. Resitora irakomeye."
+    question: "Resitora irakomeye?"
+    options: ["Yes", "No", "Maybe", "I don't know"]
+    correct_answer: "Yes"
+    xp_reward: 12
+
+  - id: 131
+    type: read_answer
+    question: "Soma ibiganiro hanyuma usubize ikibazo"
+    text: "A: Nshobora kubona ikarita y’ibiryo? B: Yego, nguyu."
+    question: "A ashaka iki?"
+    options: ["The bill", "The menu", "Water", "Coffee"]
+    correct_answer: "The menu"
+    xp_reward: 15
+
+  - id: 132
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Ameza y’abantu babiri, ndabinginze. Ndashaka ikawa."
+    question: "Abantu bangahe?"
+    options: ["One", "Two", "Three", "Four"]
+    correct_answer: "Two"
+    xp_reward: 12
+
+  # 14. True / False
+  - id: 133
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Resitora' means 'restaurant'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 134
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Ikarita y’ibiryo' means 'bill'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 135
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Ikawa' means 'coffee'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 136
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Nshobora kubona ibarura?' means 'Can I see the menu?'"
+    correct_answer: false
+    xp_reward: 12
+
+  - id: 137
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Ibiryo biraryoshye' means 'The food is delicious'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 138
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Ameza y’abantu babiri' means 'table for three'."
+    correct_answer: false
+    xp_reward: 10
+
+  # 15. Conversation Exercise
+  - id: 139
+    type: conversation
+    question: "Subiza ikibazo cy'umukozi ukoresheje amagambo atanzwe"
+    bot_message: "Ushaka iki?"
+    translation: "What do you want?"
+    word_bank: ["I", "want", "water", "coffee", "food", "tea"]
+    correct_response: ["I", "want", "water"]
+    xp_reward: 15
+
+  - id: 140
+    type: conversation
+    question: "Subiza ikibazo"
+    bot_message: "Muraho! Mwifuza iki?"
+    translation: "Hello! What would you like?"
+    options:
+      - "I want water"
+      - "I want coffee"
+      - "I want food"
+    correct_response: "I want water"
+    xp_reward: 12
+
+  - id: 141
+    type: conversation
+    question: "Saba ikarita ukoresheje amagambo atanzwe"
+    bot_message: "Mwakora iki?"
+    translation: "What can I do for you?"
+    word_bank: ["Can", "I", "see", "the", "menu", "bill", "please"]
+    correct_response: ["Can", "I", "see", "the", "menu"]
+    xp_reward: 20
+
+  - id: 142
+    type: conversation
+    question: "Subiza ikibazo ku biryo"
+    bot_message: "Ibiryo bimeze bite?"
+    translation: "How is the food?"
+    options:
+      - "It is delicious"
+      - "It is busy"
+      - "It is good"
+    correct_response: "It is delicious"
+    xp_reward: 12
+
+  - id: 143
+    type: conversation
+    question: "Saba ibarura ukoresheje amagambo atanzwe"
+    bot_message: "Ikindi?"
+    translation: "Anything else?"
+    word_bank: ["Can", "I", "have", "the", "bill", "menu", "please"]
+    correct_response: ["Can", "I", "have", "the", "bill"]
+    xp_reward: 18
+
+  # 16. Story Exercise
+  - id: 144
+    type: story
+    title: "Kuri Resitora"
+    story_intro: "Soma inkuru yo kurya kuri resitora. Hanyuma ubake interuro."
+    story_segments:
+      - text: "We go to a restaurant."
+      - text: "I ask for the menu."
+      - text: "I want water."
+      - text: "She is drinking juice."
+      - text: "He likes coffee."
+      - text: "We are ordering food."
+      - text: "The food is delicious."
+      - text: "I ask for the bill."
+    exercises:
+      - type: word_bank
+        question: "Ubaka 'I want water'"
+        word_bank: ["I", "want", "water", "coffee", "tea", "juice"]
+        correct_answer: ["I", "want", "water"]
+      - type: word_bank
+        question: "Ubaka 'Can I see the menu?'"
+        word_bank: ["Can", "I", "see", "the", "menu", "bill", "table"]
+        correct_answer: ["Can", "I", "see", "the", "menu"]
+      - type: word_bank
+        question: "Ubaka 'She is drinking juice'"
+        word_bank: ["She", "is", "drinking", "juice", "coffee", "water"]
+        correct_answer: ["She", "is", "drinking", "juice"]
+      - type: word_bank
+        question: "Ubaka 'He likes coffee'"
+        word_bank: ["He", "likes", "coffee", "tea", "juice"]
+        correct_answer: ["He", "likes", "coffee"]
+      - type: word_bank
+        question: "Ubaka 'We are ordering food'"
+        word_bank: ["We", "are", "ordering", "food", "drinks", "dessert"]
+        correct_answer: ["We", "are", "ordering", "food"]
+      - type: word_bank
+        question: "Ubaka 'The food is delicious'"
+        word_bank: ["The", "food", "is", "delicious", "busy", "good"]
+        correct_answer: ["The", "food", "is", "delicious"]
+      - type: word_bank
+        question: "Ubaka 'Can I have the bill?'"
+        word_bank: ["Can", "I", "have", "the", "bill", "menu", "check"]
+        correct_answer: ["Can", "I", "have", "the", "bill"]
+    xp_reward: 45
+
+  # 17. Pronunciation Check
+  - id: 145
+    type: pronunciation
+    question: "Vuga iri jambo ry'iresitora mu Cyongereza neza"
+    prompt: "Resitora"
+    translation: "Restaurant"
+    xp_reward: 15
+
+  - id: 146
+    type: pronunciation
+    question: "Vuga iri jambo ry'iresitora mu Cyongereza neza"
+    prompt: "Ikawa"
+    translation: "Coffee"
+    xp_reward: 15
+
+  - id: 147
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Ndashaka amazi"
+    translation: "I want water"
+    xp_reward: 18
+
+  - id: 149
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Ibiryo biraryoshye"
+    translation: "The food is delicious"
+    xp_reward: 18
+
+  - id: 150
+    type: pronunciation
+    question: "Vuga ubu busabe mu Cyongereza neza"
+    prompt: "Ameza yabantu babiri ndabinginze"
+    translation: "Table for two, please"
+    xp_reward: 20
+
+  # 18. Identify Correct Meaning
+  - id: 151
+    type: identify_meaning
+    question: "'Ndashaka' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Ndashaka amazi."
+    word: "Ndashaka"
+    options: ["I eat", "I drink", "I want", "I have"]
+    correct_answer: "I want"
+    xp_reward: 15
+
+  - id: 152
+    type: identify_meaning
+    question: "'Biraryoshye' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Ibiryo biraryoshye."
+    word: "biraryoshye"
+    options: ["is busy", "is delicious", "is expensive", "is cold"]
+    correct_answer: "is delicious"
+    xp_reward: 15
+
+  - id: 153
+    type: identify_meaning
+    question: "'Irakomeye' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Resitora irakomeye."
+    word: "irakomeye"
+    options: ["is delicious", "is busy", "is big", "is small"]
+    correct_answer: "is busy"
+    xp_reward: 15
+
+  - id: 154
+    type: identify_meaning
+    question: "'Nshobora kubona' bisobanura iki?"
+    context_sentence: "Nshobora kubona ikarita y’ibiryo?"
+    word: "Nshobora kubona"
+    options: ["I want", "I can see / I can have", "I eat", "I drink"]
+    correct_answer: "I can see / I can have"
+    xp_reward: 18
+
+  - id: 155
+    type: identify_meaning
+    question: "'Babiri' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Ameza y’abantu babiri."
+    word: "babiri"
+    options: ["one", "two", "three", "four"]
+    correct_answer: "two"
+    xp_reward: 12
+
+  # 19. Speed Matching
+  - id: 156
+    type: speed_matching
+    title: "Huza Byihuse: Resitora"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Restaurant"
+        right: "Resitora"
+      - left: "Menu"
+        right: "Ikarita y’ibiryo"
+      - left: "Table"
+        right: "Ameza"
+      - left: "Coffee"
+        right: "Ikawa"
+      - left: "Tea"
+        right: "Icyayi"
+      - left: "Water"
+        right: "Amazi"
+      - left: "Juice"
+        right: "Jus"
+      - left: "Bill"
+        right: "Ibarura"
+      - left: "Fork"
+        right: "Iforoke"
+      - left: "Spoon"
+        right: "Ikiyiko"
+      - left: "Plate"
+        right: "Isahani"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 157
+    type: timed_challenge
+    title: "Kubahuka: Resitora"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Resitora"
+        answer: "Restaurant"
+      - question: "Ikarita y’ibiryo"
+        answer: "Menu"
+      - question: "Ikawa"
+        answer: "Coffee"
+      - question: "Amazi"
+        answer: "Water"
+      - question: "Ibarura"
+        answer: "Bill"
+    xp_reward: 35
+
+  # 21. Character Writing
+  - id: 158
+    type: character_writing
+    question: "Yandika iri jambo ry'iresitora mu Cyongereza"
+    prompt: "Resitora"
+    translation: "Restaurant"
+    xp_reward: 15
+
+  - id: 159
+    type: character_writing
+    question: "Yandika iri jambo ry'iresitora mu Cyongereza"
+    prompt: "Ameza"
+    translation: "Table"
+    xp_reward: 15
+
+  - id: 160
+    type: character_writing
+    question: "Yandika iri jambo ry'ikinyobwa mu Cyongereza"
+    prompt: "Ikawa"
+    translation: "Coffee"
+    xp_reward: 15
+
+  - id: 161
+    type: character_writing
+    question: "Yandika iyi nteruro mu Cyongereza"
+    prompt: "Ndashaka amazi"
+    translation: "I want water"
+    xp_reward: 18
+
+  # 22. Spaced Repetition Review
+  - id: 162
+    type: review
+    title: "Isubiramo: Resitora"
+    exercises:
+      - type: translation
+        question: "Resitora"
+        answer: "Restaurant"
+      - type: multiple_choice
+        question: "Ikawa"
+        options: ["Tea", "Coffee", "Juice"]
+        answer: "Coffee"
+      - type: fill_blank
+        question: "I want ___."
+        text_with_blank: "I want ___."
+        options: ["water", "coffee", "tea"]
+        correct_answer: "water"
+      - type: picture_word
+        question: "Iki ni iki?"
+        image_url: "https://source.unsplash.com/featured/?menu"
+        options: ["Menu", "Bill", "Table"]
+        correct_answer: "Menu"
+      - type: sentence_scramble
+        question: "Tondeka: I want water"
+        scrambled_words: ["water", "want", "I"]
+        correct_sentence: "I want water"
+    xp_reward: 30
+
+  # 23. Listening Comprehension
+  - id: 163
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Resitora"
+    options:
+      - "Menu"
+      - "Restaurant"
+      - "Table"
+    correct_answer: "Restaurant"
+    xp_reward: 15
+
+  - id: 164
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Ikawa"
+    options:
+      - "Tea"
+      - "Coffee"
+      - "Juice"
+    correct_answer: "Coffee"
+    xp_reward: 15
+
+  - id: 165
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Amazi"
+    options:
+      - "Milk"
+      - "Water"
+      - "Juice"
+    correct_answer: "Water"
+    xp_reward: 15
+
+  - id: 166
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Ibarura"
+    options:
+      - "Menu"
+      - "Bill"
+      - "Table"
+    correct_answer: "Bill"
+    xp_reward: 15
+
+  # 24. Grammar Selection
+  - id: 167
+    type: grammar
+    question: "Hitamo inshinga ikwiye isobanura 'I want'"
+    options: ["I want", "I eat", "I drink"]
+    correct_answer: "I want"
+    explanation: "'Ndashaka' means 'I want'"
+    xp_reward: 15
+
+  - id: 168
+    type: grammar
+    question: "Hitamo ijambo rikwiye risobanura 'the menu'"
+    options: ["the menu", "the bill", "the food"]
+    correct_answer: "the menu"
+    explanation: "'ikarita y’ibiryo' means 'the menu'"
+    xp_reward: 12
+
+  - id: 169
+    type: grammar
+    question: "Hitamo ijambo ry'ikibazo risobanura 'can I'"
+    options: ["can I", "I want", "I have"]
+    correct_answer: "can I"
+    explanation: "'Nshobora' means 'can I'"
+    xp_reward: 15
+
+  - id: 170
+    type: grammar
+    question: "Hitamo ijambo rikwiye risobanura 'delicious'"
+    options: ["delicious", "busy", "good"]
+    correct_answer: "delicious"
+    explanation: "'biraryoshye' means 'delicious'"
+    xp_reward: 12
+
+  # 25. Error Correction
+  - id: 171
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "I want bill."
+    translation: "Ndashaka ibarura (ariko ugomba kuvuga amazi)"
+    word_bank_for_fix: ["I", "want", "water", "bill", "coffee"]
+    correct_sentence: "I want water."
+    explanation: "If you want water, use 'water', not 'bill'."
+    xp_reward: 15
+
+  - id: 172
+    type: error_correction
+    question: "Kosora ikosa muri iki kibazo cy'icyongereza"
+    incorrect_sentence: "Can I see coffee?"
+    translation: "Nshobora kubona ikawa? (ariko ugomba kwifuza ikarita)"
+    word_bank_for_fix: ["Can", "I", "see", "the", "menu", "coffee", "bill"]
+    correct_sentence: "Can I see the menu?"
+    explanation: "When entering a restaurant, you ask for the menu, not coffee."
+    xp_reward: 18
+
+  - id: 173
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "The food is busy."
+    translation: "Ibiryo birakomeye (ariko ugomba kuvuga biraryoshye)"
+    word_bank_for_fix: ["The", "food", "is", "delicious", "busy", "restaurant"]
+    correct_sentence: "The food is delicious."
+    explanation: "Food is delicious (delicious). The restaurant is busy (busy)."
+    xp_reward: 15
+
+  # Flashcards
+  - id: 174
+    type: flashcards
+    question: "Iyi ni modero y'amafishi y'iresitora"
+    flashcards:
+      - front: "Resitora"
+        back: "Restaurant"
+        image: "https://source.unsplash.com/featured/?restaurant"
+      - front: "Ikarita y’ibiryo"
+        back: "Menu"
+        image: "https://source.unsplash.com/featured/?menu"
+      - front: "Ameza"
+        back: "Table"
+        image: "https://source.unsplash.com/featured/?table"
+      - front: "Intebe"
+        back: "Chair"
+        image: "https://source.unsplash.com/featured/?chair"
+      - front: "Umukozi wa resitora"
+        back: "Waiter"
+        image: "https://source.unsplash.com/featured/?waiter"
+      - front: "Umukiriya"
+        back: "Customer"
+        image: "https://source.unsplash.com/featured/?customer"
+      - front: "Amazi"
+        back: "Water"
+        image: "https://source.unsplash.com/featured/?water"
+      - front: "Jus"
+        back: "Juice"
+        image: "https://source.unsplash.com/featured/?juice"
+      - front: "Ikawa"
+        back: "Coffee"
+        image: "https://source.unsplash.com/featured/?coffee"
+      - front: "Icyayi"
+        back: "Tea"
+        image: "https://source.unsplash.com/featured/?tea"
+      - front: "Ifunguro rya mu gitondo"
+        back: "Breakfast"
+        image: "https://source.unsplash.com/featured/?breakfast"
+      - front: "Ifunguro rya saa sita"
+        back: "Lunch"
+        image: "https://source.unsplash.com/featured/?lunch"
+      - front: "Ifunguro rya nimugoroba"
+        back: "Dinner"
+        image: "https://source.unsplash.com/featured/?dinner"
+      - front: "Ibiribwa by’inyongera"
+        back: "Dessert"
+        image: "https://source.unsplash.com/featured/?dessert"
+      - front: "Ibarura"
+        back: "Bill / Check"
+        image: "https://source.unsplash.com/featured/?bill"
+      - front: "Iforoke"
+        back: "Fork"
+        image: "https://source.unsplash.com/featured/?fork"
+      - front: "Icyuma cyo gukata"
+        back: "Knife"
+        image: "https://source.unsplash.com/featured/?knife"
+      - front: "Ikiyiko"
+        back: "Spoon"
+        image: "https://source.unsplash.com/featured/?spoon"
+      - front: "Isahani"
+        back: "Plate"
+        image: "https://source.unsplash.com/featured/?plate"
+      - front: "Agapapuro k’isuku"
+        back: "Napkin"
+        image: "https://source.unsplash.com/featured/?napkin"
+      - front: "Ndashaka amazi"
+        back: "I want water"
+        image: "https://source.unsplash.com/featured/?water-glass"
+      - front: "Ibiryo biraryoshye"
+        back: "The food is delicious"
+        image: "https://source.unsplash.com/featured/?delicious-food"
+      - front: "Ameza y’abantu babiri"
+        back: "Table for two"
+        image: "https://source.unsplash.com/featured/?table-for-two"
+    xp_reward: 50

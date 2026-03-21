@@ -1,0 +1,1325 @@
+lesson:
+  name: "Igihe Kizaza"
+  description: "Learn how to talk about future actions in English"
+  xp_reward: 500
+
+exercises:
+
+  # 1. Translation Exercises - Basic Future Words ONLY (Safe for single words/phrases)
+  # Basic Future Vocabulary
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'Nzajya / Azajya' mu Cyongereza? (as in 'will go')"
+    answer: "Will"
+    note: "Nzajya means 'I will go', Azajya means 'he/she will go'"
+    xp_reward: 15
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'Ejo' mu Cyongereza?"
+    answer: "Tomorrow"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'Icyumweru gitaha' mu Cyongereza?"
+    answer: "Next week"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'Ukwezi gutaha' mu Cyongereza?"
+    answer: "Next month"
+    xp_reward: 15
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'Umwaka utaha' mu Cyongereza?"
+    answer: "Next year"
+    xp_reward: 15
+
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'Vuba' mu Cyongereza?"
+    answer: "Soon"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'Nyuma' mu Cyongereza?"
+    answer: "Later"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'Vuba nyuma' mu Cyongereza?"
+    answer: "Soon after"
+    xp_reward: 12
+
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'Nyuma yaho' mu Cyongereza?"
+    answer: "Later on"
+    xp_reward: 12
+
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'Ukurikira' mu Cyongereza?"
+    answer: "Next"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'Gahunda' mu Cyongereza?"
+    answer: "Plan"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'Gahunda / Gushaka' mu Cyongereza?"
+    answer: "Intend"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'Kwiyemeza' mu Cyongereza?"
+    answer: "Promise"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'Kwitega' mu Cyongereza?"
+    answer: "Expect"
+    xp_reward: 10
+
+  # Common Future Tense Phrases
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'Nzajya i Kigali' mu Cyongereza?"
+    answer: "I will go to Kigali"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'Azaza ejo' mu Cyongereza?"
+    answer: "She will come tomorrow"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Bazarya ifunguro rya saa sita vuba' mu Cyongereza?"
+    answer: "They will eat lunch soon"
+    xp_reward: 18
+
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Tuzagenda icyumweru gitaha' mu Cyongereza?"
+    answer: "We will travel next week"
+    xp_reward: 18
+
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Aziga ejo' mu Cyongereza?"
+    answer: "He will study tomorrow"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Nzagura imodoka' mu Cyongereza?"
+    answer: "I am going to buy a car"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Tuzahurira ku isoko' mu Cyongereza?"
+    answer: "We will meet at the market"
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Azafasha inshuti ye' mu Cyongereza?"
+    answer: "She will help her friend"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Nzahamagara nyuma' mu Cyongereza?"
+    answer: "I will call you later"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Wavuga ute 'Bazasura ishuri ukwezi gutaha' mu Cyongereza?"
+    answer: "They will visit the school next month"
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 25
+    type: multiple_choice
+    question: "'Ejo' bisobanura iki?"
+    options:
+      - "Yesterday"
+      - "Tomorrow"
+      - "Today"
+      - "Next week"
+    answer: "Tomorrow"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "'Icyumweru gitaha' bisobanura iki?"
+    options:
+      - "This week"
+      - "Last week"
+      - "Next week"
+      - "Every week"
+    answer: "Next week"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "'Vuba' bisobanura iki?"
+    options:
+      - "Later"
+      - "Soon"
+      - "Never"
+      - "Always"
+    answer: "Soon"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Nyuma' bisobanura iki?"
+    options:
+      - "Soon"
+      - "Later"
+      - "Before"
+      - "During"
+    answer: "Later"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Nzajya i Kigali' bisobanura iki?"
+    options:
+      - "I went to Kigali"
+      - "I will go to Kigali"
+      - "I am in Kigali"
+      - "I like Kigali"
+    answer: "I will go to Kigali"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Azaza ejo' bisobanura iki?"
+    options:
+      - "He came yesterday"
+      - "He will come tomorrow"
+      - "He is coming now"
+      - "He never comes"
+    answer: "He will come tomorrow"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Tuzagenda icyumweru gitaha' bisobanura iki?"
+    options:
+      - "We traveled last week"
+      - "We will travel next week"
+      - "We travel every week"
+      - "We are traveling now"
+    answer: "We will travel next week"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 32
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'igihe kizaza mu Cyongereza"
+    tts_text: "Ejo"
+    answer: "Tomorrow"
+    translation: "Ejo"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'igihe kizaza mu Cyongereza"
+    tts_text: "Icyumweru gitaha"
+    answer: "Next week"
+    translation: "Icyumweru gitaha"
+    xp_reward: 22
+
+  - id: 34
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'igihe kizaza mu Cyongereza"
+    tts_text: "Vuba"
+    answer: "Soon"
+    translation: "Vuba"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'igihe kizaza mu Cyongereza"
+    tts_text: "Nyuma"
+    answer: "Later"
+    translation: "Nyuma"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Nzajya i Kigali"
+    answer: "I will go to Kigali"
+    translation: "Nzajya i Kigali"
+    xp_reward: 22
+
+  - id: 37
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Azaza ejo"
+    answer: "She will come tomorrow"
+    translation: "Azaza ejo"
+    xp_reward: 22
+
+  - id: 38
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Tuzagenda icyumweru gitaha"
+    answer: "We will travel next week"
+    translation: "Tuzagenda icyumweru gitaha"
+    xp_reward: 25
+
+  - id: 39
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Nzahamagara nyuma"
+    answer: "I will call you later"
+    translation: "Nzahamagara nyuma"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 40
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    tts_text: "Ejo"
+    options:
+      - "Today"
+      - "Tomorrow"
+      - "Yesterday"
+    answer: "Tomorrow"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    tts_text: "Vuba"
+    options:
+      - "Later"
+      - "Soon"
+      - "Never"
+    answer: "Soon"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    tts_text: "Nzajya i Kigali"
+    options:
+      - "I went to Kigali"
+      - "I will go to Kigali"
+      - "I am in Kigali"
+    answer: "I will go to Kigali"
+    xp_reward: 18
+
+  - id: 43
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    tts_text: "Azaza ejo"
+    options:
+      - "He came yesterday"
+      - "He will come tomorrow"
+      - "He is coming now"
+    answer: "He will come tomorrow"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 44
+    type: speaking
+    question: "Vuga iri jambo ry'igihe kizaza mu Cyongereza"
+    prompt: "Ejo"
+    translation: "Tomorrow"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Vuga iri jambo ry'igihe kizaza mu Cyongereza"
+    prompt: "Icyumweru gitaha"
+    translation: "Next week"
+    xp_reward: 18
+
+  - id: 46
+    type: speaking
+    question: "Vuga iri jambo ry'igihe kizaza mu Cyongereza"
+    prompt: "Vuba"
+    translation: "Soon"
+    xp_reward: 15
+
+  - id: 47
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Nzajya i Kigali"
+    translation: "I will go to Kigali"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Azaza ejo"
+    translation: "She will come tomorrow"
+    xp_reward: 18
+
+  - id: 49
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Tuzagenda icyumweru gitaha"
+    translation: "We will travel next week"
+    xp_reward: 20
+
+  - id: 50
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Nzahamagara nyuma"
+    translation: "I will call you later"
+    xp_reward: 18
+
+  # 6. Word Bank Sentence Building
+  - id: 51
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Nzajya i Kigali'"
+    word_bank: ["I", "will", "go", "to", "Kigali", "tomorrow", "later", "soon"]
+    correct_answer: ["I", "will", "go", "to", "Kigali"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Azaza ejo'"
+    word_bank: ["She", "will", "come", "tomorrow", "today", "later", "soon"]
+    correct_answer: ["She", "will", "come", "tomorrow"]
+    xp_reward: 18
+
+  - id: 53
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Bazarya ifunguro rya saa sita vuba'"
+    word_bank: ["They", "will", "eat", "lunch", "soon", "dinner", "later"]
+    correct_answer: ["They", "will", "eat", "lunch", "soon"]
+    xp_reward: 22
+
+  - id: 54
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Tuzagenda icyumweru gitaha'"
+    word_bank: ["We", "will", "travel", "next", "week", "month", "year"]
+    correct_answer: ["We", "will", "travel", "next", "week"]
+    xp_reward: 20
+
+  - id: 55
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Aziga ejo'"
+    word_bank: ["He", "will", "study", "tomorrow", "today", "later"]
+    correct_answer: ["He", "will", "study", "tomorrow"]
+    xp_reward: 15
+
+  - id: 56
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Nzagura imodoka'"
+    word_bank: ["I", "am", "going", "to", "buy", "a", "car", "house", "bike"]
+    correct_answer: ["I", "am", "going", "to", "buy", "a", "car"]
+    xp_reward: 15
+
+  - id: 57
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Tuzahurira ku isoko'"
+    word_bank: ["We", "will", "meet", "at", "the", "market", "school", "home"]
+    correct_answer: ["We", "will", "meet", "at", "the", "market"]
+    xp_reward: 18
+
+  - id: 58
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Azafasha inshuti ye'"
+    word_bank: ["She", "will", "help", "her", "friend", "family", "brother"]
+    correct_answer: ["She", "will", "help", "her", "friend"]
+    xp_reward: 18
+
+  - id: 59
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Nzahamagara nyuma'"
+    word_bank: ["I", "will", "call", "you", "later", "soon", "tomorrow"]
+    correct_answer: ["I", "will", "call", "you", "later"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Bazasura ishuri ukwezi gutaha'"
+    word_bank: ["They", "will", "visit", "the", "school", "next", "month", "week", "year"]
+    correct_answer: ["They", "will", "visit", "the", "school", "next", "month"]
+    xp_reward: 22
+
+  # 7. Sentence Scramble
+  - id: 61
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nzajya i Kigali'"
+    scrambled_words: ["to", "will", "I", "go", "Kigali"]
+    correct_sentence: "I will go to Kigali"
+    translation: "Nzajya i Kigali"
+    xp_reward: 18
+
+  - id: 62
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Azaza ejo'"
+    scrambled_words: ["come", "will", "She", "tomorrow"]
+    correct_sentence: "She will come tomorrow"
+    translation: "Azaza ejo"
+    xp_reward: 15
+
+  - id: 63
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Bazarya ifunguro rya saa sita vuba'"
+    scrambled_words: ["lunch", "will", "They", "eat", "soon"]
+    correct_sentence: "They will eat lunch soon"
+    translation: "Bazarya ifunguro rya saa sita vuba"
+    xp_reward: 22
+
+  - id: 64
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Tuzagenda icyumweru gitaha'"
+    scrambled_words: ["next", "travel", "will", "We", "week"]
+    correct_sentence: "We will travel next week"
+    translation: "Tuzagenda icyumweru gitaha"
+    xp_reward: 20
+
+  - id: 65
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Aziga ejo'"
+    scrambled_words: ["study", "will", "He", "tomorrow"]
+    correct_sentence: "He will study tomorrow"
+    translation: "Aziga ejo"
+    xp_reward: 15
+
+  - id: 66
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nzagura imodoka'"
+    scrambled_words: ["to", "a", "I", "am", "going", "car", "buy"]
+    correct_sentence: "I am going to buy a car"
+    translation: "Nzagura imodoka"
+    xp_reward: 15
+
+  - id: 67
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Tuzahurira ku isoko'"
+    scrambled_words: ["meet", "the", "at", "will", "We", "market"]
+    correct_sentence: "We will meet at the market"
+    translation: "Tuzahurira ku isoko"
+    xp_reward: 18
+
+  - id: 68
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Azafasha inshuti ye'"
+    scrambled_words: ["her", "will", "She", "help", "friend"]
+    correct_sentence: "She will help her friend"
+    translation: "Azafasha inshuti ye"
+    xp_reward: 18
+
+  - id: 69
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nzahamagara nyuma'"
+    scrambled_words: ["later", "you", "I", "will", "call"]
+    correct_sentence: "I will call you later"
+    translation: "Nzahamagara nyuma"
+    xp_reward: 15
+
+  - id: 70
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Bazasura ishuri ukwezi gutaha'"
+    scrambled_words: ["next", "They", "visit", "will", "the", "school", "month"]
+    correct_sentence: "They will visit the school next month"
+    translation: "Bazasura ishuri ukwezi gutaha"
+    xp_reward: 22
+
+  # 8. Fill in the Blank
+  - id: 71
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "I will go to ___."
+    options: ["Kigali", "tomorrow", "later"]
+    correct_answer: "Kigali"
+    translation: "Nzajya i Kigali"
+    xp_reward: 12
+
+  - id: 72
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "She will come ___."
+    options: ["tomorrow", "later", "soon"]
+    correct_answer: "tomorrow"
+    translation: "Azaza ejo"
+    xp_reward: 12
+
+  - id: 73
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "They will eat lunch ___."
+    options: ["soon", "later", "tomorrow"]
+    correct_answer: "soon"
+    translation: "Bazarya ifunguro rya saa sita vuba"
+    xp_reward: 18
+
+  - id: 74
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "We will travel ___."
+    options: ["next week", "next month", "next year"]
+    correct_answer: "next week"
+    translation: "Tuzagenda icyumweru gitaha"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "He will study ___."
+    options: ["tomorrow", "later", "soon"]
+    correct_answer: "tomorrow"
+    translation: "Aziga ejo"
+    xp_reward: 12
+
+  - id: 76
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "I am going to buy a ___."
+    options: ["car", "house", "book"]
+    correct_answer: "car"
+    translation: "Nzagura imodoka"
+    xp_reward: 12
+
+  - id: 77
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "We will meet at the ___."
+    options: ["market", "school", "work"]
+    correct_answer: "market"
+    translation: "Tuzahurira ku isoko"
+    xp_reward: 15
+
+  - id: 78
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "She will help her ___."
+    options: ["friend", "family", "children"]
+    correct_answer: "friend"
+    translation: "Azafasha inshuti ye"
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "I will call you ___."
+    options: ["later", "soon", "tomorrow"]
+    correct_answer: "later"
+    translation: "Nzahamagara nyuma"
+    xp_reward: 12
+
+  - id: 80
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "They will visit the school ___."
+    options: ["next month", "next week", "next year"]
+    correct_answer: "next month"
+    translation: "Bazasura ishuri ukwezi gutaha"
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 81
+    type: picture_word
+    question: "Iki ni igihe ki kizaza?"
+    image_url: "https://source.unsplash.com/featured/?tomorrow"
+    options: ["Tomorrow", "Soon", "Later"]
+    correct_answer: "Tomorrow"
+    xp_reward: 10
+
+  - id: 82
+    type: picture_word
+    question: "Iki ni igihe ki kizaza?"
+    image_url: "https://source.unsplash.com/featured/?calendar-week"
+    options: ["Next week", "Next month", "Next year"]
+    correct_answer: "Next week"
+    xp_reward: 12
+
+  - id: 83
+    type: picture_word
+    question: "Iki ni igihe ki kizaza?"
+    image_url: "https://source.unsplash.com/featured/?soon"
+    options: ["Soon", "Later", "Tomorrow"]
+    correct_answer: "Soon"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "Iki ni igihe ki kizaza?"
+    image_url: "https://source.unsplash.com/featured/?later"
+    options: ["Later", "Soon", "Tomorrow"]
+    correct_answer: "Later"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "Ni iki kizaba?"
+    image_url: "https://source.unsplash.com/featured/?travel"
+    options: ["We will travel", "I will go", "She will come"]
+    correct_answer: "We will travel"
+    xp_reward: 12
+
+  - id: 86
+    type: picture_word
+    question: "Ni iki kizaba?"
+    image_url: "https://source.unsplash.com/featured/?studying"
+    options: ["He will study", "She will study", "They will study"]
+    correct_answer: "He will study"
+    xp_reward: 12
+
+  - id: 87
+    type: picture_word
+    question: "Ni iki kizaba?"
+    image_url: "https://source.unsplash.com/featured/?buying-car"
+    options: ["I will buy a car", "I will buy a house", "I will buy food"]
+    correct_answer: "I will buy a car"
+    xp_reward: 15
+
+  # 10. Word Matching
+  - id: 88
+    type: matching
+    question: "Huza ibihe by'igihe kizaza"
+    pairs:
+      - left: "Tomorrow"
+        right: "Ejo"
+      - left: "Next week"
+        right: "Icyumweru gitaha"
+      - left: "Next month"
+        right: "Ukwezi gutaha"
+      - left: "Next year"
+        right: "Umwaka utaha"
+      - left: "Soon"
+        right: "Vuba"
+      - left: "Later"
+        right: "Nyuma"
+      - left: "Soon after"
+        right: "Vuba nyuma"
+      - left: "Later on"
+        right: "Nyuma yaho"
+    xp_reward: 25
+
+  - id: 89
+    type: matching
+    question: "Huza inshinga z'igihe kizaza"
+    pairs:
+      - left: "I will go"
+        right: "Nzajya"
+      - left: "She will come"
+        right: "Azaza"
+      - left: "They will eat"
+        right: "Bazarya"
+      - left: "We will travel"
+        right: "Tuzagenda"
+      - left: "He will study"
+        right: "Aziga"
+      - left: "I will buy"
+        right: "Nzagura"
+      - left: "We will meet"
+        right: "Tuzahurira"
+      - left: "She will help"
+        right: "Azafasha"
+      - left: "I will call"
+        right: "Nzahamagara"
+      - left: "They will visit"
+        right: "Bazasura"
+    xp_reward: 25
+
+  - id: 90
+    type: matching
+    question: "Huza interuro"
+    pairs:
+      - left: "I will go to Kigali"
+        right: "Nzajya i Kigali"
+      - left: "She will come tomorrow"
+        right: "Azaza ejo"
+      - left: "We will travel next week"
+        right: "Tuzagenda icyumweru gitaha"
+      - left: "I will call you later"
+        right: "Nzahamagara nyuma"
+      - left: "They will visit the school next month"
+        right: "Bazasura ishuri ukwezi gutaha"
+    xp_reward: 22
+
+  # 12. Choose Missing Word
+  - id: 91
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "I will go to ___."
+    missing_word_position: 4
+    options: ["Kigali", "tomorrow", "later"]
+    correct_answer: "Kigali"
+    translation: "Nzajya i Kigali"
+    xp_reward: 12
+
+  - id: 92
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "She will come ___."
+    missing_word_position: 3
+    options: ["tomorrow", "later", "soon"]
+    correct_answer: "tomorrow"
+    translation: "Azaza ejo"
+    xp_reward: 12
+
+  - id: 93
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "We will travel ___."
+    missing_word_position: 3
+    options: ["next week", "next month", "next year"]
+    correct_answer: "next week"
+    translation: "Tuzagenda icyumweru gitaha"
+    xp_reward: 15
+
+  - id: 94
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "I will call you ___."
+    missing_word_position: 4
+    options: ["later", "soon", "tomorrow"]
+    correct_answer: "later"
+    translation: "Nzahamagara nyuma"
+    xp_reward: 12
+
+  - id: 95
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "They will visit the school ___."
+    missing_word_position: 5
+    options: ["next month", "next week", "next year"]
+    correct_answer: "next month"
+    translation: "Bazasura ishuri ukwezi gutaha"
+    xp_reward: 15
+
+  # 13. Read and Answer
+  - id: 96
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Nzajya i Kigali ejo."
+    question: "Ngiye hehe?"
+    options: ["Kigali", "The market", "School", "Home"]
+    correct_answer: "Kigali"
+    xp_reward: 12
+
+  - id: 97
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Azaza ejo. Azafasha inshuti ye."
+    question: "Azaza ryari?"
+    options: ["Today", "Tomorrow", "Next week", "Later"]
+    correct_answer: "Tomorrow"
+    xp_reward: 15
+
+  - id: 98
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Tuzagenda icyumweru gitaha. Tuzahurira ku isoko."
+    question: "Tuzagenda ryari?"
+    options: ["Today", "Tomorrow", "Next week", "Next month"]
+    correct_answer: "Next week"
+    xp_reward: 15
+
+  - id: 99
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Nzagura imodoka. Nzahamagara nyuma."
+    question: "Nzagura iki?"
+    options: ["A car", "A house", "Food", "Clothes"]
+    correct_answer: "A car"
+    xp_reward: 12
+
+  - id: 100
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Bazasura ishuri ukwezi gutaha."
+    question: "Bazasura ryari ishuri?"
+    options: ["Next week", "Next month", "Next year", "Tomorrow"]
+    correct_answer: "Next month"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 101
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Ejo' means 'tomorrow'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 102
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Nyuma' means 'soon'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 103
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Tuzagenda' means 'we will travel'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 104
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Nzajya i Kigali' means 'I went to Kigali'."
+    correct_answer: false
+    xp_reward: 12
+
+  - id: 105
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Icyumweru gitaha' means 'next week'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 106
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Bazasura ishuri ukwezi gutaha' means 'They will visit the school next month'."
+    correct_answer: true
+    xp_reward: 15
+
+  # 15. Conversation Exercise
+  - id: 107
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe"
+    bot_message: "Uzajya he?"
+    translation: "Where will you go?"
+    word_bank: ["I", "will", "go", "to", "Kigali", "the", "market", "tomorrow"]
+    correct_response: ["I", "will", "go", "to", "Kigali"]
+    xp_reward: 18
+
+  - id: 108
+    type: conversation
+    question: "Subiza ikibazo"
+    bot_message: "Azaza ryari?"
+    translation: "When will she come?"
+    options:
+      - "She will come tomorrow"
+      - "She will come soon"
+      - "She will come later"
+    correct_response: "She will come tomorrow"
+    xp_reward: 15
+
+  - id: 109
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe"
+    bot_message: "Muzagenda ryari?"
+    translation: "When will you (plural) travel?"
+    word_bank: ["We", "will", "travel", "next", "week", "month", "year"]
+    correct_response: ["We", "will", "travel", "next", "week"]
+    xp_reward: 20
+
+  - id: 110
+    type: conversation
+    question: "Subiza ikibazo"
+    bot_message: "Uzagura iki?"
+    translation: "What will you buy?"
+    options:
+      - "I will buy a car"
+      - "I will buy bread"
+      - "I will buy a book"
+    correct_response: "I will buy a car"
+    xp_reward: 15
+
+  # 16. Story Exercise
+  - id: 111
+    type: story
+    title: "Gahunda Zanjye"
+    story_intro: "Soma inkuru y'imigambi y'ahazaza. Hanyuma ubake interuro."
+    story_segments:
+      - text: "I will go to Kigali."
+      - text: "She will come tomorrow."
+      - text: "They will eat lunch soon."
+      - text: "We will travel next week."
+      - text: "He will study tomorrow."
+      - text: "I am going to buy a car."
+      - text: "We will meet at the market."
+      - text: "She will help her friend."
+      - text: "I will call you later."
+      - text: "They will visit the school next month."
+    exercises:
+      - type: word_bank
+        question: "Ubaka 'I will go to Kigali'"
+        word_bank: ["I", "will", "go", "to", "Kigali", "tomorrow", "later"]
+        correct_answer: ["I", "will", "go", "to", "Kigali"]
+      - type: word_bank
+        question: "Ubaka 'She will come tomorrow'"
+        word_bank: ["She", "will", "come", "tomorrow", "soon", "later"]
+        correct_answer: ["She", "will", "come", "tomorrow"]
+      - type: word_bank
+        question: "Ubaka 'We will travel next week'"
+        word_bank: ["We", "will", "travel", "next", "week", "month", "year"]
+        correct_answer: ["We", "will", "travel", "next", "week"]
+      - type: word_bank
+        question: "Ubaka 'I am going to buy a car'"
+        word_bank: ["I", "am", "going", "to", "buy", "a", "car", "house", "bike"]
+        correct_answer: ["I", "am", "going", "to", "buy", "a", "car"]
+      - type: word_bank
+        question: "Ubaka 'We will meet at the market'"
+        word_bank: ["We", "will", "meet", "at", "the", "market", "school", "home"]
+        correct_answer: ["We", "will", "meet", "at", "the", "market"]
+      - type: word_bank
+        question: "Ubaka 'She will help her friend'"
+        word_bank: ["She", "will", "help", "her", "friend", "family", "brother"]
+        correct_answer: ["She", "will", "help", "her", "friend"]
+      - type: word_bank
+        question: "Ubaka 'I will call you later'"
+        word_bank: ["I", "will", "call", "you", "later", "soon", "tomorrow"]
+        correct_answer: ["I", "will", "call", "you", "later"]
+    xp_reward: 50
+
+  # 17. Pronunciation Check
+  - id: 112
+    type: pronunciation
+    question: "Vuga iri jambo ry'igihe kizaza mu Cyongereza neza"
+    prompt: "Ejo"
+    translation: "Tomorrow"
+    xp_reward: 15
+
+  - id: 113
+    type: pronunciation
+    question: "Vuga iri jambo ry'igihe kizaza mu Cyongereza neza"
+    prompt: "Icyumweru gitaha"
+    translation: "Next week"
+    xp_reward: 18
+
+  - id: 114
+    type: pronunciation
+    question: "Vuga inshinga y'igihe kizaza mu Cyongereza neza"
+    prompt: "Nzajya"
+    translation: "I will go"
+    xp_reward: 15
+
+  - id: 115
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Nzajya i Kigali"
+    translation: "I will go to Kigali"
+    xp_reward: 18
+
+  - id: 116
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Tuzagenda icyumweru gitaha"
+    translation: "We will travel next week"
+    xp_reward: 20
+
+  # 18. Identify Correct Meaning
+  - id: 117
+    type: identify_meaning
+    question: "'Nzajya' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Nzajya i Kigali."
+    word: "Nzajya"
+    options: ["I went", "I will go", "I am going", "I go"]
+    correct_answer: "I will go"
+    xp_reward: 15
+
+  - id: 118
+    type: identify_meaning
+    question: "'Azaza' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Azaza ejo."
+    word: "Azaza"
+    options: ["He came", "He will come", "He is coming", "He comes"]
+    correct_answer: "He will come"
+    xp_reward: 15
+
+  - id: 119
+    type: identify_meaning
+    question: "'Ejo' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Aziga ejo."
+    word: "ejo"
+    options: ["today", "tomorrow", "yesterday", "soon"]
+    correct_answer: "tomorrow"
+    xp_reward: 12
+
+  - id: 120
+    type: identify_meaning
+    question: "'Icyumweru gitaha' bisobanura iki?"
+    context_sentence: "Tuzagenda icyumweru gitaha."
+    word: "icyumweru gitaha"
+    options: ["this week", "next week", "last week", "every week"]
+    correct_answer: "next week"
+    xp_reward: 15
+
+  # 19. Speed Matching
+  - id: 121
+    type: speed_matching
+    title: "Huza Byihuse: Igihe Kizaza"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Tomorrow"
+        right: "Ejo"
+      - left: "Next week"
+        right: "Icyumweru gitaha"
+      - left: "Next month"
+        right: "Ukwezi gutaha"
+      - left: "Soon"
+        right: "Vuba"
+      - left: "Later"
+        right: "Nyuma"
+      - left: "I will go"
+        right: "Nzajya"
+      - left: "She will come"
+        right: "Azaza"
+      - left: "We will travel"
+        right: "Tuzagenda"
+      - left: "I will buy"
+        right: "Nzagura"
+      - left: "I will call"
+        right: "Nzahamagara"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 122
+    type: timed_challenge
+    title: "Kubahuka: Igihe Kizaza"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Ejo"
+        answer: "Tomorrow"
+      - question: "Icyumweru gitaha"
+        answer: "Next week"
+      - question: "Vuba"
+        answer: "Soon"
+      - question: "Nyuma"
+        answer: "Later"
+      - question: "Nzajya"
+        answer: "I will go"
+    xp_reward: 35
+
+  # 21. Character Writing
+  - id: 123
+    type: character_writing
+    question: "Yandika iri jambo ry'igihe kizaza mu Cyongereza"
+    prompt: "Ejo"
+    translation: "Tomorrow"
+    xp_reward: 15
+
+  - id: 124
+    type: character_writing
+    question: "Yandika iri jambo ry'igihe kizaza mu Cyongereza"
+    prompt: "Icyumweru gitaha"
+    translation: "Next week"
+    xp_reward: 18
+
+  - id: 125
+    type: character_writing
+    question: "Yandika inshinga y'igihe kizaza mu Cyongereza"
+    prompt: "Nzajya"
+    translation: "I will go"
+    xp_reward: 15
+
+  - id: 126
+    type: character_writing
+    question: "Yandika iyi nteruro mu Cyongereza"
+    prompt: "Nzajya i Kigali"
+    translation: "I will go to Kigali"
+    xp_reward: 18
+
+  # 22. Spaced Repetition Review
+  - id: 127
+    type: review
+    title: "Isubiramo: Igihe Kizaza"
+    exercises:
+      - type: translation
+        question: "Ejo"
+        answer: "Tomorrow"
+      - type: multiple_choice
+        question: "Icyumweru gitaha"
+        options: ["This week", "Next week", "Last week"]
+        answer: "Next week"
+      - type: fill_blank
+        question: "I will go to ___."
+        text_with_blank: "I will go to ___."
+        options: ["Kigali", "tomorrow", "later"]
+        correct_answer: "Kigali"
+      - type: sentence_scramble
+        question: "Tondeka: She will come tomorrow"
+        scrambled_words: ["tomorrow", "come", "will", "She"]
+        correct_sentence: "She will come tomorrow"
+      - type: picture_word
+        question: "Iki ni iki?"
+        image_url: "https://source.unsplash.com/featured/?calendar"
+        options: ["Tomorrow", "Next week", "Next month"]
+        correct_answer: "Next week"
+    xp_reward: 30
+
+  # 23. Listening Comprehension
+  - id: 128
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Ejo"
+    options:
+      - "Today"
+      - "Tomorrow"
+      - "Yesterday"
+    correct_answer: "Tomorrow"
+    xp_reward: 15
+
+  - id: 129
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Vuba"
+    options:
+      - "Later"
+      - "Soon"
+      - "Never"
+    correct_answer: "Soon"
+    xp_reward: 15
+
+  - id: 130
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Nyuma"
+    options:
+      - "Soon"
+      - "Later"
+      - "Before"
+    correct_answer: "Later"
+    xp_reward: 15
+
+  - id: 131
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Icyumweru gitaha"
+    options:
+      - "This week"
+      - "Next week"
+      - "Last week"
+    correct_answer: "Next week"
+    xp_reward: 18
+
+  # 24. Grammar Selection
+  - id: 132
+    type: grammar
+    question: "Hitamo inshinga ikwiye y'igihe kizaza isobanura 'I will go'"
+    options: ["I will go", "I went", "I go"]
+    correct_answer: "I will go"
+    explanation: "'Nzajya' means 'I will go' (future tense)"
+    xp_reward: 15
+
+  - id: 133
+    type: grammar
+    question: "Hitamo inshinga ikwiye y'igihe kizaza isobanura 'she will come'"
+    options: ["she will come", "she came", "she comes"]
+    correct_answer: "she will come"
+    explanation: "'Azaza' means 'she will come' (future tense)"
+    xp_reward: 15
+
+  - id: 134
+    type: grammar
+    question: "Hitamo inshinga ikwiye y'igihe kizaza isobanura 'they will eat'"
+    options: ["they will eat", "they ate", "they eat"]
+    correct_answer: "they will eat"
+    explanation: "'Bazarya' means 'they will eat' (future tense)"
+    xp_reward: 15
+
+  - id: 135
+    type: grammar
+    question: "Hitamo inshinga ikwiye y'igihe kizaza isobanura 'we will travel'"
+    options: ["we will travel", "we traveled", "we travel"]
+    correct_answer: "we will travel"
+    explanation: "'Tuzagenda' means 'we will travel' (future tense)"
+    xp_reward: 15
+
+  # 25. Error Correction
+  - id: 136
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "I go to Kigali tomorrow."
+    translation: "Njya i Kigali ejo (ugomba gukoresha future tense)"
+    word_bank_for_fix: ["I", "will", "go", "to", "Kigali", "tomorrow"]
+    correct_sentence: "I will go to Kigali tomorrow."
+    explanation: "Use 'I will go' for future tense, not 'I go'."
+    xp_reward: 18
+
+  - id: 137
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "She comes tomorrow."
+    translation: "Aza ejo (ugomba gukoresha future tense)"
+    word_bank_for_fix: ["She", "will", "come", "tomorrow"]
+    correct_sentence: "She will come tomorrow."
+    explanation: "Use 'She will come' for future tense, not 'She comes'."
+    xp_reward: 18
+
+  - id: 138
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "We travel next week."
+    translation: "Tugenda icyumweru gitaha (ugomba gukoresha future tense)"
+    word_bank_for_fix: ["We", "will", "travel", "next", "week"]
+    correct_sentence: "We will travel next week."
+    explanation: "Use 'We will travel' for future tense, not 'We travel'."
+    xp_reward: 18
+
+  # Flashcards
+  - id: 139
+    type: flashcards
+    question: "Iyi ni modero y'amafishi y'igihe kizaza"
+    flashcards:
+      - front: "Ejo"
+        back: "Tomorrow"
+        image: "https://source.unsplash.com/featured/?tomorrow"
+      - front: "Icyumweru gitaha"
+        back: "Next week"
+        image: "https://source.unsplash.com/featured/?next-week"
+      - front: "Ukwezi gutaha"
+        back: "Next month"
+        image: "https://source.unsplash.com/featured/?next-month"
+      - front: "Umwaka utaha"
+        back: "Next year"
+        image: "https://source.unsplash.com/featured/?next-year"
+      - front: "Vuba"
+        back: "Soon"
+        image: "https://source.unsplash.com/featured/?soon"
+      - front: "Nyuma"
+        back: "Later"
+        image: "https://source.unsplash.com/featured/?later"
+      - front: "Nzajya"
+        back: "I will go"
+        image: "https://source.unsplash.com/featured/?going"
+      - front: "Azaza"
+        back: "She will come"
+        image: "https://source.unsplash.com/featured/?coming"
+      - front: "Tuzagenda"
+        back: "We will travel"
+        image: "https://source.unsplash.com/featured/?travel"
+      - front: "Aziga"
+        back: "He will study"
+        image: "https://source.unsplash.com/featured/?studying"
+      - front: "Nzagura imodoka"
+        back: "I will buy a car"
+        image: "https://source.unsplash.com/featured/?buying-car"
+      - front: "Tuzahurira ku isoko"
+        back: "We will meet at the market"
+        image: "https://source.unsplash.com/featured/?market"
+      - front: "Azafasha inshuti ye"
+        back: "She will help her friend"
+        image: "https://source.unsplash.com/featured/?helping"
+      - front: "Nzahamagara nyuma"
+        back: "I will call you later"
+        image: "https://source.unsplash.com/featured/?phone-call"
+      - front: "Bazasura ishuri"
+        back: "They will visit the school"
+        image: "https://source.unsplash.com/featured/?school-visit"
+    xp_reward: 45

@@ -1,0 +1,1331 @@
+lesson:
+  name: "Amarangamutima"
+  description: "Learn emotion words in English and how to express feelings"
+  xp_reward: 500
+
+exercises:
+
+  # 1. Translation Exercises - Basic Emotion Words ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'Unezerewe / Nishimiye' mu Cyongereza?"
+    answer: "Happy"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'Umubabaro / Nshimishijwe n'agahinda' mu Cyongereza?"
+    answer: "Sad"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'Umujinya / Arakaye' mu Cyongereza?"
+    answer: "Angry"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'Gutinya / Atinya' mu Cyongereza?"
+    answer: "Afraid / Scared"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'Gutungurwa / Aratunguwe' mu Cyongereza?"
+    answer: "Surprised"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'Akanyamuneza / Arishimye' mu Cyongereza?"
+    answer: "Excited"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'Amahoro / Yatuje' mu Cyongereza?"
+    answer: "Calm"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'Avugwaho / Yivangavanga' mu Cyongereza?"
+    answer: "Confused"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'Umunaniro / Ararushye' mu Cyongereza?"
+    answer: "Tired"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'Kumwe n'ubwigunge / Yonyine' mu Cyongereza?"
+    answer: "Lonely"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'Kwikanga / Akemangwa' mu Cyongereza?"
+    answer: "Embarrassed"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'Kwishimira / Arishimira' mu Cyongereza?"
+    answer: "Proud"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'Urukundo / Akunda' mu Cyongereza?"
+    answer: "Love / Loving"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'Ubwihebe / Arambiwe' mu Cyongereza?"
+    answer: "Hate"
+    note: "Both are correct"
+    xp_reward: 10
+
+  # Sentences About Emotions
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'Nishimiye / Unezerewe' mu Cyongereza?"
+    answer: "I am happy"
+    note: "Both are correct"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'Arababaye' mu Cyongereza?"
+    answer: "She is sad"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Ararakaye' mu Cyongereza?"
+    answer: "He is angry"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Batinye' mu Cyongereza?"
+    answer: "They are scared"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Nishimiye ibirori' mu Cyongereza?"
+    answer: "I am excited about the party"
+    xp_reward: 18
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Yatuje' mu Cyongereza?"
+    answer: "She is calm"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Nonyine / Ndumva nonyine' mu Cyongereza?"
+    answer: "I feel lonely"
+    note: "Both are correct"
+    xp_reward: 18
+
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Arishimira umuhungu we' mu Cyongereza?"
+    answer: "He is proud of his son"
+    xp_reward: 20
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Nkunda umuryango wanjye' mu Cyongereza?"
+    answer: "I love my family"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Wavuga ute 'Arambiwe kubeshya' mu Cyongereza?"
+    answer: "She hates lies"
+    xp_reward: 20
+
+  # 2. Multiple Choice
+  - id: 25
+    type: multiple_choice
+    question: "'Nishimiye' bisobanura iki?"
+    options:
+      - "Sad"
+      - "Happy"
+      - "Angry"
+      - "Tired"
+    answer: "Happy"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "'Arababaye' bisobanura iki?"
+    options:
+      - "She is happy"
+      - "She is sad"
+      - "She is angry"
+      - "She is calm"
+    answer: "She is sad"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "'Ararakaye' bisobanura iki?"
+    options:
+      - "He is scared"
+      - "He is tired"
+      - "He is angry"
+      - "He is surprised"
+    answer: "He is angry"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Batinye' bisobanura iki?"
+    options:
+      - "They are happy"
+      - "They are scared"
+      - "They are calm"
+      - "They are proud"
+    answer: "They are scared"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Yatuje' bisobanura iki?"
+    options:
+      - "She is calm"
+      - "She is confused"
+      - "She is excited"
+      - "She is lonely"
+    answer: "She is calm"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Nkunda umuryango wanjye' bisobanura iki?"
+    options:
+      - "I hate my family"
+      - "I love my family"
+      - "I miss my family"
+      - "I see my family"
+    answer: "I love my family"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 31
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'amarangamutima mu Cyongereza"
+    tts_text: "Nishimiye"
+    answer: "Happy"
+    translation: "Nishimiye"
+    xp_reward: 20
+
+  - id: 32
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Arababaye"
+    answer: "She is sad"
+    translation: "Arababaye"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Ararakaye"
+    answer: "He is angry"
+    translation: "Ararakaye"
+    xp_reward: 20
+
+  - id: 34
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Batinye"
+    answer: "They are scared"
+    translation: "Batinye"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Nishimiye ibirori"
+    answer: "I am excited about the party"
+    translation: "Nishimiye ibirori"
+    xp_reward: 22
+
+  - id: 36
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Nkunda umuryango wanjye"
+    answer: "I love my family"
+    translation: "Nkunda umuryango wanjye"
+    xp_reward: 22
+
+  - id: 37
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Arishimira umuhungu we"
+    answer: "He is proud of his son"
+    translation: "Arishimira umuhungu we"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 38
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye"
+    tts_text: "Nishimiye"
+    options:
+      - "Sad"
+      - "Happy"
+      - "Angry"
+    answer: "Happy"
+    xp_reward: 15
+
+  - id: 39
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye"
+    tts_text: "Arababaye"
+    options:
+      - "She is happy"
+      - "She is sad"
+      - "She is calm"
+    answer: "She is sad"
+    xp_reward: 15
+
+  - id: 40
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye"
+    tts_text: "Ararakaye"
+    options:
+      - "He is scared"
+      - "He is tired"
+      - "He is angry"
+    answer: "He is angry"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye"
+    tts_text: "Yatuje"
+    options:
+      - "She is calm"
+      - "She is confused"
+      - "She is excited"
+    answer: "She is calm"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye"
+    tts_text: "Nkunda umuryango wanjye"
+    options:
+      - "I hate my family"
+      - "I love my family"
+      - "I see my family"
+    answer: "I love my family"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 43
+    type: speaking
+    question: "Vuga iri jambo ry'amarangamutima mu Cyongereza"
+    prompt: "Nishimiye"
+    translation: "Happy"
+    xp_reward: 15
+
+  - id: 44
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Arababaye"
+    translation: "She is sad"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Ararakaye"
+    translation: "He is angry"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Batinye"
+    translation: "They are scared"
+    xp_reward: 15
+
+  - id: 47
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Nishimiye ibirori"
+    translation: "I am excited about the party"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Nkunda umuryango wanjye"
+    translation: "I love my family"
+    xp_reward: 18
+
+  - id: 49
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Arishimira umuhungu we"
+    translation: "He is proud of his son"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 50
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Nishimiye'"
+    word_bank: ["I", "am", "happy", "she", "is", "sad"]
+    correct_answer: ["I", "am", "happy"]
+    xp_reward: 15
+
+  - id: 51
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Arababaye'"
+    word_bank: ["She", "is", "sad", "I", "am", "happy"]
+    correct_answer: ["She", "is", "sad"]
+    xp_reward: 15
+
+  - id: 52
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Ararakaye'"
+    word_bank: ["He", "is", "angry", "she", "is", "sad"]
+    correct_answer: ["He", "is", "angry"]
+    xp_reward: 15
+
+  - id: 53
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Batinye'"
+    word_bank: ["They", "are", "scared", "he", "is", "angry"]
+    correct_answer: ["They", "are", "scared"]
+    xp_reward: 15
+
+  - id: 54
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Nishimiye ibirori'"
+    word_bank: ["I", "am", "excited", "about", "the", "party", "she", "is", "sad"]
+    correct_answer: ["I", "am", "excited", "about", "the", "party"]
+    xp_reward: 20
+
+  - id: 55
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Yatuje'"
+    word_bank: ["She", "is", "calm", "they", "are", "scared"]
+    correct_answer: ["She", "is", "calm"]
+    xp_reward: 15
+
+  - id: 56
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Nonyine'"
+    word_bank: ["I", "feel", "lonely", "I", "am", "happy"]
+    correct_answer: ["I", "feel", "lonely"]
+    xp_reward: 15
+
+  - id: 57
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Arishimira umuhungu we'"
+    word_bank: ["He", "is", "proud", "of", "his", "son", "she", "is", "calm"]
+    correct_answer: ["He", "is", "proud", "of", "his", "son"]
+    xp_reward: 22
+
+  - id: 58
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Nkunda umuryango wanjye'"
+    word_bank: ["I", "love", "my", "family", "he", "loves", "his", "son"]
+    correct_answer: ["I", "love", "my", "family"]
+    xp_reward: 18
+
+  - id: 59
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Arambiwe kubeshya'"
+    word_bank: ["She", "hates", "lies", "he", "loves", "truth"]
+    correct_answer: ["She", "hates", "lies"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble
+  - id: 60
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nishimiye'"
+    scrambled_words: ["happy", "am", "I"]
+    correct_sentence: "I am happy"
+    translation: "Nishimiye"
+    xp_reward: 12
+
+  - id: 61
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Arababaye'"
+    scrambled_words: ["sad", "is", "She"]
+    correct_sentence: "She is sad"
+    translation: "Arababaye"
+    xp_reward: 12
+
+  - id: 62
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ararakaye'"
+    scrambled_words: ["angry", "is", "He"]
+    correct_sentence: "He is angry"
+    translation: "Ararakaye"
+    xp_reward: 12
+
+  - id: 63
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Batinye'"
+    scrambled_words: ["scared", "are", "They"]
+    correct_sentence: "They are scared"
+    translation: "Batinye"
+    xp_reward: 12
+
+  - id: 64
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nishimiye ibirori'"
+    scrambled_words: ["excited", "about", "the", "party", "I", "am"]
+    correct_sentence: "I am excited about the party"
+    translation: "Nishimiye ibirori"
+    xp_reward: 18
+
+  - id: 65
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Yatuje'"
+    scrambled_words: ["calm", "is", "She"]
+    correct_sentence: "She is calm"
+    translation: "Yatuje"
+    xp_reward: 12
+
+  - id: 66
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nonyine'"
+    scrambled_words: ["lonely", "feel", "I"]
+    correct_sentence: "I feel lonely"
+    translation: "Nonyine"
+    xp_reward: 12
+
+  - id: 67
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Arishimira umuhungu we'"
+    scrambled_words: ["proud", "of", "his", "son", "He", "is"]
+    correct_sentence: "He is proud of his son"
+    translation: "Arishimira umuhungu we"
+    xp_reward: 20
+
+  - id: 68
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nkunda umuryango wanjye'"
+    scrambled_words: ["my", "family", "love", "I"]
+    correct_sentence: "I love my family"
+    translation: "Nkunda umuryango wanjye"
+    xp_reward: 18
+
+  - id: 69
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Arambiwe kubeshya'"
+    scrambled_words: ["lies", "hates", "She"]
+    correct_sentence: "She hates lies"
+    translation: "Arambiwe kubeshya"
+    xp_reward: 18
+
+  # 8. Fill in the Blank
+  - id: 70
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "I am ___."
+    options: ["happy", "sad", "angry"]
+    correct_answer: "happy"
+    translation: "Nishimiye"
+    xp_reward: 12
+
+  - id: 71
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "She is ___."
+    options: ["happy", "sad", "angry"]
+    correct_answer: "sad"
+    translation: "Arababaye"
+    xp_reward: 12
+
+  - id: 72
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "He is ___."
+    options: ["happy", "sad", "angry"]
+    correct_answer: "angry"
+    translation: "Ararakaye"
+    xp_reward: 12
+
+  - id: 73
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "They are ___."
+    options: ["scared", "calm", "lonely"]
+    correct_answer: "scared"
+    translation: "Batinye"
+    xp_reward: 12
+
+  - id: 74
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "I am excited about the ___."
+    options: ["party", "family", "son"]
+    correct_answer: "party"
+    translation: "Nishimiye ibirori"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "She is ___."
+    options: ["calm", "scared", "lonely"]
+    correct_answer: "calm"
+    translation: "Yatuje"
+    xp_reward: 12
+
+  - id: 76
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "I feel ___."
+    options: ["lonely", "happy", "sad"]
+    correct_answer: "lonely"
+    translation: "Nonyine"
+    xp_reward: 12
+
+  - id: 77
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "He is proud of his ___."
+    options: ["son", "family", "party"]
+    correct_answer: "son"
+    translation: "Arishimira umuhungu we"
+    xp_reward: 18
+
+  - id: 78
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "I love my ___."
+    options: ["family", "son", "party"]
+    correct_answer: "family"
+    translation: "Nkunda umuryango wanjye"
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "She hates ___."
+    options: ["lies", "truth", "family"]
+    correct_answer: "lies"
+    translation: "Arambiwe kubeshya"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 80
+    type: picture_word
+    question: "Aya ni amarangamutima aki?"
+    image_url: "https://source.unsplash.com/featured/?happy"
+    options: ["Happy", "Sad", "Angry"]
+    correct_answer: "Happy"
+    xp_reward: 10
+
+  - id: 81
+    type: picture_word
+    question: "Aya ni amarangamutima aki?"
+    image_url: "https://source.unsplash.com/featured/?sad"
+    options: ["Happy", "Sad", "Angry"]
+    correct_answer: "Sad"
+    xp_reward: 10
+
+  - id: 82
+    type: picture_word
+    question: "Aya ni amarangamutima aki?"
+    image_url: "https://source.unsplash.com/featured/?angry"
+    options: ["Happy", "Sad", "Angry"]
+    correct_answer: "Angry"
+    xp_reward: 10
+
+  - id: 83
+    type: picture_word
+    question: "Aya ni amarangamutima aki?"
+    image_url: "https://source.unsplash.com/featured/?scared"
+    options: ["Scared", "Calm", "Lonely"]
+    correct_answer: "Scared"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "Aya ni amarangamutima aki?"
+    image_url: "https://source.unsplash.com/featured/?calm"
+    options: ["Scared", "Calm", "Lonely"]
+    correct_answer: "Calm"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "Aya ni amarangamutima aki?"
+    image_url: "https://source.unsplash.com/featured/?lonely"
+    options: ["Scared", "Calm", "Lonely"]
+    correct_answer: "Lonely"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Aya ni amarangamutima aki?"
+    image_url: "https://source.unsplash.com/featured/?proud"
+    options: ["Proud", "Hate", "Happy"]
+    correct_answer: "Proud"
+    xp_reward: 12
+
+  - id: 87
+    type: picture_word
+    question: "Aya ni amarangamutima aki?"
+    image_url: "https://source.unsplash.com/featured/?love"
+    options: ["Love", "Hate", "Scared"]
+    correct_answer: "Love"
+    xp_reward: 12
+
+  # 10. Word Matching
+  - id: 88
+    type: matching
+    question: "Huza amarangamutima"
+    pairs:
+      - left: "Happy"
+        right: "Nishimiye"
+      - left: "Sad"
+        right: "Arababaye"
+      - left: "Angry"
+        right: "Ararakaye"
+      - left: "Scared"
+        right: "Batinye"
+      - left: "Calm"
+        right: "Yatuje"
+      - left: "Lonely"
+        right: "Nonyine"
+      - left: "Proud"
+        right: "Arishimira"
+      - left: "Love"
+        right: "Nkunda"
+      - left: "Hate"
+        right: "Arambiwe"
+    xp_reward: 25
+
+  - id: 89
+    type: matching
+    question: "Huza interuro"
+    pairs:
+      - left: "I am happy"
+        right: "Nishimiye"
+      - left: "She is sad"
+        right: "Arababaye"
+      - left: "He is angry"
+        right: "Ararakaye"
+      - left: "They are scared"
+        right: "Batinye"
+      - left: "I am excited about the party"
+        right: "Nishimiye ibirori"
+      - left: "She is calm"
+        right: "Yatuje"
+      - left: "I feel lonely"
+        right: "Nonyine"
+      - left: "He is proud of his son"
+        right: "Arishimira umuhungu we"
+      - left: "I love my family"
+        right: "Nkunda umuryango wanjye"
+      - left: "She hates lies"
+        right: "Arambiwe kubeshya"
+    xp_reward: 28
+
+  # 12. Choose Missing Word
+  - id: 90
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "I am ___."
+    missing_word_position: 2
+    options: ["happy", "sad", "angry"]
+    correct_answer: "happy"
+    translation: "Nishimiye"
+    xp_reward: 12
+
+  - id: 91
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "She is ___."
+    missing_word_position: 2
+    options: ["happy", "sad", "angry"]
+    correct_answer: "sad"
+    translation: "Arababaye"
+    xp_reward: 12
+
+  - id: 92
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "They are ___."
+    missing_word_position: 2
+    options: ["scared", "calm", "lonely"]
+    correct_answer: "scared"
+    translation: "Batinye"
+    xp_reward: 12
+
+  - id: 93
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "I am excited about the ___."
+    missing_word_position: 4
+    options: ["party", "family", "son"]
+    correct_answer: "party"
+    translation: "Nishimiye ibirori"
+    xp_reward: 15
+
+  - id: 94
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "I love my ___."
+    missing_word_position: 3
+    options: ["family", "son", "party"]
+    correct_answer: "family"
+    translation: "Nkunda umuryango wanjye"
+    xp_reward: 15
+
+  # 13. Read and Answer
+  - id: 95
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Nishimiye. Arababaye. Ararakaye."
+    question: "Njye mfeeling nki?"
+    options: ["Happy", "Sad", "Angry", "Scared"]
+    correct_answer: "Happy"
+    xp_reward: 12
+
+  - id: 96
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Nishimiye ibirori. Nkunda umuryango wanjye."
+    question: "Nishimishijwe n'iki?"
+    options: ["My family", "The party", "My son", "Lies"]
+    correct_answer: "The party"
+    xp_reward: 15
+
+  - id: 97
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Arishimira umuhungu we. Arababaye."
+    question: "Yishimira nde?"
+    options: ["His daughter", "His son", "His wife", "His friend"]
+    correct_answer: "His son"
+    xp_reward: 15
+
+  - id: 98
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Arambiwe kubeshya. Nkunda umuryango wanjye."
+    question: "Arambiwe iki?"
+    options: ["Her family", "The party", "Lies", "Being alone"]
+    correct_answer: "Lies"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 99
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Nishimiye' risobanura 'I am happy'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 100
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Arababaye' risobanura 'He is angry'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 101
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Batinye' risobanura 'They are scared'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 102
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Nkunda umuryango wanjye' risobanura 'I love my family'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 103
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Arambiwe kubeshya' risobanura 'She loves lies'."
+    correct_answer: false
+    xp_reward: 12
+
+  # 15. Conversation Exercise
+  - id: 104
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe"
+    bot_message: "Umeze ute?"
+    translation: "How are you?"
+    word_bank: ["I", "am", "happy", "she", "is", "sad"]
+    correct_response: ["I", "am", "happy"]
+    xp_reward: 15
+
+  - id: 105
+    type: conversation
+    question: "Subiza ikibazo"
+    bot_message: "Umeze ute?"
+    translation: "How are you?"
+    options:
+      - "I am happy"
+      - "She is sad"
+      - "He is angry"
+    correct_response: "I am happy"
+    xp_reward: 12
+
+  - id: 106
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe"
+    bot_message: "Ushimishijwe n'iki?"
+    translation: "What are you excited about?"
+    word_bank: ["I", "am", "excited", "about", "the", "party", "my", "family"]
+    correct_response: ["I", "am", "excited", "about", "the", "party"]
+    xp_reward: 18
+
+  - id: 107
+    type: conversation
+    question: "Subiza ikibazo"
+    bot_message: "Ute?"
+    translation: "How are you feeling?"
+    options:
+      - "I feel lonely"
+      - "I am happy"
+      - "They are scared"
+    correct_response: "I am happy"
+    xp_reward: 12
+
+  # 16. Story Exercise
+  - id: 108
+    type: story
+    title: "Amarangamutima Yanjye"
+    story_intro: "Soma inkuru y'amarangamutima. Hanyuma ubake interuro."
+    story_segments:
+      - text: "I am happy."
+      - text: "She is sad."
+      - text: "He is angry."
+      - text: "They are scared."
+      - text: "I am excited about the party."
+      - text: "She is calm."
+      - text: "I love my family."
+      - text: "He is proud of his son."
+    exercises:
+      - type: word_bank
+        question: "Ubaka 'I am happy'"
+        word_bank: ["I", "am", "happy", "she", "is", "sad"]
+        correct_answer: ["I", "am", "happy"]
+      - type: word_bank
+        question: "Ubaka 'She is sad'"
+        word_bank: ["She", "is", "sad", "I", "am", "happy"]
+        correct_answer: ["She", "is", "sad"]
+      - type: word_bank
+        question: "Ubaka 'He is angry'"
+        word_bank: ["He", "is", "angry", "she", "is", "sad"]
+        correct_answer: ["He", "is", "angry"]
+      - type: word_bank
+        question: "Ubaka 'They are scared'"
+        word_bank: ["They", "are", "scared", "he", "is", "angry"]
+        correct_answer: ["They", "are", "scared"]
+      - type: word_bank
+        question: "Ubaka 'I am excited about the party'"
+        word_bank: ["I", "am", "excited", "about", "the", "party", "she", "is", "calm"]
+        correct_answer: ["I", "am", "excited", "about", "the", "party"]
+      - type: word_bank
+        question: "Ubaka 'I love my family'"
+        word_bank: ["I", "love", "my", "family", "he", "loves", "his", "son"]
+        correct_answer: ["I", "love", "my", "family"]
+      - type: word_bank
+        question: "Ubaka 'He is proud of his son'"
+        word_bank: ["He", "is", "proud", "of", "his", "son", "she", "is", "calm"]
+        correct_answer: ["He", "is", "proud", "of", "his", "son"]
+    xp_reward: 45
+
+  # 17. Pronunciation Check
+  - id: 109
+    type: pronunciation
+    question: "Vuga iri jambo ry'amarangamutima mu Cyongereza neza"
+    prompt: "Nishimiye"
+    translation: "I am happy"
+    xp_reward: 15
+
+  - id: 110
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Arababaye"
+    translation: "She is sad"
+    xp_reward: 15
+
+  - id: 111
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Ararakaye"
+    translation: "He is angry"
+    xp_reward: 15
+
+  - id: 112
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Batinye"
+    translation: "They are scared"
+    xp_reward: 15
+
+  - id: 113
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Nishimiye ibirori"
+    translation: "I am excited about the party"
+    xp_reward: 18
+
+  - id: 114
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Nkunda umuryango wanjye"
+    translation: "I love my family"
+    xp_reward: 18
+
+  - id: 115
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Arishimira umuhungu we"
+    translation: "He is proud of his son"
+    xp_reward: 20
+
+  # 18. Identify Correct Meaning
+  - id: 116
+    type: identify_meaning
+    question: "'Nishimiye' bisobanura iki?"
+    context_sentence: "Nishimiye."
+    word: "Nishimiye"
+    options: ["I am sad", "I am happy", "I am angry", "I am scared"]
+    correct_answer: "I am happy"
+    xp_reward: 15
+
+  - id: 117
+    type: identify_meaning
+    question: "'Arababaye' bisobanura iki?"
+    context_sentence: "Arababaye."
+    word: "Arababaye"
+    options: ["He is happy", "She is sad", "They are angry", "We are scared"]
+    correct_answer: "She is sad"
+    xp_reward: 15
+
+  - id: 118
+    type: identify_meaning
+    question: "'Batinye' bisobanura iki?"
+    context_sentence: "Batinye."
+    word: "Batinye"
+    options: ["I am scared", "You are scared", "They are scared", "We are scared"]
+    correct_answer: "They are scared"
+    xp_reward: 15
+
+  - id: 119
+    type: identify_meaning
+    question: "'Nkunda' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Nkunda umuryango wanjye."
+    word: "Nkunda"
+    options: ["I hate", "I love", "I see", "I want"]
+    correct_answer: "I love"
+    xp_reward: 15
+
+  - id: 120
+    type: identify_meaning
+    question: "'Kubeshya' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Arambiwe kubeshya."
+    word: "kubeshya"
+    options: ["truth", "lies", "family", "party"]
+    correct_answer: "lies"
+    xp_reward: 18
+
+  # 19. Speed Matching
+  - id: 121
+    type: speed_matching
+    title: "Huza Byihuse: Amarangamutima"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Happy"
+        right: "Nishimiye"
+      - left: "Sad"
+        right: "Arababaye"
+      - left: "Angry"
+        right: "Ararakaye"
+      - left: "Scared"
+        right: "Batinye"
+      - left: "Calm"
+        right: "Yatuje"
+      - left: "Lonely"
+        right: "Nonyine"
+      - left: "Proud"
+        right: "Arishimira"
+      - left: "Love"
+        right: "Nkunda"
+      - left: "Hate"
+        right: "Arambiwe"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 122
+    type: timed_challenge
+    title: "Kubahuka: Amarangamutima"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Nishimiye"
+        answer: "Happy"
+      - question: "Arababaye"
+        answer: "Sad"
+      - question: "Ararakaye"
+        answer: "Angry"
+      - question: "Batinye"
+        answer: "Scared"
+      - question: "Yatuje"
+        answer: "Calm"
+    xp_reward: 35
+
+  # 21. Character Writing
+  - id: 123
+    type: character_writing
+    question: "Yandika iri jambo ry'amarangamutima mu Cyongereza"
+    prompt: "Nishimiye"
+    translation: "I am happy"
+    xp_reward: 15
+
+  - id: 124
+    type: character_writing
+    question: "Yandika iyi nteruro mu Cyongereza"
+    prompt: "Arababaye"
+    translation: "She is sad"
+    xp_reward: 15
+
+  - id: 125
+    type: character_writing
+    question: "Yandika iyi nteruro mu Cyongereza"
+    prompt: "Ararakaye"
+    translation: "He is angry"
+    xp_reward: 15
+
+  - id: 126
+    type: character_writing
+    question: "Yandika iyi nteruro mu Cyongereza"
+    prompt: "Nkunda umuryango wanjye"
+    translation: "I love my family"
+    xp_reward: 18
+
+  # 22. Spaced Repetition Review
+  - id: 127
+    type: review
+    title: "Isubiramo: Amarangamutima"
+    exercises:
+      - type: translation
+        question: "Nishimiye"
+        answer: "Happy"
+      - type: multiple_choice
+        question: "Arababaye"
+        options: ["She is happy", "She is sad", "She is angry"]
+        answer: "She is sad"
+      - type: fill_blank
+        question: "I am ___."
+        text_with_blank: "I am ___."
+        options: ["happy", "sad", "angry"]
+        correct_answer: "happy"
+      - type: picture_word
+        question: "Aya ni amarangamutima aki?"
+        image_url: "https://source.unsplash.com/featured/?angry"
+        options: ["Happy", "Sad", "Angry"]
+        correct_answer: "Angry"
+      - type: sentence_scramble
+        question: "Tondeka: Nkunda umuryango wanjye"
+        scrambled_words: ["my", "family", "love", "I"]
+        correct_sentence: "I love my family"
+    xp_reward: 30
+
+  # 23. Listening Comprehension
+  - id: 128
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye"
+    audio: "Nishimiye"
+    options:
+      - "Happy"
+      - "Sad"
+      - "Angry"
+    correct_answer: "Happy"
+    xp_reward: 15
+
+  - id: 129
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye"
+    audio: "Arababaye"
+    options:
+      - "Happy"
+      - "Sad"
+      - "Angry"
+    correct_answer: "Sad"
+    xp_reward: 15
+
+  - id: 130
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye"
+    audio: "Ararakaye"
+    options:
+      - "Happy"
+      - "Sad"
+      - "Angry"
+    correct_answer: "Angry"
+    xp_reward: 15
+
+  - id: 131
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye"
+    audio: "Batinye"
+    options:
+      - "Calm"
+      - "Scared"
+      - "Lonely"
+    correct_answer: "Scared"
+    xp_reward: 15
+
+  # 24. Grammar Selection
+  - id: 132
+    type: grammar
+    question: "Hitamo ijambo rikwiye risobanura 'I am happy'"
+    options: ["I am happy", "She is sad", "He is angry"]
+    correct_answer: "I am happy"
+    explanation: "'Nishimiye' means 'I am happy'"
+    xp_reward: 15
+
+  - id: 133
+    type: grammar
+    question: "Hitamo ijambo rikwiye risobanura 'She is sad'"
+    options: ["I am happy", "She is sad", "He is angry"]
+    correct_answer: "She is sad"
+    explanation: "'Arababaye' means 'She is sad'"
+    xp_reward: 15
+
+  - id: 134
+    type: grammar
+    question: "Hitamo ijambo rikwiye risobanura 'They are scared'"
+    options: ["They are scared", "She is calm", "I feel lonely"]
+    correct_answer: "They are scared"
+    explanation: "'Batinye' means 'They are scared'"
+    xp_reward: 15
+
+  - id: 135
+    type: grammar
+    question: "Hitamo inshinga ikwiye isobanura 'I love'"
+    options: ["I love", "I hate", "I see"]
+    correct_answer: "I love"
+    explanation: "'Nkunda' means 'I love'"
+    xp_reward: 15
+
+  # 25. Error Correction
+  - id: 136
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "I am sad the party."
+    translation: "Nishimiye ibirori (ariko interuro ntizitunganye)"
+    word_bank_for_fix: ["I", "am", "excited", "about", "the", "party"]
+    correct_sentence: "I am excited about the party."
+    explanation: "To express excitement, use 'I am excited about the party'"
+    xp_reward: 15
+
+  - id: 137
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "He proud his son."
+    translation: "Arishimira umuhungu we (ariko interuro ntizitunganye)"
+    word_bank_for_fix: ["He", "is", "proud", "of", "his", "son"]
+    correct_sentence: "He is proud of his son."
+    explanation: "Use 'He is proud of his son' - include 'is' and 'of'"
+    xp_reward: 18
+
+  - id: 138
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "I love my son."
+    translation: "Nkunda umuryango wanjye (ariko ntabwo ari umuhungu)"
+    word_bank_for_fix: ["I", "love", "my", "family"]
+    correct_sentence: "I love my family."
+    explanation: "Use 'family' instead of 'son' for 'umuryango'"
+    xp_reward: 18
+
+  # Flashcards
+  - id: 139
+    type: flashcards
+    question: "Iyi ni modero y'amafishi y'amarangamutima"
+    flashcards:
+      - front: "Nishimiye / Unezerewe"
+        back: "Happy"
+        image: "https://source.unsplash.com/featured/?happy"
+      - front: "Arababaye"
+        back: "Sad"
+        image: "https://source.unsplash.com/featured/?sad"
+      - front: "Ararakaye"
+        back: "Angry"
+        image: "https://source.unsplash.com/featured/?angry"
+      - front: "Batinye"
+        back: "Scared"
+        image: "https://source.unsplash.com/featured/?scared"
+      - front: "Aratunguwe"
+        back: "Surprised"
+        image: "https://source.unsplash.com/featured/?surprised"
+      - front: "Arishimye"
+        back: "Excited"
+        image: "https://source.unsplash.com/featured/?excited"
+      - front: "Yatuje"
+        back: "Calm"
+        image: "https://source.unsplash.com/featured/?calm"
+      - front: "Yivangavanga"
+        back: "Confused"
+        image: "https://source.unsplash.com/featured/?confused"
+      - front: "Ararushye"
+        back: "Tired"
+        image: "https://source.unsplash.com/featured/?tired"
+      - front: "Nonyine"
+        back: "Lonely"
+        image: "https://source.unsplash.com/featured/?lonely"
+      - front: "Akemangwa"
+        back: "Embarrassed"
+        image: "https://source.unsplash.com/featured/?embarrassed"
+      - front: "Arishimira"
+        back: "Proud"
+        image: "https://source.unsplash.com/featured/?proud"
+      - front: "Nkunda"
+        back: "Love"
+        image: "https://source.unsplash.com/featured/?love"
+      - front: "Arambiwe"
+        back: "Hate"
+        image: "https://source.unsplash.com/featured/?hate"
+      - front: "Nkunda umuryango wanjye"
+        back: "I love my family"
+        image: "https://source.unsplash.com/featured/?family-love"
+      - front: "Arishimira umuhungu we"
+        back: "He is proud of his son"
+        image: "https://source.unsplash.com/featured/?father-son-proud"
+    xp_reward: 45

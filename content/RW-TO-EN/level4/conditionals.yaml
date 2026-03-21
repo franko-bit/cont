@@ -1,0 +1,1204 @@
+lesson:
+  name: "Imyitwarire y'Ahazaza"
+  description: "Learn how to express conditions and possibilities in English"
+  xp_reward: 500
+
+exercises:
+
+  # 1. Translation Exercises - Basic Vocabulary ONLY (Safe for single words/phrases)
+  # Basic Conditional Words
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'Niba' mu Cyongereza?"
+    answer: "If"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'Iyo' mu Cyongereza?"
+    answer: "When"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'Keretse' mu Cyongereza?"
+    answer: "Unless"
+    note: "Also expressed as 'Nti... niba'"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'Hanyuma' mu Cyongereza?"
+    answer: "Then"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'Ashobora' mu Cyongereza?"
+    answer: "Might"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'Azakora' mu Cyongereza?"
+    answer: "Will"
+    note: "Also 'Azaba' depending on context"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'Byaba' mu Cyongereza?"
+    answer: "Would"
+    xp_reward: 15
+
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'Bashobora' mu Cyongereza?"
+    answer: "Could"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'Bikwiye' mu Cyongereza?"
+    answer: "Should"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'Ashobora' mu Cyongereza?"
+    answer: "Can"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'Ntibishoboka' mu Cyongereza?"
+    answer: "Impossible"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'Birashoboka' mu Cyongereza?"
+    answer: "Possible"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'Mbere y'uko' mu Cyongereza?"
+    answer: "Before"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'Nyuma y'uko' mu Cyongereza?"
+    answer: "After"
+    xp_reward: 15
+
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'Buri gihe' mu Cyongereza?"
+    answer: "Always"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'Nta na rimwe' mu Cyongereza?"
+    answer: "Never"
+    xp_reward: 10
+
+  # Translation - Common Conditional Phrases
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Niba imvura iguye, nzaguma mu rugo' mu Cyongereza?"
+    answer: "If it rains, I will stay home"
+    xp_reward: 20
+
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Niba ngiye i Kigali, nzasura inshuti yanjye' mu Cyongereza?"
+    answer: "If I go to Kigali, I will visit my friend"
+    xp_reward: 20
+
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Niba wiga, uzatsinda' mu Cyongereza?"
+    answer: "If you study, you will succeed"
+    xp_reward: 18
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Niba aje, tuzatangira inama' mu Cyongereza?"
+    answer: "If he comes, we will start the meeting"
+    xp_reward: 20
+
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Ntiwihutira, uzacika bisi' mu Cyongereza?"
+    answer: "Unless you hurry, you will miss the bus"
+    xp_reward: 20
+
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Niba nari mfite amafaranga, nari kugura imodoka' mu Cyongereza?"
+    answer: "If I had money, I would buy a car"
+    xp_reward: 22
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Iyo yari hano, yashoboraga gufasha' mu Cyongereza?"
+    answer: "If she were here, she could help"
+    xp_reward: 22
+
+  - id: 24
+    type: translation
+    question: "Wavuga ute 'Nari gutembera iyo nari mfite igihe kinini' mu Cyongereza?"
+    answer: "I would travel if I had more time"
+    xp_reward: 22
+
+  - id: 25
+    type: translation
+    question: "Wavuga ute 'Bikwiye ko urya mbere yo kugenda' mu Cyongereza?"
+    answer: "You should eat before leaving"
+    xp_reward: 20
+
+  - id: 26
+    type: translation
+    question: "Wavuga ute 'Niba bishoboka, nzaza ejo' mu Cyongereza?"
+    answer: "If it is possible, I will come tomorrow"
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 27
+    type: multiple_choice
+    question: "'Niba' bisobanura iki?"
+    options:
+      - "When"
+      - "If"
+      - "Then"
+      - "After"
+    answer: "If"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Iyo' bisobanura iki?"
+    options:
+      - "If"
+      - "When"
+      - "Then"
+      - "Before"
+    answer: "When"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Hanyuma' bisobanura iki?"
+    options:
+      - "Before"
+      - "After"
+      - "Then"
+      - "When"
+    answer: "Then"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Birashoboka' bisobanura iki?"
+    options:
+      - "Impossible"
+      - "Possible"
+      - "Always"
+      - "Never"
+    answer: "Possible"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Ntibishoboka' bisobanura iki?"
+    options:
+      - "Possible"
+      - "Impossible"
+      - "Always"
+      - "Never"
+    answer: "Impossible"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Buri gihe' bisobanura iki?"
+    options:
+      - "Never"
+      - "Always"
+      - "Sometimes"
+      - "Often"
+    answer: "Always"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Nta na rimwe' bisobanura iki?"
+    options:
+      - "Always"
+      - "Sometimes"
+      - "Never"
+      - "Often"
+    answer: "Never"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 34
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo mu Cyongereza"
+    tts_text: "Niba"
+    answer: "If"
+    translation: "Niba"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo mu Cyongereza"
+    tts_text: "Iyo"
+    answer: "When"
+    translation: "Iyo"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo mu Cyongereza"
+    tts_text: "Birashoboka"
+    answer: "Possible"
+    translation: "Birashoboka"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Niba imvura iguye, nzaguma mu rugo"
+    answer: "If it rains, I will stay home"
+    translation: "Niba imvura iguye, nzaguma mu rugo"
+    xp_reward: 25
+
+  - id: 38
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Niba wiga, uzatsinda"
+    answer: "If you study, you will succeed"
+    translation: "Niba wiga, uzatsinda"
+    xp_reward: 22
+
+  - id: 39
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "Niba bishoboka, nzaza ejo"
+    answer: "If it is possible, I will come tomorrow"
+    translation: "Niba bishoboka, nzaza ejo"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 40
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ijambo rikwiye"
+    tts_text: "Niba"
+    options:
+      - "When"
+      - "If"
+      - "Then"
+    answer: "If"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ijambo rikwiye"
+    tts_text: "Birashoboka"
+    options:
+      - "Impossible"
+      - "Possible"
+      - "Always"
+    answer: "Possible"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye"
+    tts_text: "Niba wiga, uzatsinda"
+    options:
+      - "If you study, you will succeed"
+      - "If it rains, I will stay home"
+      - "If it is possible, I will come"
+    answer: "If you study, you will succeed"
+    xp_reward: 18
+
+  - id: 43
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye"
+    tts_text: "Niba bishoboka, nzaza ejo"
+    options:
+      - "If it rains, I will stay home"
+      - "If it is possible, I will come tomorrow"
+      - "If you study, you will succeed"
+    answer: "If it is possible, I will come tomorrow"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 44
+    type: speaking
+    question: "Vuga iri jambo mu Cyongereza"
+    prompt: "Niba"
+    translation: "If"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Vuga iri jambo mu Cyongereza"
+    prompt: "Birashoboka"
+    translation: "Possible"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Niba imvura iguye, nzaguma mu rugo"
+    translation: "If it rains, I will stay home"
+    xp_reward: 20
+
+  - id: 47
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Niba wiga, uzatsinda"
+    translation: "If you study, you will succeed"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Niba bishoboka, nzaza ejo"
+    translation: "If it is possible, I will come tomorrow"
+    xp_reward: 18
+
+  # 6. Word Bank Sentence Building
+  - id: 49
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Niba imvura iguye, nzaguma mu rugo'"
+    word_bank: ["If", "it", "rains", "I", "will", "stay", "home", "go", "out"]
+    correct_answer: ["If", "it", "rains", "I", "will", "stay", "home"]
+    xp_reward: 22
+
+  - id: 50
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Niba ngiye i Kigali, nzasura inshuti yanjye'"
+    word_bank: ["If", "I", "go", "to", "Kigali", "I", "will", "visit", "my", "friend"]
+    correct_answer: ["If", "I", "go", "to", "Kigali", "I", "will", "visit", "my", "friend"]
+    xp_reward: 25
+
+  - id: 51
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Niba wiga, uzatsinda'"
+    word_bank: ["If", "you", "study", "you", "will", "succeed", "fail", "work"]
+    correct_answer: ["If", "you", "study", "you", "will", "succeed"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Niba aje, tuzatangira inama'"
+    word_bank: ["If", "he", "comes", "we", "will", "start", "the", "meeting", "class"]
+    correct_answer: ["If", "he", "comes", "we", "will", "start", "the", "meeting"]
+    xp_reward: 22
+
+  - id: 53
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Niba nari mfite amafaranga, nari kugura imodoka'"
+    word_bank: ["If", "I", "had", "money", "I", "would", "buy", "a", "car", "house"]
+    correct_answer: ["If", "I", "had", "money", "I", "would", "buy", "a", "car"]
+    xp_reward: 28
+
+  - id: 54
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Iyo yari hano, yashoboraga gufasha'"
+    word_bank: ["If", "she", "were", "here", "she", "could", "help", "come", "work"]
+    correct_answer: ["If", "she", "were", "here", "she", "could", "help"]
+    xp_reward: 25
+
+  - id: 55
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Bikwiye ko urya mbere yo kugenda'"
+    word_bank: ["You", "should", "eat", "before", "leaving", "after", "coming"]
+    correct_answer: ["You", "should", "eat", "before", "leaving"]
+    xp_reward: 22
+
+  - id: 56
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Niba bishoboka, nzaza ejo'"
+    word_bank: ["If", "it", "is", "possible", "I", "will", "come", "tomorrow", "today"]
+    correct_answer: ["If", "it", "is", "possible", "I", "will", "come", "tomorrow"]
+    xp_reward: 18
+
+  # 7. Sentence Scramble
+  - id: 57
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Niba imvura iguye, nzaguma mu rugo'"
+    scrambled_words: ["rains", "If", "it", "I", "will", "stay", "home"]
+    correct_sentence: "If it rains, I will stay home"
+    translation: "Niba imvura iguye, nzaguma mu rugo"
+    xp_reward: 22
+
+  - id: 58
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Niba wiga, uzatsinda'"
+    scrambled_words: ["you", "If", "study", "you", "will", "succeed"]
+    correct_sentence: "If you study, you will succeed"
+    translation: "Niba wiga, uzatsinda"
+    xp_reward: 18
+
+  - id: 59
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Niba aje, tuzatangira inama'"
+    scrambled_words: ["he", "If", "comes", "we", "will", "start", "the", "meeting"]
+    correct_sentence: "If he comes, we will start the meeting"
+    translation: "Niba aje, tuzatangira inama"
+    xp_reward: 22
+
+  - id: 60
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ntiwihutira, uzacika bisi'"
+    scrambled_words: ["hurry", "Unless", "you", "you", "will", "miss", "the", "bus"]
+    correct_sentence: "Unless you hurry, you will miss the bus"
+    translation: "Ntiwihutira, uzacika bisi"
+    xp_reward: 20
+
+  - id: 61
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Iyo yari hano, yashoboraga gufasha'"
+    scrambled_words: ["she", "If", "were", "here", "she", "could", "help"]
+    correct_sentence: "If she were here, she could help"
+    translation: "Iyo yari hano, yashoboraga gufasha"
+    xp_reward: 25
+
+  - id: 62
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Bikwiye ko urya mbere yo kugenda'"
+    scrambled_words: ["should", "You", "eat", "before", "leaving"]
+    correct_sentence: "You should eat before leaving"
+    translation: "Bikwiye ko urya mbere yo kugenda"
+    xp_reward: 22
+
+  - id: 63
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Niba bishoboka, nzaza ejo'"
+    scrambled_words: ["is", "If", "it", "possible", "I", "will", "come", "tomorrow"]
+    correct_sentence: "If it is possible, I will come tomorrow"
+    translation: "Niba bishoboka, nzaza ejo"
+    xp_reward: 18
+
+  # 8. Fill in the Blank
+  - id: 64
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "___ it rains, I will stay home."
+    options: ["If", "When", "Then"]
+    correct_answer: "If"
+    translation: "Niba imvura iguye, nzaguma mu rugo"
+    xp_reward: 15
+
+  - id: 65
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "If you study, you will ___."
+    options: ["succeed", "fail", "leave"]
+    correct_answer: "succeed"
+    translation: "Niba wiga, uzatsinda"
+    xp_reward: 15
+
+  - id: 66
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "If he comes, we will start the ___."
+    options: ["meeting", "school", "road"]
+    correct_answer: "meeting"
+    translation: "Niba aje, tuzatangira inama"
+    xp_reward: 18
+
+  - id: 67
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "Unless you hurry, you will ___ the bus."
+    options: ["miss", "catch", "take"]
+    correct_answer: "miss"
+    translation: "Ntiwihutira, uzacika bisi"
+    xp_reward: 18
+
+  - id: 68
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "If she were here, she could ___."
+    options: ["help", "leave", "come"]
+    correct_answer: "help"
+    translation: "Iyo yari hano, yashoboraga gufasha"
+    xp_reward: 18
+
+  - id: 69
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "You should eat ___ leaving."
+    options: ["before", "after", "then"]
+    correct_answer: "before"
+    translation: "Bikwiye ko urya mbere yo kugenda"
+    xp_reward: 18
+
+  - id: 70
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "If it is possible, I will come ___."
+    options: ["tomorrow", "today", "yesterday"]
+    correct_answer: "tomorrow"
+    translation: "Niba bishoboka, nzaza ejo"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 71
+    type: picture_word
+    question: "Iki ni iki?"
+    image_url: "https://source.unsplash.com/featured/?rain"
+    options: ["Rain", "Sun", "Wind"]
+    correct_answer: "Rain"
+    xp_reward: 10
+
+  - id: 72
+    type: picture_word
+    question: "Iki ni iki?"
+    image_url: "https://source.unsplash.com/featured/?studying"
+    options: ["Studying", "Working", "Eating"]
+    correct_answer: "Studying"
+    xp_reward: 10
+
+  - id: 73
+    type: picture_word
+    question: "Iki ni iki?"
+    image_url: "https://source.unsplash.com/featured/?money"
+    options: ["Money", "Book", "House"]
+    correct_answer: "Money"
+    xp_reward: 10
+
+  - id: 74
+    type: picture_word
+    question: "Iki ni iki?"
+    image_url: "https://source.unsplash.com/featured/?car"
+    options: ["Car", "Bus", "Bicycle"]
+    correct_answer: "Car"
+    xp_reward: 10
+
+  - id: 75
+    type: picture_word
+    question: "Iki ni iki?"
+    image_url: "https://source.unsplash.com/featured/?helping"
+    options: ["Helping", "Crying", "Laughing"]
+    correct_answer: "Helping"
+    xp_reward: 10
+
+  - id: 76
+    type: picture_word
+    question: "Iki ni iki?"
+    image_url: "https://source.unsplash.com/featured/?bus"
+    options: ["Bus", "Car", "Plane"]
+    correct_answer: "Bus"
+    xp_reward: 10
+
+  # 10. Word Matching
+  - id: 77
+    type: matching
+    question: "Huza amagambo y'imyitwarire"
+    pairs:
+      - left: "If"
+        right: "Niba"
+      - left: "When"
+        right: "Iyo"
+      - left: "Then"
+        right: "Hanyuma"
+      - left: "Before"
+        right: "Mbere y'uko"
+      - left: "After"
+        right: "Nyuma y'uko"
+      - left: "Always"
+        right: "Buri gihe"
+      - left: "Never"
+        right: "Nta na rimwe"
+      - left: "Possible"
+        right: "Birashoboka"
+      - left: "Impossible"
+        right: "Ntibishoboka"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Huza inshinga z'uburyo"
+    pairs:
+      - left: "Might"
+        right: "Ashobora"
+      - left: "Will"
+        right: "Azakora"
+      - left: "Would"
+        right: "Byaba"
+      - left: "Could"
+        right: "Bashobora"
+      - left: "Should"
+        right: "Bikwiye"
+      - left: "Can"
+        right: "Ashobora"
+    xp_reward: 20
+
+  - id: 79
+    type: matching
+    question: "Huza ibice by'interuro"
+    pairs:
+      - left: "If it rains"
+        right: "I will stay home"
+      - left: "If you study"
+        right: "you will succeed"
+      - left: "If he comes"
+        right: "we will start the meeting"
+      - left: "If it is possible"
+        right: "I will come tomorrow"
+      - left: "If I go to Kigali"
+        right: "I will visit my friend"
+    xp_reward: 25
+
+  # 12. Choose Missing Word
+  - id: 80
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "___ it rains, I will stay home."
+    missing_word_position: 1
+    options: ["If", "When", "Then"]
+    correct_answer: "If"
+    translation: "Niba imvura iguye, nzaguma mu rugo"
+    xp_reward: 15
+
+  - id: 81
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "If you study, you will ___."
+    missing_word_position: 4
+    options: ["succeed", "fail", "leave"]
+    correct_answer: "succeed"
+    translation: "Niba wiga, uzatsinda"
+    xp_reward: 15
+
+  - id: 82
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "If he comes, we will start the ___."
+    missing_word_position: 5
+    options: ["meeting", "school", "road"]
+    correct_answer: "meeting"
+    translation: "Niba aje, tuzatangira inama"
+    xp_reward: 18
+
+  - id: 83
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "Unless you hurry, you will ___ the bus."
+    missing_word_position: 4
+    options: ["miss", "catch", "take"]
+    correct_answer: "miss"
+    translation: "Ntiwihutira, uzacika bisi"
+    xp_reward: 18
+
+  - id: 84
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "If it is possible, I will come ___."
+    missing_word_position: 5
+    options: ["tomorrow", "today", "yesterday"]
+    correct_answer: "tomorrow"
+    translation: "Niba bishoboka, nzaza ejo"
+    xp_reward: 15
+
+  # 13. Read and Answer
+  - id: 85
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Niba imvura iguye, nzaguma mu rugo."
+    question: "Ni iki kizabaho niba imvura iguye?"
+    options: ["I will go out", "I will stay home", "I will go to school", "I will work"]
+    correct_answer: "I will stay home"
+    xp_reward: 15
+
+  - id: 86
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Niba wiga, uzatsinda."
+    question: "Ni iki kizabaho niba wiga?"
+    options: ["You will fail", "You will succeed", "You will play", "You will sleep"]
+    correct_answer: "You will succeed"
+    xp_reward: 15
+
+  - id: 87
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Niba aje, tuzatangira inama."
+    question: "Bazatangira ryari inama?"
+    options: ["If he comes", "If it rains", "If she studies", "If they work"]
+    correct_answer: "If he comes"
+    xp_reward: 18
+
+  - id: 88
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Niba nari mfite amafaranga, nari kugura imodoka."
+    question: "Nari kugura iki iyo nari mfite amafaranga?"
+    options: ["A house", "A car", "Food", "Clothes"]
+    correct_answer: "A car"
+    xp_reward: 18
+
+  - id: 89
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Niba bishoboka, nzaza ejo."
+    question: "Nzaza ryari niba bishoboka?"
+    options: ["Today", "Tomorrow", "Next week", "Never"]
+    correct_answer: "Tomorrow"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 90
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Niba' means 'when'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 91
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Birashoboka' means 'possible'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 92
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Niba wiga, uzatsinda' means 'If you study, you will succeed'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 93
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Ntiwihutira, uzacika bisi' means 'If you hurry, you will catch the bus'."
+    correct_answer: false
+    xp_reward: 15
+
+  - id: 94
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Buri gihe' means 'never'."
+    correct_answer: false
+    xp_reward: 10
+
+  # 15. Conversation Exercise
+  - id: 95
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe"
+    bot_message: "Uzakora iki niba imvura iguye?"
+    translation: "What will you do if it rains?"
+    word_bank: ["I", "will", "stay", "home", "go", "out", "work"]
+    correct_response: ["I", "will", "stay", "home"]
+    xp_reward: 18
+
+  - id: 96
+    type: conversation
+    question: "Subiza ikibazo"
+    bot_message: "Niba wiga, uzatsinda?"
+    translation: "If you study, will you succeed?"
+    options:
+      - "Yes, I will succeed"
+      - "No, I will not succeed"
+      - "It is impossible"
+    correct_response: "Yes, I will succeed"
+    xp_reward: 15
+
+  - id: 97
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe"
+    bot_message: "Uzakora iki niba ufite amafaranga?"
+    translation: "What will you do if you have money?"
+    word_bank: ["I", "will", "buy", "a", "car", "house", "food"]
+    correct_response: ["I", "will", "buy", "a", "car"]
+    xp_reward: 20
+
+  - id: 98
+    type: conversation
+    question: "Subiza ikibazo"
+    bot_message: "Niba bishoboka, uzaza ejo?"
+    translation: "If it is possible, will you come tomorrow?"
+    options:
+      - "Yes, I will come tomorrow"
+      - "No, I will not come"
+      - "It is impossible"
+    correct_response: "Yes, I will come tomorrow"
+    xp_reward: 15
+
+  # 16. Story Exercise
+  - id: 99
+    type: story
+    title: "Imigambi n'Imyitwarire"
+    story_intro: "Soma inkuru y'imigambi n'imyitwarire. Hanyuma ubake interuro."
+    story_segments:
+      - text: "If it rains, I will stay home."
+      - text: "If you study, you will succeed."
+      - text: "If he comes, we will start the meeting."
+      - text: "If I had money, I would buy a car."
+      - text: "If it is possible, I will come tomorrow."
+    exercises:
+      - type: word_bank
+        question: "Ubaka 'If it rains, I will stay home'"
+        word_bank: ["If", "it", "rains", "I", "will", "stay", "home", "go", "out"]
+        correct_answer: ["If", "it", "rains", "I", "will", "stay", "home"]
+      - type: word_bank
+        question: "Ubaka 'If you study, you will succeed'"
+        word_bank: ["If", "you", "study", "you", "will", "succeed", "fail"]
+        correct_answer: ["If", "you", "study", "you", "will", "succeed"]
+      - type: word_bank
+        question: "Ubaka 'If he comes, we will start the meeting'"
+        word_bank: ["If", "he", "comes", "we", "will", "start", "the", "meeting", "class"]
+        correct_answer: ["If", "he", "comes", "we", "will", "start", "the", "meeting"]
+      - type: word_bank
+        question: "Ubaka 'If I had money, I would buy a car'"
+        word_bank: ["If", "I", "had", "money", "I", "would", "buy", "a", "car", "house"]
+        correct_answer: ["If", "I", "had", "money", "I", "would", "buy", "a", "car"]
+      - type: word_bank
+        question: "Ubaka 'If it is possible, I will come tomorrow'"
+        word_bank: ["If", "it", "is", "possible", "I", "will", "come", "tomorrow", "today"]
+        correct_answer: ["If", "it", "is", "possible", "I", "will", "come", "tomorrow"]
+    xp_reward: 45
+
+  # 17. Pronunciation Check
+  - id: 100
+    type: pronunciation
+    question: "Vuga iri jambo mu Cyongereza neza"
+    prompt: "Niba"
+    translation: "If"
+    xp_reward: 15
+
+  - id: 101
+    type: pronunciation
+    question: "Vuga iri jambo mu Cyongereza neza"
+    prompt: "Birashoboka"
+    translation: "Possible"
+    xp_reward: 15
+
+  - id: 102
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Niba imvura iguye, nzaguma mu rugo"
+    translation: "If it rains, I will stay home"
+    xp_reward: 22
+
+  - id: 103
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Niba wiga, uzatsinda"
+    translation: "If you study, you will succeed"
+    xp_reward: 18
+
+  - id: 104
+    type: pronunciation
+    question: "Vuga iyi nteruro mu Cyongereza neza"
+    prompt: "Niba bishoboka, nzaza ejo"
+    translation: "If it is possible, I will come tomorrow"
+    xp_reward: 18
+
+  # 18. Identify Correct Meaning
+  - id: 105
+    type: identify_meaning
+    question: "'Niba' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+    word: "Niba"
+    options: ["When", "If", "Then", "After"]
+    correct_answer: "If"
+    xp_reward: 15
+
+  - id: 106
+    type: identify_meaning
+    question: "'Uzatsinda' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Niba wiga, uzatsinda."
+    word: "uzatsinda"
+    options: ["you will fail", "you will succeed", "you will study", "you will work"]
+    correct_answer: "you will succeed"
+    xp_reward: 15
+
+  - id: 107
+    type: identify_meaning
+    question: "'Tuzatangira' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Niba aje, tuzatangira inama."
+    word: "tuzatangira"
+    options: ["we will finish", "we will start", "we will attend", "we will leave"]
+    correct_answer: "we will start"
+    xp_reward: 15
+
+  - id: 108
+    type: identify_meaning
+    question: "'Bishoboka' bisobanura iki muri iyi nteruro?"
+    context_sentence: "Niba bishoboka, nzaza ejo."
+    word: "bishoboka"
+    options: ["it is possible", "it is impossible", "it is good", "it is bad"]
+    correct_answer: "it is possible"
+    xp_reward: 15
+
+  # 19. Speed Matching
+  - id: 109
+    type: speed_matching
+    title: "Huza Byihuse: Imyitwarire"
+    time_limit_seconds: 45
+    pairs:
+      - left: "If"
+        right: "Niba"
+      - left: "When"
+        right: "Iyo"
+      - left: "Then"
+        right: "Hanyuma"
+      - left: "Possible"
+        right: "Birashoboka"
+      - left: "Impossible"
+        right: "Ntibishoboka"
+      - left: "Always"
+        right: "Buri gihe"
+      - left: "Never"
+        right: "Nta na rimwe"
+      - left: "Before"
+        right: "Mbere y'uko"
+      - left: "After"
+        right: "Nyuma y'uko"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 110
+    type: timed_challenge
+    title: "Kubahuka: Imyitwarire"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Niba"
+        answer: "If"
+      - question: "Iyo"
+        answer: "When"
+      - question: "Birashoboka"
+        answer: "Possible"
+      - question: "Buri gihe"
+        answer: "Always"
+      - question: "Nta na rimwe"
+        answer: "Never"
+    xp_reward: 35
+
+  # 21. Character Writing
+  - id: 111
+    type: character_writing
+    question: "Yandika iri jambo mu Cyongereza"
+    prompt: "Niba"
+    translation: "If"
+    xp_reward: 15
+
+  - id: 112
+    type: character_writing
+    question: "Yandika iri jambo mu Cyongereza"
+    prompt: "Birashoboka"
+    translation: "Possible"
+    xp_reward: 15
+
+  - id: 113
+    type: character_writing
+    question: "Yandika iyi nteruro mu Cyongereza"
+    prompt: "Niba imvura iguye"
+    translation: "If it rains"
+    xp_reward: 18
+
+  # 22. Spaced Repetition Review
+  - id: 114
+    type: review
+    title: "Isubiramo: Imyitwarire"
+    exercises:
+      - type: translation
+        question: "Niba"
+        answer: "If"
+      - type: multiple_choice
+        question: "Birashoboka"
+        options: ["Impossible", "Possible", "Always"]
+        answer: "Possible"
+      - type: fill_blank
+        question: "If it rains, I will ___ home."
+        text_with_blank: "If it rains, I will ___ home."
+        options: ["stay", "go", "leave"]
+        correct_answer: "stay"
+      - type: sentence_scramble
+        question: "Tondeka: If you study, you will succeed"
+        scrambled_words: ["you", "succeed", "will", "study", "If", "you"]
+        correct_sentence: "If you study, you will succeed"
+    xp_reward: 30
+
+  # 23. Listening Comprehension
+  - id: 115
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Niba"
+    options:
+      - "When"
+      - "If"
+      - "Then"
+    correct_answer: "If"
+    xp_reward: 15
+
+  - id: 116
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Birashoboka"
+    options:
+      - "Impossible"
+      - "Possible"
+      - "Always"
+    correct_answer: "Possible"
+    xp_reward: 15
+
+  - id: 117
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Buri gihe"
+    options:
+      - "Never"
+      - "Always"
+      - "Sometimes"
+    correct_answer: "Always"
+    xp_reward: 15
+
+  - id: 118
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
+    audio: "Nta na rimwe"
+    options:
+      - "Always"
+      - "Never"
+      - "Sometimes"
+    correct_answer: "Never"
+    xp_reward: 15
+
+  # 24. Grammar Selection
+  - id: 119
+    type: grammar
+    question: "Hitamo ijambo rikwiye risobanura 'if'"
+    options: ["If", "When", "Then"]
+    correct_answer: "If"
+    explanation: "'Niba' means 'if' in conditional sentences"
+    xp_reward: 15
+
+  - id: 120
+    type: grammar
+    question: "Hitamo ijambo rikwiye risobanura 'when'"
+    options: ["If", "When", "Then"]
+    correct_answer: "When"
+    explanation: "'Iyo' means 'when'"
+    xp_reward: 15
+
+  - id: 121
+    type: grammar
+    question: "Hitamo inshinga ikwiye y'igihe kizaza isobanura 'I will stay'"
+    options: ["I will stay", "I stay", "I stayed"]
+    correct_answer: "I will stay"
+    explanation: "The future tense uses 'will' + verb: 'I will stay'"
+    xp_reward: 15
+
+  - id: 122
+    type: grammar
+    question: "Hitamo ijambo rikwiye risobanura 'possible'"
+    options: ["Possible", "Impossible", "Always"]
+    correct_answer: "Possible"
+    explanation: "'Birashoboka' means 'it is possible'"
+    xp_reward: 12
+
+  # 25. Error Correction
+  - id: 123
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "When it rains, I will stay home."
+    translation: "Iyo imvura iguye, nzaguma mu rugo (ariko ugomba gukoresha 'if')"
+    word_bank_for_fix: ["If", "it", "rains", "I", "will", "stay", "home"]
+    correct_sentence: "If it rains, I will stay home."
+    explanation: "Use 'if' for conditions, not 'when'."
+    xp_reward: 18
+
+  - id: 124
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "If you study, you will miss."
+    translation: "Niba wiga, uzacika (ariko ugomba kuvuga gutsinda)"
+    word_bank_for_fix: ["If", "you", "study", "you", "will", "succeed", "miss"]
+    correct_sentence: "If you study, you will succeed."
+    explanation: "Studying leads to success (succeed), not missing (miss)."
+    xp_reward: 18
+
+  - id: 125
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "If it is possible, I will come at night."
+    translation: "Niba bishoboka, nzaza ijoro (ariko ugomba kuvuga ejo)"
+    word_bank_for_fix: ["If", "it", "is", "possible", "I", "will", "come", "tomorrow", "at night"]
+    correct_sentence: "If it is possible, I will come tomorrow."
+    explanation: "The sentence should say 'tomorrow' (ejo), not 'at night' (ijoro)."
+    xp_reward: 15
+
+  # Flashcards
+  - id: 126
+    type: flashcards
+    question: "Iyi ni modero y'amafishi y'imyitwarire"
+    flashcards:
+      - front: "Niba"
+        back: "If"
+        image: "https://source.unsplash.com/featured/?question"
+      - front: "Iyo"
+        back: "When"
+        image: "https://source.unsplash.com/featured/?clock"
+      - front: "Hanyuma"
+        back: "Then"
+        image: "https://source.unsplash.com/featured/?next"
+      - front: "Birashoboka"
+        back: "Possible"
+        image: "https://source.unsplash.com/featured/?possible"
+      - front: "Ntibishoboka"
+        back: "Impossible"
+        image: "https://source.unsplash.com/featured/?impossible"
+      - front: "Buri gihe"
+        back: "Always"
+        image: "https://source.unsplash.com/featured/?always"
+      - front: "Nta na rimwe"
+        back: "Never"
+        image: "https://source.unsplash.com/featured/?never"
+      - front: "Mbere y'uko"
+        back: "Before"
+        image: "https://source.unsplash.com/featured/?before"
+      - front: "Nyuma y'uko"
+        back: "After"
+        image: "https://source.unsplash.com/featured/?after"
+      - front: "Imvura"
+        back: "Rain"
+        image: "https://source.unsplash.com/featured/?rain"
+      - front: "Kwiga"
+        back: "Study"
+        image: "https://source.unsplash.com/featured/?study"
+      - front: "Gutsinda"
+        back: "Succeed"
+        image: "https://source.unsplash.com/featured/?success"
+      - front: "Amafaranga"
+        back: "Money"
+        image: "https://source.unsplash.com/featured/?money"
+      - front: "Imodoka"
+        back: "Car"
+        image: "https://source.unsplash.com/featured/?car"
+      - front: "Bisi"
+        back: "Bus"
+        image: "https://source.unsplash.com/featured/?bus"
+      - front: "Niba imvura iguye, nzaguma mu rugo"
+        back: "If it rains, I will stay home"
+        image: "https://source.unsplash.com/featured/?rain-home"
+      - front: "Niba wiga, uzatsinda"
+        back: "If you study, you will succeed"
+        image: "https://source.unsplash.com/featured/?study-success"
+      - front: "Niba bishoboka, nzaza ejo"
+        back: "If it is possible, I will come tomorrow"
+        image: "https://source.unsplash.com/featured/?tomorrow"
+    xp_reward: 45

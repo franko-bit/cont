@@ -1,0 +1,1001 @@
+lesson:
+  name: "Amabara"
+  description: "Learn basic colors in English with animals and objects"
+  xp_reward: 500
+
+exercises:
+
+  # 1. Translation Exercises - Colors ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'Umutuku' mu Cyongereza?"
+    answer: "Red"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'Ubururu' mu Cyongereza?"
+    answer: "Blue"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'Icyatsi' mu Cyongereza?"
+    answer: "Green"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'Umuhondo' mu Cyongereza?"
+    answer: "Yellow"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'Umukara' mu Cyongereza?"
+    answer: "Black"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'Umweru' mu Cyongereza?"
+    answer: "White"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'Orange' mu Cyongereza?"
+    answer: "Orange"
+    xp_reward: 10
+
+  # Translation - Color Objects (Noun + Color phrases)
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'Pome itukura' mu Cyongereza?"
+    answer: "Red apple"
+    xp_reward: 15
+
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'Ijuru ry'ubururu' mu Cyongereza?"
+    answer: "Blue sky"
+    xp_reward: 15
+
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'Ibyatsi by'icyatsi' mu Cyongereza?"
+    answer: "Green grass"
+    xp_reward: 15
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'Izuba ry'umuhondo' mu Cyongereza?"
+    answer: "Yellow sun"
+    xp_reward: 15
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'Injangwe y'umukara' mu Cyongereza?"
+    answer: "Black cat"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'Inka y'umweru' mu Cyongereza?"
+    answer: "White cow"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'Karoti ya orange' mu Cyongereza?"
+    answer: "Orange carrot"
+    xp_reward: 15
+
+  # Translation - Colors with Animals
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'Inyoni itukura' mu Cyongereza?"
+    answer: "Red bird"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'Igikeri cy'icyatsi' mu Cyongereza?"
+    answer: "Green frog"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Ifi y'ubururu' mu Cyongereza?"
+    answer: "Blue fish"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Inkoko y'umuhondo' mu Cyongereza?"
+    answer: "Yellow chicken"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Urukwavu rw'umukara' mu Cyongereza?"
+    answer: "Black rabbit"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Ihene y'umweru' mu Cyongereza?"
+    answer: "White goat"
+    xp_reward: 15
+
+  # Translation - Numbers with Colors
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Pome imwe itukura' mu Cyongereza?"
+    answer: "One red apple"
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Inyoni ebyiri z'ubururu' mu Cyongereza?"
+    answer: "Two blue birds"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Inkoko eshatu z'umuhondo' mu Cyongereza?"
+    answer: "Three yellow chickens"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Wavuga ute 'Injangwe enye z'umukara' mu Cyongereza?"
+    answer: "Four black cats"
+    xp_reward: 15
+
+  - id: 25
+    type: translation
+    question: "Wavuga ute 'Inka eshanu z'umweru' mu Cyongereza?"
+    answer: "Five white cows"
+    xp_reward: 15
+
+  # Translation - Color Questions
+  - id: 26
+    type: translation
+    question: "Wavuga ute 'Pome ni ibara ki?' mu Cyongereza?"
+    answer: "What color is the apple?"
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "Wavuga ute 'Ijuru ni ibara ki?' mu Cyongereza?"
+    answer: "What color is the sky?"
+    xp_reward: 15
+
+  - id: 28
+    type: translation
+    question: "Wavuga ute 'Injangwe ni umukara?' mu Cyongereza?"
+    answer: "Is the cat black?"
+    xp_reward: 15
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "'Umutuku' bisobanura iki?"
+    options:
+      - "Blue"
+      - "Red"
+      - "Green"
+      - "Yellow"
+    answer: "Red"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Ubururu' bisobanura iki?"
+    options:
+      - "Red"
+      - "Blue"
+      - "Black"
+      - "White"
+    answer: "Blue"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Icyatsi' bisobanura iki?"
+    options:
+      - "Green"
+      - "Yellow"
+      - "Orange"
+      - "Red"
+    answer: "Green"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Umuhondo' bisobanura iki?"
+    options:
+      - "Blue"
+      - "Red"
+      - "Yellow"
+      - "White"
+    answer: "Yellow"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Umukara' bisobanura iki?"
+    options:
+      - "White"
+      - "Black"
+      - "Green"
+      - "Orange"
+    answer: "Black"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "'Umweru' bisobanura iki?"
+    options:
+      - "Black"
+      - "White"
+      - "Red"
+      - "Blue"
+    answer: "White"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "'Inyoni itukura' bisobanura iki?"
+    options:
+      - "Blue bird"
+      - "Red bird"
+      - "Green bird"
+      - "Yellow bird"
+    answer: "Red bird"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 36
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ibara mu Cyongereza"
+    tts_text: "Red"
+    answer: "Red"
+    translation: "Umutuku"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ibara mu Cyongereza"
+    tts_text: "Blue"
+    answer: "Blue"
+    translation: "Ubururu"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "The apple is red"
+    answer: "The apple is red"
+    translation: "Pome ni umutuku"
+    xp_reward: 25
+
+  - id: 39
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "The sky is blue"
+    answer: "The sky is blue"
+    translation: "Ijuru ni ubururu"
+    xp_reward: 25
+
+  - id: 40
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu Cyongereza"
+    tts_text: "The red bird flies"
+    answer: "The red bird flies"
+    translation: "Inyoni itukura iraguruka"
+    xp_reward: 25
+
+  # Listen and Choose
+  - id: 41
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ibara rikwiye mu Cyongereza"
+    tts_text: "Red"
+    options:
+      - "Red"
+      - "Blue"
+      - "Green"
+    answer: "Red"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ibara rikwiye mu Cyongereza"
+    tts_text: "Yellow"
+    options:
+      - "Red"
+      - "Yellow"
+      - "Black"
+    answer: "Yellow"
+    xp_reward: 15
+
+  - id: 43
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye mu Cyongereza"
+    tts_text: "The apple is red"
+    options:
+      - "The apple is red"
+      - "The sky is blue"
+      - "The sun is yellow"
+    answer: "The apple is red"
+    xp_reward: 20
+
+  # 5. Repeat / Speaking Exercise
+  - id: 44
+    type: speaking
+    question: "Vuga iri jambo mu Cyongereza"
+    prompt: "Umutuku"
+    translation: "Red"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Vuga iri jambo mu Cyongereza"
+    prompt: "Ubururu"
+    translation: "Blue"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Pome itukura"
+    translation: "Red apple"
+    xp_reward: 18
+
+  - id: 47
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Pome ni umutuku"
+    translation: "The apple is red"
+    xp_reward: 20
+
+  - id: 48
+    type: speaking
+    question: "Vuga iyi nteruro mu Cyongereza"
+    prompt: "Ijuru ni ubururu"
+    translation: "The sky is blue"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 49
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Pome ni umutuku'"
+    word_bank: ["The", "apple", "is", "red", "The", "sky", "is", "blue"]
+    correct_answer: ["The", "apple", "is", "red"]
+    xp_reward: 20
+
+  - id: 50
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Ijuru ni ubururu'"
+    word_bank: ["The", "sky", "is", "blue", "The", "apple", "is", "red"]
+    correct_answer: ["The", "sky", "is", "blue"]
+    xp_reward: 20
+
+  - id: 51
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Inyoni itukura'"
+    word_bank: ["red", "bird", "blue", "fish", "yellow", "chicken"]
+    correct_answer: ["red", "bird"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Ifi y'ubururu'"
+    word_bank: ["blue", "fish", "red", "bird", "yellow", "chicken"]
+    correct_answer: ["blue", "fish"]
+    xp_reward: 18
+
+  - id: 53
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Inyoni itukura iraguruka'"
+    word_bank: ["The", "red", "bird", "flies", "The", "blue", "fish", "swims"]
+    correct_answer: ["The", "red", "bird", "flies"]
+    xp_reward: 25
+
+  - id: 54
+    type: word_bank
+    question: "Ubaka interuro y'icyongereza isobanura 'Igikeri cy'icyatsi kirasimbuka'"
+    word_bank: ["The", "green", "frog", "jumps", "The", "red", "bird", "flies"]
+    correct_answer: ["The", "green", "frog", "jumps"]
+    xp_reward: 25
+
+  # 7. Sentence Scramble
+  - id: 55
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Pome ni umutuku'"
+    scrambled_words: ["is", "The", "apple", "red"]
+    correct_sentence: "The apple is red"
+    translation: "Pome ni umutuku"
+    xp_reward: 20
+
+  - id: 56
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ijuru ni ubururu'"
+    scrambled_words: ["is", "The", "sky", "blue"]
+    correct_sentence: "The sky is blue"
+    translation: "Ijuru ni ubururu"
+    xp_reward: 20
+
+  - id: 57
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Inyoni itukura iraguruka'"
+    scrambled_words: ["flies", "red", "The", "bird"]
+    correct_sentence: "The red bird flies"
+    translation: "Inyoni itukura iraguruka"
+    xp_reward: 25
+
+  - id: 58
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Igikeri cy'icyatsi kirasimbuka'"
+    scrambled_words: ["jumps", "green", "The", "frog"]
+    correct_sentence: "The green frog jumps"
+    translation: "Igikeri cy'icyatsi kirasimbuka"
+    xp_reward: 25
+
+  # 8. Fill in the Blank
+  - id: 59
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "The apple is ___."
+    options: ["red", "blue", "green"]
+    correct_answer: "red"
+    translation: "Pome ni umutuku"
+    xp_reward: 15
+
+  - id: 60
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "The sky is ___."
+    options: ["red", "blue", "yellow"]
+    correct_answer: "blue"
+    translation: "Ijuru ni ubururu"
+    xp_reward: 15
+
+  - id: 61
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "The grass is ___."
+    options: ["green", "blue", "red"]
+    correct_answer: "green"
+    translation: "Ibyatsi ni icyatsi"
+    xp_reward: 15
+
+  - id: 62
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "The sun is ___."
+    options: ["yellow", "red", "blue"]
+    correct_answer: "yellow"
+    translation: "Izuba ni umuhondo"
+    xp_reward: 15
+
+  - id: 63
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "The ___ bird flies."
+    options: ["red", "blue", "yellow"]
+    correct_answer: "red"
+    translation: "Inyoni itukura iraguruka"
+    xp_reward: 18
+
+  # 9. Picture → Word
+  - id: 64
+    type: picture_word
+    question: "Iri bara ni irihe?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Blue", "Green", "Yellow"]
+    correct_answer: "Red"
+    xp_reward: 10
+
+  - id: 65
+    type: picture_word
+    question: "Iri bara ni irihe?"
+    image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Blue", "Black", "White"]
+    correct_answer: "Blue"
+    xp_reward: 10
+
+  - id: 66
+    type: picture_word
+    question: "Iri bara ni irihe?"
+    image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Yellow", "Orange", "Green", "Blue"]
+    correct_answer: "Green"
+    xp_reward: 10
+
+  - id: 67
+    type: picture_word
+    question: "Iri bara ni irihe?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Yellow", "Black", "White"]
+    correct_answer: "Yellow"
+    xp_reward: 10
+
+  - id: 68
+    type: picture_word
+    question: "Iri bara ni irihe?"
+    image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["White", "Blue", "Black", "Orange"]
+    correct_answer: "Black"
+    xp_reward: 10
+
+  - id: 69
+    type: picture_word
+    question: "Iri bara ni irihe?"
+    image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Black", "White", "Green", "Red"]
+    correct_answer: "White"
+    xp_reward: 10
+
+  - id: 70
+    type: picture_word
+    question: "Iri bara ni irihe?"
+    image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Yellow", "Orange", "Blue"]
+    correct_answer: "Orange"
+    xp_reward: 10
+
+  - id: 71
+    type: picture_word
+    question: "Iyi pome ni ibara ki?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Green", "Yellow", "Orange"]
+    correct_answer: "Red"
+    xp_reward: 15
+
+  - id: 72
+    type: picture_word
+    question: "Iyi nyoni ni ibara ki?"
+    image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Blue", "Yellow", "Green"]
+    correct_answer: "Blue"
+    xp_reward: 15
+
+  # 10. Word Matching
+  - id: 73
+    type: matching
+    question: "Huza amabara"
+    pairs:
+      - left: "Red"
+        right: "Umutuku"
+      - left: "Blue"
+        right: "Ubururu"
+      - left: "Green"
+        right: "Icyatsi"
+      - left: "Yellow"
+        right: "Umuhondo"
+      - left: "Black"
+        right: "Umukara"
+      - left: "White"
+        right: "Umweru"
+      - left: "Orange"
+        right: "Orange"
+    xp_reward: 25
+
+  - id: 74
+    type: matching
+    question: "Huza ibintu n'amabara yabyo"
+    pairs:
+      - left: "Red apple"
+        right: "Pome itukura"
+      - left: "Blue sky"
+        right: "Ijuru ry'ubururu"
+      - left: "Green grass"
+        right: "Ibyatsi by'icyatsi"
+      - left: "Yellow sun"
+        right: "Izuba ry'umuhondo"
+      - left: "Black cat"
+        right: "Injangwe y'umukara"
+      - left: "White cow"
+        right: "Inka y'umweru"
+    xp_reward: 25
+
+  - id: 75
+    type: matching
+    question: "Huza inyamaswa n'amabara yazo"
+    pairs:
+      - left: "Red bird"
+        right: "Inyoni itukura"
+      - left: "Green frog"
+        right: "Igikeri cy'icyatsi"
+      - left: "Blue fish"
+        right: "Ifi y'ubururu"
+      - left: "Yellow chicken"
+        right: "Inkoko y'umuhondo"
+      - left: "Black rabbit"
+        right: "Urukwavu rw'umukara"
+      - left: "White goat"
+        right: "Ihene y'umweru"
+    xp_reward: 25
+
+  # 12. Choose Missing Word
+  - id: 80
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "The apple is ___."
+    missing_word_position: 3
+    options: ["red", "blue", "green"]
+    correct_answer: "red"
+    translation: "Pome ni umutuku"
+    xp_reward: 15
+
+  - id: 81
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "The sky is ___."
+    missing_word_position: 3
+    options: ["red", "blue", "yellow"]
+    correct_answer: "blue"
+    translation: "Ijuru ni ubururu"
+    xp_reward: 15
+
+  - id: 82
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "The ___ bird flies."
+    missing_word_position: 2
+    options: ["red", "blue", "yellow"]
+    correct_answer: "red"
+    translation: "Inyoni itukura iraguruka"
+    xp_reward: 18
+
+  # 13. Read and Answer
+  - id: 83
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+    question: "Iyi pome ni ibara ki?"
+    options: ["Red", "Blue", "Green", "Yellow"]
+    correct_answer: "Red"
+    xp_reward: 20
+
+  - id: 84
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Inyoni itukura iraguruka. Igikeri cy'icyatsi kirasimbuka. Ifi y'ubururu iroga."
+    question: "Inyoni itukura ikora iki?"
+    options: ["Swims", "Jumps", "Flies", "Runs"]
+    correct_answer: "Flies"
+    xp_reward: 25
+
+  - id: 85
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+    question: "Inka ni ibara ki?"
+    options: ["Black", "White", "Yellow", "Red"]
+    correct_answer: "White"
+    xp_reward: 20
+
+  # 14. True / False
+  - id: 86
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "Pome ni umutuku."
+    translation: "The apple is red"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 87
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "Ijuru ni icyatsi."
+    translation: "The sky is green"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 88
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "Inka ni umweru."
+    translation: "The cow is white"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 89
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "Inyoni itukura iraguruka."
+    translation: "The red bird flies"
+    correct_answer: true
+    xp_reward: 10
+
+  # 15. Conversation Exercise
+  - id: 90
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe"
+    bot_message: "Iri pome ni ibara ki?"
+    translation: "What color is this apple?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    word_bank: ["The", "apple", "is", "red", "The", "sky", "is", "blue"]
+    correct_response: ["The", "apple", "is", "red"]
+    xp_reward: 20
+
+  - id: 91
+    type: conversation
+    question: "Subiza ikibazo"
+    bot_message: "Ijuru ni ibara ki?"
+    translation: "What color is the sky?"
+    options:
+      - "Red"
+      - "Blue"
+      - "Green"
+    correct_response: "Blue"
+    xp_reward: 15
+
+  - id: 92
+    type: conversation
+    question: "Subiza ikibazo"
+    bot_message: "Injangwe ni umukara?"
+    translation: "Is the cat black?"
+    options:
+      - "Yes, it is black"
+      - "No, it is white"
+      - "No, it is red"
+    correct_response: "Yes, it is black"
+    xp_reward: 15
+
+  # 16. Story Exercise
+  - id: 93
+    type: story
+    title: "Amabara mu Murima"
+    story_intro: "Soma inkuru y'inyamaswa z'amabara. Hanyuma ubake interuro."
+    story_segments:
+      - text: "Hari inyoni itukura mu kirere."
+        image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - text: "Inyoni iraguruka hejuru."
+      - text: "Hari igikeri cy'icyatsi hafi y'amazi."
+      - text: "Igikeri kirasimbuka."
+      - text: "Hari ifi y'ubururu mu mazi."
+      - text: "Ifi iroga."
+    exercises:
+      - type: word_bank
+        question: "Ubaka interuro y'icyongereza isobanura 'Inyoni itukura iraguruka'"
+        word_bank: ["The", "red", "bird", "flies", "The", "green", "frog", "jumps"]
+        correct_answer: ["The", "red", "bird", "flies"]
+      - type: word_bank
+        question: "Ubaka interuro y'icyongereza isobanura 'Igikeri cy'icyatsi kirasimbuka'"
+        word_bank: ["The", "green", "frog", "jumps", "The", "blue", "fish", "swims"]
+        correct_answer: ["The", "green", "frog", "jumps"]
+      - type: word_bank
+        question: "Ubaka interuro y'icyongereza isobanura 'Ifi y'ubururu iroga'"
+        word_bank: ["The", "blue", "fish", "swims", "The", "red", "bird", "flies"]
+        correct_answer: ["The", "blue", "fish", "swims"]
+    xp_reward: 40
+
+  # 17. Pronunciation Check
+  - id: 94
+    type: pronunciation
+    question: "Vuga ibara mu Cyongereza neza"
+    prompt: "Umutuku"
+    translation: "Red"
+    xp_reward: 15
+
+  - id: 95
+    type: pronunciation
+    question: "Vuga ijambo mu Cyongereza neza"
+    prompt: "Agasumbashyamba"
+    translation: "Giraffe"
+    xp_reward: 20
+
+  - id: 96
+    type: pronunciation
+    question: "Vuga interuro mu Cyongereza neza"
+    prompt: "Pome itukura"
+    translation: "Red apple"
+    xp_reward: 18
+
+  # 18. Identify Correct Meaning
+  - id: 97
+    type: identify_meaning
+    question: "'Umutuku' risobanura iki muri iyi nteruro?"
+    context_sentence: "Pome ni umutuku."
+    word: "umutuku"
+    options: ["red", "blue", "green", "yellow"]
+    correct_answer: "red"
+    xp_reward: 15
+
+  - id: 98
+    type: identify_meaning
+    question: "'Itukura' risobanura iki muri iyi nteruro?"
+    context_sentence: "Inyoni itukura iraguruka."
+    word: "itukura"
+    options: ["red", "blue", "green", "yellow"]
+    correct_answer: "red"
+    note: "itukura ni inshinga ikoreshwa iyo usobanura ikintu"
+    xp_reward: 18
+
+  - id: 99
+    type: identify_meaning
+    question: "'Cy'icyatsi' risobanura iki muri iyi nteruro?"
+    context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+    word: "cy'icyatsi"
+    options: ["red", "blue", "green", "yellow"]
+    correct_answer: "green"
+    xp_reward: 18
+
+  # 19. Speed Matching
+  - id: 100
+    type: speed_matching
+    title: "Huza Byihuse: Amabara"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Red"
+        right: "Umutuku"
+      - left: "Blue"
+        right: "Ubururu"
+      - left: "Green"
+        right: "Icyatsi"
+      - left: "Yellow"
+        right: "Umuhondo"
+      - left: "Black"
+        right: "Umukara"
+      - left: "White"
+        right: "Umweru"
+      - left: "Orange"
+        right: "Orange"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 101
+    type: timed_challenge
+    title: "Kubahuka: Amabara"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Umutuku"
+        answer: "Red"
+      - question: "Ubururu"
+        answer: "Blue"
+      - question: "Icyatsi"
+        answer: "Green"
+      - question: "Umuhondo"
+        answer: "Yellow"
+      - question: "Umukara"
+        answer: "Black"
+    xp_reward: 35
+
+  # 21. Character Writing
+  - id: 102
+    type: character_writing
+    question: "Yandika ijambo ry'ibara mu Cyongereza"
+    prompt: "Umutuku"
+    translation: "Red"
+    xp_reward: 15
+
+  - id: 103
+    type: character_writing
+    question: "Yandika ijambo ry'ibara mu Cyongereza"
+    prompt: "Ubururu"
+    translation: "Blue"
+    xp_reward: 15
+
+  # 22. Spaced Repetition Review
+  - id: 104
+    type: review
+    title: "Isubiramo: Amabara"
+    exercises:
+      - type: translation
+        question: "Umutuku"
+        answer: "Red"
+      - type: multiple_choice
+        question: "Ubururu"
+        options: ["Red", "Blue", "Green"]
+        answer: "Blue"
+      - type: fill_blank
+        question: "The apple is ___."
+        text_with_blank: "The apple is ___."
+        options: ["red", "blue", "green"]
+        correct_answer: "red"
+      - type: picture_word
+        question: "Iri bara ni irihe?"
+        image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        options: ["Yellow", "Red", "Blue"]
+        correct_answer: "Yellow"
+    xp_reward: 25
+
+  # 23. Listening Comprehension
+  - id: 105
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma usubize ikibazo"
+    dialogue_tts: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+    translation: "The apple is red. The sky is blue. The grass is green."
+    question: "Iyi pome ni ibara ki?"
+    options: ["Red", "Blue", "Green"]
+    correct_answer: "Red"
+    xp_reward: 20
+
+  - id: 106
+    type: listening_comprehension
+    question: "Tega amatwi hanyuma usubize ikibazo"
+    dialogue_tts: "Inyoni itukura iraguruka. Igikeri cy'icyatsi kirasimbuka. Ifi y'ubururu iroga."
+    translation: "The red bird flies. The green frog jumps. The blue fish swims."
+    question: "Igikeri cy'icyatsi kikora iki?"
+    options: ["Flies", "Jumps", "Swims"]
+    correct_answer: "Jumps"
+    xp_reward: 25
+
+  # 24. Grammar Selection
+  - id: 107
+    type: grammar
+    question: "Hitamo inshinga ikwiye isobanura 'umutuku'"
+    sentence: "The ___ bird flies."
+    options: ["red", "blue", "green"]
+    correct_answer: "red"
+    explanation: "In English, adjectives come before the noun: 'red bird'"
+    xp_reward: 20
+
+  - id: 108
+    type: grammar
+    question: "Hitamo inshinga ikwiye isobanura 'ubururu'"
+    sentence: "The ___ fish swims."
+    options: ["red", "blue", "green"]
+    correct_answer: "blue"
+    explanation: "In English, adjectives come before the noun: 'blue fish'"
+    xp_reward: 20
+
+  # 25. Error Correction
+  - id: 109
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "Apple red is."
+    translation: "Pome itukura"
+    word_bank_for_fix: ["The", "apple", "is", "red"]
+    correct_sentence: "The apple is red."
+    explanation: "In English, word order is: The + noun + is + adjective"
+    xp_reward: 20
+
+  - id: 110
+    type: error_correction
+    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
+    incorrect_sentence: "Sky blue is."
+    translation: "Ijuru ry'ubururu"
+    word_bank_for_fix: ["The", "sky", "is", "blue"]
+    correct_sentence: "The sky is blue."
+    explanation: "In English, word order is: The + noun + is + adjective"
+    xp_reward: 20
+
+  # Flashcards
+  - id: 111
+    type: flashcards
+    question: "Iyi ni modero y'amafishi y'amabara"
+    flashcards:
+      - front: "Umutuku"
+        back: "Red"
+        image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - front: "Ubururu"
+        back: "Blue"
+        image: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - front: "Icyatsi"
+        back: "Green"
+        image: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - front: "Umuhondo"
+        back: "Yellow"
+        image: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - front: "Umukara"
+        back: "Black"
+        image: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - front: "Umweru"
+        back: "White"
+        image: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - front: "Orange"
+        back: "Orange"
+        image: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - front: "Pome itukura"
+        back: "Red apple"
+        image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - front: "Inyoni y'ubururu"
+        back: "Blue bird"
+        image: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    xp_reward: 30
