@@ -1,0 +1,1495 @@
+lesson:
+  name: "Finance and Accounting English"
+  description: "Master professional finance and accounting communication including budgeting, revenue, expenses, financial reports, banking, investments, metrics, and vocabulary"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: BUDGETING (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-7)
+  - id: 1
+    type: multiple_choice
+    question: "What is a 'budget' in business?"
+    options:
+      - "A cheap price"
+      - "A financial plan estimating income and expenses for a specific period"
+      - "A type of bank account"
+      - "A tax document"
+    answer: "A financial plan estimating income and expenses for a specific period"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What is a 'capital budget'?"
+    options:
+      - "A budget for capital cities"
+      - "A budget for major investments in long-term assets like equipment or buildings"
+      - "A budget for daily operations"
+      - "A budget for marketing"
+    answer: "A budget for major investments in long-term assets like equipment or buildings"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "What is an 'operating budget'?"
+    options:
+      - "A budget for surgeries"
+      - "A budget for day-to-day business operations and expenses"
+      - "A budget for capital investments"
+      - "A budget for employee salaries only"
+    answer: "A budget for day-to-day business operations and expenses"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What does 'variance' mean in budgeting?"
+    options:
+      - "Something that varies"
+      - "The difference between budgeted and actual amounts"
+      - "A type of variance report"
+      - "A financial statement"
+    answer: "The difference between budgeted and actual amounts"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "What is a 'zero-based budget'?"
+    options:
+      - "A budget with zero expenses"
+      - "A budget where every expense must be justified for each new period"
+      - "A budget with zero revenue"
+      - "A budget that is completely empty"
+    answer: "A budget where every expense must be justified for each new period"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What is a 'flexible budget'?"
+    options:
+      - "A budget that can bend"
+      - "A budget that adjusts based on actual activity levels"
+      - "A budget that never changes"
+      - "A budget for flexible spending"
+    answer: "A budget that adjusts based on actual activity levels"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "What does 'budget allocation' mean?"
+    options:
+      - "Allocating blame for budget problems"
+      - "Distributing budgeted funds across departments or projects"
+      - "Removing funds from the budget"
+      - "Creating a budget"
+    answer: "Distributing budgeted funds across departments or projects"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (8-12)
+  - id: 8
+    type: fill_blank
+    question: "Complete the budget statement"
+    text_with_blank: "We need to ___ the budget for Q3 and submit it by Friday."
+    options: ["finalize", "complete", "prepare", "approve"]
+    correct_answer: "finalize"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the variance explanation"
+    text_with_blank: "The favorable variance was due to lower-than-expected ___ costs."
+    options: ["operating", "material", "labor", "overhead"]
+    correct_answer: "operating"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the budget request"
+    text_with_blank: "We are requesting a budget ___ of $50,000 for the new marketing initiative."
+    options: ["allocation", "appropriation", "assignment", "designation"]
+    correct_answer: "allocation"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the budget overrun statement"
+    text_with_blank: "We are currently 15% ___ budget due to unexpected repairs."
+    options: ["over", "above", "exceeding", "beyond"]
+    correct_answer: "over"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the budget cut announcement"
+    text_with_blank: "Due to lower revenue, we must ___ the marketing budget by 10%."
+    options: ["cut", "reduce", "decrease", "trim"]
+    correct_answer: "reduce"
+    xp_reward: 15
+
+  # TRUE / FALSE (13-15)
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? A favorable variance means actual results are better than budgeted."
+    statement: "A favorable variance means actual results are better than budgeted."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 14
+    type: true_false
+    question: "Is this statement true or false? Budgets should never be changed once created."
+    statement: "Budgets should never be changed once created."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? A budget deficit occurs when expenses exceed revenue."
+    statement: "A budget deficit occurs when expenses exceed revenue."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (16-18)
+  - id: 16
+    type: matching
+    question: "Match the budget type with its description"
+    pairs:
+      - left: "Static budget"
+        right: "Does not change with activity level"
+      - left: "Rolling budget"
+        right: "Continuously updated, always 12 months forward"
+      - left: "Incremental budget"
+        right: "Based on previous period plus adjustments"
+      - left: "Activity-based budget"
+        right: "Based on cost drivers and activities"
+      - left: "Cash budget"
+        right: "Projects cash inflows and outflows"
+    xp_reward: 25
+
+  - id: 17
+    type: matching
+    question: "Match the variance type with its cause"
+    pairs:
+      - left: "Volume variance"
+        right: "Difference due to actual vs budgeted quantity sold"
+      - left: "Price variance"
+        right: "Difference due to actual vs budgeted price"
+      - left: "Efficiency variance"
+        right: "Difference due to productivity levels"
+      - left: "Spending variance"
+        right: "Difference due to actual vs budgeted cost"
+      - left: "Mix variance"
+        right: "Difference due to product or input mix"
+    xp_reward: 25
+
+  - id: 18
+    type: matching
+    question: "Match the budgeting term with its definition"
+    pairs:
+      - left: "Baseline"
+        right: "Starting point or reference for budget"
+      - left: "Contingency"
+        right: "Reserve funds for unexpected events"
+      - left: "CapEx"
+        right: "Capital Expenditure - long-term asset purchases"
+      - left: "OpEx"
+        right: "Operating Expenditure - day-to-day expenses"
+      - left: "Run rate"
+        right: "Current spending level projected forward"
+    xp_reward: 25
+
+  # FLASHCARDS (19-20)
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Budgeting Vocabulary"
+    flashcards:
+      - front: "Top-down budgeting"
+        right: "Senior management sets budget targets"
+      - front: "Bottom-up budgeting"
+        right: "Department managers submit budget requests"
+      - front: "Budget cycle"
+        right: "Timeline from planning to approval"
+      - front: "Budget holder"
+        right: "Person responsible for managing budget"
+      - front: "Zero-based budgeting (ZBB)"
+        right: "All expenses must be justified each period"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Budget Variance Phrases"
+    flashcards:
+      - front: "Favorable variance"
+        right: "Revenue higher or expense lower than budget"
+      - front: "Unfavorable variance"
+        right: "Revenue lower or expense higher than budget"
+      - front: "Material variance"
+        right: "Significant difference requiring investigation"
+      - front: "Volume variance"
+        right: "Difference due to quantity of activity"
+      - front: "Spending variance"
+        right: "Difference in cost per unit"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: REVENUE AND EXPENSES (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-28)
+  - id: 21
+    type: multiple_choice
+    question: "What is 'revenue' in business?"
+    options:
+      - "The cost of goods sold"
+      - "Income generated from normal business operations"
+      - "The profit after expenses"
+      - "The taxes paid"
+    answer: "Income generated from normal business operations"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "What is 'gross revenue'?"
+    options:
+      - "Revenue after all deductions"
+      - "Total revenue before any deductions or returns"
+      - "Revenue from gross products"
+      - "Net profit"
+    answer: "Total revenue before any deductions or returns"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What is 'net revenue'?"
+    options:
+      - "Revenue after subtracting returns, allowances, and discounts"
+      - "Revenue caught in a net"
+      - "Total revenue before deductions"
+      - "Revenue from internet sales"
+    answer: "Revenue after subtracting returns, allowances, and discounts"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "What is 'cost of goods sold' (COGS)?"
+    options:
+      - "The cost of selling goods"
+      - "Direct costs attributable to producing goods sold by a company"
+      - "Marketing expenses"
+      - "Administrative salaries"
+    answer: "Direct costs attributable to producing goods sold by a company"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "What are 'operating expenses' (OPEX)?"
+    options:
+      - "Expenses for operating machinery"
+      - "Costs required to run day-to-day business operations"
+      - "Capital investments"
+      - "Tax payments"
+    answer: "Costs required to run day-to-day business operations"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What is 'fixed cost'?"
+    options:
+      - "A cost that can be fixed"
+      - "A cost that does not change with production volume"
+      - "A cost that changes with production"
+      - "A one-time cost"
+    answer: "A cost that does not change with production volume"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "What is 'variable cost'?"
+    options:
+      - "A cost that varies depending on who you ask"
+      - "A cost that changes proportionally with production volume"
+      - "A cost that never changes"
+      - "A cost that is always the same"
+    answer: "A cost that changes proportionally with production volume"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "What is 'EBITDA'?"
+    options:
+      - "Earnings Before Interest, Taxes, Depreciation, and Amortization"
+      - "Earnings Before Investment, Trade, Debt, and Assets"
+      - "Expenses Before Interest, Taxes, Debt, and Amortization"
+      - "Earnings Before Income Tax and Depreciation Amortization"
+    answer: "Earnings Before Interest, Taxes, Depreciation, and Amortization"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (29-33)
+  - id: 29
+    type: fill_blank
+    question: "Complete the revenue statement"
+    text_with_blank: "Q3 revenue grew by 12% ___ to $5.2 million."
+    options: ["year-over-year", "YoY", "annually", "from last year"]
+    correct_answer: "year-over-year"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the expense description"
+    text_with_blank: "Our largest operating ___ is employee salaries and benefits."
+    options: ["expense", "cost", "outlay", "spend"]
+    correct_answer: "expense"
+    xp_reward: 15
+
+  - id: 31
+    type: fill_blank
+    question: "Complete the margin statement"
+    text_with_blank: "Our gross ___ is 45%, which is above industry average."
+    options: ["margin", "profit", "ratio", "percentage"]
+    correct_answer: "margin"
+    xp_reward: 15
+
+  - id: 32
+    type: fill_blank
+    question: "Complete the cost classification"
+    text_with_blank: "Rent is a ___ cost because it doesn't change with production volume."
+    options: ["fixed", "constant", "stable", "periodic"]
+    correct_answer: "fixed"
+    xp_reward: 15
+
+  - id: 33
+    type: fill_blank
+    question: "Complete the revenue recognition"
+    text_with_blank: "Revenue is ___ when the service is delivered, regardless of when payment is received."
+    options: ["recognized", "recorded", "booked", "accounted"]
+    correct_answer: "recognized"
+    xp_reward: 15
+
+  # TRUE / FALSE (34-36)
+  - id: 34
+    type: true_false
+    question: "Is this statement true or false? Higher revenue always means higher profit."
+    statement: "Higher revenue always means higher profit."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 35
+    type: true_false
+    question: "Is this statement true or false? Operating expenses are also known as overhead."
+    statement: "Operating expenses are also known as overhead."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 36
+    type: true_false
+    question: "Is this statement true or false? A company can have positive revenue but negative profit."
+    statement: "A company can have positive revenue but negative profit."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (37-38)
+  - id: 37
+    type: matching
+    question: "Match the expense type with its example"
+    pairs:
+      - left: "Fixed cost"
+        right: "Monthly rent, insurance premiums"
+      - left: "Variable cost"
+        right: "Raw materials, shipping costs"
+      - left: "Semi-variable cost"
+        right: "Electricity (base + usage), phone bills"
+      - left: "Direct cost"
+        right: "Materials and labor for production"
+      - left: "Indirect cost"
+        right: "Utilities, administrative salaries"
+    xp_reward: 25
+
+  - id: 38
+    type: matching
+    question: "Match the revenue term with its description"
+    pairs:
+      - left: "Recurring revenue"
+        right: "Predictable, repeating income (subscriptions)"
+      - left: "Non-recurring revenue"
+        right: "One-time income (asset sale, one-off project)"
+      - left: "Deferred revenue"
+        right: "Payment received before service is delivered"
+      - left: "Accrued revenue"
+        right: "Service delivered but payment not yet received"
+      - left: "Passive revenue"
+        right: "Income from activities not requiring active work"
+    xp_reward: 25
+
+  # FLASHCARDS (39-40)
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Revenue Metrics"
+    flashcards:
+      - front: "ARR"
+        right: "Annual Recurring Revenue (subscription businesses)"
+      - front: "MRR"
+        right: "Monthly Recurring Revenue"
+      - front: "NRR"
+        right: "Net Revenue Retention (accounts for churn and expansion)"
+      - front: "ARPU"
+        right: "Average Revenue Per User"
+      - front: "LTV"
+        right: "Customer Lifetime Value"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Expense Categories"
+    flashcards:
+      - front: "COGS"
+        right: "Cost of Goods Sold - direct production costs"
+      - front: "SG&A"
+        right: "Selling, General & Administrative expenses"
+      - front: "R&D"
+        right: "Research & Development expenses"
+      - front: "Depreciation"
+        right: "Allocation of tangible asset cost over time"
+      - front: "Amortization"
+        right: "Allocation of intangible asset cost over time"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: FINANCIAL REPORTS (41-65)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-48)
+  - id: 41
+    type: multiple_choice
+    question: "What is an 'income statement' (Profit & Loss statement)?"
+    options:
+      - "A statement about income"
+      - "A financial report showing revenue, expenses, and profit over a period"
+      - "A list of assets and liabilities"
+      - "A cash flow statement"
+    answer: "A financial report showing revenue, expenses, and profit over a period"
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "What is a 'balance sheet'?"
+    options:
+      - "A sheet that balances"
+      - "A financial statement showing assets, liabilities, and equity at a specific point in time"
+      - "A list of income and expenses"
+      - "A tax return"
+    answer: "A financial statement showing assets, liabilities, and equity at a specific point in time"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "What is the accounting equation?"
+    options:
+      - "Revenue - Expenses = Profit"
+      - "Assets = Liabilities + Equity"
+      - "Cash In - Cash Out = Net Cash"
+      - "Income + Expenses = Assets"
+    answer: "Assets = Liabilities + Equity"
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "What is 'net income' (net profit)?"
+    options:
+      - "Revenue minus all expenses"
+      - "Gross revenue"
+      - "Total assets"
+      - "Cash in bank"
+    answer: "Revenue minus all expenses"
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "What is 'shareholders' equity'?"
+    options:
+      - "Money shareholders owe"
+      - "The residual interest in assets after deducting liabilities"
+      - "The price of shares"
+      - "Dividends paid"
+    answer: "The residual interest in assets after deducting liabilities"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "What is a 'cash flow statement'?"
+    options:
+      - "A statement about cash flowing"
+      - "A financial report showing cash inflows and outflows from operations, investments, and financing"
+      - "A bank statement"
+      - "A profit report"
+    answer: "A financial report showing cash inflows and outflows from operations, investments, and financing"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "What does 'accrual accounting' mean?"
+    options:
+      - "Accounting that is accurate"
+      - "Recording revenue when earned and expenses when incurred, regardless of cash movement"
+      - "Recording only when cash is received or paid"
+      - "Accounting for accidents"
+    answer: "Recording revenue when earned and expenses when incurred, regardless of cash movement"
+    xp_reward: 15
+
+  - id: 48
+    type: multiple_choice
+    question: "What does 'cash accounting' mean?"
+    options:
+      - "Accounting with cash only"
+      - "Recording revenue when cash is received and expenses when cash is paid"
+      - "Accounting for cash transactions only"
+      - "An accounting method for cashiers"
+    answer: "Recording revenue when cash is received and expenses when cash is paid"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (49-53)
+  - id: 49
+    type: fill_blank
+    question: "Complete the income statement line"
+    text_with_blank: "Our gross ___ was $10 million, with COGS of $6 million."
+    options: ["revenue", "sales", "income", "turnover"]
+    correct_answer: "revenue"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the balance sheet classification"
+    text_with_blank: "Cash and inventory are considered ___ assets."
+    options: ["current", "liquid", "short-term", "operating"]
+    correct_answer: "current"
+    xp_reward: 15
+
+  - id: 51
+    type: fill_blank
+    question: "Complete the cash flow classification"
+    text_with_blank: "Purchasing equipment is a cash ___ from investing activities."
+    options: ["outflow", "payment", "expenditure", "use"]
+    correct_answer: "outflow"
+    xp_reward: 15
+
+  - id: 52
+    type: fill_blank
+    question: "Complete the depreciation description"
+    text_with_blank: "We ___ the equipment over its 10-year useful life."
+    options: ["depreciate", "amortize", "expense", "write off"]
+    correct_answer: "depreciate"
+    xp_reward: 15
+
+  - id: 53
+    type: fill_blank
+    question: "Complete the year-end statement"
+    text_with_blank: "The ___ financial statements have been audited and approved by the board."
+    options: ["annual", "year-end", "fiscal", "periodic"]
+    correct_answer: "annual"
+    xp_reward: 15
+
+  # TRUE / FALSE (54-56)
+  - id: 54
+    type: true_false
+    question: "Is this statement true or false? A company can be profitable but have negative cash flow."
+    statement: "A company can be profitable but have negative cash flow."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 55
+    type: true_false
+    question: "Is this statement true or false? Public companies are required to file audited financial statements."
+    statement: "Public companies are required to file audited financial statements."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 56
+    type: true_false
+    question: "Is this statement true or false? Accounts receivable is a liability."
+    statement: "Accounts receivable is a liability."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (57-60)
+  - id: 57
+    type: matching
+    question: "Match the financial statement with what it shows"
+    pairs:
+      - left: "Income statement"
+        right: "Profitability over time (revenue - expenses)"
+      - left: "Balance sheet"
+        right: "Financial position at a point in time (assets = liabilities + equity)"
+      - left: "Cash flow statement"
+        right: "Sources and uses of cash"
+      - left: "Statement of equity"
+        right: "Changes in shareholders' equity"
+      - left: "Notes to financial statements"
+        right: "Additional details and explanations"
+    xp_reward: 25
+
+  - id: 58
+    type: matching
+    question: "Match the income statement line item with its description"
+    pairs:
+      - left: "Revenue"
+        right: "Income from sales"
+      - left: "COGS"
+        right: "Direct cost to produce goods sold"
+      - left: "Gross profit"
+        right: "Revenue - COGS"
+      - left: "Operating expenses"
+        right: "SG&A, R&D, etc."
+      - left: "Net income"
+        right: "Bottom line profit"
+    xp_reward: 25
+
+  - id: 59
+    type: matching
+    question: "Match the balance sheet line item with its category"
+    pairs:
+      - left: "Cash"
+        right: "Current asset"
+      - left: "Accounts receivable"
+        right: "Current asset"
+      - left: "Inventory"
+        right: "Current asset"
+      - left: "Accounts payable"
+        right: "Current liability"
+      - left: "Long-term debt"
+        right: "Non-current liability"
+    xp_reward: 25
+
+  - id: 60
+    type: matching
+    question: "Match the cash flow category with its example"
+    pairs:
+      - left: "Operating activities"
+        right: "Cash from customer sales, payments to suppliers"
+      - left: "Investing activities"
+        right: "Purchase of equipment, sale of investments"
+      - left: "Financing activities"
+        right: "Issuing stock, borrowing loans, paying dividends"
+      - left: "Free cash flow"
+        right: "Operating cash flow minus capital expenditures"
+      - left: "Net cash flow"
+        right: "Sum of all three categories"
+    xp_reward: 25
+
+  # FLASHCARDS (61-65)
+  - id: 61
+    type: flashcards
+    question: "Flashcards: Balance Sheet Terms"
+    flashcards:
+      - front: "Assets"
+        right: "Resources owned by the company"
+      - front: "Liabilities"
+        right: "Obligations owed to others"
+      - front: "Equity"
+        right: "Owners' claim on assets"
+      - front: "Current"
+        right: "Due within one year"
+      - front: "Non-current/Long-term"
+        right: "Due beyond one year"
+    xp_reward: 30
+
+  - id: 62
+    type: flashcards
+    question: "Flashcards: Income Statement Terms"
+    flashcards:
+      - front: "Top line"
+        right: "Revenue"
+      - front: "Bottom line"
+        right: "Net income"
+      - front: "Operating income"
+        right: "Income from core operations"
+      - front: "EBIT"
+        right: "Earnings Before Interest and Taxes"
+      - front: "EBITDA"
+        right: "Earnings Before Interest, Taxes, Depreciation, Amortization"
+    xp_reward: 30
+
+  - id: 63
+    type: flashcards
+    question: "Flashcards: Accounting Methods"
+    flashcards:
+      - front: "GAAP"
+        right: "Generally Accepted Accounting Principles (US)"
+      - front: "IFRS"
+        right: "International Financial Reporting Standards"
+      - front: "FIFO"
+        right: "First In, First Out (inventory valuation)"
+      - front: "LIFO"
+        right: "Last In, First Out (inventory valuation)"
+      - front: "Weighted average"
+        right: "Average cost of inventory"
+    xp_reward: 30
+
+  - id: 64
+    type: flashcards
+    question: "Flashcards: Audit Terms"
+    flashcards:
+      - front: "Internal audit"
+        right: "Conducted by company employees"
+      - front: "External audit"
+        right: "Conducted by independent CPA firm"
+      - front: "Material misstatement"
+        right: "Significant error affecting decisions"
+      - front: "Unqualified opinion"
+        right: "Clean audit report"
+      - front: "Qualified opinion"
+        right: "Audit report with exceptions"
+    xp_reward: 30
+
+  - id: 65
+    type: flashcards
+    question: "Flashcards: Reporting Periods"
+    flashcards:
+      - front: "Fiscal year"
+        right: "12-month accounting period (not necessarily calendar year)"
+      - front: "Quarter (Q1, Q2, Q3, Q4)"
+        right: "3-month reporting period"
+      - front: "YTD"
+        right: "Year-to-date - from start of fiscal year"
+      - front: "YoY"
+        right: "Year-over-year comparison"
+      - front: "QoQ"
+        right: "Quarter-over-quarter comparison"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: BANKING TERMS (66-85)
+  # ============================================
+
+  # MULTIPLE CHOICE (66-73)
+  - id: 66
+    type: multiple_choice
+    question: "What is a 'business bank account'?"
+    options:
+      - "A personal bank account for business owners"
+      - "A bank account specifically for business transactions"
+      - "A savings account"
+      - "An investment account"
+    answer: "A bank account specifically for business transactions"
+    xp_reward: 15
+
+  - id: 67
+    type: multiple_choice
+    question: "What is 'interest rate'?"
+    options:
+      - "The rate of interesting things"
+      - "The percentage charged on borrowed money or paid on deposits"
+      - "The rate of inflation"
+      - "The exchange rate"
+    answer: "The percentage charged on borrowed money or paid on deposits"
+    xp_reward: 15
+
+  - id: 68
+    type: multiple_choice
+    question: "What is a 'loan'?"
+    options:
+      - "Money given as a gift"
+      - "Borrowed money that must be repaid, usually with interest"
+      - "A type of bank account"
+      - "A credit card"
+    answer: "Borrowed money that must be repaid, usually with interest"
+    xp_reward: 15
+
+  - id: 69
+    type: multiple_choice
+    question: "What is 'principal' in a loan?"
+    options:
+      - "The school principal"
+      - "The original amount of money borrowed or invested"
+      - "The interest rate"
+      - "The main branch of a bank"
+    answer: "The original amount of money borrowed or invested"
+    xp_reward: 15
+
+  - id: 70
+    type: multiple_choice
+    question: "What is a 'line of credit' (LOC)?"
+    options:
+      - "A line at the bank"
+      - "A flexible loan where a business can borrow up to a limit as needed"
+      - "A credit card"
+      - "A mortgage"
+    answer: "A flexible loan where a business can borrow up to a limit as needed"
+    xp_reward: 15
+
+  - id: 71
+    type: multiple_choice
+    question: "What is 'collateral' for a loan?"
+    options:
+      - "A type of lateral movement"
+      - "Assets pledged by a borrower to secure a loan"
+      - "The interest rate"
+      - "The loan agreement"
+    answer: "Assets pledged by a borrower to secure a loan"
+    xp_reward: 15
+
+  - id: 72
+    type: multiple_choice
+    question: "What is 'overdraft' protection?"
+    options:
+      - "Protection from overdrafting"
+      - "A service that covers transactions when account balance is insufficient"
+      - "Drafting too much"
+      - "A loan"
+    answer: "A service that covers transactions when account balance is insufficient"
+    xp_reward: 15
+
+  - id: 73
+    type: multiple_choice
+    question: "What is 'ACH' (Automated Clearing House) payment?"
+    options:
+      - "A type of check"
+      - "Electronic funds transfer between bank accounts"
+      - "A credit card payment"
+      - "Cash payment"
+    answer: "Electronic funds transfer between bank accounts"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (74-78)
+  - id: 74
+    type: fill_blank
+    question: "Complete the loan application"
+    text_with_blank: "We are applying for a business ___ of $100,000 to expand our operations."
+    options: ["loan", "credit", "financing", "borrowing"]
+    correct_answer: "loan"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Complete the interest rate statement"
+    text_with_blank: "The bank offered us an interest ___ of 6% on the term loan."
+    options: ["rate", "percentage", "fee", "charge"]
+    correct_answer: "rate"
+    xp_reward: 15
+
+  - id: 76
+    type: fill_blank
+    question: "Complete the payment schedule"
+    text_with_blank: "Loan repayments are made in monthly ___ of $2,500."
+    options: ["installments", "payments", "tranches", "amounts"]
+    correct_answer: "installments"
+    xp_reward: 15
+
+  - id: 77
+    type: fill_blank
+    question: "Complete the bank transaction"
+    text_with_blank: "Please issue a wire ___ to the supplier's bank account."
+    options: ["transfer", "payment", "transaction", "remittance"]
+    correct_answer: "transfer"
+    xp_reward: 15
+
+  - id: 78
+    type: fill_blank
+    question: "Complete the reconciliation statement"
+    text_with_blank: "Our accountant performs monthly bank ___ to match records."
+    options: ["reconciliation", "reconciling", "matching", "balancing"]
+    correct_answer: "reconciliation"
+    xp_reward: 15
+
+  # TRUE / FALSE (79-81)
+  - id: 79
+    type: true_false
+    question: "Is this statement true or false? A higher credit score typically leads to lower interest rates on loans."
+    statement: "A higher credit score typically leads to lower interest rates on loans."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 80
+    type: true_false
+    question: "Is this statement true or false? Secured loans require collateral; unsecured loans do not."
+    statement: "Secured loans require collateral; unsecured loans do not."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 81
+    type: true_false
+    question: "Is this statement true or false? NSF (Non-Sufficient Funds) fees are charged when there are too many deposits."
+    statement: "NSF (Non-Sufficient Funds) fees are charged when there are too many deposits."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (82-83)
+  - id: 82
+    type: matching
+    question: "Match the banking service with its description"
+    pairs:
+      - left: "Checking account"
+        right: "Everyday transactions, check writing, debit card access"
+      - left: "Savings account"
+        right: "Interest-bearing account for surplus cash"
+      - left: "Money market account"
+        right: "Higher interest with limited check writing"
+      - left: "CD (Certificate of Deposit)"
+        right: "Fixed-term deposit with higher interest"
+      - left: "Merchant services"
+        right: "Credit card processing for businesses"
+    xp_reward: 25
+
+  - id: 83
+    type: matching
+    question: "Match the banking fee with its cause"
+    pairs:
+      - left: "Monthly maintenance fee"
+        right: "Account service charge"
+      - left: "Overdraft fee"
+        right: "Transaction exceeds available balance"
+      - left: "Wire transfer fee"
+        right: "Sending electronic funds transfer"
+      - left: "ATM fee"
+        right: "Using out-of-network ATM"
+      - left: "NSF fee"
+        right: "Insufficient funds for check or payment"
+    xp_reward: 25
+
+  # FLASHCARDS (84-85)
+  - id: 84
+    type: flashcards
+    question: "Flashcards: Banking Documents"
+    flashcards:
+      - front: "Bank statement"
+        right: "Monthly record of all transactions"
+      - front: "Deposit slip"
+        right: "Form to deposit funds into account"
+      - front: "Check"
+        right: "Written order to pay from account"
+      - front: "Promissory note"
+        right: "Written promise to repay a loan"
+      - front: "Loan agreement"
+        right: "Contract outlining loan terms"
+    xp_reward: 30
+
+  - id: 85
+    type: flashcards
+    question: "Flashcards: Online Banking"
+    flashcards:
+      - front: "Mobile deposit"
+        right: "Deposit checks via phone camera"
+      - front: "Bill pay"
+        right: "Schedule electronic payments to bills"
+      - front: "ACH transfer"
+        right: "Electronic bank-to-bank transfer"
+      - front: "Wire transfer"
+        right: "Fast, secure domestic or international transfer"
+      - front: "Positive pay"
+        right: "Fraud prevention for check payments"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: INVESTMENTS (86-105)
+  # ============================================
+
+  # MULTIPLE CHOICE (86-93)
+  - id: 86
+    type: multiple_choice
+    question: "What is 'ROI' (Return on Investment)?"
+    options:
+      - "Return of Income"
+      - "A measure of investment profitability (Gain - Cost) / Cost"
+      - "Rate of Interest"
+      - "Report on Investments"
+    answer: "A measure of investment profitability (Gain - Cost) / Cost"
+    xp_reward: 15
+
+  - id: 87
+    type: multiple_choice
+    question: "What is a 'stock' (equity)?"
+    options:
+      - "A soup ingredient"
+      - "A share of ownership in a company"
+      - "A type of bond"
+      - "A bank account"
+    answer: "A share of ownership in a company"
+    xp_reward: 15
+
+  - id: 88
+    type: multiple_choice
+    question: "What is a 'bond'?"
+    options:
+      - "A connection between things"
+      - "A loan made by an investor to a borrower (government or corporation)"
+      - "A type of stock"
+      - "A bank deposit"
+    answer: "A loan made by an investor to a borrower (government or corporation)"
+    xp_reward: 15
+
+  - id: 89
+    type: multiple_choice
+    question: "What is a 'dividend'?"
+    options:
+      - "A type of math operation"
+      - "A portion of company profits paid to shareholders"
+      - "A tax payment"
+      - "An investment fee"
+    answer: "A portion of company profits paid to shareholders"
+    xp_reward: 15
+
+  - id: 90
+    type: multiple_choice
+    question: "What is a 'portfolio' in investing?"
+    options:
+      - "A collection of art"
+      - "A collection of investments owned by an individual or institution"
+      - "A type of briefcase"
+      - "A financial statement"
+    answer: "A collection of investments owned by an individual or institution"
+    xp_reward: 15
+
+  - id: 91
+    type: multiple_choice
+    question: "What is 'diversification'?"
+    options:
+      - "Diverse conversation"
+      - "Spreading investments across different assets to reduce risk"
+      - "A type of investment strategy"
+      - "Selling all investments"
+    answer: "Spreading investments across different assets to reduce risk"
+    xp_reward: 15
+
+  - id: 92
+    type: multiple_choice
+    question: "What is 'equity' in the context of investments?"
+    options:
+      - "Fairness and justice"
+      - "Ownership interest in a company (stocks)"
+      - "The value of a building"
+      - "A type of debt"
+    answer: "Ownership interest in a company (stocks)"
+    xp_reward: 15
+
+  - id: 93
+    type: multiple_choice
+    question: "What is an 'IPO' (Initial Public Offering)?"
+    options:
+      - "Initial Price Offering"
+      - "The first time a company sells its stock to the public"
+      - "International Public Organization"
+      - "Investment Purchase Order"
+    answer: "The first time a company sells its stock to the public"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (94-98)
+  - id: 94
+    type: fill_blank
+    question: "Complete the ROI statement"
+    text_with_blank: "Our investment in new equipment generated an ROI of 18% over two ___."
+    options: ["years", "months", "quarters", "periods"]
+    correct_answer: "years"
+    xp_reward: 15
+
+  - id: 95
+    type: fill_blank
+    question: "Complete the stock market statement"
+    text_with_blank: "The company's ___ price increased 25% after the earnings announcement."
+    options: ["share", "stock", "equity", "security"]
+    correct_answer: "share"
+    xp_reward: 15
+
+  - id: 96
+    type: fill_blank
+    question: "Complete the dividend announcement"
+    text_with_blank: "The board declared a quarterly dividend of $0.50 per ___."
+    options: ["share", "stock", "unit", "security"]
+    correct_answer: "share"
+    xp_reward: 15
+
+  - id: 97
+    type: fill_blank
+    question: "Complete the investment strategy"
+    text_with_blank: "To reduce risk, we need to ___ our investment portfolio."
+    options: ["diversify", "spread", "balance", "distribute"]
+    correct_answer: "diversify"
+    xp_reward: 15
+
+  - id: 98
+    type: fill_blank
+    question: "Complete the bond maturity"
+    text_with_blank: "The bond has a ___ of 10 years and pays 5% interest annually."
+    options: ["maturity", "term", "duration", "life"]
+    correct_answer: "maturity"
+    xp_reward: 15
+
+  # TRUE / FALSE (99-101)
+  - id: 99
+    type: true_false
+    question: "Is this statement true or false? Higher potential returns usually come with higher risk."
+    statement: "Higher potential returns usually come with higher risk."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 100
+    type: true_false
+    question: "Is this statement true or false? Common stock shareholders have voting rights in the company."
+    statement: "Common stock shareholders have voting rights in the company."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 101
+    type: true_false
+    question: "Is this statement true or false? Bonds are generally riskier than stocks."
+    statement: "Bonds are generally riskier than stocks."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (102-104)
+  - id: 102
+    type: matching
+    question: "Match the investment type with its description"
+    pairs:
+      - left: "Common stock"
+        right: "Equity ownership with voting rights"
+      - left: "Preferred stock"
+        right: "Equity with fixed dividends, priority over common"
+      - left: "Corporate bond"
+        right: "Debt issued by companies"
+      - left: "Government bond"
+        right: "Debt issued by federal government"
+      - left: "Municipal bond"
+        right: "Debt issued by local governments"
+    xp_reward: 25
+
+  - id: 103
+    type: matching
+    question: "Match the investment metric with its definition"
+    pairs:
+      - left: "P/E ratio"
+        right: "Price-to-Earnings ratio (valuation measure)"
+      - left: "EPS"
+        right: "Earnings Per Share"
+      - left: "Dividend yield"
+        right: "Annual dividend / share price"
+      - left: "Market cap"
+        right: "Share price × number of shares"
+      - left: "Beta"
+        right: "Measure of volatility relative to market"
+    xp_reward: 25
+
+  - id: 104
+    type: matching
+    question: "Match the investment vehicle with its description"
+    pairs:
+      - left: "Mutual fund"
+        right: "Pooled investments managed professionally"
+      - left: "ETF"
+        right: "Exchange-Traded Fund (trades like stock)"
+      - left: "Index fund"
+        right: "Tracks a market index (S&P 500)"
+      - left: "Hedge fund"
+        right: "Private, high-risk investment pool"
+      - left: "REIT"
+        right: "Real Estate Investment Trust"
+    xp_reward: 25
+
+  # FLASHCARDS (105)
+  - id: 105
+    type: flashcards
+    question: "Flashcards: Investment Returns"
+    flashcards:
+      - front: "Capital gain"
+        right: "Profit from selling asset at higher price"
+      - front: "Capital loss"
+        right: "Loss from selling asset at lower price"
+      - front: "Yield"
+        right: "Income return on investment (dividends/interest)"
+      - front: "Total return"
+        right: "Capital gain + income return"
+      - front: "Real return"
+        right: "Return after adjusting for inflation"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: BUSINESS PERFORMANCE METRICS (106-125)
+  # ============================================
+
+  # MULTIPLE CHOICE (106-113)
+  - id: 106
+    type: multiple_choice
+    question: "What is 'KPI' (Key Performance Indicator)?"
+    options:
+      - "Keep People Informed"
+      - "A measurable value that demonstrates how effectively a company is achieving key objectives"
+      - "Key Person Interview"
+      - "Knowledge Performance Index"
+    answer: "A measurable value that demonstrates how effectively a company is achieving key objectives"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What is 'gross profit margin'?"
+    options:
+      - "Profit after all expenses"
+      - "(Revenue - COGS) / Revenue, expressed as percentage"
+      - "Net profit divided by revenue"
+      - "Operating profit divided by revenue"
+    answer: "(Revenue - COGS) / Revenue, expressed as percentage"
+    xp_reward: 15
+
+  - id: 108
+    type: multiple_choice
+    question: "What is 'net profit margin'?"
+    options:
+      - "Profit after COGS only"
+      - "Net income / Revenue, expressed as percentage"
+      - "Gross profit divided by revenue"
+      - "Operating profit divided by expenses"
+    answer: "Net income / Revenue, expressed as percentage"
+    xp_reward: 15
+
+  - id: 109
+    type: multiple_choice
+    question: "What is 'CAC' (Customer Acquisition Cost)?"
+    options:
+      - "Cost of Customer"
+      - "Total sales and marketing cost divided by number of new customers acquired"
+      - "Cost per click"
+      - "Customer Annual Cost"
+    answer: "Total sales and marketing cost divided by number of new customers acquired"
+    xp_reward: 15
+
+  - id: 110
+    type: multiple_choice
+    question: "What is 'LTV' (Customer Lifetime Value)?"
+    options:
+      - "Long-Term Value"
+      - "Total revenue a customer is expected to generate over their entire relationship with the company"
+      - "Last Transaction Value"
+      - "Low-Value Customer"
+    answer: "Total revenue a customer is expected to generate over their entire relationship with the company"
+    xp_reward: 15
+
+  - id: 111
+    type: multiple_choice
+    question: "What is 'churn rate'?"
+    options:
+      - "A rate of burning"
+      - "The percentage of customers who stop using a service over a given period"
+      - "The rate of customer growth"
+      - "The rate of returns"
+    answer: "The percentage of customers who stop using a service over a given period"
+    xp_reward: 15
+
+  - id: 112
+    type: multiple_choice
+    question: "What is 'ROA' (Return on Assets)?"
+    options:
+      - "Return of Assets"
+      - "Net income divided by total assets - measures asset efficiency"
+      - "Revenue divided by assets"
+      - "Profit divided by equity"
+    answer: "Net income divided by total assets - measures asset efficiency"
+    xp_reward: 15
+
+  - id: 113
+    type: multiple_choice
+    question: "What is 'ROE' (Return on Equity)?"
+    options:
+      - "Return of Equity"
+      - "Net income divided by shareholders' equity - measures profitability from owner's perspective"
+      - "Revenue divided by equity"
+      - "Profit divided by assets"
+    answer: "Net income divided by shareholders' equity - measures profitability from owner's perspective"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (114-118)
+  - id: 114
+    type: fill_blank
+    question: "Complete the gross margin statement"
+    text_with_blank: "Our gross ___ is 45%, which means we keep $0.45 of every dollar after production costs."
+    options: ["margin", "profit", "percentage", "ratio"]
+    correct_answer: "margin"
+    xp_reward: 15
+
+  - id: 115
+    type: fill_blank
+    question: "Complete the CAC statement"
+    text_with_blank: "Our customer acquisition ___ has decreased by 20% thanks to improved marketing efficiency."
+    options: ["cost", "expense", "CAC", "spend"]
+    correct_answer: "cost"
+    xp_reward: 15
+
+  - id: 116
+    type: fill_blank
+    question: "Complete the LTV:CAC ratio statement"
+    text_with_blank: "A healthy LTV to CAC ratio is typically 3:1 or ___."
+    options: ["higher", "greater", "above", "more"]
+    correct_answer: "higher"
+    xp_reward: 15
+
+  - id: 117
+    type: fill_blank
+    question: "Complete the churn rate statement"
+    text_with_blank: "Our monthly customer churn has dropped from 5% to 2% due to improved ___."
+    options: ["retention", "service", "support", "experience"]
+    correct_answer: "retention"
+    xp_reward: 15
+
+  - id: 118
+    type: fill_blank
+    question: "Complete the ROE statement"
+    text_with_blank: "The company achieved an ROE of 18%, well above the industry ___ of 12%."
+    options: ["average", "median", "benchmark", "standard"]
+    correct_answer: "average"
+    xp_reward: 15
+
+  # TRUE / FALSE (119-121)
+  - id: 119
+    type: true_false
+    question: "Is this statement true or false? A higher net profit margin indicates better profitability."
+    statement: "A higher net profit margin indicates better profitability."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 120
+    type: true_false
+    question: "Is this statement true or false? Customer acquisition cost should ideally be higher than customer lifetime value."
+    statement: "Customer acquisition cost should ideally be higher than customer lifetime value."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 121
+    type: true_false
+    question: "Is this statement true or false? A low churn rate indicates high customer satisfaction."
+    statement: "A low churn rate indicates high customer satisfaction."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (122-124)
+  - id: 122
+    type: matching
+    question: "Match the profitability metric with its formula"
+    pairs:
+      - left: "Gross profit margin"
+        right: "(Revenue - COGS) / Revenue"
+      - left: "Operating margin"
+        right: "Operating Income / Revenue"
+      - left: "Net profit margin"
+        right: "Net Income / Revenue"
+      - left: "EBITDA margin"
+        right: "EBITDA / Revenue"
+      - left: "Contribution margin"
+        right: "(Revenue - Variable Costs) / Revenue"
+    xp_reward: 25
+
+  - id: 123
+    type: matching
+    question: "Match the efficiency metric with its definition"
+    pairs:
+      - left: "Inventory turnover"
+        right: "COGS / Average Inventory"
+      - left: "Days sales outstanding (DSO)"
+        right: "Average days to collect receivables"
+      - left: "Asset turnover"
+        right: "Revenue / Total Assets"
+      - left: "Accounts payable turnover"
+        right: "Purchases / Average Accounts Payable"
+      - left: "Working capital ratio"
+        right: "Current Assets / Current Liabilities"
+    xp_reward: 25
+
+  - id: 124
+    type: matching
+    question: "Match the growth metric with its description"
+    pairs:
+      - left: "YoY growth"
+        right: "Growth compared to same period last year"
+      - left: "QoQ growth"
+        right: "Growth compared to previous quarter"
+      - left: "CAGR"
+        right: "Compound Annual Growth Rate"
+      - left: "MRR growth"
+        right: "Monthly Recurring Revenue growth rate"
+      - left: "Net revenue retention"
+        right: "Retained revenue including expansions minus churn"
+    xp_reward: 25
+
+  # FLASHCARDS (125)
+  - id: 125
+    type: flashcards
+    question: "Flashcards: Key Business Metrics"
+    flashcards:
+      - front: "Burn rate"
+        right: "Rate at which company uses cash"
+      - front: "Runway"
+        right: "Months until cash runs out at current burn rate"
+      - front: "Break-even point"
+        right: "When revenue equals total costs"
+      - front: "Payback period"
+        right: "Time to recover investment cost"
+      - front: "CAC payback"
+        right: "Months to recover customer acquisition cost"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 7: ACCOUNTING VOCABULARY (126-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (126-128)
+  - id: 126
+    type: multiple_choice
+    question: "What is 'accounts receivable' (AR)?"
+    options:
+      - "Money the company owes to suppliers"
+      - "Money owed to the company by customers for goods or services delivered"
+      - "Cash in the bank"
+      - "Inventory value"
+    answer: "Money owed to the company by customers for goods or services delivered"
+    xp_reward: 15
+
+  - id: 127
+    type: multiple_choice
+    question: "What is 'accounts payable' (AP)?"
+    options:
+      - "Money customers owe the company"
+      - "Money the company owes to suppliers or vendors"
+      - "Cash payments made"
+      - "Credit card debt"
+    answer: "Money the company owes to suppliers or vendors"
+    xp_reward: 15
+
+  - id: 128
+    type: multiple_choice
+    question: "What is 'goodwill' in accounting?"
+    options:
+      - "A nice gesture"
+      - "An intangible asset representing the excess purchase price over fair value of acquired company"
+      - "Customer satisfaction"
+      - "Brand reputation"
+    answer: "An intangible asset representing the excess purchase price over fair value of acquired company"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (129)
+  - id: 129
+    type: fill_blank
+    question: "Complete the accounting equation"
+    text_with_blank: "The fundamental accounting equation is: Assets = Liabilities + ___"
+    options: ["Equity", "Capital", "Owner's Equity", "Shareholders' Equity"]
+    correct_answer: "Equity"
+    xp_reward: 15
+
+  # TIMED CHALLENGE (130)
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Finance & Accounting Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "What does EBITDA stand for"
+        answer: "Earnings Before Interest Taxes Depreciation Amortization"
+      - question: "What is the accounting equation"
+        answer: "Assets equals Liabilities plus Equity"
+      - question: "What does COGS stand for"
+        answer: "Cost of Goods Sold"
+      - question: "What does ROI stand for"
+        answer: "Return on Investment"
+      - question: "Difference between fixed and variable cost"
+        answer: "Fixed constant variable changes with volume"
+      - question: "What is accounts receivable"
+        answer: "Money owed by customers to company"
+      - question: "What is gross profit margin formula"
+        answer: "Revenue minus COGS over Revenue"
+      - question: "What does LTV stand for"
+        answer: "Customer Lifetime Value"
+    xp_reward: 50

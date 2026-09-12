@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "Disce common greetings et expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe pro single words/phrases)
+ - id: 1
+ type: translation
+ Quaestio: "Quomodo dicis 'Salve' in Kinyarwanda?"
+ Responsum: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Quaestio: "Quomodo dicis 'bonus morning' in Kinyarwanda?"
+ Responsum: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Quaestio: "Quomodo dicis 'bonus afternoon / bonus evening' in Kinyarwanda?"
+ Responsum: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Quaestio: "Quomodo dicis 'bonus night' in Kinyarwanda?"
+ Responsum: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Quaestio: "Quomodo quaeris 'How sunt you?' in Kinyarwanda?"
+ Responsum: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Quaestio: "Quomodo dicis 'I'm fine' in Kinyarwanda?"
+ Responsum: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Quaestio: "Quomodo dicis 'Welcome' in Kinyarwanda?"
+ Responsum: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Quaestio: "Quomodo dicis 'videre you later' in Kinyarwanda?"
+ Responsum: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Quaestio: "Quomodo dicis 'Vale' in Kinyarwanda?"
+ Responsum: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Quaestio: "Quomodo dicis 'Have a nice day' in Kinyarwanda?"
+ Responsum: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Quaestio: "Quomodo dicis 'Take care' in Kinyarwanda?"
+ Responsum: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Quaestio: "Quomodo dicis 'Long time non videre' in Kinyarwanda?"
+ Responsum: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Quaestio: "Quomodo quaeris 'What's up?' in Kinyarwanda?"
+ Responsum: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Quaestio: "Quomodo dicis 'Nice ad meet you' in Kinyarwanda?"
+ Responsum: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings cum Familia Members (Simple combinations)
+ - id: 15
+ type: translation
+ Quaestio: "Quomodo dicis 'Salve, mother!' in Kinyarwanda?"
+ Responsum: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ Quaestio: "Quomodo dicis 'bonus morning, father!' in Kinyarwanda?"
+ Responsum: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ Quaestio: "Quomodo dicis 'bonus night, my child!' in Kinyarwanda?"
+ Responsum: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common Quaestio (Fixed expressions)
+ - id: 18
+ type: translation
+ Quaestio: "Quomodo quaeris 'How sunt you today?' in Kinyarwanda?"
+ Responsum: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Quaestio: "Quomodo dicis 'I'm fine, thank you' in Kinyarwanda?"
+ Responsum: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Quaestio: "Quomodo quaeris 'What's up cum you today?' in Kinyarwanda?"
+ Responsum: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # non DIRECT TRANSLATION pro COMPLEX DIALOGUES aut PARAGRAPHS
+ # Instead, we use Sententia building, Coniunge, et word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ Quaestio: "Quid significat 'Muraho' in hac sententia?"
+ options:
+ - "Vale"
+ - "Salve"
+ - "bonus morning"
+ - "bonus night"
+ Responsum: "Salve"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ Quaestio: "Quid significat 'Mwaramutse' in hac sententia?"
+ options:
+ - "bonus evening"
+ - "bonus morning"
+ - "bonus night"
+ - "Vale"
+ Responsum: "bonus morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ Quaestio: "Quid significat 'Amakuru' in hac sententia?"
+ options:
+ - "Vale"
+ - "Welcome"
+ - "How sunt you?"
+ - "videre you later"
+ Responsum: "How sunt you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ Quaestio: "Quid significat 'Ni meza' in hac sententia?"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ Responsum: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Quaestio: "Quid significat 'Murabeho' in hac sententia?"
+ options:
+ - "Salve"
+ - "Welcome"
+ - "Vale"
+ - "videre you later"
+ Responsum: "Vale"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Quaestio: "Quid significat 'Tuzasubira' in hac sententia?"
+ options:
+ - "Vale"
+ - "videre you later"
+ - "Welcome back"
+ - "Take care"
+ Responsum: "videre you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Quaestio: "Quid significat 'Nishimiye kukubona' in hac sententia?"
+ options:
+ - "bonus morning"
+ - "Nice ad meet you"
+ - "Welcome"
+ - "Take care"
+ Responsum: "Nice ad meet you"
+ xp_reward: 18
+
+ # 3. Audi et Type (Dictation) - Safe because audio est provided
+ - id: 28
+ type: listen_et_type
+ Quaestio: "Audi et type is greeting"
+ tts_text: "Muraho"
+ Responsum: "Muraho"
+ translation: "Salve"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_et_type
+ Quaestio: "Audi et type is greeting"
+ tts_text: "Mwaramutse"
+ Responsum: "Mwaramutse"
+ translation: "bonus morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_et_type
+ Quaestio: "Audi et type is greeting"
+ tts_text: "Mwiriwe"
+ Responsum: "Mwiriwe"
+ translation: "bonus afternoon / bonus evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_et_type
+ Quaestio: "Audi et type is phrase"
+ tts_text: "Ijoro ryiza"
+ Responsum: "Ijoro ryiza"
+ translation: "bonus night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_et_type
+ Quaestio: "Audi et type is Quaestio"
+ tts_text: "Amakuru"
+ Responsum: "Amakuru"
+ translation: "How sunt you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_et_type
+ Quaestio: "Audi et type is response"
+ tts_text: "Ni meza"
+ Responsum: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_et_type
+ Quaestio: "Audi et type is phrase"
+ tts_text: "Murakaza neza"
+ Responsum: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_et_type
+ Quaestio: "Audi et type is phrase"
+ tts_text: "Tuzasubira"
+ Responsum: "Tuzasubira"
+ translation: "videre you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_et_type
+ Quaestio: "Audi et type is phrase"
+ tts_text: "Murabeho"
+ Responsum: "Murabeho"
+ translation: "Vale"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_et_type
+ Quaestio: "Audi et type is phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ Responsum: "Hashize igihe tutabonanye"
+ translation: "Long time non videre"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_et_type
+ Quaestio: "Audi et type is phrase"
+ tts_text: "Nishimiye kukubona"
+ Responsum: "Nishimiye kukubona"
+ translation: "Nice ad meet you"
+ xp_reward: 25
+
+ # 4. Audi et Elige
+ - id: 39
+ type: listen_et_choose
+ Quaestio: "Audi et Elige is correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "Vale"
+ - "Salve"
+ - "bonus morning"
+ Responsum: "Salve"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_et_choose
+ Quaestio: "Audi et Elige is correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "bonus evening"
+ - "bonus morning"
+ - "bonus night"
+ Responsum: "bonus morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_et_choose
+ Quaestio: "Audi et Elige is correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "bonus morning"
+ - "bonus afternoon/evening"
+ - "bonus night"
+ Responsum: "bonus afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_et_choose
+ Quaestio: "Audi et Elige is correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "Vale"
+ - "How sunt you?"
+ - "Welcome"
+ Responsum: "How sunt you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_et_choose
+ Quaestio: "Audi et Elige is correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ Responsum: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_et_choose
+ Quaestio: "Audi et Elige is correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "Salve"
+ - "Vale"
+ - "videre you later"
+ Responsum: "Vale"
+ xp_reward: 15
+
+ # 5. Repeat / Loquere Exercise
+ - id: 45
+ type: Loquere
+ Quaestio: "Say hic greeting"
+ prompt: "Muraho"
+ translation: "Salve"
+ xp_reward: 15
+
+ - id: 46
+ type: Loquere
+ Quaestio: "Say hic greeting"
+ prompt: "Mwaramutse"
+ translation: "bonus morning"
+ xp_reward: 15
+
+ - id: 47
+ type: Loquere
+ Quaestio: "Say hic greeting"
+ prompt: "Mwiriwe"
+ translation: "bonus afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: Loquere
+ Quaestio: "Say hic phrase"
+ prompt: "Ijoro ryiza"
+ translation: "bonus night"
+ xp_reward: 18
+
+ - id: 49
+ type: Loquere
+ Quaestio: "Ask 'How sunt you?' in Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How sunt you?"
+ xp_reward: 15
+
+ - id: 50
+ type: Loquere
+ Quaestio: "Say 'I'm fine' in Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: Loquere
+ Quaestio: "Say 'Welcome' in Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: Loquere
+ Quaestio: "Say 'videre you later' in Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "videre you later"
+ xp_reward: 18
+
+ - id: 53
+ type: Loquere
+ Quaestio: "Say 'Vale' in Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "Vale"
+ xp_reward: 15
+
+ - id: 54
+ type: Loquere
+ Quaestio: "Say 'Long time non videre' in Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time non videre"
+ xp_reward: 22
+
+ - id: 55
+ type: Loquere
+ Quaestio: "Say 'Nice ad meet you' in Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice ad meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: Loquere
+ Quaestio: "Say 'Salve, mother!' in Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "Salve, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: Loquere
+ Quaestio: "Say 'bonus morning, father!' in Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "bonus morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank Sententia Building - PIECES PROVIDED, non TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ Quaestio: "Build is greeting pro 'Salve, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Quaestio: "Build is greeting pro 'bonus morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ Quaestio: "Build is greeting pro 'bonus night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ Quaestio: "Build is Quaestio 'How sunt you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ Quaestio: "Build is response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ Quaestio: "Build is farewell 'videre you later at Schola'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Quaestio: "Build is farewell 'Vale, videre you Cras'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ Quaestio: "Build is well-wish 'Have a nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Quaestio: "Build is phrase 'Take care in your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ Quaestio: "Build is greeting 'Long time non videre, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Quaestio: "Build is Quaestio 'What's up cum you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ Quaestio: "Build is phrase 'Nice ad meet you at is party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. Sententia Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "Salve, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "bonus morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "bonus night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct Quaestio"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How sunt you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "videre you later at Schola."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "Vale, videre you Cras."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have a nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care in your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time non videre, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ Quaestio: "Arrange these words ad form a correct Quaestio"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up cum you today?"
+ xp_reward: 22
+
+ # 8. Fill in is Blank - Elige FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ Quaestio: "Complete is greeting"
+ text_cum_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "Salve, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Quaestio: "Complete is greeting"
+ text_cum_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "bonus morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ Quaestio: "Complete is phrase"
+ text_cum_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "bonus night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Quaestio: "Complete is Quaestio"
+ text_cum_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How sunt you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Quaestio: "Complete is response"
+ text_cum_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Quaestio: "Complete is farewell"
+ text_cum_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "videre you later at Schola."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ Quaestio: "Complete is farewell"
+ text_cum_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "Vale, videre you Cras."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ Quaestio: "Complete is well-wish"
+ text_cum_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ Quaestio: "Complete is phrase"
+ text_cum_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care in your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ Quaestio: "Complete is greeting"
+ text_cum_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time non videre, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ Quaestio: "Complete is Quaestio"
+ text_cum_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up cum you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word Coniunge (Pairing)
+ - id: 98
+ type: Coniunge
+ Quaestio: "Coniunge is greetings ad their meanings"
+ pairs:
+ - Sinistra: "Muraho"
+ Dextera: "Salve"
+ - Sinistra: "Mwaramutse"
+ Dextera: "bonus morning"
+ - Sinistra: "Mwiriwe"
+ Dextera: "bonus afternoon/evening"
+ - Sinistra: "Ijoro ryiza"
+ Dextera: "bonus night"
+ - Sinistra: "Amakuru"
+ Dextera: "How sunt you?"
+ - Sinistra: "Ni meza"
+ Dextera: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: Coniunge
+ Quaestio: "Coniunge is farewells et well-wishes"
+ pairs:
+ - Sinistra: "Murabeho"
+ Dextera: "Vale"
+ - Sinistra: "Tuzasubira"
+ Dextera: "videre you later"
+ - Sinistra: "Umunsi mwiza"
+ Dextera: "Have a nice day"
+ - Sinistra: "Wirinde"
+ Dextera: "Take care"
+ - Sinistra: "Hashize igihe tutabonanye"
+ Dextera: "Long time non videre"
+ - Sinistra: "Nishimiye kukubona"
+ Dextera: "Nice ad meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: Coniunge
+ Quaestio: "Coniunge is phrases cum Familia members"
+ pairs:
+ - Sinistra: "Muraho, Mama!"
+ Dextera: "Salve, mother!"
+ - Sinistra: "Mwaramutse, Data!"
+ Dextera: "bonus morning, father!"
+ - Sinistra: "Ijoro ryiza, mwana wanjye!"
+ Dextera: "bonus night, my child!"
+ - Sinistra: "Hashize igihe tutabonanye, nshuti yanjye"
+ Dextera: "Long time non videre, my friend"
+ xp_reward: 25
+
+ # 10. Elige Missing Word
+ - id: 107
+ type: choose_missing
+ Quaestio: "Elige is missing word"
+ Sententia: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How sunt you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ Quaestio: "Elige is missing word"
+ Sententia: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ Quaestio: "Elige is missing word"
+ Sententia: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ # 11. Lege et Responsum - Quaestio based in context
+ - id: 110
+ type: read_answer
+ Quaestio: "Lege is dialogue et Responsum is Quaestio"
+ text: "a: Muraho! Amakuru? B: Ni meza, murakoze."
+ Quaestio: "How est person B?"
+ options: ["Tristis", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ Quaestio: "Lege is dialogue et Responsum is Quaestio"
+ text: "a: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ Quaestio: "What time de day est it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ Quaestio: "Lege is dialogue et Responsum is Quaestio"
+ text: "a: Tuzasubira ku ishuri. B: Murabeho!"
+ Quaestio: "Where will they videre each other later?"
+ options: ["At home", "At Schola", "At work", "At is Forum"]
+ correct_answer: "At Schola"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ Quaestio: "est hic statement true aut false?"
+ statement: "'Mwaramutse' est used in is morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Quaestio: "est hic statement true aut false?"
+ statement: "'Mwiriwe' est used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Quaestio: "est hic statement true aut false?"
+ statement: "'Murabeho' means Salve."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ Quaestio: "est hic statement true aut false?"
+ statement: "'Nishimiye kukubona' means 'Nice ad meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Quaestio: "Respond ad is greeting by building a Sententia"
+ bot_message: "Muraho! Amakuru?"
+ translation: "Salve! How sunt you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ Quaestio: "Elige is appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "bonus morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ Quaestio: "Respond ad is farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "videre you later at Schola."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ Quaestio: "Build a response ad is Quaestio"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How sunt you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build Sententia from pieces
+ - id: 121
+ type: story
+ title: "Meeting a Friend - Guhura n'inshuti"
+ story_intro: "Lege is conversation. Then build is Sententia."
+ story_segments:
+ - text: "Person a says Salve."
+ - text: "Person a asks how they sunt."
+ - text: "Person B says they sunt fine et gratias them."
+ - text: "Person a says nice ad meet them."
+ - text: "Person B welcomes them."
+ - text: "Person a says videre you later."
+ - text: "Person B says Vale."
+ exercises:
+ - type: word_bank
+ Quaestio: "Build is Kinyarwanda greeting pro 'Salve!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ Quaestio: "Build is Quaestio 'How sunt you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ Quaestio: "Build is response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ Quaestio: "Build is phrase 'Nice ad meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ Quaestio: "Build is farewell 'videre you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ Quaestio: "Build is farewell 'Vale'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Quaestio: "Say hic greeting"
+ prompt: "Muraho"
+ translation: "Salve"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Quaestio: "Say hic greeting"
+ prompt: "Mwaramutse"
+ translation: "bonus morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Quaestio: "Say hic phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice ad meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ Quaestio: "Say hic farewell"
+ prompt: "Murabeho"
+ translation: "Vale"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ Quaestio: "Quid significat 'Muraho' in hac sententia?"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["Vale", "Salve", "Thank you", "Welcome"]
+ correct_answer: "Salve"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ Quaestio: "Quid significat 'murakoze' mean in hic Sententia?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["quaeso", "thank you", "welcome", "Vale"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ Quaestio: "Quid significat 'Mwiriwe' in hac sententia?"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["bonus morning", "bonus afternoon/evening", "bonus night", "Salve"]
+ correct_answer: "bonus afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed Coniunge
+ - id: 129
+ type: speed_Coniunge
+ title: "Coniunge Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - Sinistra: "Salve"
+ Dextera: "Muraho"
+ - Sinistra: "bonus morning"
+ Dextera: "Mwaramutse"
+ - Sinistra: "bonus afternoon"
+ Dextera: "Mwiriwe"
+ - Sinistra: "bonus night"
+ Dextera: "Ijoro ryiza"
+ - Sinistra: "How sunt you?"
+ Dextera: "Amakuru"
+ - Sinistra: "I'm fine"
+ Dextera: "Ni meza"
+ - Sinistra: "Welcome"
+ Dextera: "Murakaza neza"
+ - Sinistra: "videre you later"
+ Dextera: "Tuzasubira"
+ - Sinistra: "Vale"
+ Dextera: "Murabeho"
+ - Sinistra: "Take care"
+ Dextera: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ Quaestio_count: 5
+ Quaestio:
+ - Quaestio: "Salve"
+ Responsum: "Muraho"
+ - Quaestio: "bonus morning"
+ Responsum: "Mwaramutse"
+ - Quaestio: "bonus night"
+ Responsum: "Ijoro ryiza"
+ - Quaestio: "How sunt you?"
+ Responsum: "Amakuru"
+ - Quaestio: "Vale"
+ Responsum: "Murabeho"
+ xp_reward: 35
+
+# Tabulae
+ - id: 111
+ type: Tabulae
+ Quaestio: "Tabulae"
+ Tabulae:
+ - front: "Muraho"
+ back: "Salve"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "bonus morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "bonus afternoon / bonus evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "bonus night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How sunt you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "videre you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "Vale"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have a nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

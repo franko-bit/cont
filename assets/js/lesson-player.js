@@ -12,6 +12,7 @@ class LessonPlayer {
         this.score = 0;
         this.totalXP = 0;
         this.synth = window.speechSynthesis;
+        this.voices = [];
         this.matchingSelections = { left: null, right: null };
         
         // Calculate total XP
@@ -25,10 +26,85 @@ class LessonPlayer {
     }
     
     loadVoices() {
-        if (this.synth && this.synth.onvoiceschanged !== undefined) {
-            this.synth.onvoiceschanged = () => {
-                console.log('Voices loaded:', this.synth.getVoices().length);
+        const load = () => {
+            this.voices = this.synth.getVoices();
+            console.log('Voices loaded:', this.voices.length);
+            
+            // Map lesson language to voice language codes
+            const langMap = {
+                'en-to-sw': 'sw',      // English to Kiswahili - use Swahili voice
+                'en-to-rw': 'rw',      // English to Kinyarwanda - use Kinyarwanda voice
+                'en-sw:en': 'sw',      // New pair format
+                'en-sw:sw': 'sw',
+                'fr-sw:sw': 'sw',
+                'sw-to-en': 'sw',      // Kiswahili to English - use Swahili voice
+                'sw-to-fr': 'sw',
+                'en-rw:en': 'en',
+                'en-rw:rw': 'rw',
+                'fr-rw:fr': 'fr',
+                'fr-rw:rw': 'rw',
+                'fr-to-rw': 'rw',
+                'rw-to-en': 'rw',
+                'fr-to-sw': 'fr',
+                'sw': 'sw',            // Direct language code
+                'rw': 'rw',
+                'fr': 'fr',
+                'en': 'en'
             };
+            
+            // Determine target language from lesson language or pair
+            let targetLang = langMap[this.lang] || langMap[this.lang.replace(/-/g, '_')] || 'en';
+            
+            // First, try to find a voice matching the target language with preference for female
+            this.preferredVoice = this.voices.find(voice => {
+                const langMatch = voice.lang.startsWith(targetLang);
+                const isFemale = voice.name.toLowerCase().includes('female') ||
+                    voice.name.toLowerCase().includes('zira') ||
+                    voice.name.toLowerCase().includes('hazel') ||
+                    voice.name.toLowerCase().includes('samantha') ||
+                    voice.name.toLowerCase().includes('susan') ||
+                    voice.name.toLowerCase().includes('karen') ||
+                    voice.name.toLowerCase().includes('anna') ||
+                    voice.name.toLowerCase().includes('victoria') ||
+                    !voice.name.toLowerCase().includes('male');
+                return langMatch && isFemale;
+            });
+            
+            // Fallback: any voice matching target language
+            if (!this.preferredVoice) {
+                this.preferredVoice = this.voices.find(voice => 
+                    voice.lang.startsWith(targetLang)
+                );
+            }
+            
+            // Fallback: use any female voice
+            if (!this.preferredVoice) {
+                this.preferredVoice = this.voices.find(voice => 
+                    voice.name.toLowerCase().includes('female') ||
+                    voice.name.toLowerCase().includes('zira') ||
+                    voice.name.toLowerCase().includes('hazel') ||
+                    voice.name.toLowerCase().includes('samantha') ||
+                    voice.name.toLowerCase().includes('susan') ||
+                    voice.name.toLowerCase().includes('karen') ||
+                    voice.name.toLowerCase().includes('anna') ||
+                    voice.name.toLowerCase().includes('victoria') ||
+                    voice.name.toLowerCase().includes('alex') ||
+                    voice.name.toLowerCase().includes('google us english')
+                );
+            }
+            
+            // Final fallback: first available voice
+            if (!this.preferredVoice && this.voices.length > 0) {
+                this.preferredVoice = this.voices[0];
+            }
+            
+            console.log('Target language:', targetLang, 'Preferred voice:', this.preferredVoice?.name, 'Lang:', this.preferredVoice?.lang);
+        };
+        
+        if (this.synth.getVoices().length > 0) {
+            load();
+        } else if (this.synth.onvoiceschanged !== undefined) {
+            this.synth.onvoiceschanged = load;
         }
     }
     
@@ -505,7 +581,7 @@ class LessonPlayer {
     
     // 7. FLASHCARDS
     renderFlashcards(exercise) {
-        let flashcards = exercise.flashcards || [];
+        let flashcards = exercise.flashcards || exercise.cards || [];
         if (flashcards.length === 0) {
             // Default if no flashcards provided
             flashcards = [
@@ -638,20 +714,63 @@ class LessonPlayer {
             return;
         }
         
+        // Ensure voices are loaded
+        if (this.voices.length === 0) {
+            this.voices = this.synth.getVoices();
+            if (this.voices.length > 0) {
+                this.loadVoices(); // This will set preferredVoice based on lesson language
+            }
+        }
+        
         try {
             window.speechSynthesis.cancel();
             const utterance = new SpeechSynthesisUtterance(text);
-            utterance.rate = 0.9;
-            utterance.pitch = 1.0;
+            utterance.rate = 0.7; // Slower for clarity
+            utterance.pitch = 1.2; // Higher pitch for more female-like sound
             utterance.volume = 1.0;
             
-            const voices = window.speechSynthesis.getVoices();
-            const preferredVoice = voices.find(voice => 
-                voice.lang.includes('en') || voice.lang.includes('rw')
-            ) || voices[0];
+            // Determine language for utterance based on lesson language
+            const langMap = {
+                'en-to-sw': 'sw',
+                'en-to-rw': 'rw',
+                'en-sw:en': 'sw',
+                'en-sw:sw': 'sw',
+                'fr-sw:sw': 'sw',
+                'sw-to-en': 'sw',
+                'sw-to-fr': 'sw',
+                'en-rw:en': 'en',
+                'en-rw:rw': 'rw',
+                'fr-rw:fr': 'fr',
+                'fr-rw:rw': 'rw',
+                'fr-to-rw': 'rw',
+                'rw-to-en': 'rw',
+                'fr-to-sw': 'fr',
+                'sw': 'sw',
+                'rw': 'rw',
+                'fr': 'fr',
+                'en': 'en'
+            };
             
-            if (preferredVoice) {
-                utterance.voice = preferredVoice;
+            const targetLang = langMap[this.lang] || 'en';
+            utterance.lang = targetLang;
+            
+            // Use the pre-selected preferred voice
+            if (this.preferredVoice) {
+                utterance.voice = this.preferredVoice;
+                console.log('Using preferred voice:', this.preferredVoice.name, 'Lang:', this.preferredVoice.lang);
+            } else {
+                // Fallback if not loaded yet
+                const voices = window.speechSynthesis.getVoices();
+                const fallbackVoice = voices.find(voice => 
+                    voice.lang.startsWith(targetLang)
+                ) || voices.find(voice => 
+                    voice.name.toLowerCase().includes('female')
+                ) || voices[0];
+                
+                if (fallbackVoice) {
+                    utterance.voice = fallbackVoice;
+                    console.log('Using fallback voice:', fallbackVoice.name, 'Lang:', fallbackVoice.lang);
+                }
             }
             
             window.speechSynthesis.speak(utterance);
@@ -669,7 +788,7 @@ class LessonPlayer {
         this.completedExercises++;
         
         // Show success message
-        alert(`✅ Correct! You earned ${xpEarned} XP!`);
+        alert(`  Correct! You earned ${xpEarned} XP!`);
         
         // Move to next exercise
         this.currentExerciseIndex++;

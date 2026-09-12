@@ -1,0 +1,1060 @@
+lesson:
+ name: "Οικογένεια - Umuryango"
+ description: "Μάθε Οικογένεια member names in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Οικογένεια Members ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Ερώτηση: "Πώς λες 'Mother' στην κινιαρουάντα;"
+ Απάντηση: "Mama"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Ερώτηση: "Πώς λες 'Father' στην κινιαρουάντα;"
+ Απάντηση: "Data"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Ερώτηση: "Πώς λες 'Brother' στην κινιαρουάντα;"
+ Απάντηση: "Musaza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Ερώτηση: "Πώς λες 'Sister' στην κινιαρουάντα;"
+ Απάντηση: "Mushiki"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Ερώτηση: "Πώς λες 'Child' στην κινιαρουάντα;"
+ Απάντηση: "Umwana"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Ερώτηση: "Πώς λες 'Grandmother' στην κινιαρουάντα;"
+ Απάντηση: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Ερώτηση: "Πώς λες 'Grandfather' στην κινιαρουάντα;"
+ Απάντηση: "Sogokuru"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Ερώτηση: "Πώς λες 'Husband' στην κινιαρουάντα;"
+ Απάντηση: "Umugabo"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Ερώτηση: "Πώς λες 'Wife' στην κινιαρουάντα;"
+ Απάντηση: "Umugore"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Ερώτηση: "Πώς λες 'Paternal uncle' στην κινιαρουάντα;"
+ Απάντηση: "Datawabo"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Ερώτηση: "Πώς λες 'Maternal uncle' στην κινιαρουάντα;"
+ Απάντηση: "Marume"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Ερώτηση: "Πώς λες 'Paternal aunt' στην κινιαρουάντα;"
+ Απάντηση: "Masenge"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Ερώτηση: "Πώς λες 'Maternal aunt' στην κινιαρουάντα;"
+ Απάντηση: "Nyirarume"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Ερώτηση: "Πώς λες 'Grandchild' στην κινιαρουάντα;"
+ Απάντηση: "Umwuzukuru"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Ερώτηση: "Πώς λες 'Great-grandchild' στην κινιαρουάντα;"
+ Απάντηση: "Umwuzukuruza"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Ερώτηση: "Πώς λες 'Son-in-law / Groom' στην κινιαρουάντα;"
+ Απάντηση: "Umukwe"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Ερώτηση: "Πώς λες 'Father-in-law' στην κινιαρουάντα;"
+ Απάντηση: "Sebukwe"
+ xp_reward: 10
+
+ # Translation - Greetings & Basic Phrases (Safe as fixed expressions)
+ - id: 18
+ type: translation
+ Ερώτηση: "Πώς λες 'Γεια, mother!' στην κινιαρουάντα;"
+ Απάντηση: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 19
+ type: translation
+ Ερώτηση: "Πώς λες 'Γεια, father!' στην κινιαρουάντα;"
+ Απάντηση: "Muraho, Data!"
+ xp_reward: 12
+
+ - id: 20
+ type: translation
+ Ερώτηση: "Πώς ρωτάς 'How is the Οικογένεια?' στην κινιαρουάντα;"
+ Απάντηση: "Umuryango umeze ute?"
+ xp_reward: 15
+
+ # Translation - Possession (Simple phrases with "have")
+ - id: 21
+ type: translation
+ Ερώτηση: "Πώς λες 'I have a brother' στην κινιαρουάντα;"
+ Απάντηση: "Mfite Musaza."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Ερώτηση: "Πώς λες 'I have a sister' στην κινιαρουάντα;"
+ Απάντηση: "Mfite Mushiki."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Ερώτηση: "Πώς λες 'My grandfather has a Σπίτι' στην κινιαρουάντα;"
+ Απάντηση: "Sogokuru afite inzu."
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR COMPLEX Πρόταση OR PARAGRAPHS
+ # Instead, we use Πρόταση building, Ταιριάξε, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 24
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Mama' σε αυτήν τη φράση;"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ - "Sister"
+ Απάντηση: "Mother"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Data' σε αυτήν τη φράση;"
+ options:
+ - "Mother"
+ - "Father"
+ - "Grandfather"
+ - "Uncle"
+ Απάντηση: "Father"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Musaza' σε αυτήν τη φράση;"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ - "Husband"
+ Απάντηση: "Brother"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Mushiki' σε αυτήν τη φράση;"
+ options:
+ - "Brother"
+ - "Sister"
+ - "Mother"
+ - "Aunt"
+ Απάντηση: "Sister"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Nyogokuru' σε αυτήν τη φράση;"
+ options:
+ - "Grandfather"
+ - "Grandmother"
+ - "Aunt"
+ - "Uncle"
+ Απάντηση: "Grandmother"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Sogokuru' σε αυτήν τη φράση;"
+ options:
+ - "Grandmother"
+ - "Grandfather"
+ - "Father-in-law"
+ - "Uncle"
+ Απάντηση: "Grandfather"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Datawabo' σε αυτήν τη φράση;"
+ options:
+ - "Maternal uncle"
+ - "Paternal uncle"
+ - "Father-in-law"
+ - "Grandfather"
+ Απάντηση: "Paternal uncle"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Marume' σε αυτήν τη φράση;"
+ options:
+ - "Paternal uncle"
+ - "Maternal uncle"
+ - "Brother"
+ - "Son-in-law"
+ Απάντηση: "Maternal uncle"
+ xp_reward: 15
+
+ # 3. Άκου and Type (Dictation) - Safe because audio is provided
+ - id: 32
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the Οικογένεια member"
+ tts_text: "Mama"
+ Απάντηση: "Mama"
+ translation: "Mother"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the Οικογένεια member"
+ tts_text: "Data"
+ Απάντηση: "Data"
+ translation: "Father"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the Οικογένεια member"
+ tts_text: "Nyogokuru"
+ Απάντηση: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the phrase"
+ tts_text: "Mama ari mu nzu"
+ Απάντηση: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 25
+
+ - id: 36
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the phrase"
+ tts_text: "Data ari mu kazi"
+ Απάντηση: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 25
+
+ - id: 37
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the Ερώτηση"
+ tts_text: "Umuryango umeze ute"
+ Απάντηση: "Umuryango umeze ute"
+ translation: "How is the Οικογένεια?"
+ xp_reward: 25
+
+ # 4. Άκου and Επίλεξε
+ - id: 38
+ type: listen_and_choose
+ Ερώτηση: "Άκου and Επίλεξε the correct Οικογένεια member"
+ tts_text: "Mama"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ Απάντηση: "Mother"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_and_choose
+ Ερώτηση: "Άκου and Επίλεξε the correct Οικογένεια member"
+ tts_text: "Data"
+ options:
+ - "Mother"
+ - "Father"
+ - "Sister"
+ Απάντηση: "Father"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Ερώτηση: "Άκου and Επίλεξε the correct Οικογένεια member"
+ tts_text: "Musaza"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ Απάντηση: "Brother"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Ερώτηση: "Άκου and Επίλεξε the correct phrase"
+ tts_text: "Mama ari mu nzu"
+ options:
+ - "Mother is at home"
+ - "Father is working"
+ - "Brother is playing"
+ Απάντηση: "Mother is at home"
+ xp_reward: 20
+
+ # 5. Repeat / Μίλησε Exercise
+ - id: 42
+ type: Μίλησε
+ Ερώτηση: "Say this Οικογένεια member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 43
+ type: Μίλησε
+ Ερώτηση: "Say this Οικογένεια member"
+ prompt: "Data"
+ translation: "Father"
+ xp_reward: 15
+
+ - id: 44
+ type: Μίλησε
+ Ερώτηση: "Say this Οικογένεια member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 45
+ type: Μίλησε
+ Ερώτηση: "Say this Πρόταση"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 46
+ type: Μίλησε
+ Ερώτηση: "Say this Πρόταση"
+ prompt: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 47
+ type: Μίλησε
+ Ερώτηση: "Say this Ερώτηση"
+ prompt: "Umuryango umeze ute"
+ translation: "How is the Οικογένεια?"
+ xp_reward: 20
+
+ # 6. Word Bank Πρόταση Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 48
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'Mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 49
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'Father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ xp_reward: 22
+
+ - id: 51
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My sister Διάβασε a book'"
+ word_bank: ["Mushiki", "arasoma", "igitabo", "Musaza", "arakina", "hanze"]
+ correct_answer: ["Mushiki", "arasoma", "igitabo"]
+ xp_reward: 22
+
+ - id: 52
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'I love my grandmother'"
+ word_bank: ["Nkunda", "Nyogokuru", "Sogokuru", "arasaza", "cyane"]
+ correct_answer: ["Nkunda", "Nyogokuru"]
+ xp_reward: 20
+
+ - id: 53
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My grandfather is very old'"
+ word_bank: ["Sogokuru", "arasaza", "cyane", "Nyogokuru", "araduteka"]
+ correct_answer: ["Sogokuru", "arasaza", "cyane"]
+ xp_reward: 22
+
+ - id: 54
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'I have a brother'"
+ word_bank: ["Mfite", "Musaza", "Mushiki", "Umwana"]
+ correct_answer: ["Mfite", "Musaza"]
+ xp_reward: 18
+
+ - id: 55
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My grandfather has a Σπίτι'"
+ word_bank: ["Sogokuru", "afite", "inzu", "Nyogokuru", "araduteka", "ibiryo"]
+ correct_answer: ["Sogokuru", "afite", "inzu"]
+ xp_reward: 20
+
+ - id: 56
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My grandmother cooks Φαγητό'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 22
+
+ - id: 57
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My paternal uncle has a Κατσίκα'"
+ word_bank: ["Datawabo", "afite", "ihene", "Marume", "inka", "afite"]
+ correct_answer: ["Datawabo", "afite", "ihene"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My maternal uncle has a Αγελάδα'"
+ word_bank: ["Marume", "afite", "inka", "Datawabo", "ihene", "afite"]
+ correct_answer: ["Marume", "afite", "inka"]
+ xp_reward: 22
+
+ - id: 59
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My paternal aunt is kind'"
+ word_bank: ["Masenge", "ni", "mwiza", "Nyirarume", "ni", "mwiza", "cyane"]
+ correct_answer: ["Masenge", "ni", "mwiza"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My maternal aunt is very nice'"
+ word_bank: ["Nyirarume", "ni", "mwiza", "cyane", "Masenge", "ni", "mwiza"]
+ correct_answer: ["Nyirarume", "ni", "mwiza", "cyane"]
+ xp_reward: 22
+
+ - id: 61
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My child is playing'"
+ word_bank: ["Umwana", "arakinira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwana", "arakinira"]
+ xp_reward: 18
+
+ - id: 62
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My grandchild likes to Διάβασε'"
+ word_bank: ["Umwuzukuru", "akunda", "gusoma", "Umwana", "arakinira"]
+ correct_answer: ["Umwuzukuru", "akunda", "gusoma"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My great-grandchild sleeps'"
+ word_bank: ["Umwuzukuruza", "arahunyira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwuzukuruza", "arahunyira"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My son-in-law is helpful'"
+ word_bank: ["Umukwe", "ni", "umufasha", "Sebukwe", "ni", "inyangamugayo"]
+ correct_answer: ["Umukwe", "ni", "umufasha"]
+ xp_reward: 20
+
+ - id: 65
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My father-in-law is wise'"
+ word_bank: ["Sebukwe", "ni", "inyangamugayo", "Umukwe", "ni", "umufasha"]
+ correct_answer: ["Sebukwe", "ni", "inyangamugayo"]
+ xp_reward: 20
+
+ # 7. Πρόταση Scramble - PIECES PROVIDED
+ - id: 66
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["ari", "Mama", "mu nzu"]
+ correct_sentence: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 67
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["ari", "Data", "mu kazi"]
+ correct_sentence: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["arakina", "Musaza", "hanze"]
+ correct_sentence: "Musaza arakina hanze"
+ translation: "My brother plays outside"
+ xp_reward: 22
+
+ - id: 69
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["arasoma", "Mushiki", "igitabo"]
+ correct_sentence: "Mushiki arasoma igitabo"
+ translation: "My sister Διάβασε a book"
+ xp_reward: 22
+
+ - id: 70
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["Nkunda", "Nyogokuru"]
+ correct_sentence: "Nkunda Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["arasaza", "Sogokuru", "cyane"]
+ correct_sentence: "Sogokuru arasaza cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 20
+
+ - id: 72
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["afite", "Sogokuru", "inzu"]
+ correct_sentence: "Sogokuru afite inzu"
+ translation: "My grandfather has a Σπίτι"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["araduteka", "Nyogokuru", "ibiryo"]
+ correct_sentence: "Nyogokuru araduteka ibiryo"
+ translation: "My grandmother cooks Φαγητό"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Επίλεξε FROM OPTIONS
+ - id: 74
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Mama ___ mu nzu."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Data ___ mu kazi."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 76
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Musaza ___ hanze."
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ - id: 77
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Mushiki ___ igitabo."
+ options: ["arasoma", "arakina", "ari"]
+ correct_answer: "arasoma"
+ translation: "My sister Διάβασε a book"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Nkunda ___."
+ options: ["Nyogokuru", "Sogokuru", "Data"]
+ correct_answer: "Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Sogokuru arasaza ___."
+ options: ["cyane", "neza", "nziza"]
+ correct_answer: "cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 15
+
+ - id: 80
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Sogokuru ___ inzu."
+ options: ["afite", "ari", "ni"]
+ correct_answer: "afite"
+ translation: "My grandfather has a Σπίτι"
+ xp_reward: 15
+
+ - id: 81
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Nyogokuru araduteka ___."
+ options: ["ibiryo", "amazi", "inyama"]
+ correct_answer: "ibiryo"
+ translation: "My grandmother cooks Φαγητό"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 82
+ type: picture_word
+ Ερώτηση: "Who is this Οικογένεια member?"
+ image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Nyogokuru", "Sogokuru"]
+ correct_answer: "Mama"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ Ερώτηση: "Who is this Οικογένεια member?"
+ image_url: "https://source.unsplash.com/featured/?fatherhttps://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Musaza", "Mushiki"]
+ correct_answer: "Data"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ Ερώτηση: "Who is this Οικογένεια member?"
+ image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Nyogokuru", "Sogokuru", "Mama", "Data"]
+ correct_answer: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ Ερώτηση: "Who is this Οικογένεια member?"
+ image_url: "https://source.unsplash.com/featured/?grandfather"
+ options: ["Sogokuru", "Nyogokuru", "Data", "Marume"]
+ correct_answer: "Sogokuru"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Ερώτηση: "Who is this Οικογένεια member?"
+ image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Musaza", "Mushiki", "Umwana", "Data"]
+ correct_answer: "Musaza"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Ερώτηση: "Who is this Οικογένεια member?"
+ image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mushiki", "Musaza", "Mama", "Nyogokuru"]
+ correct_answer: "Mushiki"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Ερώτηση: "Who is this Οικογένεια member?"
+ image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umwana", "Umwuzukuru", "Musaza", "Mushiki"]
+ correct_answer: "Umwana"
+ xp_reward: 10
+
+ 
+ # 10. Word Ταιριάξε (Pairing)
+ - id: 90
+ type: Ταιριάξε
+ Ερώτηση: "Ταιριάξε the Οικογένεια members"
+ pairs:
+ - Αριστερά: "Mother"
+ Δεξιά: "Mama"
+ - Αριστερά: "Father"
+ Δεξιά: "Data"
+ - Αριστερά: "Brother"
+ Δεξιά: "Musaza"
+ - Αριστερά: "Sister"
+ Δεξιά: "Mushiki"
+ - Αριστερά: "Child"
+ Δεξιά: "Umwana"
+ - Αριστερά: "Grandmother"
+ Δεξιά: "Nyogokuru"
+ - Αριστερά: "Grandfather"
+ Δεξιά: "Sogokuru"
+ - Αριστερά: "Husband"
+ Δεξιά: "Umugabo"
+ - Αριστερά: "Wife"
+ Δεξιά: "Umugore"
+ xp_reward: 25
+
+ - id: 91
+ type: Ταιριάξε
+ Ερώτηση: "Ταιριάξε the extended Οικογένεια members"
+ pairs:
+ - Αριστερά: "Paternal uncle"
+ Δεξιά: "Datawabo"
+ - Αριστερά: "Maternal uncle"
+ Δεξιά: "Marume"
+ - Αριστερά: "Paternal aunt"
+ Δεξιά: "Masenge"
+ - Αριστερά: "Maternal aunt"
+ Δεξιά: "Nyirarume"
+ - Αριστερά: "Grandchild"
+ Δεξιά: "Umwuzukuru"
+ - Αριστερά: "Great-grandchild"
+ Δεξιά: "Umwuzukuruza"
+ - Αριστερά: "Son-in-law"
+ Δεξιά: "Umukwe"
+ - Αριστερά: "Father-in-law"
+ Δεξιά: "Sebukwe"
+ xp_reward: 25
+
+ - id: 92
+ type: Ταιριάξε
+ Ερώτηση: "Ταιριάξε the actions with Οικογένεια members"
+ pairs:
+ - Αριστερά: "is at home"
+ Δεξιά: "ari mu nzu"
+ - Αριστερά: "is working"
+ Δεξιά: "ari mu kazi"
+ - Αριστερά: "plays outside"
+ Δεξιά: "arakina hanze"
+ - Αριστερά: "Διάβασε a book"
+ Δεξιά: "arasoma igitabo"
+ - Αριστερά: "cooks Φαγητό"
+ Δεξιά: "araduteka ibiryo"
+ - Αριστερά: "has a Σπίτι"
+ Δεξιά: "afite inzu"
+ xp_reward: 25
+
+ # 11. Επίλεξε Missing Word
+ - id: 97
+ type: choose_missing
+ Ερώτηση: "Επίλεξε the missing word"
+ Πρόταση: "Mama ___ mu nzu."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 98
+ type: choose_missing
+ Ερώτηση: "Επίλεξε the missing word"
+ Πρόταση: "Data ___ mu kazi."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 99
+ type: choose_missing
+ Ερώτηση: "Επίλεξε the missing word"
+ Πρόταση: "Musaza ___ hanze."
+ missing_word_position: 2
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ # 12. Διάβασε and Απάντηση - Ερώτηση in English, Απάντηση based on Kinyarwanda text
+ - id: 100
+ type: read_answer
+ Ερώτηση: "Διάβασε the text and Απάντηση the Ερώτηση"
+ text: "Mama ari mu nzu. Data ari mu kazi."
+ Ερώτηση: "Where is the mother?"
+ options: ["At home", "At work", "Outside", "At the Αγορά"]
+ correct_answer: "At home"
+ xp_reward: 20
+
+ - id: 101
+ type: read_answer
+ Ερώτηση: "Διάβασε the text and Απάντηση the Ερώτηση"
+ text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+ Ερώτηση: "Τι είναι the sister doing?"
+ options: ["Playing", "Διάβασε a book", "Working", "Cooking"]
+ correct_answer: "Διάβασε a book"
+ xp_reward: 22
+
+ - id: 102
+ type: read_answer
+ Ερώτηση: "Διάβασε the text and Απάντηση the Ερώτηση"
+ text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+ Ερώτηση: "Τι σημαίνει the grandfather have?"
+ options: ["A Αγελάδα", "A Σπίτι", "A Κατσίκα", "A book"]
+ correct_answer: "A Σπίτι"
+ xp_reward: 20
+
+ - id: 103
+ type: read_answer
+ Ερώτηση: "Διάβασε the text and Απάντηση the Ερώτηση"
+ text: "Datawabo afite ihene. Marume afite inka."
+ Ερώτηση: "Τι σημαίνει the maternal uncle have?"
+ options: ["A Κατσίκα", "A Αγελάδα", "A Σπίτι", "A Κοτόπουλο"]
+ correct_answer: "A Αγελάδα"
+ xp_reward: 22
+
+ # 13. True / False
+ - id: 104
+ type: true_false
+ Ερώτηση: "Is this statement true or false?"
+ statement: "Mama ni umugore."
+ translation: "Mother is a woman"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 105
+ type: true_false
+ Ερώτηση: "Is this statement true or false?"
+ statement: "Data ni umugore."
+ translation: "Father is a woman"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 106
+ type: true_false
+ Ερώτηση: "Is this statement true or false?"
+ statement: "Nyogokuru arasaza cyane."
+ translation: "Grandmother is very old"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 107
+ type: true_false
+ Ερώτηση: "Is this statement true or false?"
+ statement: "Umwana arakina hanze."
+ translation: "The child plays outside"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 108
+ type: conversation
+ Ερώτηση: "Respond to the Ερώτηση by building a Πρόταση"
+ bot_message: "Mama ari he?"
+ translation: "Where is mother?"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "ari", "mu kazi"]
+ correct_response: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 109
+ type: conversation
+ Ερώτηση: "Respond to the Ερώτηση"
+ bot_message: "Umuryango umeze ute?"
+ translation: "How is the Οικογένεια?"
+ options:
+ - "Umeze neza"
+ - "Umeze nabi"
+ - "Umeze ute"
+ correct_response: "Umeze neza"
+ xp_reward: 15
+
+ - id: 110
+ type: conversation
+ Ερώτηση: "Respond to the Ερώτηση by building a Πρόταση"
+ bot_message: "Data ari he?"
+ translation: "Where is father?"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "ari", "mu nzu"]
+ correct_response: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build Πρόταση from pieces
+ - id: 111
+ type: story
+ title: "My Οικογένεια - Umuryango Wanjye"
+ story_intro: "Διάβασε about the Οικογένεια. Then build the Πρόταση."
+ story_segments:
+ - text: "My mother is at home."
+ image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+ - text: "My father is working."
+ - text: "My brother plays outside."
+ - text: "My sister Διάβασε a book."
+ - text: "My grandmother cooks Φαγητό."
+ - text: "My grandfather has a Σπίτι."
+ exercises:
+ - type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ - type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ - type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ - type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'My grandmother cooks Φαγητό'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 112
+ type: pronunciation
+ Ερώτηση: "Say this Οικογένεια member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ Ερώτηση: "Say this Οικογένεια member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ Ερώτηση: "Say this Πρόταση"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 115
+ type: identify_meaning
+ Ερώτηση: "Τι σημαίνει 'Mama' mean in this Πρόταση?"
+ context_sentence: "Mama ari mu nzu."
+ word: "Mama"
+ options: ["father", "mother", "brother", "sister"]
+ correct_answer: "mother"
+ xp_reward: 15
+
+ - id: 116
+ type: identify_meaning
+ Ερώτηση: "Τι σημαίνει 'arakina' mean in this Πρόταση?"
+ context_sentence: "Musaza arakina hanze."
+ word: "arakina"
+ options: ["Διάβασε", "plays", "works", "cooks"]
+ correct_answer: "plays"
+ xp_reward: 18
+
+ - id: 117
+ type: identify_meaning
+ Ερώτηση: "Τι σημαίνει 'araduteka' mean in this Πρόταση?"
+ context_sentence: "Nyogokuru araduteka ibiryo."
+ word: "araduteka"
+ options: ["cooks", "eats", "has", "loves"]
+ correct_answer: "cooks"
+ xp_reward: 18
+
+ # 18. Speed Ταιριάξε
+ - id: 118
+ type: speed_Ταιριάξε
+ title: "Ταιριάξε Madness: Οικογένεια"
+ time_limit_seconds: 45
+ pairs:
+ - Αριστερά: "Mother"
+ Δεξιά: "Mama"
+ - Αριστερά: "Father"
+ Δεξιά: "Data"
+ - Αριστερά: "Brother"
+ Δεξιά: "Musaza"
+ - Αριστερά: "Sister"
+ Δεξιά: "Mushiki"
+ - Αριστερά: "Grandmother"
+ Δεξιά: "Nyogokuru"
+ - Αριστερά: "Grandfather"
+ Δεξιά: "Sogokuru"
+ - Αριστερά: "Child"
+ Δεξιά: "Umwana"
+ - Αριστερά: "Husband"
+ Δεξιά: "Umugabo"
+ - Αριστερά: "Wife"
+ Δεξιά: "Umugore"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 119
+ type: timed_challenge
+ title: "Lightning Round: Οικογένεια"
+ time_limit_seconds: 30
+ Ερώτηση_count: 5
+ Ερώτηση:
+ - Ερώτηση: "Mother"
+ Απάντηση: "Mama"
+ - Ερώτηση: "Father"
+ Απάντηση: "Data"
+ - Ερώτηση: "Brother"
+ Απάντηση: "Musaza"
+ - Ερώτηση: "Sister"
+ Απάντηση: "Mushiki"
+ - Ερώτηση: "Grandmother"
+ Απάντηση: "Nyogokuru"
+ xp_reward: 35
+
+# Κάρτες
+ - id: 111
+ type: Κάρτες
+ Ερώτηση: "Κάρτες"
+ Κάρτες:
+ - front: "Mama"
+ back: "Mother"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Data"
+ back: "Father"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Musaza"
+ back: "Brother"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Mushiki"
+ back: "Sister"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umwana"
+ back: "Child"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyogokuru"
+ back: "Grandmother"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Sogokuru"
+ back: "Grandfather"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugabo"
+ back: "Husband"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugore"
+ back: "Wife"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Datawabo"
+ back: "Paternal uncle"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

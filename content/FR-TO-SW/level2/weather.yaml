@@ -1,0 +1,1293 @@
+lesson:
+  name: "Hali ya Hewa"
+  description: "Apprenez les expressions météo en Kiswahili"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Weather Words ONLY (Safe for single words)
+  # Basic Weather Words
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Temps (météo)' en Kiswahili ?"
+    answer: "Hali ya hewa"
+    xp_reward: 15
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Soleil' en Kiswahili ?"
+    answer: "Jua"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Pluie' en Kiswahili ?"
+    answer: "Mvua"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Neige' en Kiswahili ?"
+    answer: "Theluji"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Nuage' en Kiswahili ?"
+    answer: "Wingu"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Vent' en Kiswahili ?"
+    answer: "Upepo"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Tempête' en Kiswahili ?"
+    answer: "Dhoruba"
+    xp_reward: 15
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Tonnerre' en Kiswahili ?"
+    answer: "Ngurumo"
+    xp_reward: 15
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Éclair' en Kiswahili ?"
+    answer: "Radi"
+    xp_reward: 15
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Chaud' en Kiswahili ?"
+    answer: "Joto"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Froid' en Kiswahili ?"
+    answer: "Baridi"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Chaud' en Kiswahili ?"
+    answer: "Joto kidogo"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Frais' en Kiswahili ?"
+    answer: "Baridi kidogo"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Humide' en Kiswahili ?"
+    answer: "Unyevu"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Brouillard' en Kiswahili ?"
+    answer: "Ukungu"
+    xp_reward: 10
+
+  # Sentences About Weather
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Le soleil brille' en Kiswahili ?"
+    answer: "Jua linaangaza."
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Il pleut' en Kiswahili ?"
+    answer: "Kunanyesha"
+    xp_reward: 18
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Il neige' en Kiswahili ?"
+    answer: "Kunanyesha theluji."
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Le vent est fort' en Kiswahili ?"
+    answer: "Upepo una nguvu."
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'Le ciel est nuageux' en Kiswahili ?"
+    answer: "Anga ni mawingu."
+    xp_reward: 18
+
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'Il fait chaud aujourd'hui' en Kiswahili ?"
+    answer: "Leo kuna joto."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'Il fait froid dehors' en Kiswahili ?"
+    answer: "Nje kuna baridi."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Il fait beau' en Kiswahili ?"
+    answer: "Hali ya hewa ni nzuri."
+    xp_reward: 15
+
+  # Daily Weather Expressions
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'Bonjour ! Il fait soleil' en Kiswahili ?"
+    answer: "Habari za asubuhi! Jua linaangaza."
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'Il va pleuvoir aujourd'hui' en Kiswahili ?"
+    answer: "Leo itanyesha."
+    xp_reward: 18
+
+  - id: 26
+    type: translation
+    question: "Comment dit-on 'Le vent souffle' en Kiswahili ?"
+    answer: "Upepo unavuma."
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "Comment dit-on 'Attention, ça peut glisser' en Kiswahili ?"
+    answer: "Jihadharini, inaweza kuteleza."
+    xp_reward: 20
+
+  - id: 28
+    type: translation
+    question: "Comment dit-on 'Il est nuageux aujourd'hui' en Kiswahili ?"
+    answer: "Leo anga ni mawingu."
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "Que signifie 'Jua' ?"
+    options:
+      - "Mvua"
+      - "Jua"
+      - "Upepo"
+      - "Wingu"
+    answer: "Jua"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "Que signifie 'Mvua' ?"
+    options:
+      - "Theluji"
+      - "Mvua"
+      - "Dhoruba"
+      - "Ukungu"
+    answer: "Mvua"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "Que signifie 'Upepo' ?"
+    options:
+      - "Jua"
+      - "Wingu"
+      - "Upepo"
+      - "Dhoruba"
+    answer: "Upepo"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "Que signifie 'Joto' ?"
+    options:
+      - "Baridi"
+      - "Joto"
+      - "Joto kidogo"
+      - "Baridi kidogo"
+    answer: "Joto"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "Que signifie 'Baridi' ?"
+    options:
+      - "Joto"
+      - "Joto"
+      - "Baridi"
+      - "Baridi kidogo"
+    answer: "Baridi"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "Que signifie 'Jua linaangaza' ?"
+    options:
+      - "Kunanyesha"
+      - "Jua linaangaza"
+      - "Upepo una nguvu"
+      - "Anga ni mawingu"
+    answer: "Jua linaangaza"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 35
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de la météo"
+    audio: "Jua"
+    answer: "Jua"
+    translation: "Soleil"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de la météo"
+    audio: "Mvua"
+    answer: "Mvua"
+    translation: "Pluie"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de la météo"
+    audio: "Upepo"
+    answer: "Upepo"
+    translation: "Vent"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de la météo"
+    audio: "Theluji"
+    answer: "Theluji"
+    translation: "Neige"
+    xp_reward: 20
+
+  - id: 39
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Jua linaangaza"
+    answer: "Jua linaangaza"
+    translation: "Le soleil brille"
+    xp_reward: 22
+
+  - id: 40
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Kunanyesha"
+    answer: "Kunanyesha"
+    translation: "Il pleut"
+    xp_reward: 25
+
+  - id: 41
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Leo kuna joto"
+    answer: "Leo kuna joto"
+    translation: "Il fait chaud aujourd'hui"
+    xp_reward: 22
+
+  - id: 42
+    type: listen_and_type
+    question: "Écoutez et tapez l'expression"
+    audio: "Habari za asubuhi Jua limeangaza"
+    answer: "Habari za asubuhi Jua limeangaza"
+    translation: "Bonjour ! Il fait soleil"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 43
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon mot de la météo"
+    audio: "Jua"
+    options:
+      - "Mvua"
+      - "Jua"
+      - "Upepo"
+    answer: "Jua"
+    xp_reward: 15
+
+  - id: 44
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon mot de la météo"
+    audio: "Mvua"
+    options:
+      - "Theluji"
+      - "Mvua"
+      - "Wingu"
+    answer: "Mvua"
+    xp_reward: 15
+
+  - id: 45
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon mot de la météo"
+    audio: "Upepo"
+    options:
+      - "Jua"
+      - "Upepo"
+      - "Dhoruba"
+    answer: "Upepo"
+    xp_reward: 15
+
+  - id: 46
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Jua linaangaza"
+    options:
+      - "Kunanyesha"
+      - "Jua linaangaza"
+      - "Upepo una nguvu"
+    answer: "Jua linaangaza"
+    xp_reward: 18
+
+  - id: 47
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Kunanyesha"
+    options:
+      - "Leo kuna joto"
+      - "Kunanyesha"
+      - "Anga ni mawingu"
+    answer: "Kunanyesha"
+    xp_reward: 20
+
+  # 5. Repeat / Speaking Exercise
+  - id: 48
+    type: speaking
+    question: "Dites ce mot de la météo"
+    prompt: "Jua"
+    translation: "Soleil"
+    xp_reward: 15
+
+  - id: 49
+    type: speaking
+    question: "Dites ce mot de la météo"
+    prompt: "Mvua"
+    translation: "Pluie"
+    xp_reward: 15
+
+  - id: 50
+    type: speaking
+    question: "Dites ce mot de la météo"
+    prompt: "Upepo"
+    translation: "Vent"
+    xp_reward: 15
+
+  - id: 51
+    type: speaking
+    question: "Dites ce mot de la météo"
+    prompt: "Theluji"
+    translation: "Neige"
+    xp_reward: 15
+
+  - id: 52
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Jua linaangaza"
+    translation: "Le soleil brille"
+    xp_reward: 18
+
+  - id: 53
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Kunanyesha"
+    translation: "Il pleut"
+    xp_reward: 20
+
+  - id: 54
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Leo kuna joto"
+    translation: "Il fait chaud aujourd'hui"
+    xp_reward: 18
+
+  - id: 55
+    type: speaking
+    question: "Dites cette expression"
+    prompt: "Habari za asubuhi Jua limeangaza"
+    translation: "Bonjour ! Il fait soleil"
+    xp_reward: 22
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED
+  - id: 56
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Le soleil brille'"
+    word_bank: ["Jua", "linaangaza", "mvua", "inanyesha", "upepo"]
+    correct_answer: ["Jua", "linaangaza"]
+    xp_reward: 15
+
+  - id: 57
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Il pleut'"
+    word_bank: ["Kunanyesha", "theluji", "inanyesha", "jua", "linaangaza"]
+    correct_answer: ["Kunanyesha"]
+    xp_reward: 20
+
+  - id: 58
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Il neige'"
+    word_bank: ["Kunanyesha", "theluji", "mvua", "inanyesha", "jua"]
+    correct_answer: ["Kunanyesha", "theluji"]
+    xp_reward: 15
+
+  - id: 59
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Le vent est fort'"
+    word_bank: ["Upepo", "una", "nguvu", "jua", "linaangaza", "mvua"]
+    correct_answer: ["Upepo", "una", "nguvu"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Le ciel est nuageux'"
+    word_bank: ["Anga", "ni", "mawingu", "jua", "linaangaza", "upepo"]
+    correct_answer: ["Anga", "ni", "mawingu"]
+    xp_reward: 18
+
+  - id: 61
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Il fait chaud aujourd'hui'"
+    word_bank: ["Leo", "kuna", "joto", "baridi", "upepo", "una nguvu"]
+    correct_answer: ["Leo", "kuna", "joto"]
+    xp_reward: 15
+
+  - id: 62
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Il fait froid dehors'"
+    word_bank: ["Nje", "kuna", "baridi", "joto", "upepo", "unavuma"]
+    correct_answer: ["Nje", "kuna", "baridi"]
+    xp_reward: 15
+
+  - id: 63
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Il fait beau'"
+    word_bank: ["Hali", "ya", "hewa", "ni", "nzuri", "mawingu", "baridi"]
+    correct_answer: ["Hali", "ya", "hewa", "ni", "nzuri"]
+    xp_reward: 18
+
+  - id: 64
+    type: word_bank
+    question: "Construisez l'expression en Kiswahili pour 'Bonjour ! Il fait soleil'"
+    word_bank: ["Habari", "za", "asubuhi", "Jua", "linaangaza", "kunanyesha"]
+    correct_answer: ["Habari", "za", "asubuhi", "Jua", "linaangaza"]
+    xp_reward: 18
+
+  - id: 65
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Il va pleuvoir aujourd'hui'"
+    word_bank: ["Leo", "itanyesha", "theluji", "jua", "litaangaza"]
+    correct_answer: ["Leo", "itanyesha"]
+    xp_reward: 20
+
+  - id: 66
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Le vent souffle'"
+    word_bank: ["Upepo", "unavuma", "una nguvu", "jua", "linaangaza"]
+    correct_answer: ["Upepo", "unavuma"]
+    xp_reward: 15
+
+  - id: 67
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Attention, ça peut glisser'"
+    word_bank: ["Jihadharini", "inaweza", "kuteleza", "nje", "kuna", "baridi"]
+    correct_answer: ["Jihadharini", "inaweza", "kuteleza"]
+    xp_reward: 22
+
+  - id: 68
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Il est nuageux aujourd'hui'"
+    word_bank: ["Leo", "anga", "ni", "mawingu", "jua", "linaangaza"]
+    correct_answer: ["Leo", "anga", "ni", "mawingu"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 69
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Jua", "linaangaza"]
+    correct_sentence: "Jua linaangaza."
+    translation: "Le soleil brille."
+    xp_reward: 15
+
+  - id: 70
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Kunanyesha"]
+    correct_sentence: "Kunanyesha."
+    translation: "Il pleut."
+    xp_reward: 20
+
+  - id: 71
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Kunanyesha", "theluji"]
+    correct_sentence: "Kunanyesha theluji."
+    translation: "Il neige."
+    xp_reward: 15
+
+  - id: 72
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Upepo", "una", "nguvu"]
+    correct_sentence: "Upepo una nguvu."
+    translation: "Le vent est fort."
+    xp_reward: 15
+
+  - id: 73
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Anga", "ni", "mawingu"]
+    correct_sentence: "Anga ni mawingu."
+    translation: "Le ciel est nuageux."
+    xp_reward: 18
+
+  - id: 74
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Leo", "kuna", "joto"]
+    correct_sentence: "Leo kuna joto."
+    translation: "Il fait chaud aujourd'hui."
+    xp_reward: 15
+
+  - id: 75
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nje", "kuna", "baridi"]
+    correct_sentence: "Nje kuna baridi."
+    translation: "Il fait froid dehors."
+    xp_reward: 15
+
+  - id: 76
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Hali", "ya", "hewa", "ni", "nzuri"]
+    correct_sentence: "Hali ya hewa ni nzuri."
+    translation: "Il fait beau."
+    xp_reward: 18
+
+  - id: 77
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une expression correcte"
+    scrambled_words: ["Habari", "za", "asubuhi", "Jua", "linaangaza"]
+    correct_sentence: "Habari za asubuhi! Jua linaangaza."
+    translation: "Bonjour ! Il fait soleil."
+    xp_reward: 18
+
+  - id: 78
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Leo", "itanyesha"]
+    correct_sentence: "Leo itanyesha."
+    translation: "Il va pleuvoir aujourd'hui."
+    xp_reward: 20
+
+  - id: 79
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Upepo", "unavuma"]
+    correct_sentence: "Upepo unavuma."
+    translation: "Le vent souffle."
+    xp_reward: 15
+
+  - id: 80
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Jihadharini", "inaweza", "kuteleza"]
+    correct_sentence: "Jihadharini, inaweza kuteleza."
+    translation: "Attention, ça peut glisser."
+    xp_reward: 22
+
+  - id: 81
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Leo", "anga", "ni", "mawingu"]
+    correct_sentence: "Leo anga ni mawingu."
+    translation: "Il est nuageux aujourd'hui."
+    xp_reward: 20
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 82
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Jua ___."
+    options: ["linaangaza", "unavuma", "inanyesha"]
+    correct_answer: "linaangaza"
+    translation: "Le soleil brille."
+    xp_reward: 12
+
+  - id: 83
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "___."
+    options: ["Kunanyesha", "Kunanyesha theluji", "Jua linaangaza"]
+    correct_answer: "Kunanyesha"
+    translation: "Il pleut."
+    xp_reward: 15
+
+  - id: 84
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Kunanyesha ___."
+    options: ["theluji", "mvua", "upepo"]
+    correct_answer: "theluji"
+    translation: "Il neige."
+    xp_reward: 12
+
+  - id: 85
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Upepo una ___."
+    options: ["nguvu", "joto", "baridi"]
+    correct_answer: "nguvu"
+    translation: "Le vent est fort."
+    xp_reward: 12
+
+  - id: 86
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Anga ni ___."
+    options: ["mawingu", "joto", "baridi"]
+    correct_answer: "mawingu"
+    translation: "Le ciel est nuageux."
+    xp_reward: 15
+
+  - id: 87
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Leo kuna ___."
+    options: ["joto", "baridi", "upepo"]
+    correct_answer: "joto"
+    translation: "Il fait chaud aujourd'hui."
+    xp_reward: 12
+
+  - id: 88
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nje kuna ___."
+    options: ["baridi", "joto", "upepo"]
+    correct_answer: "baridi"
+    translation: "Il fait froid dehors."
+    xp_reward: 12
+
+  - id: 89
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Hali ya hewa ni ___."
+    options: ["nzuri", "mawingu", "baridi"]
+    correct_answer: "nzuri"
+    translation: "Il fait beau."
+    xp_reward: 12
+
+  - id: 90
+    type: fill_blank
+    question: "Complétez l'expression"
+    text_with_blank: "Habari za asubuhi! Jua ___."
+    options: ["linaangaza", "unavuma", "inanyesha"]
+    correct_answer: "linaangaza"
+    translation: "Bonjour ! Il fait soleil."
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Leo ___."
+    options: ["itanyesha", "itanyesha theluji", "jua litaangaza"]
+    correct_answer: "itanyesha"
+    translation: "Il va pleuvoir aujourd'hui."
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Upepo ___."
+    options: ["unavuma", "una nguvu", "linaangaza"]
+    correct_answer: "unavuma"
+    translation: "Le vent souffle."
+    xp_reward: 12
+
+  - id: 93
+    type: fill_blank
+    question: "Complétez l'avertissement"
+    text_with_blank: "Jihadharini, inaweza ___."
+    options: ["kuteleza", "kunyesha", "kuwa na upepo"]
+    correct_answer: "kuteleza"
+    translation: "Attention, ça peut glisser."
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 94
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi?"
+    image_url: "https://source.unsplash.com/featured/?sun"
+    options: ["Jua", "Mvua", "Wingu"]
+    correct_answer: "Jua"
+    xp_reward: 10
+
+  - id: 95
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi?"
+    image_url: "https://source.unsplash.com/featured/?rain"
+    options: ["Mvua", "Theluji", "Upepo"]
+    correct_answer: "Mvua"
+    xp_reward: 10
+
+  - id: 96
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi?"
+    image_url: "https://source.unsplash.com/featured/?snow"
+    options: ["Theluji", "Mvua", "Ukungu"]
+    correct_answer: "Theluji"
+    xp_reward: 10
+
+  - id: 97
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi?"
+    image_url: "https://source.unsplash.com/featured/?cloud"
+    options: ["Wingu", "Jua", "Upepo"]
+    correct_answer: "Wingu"
+    xp_reward: 10
+
+  - id: 98
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi?"
+    image_url: "https://source.unsplash.com/featured/?wind"
+    options: ["Upepo", "Mvua", "Theluji"]
+    correct_answer: "Upepo"
+    xp_reward: 10
+
+  - id: 99
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi?"
+    image_url: "https://source.unsplash.com/featured/?storm"
+    options: ["Dhoruba", "Jua", "Wingu"]
+    correct_answer: "Dhoruba"
+    xp_reward: 15
+
+  - id: 100
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi?"
+    image_url: "https://source.unsplash.com/featured/?lightning"
+    options: ["Radi", "Mvua", "Wingu"]
+    correct_answer: "Radi"
+    xp_reward: 15
+
+  - id: 101
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi?"
+    image_url: "https://source.unsplash.com/featured/?fog"
+    options: ["Ukungu", "Wingu", "Upepo"]
+    correct_answer: "Ukungu"
+    xp_reward: 12
+
+  - id: 102
+    type: picture_word
+    question: "Hii ni joto gani?"
+    image_url: "https://source.unsplash.com/featured/?hot-weather"
+    options: ["Joto", "Baridi", "Baridi kidogo"]
+    correct_answer: "Joto"
+    xp_reward: 10
+
+  - id: 103
+    type: picture_word
+    question: "Hii ni joto gani?"
+    image_url: "https://source.unsplash.com/featured/?cold-weather"
+    options: ["Baridi", "Joto", "Joto kidogo"]
+    correct_answer: "Baridi"
+    xp_reward: 10
+
+  # 10. Word Matching (Pairing)
+  - id: 104
+    type: matching
+    question: "Associez les mots de la météo"
+    pairs:
+      - left: "Jua"
+        right: "Soleil"
+      - left: "Mvua"
+        right: "Pluie"
+      - left: "Theluji"
+        right: "Neige"
+      - left: "Wingu"
+        right: "Nuage"
+      - left: "Upepo"
+        right: "Vent"
+      - left: "Dhoruba"
+        right: "Tempête"
+      - left: "Ngurumo"
+        right: "Tonnerre"
+      - left: "Radi"
+        right: "Éclair"
+      - left: "Ukungu"
+        right: "Brouillard"
+    xp_reward: 25
+
+  - id: 105
+    type: matching
+    question: "Associez les températures"
+    pairs:
+      - left: "Joto"
+        right: "Chaud"
+      - left: "Baridi"
+        right: "Froid"
+      - left: "Joto kidogo"
+        right: "Chaud"
+      - left: "Baridi kidogo"
+        right: "Frais"
+      - left: "Unyevu"
+        right: "Humide"
+    xp_reward: 20
+
+  - id: 106
+    type: matching
+    question: "Associez les phrases météo"
+    pairs:
+      - left: "Jua linaangaza"
+        right: "Le soleil brille"
+      - left: "Kunanyesha"
+        right: "Il pleut"
+      - left: "Kunanyesha theluji"
+        right: "Il neige"
+      - left: "Upepo una nguvu"
+        right: "Le vent est fort"
+      - left: "Anga ni mawingu"
+        right: "Le ciel est nuageux"
+      - left: "Leo kuna joto"
+        right: "Il fait chaud aujourd'hui"
+      - left: "Nje kuna baridi"
+        right: "Il fait froid dehors"
+    xp_reward: 25
+
+  - id: 107
+    type: matching
+    question: "Associez les expressions quotidiennes"
+    pairs:
+      - left: "Habari za asubuhi! Jua linaangaza"
+        right: "Bonjour ! Il fait soleil"
+      - left: "Leo itanyesha"
+        right: "Il va pleuvoir aujourd'hui"
+      - left: "Upepo unavuma"
+        right: "Le vent souffle"
+      - left: "Jihadharini, inaweza kuteleza"
+        right: "Attention, ça peut glisser"
+      - left: "Leo anga ni mawingu"
+        right: "Il est nuageux aujourd'hui"
+    xp_reward: 25
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 108
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Jua ___."
+    missing_word_position: 2
+    options: ["linaangaza", "unavuma", "inanyesha"]
+    correct_answer: "linaangaza"
+    translation: "Le soleil brille."
+    xp_reward: 12
+
+  - id: 109
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "___."
+    missing_word_position: 1
+    options: ["Kunanyesha", "Kunanyesha theluji", "Jua linaangaza"]
+    correct_answer: "Kunanyesha"
+    translation: "Il pleut."
+    xp_reward: 15
+
+  - id: 110
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Upepo una ___."
+    missing_word_position: 3
+    options: ["nguvu", "joto", "baridi"]
+    correct_answer: "nguvu"
+    translation: "Le vent est fort."
+    xp_reward: 12
+
+  - id: 111
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Leo kuna ___."
+    missing_word_position: 3
+    options: ["joto", "baridi", "upepo"]
+    correct_answer: "joto"
+    translation: "Il fait chaud aujourd'hui."
+    xp_reward: 12
+
+  - id: 112
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Nje kuna ___."
+    missing_word_position: 3
+    options: ["baridi", "joto", "upepo"]
+    correct_answer: "baridi"
+    translation: "Il fait froid dehors."
+    xp_reward: 12
+
+  - id: 113
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Leo ___."
+    missing_word_position: 2
+    options: ["itanyesha", "itanyesha theluji", "jua litaangaza"]
+    correct_answer: "itanyesha"
+    translation: "Il va pleuvoir aujourd'hui."
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions based on text
+  - id: 114
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Jua linaangaza. Hali ya hewa ni nzuri."
+    question: "Hali ya hewa ikoje?"
+    options: ["Kunanyesha", "Kuna jua", "Kuna mawingu", "Kuna upepo"]
+    correct_answer: "Kuna jua"
+    xp_reward: 12
+
+  - id: 115
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Kunanyesha. Upepo una nguvu."
+    question: "Kinachotokea ni nini?"
+    options: ["Kunanyesha theluji", "Kunanyesha", "Kuna jua", "Kuna mawingu"]
+    correct_answer: "Kunanyesha"
+    xp_reward: 15
+
+  - id: 116
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Leo kuna joto. Jua linaangaza."
+    question: "Joto la leo likoje?"
+    options: ["Baridi", "Joto", "Baridi kidogo", "Joto kidogo"]
+    correct_answer: "Joto"
+    xp_reward: 12
+
+  - id: 117
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Anga ni mawingu. Itanyesha."
+    question: "Kitakachotokea leo ni nini?"
+    options: ["Itanyesha theluji", "Itanyesha", "Jua litaangaza", "Upepo utavuma"]
+    correct_answer: "Itanyesha"
+    xp_reward: 15
+
+  - id: 118
+    type: read_answer
+    question: "Lisez la conversation et répondez à la question"
+    text: "A: Habari za asubuhi! Jua linaangaza. B: Ndiyo, hali ya hewa ni nzuri."
+    question: "Hali ya hewa ikoje?"
+    options: ["Kunanyesha", "Kuna jua", "Kuna mawingu", "Kuna upepo"]
+    correct_answer: "Kuna jua"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 119
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Jua means 'sun'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 120
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Mvua means 'snow'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 121
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Upepo una nguvu means 'the wind is strong'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 122
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Baridi means 'hot'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 123
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Kunanyesha means 'it is raining'."
+    correct_answer: true
+    xp_reward: 15
+
+  - id: 124
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Leo itanyesha theluji means 'it will rain today'."
+    correct_answer: false
+    xp_reward: 15
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 125
+    type: conversation
+    question: "Répondez à la salutation en construisant une phrase"
+    bot_message: "Habari za asubuhi!"
+    translation: "Bonjour !"
+    word_bank: ["Habari", "za", "asubuhi", "Jua", "linaangaza"]
+    correct_response: ["Habari", "za", "asubuhi"]
+    xp_reward: 10
+
+  - id: 126
+    type: conversation
+    question: "Répondez à la question sur la météo"
+    bot_message: "Hali ya hewa ikoje?"
+    translation: "Quel temps fait-il ?"
+    options:
+      - "Jua linaangaza"
+      - "Kunanyesha"
+      - "Upepo una nguvu"
+    correct_response: "Jua linaangaza"
+    xp_reward: 15
+
+  - id: 127
+    type: conversation
+    question: "Répondez à la déclaration"
+    bot_message: "Leo kuna joto."
+    translation: "Il fait chaud aujourd'hui."
+    options:
+      - "Ndiyo, jua linaangaza"
+      - "Hapana, kuna baridi"
+      - "Kunanyesha"
+    correct_response: "Ndiyo, jua linaangaza"
+    xp_reward: 12
+
+  - id: 128
+    type: conversation
+    question: "Répondez à l'avertissement en construisant une phrase"
+    bot_message: "Nje kuna baridi."
+    translation: "Il fait froid dehors."
+    word_bank: ["Jihadharini", "inaweza", "kuteleza", "upepo", "unavuma"]
+    correct_response: ["Jihadharini", "inaweza", "kuteleza"]
+    xp_reward: 20
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 129
+    type: story
+    title: "Siku ya Hali ya Hewa - Une journée de météo"
+    story_intro: "Lisez l'histoire sur la météo. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "Good morning! The sun is shining."
+      - text: "It is hot today."
+      - text: "The sky is cloudy."
+      - text: "It will rain today."
+      - text: "The wind is blowing."
+      - text: "Be careful, it is slippery."
+    exercises:
+      - type: word_bank
+        question: "Construisez 'Bonjour ! Il fait soleil'"
+        word_bank: ["Habari", "za", "asubuhi", "Jua", "linaangaza", "kunanyesha"]
+        correct_answer: ["Habari", "za", "asubuhi", "Jua", "linaangaza"]
+      - type: word_bank
+        question: "Construisez 'Il fait chaud aujourd'hui'"
+        word_bank: ["Leo", "kuna", "joto", "baridi", "upepo"]
+        correct_answer: ["Leo", "kuna", "joto"]
+      - type: word_bank
+        question: "Construisez 'Le ciel est nuageux'"
+        word_bank: ["Anga", "ni", "mawingu", "jua", "linaangaza"]
+        correct_answer: ["Anga", "ni", "mawingu"]
+      - type: word_bank
+        question: "Construisez 'Il va pleuvoir aujourd'hui'"
+        word_bank: ["Leo", "itanyesha", "theluji", "jua"]
+        correct_answer: ["Leo", "itanyesha"]
+      - type: word_bank
+        question: "Construisez 'Le vent souffle'"
+        word_bank: ["Upepo", "unavuma", "una nguvu", "jua"]
+        correct_answer: ["Upepo", "unavuma"]
+      - type: word_bank
+        question: "Construisez 'Attention, ça peut glisser'"
+        word_bank: ["Jihadharini", "inaweza", "kuteleza", "nje", "kuna", "baridi"]
+        correct_answer: ["Jihadharini", "inaweza", "kuteleza"]
+    xp_reward: 45
+
+  # 17. Pronunciation Check
+  - id: 130
+    type: pronunciation
+    question: "Dites ce mot de la météo"
+    prompt: "Jua"
+    translation: "Soleil"
+    xp_reward: 15
+
+  - id: 131
+    type: pronunciation
+    question: "Dites ce mot de la météo"
+    prompt: "Mvua"
+    translation: "Pluie"
+    xp_reward: 15
+
+  - id: 132
+    type: pronunciation
+    question: "Dites ce mot de la météo"
+    prompt: "Upepo"
+    translation: "Vent"
+    xp_reward: 15
+
+  - id: 133
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Jua linaangaza"
+    translation: "Le soleil brille"
+    xp_reward: 18
+
+  - id: 134
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Kunanyesha"
+    translation: "Il pleut"
+    xp_reward: 20
+
+  - id: 135
+    type: pronunciation
+    question: "Dites cette expression"
+    prompt: "Habari za asubuhi Jua limeangaza"
+    translation: "Bonjour ! Il fait soleil"
+    xp_reward: 22
+
+  # 18. Identify Correct Meaning
+  - id: 136
+    type: identify_meaning
+    question: "Que signifie 'Jua' dans cette phrase ?"
+    context_sentence: "Jua linaangaza."
+    word: "Jua"
+    options: ["Mvua", "Jua", "Upepo", "Wingu"]
+    correct_answer: "Jua"
+    xp_reward: 12
+
+  - id: 137
+    type: identify_meaning
+    question: "Que signifie 'linaangaza' dans cette phrase ?"
+    context_sentence: "Jua linaangaza."
+    word: "linaangaza"
+    options: ["inanyesha", "inaangaza", "unavuma", "ina nguvu"]
+    correct_answer: "inaangaza"
+    xp_reward: 15
+
+  - id: 138
+    type: identify_meaning
+    question: "Que signifie 'kuna joto' dans cette phrase ?"
+    context_sentence: "Leo kuna joto."
+    word: "kuna joto"
+    options: ["baridi", "joto", "baridi kidogo", "joto kidogo"]
+    correct_answer: "joto"
+    xp_reward: 12
+
+  - id: 139
+    type: identify_meaning
+    question: "Que signifie 'itanyesha' dans cette phrase ?"
+    context_sentence: "Leo itanyesha."
+    word: "itanyesha"
+    options: ["itanyesha theluji", "itanyesha", "utavuma", "utaangaza"]
+    correct_answer: "itanyesha"
+    xp_reward: 18
+
+  - id: 140
+    type: identify_meaning
+    question: "Que signifie 'kuteleza' dans cette phrase ?"
+    context_sentence: "Jihadharini, inaweza kuteleza."
+    word: "kuteleza"
+    options: ["kuwa baridi", "kuteleza", "kuwa na joto", "kuwa na upepo"]
+    correct_answer: "kuteleza"
+    xp_reward: 18
+
+  # 19. Speed Matching
+  - id: 141
+    type: speed_matching
+    title: "Match Madness : Météo"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Jua"
+        right: "Soleil"
+      - left: "Mvua"
+        right: "Pluie"
+      - left: "Theluji"
+        right: "Neige"
+      - left: "Wingu"
+        right: "Nuage"
+      - left: "Upepo"
+        right: "Vent"
+      - left: "Joto"
+        right: "Chaud"
+      - left: "Baridi"
+        right: "Froid"
+      - left: "Ukungu"
+        right: "Brouillard"
+      - left: "Kuna jua"
+        right: "Le soleil brille"
+      - left: "Kunanyesha"
+        right: "Il pleut"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 142
+    type: timed_challenge
+    title: "Tour éclair : Météo"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Jua"
+        answer: "Soleil"
+      - question: "Mvua"
+        answer: "Pluie"
+      - question: "Upepo"
+        answer: "Vent"
+      - question: "Joto"
+        answer: "Chaud"
+      - question: "Baridi"
+        answer: "Froid"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Hali ya hewa"
+      back: "Temps (météo)"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Jua"
+      back: "Soleil"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Mvua"
+      back: "Pluie"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Theluji"
+      back: "Neige"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Wingu"
+      back: "Nuage"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Upepo"
+      back: "Vent"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Dhoruba"
+      back: "Tempête"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Ngurumo"
+      back: "Tonnerre"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Radi"
+      back: "Éclair"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Joto"
+      back: "Chaud"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

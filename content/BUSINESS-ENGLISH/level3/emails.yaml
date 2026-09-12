@@ -1,0 +1,1565 @@
+lesson:
+  name: "Professional Emails and Messages"
+  description: "Master professional email writing including greetings, closings, follow-ups, requests, complaints, thank-yous, and internal communication"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: WRITING EMAILS & EMAIL GREETINGS/CLOSINGS (1-25)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-8)
+  - id: 1
+    type: multiple_choice
+    question: "What is the most important element of a professional email subject line?"
+    options:
+      - "Being funny and clever"
+      - "Being clear, specific, and descriptive"
+      - "Using all capital letters"
+      - "Making it as short as possible (one word)"
+    answer: "Being clear, specific, and descriptive"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "Which email greeting is most appropriate for a formal business email?"
+    options:
+      - "Hey team,"
+      - "Dear Mr. Johnson,"
+      - "Hi there,"
+      - "To whom it may concern,"
+    answer: "Dear Mr. Johnson,"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "Which email closing is most professional for a standard business email?"
+    options:
+      - "Best regards,"
+      - "Later,"
+      - "TTYL,"
+      - "XOXO,"
+    answer: "Best regards,"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What should you do before sending an important email?"
+    options:
+      - "Send it immediately without reading"
+      - "Proofread for spelling, grammar, and tone"
+      - "Add emojis to make it friendly"
+      - "Remove the subject line"
+    answer: "Proofread for spelling, grammar, and tone"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "When should you use 'Reply All'?"
+    options:
+      - "Always, for every email"
+      - "Never use it"
+      - "Only when everyone on the thread needs to see your response"
+      - "Only when you want to annoy people"
+    answer: "Only when everyone on the thread needs to see your response"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What does CC stand for in email?"
+    options:
+      - "Closed Communication"
+      - "Carbon Copy - sends a copy to others"
+      - "Confidential Copy"
+      - "Complete Correspondence"
+    answer: "Carbon Copy - sends a copy to others"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "What does BCC stand for and when should you use it?"
+    options:
+      - "Big Carbon Copy - use for important people"
+      - "Blind Carbon Copy - use when recipients should not see each other's addresses"
+      - "Broadcast Copy - use for company-wide emails"
+      - "Basic Correspondence - use for routine emails"
+    answer: "Blind Carbon Copy - use when recipients should not see each other's addresses"
+    xp_reward: 15
+
+  - id: 8
+    type: multiple_choice
+    question: "Which subject line is most effective for a follow-up email?"
+    options:
+      - "Following up"
+      - "Hey, remember me?"
+      - "Follow-up: Meeting request for October 15th"
+      - "Urgent!!!"
+    answer: "Follow-up: Meeting request for October 15th"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (9-15)
+  - id: 9
+    type: fill_blank
+    question: "Complete the formal email greeting"
+    text_with_blank: "Dear Mr. Johnson, I hope this email ___ you well."
+    options: ["finds", "treats", "greets", "meets"]
+    correct_answer: "finds"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the professional email closing"
+    text_with_blank: "Thank you for your time and consideration. ___ regards, Michael Chen"
+    options: ["Best", "Warm", "Kind", "Friendly"]
+    correct_answer: "Best"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the subject line"
+    text_with_blank: "Subject: ___ regarding the Q3 sales report"
+    options: ["Question", "Inquiry", "Request", "Query"]
+    correct_answer: "Inquiry"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the email opening line"
+    text_with_blank: "I am ___ to you regarding the upcoming conference."
+    options: ["writing", "emailing", "contacting", "reaching out"]
+    correct_answer: "writing"
+    xp_reward: 15
+
+  - id: 13
+    type: fill_blank
+    question: "Complete the attachment reference"
+    text_with_blank: "Please find the document ___ to this email."
+    options: ["attached", "enclosed", "included", "added"]
+    correct_answer: "attached"
+    xp_reward: 15
+
+  - id: 14
+    type: fill_blank
+    question: "Complete the call to action"
+    text_with_blank: "Please let me know if you have any ___ or concerns."
+    options: ["questions", "doubts", "issues", "problems"]
+    correct_answer: "questions"
+    xp_reward: 15
+
+  - id: 15
+    type: fill_blank
+    question: "Complete the email sign-off before the closing"
+    text_with_blank: "I look ___ to hearing from you soon."
+    options: ["forward", "ahead", "on", "out"]
+    correct_answer: "forward"
+    xp_reward: 15
+
+  # TRUE / FALSE (16-19)
+  - id: 16
+    type: true_false
+    question: "Is this statement true or false? Using ALL CAPS in an email subject line is considered professional."
+    statement: "Using ALL CAPS in an email subject line is considered professional."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 17
+    type: true_false
+    question: "Is this statement true or false? You should always include a subject line in professional emails."
+    statement: "You should always include a subject line in professional emails."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 18
+    type: true_false
+    question: "Is this statement true or false? Emojis are always inappropriate in professional emails."
+    statement: "Emojis are always inappropriate in professional emails."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 19
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to write an email in all lowercase letters."
+    statement: "It is acceptable to write an email in all lowercase letters."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (20-22)
+  - id: 20
+    type: matching
+    question: "Match the email greeting with its appropriate use"
+    pairs:
+      - left: "Dear Sir or Madam,"
+        right: "Formal, recipient name unknown"
+      - left: "Dear Dr. Williams,"
+        right: "Recipient has a doctorate"
+      - left: "Hi Sarah,"
+        right: "Casual, colleague you know well"
+      - left: "Good morning team,"
+        right: "Group email to your department"
+      - left: "To the Hiring Manager,"
+        right: "Job application cover letter"
+    xp_reward: 25
+
+  - id: 21
+    type: matching
+    question: "Match the email closing with its formality level"
+    pairs:
+      - left: "Yours faithfully,"
+        right: "Very formal (name unknown)"
+      - left: "Sincerely,"
+        right: "Formal"
+      - left: "Best regards,"
+        right: "Standard professional"
+      - left: "Best,"
+        right: "Casual professional"
+      - left: "Thanks,"
+        right: "Informal/friendly"
+    xp_reward: 25
+
+  - id: 22
+    type: matching
+    question: "Match the email section with its purpose"
+    pairs:
+      - left: "Subject line"
+        right: "Summarizes email content"
+      - left: "Greeting"
+        right: "Addresses the recipient"
+      - left: "Opening line"
+        right: "States purpose or builds rapport"
+      - left: "Body"
+        right: "Contains main message and details"
+      - left: "Closing"
+        right: "Summarizes and ends politely"
+    xp_reward: 25
+
+  # FLASHCARDS (23-25)
+  - id: 23
+    type: flashcards
+    question: "Flashcards: Email Greetings"
+    flashcards:
+      - front: "Dear Mr. Smith,"
+        back: "Formal greeting for a male"
+      - front: "Dear Ms. Johnson,"
+        back: "Formal greeting for a female"
+      - front: "Dear Dr. Chen,"
+        back: "For someone with a doctorate"
+      - front: "To whom it may concern,"
+        back: "When recipient name is unknown"
+      - front: "Hi everyone,"
+        back: "Casual group greeting"
+    xp_reward: 30
+
+  - id: 24
+    type: flashcards
+    question: "Flashcards: Email Closings"
+    flashcards:
+      - front: "Best regards,"
+        back: "Standard professional closing"
+      - front: "Sincerely,"
+        back: "Formal closing"
+      - front: "Warmly,"
+        back: "Friendly but professional"
+      - front: "Thank you for your time,"
+        back: "Appreciative closing"
+      - front: "Looking forward to your reply,"
+        back: "Expecting a response"
+    xp_reward: 30
+
+  - id: 25
+    type: flashcards
+    question: "Flashcards: Email Structure"
+    flashcards:
+      - front: "Subject line"
+        back: "Clear, specific, 5-10 words"
+      - front: "Greeting"
+        back: "Appropriate for recipient and context"
+      - front: "Opening sentence"
+        back: "State purpose or reference previous contact"
+      - front: "Body paragraphs"
+        back: "Clear, concise, organized"
+      - front: "Closing + signature"
+        back: "Politely end with contact info"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: FOLLOW-UP EMAILS (26-50)
+  # ============================================
+
+  # MULTIPLE CHOICE (26-30)
+  - id: 26
+    type: multiple_choice
+    question: "How long should you typically wait before sending a follow-up email?"
+    options:
+      - "1 hour"
+      - "24-48 business hours"
+      - "1 month"
+      - "The same day, multiple times"
+    answer: "24-48 business hours"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "Which is the most professional follow-up email subject line?"
+    options:
+      - "Following up"
+      - "Did you get my last email?"
+      - "Following up: Proposal for Q4 strategy (sent October 10th)"
+      - "Hello??? Anyone there?"
+    answer: "Following up: Proposal for Q4 strategy (sent October 10th)"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "What should you include in a follow-up email?"
+    options:
+      - "Only the word 'following up'"
+      - "Reference to original email, polite reminder, and clear next step"
+      - "A complaint about slow response"
+      - "Multiple exclamation marks"
+    answer: "Reference to original email, polite reminder, and clear next step"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "What is the best way to phrase a polite follow-up reminder?"
+    options:
+      - "You never responded to my email!"
+      - "I'm just checking in on this. Do you have an update?"
+      - "Hello??? It's been a week!"
+      - "Did you see my email or not?"
+    answer: "I'm just checking in on this. Do you have an update?"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "How many follow-up emails are generally acceptable before changing approach?"
+    options:
+      - "1 follow-up"
+      - "2-3 follow-ups, then pick up the phone"
+      - "10 follow-ups"
+      - "Never follow up more than once"
+    answer: "2-3 follow-ups, then pick up the phone"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (31-35)
+  - id: 31
+    type: fill_blank
+    question: "Complete the follow-up opening"
+    text_with_blank: "I'm just ___ in on the proposal I sent last week."
+    options: ["checking", "following", "looking", "touching"]
+    correct_answer: "checking"
+    xp_reward: 15
+
+  - id: 32
+    type: fill_blank
+    question: "Complete the polite reminder phrase"
+    text_with_blank: "I wanted to gently ___ you about our upcoming deadline."
+    options: ["remind", "remember", "recall", "notify"]
+    correct_answer: "remind"
+    xp_reward: 15
+
+  - id: 33
+    type: fill_blank
+    question: "Complete the reference to previous email"
+    text_with_blank: "I'm writing to ___ up on the email I sent on October 10th."
+    options: ["follow", "check", "look", "touch"]
+    correct_answer: "follow"
+    xp_reward: 15
+
+  - id: 34
+    type: fill_blank
+    question: "Complete the polite pressure phrase"
+    text_with_blank: "Could you please ___ me know if you've had a chance to review this?"
+    options: ["let", "make", "have", "get"]
+    correct_answer: "let"
+    xp_reward: 15
+
+  - id: 35
+    type: fill_blank
+    question: "Complete the final follow-up phrase"
+    text_with_blank: "I'll ___ this as resolved unless I hear back by Friday."
+    options: ["consider", "assume", "mark", "take"]
+    correct_answer: "assume"
+    xp_reward: 15
+
+  # TRUE / FALSE (36-38)
+  - id: 36
+    type: true_false
+    question: "Is this statement true or false? Sending multiple follow-up emails in one day is professional."
+    statement: "Sending multiple follow-up emails in one day is professional."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 37
+    type: true_false
+    question: "Is this statement true or false? You should always reference the original email in your follow-up."
+    statement: "You should always reference the original email in your follow-up."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 38
+    type: true_false
+    question: "Is this statement true or false? Using 'urgent' in every follow-up subject line is effective."
+    statement: "Using 'urgent' in every follow-up subject line is effective."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (39-42)
+  - id: 39
+    type: matching
+    question: "Match the follow-up scenario with the best approach"
+    pairs:
+      - left: "No response after 2 days"
+        right: "Polite check-in: 'Just checking in on this'"
+      - left: "No response after 1 week"
+        right: "Re-send original email with follow-up note"
+      - left: "No response after 2 weeks"
+        right: "Pick up the phone or try alternate contact"
+      - left: "Urgent matter needs response"
+        right: "Mark subject as 'URGENT' and call"
+      - left: "Non-urgent information request"
+        right: "One follow-up, then assume no interest"
+    xp_reward: 25
+
+  - id: 40
+    type: matching
+    question: "Match the follow-up phrase with its tone"
+    pairs:
+      - left: "I'm just circling back on this"
+        right: "Friendly, casual"
+      - left: "Per my previous email"
+        right: "Formal, slightly firm"
+      - left: "I wanted to gently remind you"
+        right: "Polite, soft"
+      - left: "Could you please provide an update?"
+        right: "Professional, direct"
+      - left: "I look forward to your response"
+        right: "Professional, expectant"
+    xp_reward: 25
+
+  - id: 41
+    type: matching
+    question: "Match the follow-up timing with the situation"
+    pairs:
+      - left: "Job application"
+        right: "Wait 1-2 weeks, send polite follow-up"
+      - left: "Meeting request with CEO"
+        right: "Wait 3-5 business days, then follow up"
+      - left: "Client proposal (urgent)"
+        right: "Follow up next day, mark urgent"
+      - left: "Internal task reminder"
+        right: "Wait 2-3 days, send gentle reminder"
+      - left: "Invoice payment (overdue)"
+        right: "Follow up same day, escalate if needed"
+    xp_reward: 25
+
+  - id: 42
+    type: matching
+    question: "Match the follow-up subject line with its purpose"
+    pairs:
+      - left: "Following up: Q3 report due Friday"
+        right: "Gentle reminder"
+      - left: "URGENT: Client issue needs immediate attention"
+        right: "High priority"
+      - left: "Checking in - proposal sent Oct 10th"
+        right: "Standard follow-up"
+      - left: "Final reminder: Deadline tomorrow"
+        right: "Urgent final reminder"
+      - left: "Any updates on this?"
+        right: "Casual check-in"
+    xp_reward: 25
+
+  # FLASHCARDS (43-46)
+  - id: 43
+    type: flashcards
+    question: "Flashcards: First Follow-up Phrases"
+    flashcards:
+      - front: "I'm just checking in on"
+        back: "Casual, friendly follow-up"
+      - front: "I wanted to follow up on"
+        back: "Standard professional follow-up"
+      - front: "Have you had a chance to review?"
+        back: "Polite status request"
+      - front: "Just circling back on"
+        back: "Friendly, slightly informal"
+      - front: "I'm touching base regarding"
+        back: "Professional check-in"
+    xp_reward: 30
+
+  - id: 44
+    type: flashcards
+    question: "Flashcards: Second Follow-up Phrases"
+    flashcards:
+      - front: "I'm writing to gently remind you"
+        back: "Soft reminder"
+      - front: "Per my previous email"
+        back: "Formal reference to earlier message"
+      - front: "I wanted to bring this back to your attention"
+        back: "Polite but firm"
+      - front: "Following up again on"
+        back: "Acknowledges this is not the first contact"
+      - front: "Is there any update on this matter?"
+        back: "Direct but polite"
+    xp_reward: 30
+
+  - id: 45
+    type: flashcards
+    question: "Flashcards: Final Follow-up Phrases"
+    flashcards:
+      - front: "This is my final reminder"
+        back: "Clear that no more follow-ups"
+      - front: "I'll assume this is resolved unless"
+        back: "Puts responsibility on recipient"
+      - front: "Please advise by [date]"
+        back: "Sets clear deadline"
+      - front: "I'll be following up by phone"
+        back: "Changes communication method"
+      - front: "Unless I hear otherwise, I will proceed with"
+        back: "States planned action"
+    xp_reward: 30
+
+  - id: 46
+    type: flashcards
+    question: "Flashcards: Follow-up Best Practices"
+    flashcards:
+      - front: "Reference original email"
+        back: "Include date or subject"
+      - front: "Be polite, not pushy"
+        back: "Assume good intentions"
+      - front: "Restate your ask clearly"
+        back: "Don't assume they remember"
+      - front: "Provide a deadline"
+        back: "Gives clear expectation"
+      - front: "Suggest next steps"
+        back: "Makes it easy to respond"
+    xp_reward: 30
+
+  # TIMED CHALLENGES (47-50)
+  - id: 47
+    type: timed_challenge
+    title: "Lightning Round: Follow-up Phrases"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Polite way to say 'I'm contacting you again about'"
+        answer: "I'm following up on"
+      - question: "How to reference a previous email professionally"
+        answer: "Per my previous email"
+      - question: "Polite way to ask if someone has looked at your email"
+        answer: "Have you had a chance to review"
+      - question: "What to say when this is your last follow-up"
+        answer: "This is my final reminder"
+      - question: "Casual phrase for 'checking in'"
+        answer: "Touching base"
+    xp_reward: 35
+
+  - id: 48
+    type: timed_challenge
+    title: "Lightning Round: Email Follow-up"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "How many business days to wait for first follow-up"
+        answer: "2 days"
+      - question: "What to put in subject line for follow-up"
+        answer: "Reference original email"
+      - question: "What to do if no response after 3 follow-ups"
+        answer: "Call them"
+      - question: "Phrase meaning 'I will wait for your response'"
+        answer: "Looking forward to your reply"
+      - question: "What to include in every follow-up"
+        answer: "Clear next step"
+    xp_reward: 35
+
+  - id: 49
+    type: timed_challenge
+    title: "Lightning Round: Professional Reminders"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Polite way to remind someone of a deadline"
+        answer: "Gentle reminder"
+      - question: "What to say when you need an answer by a specific date"
+        answer: "Please advise by"
+      - question: "Phrase that puts action on recipient"
+        answer: "Unless I hear otherwise"
+      - question: "Professional way to say 'Did you see my email?'"
+        answer: "I wanted to follow up on"
+      - question: "What to avoid in follow-up emails"
+        answer: "All caps"
+    xp_reward: 35
+
+  - id: 50
+    type: timed_challenge
+    title: "Lightning Round: Follow-up Scenarios"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Best time to follow up on a job application"
+        answer: "One to two weeks"
+      - question: "What to do for urgent matters"
+        answer: "Mark as urgent and call"
+      - question: "How to end a follow-up email"
+        answer: "Thank you for your time"
+      - question: "What to include after your closing"
+        answer: "Signature block"
+      - question: "How to handle no response after multiple follow-ups"
+        answer: "Change communication method"
+    xp_reward: 35
+
+  # ============================================
+  # SECTION 3: REQUEST EMAILS (51-75)
+  # ============================================
+
+  # MULTIPLE CHOICE (51-55)
+  - id: 51
+    type: multiple_choice
+    question: "Which is the most polite way to make a request in an email?"
+    options:
+      - "Give me the report by Friday"
+      - "I need the report"
+      - "Could you please send me the report by Friday?"
+      - "Report. Friday. Now."
+    answer: "Could you please send me the report by Friday?"
+    xp_reward: 15
+
+  - id: 52
+    type: multiple_choice
+    question: "What should you include when making a request?"
+    options:
+      - "Only what you want"
+      - "What you want, why you need it, and when you need it"
+      - "A complaint about previous requests"
+      - "A threat if they don't comply"
+    answer: "What you want, why you need it, and when you need it"
+    xp_reward: 15
+
+  - id: 53
+    type: multiple_choice
+    question: "How do you request information from someone you don't know well?"
+    options:
+      - "Send me the info"
+      - "I need information"
+      - "Would you mind sharing the information when you have a moment?"
+      - "Info now"
+    answer: "Would you mind sharing the information when you have a moment?"
+    xp_reward: 15
+
+  - id: 54
+    type: multiple_choice
+    question: "What is the best way to make a request with a tight deadline?"
+    options:
+      - "Demand it immediately"
+      - "I apologize for the short notice, but could you please have this ready by 2 PM today?"
+      - "Get this done now or else"
+      - "ASAP!!!!!"
+    answer: "I apologize for the short notice, but could you please have this ready by 2 PM today?"
+    xp_reward: 15
+
+  - id: 55
+    type: multiple_choice
+    question: "What does 'EOD' mean in a request email?"
+    options:
+      - "Every Other Day"
+      - "End of Day"
+      - "Early Onward Delivery"
+      - "End of Discussion"
+    answer: "End of Day"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (56-60)
+  - id: 56
+    type: fill_blank
+    question: "Complete the polite request"
+    text_with_blank: "Could you please ___ me the updated files by tomorrow?"
+    options: ["send", "give", "provide", "forward"]
+    correct_answer: "send"
+    xp_reward: 15
+
+  - id: 57
+    type: fill_blank
+    question: "Complete the request with reason"
+    text_with_blank: "I'm reaching out because we need your ___ on the new design."
+    options: ["input", "opinion", "feedback", "thoughts"]
+    correct_answer: "input"
+    xp_reward: 15
+
+  - id: 58
+    type: fill_blank
+    question: "Complete the request with deadline"
+    text_with_blank: "Could you please complete this by the ___ of the week?"
+    options: ["end", "close", "finish", "completion"]
+    correct_answer: "end"
+    xp_reward: 15
+
+  - id: 59
+    type: fill_blank
+    question: "Complete the request for meeting"
+    text_with_blank: "Would you be ___ for a 30-minute meeting on Thursday?"
+    options: ["available", "free", "able", "open"]
+    correct_answer: "available"
+    xp_reward: 15
+
+  - id: 60
+    type: fill_blank
+    question: "Complete the request acknowledgment"
+    text_with_blank: "I understand you're busy, but if you could ___ this request, I would appreciate it."
+    options: ["prioritize", "prefer", "preview", "prepare"]
+    correct_answer: "prioritize"
+    xp_reward: 15
+
+  # TRUE / FALSE (61-63)
+  - id: 61
+    type: true_false
+    question: "Is this statement true or false? You should always explain why you are making a request."
+    statement: "You should always explain why you are making a request."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 62
+    type: true_false
+    question: "Is this statement true or false? Demanding something is more effective than politely requesting it."
+    statement: "Demanding something is more effective than politely requesting it."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 63
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to assume someone will fulfill your request without asking."
+    statement: "It is acceptable to assume someone will fulfill your request without asking."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (64-67)
+  - id: 64
+    type: matching
+    question: "Match the request type with the best phrasing"
+    pairs:
+      - left: "Request for information"
+        right: "Could you please provide me with the sales figures?"
+      - left: "Request for action"
+        right: "Would you be able to review this document?"
+      - left: "Request for meeting"
+        right: "Are you available for a call on Tuesday?"
+      - left: "Request for approval"
+        right: "Could you please approve the attached budget?"
+      - left: "Request for feedback"
+        right: "I would appreciate your thoughts on this proposal"
+    xp_reward: 25
+
+  - id: 65
+    type: matching
+    question: "Match the request urgency with appropriate phrasing"
+    pairs:
+      - left: "Routine request"
+        right: "When you have a moment, could you..."
+      - left: "Time-sensitive request"
+        right: "Could you please have this ready by end of day?"
+      - left: "Urgent request"
+        right: "I apologize for the urgency, but I need this within the hour"
+      - left: "Future request"
+        right: "When you get a chance next week, could you..."
+      - left: "Delegation request"
+        right: "Would you be able to take the lead on this project?"
+    xp_reward: 25
+
+  - id: 66
+    type: matching
+    question: "Match the request follow-up phrase with its purpose"
+    pairs:
+      - left: "Just checking in on this request"
+        right: "Gentle reminder"
+      - left: "Do you have an ETA on this?"
+        right: "Request timeline"
+      - left: "Please let me know if you need anything from me"
+        right: "Offer assistance"
+      - left: "I appreciate your help with this"
+        right: "Express gratitude"
+      - left: "Could you please prioritize this?"
+        right: "Escalate urgency"
+    xp_reward: 25
+
+  - id: 67
+    type: matching
+    question: "Match the request element with the question to ask yourself"
+    pairs:
+      - left: "What do I need?"
+        right: "Is the request clear and specific?"
+      - left: "Why do I need it?"
+        right: "Did I provide context?"
+      - left: "When do I need it?"
+        right: "Did I include a deadline?"
+      - left: "Who should do it?"
+        right: "Am I asking the right person?"
+      - left: "Is it reasonable?"
+        right: "Did I consider their workload?"
+    xp_reward: 25
+
+  # FLASHCARDS (68-71)
+  - id: 68
+    type: flashcards
+    question: "Flashcards: Polite Request Openers"
+    flashcards:
+      - front: "Could you please..."
+        back: "Standard polite request"
+      - front: "Would you be able to..."
+        back: "Respectful of their ability"
+      - front: "I would appreciate it if you could..."
+        back: "Shows gratitude in advance"
+      - front: "Do you mind...?"
+        back: "Soft, polite request"
+      - front: "May I ask you to..."
+        back: "Very formal, respectful"
+    xp_reward: 30
+
+  - id: 69
+    type: flashcards
+    question: "Flashcards: Request Context Phrases"
+    flashcards:
+      - front: "I'm reaching out because..."
+        back: "States the reason"
+      - front: "The reason for this request is..."
+        back: "Explains purpose"
+      - front: "This is needed for..."
+        back: "Shows importance"
+      - front: "To move forward with..."
+        back: "Shows dependency"
+      - front: "As discussed earlier..."
+        back: "References previous conversation"
+    xp_reward: 30
+
+  - id: 70
+    type: flashcards
+    question: "Flashcards: Request Deadline Phrases"
+    flashcards:
+      - front: "by end of day (EOD)"
+        back: "By close of business today"
+      - front: "by Friday"
+        back: "Specific day"
+      - front: "as soon as possible (ASAP)"
+        back: "Urgent but no specific time"
+      - front: "at your earliest convenience"
+        back: "Routine, no rush"
+      - front: "within 24 hours"
+        back: "Specific time frame"
+    xp_reward: 30
+
+  - id: 71
+    type: flashcards
+    question: "Flashcards: Responding to Requests"
+    flashcards:
+      - front: "I'll take care of this"
+        back: "Acceptance and commitment"
+      - front: "I'm happy to help with this"
+        back: "Positive acceptance"
+      - front: "Unfortunately, I won't be able to"
+        back: "Polite decline"
+      - front: "Could we push the deadline to?"
+        back: "Request extension"
+      - front: "I'll need more information to proceed"
+        back: "Request clarification"
+    xp_reward: 30
+
+  # TIMED CHALLENGES (72-75)
+  - id: 72
+    type: timed_challenge
+    title: "Lightning Round: Request Phrases"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Most polite way to ask someone to do something"
+        answer: "Could you please"
+      - question: "What to include with every request"
+        answer: "Deadline and reason"
+      - question: "Polite way to ask for something urgently"
+        answer: "I apologize for the short notice"
+      - question: "What to say when you need an answer"
+        answer: "Please advise"
+      - question: "How to acknowledge someone is busy"
+        answer: "I know you're busy"
+    xp_reward: 35
+
+  - id: 73
+    type: timed_challenge
+    title: "Lightning Round: Request Etiquette"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Should you explain why you're making a request?"
+        answer: "Yes"
+      - question: "What to avoid when making a request"
+        answer: "Demanding tone"
+      - question: "What does EOD stand for"
+        answer: "End of day"
+      - question: "Polite phrase before asking for something"
+        answer: "If you have a moment"
+      - question: "What to say after someone fulfills your request"
+        answer: "Thank you"
+    xp_reward: 35
+
+  - id: 74
+    type: timed_challenge
+    title: "Lightning Round: Request Deadlines"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Meaning of 'at your earliest convenience'"
+        answer: "Routine no rush"
+      - question: "Meaning of ASAP"
+        answer: "As soon as possible"
+      - question: "Meaning of COB"
+        answer: "Close of business"
+      - question: "What to say for a flexible deadline"
+        answer: "Sometime next week"
+      - question: "What to say for a firm deadline"
+        answer: "By Friday without fail"
+    xp_reward: 35
+
+  - id: 75
+    type: timed_challenge
+    title: "Lightning Round: Request Scenarios"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "How to ask a busy executive for a meeting"
+        answer: "Would you be available for 15 minutes"
+      - question: "What to say when requesting a document"
+        answer: "Could you please share"
+      - question: "How to request a status update"
+        answer: "Could you provide an update"
+      - question: "How to request a deadline extension"
+        answer: "Would it be possible to extend"
+      - question: "How to request a reminder"
+        answer: "Could you please remind me"
+    xp_reward: 35
+
+  # ============================================
+  # SECTION 4: COMPLAINT EMAILS (76-95)
+  # ============================================
+
+  # MULTIPLE CHOICE (76-80)
+  - id: 76
+    type: multiple_choice
+    question: "What is the most professional way to start a complaint email?"
+    options:
+      - "You messed up big time"
+      - "I'm very disappointed in your service"
+      - "I'm writing to bring an issue to your attention"
+      - "What were you thinking?"
+    answer: "I'm writing to bring an issue to your attention"
+    xp_reward: 15
+
+  - id: 77
+    type: multiple_choice
+    question: "What should you include in a complaint email?"
+    options:
+      - "Only your anger"
+      - "Facts, specific details, desired resolution, and a professional tone"
+      - "Threats and ultimatums"
+      - "Complaints about the person, not the problem"
+    answer: "Facts, specific details, desired resolution, and a professional tone"
+    xp_reward: 15
+
+  - id: 78
+    type: multiple_choice
+    question: "Which phrase is best for stating a problem in a complaint email?"
+    options:
+      - "You always get things wrong"
+      - "Your company is terrible"
+      - "I received an incorrect invoice. The amount charged ($500) differs from our agreement ($400)."
+      - "This is unacceptable"
+    answer: "I received an incorrect invoice. The amount charged ($500) differs from our agreement ($400)."
+    xp_reward: 15
+
+  - id: 79
+    type: multiple_choice
+    question: "How should you end a professional complaint email?"
+    options:
+      - "Fix this or I'm leaving"
+      - "I expect a response within 24 hours"
+      - "I look forward to your prompt resolution of this matter. Thank you for your attention."
+      - "You better respond"
+    answer: "I look forward to your prompt resolution of this matter. Thank you for your attention."
+    xp_reward: 15
+
+  - id: 80
+    type: multiple_choice
+    question: "What is the best way to describe the resolution you want?"
+    options:
+      - "Fix everything"
+      - "Make it right"
+      - "I would appreciate a refund of the $100 overcharge as a resolution."
+      - "You know what to do"
+    answer: "I would appreciate a refund of the $100 overcharge as a resolution."
+    xp_reward: 15
+
+  # FILL IN THE BLANK (81-85)
+  - id: 81
+    type: fill_blank
+    question: "Complete the complaint opening"
+    text_with_blank: "I'm writing to ___ an issue to your attention."
+    options: ["bring", "give", "put", "place"]
+    correct_answer: "bring"
+    xp_reward: 15
+
+  - id: 82
+    type: fill_blank
+    question: "Complete the factual statement of problem"
+    text_with_blank: "Unfortunately, the product I received is ___ from what I ordered."
+    options: ["different", "changed", "varied", "separate"]
+    correct_answer: "different"
+    xp_reward: 15
+
+  - id: 83
+    type: fill_blank
+    question: "Complete the polite expectation"
+    text_with_blank: "I would ___ a full refund for this item."
+    options: ["appreciate", "want", "need", "demand"]
+    correct_answer: "appreciate"
+    xp_reward: 15
+
+  - id: 84
+    type: fill_blank
+    question: "Complete the escalation phrase"
+    text_with_blank: "If this issue is not resolved, I will need to ___ this matter further."
+    options: ["escalate", "raise", "elevate", "advance"]
+    correct_answer: "escalate"
+    xp_reward: 15
+
+  - id: 85
+    type: fill_blank
+    question: "Complete the closing for complaint email"
+    text_with_blank: "I look forward to your ___ resolution of this matter."
+    options: ["prompt", "quick", "fast", "rapid"]
+    correct_answer: "prompt"
+    xp_reward: 15
+
+  # TRUE / FALSE (86-88)
+  - id: 86
+    type: true_false
+    question: "Is this statement true or false? Using angry or aggressive language helps resolve complaints faster."
+    statement: "Using angry or aggressive language helps resolve complaints faster."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 87
+    type: true_false
+    question: "Is this statement true or false? You should always state what resolution you are seeking."
+    statement: "You should always state what resolution you are seeking."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 88
+    type: true_false
+    question: "Is this statement true or false? Personal attacks against employees are acceptable in complaint emails."
+    statement: "Personal attacks against employees are acceptable in complaint emails."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (89-91)
+  - id: 89
+    type: matching
+    question: "Match the complaint element with its purpose"
+    pairs:
+      - left: "Factual description"
+        right: "Clearly states what went wrong"
+      - left: "Evidence (order number, date, screenshot)"
+        right: "Proves your claim"
+      - left: "Desired resolution"
+        right: "Tells them how to fix it"
+      - left: "Professional tone"
+        right: "Gets better results"
+      - left: "Deadline for response"
+        right: "Sets clear expectations"
+    xp_reward: 25
+
+  - id: 90
+    type: matching
+    question: "Match the complaint scenario with the best resolution request"
+    pairs:
+      - left: "Wrong item shipped"
+        right: "Please send the correct item and a return label"
+      - left: "Late delivery caused loss"
+        right: "I request a refund of the shipping fee"
+      - left: "Poor quality product"
+        right: "I would like a replacement or refund"
+      - left: "Billing error"
+        right: "Please correct the invoice and confirm"
+      - left: "Poor customer service"
+        right: "I request training for the staff member"
+    xp_reward: 25
+
+  - id: 91
+    type: matching
+    question: "Match the complaint tone with the situation"
+    pairs:
+      - left: "First-time minor issue"
+        right: "Polite and understanding"
+      - left: "Repeated problem"
+        right: "Firm but professional"
+      - left: "Serious error"
+        right: "Direct with clear expectations"
+      - left: "Very small issue"
+        right: "Gentle mention, not formal complaint"
+      - left: "Ignored previous complaints"
+        right: "Escalate to supervisor"
+    xp_reward: 25
+
+  # FLASHCARDS (92-95)
+  - id: 92
+    type: flashcards
+    question: "Flashcards: Complaint Email Structure"
+    flashcards:
+      - front: "Subject line"
+        back: "Clear, factual: 'Issue with order #12345'"
+      - front: "Polite opening"
+        back: "I'm writing to bring an issue to your attention"
+      - front: "Factual problem statement"
+        back: "What happened, when, and the impact"
+      - front: "Desired resolution"
+        back: "What you want them to do"
+      - front: "Professional closing"
+        back: "I look forward to your prompt response"
+    xp_reward: 30
+
+  - id: 93
+    type: flashcards
+    question: "Flashcards: Complaint Phrases to Avoid"
+    flashcards:
+      - front: "You always..."
+        back: "Overgeneralization - avoid"
+      - front: "This is terrible/awful"
+        back: "Emotional language - avoid"
+      - front: "Your company is..."
+        back: "Attack on organization - avoid"
+      - front: "I demand..."
+        back: "Aggressive - avoid"
+      - front: "If you don't..."
+        back: "Threats - avoid"
+    xp_reward: 30
+
+  - id: 94
+    type: flashcards
+    question: "Flashcards: Effective Complaint Phrases"
+    flashcards:
+      - front: "I'm writing to bring to your attention"
+        back: "Professional problem introduction"
+      - front: "I understand that mistakes happen"
+        back: "Shows reasonableness"
+      - front: "I would appreciate it if you could"
+        back: "Polite resolution request"
+      - front: "I hope we can resolve this amicably"
+        back: "Cooperative tone"
+      - front: "Thank you for your understanding"
+        back: "Polite closing"
+    xp_reward: 30
+
+  - id: 95
+    type: flashcards
+    question: "Flashcards: Escalation Phrases"
+    flashcards:
+      - front: "Could you please escalate this to a manager?"
+        back: "Request higher authority"
+      - front: "I've attempted to resolve this multiple times"
+        back: "Shows history"
+      - front: "What is your formal complaint process?"
+        back: "Professional escalation"
+      - front: "I will need to take this further if unresolved"
+        back: "Professional warning"
+      - front: "Please advise on next steps"
+        back: "Request action plan"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: THANK-YOU EMAILS (96-115)
+  # ============================================
+
+  # MULTIPLE CHOICE (96-100)
+  - id: 96
+    type: multiple_choice
+    question: "When should you send a thank-you email after an interview?"
+    options:
+      - "Never"
+      - "Within 24 hours"
+      - "After one week"
+      - "Only if you got the job"
+    answer: "Within 24 hours"
+    xp_reward: 15
+
+  - id: 97
+    type: multiple_choice
+    question: "What is the most effective subject line for a thank-you email after a meeting?"
+    options:
+      - "Thanks"
+      - "Thank you - meeting on October 15th"
+      - "Hey thanks"
+      - "Grateful"
+    answer: "Thank you - meeting on October 15th"
+    xp_reward: 15
+
+  - id: 98
+    type: multiple_choice
+    question: "What should you include in a thank-you email besides gratitude?"
+    options:
+      - "Only 'thank you'"
+      - "A specific reference to what you're thanking them for"
+      - "A complaint about something else"
+      - "Your entire life story"
+    answer: "A specific reference to what you're thanking them for"
+    xp_reward: 15
+
+  - id: 99
+    type: multiple_choice
+    question: "How do you thank a colleague for their help on a project?"
+    options:
+      - "Good job"
+      - "Thanks"
+      - "Thank you so much for your contribution to the project. Your input on the budget was invaluable."
+      - "You did okay"
+    answer: "Thank you so much for your contribution to the project. Your input on the budget was invaluable."
+    xp_reward: 15
+
+  - id: 100
+    type: multiple_choice
+    question: "What is appropriate to include in a thank-you email after receiving a gift?"
+    options:
+      - "A mention of how you will use or enjoy the gift"
+      - "A request for more gifts"
+      - "A complaint about the gift"
+      - "No response needed"
+    answer: "A mention of how you will use or enjoy the gift"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (101-105)
+  - id: 101
+    type: fill_blank
+    question: "Complete the thank-you opening"
+    text_with_blank: "Thank you ___ for taking the time to meet with me yesterday."
+    options: ["again", "much", "so", "very"]
+    correct_answer: "again"
+    xp_reward: 15
+
+  - id: 102
+    type: fill_blank
+    question: "Complete the specific thank-you"
+    text_with_blank: "I especially ___ your insights on the market trends."
+    options: ["appreciated", "liked", "enjoyed", "valued"]
+    correct_answer: "appreciated"
+    xp_reward: 15
+
+  - id: 103
+    type: fill_blank
+    question: "Complete the follow-up after thanks"
+    text_with_blank: "As we discussed, I will send over the proposal by Friday. ___ you for your guidance."
+    options: ["Thank", "Thanks", "Appreciate", "Grateful"]
+    correct_answer: "Thank"
+    xp_reward: 15
+
+  - id: 104
+    type: fill_blank
+    question: "Complete the team thank-you"
+    text_with_blank: "I want to ___ my appreciation to everyone on the team."
+    options: ["express", "say", "give", "show"]
+    correct_answer: "express"
+    xp_reward: 15
+
+  - id: 105
+    type: fill_blank
+    question: "Complete the closing for thank-you email"
+    text_with_blank: "With sincere ___ , Michael"
+    options: ["gratitude", "thanks", "appreciation", "regards"]
+    correct_answer: "gratitude"
+    xp_reward: 15
+
+  # TRUE / FALSE (106-108)
+  - id: 106
+    type: true_false
+    question: "Is this statement true or false? Sending a thank-you email after an interview makes you stand out positively."
+    statement: "Sending a thank-you email after an interview makes you stand out positively."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 107
+    type: true_false
+    question: "Is this statement true or false? Generic thank-you emails are just as effective as specific ones."
+    statement: "Generic thank-you emails are just as effective as specific ones."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 108
+    type: true_false
+    question: "Is this statement true or false? You should always thank someone when they go above and beyond."
+    statement: "You should always thank someone when they go above and beyond."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (109-111)
+  - id: 109
+    type: matching
+    question: "Match the thank-you scenario with the best approach"
+    pairs:
+      - left: "After a job interview"
+        right: "Send within 24 hours, reference specific discussion points"
+      - left: "After a colleague helps you"
+        right: "Send same day, be specific about their help"
+      - left: "After receiving a gift"
+        right: "Send within 48 hours, mention the gift"
+      - left: "After a client meeting"
+        right: "Send same day, recap action items"
+      - left: "After a presentation"
+        right: "Send to attendees, reference key takeaways"
+    xp_reward: 25
+
+  - id: 110
+    type: matching
+    question: "Match the thank-you phrase with its use"
+    pairs:
+      - left: "I greatly appreciate your support"
+        right: "Formal thank you"
+      - left: "Thanks a million"
+        right: "Casual, friendly"
+      - left: "I am deeply grateful"
+        right: "Very sincere, significant help"
+      - left: "Much obliged"
+        right: "Old-fashioned, formal"
+      - left: "I can't thank you enough"
+        right: "Emphasizes deep gratitude"
+    xp_reward: 25
+
+  - id: 111
+    type: matching
+    question: "Match the thank-you element with its purpose"
+    pairs:
+      - left: "Specific mention"
+        right: "Shows genuine attention"
+      - left: "Impact statement"
+        right: "Shows how their help mattered"
+      - left: "Future reference"
+        right: "Continues relationship"
+      - left: "Offer reciprocity"
+        right: "Shows willingness to help back"
+      - left: "Timeliness"
+        right: "Shows priority and respect"
+    xp_reward: 25
+
+  # FLASHCARDS (112-115)
+  - id: 112
+    type: flashcards
+    question: "Flashcards: Thank-You Email Types"
+    flashcards:
+      - front: "Post-interview thank you"
+        back: "Reiterate interest, mention specific discussion points"
+      - front: "Post-meeting thank you"
+        back: "Thank for time, recap action items"
+      - front: "Help/assistance thank you"
+        back: "Be specific about what help meant to you"
+      - front: "Gift thank you"
+        back: "Mention the gift and how you'll use it"
+      - front: "General appreciation"
+        back: "For ongoing support or relationship"
+    xp_reward: 30
+
+  - id: 113
+    type: flashcards
+    question: "Flashcards: Thank-You Subject Lines"
+    flashcards:
+      - front: "Thank you - interview on Oct 15th"
+        back: "Post-interview"
+      - front: "Grateful for your support on the project"
+        back: "Colleague appreciation"
+      - front: "Thank you for the meeting"
+        back: "Post-meeting"
+      - front: "Thank you for your generous gift"
+        back: "Gift acknowledgment"
+      - front: "Appreciation for your hard work"
+        back: "Team thank you"
+    xp_reward: 30
+
+  - id: 114
+    type: flashcards
+    question: "Flashcards: Specific Thank-You Phrases"
+    flashcards:
+      - front: "Your advice on [topic] was invaluable"
+        back: "Specific guidance thanks"
+      - front: "I couldn't have completed this without your help"
+        back: "Essential help thanks"
+      - front: "Your presentation was both informative and engaging"
+        back: "Presentation thanks"
+      - front: "Thank you for accommodating my schedule"
+        back: "Flexibility thanks"
+      - front: "I'm grateful for your trust in me"
+        back: "Opportunity thanks"
+    xp_reward: 30
+
+  - id: 115
+    type: flashcards
+    question: "Flashcards: Thank-You Best Practices"
+    flashcards:
+      - front: "Send promptly"
+        back: "Within 24-48 hours"
+      - front: "Be specific"
+        back: "Mention exactly what you're thanking for"
+      - front: "Keep it concise"
+        back: "Short but sincere"
+      - front: "Proofread"
+        back: "Errors reduce sincerity"
+      - front: "Personalize"
+        back: "Avoid generic templates"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: INTERNAL COMMUNICATION (116-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (116-120)
+  - id: 116
+    type: multiple_choice
+    question: "What is the best channel for an urgent internal message?"
+    options:
+      - "Formal letter"
+      - "Instant message or phone call"
+      - "Email with no subject line"
+      - "Post-it note"
+    answer: "Instant message or phone call"
+    xp_reward: 15
+
+  - id: 117
+    type: multiple_choice
+    question: "What is appropriate for internal team communication?"
+    options:
+      - "Only formal, letter-style emails"
+      - "Conversational but professional tone"
+      - "Sarcastic and rude comments"
+      - "Personal gossip"
+    answer: "Conversational but professional tone"
+    xp_reward: 15
+
+  - id: 118
+    type: multiple_choice
+    question: "When using Slack or Teams for work messages, you should:"
+    options:
+      - "Use only emojis"
+      - "Send messages at 2 AM expecting immediate replies"
+      - "Be clear, concise, and respectful of others' time"
+      - "Spam every channel with memes"
+    answer: "Be clear, concise, and respectful of others' time"
+    xp_reward: 15
+
+  - id: 119
+    type: multiple_choice
+    question: "What is a 'status update' in internal communication?"
+    options:
+      - "A report on your personal life"
+      - "A brief summary of progress on a task or project"
+      - "A complaint about your workload"
+      - "A request for vacation time"
+    answer: "A brief summary of progress on a task or project"
+    xp_reward: 15
+
+  - id: 120
+    type: multiple_choice
+    question: "Which is appropriate for a company-wide announcement?"
+    options:
+      - "Post in every individual chat"
+      - "Send a mass email to all employees with clear subject line"
+      - "Tell one person and hope they spread the word"
+      - "Don't announce anything"
+    answer: "Send a mass email to all employees with clear subject line"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (121-125)
+  - id: 121
+    type: fill_blank
+    question: "Complete the internal update"
+    text_with_blank: "Just a quick ___ on the Johnson project - we're on track."
+    options: ["update", "note", "message", "info"]
+    correct_answer: "update"
+    xp_reward: 15
+
+  - id: 122
+    type: fill_blank
+    question: "Complete the internal request"
+    text_with_blank: "Does anyone have ___ on the new software rollout?"
+    options: ["insight", "info", "updates", "details"]
+    correct_answer: "insight"
+    xp_reward: 15
+
+  - id: 123
+    type: fill_blank
+    question: "Complete the team announcement"
+    text_with_blank: "Just a ___ to remind everyone about the deadline tomorrow."
+    options: ["heads-up", "notice", "warning", "alert"]
+    correct_answer: "heads-up"
+    xp_reward: 15
+
+  - id: 124
+    type: fill_blank
+    question: "Complete the internal handoff"
+    text_with_blank: "I'm ___ this task over to Sarah while I'm on vacation."
+    options: ["handing", "giving", "passing", "transferring"]
+    correct_answer: "handing"
+    xp_reward: 15
+
+  - id: 125
+    type: fill_blank
+    question: "Complete the acknowledgment in internal chat"
+    text_with_blank: "___ , let me take a look and get back to you."
+    options: ["Got it", "Understood", "Received", "Okay"]
+    correct_answer: "Got it"
+    xp_reward: 15
+
+  # TRUE / FALSE (126-128)
+  - id: 126
+    type: true_false
+    question: "Is this statement true or false? Internal communication should always be professional, even with close colleagues."
+    statement: "Internal communication should always be professional, even with close colleagues."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 127
+    type: true_false
+    question: "Is this statement true or false? Using @here or @channel in Slack should be reserved for truly urgent messages."
+    statement: "Using @here or @channel in Slack should be reserved for truly urgent messages."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 128
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to gossip about colleagues in internal channels."
+    statement: "It is acceptable to gossip about colleagues in internal channels."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (129-130)
+  - id: 129
+    type: matching
+    question: "Match the internal communication channel with its best use"
+    pairs:
+      - left: "Email"
+        right: "Formal announcements, detailed information, external communication"
+      - left: "Slack/Teams (instant messaging)"
+        right: "Quick questions, informal updates, team collaboration"
+      - left: "Video call"
+        right: "Complex discussions, team meetings, presentations"
+      - left: "Phone call"
+        right: "Urgent matters, sensitive topics, quick clarification"
+      - left: "Shared document (Google Docs/SharePoint)"
+        right: "Collaborative editing, project tracking, documentation"
+    xp_reward: 25
+
+  - id: 130
+    type: matching
+    question: "Match the internal message type with the best phrasing"
+    pairs:
+      - left: "Quick question"
+        right: "Does anyone know the WiFi password for the guest network?"
+      - left: "Status update"
+        right: "Quick update: draft complete, awaiting client feedback"
+      - left: "Problem escalation"
+        right: "I need help with [issue]. Has anyone dealt with this before?"
+      - left: "Meeting reminder"
+        right: "Reminder: team sync in 15 minutes in the Blue room"
+      - left: "Handoff notification"
+        right: "Handing off [task] to [name] starting tomorrow"
+    xp_reward: 25

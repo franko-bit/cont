@@ -1,0 +1,1221 @@
+lesson:
+ name: "Numbers - Imibare mu Kinyarwanda"
+ description: "学ぶ numbers で Kinyarwanda from 0 に 1,000,000"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Numbers ONLY (Safe のために single words)
+ # Basic Numbers 0-10
+ - id: 1
+ type: translation
+ 質問: "何と言いますか '0' キニャルワンダ語で？"
+ 答え: "Zero"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 質問: "何と言いますか '1' キニャルワンダ語で？"
+ 答え: "Rimwe"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 質問: "何と言いますか '2' キニャルワンダ語で？"
+ 答え: "Kabiri"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 質問: "何と言いますか '3' キニャルワンダ語で？"
+ 答え: "Gatatu"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 質問: "何と言いますか '4' キニャルワンダ語で？"
+ 答え: "Kane"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 質問: "何と言いますか '5' キニャルワンダ語で？"
+ 答え: "Gatanu"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 質問: "何と言いますか '6' キニャルワンダ語で？"
+ 答え: "Gatandatu"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 質問: "何と言いますか '7' キニャルワンダ語で？"
+ 答え: "Karindwi"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ 質問: "何と言いますか '8' キニャルワンダ語で？"
+ 答え: "Umunani"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ 質問: "何と言いますか '9' キニャルワンダ語で？"
+ 答え: "Icyenda"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 質問: "何と言いますか '10' キニャルワンダ語で？"
+ 答え: "Icumi"
+ xp_reward: 10
+
+ # Numbers 11-20
+ - id: 12
+ type: translation
+ 質問: "何と言いますか '11' キニャルワンダ語で？"
+ 答え: "Cumi na rimwe"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ 質問: "何と言いますか '12' キニャルワンダ語で？"
+ 答え: "Cumi na kabiri"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ 質問: "何と言いますか '13' キニャルワンダ語で？"
+ 答え: "Cumi na gatatu"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ 質問: "何と言いますか '14' キニャルワンダ語で？"
+ 答え: "Cumi na kane"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ 質問: "何と言いますか '15' キニャルワンダ語で？"
+ 答え: "Cumi na gatanu"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ 質問: "何と言いますか '16' キニャルワンダ語で？"
+ 答え: "Cumi na gatandatu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ 質問: "何と言いますか '17' キニャルワンダ語で？"
+ 答え: "Cumi na karindwi"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ 質問: "何と言いますか '18' キニャルワンダ語で？"
+ 答え: "Cumi na umunani"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ 質問: "何と言いますか '19' キニャルワンダ語で？"
+ 答え: "Cumi na icyenda"
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ 質問: "何と言いますか '20' キニャルワンダ語で？"
+ 答え: "Makumyabiri"
+ xp_reward: 15
+
+ # Tens (Multiples の 10)
+ - id: 22
+ type: translation
+ 質問: "何と言いますか '30' キニャルワンダ語で？"
+ 答え: "Makumyatatu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ 質問: "何と言いますか '40' キニャルワンダ語で？"
+ 答え: "Makumyane"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ 質問: "何と言いますか '50' キニャルワンダ語で？"
+ 答え: "Mirongo itanu"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ 質問: "何と言いますか '60' キニャルワンダ語で？"
+ 答え: "Mirongo itandatu"
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ 質問: "何と言いますか '70' キニャルワンダ語で？"
+ 答え: "Mirongo irindwi"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ 質問: "何と言いますか '80' キニャルワンダ語で？"
+ 答え: "Mirongo inani"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ 質問: "何と言いますか '90' キニャルワンダ語で？"
+ 答え: "Mirongo icenda"
+ xp_reward: 15
+
+ - id: 29
+ type: translation
+ 質問: "何と言いますか '100' キニャルワンダ語で？"
+ 答え: "Ijana"
+ xp_reward: 10
+
+ # Hundreds
+ - id: 30
+ type: translation
+ 質問: "何と言いますか '200' キニャルワンダ語で？"
+ 答え: "Magana abiri"
+ xp_reward: 15
+
+ - id: 31
+ type: translation
+ 質問: "何と言いますか '300' キニャルワンダ語で？"
+ 答え: "Magana atatu"
+ xp_reward: 15
+
+ - id: 32
+ type: translation
+ 質問: "何と言いますか '400' キニャルワンダ語で？"
+ 答え: "Magana ane"
+ xp_reward: 15
+
+ - id: 33
+ type: translation
+ 質問: "何と言いますか '500' キニャルワンダ語で？"
+ 答え: "Magana atanu"
+ xp_reward: 15
+
+ - id: 34
+ type: translation
+ 質問: "何と言いますか '600' キニャルワンダ語で？"
+ 答え: "Magana atandatu"
+ xp_reward: 15
+
+ - id: 35
+ type: translation
+ 質問: "何と言いますか '700' キニャルワンダ語で？"
+ 答え: "Magana arindwi"
+ xp_reward: 15
+
+ - id: 36
+ type: translation
+ 質問: "何と言いますか '800' キニャルワンダ語で？"
+ 答え: "Magana umunani"
+ xp_reward: 15
+
+ - id: 37
+ type: translation
+ 質問: "何と言いますか '900' キニャルワンダ語で？"
+ 答え: "Magana icyenda"
+ xp_reward: 15
+
+ - id: 38
+ type: translation
+ 質問: "何と言いますか '1000' キニャルワンダ語で？"
+ 答え: "Igihumbi"
+ xp_reward: 10
+
+ # Thousands
+ - id: 39
+ type: translation
+ 質問: "何と言いますか '2,000' キニャルワンダ語で？"
+ 答え: "Ibihumbi bibiri"
+ xp_reward: 15
+
+ - id: 40
+ type: translation
+ 質問: "何と言いますか '3,000' キニャルワンダ語で？"
+ 答え: "Ibihumbi bitatu"
+ xp_reward: 15
+
+ - id: 41
+ type: translation
+ 質問: "何と言いますか '4,000' キニャルワンダ語で？"
+ 答え: "Ibihumbi bine"
+ xp_reward: 15
+
+ - id: 42
+ type: translation
+ 質問: "何と言いますか '5,000' キニャルワンダ語で？"
+ 答え: "Ibihumbi bitanu"
+ xp_reward: 15
+
+ - id: 43
+ type: translation
+ 質問: "何と言いますか '10,000' キニャルワンダ語で？"
+ 答え: "Ibihumbi icumi"
+ xp_reward: 15
+
+ - id: 44
+ type: translation
+ 質問: "何と言いますか '20,000' キニャルワンダ語で？"
+ 答え: "Ibihumbi makumyabiri"
+ xp_reward: 18
+
+ - id: 45
+ type: translation
+ 質問: "何と言いますか '50,000' キニャルワンダ語で？"
+ 答え: "Ibihumbi mirongo itanu"
+ xp_reward: 18
+
+ - id: 46
+ type: translation
+ 質問: "何と言いますか '100,000' キニャルワンダ語で？"
+ 答え: "Ijana ibihumbi"
+ xp_reward: 15
+
+ - id: 47
+ type: translation
+ 質問: "何と言いますか '200,000' キニャルワンダ語で？"
+ 答え: "Magana abiri ibihumbi"
+ xp_reward: 18
+
+ - id: 48
+ type: translation
+ 質問: "何と言いますか '500,000' キニャルワンダ語で？"
+ 答え: "Magana atanu ibihumbi"
+ xp_reward: 18
+
+ - id: 49
+ type: translation
+ 質問: "何と言いますか '1,000,000' キニャルワンダ語で？"
+ 答え: "Miliyoni imwe"
+ xp_reward: 15
+
+ # Money Context - Amafaranga (Safe  phrases)
+ - id: 50
+ type: translation
+ 質問: "何と言いますか '100 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga ijana"
+ xp_reward: 15
+
+ - id: 51
+ type: translation
+ 質問: "何と言いますか '200 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga magana abiri"
+ xp_reward: 15
+
+ - id: 52
+ type: translation
+ 質問: "何と言いますか '500 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga magana atanu"
+ xp_reward: 15
+
+ - id: 53
+ type: translation
+ 質問: "何と言いますか '1,000 RWF' キニャルワンダ語で？"
+ 答え: "Ifaranga igihumbi"
+ xp_reward: 15
+
+ - id: 54
+ type: translation
+ 質問: "何と言いますか '2,000 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga ibihumbi bibiri"
+ xp_reward: 15
+
+ - id: 55
+ type: translation
+ 質問: "何と言いますか '5,000 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga ibihumbi bitanu"
+ xp_reward: 15
+
+ - id: 56
+ type: translation
+ 質問: "何と言いますか '10,000 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga ibihumbi icumi"
+ xp_reward: 15
+
+ - id: 57
+ type: translation
+ 質問: "何と言いますか '20,000 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga ibihumbi makumyabiri"
+ xp_reward: 18
+
+ - id: 58
+ type: translation
+ 質問: "何と言いますか '50,000 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga ibihumbi mirongo itanu"
+ xp_reward: 18
+
+ - id: 59
+ type: translation
+ 質問: "何と言いますか '100,000 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga ijana ibihumbi"
+ xp_reward: 18
+
+ - id: 60
+ type: translation
+ 質問: "何と言いますか '200,000 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga magana abiri ibihumbi"
+ xp_reward: 20
+
+ - id: 61
+ type: translation
+ 質問: "何と言いますか '500,000 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga magana atanu ibihumbi"
+ xp_reward: 20
+
+ - id: 62
+ type: translation
+ 質問: "何と言いますか '1,000,000 RWF' キニャルワンダ語で？"
+ 答え: "Amafaranga miliyoni imwe"
+ xp_reward: 18
+
+ # いいえ DIRECT TRANSLATION のために COMPLEX COMBINED NUMBERS または FULL 文
+ # Instead, we use 文 building, 一致させる, と word bank exercises
+
+ # 2. Multiple Choice
+ - id: 63
+ type: multiple_choice
+ 質問: "何を意味しますか 'Rimwe' という意味ですか"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ - "4"
+ 答え: "1"
+ xp_reward: 15
+
+ - id: 64
+ type: multiple_choice
+ 質問: "何を意味しますか 'Kabiri' という意味ですか"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ - "4"
+ 答え: "2"
+ xp_reward: 15
+
+ - id: 65
+ type: multiple_choice
+ 質問: "何を意味しますか 'Gatanu' という意味ですか"
+ options:
+ - "4"
+ - "5"
+ - "6"
+ - "7"
+ 答え: "5"
+ xp_reward: 15
+
+ - id: 66
+ type: multiple_choice
+ 質問: "何を意味しますか 'Icumi' という意味ですか"
+ options:
+ - "5"
+ - "10"
+ - "15"
+ - "20"
+ 答え: "10"
+ xp_reward: 15
+
+ - id: 67
+ type: multiple_choice
+ 質問: "何を意味しますか 'Makumyabiri' という意味ですか"
+ options:
+ - "10"
+ - "20"
+ - "30"
+ - "40"
+ 答え: "20"
+ xp_reward: 15
+
+ - id: 68
+ type: multiple_choice
+ 質問: "何を意味しますか 'Ijana' という意味ですか"
+ options:
+ - "10"
+ - "100"
+ - "1000"
+ - "1,000,000"
+ 答え: "100"
+ xp_reward: 15
+
+ - id: 69
+ type: multiple_choice
+ 質問: "何を意味しますか 'Igihumbi' という意味ですか"
+ options:
+ - "100"
+ - "1000"
+ - "10,000"
+ - "1,000,000"
+ 答え: "1000"
+ xp_reward: 15
+
+ - id: 70
+ type: multiple_choice
+ 質問: "何を意味しますか 'Miliyoni imwe' という意味ですか"
+ options:
+ - "1,000"
+ - "10,000"
+ - "100,000"
+ - "1,000,000"
+ 答え: "1,000,000"
+ xp_reward: 18
+
+ # 3. 聞く と Type (Dictation) - Safe because audio です provided
+ - id: 71
+ type: listen_と_type
+ 質問: "聞く と type  number"
+ tts_text: "Rimwe"
+ 答え: "Rimwe"
+ translation: "1"
+ xp_reward: 20
+
+ - id: 72
+ type: listen_と_type
+ 質問: "聞く と type  number"
+ tts_text: "Kabiri"
+ 答え: "Kabiri"
+ translation: "2"
+ xp_reward: 20
+
+ - id: 73
+ type: listen_と_type
+ 質問: "聞く と type  number"
+ tts_text: "Icumi"
+ 答え: "Icumi"
+ translation: "10"
+ xp_reward: 20
+
+ - id: 74
+ type: listen_と_type
+ 質問: "聞く と type  number"
+ tts_text: "Cumi na rimwe"
+ 答え: "Cumi na rimwe"
+ translation: "11"
+ xp_reward: 22
+
+ - id: 75
+ type: listen_と_type
+ 質問: "聞く と type  number"
+ tts_text: "Makumyabiri"
+ 答え: "Makumyabiri"
+ translation: "20"
+ xp_reward: 20
+
+ - id: 76
+ type: listen_と_type
+ 質問: "聞く と type  number"
+ tts_text: "Ijana"
+ 答え: "Ijana"
+ translation: "100"
+ xp_reward: 20
+
+ - id: 77
+ type: listen_と_type
+ 質問: "聞く と type  number"
+ tts_text: "Igihumbi"
+ 答え: "Igihumbi"
+ translation: "1000"
+ xp_reward: 20
+
+ - id: 78
+ type: listen_と_type
+ 質問: "聞く と type  money phrase"
+ tts_text: "Amafaranga ijana"
+ 答え: "Amafaranga ijana"
+ translation: "100 RWF"
+ xp_reward: 22
+
+ - id: 79
+ type: listen_と_type
+ 質問: "聞く と type  money phrase"
+ tts_text: "Amafaranga ibihumbi bitanu"
+ 答え: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 25
+
+ # 4. 聞く と 選ぶ
+ - id: 80
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct number"
+ tts_text: "Rimwe"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ 答え: "1"
+ xp_reward: 15
+
+ - id: 81
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct number"
+ tts_text: "Gatanu"
+ options:
+ - "4"
+ - "5"
+ - "6"
+ 答え: "5"
+ xp_reward: 15
+
+ - id: 82
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct number"
+ tts_text: "Icumi"
+ options:
+ - "5"
+ - "10"
+ - "15"
+ 答え: "10"
+ xp_reward: 15
+
+ - id: 83
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct number"
+ tts_text: "Makumyabiri"
+ options:
+ - "10"
+ - "20"
+ - "30"
+ 答え: "20"
+ xp_reward: 15
+
+ - id: 84
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct amount"
+ tts_text: "Amafaranga igihumbi"
+ options:
+ - "100 RWF"
+ - "1,000 RWF"
+ - "10,000 RWF"
+ 答え: "1,000 RWF"
+ xp_reward: 18
+
+ # 5. Repeat / 話す Exercise
+ - id: 85
+ type: 話す
+ 質問: "Say これ number"
+ prompt: "Rimwe"
+ translation: "1"
+ xp_reward: 15
+
+ - id: 86
+ type: 話す
+ 質問: "Say これ number"
+ prompt: "Kabiri"
+ translation: "2"
+ xp_reward: 15
+
+ - id: 87
+ type: 話す
+ 質問: "Say これ number"
+ prompt: "Icumi"
+ translation: "10"
+ xp_reward: 15
+
+ - id: 88
+ type: 話す
+ 質問: "Say これ number"
+ prompt: "Cumi na rimwe"
+ translation: "11"
+ xp_reward: 18
+
+ - id: 89
+ type: 話す
+ 質問: "Say これ number"
+ prompt: "Makumyabiri"
+ translation: "20"
+ xp_reward: 15
+
+ - id: 90
+ type: 話す
+ 質問: "Say これ number"
+ prompt: "Ijana"
+ translation: "100"
+ xp_reward: 15
+
+ - id: 91
+ type: 話す
+ 質問: "Say これ number"
+ prompt: "Igihumbi"
+ translation: "1000"
+ xp_reward: 15
+
+ - id: 92
+ type: 話す
+ 質問: "Say これ money amount"
+ prompt: "Amafaranga ijana"
+ translation: "100 RWF"
+ xp_reward: 18
+
+ - id: 93
+ type: 話す
+ 質問: "Say これ money amount"
+ prompt: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 20
+
+ # 6. Word Bank 文 Building - PIECES PROVIDED
+ - id: 94
+ type: word_bank
+ 質問: "Build  Kinyarwanda phrase のために 'I have 3 apples'"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_answer: ["Mfite", "amapera", "atatu"]
+ xp_reward: 22
+
+ - id: 95
+ type: word_bank
+ 質問: "Build  Kinyarwanda phrase のために 'He bought 12 pens'"
+ word_bank: ["Yanguriye", "amakaramu", "cumi na kabiri", "cumi na rimwe", "ibiri"]
+ correct_answer: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ xp_reward: 22
+
+ - id: 96
+ type: word_bank
+ 質問: "Build  Kinyarwanda phrase のために ' book costs 2,000 RWF'"
+ word_bank: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri", "ibihumbi bitatu", "ijana"]
+ correct_answer: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ xp_reward: 25
+
+ - id: 97
+ type: word_bank
+ 質問: "Build  Kinyarwanda phrase のために 'My 家 costs 1,000,000 RWF'"
+ word_bank: ["Inzu", "yanjye", "ni", "amafaranga", "miliyoni imwe", "ibihumbi"]
+ correct_answer: ["Inzu", "yanjye", "ni", "amafaranga", "miliyoni imwe"]
+ xp_reward: 25
+
+ - id: 98
+ type: word_bank
+ 質問: "Build  Kinyarwanda phrase のために 'There です 50 students で  class'"
+ word_bank: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri", "mirongo itatu"]
+ correct_answer: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ xp_reward: 22
+
+ - id: 99
+ type: word_bank
+ 質問: "Build  Kinyarwanda phrase のために 'She has 100 RWF'"
+ word_bank: ["Afite", "amafaranga", "ijana", "magana abiri", "ibihumbi"]
+ correct_answer: ["Afite", "amafaranga", "ijana"]
+ xp_reward: 20
+
+ - id: 100
+ type: word_bank
+ 質問: "Build  Kinyarwanda phrase のために ' bag costs 123,456 RWF'"
+ word_bank: ["Isakoshi", "ni", "amafaranga", "ijana na makumyabiri na gatatu", "ibihumbi", "na magana ane na mirongo itanu na gatandatu"]
+ correct_answer: ["Isakoshi", "ni", "amafaranga", "ijana na makumyabiri na gatatu", "ibihumbi", "na magana ane na mirongo itanu na gatandatu"]
+ xp_reward: 30
+
+ # 7. 文 Scramble - PIECES PROVIDED
+ - id: 101
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct phrase"
+ scrambled_words: ["Mfite", "amapera", "atatu"]
+ correct_sentence: "Mfite amapera atatu."
+ translation: "I have 3 apples."
+ xp_reward: 20
+
+ - id: 102
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct phrase"
+ scrambled_words: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ correct_sentence: "Yanguriye amakaramu cumi na kabiri."
+ translation: "He bought 12 pens."
+ xp_reward: 22
+
+ - id: 103
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct phrase"
+ scrambled_words: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ correct_sentence: "Igitabo ni amafaranga ibihumbi bibiri."
+ translation: " book costs 2,000 RWF."
+ xp_reward: 22
+
+ - id: 104
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct phrase"
+ scrambled_words: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ correct_sentence: "Hari abanyeshuri mirongo itanu mu ishuri."
+ translation: "There です 50 students で  class."
+ xp_reward: 22
+
+ - id: 105
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct phrase"
+ scrambled_words: ["Afite", "amafaranga", "ijana"]
+ correct_sentence: "Afite amafaranga ijana."
+ translation: "She has 100 RWF."
+ xp_reward: 18
+
+ # 8. Fill で  Blank - 選ぶ FROM OPTIONS
+ - id: 106
+ type: fill_blank
+ 質問: "Complete  phrase"
+ text_と_blank: "Mfite amapera ___."
+ options: ["atatu", "kabiri", "rimwe"]
+ correct_answer: "atatu"
+ translation: "I have 3 apples."
+ xp_reward: 18
+
+ - id: 107
+ type: fill_blank
+ 質問: "Complete  phrase"
+ text_と_blank: "Yanguriye amakaramu ___."
+ options: ["cumi na kabiri", "cumi na rimwe", "makumyabiri"]
+ correct_answer: "cumi na kabiri"
+ translation: "He bought 12 pens."
+ xp_reward: 18
+
+ - id: 108
+ type: fill_blank
+ 質問: "Complete  phrase"
+ text_と_blank: "Igitabo ni amafaranga ___."
+ options: ["ibihumbi bibiri", "ibihumbi bitatu", "ijana"]
+ correct_answer: "ibihumbi bibiri"
+ translation: " book costs 2,000 RWF."
+ xp_reward: 20
+
+ - id: 109
+ type: fill_blank
+ 質問: "Complete  phrase"
+ text_と_blank: "Hari abanyeshuri ___ mu ishuri."
+ options: ["mirongo itanu", "mirongo itatu", "cumi"]
+ correct_answer: "mirongo itanu"
+ translation: "There です 50 students で  class."
+ xp_reward: 18
+
+ - id: 110
+ type: fill_blank
+ 質問: "Complete  phrase"
+ text_と_blank: "Afite amafaranga ___."
+ options: ["ijana", "magana abiri", "igihumbi"]
+ correct_answer: "ijana"
+ translation: "She has 100 RWF."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 111
+ type: picture_word
+ 質問: "How many apples do you みる?"
+ image_url: "https://source.unsplash.com/featured/?1-apple"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Rimwe"
+ xp_reward: 15
+
+ - id: 112
+ type: picture_word
+ 質問: "How many apples do you みる?"
+ image_url: "https://source.unsplash.com/featured/?2-apples"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Kabiri"
+ xp_reward: 15
+
+ - id: 113
+ type: picture_word
+ 質問: "How many apples do you みる?"
+ image_url: "https://source.unsplash.com/featured/?3-apples"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Gatatu"
+ xp_reward: 15
+
+ - id: 114
+ type: picture_word
+ 質問: "How many pens do you みる?"
+ image_url: "https://source.unsplash.com/featured/?10-pens"
+ options: ["Icumi", "Makumyabiri", "Ijana"]
+ correct_answer: "Icumi"
+ xp_reward: 15
+
+ - id: 115
+ type: picture_word
+ 質問: "これは何ですか これ number?"
+ image_url: "https://images.unsplash.com/photo-1621440318464-72633426377b?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D00"
+ options: ["Ijana", "Igihumbi", "Icumi"]
+ correct_answer: "Ijana"
+ xp_reward: 15
+
+ - id: 116
+ type: picture_word
+ 質問: "これは何ですか これ amount の money?"
+ image_url: "https://source.unsplash.com/featured/?1000-franc-note"
+ options: ["Amafaranga igihumbi", "Amafaranga ijana", "Amafaranga ibihumbi icumi"]
+ correct_answer: "Amafaranga igihumbi"
+ xp_reward: 20
+
+ # 10. Word 一致させる (Pairing)
+ - id: 117
+ type: 一致させる
+ 質問: "一致させる  numbers"
+ pairs:
+ - 左: "1"
+ 右: "Rimwe"
+ - 左: "2"
+ 右: "Kabiri"
+ - 左: "3"
+ 右: "Gatatu"
+ - 左: "4"
+ 右: "Kane"
+ - 左: "5"
+ 右: "Gatanu"
+ - 左: "6"
+ 右: "Gatandatu"
+ - 左: "7"
+ 右: "Karindwi"
+ - 左: "8"
+ 右: "Umunani"
+ - 左: "9"
+ 右: "Icyenda"
+ - 左: "10"
+ 右: "Icumi"
+ xp_reward: 25
+
+ - id: 118
+ type: 一致させる
+ 質問: "一致させる  tens"
+ pairs:
+ - 左: "20"
+ 右: "Makumyabiri"
+ - 左: "30"
+ 右: "Makumyatatu"
+ - 左: "40"
+ 右: "Makumyane"
+ - 左: "50"
+ 右: "Mirongo itanu"
+ - 左: "60"
+ 右: "Mirongo itandatu"
+ - 左: "70"
+ 右: "Mirongo irindwi"
+ - 左: "80"
+ 右: "Mirongo inani"
+ - 左: "90"
+ 右: "Mirongo icenda"
+ xp_reward: 25
+
+ - id: 119
+ type: 一致させる
+ 質問: "一致させる  hundreds と thousands"
+ pairs:
+ - 左: "100"
+ 右: "Ijana"
+ - 左: "200"
+ 右: "Magana abiri"
+ - 左: "500"
+ 右: "Magana atanu"
+ - 左: "1000"
+ 右: "Igihumbi"
+ - 左: "2000"
+ 右: "Ibihumbi bibiri"
+ - 左: "5000"
+ 右: "Ibihumbi bitanu"
+ - 左: "10,000"
+ 右: "Ibihumbi icumi"
+ - 左: "1,000,000"
+ 右: "Miliyoni imwe"
+ xp_reward: 25
+
+ - id: 120
+ type: 一致させる
+ 質問: "一致させる  money amounts"
+ pairs:
+ - 左: "100 RWF"
+ 右: "Amafaranga ijana"
+ - 左: "1,000 RWF"
+ 右: "Ifaranga igihumbi"
+ - 左: "5,000 RWF"
+ 右: "Amafaranga ibihumbi bitanu"
+ - 左: "10,000 RWF"
+ 右: "Amafaranga ibihumbi icumi"
+ - 左: "50,000 RWF"
+ 右: "Amafaranga ibihumbi mirongo itanu"
+ - 左: "100,000 RWF"
+ 右: "Amafaranga ijana ibihumbi"
+ - 左: "1,000,000 RWF"
+ 右: "Amafaranga miliyoni imwe"
+ xp_reward: 28
+
+ # 11. 選ぶ Missing Word
+ - id: 124
+ type: choose_missing
+ 質問: "選ぶ  missing number"
+ 文: "Mfite amapera ___."
+ missing_word_position: 3
+ options: ["atatu", "kabiri", "rimwe"]
+ correct_answer: "atatu"
+ translation: "I have 3 apples."
+ xp_reward: 15
+
+ - id: 125
+ type: choose_missing
+ 質問: "選ぶ  missing number"
+ 文: "Yanguriye amakaramu ___."
+ missing_word_position: 3
+ options: ["cumi na kabiri", "cumi na rimwe", "makumyabiri"]
+ correct_answer: "cumi na kabiri"
+ translation: "He bought 12 pens."
+ xp_reward: 18
+
+ - id: 126
+ type: choose_missing
+ 質問: "選ぶ  missing amount"
+ 文: "Igitabo ni amafaranga ___."
+ missing_word_position: 4
+ options: ["ibihumbi bibiri", "ijana", "ibihumbi icumi"]
+ correct_answer: "ibihumbi bibiri"
+ translation: " book costs 2,000 RWF."
+ xp_reward: 18
+
+ # 12. 読む と 答え - 質問 based に text
+ - id: 127
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Mfite amapera atatu. Yanguriye amakaramu cumi na kabiri."
+ 質問: "How many apples do I have?"
+ options: ["1", "2", "3", "12"]
+ correct_answer: "3"
+ xp_reward: 15
+
+ - id: 128
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Igitabo ni amafaranga ibihumbi bibiri. Inzu yanjye ni amafaranga miliyoni imwe."
+ 質問: "How much です  book?"
+ options: ["100 RWF", "1,000 RWF", "2,000 RWF", "1,000,000 RWF"]
+ correct_answer: "2,000 RWF"
+ xp_reward: 18
+
+ - id: 129
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Hari abanyeshuri mirongo itanu mu ishuri."
+ 質問: "How many students です there?"
+ options: ["15", "20", "50", "100"]
+ correct_answer: "50"
+ xp_reward: 15
+
+ # 13. True / False
+ - id: 130
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Kabiri means 2."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 131
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Icumi means 20."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 132
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Ijana means 100."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 133
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Igihumbi means 1,000,000."
+ correct_answer: false
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 134
+ type: conversation
+ 質問: "Respond に  質問 by building  文"
+ bot_message: "Ufite amapera angahe?"
+ translation: "How many apples do you have?"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_response: ["Mfite", "amapera", "atatu"]
+ xp_reward: 20
+
+ - id: 135
+ type: conversation
+ 質問: "Respond に  質問 about price"
+ bot_message: "Igitabo ni angahe?"
+ translation: "How much です  book?"
+ options:
+ - "Amafaranga ibihumbi bibiri"
+ - "Amafaranga ijana"
+ - "Amafaranga miliyoni imwe"
+ correct_response: "Amafaranga ibihumbi bibiri"
+ xp_reward: 18
+
+ - id: 136
+ type: conversation
+ 質問: "Respond に  質問 by building  文"
+ bot_message: "Hari abanyeshuri bangahe mu ishuri?"
+ translation: "How many students です で  class?"
+ word_bank: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ correct_response: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build 文 from pieces
+ - id: 137
+ type: story
+ title: "買い物 - Kugura"
+ story_intro: "読む about 買い物. Then build  文."
+ story_segments:
+ - text: "I have 3 apples."
+ - text: "He bought 12 pens."
+ - text: " book costs 2,000 RWF."
+ - text: "My 家 costs 1,000,000 RWF."
+ - text: "She has 100 RWF."
+ exercises:
+ - type: word_bank
+ 質問: "Build 'I have 3 apples'"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_answer: ["Mfite", "amapera", "atatu"]
+ - type: word_bank
+ 質問: "Build 'He bought 12 pens'"
+ word_bank: ["Yanguriye", "amakaramu", "cumi na kabiri", "cumi na rimwe"]
+ correct_answer: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ - type: word_bank
+ 質問: "Build ' book costs 2,000 RWF'"
+ word_bank: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ correct_answer: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ - type: word_bank
+ 質問: "Build 'She has 100 RWF'"
+ word_bank: ["Afite", "amafaranga", "ijana"]
+ correct_answer: ["Afite", "amafaranga", "ijana"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 138
+ type: pronunciation
+ 質問: "Say これ number"
+ prompt: "Rimwe"
+ translation: "1"
+ xp_reward: 15
+
+ - id: 139
+ type: pronunciation
+ 質問: "Say これ number"
+ prompt: "Makumyabiri"
+ translation: "20"
+ xp_reward: 15
+
+ - id: 140
+ type: pronunciation
+ 質問: "Say これ amount"
+ prompt: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 141
+ type: identify_meaning
+ 質問: "何を意味しますか 'atatu' mean で これ 文?"
+ context_sentence: "Mfite amapera atatu."
+ word: "atatu"
+ options: ["1", "2", "3", "4"]
+ correct_answer: "3"
+ xp_reward: 15
+
+ - id: 142
+ type: identify_meaning
+ 質問: "何を意味しますか 'ibihumbi bibiri' という意味ですか"
+ context_sentence: "Igitabo ni amafaranga ibihumbi bibiri."
+ word: "ibihumbi bibiri"
+ options: ["100 RWF", "1,000 RWF", "2,000 RWF", "20,000 RWF"]
+ correct_answer: "2,000 RWF"
+ xp_reward: 18
+
+ # 18. Speed 一致させる
+ - id: 143
+ type: speed_一致させる
+ title: "一致させる Madness: Numbers"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "1"
+ 右: "Rimwe"
+ - 左: "2"
+ 右: "Kabiri"
+ - 左: "3"
+ 右: "Gatatu"
+ - 左: "4"
+ 右: "Kane"
+ - 左: "5"
+ 右: "Gatanu"
+ - 左: "10"
+ 右: "Icumi"
+ - 左: "20"
+ 右: "Makumyabiri"
+ - 左: "100"
+ 右: "Ijana"
+ - 左: "1000"
+ 右: "Igihumbi"
+ - 左: "1,000,000"
+ 右: "Miliyoni imwe"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 144
+ type: timed_challenge
+ title: "Lightning Round: Numbers"
+ time_limit_seconds: 30
+ 質問_count: 5
+ 質問:
+ - 質問: "1"
+ 答え: "Rimwe"
+ - 質問: "2"
+ 答え: "Kabiri"
+ - 質問: "3"
+ 答え: "Gatatu"
+ - 質問: "10"
+ 答え: "Icumi"
+ - 質問: "100"
+ 答え: "Ijana"
+ xp_reward: 35
+
+# フラッシュカード
+ - id: 111
+ type: フラッシュカード
+ 質問: "フラッシュカード"
+ フラッシュカード:
+ - front: "Rimwe"
+ back: "1"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Kabiri"
+ back: "2"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Gatatu"
+ back: "3"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Kane"
+ back: "4"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Gatanu"
+ back: "5"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Gatandatu"
+ back: "6"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Karindwi"
+ back: "7"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunani"
+ back: "8"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Icyenda"
+ back: "9"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Icumi"
+ back: "10"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

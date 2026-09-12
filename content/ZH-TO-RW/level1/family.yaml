@@ -1,0 +1,1060 @@
+lesson:
+ name: "家庭 - Umuryango"
+ description: "学习 家庭 member names 在 Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - 家庭 Members ONLY (Safe 为了 single words)
+ - id: 1
+ type: translation
+ 问题: "怎么说 'Mother' 用基尼阿万达语？"
+ 答案: "Mama"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 问题: "怎么说 'Father' 用基尼阿万达语？"
+ 答案: "Data"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 问题: "怎么说 'Brother' 用基尼阿万达语？"
+ 答案: "Musaza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 问题: "怎么说 'Sister' 用基尼阿万达语？"
+ 答案: "Mushiki"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 问题: "怎么说 'Child' 用基尼阿万达语？"
+ 答案: "Umwana"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 问题: "怎么说 'Grandmother' 用基尼阿万达语？"
+ 答案: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 问题: "怎么说 'Grandfather' 用基尼阿万达语？"
+ 答案: "Sogokuru"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 问题: "怎么说 'Husband' 用基尼阿万达语？"
+ 答案: "Umugabo"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ 问题: "怎么说 'Wife' 用基尼阿万达语？"
+ 答案: "Umugore"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ 问题: "怎么说 'Paternal uncle' 用基尼阿万达语？"
+ 答案: "Datawabo"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 问题: "怎么说 'Maternal uncle' 用基尼阿万达语？"
+ 答案: "Marume"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ 问题: "怎么说 'Paternal aunt' 用基尼阿万达语？"
+ 答案: "Masenge"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ 问题: "怎么说 'Maternal aunt' 用基尼阿万达语？"
+ 答案: "Nyirarume"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ 问题: "怎么说 'Grandchild' 用基尼阿万达语？"
+ 答案: "Umwuzukuru"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ 问题: "怎么说 'Great-grandchild' 用基尼阿万达语？"
+ 答案: "Umwuzukuruza"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ 问题: "怎么说 'Son-in-law / Groom' 用基尼阿万达语？"
+ 答案: "Umukwe"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ 问题: "怎么说 'Father-in-law' 用基尼阿万达语？"
+ 答案: "Sebukwe"
+ xp_reward: 10
+
+ # Translation - Greetings & Basic Phrases (Safe 一个 fixed expressions)
+ - id: 18
+ type: translation
+ 问题: "怎么说 '你好, mother!' 用基尼阿万达语？"
+ 答案: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 19
+ type: translation
+ 问题: "怎么说 '你好, father!' 用基尼阿万达语？"
+ 答案: "Muraho, Data!"
+ xp_reward: 12
+
+ - id: 20
+ type: translation
+ 问题: "怎么问 'How 是  家庭?' 用基尼阿万达语？"
+ 答案: "Umuryango umeze ute?"
+ xp_reward: 15
+
+ # Translation - Possession (Simple phrases 和 "have")
+ - id: 21
+ type: translation
+ 问题: "怎么说 'I have 一个 brother' 用基尼阿万达语？"
+ 答案: "Mfite Musaza."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ 问题: "怎么说 'I have 一个 sister' 用基尼阿万达语？"
+ 答案: "Mfite Mushiki."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ 问题: "怎么说 'My grandfather has 一个 房子' 用基尼阿万达语？"
+ 答案: "Sogokuru afite inzu."
+ xp_reward: 15
+
+ # 不 DIRECT TRANSLATION 为了 COMPLEX 句子 或 PARAGRAPHS
+ # Instead, we use 句子 building, 配对, 和 word bank exercises
+
+ # 2. Multiple Choice
+ - id: 24
+ type: multiple_choice
+ 问题: "是什么意思 'Mama' 是什么意思"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ - "Sister"
+ 答案: "Mother"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ 问题: "是什么意思 'Data' 是什么意思"
+ options:
+ - "Mother"
+ - "Father"
+ - "Grandfather"
+ - "Uncle"
+ 答案: "Father"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ 问题: "是什么意思 'Musaza' 是什么意思"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ - "Husband"
+ 答案: "Brother"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ 问题: "是什么意思 'Mushiki' 是什么意思"
+ options:
+ - "Brother"
+ - "Sister"
+ - "Mother"
+ - "Aunt"
+ 答案: "Sister"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ 问题: "是什么意思 'Nyogokuru' 是什么意思"
+ options:
+ - "Grandfather"
+ - "Grandmother"
+ - "Aunt"
+ - "Uncle"
+ 答案: "Grandmother"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ 问题: "是什么意思 'Sogokuru' 是什么意思"
+ options:
+ - "Grandmother"
+ - "Grandfather"
+ - "Father-in-law"
+ - "Uncle"
+ 答案: "Grandfather"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ 问题: "是什么意思 'Datawabo' 是什么意思"
+ options:
+ - "Maternal uncle"
+ - "Paternal uncle"
+ - "Father-in-law"
+ - "Grandfather"
+ 答案: "Paternal uncle"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ 问题: "是什么意思 'Marume' 是什么意思"
+ options:
+ - "Paternal uncle"
+ - "Maternal uncle"
+ - "Brother"
+ - "Son-in-law"
+ 答案: "Maternal uncle"
+ xp_reward: 15
+
+ # 3. 听 和 Type (Dictation) - Safe because audio 是 provided
+ - id: 32
+ type: listen_和_type
+ 问题: "听 和 type  家庭 member"
+ tts_text: "Mama"
+ 答案: "Mama"
+ translation: "Mother"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_和_type
+ 问题: "听 和 type  家庭 member"
+ tts_text: "Data"
+ 答案: "Data"
+ translation: "Father"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_和_type
+ 问题: "听 和 type  家庭 member"
+ tts_text: "Nyogokuru"
+ 答案: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Mama ari mu nzu"
+ 答案: "Mama ari mu nzu"
+ translation: "Mother 是 at home"
+ xp_reward: 25
+
+ - id: 36
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Data ari mu kazi"
+ 答案: "Data ari mu kazi"
+ translation: "Father 是 working"
+ xp_reward: 25
+
+ - id: 37
+ type: listen_和_type
+ 问题: "听 和 type  问题"
+ tts_text: "Umuryango umeze ute"
+ 答案: "Umuryango umeze ute"
+ translation: "How 是  家庭?"
+ xp_reward: 25
+
+ # 4. 听 和 选择
+ - id: 38
+ type: listen_和_choose
+ 问题: "听 和 选择  correct 家庭 member"
+ tts_text: "Mama"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ 答案: "Mother"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_和_choose
+ 问题: "听 和 选择  correct 家庭 member"
+ tts_text: "Data"
+ options:
+ - "Mother"
+ - "Father"
+ - "Sister"
+ 答案: "Father"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_和_choose
+ 问题: "听 和 选择  correct 家庭 member"
+ tts_text: "Musaza"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ 答案: "Brother"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_和_choose
+ 问题: "听 和 选择  correct phrase"
+ tts_text: "Mama ari mu nzu"
+ options:
+ - "Mother 是 at home"
+ - "Father 是 working"
+ - "Brother 是 playing"
+ 答案: "Mother 是 at home"
+ xp_reward: 20
+
+ # 5. Repeat / 说 Exercise
+ - id: 42
+ type: 说
+ 问题: "Say 这 家庭 member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 43
+ type: 说
+ 问题: "Say 这 家庭 member"
+ prompt: "Data"
+ translation: "Father"
+ xp_reward: 15
+
+ - id: 44
+ type: 说
+ 问题: "Say 这 家庭 member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 45
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother 是 at home"
+ xp_reward: 20
+
+ - id: 46
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Data ari mu kazi"
+ translation: "Father 是 working"
+ xp_reward: 20
+
+ - id: 47
+ type: 说
+ 问题: "Say 这 问题"
+ prompt: "Umuryango umeze ute"
+ translation: "How 是  家庭?"
+ xp_reward: 20
+
+ # 6. Word Bank 句子 Building - PIECES PROVIDED, 不 TRANSLATION NEEDED
+ - id: 48
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'Mother 是 at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 49
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'Father 是 working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ xp_reward: 22
+
+ - id: 51
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My sister 读 一个 book'"
+ word_bank: ["Mushiki", "arasoma", "igitabo", "Musaza", "arakina", "hanze"]
+ correct_answer: ["Mushiki", "arasoma", "igitabo"]
+ xp_reward: 22
+
+ - id: 52
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'I love my grandmother'"
+ word_bank: ["Nkunda", "Nyogokuru", "Sogokuru", "arasaza", "cyane"]
+ correct_answer: ["Nkunda", "Nyogokuru"]
+ xp_reward: 20
+
+ - id: 53
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My grandfather 是 很 旧'"
+ word_bank: ["Sogokuru", "arasaza", "cyane", "Nyogokuru", "araduteka"]
+ correct_answer: ["Sogokuru", "arasaza", "cyane"]
+ xp_reward: 22
+
+ - id: 54
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'I have 一个 brother'"
+ word_bank: ["Mfite", "Musaza", "Mushiki", "Umwana"]
+ correct_answer: ["Mfite", "Musaza"]
+ xp_reward: 18
+
+ - id: 55
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My grandfather has 一个 房子'"
+ word_bank: ["Sogokuru", "afite", "inzu", "Nyogokuru", "araduteka", "ibiryo"]
+ correct_answer: ["Sogokuru", "afite", "inzu"]
+ xp_reward: 20
+
+ - id: 56
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My grandmother cooks 食物'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 22
+
+ - id: 57
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My paternal uncle has 一个 山羊'"
+ word_bank: ["Datawabo", "afite", "ihene", "Marume", "inka", "afite"]
+ correct_answer: ["Datawabo", "afite", "ihene"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My maternal uncle has 一个 牛'"
+ word_bank: ["Marume", "afite", "inka", "Datawabo", "ihene", "afite"]
+ correct_answer: ["Marume", "afite", "inka"]
+ xp_reward: 22
+
+ - id: 59
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My paternal aunt 是 kind'"
+ word_bank: ["Masenge", "ni", "mwiza", "Nyirarume", "ni", "mwiza", "cyane"]
+ correct_answer: ["Masenge", "ni", "mwiza"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My maternal aunt 是 很 nice'"
+ word_bank: ["Nyirarume", "ni", "mwiza", "cyane", "Masenge", "ni", "mwiza"]
+ correct_answer: ["Nyirarume", "ni", "mwiza", "cyane"]
+ xp_reward: 22
+
+ - id: 61
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My child 是 playing'"
+ word_bank: ["Umwana", "arakinira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwana", "arakinira"]
+ xp_reward: 18
+
+ - id: 62
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My grandchild likes 到 读'"
+ word_bank: ["Umwuzukuru", "akunda", "gusoma", "Umwana", "arakinira"]
+ correct_answer: ["Umwuzukuru", "akunda", "gusoma"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My great-grandchild sleeps'"
+ word_bank: ["Umwuzukuruza", "arahunyira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwuzukuruza", "arahunyira"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My son-in-law 是 helpful'"
+ word_bank: ["Umukwe", "ni", "umufasha", "Sebukwe", "ni", "inyangamugayo"]
+ correct_answer: ["Umukwe", "ni", "umufasha"]
+ xp_reward: 20
+
+ - id: 65
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My father-in-law 是 wise'"
+ word_bank: ["Sebukwe", "ni", "inyangamugayo", "Umukwe", "ni", "umufasha"]
+ correct_answer: ["Sebukwe", "ni", "inyangamugayo"]
+ xp_reward: 20
+
+ # 7. 句子 Scramble - PIECES PROVIDED
+ - id: 66
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["ari", "Mama", "mu nzu"]
+ correct_sentence: "Mama ari mu nzu"
+ translation: "Mother 是 at home"
+ xp_reward: 20
+
+ - id: 67
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["ari", "Data", "mu kazi"]
+ correct_sentence: "Data ari mu kazi"
+ translation: "Father 是 working"
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["arakina", "Musaza", "hanze"]
+ correct_sentence: "Musaza arakina hanze"
+ translation: "My brother plays outside"
+ xp_reward: 22
+
+ - id: 69
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["arasoma", "Mushiki", "igitabo"]
+ correct_sentence: "Mushiki arasoma igitabo"
+ translation: "My sister 读 一个 book"
+ xp_reward: 22
+
+ - id: 70
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["Nkunda", "Nyogokuru"]
+ correct_sentence: "Nkunda Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["arasaza", "Sogokuru", "cyane"]
+ correct_sentence: "Sogokuru arasaza cyane"
+ translation: "My grandfather 是 很 旧"
+ xp_reward: 20
+
+ - id: 72
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["afite", "Sogokuru", "inzu"]
+ correct_sentence: "Sogokuru afite inzu"
+ translation: "My grandfather has 一个 房子"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["araduteka", "Nyogokuru", "ibiryo"]
+ correct_sentence: "Nyogokuru araduteka ibiryo"
+ translation: "My grandmother cooks 食物"
+ xp_reward: 22
+
+ # 8. Fill 在  Blank - 选择 FROM OPTIONS
+ - id: 74
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Mama ___ mu nzu."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother 是 at home"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Data ___ mu kazi."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father 是 working"
+ xp_reward: 15
+
+ - id: 76
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Musaza ___ hanze."
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ - id: 77
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Mushiki ___ igitabo."
+ options: ["arasoma", "arakina", "ari"]
+ correct_answer: "arasoma"
+ translation: "My sister 读 一个 book"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Nkunda ___."
+ options: ["Nyogokuru", "Sogokuru", "Data"]
+ correct_answer: "Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Sogokuru arasaza ___."
+ options: ["cyane", "neza", "nziza"]
+ correct_answer: "cyane"
+ translation: "My grandfather 是 很 旧"
+ xp_reward: 15
+
+ - id: 80
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Sogokuru ___ inzu."
+ options: ["afite", "ari", "ni"]
+ correct_answer: "afite"
+ translation: "My grandfather has 一个 房子"
+ xp_reward: 15
+
+ - id: 81
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Nyogokuru araduteka ___."
+ options: ["ibiryo", "amazi", "inyama"]
+ correct_answer: "ibiryo"
+ translation: "My grandmother cooks 食物"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 82
+ type: picture_word
+ 问题: "Who 是 这 家庭 member?"
+ image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Nyogokuru", "Sogokuru"]
+ correct_answer: "Mama"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ 问题: "Who 是 这 家庭 member?"
+ image_url: "https://source.unsplash.com/featured/?fatherhttps://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Musaza", "Mushiki"]
+ correct_answer: "Data"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ 问题: "Who 是 这 家庭 member?"
+ image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Nyogokuru", "Sogokuru", "Mama", "Data"]
+ correct_answer: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ 问题: "Who 是 这 家庭 member?"
+ image_url: "https://source.unsplash.com/featured/?grandfather"
+ options: ["Sogokuru", "Nyogokuru", "Data", "Marume"]
+ correct_answer: "Sogokuru"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ 问题: "Who 是 这 家庭 member?"
+ image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Musaza", "Mushiki", "Umwana", "Data"]
+ correct_answer: "Musaza"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ 问题: "Who 是 这 家庭 member?"
+ image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mushiki", "Musaza", "Mama", "Nyogokuru"]
+ correct_answer: "Mushiki"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ 问题: "Who 是 这 家庭 member?"
+ image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umwana", "Umwuzukuru", "Musaza", "Mushiki"]
+ correct_answer: "Umwana"
+ xp_reward: 10
+
+ 
+ # 10. Word 配对 (Pairing)
+ - id: 90
+ type: 配对
+ 问题: "配对  家庭 members"
+ pairs:
+ - 左: "Mother"
+ 右: "Mama"
+ - 左: "Father"
+ 右: "Data"
+ - 左: "Brother"
+ 右: "Musaza"
+ - 左: "Sister"
+ 右: "Mushiki"
+ - 左: "Child"
+ 右: "Umwana"
+ - 左: "Grandmother"
+ 右: "Nyogokuru"
+ - 左: "Grandfather"
+ 右: "Sogokuru"
+ - 左: "Husband"
+ 右: "Umugabo"
+ - 左: "Wife"
+ 右: "Umugore"
+ xp_reward: 25
+
+ - id: 91
+ type: 配对
+ 问题: "配对  extended 家庭 members"
+ pairs:
+ - 左: "Paternal uncle"
+ 右: "Datawabo"
+ - 左: "Maternal uncle"
+ 右: "Marume"
+ - 左: "Paternal aunt"
+ 右: "Masenge"
+ - 左: "Maternal aunt"
+ 右: "Nyirarume"
+ - 左: "Grandchild"
+ 右: "Umwuzukuru"
+ - 左: "Great-grandchild"
+ 右: "Umwuzukuruza"
+ - 左: "Son-in-law"
+ 右: "Umukwe"
+ - 左: "Father-in-law"
+ 右: "Sebukwe"
+ xp_reward: 25
+
+ - id: 92
+ type: 配对
+ 问题: "配对  actions 和 家庭 members"
+ pairs:
+ - 左: "是 at home"
+ 右: "ari mu nzu"
+ - 左: "是 working"
+ 右: "ari mu kazi"
+ - 左: "plays outside"
+ 右: "arakina hanze"
+ - 左: "读 一个 book"
+ 右: "arasoma igitabo"
+ - 左: "cooks 食物"
+ 右: "araduteka ibiryo"
+ - 左: "has 一个 房子"
+ 右: "afite inzu"
+ xp_reward: 25
+
+ # 11. 选择 Missing Word
+ - id: 97
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Mama ___ mu nzu."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother 是 at home"
+ xp_reward: 15
+
+ - id: 98
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Data ___ mu kazi."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father 是 working"
+ xp_reward: 15
+
+ - id: 99
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Musaza ___ hanze."
+ missing_word_position: 2
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ # 12. 读 和 答案 - 问题 在 English, 答案 based 在 Kinyarwanda text
+ - id: 100
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Mama ari mu nzu. Data ari mu kazi."
+ 问题: "Where 是  mother?"
+ options: ["At home", "At work", "Outside", "At  市场"]
+ correct_answer: "At home"
+ xp_reward: 20
+
+ - id: 101
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+ 问题: "什么是  sister doing?"
+ options: ["Playing", "读 一个 book", "Working", "Cooking"]
+ correct_answer: "读 一个 book"
+ xp_reward: 22
+
+ - id: 102
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+ 问题: "是什么意思  grandfather have?"
+ options: ["一个 牛", "一个 房子", "一个 山羊", "一个 book"]
+ correct_answer: "一个 房子"
+ xp_reward: 20
+
+ - id: 103
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Datawabo afite ihene. Marume afite inka."
+ 问题: "是什么意思  maternal uncle have?"
+ options: ["一个 山羊", "一个 牛", "一个 房子", "一个 鸡"]
+ correct_answer: "一个 牛"
+ xp_reward: 22
+
+ # 13. True / False
+ - id: 104
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Mama ni umugore."
+ translation: "Mother 是 一个 woman"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 105
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Data ni umugore."
+ translation: "Father 是 一个 woman"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 106
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Nyogokuru arasaza cyane."
+ translation: "Grandmother 是 很 旧"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 107
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Umwana arakina hanze."
+ translation: " child plays outside"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 108
+ type: conversation
+ 问题: "Respond 到  问题 by building 一个 句子"
+ bot_message: "Mama ari he?"
+ translation: "Where 是 mother?"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "ari", "mu kazi"]
+ correct_response: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 109
+ type: conversation
+ 问题: "Respond 到  问题"
+ bot_message: "Umuryango umeze ute?"
+ translation: "How 是  家庭?"
+ options:
+ - "Umeze neza"
+ - "Umeze nabi"
+ - "Umeze ute"
+ correct_response: "Umeze neza"
+ xp_reward: 15
+
+ - id: 110
+ type: conversation
+ 问题: "Respond 到  问题 by building 一个 句子"
+ bot_message: "Data ari he?"
+ translation: "Where 是 father?"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "ari", "mu nzu"]
+ correct_response: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build 句子 from pieces
+ - id: 111
+ type: story
+ title: "My 家庭 - Umuryango Wanjye"
+ story_intro: "读 about  家庭. Then build  句子."
+ story_segments:
+ - text: "My mother 是 at home."
+ image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+ - text: "My father 是 working."
+ - text: "My brother plays outside."
+ - text: "My sister 读 一个 book."
+ - text: "My grandmother cooks 食物."
+ - text: "My grandfather has 一个 房子."
+ exercises:
+ - type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My mother 是 at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ - type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My father 是 working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ - type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ - type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'My grandmother cooks 食物'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 112
+ type: pronunciation
+ 问题: "Say 这 家庭 member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ 问题: "Say 这 家庭 member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ 问题: "Say 这 句子"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother 是 at home"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 115
+ type: identify_meaning
+ 问题: "是什么意思 'Mama' mean 在 这 句子?"
+ context_sentence: "Mama ari mu nzu."
+ word: "Mama"
+ options: ["father", "mother", "brother", "sister"]
+ correct_answer: "mother"
+ xp_reward: 15
+
+ - id: 116
+ type: identify_meaning
+ 问题: "是什么意思 'arakina' mean 在 这 句子?"
+ context_sentence: "Musaza arakina hanze."
+ word: "arakina"
+ options: ["读", "plays", "works", "cooks"]
+ correct_answer: "plays"
+ xp_reward: 18
+
+ - id: 117
+ type: identify_meaning
+ 问题: "是什么意思 'araduteka' mean 在 这 句子?"
+ context_sentence: "Nyogokuru araduteka ibiryo."
+ word: "araduteka"
+ options: ["cooks", "吃", "has", "loves"]
+ correct_answer: "cooks"
+ xp_reward: 18
+
+ # 18. Speed 配对
+ - id: 118
+ type: speed_配对
+ title: "配对 Madness: 家庭"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "Mother"
+ 右: "Mama"
+ - 左: "Father"
+ 右: "Data"
+ - 左: "Brother"
+ 右: "Musaza"
+ - 左: "Sister"
+ 右: "Mushiki"
+ - 左: "Grandmother"
+ 右: "Nyogokuru"
+ - 左: "Grandfather"
+ 右: "Sogokuru"
+ - 左: "Child"
+ 右: "Umwana"
+ - 左: "Husband"
+ 右: "Umugabo"
+ - 左: "Wife"
+ 右: "Umugore"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 119
+ type: timed_challenge
+ title: "Lightning Round: 家庭"
+ time_limit_seconds: 30
+ 问题_count: 5
+ 问题:
+ - 问题: "Mother"
+ 答案: "Mama"
+ - 问题: "Father"
+ 答案: "Data"
+ - 问题: "Brother"
+ 答案: "Musaza"
+ - 问题: "Sister"
+ 答案: "Mushiki"
+ - 问题: "Grandmother"
+ 答案: "Nyogokuru"
+ xp_reward: 35
+
+# 闪卡
+ - id: 111
+ type: 闪卡
+ 问题: "闪卡"
+ 闪卡:
+ - front: "Mama"
+ back: "Mother"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Data"
+ back: "Father"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Musaza"
+ back: "Brother"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Mushiki"
+ back: "Sister"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umwana"
+ back: "Child"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyogokuru"
+ back: "Grandmother"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Sogokuru"
+ back: "Grandfather"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugabo"
+ back: "Husband"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugore"
+ back: "Wife"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Datawabo"
+ back: "Paternal uncle"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

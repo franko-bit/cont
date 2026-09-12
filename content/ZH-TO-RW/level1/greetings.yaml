@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "学习 common greetings 和 expressions 在 Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe 为了 single words/phrases)
+ - id: 1
+ type: translation
+ 问题: "怎么说 '你好' 用基尼阿万达语？"
+ 答案: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 问题: "怎么说 '好 morning' 用基尼阿万达语？"
+ 答案: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 问题: "怎么说 '好 afternoon / 好 evening' 用基尼阿万达语？"
+ 答案: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 问题: "怎么说 '好 night' 用基尼阿万达语？"
+ 答案: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 问题: "怎么问 'How 是 you?' 用基尼阿万达语？"
+ 答案: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 问题: "怎么说 'I'm fine' 用基尼阿万达语？"
+ 答案: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 问题: "怎么说 'Welcome' 用基尼阿万达语？"
+ 答案: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 问题: "怎么说 '看 you later' 用基尼阿万达语？"
+ 答案: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ 问题: "怎么说 '再见' 用基尼阿万达语？"
+ 答案: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ 问题: "怎么说 'Have 一个 nice day' 用基尼阿万达语？"
+ 答案: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 问题: "怎么说 'Take care' 用基尼阿万达语？"
+ 答案: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ 问题: "怎么说 'Long time 不 看' 用基尼阿万达语？"
+ 答案: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ 问题: "怎么问 'What's up?' 用基尼阿万达语？"
+ 答案: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ 问题: "怎么说 'Nice 到 meet you' 用基尼阿万达语？"
+ 答案: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings 和 家庭 Members (Simple combinations)
+ - id: 15
+ type: translation
+ 问题: "怎么说 '你好, mother!' 用基尼阿万达语？"
+ 答案: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ 问题: "怎么说 '好 morning, father!' 用基尼阿万达语？"
+ 答案: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ 问题: "怎么说 '好 night, my child!' 用基尼阿万达语？"
+ 答案: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common 问题 (Fixed expressions)
+ - id: 18
+ type: translation
+ 问题: "怎么问 'How 是 you today?' 用基尼阿万达语？"
+ 答案: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ 问题: "怎么说 'I'm fine, thank you' 用基尼阿万达语？"
+ 答案: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ 问题: "怎么问 'What's up 和 you today?' 用基尼阿万达语？"
+ 答案: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # 不 DIRECT TRANSLATION 为了 COMPLEX DIALOGUES 或 PARAGRAPHS
+ # Instead, we use 句子 building, 配对, 和 word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ 问题: "是什么意思 'Muraho' 是什么意思"
+ options:
+ - "再见"
+ - "你好"
+ - "好 morning"
+ - "好 night"
+ 答案: "你好"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ 问题: "是什么意思 'Mwaramutse' 是什么意思"
+ options:
+ - "好 evening"
+ - "好 morning"
+ - "好 night"
+ - "再见"
+ 答案: "好 morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ 问题: "是什么意思 'Amakuru' 是什么意思"
+ options:
+ - "再见"
+ - "Welcome"
+ - "How 是 you?"
+ - "看 you later"
+ 答案: "How 是 you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ 问题: "是什么意思 'Ni meza' 是什么意思"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ 答案: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ 问题: "是什么意思 'Murabeho' 是什么意思"
+ options:
+ - "你好"
+ - "Welcome"
+ - "再见"
+ - "看 you later"
+ 答案: "再见"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ 问题: "是什么意思 'Tuzasubira' 是什么意思"
+ options:
+ - "再见"
+ - "看 you later"
+ - "Welcome back"
+ - "Take care"
+ 答案: "看 you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ 问题: "是什么意思 'Nishimiye kukubona' 是什么意思"
+ options:
+ - "好 morning"
+ - "Nice 到 meet you"
+ - "Welcome"
+ - "Take care"
+ 答案: "Nice 到 meet you"
+ xp_reward: 18
+
+ # 3. 听 和 Type (Dictation) - Safe because audio 是 provided
+ - id: 28
+ type: listen_和_type
+ 问题: "听 和 type  greeting"
+ tts_text: "Muraho"
+ 答案: "Muraho"
+ translation: "你好"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_和_type
+ 问题: "听 和 type  greeting"
+ tts_text: "Mwaramutse"
+ 答案: "Mwaramutse"
+ translation: "好 morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_和_type
+ 问题: "听 和 type  greeting"
+ tts_text: "Mwiriwe"
+ 答案: "Mwiriwe"
+ translation: "好 afternoon / 好 evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Ijoro ryiza"
+ 答案: "Ijoro ryiza"
+ translation: "好 night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_和_type
+ 问题: "听 和 type  问题"
+ tts_text: "Amakuru"
+ 答案: "Amakuru"
+ translation: "How 是 you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_和_type
+ 问题: "听 和 type  response"
+ tts_text: "Ni meza"
+ 答案: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Murakaza neza"
+ 答案: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Tuzasubira"
+ 答案: "Tuzasubira"
+ translation: "看 you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Murabeho"
+ 答案: "Murabeho"
+ translation: "再见"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ 答案: "Hashize igihe tutabonanye"
+ translation: "Long time 不 看"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Nishimiye kukubona"
+ 答案: "Nishimiye kukubona"
+ translation: "Nice 到 meet you"
+ xp_reward: 25
+
+ # 4. 听 和 选择
+ - id: 39
+ type: listen_和_choose
+ 问题: "听 和 选择  correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "再见"
+ - "你好"
+ - "好 morning"
+ 答案: "你好"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_和_choose
+ 问题: "听 和 选择  correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "好 evening"
+ - "好 morning"
+ - "好 night"
+ 答案: "好 morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_和_choose
+ 问题: "听 和 选择  correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "好 morning"
+ - "好 afternoon/evening"
+ - "好 night"
+ 答案: "好 afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_和_choose
+ 问题: "听 和 选择  correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "再见"
+ - "How 是 you?"
+ - "Welcome"
+ 答案: "How 是 you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_和_choose
+ 问题: "听 和 选择  correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ 答案: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_和_choose
+ 问题: "听 和 选择  correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "你好"
+ - "再见"
+ - "看 you later"
+ 答案: "再见"
+ xp_reward: 15
+
+ # 5. Repeat / 说 Exercise
+ - id: 45
+ type: 说
+ 问题: "Say 这 greeting"
+ prompt: "Muraho"
+ translation: "你好"
+ xp_reward: 15
+
+ - id: 46
+ type: 说
+ 问题: "Say 这 greeting"
+ prompt: "Mwaramutse"
+ translation: "好 morning"
+ xp_reward: 15
+
+ - id: 47
+ type: 说
+ 问题: "Say 这 greeting"
+ prompt: "Mwiriwe"
+ translation: "好 afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: 说
+ 问题: "Say 这 phrase"
+ prompt: "Ijoro ryiza"
+ translation: "好 night"
+ xp_reward: 18
+
+ - id: 49
+ type: 说
+ 问题: "Ask 'How 是 you?' 在 Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How 是 you?"
+ xp_reward: 15
+
+ - id: 50
+ type: 说
+ 问题: "Say 'I'm fine' 在 Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: 说
+ 问题: "Say 'Welcome' 在 Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: 说
+ 问题: "Say '看 you later' 在 Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "看 you later"
+ xp_reward: 18
+
+ - id: 53
+ type: 说
+ 问题: "Say '再见' 在 Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "再见"
+ xp_reward: 15
+
+ - id: 54
+ type: 说
+ 问题: "Say 'Long time 不 看' 在 Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time 不 看"
+ xp_reward: 22
+
+ - id: 55
+ type: 说
+ 问题: "Say 'Nice 到 meet you' 在 Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice 到 meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: 说
+ 问题: "Say '你好, mother!' 在 Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "你好, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: 说
+ 问题: "Say '好 morning, father!' 在 Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "好 morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank 句子 Building - PIECES PROVIDED, 不 TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ 问题: "Build  greeting 为了 '你好, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ 问题: "Build  greeting 为了 '好 morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ 问题: "Build  greeting 为了 '好 night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ 问题: "Build  问题 'How 是 you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ 问题: "Build  response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ 问题: "Build  farewell '看 you later at 学校'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ 问题: "Build  farewell '再见, 看 you 明天'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ 问题: "Build  well-wish 'Have 一个 nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ 问题: "Build  phrase 'Take care 在 your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ 问题: "Build  greeting 'Long time 不 看, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ 问题: "Build  问题 'What's up 和 you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ 问题: "Build  phrase 'Nice 到 meet you at  party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. 句子 Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "你好, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "好 morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "好 night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 问题"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How 是 you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "看 you later at 学校."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "再见, 看 you 明天."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have 一个 nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care 在 your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time 不 看, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 问题"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up 和 you today?"
+ xp_reward: 22
+
+ # 8. Fill 在  Blank - 选择 FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ 问题: "Complete  greeting"
+ text_和_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "你好, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ 问题: "Complete  greeting"
+ text_和_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "好 morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ 问题: "Complete  phrase"
+ text_和_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "好 night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ 问题: "Complete  问题"
+ text_和_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How 是 you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ 问题: "Complete  response"
+ text_和_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ 问题: "Complete  farewell"
+ text_和_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "看 you later at 学校."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ 问题: "Complete  farewell"
+ text_和_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "再见, 看 you 明天."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ 问题: "Complete  well-wish"
+ text_和_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have 一个 nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ 问题: "Complete  phrase"
+ text_和_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care 在 your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ 问题: "Complete  greeting"
+ text_和_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time 不 看, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ 问题: "Complete  问题"
+ text_和_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up 和 you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word 配对 (Pairing)
+ - id: 98
+ type: 配对
+ 问题: "配对  greetings 到 their meanings"
+ pairs:
+ - 左: "Muraho"
+ 右: "你好"
+ - 左: "Mwaramutse"
+ 右: "好 morning"
+ - 左: "Mwiriwe"
+ 右: "好 afternoon/evening"
+ - 左: "Ijoro ryiza"
+ 右: "好 night"
+ - 左: "Amakuru"
+ 右: "How 是 you?"
+ - 左: "Ni meza"
+ 右: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: 配对
+ 问题: "配对  farewells 和 well-wishes"
+ pairs:
+ - 左: "Murabeho"
+ 右: "再见"
+ - 左: "Tuzasubira"
+ 右: "看 you later"
+ - 左: "Umunsi mwiza"
+ 右: "Have 一个 nice day"
+ - 左: "Wirinde"
+ 右: "Take care"
+ - 左: "Hashize igihe tutabonanye"
+ 右: "Long time 不 看"
+ - 左: "Nishimiye kukubona"
+ 右: "Nice 到 meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: 配对
+ 问题: "配对  phrases 和 家庭 members"
+ pairs:
+ - 左: "Muraho, Mama!"
+ 右: "你好, mother!"
+ - 左: "Mwaramutse, Data!"
+ 右: "好 morning, father!"
+ - 左: "Ijoro ryiza, mwana wanjye!"
+ 右: "好 night, my child!"
+ - 左: "Hashize igihe tutabonanye, nshuti yanjye"
+ 右: "Long time 不 看, my friend"
+ xp_reward: 25
+
+ # 10. 选择 Missing Word
+ - id: 107
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How 是 you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have 一个 nice day at work."
+ xp_reward: 15
+
+ # 11. 读 和 答案 - 问题 based 在 context
+ - id: 110
+ type: read_answer
+ 问题: "读  dialogue 和 答案  问题"
+ text: "一个: Muraho! Amakuru? B: Ni meza, murakoze."
+ 问题: "How 是 person B?"
+ options: ["难过", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ 问题: "读  dialogue 和 答案  问题"
+ text: "一个: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ 问题: "What time 的 day 是 it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ 问题: "读  dialogue 和 答案  问题"
+ text: "一个: Tuzasubira ku ishuri. B: Murabeho!"
+ 问题: "Where will they 看 each other later?"
+ options: ["At home", "At 学校", "At work", "At  市场"]
+ correct_answer: "At 学校"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "'Mwaramutse' 是 used 在  morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "'Mwiriwe' 是 used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "'Murabeho' means 你好."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "'Nishimiye kukubona' means 'Nice 到 meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ 问题: "Respond 到  greeting by building 一个 句子"
+ bot_message: "Muraho! Amakuru?"
+ translation: "你好! How 是 you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ 问题: "选择  appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "好 morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ 问题: "Respond 到  farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "看 you later at 学校."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ 问题: "Build 一个 response 到  问题"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How 是 you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build 句子 from pieces
+ - id: 121
+ type: story
+ title: "Meeting 一个 Friend - Guhura n'inshuti"
+ story_intro: "读  conversation. Then build  句子."
+ story_segments:
+ - text: "Person 一个 says 你好."
+ - text: "Person 一个 asks how they 是."
+ - text: "Person B says they 是 fine 和 谢谢 them."
+ - text: "Person 一个 says nice 到 meet them."
+ - text: "Person B welcomes them."
+ - text: "Person 一个 says 看 you later."
+ - text: "Person B says 再见."
+ exercises:
+ - type: word_bank
+ 问题: "Build  Kinyarwanda greeting 为了 '你好!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ 问题: "Build  问题 'How 是 you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ 问题: "Build  response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ 问题: "Build  phrase 'Nice 到 meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ 问题: "Build  farewell '看 you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ 问题: "Build  farewell '再见'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ 问题: "Say 这 greeting"
+ prompt: "Muraho"
+ translation: "你好"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ 问题: "Say 这 greeting"
+ prompt: "Mwaramutse"
+ translation: "好 morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ 问题: "Say 这 phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice 到 meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ 问题: "Say 这 farewell"
+ prompt: "Murabeho"
+ translation: "再见"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ 问题: "是什么意思 'Muraho' 是什么意思"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["再见", "你好", "Thank you", "Welcome"]
+ correct_answer: "你好"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ 问题: "是什么意思 'murakoze' mean 在 这 句子?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["请", "thank you", "welcome", "再见"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ 问题: "是什么意思 'Mwiriwe' 是什么意思"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["好 morning", "好 afternoon/evening", "好 night", "你好"]
+ correct_answer: "好 afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed 配对
+ - id: 129
+ type: speed_配对
+ title: "配对 Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "你好"
+ 右: "Muraho"
+ - 左: "好 morning"
+ 右: "Mwaramutse"
+ - 左: "好 afternoon"
+ 右: "Mwiriwe"
+ - 左: "好 night"
+ 右: "Ijoro ryiza"
+ - 左: "How 是 you?"
+ 右: "Amakuru"
+ - 左: "I'm fine"
+ 右: "Ni meza"
+ - 左: "Welcome"
+ 右: "Murakaza neza"
+ - 左: "看 you later"
+ 右: "Tuzasubira"
+ - 左: "再见"
+ 右: "Murabeho"
+ - 左: "Take care"
+ 右: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ 问题_count: 5
+ 问题:
+ - 问题: "你好"
+ 答案: "Muraho"
+ - 问题: "好 morning"
+ 答案: "Mwaramutse"
+ - 问题: "好 night"
+ 答案: "Ijoro ryiza"
+ - 问题: "How 是 you?"
+ 答案: "Amakuru"
+ - 问题: "再见"
+ 答案: "Murabeho"
+ xp_reward: 35
+
+# 闪卡
+ - id: 111
+ type: 闪卡
+ 问题: "闪卡"
+ 闪卡:
+ - front: "Muraho"
+ back: "你好"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "好 morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "好 afternoon / 好 evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "好 night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How 是 you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "看 you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "再见"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have 一个 nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

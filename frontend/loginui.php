@@ -56,7 +56,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-        © 2025 PLAYMATES - Educational Games Platform
+        © 2026 PLAYMATES - Educational Games Platform
     </footer>
 
     <!-- Only include javascript.js - it has the proper login handler -->

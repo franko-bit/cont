@@ -1,0 +1,1461 @@
+lesson:
+  name: "Management and Leadership"
+  description: "Master professional management and leadership communication including leadership skills, team management, delegation, motivation, performance management, strategic planning, and organizational culture"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: LEADERSHIP SKILLS (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-7)
+  - id: 1
+    type: multiple_choice
+    question: "What is the difference between a 'manager' and a 'leader'?"
+    options:
+      - "There is no difference"
+      - "Managers focus on systems and control; leaders focus on vision and inspiration"
+      - "Managers are higher rank than leaders"
+      - "Leaders only exist in sports"
+    answer: "Managers focus on systems and control; leaders focus on vision and inspiration"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What is 'emotional intelligence' (EQ) in leadership?"
+    options:
+      - "A type of IQ test"
+      - "The ability to recognize, understand, and manage one's own emotions and others' emotions"
+      - "Being overly emotional at work"
+      - "Ignoring emotions completely"
+    answer: "The ability to recognize, understand, and manage one's own emotions and others' emotions"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "What are the five components of emotional intelligence according to Goleman?"
+    options:
+      - "Smart, strong, fast, tall, rich"
+      - "Self-awareness, self-regulation, motivation, empathy, social skill"
+      - "IQ, EQ, SQ, AQ, PQ"
+      - "Planning, organizing, leading, controlling, staffing"
+    answer: "Self-awareness, self-regulation, motivation, empathy, social skill"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What is 'visionary leadership'?"
+    options:
+      - "Leadership about vision"
+      - "A leadership style that focuses on creating and communicating a compelling future vision"
+      - "Leadership for visually impaired people"
+      - "A type of strategic planning"
+    answer: "A leadership style that focuses on creating and communicating a compelling future vision"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "What does 'leading by example' mean?"
+    options:
+      - "Following others"
+      - "Demonstrating the behaviors and work ethic you expect from your team"
+      - "Telling others what to do without doing it yourself"
+      - "Being the first in line"
+    answer: "Demonstrating the behaviors and work ethic you expect from your team"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What is 'servant leadership'?"
+    options:
+      - "Leadership about servants"
+      - "A philosophy where the leader's primary role is to serve and empower their team"
+      - "Leadership by servants"
+      - "A type of customer service"
+    answer: "A philosophy where the leader's primary role is to serve and empower their team"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "What is 'decisiveness' in leadership?"
+    options:
+      - "Making decisions slowly"
+      - "The ability to make timely, clear decisions even with incomplete information"
+      - "Never making decisions"
+      - "Letting others decide"
+    answer: "The ability to make timely, clear decisions even with incomplete information"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (8-12)
+  - id: 8
+    type: fill_blank
+    question: "Complete the leadership statement"
+    text_with_blank: "A good leader ___ by example and earns respect, not demands it."
+    options: ["leads", "guides", "directs", "models"]
+    correct_answer: "leads"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the emotional intelligence phrase"
+    text_with_blank: "Self-___ is the foundation of emotional intelligence - knowing your own emotions and triggers."
+    options: ["awareness", "knowledge", "understanding", "recognition"]
+    correct_answer: "awareness"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the vision statement"
+    text_with_blank: "As a leader, I need to ___ a compelling vision that inspires my team."
+    options: ["articulate", "communicate", "convey", "present"]
+    correct_answer: "articulate"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the accountability statement"
+    text_with_blank: "Great leaders take ___ for failures and share credit for successes."
+    options: ["responsibility", "ownership", "accountability", "blame"]
+    correct_answer: "responsibility"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the leadership development phrase"
+    text_with_blank: "Leadership is not a position; it's a ___ and a way of thinking."
+    options: ["mindset", "attitude", "approach", "philosophy"]
+    correct_answer: "mindset"
+    xp_reward: 15
+
+  # TRUE / FALSE (13-15)
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? Great leaders are born, not made."
+    statement: "Great leaders are born, not made."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 14
+    type: true_false
+    question: "Is this statement true or false? Active listening is a critical leadership skill."
+    statement: "Active listening is a critical leadership skill."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? Leaders should never admit they made a mistake."
+    statement: "Leaders should never admit they made a mistake."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (16-18)
+  - id: 16
+    type: matching
+    question: "Match the leadership style with its description"
+    pairs:
+      - left: "Autocratic leadership"
+        right: "Leader makes decisions alone with little input"
+      - left: "Democratic leadership"
+        right: "Leader involves team in decision-making"
+      - left: "Laissez-faire leadership"
+        right: "Leader provides minimal direction, team has freedom"
+      - left: "Transformational leadership"
+        right: "Leader inspires and motivates significant change"
+      - left: "Transactional leadership"
+        right: "Focus on rewards and punishments for performance"
+    xp_reward: 25
+
+  - id: 17
+    type: matching
+    question: "Match the leadership competency with its description"
+    pairs:
+      - left: "Strategic thinking"
+        right: "Ability to see the big picture and plan long-term"
+      - left: "Communication"
+        right: "Clearly conveying ideas and listening to others"
+      - left: "Influence"
+        right: "Ability to persuade and gain buy-in"
+      - left: "Adaptability"
+        right: "Flexibility to adjust to changing circumstances"
+      - left: "Resilience"
+        right: "Ability to recover from setbacks and persist"
+    xp_reward: 25
+
+  - id: 18
+    type: matching
+    question: "Match the emotional intelligence component with its example"
+    pairs:
+      - left: "Self-awareness"
+        right: "Recognizing when you're feeling stressed"
+      - left: "Self-regulation"
+        right: "Pausing before reacting in anger"
+      - left: "Motivation"
+        right: "Staying focused on long-term goals"
+      - left: "Empathy"
+        right: "Understanding a team member's perspective"
+      - left: "Social skill"
+        right: "Building rapport and resolving conflicts"
+    xp_reward: 25
+
+  # FLASHCARDS (19-20)
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Leadership Qualities"
+    flashcards:
+      - front: "Integrity"
+        right: "Honesty and strong moral principles"
+      - front: "Courage"
+        right: "Willingness to take risks and make tough decisions"
+      - front: "Humility"
+        right: "Modesty and willingness to learn from others"
+      - front: "Curiosity"
+        right: "Desire to learn and understand"
+      - front: "Confidence"
+        right: "Belief in oneself and team's abilities"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Leadership Communication"
+    flashcards:
+      - front: "Transparency"
+        right: "Open and honest sharing of information"
+      - front: "Active listening"
+        right: "Fully concentrating on what others say"
+      - front: "Feedback"
+        right: "Constructive input to help others improve"
+      - front: "Coaching"
+        right: "Guiding team members to develop skills"
+      - front: "Advocacy"
+        right: "Supporting and speaking up for your team"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: TEAM MANAGEMENT (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-28)
+  - id: 21
+    type: multiple_choice
+    question: "What is 'team building'?"
+    options:
+      - "Constructing a team"
+      - "Activities and processes that improve team cohesion, trust, and effectiveness"
+      - "Hiring team members"
+      - "Firing team members"
+    answer: "Activities and processes that improve team cohesion, trust, and effectiveness"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "What is the 'forming-storming-norming-performing' model?"
+    options:
+      - "A weather model"
+      - "Tuckman's stages of team development"
+      - "A conflict resolution model"
+      - "A hiring process"
+    answer: "Tuckman's stages of team development"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What happens during the 'storming' stage of team development?"
+    options:
+      - "Team celebrates success"
+      - "Team members establish roles and conflict may arise"
+      - "Team meets for the first time"
+      - "Team performs efficiently"
+    answer: "Team members establish roles and conflict may arise"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "What is 'psychological safety' in a team?"
+    options:
+      - "Safety from psychological harm"
+      - "Belief that team is safe for interpersonal risk-taking and speaking up"
+      - "Mental health insurance"
+      - "A type of safety training"
+    answer: "Belief that team is safe for interpersonal risk-taking and speaking up"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "What is 'team charter'?"
+    options:
+      - "A charter for a team"
+      - "A document outlining team goals, roles, norms, and operating procedures"
+      - "A team's mission statement"
+      - "A type of contract"
+    answer: "A document outlining team goals, roles, norms, and operating procedures"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What is 'cross-functional team'?"
+    options:
+      - "A team that functions across different areas"
+      - "A team with members from different departments or functions"
+      - "A team that works across different locations"
+      - "A team that is cross with each other"
+    answer: "A team with members from different departments or functions"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "How should a manager handle team conflict?"
+    options:
+      - "Ignore it and hope it goes away"
+      - "Address it early, listen to all sides, and facilitate resolution"
+      - "Pick a side immediately"
+      - "Punish everyone involved"
+    answer: "Address it early, listen to all sides, and facilitate resolution"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "What is 'remote team management'?"
+    options:
+      - "Managing a team remotely"
+      - "Leading and coordinating team members who work from different locations"
+      - "Managing from a remote island"
+      - "Using remote controls"
+    answer: "Leading and coordinating team members who work from different locations"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (29-33)
+  - id: 29
+    type: fill_blank
+    question: "Complete the team development stage"
+    text_with_blank: "During the ___ stage, team members begin to resolve differences and establish norms."
+    options: ["norming", "forming", "storming", "performing"]
+    correct_answer: "norming"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the psychological safety statement"
+    text_with_blank: "We need to create an environment where team members feel ___ to share ideas without fear."
+    options: ["safe", "comfortable", "secure", "confident"]
+    correct_answer: "safe"
+    xp_reward: 15
+
+  - id: 31
+    type: fill_blank
+    question: "Complete the team meeting purpose"
+    text_with_blank: "Let's ___ a weekly team sync to review progress and address blockers."
+    options: ["establish", "schedule", "set up", "create"]
+    correct_answer: "establish"
+    xp_reward: 15
+
+  - id: 32
+    type: fill_blank
+    question: "Complete the role clarity statement"
+    text_with_blank: "It's important that every team member understands their ___ and responsibilities."
+    options: ["role", "position", "function", "accountability"]
+    correct_answer: "role"
+    xp_reward: 15
+
+  - id: 33
+    type: fill_blank
+    question: "Complete the team trust statement"
+    text_with_blank: "High-performing teams are built on a foundation of ___ and mutual respect."
+    options: ["trust", "confidence", "faith", "reliance"]
+    correct_answer: "trust"
+    xp_reward: 15
+
+  # TRUE / FALSE (34-36)
+  - id: 34
+    type: true_false
+    question: "Is this statement true or false? Effective teams have clear goals and defined roles."
+    statement: "Effective teams have clear goals and defined roles."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 35
+    type: true_false
+    question: "Is this statement true or false? Conflict is always destructive and should be avoided."
+    statement: "Conflict is always destructive and should be avoided."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 36
+    type: true_false
+    question: "Is this statement true or false? Team size has no impact on team effectiveness."
+    statement: "Team size has no impact on team effectiveness."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (37-38)
+  - id: 37
+    type: matching
+    question: "Match the team role (Belbin) with its description"
+    pairs:
+      - left: "Plant"
+        right: "Creative, idea generator"
+      - left: "Coordinator"
+        right: "Clarifies goals, delegates effectively"
+      - left: "Shaper"
+        right: "Drives progress, overcomes obstacles"
+      - left: "Implementer"
+        right: "Turns ideas into practical actions"
+      - left: "Completer-finisher"
+        right: "Ensures thorough completion, attention to detail"
+    xp_reward: 25
+
+  - id: 38
+    type: matching
+    question: "Match the team challenge with the solution"
+    pairs:
+      - left: "Lack of clear direction"
+        right: "Create a team charter with goals and roles"
+      - left: "Poor communication"
+        right: "Establish regular check-ins and communication norms"
+      - left: "Uneven participation"
+        right: "Use round-robin or structured turn-taking"
+      - left: "Missed deadlines"
+        right: "Break down tasks, set interim milestones"
+      - left: "Low trust"
+        right: "Team building activities, vulnerability exercises"
+    xp_reward: 25
+
+  # FLASHCARDS (39-40)
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Remote Team Management"
+    flashcards:
+      - front: "Asynchronous communication"
+        right: "Messages not requiring immediate response (email, recorded video)"
+      - front: "Synchronous communication"
+        right: "Real-time communication (video calls, chat, phone)"
+      - front: "Virtual check-in"
+        right: "Regular one-on-one meetings with remote employees"
+      - front: "Documentation"
+        right: "Written record of decisions and processes"
+      - front: "Time zone awareness"
+        right: "Scheduling meetings considering all team locations"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Team Meeting Best Practices"
+    flashcards:
+      - front: "Set an agenda"
+        right: "Share before meeting with time allocations"
+      - front: "Start and end on time"
+        right: "Respect everyone's schedule"
+      - front: "Assign a facilitator"
+        right: "Someone to keep discussion on track"
+      - front: "Capture action items"
+        right: "Document decisions and next steps"
+      - front: "Rotate meeting roles"
+        right: "Build team skills and engagement"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: DELEGATION (41-60)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-48)
+  - id: 41
+    type: multiple_choice
+    question: "What is 'delegation' in management?"
+    options:
+      - "Giving away all your work"
+      - "Assigning tasks and authority to team members while maintaining accountability"
+      - "Avoiding responsibility"
+      - "Doing everything yourself"
+    answer: "Assigning tasks and authority to team members while maintaining accountability"
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "Why do many managers struggle with delegation?"
+    options:
+      - "They enjoy working too much"
+      - "Perfectionism, lack of trust, or fear of losing control"
+      - "They don't know how to delegate"
+      - "Their team is too small"
+    answer: "Perfectionism, lack of trust, or fear of losing control"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "What is the 'delegation matrix' (situational delegation)?"
+    options:
+      - "A matrix about delegation"
+      - "A framework matching delegation level to team member competence and commitment"
+      - "A spreadsheet for tracking delegated tasks"
+      - "A type of organizational chart"
+    answer: "A framework matching delegation level to team member competence and commitment"
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "What does 'reverse delegation' mean?"
+    options:
+      - "Delegating in reverse order"
+      - "When an employee gives a task back to the manager instead of completing it"
+      - "Delegating to someone higher up"
+      - "Delegating the same task multiple times"
+    answer: "When an employee gives a task back to the manager instead of completing it"
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "What is the best way to delegate a task for the first time?"
+    options:
+      - "Give no instructions and hope for the best"
+      - "Provide clear instructions, expected outcome, resources, and check-in points"
+      - "Do it yourself instead"
+      - "Assign it without explanation"
+    answer: "Provide clear instructions, expected outcome, resources, and check-in points"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "What does 'authority' in delegation refer to?"
+    options:
+      - "Writing a book"
+      - "The power to make decisions, use resources, and take action within defined boundaries"
+      - "Being an expert"
+      - "The right to give orders"
+    answer: "The power to make decisions, use resources, and take action within defined boundaries"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "What is 'accountability' in delegation?"
+    options:
+      - "Being able to count"
+      - "The obligation to answer for results, which remains with the manager"
+      - "The employee's responsibility"
+      - "A type of financial term"
+    answer: "The obligation to answer for results, which remains with the manager"
+    xp_reward: 15
+
+  - id: 48
+    type: multiple_choice
+    question: "What should you do after delegating a task?"
+    options:
+      - "Micromanage every step"
+      - "Forget about it completely"
+      - "Check in appropriately, offer support, but avoid micromanaging"
+      - "Do the task yourself secretly"
+    answer: "Check in appropriately, offer support, but avoid micromanaging"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (49-53)
+  - id: 49
+    type: fill_blank
+    question: "Complete the delegation statement"
+    text_with_blank: "I'm going to ___ the monthly report to you, including data gathering and initial analysis."
+    options: ["delegate", "assign", "entrust", "hand off"]
+    correct_answer: "delegate"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the authority statement"
+    text_with_blank: "You have full ___ to make decisions up to $5,000 without checking with me."
+    options: ["authority", "power", "autonomy", "discretion"]
+    correct_answer: "authority"
+    xp_reward: 15
+
+  - id: 51
+    type: fill_blank
+    question: "Complete the check-in statement"
+    text_with_blank: "Let's ___ in on Thursday to review your progress. Come to me if you hit any roadblocks before then."
+    options: ["check", "touch base", "follow up", "connect"]
+    correct_answer: "check"
+    xp_reward: 15
+
+  - id: 52
+    type: fill_blank
+    question: "Complete the outcome expectation"
+    text_with_blank: "The ___ outcome is a completed presentation ready for the client meeting."
+    options: ["desired", "expected", "intended", "target"]
+    correct_answer: "desired"
+    xp_reward: 15
+
+  - id: 53
+    type: fill_blank
+    question: "Complete the trust statement"
+    text_with_blank: "I'm ___ this task to you because I trust your judgment and capabilities."
+    options: ["entrusting", "delegating", "assigning", "giving"]
+    correct_answer: "entrusting"
+    xp_reward: 15
+
+  # TRUE / FALSE (54-56)
+  - id: 54
+    type: true_false
+    question: "Is this statement true or false? Effective delegation develops team members' skills and frees up manager time."
+    statement: "Effective delegation develops team members' skills and frees up manager time."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 55
+    type: true_false
+    question: "Is this statement true or false? Once you delegate a task, you should never follow up or check progress."
+    statement: "Once you delegate a task, you should never follow up or check progress."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 56
+    type: true_false
+    question: "Is this statement true or false? You can delegate responsibility but not accountability."
+    statement: "You can delegate responsibility but not accountability."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (57-58)
+  - id: 57
+    type: matching
+    question: "Match the delegation level with the amount of autonomy"
+    pairs:
+      - left: "Level 1: Wait for instruction"
+        right: "Do nothing until told (lowest autonomy)"
+      - left: "Level 2: Ask 'What should I do?'"
+        right: "Seek direction before acting"
+      - left: "Level 3: Recommend action"
+        right: "Analyze and suggest, then manager decides"
+      - left: "Level 4: Act and report immediately"
+        right: "Take action, then tell manager"
+      - left: "Level 5: Act and report periodically"
+        right: "Full autonomy, periodic updates (highest autonomy)"
+    xp_reward: 25
+
+  - id: 58
+    type: matching
+    question: "Match the delegation barrier with the solution"
+    pairs:
+      - left: "Perfectionism"
+        right: "Accept 'good enough' rather than perfect"
+      - left: "Lack of trust"
+        right: "Start with small tasks, build confidence"
+      - left: "Time pressure"
+        right: "Invest time in delegation for long-term gain"
+      - left: "Undertrained team"
+        right: "Provide training and clear instructions"
+      - left: "Fear of losing control"
+        right: "Focus on outcomes, not methods"
+    xp_reward: 25
+
+  # FLASHCARDS (59-60)
+  - id: 59
+    type: flashcards
+    question: "Flashcards: Delegation Process"
+    flashcards:
+      - front: "Define the task"
+        right: "Clearly explain what needs to be done"
+      - front: "Select the person"
+        right: "Match task to skills and development needs"
+      - front: "Explain the why"
+        right: "Provide context and importance"
+      - front: "Set expectations"
+        right: "Deadlines, quality standards, reporting"
+      - front: "Confirm understanding"
+        right: "Ask them to summarize back"
+    xp_reward: 30
+
+  - id: 60
+    type: flashcards
+    question: "Flashcards: Delegation Don'ts"
+    flashcards:
+      - front: "Don't delegate and disappear"
+        right: "Provide support and check-ins"
+      - front: "Don't micromanage"
+        right: "Trust but verify"
+      - front: "Don't delegate only undesirable tasks"
+        right: "Also delegate growth opportunities"
+      - front: "Don't delegate without authority"
+        right: "Give them power to act"
+      - front: "Don't take back delegated tasks"
+        right: "Let team complete and learn"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: MOTIVATION (61-80)
+  # ============================================
+
+  # MULTIPLE CHOICE (61-68)
+  - id: 61
+    type: multiple_choice
+    question: "What is the difference between intrinsic and extrinsic motivation?"
+    options:
+      - "No difference"
+      - "Intrinsic comes from within (purpose, mastery); extrinsic from external rewards (money, recognition)"
+      - "Intrinsic is better than extrinsic"
+      - "Extrinsic is better than intrinsic"
+    answer: "Intrinsic comes from within (purpose, mastery); extrinsic from external rewards (money, recognition)"
+    xp_reward: 15
+
+  - id: 62
+    type: multiple_choice
+    question: "What are the three components of Self-Determination Theory (autonomy, competence, relatedness)?"
+    options:
+      - "Freedom, skill, connection"
+      - "Autonomy, competence, relatedness"
+      - "Authority, ability, relationships"
+      - "Action, knowledge, belonging"
+    answer: "Autonomy, competence, relatedness"
+    xp_reward: 15
+
+  - id: 63
+    type: multiple_choice
+    question: "What is 'recognition' in the workplace?"
+    options:
+      - "Identifying something"
+      - "Acknowledging and appreciating employee contributions and achievements"
+      - "Giving a reward"
+      - "A type of bonus"
+    answer: "Acknowledging and appreciating employee contributions and achievements"
+    xp_reward: 15
+
+  - id: 64
+    type: multiple_choice
+    question: "What is the 'Hawthorne effect'?"
+    options:
+      - "An effect named after Hawthorne"
+      - "People improve behavior when they know they're being observed"
+      - "A type of lighting effect"
+      - "A productivity theory"
+    answer: "People improve behavior when they know they're being observed"
+    xp_reward: 15
+
+  - id: 65
+    type: multiple_choice
+    question: "What is 'employee engagement'?"
+    options:
+      - "Engaging employees in conversation"
+      - "The emotional commitment and involvement an employee has toward their organization"
+      - "An engagement ring"
+      - "A type of contract"
+    answer: "The emotional commitment and involvement an employee has toward their organization"
+    xp_reward: 15
+
+  - id: 66
+    type: multiple_choice
+    question: "What is 'goal-setting theory'?"
+    options:
+      - "Theory about setting goals"
+      - "Specific and challenging goals with feedback lead to higher performance"
+      - "Easy goals are always better"
+      - "Goals should be vague"
+    answer: "Specific and challenging goals with feedback lead to higher performance"
+    xp_reward: 15
+
+  - id: 67
+    type: multiple_choice
+    question: "What is the best way to provide recognition to employees?"
+    options:
+      - "Never give recognition"
+      - "Give generic 'good job' comments"
+      - "Provide specific, timely, and sincere recognition"
+      - "Only recognize mistakes"
+    answer: "Provide specific, timely, and sincere recognition"
+    xp_reward: 15
+
+  - id: 68
+    type: multiple_choice
+    question: "What is 'job crafting'?"
+    options:
+      - "Making a job"
+      - "Employees reshaping their jobs to better fit their strengths and passions"
+      - "A type of craft activity"
+      - "Job design by managers"
+    answer: "Employees reshaping their jobs to better fit their strengths and passions"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (69-73)
+  - id: 69
+    type: fill_blank
+    question: "Complete the recognition statement"
+    text_with_blank: "I want to ___ Sarah for her outstanding work on the Johnson account."
+    options: ["recognize", "acknowledge", "appreciate", "thank"]
+    correct_answer: "recognize"
+    xp_reward: 15
+
+  - id: 70
+    type: fill_blank
+    question: "Complete the motivation statement"
+    text_with_blank: "Providing employees with ___ over how they do their work increases intrinsic motivation."
+    options: ["autonomy", "freedom", "control", "choice"]
+    correct_answer: "autonomy"
+    xp_reward: 15
+
+  - id: 71
+    type: fill_blank
+    question: "Complete the purpose statement"
+    text_with_blank: "Connecting daily tasks to the company's larger ___ gives employees a sense of purpose."
+    options: ["mission", "vision", "goals", "objective"]
+    correct_answer: "mission"
+    xp_reward: 15
+
+  - id: 72
+    type: fill_blank
+    question: "Complete the growth statement"
+    text_with_blank: "Employees are more motivated when they see opportunities for ___ and development."
+    options: ["growth", "advancement", "progress", "improvement"]
+    correct_answer: "growth"
+    xp_reward: 15
+
+  - id: 73
+    type: fill_blank
+    question: "Complete the feedback statement"
+    text_with_blank: "Regular, constructive ___ helps employees understand how they're doing and where to improve."
+    options: ["feedback", "input", "comments", "guidance"]
+    correct_answer: "feedback"
+    xp_reward: 15
+
+  # TRUE / FALSE (74-76)
+  - id: 74
+    type: true_false
+    question: "Is this statement true or false? Money is the only effective motivator for employees."
+    statement: "Money is the only effective motivator for employees."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 75
+    type: true_false
+    question: "Is this statement true or false? Public recognition can be as motivating as monetary rewards."
+    statement: "Public recognition can be as motivating as monetary rewards."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 76
+    type: true_false
+    question: "Is this statement true or false? Different employees are motivated by different things."
+    statement: "Different employees are motivated by different things."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (77-78)
+  - id: 77
+    type: matching
+    question: "Match the motivation theory with its key concept"
+    pairs:
+      - left: "Maslow's Hierarchy"
+        right: "Needs from basic to self-actualization"
+      - left: "Herzberg's Two-Factor"
+        right: "Hygiene factors and motivators"
+      - left: "McClelland's Needs"
+        right: "Achievement, affiliation, power"
+      - left: "Expectancy theory"
+        right: "Effort → Performance → Outcome"
+      - left: "Equity theory"
+        right: "Fairness comparing input/outcome ratios"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Match the motivator with its example"
+    pairs:
+      - left: "Purpose"
+        right: "Knowing your work helps cancer patients"
+      - left: "Mastery"
+        right: "Learning a new skill or certification"
+      - left: "Autonomy"
+        right: "Choosing your work hours or methods"
+      - left: "Relatedness"
+        right: "Feeling connected to team members"
+      - left: "Recognition"
+        right: "Shout-out in team meeting"
+    xp_reward: 25
+
+  # FLASHCARDS (79-80)
+  - id: 79
+    type: flashcards
+    question: "Flashcards: Recognition Ideas"
+    flashcards:
+      - front: "Verbal praise"
+        right: "Say 'thank you' specifically"
+      - front: "Written note"
+        right: "Handwritten or email acknowledgment"
+      - front: "Public recognition"
+        right: "Shout-out in meeting or newsletter"
+      - front: "Peer recognition program"
+        right: "Employees nominate each other"
+      - front: "Spot bonus"
+        right: "Small financial reward for exceptional work"
+    xp_reward: 30
+
+  - id: 80
+    type: flashcards
+    question: "Flashcards: Demotivators to Avoid"
+    flashcards:
+      - front: "Micromanagement"
+        right: "Hovering and controlling every detail"
+      - front: "Unfair treatment"
+        right: "Favoritism or inconsistent rules"
+      - front: "Lack of feedback"
+        right: "Employees don't know how they're doing"
+      - front: "Meaningless work"
+        right: "Tasks with no clear purpose"
+      - front: "Unreachable goals"
+        right: "Targets that are impossible to achieve"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: PERFORMANCE MANAGEMENT (81-100)
+  # ============================================
+
+  # MULTIPLE CHOICE (81-88)
+  - id: 81
+    type: multiple_choice
+    question: "What is 'performance management'?"
+    options:
+      - "Managing performance"
+      - "The continuous process of setting goals, monitoring progress, providing feedback, and evaluating results"
+      - "Annual performance reviews only"
+      - "Firing underperformers"
+    answer: "The continuous process of setting goals, monitoring progress, providing feedback, and evaluating results"
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "What is the 'feedback sandwich' technique?"
+    options:
+      - "A sandwich with feedback filling"
+      - "Praise - constructive feedback - praise structure"
+      - "A type of lunch meeting"
+      - "Negative feedback only"
+    answer: "Praise - constructive feedback - praise structure"
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "What is the 'SBI' feedback model?"
+    options:
+      - "Situation, Behavior, Impact"
+      - "Subject, Body, Intent"
+      - "Situation, Behavior, Improvement"
+      - "Specific, Balanced, Immediate"
+    answer: "Situation, Behavior, Impact"
+    xp_reward: 15
+
+  - id: 84
+    type: multiple_choice
+    question: "How often should performance feedback be given?"
+    options:
+      - "Once a year at annual review"
+      - "Continuously, with regular check-ins and timely feedback"
+      - "Never"
+      - "Only when something goes wrong"
+    answer: "Continuously, with regular check-ins and timely feedback"
+    xp_reward: 15
+
+  - id: 85
+    type: multiple_choice
+    question: "What is a 'performance improvement plan' (PIP)?"
+    options:
+      - "A plan to improve company performance"
+      - "A formal document outlining performance gaps, required improvements, and timeline"
+      - "A plan to improve employee benefits"
+      - "A training program"
+    answer: "A formal document outlining performance gaps, required improvements, and timeline"
+    xp_reward: 15
+
+  - id: 86
+    type: multiple_choice
+    question: "What is '360-degree feedback'?"
+    options:
+      - "Feedback that goes in circles"
+      - "Feedback collected from manager, peers, direct reports, and self"
+      - "Feedback from 360 people"
+      - "Feedback about 360 degrees"
+    answer: "Feedback collected from manager, peers, direct reports, and self"
+    xp_reward: 15
+
+  - id: 87
+    type: multiple_choice
+    question: "What is 'calibration' in performance management?"
+    options:
+      - "Adjusting a scale"
+      - "A meeting where managers align on performance ratings to ensure consistency"
+      - "A type of measurement"
+      - "A training exercise"
+    answer: "A meeting where managers align on performance ratings to ensure consistency"
+    xp_reward: 15
+
+  - id: 88
+    type: multiple_choice
+    question: "How should you deliver constructive feedback?"
+    options:
+      - "In front of the whole team"
+      - "Privately, specifically, focusing on behavior not personality"
+      - "Through email only"
+      - "Never give constructive feedback"
+    answer: "Privately, specifically, focusing on behavior not personality"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (89-93)
+  - id: 89
+    type: fill_blank
+    question: "Complete the SBI feedback statement"
+    text_with_blank: "In yesterday's meeting (___), when you interrupted the client (___), it created an awkward moment (___)."
+    options: ["Situation", "Behavior", "Impact"]
+    correct_answer: "Situation"
+    xp_reward: 15
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the constructive feedback phrase"
+    text_with_blank: "I noticed the report had several errors. Going forward, please ___ your work before submitting."
+    options: ["review", "check", "proofread", "verify"]
+    correct_answer: "review"
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the positive feedback phrase"
+    text_with_blank: "Your presentation to the client was ___ . The way you handled their questions showed deep expertise."
+    options: ["excellent", "outstanding", "impressive", "exceptional"]
+    correct_answer: "excellent"
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complete the goal-setting statement"
+    text_with_blank: "Let's ___ a SMART goal for next quarter: increase sales by 15%."
+    options: ["set", "establish", "create", "define"]
+    correct_answer: "set"
+    xp_reward: 15
+
+  - id: 93
+    type: fill_blank
+    question: "Complete the PIP statement"
+    text_with_blank: "This performance improvement plan outlines the specific ___ and support we'll provide over the next 60 days."
+    options: ["expectations", "requirements", "standards", "targets"]
+    correct_answer: "expectations"
+    xp_reward: 15
+
+  # TRUE / FALSE (94-96)
+  - id: 94
+    type: true_false
+    question: "Is this statement true or false? Performance feedback should only focus on what went wrong."
+    statement: "Performance feedback should only focus on what went wrong."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 95
+    type: true_false
+    question: "Is this statement true or false? Documenting performance issues is important for legal and HR purposes."
+    statement: "Documenting performance issues is important for legal and HR purposes."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 96
+    type: true_false
+    question: "Is this statement true or false? Annual reviews alone are sufficient for effective performance management."
+    statement: "Annual reviews alone are sufficient for effective performance management."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (97-98)
+  - id: 97
+    type: matching
+    question: "Match the feedback type with its description"
+    pairs:
+      - left: "Formative feedback"
+        right: "Ongoing feedback to improve performance"
+      - left: "Summative feedback"
+        right: "Evaluative feedback at end of period"
+      - left: "Constructive feedback"
+        right: "Developmental input to improve"
+      - left: "Positive feedback"
+        right: "Recognition of good performance"
+      - left: "Feedforward"
+        right: "Focus on future improvement, not past mistakes"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Match the performance rating with its meaning"
+    pairs:
+      - left: "Exceeds expectations"
+        right: "Consistently delivers above required level"
+      - left: "Meets expectations"
+        right: "Fully competent in all areas"
+      - left: "Needs development"
+        right: "Some gaps requiring improvement"
+      - left: "Unsatisfactory"
+        right: "Significant performance issues"
+      - left: "Outstanding"
+        right: "Exceptional, far exceeds expectations"
+    xp_reward: 25
+
+  # FLASHCARDS (99-100)
+  - id: 99
+    type: flashcards
+    question: "Flashcards: Feedback Best Practices"
+    flashcards:
+      - front: "Be specific"
+        right: "Use concrete examples, not generalizations"
+      - front: "Be timely"
+        right: "Give feedback close to the event"
+      - front: "Focus on behavior"
+        right: "Describe actions, not personality"
+      - front: "Offer solutions"
+        right: "Suggest ways to improve"
+      - front: "Ask for their perspective"
+        right: "Make it a two-way conversation"
+    xp_reward: 30
+
+  - id: 100
+    type: flashcards
+    question: "Flashcards: Performance Review Phrases"
+    flashcards:
+      - front: "Areas of strength"
+        right: "Where employee excels"
+      - front: "Development areas"
+        right: "Skills to build or improve"
+      - front: "Key accomplishments"
+        right: "Major achievements since last review"
+      - front: "Goals for next period"
+        right: "SMART objectives moving forward"
+      - front: "Career aspirations"
+        right: "Employee's long-term professional goals"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: STRATEGIC PLANNING (101-120)
+  # ============================================
+
+  # MULTIPLE CHOICE (101-108)
+  - id: 101
+    type: multiple_choice
+    question: "What is 'strategic planning'?"
+    options:
+      - "Planning a strategy"
+      - "The process of defining an organization's direction and making decisions on allocating resources"
+      - "A tactical plan"
+      - "Daily task planning"
+    answer: "The process of defining an organization's direction and making decisions on allocating resources"
+    xp_reward: 15
+
+  - id: 102
+    type: multiple_choice
+    question: "What is a 'vision statement'?"
+    options:
+      - "A statement about vision"
+      - "A long-term aspirational description of what an organization wants to become"
+      - "A mission statement"
+      - "A value statement"
+    answer: "A long-term aspirational description of what an organization wants to become"
+    xp_reward: 15
+
+  - id: 103
+    type: multiple_choice
+    question: "What is a 'mission statement'?"
+    options:
+      - "A statement about a mission"
+      - "A concise explanation of an organization's purpose and reason for existing"
+      - "A vision statement"
+      - "A strategic goal"
+    answer: "A concise explanation of an organization's purpose and reason for existing"
+    xp_reward: 15
+
+  - id: 104
+    type: multiple_choice
+    question: "What is a 'SWOT analysis'?"
+    options:
+      - "A type of analysis"
+      - "Strengths, Weaknesses, Opportunities, Threats analysis"
+      - "A strategic planning tool"
+      - "A competitive analysis"
+    answer: "Strengths, Weaknesses, Opportunities, Threats analysis"
+    xp_reward: 15
+
+  - id: 105
+    type: multiple_choice
+    question: "What is a 'PESTLE analysis'?"
+    options:
+      - "A type of pest control"
+      - "Political, Economic, Social, Technological, Legal, Environmental analysis"
+      - "A strategic planning tool"
+      - "A market analysis"
+    answer: "Political, Economic, Social, Technological, Legal, Environmental analysis"
+    xp_reward: 15
+
+  - id: 106
+    type: multiple_choice
+    question: "What are 'OKRs' (Objectives and Key Results)?"
+    options:
+      - "Okay Results"
+      - "A goal-setting framework where Objectives are qualitative goals and Key Results are quantitative outcomes"
+      - "A type of performance review"
+      - "Operational Key Results"
+    answer: "A goal-setting framework where Objectives are qualitative goals and Key Results are quantitative outcomes"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What is a 'balanced scorecard'?"
+    options:
+      - "A scorecard that is balanced"
+      - "A strategic planning framework measuring performance across financial, customer, internal processes, and learning/growth"
+      - "A type of scorecard"
+      - "A performance review tool"
+    answer: "A strategic planning framework measuring performance across financial, customer, internal processes, and learning/growth"
+    xp_reward: 15
+
+  - id: 108
+    type: multiple_choice
+    question: "What is 'Porter's Five Forces'?"
+    options:
+      - "A framework for analyzing industry competition"
+      - "A type of military strategy"
+      - "A financial analysis tool"
+      - "A marketing framework"
+    answer: "A framework for analyzing industry competition"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (109-113)
+  - id: 109
+    type: fill_blank
+    question: "Complete the vision statement example"
+    text_with_blank: "Our ___ is to become the most trusted provider of cloud solutions worldwide."
+    options: ["vision", "dream", "aspiration", "goal"]
+    correct_answer: "vision"
+    xp_reward: 15
+
+  - id: 110
+    type: fill_blank
+    question: "Complete the mission statement example"
+    text_with_blank: "Our ___ is to empower small businesses through accessible technology."
+    options: ["mission", "purpose", "objective", "goal"]
+    correct_answer: "mission"
+    xp_reward: 15
+
+  - id: 111
+    type: fill_blank
+    question: "Complete the SWOT component"
+    text_with_blank: "A key ___ for us is our strong brand recognition. A key ___ is our limited global presence."
+    options: ["strength", "weakness"]
+    correct_answer: "strength"
+    xp_reward: 15
+
+  - id: 112
+    type: fill_blank
+    question: "Complete the OKR statement"
+    text_with_blank: "Objective: Improve customer satisfaction. Key ___ : Achieve CSAT score of 90%."
+    options: ["Result", "Metric", "Measure", "Indicator"]
+    correct_answer: "Result"
+    xp_reward: 15
+
+  - id: 113
+    type: fill_blank
+    question: "Complete the strategic priority phrase"
+    text_with_blank: "Our top strategic ___ for next year is expanding into the European market."
+    options: ["priority", "initiative", "objective", "goal"]
+    correct_answer: "priority"
+    xp_reward: 15
+
+  # TRUE / FALSE (114-116)
+  - id: 114
+    type: true_false
+    question: "Is this statement true or false? Strategy without execution is just a dream."
+    statement: "Strategy without execution is just a dream."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Is this statement true or false? Strategic planning should involve input from multiple levels of the organization."
+    statement: "Strategic planning should involve input from multiple levels of the organization."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 116
+    type: true_false
+    question: "Is this statement true or false? Once a strategic plan is created, it should never be changed."
+    statement: "Once a strategic plan is created, it should never be changed."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (117-118)
+  - id: 117
+    type: matching
+    question: "Match the strategic planning term with its description"
+    pairs:
+      - left: "Strategic intent"
+        right: "Ambitious long-term goal"
+      - left: "Core competencies"
+        right: "Unique capabilities that give competitive advantage"
+      - left: "Competitive advantage"
+        right: "What makes your company better than competitors"
+      - left: "Value proposition"
+        right: "Promise of value to customers"
+      - left: "Strategic initiatives"
+        right: "Major projects to achieve strategic goals"
+    xp_reward: 25
+
+  - id: 118
+    type: matching
+    question: "Match the Porter's Five Forces with its description"
+    pairs:
+      - left: "Threat of new entrants"
+        right: "How easy it is for new competitors to enter"
+      - left: "Bargaining power of suppliers"
+        right: "How much control suppliers have over prices"
+      - left: "Bargaining power of buyers"
+        right: "How much control customers have over prices"
+      - left: "Threat of substitutes"
+        right: "Availability of alternative products"
+      - left: "Industry rivalry"
+        right: "Intensity of competition among existing firms"
+    xp_reward: 25
+
+  # FLASHCARDS (119-120)
+  - id: 119
+    type: flashcards
+    question: "Flashcards: Strategic Planning Process"
+    flashcards:
+      - front: "Environmental scan"
+        right: "Analyze internal and external factors"
+      - front: "Strategy formulation"
+        right: "Develop mission, vision, goals, and plans"
+      - front: "Strategy implementation"
+        right: "Execute the plan with resources"
+      - front: "Strategy evaluation"
+        right: "Monitor progress and adjust"
+      - front: "Strategic review"
+        right: "Regular assessment and course correction"
+    xp_reward: 30
+
+  - id: 120
+    type: flashcards
+    question: "Flashcards: Strategic Vocabulary"
+    flashcards:
+      - front: "Differentiation strategy"
+        right: "Offering unique products/services"
+      - front: "Cost leadership strategy"
+        right: "Being the lowest-cost producer"
+      - front: "Focus strategy"
+        right: "Targeting a specific market niche"
+      - front: "Blue ocean strategy"
+        right: "Creating new market space"
+      - front: "Growth strategy"
+        right: "Expanding through various means (market penetration, development, diversification)"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 7: ORGANIZATIONAL CULTURE (121-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (121-125)
+  - id: 121
+    type: multiple_choice
+    question: "What is 'organizational culture'?"
+    options:
+      - "A type of art"
+      - "The shared values, beliefs, behaviors, and norms that shape how an organization operates"
+      - "A company's logo"
+      - "The office decor"
+    answer: "The shared values, beliefs, behaviors, and norms that shape how an organization operates"
+    xp_reward: 15
+
+  - id: 122
+    type: multiple_choice
+    question: "How is organizational culture typically communicated?"
+    options:
+      - "Through a memo"
+      - "Through stories, rituals, symbols, language, and observed behaviors"
+      - "Through email only"
+      - "Through posters on walls"
+    answer: "Through stories, rituals, symbols, language, and observed behaviors"
+    xp_reward: 15
+
+  - id: 123
+    type: multiple_choice
+    question: "What is a 'toxic culture'?"
+    options:
+      - "A culture about toxins"
+      - "A negative, unhealthy work environment characterized by behaviors that harm employees"
+      - "A type of safety culture"
+      - "A competitive culture"
+    answer: "A negative, unhealthy work environment characterized by behaviors that harm employees"
+    xp_reward: 15
+
+  - id: 124
+    type: multiple_choice
+    question: "What is 'psychological safety' in organizational culture?"
+    options:
+      - "Safety psychology"
+      - "The belief that the team is safe for interpersonal risk-taking and speaking up"
+      - "A type of insurance"
+      - "A safety training program"
+    answer: "The belief that the team is safe for interpersonal risk-taking and speaking up"
+    xp_reward: 15
+
+  - id: 125
+    type: multiple_choice
+    question: "What role do leaders play in shaping culture?"
+    options:
+      - "No role"
+      - "Leaders model, reinforce, and communicate culture through their actions and decisions"
+      - "Only HR shapes culture"
+      - "Culture cannot be shaped"
+    answer: "Leaders model, reinforce, and communicate culture through their actions and decisions"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (126-128)
+  - id: 126
+    type: fill_blank
+    question: "Complete the culture statement"
+    text_with_blank: "Our company ___ values collaboration, innovation, and customer focus."
+    options: ["culture", "environment", "atmosphere", "ethos"]
+    correct_answer: "culture"
+    xp_reward: 15
+
+  - id: 127
+    type: fill_blank
+    question: "Complete the values statement"
+    text_with_blank: "Our core ___ include integrity, respect, and excellence."
+    options: ["values", "principles", "beliefs", "standards"]
+    correct_answer: "values"
+    xp_reward: 15
+
+  - id: 128
+    type: fill_blank
+    question: "Complete the culture change statement"
+    text_with_blank: "Changing an established culture takes time, consistency, and commitment from ___."
+    options: ["leadership", "management", "leaders", "executives"]
+    correct_answer: "leadership"
+    xp_reward: 15
+
+  # TRUE / FALSE (129)
+  - id: 129
+    type: true_false
+    question: "Is this statement true or false? Culture exists regardless of whether you intentionally cultivate it."
+    statement: "Culture exists regardless of whether you intentionally cultivate it."
+    correct_answer: true
+    xp_reward: 10
+
+  # TIMED CHALLENGE (130)
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Management & Leadership Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "Five components of emotional intelligence"
+        answer: "Self awareness self regulation motivation empathy social skill"
+      - question: "Four stages of team development (Tuckman)"
+        answer: "Forming storming norming performing"
+      - question: "What does SBI stand for in feedback"
+        answer: "Situation Behavior Impact"
+      - question: "Three components of Self-Determination Theory"
+        answer: "Autonomy competence relatedness"
+      - question: "What does SWOT stand for"
+        answer: "Strengths Weaknesses Opportunities Threats"
+      - question: "What does OKR stand for"
+        answer: "Objectives and Key Results"
+      - question: "Difference between vision and mission"
+        answer: "Vision aspirational future mission current purpose"
+      - question: "What is psychological safety"
+        answer: "Safe to take risks and speak up"
+    xp_reward: 50

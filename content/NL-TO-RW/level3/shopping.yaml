@@ -1,0 +1,1365 @@
+lesson:
+ name: "Winkelen - Kugura"
+ description: "Leer Winkelen Woordenschat en phrases in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Winkelen Words ONLY (Safe voor single words)
+ # Basic Words
+ - id: 1
+ type: translation
+ Vraag: "Hoe zeg je 'Shop / Store' in het Kinyarwanda?"
+ Antwoord: "Iduka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Vraag: "Hoe zeg je 'Markt' in het Kinyarwanda?"
+ Antwoord: "Isoko"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Vraag: "Hoe zeg je 'Mall' in het Kinyarwanda?"
+ Antwoord: "Imurikagurisha"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Vraag: "Hoe zeg je 'Cashier' in het Kinyarwanda?"
+ Antwoord: "Umucungamari"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Vraag: "Hoe zeg je 'Customer' in het Kinyarwanda?"
+ Antwoord: "Umukiriya"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Vraag: "Hoe zeg je 'Price' in het Kinyarwanda?"
+ Antwoord: "Igiciro"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Vraag: "Hoe zeg je 'Cheap' in het Kinyarwanda?"
+ Antwoord: "Gito"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Vraag: "Hoe zeg je 'Expensive' in het Kinyarwanda?"
+ Antwoord: "Bihenda"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Vraag: "Hoe zeg je 'Discount' in het Kinyarwanda?"
+ Antwoord: "Igabanuka"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Vraag: "Hoe zeg je 'Sale' in het Kinyarwanda?"
+ Antwoord: "Kugurisha ibicuruzwa ku giciro gito"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Vraag: "Hoe zeg je 'Buy / Purchase' in het Kinyarwanda?"
+ Antwoord: "Kugura"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Vraag: "Hoe zeg je 'Sell' in het Kinyarwanda?"
+ Antwoord: "Kugurisha"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Vraag: "Hoe zeg je 'Money' in het Kinyarwanda?"
+ Antwoord: "Amafaranga"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Vraag: "Hoe zeg je 'Coin' in het Kinyarwanda?"
+ Antwoord: "Ifaranga rito"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Vraag: "Hoe zeg je 'Banknote' in het Kinyarwanda?"
+ Antwoord: "Ifaranga rinini"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Vraag: "Hoe zeg je 'Receipt' in het Kinyarwanda?"
+ Antwoord: "Ikarita y'ubwishyu"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Vraag: "Hoe zeg je 'Bag' in het Kinyarwanda?"
+ Antwoord: "Isakoshi"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Vraag: "Hoe zeg je 'Cart' in het Kinyarwanda?"
+ Antwoord: "Akabariro"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ Vraag: "Hoe zeg je 'Product' in het Kinyarwanda?"
+ Antwoord: "Igicuruzwa"
+ xp_reward: 10
+
+ # Products
+ - id: 20
+ type: translation
+ Vraag: "Hoe zeg je 'Clothes' in het Kinyarwanda?"
+ Antwoord: "Imyenda"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ Vraag: "Hoe zeg je 'Shoes' in het Kinyarwanda?"
+ Antwoord: "Inkweto"
+ xp_reward: 10
+
+ - id: 22
+ type: translation
+ Vraag: "Hoe zeg je 'Fruit' in het Kinyarwanda?"
+ Antwoord: "Imbuto"
+ xp_reward: 10
+
+ - id: 23
+ type: translation
+ Vraag: "Hoe zeg je 'Vegetable' in het Kinyarwanda?"
+ Antwoord: "Ibiribwa by'imboga"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Vraag: "Hoe zeg je 'Grocery' in het Kinyarwanda?"
+ Antwoord: "Ibiribwa byo mu rugo"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Vraag: "Hoe zeg je 'Jewelry' in het Kinyarwanda?"
+ Antwoord: "Amasaro"
+ xp_reward: 10
+
+ - id: 26
+ type: translation
+ Vraag: "Hoe zeg je 'Electronics' in het Kinyarwanda?"
+ Antwoord: "Ibikoresho bya elegitoroniki"
+ xp_reward: 15
+
+ # Common Phrases
+ - id: 27
+ type: translation
+ Vraag: "Hoe vraag je 'How much does dit cost?' in het Kinyarwanda?"
+ Antwoord: "Iki kingana gute?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Vraag: "Hoe zeg je 'I willen naar buy dit' in het Kinyarwanda?"
+ Antwoord: "Ndashaka kugura ibi."
+ xp_reward: 15
+
+ - id: 29
+ type: translation
+ Vraag: "Hoe vraag je 'Can I pay met card?' in het Kinyarwanda?"
+ Antwoord: "Nshobora kwishyura n'ikarita?"
+ xp_reward: 18
+
+ - id: 30
+ type: translation
+ Vraag: "Hoe vraag je 'Do you have dit in another size?' in het Kinyarwanda?"
+ Antwoord: "Mufite ibi mu rundi rugero?"
+ xp_reward: 18
+
+ - id: 31
+ type: translation
+ Vraag: "Hoe vraag je 'Can I try it op?' in het Kinyarwanda?"
+ Antwoord: "Nshobora kubigerageza?"
+ xp_reward: 18
+
+ - id: 32
+ type: translation
+ Vraag: "Hoe zeg je 'I am just looking' in het Kinyarwanda?"
+ Antwoord: "Ndi kwirebera gusa."
+ xp_reward: 15
+
+ - id: 33
+ type: translation
+ Vraag: "Hoe vraag je 'Where is de cashier?' in het Kinyarwanda?"
+ Antwoord: "Umucungamari ari hehe?"
+ xp_reward: 15
+
+ - id: 34
+ type: translation
+ Vraag: "Hoe vraag je 'is there een discount?' in het Kinyarwanda?"
+ Antwoord: "Hari igabanuka ry'igiciro?"
+ xp_reward: 18
+
+ - id: 35
+ type: translation
+ Vraag: "Hoe zeg je 'Can you give me een bag?' in het Kinyarwanda?"
+ Antwoord: "Mwampa isakoshi?"
+ xp_reward: 15
+
+ - id: 36
+ type: translation
+ Vraag: "Hoe zeg je 'Thank you voor your help' in het Kinyarwanda?"
+ Antwoord: "Murakoze kubufasha bwanyu."
+ xp_reward: 15
+
+ # Zin About Winkelen
+ - id: 37
+ type: translation
+ Vraag: "Hoe zeg je 'I bought fruits en vegetables' in het Kinyarwanda?"
+ Antwoord: "Naguriye imbuto n'imboga."
+ xp_reward: 18
+
+ - id: 38
+ type: translation
+ Vraag: "Hoe zeg je 'de clothes zijn expensive' in het Kinyarwanda?"
+ Antwoord: "Imyenda irahenda."
+ xp_reward: 15
+
+ - id: 39
+ type: translation
+ Vraag: "Hoe zeg je 'There is een discount op shoes' in het Kinyarwanda?"
+ Antwoord: "Hari igabanyirizwa ku nkweto."
+ xp_reward: 18
+
+ - id: 40
+ type: translation
+ Vraag: "Hoe vraag je 'How much is dit bag?' in het Kinyarwanda?"
+ Antwoord: "Isakoshi kingana gute?"
+ xp_reward: 15
+
+ - id: 41
+ type: translation
+ Vraag: "Hoe zeg je 'I am paying met Rwandan francs' in het Kinyarwanda?"
+ Antwoord: "Ndishyura n'amafaranga y'u Rwanda."
+ xp_reward: 18
+
+ - id: 42
+ type: translation
+ Vraag: "Hoe zeg je 'de Markt is crowded today' in het Kinyarwanda?"
+ Antwoord: "Isoko rirakomeye uyu munsi."
+ xp_reward: 18
+
+ - id: 43
+ type: translation
+ Vraag: "Hoe zeg je 'I willen naar sell dit product' in het Kinyarwanda?"
+ Antwoord: "Ndashaka kugurisha iki gicuruzwa."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 44
+ type: multiple_choice
+ Vraag: "Wat betekent 'Isoko' in deze zin?"
+ options:
+ - "Shop"
+ - "Markt"
+ - "Mall"
+ - "Store"
+ Antwoord: "Markt"
+ xp_reward: 15
+
+ - id: 45
+ type: multiple_choice
+ Vraag: "Wat betekent 'Umucungamari' in deze zin?"
+ options:
+ - "Customer"
+ - "Cashier"
+ - "Seller"
+ - "Manager"
+ Antwoord: "Cashier"
+ xp_reward: 15
+
+ - id: 46
+ type: multiple_choice
+ Vraag: "Wat betekent 'Igiciro' in deze zin?"
+ options:
+ - "Price"
+ - "Discount"
+ - "Sale"
+ - "Money"
+ Antwoord: "Price"
+ xp_reward: 15
+
+ - id: 47
+ type: multiple_choice
+ Vraag: "Wat betekent 'Bihenda' in deze zin?"
+ options:
+ - "Cheap"
+ - "Expensive"
+ - "Discounted"
+ - "Free"
+ Antwoord: "Expensive"
+ xp_reward: 15
+
+ - id: 48
+ type: multiple_choice
+ Vraag: "Wat betekent 'Kugura' in deze zin?"
+ options:
+ - "Sell"
+ - "Buy"
+ - "Pay"
+ - "Try"
+ Antwoord: "Buy"
+ xp_reward: 15
+
+ - id: 49
+ type: multiple_choice
+ Vraag: "Wat betekent 'Amafaranga' in deze zin?"
+ options:
+ - "Price"
+ - "Money"
+ - "Discount"
+ - "Receipt"
+ Antwoord: "Money"
+ xp_reward: 15
+
+ - id: 50
+ type: multiple_choice
+ Vraag: "Wat betekent 'Isakoshi' in deze zin?"
+ options:
+ - "Cart"
+ - "Bag"
+ - "Receipt"
+ - "Product"
+ Antwoord: "Bag"
+ xp_reward: 15
+
+ # 3. Luister en Type (Dictation)
+ - id: 51
+ type: listen_en_type
+ Vraag: "Luister en type de word"
+ audio: "Isoko"
+ Antwoord: "Isoko"
+ translation: "Markt"
+ xp_reward: 20
+
+ - id: 52
+ type: listen_en_type
+ Vraag: "Luister en type de word"
+ audio: "Igiciro"
+ Antwoord: "Igiciro"
+ translation: "Price"
+ xp_reward: 20
+
+ - id: 53
+ type: listen_en_type
+ Vraag: "Luister en type de word"
+ audio: "Amafaranga"
+ Antwoord: "Amafaranga"
+ translation: "Money"
+ xp_reward: 20
+
+ - id: 54
+ type: listen_en_type
+ Vraag: "Luister en type de word"
+ audio: "Isakoshi"
+ Antwoord: "Isakoshi"
+ translation: "Bag"
+ xp_reward: 20
+
+ - id: 55
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ audio: "Ndashaka kugura ibi"
+ Antwoord: "Ndashaka kugura ibi"
+ translation: "I willen naar buy dit"
+ xp_reward: 22
+
+ - id: 56
+ type: listen_en_type
+ Vraag: "Luister en type de Vraag"
+ audio: "Iki kingana gute"
+ Antwoord: "Iki kingana gute"
+ translation: "How much does dit cost?"
+ xp_reward: 22
+
+ - id: 57
+ type: listen_en_type
+ Vraag: "Luister en type de Vraag"
+ audio: "Umucungamari ari hehe"
+ Antwoord: "Umucungamari ari hehe"
+ translation: "Where is de cashier?"
+ xp_reward: 22
+
+ - id: 58
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ audio: "Murakoze kubufasha bwanyu"
+ Antwoord: "Murakoze kubufasha bwanyu"
+ translation: "Thank you voor your help"
+ xp_reward: 25
+
+ # 4. Luister en Kies
+ - id: 59
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct word"
+ audio: "Isoko"
+ options:
+ - "Shop"
+ - "Markt"
+ - "Mall"
+ Antwoord: "Markt"
+ xp_reward: 15
+
+ - id: 60
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct word"
+ audio: "Igiciro"
+ options:
+ - "Price"
+ - "Discount"
+ - "Sale"
+ Antwoord: "Price"
+ xp_reward: 15
+
+ - id: 61
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct word"
+ audio: "Amafaranga"
+ options:
+ - "Money"
+ - "Receipt"
+ - "Bag"
+ Antwoord: "Money"
+ xp_reward: 15
+
+ - id: 62
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct phrase"
+ audio: "Ndashaka kugura ibi"
+ options:
+ - "I willen naar buy dit"
+ - "I am just looking"
+ - "How much is dit?"
+ Antwoord: "I willen naar buy dit"
+ xp_reward: 18
+
+ - id: 63
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct Vraag"
+ audio: "Umucungamari ari hehe"
+ options:
+ - "Where is de cashier?"
+ - "How much is dit?"
+ - "Can I pay met card?"
+ Antwoord: "Where is de cashier?"
+ xp_reward: 18
+
+ # 5. Repeat / Praat Exercise
+ - id: 64
+ type: Praat
+ Vraag: "Say dit word"
+ prompt: "Isoko"
+ translation: "Markt"
+ xp_reward: 15
+
+ - id: 65
+ type: Praat
+ Vraag: "Say dit word"
+ prompt: "Igiciro"
+ translation: "Price"
+ xp_reward: 15
+
+ - id: 66
+ type: Praat
+ Vraag: "Say dit word"
+ prompt: "Amafaranga"
+ translation: "Money"
+ xp_reward: 15
+
+ - id: 67
+ type: Praat
+ Vraag: "Say dit word"
+ prompt: "Isakoshi"
+ translation: "Bag"
+ xp_reward: 15
+
+ - id: 68
+ type: Praat
+ Vraag: "Say dit phrase"
+ prompt: "Ndashaka kugura ibi"
+ translation: "I willen naar buy dit"
+ xp_reward: 18
+
+ - id: 69
+ type: Praat
+ Vraag: "Say dit Vraag"
+ prompt: "Iki kingana gute"
+ translation: "How much does dit cost?"
+ xp_reward: 18
+
+ - id: 70
+ type: Praat
+ Vraag: "Say dit Vraag"
+ prompt: "Umucungamari ari hehe"
+ translation: "Where is de cashier?"
+ xp_reward: 18
+
+ - id: 71
+ type: Praat
+ Vraag: "Say dit phrase"
+ prompt: "Murakoze kubufasha bwanyu"
+ translation: "Thank you voor your help"
+ xp_reward: 20
+
+ # 6. Word Bank Zin Building - PIECES PROVIDED
+ - id: 72
+ type: word_bank
+ Vraag: "Build de Vraag 'How much does dit cost?'"
+ word_bank: ["Iki", "kingana", "gute", "ni", "angahe", "igura"]
+ correct_answer: ["Iki", "kingana", "gute"]
+ xp_reward: 18
+
+ - id: 73
+ type: word_bank
+ Vraag: "Build de Zin 'I willen naar buy dit'"
+ word_bank: ["Ndashaka", "kugura", "ibi", "kureba", "gusa"]
+ correct_answer: ["Ndashaka", "kugura", "ibi"]
+ xp_reward: 18
+
+ - id: 74
+ type: word_bank
+ Vraag: "Build de Vraag 'Where is de cashier?'"
+ word_bank: ["Umucungamari", "ari", "hehe", "ni", "mu", "iduka"]
+ correct_answer: ["Umucungamari", "ari", "hehe"]
+ xp_reward: 18
+
+ - id: 75
+ type: word_bank
+ Vraag: "Build de Vraag 'Can I pay met card?'"
+ word_bank: ["Nshobora", "kwishyura", "n'ikarita", "amafaranga", "y'u Rwanda"]
+ correct_answer: ["Nshobora", "kwishyura", "n'ikarita"]
+ xp_reward: 20
+
+ - id: 76
+ type: word_bank
+ Vraag: "Build de Zin 'I am just looking'"
+ word_bank: ["Ndi", "kwirebera", "gusa", "ndashaka", "kugura"]
+ correct_answer: ["Ndi", "kwirebera", "gusa"]
+ xp_reward: 15
+
+ - id: 77
+ type: word_bank
+ Vraag: "Build de Zin 'I bought fruits en vegetables'"
+ word_bank: ["Naguriye", "imbuto", "n'imboga", "imyenda", "inkweto"]
+ correct_answer: ["Naguriye", "imbuto", "n'imboga"]
+ xp_reward: 20
+
+ - id: 78
+ type: word_bank
+ Vraag: "Build de Zin 'de clothes zijn expensive'"
+ word_bank: ["Imyenda", "irahenda", "ni", "gito", "bihenda"]
+ correct_answer: ["Imyenda", "irahenda"]
+ xp_reward: 15
+
+ - id: 79
+ type: word_bank
+ Vraag: "Build de Zin 'There is een discount op shoes'"
+ word_bank: ["Hari", "igabanyirizwa", "ku nkweto", "ku myenda", "ku giciro"]
+ correct_answer: ["Hari", "igabanyirizwa", "ku nkweto"]
+ xp_reward: 20
+
+ - id: 80
+ type: word_bank
+ Vraag: "Build de Vraag 'How much is dit bag?'"
+ word_bank: ["Isakoshi", "kingana", "gute", "iki", "ni", "angahe"]
+ correct_answer: ["Isakoshi", "kingana", "gute"]
+ xp_reward: 18
+
+ - id: 81
+ type: word_bank
+ Vraag: "Build de Zin 'I am paying met Rwandan francs'"
+ word_bank: ["Ndishyura", "n'amafaranga", "y'u Rwanda", "n'ikarita", "y'amafaranga"]
+ correct_answer: ["Ndishyura", "n'amafaranga", "y'u Rwanda"]
+ xp_reward: 20
+
+ - id: 82
+ type: word_bank
+ Vraag: "Build de Zin 'de Markt is crowded today'"
+ word_bank: ["Isoko", "rirakomeye", "uyu munsi", "ni", "nini"]
+ correct_answer: ["Isoko", "rirakomeye", "uyu munsi"]
+ xp_reward: 18
+
+ - id: 83
+ type: word_bank
+ Vraag: "Build de Zin 'I willen naar sell dit product'"
+ word_bank: ["Ndashaka", "kugurisha", "iki", "gicuruzwa", "kugura", "ibi"]
+ correct_answer: ["Ndashaka", "kugurisha", "iki", "gicuruzwa"]
+ xp_reward: 20
+
+ # 7. Zin Scramble - PIECES PROVIDED
+ - id: 84
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Vraag"
+ scrambled_words: ["Iki", "kingana", "gute"]
+ correct_sentence: "Iki kingana gute?"
+ translation: "How much does dit cost?"
+ xp_reward: 18
+
+ - id: 85
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Ndashaka", "kugura", "ibi"]
+ correct_sentence: "Ndashaka kugura ibi."
+ translation: "I willen naar buy dit."
+ xp_reward: 18
+
+ - id: 86
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Vraag"
+ scrambled_words: ["Umucungamari", "ari", "hehe"]
+ correct_sentence: "Umucungamari ari hehe?"
+ translation: "Where is de cashier?"
+ xp_reward: 18
+
+ - id: 87
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Vraag"
+ scrambled_words: ["Nshobora", "kwishyura", "n'ikarita"]
+ correct_sentence: "Nshobora kwishyura n'ikarita?"
+ translation: "Can I pay met card?"
+ xp_reward: 20
+
+ - id: 88
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Ndi", "kwirebera", "gusa"]
+ correct_sentence: "Ndi kwirebera gusa."
+ translation: "I am just looking."
+ xp_reward: 15
+
+ - id: 89
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Naguriye", "imbuto", "n'imboga"]
+ correct_sentence: "Naguriye imbuto n'imboga."
+ translation: "I bought fruits en vegetables."
+ xp_reward: 20
+
+ - id: 90
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Imyenda", "irahenda"]
+ correct_sentence: "Imyenda irahenda."
+ translation: "de clothes zijn expensive."
+ xp_reward: 15
+
+ - id: 91
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Hari", "igabanyirizwa", "ku nkweto"]
+ correct_sentence: "Hari igabanyirizwa ku nkweto."
+ translation: "There is een discount op shoes."
+ xp_reward: 20
+
+ - id: 92
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Vraag"
+ scrambled_words: ["Isakoshi", "kingana", "gute"]
+ correct_sentence: "Isakoshi kingana gute?"
+ translation: "How much is dit bag?"
+ xp_reward: 18
+
+ - id: 93
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Ndishyura", "n'amafaranga", "y'u Rwanda"]
+ correct_sentence: "Ndishyura n'amafaranga y'u Rwanda."
+ translation: "I am paying met Rwandan francs."
+ xp_reward: 20
+
+ - id: 94
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Isoko", "rirakomeye", "uyu munsi"]
+ correct_sentence: "Isoko rirakomeye uyu munsi."
+ translation: "de Markt is crowded today."
+ xp_reward: 18
+
+ - id: 95
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Ndashaka", "kugurisha", "iki", "gicuruzwa"]
+ correct_sentence: "Ndashaka kugurisha iki gicuruzwa."
+ translation: "I willen naar sell dit product."
+ xp_reward: 20
+
+ # 8. Fill in de Blank - Kies FROM OPTIONS
+ - id: 96
+ type: fill_blank
+ Vraag: "Complete de Vraag"
+ text_met_blank: "Iki ___ gute?"
+ options: ["kingana", "ni", "igura"]
+ correct_answer: "kingana"
+ translation: "How much does dit cost?"
+ xp_reward: 15
+
+ - id: 97
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Ndashaka ___ ibi."
+ options: ["kugura", "kureba", "kwishyura"]
+ correct_answer: "kugura"
+ translation: "I willen naar buy dit."
+ xp_reward: 15
+
+ - id: 98
+ type: fill_blank
+ Vraag: "Complete de Vraag"
+ text_met_blank: "Umucungamari ___ hehe?"
+ options: ["ari", "ni", "mu"]
+ correct_answer: "ari"
+ translation: "Where is de cashier?"
+ xp_reward: 15
+
+ - id: 99
+ type: fill_blank
+ Vraag: "Complete de Vraag"
+ text_met_blank: "Nshobora kwishyura ___?"
+ options: ["n'ikarita", "n'amafaranga", "n'ibicuruzwa"]
+ correct_answer: "n'ikarita"
+ translation: "Can I pay met card?"
+ xp_reward: 18
+
+ - id: 100
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Ndi kwirebera ___."
+ options: ["gusa", "ibi", "iki"]
+ correct_answer: "gusa"
+ translation: "I am just looking."
+ xp_reward: 12
+
+ - id: 101
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Naguriye imbuto ___."
+ options: ["n'imboga", "n'imyenda", "n'inkweto"]
+ correct_answer: "n'imboga"
+ translation: "I bought fruits en vegetables."
+ xp_reward: 18
+
+ - id: 102
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Imyenda ___."
+ options: ["irahenda", "ni gito", "ni nziza"]
+ correct_answer: "irahenda"
+ translation: "de clothes zijn expensive."
+ xp_reward: 12
+
+ - id: 103
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Hari igabanyirizwa ___."
+ options: ["ku nkweto", "ku myenda", "ku buntu"]
+ correct_answer: "ku nkweto"
+ translation: "There is een discount op shoes."
+ xp_reward: 18
+
+ - id: 104
+ type: fill_blank
+ Vraag: "Complete de Vraag"
+ text_met_blank: "Isakoshi ___ gute?"
+ options: ["kingana", "ni", "igura"]
+ correct_answer: "kingana"
+ translation: "How much is dit bag?"
+ xp_reward: 15
+
+ - id: 105
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Ndishyura n'amafaranga ___."
+ options: ["y'u Rwanda", "y'u Burayi", "y'Amerika"]
+ correct_answer: "y'u Rwanda"
+ translation: "I am paying met Rwandan francs."
+ xp_reward: 18
+
+ - id: 106
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Isoko ___ uyu munsi."
+ options: ["rirakomeye", "ni nini", "ni gito"]
+ correct_answer: "rirakomeye"
+ translation: "de Markt is crowded today."
+ xp_reward: 15
+
+ - id: 107
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Ndashaka kugurisha iki ___."
+ options: ["gicuruzwa", "gitoki", "gitabo"]
+ correct_answer: "gicuruzwa"
+ translation: "I willen naar sell dit product."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 108
+ type: picture_word
+ Vraag: "What place is dit?"
+ image_url: "https://source.unsplash.com/featured/?market"
+ options: ["Isoko", "Iduka", "Imurikagurisha"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 109
+ type: picture_word
+ Vraag: "Wat is dit?"
+ image_url: "https://source.unsplash.com/featured/?money"
+ options: ["Amafaranga", "Igiciro", "Ikarita"]
+ correct_answer: "Amafaranga"
+ xp_reward: 10
+
+ - id: 110
+ type: picture_word
+ Vraag: "Wat is dit?"
+ image_url: "https://source.unsplash.com/featured/?shopping-bag"
+ options: ["Isakoshi", "Akabariro", "Igicuruzwa"]
+ correct_answer: "Isakoshi"
+ xp_reward: 10
+
+ - id: 111
+ type: picture_word
+ Vraag: "Wat is dit?"
+ image_url: "https://source.unsplash.com/featured/?shoes"
+ options: ["Inkweto", "Imyenda", "Imbuto"]
+ correct_answer: "Inkweto"
+ xp_reward: 10
+
+ - id: 112
+ type: picture_word
+ Vraag: "Wat is dit?"
+ image_url: "https://source.unsplash.com/featured/?fruit"
+ options: ["Imbuto", "Imboga", "Ibiribwa"]
+ correct_answer: "Imbuto"
+ xp_reward: 10
+
+ - id: 113
+ type: picture_word
+ Vraag: "Wat is dit?"
+ image_url: "https://source.unsplash.com/featured/?vegetables"
+ options: ["Imboga", "Imbuto", "Ibiryo"]
+ correct_answer: "Imboga"
+ xp_reward: 10
+
+ - id: 114
+ type: picture_word
+ Vraag: "Wat is dit?"
+ image_url: "https://source.unsplash.com/featured/?clothes"
+ options: ["Imyenda", "Inkweto", "Amasaro"]
+ correct_answer: "Imyenda"
+ xp_reward: 10
+
+ - id: 115
+ type: picture_word
+ Vraag: "Wat is dit?"
+ image_url: "https://source.unsplash.com/featured/?electronics"
+ options: ["Ibikoresho bya elegitoroniki", "Imyenda", "Amasaro"]
+ correct_answer: "Ibikoresho bya elegitoroniki"
+ xp_reward: 15
+
+ # 10. Word Koppel (Pairing)
+ - id: 116
+ type: Koppel
+ Vraag: "Koppel de Winkelen places"
+ pairs:
+ - Links: "Shop / Store"
+ Rechts: "Iduka"
+ - Links: "Markt"
+ Rechts: "Isoko"
+ - Links: "Mall"
+ Rechts: "Imurikagurisha"
+ xp_reward: 15
+
+ - id: 117
+ type: Koppel
+ Vraag: "Koppel de Winkelen people"
+ pairs:
+ - Links: "Cashier"
+ Rechts: "Umucungamari"
+ - Links: "Customer"
+ Rechts: "Umukiriya"
+ xp_reward: 12
+
+ - id: 118
+ type: Koppel
+ Vraag: "Koppel de price terms"
+ pairs:
+ - Links: "Price"
+ Rechts: "Igiciro"
+ - Links: "Cheap"
+ Rechts: "Gito"
+ - Links: "Expensive"
+ Rechts: "Bihenda"
+ - Links: "Discount"
+ Rechts: "Igabanuka"
+ - Links: "Sale"
+ Rechts: "Kugurisha ibicuruzwa ku giciro gito"
+ xp_reward: 18
+
+ - id: 119
+ type: Koppel
+ Vraag: "Koppel de actions"
+ pairs:
+ - Links: "Buy"
+ Rechts: "Kugura"
+ - Links: "Sell"
+ Rechts: "Kugurisha"
+ xp_reward: 10
+
+ - id: 120
+ type: Koppel
+ Vraag: "Koppel de money terms"
+ pairs:
+ - Links: "Money"
+ Rechts: "Amafaranga"
+ - Links: "Coin"
+ Rechts: "Ifaranga rito"
+ - Links: "Banknote"
+ Rechts: "Ifaranga rinini"
+ - Links: "Receipt"
+ Rechts: "Ikarita y'ubwishyu"
+ xp_reward: 18
+
+ - id: 121
+ type: Koppel
+ Vraag: "Koppel de products"
+ pairs:
+ - Links: "Clothes"
+ Rechts: "Imyenda"
+ - Links: "Shoes"
+ Rechts: "Inkweto"
+ - Links: "Fruit"
+ Rechts: "Imbuto"
+ - Links: "Vegetable"
+ Rechts: "Ibiribwa by'imboga"
+ - Links: "Grocery"
+ Rechts: "Ibiribwa byo mu rugo"
+ - Links: "Jewelry"
+ Rechts: "Amasaro"
+ - Links: "Electronics"
+ Rechts: "Ibikoresho bya elegitoroniki"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED
+
+ # 12. Kies Missing Word
+ - id: 122
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Iki ___ gute?"
+ missing_word_position: 2
+ options: ["kingana", "ni", "igura"]
+ correct_answer: "kingana"
+ translation: "How much does dit cost?"
+ xp_reward: 15
+
+ - id: 123
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Ndashaka ___ ibi."
+ missing_word_position: 2
+ options: ["kugura", "kureba", "kwishyura"]
+ correct_answer: "kugura"
+ translation: "I willen naar buy dit."
+ xp_reward: 15
+
+ - id: 124
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Umucungamari ___ hehe?"
+ missing_word_position: 2
+ options: ["ari", "ni", "mu"]
+ correct_answer: "ari"
+ translation: "Where is de cashier?"
+ xp_reward: 15
+
+ - id: 125
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Naguriye imbuto ___."
+ missing_word_position: 3
+ options: ["n'imboga", "n'imyenda", "n'inkweto"]
+ correct_answer: "n'imboga"
+ translation: "I bought fruits en vegetables."
+ xp_reward: 18
+
+ - id: 126
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Imyenda ___."
+ missing_word_position: 2
+ options: ["irahenda", "ni gito", "ni nziza"]
+ correct_answer: "irahenda"
+ translation: "de clothes zijn expensive."
+ xp_reward: 12
+
+ # 13. Lees en Antwoord - Vraag based op text
+ - id: 127
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Ndashaka kugura ibi. Iki kingana gute?"
+ Vraag: "Wat betekent de person willen naar do?"
+ options: ["Sell something", "Buy something", "Return something", "Look around"]
+ correct_answer: "Buy something"
+ xp_reward: 15
+
+ - id: 128
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Naguriye imbuto n'imboga ku isoko."
+ Vraag: "Where did de person buy fruits en vegetables?"
+ options: ["At de shop", "At de Markt", "At de mall", "Online"]
+ correct_answer: "At de Markt"
+ xp_reward: 15
+
+ - id: 129
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Imyenda irahenda. Hari igabanyirizwa ku nkweto."
+ Vraag: "Wat is op sale?"
+ options: ["Clothes", "Shoes", "Fruits", "Vegetables"]
+ correct_answer: "Shoes"
+ xp_reward: 18
+
+ - id: 130
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Umucungamari ari hehe? Ndashaka kwishyura."
+ Vraag: "Wat betekent de person willen naar do?"
+ options: ["Pay", "Leave", "Shop", "Return"]
+ correct_answer: "Pay"
+ xp_reward: 15
+
+ - id: 131
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Mwampa isakoshi? Murakoze kubufasha bwanyu."
+ Vraag: "Wat betekent de person willen?"
+ options: ["een receipt", "een bag", "een discount", "Money"]
+ correct_answer: "een bag"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 132
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Isoko means 'shop'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 133
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Igiciro means 'price'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 134
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Bihenda means 'cheap'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 135
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Kugura means 'naar sell'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 136
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Amafaranga means 'money'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 137
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Ndi kwirebera gusa means 'I willen naar buy dit'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 138
+ type: conversation
+ Vraag: "Respond naar de Vraag by building een Zin"
+ bot_message: "Iki kingana gute?"
+ translation: "How much does dit cost?"
+ word_bank: ["Ni", "amafaranga", "igihumbi", "ibihumbi bitanu", "ijana"]
+ correct_response: ["Ni", "amafaranga", "igihumbi"]
+ xp_reward: 18
+
+ - id: 139
+ type: conversation
+ Vraag: "Respond naar de Vraag"
+ bot_message: "Ushaka kugura iki?"
+ translation: "What do you willen naar buy?"
+ options:
+ - "Ndashaka kugura ibi"
+ - "Ndi kwirebera gusa"
+ - "Ndashaka kugurisha"
+ correct_response: "Ndashaka kugura ibi"
+ xp_reward: 15
+
+ - id: 140
+ type: conversation
+ Vraag: "Respond naar de Vraag by building een Zin"
+ bot_message: "Kwishyura ute?"
+ translation: "How will you pay?"
+ word_bank: ["Ndishyura", "n'amafaranga", "y'u Rwanda", "n'ikarita", "y'amafaranga"]
+ correct_response: ["Ndishyura", "n'amafaranga", "y'u Rwanda"]
+ xp_reward: 20
+
+ - id: 141
+ type: conversation
+ Vraag: "Respond naar de Vraag"
+ bot_message: "Urakenera isakoshi?"
+ translation: "Do you need een bag?"
+ options:
+ - "Yego, mwampa isakoshi"
+ - "Oya, ndi kwirebera"
+ - "Ni amafaranga angahe?"
+ correct_response: "Yego, mwampa isakoshi"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Zin from pieces
+ - id: 142
+ type: story
+ title: "At de Markt - Ku Isoko"
+ story_intro: "Lees about Winkelen at de Markt. Then build de Zin."
+ story_segments:
+ - text: "I willen naar buy fruits en vegetables."
+ - text: "How much does dit cost?"
+ - text: "de clothes zijn expensive."
+ - text: "There is een discount op shoes."
+ - text: "I am paying met Rwandan francs."
+ - text: "Thank you voor your help."
+ exercises:
+ - type: word_bank
+ Vraag: "Build 'I willen naar buy fruits en vegetables'"
+ word_bank: ["Ndashaka", "kugura", "imbuto", "n'imboga", "imyenda"]
+ correct_answer: ["Ndashaka", "kugura", "imbuto", "n'imboga"]
+ - type: word_bank
+ Vraag: "Build 'How much does dit cost?'"
+ word_bank: ["Iki", "kingana", "gute", "ni", "angahe"]
+ correct_answer: ["Iki", "kingana", "gute"]
+ - type: word_bank
+ Vraag: "Build 'de clothes zijn expensive'"
+ word_bank: ["Imyenda", "irahenda", "ni", "gito"]
+ correct_answer: ["Imyenda", "irahenda"]
+ - type: word_bank
+ Vraag: "Build 'There is een discount op shoes'"
+ word_bank: ["Hari", "igabanyirizwa", "ku nkweto", "ku myenda"]
+ correct_answer: ["Hari", "igabanyirizwa", "ku nkweto"]
+ - type: word_bank
+ Vraag: "Build 'I am paying met Rwandan francs'"
+ word_bank: ["Ndishyura", "n'amafaranga", "y'u Rwanda", "n'ikarita"]
+ correct_answer: ["Ndishyura", "n'amafaranga", "y'u Rwanda"]
+ - type: word_bank
+ Vraag: "Build 'Thank you voor your help'"
+ word_bank: ["Murakoze", "kubufasha", "bwanyu", "murakoze", "cyane"]
+ correct_answer: ["Murakoze", "kubufasha", "bwanyu"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 143
+ type: pronunciation
+ Vraag: "Say dit word"
+ prompt: "Isoko"
+ translation: "Markt"
+ xp_reward: 15
+
+ - id: 144
+ type: pronunciation
+ Vraag: "Say dit word"
+ prompt: "Igiciro"
+ translation: "Price"
+ xp_reward: 15
+
+ - id: 145
+ type: pronunciation
+ Vraag: "Say dit word"
+ prompt: "Amafaranga"
+ translation: "Money"
+ xp_reward: 15
+
+ - id: 146
+ type: pronunciation
+ Vraag: "Say dit phrase"
+ prompt: "Ndashaka kugura ibi"
+ translation: "I willen naar buy dit"
+ xp_reward: 18
+
+ - id: 147
+ type: pronunciation
+ Vraag: "Say dit Vraag"
+ prompt: "Iki kingana gute"
+ translation: "How much does dit cost?"
+ xp_reward: 18
+
+ - id: 148
+ type: pronunciation
+ Vraag: "Say dit phrase"
+ prompt: "Murakoze kubufasha bwanyu"
+ translation: "Thank you voor your help"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 149
+ type: identify_meaning
+ Vraag: "Wat betekent 'Ndashaka' mean in dit Zin?"
+ context_sentence: "Ndashaka kugura ibi."
+ word: "Ndashaka"
+ options: ["I have", "I willen", "I buy", "I sell"]
+ correct_answer: "I willen"
+ xp_reward: 15
+
+ - id: 150
+ type: identify_meaning
+ Vraag: "Wat betekent 'kingana gute' mean in dit Vraag?"
+ context_sentence: "Iki kingana gute?"
+ word: "kingana gute"
+ options: ["Wat is", "how much", "where is", "who is"]
+ correct_answer: "how much"
+ xp_reward: 15
+
+ - id: 151
+ type: identify_meaning
+ Vraag: "Wat betekent 'irahenda' mean in dit Zin?"
+ context_sentence: "Imyenda irahenda."
+ word: "irahenda"
+ options: ["is cheap", "is expensive", "is beautiful", "is nieuw"]
+ correct_answer: "is expensive"
+ xp_reward: 15
+
+ - id: 152
+ type: identify_meaning
+ Vraag: "Wat betekent 'igabanyirizwa' in deze zin?"
+ context_sentence: "Hari igabanyirizwa ku nkweto."
+ word: "igabanyirizwa"
+ options: ["sale", "discount", "price", "receipt"]
+ correct_answer: "discount"
+ xp_reward: 18
+
+ - id: 153
+ type: identify_meaning
+ Vraag: "Wat betekent 'Ndishyura' mean in dit Zin?"
+ context_sentence: "Ndishyura n'amafaranga y'u Rwanda."
+ word: "Ndishyura"
+ options: ["I buy", "I sell", "I pay", "I willen"]
+ correct_answer: "I pay"
+ xp_reward: 15
+
+ # 19. Speed Koppel
+ - id: 154
+ type: speed_Koppel
+ title: "Koppel Madness: Winkelen"
+ time_limit_seconds: 45
+ pairs:
+ - Links: "Markt"
+ Rechts: "Isoko"
+ - Links: "Price"
+ Rechts: "Igiciro"
+ - Links: "Money"
+ Rechts: "Amafaranga"
+ - Links: "Bag"
+ Rechts: "Isakoshi"
+ - Links: "Cashier"
+ Rechts: "Umucungamari"
+ - Links: "Customer"
+ Rechts: "Umukiriya"
+ - Links: "Cheap"
+ Rechts: "Gito"
+ - Links: "Expensive"
+ Rechts: "Bihenda"
+ - Links: "Buy"
+ Rechts: "Kugura"
+ - Links: "Sell"
+ Rechts: "Kugurisha"
+ - Links: "Shoes"
+ Rechts: "Inkweto"
+ - Links: "Clothes"
+ Rechts: "Imyenda"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 155
+ type: timed_challenge
+ title: "Lightning Round: Winkelen"
+ time_limit_seconds: 30
+ Vraag_count: 5
+ Vraag:
+ - Vraag: "Markt"
+ Antwoord: "Isoko"
+ - Vraag: "Price"
+ Antwoord: "Igiciro"
+ - Vraag: "Money"
+ Antwoord: "Amafaranga"
+ - Vraag: "Bag"
+ Antwoord: "Isakoshi"
+ - Vraag: "Buy"
+ Antwoord: "Kugura"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Vraag: "Flashcards"
+ Flashcards:
+ - front: "Iduka"
+ back: "Shop / Store"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Isoko"
+ back: "Markt"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Imurikagurisha"
+ back: "Mall"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umucungamari"
+ back: "Cashier"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukiriya"
+ back: "Customer"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Igiciro"
+ back: "Price"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Gito"
+ back: "Cheap"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Bihenda"
+ back: "Expensive"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Igabanuka"
+ back: "Discount"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Kugurisha ibicuruzwa ku giciro gito"
+ back: "Sale"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

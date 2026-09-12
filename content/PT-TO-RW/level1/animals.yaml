@@ -1,0 +1,882 @@
+lesson:
+ name: "Animais"
+ description: "Aprenda animal names em Kinyarwanda by categories"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Words ONLY (Safe para single words)
+ # Domestic / Farm Animais
+ - id: 1
+ type: translation
+ Pergunta: "Como se diz 'Vaca' em kinyarwanda?"
+ Resposta: "Inka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Pergunta: "Como se diz 'Cachorro' em kinyarwanda?"
+ Resposta: "Imbwa"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Pergunta: "Como se diz 'Gato' em kinyarwanda?"
+ Resposta: "Injangwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Pergunta: "Como se diz 'Cabra' em kinyarwanda?"
+ Resposta: "Ihene"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Pergunta: "Como se diz 'Ovelha' em kinyarwanda?"
+ Resposta: "Intama"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Pergunta: "Como se diz 'Porco' em kinyarwanda?"
+ Resposta: "Ingurube"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Pergunta: "Como se diz 'Galinha' em kinyarwanda?"
+ Resposta: "Inkoko"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Pergunta: "Como se diz 'Coelho' em kinyarwanda?"
+ Resposta: "Urukwavu"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Pergunta: "Como se diz 'Burro' em kinyarwanda?"
+ Resposta: "Indogobe"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Pergunta: "Como se diz 'Pombo' em kinyarwanda?"
+ Resposta: "Inuma"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Pergunta: "Como se diz 'Pássaro' em kinyarwanda?"
+ Resposta: "Inyoni"
+ xp_reward: 10
+
+ # Wildlife Animais
+ - id: 12
+ type: translation
+ Pergunta: "Como se diz 'Leão' em kinyarwanda?"
+ Resposta: "Intare"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Pergunta: "Como se diz 'Elefante' em kinyarwanda?"
+ Resposta: "Inzovu"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Pergunta: "Como se diz 'Gorila da montanha' em kinyarwanda?"
+ Resposta: "Ingagi"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Pergunta: "Como se diz 'Leopardo' em kinyarwanda?"
+ Resposta: "Ingwe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Pergunta: "Como se diz 'Búfalo' em kinyarwanda?"
+ Resposta: "Imbogo"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Pergunta: "Como se diz 'Zebra' em kinyarwanda?"
+ Resposta: "Imparage"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Pergunta: "Como se diz 'Hipopótamo' em kinyarwanda?"
+ Resposta: "Imvubu"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ Pergunta: "Como se diz 'Girafa' em kinyarwanda?"
+ Resposta: "Agasumbashyamba"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ Pergunta: "Como se diz 'Hiena' em kinyarwanda?"
+ Resposta: "Imfyisi"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ Pergunta: "Como se diz 'Macaco' em kinyarwanda?"
+ Resposta: "Inkende"
+ xp_reward: 10
+
+ # Pássaro, Reptiles, Insects, Peixe
+ - id: 22
+ type: translation
+ Pergunta: "Como se diz 'Grou-coroada-cinza' em kinyarwanda?"
+ Resposta: "Umusambi"
+ xp_reward: 10
+
+ - id: 23
+ type: translation
+ Pergunta: "Como se diz 'Cobra' em kinyarwanda?"
+ Resposta: "Inzoka"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ Pergunta: "Como se diz 'Sapo' em kinyarwanda?"
+ Resposta: "Igikeri"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ Pergunta: "Como se diz 'Peixe' em kinyarwanda?"
+ Resposta: "Ifi"
+ xp_reward: 10
+
+ - id: 26
+ type: translation
+ Pergunta: "Como se diz 'Abelha' em kinyarwanda?"
+ Resposta: "Inzuki"
+ xp_reward: 10
+
+ # Animal Actions (Verbs)
+ - id: 27
+ type: translation
+ Pergunta: "Como se diz 'comer' em kinyarwanda?"
+ Resposta: "irya"
+ xp_reward: 10
+
+ - id: 28
+ type: translation
+ Pergunta: "Como se diz 'beber' em kinyarwanda?"
+ Resposta: "inywa"
+ xp_reward: 10
+
+ - id: 29
+ type: translation
+ Pergunta: "Como se diz 'sleeps' em kinyarwanda?"
+ Resposta: "irasinzira"
+ xp_reward: 10
+
+ - id: 30
+ type: translation
+ Pergunta: "Como se diz 'runs' em kinyarwanda?"
+ Resposta: "iriruka"
+ xp_reward: 10
+
+ - id: 31
+ type: translation
+ Pergunta: "Como se diz 'flies' em kinyarwanda?"
+ Resposta: "iraguruka"
+ xp_reward: 10
+
+ - id: 32
+ type: translation
+ Pergunta: "Como se diz 'swims' em kinyarwanda?"
+ Resposta: "iroga"
+ xp_reward: 10
+
+ - id: 33
+ type: translation
+ Pergunta: "Como se diz 'plays' em kinyarwanda?"
+ Resposta: "irakina"
+ xp_reward: 10
+
+ # Animal Comida
+ - id: 34
+ type: translation
+ Pergunta: "Como se diz 'grass' em kinyarwanda?"
+ Resposta: "ibyatsi"
+ xp_reward: 10
+
+ - id: 35
+ type: translation
+ Pergunta: "Como se diz 'Água' em kinyarwanda?"
+ Resposta: "amazi"
+ xp_reward: 10
+
+ - id: 36
+ type: translation
+ Pergunta: "Como se diz 'meat' em kinyarwanda?"
+ Resposta: "inyama"
+ xp_reward: 10
+
+ # não DIRECT TRANSLATION para Frase ou PARAGRAPHS
+ # Instead, we use Frase building, Associe, e word bank exercises
+
+ # 2. Multiple Choice
+ - id: 37
+ type: multiple_choice
+ Pergunta: "O que é 'Inka'?"
+ options:
+ - "Cachorro"
+ - "Vaca"
+ - "Gato"
+ - "Cabra"
+ Resposta: "Vaca"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ Pergunta: "O que é 'Intare'?"
+ options:
+ - "Leão"
+ - "Elefante"
+ - "Macaco"
+ - "Cachorro"
+ Resposta: "Leão"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ Pergunta: "O que significa 'irya' nesta frase?"
+ options:
+ - "beber"
+ - "comer"
+ - "sleeps"
+ - "runs"
+ Resposta: "comer"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ Pergunta: "O que significa 'ibyatsi' nesta frase?"
+ options:
+ - "Água"
+ - "meat"
+ - "grass"
+ - "milk"
+ Resposta: "grass"
+ xp_reward: 15
+
+ # 3. Ouçum e Type (Dictation) - SINGLE WORDS ONLY
+ - id: 41
+ type: listen_e_type
+ Pergunta: "Ouçum e type o animal name"
+ tts_text: "Inka"
+ Resposta: "Inka"
+ translation: "Vaca"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_e_type
+ Pergunta: "Ouçum e type o animal name"
+ tts_text: "Imbwa"
+ Resposta: "Imbwa"
+ translation: "Cachorro"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_e_type
+ Pergunta: "Ouçum e type o animal name"
+ tts_text: "Injangwe"
+ Resposta: "Injangwe"
+ translation: "Gato"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_e_type
+ Pergunta: "Ouçum e type o animal name"
+ tts_text: "Ihene"
+ Resposta: "Ihene"
+ translation: "Cabra"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_e_type
+ Pergunta: "Ouçum e type o animal name"
+ tts_text: "Intama"
+ Resposta: "Intama"
+ translation: "Ovelha"
+ xp_reward: 20
+
+ - id: 46
+ type: listen_e_type
+ Pergunta: "Ouçum e type o animal name"
+ tts_text: "Inkoko"
+ Resposta: "Inkoko"
+ translation: "Galinha"
+ xp_reward: 20
+
+ # 4. Ouçum e Escolha - SINGLE WORDS ONLY
+ - id: 47
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct animal"
+ tts_text: "Imbwa"
+ options:
+ - "Gato"
+ - "Cachorro"
+ - "Vaca"
+ Resposta: "Cachorro"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct animal"
+ tts_text: "Intare"
+ options:
+ - "Leão"
+ - "Elefante"
+ - "Girafa"
+ Resposta: "Leão"
+ xp_reward: 15
+
+ - id: 49
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct animal"
+ tts_text: "Intama"
+ options:
+ - "Cabra"
+ - "Ovelha"
+ - "Vaca"
+ Resposta: "Ovelha"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct animal"
+ tts_text: "Inkoko"
+ options:
+ - "Galinha"
+ - "Pássaro"
+ - "Duck"
+ Resposta: "Galinha"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct animal"
+ tts_text: "Injangwe"
+ options:
+ - "Cachorro"
+ - "Gato"
+ - "Coelho"
+ Resposta: "Gato"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct animal"
+ tts_text: "Ihene"
+ options:
+ - "Cabra"
+ - "Ovelha"
+ - "Vaca"
+ Resposta: "Cabra"
+ xp_reward: 15
+
+ # 5. Repeat / Fale Exercise
+ - id: 53
+ type: Fale
+ Pergunta: "Say este word"
+ prompt: "Inka"
+ translation: "Vaca"
+ xp_reward: 15
+
+ - id: 54
+ type: Fale
+ Pergunta: "Say este word"
+ prompt: "Imbwa"
+ translation: "Cachorro"
+ xp_reward: 15
+
+ - id: 55
+ type: Fale
+ Pergunta: "Say este word"
+ prompt: "Injangwe"
+ translation: "Gato"
+ xp_reward: 15
+
+ - id: 56
+ type: Fale
+ Pergunta: "Say este Frase"
+ prompt: "Inka irya ibyatsi"
+ translation: "o Vaca comer grass"
+ xp_reward: 20
+
+ # 6. Word Bank Frase Building - PIECES PROVIDED, não TRANSLATION NEEDED
+ - id: 57
+ type: word_bank
+ Pergunta: "Build o Kinyarwanda Frase para 'o Vaca comer grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Pergunta: "Build o Kinyarwanda Frase para 'o Cachorro beber Água'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 20
+
+ - id: 59
+ type: word_bank
+ Pergunta: "Build o Kinyarwanda Frase para 'o Pássaro flies'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Pergunta: "Build o Kinyarwanda Frase para 'o Peixe swims'"
+ word_bank: ["Ifi", "iroga", "amazi", "Inyoni", "iraguruka", "hejuru"]
+ correct_answer: ["Ifi", "iroga"]
+ xp_reward: 20
+
+ # 7. Frase Scramble - PIECES PROVIDED
+ - id: 61
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct Kinyarwanda Frase"
+ scrambled_words: ["irya", "Inka", "ibyatsi"]
+ correct_sentence: "Inka irya ibyatsi"
+ translation: "o Vaca comer grass"
+ xp_reward: 20
+
+ - id: 62
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct Kinyarwanda Frase"
+ scrambled_words: ["inywa", "Imbwa", "amazi"]
+ correct_sentence: "Imbwa inywa amazi"
+ translation: "o Cachorro beber Água"
+ xp_reward: 20
+
+ - id: 63
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct Kinyarwanda Frase"
+ scrambled_words: ["iraguruka", "Inyoni", "hejuru"]
+ correct_sentence: "Inyoni iraguruka hejuru"
+ translation: "o Pássaro flies above"
+ xp_reward: 20
+
+ # 8. Fill em o Blank - Escolha FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Pergunta: "Escolha o correct word para complete o Frase"
+ text_com_blank: "Inka ___ ibyatsi."
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "o Vaca comer grass"
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Pergunta: "Escolha o correct word para complete o Frase"
+ text_com_blank: "Imbwa ___ amazi."
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "o Cachorro beber Água"
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Pergunta: "Escolha o correct word para complete o Frase"
+ text_com_blank: "Inyoni ___ hejuru."
+ options: ["iraguruka", "iriruka", "iroga"]
+ correct_answer: "iraguruka"
+ translation: "o Pássaro flies above"
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 67
+ type: picture_word
+ Pergunta: "What animal é este?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Intama", "Ihene"]
+ correct_answer: "Inka"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Pergunta: "What animal é este?"
+ image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Injangwe", "Inkoko"]
+ correct_answer: "Imbwa"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Pergunta: "What animal é este?"
+ image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Intare", "Ingwe", "Imbogo"]
+ correct_answer: "Intare"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Pergunta: "What animal é este?"
+ image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Imvubu", "Ingagi", "Imparage"]
+ correct_answer: "Inzovu"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Pergunta: "What animal é este?"
+ image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inyoni", "Inkoko", "Inuma", "Umusambi"]
+ correct_answer: "Inyoni"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Pergunta: "What animal é este?"
+ image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Ifi", "Inzoka", "Igikeri", "Akanyamasyo"]
+ correct_answer: "Ifi"
+ xp_reward: 10
+
+ # 10. Word Associe (Pairing)
+ - id: 73
+ type: Associe
+ Pergunta: "Associe o Animais"
+ pairs:
+ - Esquerda: "Vaca"
+ Direita: "Inka"
+ - Esquerda: "Cachorro"
+ Direita: "Imbwa"
+ - Esquerda: "Gato"
+ Direita: "Injangwe"
+ - Esquerda: "Leão"
+ Direita: "Intare"
+ - Esquerda: "Elefante"
+ Direita: "Inzovu"
+ - Esquerda: "Pássaro"
+ Direita: "Inyoni"
+ - Esquerda: "Peixe"
+ Direita: "Ifi"
+ xp_reward: 25
+
+ - id: 74
+ type: Associe
+ Pergunta: "Associe o actions"
+ pairs:
+ - Esquerda: "comer"
+ Direita: "irya"
+ - Esquerda: "beber"
+ Direita: "inywa"
+ - Esquerda: "sleeps"
+ Direita: "irasinzira"
+ - Esquerda: "flies"
+ Direita: "iraguruka"
+ - Esquerda: "swims"
+ Direita: "iroga"
+ - Esquerda: "runs"
+ Direita: "iriruka"
+ xp_reward: 25
+
+ - id: 75
+ type: Associe
+ Pergunta: "Associe o animal Comida"
+ pairs:
+ - Esquerda: "grass"
+ Direita: "ibyatsi"
+ - Esquerda: "Água"
+ Direita: "amazi"
+ - Esquerda: "meat"
+ Direita: "inyama"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - PIECES PROVIDED
+ - id: 76
+ type: tap_hear
+ Pergunta: "Tap o words you hear em order"
+ tts_text: "Inka irya ibyatsi"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_taps: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 25
+
+ - id: 77
+ type: tap_hear
+ Pergunta: "Tap o words you hear em order"
+ tts_text: "Imbwa inywa amazi"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_taps: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 25
+
+ - id: 78
+ type: tap_hear
+ Pergunta: "Tap o words you hear em order"
+ tts_text: "Inyoni iraguruka hejuru"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_taps: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 25
+
+ # 12. Escolha Missing Word
+ - id: 79
+ type: choose_missing
+ Pergunta: "Escolha o missing word"
+ Frase: "Inka ___ ibyatsi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "o Vaca comer grass"
+ xp_reward: 15
+
+ - id: 80
+ type: choose_missing
+ Pergunta: "Escolha o missing word"
+ Frase: "Imbwa ___ amazi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "o Cachorro beber Água"
+ xp_reward: 15
+
+ # 13. Leia e Resposta - Pergunta em English, Resposta based em Kinyarwanda text
+ - id: 81
+ type: read_answer
+ Pergunta: "Leia o text e Resposta o Pergunta"
+ text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
+ Pergunta: "Where é o Vaca?"
+ options: ["em o Casa", "em o field", "At o Mercado", "Near o Cachorro"]
+ correct_answer: "em o field"
+ xp_reward: 25
+
+ - id: 82
+ type: read_answer
+ Pergunta: "Leia o text e Resposta o Pergunta"
+ text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
+ Pergunta: "O que significa o Leão comer?"
+ options: ["Grass", "Água", "Meat", "Peixe"]
+ correct_answer: "Meat"
+ xp_reward: 20
+
+ # 14. True / False
+ - id: 83
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "Imbwa ni inyamaswa."
+ translation: "um Cachorro é um animal"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 84
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "Inka iraguruka."
+ translation: "um Vaca flies"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 85
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "Ifi iroga."
+ translation: "um Peixe swims"
+ correct_answer: true
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 86
+ type: conversation
+ Pergunta: "Respond para o Pergunta by building um Frase"
+ bot_message: "Iyi ni inyamaswa ki?"
+ translation: "What animal é este?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ word_bank: ["Inka", "ni", "inyamaswa", "Imbwa", "ni", "igikeri"]
+ correct_response: ["Inka", "ni", "inyamaswa"]
+ xp_reward: 20
+
+ - id: 87
+ type: conversation
+ Pergunta: "Respond para o Pergunta"
+ bot_message: "Inka iri he?"
+ translation: "Where é o Vaca?"
+ options:
+ - "Mu murima"
+ - "Mu nzu"
+ - "Ku isoko"
+ correct_response: "Mu murima"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Frase from pieces
+ - id: 88
+ type: story
+ title: "o Vaca e Friends"
+ story_intro: "Leia about o Animais. Then build o Frase."
+ story_segments:
+ - text: "There é um Vaca em o field."
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ - text: "o Vaca comer grass."
+ - text: "um Cachorro é near o Vaca."
+ - text: "o Cachorro beber Água."
+ - text: "um Pássaro flies above."
+ exercises:
+ - type: word_bank
+ Pergunta: "Build o Kinyarwanda Frase para 'o Vaca comer grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ - type: word_bank
+ Pergunta: "Build o Kinyarwanda Frase para 'o Cachorro beber Água'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ - type: word_bank
+ Pergunta: "Build o Kinyarwanda Frase para 'o Pássaro flies above'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 89
+ type: pronunciation
+ Pergunta: "Say o word"
+ prompt: "Inka"
+ translation: "Vaca"
+ xp_reward: 15
+
+ - id: 90
+ type: pronunciation
+ Pergunta: "Say o word"
+ prompt: "Imbwa"
+ translation: "Cachorro"
+ xp_reward: 15
+
+ - id: 91
+ type: pronunciation
+ Pergunta: "Say o word"
+ prompt: "Injangwe"
+ translation: "Gato"
+ xp_reward: 15
+
+ - id: 92
+ type: pronunciation
+ Pergunta: "Say o word"
+ prompt: "Intare"
+ translation: "Leão"
+ xp_reward: 15
+
+ - id: 93
+ type: pronunciation
+ Pergunta: "Say o word"
+ prompt: "Agasumbashyamba"
+ translation: "Girafa"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 94
+ type: identify_meaning
+ Pergunta: "O que significa 'amazi' mean em este Frase?"
+ context_sentence: "Imbwa inywa amazi."
+ word: "amazi"
+ options: ["milk", "Água", "Comida", "grass"]
+ correct_answer: "Água"
+ xp_reward: 15
+
+ - id: 95
+ type: identify_meaning
+ Pergunta: "O que significa 'irya' mean em este Frase?"
+ context_sentence: "Inka irya ibyatsi."
+ word: "irya"
+ options: ["beber", "comer", "runs", "flies"]
+ correct_answer: "comer"
+ xp_reward: 15
+
+ # 19. Speed Associe
+ - id: 96
+ type: speed_Associe
+ title: "Associe Madness: Animais"
+ time_limit_seconds: 45
+ pairs:
+ - Esquerda: "Vaca"
+ Direita: "Inka"
+ - Esquerda: "Cachorro"
+ Direita: "Imbwa"
+ - Esquerda: "Gato"
+ Direita: "Injangwe"
+ - Esquerda: "Leão"
+ Direita: "Intare"
+ - Esquerda: "Elefante"
+ Direita: "Inzovu"
+ - Esquerda: "Pássaro"
+ Direita: "Inyoni"
+ - Esquerda: "Peixe"
+ Direita: "Ifi"
+ - Esquerda: "Cabra"
+ Direita: "Ihene"
+ - Esquerda: "Ovelha"
+ Direita: "Intama"
+ - Esquerda: "Galinha"
+ Direita: "Inkoko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 97
+ type: timed_challenge
+ title: "Lightning Round: Animais"
+ time_limit_seconds: 30
+ Pergunta_count: 5
+ Pergunta:
+ - Pergunta: "Vaca"
+ Resposta: "Inka"
+ - Pergunta: "Cachorro"
+ Resposta: "Imbwa"
+ - Pergunta: "Gato"
+ Resposta: "Injangwe"
+ - Pergunta: "Leão"
+ Resposta: "Intare"
+ - Pergunta: "Elefante"
+ Resposta: "Inzovu"
+ xp_reward: 35
+
+# Cartões de memória
+ - id: 111
+ type: Cartões de memória
+ Pergunta: "Cartões de memória"
+ Cartões de memória:
+ - front: "Inka"
+ back: "Vaca"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Imbwa"
+ back: "Cachorro"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Injangwe"
+ back: "Gato"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ihene"
+ back: "Cabra"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Intama"
+ back: "Ovelha"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ingurube"
+ back: "Porco"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkoko"
+ back: "Galinha"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Urukwavu"
+ back: "Coelho"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Indogobe"
+ back: "Burro"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Inuma"
+ back: "Pombo"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

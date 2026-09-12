@@ -1,0 +1,1367 @@
+lesson:
+  name: "House - Nyumba"
+  description: "Learn house vocabulary in Kiswahili and how to talk about your home"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic House Words ONLY (Safe for single words)
+  # Basic House Words
+  - id: 1
+    type: translation
+    question: "How do you say 'House' in Kiswahili?"
+    answer: "Nyumba"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "How do you say 'Home' in Kiswahili?"
+    answer: "Nyumbani"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "How do you say 'Room' in Kiswahili?"
+    answer: "Chumba"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "How do you say 'Door' in Kiswahili?"
+    answer: "Mlango"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "How do you say 'Window' in Kiswahili?"
+    answer: "Dirisha"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "How do you say 'Roof' in Kiswahili?"
+    answer: "Paa"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "How do you say 'Wall' in Kiswahili?"
+    answer: "Ukuta"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "How do you say 'Floor' in Kiswahili?"
+    answer: "Sakafu"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "How do you say 'Key' in Kiswahili?"
+    answer: "Ufunguo"
+    xp_reward: 10
+
+  # Rooms in a House
+  - id: 10
+    type: translation
+    question: "How do you say 'Bedroom' in Kiswahili?"
+    answer: "Chumba cha kulala"
+    xp_reward: 15
+
+  - id: 11
+    type: translation
+    question: "How do you say 'Living room' in Kiswahili?"
+    answer: "Sebule"
+    xp_reward: 15
+
+  - id: 12
+    type: translation
+    question: "How do you say 'Kitchen' in Kiswahili?"
+    answer: "Jiko"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "How do you say 'Bathroom' in Kiswahili?"
+    answer: "Bafuni"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "How do you say 'Dining room' in Kiswahili?"
+    answer: "Chumba cha kulia"
+    xp_reward: 15
+
+  # Furniture
+  - id: 15
+    type: translation
+    question: "How do you say 'Bed' in Kiswahili?"
+    answer: "Kitanda"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "How do you say 'Table' in Kiswahili?"
+    answer: "Meza"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "How do you say 'Chair' in Kiswahili?"
+    answer: "Kiti"
+    xp_reward: 10
+
+  - id: 18
+    type: translation
+    question: "How do you say 'Sofa' in Kiswahili?"
+    answer: "Sofa"
+    xp_reward: 10
+
+  - id: 19
+    type: translation
+    question: "How do you say 'Lamp' in Kiswahili?"
+    answer: "Taa"
+    xp_reward: 10
+
+  - id: 20
+    type: translation
+    question: "How do you say 'Cupboard' in Kiswahili?"
+    answer: "Kabati"
+    xp_reward: 10
+
+  # Sentences About a House
+  - id: 21
+    type: translation
+    question: "How do you say 'I have a house' in Kiswahili?"
+    answer: "Nina nyumba."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "How do you say 'The house is big' in Kiswahili?"
+    answer: "Nyumba ni kubwa."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "How do you say 'The door is open' in Kiswahili?"
+    answer: "Mlango wazi."
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "How do you say 'The window is closed' in Kiswahili?"
+    answer: "Dirisha limefungwa."
+    xp_reward: 15
+
+  - id: 25
+    type: translation
+    question: "How do you say 'The house has many rooms' in Kiswahili?"
+    answer: "Nyumba ina vyumba vingi."
+    xp_reward: 18
+
+  - id: 26
+    type: translation
+    question: "How do you say 'I sleep in the bedroom' in Kiswahili?"
+    answer: "Ninalala chumbani."
+    xp_reward: 18
+
+  - id: 27
+    type: translation
+    question: "How do you say 'I cook in the kitchen' in Kiswahili?"
+    answer: "Napika jikoni."
+    xp_reward: 15
+
+  - id: 28
+    type: translation
+    question: "How do you say 'I sit on the chair' in Kiswahili?"
+    answer: "Nakaa kitini."
+    xp_reward: 15
+
+  # Activities in the House
+  - id: 29
+    type: translation
+    question: "How do you say 'I open the door' in Kiswahili?"
+    answer: "Nafungua mlango."
+    xp_reward: 15
+
+  - id: 30
+    type: translation
+    question: "How do you say 'I close the window' in Kiswahili?"
+    answer: "Nafunga dirisha."
+    xp_reward: 15
+
+  - id: 31
+    type: translation
+    question: "How do you say 'I clean the house' in Kiswahili?"
+    answer: "Nasafisha nyumba."
+    xp_reward: 15
+
+  - id: 32
+    type: translation
+    question: "How do you say 'I cook food in the kitchen' in Kiswahili?"
+    answer: "Napika chakula jikoni."
+    xp_reward: 18
+
+  - id: 33
+    type: translation
+    question: "How do you say 'The child sleeps on the bed' in Kiswahili?"
+    answer: "Mtoto analala kitandani."
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 34
+    type: multiple_choice
+    question: "What does 'Nyumba' mean?"
+    options:
+      - "Home"
+      - "House"
+      - "Room"
+      - "Door"
+    answer: "House"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "What does 'Mlango' mean?"
+    options:
+      - "Window"
+      - "Door"
+      - "Wall"
+      - "Roof"
+    answer: "Door"
+    xp_reward: 15
+
+  - id: 36
+    type: multiple_choice
+    question: "What does 'Dirisha' mean?"
+    options:
+      - "Door"
+      - "Window"
+      - "Key"
+      - "Floor"
+    answer: "Window"
+    xp_reward: 15
+
+  - id: 37
+    type: multiple_choice
+    question: "What does 'Jiko' mean?"
+    options:
+      - "Bedroom"
+      - "Living room"
+      - "Kitchen"
+      - "Bathroom"
+    answer: "Kitchen"
+    xp_reward: 15
+
+  - id: 38
+    type: multiple_choice
+    question: "What does 'Kitanda' mean?"
+    options:
+      - "Chair"
+      - "Table"
+      - "Bed"
+      - "Sofa"
+    answer: "Bed"
+    xp_reward: 15
+
+  - id: 39
+    type: multiple_choice
+    question: "What does 'Nina nyumba' mean?"
+    options:
+      - "The house is big"
+      - "I have a house"
+      - "I clean the house"
+      - "The house has many rooms"
+    answer: "I have a house"
+    xp_reward: 15
+
+  - id: 40
+    type: multiple_choice
+    question: "What does 'Mlango wazi' mean?"
+    options:
+      - "The window is closed"
+      - "The door is open"
+      - "I open the door"
+      - "I close the window"
+    answer: "The door is open"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 41
+    type: listen_and_type
+    question: "Listen and type the house word"
+    audio: "Nyumba"
+    answer: "Nyumba"
+    translation: "House"
+    xp_reward: 20
+
+  - id: 42
+    type: listen_and_type
+    question: "Listen and type the house word"
+    audio: "Mlango"
+    answer: "Mlango"
+    translation: "Door"
+    xp_reward: 20
+
+  - id: 43
+    type: listen_and_type
+    question: "Listen and type the house word"
+    audio: "Dirisha"
+    answer: "Dirisha"
+    translation: "Window"
+    xp_reward: 20
+
+  - id: 44
+    type: listen_and_type
+    question: "Listen and type the room"
+    audio: "Jiko"
+    answer: "Jiko"
+    translation: "Kitchen"
+    xp_reward: 20
+
+  - id: 45
+    type: listen_and_type
+    question: "Listen and type the furniture"
+    audio: "Kitanda"
+    answer: "Kitanda"
+    translation: "Bed"
+    xp_reward: 20
+
+  - id: 46
+    type: listen_and_type
+    question: "Listen and type the phrase"
+    audio: "Nina nyumba"
+    answer: "Nina nyumba"
+    translation: "I have a house"
+    xp_reward: 22
+
+  - id: 47
+    type: listen_and_type
+    question: "Listen and type the phrase"
+    audio: "Napika jikoni"
+    answer: "Napika jikoni"
+    translation: "I cook in the kitchen"
+    xp_reward: 22
+
+  - id: 48
+    type: listen_and_type
+    question: "Listen and type the phrase"
+    audio: "Mlango wazi"
+    answer: "Mlango wazi"
+    translation: "The door is open"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 49
+    type: listen_and_choose
+    question: "Listen and choose the correct house word"
+    audio: "Nyumba"
+    options:
+      - "House"
+      - "Home"
+      - "Room"
+    answer: "House"
+    xp_reward: 15
+
+  - id: 50
+    type: listen_and_choose
+    question: "Listen and choose the correct house word"
+    audio: "Mlango"
+    options:
+      - "Window"
+      - "Door"
+      - "Wall"
+    answer: "Door"
+    xp_reward: 15
+
+  - id: 51
+    type: listen_and_choose
+    question: "Listen and choose the correct house word"
+    audio: "Jiko"
+    options:
+      - "Bedroom"
+      - "Kitchen"
+      - "Bathroom"
+    answer: "Kitchen"
+    xp_reward: 15
+
+  - id: 52
+    type: listen_and_choose
+    question: "Listen and choose the correct phrase"
+    audio: "Nina nyumba"
+    options:
+      - "I have a house"
+      - "The house is big"
+      - "I clean the house"
+    answer: "I have a house"
+    xp_reward: 18
+
+  - id: 53
+    type: listen_and_choose
+    question: "Listen and choose the correct phrase"
+    audio: "Mlango wazi"
+    options:
+      - "The window is closed"
+      - "The door is open"
+      - "I open the door"
+    answer: "The door is open"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 54
+    type: speaking
+    question: "Say this house word"
+    prompt: "Nyumba"
+    translation: "House"
+    xp_reward: 15
+
+  - id: 55
+    type: speaking
+    question: "Say this house word"
+    prompt: "Mlango"
+    translation: "Door"
+    xp_reward: 15
+
+  - id: 56
+    type: speaking
+    question: "Say this house word"
+    prompt: "Dirisha"
+    translation: "Window"
+    xp_reward: 15
+
+  - id: 57
+    type: speaking
+    question: "Say this room"
+    prompt: "Jiko"
+    translation: "Kitchen"
+    xp_reward: 15
+
+  - id: 58
+    type: speaking
+    question: "Say this furniture"
+    prompt: "Kitanda"
+    translation: "Bed"
+    xp_reward: 15
+
+  - id: 59
+    type: speaking
+    question: "Say this phrase"
+    prompt: "Nina nyumba"
+    translation: "I have a house"
+    xp_reward: 18
+
+  - id: 60
+    type: speaking
+    question: "Say this phrase"
+    prompt: "Napika jikoni"
+    translation: "I cook in the kitchen"
+    xp_reward: 18
+
+  - id: 61
+    type: speaking
+    question: "Say this phrase"
+    prompt: "Mlango wazi"
+    translation: "The door is open"
+    xp_reward: 18
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED
+  - id: 62
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I have a house'"
+    word_bank: ["Nina", "nyumba", "kubwa", "ina", "vyumba"]
+    correct_answer: ["Nina", "nyumba"]
+    xp_reward: 15
+
+  - id: 63
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'The house is big'"
+    word_bank: ["Nyumba", "ni kubwa", "nina", "ina", "vyumba"]
+    correct_answer: ["Nyumba", "ni kubwa"]
+    xp_reward: 15
+
+  - id: 64
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'The door is open'"
+    word_bank: ["Mlango", "wazi", "dirisha", "limefungwa"]
+    correct_answer: ["Mlango", "wazi"]
+    xp_reward: 18
+
+  - id: 65
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'The window is closed'"
+    word_bank: ["Dirisha", "limefungwa", "mlango", "wazi"]
+    correct_answer: ["Dirisha", "limefungwa"]
+    xp_reward: 18
+
+  - id: 66
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'The house has many rooms'"
+    word_bank: ["Nyumba", "ina", "vyumba", "vingi", "kubwa"]
+    correct_answer: ["Nyumba", "ina", "vyumba", "vingi"]
+    xp_reward: 20
+  - id: 67
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I sleep in the bedroom'"
+    word_bank: ["Ninalala", "chumbani", "napika", "jikoni", "nakaa"]
+    correct_answer: ["Ninalala", "chumbani"]
+    xp_reward: 20
+
+  - id: 68
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I cook in the kitchen'"
+    word_bank: ["Napika", "jikoni", "ninalala", "chumbani", "nakaa"]
+    correct_answer: ["Napika", "jikoni"]
+    xp_reward: 15
+
+  - id: 69
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I sit on the chair'"
+    word_bank: ["Nakaa", "kitini", "kitandani", "jikoni", "chumbani"]
+    correct_answer: ["Nakaa", "kitini"]
+    xp_reward: 15
+
+  - id: 70
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I open the door'"
+    word_bank: ["Nafungua", "mlango", "nafunga", "dirisha", "nasafisha", "nyumba"]
+    correct_answer: ["Nafungua", "mlango"]
+    xp_reward: 15
+
+  - id: 71
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I close the window'"
+    word_bank: ["Nafunga", "dirisha", "nafungua", "mlango", "nasafisha", "nyumba"]
+    correct_answer: ["Nafunga", "dirisha"]
+    xp_reward: 15
+
+  - id: 72
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I clean the house'"
+    word_bank: ["Nasafisha", "nyumba", "nafungua", "mlango", "nafunga", "dirisha"]
+    correct_answer: ["Nasafisha", "nyumba"]
+    xp_reward: 15
+
+  - id: 73
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I cook food in the kitchen'"
+    word_bank: ["Napika", "chakula", "jikoni", "ninalala", "chumbani", "nakaa"]
+    correct_answer: ["Napika", "chakula", "jikoni"]
+    xp_reward: 20
+
+  - id: 74
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'The child sleeps on the bed'"
+    word_bank: ["Mtoto", "analala", "kitandani", "napika", "jikoni", "kitini"]
+    correct_answer: ["Mtoto", "analala", "kitandani"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 75
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nina", "nyumba"]
+    correct_sentence: "Nina nyumba."
+    translation: "I have a house."
+    xp_reward: 15
+
+  - id: 76
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nyumba", "ni kubwa"]
+    correct_sentence: "Nyumba ni kubwa."
+    translation: "The house is big."
+    xp_reward: 15
+
+  - id: 77
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Mlango", "wazi"]
+    correct_sentence: "Mlango wazi."
+    translation: "The door is open."
+    xp_reward: 18
+
+  - id: 78
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Dirisha", "limefungwa"]
+    correct_sentence: "Dirisha limefungwa."
+    translation: "The window is closed."
+    xp_reward: 18
+
+  - id: 79
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nyumba", "ina", "vyumba", "vingi"]
+    correct_sentence: "Nyumba ina vyumba vingi."
+    translation: "The house has many rooms."
+    xp_reward: 20
+
+  - id: 80
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Ninalala", "chumbani"]
+    correct_sentence: "Ninalala chumbani."
+    translation: "I sleep in the bedroom."
+    xp_reward: 20
+
+  - id: 81
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Napika", "jikoni"]
+    correct_sentence: "Napika jikoni."
+    translation: "I cook in the kitchen."
+    xp_reward: 15
+
+  - id: 82
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nakaa", "kitini"]
+    correct_sentence: "Nakaa kitini."
+    translation: "I sit on the chair."
+    xp_reward: 15
+
+  - id: 83
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nafungua", "mlango"]
+    correct_sentence: "Nafungua mlango."
+    translation: "I open the door."
+    xp_reward: 15
+
+  - id: 84
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nafunga", "dirisha"]
+    correct_sentence: "Nafunga dirisha."
+    translation: "I close the window."
+    xp_reward: 15
+
+  - id: 85
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nasafisha", "nyumba"]
+    correct_sentence: "Nasafisha nyumba."
+    translation: "I clean the house."
+    xp_reward: 15
+
+  - id: 86
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Napika", "chakula", "jikoni"]
+    correct_sentence: "Napika chakula jikoni."
+    translation: "I cook food in the kitchen."
+    xp_reward: 20
+
+  - id: 87
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Mtoto", "analala", "kitandani"]
+    correct_sentence: "Mtoto analala kitandani."
+    translation: "The child sleeps on the bed."
+    xp_reward: 20
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 88
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nina ___."
+    options: ["nyumba", "mlango", "dirisha"]
+    correct_answer: "nyumba"
+    translation: "I have a house."
+    xp_reward: 12
+
+  - id: 89
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nyumba ni ___."
+    options: ["kubwa", "ina", "vingi"]
+    correct_answer: "kubwa"
+    translation: "The house is big."
+    xp_reward: 12
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Mlango ___."
+    options: ["wazi", "limefungwa", "kubwa"]
+    correct_answer: "wazi"
+    translation: "The door is open."
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Dirisha ___."
+    options: ["limefungwa", "wazi", "kubwa"]
+    correct_answer: "limefungwa"
+    translation: "The window is closed."
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nyumba ina vyumba ___."
+    options: ["vingi", "kubwa", "kikubwa"]
+    correct_answer: "vingi"
+    translation: "The house has many rooms."
+    xp_reward: 15
+
+  - id: 93
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Ninalala ___."
+    options: ["chumbani", "jikoni", "kitini"]
+    correct_answer: "chumbani"
+    translation: "I sleep in the bedroom."
+    xp_reward: 18
+
+  - id: 94
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Napika ___."
+    options: ["jikoni", "chumbani", "kitini"]
+    correct_answer: "jikoni"
+    translation: "I cook in the kitchen."
+    xp_reward: 12
+
+  - id: 95
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nakaa ___."
+    options: ["kitini", "kitandani", "jikoni"]
+    correct_answer: "kitini"
+    translation: "I sit on the chair."
+    xp_reward: 12
+
+  - id: 96
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nafungua ___."
+    options: ["mlango", "dirisha", "nyumba"]
+    correct_answer: "mlango"
+    translation: "I open the door."
+    xp_reward: 12
+
+  - id: 97
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nafunga ___."
+    options: ["dirisha", "mlango", "nyumba"]
+    correct_answer: "dirisha"
+    translation: "I close the window."
+    xp_reward: 12
+
+  - id: 98
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nasafisha ___."
+    options: ["nyumba", "mlango", "dirisha"]
+    correct_answer: "nyumba"
+    translation: "I clean the house."
+    xp_reward: 12
+
+  - id: 99
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Napika chakula ___."
+    options: ["jikoni", "chumbani", "kitini"]
+    correct_answer: "jikoni"
+    translation: "I cook food in the kitchen."
+    xp_reward: 15
+
+  - id: 100
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Mtoto analala ___."
+    options: ["kitandani", "kitini", "jikoni"]
+    correct_answer: "kitandani"
+    translation: "The child sleeps on the bed."
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 101
+    type: picture_word
+    question: "What is this?"
+    image_url: "https://source.unsplash.com/featured/?house"
+    options: ["Nyumba", "Nyumbani", "Chumba"]
+    correct_answer: "Nyumba"
+    xp_reward: 10
+
+  - id: 102
+    type: picture_word
+    question: "What is this?"
+    image_url: "https://source.unsplash.com/featured/?door"
+    options: ["Mlango", "Dirisha", "Ukuta"]
+    correct_answer: "Mlango"
+    xp_reward: 10
+
+  - id: 103
+    type: picture_word
+    question: "What is this?"
+    image_url: "https://source.unsplash.com/featured/?window"
+    options: ["Dirisha", "Mlango", "Paa"]
+    correct_answer: "Dirisha"
+    xp_reward: 10
+
+  - id: 104
+    type: picture_word
+    question: "What room is this?"
+    image_url: "https://source.unsplash.com/featured/?kitchen"
+    options: ["Jiko", "Bafuni", "Chumba cha kulala"]
+    correct_answer: "Jiko"
+    xp_reward: 10
+
+  - id: 105
+    type: picture_word
+    question: "What room is this?"
+    image_url: "https://source.unsplash.com/featured/?bedroom"
+    options: ["Chumba cha kulala", "Sebule", "Chumba cha kulia"]
+    correct_answer: "Chumba cha kulala"
+    xp_reward: 15
+
+  - id: 106
+    type: picture_word
+    question: "What room is this?"
+    image_url: "https://source.unsplash.com/featured/?bathroom"
+    options: ["Bafuni", "Jiko", "Chumba cha kulala"]
+    correct_answer: "Bafuni"
+    xp_reward: 10
+
+  - id: 107
+    type: picture_word
+    question: "What furniture is this?"
+    image_url: "https://source.unsplash.com/featured/?bed"
+    options: ["Kitanda", "Kiti", "Meza"]
+    correct_answer: "Kitanda"
+    xp_reward: 10
+
+  - id: 108
+    type: picture_word
+    question: "What furniture is this?"
+    image_url: "https://source.unsplash.com/featured/?chair"
+    options: ["Kiti", "Kitanda", "Sofa"]
+    correct_answer: "Kiti"
+    xp_reward: 10
+
+  - id: 109
+    type: picture_word
+    question: "What furniture is this?"
+    image_url: "https://source.unsplash.com/featured/?table"
+    options: ["Meza", "Kiti", "Kabati"]
+    correct_answer: "Meza"
+    xp_reward: 10
+
+  - id: 110
+    type: picture_word
+    question: "What furniture is this?"
+    image_url: "https://source.unsplash.com/featured/?sofa"
+    options: ["Sofa", "Kiti", "Kitanda"]
+    correct_answer: "Sofa"
+    xp_reward: 10
+
+  - id: 111
+    type: picture_word
+    question: "What is this?"
+    image_url: "https://source.unsplash.com/featured/?key"
+    options: ["Ufunguo", "Mlango", "Taa"]
+    correct_answer: "Ufunguo"
+    xp_reward: 10
+
+  # 10. Word Matching (Pairing)
+  - id: 112
+    type: matching
+    question: "Match the house parts"
+    pairs:
+      - left: "House"
+        right: "Nyumba"
+      - left: "Home"
+        right: "Nyumbani"
+      - left: "Room"
+        right: "Chumba"
+      - left: "Door"
+        right: "Mlango"
+      - left: "Window"
+        right: "Dirisha"
+      - left: "Roof"
+        right: "Paa"
+      - left: "Wall"
+        right: "Ukuta"
+      - left: "Floor"
+        right: "Sakafu"
+      - left: "Key"
+        right: "Ufunguo"
+    xp_reward: 25
+
+  - id: 113
+    type: matching
+    question: "Match the rooms"
+    pairs:
+      - left: "Bedroom"
+        right: "Chumba cha kulala"
+      - left: "Living room"
+        right: "Sebule"
+      - left: "Kitchen"
+        right: "Jiko"
+      - left: "Bathroom"
+        right: "Bafuni"
+      - left: "Dining room"
+        right: "Chumba cha kulia"
+    xp_reward: 20
+
+  - id: 114
+    type: matching
+    question: "Match the furniture"
+    pairs:
+      - left: "Bed"
+        right: "Kitanda"
+      - left: "Table"
+        right: "Meza"
+      - left: "Chair"
+        right: "Kiti"
+      - left: "Sofa"
+        right: "Sofa"
+      - left: "Lamp"
+        right: "Taa"
+      - left: "Cupboard"
+        right: "Kabati"
+    xp_reward: 20
+
+  - id: 115
+    type: matching
+    question: "Match the actions"
+    pairs:
+      - left: "I open"
+        right: "Nafungua"
+      - left: "I close"
+        right: "Nafunga"
+      - left: "I clean"
+        right: "Nasafisha"
+      - left: "I cook"
+        right: "Napika"
+      - left: "I sleep"
+        right: "Ninalala"
+      - left: "I sit"
+        right: "Nakaa"
+    xp_reward: 18
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 116
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Nina ___."
+    missing_word_position: 2
+    options: ["nyumba", "mlango", "dirisha"]
+    correct_answer: "nyumba"
+    translation: "I have a house."
+    xp_reward: 12
+
+  - id: 117
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Nyumba ni ___."
+    missing_word_position: 3
+    options: ["kubwa", "ina", "vingi"]
+    correct_answer: "kubwa"
+    translation: "The house is big."
+    xp_reward: 12
+
+  - id: 118
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Mlango ___."
+    missing_word_position: 2
+    options: ["wazi", "limefungwa", "kubwa"]
+    correct_answer: "wazi"
+    translation: "The door is open."
+    xp_reward: 15
+
+  - id: 119
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Dirisha ___."
+    missing_word_position: 2
+    options: ["limefungwa", "wazi", "kubwa"]
+    correct_answer: "limefungwa"
+    translation: "The window is closed."
+    xp_reward: 15
+
+  - id: 120
+    type: choose_missing
+    question: "Choose the missing phrase"
+    sentence: "Ninalala ___."
+    missing_word_position: 2
+    options: ["chumbani", "jikoni", "kitini"]
+    correct_answer: "chumbani"
+    translation: "I sleep in the bedroom."
+    xp_reward: 18
+
+  - id: 121
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Napika ___."
+    missing_word_position: 2
+    options: ["jikoni", "chumbani", "kitini"]
+    correct_answer: "jikoni"
+    translation: "I cook in the kitchen."
+    xp_reward: 12
+
+  - id: 122
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Nakaa ___."
+    missing_word_position: 2
+    options: ["kitini", "kitandani", "jikoni"]
+    correct_answer: "kitini"
+    translation: "I sit on the chair."
+    xp_reward: 12
+
+  # 13. Read and Answer - Questions based on text
+  - id: 123
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Nina nyumba. Nyumba ni kubwa. Ina vyumba vingi."
+    question: "What do I have?"
+    options: ["A car", "A house", "A bed", "A table"]
+    correct_answer: "A house"
+    xp_reward: 12
+
+  - id: 124
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Mlango wazi. Dirisha limefungwa."
+    question: "Is the window open or closed?"
+    options: ["Open", "Closed", "Big", "Small"]
+    correct_answer: "Closed"
+    xp_reward: 15
+
+  - id: 125
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Napika jikoni. Ninalala chumbani."
+    question: "Where do I cook?"
+    options: ["In the bedroom", "In the kitchen", "In the living room", "In the bathroom"]
+    correct_answer: "In the kitchen"
+    xp_reward: 15
+
+  - id: 126
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Mtoto analala kitandani. Nakaa kitini."
+    question: "Where does the child sleep?"
+    options: ["On the chair", "On the bed", "On the table", "On the sofa"]
+    correct_answer: "On the bed"
+    xp_reward: 15
+
+  - id: 127
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Nasafisha nyumba. Nafungua mlango. Nafunga dirisha."
+    question: "What do I close?"
+    options: ["The door", "The window", "The house", "The room"]
+    correct_answer: "The window"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 128
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Nyumba means 'house'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 129
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Mlango means 'window'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 130
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Jiko means 'kitchen'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 131
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Kitanda means 'chair'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 132
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Nina nyumba means 'I have a house'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 133
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Mlango wazi means 'The window is open'."
+    correct_answer: false
+    xp_reward: 15
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 134
+    type: conversation
+    question: "Respond to the question by building a sentence"
+    bot_message: "Una nyumba?"
+    translation: "Do you have a house?"
+    word_bank: ["Nina", "nyumba", "kubwa", "sina"]
+    correct_response: ["Nina", "nyumba"]
+    xp_reward: 15
+
+  - id: 135
+    type: conversation
+    question: "Respond to the question"
+    bot_message: "Mlango wazi?"
+    translation: "Is the door open?"
+    options:
+      - "Ndiyo, wazi"
+      - "Hapana, umefungwa"
+      - "Nyumba ni kubwa"
+    correct_response: "Ndiyo, wazi"
+    xp_reward: 15
+
+  - id: 136
+    type: conversation
+    question: "Respond to the question by building a sentence"
+    bot_message: "Unapika wapi?"
+    translation: "Where do you cook?"
+    word_bank: ["Napika", "jikoni", "chumbani", "ninalala"]
+    correct_response: ["Napika", "jikoni"]
+    xp_reward: 15
+
+  - id: 137
+    type: conversation
+    question: "Respond to the question"
+    bot_message: "Analala wapi?"
+    translation: "Where does he sleep?"
+    options:
+      - "Chumbani"
+      - "Jikoni"
+      - "Kitini"
+    correct_response: "Chumbani"
+    xp_reward: 18
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 138
+    type: story
+    title: "My House - Nyumba Yangu"
+    story_intro: "Read about my house. Then build the sentences."
+    story_segments:
+      - text: "I have a house."
+      - text: "The house is big."
+      - text: "The house has many rooms."
+      - text: "I sleep in the bedroom."
+      - text: "I cook in the kitchen."
+      - text: "I sit on the chair."
+      - text: "I clean the house."
+    exercises:
+      - type: word_bank
+        question: "Build 'I have a house'"
+        word_bank: ["Nina", "nyumba", "kubwa", "ina"]
+        correct_answer: ["Nina", "nyumba"]
+      - type: word_bank
+        question: "Build 'The house is big'"
+        word_bank: ["Nyumba", "ni kubwa", "ina", "vyumba"]
+        correct_answer: ["Nyumba", "ni kubwa"]
+      - type: word_bank
+        question: "Build 'The house has many rooms'"
+        word_bank: ["Nyumba", "ina", "vyumba", "vingi"]
+        correct_answer: ["Nyumba", "ina", "vyumba", "vingi"]
+      - type: word_bank
+        question: "Build 'I sleep in the bedroom'"
+        word_bank: ["Ninalala", "chumbani", "napika", "jikoni"]
+        correct_answer: ["Ninalala", "chumbani"]
+      - type: word_bank
+        question: "Build 'I cook in the kitchen'"
+        word_bank: ["Napika", "jikoni", "ninalala", "chumbani"]
+        correct_answer: ["Napika", "jikoni"]
+      - type: word_bank
+        question: "Build 'I sit on the chair'"
+        word_bank: ["Nakaa", "kitini", "kitandani", "jikoni"]
+        correct_answer: ["Nakaa", "kitini"]
+      - type: word_bank
+        question: "Build 'I clean the house'"
+        word_bank: ["Nasafisha", "nyumba", "nafungua", "mlango"]
+        correct_answer: ["Nasafisha", "nyumba"]
+    xp_reward: 45
+
+  # 17. Pronunciation Check
+  - id: 139
+    type: pronunciation
+    question: "Say this house word"
+    prompt: "Nyumba"
+    translation: "House"
+    xp_reward: 15
+
+  - id: 140
+    type: pronunciation
+    question: "Say this house word"
+    prompt: "Mlango"
+    translation: "Door"
+    xp_reward: 15
+
+  - id: 141
+    type: pronunciation
+    question: "Say this room"
+    prompt: "Jiko"
+    translation: "Kitchen"
+    xp_reward: 15
+
+  - id: 142
+    type: pronunciation
+    question: "Say this furniture"
+    prompt: "Kitanda"
+    translation: "Bed"
+    xp_reward: 15
+
+  - id: 143
+    type: pronunciation
+    question: "Say this phrase"
+    prompt: "Nina nyumba"
+    translation: "I have a house"
+    xp_reward: 18
+
+  - id: 144
+    type: pronunciation
+    question: "Say this phrase"
+    prompt: "Mlango wazi"
+    translation: "The door is open"
+    xp_reward: 18
+
+  # 18. Identify Correct Meaning
+  - id: 145
+    type: identify_meaning
+    question: "What does 'Nina' mean in this sentence?"
+    context_sentence: "Nina nyumba."
+    word: "Nina"
+    options: ["I have", "I see", "I want", "I buy"]
+    correct_answer: "I have"
+    xp_reward: 15
+
+  - id: 146
+    type: identify_meaning
+    question: "What does 'kubwa' mean in this sentence?"
+    context_sentence: "Nyumba ni kubwa."
+    word: "kubwa"
+    options: ["small", "big", "new", "old"]
+    correct_answer: "big"
+    xp_reward: 15
+
+  - id: 147
+    type: identify_meaning
+    question: "What does 'wazi' mean in this sentence?"
+    context_sentence: "Mlango wazi."
+    word: "wazi"
+    options: ["is closed", "is open", "is big", "is small"]
+    correct_answer: "is open"
+    xp_reward: 18
+
+  - id: 148
+    type: identify_meaning
+    question: "What does 'Napika' mean in this sentence?"
+    context_sentence: "Napika jikoni."
+    word: "Napika"
+    options: ["I sleep", "I cook", "I eat", "I sit"]
+    correct_answer: "I cook"
+    xp_reward: 15
+
+  - id: 149
+    type: identify_meaning
+    question: "What does 'analala' mean in this sentence?"
+    context_sentence: "Mtoto analala kitandani."
+    word: "analala"
+    options: ["eats", "sleeps", "plays", "cooks"]
+    correct_answer: "sleeps"
+    xp_reward: 15
+
+  # 19. Speed Matching
+  - id: 150
+    type: speed_matching
+    title: "Match Madness: House"
+    time_limit_seconds: 45
+    pairs:
+      - left: "House"
+        right: "Nyumba"
+      - left: "Door"
+        right: "Mlango"
+      - left: "Window"
+        right: "Dirisha"
+      - left: "Kitchen"
+        right: "Jiko"
+      - left: "Bedroom"
+        right: "Chumba cha kulala"
+      - left: "Bathroom"
+        right: "Bafuni"
+      - left: "Bed"
+        right: "Kitanda"
+      - left: "Chair"
+        right: "Kiti"
+      - left: "Table"
+        right: "Meza"
+      - left: "Key"
+        right: "Ufunguo"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 151
+    type: timed_challenge
+    title: "Lightning Round: House"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "House"
+        answer: "Nyumba"
+      - question: "Door"
+        answer: "Mlango"
+      - question: "Window"
+        answer: "Dirisha"
+      - question: "Kitchen"
+        answer: "Jiko"
+      - question: "Bed"
+        answer: "Kitanda"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Nyumba"
+      back: "House"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Nyumbani"
+      back: "Home"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Chumba"
+      back: "Room"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Mlango"
+      back: "Door"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Dirisha"
+      back: "Window"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Paa"
+      back: "Roof"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Ukuta"
+      back: "Wall"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Sakafu"
+      back: "Floor"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Ufunguo"
+      back: "Key"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Chumba cha kulala"
+      back: "Bedroom"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

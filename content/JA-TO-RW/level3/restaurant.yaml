@@ -1,0 +1,1368 @@
+lesson:
+ name: "レストラン - Resitora"
+ description: "学ぶ レストラン 語彙 と phrases で Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic レストラン Words ONLY (Safe のために single words)
+ # Basic 語彙
+ - id: 1
+ type: translation
+ 質問: "何と言いますか 'レストラン' キニャルワンダ語で？"
+ 答え: "Resitora"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 質問: "何と言いますか 'Menu' キニャルワンダ語で？"
+ 答え: "Ikarita y'ibiryo"
+ xp_reward: 15
+
+ - id: 3
+ type: translation
+ 質問: "何と言いますか 'Table' キニャルワンダ語で？"
+ 答え: "Ameza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 質問: "何と言いますか 'Chair' キニャルワンダ語で？"
+ 答え: "Intebe"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 質問: "何と言いますか 'Waiter' キニャルワンダ語で？"
+ 答え: "Umukozi wa resitora"
+ xp_reward: 15
+
+ - id: 6
+ type: translation
+ 質問: "何と言いますか 'Waitress' キニャルワンダ語で？"
+ 答え: "Umukozi w'akazi ka resitora"
+ xp_reward: 18
+
+ - id: 7
+ type: translation
+ 質問: "何と言いますか 'Customer' キニャルワンダ語で？"
+ 答え: "Umukiriya"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 質問: "何と言いますか 'Order' キニャルワンダ語で？"
+ 答え: "Gutumiza"
+ xp_reward: 10
+
+ # 食べ物 と のむ
+ - id: 9
+ type: translation
+ 質問: "何と言いますか '食べ物' キニャルワンダ語で？"
+ 答え: "Ibiryo"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ 質問: "何と言いますか 'のむ' キニャルワンダ語で？"
+ 答え: "Ikiribwa"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 質問: "何と言いますか '水' キニャルワンダ語で？"
+ 答え: "Amazi"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ 質問: "何と言いますか 'Juice' キニャルワンダ語で？"
+ 答え: "Jus"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ 質問: "何と言いますか 'Coffee' キニャルワンダ語で？"
+ 答え: "Ikawa"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ 質問: "何と言いますか 'Tea' キニャルワンダ語で？"
+ 答え: "Icyayi"
+ xp_reward: 10
+
+ # Meals
+ - id: 15
+ type: translation
+ 質問: "何と言いますか 'Breakfast' キニャルワンダ語で？"
+ 答え: "Ifunguro rya mu gitondo"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ 質問: "何と言いますか 'Lunch' キニャルワンダ語で？"
+ 答え: "Ifunguro rya saa sita"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ 質問: "何と言いますか 'Dinner' キニャルワンダ語で？"
+ 答え: "Ifunguro rya nimugoroba"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ 質問: "何と言いますか 'Dessert' キニャルワンダ語で？"
+ 答え: "Ibiribwa by'inyongera"
+ xp_reward: 15
+
+ # Bill と Payment
+ - id: 19
+ type: translation
+ 質問: "何と言いますか 'Bill / Check' キニャルワンダ語で？"
+ 答え: "Ibarura"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ 質問: "何と言いますか 'Tip' キニャルワンダ語で？"
+ 答え: "Agaciro k'umukozi"
+ xp_reward: 15
+
+ # Utensils
+ - id: 21
+ type: translation
+ 質問: "何と言いますか 'Fork' キニャルワンダ語で？"
+ 答え: "Iforoke"
+ xp_reward: 10
+
+ - id: 22
+ type: translation
+ 質問: "何と言いますか 'Knife' キニャルワンダ語で？"
+ 答え: "Icyuma cyo gukata"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ 質問: "何と言いますか 'Spoon' キニャルワンダ語で？"
+ 答え: "Ikiyiko"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ 質問: "何と言いますか 'Plate' キニャルワンダ語で？"
+ 答え: "Isahani"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ 質問: "何と言いますか 'Napkin' キニャルワンダ語で？"
+ 答え: "Agapapuro k'isuku"
+ xp_reward: 15
+
+ # Common Phrases
+ - id: 26
+ type: translation
+ 質問: "何と言いますか 'I would like に order 食べ物' キニャルワンダ語で？"
+ 答え: "Ndashaka gutumiza ibiryo."
+ xp_reward: 18
+
+ - id: 27
+ type: translation
+ 質問: "どう聞きますか 'Can I みる  menu?' キニャルワンダ語で？"
+ 答え: "Nshobora kubona ikarita y'ibiryo?"
+ xp_reward: 18
+
+ - id: 28
+ type: translation
+ 質問: "何と言いますか 'I ほしい 水' キニャルワンダ語で？"
+ 答え: "Ndashaka amazi."
+ xp_reward: 12
+
+ - id: 29
+ type: translation
+ 質問: "何と言いますか 'I ほしい coffee' キニャルワンダ語で？"
+ 答え: "Ndashaka ikawa."
+ xp_reward: 12
+
+ - id: 30
+ type: translation
+ 質問: "どう聞きますか 'Can I have  bill?' キニャルワンダ語で？"
+ 答え: "Nshobora kubona ibarura?"
+ xp_reward: 15
+
+ - id: 31
+ type: translation
+ 質問: "何と言いますか ' 食べ物 です delicious' キニャルワンダ語で？"
+ 答え: "Ibiryo biraryoshye."
+ xp_reward: 15
+
+ - id: 32
+ type: translation
+ 質問: "どう聞きますか 'Do you have vegetarian 食べ物?' キニャルワンダ語で？"
+ 答え: "Mufite ibiryo by'abatarya inyama?"
+ xp_reward: 20
+
+ - id: 33
+ type: translation
+ 質問: "何と言いますか 'I am allergic に nuts' キニャルワンダ語で？"
+ 答え: "Mfite allergie ku binyamisogwe."
+ xp_reward: 20
+
+ - id: 34
+ type: translation
+ 質問: "何と言いますか 'Table のために two, おねがい' キニャルワンダ語で？"
+ 答え: "Ameza y'abantu babiri, ndabinginze."
+ xp_reward: 18
+
+ - id: 35
+ type: translation
+ 質問: "どう聞きますか 'Can I sit here?' キニャルワンダ語で？"
+ 答え: "Nshobora kwicara hano?"
+ xp_reward: 15
+
+ # 文 About たべる
+ - id: 36
+ type: translation
+ 質問: "何と言いますか 'I am たべる rice' キニャルワンダ語で？"
+ 答え: "Ndirya umuceri."
+ xp_reward: 15
+
+ - id: 37
+ type: translation
+ 質問: "何と言いますか 'She です のむ juice' キニャルワンダ語で？"
+ 答え: "Ari kunywa jus."
+ xp_reward: 15
+
+ - id: 38
+ type: translation
+ 質問: "何と言いますか 'We です ordering 食べ物' キニャルワンダ語で？"
+ 答え: "Turimo gutumiza ibiryo."
+ xp_reward: 18
+
+ - id: 39
+ type: translation
+ 質問: "何と言いますか 'He likes coffee' キニャルワンダ語で？"
+ 答え: "Akunda ikawa."
+ xp_reward: 12
+
+ - id: 40
+ type: translation
+ 質問: "何と言いますか 'They です sharing  dessert' キニャルワンダ語で？"
+ 答え: "Barimo gusangira ibiryo by'inyongera."
+ xp_reward: 20
+
+ - id: 41
+ type: translation
+ 質問: "何と言いますか ' レストラン です busy' キニャルワンダ語で？"
+ 答え: "Resitora irakomeye."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 42
+ type: multiple_choice
+ 質問: "何を意味しますか 'Resitora' という意味ですか"
+ options:
+ - "Menu"
+ - "レストラン"
+ - "Table"
+ - "Chair"
+ 答え: "レストラン"
+ xp_reward: 15
+
+ - id: 43
+ type: multiple_choice
+ 質問: "何を意味しますか 'Ikarita y'ibiryo' という意味ですか"
+ options:
+ - "Bill"
+ - "Menu"
+ - "Plate"
+ - "Fork"
+ 答え: "Menu"
+ xp_reward: 15
+
+ - id: 44
+ type: multiple_choice
+ 質問: "何を意味しますか 'Ameza' という意味ですか"
+ options:
+ - "Chair"
+ - "Table"
+ - "Plate"
+ - "Spoon"
+ 答え: "Table"
+ xp_reward: 15
+
+ - id: 45
+ type: multiple_choice
+ 質問: "何を意味しますか 'Ikawa' という意味ですか"
+ options:
+ - "Tea"
+ - "Coffee"
+ - "Juice"
+ - "水"
+ 答え: "Coffee"
+ xp_reward: 15
+
+ - id: 46
+ type: multiple_choice
+ 質問: "何を意味しますか 'Ibarura' という意味ですか"
+ options:
+ - "Menu"
+ - "Bill"
+ - "Tip"
+ - "Order"
+ 答え: "Bill"
+ xp_reward: 15
+
+ - id: 47
+ type: multiple_choice
+ 質問: "何を意味しますか 'Nshobora kubona ikarita y'ibiryo?' という意味ですか"
+ options:
+ - "Can I have  bill?"
+ - "Can I みる  menu?"
+ - "Can I sit here?"
+ - "Do you have vegetarian 食べ物?"
+ 答え: "Can I みる  menu?"
+ xp_reward: 18
+
+ - id: 48
+ type: multiple_choice
+ 質問: "何を意味しますか 'Ibiryo biraryoshye' という意味ですか"
+ options:
+ - " 食べ物 です cold"
+ - " 食べ物 です delicious"
+ - " 食べ物 です expensive"
+ - " 食べ物 です spicy"
+ 答え: " 食べ物 です delicious"
+ xp_reward: 18
+
+ # 3. 聞く と Type (Dictation)
+ - id: 49
+ type: listen_と_type
+ 質問: "聞く と type  レストラン word"
+ audio: "Resitora"
+ 答え: "Resitora"
+ translation: "レストラン"
+ xp_reward: 20
+
+ - id: 50
+ type: listen_と_type
+ 質問: "聞く と type  レストラン word"
+ audio: "Ameza"
+ 答え: "Ameza"
+ translation: "Table"
+ xp_reward: 20
+
+ - id: 51
+ type: listen_と_type
+ 質問: "聞く と type  レストラン word"
+ audio: "Ikawa"
+ 答え: "Ikawa"
+ translation: "Coffee"
+ xp_reward: 20
+
+ - id: 52
+ type: listen_と_type
+ 質問: "聞く と type  レストラン word"
+ audio: "Ibarura"
+ 答え: "Ibarura"
+ translation: "Bill"
+ xp_reward: 20
+
+ - id: 53
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ audio: "Ndashaka amazi"
+ 答え: "Ndashaka amazi"
+ translation: "I ほしい 水"
+ xp_reward: 22
+
+ 
+ - id: 55
+ type: listen_と_type
+ 質問: "聞く と type  文"
+ audio: "Ibiryo biraryoshye"
+ 答え: "Ibiryo biraryoshye"
+ translation: " 食べ物 です delicious"
+ xp_reward: 22
+
+
+
+ # 4. 聞く と 選ぶ
+ - id: 57
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct word"
+ audio: "Resitora"
+ options:
+ - "Menu"
+ - "レストラン"
+ - "Table"
+ 答え: "レストラン"
+ xp_reward: 15
+
+ - id: 58
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct word"
+ audio: "Ikawa"
+ options:
+ - "Tea"
+ - "Coffee"
+ - "Juice"
+ 答え: "Coffee"
+ xp_reward: 15
+
+ - id: 59
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct word"
+ audio: "Ibarura"
+ options:
+ - "Menu"
+ - "Bill"
+ - "Tip"
+ 答え: "Bill"
+ xp_reward: 15
+
+ - id: 60
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct phrase"
+ audio: "Ndashaka amazi"
+ options:
+ - "I ほしい coffee"
+ - "I ほしい 水"
+ - "I ほしい tea"
+ 答え: "I ほしい 水"
+ xp_reward: 18
+
+ 
+
+ # 5. Repeat / 話す Exercise
+ - id: 62
+ type: 話す
+ 質問: "Say これ レストラン word"
+ prompt: "Resitora"
+ translation: "レストラン"
+ xp_reward: 15
+
+ - id: 63
+ type: 話す
+ 質問: "Say これ レストラン word"
+ prompt: "Ameza"
+ translation: "Table"
+ xp_reward: 15
+
+ - id: 64
+ type: 話す
+ 質問: "Say これ レストラン word"
+ prompt: "Ikawa"
+ translation: "Coffee"
+ xp_reward: 15
+
+ - id: 65
+ type: 話す
+ 質問: "Say これ レストラン word"
+ prompt: "Ibarura"
+ translation: "Bill"
+ xp_reward: 15
+
+ - id: 66
+ type: 話す
+ 質問: "Say これ phrase"
+ prompt: "Ndashaka amazi"
+ translation: "I ほしい 水"
+ xp_reward: 18
+
+ - id: 67
+ type: 話す
+ 質問: "Say これ phrase"
+ prompt: "Ibiryo biraryoshye"
+ translation: " 食べ物 です delicious"
+ xp_reward: 18
+
+ 
+
+ - id: 69
+ type: 話す
+ 質問: "Say これ request"
+ prompt: "Ameza yabantu babiri ndabinginze"
+ translation: "Table のために two, おねがい"
+ xp_reward: 20
+
+ # 6. Word Bank 文 Building - PIECES PROVIDED
+ - id: 70
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'I ほしい 水'"
+ word_bank: ["Ndashaka", "amazi", "ikawa", "icyayi", "jus"]
+ correct_answer: ["Ndashaka", "amazi"]
+ xp_reward: 15
+
+ - id: 71
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'I ほしい coffee'"
+ word_bank: ["Ndashaka", "ikawa", "amazi", "icyayi", "jus"]
+ correct_answer: ["Ndashaka", "ikawa"]
+ xp_reward: 15
+
+ - id: 72
+ type: word_bank
+ 質問: "Build  Kinyarwanda 質問 'Can I みる  menu?'"
+ word_bank: ["Nshobora", "kubona", "ikarita", "y'ibiryo", "ibarura"]
+ correct_answer: ["Nshobora", "kubona", "ikarita", "y'ibiryo"]
+ xp_reward: 20
+
+ - id: 73
+ type: word_bank
+ 質問: "Build  Kinyarwanda 質問 'Can I have  bill?'"
+ word_bank: ["Nshobora", "kubona", "ibarura", "ikarita", "y'ibiryo"]
+ correct_answer: ["Nshobora", "kubona", "ibarura"]
+ xp_reward: 18
+
+ - id: 74
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' 食べ物 です delicious'"
+ word_bank: ["Ibiryo", "biraryoshye", "birakomeye", "biraryoshe"]
+ correct_answer: ["Ibiryo", "biraryoshye"]
+ xp_reward: 15
+
+ - id: 75
+ type: word_bank
+ 質問: "Build  Kinyarwanda request 'Table のために two, おねがい'"
+ word_bank: ["Ameza", "y'abantu", "babiri", "ndabinginze", "y'abantu", "batanu"]
+ correct_answer: ["Ameza", "y'abantu", "babiri", "ndabinginze"]
+ xp_reward: 20
+
+ - id: 76
+ type: word_bank
+ 質問: "Build  Kinyarwanda 質問 'Can I sit here?'"
+ word_bank: ["Nshobora", "kwicara", "hano", "kubona", "ikarita"]
+ correct_answer: ["Nshobora", "kwicara", "hano"]
+ xp_reward: 15
+
+ - id: 77
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'I am たべる rice'"
+ word_bank: ["Ndirya", "umuceri", "ndarya", "ibiryo", "nnywa"]
+ correct_answer: ["Ndirya", "umuceri"]
+ xp_reward: 15
+
+ - id: 78
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'She です のむ juice'"
+ word_bank: ["Ari", "kunywa", "jus", "ikawa", "icyayi"]
+ correct_answer: ["Ari", "kunywa", "jus"]
+ xp_reward: 18
+
+ - id: 79
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'We です ordering 食べ物'"
+ word_bank: ["Turimo", "gutumiza", "ibiryo", "iby'inyongera", "iby'abatarya"]
+ correct_answer: ["Turimo", "gutumiza", "ibiryo"]
+ xp_reward: 18
+
+ - id: 80
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'He likes coffee'"
+ word_bank: ["Akunda", "ikawa", "icyayi", "jus", "amazi"]
+ correct_answer: ["Akunda", "ikawa"]
+ xp_reward: 12
+
+ - id: 81
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' レストラン です busy'"
+ word_bank: ["Resitora", "irakomeye", "ni nini", "ni nziza"]
+ correct_answer: ["Resitora", "irakomeye"]
+ xp_reward: 15
+
+ # 7. 文 Scramble - PIECES PROVIDED
+ - id: 82
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Ndashaka", "amazi"]
+ correct_sentence: "Ndashaka amazi."
+ translation: "I ほしい 水."
+ xp_reward: 12
+
+ - id: 83
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Ndashaka", "ikawa"]
+ correct_sentence: "Ndashaka ikawa."
+ translation: "I ほしい coffee."
+ xp_reward: 12
+
+ - id: 84
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 質問"
+ scrambled_words: ["kubona", "Nshobora", "ikarita", "y'ibiryo"]
+ correct_sentence: "Nshobora kubona ikarita y'ibiryo?"
+ translation: "Can I みる  menu?"
+ xp_reward: 20
+
+ - id: 85
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 質問"
+ scrambled_words: ["kubona", "Nshobora", "ibarura"]
+ correct_sentence: "Nshobora kubona ibarura?"
+ translation: "Can I have  bill?"
+ xp_reward: 18
+
+ - id: 86
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Ibiryo", "biraryoshye"]
+ correct_sentence: "Ibiryo biraryoshye."
+ translation: " 食べ物 です delicious."
+ xp_reward: 15
+
+ - id: 87
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct request"
+ scrambled_words: ["y'abantu", "Ameza", "babiri", "ndabinginze"]
+ correct_sentence: "Ameza y'abantu babiri, ndabinginze."
+ translation: "Table のために two, おねがい."
+ xp_reward: 20
+
+ - id: 88
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 質問"
+ scrambled_words: ["kwicara", "Nshobora", "hano"]
+ correct_sentence: "Nshobora kwicara hano?"
+ translation: "Can I sit here?"
+ xp_reward: 15
+
+ - id: 89
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Ndirya", "umuceri"]
+ correct_sentence: "Ndirya umuceri."
+ translation: "I am たべる rice."
+ xp_reward: 15
+
+ - id: 90
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Ari", "kunywa", "jus"]
+ correct_sentence: "Ari kunywa jus."
+ translation: "She です のむ juice."
+ xp_reward: 18
+
+ - id: 91
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Turimo", "gutumiza", "ibiryo"]
+ correct_sentence: "Turimo gutumiza ibiryo."
+ translation: "We です ordering 食べ物."
+ xp_reward: 18
+
+ - id: 92
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Akunda", "ikawa"]
+ correct_sentence: "Akunda ikawa."
+ translation: "He likes coffee."
+ xp_reward: 12
+
+ - id: 93
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Resitora", "irakomeye"]
+ correct_sentence: "Resitora irakomeye."
+ translation: " レストラン です busy."
+ xp_reward: 15
+
+ # 8. Fill で  Blank - 選ぶ FROM OPTIONS
+ - id: 94
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Ndashaka ___."
+ options: ["amazi", "ibiryo", "ikawa"]
+ correct_answer: "amazi"
+ translation: "I ほしい 水."
+ xp_reward: 10
+
+ - id: 95
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Ndashaka ___."
+ options: ["ikawa", "amazi", "icyayi"]
+ correct_answer: "ikawa"
+ translation: "I ほしい coffee."
+ xp_reward: 10
+
+ - id: 96
+ type: fill_blank
+ 質問: "Complete  質問"
+ text_と_blank: "Nshobora kubona ___ y'ibiryo?"
+ options: ["ikarita", "ibarura", "Ameza"]
+ correct_answer: "ikarita"
+ translation: "Can I みる  menu?"
+ xp_reward: 15
+
+ - id: 97
+ type: fill_blank
+ 質問: "Complete  質問"
+ text_と_blank: "Nshobora kubona ___?"
+ options: ["ibarura", "ikarita", "amazi"]
+ correct_answer: "ibarura"
+ translation: "Can I have  bill?"
+ xp_reward: 15
+
+ - id: 98
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Ibiryo ___."
+ options: ["biraryoshye", "birakomeye", "biraryoshe"]
+ correct_answer: "biraryoshye"
+ translation: " 食べ物 です delicious."
+ xp_reward: 12
+
+ - id: 99
+ type: fill_blank
+ 質問: "Complete  request"
+ text_と_blank: "Ameza y'abantu ___ ndabinginze."
+ options: ["babiri", "batanu", "batatu"]
+ correct_answer: "babiri"
+ translation: "Table のために two, おねがい."
+ xp_reward: 15
+
+ - id: 100
+ type: fill_blank
+ 質問: "Complete  質問"
+ text_と_blank: "Nshobora kwicara ___?"
+ options: ["hano", "hariya", "hose"]
+ correct_answer: "hano"
+ translation: "Can I sit here?"
+ xp_reward: 12
+
+ - id: 101
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Ndirya ___."
+ options: ["umuceri", "ibiryo", "inyama"]
+ correct_answer: "umuceri"
+ translation: "I am たべる rice."
+ xp_reward: 12
+
+ - id: 102
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Ari kunywa ___."
+ options: ["jus", "ikawa", "amazi"]
+ correct_answer: "jus"
+ translation: "She です のむ juice."
+ xp_reward: 15
+
+ - id: 103
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Turimo gutumiza ___."
+ options: ["ibiryo", "ifunguro", "iby'inyongera"]
+ correct_answer: "ibiryo"
+ translation: "We です ordering 食べ物."
+ xp_reward: 15
+
+ - id: 104
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Akunda ___."
+ options: ["ikawa", "icyayi", "jus"]
+ correct_answer: "ikawa"
+ translation: "He likes coffee."
+ xp_reward: 10
+
+ - id: 105
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Resitora ___."
+ options: ["irakomeye", "ni nini", "ni nziza"]
+ correct_answer: "irakomeye"
+ translation: " レストラン です busy."
+ xp_reward: 12
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 106
+ type: picture_word
+ 質問: "これは何ですか これ place?"
+ image_url: "https://source.unsplash.com/featured/?restaurant"
+ options: ["Resitora", "Ameza", "Ikarita"]
+ correct_answer: "Resitora"
+ xp_reward: 10
+
+ - id: 107
+ type: picture_word
+ 質問: "これは何ですか これ furniture?"
+ image_url: "https://source.unsplash.com/featured/?table"
+ options: ["Ameza", "Intebe", "Ikarita"]
+ correct_answer: "Ameza"
+ xp_reward: 10
+
+ - id: 108
+ type: picture_word
+ 質問: "これは何ですか これ furniture?"
+ image_url: "https://source.unsplash.com/featured/?chair"
+ options: ["Intebe", "Ameza", "Iforoke"]
+ correct_answer: "Intebe"
+ xp_reward: 10
+
+ - id: 109
+ type: picture_word
+ 質問: "What のむ です これ?"
+ image_url: "https://source.unsplash.com/featured/?coffee"
+ options: ["Ikawa", "Icyayi", "Jus"]
+ correct_answer: "Ikawa"
+ xp_reward: 10
+
+ - id: 110
+ type: picture_word
+ 質問: "What のむ です これ?"
+ image_url: "https://source.unsplash.com/featured/?tea"
+ options: ["Icyayi", "Ikawa", "Amazi"]
+ correct_answer: "Icyayi"
+ xp_reward: 10
+
+ - id: 111
+ type: picture_word
+ 質問: "What のむ です これ?"
+ image_url: "https://source.unsplash.com/featured/?juice"
+ options: ["Jus", "Amazi", "Amata"]
+ correct_answer: "Jus"
+ xp_reward: 10
+
+ - id: 112
+ type: picture_word
+ 質問: "What utensil です これ?"
+ image_url: "https://source.unsplash.com/featured/?fork"
+ options: ["Iforoke", "Ikiyiko", "Icyuma"]
+ correct_answer: "Iforoke"
+ xp_reward: 10
+
+ - id: 113
+ type: picture_word
+ 質問: "What utensil です これ?"
+ image_url: "https://source.unsplash.com/featured/?spoon"
+ options: ["Ikiyiko", "Iforoke", "Isahani"]
+ correct_answer: "Ikiyiko"
+ xp_reward: 10
+
+ - id: 114
+ type: picture_word
+ 質問: "What utensil です これ?"
+ image_url: "https://source.unsplash.com/featured/?knife"
+ options: ["Icyuma cyo gukata", "Iforoke", "Ikiyiko"]
+ correct_answer: "Icyuma cyo gukata"
+ xp_reward: 12
+
+ - id: 115
+ type: picture_word
+ 質問: "これは何ですか これ?"
+ image_url: "https://source.unsplash.com/featured/?plate"
+ options: ["Isahani", "Ikiyiko", "Iforoke"]
+ correct_answer: "Isahani"
+ xp_reward: 10
+
+ - id: 116
+ type: picture_word
+ 質問: "これは何ですか これ?"
+ image_url: "https://source.unsplash.com/featured/?napkin"
+ options: ["Agapapuro k'isuku", "Ikiyiko", "Isahani"]
+ correct_answer: "Agapapuro k'isuku"
+ xp_reward: 12
+
+ # 10. Word 一致させる (Pairing)
+ - id: 117
+ type: 一致させる
+ 質問: "一致させる  レストラン 語彙"
+ pairs:
+ - 左: "レストラン"
+ 右: "Resitora"
+ - 左: "Menu"
+ 右: "Ikarita y'ibiryo"
+ - 左: "Table"
+ 右: "Ameza"
+ - 左: "Chair"
+ 右: "Intebe"
+ - 左: "Waiter"
+ 右: "Umukozi wa resitora"
+ - 左: "Customer"
+ 右: "Umukiriya"
+ - 左: "Order"
+ 右: "Gutumiza"
+ xp_reward: 25
+
+ - id: 118
+ type: 一致させる
+ 質問: "一致させる  のむ"
+ pairs:
+ - 左: "水"
+ 右: "Amazi"
+ - 左: "Juice"
+ 右: "Jus"
+ - 左: "Coffee"
+ 右: "Ikawa"
+ - 左: "Tea"
+ 右: "Icyayi"
+ xp_reward: 15
+
+ - id: 119
+ type: 一致させる
+ 質問: "一致させる  meals"
+ pairs:
+ - 左: "Breakfast"
+ 右: "Ifunguro rya mu gitondo"
+ - 左: "Lunch"
+ 右: "Ifunguro rya saa sita"
+ - 左: "Dinner"
+ 右: "Ifunguro rya nimugoroba"
+ - 左: "Dessert"
+ 右: "Ibiribwa by'inyongera"
+ xp_reward: 20
+
+ - id: 120
+ type: 一致させる
+ 質問: "一致させる  utensils"
+ pairs:
+ - 左: "Fork"
+ 右: "Iforoke"
+ - 左: "Knife"
+ 右: "Icyuma cyo gukata"
+ - 左: "Spoon"
+ 右: "Ikiyiko"
+ - 左: "Plate"
+ 右: "Isahani"
+ - 左: "Napkin"
+ 右: "Agapapuro k'isuku"
+ xp_reward: 18
+
+ - id: 121
+ type: 一致させる
+ 質問: "一致させる  common phrases"
+ pairs:
+ - 左: "I ほしい 水"
+ 右: "Ndashaka amazi"
+ - 左: "Can I みる  menu?"
+ 右: "Nshobora kubona ikarita y'ibiryo?"
+ - 左: "Can I have  bill?"
+ 右: "Nshobora kubona ibarura?"
+ - 左: " 食べ物 です delicious"
+ 右: "Ibiryo biraryoshye"
+ - 左: "Table のために two"
+ 右: "Ameza y'abantu babiri"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED  PER PREVIOUS PATTERN
+
+ # 12. 選ぶ Missing Word
+ - id: 122
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Ndashaka ___."
+ missing_word_position: 2
+ options: ["amazi", "ibiryo", "ikawa"]
+ correct_answer: "amazi"
+ translation: "I ほしい 水."
+ xp_reward: 10
+
+ - id: 123
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Nshobora kubona ___ y'ibiryo?"
+ missing_word_position: 3
+ options: ["ikarita", "ibarura", "Ameza"]
+ correct_answer: "ikarita"
+ translation: "Can I みる  menu?"
+ xp_reward: 15
+
+ - id: 124
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Nshobora kubona ___?"
+ missing_word_position: 3
+ options: ["ibarura", "ikarita", "amazi"]
+ correct_answer: "ibarura"
+ translation: "Can I have  bill?"
+ xp_reward: 15
+
+ - id: 125
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Ibiryo ___."
+ missing_word_position: 2
+ options: ["biraryoshye", "birakomeye", "biraryoshe"]
+ correct_answer: "biraryoshye"
+ translation: " 食べ物 です delicious."
+ xp_reward: 12
+
+ - id: 126
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Ameza y'abantu ___ ndabinginze."
+ missing_word_position: 3
+ options: ["babiri", "batanu", "batatu"]
+ correct_answer: "babiri"
+ translation: "Table のために two, おねがい."
+ xp_reward: 15
+
+ - id: 127
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Ndirya ___."
+ missing_word_position: 2
+ options: ["umuceri", "ibiryo", "inyama"]
+ correct_answer: "umuceri"
+ translation: "I am たべる rice."
+ xp_reward: 12
+
+ # 13. 読む と 答え - 質問 based に text
+ - id: 128
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Ndashaka amazi. Nshobora kubona ikarita y'ibiryo?"
+ 質問: "何を意味しますか  person ほしい に のむ?"
+ options: ["Coffee", "水", "Tea", "Juice"]
+ correct_answer: "水"
+ xp_reward: 12
+
+ - id: 129
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Ibiryo biraryoshye. Ndirya umuceri. Ari kunywa jus."
+ 質問: "これは何ですか she のむ?"
+ options: ["水", "Coffee", "Juice", "Tea"]
+ correct_answer: "Juice"
+ xp_reward: 15
+
+ - id: 130
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Turimo gutumiza ibiryo. Akunda ikawa. Resitora irakomeye."
+ 質問: "です  レストラン busy?"
+ options: ["はい", "いいえ", "Maybe", "I don't しる"]
+ correct_answer: "はい"
+ xp_reward: 12
+
+ - id: 131
+ type: read_answer
+ 質問: "読む  conversation と 答え  質問"
+ text: ": Nshobora kubona ikarita y'ibiryo? B: Yego, nguyu."
+ 質問: "何を意味しますか person  ほしい?"
+ options: [" bill", " menu", "水", "Coffee"]
+ correct_answer: " menu"
+ xp_reward: 15
+
+ - id: 132
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Ameza y'abantu babiri, ndabinginze. Ndashaka ikawa."
+ 質問: "How many people です で  group?"
+ options: ["One", "Two", "Three", "Four"]
+ correct_answer: "Two"
+ xp_reward: 12
+
+ # 14. True / False
+ - id: 133
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Resitora means 'レストラン'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 134
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Ikarita y'ibiryo means 'bill'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 135
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Ikawa means 'coffee'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 136
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Nshobora kubona ibarura? means 'Can I みる  menu?'"
+ correct_answer: false
+ xp_reward: 12
+
+ - id: 137
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Ibiryo biraryoshye means ' 食べ物 です delicious'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 138
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Ameza y'abantu babiri means 'table のために three'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 139
+ type: conversation
+ 質問: "Respond に  waiter's 質問 by building  文"
+ bot_message: "Ushaka iki?"
+ translation: "What do you ほしい?"
+ word_bank: ["Ndashaka", "amazi", "ikawa", "ibiryo", "icyayi"]
+ correct_response: ["Ndashaka", "amazi"]
+ xp_reward: 15
+
+ - id: 140
+ type: conversation
+ 質問: "Respond に  質問"
+ bot_message: "Muraho! Mwifuza iki?"
+ translation: "こんにちは! What would you like?"
+ options:
+ - "Ndashaka amazi"
+ - "Ndashaka ikawa"
+ - "Ndashaka ibiryo"
+ correct_response: "Ndashaka amazi"
+ xp_reward: 12
+
+ - id: 141
+ type: conversation
+ 質問: "Ask のために  menu by building  質問"
+ bot_message: "Mwakora iki?"
+ translation: "What can I do のために you?"
+ word_bank: ["Nshobora", "kubona", "ikarita", "y'ibiryo", "ibarura"]
+ correct_response: ["Nshobora", "kubona", "ikarita", "y'ibiryo"]
+ xp_reward: 20
+
+ - id: 142
+ type: conversation
+ 質問: "Respond に  質問 about  食べ物"
+ bot_message: "Ibiryo bimeze bite?"
+ translation: "How です  食べ物?"
+ options:
+ - "Biraryoshye"
+ - "Birakomeye"
+ - "Ni byiza"
+ correct_response: "Biraryoshye"
+ xp_reward: 12
+
+ - id: 143
+ type: conversation
+ 質問: "Ask のために  bill by building  質問"
+ bot_message: "Ikindi?"
+ translation: "Anything else?"
+ word_bank: ["Nshobora", "kubona", "ibarura", "ikarita", "y'ibiryo"]
+ correct_response: ["Nshobora", "kubona", "ibarura"]
+ xp_reward: 18
+
+ # 16. Story Exercise - Build 文 from pieces
+ - id: 144
+ type: story
+ title: "At  レストラン - Kuri Resitora"
+ story_intro: "読む about dining at  レストラン. Then build  文."
+ story_segments:
+ - text: "We いく に  レストラン."
+ - text: "I ask のために  menu."
+ - text: "I ほしい 水."
+ - text: "She です のむ juice."
+ - text: "He likes coffee."
+ - text: "We です ordering 食べ物."
+ - text: " 食べ物 です delicious."
+ - text: "I ask のために  bill."
+ exercises:
+ - type: word_bank
+ 質問: "Build 'I ほしい 水'"
+ word_bank: ["Ndashaka", "amazi", "ikawa", "icyayi"]
+ correct_answer: ["Ndashaka", "amazi"]
+ - type: word_bank
+ 質問: "Build 'Can I みる  menu?'"
+ word_bank: ["Nshobora", "kubona", "ikarita", "y'ibiryo", "ibarura"]
+ correct_answer: ["Nshobora", "kubona", "ikarita", "y'ibiryo"]
+ - type: word_bank
+ 質問: "Build 'She です のむ juice'"
+ word_bank: ["Ari", "kunywa", "jus", "ikawa", "amazi"]
+ correct_answer: ["Ari", "kunywa", "jus"]
+ - type: word_bank
+ 質問: "Build 'He likes coffee'"
+ word_bank: ["Akunda", "ikawa", "icyayi", "jus"]
+ correct_answer: ["Akunda", "ikawa"]
+ - type: word_bank
+ 質問: "Build 'We です ordering 食べ物'"
+ word_bank: ["Turimo", "gutumiza", "ibiryo", "iby'inyongera"]
+ correct_answer: ["Turimo", "gutumiza", "ibiryo"]
+ - type: word_bank
+ 質問: "Build ' 食べ物 です delicious'"
+ word_bank: ["Ibiryo", "biraryoshye", "birakomeye", "biraryoshe"]
+ correct_answer: ["Ibiryo", "biraryoshye"]
+ - type: word_bank
+ 質問: "Build 'Can I have  bill?'"
+ word_bank: ["Nshobora", "kubona", "ibarura", "ikarita", "y'ibiryo"]
+ correct_answer: ["Nshobora", "kubona", "ibarura"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 145
+ type: pronunciation
+ 質問: "Say これ レストラン word"
+ prompt: "Resitora"
+ translation: "レストラン"
+ xp_reward: 15
+
+ - id: 146
+ type: pronunciation
+ 質問: "Say これ レストラン word"
+ prompt: "Ikawa"
+ translation: "Coffee"
+ xp_reward: 15
+
+ - id: 147
+ type: pronunciation
+ 質問: "Say これ phrase"
+ prompt: "Ndashaka amazi"
+ translation: "I ほしい 水"
+ xp_reward: 18
+
+ 
+ - id: 149
+ type: pronunciation
+ 質問: "Say これ phrase"
+ prompt: "Ibiryo biraryoshye"
+ translation: " 食べ物 です delicious"
+ xp_reward: 18
+
+ - id: 150
+ type: pronunciation
+ 質問: "Say これ request"
+ prompt: "Ameza yabantu babiri ndabinginze"
+ translation: "Table のために two, おねがい"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 151
+ type: identify_meaning
+ 質問: "何を意味しますか 'Ndashaka' mean で これ 文?"
+ context_sentence: "Ndashaka amazi."
+ word: "Ndashaka"
+ options: ["I たべる", "I のむ", "I ほしい", "I have"]
+ correct_answer: "I ほしい"
+ xp_reward: 15
+
+ - id: 152
+ type: identify_meaning
+ 質問: "何を意味しますか 'biraryoshye' mean で これ 文?"
+ context_sentence: "Ibiryo biraryoshye."
+ word: "biraryoshye"
+ options: ["です busy", "です delicious", "です expensive", "です cold"]
+ correct_answer: "です delicious"
+ xp_reward: 15
+
+ - id: 153
+ type: identify_meaning
+ 質問: "何を意味しますか 'irakomeye' mean で これ 文?"
+ context_sentence: "Resitora irakomeye."
+ word: "irakomeye"
+ options: ["です delicious", "です busy", "です おおきい", "です ちいさい"]
+ correct_answer: "です busy"
+ xp_reward: 15
+
+ - id: 154
+ type: identify_meaning
+ 質問: "何を意味しますか 'Nshobora kubona' という意味ですか"
+ context_sentence: "Nshobora kubona ikarita y'ibiryo?"
+ word: "Nshobora kubona"
+ options: ["I ほしい", "I can みる / I can have", "I たべる", "I のむ"]
+ correct_answer: "I can みる / I can have"
+ xp_reward: 18
+
+ - id: 155
+ type: identify_meaning
+ 質問: "何を意味しますか 'babiri' mean で これ 文?"
+ context_sentence: "Ameza y'abantu babiri."
+ word: "babiri"
+ options: ["one", "two", "three", "four"]
+ correct_answer: "two"
+ xp_reward: 12
+
+ # 19. Speed 一致させる
+ - id: 156
+ type: speed_一致させる
+ title: "一致させる Madness: レストラン"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "レストラン"
+ 右: "Resitora"
+ - 左: "Menu"
+ 右: "Ikarita y'ibiryo"
+ - 左: "Table"
+ 右: "Ameza"
+ - 左: "Coffee"
+ 右: "Ikawa"
+ - 左: "Tea"
+ 右: "Icyayi"
+ - 左: "水"
+ 右: "Amazi"
+ - 左: "Juice"
+ 右: "Jus"
+ - 左: "Bill"
+ 右: "Ibarura"
+ - 左: "Fork"
+ 右: "Iforoke"
+ - 左: "Spoon"
+ 右: "Ikiyiko"
+ - 左: "Plate"
+ 右: "Isahani"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 157
+ type: timed_challenge
+ title: "Lightning Round: レストラン"
+ time_limit_seconds: 30
+ 質問_count: 5
+ 質問:
+ - 質問: "レストラン"
+ 答え: "Resitora"
+ - 質問: "Menu"
+ 答え: "Ikarita y'ibiryo"
+ - 質問: "Coffee"
+ 答え: "Ikawa"
+ - 質問: "水"
+ 答え: "Amazi"
+ - 質問: "Bill"
+ 答え: "Ibarura"
+ xp_reward: 35
+
+# フラッシュカード
+ - id: 111
+ type: フラッシュカード
+ 質問: "フラッシュカード"
+ フラッシュカード:
+ - front: "Resitora"
+ back: "レストラン"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ikarita y'ibiryo"
+ back: "Menu"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Ameza"
+ back: "Table"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Intebe"
+ back: "Chair"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukozi wa resitora"
+ back: "Waiter"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukozi w'akazi ka resitora"
+ back: "Waitress"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukiriya"
+ back: "Customer"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Gutumiza"
+ back: "Order"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibiryo"
+ back: "食べ物"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ikiribwa"
+ back: "のむ"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

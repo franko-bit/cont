@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "Ionnsaich common greetings and expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe for single words/phrases)
+ - id: 1
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Halò' ann an Kinyarwanda?"
+ Freagairt: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Good morning' ann an Kinyarwanda?"
+ Freagairt: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Good afternoon / Good evening' ann an Kinyarwanda?"
+ Freagairt: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Good night' ann an Kinyarwanda?"
+ Freagairt: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Ceist: "Ciamar a dh'fhaighnich tu 'How are you?' ann an Kinyarwanda?"
+ Freagairt: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Ceist: "Ciamar a chanas tu 'I'm fine' ann an Kinyarwanda?"
+ Freagairt: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Welcome' ann an Kinyarwanda?"
+ Freagairt: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Ceist: "Ciamar a chanas tu 'See you later' ann an Kinyarwanda?"
+ Freagairt: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Mar sin leat' ann an Kinyarwanda?"
+ Freagairt: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Have a nice day' ann an Kinyarwanda?"
+ Freagairt: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Take care' ann an Kinyarwanda?"
+ Freagairt: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Long time no see' ann an Kinyarwanda?"
+ Freagairt: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Ceist: "Ciamar a dh'fhaighnich tu 'What's up?' ann an Kinyarwanda?"
+ Freagairt: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Nice to meet you' ann an Kinyarwanda?"
+ Freagairt: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings with Teaghlach Members (Simple combinations)
+ - id: 15
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Halò, mother!' ann an Kinyarwanda?"
+ Freagairt: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Good morning, father!' ann an Kinyarwanda?"
+ Freagairt: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Good night, my child!' ann an Kinyarwanda?"
+ Freagairt: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common Ceist (Fixed expressions)
+ - id: 18
+ type: translation
+ Ceist: "Ciamar a dh'fhaighnich tu 'How are you today?' ann an Kinyarwanda?"
+ Freagairt: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Ceist: "Ciamar a chanas tu 'I'm fine, thank you' ann an Kinyarwanda?"
+ Freagairt: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Ceist: "Ciamar a dh'fhaighnich tu 'What's up with you today?' ann an Kinyarwanda?"
+ Freagairt: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # NO DIRECT TRANSLATION FOR COMPLEX DIALOGUES OR PARAGRAPHS
+ # Instead, we use Seantans building, Co-thaorsaich, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Muraho' san abairt seo?"
+ options:
+ - "Mar sin leat"
+ - "Halò"
+ - "Good morning"
+ - "Good night"
+ Freagairt: "Halò"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Mwaramutse' san abairt seo?"
+ options:
+ - "Good evening"
+ - "Good morning"
+ - "Good night"
+ - "Mar sin leat"
+ Freagairt: "Good morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Amakuru' san abairt seo?"
+ options:
+ - "Mar sin leat"
+ - "Welcome"
+ - "How are you?"
+ - "See you later"
+ Freagairt: "How are you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Ni meza' san abairt seo?"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ Freagairt: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Murabeho' san abairt seo?"
+ options:
+ - "Halò"
+ - "Welcome"
+ - "Mar sin leat"
+ - "See you later"
+ Freagairt: "Mar sin leat"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Tuzasubira' san abairt seo?"
+ options:
+ - "Mar sin leat"
+ - "See you later"
+ - "Welcome back"
+ - "Take care"
+ Freagairt: "See you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Nishimiye kukubona' san abairt seo?"
+ options:
+ - "Good morning"
+ - "Nice to meet you"
+ - "Welcome"
+ - "Take care"
+ Freagairt: "Nice to meet you"
+ xp_reward: 18
+
+ # 3. Èist and Type (Dictation) - Safe because audio is provided
+ - id: 28
+ type: listen_and_type
+ Ceist: "Èist and type the greeting"
+ tts_text: "Muraho"
+ Freagairt: "Muraho"
+ translation: "Halò"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_and_type
+ Ceist: "Èist and type the greeting"
+ tts_text: "Mwaramutse"
+ Freagairt: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_and_type
+ Ceist: "Èist and type the greeting"
+ tts_text: "Mwiriwe"
+ Freagairt: "Mwiriwe"
+ translation: "Good afternoon / Good evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_and_type
+ Ceist: "Èist and type the phrase"
+ tts_text: "Ijoro ryiza"
+ Freagairt: "Ijoro ryiza"
+ translation: "Good night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_and_type
+ Ceist: "Èist and type the Ceist"
+ tts_text: "Amakuru"
+ Freagairt: "Amakuru"
+ translation: "How are you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Ceist: "Èist and type the response"
+ tts_text: "Ni meza"
+ Freagairt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Ceist: "Èist and type the phrase"
+ tts_text: "Murakaza neza"
+ Freagairt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_and_type
+ Ceist: "Èist and type the phrase"
+ tts_text: "Tuzasubira"
+ Freagairt: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Ceist: "Èist and type the phrase"
+ tts_text: "Murabeho"
+ Freagairt: "Murabeho"
+ translation: "Mar sin leat"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Ceist: "Èist and type the phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ Freagairt: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ Ceist: "Èist and type the phrase"
+ tts_text: "Nishimiye kukubona"
+ Freagairt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 25
+
+ # 4. Èist and Tagh
+ - id: 39
+ type: listen_and_choose
+ Ceist: "Èist and Tagh the correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "Mar sin leat"
+ - "Halò"
+ - "Good morning"
+ Freagairt: "Halò"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Ceist: "Èist and Tagh the correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "Good evening"
+ - "Good morning"
+ - "Good night"
+ Freagairt: "Good morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Ceist: "Èist and Tagh the correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "Good morning"
+ - "Good afternoon/evening"
+ - "Good night"
+ Freagairt: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Ceist: "Èist and Tagh the correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "Mar sin leat"
+ - "How are you?"
+ - "Welcome"
+ Freagairt: "How are you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Ceist: "Èist and Tagh the correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ Freagairt: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_and_choose
+ Ceist: "Èist and Tagh the correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "Halò"
+ - "Mar sin leat"
+ - "See you later"
+ Freagairt: "Mar sin leat"
+ xp_reward: 15
+
+ # 5. Repeat / Bruidhinn Exercise
+ - id: 45
+ type: Bruidhinn
+ Ceist: "Say this greeting"
+ prompt: "Muraho"
+ translation: "Halò"
+ xp_reward: 15
+
+ - id: 46
+ type: Bruidhinn
+ Ceist: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 15
+
+ - id: 47
+ type: Bruidhinn
+ Ceist: "Say this greeting"
+ prompt: "Mwiriwe"
+ translation: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: Bruidhinn
+ Ceist: "Say this phrase"
+ prompt: "Ijoro ryiza"
+ translation: "Good night"
+ xp_reward: 18
+
+ - id: 49
+ type: Bruidhinn
+ Ceist: "Ask 'How are you?' in Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How are you?"
+ xp_reward: 15
+
+ - id: 50
+ type: Bruidhinn
+ Ceist: "Say 'I'm fine' in Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: Bruidhinn
+ Ceist: "Say 'Welcome' in Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: Bruidhinn
+ Ceist: "Say 'See you later' in Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 18
+
+ - id: 53
+ type: Bruidhinn
+ Ceist: "Say 'Mar sin leat' in Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "Mar sin leat"
+ xp_reward: 15
+
+ - id: 54
+ type: Bruidhinn
+ Ceist: "Say 'Long time no see' in Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 22
+
+ - id: 55
+ type: Bruidhinn
+ Ceist: "Say 'Nice to meet you' in Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: Bruidhinn
+ Ceist: "Say 'Halò, mother!' in Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "Halò, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: Bruidhinn
+ Ceist: "Say 'Good morning, father!' in Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "Good morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank Seantans Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ Ceist: "Build the greeting for 'Halò, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Ceist: "Build the greeting for 'Good morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ Ceist: "Build the greeting for 'Good night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ Ceist: "Build the Ceist 'How are you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ Ceist: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ Ceist: "Build the farewell 'See you later at Sgoil'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Ceist: "Build the farewell 'Mar sin leat, see you A-màireach'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ Ceist: "Build the well-wish 'Have a nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Ceist: "Build the phrase 'Take care on your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ Ceist: "Build the greeting 'Long time no see, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Ceist: "Build the Ceist 'What's up with you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ Ceist: "Build the phrase 'Nice to meet you at the party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. Seantans Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "Halò, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "Good morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "Good night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Ceist"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "See you later at Sgoil."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "Mar sin leat, see you A-màireach."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have a nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care on your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time no see, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Ceist"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up with you today?"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Tagh FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ Ceist: "Complete the greeting"
+ text_with_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "Halò, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Ceist: "Complete the greeting"
+ text_with_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "Good morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ Ceist: "Complete the phrase"
+ text_with_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "Good night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Ceist: "Complete the Ceist"
+ text_with_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Ceist: "Complete the response"
+ text_with_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Ceist: "Complete the farewell"
+ text_with_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "See you later at Sgoil."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ Ceist: "Complete the farewell"
+ text_with_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "Mar sin leat, see you A-màireach."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ Ceist: "Complete the well-wish"
+ text_with_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ Ceist: "Complete the phrase"
+ text_with_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care on your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ Ceist: "Complete the greeting"
+ text_with_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time no see, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ Ceist: "Complete the Ceist"
+ text_with_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up with you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word Co-thaorsaich (Pairing)
+ - id: 98
+ type: Co-thaorsaich
+ Ceist: "Co-thaorsaich the greetings to their meanings"
+ pairs:
+ - Clì: "Muraho"
+ Deas: "Halò"
+ - Clì: "Mwaramutse"
+ Deas: "Good morning"
+ - Clì: "Mwiriwe"
+ Deas: "Good afternoon/evening"
+ - Clì: "Ijoro ryiza"
+ Deas: "Good night"
+ - Clì: "Amakuru"
+ Deas: "How are you?"
+ - Clì: "Ni meza"
+ Deas: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: Co-thaorsaich
+ Ceist: "Co-thaorsaich the farewells and well-wishes"
+ pairs:
+ - Clì: "Murabeho"
+ Deas: "Mar sin leat"
+ - Clì: "Tuzasubira"
+ Deas: "See you later"
+ - Clì: "Umunsi mwiza"
+ Deas: "Have a nice day"
+ - Clì: "Wirinde"
+ Deas: "Take care"
+ - Clì: "Hashize igihe tutabonanye"
+ Deas: "Long time no see"
+ - Clì: "Nishimiye kukubona"
+ Deas: "Nice to meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: Co-thaorsaich
+ Ceist: "Co-thaorsaich the phrases with Teaghlach members"
+ pairs:
+ - Clì: "Muraho, Mama!"
+ Deas: "Halò, mother!"
+ - Clì: "Mwaramutse, Data!"
+ Deas: "Good morning, father!"
+ - Clì: "Ijoro ryiza, mwana wanjye!"
+ Deas: "Good night, my child!"
+ - Clì: "Hashize igihe tutabonanye, nshuti yanjye"
+ Deas: "Long time no see, my friend"
+ xp_reward: 25
+
+ # 10. Tagh Missing Word
+ - id: 107
+ type: choose_missing
+ Ceist: "Tagh the missing word"
+ Seantans: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ Ceist: "Tagh the missing word"
+ Seantans: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ Ceist: "Tagh the missing word"
+ Seantans: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ # 11. Leugh and Freagairt - Ceist based on context
+ - id: 110
+ type: read_answer
+ Ceist: "Leugh the dialogue and Freagairt the Ceist"
+ text: "A: Muraho! Amakuru? B: Ni meza, murakoze."
+ Ceist: "How is person B?"
+ options: ["Brònach", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ Ceist: "Leugh the dialogue and Freagairt the Ceist"
+ text: "A: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ Ceist: "What time of day is it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ Ceist: "Leugh the dialogue and Freagairt the Ceist"
+ text: "A: Tuzasubira ku ishuri. B: Murabeho!"
+ Ceist: "Where will they see each other later?"
+ options: ["At home", "At Sgoil", "At work", "At the Margaidh"]
+ correct_answer: "At Sgoil"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "'Mwaramutse' is used in the morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "'Mwiriwe' is used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "'Murabeho' means Halò."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "'Nishimiye kukubona' means 'Nice to meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Ceist: "Respond to the greeting by building a Seantans"
+ bot_message: "Muraho! Amakuru?"
+ translation: "Halò! How are you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ Ceist: "Tagh the appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "Good morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ Ceist: "Respond to the farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "See you later at Sgoil."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ Ceist: "Build a response to the Ceist"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build Seantans from pieces
+ - id: 121
+ type: story
+ title: "Meeting a Friend - Guhura n'inshuti"
+ story_intro: "Leugh the conversation. Then build the Seantans."
+ story_segments:
+ - text: "Person A says Halò."
+ - text: "Person A asks how they are."
+ - text: "Person B says they are fine and thanks them."
+ - text: "Person A says nice to meet them."
+ - text: "Person B welcomes them."
+ - text: "Person A says see you later."
+ - text: "Person B says Mar sin leat."
+ exercises:
+ - type: word_bank
+ Ceist: "Build the Kinyarwanda greeting for 'Halò!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ Ceist: "Build the Ceist 'How are you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ Ceist: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ Ceist: "Build the phrase 'Nice to meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ Ceist: "Build the farewell 'See you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ Ceist: "Build the farewell 'Mar sin leat'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Ceist: "Say this greeting"
+ prompt: "Muraho"
+ translation: "Halò"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Ceist: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Ceist: "Say this phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ Ceist: "Say this farewell"
+ prompt: "Murabeho"
+ translation: "Mar sin leat"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ Ceist: "Dè tha e a' ciallachadh 'Muraho' san abairt seo?"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["Mar sin leat", "Halò", "Thank you", "Welcome"]
+ correct_answer: "Halò"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ Ceist: "Dè tha e a' ciallachadh 'murakoze' mean in this Seantans?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["please", "thank you", "welcome", "Mar sin leat"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ Ceist: "Dè tha e a' ciallachadh 'Mwiriwe' san abairt seo?"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["Good morning", "Good afternoon/evening", "Good night", "Halò"]
+ correct_answer: "Good afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed Co-thaorsaich
+ - id: 129
+ type: speed_Co-thaorsaich
+ title: "Co-thaorsaich Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - Clì: "Halò"
+ Deas: "Muraho"
+ - Clì: "Good morning"
+ Deas: "Mwaramutse"
+ - Clì: "Good afternoon"
+ Deas: "Mwiriwe"
+ - Clì: "Good night"
+ Deas: "Ijoro ryiza"
+ - Clì: "How are you?"
+ Deas: "Amakuru"
+ - Clì: "I'm fine"
+ Deas: "Ni meza"
+ - Clì: "Welcome"
+ Deas: "Murakaza neza"
+ - Clì: "See you later"
+ Deas: "Tuzasubira"
+ - Clì: "Mar sin leat"
+ Deas: "Murabeho"
+ - Clì: "Take care"
+ Deas: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ Ceist_count: 5
+ Ceist:
+ - Ceist: "Halò"
+ Freagairt: "Muraho"
+ - Ceist: "Good morning"
+ Freagairt: "Mwaramutse"
+ - Ceist: "Good night"
+ Freagairt: "Ijoro ryiza"
+ - Ceist: "How are you?"
+ Freagairt: "Amakuru"
+ - Ceist: "Mar sin leat"
+ Freagairt: "Murabeho"
+ xp_reward: 35
+
+# Cairtean
+ - id: 111
+ type: Cairtean
+ Ceist: "Cairtean"
+ Cairtean:
+ - front: "Muraho"
+ back: "Halò"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "Good morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "Good afternoon / Good evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "Good night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How are you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "See you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "Mar sin leat"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have a nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

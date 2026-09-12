@@ -1,0 +1,1028 @@
+lesson:
+ name: "Conditionals - Imyitwarire y'Ahazaza"
+ description: "Jifunze how kwa express conditions na possibilities katika Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Msamiati ONLY (Safe kwa single words/phrases)
+ # Basic Conditional Words
+ - id: 1
+ type: translation
+ Swali: "Unasemaje 'If' kwa Kinyarwanda?"
+ Jibu: "Niba"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Swali: "Unasemaje 'When' kwa Kinyarwanda?"
+ Jibu: "Iyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Swali: "Unasemaje 'Unless' kwa Kinyarwanda?"
+ Jibu: "Keretse"
+ note: "Also expressed moja 'Nti... niba'"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Swali: "Unasemaje 'Then' kwa Kinyarwanda?"
+ Jibu: "Hanyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Swali: "Unasemaje 'Might' kwa Kinyarwanda?"
+ Jibu: "Ashobora"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Swali: "Unasemaje 'Will' kwa Kinyarwanda?"
+ Jibu: "Azakora"
+ note: "Also 'Azaba' depending juu context"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Swali: "Unasemaje 'Would' kwa Kinyarwanda?"
+ Jibu: "Byaba"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Swali: "Unasemaje 'Could' kwa Kinyarwanda?"
+ Jibu: "Bashobora"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Swali: "Unasemaje 'Should' kwa Kinyarwanda?"
+ Jibu: "Bikwiye"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Swali: "Unasemaje 'Can' kwa Kinyarwanda?"
+ Jibu: "Ashobora"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Swali: "Unasemaje 'Impossible' kwa Kinyarwanda?"
+ Jibu: "Ntibishoboka"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Swali: "Unasemaje 'Possible' kwa Kinyarwanda?"
+ Jibu: "Birashoboka"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Swali: "Unasemaje 'Before' kwa Kinyarwanda?"
+ Jibu: "Mbere y'uko"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Swali: "Unasemaje 'After' kwa Kinyarwanda?"
+ Jibu: "Nyuma y'uko"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Swali: "Unasemaje 'Always' kwa Kinyarwanda?"
+ Jibu: "Buri gihe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Swali: "Unasemaje 'Never' kwa Kinyarwanda?"
+ Jibu: "Nta na rimwe"
+ xp_reward: 10
+
+ # Translation - Common Conditional Phrases
+ - id: 17
+ type: translation
+ Swali: "Unasemaje 'If it rains, I will stay home' kwa Kinyarwanda?"
+ Jibu: "Niba imvura iguye, nzaguma mu rugo."
+ xp_reward: 20
+
+ - id: 18
+ type: translation
+ Swali: "Unasemaje 'If I kwenda kwa Kigali, I will visit my friend' kwa Kinyarwanda?"
+ Jibu: "Niba ngiye i Kigali, nzasura inshuti yanjye."
+ xp_reward: 20
+
+ - id: 19
+ type: translation
+ Swali: "Unasemaje 'If you study, you will succeed' kwa Kinyarwanda?"
+ Jibu: "Niba wiga, uzatsinda."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ Swali: "Unasemaje 'If he kuja, we will start ya meeting' kwa Kinyarwanda?"
+ Jibu: "Niba aje, tuzatangira inama."
+ xp_reward: 20
+
+ - id: 21
+ type: translation
+ Swali: "Unasemaje 'Unless you hurry, you will miss ya bus' kwa Kinyarwanda?"
+ Jibu: "Ntiwihutira, uzacika bisi."
+ xp_reward: 20
+
+ - id: 22
+ type: translation
+ Swali: "Unasemaje 'If I had money, I would buy moja car' kwa Kinyarwanda?"
+ Jibu: "Niba nari mfite amafaranga, nari kugura imodoka."
+ xp_reward: 22
+
+ - id: 23
+ type: translation
+ Swali: "Unasemaje 'If she walikuwa here, she could help' kwa Kinyarwanda?"
+ Jibu: "Iyo yari hano, yashoboraga gufasha."
+ xp_reward: 22
+
+ - id: 24
+ type: translation
+ Swali: "Unasemaje 'I would Safari if I had more time' kwa Kinyarwanda?"
+ Jibu: "Nari gutembera iyo nari mfite igihe kinini."
+ xp_reward: 22
+
+ - id: 25
+ type: translation
+ Swali: "Unasemaje 'You should kula before leaving' kwa Kinyarwanda?"
+ Jibu: "Bikwiye ko urya mbere yo kugenda."
+ xp_reward: 20
+
+ - id: 26
+ type: translation
+ Swali: "Unasemaje 'If it ni possible, I will kuja Kesho' kwa Kinyarwanda?"
+ Jibu: "Niba bishoboka, nzaza ejo."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Niba' kwa sentensi hii?"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ - "After"
+ Jibu: "If"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Iyo' kwa sentensi hii?"
+ options:
+ - "If"
+ - "When"
+ - "Then"
+ - "Before"
+ Jibu: "When"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Hanyuma' kwa sentensi hii?"
+ options:
+ - "Before"
+ - "After"
+ - "Then"
+ - "When"
+ Jibu: "Then"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Birashoboka' kwa sentensi hii?"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ - "Never"
+ Jibu: "Possible"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Ntibishoboka' kwa sentensi hii?"
+ options:
+ - "Possible"
+ - "Impossible"
+ - "Always"
+ - "Never"
+ Jibu: "Impossible"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Buri gihe' kwa sentensi hii?"
+ options:
+ - "Never"
+ - "Always"
+ - "Sometimes"
+ - "Often"
+ Jibu: "Always"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Nta na rimwe' kwa sentensi hii?"
+ options:
+ - "Always"
+ - "Sometimes"
+ - "Never"
+ - "Often"
+ Jibu: "Never"
+ xp_reward: 15
+
+ # 3. Sikiliza na Type (Dictation)
+ - id: 34
+ type: listen_na_type
+ Swali: "Sikiliza na type ya word"
+ audio: "Niba"
+ Jibu: "Niba"
+ translation: "If"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_na_type
+ Swali: "Sikiliza na type ya word"
+ audio: "Iyo"
+ Jibu: "Iyo"
+ translation: "When"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_na_type
+ Swali: "Sikiliza na type ya word"
+ audio: "Birashoboka"
+ Jibu: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ audio: "Niba imvura iguye nzaguma mu rugo"
+ Jibu: "Niba imvura iguye nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ audio: "Niba wiga uzatsinda"
+ Jibu: "Niba wiga uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 22
+
+ - id: 39
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ audio: "Niba bishoboka nzaza ejo"
+ Jibu: "Niba bishoboka nzaza ejo"
+ translation: "If it ni possible, I will kuja Kesho"
+ xp_reward: 22
+
+ # 4. Sikiliza na Chagua
+ - id: 40
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct word"
+ audio: "Niba"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ Jibu: "If"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct word"
+ audio: "Birashoboka"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ Jibu: "Possible"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct phrase"
+ audio: "Niba wiga, uzatsinda"
+ options:
+ - "If you study, you will succeed"
+ - "If it rains, I will stay home"
+ - "If it ni possible, I will kuja"
+ Jibu: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 43
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct phrase"
+ audio: "Niba bishoboka, nzaza ejo"
+ options:
+ - "If it rains, I will stay home"
+ - "If it ni possible, I will kuja Kesho"
+ - "If you study, you will succeed"
+ Jibu: "If it ni possible, I will kuja Kesho"
+ xp_reward: 18
+
+ # 5. Repeat / Ongea Exercise
+ - id: 44
+ type: Ongea
+ Swali: "Say hii word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 45
+ type: Ongea
+ Swali: "Say hii word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 46
+ type: Ongea
+ Swali: "Say hii phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 20
+
+ - id: 47
+ type: Ongea
+ Swali: "Say hii phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 48
+ type: Ongea
+ Swali: "Say hii phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it ni possible, I will kuja Kesho"
+ xp_reward: 18
+
+ # 6. Word Bank Sentensi Building - PIECES PROVIDED
+ - id: 49
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo", "nzaza"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ xp_reward: 22
+
+ - id: 50
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'If I kwenda kwa Kigali, I will visit my friend'"
+ word_bank: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ correct_answer: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ xp_reward: 25
+
+ - id: 51
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira", "inama"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'If he kuja, we will start ya meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga", "uzatsinda"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ xp_reward: 22
+
+ - id: 53
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'If I had money, I would buy moja car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ xp_reward: 28
+
+ - id: 54
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'If she walikuwa here, she could help'"
+ word_bank: ["Iyo", "yari", "hano", "yashoboraga", "gufasha", "aje"]
+ correct_answer: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ xp_reward: 25
+
+ - id: 55
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'You should kula before leaving'"
+ word_bank: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda", "nyuma"]
+ correct_answer: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ xp_reward: 22
+
+ - id: 56
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'If it ni possible, I will kuja Kesho'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura", "iguye"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 18
+
+ # 7. Sentensi Scramble - PIECES PROVIDED
+ - id: 57
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ translation: "If it rains, I will stay home."
+ xp_reward: 22
+
+ - id: 58
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Niba", "wiga", "uzatsinda"]
+ correct_sentence: "Niba wiga, uzatsinda."
+ translation: "If you study, you will succeed."
+ xp_reward: 18
+
+ - id: 59
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Niba", "aje", "tuzatangira", "inama"]
+ correct_sentence: "Niba aje, tuzatangira inama."
+ translation: "If he kuja, we will start ya meeting."
+ xp_reward: 22
+
+ - id: 60
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Ntiwihutira", "uzacika", "bisi"]
+ correct_sentence: "Ntiwihutira, uzacika bisi."
+ translation: "Unless you hurry, you will miss ya bus."
+ xp_reward: 20
+
+ - id: 61
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ correct_sentence: "Iyo yari hano, yashoboraga gufasha."
+ translation: "If she walikuwa here, she could help."
+ xp_reward: 25
+
+ - id: 62
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ correct_sentence: "Bikwiye ko urya mbere yo kugenda."
+ translation: "You should kula before leaving."
+ xp_reward: 22
+
+ - id: 63
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Niba", "bishoboka", "nzaza", "ejo"]
+ correct_sentence: "Niba bishoboka, nzaza ejo."
+ translation: "If it ni possible, I will kuja Kesho."
+ xp_reward: 18
+
+ # 8. Fill katika ya Blank - Chagua FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "___ imvura iguye, nzaguma mu rugo."
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Niba wiga, ___."
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Niba aje, tuzatangira ___."
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he kuja, we will start ya meeting."
+ xp_reward: 18
+
+ - id: 67
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Ntiwihutira, ___ bisi."
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss ya bus."
+ xp_reward: 18
+
+ - id: 68
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Iyo yari hano, yashoboraga ___."
+ options: ["gufasha", "kwiga", "kurya"]
+ correct_answer: "gufasha"
+ translation: "If she walikuwa here, she could help."
+ xp_reward: 18
+
+ - id: 69
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Bikwiye ko urya ___ yo kugenda."
+ options: ["mbere", "nyuma", "hanyuma"]
+ correct_answer: "mbere"
+ translation: "You should kula before leaving."
+ xp_reward: 18
+
+ - id: 70
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Niba bishoboka, nzaza ___."
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it ni possible, I will kuja Kesho."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 71
+ type: picture_word
+ Swali: "Inamaanisha nini hii image represent?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Izuba", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Swali: "Inamaanisha nini hii image represent?"
+ image_url: "https://source.unsplash.com/featured/?studying"
+ options: ["Kwiga", "Gukora", "Kurya"]
+ correct_answer: "Kwiga"
+ xp_reward: 10
+
+ - id: 73
+ type: picture_word
+ Swali: "Inamaanisha nini hii image represent?"
+ image_url: "https://source.unsplash.com/featured/?money"
+ options: ["Amafaranga", "Igitabo", "Inzu"]
+ correct_answer: "Amafaranga"
+ xp_reward: 10
+
+ - id: 74
+ type: picture_word
+ Swali: "Inamaanisha nini hii image represent?"
+ image_url: "https://source.unsplash.com/featured/?car"
+ options: ["Imodoka", "Bisi", "Igare"]
+ correct_answer: "Imodoka"
+ xp_reward: 10
+
+ - id: 75
+ type: picture_word
+ Swali: "Inamaanisha nini hii image represent?"
+ image_url: "https://source.unsplash.com/featured/?helping"
+ options: ["Gufasha", "Kurira", "Guseka"]
+ correct_answer: "Gufasha"
+ xp_reward: 10
+
+ - id: 76
+ type: picture_word
+ Swali: "Inamaanisha nini hii image represent?"
+ image_url: "https://source.unsplash.com/featured/?bus"
+ options: ["Bisi", "Imodoka", "Indege"]
+ correct_answer: "Bisi"
+ xp_reward: 10
+
+ # 10. Word Tingiza (Pairing)
+ - id: 77
+ type: Tingiza
+ Swali: "Tingiza ya conditional words"
+ pairs:
+ - Kushoto: "If"
+ Kulia: "Niba"
+ - Kushoto: "When"
+ Kulia: "Iyo"
+ - Kushoto: "Then"
+ Kulia: "Hanyuma"
+ - Kushoto: "Before"
+ Kulia: "Mbere y'uko"
+ - Kushoto: "After"
+ Kulia: "Nyuma y'uko"
+ - Kushoto: "Always"
+ Kulia: "Buri gihe"
+ - Kushoto: "Never"
+ Kulia: "Nta na rimwe"
+ - Kushoto: "Possible"
+ Kulia: "Birashoboka"
+ - Kushoto: "Impossible"
+ Kulia: "Ntibishoboka"
+ xp_reward: 25
+
+ - id: 78
+ type: Tingiza
+ Swali: "Tingiza ya modal verbs"
+ pairs:
+ - Kushoto: "Might"
+ Kulia: "Ashobora"
+ - Kushoto: "Will"
+ Kulia: "Azakora"
+ - Kushoto: "Would"
+ Kulia: "Byaba"
+ - Kushoto: "Could"
+ Kulia: "Bashobora"
+ - Kushoto: "Should"
+ Kulia: "Bikwiye"
+ - Kushoto: "Can"
+ Kulia: "Ashobora"
+ xp_reward: 20
+
+ - id: 79
+ type: Tingiza
+ Swali: "Tingiza ya Sentensi halves"
+ pairs:
+ - Kushoto: "Niba imvura iguye"
+ Kulia: "nzaguma mu rugo"
+ - Kushoto: "Niba wiga"
+ Kulia: "uzatsinda"
+ - Kushoto: "Niba aje"
+ Kulia: "tuzatangira inama"
+ - Kushoto: "Niba bishoboka"
+ Kulia: "nzaza ejo"
+ - Kushoto: "Niba ngiye i Kigali"
+ Kulia: "nzasura inshuti yanjye"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED moja PER PREVIOUS PATTERN
+
+ # 12. Chagua Missing Word
+ - id: 80
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "___ imvura iguye, nzaguma mu rugo."
+ missing_word_position: 1
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Niba wiga, ___."
+ missing_word_position: 3
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Niba aje, tuzatangira ___."
+ missing_word_position: 4
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he kuja, we will start ya meeting."
+ xp_reward: 18
+
+ - id: 83
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Ntiwihutira, ___ bisi."
+ missing_word_position: 2
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss ya bus."
+ xp_reward: 18
+
+ - id: 84
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Niba bishoboka, nzaza ___."
+ missing_word_position: 3
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it ni possible, I will kuja Kesho."
+ xp_reward: 15
+
+ # 13. Soma na Jibu - Swali based juu text
+ - id: 85
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Niba imvura iguye, nzaguma mu rugo."
+ Swali: "What will happen if it rains?"
+ options: ["I will kwenda out", "I will stay home", "I will kwenda kwa Shule", "I will work"]
+ correct_answer: "I will stay home"
+ xp_reward: 15
+
+ - id: 86
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Niba wiga, uzatsinda."
+ Swali: "What will happen if you study?"
+ options: ["You will fail", "You will succeed", "You will play", "You will sleep"]
+ correct_answer: "You will succeed"
+ xp_reward: 15
+
+ - id: 87
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Niba aje, tuzatangira inama."
+ Swali: "When will they start ya meeting?"
+ options: ["If he kuja", "If it rains", "If she studies", "If they work"]
+ correct_answer: "If he kuja"
+ xp_reward: 18
+
+ - id: 88
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Niba nari mfite amafaranga, nari kugura imodoka."
+ Swali: "What would I buy if I had money?"
+ options: ["moja Nyumba", "moja car", "Chakula", "Clothes"]
+ correct_answer: "moja car"
+ xp_reward: 18
+
+ - id: 89
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Niba bishoboka, nzaza ejo."
+ Swali: "When will I kuja if it ni possible?"
+ options: ["Today", "Kesho", "Next week", "Never"]
+ correct_answer: "Kesho"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 90
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Niba means 'when'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 91
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Birashoboka means 'possible'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 92
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Niba wiga, uzatsinda means 'If you study, you will succeed'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 93
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Ntiwihutira, uzacika bisi means 'If you hurry, you will catch ya bus'."
+ correct_answer: false
+ xp_reward: 15
+
+ - id: 94
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Buri gihe means 'never'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 95
+ type: conversation
+ Swali: "Respond kwa ya Swali by building moja Sentensi"
+ bot_message: "Uzakora iki niba imvura iguye?"
+ translation: "What will you do if it rains?"
+ word_bank: ["Nzaguma", "mu rugo", "nzajya", "ku ishuri", "nzakora"]
+ correct_response: ["Nzaguma", "mu rugo"]
+ xp_reward: 18
+
+ - id: 96
+ type: conversation
+ Swali: "Respond kwa ya Swali"
+ bot_message: "Niba wiga, uzatsinda?"
+ translation: "If you study, will you succeed?"
+ options:
+ - "Yego, nzatsinda"
+ - "Oya, sinzatsinda"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzatsinda"
+ xp_reward: 15
+
+ - id: 97
+ type: conversation
+ Swali: "Respond kwa ya Swali by building moja Sentensi"
+ bot_message: "Uzakora iki niba ufite amafaranga?"
+ translation: "What will you do if you have money?"
+ word_bank: ["Nzakora", "nzabona", "imodoka", "nzaguza", "inzu"]
+ correct_response: ["Nzakora", "nzabona", "imodoka"]
+ xp_reward: 20
+
+ - id: 98
+ type: conversation
+ Swali: "Respond kwa ya Swali"
+ bot_message: "Niba bishoboka, uzaza ejo?"
+ translation: "If it ni possible, will you kuja Kesho?"
+ options:
+ - "Yego, nzaza ejo"
+ - "Oya, sinzaza"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzaza ejo"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Sentensi from pieces
+ - id: 99
+ type: story
+ title: "Plans na Conditions - Imigambi n'Imyitwarire"
+ story_intro: "Soma about different plans na conditions. Then build ya Sentensi."
+ story_segments:
+ - text: "If it rains, I will stay home."
+ - text: "If you study, you will succeed."
+ - text: "If he kuja, we will start ya meeting."
+ - text: "If I had money, I would buy moja car."
+ - text: "If it ni possible, I will kuja Kesho."
+ exercises:
+ - type: word_bank
+ Swali: "Build 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ - type: word_bank
+ Swali: "Build 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ - type: word_bank
+ Swali: "Build 'If he kuja, we will start ya meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ - type: word_bank
+ Swali: "Build 'If I had money, I would buy moja car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ - type: word_bank
+ Swali: "Build 'If it ni possible, I will kuja Kesho'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 100
+ type: pronunciation
+ Swali: "Say hii word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 101
+ type: pronunciation
+ Swali: "Say hii word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 102
+ type: pronunciation
+ Swali: "Say hii phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 22
+
+ - id: 103
+ type: pronunciation
+ Swali: "Say hii phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 104
+ type: pronunciation
+ Swali: "Say hii phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it ni possible, I will kuja Kesho"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 105
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'Niba' mean katika hii Sentensi?"
+ context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ word: "Niba"
+ options: ["When", "If", "Then", "After"]
+ correct_answer: "If"
+ xp_reward: 15
+
+ - id: 106
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'uzatsinda' mean katika hii Sentensi?"
+ context_sentence: "Niba wiga, uzatsinda."
+ word: "uzatsinda"
+ options: ["you will fail", "you will succeed", "you will study", "you will work"]
+ correct_answer: "you will succeed"
+ xp_reward: 15
+
+ - id: 107
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'tuzatangira' mean katika hii Sentensi?"
+ context_sentence: "Niba aje, tuzatangira inama."
+ word: "tuzatangira"
+ options: ["we will finish", "we will start", "we will attend", "we will leave"]
+ correct_answer: "we will start"
+ xp_reward: 15
+
+ - id: 108
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'bishoboka' mean katika hii Sentensi?"
+ context_sentence: "Niba bishoboka, nzaza ejo."
+ word: "bishoboka"
+ options: ["it ni possible", "it ni impossible", "it ni nzuri", "it ni mbaya"]
+ correct_answer: "it ni possible"
+ xp_reward: 15
+
+ # 19. Speed Tingiza
+ - id: 109
+ type: speed_Tingiza
+ title: "Tingiza Madness: Conditionals"
+ time_limit_seconds: 45
+ pairs:
+ - Kushoto: "If"
+ Kulia: "Niba"
+ - Kushoto: "When"
+ Kulia: "Iyo"
+ - Kushoto: "Then"
+ Kulia: "Hanyuma"
+ - Kushoto: "Possible"
+ Kulia: "Birashoboka"
+ - Kushoto: "Impossible"
+ Kulia: "Ntibishoboka"
+ - Kushoto: "Always"
+ Kulia: "Buri gihe"
+ - Kushoto: "Never"
+ Kulia: "Nta na rimwe"
+ - Kushoto: "Before"
+ Kulia: "Mbere y'uko"
+ - Kushoto: "After"
+ Kulia: "Nyuma y'uko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 110
+ type: timed_challenge
+ title: "Lightning Round: Conditionals"
+ time_limit_seconds: 30
+ Swali_count: 5
+ Swali:
+ - Swali: "If"
+ Jibu: "Niba"
+ - Swali: "When"
+ Jibu: "Iyo"
+ - Swali: "Possible"
+ Jibu: "Birashoboka"
+ - Swali: "Always"
+ Jibu: "Buri gihe"
+ - Swali: "Never"
+ Jibu: "Nta na rimwe"
+ xp_reward: 35
+
+# Kadi za kujifunzia
+ - id: 111
+ type: Kadi za kujifunzia
+ Swali: "Kadi za kujifunzia"
+ Kadi za kujifunzia:
+ - front: "Niba"
+ back: "If"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iyo"
+ back: "When"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Keretse"
+ back: "Unless"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Hanyuma"
+ back: "Then"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Might"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Azakora"
+ back: "Will"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Byaba"
+ back: "Would"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Bashobora"
+ back: "Could"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Bikwiye"
+ back: "Should"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Can"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

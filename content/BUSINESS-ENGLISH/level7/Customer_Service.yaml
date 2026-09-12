@@ -1,0 +1,1564 @@
+lesson:
+  name: "Customer Service English"
+  description: "Master professional customer service communication including helping customers, handling complaints, solving problems, apologies, relationship building, and support vocabulary"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: HELPING CUSTOMERS (1-25)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-8)
+  - id: 1
+    type: multiple_choice
+    question: "What is the most important opening phrase when a customer approaches for help?"
+    options:
+      - "What do you want?"
+      - "How can I help you today?"
+      - "I'm busy right now."
+      - "Go to the other counter."
+    answer: "How can I help you today?"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What should you say while helping a customer to show you're listening?"
+    options:
+      - "Silence"
+      - "Uh-huh, I see, okay, let me check"
+      - "Whatever you say"
+      - "Is that all?"
+    answer: "Uh-huh, I see, okay, let me check"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "How should you ask clarifying questions to better understand a customer's need?"
+    options:
+      - "What are you talking about?"
+      - "Just to make sure I understand, you're looking for..."
+      - "I don't get it"
+      - "Say that again"
+    answer: "Just to make sure I understand, you're looking for..."
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What is the best way to confirm you've understood the customer's request?"
+    options:
+      - "Okay, bye"
+      - "So if I understand correctly, you need..."
+      - "Whatever"
+      - "Next"
+    answer: "So if I understand correctly, you need..."
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "How should you respond when a customer asks for something outside your scope?"
+    options:
+      - "That's not my job"
+      - "I'm not sure, but let me find someone who can help you with that"
+      - "You're asking the wrong person"
+      - "Figure it out yourself"
+    answer: "I'm not sure, but let me find someone who can help you with that"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What is the best way to put a customer on hold?"
+    options:
+      - "Hold on" (click)
+      - "Would you mind holding for a moment while I look into that for you?"
+      - "Wait here"
+      - "Be quiet and wait"
+    answer: "Would you mind holding for a moment while I look into that for you?"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "What should you say when you return to a customer after placing them on hold?"
+    options:
+      - "Thanks for waiting. I've found the information you need."
+      - "You're still here?"
+      - "Okay, what was the question?"
+      - "Sorry about the wait"
+    answer: "Thanks for waiting. I've found the information you need."
+    xp_reward: 15
+
+  - id: 8
+    type: multiple_choice
+    question: "How should you end a customer service interaction?"
+    options:
+      - "Is there anything else I can help you with today?"
+      - "You're done, goodbye"
+      - "Leave now"
+      - "That's it"
+    answer: "Is there anything else I can help you with today?"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (9-14)
+  - id: 9
+    type: fill_blank
+    question: "Complete the opening greeting"
+    text_with_blank: "Welcome to [Company Name]. How may I ___ you today?"
+    options: ["assist", "help", "serve", "support"]
+    correct_answer: "assist"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the confirmation phrase"
+    text_with_blank: "So if I understand correctly, you're ___ for a replacement part."
+    options: ["looking", "searching", "checking", "asking"]
+    correct_answer: "looking"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the hold request"
+    text_with_blank: "Would you mind ___ for just a moment while I check our system?"
+    options: ["holding", "waiting", "staying", "remaining"]
+    correct_answer: "holding"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the thank you for waiting"
+    text_with_blank: "Thanks for your ___. I appreciate you bearing with me."
+    options: ["patience", "wait", "time", "understanding"]
+    correct_answer: "patience"
+    xp_reward: 15
+
+  - id: 13
+    type: fill_blank
+    question: "Complete the clarification request"
+    text_with_blank: "Could you please ___ that for me? I want to make sure I get it right."
+    options: ["repeat", "say again", "clarify", "explain"]
+    correct_answer: "repeat"
+    xp_reward: 15
+
+  - id: 14
+    type: fill_blank
+    question: "Complete the closing check"
+    text_with_blank: "Is there ___ else I can do for you before you go?"
+    options: ["anything", "something", "nothing", "everything"]
+    correct_answer: "anything"
+    xp_reward: 15
+
+  # TRUE / FALSE (15-17)
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? Making eye contact with a customer shows you are engaged and listening."
+    statement: "Making eye contact with a customer shows you are engaged and listening."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 16
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to multitask (e.g., typing) while a customer is speaking."
+    statement: "It is acceptable to multitask (e.g., typing) while a customer is speaking."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 17
+    type: true_false
+    question: "Is this statement true or false? Using the customer's name during conversation builds rapport."
+    statement: "Using the customer's name during conversation builds rapport."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (18-20)
+  - id: 18
+    type: matching
+    question: "Match the customer service phrase with its purpose"
+    pairs:
+      - left: "How may I help you?"
+        right: "Open the conversation"
+      - left: "Let me look into that for you"
+        right: "Take ownership of the issue"
+      - left: "I'll be right back"
+        right: "Set expectation for absence"
+      - left: "Thank you for your patience"
+        right: "Acknowledge customer's time"
+      - left: "Is there anything else?"
+        right: "Ensure complete satisfaction"
+    xp_reward: 25
+
+  - id: 19
+    type: matching
+    question: "Match the customer type with the best approach"
+    pairs:
+      - left: "New/unsure customer"
+        right: "Be patient, explain options clearly"
+      - left: "In a hurry customer"
+        right: "Be efficient, get to the point quickly"
+      - left: "Detailed-oriented customer"
+        right: "Provide thorough information"
+      - left: "Returning customer"
+        right: "Acknowledge their loyalty, personalized service"
+      - left: "First-time customer"
+        right: "Welcome warmly, explain processes"
+    xp_reward: 25
+
+  - id: 20
+    type: matching
+    question: "Match the customer question with the best response"
+    pairs:
+      - left: "Where can I find X?"
+        right: "It's in aisle 4, on the left. Let me show you."
+      - left: "Do you have this in a different color?"
+        right: "Let me check our inventory for other colors."
+      - left: "How much does this cost?"
+        right: "That item is $49.99. Would you like me to check for any promotions?"
+      - left: "Can I return this if I change my mind?"
+        right: "Yes, we have a 30-day return policy with receipt."
+      - left: "When will this be back in stock?"
+        right: "Let me check our system for the expected arrival date."
+    xp_reward: 25
+
+  # FLASHCARDS (21-25)
+  - id: 21
+    type: flashcards
+    question: "Flashcards: Opening Phrases"
+    flashcards:
+      - front: "How can I help you today?"
+        right: "Standard customer greeting"
+      - front: "Welcome to [Company Name]"
+        right: "Warm onboarding"
+      - front: "Good morning/afternoon/evening"
+        right: "Time-appropriate greeting"
+      - front: "Thank you for calling [Company Name]"
+        right: "Phone greeting"
+      - front: "I'm happy to help you with that"
+        right: "Positive response"
+    xp_reward: 30
+
+  - id: 22
+    type: flashcards
+    question: "Flashcards: Clarifying Questions"
+    flashcards:
+      - front: "Just to confirm, you need..."
+        right: "Verify understanding"
+      - front: "Could you tell me more about that?"
+        right: "Gather details"
+      - front: "What specifically are you looking for?"
+        right: "Narrow down request"
+      - front: "When did this happen?"
+        right: "Timeline clarification"
+      - front: "Can you describe the issue?"
+        right: "Problem specification"
+    xp_reward: 30
+
+  - id: 23
+    type: flashcards
+    question: "Flashcards: Going Above and Beyond"
+    flashcards:
+      - front: "Let me see what I can do"
+        right: "Show willingness"
+      - front: "I'll personally make sure this gets resolved"
+        right: "Take ownership"
+      - front: "I'll follow up with you tomorrow"
+        right: "Proactive commitment"
+      - front: "Is there anything specific you'd prefer?"
+        right: "Show personalization"
+      - front: "I'll make an exception for you this time"
+        right: "Show flexibility"
+    xp_reward: 30
+
+  - id: 24
+    type: flashcards
+    question: "Flashcards: Closing Interactions"
+    flashcards:
+      - front: "Is there anything else I can help with?"
+        right: "Offer additional assistance"
+      - front: "Have a wonderful day"
+        right: "Positive closing"
+      - front: "Thank you for choosing us"
+        right: "Appreciate their business"
+      - front: "We look forward to serving you again"
+        right: "Future-focused closing"
+      - front: "Please come back anytime"
+        right: "Open invitation"
+    xp_reward: 30
+
+  - id: 25
+    type: flashcards
+    question: "Flashcards: Phone Customer Service"
+    flashcards:
+      - front: "Thank you for calling. This is [Name] speaking"
+        right: "Phone greeting"
+      - front: "May I ask who's calling?"
+        right: "Identify caller"
+      - front: "I'll need to transfer you to that department"
+        right: "Transfer notification"
+      - front: "Let me make sure I have your number correct"
+        right: "Verify call-back info"
+      - front: "I'll call you back within the hour"
+        right: "Promise return call"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: HANDLING COMPLAINTS (26-55)
+  # ============================================
+
+  # MULTIPLE CHOICE (26-33)
+  - id: 26
+    type: multiple_choice
+    question: "What is the first thing you should do when a customer complains?"
+    options:
+      - "Argue with them"
+      - "Tell them they're wrong"
+      - "Listen actively without interrupting"
+      - "Walk away"
+    answer: "Listen actively without interrupting"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "What is the best response to an angry customer?"
+    options:
+      - "Calm down!"
+      - "I understand why you're upset. Let me help you resolve this."
+      - "It's not my fault"
+      - "You're overreacting"
+    answer: "I understand why you're upset. Let me help you resolve this."
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "What does the 'HEAT' model stand for in complaint handling?"
+    options:
+      - "Hear, Empathize, Apologize, Take action"
+      - "Help, Explain, Argue, Terminate"
+      - "Hold, Evaluate, Assess, Talk"
+      - "Hurry, End, Avoid, Transfer"
+    answer: "Hear, Empathize, Apologize, Take action"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "Why is it important to thank a customer for complaining?"
+    options:
+      - "It makes you look weak"
+      - "It shows you value their feedback and gives you a chance to improve"
+      - "It ends the conversation quickly"
+      - "It confuses them"
+    answer: "It shows you value their feedback and gives you a chance to improve"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "What should you avoid saying to a complaining customer?"
+    options:
+      - "I understand"
+      - "That's not my department"
+      - "Let me see what I can do"
+      - "I apologize for the inconvenience"
+    answer: "That's not my department"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "After resolving a complaint, what should you do?"
+    answers:
+      - "Forget about it"
+      - "Follow up with the customer to ensure they are satisfied"
+      - "Tell your colleagues about the difficult customer"
+      - "Avoid that customer in the future"
+    answer: "Follow up with the customer to ensure they are satisfied"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "What does 'escalation' mean in customer service?"
+    options:
+      - "Going up an elevator"
+      - "Referring the issue to a higher authority or manager"
+      - "Ignoring the issue"
+      - "Ending the call"
+    answer: "Referring the issue to a higher authority or manager"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "How should you document a customer complaint?"
+    options:
+      - "On a napkin"
+      - "In your head"
+      - "Clearly in the customer record with details of the issue and resolution"
+      - "Don't document it"
+    answer: "Clearly in the customer record with details of the issue and resolution"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (34-39)
+  - id: 34
+    type: fill_blank
+    question: "Complete the empathy statement"
+    text_with_blank: "I ___ understand why you would be frustrated about this situation."
+    options: ["completely", "totally", "fully", "absolutely"]
+    correct_answer: "completely"
+    xp_reward: 15
+
+  - id: 35
+    type: fill_blank
+    question: "Complete the appreciation for feedback"
+    text_with_blank: "Thank you for ___ this to our attention. We appreciate your honesty."
+    options: ["bringing", "raising", "reporting", "telling"]
+    correct_answer: "bringing"
+    xp_reward: 15
+
+  - id: 36
+    type: fill_blank
+    question: "Complete the resolution commitment"
+    text_with_blank: "Let me take ___ of this issue and get it resolved for you."
+    options: ["ownership", "care", "charge", "responsibility"]
+    correct_answer: "ownership"
+    xp_reward: 15
+
+  - id: 37
+    type: fill_blank
+    question: "Complete the escalation phrase"
+    text_with_blank: "I want to make sure this gets handled properly, so I'm going to ___ this to my manager."
+    options: ["escalate", "raise", "send", "transfer"]
+    correct_answer: "escalate"
+    xp_reward: 15
+
+  - id: 38
+    type: fill_blank
+    question: "Complete the follow-up promise"
+    text_with_blank: "I will ___ back to you within 24 hours with an update."
+    options: ["get", "reach", "call", "come"]
+    correct_answer: "get"
+    xp_reward: 15
+
+  - id: 39
+    type: fill_blank
+    question: "Complete the satisfaction check"
+    text_with_blank: "Does this resolution ___ your expectations?"
+    options: ["meet", "satisfy", "fulfill", "match"]
+    correct_answer: "meet"
+    xp_reward: 15
+
+  # TRUE / FALSE (40-42)
+  - id: 40
+    type: true_false
+    question: "Is this statement true or false? You should never interrupt a complaining customer, even if they are being unreasonable."
+    statement: "You should never interrupt a complaining customer, even if they are being unreasonable."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 41
+    type: true_false
+    question: "Is this statement true or false? Taking complaints personally helps you resolve them better."
+    statement: "Taking complaints personally helps you resolve them better."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 42
+    type: true_false
+    question: "Is this statement true or false? A resolved complaint can turn an unhappy customer into a loyal one."
+    statement: "A resolved complaint can turn an unhappy customer into a loyal one."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (43-46)
+  - id: 43
+    type: matching
+    question: "Match the complaint handling step with the correct action"
+    pairs:
+      - left: "Hear"
+        right: "Listen without interrupting"
+      - left: "Empathize"
+        right: "Show you understand their feelings"
+      - left: "Apologize"
+        right: "Say sorry for the situation"
+      - left: "Take action"
+        right: "Solve the problem or escalate"
+    xp_reward: 25
+
+  - id: 44
+    type: matching
+    question: "Match the complaint type with the appropriate response"
+    pairs:
+      - left: "Product defect complaint"
+        right: "Apologize, offer replacement or refund, expedite shipping"
+      - left: "Billing error complaint"
+        right: "Apologize, correct the error immediately, confirm with customer"
+      - left: "Shipping delay complaint"
+        right: "Apologize, provide tracking, offer shipping fee refund if appropriate"
+      - left: "Rude staff complaint"
+        right: "Apologize sincerely, assure action will be taken, offer compensation"
+      - left: "Policy dissatisfaction"
+        right: "Explain policy rationale, acknowledge frustration, seek alternative if possible"
+    xp_reward: 25
+
+  - id: 45
+    type: matching
+    question: "Match the phrase with the complaint handling stage"
+    pairs:
+      - left: "Tell me more about what happened"
+        right: "Hearing/Information gathering"
+      - left: "I can see why that would be upsetting"
+        right: "Empathy"
+      - left: "I'm really sorry this happened to you"
+        right: "Apology"
+      - left: "Here's what I'm going to do for you"
+        right: "Taking action"
+      - left: "I'll follow up to make sure everything is resolved"
+        right: "Closing/Follow-up"
+    xp_reward: 25
+
+  - id: 46
+    type: matching
+    question: "Match the escalation trigger with the appropriate action"
+    pairs:
+      - left: "Customer asks for a manager"
+        right: "Get the manager immediately"
+      - left: "Issue beyond your authority"
+        right: "Ask supervisor for approval"
+      - left: "Customer threatens legal action"
+        right: "Escalate to legal department and senior management"
+      - left: "You don't know how to solve the problem"
+        right: "Ask colleague or supervisor for help"
+      - left: "Customer is abusive or threatening"
+        right: "Warn, then terminate call per policy"
+    xp_reward: 25
+
+  # FLASHCARDS (47-50)
+  - id: 47
+    type: flashcards
+    question: "Flashcards: Empathy Phrases"
+    flashcards:
+      - front: "I understand how frustrating that must be"
+        right: "Acknowledge emotion"
+      - front: "I can see why you'd be upset about this"
+        right: "Validate feelings"
+      - front: "That sounds very inconvenient"
+        right: "Acknowledge impact"
+      - front: "I would feel the same way in your situation"
+        right: "Personal connection"
+      - front: "You have every right to be disappointed"
+        right: "Validate complaint"
+    xp_reward: 30
+
+  - id: 48
+    type: flashcards
+    question: "Flashcards: Complaint Response Don'ts"
+    flashcards:
+      - front: "Don't say: Calm down"
+        right: "It invalidates feelings"
+      - front: "Don't say: It's not my fault"
+        right: "Defensive, unhelpful"
+      - front: "Don't say: That's our policy"
+        right: "Cold, unhelpful"
+      - front: "Don't say: You're wrong"
+        right: "Confrontational"
+      - front: "Don't say: Other customers don't complain"
+        right: "Dismissive"
+    xp_reward: 30
+
+  - id: 49
+    type: flashcards
+    question: "Flashcards: Complaint Documentation"
+    flashcards:
+      - front: "Date and time of complaint"
+        right: "When it happened"
+      - front: "Customer name and contact"
+        right: "Who complained"
+      - front: "Description of issue"
+        right: "What went wrong"
+      - front: "Action taken"
+        right: "How it was resolved"
+      - front: "Resolution outcome"
+        right: "Was customer satisfied"
+    xp_reward: 30
+
+  - id: 50
+    type: flashcards
+    question: "Flashcards: De-escalation Phrases"
+    flashcards:
+      - front: "Let me see what I can do"
+        right: "Shows willingness"
+      - front: "I want to help you resolve this"
+        right: "Shows intention"
+      - front: "Thank you for your patience"
+        right: "Acknowledges their effort"
+      - front: "Let me get the right person to help"
+        right: "Shows action"
+      - front: "You've made a fair point"
+        right: "Validates concern"
+    xp_reward: 30
+
+  # TIMED CHALLENGES (51-55)
+  - id: 51
+    type: timed_challenge
+    title: "Lightning Round: Complaint Handling"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "First thing to do when customer complains"
+        answer: "Listen without interrupting"
+      - question: "What does H in HEAT stand for"
+        answer: "Hear"
+      - question: "What does E in HEAT stand for"
+        answer: "Empathize"
+      - question: "What does A in HEAT stand for"
+        answer: "Apologize"
+      - question: "What does T in HEAT stand for"
+        answer: "Take action"
+    xp_reward: 35
+
+  - id: 52
+    type: timed_challenge
+    title: "Lightning Round: Complaint Responses"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Phrase to show you understand customer's feelings"
+        answer: "I understand your frustration"
+      - question: "What to say before explaining a solution"
+        answer: "Here's what I can do"
+      - question: "How to thank a customer for complaining"
+        answer: "Thank you for bringing this to our attention"
+      - question: "What to say when you need to involve a manager"
+        answer: "Let me escalate this to my manager"
+      - question: "How to check if customer is satisfied with resolution"
+        answer: "Does this resolve your issue"
+    xp_reward: 35
+
+  - id: 53
+    type: timed_challenge
+    title: "Lightning Round: Escalation"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "When to escalate a complaint"
+        answer: "Beyond your authority"
+      - question: "What to say when escalating"
+        answer: "I'm going to escalate this"
+      - question: "Who to escalate to"
+        answer: "Supervisor or manager"
+      - question: "What to do after escalation"
+        answer: "Follow up with customer"
+      - question: "What to avoid when escalating"
+        answer: "Blaming the customer"
+    xp_reward: 35
+
+  - id: 54
+    type: timed_challenge
+    title: "Lightning Round: Angry Customers"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "What to avoid saying to an angry customer"
+        answer: "Calm down"
+      - question: "First response to anger"
+        answer: "I understand you're upset"
+      - question: "What tone to use"
+        answer: "Calm and professional"
+      - question: "What to focus on"
+        answer: "Solving the problem"
+      - question: "How to end interaction with angry customer"
+        answer: "Thank you for your patience"
+    xp_reward: 35
+
+  - id: 55
+    type: timed_challenge
+    title: "Lightning Round: Complaint Follow-up"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "When to follow up after resolution"
+        answer: "24 to 48 hours"
+      - question: "What to ask in follow-up"
+        answer: "Are you satisfied with the resolution"
+      - question: "What to document"
+        answer: "Resolution and customer response"
+      - question: "What a resolved complaint can create"
+        answer: "Loyal customer"
+      - question: "How to end follow-up call"
+        answer: "Thank you for your business"
+    xp_reward: 35
+
+  # ============================================
+  # SECTION 3: SOLVING PROBLEMS (56-80)
+  # ============================================
+
+  # MULTIPLE CHOICE (56-63)
+  - id: 56
+    type: multiple_choice
+    question: "What is the first step in problem-solving with a customer?"
+    options:
+      - "Offer a solution immediately"
+      - "Blame someone else"
+      - "Identify and define the problem clearly"
+      - "Ignore the problem"
+    answer: "Identify and define the problem clearly"
+    xp_reward: 15
+
+  - id: 57
+    type: multiple_choice
+    question: "What does it mean to 'think outside the box' in customer service?"
+    options:
+      - "Stand outside a cardboard box"
+      - "Find creative, non-standard solutions to problems"
+      - "Refuse to help"
+      - "Follow rules exactly without exception"
+    answer: "Find creative, non-standard solutions to problems"
+    xp_reward: 15
+
+  - id: 58
+    type: multiple_choice
+    question: "What should you do if the first solution doesn't work?"
+    options:
+      - "Give up"
+      - "Blame the customer"
+      - "Apologize and try an alternative solution"
+      - "Pretend it worked"
+    answer: "Apologize and try an alternative solution"
+    xp_reward: 15
+
+  - id: 59
+    type: multiple_choice
+    question: "What is a 'root cause' in problem-solving?"
+    options:
+      - "The cause that grows like a plant"
+      - "The underlying, fundamental reason why a problem occurred"
+      - "The first cause you think of"
+      - "The cause that is easiest to fix"
+    answer: "The underlying, fundamental reason why a problem occurred"
+    xp_reward: 15
+
+  - id: 60
+    type: multiple_choice
+    question: "How should you communicate a problem solution to a customer?"
+    options:
+      - "In technical jargon they won't understand"
+      - "In clear, simple language explaining what will happen"
+      - "Don't explain anything"
+      - "In a very long, complex email"
+    answer: "In clear, simple language explaining what will happen"
+    xp_reward: 15
+
+  - id: 61
+    type: multiple_choice
+    question: "What does 'troubleshooting' mean in customer service?"
+    options:
+      - "Shooting trouble with a gun"
+      - "A systematic process of identifying and resolving problems"
+      - "Giving up on a problem"
+      - "Creating more problems"
+    answer: "A systematic process of identifying and resolving problems"
+    xp_reward: 15
+
+  - id: 62
+    type: multiple_choice
+    question: "When should you involve a specialist to solve a customer problem?"
+    options:
+      - "Never"
+      - "Only when you're lazy"
+      - "When the problem is outside your expertise or authority"
+      - "Always, for every problem"
+    answer: "When the problem is outside your expertise or authority"
+    xp_reward: 15
+
+  - id: 63
+    type: multiple_choice
+    question: "What is a 'workaround' in problem-solving?"
+    options:
+      - "A way to avoid work"
+      - "A temporary solution to bypass a problem while a permanent fix is developed"
+      - "A type of exercise"
+      - "A way to work around the customer"
+    answer: "A temporary solution to bypass a problem while a permanent fix is developed"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (64-69)
+  - id: 64
+    type: fill_blank
+    question: "Complete the problem identification"
+    text_with_blank: "Let me ___ what the issue is before we jump to solutions."
+    options: ["understand", "identify", "clarify", "diagnose"]
+    correct_answer: "understand"
+    xp_reward: 15
+
+  - id: 65
+    type: fill_blank
+    question: "Complete the troubleshooting step"
+    text_with_blank: "Let's ___ the problem step by step to find what's causing it."
+    options: ["troubleshoot", "analyze", "investigate", "examine"]
+    correct_answer: "troubleshoot"
+    xp_reward: 15
+
+  - id: 66
+    type: fill_blank
+    question: "Complete the alternative solution offer"
+    text_with_blank: "If that doesn't work, we have an ___ solution we can try."
+    options: ["alternative", "alternate", "other", "different"]
+    correct_answer: "alternative"
+    xp_reward: 15
+
+  - id: 67
+    type: fill_blank
+    question: "Complete the root cause explanation"
+    text_with_blank: "After investigating, we found the ___ cause was a software glitch."
+    options: ["root", "main", "primary", "underlying"]
+    correct_answer: "root"
+    xp_reward: 15
+
+  - id: 68
+    type: fill_blank
+    question: "Complete the workaround description"
+    text_with_blank: "While we work on a permanent fix, here's a ___ that will get you up and running."
+    options: ["workaround", "solution", "fix", "bypass"]
+    correct_answer: "workaround"
+    xp_reward: 15
+
+  - id: 69
+    type: fill_blank
+    question: "Complete the resolution confirmation"
+    text_with_blank: "Please let us know if the problem ___ again."
+    options: ["recurs", "returns", "repeats", "happens again"]
+    correct_answer: "recurs"
+    xp_reward: 15
+
+  # TRUE / FALSE (70-72)
+  - id: 70
+    type: true_false
+    question: "Is this statement true or false? The fastest solution is always the best solution for the customer."
+    statement: "The fastest solution is always the best solution for the customer."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 71
+    type: true_false
+    question: "Is this statement true or false? Involving the customer in problem-solving can increase their satisfaction."
+    statement: "Involving the customer in problem-solving can increase their satisfaction."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 72
+    type: true_false
+    question: "Is this statement true or false? Documenting how you solved a problem helps future customers with similar issues."
+    statement: "Documenting how you solved a problem helps future customers with similar issues."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (73-75)
+  - id: 73
+    type: matching
+    question: "Match the problem-solving step with the action"
+    pairs:
+      - left: "Define the problem"
+        right: "Ask questions to understand the issue"
+      - left: "Identify possible solutions"
+        right: "Brainstorm options within your authority"
+      - left: "Select the best solution"
+        right: "Choose the solution that best meets customer needs"
+      - left: "Implement the solution"
+        right: "Take action to resolve the issue"
+      - left: "Verify resolution"
+        right: "Confirm the problem is actually solved"
+    xp_reward: 25
+
+  - id: 74
+    type: matching
+    question: "Match the problem type with the best solution approach"
+    pairs:
+      - left: "Technical issue"
+        right: "Troubleshoot step by step"
+      - left: "Process failure"
+        right: "Identify where process broke, correct it"
+      - left: "Human error"
+        right: "Correct error, train if needed, apologize"
+      - left: "System outage"
+        right: "Provide status updates, offer workaround"
+      - left: "Permanent problem"
+        right: "Be honest, offer compensation, find alternative"
+    xp_reward: 25
+
+  - id: 75
+    type: matching
+    question: "Match the problem-solving phrase with its purpose"
+    pairs:
+      - left: "Let me walk you through the steps"
+        right: "Guide customer through solution"
+      - left: "Can you try this for me?"
+        right: "Request customer action"
+      - left: "What happens when you do that?"
+        right: "Gather diagnostic info"
+      - left: "I'm going to research this and call you back"
+        right: "Promise follow-up"
+      - left: "This should resolve the issue"
+        right: "Express confidence in solution"
+    xp_reward: 25
+
+  # FLASHCARDS (76-80)
+  - id: 76
+    type: flashcards
+    question: "Flashcards: Problem-Solving Phrases"
+    flashcards:
+      - front: "Let me get to the bottom of this"
+        right: "Commit to thorough investigation"
+      - front: "Let's figure this out together"
+        right: "Collaborative approach"
+      - front: "I have a few ideas we can try"
+        right: "Offer hope"
+      - front: "Let's start with the simplest solution"
+        right: "Logical approach"
+      - front: "If that doesn't work, here's plan B"
+        right: "Prepare alternatives"
+    xp_reward: 30
+
+  - id: 77
+    type: flashcards
+    question: "Flashcards: Technical Support Phrases"
+    flashcards:
+      - front: "Can you describe what you're seeing?"
+        right: "Gather symptom information"
+      - front: "When did this start happening?"
+        right: "Determine timeline"
+      - front: "Have you tried restarting the device?"
+        right: "Common troubleshooting step"
+      - front: "Can you check if the cable is connected?"
+        right: "Verify basic requirements"
+      - front: "I'll need to escalate this to our technical team"
+        right: "Involve specialists"
+    xp_reward: 30
+
+  - id: 78
+    type: flashcards
+    question: "Flashcards: Solution Communication"
+    flashcards:
+      - front: "Here's what we're going to do"
+        right: "Set clear expectations"
+      - front: "I expect this to take about X minutes"
+        right: "Set time expectation"
+      - front: "You should see the result immediately"
+        right: "Set outcome expectation"
+      - front: "Please let me know if this works for you"
+        right: "Get customer agreement"
+      - front: "I'll stay on the line until we confirm it's fixed"
+        right: "Show commitment"
+    xp_reward: 30
+
+  - id: 79
+    type: flashcards
+    question: "Flashcards: Problem Prevention"
+    flashcards:
+      - front: "Let me show you how to avoid this in the future"
+        right: "Educate customer"
+      - front: "I'll document this so our team can prevent it"
+        right: "Internal improvement"
+      - front: "Is there anything we could do differently?"
+        right: "Seek feedback"
+      - front: "We're updating our system to prevent this"
+        right: "Share improvement plans"
+      - front: "Thank you for helping us identify this issue"
+        right: "Grateful for report"
+    xp_reward: 30
+
+  - id: 80
+    type: flashcards
+    question: "Flashcards: When You Can't Solve the Problem"
+    flashcards:
+      - front: "I've exhausted all the options available to me"
+        right: "Be honest about limits"
+      - front: "Let me connect you with someone who can help"
+        right: "Warm transfer"
+      - front: "This is beyond what we can fix, but here's what I recommend"
+        right: "Redirect helpfully"
+      - front: "I'm sorry we couldn't resolve this today"
+        right: "Apologize sincerely"
+      - front: "Please accept this compensation for your trouble"
+        right: "Offer goodwill gesture"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: CUSTOMER SUPPORT VOCABULARY (81-105)
+  # ============================================
+
+  # MULTIPLE CHOICE (81-88)
+  - id: 81
+    type: multiple_choice
+    question: "What is a 'ticket' in customer support?"
+    options:
+      - "A ticket to an event"
+      - "A record or case number for a customer issue"
+      - "A parking ticket"
+      - "A lottery ticket"
+    answer: "A record or case number for a customer issue"
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "What does 'SLA' stand for in customer support?"
+    options:
+      - "Service Level Agreement"
+      - "Slow Learning Algorithm"
+      - "Simple Language Application"
+      - "Service Line Authorization"
+    answer: "Service Level Agreement"
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "What is 'first response time'?"
+    options:
+      - "The time to solve the problem completely"
+      - "The time between when a customer contacts support and receives their first reply"
+      - "The time the customer waits on hold"
+      - "The time to write an email"
+    answer: "The time between when a customer contacts support and receives their first reply"
+    xp_reward: 15
+
+  - id: 84
+    type: multiple_choice
+    question: "What does 'CSAT' stand for?"
+    options:
+      - "Customer Satisfaction Score"
+      - "Computer System Assessment Test"
+      - "Customer Service Action Team"
+      - "Company Satisfaction Tracking"
+    answer: "Customer Satisfaction Score"
+    xp_reward: 15
+
+  - id: 85
+    type: multiple_choice
+    question: "What is 'NPS' (Net Promoter Score)?"
+    options:
+      - "A measure of how likely customers are to recommend your company"
+      - "A type of computer network"
+      - "A sales promotion"
+      - "A shipping method"
+    answer: "A measure of how likely customers are to recommend your company"
+    xp_reward: 15
+
+  - id: 86
+    type: multiple_choice
+    question: "What is a 'knowledge base' in customer support?"
+    options:
+      - "A base of knowledge"
+      - "A self-service library of articles, FAQs, and troubleshooting guides"
+      - "A type of database"
+      - "A training program"
+    answer: "A self-service library of articles, FAQs, and troubleshooting guides"
+    xp_reward: 15
+
+  - id: 87
+    type: multiple_choice
+    question: "What does 'omni-channel support' mean?"
+    options:
+      - "Support through many channels (phone, email, chat, social media)"
+      - "Support only by phone"
+      - "Support for omniscient beings"
+      - "Support in one channel only"
+    answer: "Support through many channels (phone, email, chat, social media)"
+    xp_reward: 15
+
+  - id: 88
+    type: multiple_choice
+    question: "What is a 'macro' in customer support software?"
+    options:
+      - "A large computer"
+      - "A pre-written response template for common questions"
+      - "A type of programming language"
+      - "A macroeconomics report"
+    answer: "A pre-written response template for common questions"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (89-93)
+  - id: 89
+    type: fill_blank
+    question: "Complete the ticket creation phrase"
+    text_with_blank: "I'm going to create a support ___ for your issue so we can track it."
+    options: ["ticket", "case", "record", "file"]
+    correct_answer: "ticket"
+    xp_reward: 15
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the priority statement"
+    text_with_blank: "I've marked this as high ___ because of the impact on your business."
+    options: ["priority", "importance", "urgency", "severity"]
+    correct_answer: "priority"
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the escalation phrase"
+    text_with_blank: "This issue has been ___ to our Level 2 support team."
+    options: ["escalated", "raised", "sent", "transferred"]
+    correct_answer: "escalated"
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complete the resolution timeframe"
+    text_with_blank: "Per our SLA, you can expect a ___ within 4 business hours."
+    options: ["response", "reply", "resolution", "update"]
+    correct_answer: "response"
+    xp_reward: 15
+
+  - id: 93
+    type: fill_blank
+    question: "Complete the survey request"
+    text_with_blank: "After we close this ticket, you'll receive a brief ___ about your experience."
+    options: ["survey", "questionnaire", "feedback form", "review"]
+    correct_answer: "survey"
+    xp_reward: 15
+
+  # TRUE / FALSE (94-96)
+  - id: 94
+    type: true_false
+    question: "Is this statement true or false? A higher CSAT score indicates better customer satisfaction."
+    statement: "A higher CSAT score indicates better customer satisfaction."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 95
+    type: true_false
+    question: "Is this statement true or false? Promoters are customers who give high NPS scores (9-10)."
+    statement: "Promoters are customers who give high NPS scores (9-10)."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 96
+    type: true_false
+    question: "Is this statement true or false? Average Handle Time (AHT) should always be as low as possible, regardless of resolution quality."
+    statement: "Average Handle Time (AHT) should always be as low as possible, regardless of resolution quality."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (97-100)
+  - id: 97
+    type: matching
+    question: "Match the support metric with its definition"
+    pairs:
+      - left: "First Response Time (FRT)"
+        right: "Time until customer gets first reply"
+      - left: "Average Handle Time (AHT)"
+        right: "Average duration of a support interaction"
+      - left: "Resolution Time"
+        right: "Time until problem is fully solved"
+      - left: "Abandonment Rate"
+        right: "Percentage of customers who hang up before speaking to someone"
+      - left: "Occupancy Rate"
+        right: "Percentage of time agents are actively working"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Match the support channel with its best use"
+    pairs:
+      - left: "Phone support"
+        right: "Complex, urgent, or emotionally charged issues"
+      - left: "Email support"
+        right: "Non-urgent, detailed, or documentation-needed issues"
+      - left: "Live chat"
+        right: "Quick questions, real-time but not urgent"
+      - left: "Self-service (FAQ/Knowledge base)"
+        right: "Common questions, independent problem-solving"
+      - left: "Social media"
+        right: "Public responses, brand monitoring"
+    xp_reward: 25
+
+  - id: 99
+    type: matching
+    question: "Match the support role with responsibility"
+    pairs:
+      - left: "Level 1 (Tier 1) Support"
+        right: "Initial contact, basic troubleshooting, simple issues"
+      - left: "Level 2 (Tier 2) Support"
+        right: "Complex issues, technical depth, escalation point"
+      - left: "Customer Success Manager"
+        right: "Proactive relationship management, retention"
+      - left: "Support Manager"
+        right: "Team supervision, quality assurance, escalation handling"
+      - left: "Quality Assurance Specialist"
+        right: "Monitor and coach on support quality"
+    xp_reward: 25
+
+  - id: 100
+    type: matching
+    question: "Match the support software feature with its function"
+    pairs:
+      - left: "Ticket system"
+        right: "Track and manage customer issues"
+      - left: "Automated routing"
+        right: "Send tickets to appropriate agent"
+      - left: "Canned responses"
+        right: "Pre-written templates for common issues"
+      - left: "Reporting dashboard"
+        right: "Display support metrics and KPIs"
+      - left: "Knowledge base integration"
+        right: "Suggest articles to customers and agents"
+    xp_reward: 25
+
+  # FLASHCARDS (101-105)
+  - id: 101
+    type: flashcards
+    question: "Flashcards: Support Metrics"
+    flashcards:
+      - front: "CSAT"
+        back: "Customer Satisfaction Score (usually 1-5 scale)"
+      - front: "NPS"
+        back: "Net Promoter Score (0-10 scale)"
+      - front: "CES"
+        back: "Customer Effort Score (how easy was it to get help?)"
+      - front: "AHT"
+        back: "Average Handle Time"
+      - front: "SLAs"
+        back: "Service Level Agreements (response/resolution commitments)"
+    xp_reward: 30
+
+  - id: 102
+    type: flashcards
+    question: "Flashcards: Support Status Terms"
+    flashcards:
+      - front: "Open"
+        back: "Issue has been received but not yet resolved"
+      - front: "In progress"
+        back: "Agent is actively working on the issue"
+      - front: "On hold"
+        back: "Waiting for customer or external input"
+      - front: "Resolved"
+        back: "Issue has been solved"
+      - front: "Closed"
+        back: "Customer has confirmed resolution or no response"
+    xp_reward: 30
+
+  - id: 103
+    type: flashcards
+    question: "Flashcards: Support Priority Levels"
+    flashcards:
+      - front: "Critical/P1"
+        back: "System down, business impact, immediate response"
+      - front: "High/P2"
+        back: "Major functionality issue, urgent response"
+      - front: "Medium/P3"
+        back: "Minor issue, normal response time"
+      - front: "Low/P4"
+        back: "Question or suggestion, low urgency"
+      - front: "Enhancement/P5"
+        back: "Feature request, no SLA"
+    xp_reward: 30
+
+  - id: 104
+    type: flashcards
+    question: "Flashcards: Support Channels"
+    flashcards:
+      - front: "IVR"
+        back: "Interactive Voice Response (phone menu system)"
+      - front: "Live chat"
+        back: "Real-time text support on website"
+      - front: "Chatbot"
+        back: "Automated conversational agent"
+      - front: "Community forum"
+        back: "Customer-to-customer support"
+      - front: "Callback request"
+        back: "Customer requests call at specific time"
+    xp_reward: 30
+
+  - id: 105
+    type: flashcards
+    question: "Flashcards: Support Quality Terms"
+    flashcards:
+      - front: "FCR"
+        back: "First Contact Resolution (solved in one interaction)"
+      - front: "Customer retention"
+        back: "Keeping customers from leaving"
+      - front: "Churn rate"
+        back: "Percentage of customers lost over time"
+      - front: "Voice of Customer (VoC)"
+        back: "Feedback and insights from customers"
+      - front: "Root cause analysis"
+        back: "Finding underlying reasons for issues"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: PROFESSIONAL APOLOGIES (106-120)
+  # ============================================
+
+  # MULTIPLE CHOICE (106-111)
+  - id: 106
+    type: multiple_choice
+    question: "What are the three essential elements of a professional apology?"
+    options:
+      - "Blaming, excusing, ignoring"
+      - "Acknowledgment of the error, expression of regret, plan to fix it"
+      - "Sorry, but, whatever"
+      - "It's not my fault, here's why, goodbye"
+    answer: "Acknowledgment of the error, expression of regret, plan to fix it"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "Why should you avoid saying 'I'm sorry if you feel that way'?"
+    options:
+      - "It's too long"
+      - "It's a non-apology that doesn't accept responsibility"
+      - "It's too formal"
+      - "It's too casual"
+    answer: "It's a non-apology that doesn't accept responsibility"
+    xp_reward: 15
+
+  - id: 108
+    type: multiple_choice
+    question: "What is the best way to apologize for a mistake you personally made?"
+    options:
+      - "Blame the system"
+      - "I take full responsibility for this error. Here's how I'll fix it."
+      - "It wasn't me"
+      - "Everyone makes mistakes"
+    answer: "I take full responsibility for this error. Here's how I'll fix it."
+    xp_reward: 15
+
+  - id: 109
+    type: multiple_choice
+    question: "What should you do after apologizing to a customer?"
+    options:
+      - "Move on to the next customer"
+      - "Explain the solution and take action to fix the problem"
+      - "Repeat the apology multiple times"
+      - "Avoid the customer in the future"
+    answer: "Explain the solution and take action to fix the problem"
+    xp_reward: 15
+
+  - id: 110
+    type: multiple_choice
+    question: "What is appropriate compensation for a customer's inconvenience?"
+    options:
+      - "Nothing"
+      - "A sincere apology and something of value (discount, credit, free shipping)"
+      - "A lawsuit"
+      - "A lecture about why they're wrong"
+    answer: "A sincere apology and something of value (discount, credit, free shipping)"
+    xp_reward: 15
+
+  - id: 111
+    type: multiple_choice
+    question: "How should you apologize for a systemic company failure?"
+    options:
+      - "It's not my department"
+      - "On behalf of the company, I sincerely apologize. We are taking steps to ensure this doesn't happen again."
+      - "That's just our policy"
+      - "I don't make the rules"
+    answer: "On behalf of the company, I sincerely apologize. We are taking steps to ensure this doesn't happen again."
+    xp_reward: 15
+
+  # FILL IN THE BLANK (112-115)
+  - id: 112
+    type: fill_blank
+    question: "Complete the ownership apology"
+    text_with_blank: "I take full ___ for this error. You deserve better."
+    options: ["responsibility", "blame", "ownership", "accountability"]
+    correct_answer: "responsibility"
+    xp_reward: 15
+
+  - id: 113
+    type: fill_blank
+    question: "Complete the regret expression"
+    text_with_blank: "I ___ regret that this situation occurred."
+    options: ["sincerely", "truly", "deeply", "genuinely"]
+    correct_answer: "sincerely"
+    xp_reward: 15
+
+  - id: 114
+    type: fill_blank
+    question: "Complete the prevention promise"
+    text_with_blank: "We are ___ steps to ensure this doesn't happen again."
+    options: ["taking", "implementing", "putting in place", "establishing"]
+    correct_answer: "taking"
+    xp_reward: 15
+
+  - id: 115
+    type: fill_blank
+    question: "Complete the compensation offer"
+    text_with_blank: "To make things right, I'd like to offer you a 20% ___ on your next purchase."
+    options: ["discount", "credit", "refund", "voucher"]
+    correct_answer: "discount"
+    xp_reward: 15
+
+  # TRUE / FALSE (116-117)
+  - id: 116
+    type: true_false
+    question: "Is this statement true or false? A sincere apology can sometimes be more valuable to a customer than monetary compensation."
+    statement: "A sincere apology can sometimes be more valuable to a customer than monetary compensation."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 117
+    type: true_false
+    question: "Is this statement true or false? You should apologize even if you personally did nothing wrong but the customer had a bad experience."
+    statement: "You should apologize even if you personally did nothing wrong but the customer had a bad experience."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (118-120)
+  - id: 118
+    type: matching
+    question: "Match the apology component with its example"
+    pairs:
+      - left: "Acknowledgment"
+        right: "I see that we made a mistake on your order"
+      - left: "Regret"
+        right: "I'm very sorry this happened"
+      - left: "Responsibility"
+        right: "This was our error, and I own it"
+      - left: "Solution"
+        right: "Here's what I'm going to do to fix it"
+      - left: "Prevention"
+        right: "We're changing our process so this won't recur"
+    xp_reward: 25
+
+  - id: 119
+    type: matching
+    question: "Match the mistake type with the appropriate apology"
+    pairs:
+      - left: "Minor error (e.g., typo in email)"
+        right: "Brief apology, quick correction, no compensation needed"
+      - left: "Moderate error (e.g., delayed delivery)"
+        right: "Sincere apology, explanation, shipping fee refund"
+      - left: "Major error (e.g., wrong product sent)"
+        right: "Full apology, expedited replacement, discount voucher"
+      - left: "Repeated error"
+        right: "Apology with escalation, substantial compensation"
+      - left: "Systemic failure"
+        right: "Company apology, detailed action plan, significant compensation"
+    xp_reward: 25
+
+  - id: 120
+    type: matching
+    question: "Match the non-apology with why it's ineffective"
+    pairs:
+      - left: "Sorry if you were offended"
+        right: "Blames customer's reaction, not the action"
+      - left: "Mistakes happen"
+        right: "Dismissive, minimizes the issue"
+      - left: "I'm sorry but..."
+        right: "Justification negates the apology"
+      - left: "That's just our policy"
+        right: "No ownership, no empathy"
+      - left: "Everyone makes mistakes"
+        right: "Deflects responsibility"
+    xp_reward: 25
+
+  # ============================================
+  # SECTION 6: BUILDING CUSTOMER RELATIONSHIPS (121-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (121-125)
+  - id: 121
+    type: multiple_choice
+    question: "What is the best way to build rapport with a repeat customer?"
+    options:
+      - "Pretend you don't remember them"
+      - "Acknowledge their loyalty: 'Welcome back, Mr. Smith. Great to see you again.'"
+      - "Ignore them"
+      - "Ask personal questions about their family"
+    answer: "Acknowledge their loyalty: 'Welcome back, Mr. Smith. Great to see you again.'"
+    xp_reward: 15
+
+  - id: 122
+    type: multiple_choice
+    question: "How can you personalize customer service?"
+    options:
+      - "Use the same script for everyone"
+      - "Use the customer's name, remember preferences, reference past interactions"
+      - "Talk about yourself instead"
+      - "Avoid any personal touch"
+    answer: "Use the customer's name, remember preferences, reference past interactions"
+    xp_reward: 15
+
+  - id: 123
+    type: multiple_choice
+    question: "What is 'proactive customer service'?"
+    options:
+      - "Waiting for customers to complain"
+      - "Anticipating customer needs and reaching out before problems arise"
+      - "Reacting after problems occur"
+      - "Avoiding customers altogether"
+    answer: "Anticipating customer needs and reaching out before problems arise"
+    xp_reward: 15
+
+  - id: 124
+    type: multiple_choice
+    question: "How should you follow up with a customer after resolving an issue?"
+    options:
+      - "Never contact them again"
+      - "Send a brief message: 'Just checking in to make sure everything is still working well.'"
+      - "Call them daily for a month"
+      - "Send angry emails"
+    answer: "Send a brief message: 'Just checking in to make sure everything is still working well.'"
+    xp_reward: 15
+
+  - id: 125
+    type: multiple_choice
+    question: "What does 'customer loyalty' mean?"
+    options:
+      - "A customer who buys once"
+      - "A customer who repeatedly chooses your company over competitors"
+      - "A customer who complains constantly"
+      - "A customer who asks for discounts"
+    answer: "A customer who repeatedly chooses your company over competitors"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (126-128)
+  - id: 126
+    type: fill_blank
+    question: "Complete the welcome back phrase"
+    text_with_blank: "Welcome back, Mr. Johnson. It's ___ to see you again."
+    options: ["great", "nice", "wonderful", "good"]
+    correct_answer: "great"
+    xp_reward: 15
+
+  - id: 127
+    type: fill_blank
+    question: "Complete the loyalty acknowledgment"
+    text_with_blank: "We truly appreciate your ___ as a valued customer."
+    options: ["loyalty", "business", "trust", "patronage"]
+    correct_answer: "loyalty"
+    xp_reward: 15
+
+  - id: 128
+    type: fill_blank
+    question: "Complete the proactive outreach"
+    text_with_blank: "I noticed your subscription is up for renewal next month. I wanted to ___ out early to see if you have any questions."
+    options: ["reach", "check", "touch base", "follow"]
+    correct_answer: "reach"
+    xp_reward: 15
+
+  # TRUE / FALSE (129-130)
+  - id: 129
+    type: true_false
+    question: "Is this statement true or false? Acquiring a new customer costs significantly more than retaining an existing one."
+    statement: "Acquiring a new customer costs significantly more than retaining an existing one."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Customer Service Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "What does HEAT stand for in complaint handling"
+        answer: "Hear Empathize Apologize Take action"
+      - question: "What does SLA stand for"
+        answer: "Service Level Agreement"
+      - question: "What does CSAT stand for"
+        answer: "Customer Satisfaction Score"
+      - question: "Three elements of a professional apology"
+        answer: "Acknowledge regret fix"
+      - question: "What does NPS measure"
+        answer: "Likelihood to recommend"
+      - question: "How to build rapport with repeat customer"
+        answer: "Acknowledge their loyalty"
+      - question: "What is proactive customer service"
+        answer: "Anticipating needs before problems"
+      - question: "Best opening phrase for helping a customer"
+        answer: "How can I help you today"
+    xp_reward: 50

@@ -1,0 +1,907 @@
+lesson:
+ name: "Värit"
+ description: "Opettele basic Värit in Kinyarwanda with Eläimet and objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Värit ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Kysymys: "Miten sanotaan 'Punainen' kinyarwandaksi?"
+ Vastaus: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Kysymys: "Miten sanotaan 'Sininen' kinyarwandaksi?"
+ Vastaus: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Kysymys: "Miten sanotaan 'Vihreä' kinyarwandaksi?"
+ Vastaus: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Kysymys: "Miten sanotaan 'Keltainen' kinyarwandaksi?"
+ Vastaus: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Kysymys: "Miten sanotaan 'Musta' kinyarwandaksi?"
+ Vastaus: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Kysymys: "Miten sanotaan 'Valkoinen' kinyarwandaksi?"
+ Vastaus: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Kysymys: "Miten sanotaan 'Oranssi' kinyarwandaksi?"
+ Vastaus: "Oranssi"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, not full Lause)
+ - id: 8
+ type: translation
+ Kysymys: "Miten sanotaan 'Punainen apple' kinyarwandaksi?"
+ Vastaus: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Kysymys: "Miten sanotaan 'Sininen sky' kinyarwandaksi?"
+ Vastaus: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Kysymys: "Miten sanotaan 'Vihreä grass' kinyarwandaksi?"
+ Vastaus: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Kysymys: "Miten sanotaan 'Keltainen sun' kinyarwandaksi?"
+ Vastaus: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Kysymys: "Miten sanotaan 'Musta Kissa' kinyarwandaksi?"
+ Vastaus: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Kysymys: "Miten sanotaan 'Valkoinen Lehmä' kinyarwandaksi?"
+ Vastaus: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Kysymys: "Miten sanotaan 'Oranssi carrot' kinyarwandaksi?"
+ Vastaus: "Karoti ya Oranssi"
+ xp_reward: 15
+
+ # Translation - Värit with Eläimet (Noun + Color phrases)
+ - id: 15
+ type: translation
+ Kysymys: "Miten sanotaan 'Punainen Lintu' kinyarwandaksi?"
+ Vastaus: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Kysymys: "Miten sanotaan 'Vihreä Sammakko' kinyarwandaksi?"
+ Vastaus: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Kysymys: "Miten sanotaan 'Sininen Kala' kinyarwandaksi?"
+ Vastaus: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Kysymys: "Miten sanotaan 'Keltainen Kana' kinyarwandaksi?"
+ Vastaus: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Kysymys: "Miten sanotaan 'Musta Jänis' kinyarwandaksi?"
+ Vastaus: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Kysymys: "Miten sanotaan 'Valkoinen Vuohi' kinyarwandaksi?"
+ Vastaus: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers with Värit (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ Kysymys: "Miten sanotaan 'One Punainen apple' kinyarwandaksi?"
+ Vastaus: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Kysymys: "Miten sanotaan 'Two Sininen Lintu' kinyarwandaksi?"
+ Vastaus: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Kysymys: "Miten sanotaan 'Three Keltainen Kana' kinyarwandaksi?"
+ Vastaus: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Kysymys: "Miten sanotaan 'Four Musta Kissa' kinyarwandaksi?"
+ Vastaus: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Kysymys: "Miten sanotaan 'Five Valkoinen Lehmä' kinyarwandaksi?"
+ Vastaus: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color Kysymys (Phrases - safe as they are fixed expressions)
+ - id: 26
+ type: translation
+ Kysymys: "Miten kysyt 'What color is the apple?' kinyarwandaksi?"
+ Vastaus: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Kysymys: "Miten kysyt 'What color is the sky?' kinyarwandaksi?"
+ Vastaus: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Kysymys: "Miten kysyt 'Is the Kissa Musta?' kinyarwandaksi?"
+ Vastaus: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR FULL Lause OR PARAGRAPHS
+ # Instead, we use Lause building, Yhdistä, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Umutuku' tässä lauseessa?"
+ options:
+ - "Sininen"
+ - "Punainen"
+ - "Vihreä"
+ - "Keltainen"
+ Vastaus: "Punainen"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Ubururu' tässä lauseessa?"
+ options:
+ - "Punainen"
+ - "Sininen"
+ - "Musta"
+ - "Valkoinen"
+ Vastaus: "Sininen"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Icyatsi' tässä lauseessa?"
+ options:
+ - "Vihreä"
+ - "Keltainen"
+ - "Oranssi"
+ - "Punainen"
+ Vastaus: "Vihreä"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Umuhondo' tässä lauseessa?"
+ options:
+ - "Sininen"
+ - "Punainen"
+ - "Keltainen"
+ - "Valkoinen"
+ Vastaus: "Keltainen"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Umukara' tässä lauseessa?"
+ options:
+ - "Valkoinen"
+ - "Musta"
+ - "Vihreä"
+ - "Oranssi"
+ Vastaus: "Musta"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Umweru' tässä lauseessa?"
+ options:
+ - "Musta"
+ - "Valkoinen"
+ - "Punainen"
+ - "Sininen"
+ Vastaus: "Valkoinen"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Inyoni itukura' tässä lauseessa?"
+ options:
+ - "Sininen Lintu"
+ - "Punainen Lintu"
+ - "Vihreä Lintu"
+ - "Keltainen Lintu"
+ Vastaus: "Punainen Lintu"
+ xp_reward: 15
+
+ # 3. Kuuntele and Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the color"
+ tts_text: "Umutuku"
+ Vastaus: "Umutuku"
+ translation: "Punainen"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the color"
+ tts_text: "Ubururu"
+ Vastaus: "Ubururu"
+ translation: "Sininen"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Pome ni umutuku"
+ Vastaus: "Pome ni umutuku"
+ translation: "The apple is Punainen"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Ijuru ni ubururu"
+ Vastaus: "Ijuru ni ubururu"
+ translation: "The sky is Sininen"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ Vastaus: "Inyoni itukura iraguruka"
+ translation: "The Punainen Lintu flies"
+ xp_reward: 25
+
+ # 4. Kuuntele and Valitse
+ - id: 41
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct color"
+ tts_text: "Umutuku"
+ options:
+ - "Punainen"
+ - "Sininen"
+ - "Vihreä"
+ Vastaus: "Punainen"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "Punainen"
+ - "Keltainen"
+ - "Musta"
+ Vastaus: "Keltainen"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "The apple is Punainen"
+ - "The sky is Sininen"
+ - "The sun is Keltainen"
+ Vastaus: "The apple is Punainen"
+ xp_reward: 20
+
+ # 5. Repeat / Puhu Exercise
+ - id: 44
+ type: Puhu
+ Kysymys: "Say this color"
+ prompt: "Umutuku"
+ translation: "Punainen"
+ xp_reward: 15
+
+ - id: 45
+ type: Puhu
+ Kysymys: "Say this color"
+ prompt: "Ubururu"
+ translation: "Sininen"
+ xp_reward: 15
+
+ - id: 46
+ type: Puhu
+ Kysymys: "Say this phrase"
+ prompt: "Pome itukura"
+ translation: "Punainen apple"
+ xp_reward: 18
+
+ - id: 47
+ type: Puhu
+ Kysymys: "Say this Lause"
+ prompt: "Pome ni umutuku"
+ translation: "The apple is Punainen"
+ xp_reward: 20
+
+ - id: 48
+ type: Puhu
+ Kysymys: "Say this Lause"
+ prompt: "Ijuru ni ubururu"
+ translation: "The sky is Sininen"
+ xp_reward: 20
+
+ # 6. Word Bank Lause Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The apple is Punainen'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The sky is Sininen'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda phrase for 'Punainen Lintu'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda phrase for 'Sininen Kala'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Punainen Lintu flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Vihreä Sammakko jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. Lause Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "The apple is Punainen"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "The sky is Sininen"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "The Punainen Lintu flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "The Vihreä Sammakko jumps"
+ xp_reward: 25
+
+ # 8. Fill in the Blank - Valitse FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Punainen"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Sininen"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "The grass is Vihreä"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "The sun is Keltainen"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the phrase"
+ text_with_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Punainen Lintu flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ Kysymys: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ Kysymys: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ Kysymys: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "Oranssi", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ Kysymys: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Kysymys: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "Oranssi"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Kysymys: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Kysymys: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Oranssi", "Ubururu"]
+ correct_answer: "Oranssi"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Kysymys: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "Oranssi"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ Kysymys: "What color is this Lintu?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word Yhdistä (Pairing)
+ - id: 73
+ type: Yhdistä
+ Kysymys: "Yhdistä the Värit"
+ pairs:
+ - Vasen: "Punainen"
+ Oikea: "Umutuku"
+ - Vasen: "Sininen"
+ Oikea: "Ubururu"
+ - Vasen: "Vihreä"
+ Oikea: "Icyatsi"
+ - Vasen: "Keltainen"
+ Oikea: "Umuhondo"
+ - Vasen: "Musta"
+ Oikea: "Umukara"
+ - Vasen: "Valkoinen"
+ Oikea: "Umweru"
+ - Vasen: "Oranssi"
+ Oikea: "Oranssi"
+ xp_reward: 25
+
+ - id: 74
+ type: Yhdistä
+ Kysymys: "Yhdistä the colored objects"
+ pairs:
+ - Vasen: "Punainen apple"
+ Oikea: "Pome itukura"
+ - Vasen: "Sininen sky"
+ Oikea: "Ijuru ry'ubururu"
+ - Vasen: "Vihreä grass"
+ Oikea: "Ibyatsi by'icyatsi"
+ - Vasen: "Keltainen sun"
+ Oikea: "Izuba ry'umuhondo"
+ - Vasen: "Musta Kissa"
+ Oikea: "Injangwe y'umukara"
+ - Vasen: "Valkoinen Lehmä"
+ Oikea: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: Yhdistä
+ Kysymys: "Yhdistä the colored Eläimet"
+ pairs:
+ - Vasen: "Punainen Lintu"
+ Oikea: "Inyoni itukura"
+ - Vasen: "Vihreä Sammakko"
+ Oikea: "Igikeri cy'icyatsi"
+ - Vasen: "Sininen Kala"
+ Oikea: "Ifi y'ubururu"
+ - Vasen: "Keltainen Kana"
+ Oikea: "Inkoko y'umuhondo"
+ - Vasen: "Musta Jänis"
+ Oikea: "Urukwavu rw'umukara"
+ - Vasen: "Valkoinen Vuohi"
+ Oikea: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. Valitse Missing Word
+ - id: 80
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Punainen"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Sininen"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Punainen Lintu flies"
+ xp_reward: 18
+
+ # 12. Lue and Vastaus - Kysymys in English, Vastaus based on Kinyarwanda text
+ - id: 83
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ Kysymys: "What color is the apple?"
+ options: ["Punainen", "Sininen", "Vihreä", "Keltainen"]
+ correct_answer: "Punainen"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ Kysymys: "Mitä tarkoittaa the Punainen Lintu do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ Kysymys: "What color is the Lehmä?"
+ options: ["Musta", "Valkoinen", "Keltainen", "Punainen"]
+ correct_answer: "Valkoinen"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Pome ni umutuku."
+ translation: "The apple is Punainen"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Ijuru ni icyatsi."
+ translation: "The sky is Vihreä"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Inka ni umweru."
+ translation: "The Lehmä is Valkoinen"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "The Punainen Lintu flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ Kysymys: "Respond to the Kysymys by building a Lause"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ Kysymys: "Respond to the Kysymys"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is the sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ Kysymys: "Respond to the Kysymys"
+ bot_message: "Injangwe ni umukara?"
+ translation: "Is the Kissa Musta?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build Lause from pieces
+ - id: 93
+ type: story
+ title: "Värit in the Field"
+ story_intro: "Lue about the colorful Eläimet. Then build the Lause."
+ story_segments:
+ - text: "There is a Punainen Lintu in the sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: "The Lintu flies above."
+ - text: "There is a Vihreä Sammakko near the Vesi."
+ - text: "The Sammakko jumps."
+ - text: "There is a Sininen Kala in the Vesi."
+ - text: "The Kala swims."
+ exercises:
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Punainen Lintu flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Vihreä Sammakko jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Sininen Kala swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ Kysymys: "Say the color"
+ prompt: "Umutuku"
+ translation: "Punainen"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ Kysymys: "Say the color"
+ prompt: "Agasumbashyamba" # Kirahvi - testing color knowledge in context
+ translation: "Kirahvi (they are Keltainen and Ruskea)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ Kysymys: "Say the phrase"
+ prompt: "Pome itukura"
+ translation: "Punainen apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'umutuku' mean in this Lause?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["Punainen", "Sininen", "Vihreä", "Keltainen"]
+ correct_answer: "Punainen"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'itukura' mean in this Lause?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["Punainen", "Sininen", "Vihreä", "Keltainen"]
+ correct_answer: "Punainen"
+ note: "itukura is the adjective form of umutuku when describing a noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'cy'icyatsi' mean in this Lause?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["Punainen", "Sininen", "Vihreä", "Keltainen"]
+ correct_answer: "Vihreä"
+ xp_reward: 18
+
+ # 18. Speed Yhdistä
+ - id: 100
+ type: speed_Yhdistä
+ title: "Yhdistä Madness: Värit"
+ time_limit_seconds: 45
+ pairs:
+ - Vasen: "Punainen"
+ Oikea: "Umutuku"
+ - Vasen: "Sininen"
+ Oikea: "Ubururu"
+ - Vasen: "Vihreä"
+ Oikea: "Icyatsi"
+ - Vasen: "Keltainen"
+ Oikea: "Umuhondo"
+ - Vasen: "Musta"
+ Oikea: "Umukara"
+ - Vasen: "Valkoinen"
+ Oikea: "Umweru"
+ - Vasen: "Oranssi"
+ Oikea: "Oranssi"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: Värit"
+ time_limit_seconds: 30
+ Kysymys_count: 5
+ Kysymys:
+ - Kysymys: "Punainen"
+ Vastaus: "Umutuku"
+ - Kysymys: "Sininen"
+ Vastaus: "Ubururu"
+ - Kysymys: "Vihreä"
+ Vastaus: "Icyatsi"
+ - Kysymys: "Keltainen"
+ Vastaus: "Umuhondo"
+ - Kysymys: "Musta"
+ Vastaus: "Umukara"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Kysymys: "Flashcards"
+ Flashcards:
+ - front: "Umutuku"
+ back: "Punainen"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "Sininen"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "Vihreä"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "Keltainen"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "Musta"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "Valkoinen"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Oranssi"
+ back: "Oranssi"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "Punainen apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "Sininen sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "Vihreä grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

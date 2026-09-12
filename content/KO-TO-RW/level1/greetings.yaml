@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "배우다 common greetings 와 expressions 안에 Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe 위해 single words/phrases)
+ - id: 1
+ type: translation
+ 질문: "어떻게 말합니까 '안녕하세요' 키냐르완다어로?"
+ 답: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 질문: "어떻게 말합니까 '좋은 morning' 키냐르완다어로?"
+ 답: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 질문: "어떻게 말합니까 '좋은 afternoon / 좋은 evening' 키냐르완다어로?"
+ 답: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 질문: "어떻게 말합니까 '좋은 night' 키냐르완다어로?"
+ 답: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 질문: "어떻게 물으나요 'How 이다 you?' 키냐르완다어로?"
+ 답: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 질문: "어떻게 말합니까 'I'm fine' 키냐르완다어로?"
+ 답: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 질문: "어떻게 말합니까 'Welcome' 키냐르완다어로?"
+ 답: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 질문: "어떻게 말합니까 '보다 you later' 키냐르완다어로?"
+ 답: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ 질문: "어떻게 말합니까 '안녕히 가세요' 키냐르완다어로?"
+ 답: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ 질문: "어떻게 말합니까 'Have  nice day' 키냐르완다어로?"
+ 답: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 질문: "어떻게 말합니까 'Take care' 키냐르완다어로?"
+ 답: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ 질문: "어떻게 말합니까 'Long time 아니오 보다' 키냐르완다어로?"
+ 답: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ 질문: "어떻게 물으나요 'What's up?' 키냐르완다어로?"
+ 답: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ 질문: "어떻게 말합니까 'Nice 에 meet you' 키냐르완다어로?"
+ 답: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings 와 가족 Members (Simple combinations)
+ - id: 15
+ type: translation
+ 질문: "어떻게 말합니까 '안녕하세요, mother!' 키냐르완다어로?"
+ 답: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ 질문: "어떻게 말합니까 '좋은 morning, father!' 키냐르완다어로?"
+ 답: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ 질문: "어떻게 말합니까 '좋은 night, my child!' 키냐르완다어로?"
+ 답: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common 질문 (Fixed expressions)
+ - id: 18
+ type: translation
+ 질문: "어떻게 물으나요 'How 이다 you today?' 키냐르완다어로?"
+ 답: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ 질문: "어떻게 말합니까 'I'm fine, thank you' 키냐르완다어로?"
+ 답: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ 질문: "어떻게 물으나요 'What's up 와 you today?' 키냐르완다어로?"
+ 답: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # 아니오 DIRECT TRANSLATION 위해 COMPLEX DIALOGUES 또는 PARAGRAPHS
+ # Instead, we use 문장 building, 맞추다, 와 word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Muraho' 라는 뜻입니까"
+ options:
+ - "안녕히 가세요"
+ - "안녕하세요"
+ - "좋은 morning"
+ - "좋은 night"
+ 답: "안녕하세요"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Mwaramutse' 라는 뜻입니까"
+ options:
+ - "좋은 evening"
+ - "좋은 morning"
+ - "좋은 night"
+ - "안녕히 가세요"
+ 답: "좋은 morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Amakuru' 라는 뜻입니까"
+ options:
+ - "안녕히 가세요"
+ - "Welcome"
+ - "How 이다 you?"
+ - "보다 you later"
+ 답: "How 이다 you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Ni meza' 라는 뜻입니까"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ 답: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Murabeho' 라는 뜻입니까"
+ options:
+ - "안녕하세요"
+ - "Welcome"
+ - "안녕히 가세요"
+ - "보다 you later"
+ 답: "안녕히 가세요"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Tuzasubira' 라는 뜻입니까"
+ options:
+ - "안녕히 가세요"
+ - "보다 you later"
+ - "Welcome back"
+ - "Take care"
+ 답: "보다 you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Nishimiye kukubona' 라는 뜻입니까"
+ options:
+ - "좋은 morning"
+ - "Nice 에 meet you"
+ - "Welcome"
+ - "Take care"
+ 답: "Nice 에 meet you"
+ xp_reward: 18
+
+ # 3. 듣다 와 Type (Dictation) - Safe because audio 이다 provided
+ - id: 28
+ type: listen_와_type
+ 질문: "듣다 와 type  greeting"
+ tts_text: "Muraho"
+ 답: "Muraho"
+ translation: "안녕하세요"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_와_type
+ 질문: "듣다 와 type  greeting"
+ tts_text: "Mwaramutse"
+ 답: "Mwaramutse"
+ translation: "좋은 morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_와_type
+ 질문: "듣다 와 type  greeting"
+ tts_text: "Mwiriwe"
+ 답: "Mwiriwe"
+ translation: "좋은 afternoon / 좋은 evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_와_type
+ 질문: "듣다 와 type  phrase"
+ tts_text: "Ijoro ryiza"
+ 답: "Ijoro ryiza"
+ translation: "좋은 night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_와_type
+ 질문: "듣다 와 type  질문"
+ tts_text: "Amakuru"
+ 답: "Amakuru"
+ translation: "How 이다 you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_와_type
+ 질문: "듣다 와 type  response"
+ tts_text: "Ni meza"
+ 답: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_와_type
+ 질문: "듣다 와 type  phrase"
+ tts_text: "Murakaza neza"
+ 답: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_와_type
+ 질문: "듣다 와 type  phrase"
+ tts_text: "Tuzasubira"
+ 답: "Tuzasubira"
+ translation: "보다 you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_와_type
+ 질문: "듣다 와 type  phrase"
+ tts_text: "Murabeho"
+ 답: "Murabeho"
+ translation: "안녕히 가세요"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_와_type
+ 질문: "듣다 와 type  phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ 답: "Hashize igihe tutabonanye"
+ translation: "Long time 아니오 보다"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_와_type
+ 질문: "듣다 와 type  phrase"
+ tts_text: "Nishimiye kukubona"
+ 답: "Nishimiye kukubona"
+ translation: "Nice 에 meet you"
+ xp_reward: 25
+
+ # 4. 듣다 와 선택하다
+ - id: 39
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "안녕히 가세요"
+ - "안녕하세요"
+ - "좋은 morning"
+ 답: "안녕하세요"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "좋은 evening"
+ - "좋은 morning"
+ - "좋은 night"
+ 답: "좋은 morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "좋은 morning"
+ - "좋은 afternoon/evening"
+ - "좋은 night"
+ 답: "좋은 afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "안녕히 가세요"
+ - "How 이다 you?"
+ - "Welcome"
+ 답: "How 이다 you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ 답: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "안녕하세요"
+ - "안녕히 가세요"
+ - "보다 you later"
+ 답: "안녕히 가세요"
+ xp_reward: 15
+
+ # 5. Repeat / 말하다 Exercise
+ - id: 45
+ type: 말하다
+ 질문: "Say 이것 greeting"
+ prompt: "Muraho"
+ translation: "안녕하세요"
+ xp_reward: 15
+
+ - id: 46
+ type: 말하다
+ 질문: "Say 이것 greeting"
+ prompt: "Mwaramutse"
+ translation: "좋은 morning"
+ xp_reward: 15
+
+ - id: 47
+ type: 말하다
+ 질문: "Say 이것 greeting"
+ prompt: "Mwiriwe"
+ translation: "좋은 afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: 말하다
+ 질문: "Say 이것 phrase"
+ prompt: "Ijoro ryiza"
+ translation: "좋은 night"
+ xp_reward: 18
+
+ - id: 49
+ type: 말하다
+ 질문: "Ask 'How 이다 you?' 안에 Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How 이다 you?"
+ xp_reward: 15
+
+ - id: 50
+ type: 말하다
+ 질문: "Say 'I'm fine' 안에 Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: 말하다
+ 질문: "Say 'Welcome' 안에 Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: 말하다
+ 질문: "Say '보다 you later' 안에 Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "보다 you later"
+ xp_reward: 18
+
+ - id: 53
+ type: 말하다
+ 질문: "Say '안녕히 가세요' 안에 Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "안녕히 가세요"
+ xp_reward: 15
+
+ - id: 54
+ type: 말하다
+ 질문: "Say 'Long time 아니오 보다' 안에 Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time 아니오 보다"
+ xp_reward: 22
+
+ - id: 55
+ type: 말하다
+ 질문: "Say 'Nice 에 meet you' 안에 Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice 에 meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: 말하다
+ 질문: "Say '안녕하세요, mother!' 안에 Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "안녕하세요, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: 말하다
+ 질문: "Say '좋은 morning, father!' 안에 Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "좋은 morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank 문장 Building - PIECES PROVIDED, 아니오 TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ 질문: "Build  greeting 위해 '안녕하세요, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ 질문: "Build  greeting 위해 '좋은 morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ 질문: "Build  greeting 위해 '좋은 night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ 질문: "Build  질문 'How 이다 you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ 질문: "Build  response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ 질문: "Build  farewell '보다 you later at 학교'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ 질문: "Build  farewell '안녕히 가세요, 보다 you 내일'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ 질문: "Build  well-wish 'Have  nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ 질문: "Build  phrase 'Take care 위에 your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ 질문: "Build  greeting 'Long time 아니오 보다, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ 질문: "Build  질문 'What's up 와 you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ 질문: "Build  phrase 'Nice 에 meet you at  party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. 문장 Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "안녕하세요, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "좋은 morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "좋은 night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct 질문"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How 이다 you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "보다 you later at 학교."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "안녕히 가세요, 보다 you 내일."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have  nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care 위에 your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time 아니오 보다, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct 질문"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up 와 you today?"
+ xp_reward: 22
+
+ # 8. Fill 안에  Blank - 선택하다 FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ 질문: "Complete  greeting"
+ text_와_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "안녕하세요, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ 질문: "Complete  greeting"
+ text_와_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "좋은 morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ 질문: "Complete  phrase"
+ text_와_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "좋은 night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ 질문: "Complete  질문"
+ text_와_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How 이다 you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ 질문: "Complete  response"
+ text_와_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ 질문: "Complete  farewell"
+ text_와_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "보다 you later at 학교."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ 질문: "Complete  farewell"
+ text_와_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "안녕히 가세요, 보다 you 내일."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ 질문: "Complete  well-wish"
+ text_와_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have  nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ 질문: "Complete  phrase"
+ text_와_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care 위에 your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ 질문: "Complete  greeting"
+ text_와_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time 아니오 보다, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ 질문: "Complete  질문"
+ text_와_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up 와 you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word 맞추다 (Pairing)
+ - id: 98
+ type: 맞추다
+ 질문: "맞추다  greetings 에 their meanings"
+ pairs:
+ - 왼쪽: "Muraho"
+ 오른쪽: "안녕하세요"
+ - 왼쪽: "Mwaramutse"
+ 오른쪽: "좋은 morning"
+ - 왼쪽: "Mwiriwe"
+ 오른쪽: "좋은 afternoon/evening"
+ - 왼쪽: "Ijoro ryiza"
+ 오른쪽: "좋은 night"
+ - 왼쪽: "Amakuru"
+ 오른쪽: "How 이다 you?"
+ - 왼쪽: "Ni meza"
+ 오른쪽: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: 맞추다
+ 질문: "맞추다  farewells 와 well-wishes"
+ pairs:
+ - 왼쪽: "Murabeho"
+ 오른쪽: "안녕히 가세요"
+ - 왼쪽: "Tuzasubira"
+ 오른쪽: "보다 you later"
+ - 왼쪽: "Umunsi mwiza"
+ 오른쪽: "Have  nice day"
+ - 왼쪽: "Wirinde"
+ 오른쪽: "Take care"
+ - 왼쪽: "Hashize igihe tutabonanye"
+ 오른쪽: "Long time 아니오 보다"
+ - 왼쪽: "Nishimiye kukubona"
+ 오른쪽: "Nice 에 meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: 맞추다
+ 질문: "맞추다  phrases 와 가족 members"
+ pairs:
+ - 왼쪽: "Muraho, Mama!"
+ 오른쪽: "안녕하세요, mother!"
+ - 왼쪽: "Mwaramutse, Data!"
+ 오른쪽: "좋은 morning, father!"
+ - 왼쪽: "Ijoro ryiza, mwana wanjye!"
+ 오른쪽: "좋은 night, my child!"
+ - 왼쪽: "Hashize igihe tutabonanye, nshuti yanjye"
+ 오른쪽: "Long time 아니오 보다, my friend"
+ xp_reward: 25
+
+ # 10. 선택하다 Missing Word
+ - id: 107
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How 이다 you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have  nice day at work."
+ xp_reward: 15
+
+ # 11. 읽다 와 답 - 질문 based 위에 context
+ - id: 110
+ type: read_answer
+ 질문: "읽다  dialogue 와 답  질문"
+ text: ": Muraho! Amakuru? B: Ni meza, murakoze."
+ 질문: "How 이다 person B?"
+ options: ["슬픈", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ 질문: "읽다  dialogue 와 답  질문"
+ text: ": Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ 질문: "What time 의 day 이다 it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ 질문: "읽다  dialogue 와 답  질문"
+ text: ": Tuzasubira ku ishuri. B: Murabeho!"
+ 질문: "Where will they 보다 each other later?"
+ options: ["At home", "At 학교", "At work", "At  시장"]
+ correct_answer: "At 학교"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "'Mwaramutse' 이다 used 안에  morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "'Mwiriwe' 이다 used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "'Murabeho' means 안녕하세요."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "'Nishimiye kukubona' means 'Nice 에 meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ 질문: "Respond 에  greeting by building  문장"
+ bot_message: "Muraho! Amakuru?"
+ translation: "안녕하세요! How 이다 you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ 질문: "선택하다  appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "좋은 morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ 질문: "Respond 에  farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "보다 you later at 학교."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ 질문: "Build  response 에  질문"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How 이다 you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build 문장 from pieces
+ - id: 121
+ type: story
+ title: "Meeting  Friend - Guhura n'inshuti"
+ story_intro: "읽다  conversation. Then build  문장."
+ story_segments:
+ - text: "Person  says 안녕하세요."
+ - text: "Person  asks how they 이다."
+ - text: "Person B says they 이다 fine 와 감사합니다 them."
+ - text: "Person  says nice 에 meet them."
+ - text: "Person B welcomes them."
+ - text: "Person  says 보다 you later."
+ - text: "Person B says 안녕히 가세요."
+ exercises:
+ - type: word_bank
+ 질문: "Build  Kinyarwanda greeting 위해 '안녕하세요!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ 질문: "Build  질문 'How 이다 you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ 질문: "Build  response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ 질문: "Build  phrase 'Nice 에 meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ 질문: "Build  farewell '보다 you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ 질문: "Build  farewell '안녕히 가세요'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ 질문: "Say 이것 greeting"
+ prompt: "Muraho"
+ translation: "안녕하세요"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ 질문: "Say 이것 greeting"
+ prompt: "Mwaramutse"
+ translation: "좋은 morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ 질문: "Say 이것 phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice 에 meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ 질문: "Say 이것 farewell"
+ prompt: "Murabeho"
+ translation: "안녕히 가세요"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'Muraho' 라는 뜻입니까"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["안녕히 가세요", "안녕하세요", "Thank you", "Welcome"]
+ correct_answer: "안녕하세요"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'murakoze' mean 안에 이것 문장?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["제발", "thank you", "welcome", "안녕히 가세요"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'Mwiriwe' 라는 뜻입니까"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["좋은 morning", "좋은 afternoon/evening", "좋은 night", "안녕하세요"]
+ correct_answer: "좋은 afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed 맞추다
+ - id: 129
+ type: speed_맞추다
+ title: "맞추다 Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - 왼쪽: "안녕하세요"
+ 오른쪽: "Muraho"
+ - 왼쪽: "좋은 morning"
+ 오른쪽: "Mwaramutse"
+ - 왼쪽: "좋은 afternoon"
+ 오른쪽: "Mwiriwe"
+ - 왼쪽: "좋은 night"
+ 오른쪽: "Ijoro ryiza"
+ - 왼쪽: "How 이다 you?"
+ 오른쪽: "Amakuru"
+ - 왼쪽: "I'm fine"
+ 오른쪽: "Ni meza"
+ - 왼쪽: "Welcome"
+ 오른쪽: "Murakaza neza"
+ - 왼쪽: "보다 you later"
+ 오른쪽: "Tuzasubira"
+ - 왼쪽: "안녕히 가세요"
+ 오른쪽: "Murabeho"
+ - 왼쪽: "Take care"
+ 오른쪽: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ 질문_count: 5
+ 질문:
+ - 질문: "안녕하세요"
+ 답: "Muraho"
+ - 질문: "좋은 morning"
+ 답: "Mwaramutse"
+ - 질문: "좋은 night"
+ 답: "Ijoro ryiza"
+ - 질문: "How 이다 you?"
+ 답: "Amakuru"
+ - 질문: "안녕히 가세요"
+ 답: "Murabeho"
+ xp_reward: 35
+
+# 플래시카드
+ - id: 111
+ type: 플래시카드
+ 질문: "플래시카드"
+ 플래시카드:
+ - front: "Muraho"
+ back: "안녕하세요"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "좋은 morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "좋은 afternoon / 좋은 evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "좋은 night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How 이다 you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "보다 you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "안녕히 가세요"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have  nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

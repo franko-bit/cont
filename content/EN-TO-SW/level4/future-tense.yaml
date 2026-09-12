@@ -1,0 +1,958 @@
+lesson:
+  name: "Future Tense - Wakati Ujao"
+  description: "Learn how to talk about future actions in Kiswahili"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Future Words ONLY (Safe for single words/phrases)
+  # Basic Future Vocabulary
+  - id: 1
+    type: translation
+    question: "How do you say 'Will' in Kiswahili? (as in 'will go')"
+    answer: "Ta"  
+    note: "Nitakwenda means 'I will go'"
+    xp_reward: 15
+
+  - id: 2
+    type: translation
+    question: "How do you say 'Tomorrow' in Kiswahili?"
+    answer: "Kesho"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "How do you say 'Next week' in Kiswahili?"
+    answer: "Wiki ijayo"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "How do you say 'Next month' in Kiswahili?"
+    answer: "Mwezi ujao"
+    xp_reward: 15
+
+  - id: 5
+    type: translation
+    question: "How do you say 'Next year' in Kiswahili?"
+    answer: "Mwaka ujao"
+    xp_reward: 15
+
+  - id: 6
+    type: translation
+    question: "How do you say 'Soon' in Kiswahili?"
+    answer: "Hivi karibuni"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "How do you say 'Later' in Kiswahili?"
+    answer: "Baadaye"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "How do you say 'Soon after' in Kiswahili?"
+    answer: "Mara baada ya hapo"
+    xp_reward: 12
+
+  - id: 9
+    type: translation
+    question: "How do you say 'Later on' in Kiswahili?"
+    answer: "Baadae"
+    xp_reward: 12
+
+  - id: 10
+    type: translation
+    question: "How do you say 'Next' in Kiswahili?"
+    answer: "Ijayo"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "How do you say 'Plan' in Kiswahili?"
+    answer: "Mpango"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "How do you say 'Intend' in Kiswahili?"
+    answer: "Nia"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "How do you say 'Promise' in Kiswahili?"
+    answer: "Ahadi"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "How do you say 'Expect' in Kiswahili?"
+    answer: "Kutarajia"
+    xp_reward: 10
+
+  # Common Future Tense Phrases
+  - id: 15
+    type: translation
+    question: "How do you say 'I will go to Kigali' in Kiswahili?"
+    answer: "Nitakwenda Kigali."
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "How do you say 'She will come tomorrow' in Kiswahili?"
+    answer: "Atakuja kesho."
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "How do you say 'They will eat lunch soon' in Kiswahili?"
+    answer: "Watakula chakula cha mchana hivi karibuni."
+    xp_reward: 18
+
+  - id: 18
+    type: translation
+    question: "How do you say 'We will travel next week' in Kiswahili?"
+    answer: "Tutasafiri wiki ijayo."
+    xp_reward: 18
+
+  - id: 19
+    type: translation
+    question: "How do you say 'He will study tomorrow' in Kiswahili?"
+    answer: "Atasoma kesho."
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "How do you say 'I am going to buy a car' in Kiswahili?"
+    answer: "Nitanunua gari."
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "How do you say 'We will meet at the market' in Kiswahili?"
+    answer: "Tutakutana sokoni."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "How do you say 'She will help her friend' in Kiswahili?"
+    answer: "Atamsaidia rafiki yake."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "How do you say 'I will call you later' in Kiswahili?"
+    answer: "Nitakupiga simu baadaye."
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "How do you say 'They will visit the school next month' in Kiswahili?"
+    answer: "Watatembelea shule mwezi ujao."
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 25
+    type: multiple_choice
+    question: "What does 'Kesho' mean?"
+    options:
+      - "Yesterday"
+      - "Tomorrow"
+      - "Today"
+      - "Next week"
+    answer: "Tomorrow"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What does 'Wiki ijayo' mean?"
+    options:
+      - "This week"
+      - "Last week"
+      - "Next week"
+      - "Every week"
+    answer: "Next week"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "What does 'Hivi karibuni' mean?"
+    options:
+      - "Later"
+      - "Soon"
+      - "Never"
+      - "Always"
+    answer: "Soon"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "What does 'Baadaye' mean?"
+    options:
+      - "Soon"
+      - "Later"
+      - "Before"
+      - "During"
+    answer: "Later"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "What does 'Nitakwenda Kigali' mean?"
+    options:
+      - "I went to Kigali"
+      - "I will go to Kigali"
+      - "I am in Kigali"
+      - "I like Kigali"
+    answer: "I will go to Kigali"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "What does 'Atakuja kesho' mean?"
+    options:
+      - "He came yesterday"
+      - "He will come tomorrow"
+      - "He is coming now"
+      - "He never comes"
+    answer: "He will come tomorrow"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "What does 'Tutasafiri wiki ijayo' mean?"
+    options:
+      - "We traveled last week"
+      - "We will travel next week"
+      - "We travel every week"
+      - "We are traveling now"
+    answer: "We will travel next week"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 32
+    type: listen_and_type
+    question: "Listen and type the future time phrase"
+    audio: "Kesho"
+    answer: "Kesho"
+    translation: "Tomorrow"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Listen and type the future time phrase"
+    audio: "Wiki ijayo"
+    answer: "Wiki ijayo"
+    translation: "Next week"
+    xp_reward: 22
+
+  - id: 34
+    type: listen_and_type
+    question: "Listen and type the future time phrase"
+    audio: "Hivi karibuni"
+    answer: "Hivi karibuni"
+    translation: "Soon"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Listen and type the future time phrase"
+    audio: "Baadaye"
+    answer: "Baadaye"
+    translation: "Later"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Listen and type the sentence"
+    audio: "Nitakwenda Kigali"
+    answer: "Nitakwenda Kigali"
+    translation: "I will go to Kigali"
+    xp_reward: 22
+
+  - id: 37
+    type: listen_and_type
+    question: "Listen and type the sentence"
+    audio: "Atakuja kesho"
+    answer: "Atakuja kesho"
+    translation: "She will come tomorrow"
+    xp_reward: 22
+
+  - id: 38
+    type: listen_and_type
+    question: "Listen and type the sentence"
+    audio: "Tutasafiri wiki ijayo"
+    answer: "Tutasafiri wiki ijayo"
+    translation: "We will travel next week"
+    xp_reward: 25
+
+  - id: 39
+    type: listen_and_type
+    question: "Listen and type the sentence"
+    audio: "Nitakupiga simu baadaye"
+    answer: "Nitakupiga simu baadaye"
+    translation: "I will call you later"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 40
+    type: listen_and_choose
+    question: "Listen and choose the correct meaning"
+    audio: "Kesho"
+    options:
+      - "Today"
+      - "Tomorrow"
+      - "Yesterday"
+    answer: "Tomorrow"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Listen and choose the correct meaning"
+    audio: "Hivi karibuni"
+    options:
+      - "Later"
+      - "Soon"
+      - "Never"
+    answer: "Soon"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Listen and choose the correct meaning"
+    audio: "Nitakwenda Kigali"
+    options:
+      - "I went to Kigali"
+      - "I will go to Kigali"
+      - "I am in Kigali"
+    answer: "I will go to Kigali"
+    xp_reward: 18
+
+  - id: 43
+    type: listen_and_choose
+    question: "Listen and choose the correct meaning"
+    audio: "Atakuja kesho"
+    options:
+      - "He came yesterday"
+      - "He will come tomorrow"
+      - "He is coming now"
+    answer: "He will come tomorrow"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 44
+    type: speaking
+    question: "Say this future time phrase"
+    prompt: "Kesho"
+    translation: "Tomorrow"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Say this future time phrase"
+    prompt: "Wiki ijayo"
+    translation: "Next week"
+    xp_reward: 18
+
+  - id: 46
+    type: speaking
+    question: "Say this future time phrase"
+    prompt: "Hivi karibuni"
+    translation: "Soon"
+    xp_reward: 15
+
+  - id: 47
+    type: speaking
+    question: "Say this sentence"
+    prompt: "Nitakwenda Kigali"
+    translation: "I will go to Kigali"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Say this sentence"
+    prompt: "Atakuja kesho"
+    translation: "She will come tomorrow"
+    xp_reward: 18
+
+  - id: 49
+    type: speaking
+    question: "Say this sentence"
+    prompt: "Tutasafiri wiki ijayo"
+    translation: "We will travel next week"
+    xp_reward: 20
+
+  - id: 50
+    type: speaking
+    question: "Say this sentence"
+    prompt: "Nitakupiga simu baadaye"
+    translation: "I will call you later"
+    xp_reward: 18
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED
+  - id: 51
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I will go to Kigali'"
+    word_bank: ["Nitakwenda", "Kigali", "kesho", "baadaye", "hivi karibuni"]
+    correct_answer: ["Nitakwenda", "Kigali"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'She will come tomorrow'"
+    word_bank: ["Atakuja", "kesho", "hivi karibuni", "baadaye", "Kigali"]
+    correct_answer: ["Atakuja", "kesho"]
+    xp_reward: 18
+
+  - id: 53
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'They will eat lunch soon'"
+    word_bank: ["Watakula", "chakula cha mchana", "hivi karibuni", "kesho", "baadaye"]
+    correct_answer: ["Watakula", "chakula cha mchana", "hivi karibuni"]
+    xp_reward: 22
+
+  - id: 54
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'We will travel next week'"
+    word_bank: ["Tutasafiri", "wiki ijayo", "mwezi ujao", "kesho", "baadaye"]
+    correct_answer: ["Tutasafiri", "wiki ijayo"]
+    xp_reward: 20
+
+  - id: 55
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'He will study tomorrow'"
+    word_bank: ["Atasoma", "kesho", "hivi karibuni", "baadaye", "Kigali"]
+    correct_answer: ["Atasoma", "kesho"]
+    xp_reward: 15
+
+  - id: 56
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I am going to buy a car'"
+    word_bank: ["Nitanunua", "gari", "kesho", "baadaye", "hivi karibuni", "Kigali"]
+    correct_answer: ["Nitanunua", "gari"]
+    xp_reward: 15
+
+  - id: 57
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'We will meet at the market'"
+    word_bank: ["Tutakutana", "sokoni", "kesho", "baadaye", "hivi karibuni"]
+    correct_answer: ["Tutakutana", "sokoni"]
+    xp_reward: 18
+
+  - id: 58
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'She will help her friend'"
+    word_bank: ["Atamsaidia", "rafiki yake", "kesho", "baadaye", "hivi karibuni"]
+    correct_answer: ["Atamsaidia", "rafiki yake"]
+    xp_reward: 18
+
+  - id: 59
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I will call you later'"
+    word_bank: ["Nitakupiga simu", "baadaye", "kesho", "hivi karibuni", "Kigali"]
+    correct_answer: ["Nitakupiga simu", "baadaye"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'They will visit the school next month'"
+    word_bank: ["Watatembelea", "shule", "mwezi ujao", "wiki ijayo", "kesho", "baadaye"]
+    correct_answer: ["Watatembelea", "shule", "mwezi ujao"]
+    xp_reward: 22
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 61
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nitakwenda", "Kigali"]
+    correct_sentence: "Nitakwenda Kigali."
+    translation: "I will go to Kigali."
+    xp_reward: 18
+
+  - id: 62
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Atakuja", "kesho"]
+    correct_sentence: "Atakuja kesho."
+    translation: "She will come tomorrow."
+    xp_reward: 15
+
+  - id: 63
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Watakula", "chakula cha mchana", "hivi karibuni"]
+    correct_sentence: "Watakula chakula cha mchana hivi karibuni."
+    translation: "They will eat lunch soon."
+    xp_reward: 22
+
+  - id: 64
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Tutasafiri", "wiki ijayo"]
+    correct_sentence: "Tutasafiri wiki ijayo."
+    translation: "We will travel next week."
+    xp_reward: 20
+
+  - id: 65
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Atasoma", "kesho"]
+    correct_sentence: "Atasoma kesho."
+    translation: "He will study tomorrow."
+    xp_reward: 15
+
+  - id: 66
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nitanunua", "gari"]
+    correct_sentence: "Nitanunua gari."
+    translation: "I am going to buy a car."
+    xp_reward: 15
+
+  - id: 67
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Tutakutana", "sokoni"]
+    correct_sentence: "Tutakutana sokoni."
+    translation: "We will meet at the market."
+    xp_reward: 18
+
+  - id: 68
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Atamsaidia", "rafiki yake"]
+    correct_sentence: "Atamsaidia rafiki yake."
+    translation: "She will help her friend."
+    xp_reward: 18
+
+  - id: 69
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nitakupiga simu", "baadaye"]
+    correct_sentence: "Nitakupiga simu baadaye."
+    translation: "I will call you later."
+    xp_reward: 15
+
+  - id: 70
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Watatembelea", "shule", "mwezi ujao"]
+    correct_sentence: "Watatembelea shule mwezi ujao."
+    translation: "They will visit the school next month."
+    xp_reward: 22
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 71
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nitakwenda ___."
+    options: ["Kigali", "kesho", "baadaye"]
+    correct_answer: "Kigali"
+    translation: "I will go to Kigali."
+    xp_reward: 12
+
+  - id: 72
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Atakuja ___."
+    options: ["kesho", "baadaye", "hivi karibuni"]
+    correct_answer: "kesho"
+    translation: "She will come tomorrow."
+    xp_reward: 12
+
+  - id: 73
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Watakula chakula cha mchana ___."
+    options: ["hivi karibuni", "baadaye", "kesho"]
+    correct_answer: "hivi karibuni"
+    translation: "They will eat lunch soon."
+    xp_reward: 18
+
+  - id: 74
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Tutasafiri ___."
+    options: ["wiki ijayo", "mwezi ujao", "mwaka ujao"]
+    correct_answer: "wiki ijayo"
+    translation: "We will travel next week."
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Atasoma ___."
+    options: ["kesho", "baadaye", "hivi karibuni"]
+    correct_answer: "kesho"
+    translation: "He will study tomorrow."
+    xp_reward: 12
+
+  - id: 76
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nitanunua ___."
+    options: ["gari", "nyumba", "kitabu"]
+    correct_answer: "gari"
+    translation: "I am going to buy a car."
+    xp_reward: 12
+
+  - id: 77
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Tutakutana ___."
+    options: ["sokoni", "shuleni", "kazini"]
+    correct_answer: "sokoni"
+    translation: "We will meet at the market."
+    xp_reward: 15
+
+  - id: 78
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Atamsaidia ___."
+    options: ["rafiki yake", "familia yake", "watoto wake"]
+    correct_answer: "rafiki yake"
+    translation: "She will help her friend."
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nitakupiga simu ___."
+    options: ["baadaye", "kesho", "hivi karibuni"]
+    correct_answer: "baadaye"
+    translation: "I will call you later."
+    xp_reward: 12
+
+  - id: 80
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Watatembelea shule ___."
+    options: ["mwezi ujao", "wiki ijayo", "mwaka ujao"]
+    correct_answer: "mwezi ujao"
+    translation: "They will visit the school next month."
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 81
+    type: picture_word
+    question: "What future time is this?"
+    image_url: "https://source.unsplash.com/featured/?tomorrow"
+    options: ["Kesho", "Hivi karibuni", "Baadaye"]
+    correct_answer: "Kesho"
+    xp_reward: 10
+
+  - id: 82
+    type: picture_word
+    question: "What future time is this?"
+    image_url: "https://source.unsplash.com/featured/?calendar-week"
+    options: ["Wiki ijayo", "Mwezi ujao", "Mwaka ujao"]
+    correct_answer: "Wiki ijayo"
+    xp_reward: 12
+
+  - id: 83
+    type: picture_word
+    question: "What future time is this?"
+    image_url: "https://source.unsplash.com/featured/?soon"
+    options: ["Hivi karibuni", "Baadaye", "Kesho"]
+    correct_answer: "Hivi karibuni"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "What future time is this?"
+    image_url: "https://source.unsplash.com/featured/?later"
+    options: ["Baadaye", "Hivi karibuni", "Kesho"]
+    correct_answer: "Baadaye"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "What activity is this?"
+    image_url: "https://source.unsplash.com/featured/?travel"
+    options: ["Tutasafiri", "Nitakwenda", "Atakuja"]
+    correct_answer: "Tutasafiri"
+    xp_reward: 12
+
+  - id: 86
+    type: picture_word
+    question: "What activity is this?"
+    image_url: "https://source.unsplash.com/featured/?studying"
+    options: ["Atasoma", "Atakula", "Atakunywa"]
+    correct_answer: "Atasoma"
+    xp_reward: 12
+
+  - id: 87
+    type: picture_word
+    question: "What activity is this?"
+    image_url: "https://source.unsplash.com/featured/?buying-car"
+    options: ["Nitanunua gari", "Nitakwenda Kigali", "Nitakupiga simu"]
+    correct_answer: "Nitanunua gari"
+    xp_reward: 15
+
+  # 10. Word Matching (Pairing)
+  - id: 88
+    type: matching
+    question: "Match the future time phrases"
+    pairs:
+      - left: "Tomorrow"
+        right: "Kesho"
+      - left: "Next week"
+        right: "Wiki ijayo"
+      - left: "Next month"
+        right: "Mwezi ujao"
+      - left: "Next year"
+        right: "Mwaka ujao"
+      - left: "Soon"
+        right: "Hivi karibuni"
+      - left: "Later"
+        right: "Baadaye"
+      - left: "Soon after"
+        right: "Mara baada ya hapo"
+      - left: "Later on"
+        right: "Baadae"
+    xp_reward: 25
+
+  - id: 89
+    type: matching
+    question: "Match the future tense verbs"
+    pairs:
+      - left: "I will go"
+        right: "Nitakwenda"
+      - left: "She will come"
+        right: "Atakuja"
+      - left: "They will eat"
+        right: "Watakula"
+      - left: "We will travel"
+        right: "Tutasafiri"
+      - left: "He will study"
+        right: "Atasoma"
+      - left: "I will buy"
+        right: "Nitanunua"
+      - left: "We will meet"
+        right: "Tutakutana"
+      - left: "She will help"
+        right: "Atamsaidia"
+      - left: "I will call"
+        right: "Nitakupiga simu"
+      - left: "They will visit"
+        right: "Watatembelea"
+    xp_reward: 25
+
+  - id: 90
+    type: matching
+    question: "Match the sentences"
+    pairs:
+      - left: "I will go to Kigali"
+        right: "Nitakwenda Kigali"
+      - left: "She will come tomorrow"
+        right: "Atakuja kesho"
+      - left: "We will travel next week"
+        right: "Tutasafiri wiki ijayo"
+      - left: "I will call you later"
+        right: "Nitakupiga simu baadaye"
+      - left: "They will visit the school next month"
+        right: "Watatembelea shule mwezi ujao"
+    xp_reward: 22
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 91
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Nitakwenda ___."
+    missing_word_position: 2
+    options: ["Kigali", "kesho", "baadaye"]
+    correct_answer: "Kigali"
+    translation: "I will go to Kigali."
+    xp_reward: 12
+
+  - id: 92
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Atakuja ___."
+    missing_word_position: 2
+    options: ["kesho", "baadaye", "hivi karibuni"]
+    correct_answer: "kesho"
+    translation: "She will come tomorrow."
+    xp_reward: 12
+
+  - id: 93
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Tutasafiri ___."
+    missing_word_position: 2
+    options: ["wiki ijayo", "mwezi ujao", "mwaka ujao"]
+    correct_answer: "wiki ijayo"
+    translation: "We will travel next week."
+    xp_reward: 15
+
+  - id: 94
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Nitakupiga simu ___."
+    missing_word_position: 3
+    options: ["baadaye", "kesho", "hivi karibuni"]
+    correct_answer: "baadaye"
+    translation: "I will call you later."
+    xp_reward: 12
+
+  - id: 95
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Watatembelea shule ___."
+    missing_word_position: 3
+    options: ["mwezi ujao", "wiki ijayo", "mwaka ujao"]
+    correct_answer: "mwezi ujao"
+    translation: "They will visit the school next month."
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions based on text
+  - id: 96
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Nitakwenda Kigali kesho."
+    question: "Where will I go?"
+    options: ["Kigali", "The market", "School", "Home"]
+    correct_answer: "Kigali"
+    xp_reward: 12
+
+  - id: 97
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Atakuja kesho. Atamsaidia rafiki yake."
+    question: "When will she come?"
+    options: ["Today", "Tomorrow", "Next week", "Later"]
+    correct_answer: "Tomorrow"
+    xp_reward: 15
+
+  - id: 98
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Tutasafiri wiki ijayo. Tutakutana sokoni."
+    question: "When will we travel?"
+    options: ["Today", "Tomorrow", "Next week", "Next month"]
+    correct_answer: "Next week"
+    xp_reward: 15
+
+  - id: 99
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Nitanunua gari. Nitakupiga simu baadaye."
+    question: "What will I buy?"
+    options: ["A car", "A house", "Food", "Clothes"]
+    correct_answer: "A car"
+    xp_reward: 12
+
+  - id: 100
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Watatembelea shule mwezi ujao."
+    question: "When will they visit the school?"
+    options: ["Next week", "Next month", "Next year", "Tomorrow"]
+    correct_answer: "Next month"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 101
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Kesho means 'tomorrow'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 102
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Baadaye means 'soon'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 103
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Tutasafiri means 'we will travel'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 104
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Nitakwenda Kigali means 'I went to Kigali'."
+    correct_answer: false
+    xp_reward: 12
+
+  - id: 105
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Wiki ijayo means 'next week'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 106
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Watatembelea shule mwezi ujao means 'They will visit the school next month'."
+    correct_answer: true
+    xp_reward: 15
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 107
+    type: conversation
+    question: "Respond to the question by building a sentence"
+    bot_message: "Utakwenda wapi?"
+    translation: "Where will you go?"
+    word_bank: ["Nitakwenda", "Kigali", "sokoni", "kesho", "baadaye"]
+    correct_response: ["Nitakwenda", "Kigali"]
+    xp_reward: 18
+
+  - id: 108
+    type: conversation
+    question: "Respond to the question"
+    bot_message: "Atakuja lini?"
+    translation: "When will she come?"
+    options:
+      - "Atakuja kesho"
+      - "Atakuja hivi karibuni"
+      - "Atakuja baadaye"
+    correct_response: "Atakuja kesho"
+    xp_reward: 15
+
+  - id: 109
+    type: conversation
+    question: "Respond to the question by building a sentence"
+    bot_message: "Mtakwenda lini?"
+    translation: "When will you (plural) travel?"
+    word_bank: ["Tutasafiri", "wiki ijayo", "mwezi ujao", "kesho", "baadaye"]
+    correct_response: ["Tutasafiri", "wiki ijayo"]
+    xp_reward: 20
+
+  - id: 110
+    type: conversation
+    question: "Respond to the question"
+    bot_message: "Utanunua nini?"
+    translation: "What will you buy?"
+    options:
+      - "Nitanunua gari"
+      - "Nitanunua chakula"
+      - "Nitanunua kitabu"
+    correct_response: "Nitanunua gari"
+    xp_reward: 15
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 111
+    type: story
+    title: "My Plans - Mipango Yangu"
+    story_intro: "Read about future plans. Then build the sentences."
+    story_segments:
+      - text: "I will go to Kigali."
+      - text: "She will come tomorrow."
+      - text: "They will eat lunch soon."
+      - text: "We will travel next week."
+      - text: "He will study tomorrow."
+      - text: "I am going to buy a car."
+      - text: "We will meet at the market."
+      - text: "She will help her friend."
+      - text: "I will call you later."
+      - text: "They will visit the school next month."

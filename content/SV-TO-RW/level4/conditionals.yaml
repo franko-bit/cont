@@ -1,0 +1,1028 @@
+lesson:
+ name: "Conditionals - Imyitwarire y'Ahazaza"
+ description: "Lär dig how till express conditions och possibilities i Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Ordlista ONLY (Safe för single words/phrases)
+ # Basic Conditional Words
+ - id: 1
+ type: translation
+ Fråga: "Hur säger man 'If' på kinyarwanda?"
+ Svar: "Niba"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Fråga: "Hur säger man 'When' på kinyarwanda?"
+ Svar: "Iyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Fråga: "Hur säger man 'Unless' på kinyarwanda?"
+ Svar: "Keretse"
+ note: "Also expressed en 'Nti... niba'"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Fråga: "Hur säger man 'Then' på kinyarwanda?"
+ Svar: "Hanyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Fråga: "Hur säger man 'Might' på kinyarwanda?"
+ Svar: "Ashobora"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Fråga: "Hur säger man 'Will' på kinyarwanda?"
+ Svar: "Azakora"
+ note: "Also 'Azaba' depending på context"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Fråga: "Hur säger man 'Would' på kinyarwanda?"
+ Svar: "Byaba"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Fråga: "Hur säger man 'Could' på kinyarwanda?"
+ Svar: "Bashobora"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Fråga: "Hur säger man 'Should' på kinyarwanda?"
+ Svar: "Bikwiye"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Fråga: "Hur säger man 'Can' på kinyarwanda?"
+ Svar: "Ashobora"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Fråga: "Hur säger man 'Impossible' på kinyarwanda?"
+ Svar: "Ntibishoboka"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Fråga: "Hur säger man 'Possible' på kinyarwanda?"
+ Svar: "Birashoboka"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Fråga: "Hur säger man 'Before' på kinyarwanda?"
+ Svar: "Mbere y'uko"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Fråga: "Hur säger man 'After' på kinyarwanda?"
+ Svar: "Nyuma y'uko"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Fråga: "Hur säger man 'Always' på kinyarwanda?"
+ Svar: "Buri gihe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Fråga: "Hur säger man 'Never' på kinyarwanda?"
+ Svar: "Nta na rimwe"
+ xp_reward: 10
+
+ # Translation - Common Conditional Phrases
+ - id: 17
+ type: translation
+ Fråga: "Hur säger man 'If it rains, I will stay home' på kinyarwanda?"
+ Svar: "Niba imvura iguye, nzaguma mu rugo."
+ xp_reward: 20
+
+ - id: 18
+ type: translation
+ Fråga: "Hur säger man 'If I gå till Kigali, I will visit my friend' på kinyarwanda?"
+ Svar: "Niba ngiye i Kigali, nzasura inshuti yanjye."
+ xp_reward: 20
+
+ - id: 19
+ type: translation
+ Fråga: "Hur säger man 'If you study, you will succeed' på kinyarwanda?"
+ Svar: "Niba wiga, uzatsinda."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ Fråga: "Hur säger man 'If he komma, we will start den meeting' på kinyarwanda?"
+ Svar: "Niba aje, tuzatangira inama."
+ xp_reward: 20
+
+ - id: 21
+ type: translation
+ Fråga: "Hur säger man 'Unless you hurry, you will miss den bus' på kinyarwanda?"
+ Svar: "Ntiwihutira, uzacika bisi."
+ xp_reward: 20
+
+ - id: 22
+ type: translation
+ Fråga: "Hur säger man 'If I had money, I would buy en car' på kinyarwanda?"
+ Svar: "Niba nari mfite amafaranga, nari kugura imodoka."
+ xp_reward: 22
+
+ - id: 23
+ type: translation
+ Fråga: "Hur säger man 'If she var here, she could help' på kinyarwanda?"
+ Svar: "Iyo yari hano, yashoboraga gufasha."
+ xp_reward: 22
+
+ - id: 24
+ type: translation
+ Fråga: "Hur säger man 'I would Resor if I had more time' på kinyarwanda?"
+ Svar: "Nari gutembera iyo nari mfite igihe kinini."
+ xp_reward: 22
+
+ - id: 25
+ type: translation
+ Fråga: "Hur säger man 'You should äta before leaving' på kinyarwanda?"
+ Svar: "Bikwiye ko urya mbere yo kugenda."
+ xp_reward: 20
+
+ - id: 26
+ type: translation
+ Fråga: "Hur säger man 'If it är possible, I will komma Imorgon' på kinyarwanda?"
+ Svar: "Niba bishoboka, nzaza ejo."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Fråga: "Vad betyder 'Niba' i den här meningen?"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ - "After"
+ Svar: "If"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Fråga: "Vad betyder 'Iyo' i den här meningen?"
+ options:
+ - "If"
+ - "When"
+ - "Then"
+ - "Before"
+ Svar: "When"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Fråga: "Vad betyder 'Hanyuma' i den här meningen?"
+ options:
+ - "Before"
+ - "After"
+ - "Then"
+ - "When"
+ Svar: "Then"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Fråga: "Vad betyder 'Birashoboka' i den här meningen?"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ - "Never"
+ Svar: "Possible"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Fråga: "Vad betyder 'Ntibishoboka' i den här meningen?"
+ options:
+ - "Possible"
+ - "Impossible"
+ - "Always"
+ - "Never"
+ Svar: "Impossible"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Fråga: "Vad betyder 'Buri gihe' i den här meningen?"
+ options:
+ - "Never"
+ - "Always"
+ - "Sometimes"
+ - "Often"
+ Svar: "Always"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Fråga: "Vad betyder 'Nta na rimwe' i den här meningen?"
+ options:
+ - "Always"
+ - "Sometimes"
+ - "Never"
+ - "Often"
+ Svar: "Never"
+ xp_reward: 15
+
+ # 3. Lyssna och Type (Dictation)
+ - id: 34
+ type: listen_och_type
+ Fråga: "Lyssna och type den word"
+ audio: "Niba"
+ Svar: "Niba"
+ translation: "If"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_och_type
+ Fråga: "Lyssna och type den word"
+ audio: "Iyo"
+ Svar: "Iyo"
+ translation: "When"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_och_type
+ Fråga: "Lyssna och type den word"
+ audio: "Birashoboka"
+ Svar: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ audio: "Niba imvura iguye nzaguma mu rugo"
+ Svar: "Niba imvura iguye nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ audio: "Niba wiga uzatsinda"
+ Svar: "Niba wiga uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 22
+
+ - id: 39
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ audio: "Niba bishoboka nzaza ejo"
+ Svar: "Niba bishoboka nzaza ejo"
+ translation: "If it är possible, I will komma Imorgon"
+ xp_reward: 22
+
+ # 4. Lyssna och Välj
+ - id: 40
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct word"
+ audio: "Niba"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ Svar: "If"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct word"
+ audio: "Birashoboka"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ Svar: "Possible"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct phrase"
+ audio: "Niba wiga, uzatsinda"
+ options:
+ - "If you study, you will succeed"
+ - "If it rains, I will stay home"
+ - "If it är possible, I will komma"
+ Svar: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 43
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct phrase"
+ audio: "Niba bishoboka, nzaza ejo"
+ options:
+ - "If it rains, I will stay home"
+ - "If it är possible, I will komma Imorgon"
+ - "If you study, you will succeed"
+ Svar: "If it är possible, I will komma Imorgon"
+ xp_reward: 18
+
+ # 5. Repeat / Prata Exercise
+ - id: 44
+ type: Prata
+ Fråga: "Say denna word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 45
+ type: Prata
+ Fråga: "Say denna word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 46
+ type: Prata
+ Fråga: "Say denna phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 20
+
+ - id: 47
+ type: Prata
+ Fråga: "Say denna phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 48
+ type: Prata
+ Fråga: "Say denna phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it är possible, I will komma Imorgon"
+ xp_reward: 18
+
+ # 6. Word Bank Sats Building - PIECES PROVIDED
+ - id: 49
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo", "nzaza"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ xp_reward: 22
+
+ - id: 50
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'If I gå till Kigali, I will visit my friend'"
+ word_bank: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ correct_answer: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ xp_reward: 25
+
+ - id: 51
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira", "inama"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'If he komma, we will start den meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga", "uzatsinda"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ xp_reward: 22
+
+ - id: 53
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'If I had money, I would buy en car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ xp_reward: 28
+
+ - id: 54
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'If she var here, she could help'"
+ word_bank: ["Iyo", "yari", "hano", "yashoboraga", "gufasha", "aje"]
+ correct_answer: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ xp_reward: 25
+
+ - id: 55
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'You should äta before leaving'"
+ word_bank: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda", "nyuma"]
+ correct_answer: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ xp_reward: 22
+
+ - id: 56
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'If it är possible, I will komma Imorgon'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura", "iguye"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 18
+
+ # 7. Sats Scramble - PIECES PROVIDED
+ - id: 57
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ translation: "If it rains, I will stay home."
+ xp_reward: 22
+
+ - id: 58
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Niba", "wiga", "uzatsinda"]
+ correct_sentence: "Niba wiga, uzatsinda."
+ translation: "If you study, you will succeed."
+ xp_reward: 18
+
+ - id: 59
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Niba", "aje", "tuzatangira", "inama"]
+ correct_sentence: "Niba aje, tuzatangira inama."
+ translation: "If he komma, we will start den meeting."
+ xp_reward: 22
+
+ - id: 60
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Ntiwihutira", "uzacika", "bisi"]
+ correct_sentence: "Ntiwihutira, uzacika bisi."
+ translation: "Unless you hurry, you will miss den bus."
+ xp_reward: 20
+
+ - id: 61
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ correct_sentence: "Iyo yari hano, yashoboraga gufasha."
+ translation: "If she var here, she could help."
+ xp_reward: 25
+
+ - id: 62
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ correct_sentence: "Bikwiye ko urya mbere yo kugenda."
+ translation: "You should äta before leaving."
+ xp_reward: 22
+
+ - id: 63
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Niba", "bishoboka", "nzaza", "ejo"]
+ correct_sentence: "Niba bishoboka, nzaza ejo."
+ translation: "If it är possible, I will komma Imorgon."
+ xp_reward: 18
+
+ # 8. Fill i den Blank - Välj FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "___ imvura iguye, nzaguma mu rugo."
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Niba wiga, ___."
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Niba aje, tuzatangira ___."
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he komma, we will start den meeting."
+ xp_reward: 18
+
+ - id: 67
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Ntiwihutira, ___ bisi."
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss den bus."
+ xp_reward: 18
+
+ - id: 68
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Iyo yari hano, yashoboraga ___."
+ options: ["gufasha", "kwiga", "kurya"]
+ correct_answer: "gufasha"
+ translation: "If she var here, she could help."
+ xp_reward: 18
+
+ - id: 69
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Bikwiye ko urya ___ yo kugenda."
+ options: ["mbere", "nyuma", "hanyuma"]
+ correct_answer: "mbere"
+ translation: "You should äta before leaving."
+ xp_reward: 18
+
+ - id: 70
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Niba bishoboka, nzaza ___."
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it är possible, I will komma Imorgon."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 71
+ type: picture_word
+ Fråga: "Vad betyder denna image represent?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Izuba", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Fråga: "Vad betyder denna image represent?"
+ image_url: "https://source.unsplash.com/featured/?studying"
+ options: ["Kwiga", "Gukora", "Kurya"]
+ correct_answer: "Kwiga"
+ xp_reward: 10
+
+ - id: 73
+ type: picture_word
+ Fråga: "Vad betyder denna image represent?"
+ image_url: "https://source.unsplash.com/featured/?money"
+ options: ["Amafaranga", "Igitabo", "Inzu"]
+ correct_answer: "Amafaranga"
+ xp_reward: 10
+
+ - id: 74
+ type: picture_word
+ Fråga: "Vad betyder denna image represent?"
+ image_url: "https://source.unsplash.com/featured/?car"
+ options: ["Imodoka", "Bisi", "Igare"]
+ correct_answer: "Imodoka"
+ xp_reward: 10
+
+ - id: 75
+ type: picture_word
+ Fråga: "Vad betyder denna image represent?"
+ image_url: "https://source.unsplash.com/featured/?helping"
+ options: ["Gufasha", "Kurira", "Guseka"]
+ correct_answer: "Gufasha"
+ xp_reward: 10
+
+ - id: 76
+ type: picture_word
+ Fråga: "Vad betyder denna image represent?"
+ image_url: "https://source.unsplash.com/featured/?bus"
+ options: ["Bisi", "Imodoka", "Indege"]
+ correct_answer: "Bisi"
+ xp_reward: 10
+
+ # 10. Word Para ihop (Pairing)
+ - id: 77
+ type: Para ihop
+ Fråga: "Para ihop den conditional words"
+ pairs:
+ - Vänster: "If"
+ Höger: "Niba"
+ - Vänster: "When"
+ Höger: "Iyo"
+ - Vänster: "Then"
+ Höger: "Hanyuma"
+ - Vänster: "Before"
+ Höger: "Mbere y'uko"
+ - Vänster: "After"
+ Höger: "Nyuma y'uko"
+ - Vänster: "Always"
+ Höger: "Buri gihe"
+ - Vänster: "Never"
+ Höger: "Nta na rimwe"
+ - Vänster: "Possible"
+ Höger: "Birashoboka"
+ - Vänster: "Impossible"
+ Höger: "Ntibishoboka"
+ xp_reward: 25
+
+ - id: 78
+ type: Para ihop
+ Fråga: "Para ihop den modal verbs"
+ pairs:
+ - Vänster: "Might"
+ Höger: "Ashobora"
+ - Vänster: "Will"
+ Höger: "Azakora"
+ - Vänster: "Would"
+ Höger: "Byaba"
+ - Vänster: "Could"
+ Höger: "Bashobora"
+ - Vänster: "Should"
+ Höger: "Bikwiye"
+ - Vänster: "Can"
+ Höger: "Ashobora"
+ xp_reward: 20
+
+ - id: 79
+ type: Para ihop
+ Fråga: "Para ihop den Sats halves"
+ pairs:
+ - Vänster: "Niba imvura iguye"
+ Höger: "nzaguma mu rugo"
+ - Vänster: "Niba wiga"
+ Höger: "uzatsinda"
+ - Vänster: "Niba aje"
+ Höger: "tuzatangira inama"
+ - Vänster: "Niba bishoboka"
+ Höger: "nzaza ejo"
+ - Vänster: "Niba ngiye i Kigali"
+ Höger: "nzasura inshuti yanjye"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED en PER PREVIOUS PATTERN
+
+ # 12. Välj Missing Word
+ - id: 80
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "___ imvura iguye, nzaguma mu rugo."
+ missing_word_position: 1
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Niba wiga, ___."
+ missing_word_position: 3
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Niba aje, tuzatangira ___."
+ missing_word_position: 4
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he komma, we will start den meeting."
+ xp_reward: 18
+
+ - id: 83
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Ntiwihutira, ___ bisi."
+ missing_word_position: 2
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss den bus."
+ xp_reward: 18
+
+ - id: 84
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Niba bishoboka, nzaza ___."
+ missing_word_position: 3
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it är possible, I will komma Imorgon."
+ xp_reward: 15
+
+ # 13. Läs och Svar - Fråga based på text
+ - id: 85
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Niba imvura iguye, nzaguma mu rugo."
+ Fråga: "What will happen if it rains?"
+ options: ["I will gå out", "I will stay home", "I will gå till Skola", "I will work"]
+ correct_answer: "I will stay home"
+ xp_reward: 15
+
+ - id: 86
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Niba wiga, uzatsinda."
+ Fråga: "What will happen if you study?"
+ options: ["You will fail", "You will succeed", "You will play", "You will sleep"]
+ correct_answer: "You will succeed"
+ xp_reward: 15
+
+ - id: 87
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Niba aje, tuzatangira inama."
+ Fråga: "When will they start den meeting?"
+ options: ["If he komma", "If it rains", "If she studies", "If they work"]
+ correct_answer: "If he komma"
+ xp_reward: 18
+
+ - id: 88
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Niba nari mfite amafaranga, nari kugura imodoka."
+ Fråga: "What would I buy if I had money?"
+ options: ["en Hus", "en car", "Mat", "Clothes"]
+ correct_answer: "en car"
+ xp_reward: 18
+
+ - id: 89
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Niba bishoboka, nzaza ejo."
+ Fråga: "When will I komma if it är possible?"
+ options: ["Today", "Imorgon", "Next week", "Never"]
+ correct_answer: "Imorgon"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 90
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Niba means 'when'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 91
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Birashoboka means 'possible'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 92
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Niba wiga, uzatsinda means 'If you study, you will succeed'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 93
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Ntiwihutira, uzacika bisi means 'If you hurry, you will catch den bus'."
+ correct_answer: false
+ xp_reward: 15
+
+ - id: 94
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Buri gihe means 'never'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 95
+ type: conversation
+ Fråga: "Respond till den Fråga by building en Sats"
+ bot_message: "Uzakora iki niba imvura iguye?"
+ translation: "What will you do if it rains?"
+ word_bank: ["Nzaguma", "mu rugo", "nzajya", "ku ishuri", "nzakora"]
+ correct_response: ["Nzaguma", "mu rugo"]
+ xp_reward: 18
+
+ - id: 96
+ type: conversation
+ Fråga: "Respond till den Fråga"
+ bot_message: "Niba wiga, uzatsinda?"
+ translation: "If you study, will you succeed?"
+ options:
+ - "Yego, nzatsinda"
+ - "Oya, sinzatsinda"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzatsinda"
+ xp_reward: 15
+
+ - id: 97
+ type: conversation
+ Fråga: "Respond till den Fråga by building en Sats"
+ bot_message: "Uzakora iki niba ufite amafaranga?"
+ translation: "What will you do if you have money?"
+ word_bank: ["Nzakora", "nzabona", "imodoka", "nzaguza", "inzu"]
+ correct_response: ["Nzakora", "nzabona", "imodoka"]
+ xp_reward: 20
+
+ - id: 98
+ type: conversation
+ Fråga: "Respond till den Fråga"
+ bot_message: "Niba bishoboka, uzaza ejo?"
+ translation: "If it är possible, will you komma Imorgon?"
+ options:
+ - "Yego, nzaza ejo"
+ - "Oya, sinzaza"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzaza ejo"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Sats from pieces
+ - id: 99
+ type: story
+ title: "Plans och Conditions - Imigambi n'Imyitwarire"
+ story_intro: "Läs about different plans och conditions. Then build den Sats."
+ story_segments:
+ - text: "If it rains, I will stay home."
+ - text: "If you study, you will succeed."
+ - text: "If he komma, we will start den meeting."
+ - text: "If I had money, I would buy en car."
+ - text: "If it är possible, I will komma Imorgon."
+ exercises:
+ - type: word_bank
+ Fråga: "Build 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ - type: word_bank
+ Fråga: "Build 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ - type: word_bank
+ Fråga: "Build 'If he komma, we will start den meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ - type: word_bank
+ Fråga: "Build 'If I had money, I would buy en car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ - type: word_bank
+ Fråga: "Build 'If it är possible, I will komma Imorgon'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 100
+ type: pronunciation
+ Fråga: "Say denna word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 101
+ type: pronunciation
+ Fråga: "Say denna word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 102
+ type: pronunciation
+ Fråga: "Say denna phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 22
+
+ - id: 103
+ type: pronunciation
+ Fråga: "Say denna phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 104
+ type: pronunciation
+ Fråga: "Say denna phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it är possible, I will komma Imorgon"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 105
+ type: identify_meaning
+ Fråga: "Vad betyder 'Niba' mean i denna Sats?"
+ context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ word: "Niba"
+ options: ["When", "If", "Then", "After"]
+ correct_answer: "If"
+ xp_reward: 15
+
+ - id: 106
+ type: identify_meaning
+ Fråga: "Vad betyder 'uzatsinda' mean i denna Sats?"
+ context_sentence: "Niba wiga, uzatsinda."
+ word: "uzatsinda"
+ options: ["you will fail", "you will succeed", "you will study", "you will work"]
+ correct_answer: "you will succeed"
+ xp_reward: 15
+
+ - id: 107
+ type: identify_meaning
+ Fråga: "Vad betyder 'tuzatangira' mean i denna Sats?"
+ context_sentence: "Niba aje, tuzatangira inama."
+ word: "tuzatangira"
+ options: ["we will finish", "we will start", "we will attend", "we will leave"]
+ correct_answer: "we will start"
+ xp_reward: 15
+
+ - id: 108
+ type: identify_meaning
+ Fråga: "Vad betyder 'bishoboka' mean i denna Sats?"
+ context_sentence: "Niba bishoboka, nzaza ejo."
+ word: "bishoboka"
+ options: ["it är possible", "it är impossible", "it är bra", "it är dålig"]
+ correct_answer: "it är possible"
+ xp_reward: 15
+
+ # 19. Speed Para ihop
+ - id: 109
+ type: speed_Para ihop
+ title: "Para ihop Madness: Conditionals"
+ time_limit_seconds: 45
+ pairs:
+ - Vänster: "If"
+ Höger: "Niba"
+ - Vänster: "When"
+ Höger: "Iyo"
+ - Vänster: "Then"
+ Höger: "Hanyuma"
+ - Vänster: "Possible"
+ Höger: "Birashoboka"
+ - Vänster: "Impossible"
+ Höger: "Ntibishoboka"
+ - Vänster: "Always"
+ Höger: "Buri gihe"
+ - Vänster: "Never"
+ Höger: "Nta na rimwe"
+ - Vänster: "Before"
+ Höger: "Mbere y'uko"
+ - Vänster: "After"
+ Höger: "Nyuma y'uko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 110
+ type: timed_challenge
+ title: "Lightning Round: Conditionals"
+ time_limit_seconds: 30
+ Fråga_count: 5
+ Fråga:
+ - Fråga: "If"
+ Svar: "Niba"
+ - Fråga: "When"
+ Svar: "Iyo"
+ - Fråga: "Possible"
+ Svar: "Birashoboka"
+ - Fråga: "Always"
+ Svar: "Buri gihe"
+ - Fråga: "Never"
+ Svar: "Nta na rimwe"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Fråga: "Flashcards"
+ Flashcards:
+ - front: "Niba"
+ back: "If"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iyo"
+ back: "When"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Keretse"
+ back: "Unless"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Hanyuma"
+ back: "Then"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Might"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Azakora"
+ back: "Will"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Byaba"
+ back: "Would"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Bashobora"
+ back: "Could"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Bikwiye"
+ back: "Should"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Can"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

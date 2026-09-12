@@ -1,0 +1,907 @@
+lesson:
+ name: "الألوان"
+ description: "تعلم basic الألوان in Kinyarwanda with الحيوانات and objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - الألوان ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ سؤال: "كيف تقول 'أحمر' بالكينيارواندية؟"
+ إجابة: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ سؤال: "كيف تقول 'أزرق' بالكينيارواندية؟"
+ إجابة: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ سؤال: "كيف تقول 'أخضر' بالكينيارواندية؟"
+ إجابة: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ سؤال: "كيف تقول 'أصفر' بالكينيارواندية؟"
+ إجابة: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ سؤال: "كيف تقول 'أسود' بالكينيارواندية؟"
+ إجابة: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ سؤال: "كيف تقول 'أبيض' بالكينيارواندية؟"
+ إجابة: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ سؤال: "كيف تقول 'برتقالي' بالكينيارواندية؟"
+ إجابة: "برتقالي"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, not full الجملة)
+ - id: 8
+ type: translation
+ سؤال: "كيف تقول 'أحمر apple' بالكينيارواندية؟"
+ إجابة: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ سؤال: "كيف تقول 'أزرق sky' بالكينيارواندية؟"
+ إجابة: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ سؤال: "كيف تقول 'أخضر grass' بالكينيارواندية؟"
+ إجابة: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ سؤال: "كيف تقول 'أصفر sun' بالكينيارواندية؟"
+ إجابة: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ سؤال: "كيف تقول 'أسود قطة' بالكينيارواندية؟"
+ إجابة: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ سؤال: "كيف تقول 'أبيض بقرة' بالكينيارواندية؟"
+ إجابة: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ سؤال: "كيف تقول 'برتقالي carrot' بالكينيارواندية؟"
+ إجابة: "Karoti ya برتقالي"
+ xp_reward: 15
+
+ # Translation - الألوان with الحيوانات (Noun + Color phrases)
+ - id: 15
+ type: translation
+ سؤال: "كيف تقول 'أحمر طائر' بالكينيارواندية؟"
+ إجابة: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ سؤال: "كيف تقول 'أخضر ضفدع' بالكينيارواندية؟"
+ إجابة: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ سؤال: "كيف تقول 'أزرق سمكة' بالكينيارواندية؟"
+ إجابة: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ سؤال: "كيف تقول 'أصفر دجاج' بالكينيارواندية؟"
+ إجابة: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ سؤال: "كيف تقول 'أسود أرنب' بالكينيارواندية؟"
+ إجابة: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ سؤال: "كيف تقول 'أبيض ماعز' بالكينيارواندية؟"
+ إجابة: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers with الألوان (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ سؤال: "كيف تقول 'One أحمر apple' بالكينيارواندية؟"
+ إجابة: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ سؤال: "كيف تقول 'Two أزرق طائر' بالكينيارواندية؟"
+ إجابة: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ سؤال: "كيف تقول 'Three أصفر دجاج' بالكينيارواندية؟"
+ إجابة: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ سؤال: "كيف تقول 'Four أسود قطة' بالكينيارواندية؟"
+ إجابة: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ سؤال: "كيف تقول 'Five أبيض بقرة' بالكينيارواندية؟"
+ إجابة: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color سؤال (Phrases - safe as they are fixed expressions)
+ - id: 26
+ type: translation
+ سؤال: "كيف تسأل 'What color is the apple?' بالكينيارواندية؟"
+ إجابة: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ سؤال: "كيف تسأل 'What color is the sky?' بالكينيارواندية؟"
+ إجابة: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ سؤال: "كيف تسأل 'Is the قطة أسود?' بالكينيارواندية؟"
+ إجابة: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR FULL الجملة OR PARAGRAPHS
+ # Instead, we use الجملة building, طابق, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ سؤال: "ماذا يعني 'Umutuku' ماذا يعني؟"
+ options:
+ - "أزرق"
+ - "أحمر"
+ - "أخضر"
+ - "أصفر"
+ إجابة: "أحمر"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ سؤال: "ماذا يعني 'Ubururu' ماذا يعني؟"
+ options:
+ - "أحمر"
+ - "أزرق"
+ - "أسود"
+ - "أبيض"
+ إجابة: "أزرق"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ سؤال: "ماذا يعني 'Icyatsi' ماذا يعني؟"
+ options:
+ - "أخضر"
+ - "أصفر"
+ - "برتقالي"
+ - "أحمر"
+ إجابة: "أخضر"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ سؤال: "ماذا يعني 'Umuhondo' ماذا يعني؟"
+ options:
+ - "أزرق"
+ - "أحمر"
+ - "أصفر"
+ - "أبيض"
+ إجابة: "أصفر"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ سؤال: "ماذا يعني 'Umukara' ماذا يعني؟"
+ options:
+ - "أبيض"
+ - "أسود"
+ - "أخضر"
+ - "برتقالي"
+ إجابة: "أسود"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ سؤال: "ماذا يعني 'Umweru' ماذا يعني؟"
+ options:
+ - "أسود"
+ - "أبيض"
+ - "أحمر"
+ - "أزرق"
+ إجابة: "أبيض"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ سؤال: "ماذا يعني 'Inyoni itukura' ماذا يعني؟"
+ options:
+ - "أزرق طائر"
+ - "أحمر طائر"
+ - "أخضر طائر"
+ - "أصفر طائر"
+ إجابة: "أحمر طائر"
+ xp_reward: 15
+
+ # 3. استمع and Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_and_type
+ سؤال: "استمع and type the color"
+ tts_text: "Umutuku"
+ إجابة: "Umutuku"
+ translation: "أحمر"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ سؤال: "استمع and type the color"
+ tts_text: "Ubururu"
+ إجابة: "Ubururu"
+ translation: "أزرق"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ سؤال: "استمع and type the phrase"
+ tts_text: "Pome ni umutuku"
+ إجابة: "Pome ni umutuku"
+ translation: "The apple is أحمر"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_and_type
+ سؤال: "استمع and type the phrase"
+ tts_text: "Ijuru ni ubururu"
+ إجابة: "Ijuru ni ubururu"
+ translation: "The sky is أزرق"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_and_type
+ سؤال: "استمع and type the phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ إجابة: "Inyoni itukura iraguruka"
+ translation: "The أحمر طائر flies"
+ xp_reward: 25
+
+ # 4. استمع and اختر
+ - id: 41
+ type: listen_and_choose
+ سؤال: "استمع and اختر the correct color"
+ tts_text: "Umutuku"
+ options:
+ - "أحمر"
+ - "أزرق"
+ - "أخضر"
+ إجابة: "أحمر"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ سؤال: "استمع and اختر the correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "أحمر"
+ - "أصفر"
+ - "أسود"
+ إجابة: "أصفر"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ سؤال: "استمع and اختر the correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "The apple is أحمر"
+ - "The sky is أزرق"
+ - "The sun is أصفر"
+ إجابة: "The apple is أحمر"
+ xp_reward: 20
+
+ # 5. Repeat / تحدث Exercise
+ - id: 44
+ type: تحدث
+ سؤال: "Say this color"
+ prompt: "Umutuku"
+ translation: "أحمر"
+ xp_reward: 15
+
+ - id: 45
+ type: تحدث
+ سؤال: "Say this color"
+ prompt: "Ubururu"
+ translation: "أزرق"
+ xp_reward: 15
+
+ - id: 46
+ type: تحدث
+ سؤال: "Say this phrase"
+ prompt: "Pome itukura"
+ translation: "أحمر apple"
+ xp_reward: 18
+
+ - id: 47
+ type: تحدث
+ سؤال: "Say this الجملة"
+ prompt: "Pome ni umutuku"
+ translation: "The apple is أحمر"
+ xp_reward: 20
+
+ - id: 48
+ type: تحدث
+ سؤال: "Say this الجملة"
+ prompt: "Ijuru ni ubururu"
+ translation: "The sky is أزرق"
+ xp_reward: 20
+
+ # 6. Word Bank الجملة Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ سؤال: "Build the Kinyarwanda الجملة for 'The apple is أحمر'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ سؤال: "Build the Kinyarwanda الجملة for 'The sky is أزرق'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ سؤال: "Build the Kinyarwanda phrase for 'أحمر طائر'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ سؤال: "Build the Kinyarwanda phrase for 'أزرق سمكة'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ سؤال: "Build the Kinyarwanda الجملة for 'The أحمر طائر flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ سؤال: "Build the Kinyarwanda الجملة for 'The أخضر ضفدع jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. الجملة Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ سؤال: "Arrange these words to form a correct Kinyarwanda الجملة"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "The apple is أحمر"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ سؤال: "Arrange these words to form a correct Kinyarwanda الجملة"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "The sky is أزرق"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ سؤال: "Arrange these words to form a correct Kinyarwanda الجملة"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "The أحمر طائر flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ سؤال: "Arrange these words to form a correct Kinyarwanda الجملة"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "The أخضر ضفدع jumps"
+ xp_reward: 25
+
+ # 8. Fill in the Blank - اختر FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ سؤال: "اختر the correct word to complete the الجملة"
+ text_with_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is أحمر"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ سؤال: "اختر the correct word to complete the الجملة"
+ text_with_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is أزرق"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ سؤال: "اختر the correct word to complete the الجملة"
+ text_with_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "The grass is أخضر"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ سؤال: "اختر the correct word to complete the الجملة"
+ text_with_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "The sun is أصفر"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ سؤال: "اختر the correct word to complete the phrase"
+ text_with_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The أحمر طائر flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ سؤال: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ سؤال: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ سؤال: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "برتقالي", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ سؤال: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ سؤال: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "برتقالي"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ سؤال: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ سؤال: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "برتقالي", "Ubururu"]
+ correct_answer: "برتقالي"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ سؤال: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "برتقالي"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ سؤال: "What color is this طائر?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word طابق (Pairing)
+ - id: 73
+ type: طابق
+ سؤال: "طابق the الألوان"
+ pairs:
+ - اليسار: "أحمر"
+ اليمين: "Umutuku"
+ - اليسار: "أزرق"
+ اليمين: "Ubururu"
+ - اليسار: "أخضر"
+ اليمين: "Icyatsi"
+ - اليسار: "أصفر"
+ اليمين: "Umuhondo"
+ - اليسار: "أسود"
+ اليمين: "Umukara"
+ - اليسار: "أبيض"
+ اليمين: "Umweru"
+ - اليسار: "برتقالي"
+ اليمين: "برتقالي"
+ xp_reward: 25
+
+ - id: 74
+ type: طابق
+ سؤال: "طابق the colored objects"
+ pairs:
+ - اليسار: "أحمر apple"
+ اليمين: "Pome itukura"
+ - اليسار: "أزرق sky"
+ اليمين: "Ijuru ry'ubururu"
+ - اليسار: "أخضر grass"
+ اليمين: "Ibyatsi by'icyatsi"
+ - اليسار: "أصفر sun"
+ اليمين: "Izuba ry'umuhondo"
+ - اليسار: "أسود قطة"
+ اليمين: "Injangwe y'umukara"
+ - اليسار: "أبيض بقرة"
+ اليمين: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: طابق
+ سؤال: "طابق the colored الحيوانات"
+ pairs:
+ - اليسار: "أحمر طائر"
+ اليمين: "Inyoni itukura"
+ - اليسار: "أخضر ضفدع"
+ اليمين: "Igikeri cy'icyatsi"
+ - اليسار: "أزرق سمكة"
+ اليمين: "Ifi y'ubururu"
+ - اليسار: "أصفر دجاج"
+ اليمين: "Inkoko y'umuhondo"
+ - اليسار: "أسود أرنب"
+ اليمين: "Urukwavu rw'umukara"
+ - اليسار: "أبيض ماعز"
+ اليمين: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. اختر Missing Word
+ - id: 80
+ type: choose_missing
+ سؤال: "اختر the missing word"
+ الجملة: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is أحمر"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ سؤال: "اختر the missing word"
+ الجملة: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is أزرق"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ سؤال: "اختر the missing word"
+ الجملة: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The أحمر طائر flies"
+ xp_reward: 18
+
+ # 12. اقرأ and إجابة - سؤال in English, إجابة based on Kinyarwanda text
+ - id: 83
+ type: read_answer
+ سؤال: "اقرأ the text and إجابة the سؤال"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ سؤال: "What color is the apple?"
+ options: ["أحمر", "أزرق", "أخضر", "أصفر"]
+ correct_answer: "أحمر"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ سؤال: "اقرأ the text and إجابة the سؤال"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ سؤال: "ماذا يعني the أحمر طائر do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ سؤال: "اقرأ the text and إجابة the سؤال"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ سؤال: "What color is the بقرة?"
+ options: ["أسود", "أبيض", "أصفر", "أحمر"]
+ correct_answer: "أبيض"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ سؤال: "Is this statement true or false?"
+ statement: "Pome ni umutuku."
+ translation: "The apple is أحمر"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ سؤال: "Is this statement true or false?"
+ statement: "Ijuru ni icyatsi."
+ translation: "The sky is أخضر"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ سؤال: "Is this statement true or false?"
+ statement: "Inka ni umweru."
+ translation: "The بقرة is أبيض"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ سؤال: "Is this statement true or false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "The أحمر طائر flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ سؤال: "Respond to the سؤال by building a الجملة"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ سؤال: "Respond to the سؤال"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is the sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ سؤال: "Respond to the سؤال"
+ bot_message: "Injangwe ni umukara?"
+ translation: "Is the قطة أسود?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build الجملة from pieces
+ - id: 93
+ type: story
+ title: "الألوان in the Field"
+ story_intro: "اقرأ about the colorful الحيوانات. Then build the الجملة."
+ story_segments:
+ - text: "There is a أحمر طائر in the sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: "The طائر flies above."
+ - text: "There is a أخضر ضفدع near the الماء."
+ - text: "The ضفدع jumps."
+ - text: "There is a أزرق سمكة in the الماء."
+ - text: "The سمكة swims."
+ exercises:
+ - type: word_bank
+ سؤال: "Build the Kinyarwanda الجملة for 'The أحمر طائر flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ سؤال: "Build the Kinyarwanda الجملة for 'The أخضر ضفدع jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ سؤال: "Build the Kinyarwanda الجملة for 'The أزرق سمكة swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ سؤال: "Say the color"
+ prompt: "Umutuku"
+ translation: "أحمر"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ سؤال: "Say the color"
+ prompt: "Agasumbashyamba" # زرافة - testing color knowledge in context
+ translation: "زرافة (they are أصفر and بني)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ سؤال: "Say the phrase"
+ prompt: "Pome itukura"
+ translation: "أحمر apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ سؤال: "ماذا يعني 'umutuku' mean in this الجملة?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["أحمر", "أزرق", "أخضر", "أصفر"]
+ correct_answer: "أحمر"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ سؤال: "ماذا يعني 'itukura' mean in this الجملة?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["أحمر", "أزرق", "أخضر", "أصفر"]
+ correct_answer: "أحمر"
+ note: "itukura is the adjective form of umutuku when describing a noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ سؤال: "ماذا يعني 'cy'icyatsi' mean in this الجملة?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["أحمر", "أزرق", "أخضر", "أصفر"]
+ correct_answer: "أخضر"
+ xp_reward: 18
+
+ # 18. Speed طابق
+ - id: 100
+ type: speed_طابق
+ title: "طابق Madness: الألوان"
+ time_limit_seconds: 45
+ pairs:
+ - اليسار: "أحمر"
+ اليمين: "Umutuku"
+ - اليسار: "أزرق"
+ اليمين: "Ubururu"
+ - اليسار: "أخضر"
+ اليمين: "Icyatsi"
+ - اليسار: "أصفر"
+ اليمين: "Umuhondo"
+ - اليسار: "أسود"
+ اليمين: "Umukara"
+ - اليسار: "أبيض"
+ اليمين: "Umweru"
+ - اليسار: "برتقالي"
+ اليمين: "برتقالي"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: الألوان"
+ time_limit_seconds: 30
+ سؤال_count: 5
+ سؤال:
+ - سؤال: "أحمر"
+ إجابة: "Umutuku"
+ - سؤال: "أزرق"
+ إجابة: "Ubururu"
+ - سؤال: "أخضر"
+ إجابة: "Icyatsi"
+ - سؤال: "أصفر"
+ إجابة: "Umuhondo"
+ - سؤال: "أسود"
+ إجابة: "Umukara"
+ xp_reward: 35
+
+# بطاقات تعليمية
+ - id: 111
+ type: بطاقات تعليمية
+ سؤال: "بطاقات تعليمية"
+ بطاقات تعليمية:
+ - front: "Umutuku"
+ back: "أحمر"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "أزرق"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "أخضر"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "أصفر"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "أسود"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "أبيض"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "برتقالي"
+ back: "برتقالي"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "أحمر apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "أزرق sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "أخضر grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

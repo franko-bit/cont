@@ -1,0 +1,882 @@
+lesson:
+ name: "動物"
+ description: "学ぶ animal names で Kinyarwanda by categories"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Words ONLY (Safe のために single words)
+ # Domestic / Farm 動物
+ - id: 1
+ type: translation
+ 質問: "何と言いますか '牛' キニャルワンダ語で？"
+ 答え: "Inka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 質問: "何と言いますか '犬' キニャルワンダ語で？"
+ 答え: "Imbwa"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 質問: "何と言いますか '猫' キニャルワンダ語で？"
+ 答え: "Injangwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 質問: "何と言いますか 'やぎ' キニャルワンダ語で？"
+ 答え: "Ihene"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 質問: "何と言いますか 'ひつじ' キニャルワンダ語で？"
+ 答え: "Intama"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 質問: "何と言いますか 'ぶた' キニャルワンダ語で？"
+ 答え: "Ingurube"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 質問: "何と言いますか 'にわとり' キニャルワンダ語で？"
+ 答え: "Inkoko"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 質問: "何と言いますか 'うさぎ' キニャルワンダ語で？"
+ 答え: "Urukwavu"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ 質問: "何と言いますか 'ろば' キニャルワンダ語で？"
+ 答え: "Indogobe"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ 質問: "何と言いますか 'はと' キニャルワンダ語で？"
+ 答え: "Inuma"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 質問: "何と言いますか 'とり' キニャルワンダ語で？"
+ 答え: "Inyoni"
+ xp_reward: 10
+
+ # Wildlife 動物
+ - id: 12
+ type: translation
+ 質問: "何と言いますか 'ライオン' キニャルワンダ語で？"
+ 答え: "Intare"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ 質問: "何と言いますか 'ぞう' キニャルワンダ語で？"
+ 答え: "Inzovu"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ 質問: "何と言いますか 'マウンテンゴリラ' キニャルワンダ語で？"
+ 答え: "Ingagi"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ 質問: "何と言いますか 'ヒョウ' キニャルワンダ語で？"
+ 答え: "Ingwe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ 質問: "何と言いますか 'バッファロー' キニャルワンダ語で？"
+ 答え: "Imbogo"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ 質問: "何と言いますか 'シマウマ' キニャルワンダ語で？"
+ 答え: "Imparage"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ 質問: "何と言いますか 'カバ' キニャルワンダ語で？"
+ 答え: "Imvubu"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ 質問: "何と言いますか 'キリン' キニャルワンダ語で？"
+ 答え: "Agasumbashyamba"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ 質問: "何と言いますか 'ハイエナ' キニャルワンダ語で？"
+ 答え: "Imfyisi"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ 質問: "何と言いますか 'さる' キニャルワンダ語で？"
+ 答え: "Inkende"
+ xp_reward: 10
+
+ # とり, Reptiles, Insects, さかな
+ - id: 22
+ type: translation
+ 質問: "何と言いますか 'クロヌマル' キニャルワンダ語で？"
+ 答え: "Umusambi"
+ xp_reward: 10
+
+ - id: 23
+ type: translation
+ 質問: "何と言いますか 'へび' キニャルワンダ語で？"
+ 答え: "Inzoka"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ 質問: "何と言いますか 'かえる' キニャルワンダ語で？"
+ 答え: "Igikeri"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ 質問: "何と言いますか 'さかな' キニャルワンダ語で？"
+ 答え: "Ifi"
+ xp_reward: 10
+
+ - id: 26
+ type: translation
+ 質問: "何と言いますか 'みつばち' キニャルワンダ語で？"
+ 答え: "Inzuki"
+ xp_reward: 10
+
+ # Animal Actions (Verbs)
+ - id: 27
+ type: translation
+ 質問: "何と言いますか 'たべる' キニャルワンダ語で？"
+ 答え: "irya"
+ xp_reward: 10
+
+ - id: 28
+ type: translation
+ 質問: "何と言いますか 'のむ' キニャルワンダ語で？"
+ 答え: "inywa"
+ xp_reward: 10
+
+ - id: 29
+ type: translation
+ 質問: "何と言いますか 'sleeps' キニャルワンダ語で？"
+ 答え: "irasinzira"
+ xp_reward: 10
+
+ - id: 30
+ type: translation
+ 質問: "何と言いますか 'runs' キニャルワンダ語で？"
+ 答え: "iriruka"
+ xp_reward: 10
+
+ - id: 31
+ type: translation
+ 質問: "何と言いますか 'flies' キニャルワンダ語で？"
+ 答え: "iraguruka"
+ xp_reward: 10
+
+ - id: 32
+ type: translation
+ 質問: "何と言いますか 'swims' キニャルワンダ語で？"
+ 答え: "iroga"
+ xp_reward: 10
+
+ - id: 33
+ type: translation
+ 質問: "何と言いますか 'plays' キニャルワンダ語で？"
+ 答え: "irakina"
+ xp_reward: 10
+
+ # Animal 食べ物
+ - id: 34
+ type: translation
+ 質問: "何と言いますか 'grass' キニャルワンダ語で？"
+ 答え: "ibyatsi"
+ xp_reward: 10
+
+ - id: 35
+ type: translation
+ 質問: "何と言いますか '水' キニャルワンダ語で？"
+ 答え: "amazi"
+ xp_reward: 10
+
+ - id: 36
+ type: translation
+ 質問: "何と言いますか 'meat' キニャルワンダ語で？"
+ 答え: "inyama"
+ xp_reward: 10
+
+ # いいえ DIRECT TRANSLATION のために 文 または PARAGRAPHS
+ # Instead, we use 文 building, 一致させる, と word bank exercises
+
+ # 2. Multiple Choice
+ - id: 37
+ type: multiple_choice
+ 質問: "これは何ですか 'Inka'?"
+ options:
+ - "犬"
+ - "牛"
+ - "猫"
+ - "やぎ"
+ 答え: "牛"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ 質問: "これは何ですか 'Intare'?"
+ options:
+ - "ライオン"
+ - "ぞう"
+ - "さる"
+ - "犬"
+ 答え: "ライオン"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ 質問: "何を意味しますか 'irya' という意味ですか"
+ options:
+ - "のむ"
+ - "たべる"
+ - "sleeps"
+ - "runs"
+ 答え: "たべる"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ 質問: "何を意味しますか 'ibyatsi' という意味ですか"
+ options:
+ - "水"
+ - "meat"
+ - "grass"
+ - "milk"
+ 答え: "grass"
+ xp_reward: 15
+
+ # 3. 聞く と Type (Dictation) - SINGLE WORDS ONLY
+ - id: 41
+ type: listen_と_type
+ 質問: "聞く と type  animal name"
+ tts_text: "Inka"
+ 答え: "Inka"
+ translation: "牛"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_と_type
+ 質問: "聞く と type  animal name"
+ tts_text: "Imbwa"
+ 答え: "Imbwa"
+ translation: "犬"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_と_type
+ 質問: "聞く と type  animal name"
+ tts_text: "Injangwe"
+ 答え: "Injangwe"
+ translation: "猫"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_と_type
+ 質問: "聞く と type  animal name"
+ tts_text: "Ihene"
+ 答え: "Ihene"
+ translation: "やぎ"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_と_type
+ 質問: "聞く と type  animal name"
+ tts_text: "Intama"
+ 答え: "Intama"
+ translation: "ひつじ"
+ xp_reward: 20
+
+ - id: 46
+ type: listen_と_type
+ 質問: "聞く と type  animal name"
+ tts_text: "Inkoko"
+ 答え: "Inkoko"
+ translation: "にわとり"
+ xp_reward: 20
+
+ # 4. 聞く と 選ぶ - SINGLE WORDS ONLY
+ - id: 47
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct animal"
+ tts_text: "Imbwa"
+ options:
+ - "猫"
+ - "犬"
+ - "牛"
+ 答え: "犬"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct animal"
+ tts_text: "Intare"
+ options:
+ - "ライオン"
+ - "ぞう"
+ - "キリン"
+ 答え: "ライオン"
+ xp_reward: 15
+
+ - id: 49
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct animal"
+ tts_text: "Intama"
+ options:
+ - "やぎ"
+ - "ひつじ"
+ - "牛"
+ 答え: "ひつじ"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct animal"
+ tts_text: "Inkoko"
+ options:
+ - "にわとり"
+ - "とり"
+ - "Duck"
+ 答え: "にわとり"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct animal"
+ tts_text: "Injangwe"
+ options:
+ - "犬"
+ - "猫"
+ - "うさぎ"
+ 答え: "猫"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct animal"
+ tts_text: "Ihene"
+ options:
+ - "やぎ"
+ - "ひつじ"
+ - "牛"
+ 答え: "やぎ"
+ xp_reward: 15
+
+ # 5. Repeat / 話す Exercise
+ - id: 53
+ type: 話す
+ 質問: "Say これ word"
+ prompt: "Inka"
+ translation: "牛"
+ xp_reward: 15
+
+ - id: 54
+ type: 話す
+ 質問: "Say これ word"
+ prompt: "Imbwa"
+ translation: "犬"
+ xp_reward: 15
+
+ - id: 55
+ type: 話す
+ 質問: "Say これ word"
+ prompt: "Injangwe"
+ translation: "猫"
+ xp_reward: 15
+
+ - id: 56
+ type: 話す
+ 質問: "Say これ 文"
+ prompt: "Inka irya ibyatsi"
+ translation: " 牛 たべる grass"
+ xp_reward: 20
+
+ # 6. Word Bank 文 Building - PIECES PROVIDED, いいえ TRANSLATION NEEDED
+ - id: 57
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' 牛 たべる grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' 犬 のむ 水'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 20
+
+ - id: 59
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' とり flies'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' さかな swims'"
+ word_bank: ["Ifi", "iroga", "amazi", "Inyoni", "iraguruka", "hejuru"]
+ correct_answer: ["Ifi", "iroga"]
+ xp_reward: 20
+
+ # 7. 文 Scramble - PIECES PROVIDED
+ - id: 61
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct Kinyarwanda 文"
+ scrambled_words: ["irya", "Inka", "ibyatsi"]
+ correct_sentence: "Inka irya ibyatsi"
+ translation: " 牛 たべる grass"
+ xp_reward: 20
+
+ - id: 62
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct Kinyarwanda 文"
+ scrambled_words: ["inywa", "Imbwa", "amazi"]
+ correct_sentence: "Imbwa inywa amazi"
+ translation: " 犬 のむ 水"
+ xp_reward: 20
+
+ - id: 63
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct Kinyarwanda 文"
+ scrambled_words: ["iraguruka", "Inyoni", "hejuru"]
+ correct_sentence: "Inyoni iraguruka hejuru"
+ translation: " とり flies above"
+ xp_reward: 20
+
+ # 8. Fill で  Blank - 選ぶ FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ 質問: "選ぶ  correct word に complete  文"
+ text_と_blank: "Inka ___ ibyatsi."
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: " 牛 たべる grass"
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ 質問: "選ぶ  correct word に complete  文"
+ text_と_blank: "Imbwa ___ amazi."
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: " 犬 のむ 水"
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ 質問: "選ぶ  correct word に complete  文"
+ text_と_blank: "Inyoni ___ hejuru."
+ options: ["iraguruka", "iriruka", "iroga"]
+ correct_answer: "iraguruka"
+ translation: " とり flies above"
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 67
+ type: picture_word
+ 質問: "What animal です これ?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Intama", "Ihene"]
+ correct_answer: "Inka"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ 質問: "What animal です これ?"
+ image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Injangwe", "Inkoko"]
+ correct_answer: "Imbwa"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ 質問: "What animal です これ?"
+ image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Intare", "Ingwe", "Imbogo"]
+ correct_answer: "Intare"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ 質問: "What animal です これ?"
+ image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Imvubu", "Ingagi", "Imparage"]
+ correct_answer: "Inzovu"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ 質問: "What animal です これ?"
+ image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inyoni", "Inkoko", "Inuma", "Umusambi"]
+ correct_answer: "Inyoni"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ 質問: "What animal です これ?"
+ image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Ifi", "Inzoka", "Igikeri", "Akanyamasyo"]
+ correct_answer: "Ifi"
+ xp_reward: 10
+
+ # 10. Word 一致させる (Pairing)
+ - id: 73
+ type: 一致させる
+ 質問: "一致させる  動物"
+ pairs:
+ - 左: "牛"
+ 右: "Inka"
+ - 左: "犬"
+ 右: "Imbwa"
+ - 左: "猫"
+ 右: "Injangwe"
+ - 左: "ライオン"
+ 右: "Intare"
+ - 左: "ぞう"
+ 右: "Inzovu"
+ - 左: "とり"
+ 右: "Inyoni"
+ - 左: "さかな"
+ 右: "Ifi"
+ xp_reward: 25
+
+ - id: 74
+ type: 一致させる
+ 質問: "一致させる  actions"
+ pairs:
+ - 左: "たべる"
+ 右: "irya"
+ - 左: "のむ"
+ 右: "inywa"
+ - 左: "sleeps"
+ 右: "irasinzira"
+ - 左: "flies"
+ 右: "iraguruka"
+ - 左: "swims"
+ 右: "iroga"
+ - 左: "runs"
+ 右: "iriruka"
+ xp_reward: 25
+
+ - id: 75
+ type: 一致させる
+ 質問: "一致させる  animal 食べ物"
+ pairs:
+ - 左: "grass"
+ 右: "ibyatsi"
+ - 左: "水"
+ 右: "amazi"
+ - 左: "meat"
+ 右: "inyama"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - PIECES PROVIDED
+ - id: 76
+ type: tap_hear
+ 質問: "Tap  words you hear で order"
+ tts_text: "Inka irya ibyatsi"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_taps: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 25
+
+ - id: 77
+ type: tap_hear
+ 質問: "Tap  words you hear で order"
+ tts_text: "Imbwa inywa amazi"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_taps: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 25
+
+ - id: 78
+ type: tap_hear
+ 質問: "Tap  words you hear で order"
+ tts_text: "Inyoni iraguruka hejuru"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_taps: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 25
+
+ # 12. 選ぶ Missing Word
+ - id: 79
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Inka ___ ibyatsi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: " 牛 たべる grass"
+ xp_reward: 15
+
+ - id: 80
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Imbwa ___ amazi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: " 犬 のむ 水"
+ xp_reward: 15
+
+ # 13. 読む と 答え - 質問 で English, 答え based に Kinyarwanda text
+ - id: 81
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
+ 質問: "Where です  牛?"
+ options: ["で  家", "で  field", "At  市場", "Near  犬"]
+ correct_answer: "で  field"
+ xp_reward: 25
+
+ - id: 82
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
+ 質問: "何を意味しますか  ライオン たべる?"
+ options: ["Grass", "水", "Meat", "さかな"]
+ correct_answer: "Meat"
+ xp_reward: 20
+
+ # 14. True / False
+ - id: 83
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Imbwa ni inyamaswa."
+ translation: " 犬 です  animal"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 84
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Inka iraguruka."
+ translation: " 牛 flies"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 85
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Ifi iroga."
+ translation: " さかな swims"
+ correct_answer: true
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 86
+ type: conversation
+ 質問: "Respond に  質問 by building  文"
+ bot_message: "Iyi ni inyamaswa ki?"
+ translation: "What animal です これ?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ word_bank: ["Inka", "ni", "inyamaswa", "Imbwa", "ni", "igikeri"]
+ correct_response: ["Inka", "ni", "inyamaswa"]
+ xp_reward: 20
+
+ - id: 87
+ type: conversation
+ 質問: "Respond に  質問"
+ bot_message: "Inka iri he?"
+ translation: "Where です  牛?"
+ options:
+ - "Mu murima"
+ - "Mu nzu"
+ - "Ku isoko"
+ correct_response: "Mu murima"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build 文 from pieces
+ - id: 88
+ type: story
+ title: " 牛 と Friends"
+ story_intro: "読む about  動物. Then build  文."
+ story_segments:
+ - text: "There です  牛 で  field."
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ - text: " 牛 たべる grass."
+ - text: " 犬 です near  牛."
+ - text: " 犬 のむ 水."
+ - text: " とり flies above."
+ exercises:
+ - type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' 牛 たべる grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ - type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' 犬 のむ 水'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ - type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' とり flies above'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 89
+ type: pronunciation
+ 質問: "Say  word"
+ prompt: "Inka"
+ translation: "牛"
+ xp_reward: 15
+
+ - id: 90
+ type: pronunciation
+ 質問: "Say  word"
+ prompt: "Imbwa"
+ translation: "犬"
+ xp_reward: 15
+
+ - id: 91
+ type: pronunciation
+ 質問: "Say  word"
+ prompt: "Injangwe"
+ translation: "猫"
+ xp_reward: 15
+
+ - id: 92
+ type: pronunciation
+ 質問: "Say  word"
+ prompt: "Intare"
+ translation: "ライオン"
+ xp_reward: 15
+
+ - id: 93
+ type: pronunciation
+ 質問: "Say  word"
+ prompt: "Agasumbashyamba"
+ translation: "キリン"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 94
+ type: identify_meaning
+ 質問: "何を意味しますか 'amazi' mean で これ 文?"
+ context_sentence: "Imbwa inywa amazi."
+ word: "amazi"
+ options: ["milk", "水", "食べ物", "grass"]
+ correct_answer: "水"
+ xp_reward: 15
+
+ - id: 95
+ type: identify_meaning
+ 質問: "何を意味しますか 'irya' mean で これ 文?"
+ context_sentence: "Inka irya ibyatsi."
+ word: "irya"
+ options: ["のむ", "たべる", "runs", "flies"]
+ correct_answer: "たべる"
+ xp_reward: 15
+
+ # 19. Speed 一致させる
+ - id: 96
+ type: speed_一致させる
+ title: "一致させる Madness: 動物"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "牛"
+ 右: "Inka"
+ - 左: "犬"
+ 右: "Imbwa"
+ - 左: "猫"
+ 右: "Injangwe"
+ - 左: "ライオン"
+ 右: "Intare"
+ - 左: "ぞう"
+ 右: "Inzovu"
+ - 左: "とり"
+ 右: "Inyoni"
+ - 左: "さかな"
+ 右: "Ifi"
+ - 左: "やぎ"
+ 右: "Ihene"
+ - 左: "ひつじ"
+ 右: "Intama"
+ - 左: "にわとり"
+ 右: "Inkoko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 97
+ type: timed_challenge
+ title: "Lightning Round: 動物"
+ time_limit_seconds: 30
+ 質問_count: 5
+ 質問:
+ - 質問: "牛"
+ 答え: "Inka"
+ - 質問: "犬"
+ 答え: "Imbwa"
+ - 質問: "猫"
+ 答え: "Injangwe"
+ - 質問: "ライオン"
+ 答え: "Intare"
+ - 質問: "ぞう"
+ 答え: "Inzovu"
+ xp_reward: 35
+
+# フラッシュカード
+ - id: 111
+ type: フラッシュカード
+ 質問: "フラッシュカード"
+ フラッシュカード:
+ - front: "Inka"
+ back: "牛"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Imbwa"
+ back: "犬"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Injangwe"
+ back: "猫"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ihene"
+ back: "やぎ"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Intama"
+ back: "ひつじ"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ingurube"
+ back: "ぶた"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkoko"
+ back: "にわとり"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Urukwavu"
+ back: "うさぎ"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Indogobe"
+ back: "ろば"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Inuma"
+ back: "はと"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

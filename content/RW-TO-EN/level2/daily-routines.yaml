@@ -4,7 +4,6 @@ lesson:
   xp_reward: 500
 
 exercises:
-
   # 1. Translation Exercises - Basic Daily Routine Words
   # Basic verbs
   - id: 1
@@ -982,7 +981,7 @@ exercises:
   - id: 128
     type: picture_word
     question: "Iri korwa ni irihe?"
-    image_url: "http://images.unsplash.com/photo-1531353826977-0941b4779a1c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image_url: "https://images.unsplash.com/photo-1531353826977-0941b4779a1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=600&h=400&fit=crop"
     options: ["Wake up", "Sleep", "Run"]
     correct_answer: "Sleep"
     xp_reward: 10
@@ -1152,7 +1151,7 @@ exercises:
         right: "kare"
     xp_reward: 18
 
-  # 12. Choose Missing Word
+  # 11. Choose Missing Word
   - id: 142
     type: choose_missing
     question: "Hitamo ijambo ribuze"
@@ -1233,7 +1232,7 @@ exercises:
     translation: "Twiga buri munsi"
     xp_reward: 10
 
-  # 13. Read and Answer - Questions based on text
+  # 12. Read and Answer - Questions based on text
   - id: 150
     type: read_answer
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
@@ -1279,7 +1278,7 @@ exercises:
     correct_answer: "Wake up and go to school"
     xp_reward: 18
 
-  # 14. True / False
+  # 13. True / False
   - id: 155
     type: true_false
     question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
@@ -1322,7 +1321,7 @@ exercises:
     correct_answer: true
     xp_reward: 10
 
-  # 15. Conversation Exercise - Build responses from pieces
+  # 14. Conversation Exercise - Build responses from pieces
   - id: 161
     type: conversation
     question: "Subiza ikibazo ukoresheje amagambo atanzwe"
@@ -1365,7 +1364,7 @@ exercises:
     correct_response: ["I", "study", "and", "eat", "lunch"]
     xp_reward: 25
 
-  # 16. Story Exercise - Build sentences from pieces
+  # 15. Story Exercise - Build sentences from pieces
   - id: 165
     type: story
     title: "Imikorere yanjye ya buri munsi"
@@ -1413,7 +1412,7 @@ exercises:
         correct_answer: ["I", "sleep", "at night"]
     xp_reward: 50
 
-  # 17. Pronunciation Check
+  # 16. Pronunciation Check
   - id: 166
     type: pronunciation
     question: "Vuga iri korwa mu Cyongereza neza"
@@ -1463,7 +1462,7 @@ exercises:
     translation: "What do you do in the morning?"
     xp_reward: 20
 
-  # 18. Identify Correct Meaning
+  # 17. Identify Correct Meaning
   - id: 173
     type: identify_meaning
     question: "'Mbyuka' bisobanura iki muri iyi nteruro?"
@@ -1509,7 +1508,7 @@ exercises:
     correct_answer: "every day"
     xp_reward: 15
 
-  # 19. Speed Matching
+  # 18. Speed Matching
   - id: 178
     type: speed_matching
     title: "Huza Byihuse: Ibikorwa bya buri munsi"
@@ -1541,7 +1540,7 @@ exercises:
         right: "Gusoma igitabo"
     xp_reward: 30
 
-  # 20. Timed Challenges
+  # 19. Timed Challenges
   - id: 179
     type: timed_challenge
     title: "Kubahuka: Ibikorwa bya buri munsi"
@@ -1560,232 +1559,40 @@ exercises:
         answer: "Study"
     xp_reward: 35
 
-  # 21. Character Writing
-  - id: 180
-    type: character_writing
-    question: "Yandika iri korwa mu Cyongereza"
-    prompt: "Kubyuka"
-    translation: "Wake up"
-    xp_reward: 15
-
-  - id: 181
-    type: character_writing
-    question: "Yandika iri korwa mu Cyongereza"
-    prompt: "Gusinzira"
-    translation: "Sleep"
-    xp_reward: 15
-
-  - id: 182
-    type: character_writing
-    question: "Yandika iri korwa mu Cyongereza"
-    prompt: "Kurya"
-    translation: "Eat"
-    xp_reward: 15
-
-  - id: 183
-    type: character_writing
-    question: "Yandika iyi nteruro mu Cyongereza"
-    prompt: "Mbyuka mu gitondo"
-    translation: "I wake up in the morning"
-    xp_reward: 18
-
-  # 22. Spaced Repetition Review
-  - id: 184
-    type: review
-    title: "Isubiramo: Ibikorwa bya buri munsi"
-    exercises:
-      - type: translation
-        question: "Wake up"
-        answer: "Kubyuka"
-      - type: multiple_choice
-        question: "Kurya"
-        options: ["Drink", "Eat", "Cook"]
-        answer: "Eat"
-      - type: fill_blank
-        question: "Mbyuka ___."
-        text_with_blank: "Mbyuka ___."
-        options: ["mu gitondo", "nijoro", "kare"]
-        correct_answer: "mu gitondo"
-      - type: picture_word
-        question: "Iri korwa ni irihe?"
-        image_url: "http://images.unsplash.com/photo-1531353826977-0941b4779a1c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        options: ["Kubyuka", "Gusinzira", "Kurya"]
-        correct_answer: "Gusinzira"
-      - type: sentence_scramble
-        question: "Tondeka: Njya ku ishuri"
-        scrambled_words: ["ishuri", "Njya", "ku"]
-        correct_sentence: "Njya ku ishuri"
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Wake up"
+      back: "Kubyuka"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Sleep"
+      back: "Gusinzira"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Eat"
+      back: "Kurya"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Drink"
+      back: "Kunywa"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Work"
+      back: "Gukora"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Study"
+      back: "Kwiga"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Walk"
+      back: "Kugenda"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Run"
+      back: "Kwiruka"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Cook"
+      back: "Guteka"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Clean"
+      back: "Gusukura"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
     xp_reward: 30
 
-  # 23. Listening Comprehension
-  - id: 185
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ikorwa rikwiye"
-    tts_text: "Kubyuka"
-    options:
-      - "Sleep"
-      - "Wake up"
-      - "Eat"
-    correct_answer: "Wake up"
-    xp_reward: 15
-
-  - id: 186
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ikorwa rikwiye"
-    tts_text: "Gusinzira"
-    options:
-      - "Wake up"
-      - "Sleep"
-      - "Work"
-    correct_answer: "Sleep"
-    xp_reward: 15
-
-  - id: 187
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ikorwa rikwiye"
-    tts_text: "Kurya"
-    options:
-      - "Drink"
-      - "Eat"
-      - "Cook"
-    correct_answer: "Eat"
-    xp_reward: 15
-
-  - id: 188
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ikorwa rikwiye"
-    tts_text: "Koga"
-    options:
-      - "Brush teeth"
-      - "Take a shower"
-      - "Wash hands"
-    correct_answer: "Take a shower"
-    xp_reward: 15
-
-  # 24. Grammar Selection
-  - id: 189
-    type: grammar
-    question: "Hitamo inshinga ikwiye isobanura 'Mbyuka'"
-    options: ["I wake up", "To wake up", "He wakes up"]
-    correct_answer: "I wake up"
-    explanation: "Mbyuka means 'I wake up' in English"
-    xp_reward: 15
-
-  - id: 190
-    type: grammar
-    question: "Hitamo inshinga ikwiye isobanura 'Ajya'"
-    options: ["I go", "She goes", "They go"]
-    correct_answer: "She goes"
-    explanation: "Ajya means 'she goes' in English"
-    xp_reward: 15
-
-  - id: 191
-    type: grammar
-    question: "Hitamo inshinga ikwiye isobanura 'Twiga'"
-    options: ["I study", "He studies", "We study"]
-    correct_answer: "We study"
-    explanation: "Twiga means 'we study' in English"
-    xp_reward: 15
-
-  - id: 192
-    type: grammar
-    question: "Hitamo inshinga ikwiye isobanura 'mu gitondo'"
-    options: ["in the morning", "in the afternoon", "at night"]
-    correct_answer: "in the morning"
-    explanation: "mu gitondo means 'in the morning' in English"
-    xp_reward: 12
-
-  # 25. Error Correction
-  - id: 193
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I wake up at night."
-    translation: "Mbyuka nijoro (ariko bigomba kuba mu gitondo)"
-    word_bank_for_fix: ["I", "wake up", "in the morning", "early"]
-    correct_sentence: "I wake up in the morning."
-    explanation: "People usually wake up in the morning, not at night."
-    xp_reward: 18
-
-  - id: 194
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I go to work."
-    translation: "Njya ku kazi (ariko bigomba kuba ku ishuri)"
-    word_bank_for_fix: ["I", "go", "to school", "to work"]
-    correct_sentence: "I go to school."
-    explanation: "The context suggests going to school, not work."
-    xp_reward: 15
-
-  - id: 195
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I read teeth."
-    translation: "Nsoma amenyo (ntibikwiye)"
-    word_bank_for_fix: ["I", "read", "a book", "brush", "my teeth"]
-    correct_sentence: "I read a book."
-    explanation: "You read a book, not teeth."
-    xp_reward: 18
-
-  # Flashcards
-  - id: 196
-    type: flashcards
-    question: "Iyi ni modero y'amafishi y'ibikorwa bya buri munsi"
-    flashcards:
-      - front: "Kubyuka"
-        back: "Wake up"
-        image: "https://images.unsplash.com/photo-1552650272-b8a34e21bc4b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Gusinzira"
-        back: "Sleep"
-        image: "http://images.unsplash.com/photo-1531353826977-0941b4779a1c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Kurya"
-        back: "Eat"
-        image: "https://images.unsplash.com/photo-1529973565457-a60a2ccf750d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Kunywa"
-        back: "Drink"
-        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=957&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Gukora"
-        back: "Work"
-        image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Kwiga"
-        back: "Study"
-        image: "https://images.unsplash.com/photo-1514369118554-e20d93546b30?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Kugenda"
-        back: "Walk"
-        image: "https://images.unsplash.com/photo-1592727995117-4cdc7ee6fcb4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Kwiruka"
-        back: "Run"
-        image: "https://images.unsplash.com/photo-1581889470536-467bdbe30cd0?q=80&w=1264&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Guteka"
-        back: "Cook"
-        image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Gusukura"
-        back: "Clean"
-        image: "https://images.unsplash.com/photo-1627905646269-7f034dcc5738?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Koza amenyo"
-        back: "Brush teeth"
-        image: "https://images.unsplash.com/photo-1609840113847-44058810f038?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QnJ1c2glMjB0ZWV0aHxlbnwwfHwwfHx8MA%3D%3D"
-      - front: "Koga"
-        back: "Take a shower"
-        image: "https://images.unsplash.com/photo-1629150098631-4d99ad4a53a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNob3dlcnxlbnwwfHwwfHx8MA%3D%3D"
-      - front: "Kujya ku ishuri"
-        back: "Go to school"
-        image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Gusoma igitabo"
-        back: "Read a book"
-        image: "https://images.unsplash.com/photo-1553729784-e91953dec042?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Kuruhuka"
-        back: "Rest"
-        image: "https://images.unsplash.com/photo-1606162307024-a1343187a5b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGluZ3xlbnwwfHwwfHx8MA%3D%3D"
-      - front: "Mbyuka mu gitondo"
-        back: "I wake up in the morning"
-        image: "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Njya ku ishuri"
-        back: "I go to school"
-        image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Nsoma igitabo"
-        back: "I read a book"
-        image: "https://images.unsplash.com/photo-1553729784-e91953dec042?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Nsiga nijoro"
-        back: "I sleep at night"
-        image: "https://images.unsplash.com/photo-1758273239813-cecda76c6c19?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    xp_reward: 45

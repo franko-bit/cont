@@ -1,0 +1,903 @@
+lesson:
+  name: "Rangi"
+  description: "Learn basic colors in French with animals and objects"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Colors ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Je, unasemaje 'Nyekundu' kwa Kifaransa?"
+    answer: "Rouge"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Je, unasemaje 'Buluu' kwa Kifaransa?"
+    answer: "Bleu"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Je, unasemaje 'Kijani' kwa Kifaransa?"
+    answer: "Vert"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Je, unasemaje 'Manjano' kwa Kifaransa?"
+    answer: "Jaune"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Je, unasemaje 'Nyeusi' kwa Kifaransa?"
+    answer: "Noir"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Je, unasemaje 'Nyeupe' kwa Kifaransa?"
+    answer: "Blanc"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Je, unasemaje 'Machungwa' kwa Kifaransa?"
+    answer: "Orange"
+    xp_reward: 10
+
+  # Translation - Color Objects (Noun + Color phrases)
+  - id: 8
+    type: translation
+    question: "Je, unasemaje 'Tofaa nyekundu' kwa Kifaransa?"
+    answer: "Pomme rouge"
+    xp_reward: 15
+
+  - id: 9
+    type: translation
+    question: "Je, unasemaje 'Anga ya buluu' kwa Kifaransa?"
+    answer: "Ciel bleu"
+    xp_reward: 15
+
+  - id: 10
+    type: translation
+    question: "Je, unasemaje 'Nyasi za kijani' kwa Kifaransa?"
+    answer: "Herbe verte"
+    xp_reward: 15
+
+  - id: 11
+    type: translation
+    question: "Je, unasemaje 'Jua la manjano' kwa Kifaransa?"
+    answer: "Soleil jaune"
+    xp_reward: 15
+
+  - id: 12
+    type: translation
+    question: "Je, unasemaje 'Paka mweusi' kwa Kifaransa?"
+    answer: "Chat noir"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Je, unasemaje 'Ng'ombe mweupe' kwa Kifaransa?"
+    answer: "Vache blanche"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Je, unasemaje 'Karoti ya machungwa' kwa Kifaransa?"
+    answer: "Carotte orange"
+    xp_reward: 15
+
+  # Translation - Colors with Animals
+  - id: 15
+    type: translation
+    question: "Je, unasemaje 'Ndege nyekundu' kwa Kifaransa?"
+    answer: "Oiseau rouge"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Je, unasemaje 'Chura wa kijani' kwa Kifaransa?"
+    answer: "Grenouille verte"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Je, unasemaje 'Samaki wa buluu' kwa Kifaransa?"
+    answer: "Poisson bleu"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Je, unasemaje 'Kuku wa manjano' kwa Kifaransa?"
+    answer: "Poulet jaune"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Je, unasemaje 'Sungura mweusi' kwa Kifaransa?"
+    answer: "Lapin noir"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Je, unasemaje 'Mbuzi mweupe' kwa Kifaransa?"
+    answer: "Chèvre blanche"
+    xp_reward: 15
+
+  # Translation - Numbers with Colors
+  - id: 21
+    type: translation
+    question: "Je, unasemaje 'Tofaa moja nyekundu' kwa Kifaransa?"
+    answer: "Une pomme rouge"
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Je, unasemaje 'Ndege wawili wa buluu' kwa Kifaransa?"
+    answer: "Deux oiseaux bleus"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Je, unasemaje 'Kuku watatu wa manjano' kwa Kifaransa?"
+    answer: "Trois poulets jaunes"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Je, unasemaje 'Paka wanne weusi' kwa Kifaransa?"
+    answer: "Quatre chats noirs"
+    xp_reward: 15
+
+  - id: 25
+    type: translation
+    question: "Je, unasemaje 'Ng'ombe watano weupe' kwa Kifaransa?"
+    answer: "Cinq vaches blanches"
+    xp_reward: 15
+
+  # Translation - Color Questions
+  - id: 26
+    type: translation
+    question: "Je, unasemaje 'Tofaa ni rangi gani?' kwa Kifaransa?"
+    answer: "De quelle couleur est la pomme?"
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "Je, unasemaje 'Anga ni rangi gani?' kwa Kifaransa?"
+    answer: "De quelle couleur est le ciel?"
+    xp_reward: 15
+
+  - id: 28
+    type: translation
+    question: "Je, unasemaje 'Paka ni mweusi?' kwa Kifaransa?"
+    answer: "Le chat est-il noir?"
+    xp_reward: 15
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "'Nyekundu' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Bleu"
+      - "Rouge"
+      - "Vert"
+      - "Jaune"
+    answer: "Rouge"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Buluu' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Rouge"
+      - "Bleu"
+      - "Noir"
+      - "Blanc"
+    answer: "Bleu"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Kijani' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Vert"
+      - "Jaune"
+      - "Orange"
+      - "Rouge"
+    answer: "Vert"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Manjano' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Bleu"
+      - "Rouge"
+      - "Jaune"
+      - "Blanc"
+    answer: "Jaune"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Nyeusi' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Blanc"
+      - "Noir"
+      - "Vert"
+      - "Orange"
+    answer: "Noir"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "'Nyeupe' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Noir"
+      - "Blanc"
+      - "Rouge"
+      - "Bleu"
+    answer: "Blanc"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "'Ndege nyekundu' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Oiseau bleu"
+      - "Oiseau rouge"
+      - "Oiseau vert"
+      - "Oiseau jaune"
+    answer: "Oiseau rouge"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 36
+    type: listen_and_type
+    question: "Sikiliza kisha uandike rangi kwa Kifaransa"
+    tts_text: "Rouge"
+    answer: "Rouge"
+    translation: "Nyekundu"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Sikiliza kisha uandike rangi kwa Kifaransa"
+    tts_text: "Bleu"
+    answer: "Bleu"
+    translation: "Buluu"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "La pomme est rouge"
+    answer: "La pomme est rouge"
+    translation: "Tofaa ni nyekundu"
+    xp_reward: 25
+
+  - id: 39
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Le ciel est bleu"
+    answer: "Le ciel est bleu"
+    translation: "Anga ni buluu"
+    xp_reward: 25
+
+  - id: 40
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "L'oiseau rouge vole"
+    answer: "L'oiseau rouge vole"
+    translation: "Ndege nyekundu anaruka"
+    xp_reward: 25
+
+  # Listen and Choose
+  - id: 41
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague rangi inayofaa kwa Kifaransa"
+    tts_text: "Rouge"
+    options:
+      - "Rouge"
+      - "Bleu"
+      - "Vert"
+    answer: "Rouge"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague rangi inayofaa kwa Kifaransa"
+    tts_text: "Jaune"
+    options:
+      - "Rouge"
+      - "Jaune"
+      - "Noir"
+    answer: "Jaune"
+    xp_reward: 15
+
+  - id: 43
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi inayofaa kwa Kifaransa"
+    tts_text: "La pomme est rouge"
+    options:
+      - "La pomme est rouge"
+      - "Le ciel est bleu"
+      - "Le soleil est jaune"
+    answer: "La pomme est rouge"
+    xp_reward: 20
+
+  # 4. Repeat / Speaking Exercise
+  - id: 44
+    type: speaking
+    question: "Taja neno hili kwa Kifaransa"
+    prompt: "Nyekundu"
+    translation: "Rouge"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Taja neno hili kwa Kifaransa"
+    prompt: "Buluu"
+    translation: "Bleu"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Tofaa nyekundu"
+    translation: "Pomme rouge"
+    xp_reward: 18
+
+  - id: 47
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Tofaa ni nyekundu"
+    translation: "La pomme est rouge"
+    xp_reward: 20
+
+  - id: 48
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Anga ni buluu"
+    translation: "Le ciel est bleu"
+    xp_reward: 20
+
+  # 5. Word Bank Sentence Building
+  - id: 49
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Tofaa ni nyekundu'"
+    word_bank: ["La", "pomme", "est", "rouge", "Le", "ciel", "est", "bleu"]
+    correct_answer: ["La", "pomme", "est", "rouge"]
+    xp_reward: 20
+
+  - id: 50
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Anga ni buluu'"
+    word_bank: ["Le", "ciel", "est", "bleu", "La", "pomme", "est", "rouge"]
+    correct_answer: ["Le", "ciel", "est", "bleu"]
+    xp_reward: 20
+
+  - id: 51
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Ndege nyekundu'"
+    word_bank: ["rouge", "oiseau", "bleu", "poisson", "jaune", "poulet"]
+    correct_answer: ["rouge", "oiseau"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Samaki wa buluu'"
+    word_bank: ["bleu", "poisson", "rouge", "oiseau", "jaune", "poulet"]
+    correct_answer: ["bleu", "poisson"]
+    xp_reward: 18
+
+  - id: 53
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Ndege nyekundu anaruka'"
+    word_bank: ["L'", "oiseau", "rouge", "vole", "Le", "poisson", "bleu", "nage"]
+    correct_answer: ["L'", "oiseau", "rouge", "vole"]
+    xp_reward: 25
+
+  - id: 54
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Chura wa kijani anaruka'"
+    word_bank: ["La", "grenouille", "verte", "saute", "L'", "oiseau", "rouge", "vole"]
+    correct_answer: ["La", "grenouille", "verte", "saute"]
+    xp_reward: 25
+
+  # 6. Sentence Scramble
+  - id: 55
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Tofaa ni nyekundu'"
+    scrambled_words: ["est", "La", "pomme", "rouge"]
+    correct_sentence: "La pomme est rouge"
+    translation: "Tofaa ni nyekundu"
+    xp_reward: 20
+
+  - id: 56
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Anga ni buluu'"
+    scrambled_words: ["est", "Le", "ciel", "bleu"]
+    correct_sentence: "Le ciel est bleu"
+    translation: "Anga ni buluu"
+    xp_reward: 20
+
+  - id: 57
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Ndege nyekundu anaruka'"
+    scrambled_words: ["vole", "rouge", "L'", "oiseau"]
+    correct_sentence: "L'oiseau rouge vole"
+    translation: "Ndege nyekundu anaruka"
+    xp_reward: 25
+
+  - id: 58
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Chura wa kijani anaruka'"
+    scrambled_words: ["saute", "verte", "La", "grenouille"]
+    correct_sentence: "La grenouille verte saute"
+    translation: "Chura wa kijani anaruka"
+    xp_reward: 25
+
+  # 7. Fill in the Blank
+  - id: 59
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "La pomme est ___."
+    options: ["rouge", "bleu", "vert"]
+    correct_answer: "rouge"
+    translation: "Tofaa ni nyekundu"
+    xp_reward: 15
+
+  - id: 60
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "Le ciel est ___."
+    options: ["rouge", "bleu", "jaune"]
+    correct_answer: "bleu"
+    translation: "Anga ni buluu"
+    xp_reward: 15
+
+  - id: 61
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "L'herbe est ___."
+    options: ["verte", "bleue", "rouge"]
+    correct_answer: "verte"
+    translation: "Nyasi ni kijani"
+    xp_reward: 15
+
+  - id: 62
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "Le soleil est ___."
+    options: ["jaune", "rouge", "bleu"]
+    correct_answer: "jaune"
+    translation: "Jua ni manjano"
+    xp_reward: 15
+
+  - id: 63
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "L'___ rouge vole."
+    options: ["oiseau", "poisson", "grenouille"]
+    correct_answer: "oiseau"
+    translation: "Ndege nyekundu anaruka"
+    xp_reward: 18
+
+  # 8. Picture → Word
+  - id: 64
+    type: picture_word
+    question: "Rangi hii ni ipi kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Rouge", "Bleu", "Vert", "Jaune"]
+    correct_answer: "Rouge"
+    xp_reward: 10
+
+  - id: 65
+    type: picture_word
+    question: "Rangi hii ni ipi kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Rouge", "Bleu", "Noir", "Blanc"]
+    correct_answer: "Bleu"
+    xp_reward: 10
+
+  - id: 66
+    type: picture_word
+    question: "Rangi hii ni ipi kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Jaune", "Orange", "Vert", "Bleu"]
+    correct_answer: "Vert"
+    xp_reward: 10
+
+  - id: 67
+    type: picture_word
+    question: "Rangi hii ni ipi kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Rouge", "Jaune", "Noir", "Blanc"]
+    correct_answer: "Jaune"
+    xp_reward: 10
+
+  - id: 68
+    type: picture_word
+    question: "Rangi hii ni ipi kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Blanc", "Bleu", "Noir", "Orange"]
+    correct_answer: "Noir"
+    xp_reward: 10
+
+  - id: 69
+    type: picture_word
+    question: "Rangi hii ni ipi kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Noir", "Blanc", "Vert", "Rouge"]
+    correct_answer: "Blanc"
+    xp_reward: 10
+
+  - id: 70
+    type: picture_word
+    question: "Rangi hii ni ipi kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Rouge", "Jaune", "Orange", "Bleu"]
+    correct_answer: "Orange"
+    xp_reward: 10
+
+  - id: 71
+    type: picture_word
+    question: "Tofaa hili ni rangi gani kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Rouge", "Vert", "Jaune", "Orange"]
+    correct_answer: "Rouge"
+    xp_reward: 15
+
+  - id: 72
+    type: picture_word
+    question: "Ndege huyu ni rangi gani kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Rouge", "Bleu", "Jaune", "Vert"]
+    correct_answer: "Bleu"
+    xp_reward: 15
+
+  # 9. Word Matching
+  - id: 73
+    type: matching
+    question: "Linganisha rangi kwa Kifaransa"
+    pairs:
+      - left: "Rouge"
+        right: "Nyekundu"
+      - left: "Bleu"
+        right: "Buluu"
+      - left: "Vert"
+        right: "Kijani"
+      - left: "Jaune"
+        right: "Manjano"
+      - left: "Noir"
+        right: "Nyeusi"
+      - left: "Blanc"
+        right: "Nyeupe"
+      - left: "Orange"
+        right: "Machungwa"
+    xp_reward: 25
+
+  - id: 74
+    type: matching
+    question: "Linganisha vitu na rangi zake kwa Kifaransa"
+    pairs:
+      - left: "Pomme rouge"
+        right: "Tofaa nyekundu"
+      - left: "Ciel bleu"
+        right: "Anga ya buluu"
+      - left: "Herbe verte"
+        right: "Nyasi za kijani"
+      - left: "Soleil jaune"
+        right: "Jua la manjano"
+      - left: "Chat noir"
+        right: "Paka mweusi"
+      - left: "Vache blanche"
+        right: "Ng'ombe mweupe"
+    xp_reward: 25
+
+  - id: 75
+    type: matching
+    question: "Linganisha wanyama na rangi zao kwa Kifaransa"
+    pairs:
+      - left: "Oiseau rouge"
+        right: "Ndege nyekundu"
+      - left: "Grenouille verte"
+        right: "Chura wa kijani"
+      - left: "Poisson bleu"
+        right: "Samaki wa buluu"
+      - left: "Poulet jaune"
+        right: "Kuku wa manjano"
+      - left: "Lapin noir"
+        right: "Sungura mweusi"
+      - left: "Chèvre blanche"
+        right: "Mbuzi mweupe"
+    xp_reward: 25
+
+  # 10. Choose Missing Word
+  - id: 80
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "La pomme est ___."
+    missing_word_position: 3
+    options: ["rouge", "bleue", "verte"]
+    correct_answer: "rouge"
+    translation: "Tofaa ni nyekundu"
+    xp_reward: 15
+
+  - id: 81
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "Le ciel est ___."
+    missing_word_position: 3
+    options: ["rouge", "bleu", "jaune"]
+    correct_answer: "bleu"
+    translation: "Anga ni buluu"
+    xp_reward: 15
+
+  - id: 82
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "L'___ rouge vole."
+    missing_word_position: 2
+    options: ["oiseau", "poisson", "grenouille"]
+    correct_answer: "oiseau"
+    translation: "Ndege nyekundu anaruka"
+    xp_reward: 18
+
+  # 11. Read and Answer
+  - id: 83
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali"
+    text: "Tofaa ni nyekundu. Anga ni buluu. Nyasi ni kijani."
+    question: "Tofaa hili ni rangi gani kwa Kifaransa?"
+    options: ["Rouge", "Bleu", "Vert", "Jaune"]
+    correct_answer: "Rouge"
+    xp_reward: 20
+
+  - id: 84
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali"
+    text: "Ndege nyekundu anaruka. Chura wa kijani anaruka. Samaki wa buluu anaogelea."
+    question: "Ndege nyekundu anafanya nini kwa Kifaransa?"
+    options: ["nage", "saute", "vole", "court"]
+    correct_answer: "vole"
+    xp_reward: 25
+
+  - id: 85
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali"
+    text: "Paka ni mweusi. Ng'ombe ni mweupe. Kuku ni wa manjano."
+    question: "Ng'ombe ni rangi gani kwa Kifaransa?"
+    options: ["Noir", "Blanc", "Jaune", "Rouge"]
+    correct_answer: "Blanc"
+    xp_reward: 20
+
+  # 12. True / False
+  - id: 86
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Tofaa ni nyekundu."
+    translation: "La pomme est rouge"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 87
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Anga ni kijani."
+    translation: "Le ciel est vert"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 88
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Ng'ombe ni mweupe."
+    translation: "La vache est blanche"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 89
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Ndege nyekundu anaruka."
+    translation: "L'oiseau rouge vole"
+    correct_answer: true
+    xp_reward: 10
+
+  # 13. Conversation Exercise
+  - id: 90
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa"
+    bot_message: "Tofaa hili ni rangi gani?"
+    translation: "De quelle couleur est cette pomme?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    word_bank: ["La", "pomme", "est", "rouge", "Le", "ciel", "est", "bleu"]
+    correct_response: ["La", "pomme", "est", "rouge"]
+    xp_reward: 20
+
+  - id: 91
+    type: conversation
+    question: "Jibu swali"
+    bot_message: "Anga ni rangi gani?"
+    translation: "De quelle couleur est le ciel?"
+    options:
+      - "Rouge"
+      - "Bleu"
+      - "Vert"
+    correct_response: "Bleu"
+    xp_reward: 15
+
+  - id: 92
+    type: conversation
+    question: "Jibu swali"
+    bot_message: "Paka ni mweusi?"
+    translation: "Le chat est-il noir?"
+    options:
+      - "Oui, il est noir"
+      - "Non, il est blanc"
+      - "Non, il est rouge"
+    correct_response: "Oui, il est noir"
+    xp_reward: 15
+
+  # 14. Story Exercise
+  - id: 93
+    type: story
+    title: "Rangi Shambani"
+    story_intro: "Soma hadithi ya wanyama wenye rangi. Kisha jenga sentensi kwa Kifaransa."
+    story_segments:
+      - text: "Kuna ndege nyekundu angani."
+        image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - text: "Ndege anaruka juu."
+      - text: "Kuna chura wa kijani karibu na maji."
+      - text: "Chura anaruka."
+      - text: "Kuna samaki wa buluu ndani ya maji."
+      - text: "Samaki anaogelea."
+    exercises:
+      - type: word_bank
+        question: "Jenga sentensi ya Kifaransa inayomaanisha 'Ndege nyekundu anaruka'"
+        word_bank: ["L'", "oiseau", "rouge", "vole", "La", "grenouille", "verte", "saute"]
+        correct_answer: ["L'", "oiseau", "rouge", "vole"]
+      - type: word_bank
+        question: "Jenga sentensi ya Kifaransa inayomaanisha 'Chura wa kijani anaruka'"
+        word_bank: ["La", "grenouille", "verte", "saute", "Le", "poisson", "bleu", "nage"]
+        correct_answer: ["La", "grenouille", "verte", "saute"]
+      - type: word_bank
+        question: "Jenga sentensi ya Kifaransa inayomaanisha 'Samaki wa buluu anaogelea'"
+        word_bank: ["Le", "poisson", "bleu", "nage", "L'", "oiseau", "rouge", "vole"]
+        correct_answer: ["Le", "poisson", "bleu", "nage"]
+    xp_reward: 40
+
+  # 15. Pronunciation Check
+  - id: 94
+    type: pronunciation
+    question: "Taja rangi kwa Kifaransa vizuri"
+    prompt: "Nyekundu"
+    translation: "Rouge"
+    xp_reward: 15
+
+  - id: 95
+    type: pronunciation
+    question: "Taja neno kwa Kifaransa vizuri"
+    prompt: "Twiga"
+    translation: "Girafe"
+    xp_reward: 20
+
+  - id: 96
+    type: pronunciation
+    question: "Taja sentensi kwa Kifaransa vizuri"
+    prompt: "Tofaa nyekundu"
+    translation: "Pomme rouge"
+    xp_reward: 18
+
+  # 16. Identify Correct Meaning
+  - id: 97
+    type: identify_meaning
+    question: "'Nyekundu' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Tofaa ni nyekundu."
+    word: "nyekundu"
+    options: ["rouge", "bleu", "vert", "jaune"]
+    correct_answer: "rouge"
+    xp_reward: 15
+
+  - id: 98
+    type: identify_meaning
+    question: "'Nyekundu' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Ndege nyekundu anaruka."
+    word: "nyekundu"
+    options: ["rouge", "bleu", "vert", "jaune"]
+    correct_answer: "rouge"
+    note: "nyekundu ni kivumishi kinachotumiwa kuelezea kitu"
+    xp_reward: 18
+
+  - id: 99
+    type: identify_meaning
+    question: "'Wa kijani' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Chura wa kijani anaruka."
+    word: "wa kijani"
+    options: ["rouge", "bleu", "vert", "jaune"]
+    correct_answer: "vert"
+    xp_reward: 18
+
+  # 17. Speed Matching
+  - id: 100
+    type: speed_matching
+    title: "Linganisha kwa Kasi: Rangi"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Rouge"
+        right: "Nyekundu"
+      - left: "Bleu"
+        right: "Buluu"
+      - left: "Vert"
+        right: "Kijani"
+      - left: "Jaune"
+        right: "Manjano"
+      - left: "Noir"
+        right: "Nyeusi"
+      - left: "Blanc"
+        right: "Nyeupe"
+      - left: "Orange"
+        right: "Machungwa"
+    xp_reward: 30
+
+  # 18. Timed Challenges
+  - id: 101
+    type: timed_challenge
+    title: "Haraka: Rangi"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Nyekundu"
+        answer: "Rouge"
+      - question: "Buluu"
+        answer: "Bleu"
+      - question: "Kijani"
+        answer: "Vert"
+      - question: "Manjano"
+        answer: "Jaune"
+      - question: "Nyeusi"
+        answer: "Noir"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Rouge"
+      back: "Nyekundu"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Bleu"
+      back: "Buluu"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Vert"
+      back: "Kijani"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Jaune"
+      back: "Manjano"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Noir"
+      back: "Nyeusi"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Blanc"
+      back: "Nyeupe"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Orange"
+      back: "Machungwa"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Pomme rouge"
+      back: "Tofaa nyekundu"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Ciel bleu"
+      back: "Anga ya buluu"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Herbe verte"
+      back: "Nyasi za kijani"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

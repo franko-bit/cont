@@ -1,0 +1,10 @@
+START
+CHECKPOINT 1: assessments table check done
+CHECKPOINT 1c: Table exists, entering else
+CHECKPOINT 1d: After foreach, about to popcorns
+CHECKPOINT 2a: Starting certificates section
+CHECKPOINT 2b: Certs table check done, rowcount=1
+CHECKPOINT ERROR: Certs query failed: SQLSTATE[HY093]: Invalid parameter number
+CHECKPOINT 2d: After certs block, starting pass/fail
+CHECKPOINT 2: About to calc summary. dashboardPopcorns has 1 items, totalCerts=0
+CHECKPOINT 3: Summary calced. popcorns=1, certs=0

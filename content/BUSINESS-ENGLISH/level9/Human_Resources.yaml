@@ -1,0 +1,1500 @@
+lesson:
+  name: "Human Resources and Recruitment"
+  description: "Master professional HR and recruitment communication including job applications, CVs, interviews, hiring, performance reviews, policies, and training"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: JOB APPLICATIONS (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-7)
+  - id: 1
+    type: multiple_choice
+    question: "What is the most important document to include with a job application?"
+    options:
+      - "A photo of yourself"
+      - "Your CV/resume and cover letter"
+      - "Your social media handles"
+      - "Your birth certificate"
+    answer: "Your CV/resume and cover letter"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What is a 'cover letter'?"
+    options:
+      - "A letter that covers the envelope"
+      - "A personalized letter explaining why you're interested in and qualified for a specific role"
+      - "A letter about your hobbies"
+      - "A letter from your previous employer"
+    answer: "A personalized letter explaining why you're interested in and qualified for a specific role"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "How should you address a cover letter when you don't know the hiring manager's name?"
+    options:
+      - "To whom it may concern"
+      - "Dear Sir/Madam"
+      - "Dear Hiring Manager"
+      - "Hey there"
+    answer: "Dear Hiring Manager"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What is an 'application tracking system' (ATS)?"
+    options:
+      - "A system for tracking applications"
+      - "Software that screens and ranks job applications before human review"
+      - "A calendar for interview scheduling"
+      - "A database of rejected candidates"
+    answer: "Software that screens and ranks job applications before human review"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "What should you do before submitting a job application?"
+    options:
+      - "Submit immediately without checking"
+      - "Proofread carefully for spelling and grammar errors"
+      - "Add irrelevant personal information"
+      - "Use multiple fonts for creativity"
+    answer: "Proofread carefully for spelling and grammar errors"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What is a 'portfolio' in a job application?"
+    options:
+      - "A collection of stocks"
+      - "A showcase of your work samples and achievements"
+      - "A type of briefcase"
+      - "A financial document"
+    answer: "A showcase of your work samples and achievements"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "How soon should you follow up after submitting a job application?"
+    options:
+      - "The same day"
+      - "1-2 weeks after the deadline or application date"
+      - "3 months later"
+      - "Never"
+    answer: "1-2 weeks after the deadline or application date"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (8-12)
+  - id: 8
+    type: fill_blank
+    question: "Complete the cover letter opening"
+    text_with_blank: "I am writing to ___ for the Marketing Manager position at your company."
+    options: ["apply", "submit", "express interest", "be considered"]
+    correct_answer: "apply"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the application follow-up"
+    text_with_blank: "I am writing to ___ on the status of my application submitted on October 15th."
+    options: ["inquire", "check", "follow up", "ask"]
+    correct_answer: "inquire"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the attachment reference"
+    text_with_blank: "Please find ___ my CV and cover letter for your review."
+    options: ["attached", "enclosed", "included", "added"]
+    correct_answer: "attached"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the closing statement"
+    text_with_blank: "Thank you for considering my application. I look forward to ___ from you."
+    options: ["hearing", "responding", "receiving", "getting"]
+    correct_answer: "hearing"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the qualification statement"
+    text_with_blank: "I believe my skills in project management and leadership make me an ideal ___ for this role."
+    options: ["candidate", "applicant", "fit", "match"]
+    correct_answer: "candidate"
+    xp_reward: 15
+
+  # TRUE / FALSE (13-15)
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? A generic cover letter sent to many companies is as effective as a customized one."
+    statement: "A generic cover letter sent to many companies is as effective as a customized one."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 14
+    type: true_false
+    question: "Is this statement true or false? You should include references on your CV rather than 'References available upon request'."
+    statement: "You should include references on your CV rather than 'References available upon request'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? Tailoring your application to the job description increases your chances of being selected."
+    statement: "Tailoring your application to the job description increases your chances of being selected."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (16-18)
+  - id: 16
+    type: matching
+    question: "Match the application document with its purpose"
+    pairs:
+      - left: "CV/Resume"
+        right: "Summarizes work history, skills, and education"
+      - left: "Cover letter"
+        right: "Explains interest and fit for specific role"
+      - left: "Portfolio"
+        right: "Showcases work samples and achievements"
+      - left: "References"
+        right: "People who can vouch for your work"
+      - left: "Application form"
+        right: "Company-specific structured information"
+    xp_reward: 25
+
+  - id: 17
+    type: matching
+    question: "Match the application mistake with how to avoid it"
+    pairs:
+      - left: "Spelling errors"
+        right: "Proofread and use spell-check"
+      - left: "Generic cover letter"
+        right: "Customize for each company"
+      - left: "Missing keywords from job description"
+        right: "Tailor CV to match job requirements"
+      - left: "Too long CV"
+        right: "Keep to 1-2 pages maximum"
+      - left: "Unprofessional email address"
+        right: "Create a professional email for job search"
+    xp_reward: 25
+
+  - id: 18
+    type: matching
+    question: "Match the cover letter section with its content"
+    pairs:
+      - left: "Opening paragraph"
+        right: "State role applying for and how you heard about it"
+      - left: "Body paragraph 1"
+        right: "Highlight relevant experience and skills"
+      - left: "Body paragraph 2"
+        right: "Show knowledge of company and why you want to work there"
+      - left: "Closing paragraph"
+        right: "Thank you and call to action"
+      - left: "Signature"
+        right: "Sincerely, [Your Name]"
+    xp_reward: 25
+
+  # FLASHCARDS (19-20)
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Cover Letter Phrases"
+    flashcards:
+      - front: "I am writing to apply for"
+        right: "Application opening"
+      - front: "As you can see from my attached CV"
+        right: "Reference to resume"
+      - front: "I have X years of experience in"
+        right: "Experience statement"
+      - front: "I am particularly drawn to your company because"
+        right: "Company interest statement"
+      - front: "I would welcome the opportunity to discuss my application further"
+        right: "Request for interview"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Application Follow-up"
+    flashcards:
+      - front: "I wanted to check on the status of my application"
+        right: "Polite inquiry"
+      - front: "I remain very interested in this opportunity"
+        right: "Reiterate interest"
+      - front: "Please let me know if there is any additional information I can provide"
+        right: "Offer more information"
+      - front: "Thank you for your time and consideration"
+        right: "Polite closing"
+      - front: "I look forward to the possibility of interviewing with your team"
+        right: "Positive expectation"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: CV AND RESUME VOCABULARY (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-27)
+  - id: 21
+    type: multiple_choice
+    question: "What is the difference between a CV and a resume?"
+    options:
+      - "No difference - they are the same"
+      - "CV is longer and more academic; resume is shorter and skills-focused"
+      - "Resume is for jobs; CV is for school"
+      - "CV includes photos; resume does not"
+    answer: "CV is longer and more academic; resume is shorter and skills-focused"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "What does 'action verb' mean in resume writing?"
+    options:
+      - "A verb about action movies"
+      - "A strong, active verb that describes achievements (e.g., 'led', 'created', 'improved')"
+      - "A verb that is boring"
+      - "A verb in past tense"
+    answer: "A strong, active verb that describes achievements (e.g., 'led', 'created', 'improved')"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What is a 'professional summary' on a resume?"
+    options:
+      - "A summary of your personal life"
+      - "A brief overview of your key qualifications and career highlights"
+      - "A list of your hobbies"
+      - "Your contact information"
+    answer: "A brief overview of your key qualifications and career highlights"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "What is 'quantifying achievements' on a resume?"
+    options:
+      - "Using numbers to measure your accomplishments (e.g., 'increased sales by 30%')"
+      - "Guessing your achievements"
+      - "Using vague language"
+      - "Listing quantities of products"
+    answer: "Using numbers to measure your accomplishments (e.g., 'increased sales by 30%')"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "What should you include in the 'work experience' section?"
+    options:
+      - "Only job titles and dates"
+      - "Job titles, company names, dates, and bullet points of achievements"
+      - "Your entire life story"
+      - "Salary information"
+    answer: "Job titles, company names, dates, and bullet points of achievements"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What are 'transferable skills'?"
+    options:
+      - "Skills that can be transferred to another person"
+      - "Skills that are useful across different jobs and industries"
+      - "Skills that are only useful in one job"
+      - "Skills about transportation"
+    answer: "Skills that are useful across different jobs and industries"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "What is the recommended file format for submitting a resume electronically?"
+    options:
+      - ".docx (Word document)"
+      - ".txt (text file)"
+      - ".pdf (Portable Document Format)"
+      - ".jpg (image file)"
+    answer: ".pdf (Portable Document Format)"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (28-32)
+  - id: 28
+    type: fill_blank
+    question: "Complete the resume action verb phrase"
+    text_with_blank: "___ a team of 12 people to complete the project ahead of schedule."
+    options: ["Led", "Managed", "Directed", "Supervised"]
+    correct_answer: "Led"
+    xp_reward: 15
+
+  - id: 29
+    type: fill_blank
+    question: "Complete the quantified achievement"
+    text_with_blank: "Increased customer retention by 25% ___ the first year."
+    options: ["within", "in", "during", "over"]
+    correct_answer: "within"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the skill description"
+    text_with_blank: "Proficient in Microsoft Office ___ , including Excel and PowerPoint."
+    options: ["Suite", "Package", "Collection", "Set"]
+    correct_answer: "Suite"
+    xp_reward: 15
+
+  - id: 31
+    type: fill_blank
+    question: "Complete the education entry"
+    text_with_blank: "Bachelor of Arts in Business Administration, ___ of 2020"
+    options: ["Class", "Graduate", "Alumnus", "Cohort"]
+    correct_answer: "Class"
+    xp_reward: 15
+
+  - id: 32
+    type: fill_blank
+    question: "Complete the professional summary"
+    text_with_blank: "Results-driven marketing professional with 8+ years of ___ in digital strategy."
+    options: ["experience", "expertise", "background", "knowledge"]
+    correct_answer: "experience"
+    xp_reward: 15
+
+  # TRUE / FALSE (33-35)
+  - id: 33
+    type: true_false
+    question: "Is this statement true or false? You should list every job you've ever had, no matter how relevant."
+    statement: "You should list every job you've ever had, no matter how relevant."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 34
+    type: true_false
+    question: "Is this statement true or false? Including a photo on your resume is standard practice in most countries."
+    statement: "Including a photo on your resume is standard practice in most countries."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 35
+    type: true_false
+    question: "Is this statement true or false? Using bullet points makes your resume easier to scan quickly."
+    statement: "Using bullet points makes your resume easier to scan quickly."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (36-38)
+  - id: 36
+    type: matching
+    question: "Match the resume section with its content"
+    pairs:
+      - left: "Contact information"
+        right: "Name, phone, email, LinkedIn, location"
+      - left: "Professional summary"
+        right: "2-3 sentence career overview"
+      - left: "Skills"
+        right: "Technical and soft skills relevant to role"
+      - left: "Work experience"
+        right: "Reverse-chronological job history with achievements"
+      - left: "Education"
+        right: "Degrees, institutions, graduation dates"
+    xp_reward: 25
+
+  - id: 37
+    type: matching
+    question: "Match the action verb with the achievement type"
+    pairs:
+      - left: "Created"
+        right: "Developing something new"
+      - left: "Improved"
+        right: "Making something better"
+      - left: "Reduced"
+        right: "Decreasing costs or time"
+      - left: "Increased"
+        right: "Growing revenue or engagement"
+      - left: "Managed"
+        right: "Overseeing people or projects"
+    xp_reward: 25
+
+  - id: 38
+    type: matching
+    question: "Match the resume keyword with its meaning"
+    pairs:
+      - left: "P&L responsibility"
+        right: "Managing profit and loss"
+      - left: "Cross-functional collaboration"
+        right: "Working across departments"
+      - left: "Strategic planning"
+        right: "Long-term goal setting"
+      - left: "Change management"
+        right: "Leading organizational change"
+      - left: "Stakeholder management"
+        right: "Managing relationships with interested parties"
+    xp_reward: 25
+
+  # FLASHCARDS (39-40)
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Resume Action Verbs"
+    flashcards:
+      - front: "Achieved"
+        right: "Successfully accomplished"
+      - front: "Implemented"
+        right: "Put into effect"
+      - front: "Developed"
+        right: "Created or grew"
+      - front: "Coordinated"
+        right: "Organized activities or people"
+      - front: "Launched"
+        right: "Started a new product or initiative"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Skills Categories"
+    flashcards:
+      - front: "Hard skills"
+        right: "Technical, teachable abilities (e.g., coding, accounting)"
+      - front: "Soft skills"
+        right: "Interpersonal, behavioral skills (e.g., communication, teamwork)"
+      - front: "Technical skills"
+        right: "Job-specific technical abilities"
+      - front: "Language skills"
+        right: "Proficiency in languages"
+      - front: "Leadership skills"
+        right: "Ability to guide and motivate teams"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: JOB INTERVIEWS (41-65)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-48)
+  - id: 41
+    type: multiple_choice
+    question: "What is the best way to prepare for a job interview?"
+    options:
+      - "Show up without preparation"
+      - "Research the company, practice common questions, and prepare questions to ask"
+      - "Memorize a script word for word"
+      - "Just be yourself with no preparation"
+    answer: "Research the company, practice common questions, and prepare questions to ask"
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "What is the 'STAR' method for answering behavioral interview questions?"
+    options:
+      - "Situation, Task, Action, Result"
+      - "Start, Talk, Answer, Respond"
+      - "State, Tell, Ask, Repeat"
+      - "Sit, Think, Act, Review"
+    answer: "Situation, Task, Action, Result"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "What should you wear to a professional job interview?"
+    options:
+      - "Casual clothes"
+      - "Business professional or business casual appropriate to the company culture"
+      - "Costume"
+      - "Sportswear"
+    answer: "Business professional or business casual appropriate to the company culture"
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "What is the best way to answer 'Tell me about yourself'?"
+    options:
+      - "Recite your entire life story"
+      - "Give a brief professional summary: past experience, present role, future goals relevant to position"
+      - "Say 'What do you want to know?'"
+      - "Just state your name"
+    answer: "Give a brief professional summary: past experience, present role, future goals relevant to position"
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "What is the best way to answer 'What is your greatest weakness?'"
+    options:
+      - "Say 'I have no weaknesses'"
+      - "Give a real weakness and explain how you're working to improve it"
+      - "Give a fake weakness like 'I work too hard'"
+      - "Refuse to answer"
+    answer: "Give a real weakness and explain how you're working to improve it"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "What questions should you ask at the end of an interview?"
+    options:
+      - "No questions - it's better to stay silent"
+      - "Thoughtful questions about the role, team, company culture, and expectations"
+      - "Questions about salary and benefits only"
+      - "Personal questions about the interviewer's life"
+    answer: "Thoughtful questions about the role, team, company culture, and expectations"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "How soon after an interview should you send a thank-you note?"
+    options:
+      - "1 month later"
+      - "Within 24 hours"
+      - "Before the interview"
+      - "Only if you get the job"
+    answer: "Within 24 hours"
+    xp_reward: 15
+
+  - id: 48
+    type: multiple_choice
+    question: "What is a 'panel interview'?"
+    options:
+      - "An interview with a panel of judges"
+      - "An interview conducted by multiple interviewers at once"
+      - "An interview about panels"
+      - "A group interview with multiple candidates"
+    answer: "An interview conducted by multiple interviewers at once"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (49-53)
+  - id: 49
+    type: fill_blank
+    question: "Complete the STAR method step"
+    text_with_blank: "The first step in the STAR method is describing the ___ you faced."
+    options: ["Situation", "Scenario", "Context", "Background"]
+    correct_answer: "Situation"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the weakness statement"
+    text_with_blank: "One area I'm working to improve is my public speaking. I've been ___ Toastmasters to build confidence."
+    options: ["attending", "joining", "participating in", "taking"]
+    correct_answer: "attending"
+    xp_reward: 15
+
+  - id: 51
+    type: fill_blank
+    question: "Complete the thank-you note opening"
+    text_with_blank: "Thank you for ___ the time to meet with me today. I enjoyed learning more about the team and role."
+    options: ["taking", "spending", "finding", "allocating"]
+    correct_answer: "taking"
+    xp_reward: 15
+
+  - id: 52
+    type: fill_blank
+    question: "Complete the follow-up question"
+    text_with_blank: "Could you tell me more about the team's current ___ and priorities?"
+    options: ["goals", "objectives", "targets", "initiatives"]
+    correct_answer: "goals"
+    xp_reward: 15
+
+  - id: 53
+    type: fill_blank
+    question: "Complete the interest statement"
+    text_with_blank: "Based on what we discussed, I'm even more excited about the ___ of joining your team."
+    options: ["prospect", "possibility", "opportunity", "chance"]
+    correct_answer: "opportunity"
+    xp_reward: 15
+
+  # TRUE / FALSE (54-56)
+  - id: 54
+    type: true_false
+    question: "Is this statement true or false? Arriving 5-10 minutes early for an interview shows punctuality and respect."
+    statement: "Arriving 5-10 minutes early for an interview shows punctuality and respect."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 55
+    type: true_false
+    question: "Is this statement true or false? You should never ask questions at the end of an interview."
+    statement: "You should never ask questions at the end of an interview."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 56
+    type: true_false
+    question: "Is this statement true or false? Sending a personalized thank-you email after an interview can set you apart from other candidates."
+    statement: "Sending a personalized thank-you email after an interview can set you apart from other candidates."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (57-60)
+  - id: 57
+    type: matching
+    question: "Match the interview question with what it assesses"
+    pairs:
+      - left: "Tell me about yourself"
+        right: "Communication and relevance of background"
+      - left: "Why do you want to work here?"
+        right: "Company research and motivation"
+      - left: "Describe a time you faced a challenge"
+        right: "Problem-solving and behavioral pattern"
+      - left: "Where do you see yourself in 5 years?"
+        right: "Ambition and career alignment"
+      - left: "Why should we hire you?"
+        right: "Self-awareness and value proposition"
+    xp_reward: 25
+
+  - id: 58
+    type: matching
+    question: "Match the interview type with its format"
+    pairs:
+      - left: "Phone screen"
+        right: "Initial filter, usually 15-30 minutes"
+      - left: "Video interview"
+        right: "Remote interview via Zoom/Teams/Skype"
+      - left: "Panel interview"
+        right: "Multiple interviewers at once"
+      - left: "Case interview"
+        right: "Solving a business problem"
+      - left: "Technical interview"
+        right: "Testing job-specific skills"
+    xp_reward: 25
+
+  - id: 59
+    type: matching
+    question: "Match the red flag with what it signals to interviewers"
+    pairs:
+      - left: "Arriving late"
+        right: "Poor time management"
+      - left: "Speaking negatively about previous employer"
+        right: "Unprofessionalism, potential attitude issues"
+      - left: "No questions for interviewer"
+        right: "Lack of interest or preparation"
+      - left: "Phone ringing during interview"
+        right: "Lack of professionalism"
+      - left: "Vague or evasive answers"
+        right: "Lack of substance or honesty"
+    xp_reward: 25
+
+  - id: 60
+    type: matching
+    question: "Match the interview follow-up step with its timing"
+    pairs:
+      - left: "Send thank-you email"
+        right: "Within 24 hours of interview"
+      - left: "Send follow-up inquiry"
+        right: "1-2 weeks after interview if no response"
+      - left: "Send final check-in"
+        right: "Before the stated decision deadline"
+      - left: "Withdraw application"
+        right: "If you accept another offer"
+      - left: "Ask for feedback if rejected"
+        right: "After receiving rejection"
+    xp_reward: 25
+
+  # FLASHCARDS (61-65)
+  - id: 61
+    type: flashcards
+    question: "Flashcards: Common Interview Questions"
+    flashcards:
+      - front: "Tell me about yourself"
+        right: "Brief professional summary (past-present-future)"
+      - front: "What are your strengths?"
+        right: "Relevant skills with examples"
+      - front: "What is your greatest weakness?"
+        right: "Real weakness with improvement plan"
+      - front: "Why did you leave your last job?"
+        right: "Positive reason, focus on growth"
+      - front: "What are your salary expectations?"
+        right: "Market-aligned range, not exact number"
+    xp_reward: 30
+
+  - id: 62
+    type: flashcards
+    question: "Flashcards: Questions to Ask Interviewers"
+    flashcards:
+      - front: "What does success look like in this role?"
+        right: "Shows forward-thinking"
+      - front: "Can you describe the team culture?"
+        right: "Shows interest in fit"
+      - front: "What are the biggest challenges facing the team?"
+        right: "Shows strategic thinking"
+      - front: "How do you measure performance?"
+        right: "Shows accountability focus"
+      - front: "What are the next steps in the process?"
+        right: "Shows organization"
+    xp_reward: 30
+
+  - id: 63
+    type: flashcards
+    question: "Flashcards: Virtual Interview Tips"
+    flashcards:
+      - front: "Test technology beforehand"
+        right: "Check camera, mic, internet"
+      - front: "Choose neutral background"
+        right: "Avoid distractions"
+      - front: "Dress professionally"
+        right: "Full outfit, not just top"
+      - front: "Look at camera, not screen"
+        right: "Simulates eye contact"
+      - front: "Minimize background noise"
+        right: "Mute when not speaking"
+    xp_reward: 30
+
+  - id: 64
+    type: flashcards
+    question: "Flashcards: Illegal Interview Questions"
+    flashcards:
+      - front: "Are you married?"
+        right: "Marital status - illegal"
+      - front: "Do you have children?"
+        right: "Family status - illegal"
+      - front: "What is your religion?"
+        right: "Religious belief - illegal"
+      - front: "How old are you?"
+        right: "Age - illegal in many places"
+      - front: "What is your ethnicity?"
+        right: "Race/national origin - illegal"
+    xp_reward: 30
+
+  - id: 65
+    type: flashcards
+    question: "Flashcards: Post-Interview Thank You"
+    flashcards:
+      - front: "Reference a specific discussion point"
+        right: "Personalizes the note"
+      - front: "Reiterate your interest"
+        right: "Shows enthusiasm"
+      - front: "Briefly restate your value"
+        right: "Reminds them of your fit"
+      - front: "Send within 24 hours"
+        right: "Shows promptness"
+      - front: "Proofread carefully"
+        right: "Errors undermine professionalism"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: HIRING PROCESSES (66-85)
+  # ============================================
+
+  # MULTIPLE CHOICE (66-73)
+  - id: 66
+    type: multiple_choice
+    question: "What is the first step in the typical hiring process?"
+    options:
+      - "Job offer"
+      - "Job analysis and requisition approval"
+      - "Background check"
+      - "Onboarding"
+    answer: "Job analysis and requisition approval"
+    xp_reward: 15
+
+  - id: 67
+    type: multiple_choice
+    question: "What is a 'job requisition'?"
+    options:
+      - "A request to fire someone"
+      - "A formal document requesting approval to hire for a position"
+      - "A type of job application"
+      - "An interview schedule"
+    answer: "A formal document requesting approval to hire for a position"
+    xp_reward: 15
+
+  - id: 68
+    type: multiple_choice
+    question: "What is the difference between 'exempt' and 'non-exempt' employees?"
+    options:
+      - "Exempt are not paid; non-exempt are paid"
+      - "Exempt are salaried and not eligible for overtime; non-exempt are eligible for overtime"
+      - "Exempt work from home; non-exempt work in office"
+      - "Exempt are managers; non-exempt are staff"
+    answer: "Exempt are salaried and not eligible for overtime; non-exempt are eligible for overtime"
+    xp_reward: 15
+
+  - id: 69
+    type: multiple_choice
+    question: "What is an 'offer letter'?"
+    options:
+      - "A letter declining a candidate"
+      - "A formal document outlining the terms of employment offered to a candidate"
+      - "A letter requesting references"
+      - "A resignation letter"
+    answer: "A formal document outlining the terms of employment offered to a candidate"
+    xp_reward: 15
+
+  - id: 70
+    type: multiple_choice
+    question: "What is a 'background check'?"
+    options:
+      - "Checking the color of someone's background"
+      - "Verifying a candidate's employment history, education, criminal record, etc."
+      - "A test of background knowledge"
+      - "Checking references only"
+    answer: "Verifying a candidate's employment history, education, criminal record, etc."
+    xp_reward: 15
+
+  - id: 71
+    type: multiple_choice
+    question: "What is 'onboarding'?"
+    options:
+      - "Getting on a boat"
+      - "The process of integrating a new employee into the company"
+      - "The interview process"
+      - "The termination process"
+    answer: "The process of integrating a new employee into the company"
+    xp_reward: 15
+
+  - id: 72
+    type: multiple_choice
+    question: "What is the purpose of a 'probationary period'?"
+    options:
+      - "To test if the employee is guilty"
+      - "An initial trial period to assess new employee performance before permanent employment"
+      - "A period of probation"
+      - "A waiting period for benefits"
+    answer: "An initial trial period to assess new employee performance before permanent employment"
+    xp_reward: 15
+
+  - id: 73
+    type: multiple_choice
+    question: "What is 'at-will employment'?"
+    options:
+      - "Employment where the employee can leave anytime but employer cannot fire"
+      - "Employment that can be terminated by either party at any time, with or without cause"
+      - "Employment that requires a contract"
+      - "Employment based on employee's willpower"
+    answer: "Employment that can be terminated by either party at any time, with or without cause"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (74-78)
+  - id: 74
+    type: fill_blank
+    question: "Complete the job offer phrase"
+    text_with_blank: "We are pleased to ___ you the position of Senior Analyst."
+    options: ["offer", "extend", "provide", "give"]
+    correct_answer: "extend"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Complete the onboarding description"
+    text_with_blank: "Your first week will consist of ___ , including HR paperwork and team introductions."
+    options: ["onboarding", "orientation", "training", "induction"]
+    correct_answer: "orientation"
+    xp_reward: 15
+
+  - id: 76
+    type: fill_blank
+    question: "Complete the background check notification"
+    text_with_blank: "This offer is conditional upon successful completion of a ___ check."
+    options: ["background", "reference", "credit", "criminal"]
+    correct_answer: "background"
+    xp_reward: 15
+
+  - id: 77
+    type: fill_blank
+    question: "Complete the start date statement"
+    text_with_blank: "Your anticipated start date is November 15th, subject to ___ background check results."
+    options: ["satisfactory", "acceptable", "positive", "successful"]
+    correct_answer: "satisfactory"
+    xp_reward: 15
+
+  - id: 78
+    type: fill_blank
+    question: "Complete the acceptance request"
+    text_with_blank: "Please indicate your ___ of this offer by signing and returning the letter by Friday."
+    options: ["acceptance", "agreement", "confirmation", "acknowledgment"]
+    correct_answer: "acceptance"
+    xp_reward: 15
+
+  # TRUE / FALSE (79-81)
+  - id: 79
+    type: true_false
+    question: "Is this statement true or false? A verbal job offer is legally binding without a written contract."
+    statement: "A verbal job offer is legally binding without a written contract."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 80
+    type: true_false
+    question: "Is this statement true or false? Employers can ask about an applicant's medical history before making a job offer."
+    statement: "Employers can ask about an applicant's medical history before making a job offer."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 81
+    type: true_false
+    question: "Is this statement true or false? I-9 forms verify an employee's identity and work authorization in the US."
+    statement: "I-9 forms verify an employee's identity and work authorization in the US."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (82-84)
+  - id: 82
+    type: matching
+    question: "Match the hiring process step with its description"
+    pairs:
+      - left: "Recruiting/sourcing"
+        right: "Finding potential candidates"
+      - left: "Screening"
+        right: "Reviewing applications and initial calls"
+      - left: "Interviewing"
+        right: "In-depth candidate evaluation"
+      - left: "Assessment"
+        right: "Skills tests or work samples"
+      - left: "Selection and offer"
+        right: "Choose candidate and extend offer"
+    xp_reward: 25
+
+  - id: 83
+    type: matching
+    question: "Match the hiring document with its purpose"
+    pairs:
+      - left: "Job description"
+        right: "Outlines role responsibilities and requirements"
+      - left: "Offer letter"
+        right: "Formal employment proposal"
+      - left: "Employment contract"
+        right: "Legally binding employment terms"
+      - left: "Employee handbook"
+        right: "Company policies and procedures"
+      - left: "NDA"
+        right: "Confidentiality agreement"
+    xp_reward: 25
+
+  - id: 84
+    type: matching
+    question: "Match the employment type with its description"
+    pairs:
+      - left: "Full-time"
+        right: "Standard 35-40+ hours per week"
+      - left: "Part-time"
+        right: "Fewer than full-time hours"
+      - left: "Contract/temporary"
+        right: "Fixed-term employment"
+      - left: "Freelance"
+        right: "Self-employed, project-based"
+      - left: "Internship"
+        right: "Training position, often temporary"
+    xp_reward: 25
+
+  # FLASHCARDS (85)
+  - id: 85
+    type: flashcards
+    question: "Flashcards: Offer Letter Components"
+    flashcards:
+      - front: "Position title"
+        right: "Official job title"
+      - front: "Start date"
+        right: "First day of employment"
+      - front: "Compensation"
+        right: "Salary, bonus, commission structure"
+      - front: "Benefits"
+        right: "Health insurance, retirement, PTO"
+      - front: "Contingencies"
+        right: "Background check, drug test, references"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: EMPLOYEE PERFORMANCE REVIEWS (86-105)
+  # ============================================
+
+  # MULTIPLE CHOICE (86-93)
+  - id: 86
+    type: multiple_choice
+    question: "What is the purpose of a performance review?"
+    options:
+      - "To criticize employees"
+      - "To evaluate performance, provide feedback, set goals, and discuss development"
+      - "To fire underperforming employees"
+      - "To socialize"
+    answer: "To evaluate performance, provide feedback, set goals, and discuss development"
+    xp_reward: 15
+
+  - id: 87
+    type: multiple_choice
+    question: "What is a '360-degree review'?"
+    options:
+      - "A review that goes in circles"
+      - "Feedback collected from manager, peers, direct reports, and sometimes self"
+      - "A review that takes 360 minutes"
+      - "A review of 360 employees"
+    answer: "Feedback collected from manager, peers, direct reports, and sometimes self"
+    xp_reward: 15
+
+  - id: 88
+    type: multiple_choice
+    question: "What are 'SMART goals'?"
+    options:
+      - "Goals that are smart"
+      - "Specific, Measurable, Achievable, Relevant, Time-bound"
+      - "Simple, Manageable, Appropriate, Realistic, Timely"
+      - "Strategic, Meaningful, Actionable, Responsible, Trackable"
+    answer: "Specific, Measurable, Achievable, Relevant, Time-bound"
+    xp_reward: 15
+
+  - id: 89
+    type: multiple_choice
+    question: "What is the best way to give constructive feedback?"
+    options:
+      - "Only criticize, never praise"
+      - "Use 'I' statements, be specific, focus on behavior not personality"
+      - "Wait for the annual review"
+      - "Give feedback in front of everyone"
+    answer: "Use 'I' statements, be specific, focus on behavior not personality"
+    xp_reward: 15
+
+  - id: 90
+    type: multiple_choice
+    question: "What is a 'performance improvement plan' (PIP)?"
+    options:
+      - "A plan to improve company performance"
+      - "A formal document outlining performance issues and required improvements within a specific timeframe"
+      - "A plan to improve employee benefits"
+      - "A training program"
+    answer: "A formal document outlining performance issues and required improvements within a specific timeframe"
+    xp_reward: 15
+
+  - id: 91
+    type: multiple_choice
+    question: "What is the 'self-assessment' in a performance review?"
+    options:
+      - "Assessing yourself physically"
+      - "The employee's own evaluation of their performance before the review meeting"
+      - "A test about self"
+      - "An automated assessment"
+    answer: "The employee's own evaluation of their performance before the review meeting"
+    xp_reward: 15
+
+  - id: 92
+    type: multiple_choice
+    question: "What is a 'calibration session' in performance management?"
+    options:
+      - "A session to calibrate equipment"
+      - "A meeting where managers align on performance ratings to ensure consistency"
+      - "A session to calibrate goals"
+      - "A training session"
+    answer: "A meeting where managers align on performance ratings to ensure consistency"
+    xp_reward: 15
+
+  - id: 93
+    type: multiple_choice
+    question: "What is the difference between 'formative' and 'summative' feedback?"
+    options:
+      - "Formative is written; summative is verbal"
+      - "Formative is ongoing developmental feedback; summative is final evaluation at end of period"
+      - "Formative is positive; summative is negative"
+      - "Formative is for managers; summative is for employees"
+    answer: "Formative is ongoing developmental feedback; summative is final evaluation at end of period"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (94-98)
+  - id: 94
+    type: fill_blank
+    question: "Complete the feedback opening"
+    text_with_blank: "I'd like to ___ some feedback on the Q3 report you submitted."
+    options: ["provide", "give", "share", "offer"]
+    correct_answer: "provide"
+    xp_reward: 15
+
+  - id: 95
+    type: fill_blank
+    question: "Complete the constructive feedback"
+    text_with_blank: "I noticed the report contained several data errors. Going forward, please ___ your numbers before submitting."
+    options: ["verify", "check", "validate", "review"]
+    correct_answer: "verify"
+    xp_reward: 15
+
+  - id: 96
+    type: fill_blank
+    question: "Complete the praise statement"
+    text_with_blank: "Your presentation was ___ . The client was very impressed."
+    options: ["excellent", "outstanding", "exceptional", "superb"]
+    correct_answer: "excellent"
+    xp_reward: 15
+
+  - id: 97
+    type: fill_blank
+    question: "Complete the goal setting"
+    text_with_blank: "Let's set a SMART ___ for the next quarter: increase customer retention by 10%."
+    options: ["goal", "objective", "target", "aim"]
+    correct_answer: "goal"
+    xp_reward: 15
+
+  - id: 98
+    type: fill_blank
+    question: "Complete the development plan"
+    text_with_blank: "To improve your presentation skills, we'll ___ you in a public speaking workshop."
+    options: ["enroll", "register", "sign up", "place"]
+    correct_answer: "enroll"
+    xp_reward: 15
+
+  # TRUE / FALSE (99-101)
+  - id: 99
+    type: true_false
+    question: "Is this statement true or false? Annual performance reviews are the only time feedback should be given."
+    statement: "Annual performance reviews are the only time feedback should be given."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 100
+    type: true_false
+    question: "Is this statement true or false? Positive feedback should be specific, not just 'good job'."
+    statement: "Positive feedback should be specific, not just 'good job'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 101
+    type: true_false
+    question: "Is this statement true or false? Surprising an employee with negative feedback in an annual review is effective."
+    statement: "Surprising an employee with negative feedback in an annual review is effective."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (102-104)
+  - id: 102
+    type: matching
+    question: "Match the performance rating with its meaning"
+    pairs:
+      - left: "Exceeds expectations"
+        right: "Consistently outperforms role requirements"
+      - left: "Meets expectations"
+        right: "Fully competent and effective in role"
+      - left: "Needs improvement"
+        right: "Below required standards in some areas"
+      - left: "Unsatisfactory"
+        right: "Significant performance gaps, may lead to PIP"
+      - left: "Outstanding"
+        right: "Exceptional performance, exceeds all targets"
+    xp_reward: 25
+
+  - id: 103
+    type: matching
+    question: "Match the SMART criteria with its meaning"
+    pairs:
+      - left: "Specific"
+        right: "Clear, well-defined outcome"
+      - left: "Measurable"
+        right: "Trackable with metrics"
+      - left: "Achievable"
+        right: "Realistic and attainable"
+      - left: "Relevant"
+        right: "Aligned with business objectives"
+      - left: "Time-bound"
+        right: "Clear deadline or timeframe"
+    xp_reward: 25
+
+  - id: 104
+    type: matching
+    question: "Match the feedback type with its example"
+    pairs:
+      - left: "Constructive feedback"
+        right: "Your reports have been late three times. Let's discuss how to meet deadlines."
+      - left: "Positive feedback"
+        right: "Great job on the client presentation - your preparation really showed."
+      - left: "Developmental feedback"
+        right: "To grow into a leadership role, consider taking on more cross-functional projects."
+      - left: "Critical feedback"
+        right: "The budget error has caused significant delays. We need to prevent this."
+      - left: "SBI feedback model"
+        right: "Situation: In yesterday's meeting. Behavior: You interrupted twice. Impact: It disrupted flow."
+    xp_reward: 25
+
+  # FLASHCARDS (105)
+  - id: 105
+    type: flashcards
+    question: "Flashcards: Performance Review Phrases"
+    flashcards:
+      - front: "Areas of strength"
+        right: "What the employee does well"
+      - front: "Areas for development"
+        right: "Skills to build or improve"
+      - front: "Achievements since last review"
+        right: "Key accomplishments"
+      - front: "Goals for next period"
+        right: "SMART objectives moving forward"
+      - front: "Career aspirations"
+        right: "Long-term professional goals"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: WORKPLACE POLICIES (106-125)
+  # ============================================
+
+  # MULTIPLE CHOICE (106-113)
+  - id: 106
+    type: multiple_choice
+    question: "What is an 'employee handbook'?"
+    options:
+      - "A book about employees"
+      - "A document outlining company policies, procedures, and expectations"
+      - "A handbook for new managers"
+      - "A benefits brochure"
+    answer: "A document outlining company policies, procedures, and expectations"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What does 'anti-harassment policy' protect against?"
+    options:
+      - "Only physical harassment"
+      - "Discrimination and harassment based on protected characteristics"
+      - "Workload harassment"
+      - "Email harassment only"
+    answer: "Discrimination and harassment based on protected characteristics"
+    xp_reward: 15
+
+  - id: 108
+    type: multiple_choice
+    question: "What is 'FMLA' in the US?"
+    options:
+      - "Family and Medical Leave Act - unpaid, job-protected leave for qualifying reasons"
+      - "Federal Management Leave Act"
+      - "Flexible Medical Leave Allowance"
+      - "Full-time Medical Leave Authorization"
+    answer: "Family and Medical Leave Act - unpaid, job-protected leave for qualifying reasons"
+    xp_reward: 15
+
+  - id: 109
+    type: multiple_choice
+    question: "What does 'EOE' stand for in job postings?"
+    options:
+      - "Employee of Excellence"
+      - "Equal Opportunity Employer"
+      - "Equal Office Environment"
+      - "Employee Orientation Event"
+    answer: "Equal Opportunity Employer"
+    xp_reward: 15
+
+  - id: 110
+    type: multiple_choice
+    question: "What is a 'code of conduct'?"
+    options:
+      - "A code about conduct"
+      - "A set of ethical guidelines and behavioral expectations for employees"
+      - "A dress code"
+      - "A training program"
+    answer: "A set of ethical guidelines and behavioral expectations for employees"
+    xp_reward: 15
+
+  - id: 111
+    type: multiple_choice
+    question: "What is 'remote work policy'?"
+    options:
+      - "A policy about working remotely from a remote location"
+      - "Guidelines for employees working from home or outside the office"
+      - "A policy about remote controls"
+      - "A travel policy"
+    answer: "Guidelines for employees working from home or outside the office"
+    xp_reward: 15
+
+  - id: 112
+    type: multiple_choice
+    question: "What is 'PTO' in HR terms?"
+    options:
+      - "Please Take Off"
+      - "Paid Time Off - vacation and sick leave combined"
+      - "Part-Time Only"
+      - "Performance Time Off"
+    answer: "Paid Time Off - vacation and sick leave combined"
+    xp_reward: 15
+
+  - id: 113
+    type: multiple_choice
+    question: "What is the purpose of a 'conflict of interest policy'?"
+    options:
+      - "To create conflicts"
+      - "To prevent situations where personal interests interfere with company interests"
+      - "To manage interest rates"
+      - "To resolve conflicts"
+    answer: "To prevent situations where personal interests interfere with company interests"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (114-118)
+  - id: 114
+    type: fill_blank
+    question: "Complete the policy acknowledgment"
+    text_with_blank: "Please sign and return this form to ___ that you have read and understood the employee handbook."
+    options: ["acknowledge", "confirm", "certify", "attest"]
+    correct_answer: "acknowledge"
+    xp_reward: 15
+
+  - id: 115
+    type: fill_blank
+    question: "Complete the leave request"
+    text_with_blank: "I would like to request ___ leave for medical treatment from March 1-15."
+    options: ["medical", "sick", "health", "FMLA"]
+    correct_answer: "FMLA"
+    xp_reward: 15
+
+  - id: 116
+    type: fill_blank
+    question: "Complete the remote work request"
+    text_with_blank: "I am requesting to work ___ on Tuesdays and Thursdays."
+    options: ["remotely", "from home", "off-site", "virtually"]
+    correct_answer: "remotely"
+    xp_reward: 15
+
+  - id: 117
+    type: fill_blank
+    question: "Complete the harassment reporting statement"
+    text_with_blank: "Employees are encouraged to ___ any concerns about harassment to HR immediately."
+    options: ["report", "raise", "escalate", "communicate"]
+    correct_answer: "report"
+    xp_reward: 15
+
+  - id: 118
+    type: fill_blank
+    question: "Complete the code of conduct statement"
+    text_with_blank: "All employees are expected to ___ by the company's code of conduct at all times."
+    options: ["abide", "comply", "adhere", "follow"]
+    correct_answer: "abide"
+    xp_reward: 15
+
+  # TRUE / FALSE (119-121)
+  - id: 119
+    type: true_false
+    question: "Is this statement true or false? At-will employment means employees can be fired for any reason, including discriminatory reasons."
+    statement: "At-will employment means employees can be fired for any reason, including discriminatory reasons."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 120
+    type: true_false
+    question: "Is this statement true or false? Employers can require drug testing as a condition of employment."
+    statement: "Employers can require drug testing as a condition of employment."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 121
+    type: true_false
+    question: "Is this statement true or false? Employees have the right to a safe workplace under OSHA regulations."
+    statement: "Employees have the right to a safe workplace under OSHA regulations."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (122-124)
+  - id: 122
+    type: matching
+    question: "Match the policy type with its focus"
+    pairs:
+      - left: "Attendance policy"
+        right: "Punctuality and absence procedures"
+      - left: "Dress code"
+        right: "Workplace attire standards"
+      - left: "Social media policy"
+        right: "Guidelines for online conduct"
+      - left: "Data security policy"
+        right: "Protecting company information"
+      - left: "Whistleblower policy"
+        right: "Reporting misconduct protections"
+    xp_reward: 25
+
+  - id: 123
+    type: matching
+    question: "Match the legal term with its meaning"
+    pairs:
+      - left: "ADA"
+        right: "Americans with Disabilities Act - prohibits disability discrimination"
+      - left: "EEOC"
+        right: "Equal Employment Opportunity Commission - enforces discrimination laws"
+      - left: "FLSA"
+        right: "Fair Labor Standards Act - overtime and minimum wage"
+      - left: "OSHA"
+        right: "Occupational Safety and Health Administration - workplace safety"
+      - left: "COBRA"
+        right: "Continued health insurance after leaving job"
+    xp_reward: 25
+
+  - id: 124
+    type: matching
+    question: "Match the leave type with its description"
+    pairs:
+      - left: "Maternity/paternity leave"
+        right: "Time off for new parents"
+      - left: "Sick leave"
+        right: "Time off for illness or medical appointments"
+      - left: "Bereavement leave"
+        right: "Time off after death of family member"
+      - left: "Jury duty leave"
+        right: "Time off for court service"
+      - left: "Sabbatical"
+        right: "Extended leave for personal or professional development"
+    xp_reward: 25
+
+  # FLASHCARDS (125)
+  - id: 125
+    type: flashcards
+    question: "Flashcards: Employee Rights"
+    flashcards:
+      - front: "Right to a safe workplace"
+        right: "OSHA protection"
+      - front: "Right to be free from discrimination"
+        right: "EEO laws"
+      - front: "Right to minimum wage and overtime"
+        right: "FLSA protection"
+      - front: "Right to take family/medical leave"
+        right: "FMLA (if eligible)"
+      - front: "Right to report violations without retaliation"
+        right: "Whistleblower protection"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 7: TRAINING AND DEVELOPMENT (126-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (126-128)
+  - id: 126
+    type: multiple_choice
+    question: "What is the difference between 'training' and 'development'?"
+    options:
+      - "No difference"
+      - "Training is job-specific; development is broader career growth"
+      - "Training is for managers; development is for staff"
+      - "Training is mandatory; development is voluntary"
+    answer: "Training is job-specific; development is broader career growth"
+    xp_reward: 15
+
+  - id: 127
+    type: multiple_choice
+    question: "What is 'on-the-job training' (OJT)?"
+    options:
+      - "Training about jobs"
+      - "Training that occurs while performing actual job duties"
+      - "Training about job applications"
+      - "Off-site training"
+    answer: "Training that occurs while performing actual job duties"
+    xp_reward: 15
+
+  - id: 128
+    type: multiple_choice
+    question: "What is a 'career development plan'?"
+    options:
+      - "A plan to develop careers"
+      - "A document outlining an employee's career goals and the steps to achieve them"
+      - "A plan to change careers"
+      - "A training schedule"
+    answer: "A document outlining an employee's career goals and the steps to achieve them"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (129)
+  - id: 129
+    type: fill_blank
+    question: "Complete the training request"
+    text_with_blank: "I would like to request to ___ the Advanced Leadership Workshop next month."
+    options: ["attend", "participate in", "register for", "join"]
+    correct_answer: "attend"
+    xp_reward: 15
+
+  # TIMED CHALLENGE (130)
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: HR and Recruitment Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "What STAR stands for in interviewing"
+        answer: "Situation Task Action Result"
+      - question: "What SMART stands for in goal setting"
+        answer: "Specific Measurable Achievable Relevant Time bound"
+      - question: "What is the best file format for submitting a resume"
+        answer: "PDF"
+      - question: "When to send interview thank-you note"
+        answer: "Within 24 hours"
+      - question: "What PIP stands for"
+        answer: "Performance Improvement Plan"
+      - question: "What PTO stands for"
+        answer: "Paid Time Off"
+      - question: "What FMLA provides"
+        answer: "Unpaid job protected leave"
+      - question: "Difference between training and development"
+        answer: "Training job specific development career growth"
+    xp_reward: 50

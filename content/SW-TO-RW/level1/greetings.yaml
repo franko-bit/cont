@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "Jifunze common greetings na expressions katika Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe kwa single words/phrases)
+ - id: 1
+ type: translation
+ Swali: "Unasemaje 'Habari' kwa Kinyarwanda?"
+ Jibu: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Swali: "Unasemaje 'nzuri morning' kwa Kinyarwanda?"
+ Jibu: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Swali: "Unasemaje 'nzuri afternoon / nzuri evening' kwa Kinyarwanda?"
+ Jibu: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Swali: "Unasemaje 'nzuri night' kwa Kinyarwanda?"
+ Jibu: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Swali: "Unauliza vipi 'How ni you?' kwa Kinyarwanda?"
+ Jibu: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Swali: "Unasemaje 'I'm fine' kwa Kinyarwanda?"
+ Jibu: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Swali: "Unasemaje 'Welcome' kwa Kinyarwanda?"
+ Jibu: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Swali: "Unasemaje 'kuona you later' kwa Kinyarwanda?"
+ Jibu: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Swali: "Unasemaje 'Kwaheri' kwa Kinyarwanda?"
+ Jibu: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Swali: "Unasemaje 'Have moja nice day' kwa Kinyarwanda?"
+ Jibu: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Swali: "Unasemaje 'Take care' kwa Kinyarwanda?"
+ Jibu: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Swali: "Unasemaje 'Long time hapana kuona' kwa Kinyarwanda?"
+ Jibu: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Swali: "Unauliza vipi 'What's up?' kwa Kinyarwanda?"
+ Jibu: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Swali: "Unasemaje 'Nice kwa meet you' kwa Kinyarwanda?"
+ Jibu: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings na Familia Members (Simple combinations)
+ - id: 15
+ type: translation
+ Swali: "Unasemaje 'Habari, mother!' kwa Kinyarwanda?"
+ Jibu: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ Swali: "Unasemaje 'nzuri morning, father!' kwa Kinyarwanda?"
+ Jibu: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ Swali: "Unasemaje 'nzuri night, my child!' kwa Kinyarwanda?"
+ Jibu: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common Swali (Fixed expressions)
+ - id: 18
+ type: translation
+ Swali: "Unauliza vipi 'How ni you today?' kwa Kinyarwanda?"
+ Jibu: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Swali: "Unasemaje 'I'm fine, thank you' kwa Kinyarwanda?"
+ Jibu: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Swali: "Unauliza vipi 'What's up na you today?' kwa Kinyarwanda?"
+ Jibu: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # hapana DIRECT TRANSLATION kwa COMPLEX DIALOGUES au PARAGRAPHS
+ # Instead, we use Sentensi building, Tingiza, na word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Muraho' kwa sentensi hii?"
+ options:
+ - "Kwaheri"
+ - "Habari"
+ - "nzuri morning"
+ - "nzuri night"
+ Jibu: "Habari"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Mwaramutse' kwa sentensi hii?"
+ options:
+ - "nzuri evening"
+ - "nzuri morning"
+ - "nzuri night"
+ - "Kwaheri"
+ Jibu: "nzuri morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Amakuru' kwa sentensi hii?"
+ options:
+ - "Kwaheri"
+ - "Welcome"
+ - "How ni you?"
+ - "kuona you later"
+ Jibu: "How ni you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Ni meza' kwa sentensi hii?"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ Jibu: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Murabeho' kwa sentensi hii?"
+ options:
+ - "Habari"
+ - "Welcome"
+ - "Kwaheri"
+ - "kuona you later"
+ Jibu: "Kwaheri"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Tuzasubira' kwa sentensi hii?"
+ options:
+ - "Kwaheri"
+ - "kuona you later"
+ - "Welcome back"
+ - "Take care"
+ Jibu: "kuona you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Nishimiye kukubona' kwa sentensi hii?"
+ options:
+ - "nzuri morning"
+ - "Nice kwa meet you"
+ - "Welcome"
+ - "Take care"
+ Jibu: "Nice kwa meet you"
+ xp_reward: 18
+
+ # 3. Sikiliza na Type (Dictation) - Safe because audio ni provided
+ - id: 28
+ type: listen_na_type
+ Swali: "Sikiliza na type ya greeting"
+ tts_text: "Muraho"
+ Jibu: "Muraho"
+ translation: "Habari"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_na_type
+ Swali: "Sikiliza na type ya greeting"
+ tts_text: "Mwaramutse"
+ Jibu: "Mwaramutse"
+ translation: "nzuri morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_na_type
+ Swali: "Sikiliza na type ya greeting"
+ tts_text: "Mwiriwe"
+ Jibu: "Mwiriwe"
+ translation: "nzuri afternoon / nzuri evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ tts_text: "Ijoro ryiza"
+ Jibu: "Ijoro ryiza"
+ translation: "nzuri night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_na_type
+ Swali: "Sikiliza na type ya Swali"
+ tts_text: "Amakuru"
+ Jibu: "Amakuru"
+ translation: "How ni you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_na_type
+ Swali: "Sikiliza na type ya response"
+ tts_text: "Ni meza"
+ Jibu: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ tts_text: "Murakaza neza"
+ Jibu: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ tts_text: "Tuzasubira"
+ Jibu: "Tuzasubira"
+ translation: "kuona you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ tts_text: "Murabeho"
+ Jibu: "Murabeho"
+ translation: "Kwaheri"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ Jibu: "Hashize igihe tutabonanye"
+ translation: "Long time hapana kuona"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ tts_text: "Nishimiye kukubona"
+ Jibu: "Nishimiye kukubona"
+ translation: "Nice kwa meet you"
+ xp_reward: 25
+
+ # 4. Sikiliza na Chagua
+ - id: 39
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "Kwaheri"
+ - "Habari"
+ - "nzuri morning"
+ Jibu: "Habari"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "nzuri evening"
+ - "nzuri morning"
+ - "nzuri night"
+ Jibu: "nzuri morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "nzuri morning"
+ - "nzuri afternoon/evening"
+ - "nzuri night"
+ Jibu: "nzuri afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "Kwaheri"
+ - "How ni you?"
+ - "Welcome"
+ Jibu: "How ni you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ Jibu: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "Habari"
+ - "Kwaheri"
+ - "kuona you later"
+ Jibu: "Kwaheri"
+ xp_reward: 15
+
+ # 5. Repeat / Ongea Exercise
+ - id: 45
+ type: Ongea
+ Swali: "Say hii greeting"
+ prompt: "Muraho"
+ translation: "Habari"
+ xp_reward: 15
+
+ - id: 46
+ type: Ongea
+ Swali: "Say hii greeting"
+ prompt: "Mwaramutse"
+ translation: "nzuri morning"
+ xp_reward: 15
+
+ - id: 47
+ type: Ongea
+ Swali: "Say hii greeting"
+ prompt: "Mwiriwe"
+ translation: "nzuri afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: Ongea
+ Swali: "Say hii phrase"
+ prompt: "Ijoro ryiza"
+ translation: "nzuri night"
+ xp_reward: 18
+
+ - id: 49
+ type: Ongea
+ Swali: "Ask 'How ni you?' katika Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How ni you?"
+ xp_reward: 15
+
+ - id: 50
+ type: Ongea
+ Swali: "Say 'I'm fine' katika Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: Ongea
+ Swali: "Say 'Welcome' katika Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: Ongea
+ Swali: "Say 'kuona you later' katika Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "kuona you later"
+ xp_reward: 18
+
+ - id: 53
+ type: Ongea
+ Swali: "Say 'Kwaheri' katika Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "Kwaheri"
+ xp_reward: 15
+
+ - id: 54
+ type: Ongea
+ Swali: "Say 'Long time hapana kuona' katika Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time hapana kuona"
+ xp_reward: 22
+
+ - id: 55
+ type: Ongea
+ Swali: "Say 'Nice kwa meet you' katika Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice kwa meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: Ongea
+ Swali: "Say 'Habari, mother!' katika Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "Habari, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: Ongea
+ Swali: "Say 'nzuri morning, father!' katika Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "nzuri morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank Sentensi Building - PIECES PROVIDED, hapana TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ Swali: "Build ya greeting kwa 'Habari, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Swali: "Build ya greeting kwa 'nzuri morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ Swali: "Build ya greeting kwa 'nzuri night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ Swali: "Build ya Swali 'How ni you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ Swali: "Build ya response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ Swali: "Build ya farewell 'kuona you later at Shule'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Swali: "Build ya farewell 'Kwaheri, kuona you Kesho'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ Swali: "Build ya well-wish 'Have moja nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Swali: "Build ya phrase 'Take care juu your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ Swali: "Build ya greeting 'Long time hapana kuona, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Swali: "Build ya Swali 'What's up na you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ Swali: "Build ya phrase 'Nice kwa meet you at ya party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. Sentensi Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "Habari, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "nzuri morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "nzuri night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Swali"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How ni you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "kuona you later at Shule."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "Kwaheri, kuona you Kesho."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have moja nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care juu your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time hapana kuona, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Swali"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up na you today?"
+ xp_reward: 22
+
+ # 8. Fill katika ya Blank - Chagua FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ Swali: "Complete ya greeting"
+ text_na_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "Habari, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Swali: "Complete ya greeting"
+ text_na_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "nzuri morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ Swali: "Complete ya phrase"
+ text_na_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "nzuri night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Swali: "Complete ya Swali"
+ text_na_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How ni you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Swali: "Complete ya response"
+ text_na_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Swali: "Complete ya farewell"
+ text_na_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "kuona you later at Shule."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ Swali: "Complete ya farewell"
+ text_na_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "Kwaheri, kuona you Kesho."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ Swali: "Complete ya well-wish"
+ text_na_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have moja nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ Swali: "Complete ya phrase"
+ text_na_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care juu your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ Swali: "Complete ya greeting"
+ text_na_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time hapana kuona, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ Swali: "Complete ya Swali"
+ text_na_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up na you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word Tingiza (Pairing)
+ - id: 98
+ type: Tingiza
+ Swali: "Tingiza ya greetings kwa their meanings"
+ pairs:
+ - Kushoto: "Muraho"
+ Kulia: "Habari"
+ - Kushoto: "Mwaramutse"
+ Kulia: "nzuri morning"
+ - Kushoto: "Mwiriwe"
+ Kulia: "nzuri afternoon/evening"
+ - Kushoto: "Ijoro ryiza"
+ Kulia: "nzuri night"
+ - Kushoto: "Amakuru"
+ Kulia: "How ni you?"
+ - Kushoto: "Ni meza"
+ Kulia: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: Tingiza
+ Swali: "Tingiza ya farewells na well-wishes"
+ pairs:
+ - Kushoto: "Murabeho"
+ Kulia: "Kwaheri"
+ - Kushoto: "Tuzasubira"
+ Kulia: "kuona you later"
+ - Kushoto: "Umunsi mwiza"
+ Kulia: "Have moja nice day"
+ - Kushoto: "Wirinde"
+ Kulia: "Take care"
+ - Kushoto: "Hashize igihe tutabonanye"
+ Kulia: "Long time hapana kuona"
+ - Kushoto: "Nishimiye kukubona"
+ Kulia: "Nice kwa meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: Tingiza
+ Swali: "Tingiza ya phrases na Familia members"
+ pairs:
+ - Kushoto: "Muraho, Mama!"
+ Kulia: "Habari, mother!"
+ - Kushoto: "Mwaramutse, Data!"
+ Kulia: "nzuri morning, father!"
+ - Kushoto: "Ijoro ryiza, mwana wanjye!"
+ Kulia: "nzuri night, my child!"
+ - Kushoto: "Hashize igihe tutabonanye, nshuti yanjye"
+ Kulia: "Long time hapana kuona, my friend"
+ xp_reward: 25
+
+ # 10. Chagua Missing Word
+ - id: 107
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How ni you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have moja nice day at work."
+ xp_reward: 15
+
+ # 11. Soma na Jibu - Swali based juu context
+ - id: 110
+ type: read_answer
+ Swali: "Soma ya dialogue na Jibu ya Swali"
+ text: "moja: Muraho! Amakuru? B: Ni meza, murakoze."
+ Swali: "How ni person B?"
+ options: ["Huzuni", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ Swali: "Soma ya dialogue na Jibu ya Swali"
+ text: "moja: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ Swali: "What time ya day ni it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ Swali: "Soma ya dialogue na Jibu ya Swali"
+ text: "moja: Tuzasubira ku ishuri. B: Murabeho!"
+ Swali: "Where will they kuona each other later?"
+ options: ["At home", "At Shule", "At work", "At ya Soko"]
+ correct_answer: "At Shule"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "'Mwaramutse' ni used katika ya morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "'Mwiriwe' ni used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "'Murabeho' means Habari."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "'Nishimiye kukubona' means 'Nice kwa meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Swali: "Respond kwa ya greeting by building moja Sentensi"
+ bot_message: "Muraho! Amakuru?"
+ translation: "Habari! How ni you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ Swali: "Chagua ya appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "nzuri morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ Swali: "Respond kwa ya farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "kuona you later at Shule."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ Swali: "Build moja response kwa ya Swali"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How ni you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build Sentensi from pieces
+ - id: 121
+ type: story
+ title: "Meeting moja Friend - Guhura n'inshuti"
+ story_intro: "Soma ya conversation. Then build ya Sentensi."
+ story_segments:
+ - text: "Person moja says Habari."
+ - text: "Person moja asks how they ni."
+ - text: "Person B says they ni fine na asante them."
+ - text: "Person moja says nice kwa meet them."
+ - text: "Person B welcomes them."
+ - text: "Person moja says kuona you later."
+ - text: "Person B says Kwaheri."
+ exercises:
+ - type: word_bank
+ Swali: "Build ya Kinyarwanda greeting kwa 'Habari!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ Swali: "Build ya Swali 'How ni you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ Swali: "Build ya response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ Swali: "Build ya phrase 'Nice kwa meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ Swali: "Build ya farewell 'kuona you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ Swali: "Build ya farewell 'Kwaheri'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Swali: "Say hii greeting"
+ prompt: "Muraho"
+ translation: "Habari"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Swali: "Say hii greeting"
+ prompt: "Mwaramutse"
+ translation: "nzuri morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Swali: "Say hii phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice kwa meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ Swali: "Say hii farewell"
+ prompt: "Murabeho"
+ translation: "Kwaheri"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'Muraho' kwa sentensi hii?"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["Kwaheri", "Habari", "Thank you", "Welcome"]
+ correct_answer: "Habari"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'murakoze' mean katika hii Sentensi?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["tafadhali", "thank you", "welcome", "Kwaheri"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'Mwiriwe' kwa sentensi hii?"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["nzuri morning", "nzuri afternoon/evening", "nzuri night", "Habari"]
+ correct_answer: "nzuri afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed Tingiza
+ - id: 129
+ type: speed_Tingiza
+ title: "Tingiza Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - Kushoto: "Habari"
+ Kulia: "Muraho"
+ - Kushoto: "nzuri morning"
+ Kulia: "Mwaramutse"
+ - Kushoto: "nzuri afternoon"
+ Kulia: "Mwiriwe"
+ - Kushoto: "nzuri night"
+ Kulia: "Ijoro ryiza"
+ - Kushoto: "How ni you?"
+ Kulia: "Amakuru"
+ - Kushoto: "I'm fine"
+ Kulia: "Ni meza"
+ - Kushoto: "Welcome"
+ Kulia: "Murakaza neza"
+ - Kushoto: "kuona you later"
+ Kulia: "Tuzasubira"
+ - Kushoto: "Kwaheri"
+ Kulia: "Murabeho"
+ - Kushoto: "Take care"
+ Kulia: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ Swali_count: 5
+ Swali:
+ - Swali: "Habari"
+ Jibu: "Muraho"
+ - Swali: "nzuri morning"
+ Jibu: "Mwaramutse"
+ - Swali: "nzuri night"
+ Jibu: "Ijoro ryiza"
+ - Swali: "How ni you?"
+ Jibu: "Amakuru"
+ - Swali: "Kwaheri"
+ Jibu: "Murabeho"
+ xp_reward: 35
+
+# Kadi za kujifunzia
+ - id: 111
+ type: Kadi za kujifunzia
+ Swali: "Kadi za kujifunzia"
+ Kadi za kujifunzia:
+ - front: "Muraho"
+ back: "Habari"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "nzuri morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "nzuri afternoon / nzuri evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "nzuri night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How ni you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "kuona you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "Kwaheri"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have moja nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

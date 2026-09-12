@@ -1,0 +1,1503 @@
+lesson:
+  name: "Workplace Communication"
+  description: "Master professional communication skills for phone calls, video meetings, instructions, requests, and clarifications"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: PHONE CONVERSATIONS (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-5)
+  - id: 1
+    type: multiple_choice
+    question: "How should you answer a professional business phone call?"
+    options:
+      - "Yeah, hello?"
+      - "Hello, this is John Smith from ABC Corp. How may I help you?"
+      - "Who is this?"
+      - "Talk to me."
+    answer: "Hello, this is John Smith from ABC Corp. How may I help you?"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What should you say if the person someone is calling for is unavailable?"
+    options:
+      - "They're not here. Call back later."
+      - "I'm sorry, Ms. Johnson is in a meeting right now. May I take a message?"
+      - "She's busy. What do you want?"
+      - "I don't know where she is."
+    answer: "I'm sorry, Ms. Johnson is in a meeting right now. May I take a message?"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "What does 'Could you please hold?' mean on a phone call?"
+    options:
+      - "Please wait on the line"
+      - "Please call back later"
+      - "Please hang up now"
+      - "Please speak louder"
+    answer: "Please wait on the line"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "How do you ask to speak to someone professionally?"
+    options:
+      - "Let me talk to John"
+      - "Is John there?"
+      - "May I please speak with Mr. Johnson?"
+      - "I need to talk to John now"
+    answer: "May I please speak with Mr. Johnson?"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "What should you say when you can't hear the other person clearly?"
+    options:
+      - "What? I can't hear you!"
+      - "You're too quiet. Speak up!"
+      - "I'm sorry, you're breaking up. Could you please repeat that?"
+      - "This line is bad. Call me back."
+    answer: "I'm sorry, you're breaking up. Could you please repeat that?"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (6-10)
+  - id: 6
+    type: fill_blank
+    question: "Complete the phone greeting"
+    text_with_blank: "Good morning, you've reached the office of David Kim. How ___ I help you?"
+    options: ["can", "may", "should", "would"]
+    correct_answer: "may"
+    xp_reward: 15
+
+  - id: 7
+    type: fill_blank
+    question: "Complete the message-taking phrase"
+    text_with_blank: "I'm sorry, she's unavailable at the moment. May I ___ a message?"
+    options: ["take", "get", "leave", "give"]
+    correct_answer: "take"
+    xp_reward: 15
+
+  - id: 8
+    type: fill_blank
+    question: "Complete the request to be transferred"
+    text_with_blank: "Could you please ___ me to the billing department?"
+    options: ["send", "transfer", "connect", "forward"]
+    correct_answer: "transfer"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the call ending phrase"
+    text_with_blank: "Thank you for your call. Have a ___ day."
+    options: ["good", "great", "nice", "pleasant"]
+    correct_answer: "pleasant"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the call-back promise"
+    text_with_blank: "I'll have Mr. Johnson ___ your call as soon as possible."
+    options: ["return", "call", "answer", "respond"]
+    correct_answer: "return"
+    xp_reward: 15
+
+  # TRUE / FALSE (11-13)
+  - id: 11
+    type: true_false
+    question: "Is this statement true or false? Eating or chewing gum during a business phone call is acceptable."
+    statement: "Eating or chewing gum during a business phone call is acceptable."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 12
+    type: true_false
+    question: "Is this statement true or false? You should always state your name and company when making a business call."
+    statement: "You should always state your name and company when making a business call."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? Using speakerphone without telling the other person is considered rude."
+    statement: "Using speakerphone without telling the other person is considered rude."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (14-16)
+  - id: 14
+    type: matching
+    question: "Match the phone phrase with its meaning"
+    pairs:
+      - left: "Could you please hold?"
+        right: "Please wait on the line"
+      - left: "I'll put you through"
+        right: "I'll connect you"
+      - left: "May I ask who's calling?"
+        right: "Please identify yourself"
+      - left: "I'm afraid the line is busy"
+        right: "The person is on another call"
+      - left: "Can I call you back?"
+        right: "I will return your call later"
+    xp_reward: 25
+
+  - id: 15
+    type: matching
+    question: "Match the phone problem with the appropriate response"
+    pairs:
+      - left: "Can't hear the other person"
+        right: "I'm sorry, you're breaking up"
+      - left: "Person is not available"
+        right: "May I take a message?"
+      - left: "Wrong number"
+        right: "I'm sorry, you have the wrong number"
+      - left: "Need to end the call"
+        right: "Thank you for your time. Goodbye."
+      - left: "Call dropped"
+        right: "I'll call you right back"
+    xp_reward: 25
+
+  - id: 16
+    type: matching
+    question: "Match the message-taking information"
+    pairs:
+      - left: "Caller's name"
+        right: "May I ask who's calling?"
+      - left: "Caller's phone number"
+        right: "What's the best number to reach you?"
+      - left: "Reason for call"
+        right: "What is this regarding?"
+      - left: "Return call time"
+        right: "When is a good time to return your call?"
+      - left: "Urgency level"
+        right: "Is this urgent or can it wait?"
+    xp_reward: 25
+
+  # FLASHCARDS (17-20)
+  - id: 17
+    type: flashcards
+    question: "Flashcards: Phone Call Openings"
+    flashcards:
+      - front: "Hello, this is [Name] from [Company]"
+        back: "Standard professional phone greeting"
+      - front: "May I please speak with [Name]?"
+        back: "Polite way to ask for someone"
+      - front: "Is this a good time to talk?"
+        back: "Respects the other person's schedule"
+      - front: "I'm returning your call"
+        back: "Used when calling someone back"
+      - front: "Thank you for taking my call"
+        back: "Polite opening after someone answers"
+    xp_reward: 30
+
+  - id: 18
+    type: flashcards
+    question: "Flashcards: Phone Call Closings"
+    flashcards:
+      - front: "Thank you for your time"
+        back: "Polite way to end a call"
+      - front: "Have a pleasant day"
+        back: "Professional closing"
+      - front: "I look forward to hearing from you"
+        back: "When expecting a follow-up"
+      - front: "Please don't hesitate to call again"
+        back: "Inviting future contact"
+      - front: "I'll send that information right away"
+        back: "Confirming follow-up action"
+    xp_reward: 30
+
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Taking Messages"
+    flashcards:
+      - front: "May I take a message?"
+        back: "Offer when person is unavailable"
+      - front: "What is this regarding?"
+        back: "Ask for the reason of the call"
+      - front: "I'll make sure they get the message"
+        back: "Confirms message will be delivered"
+      - front: "Could you spell that for me?"
+        back: "To ensure correct spelling"
+      - front: "I'll have them call you back"
+        back: "Promise of return call"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Handling Difficult Calls"
+    flashcards:
+      - front: "I understand your frustration"
+        back: "Acknowledges an angry caller's feelings"
+      - front: "Let me look into that for you"
+        back: "Takes responsibility to find answers"
+      - front: "I apologize for the inconvenience"
+        back: "Professional apology"
+      - front: "Let me transfer you to someone who can help"
+        back: "Directs caller to right person"
+      - front: "I will personally ensure this is resolved"
+        back: "Shows commitment to solving the problem"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: VIDEO CALLS (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-25)
+  - id: 21
+    type: multiple_choice
+    question: "What should you do before joining a video call?"
+    options:
+      - "Start eating lunch"
+      - "Check your camera angle, lighting, and background"
+      - "Turn off your computer"
+      - "Put on headphones and ignore the call"
+    answer: "Check your camera angle, lighting, and background"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "When should you mute your microphone on a video call?"
+    options:
+      - "Never"
+      - "Only when you are speaking"
+      - "When you are not speaking to avoid background noise"
+      - "Only at the beginning of the call"
+    answer: "When you are not speaking to avoid background noise"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What does it mean to 'share your screen'?"
+    options:
+      - "Show a picture of your desk"
+      - "Allow others to see your computer screen"
+      - "Turn off your camera"
+      - "Send a photo to everyone"
+    answer: "Allow others to see your computer screen"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "If your video freezes during a call, what should you do?"
+    options:
+      - "Yell at your computer"
+      - "Ignore it and keep talking"
+      - "Say 'I think my video has frozen. Can you still hear me?'"
+      - "Hang up immediately"
+    answer: "Say 'I think my video has frozen. Can you still hear me?'"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "What is appropriate video call attire?"
+    options:
+      - "Pajamas"
+      - "Workout clothes"
+      - "Professional or business casual attire"
+      - "Swimwear"
+    answer: "Professional or business casual attire"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (26-30)
+  - id: 26
+    type: fill_blank
+    question: "Complete the video call opening"
+    text_with_blank: "Can everyone ___ me clearly?"
+    options: ["see", "hear", "view", "watch"]
+    correct_answer: "see"
+    xp_reward: 15
+
+  - id: 27
+    type: fill_blank
+    question: "Complete the audio check question"
+    text_with_blank: "You are ___ on mute. Could you please unmute yourself?"
+    options: ["still", "yet", "already", "currently"]
+    correct_answer: "still"
+    xp_reward: 15
+
+  - id: 28
+    type: fill_blank
+    question: "Complete the screen sharing request"
+    text_with_blank: "Could you please ___ your screen so we can see the presentation?"
+    options: ["share", "show", "display", "present"]
+    correct_answer: "share"
+    xp_reward: 15
+
+  - id: 29
+    type: fill_blank
+    question: "Complete the turn-taking phrase"
+    text_with_blank: "I'm sorry to interrupt, but may I ___ something?"
+    options: ["say", "add", "speak", "tell"]
+    correct_answer: "add"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the technical issue phrase"
+    text_with_blank: "I think we ___ connection. Can you still hear me?"
+    options: ["lost", "missed", "dropped", "failed"]
+    correct_answer: "lost"
+    xp_reward: 15
+
+  # TRUE / FALSE (31-33)
+  - id: 31
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to multitask on other work during a video call."
+    statement: "It is acceptable to multitask on other work during a video call."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 32
+    type: true_false
+    question: "Is this statement true or false? Looking at the camera helps simulate eye contact on video calls."
+    statement: "Looking at the camera helps simulate eye contact on video calls."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 33
+    type: true_false
+    question: "Is this statement true or false? You should always introduce yourself at the start of a video call, even with regular team members."
+    statement: "You should always introduce yourself at the start of a video call, even with regular team members."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (34-36)
+  - id: 34
+    type: matching
+    question: "Match the video call feature with its use"
+    pairs:
+      - left: "Mute"
+        right: "Turns off your microphone"
+      - left: "Share screen"
+        right: "Shows your computer display to others"
+      - left: "Chat"
+        right: "Send text messages during the call"
+      - left: "Raise hand"
+        right: "Signal that you want to speak"
+      - left: "Record"
+        right: "Saves the meeting for later viewing"
+    xp_reward: 25
+
+  - id: 35
+    type: matching
+    question: "Match the technical problem with the solution"
+    pairs:
+      - left: "No one can hear you"
+        right: "Check if you are on mute"
+      - left: "Video is blurry"
+        right: "Check your internet connection"
+      - left: "Echo on the line"
+        right: "Use headphones or lower speaker volume"
+      - left: "Can't share screen"
+        right: "Check your settings or ask host for permission"
+      - left: "Call keeps dropping"
+        right: "Switch to phone audio"
+    xp_reward: 25
+
+  - id: 36
+    type: matching
+    question: "Match the video call phrase with the situation"
+    pairs:
+      - left: "You're breaking up"
+        right: "Audio is cutting in and out"
+      - left: "Can everyone see my screen?"
+        right: "After starting screen share"
+      - left: "I'll type that in the chat"
+        right: "Sharing a link or information"
+      - left: "Let me go off camera for a moment"
+        right: "Need to step away briefly"
+      - left: "I'll send a recap after the meeting"
+        right: "Summary of decisions and action items"
+    xp_reward: 25
+
+  # FLASHCARDS (37-40)
+  - id: 37
+    type: flashcards
+    question: "Flashcards: Video Call Etiquette"
+    flashcards:
+      - front: "Mute when not speaking"
+        back: "Prevents background noise"
+      - front: "Look at the camera"
+        back: "Simulates eye contact"
+      - front: "Use a professional background"
+        back: "Avoids distractions"
+      - front: "Dress professionally"
+        back: "From head to toe, in case you stand up"
+      - front: "Join on time"
+        back: "Respects everyone's schedule"
+    xp_reward: 30
+
+  - id: 38
+    type: flashcards
+    question: "Flashcards: Video Call Openings"
+    flashcards:
+      - front: "Can everyone hear me?"
+        back: "Audio check at start"
+      - front: "Let's wait a moment for latecomers"
+        back: "Polite acknowledgment of others"
+      - front: "I'll share my screen now"
+        back: "Announce before sharing"
+      - front: "Let's go around and introduce ourselves"
+        back: "For calls with new participants"
+      - front: "Please state your name before speaking"
+        back: "Helpful for large calls"
+    xp_reward: 30
+
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Managing Interruptions"
+    flashcards:
+      - front: "May I jump in here?"
+        back: "Polite way to interrupt"
+      - front: "Let me finish this point first"
+        back: "Politely decline interruption"
+      - front: "We're getting off topic"
+        back: "Redirect the conversation"
+      - front: "Let's take that offline"
+        back: "Discuss later, not in this meeting"
+      - front: "I'll let [Name] finish"
+        back: "Defers to the current speaker"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Ending Video Calls"
+    flashcards:
+      - front: "Any final questions before we wrap up?"
+        back: "Gives opportunity for last input"
+      - front: "Let me summarize the action items"
+        back: "Reviews next steps"
+      - front: "Thank you everyone for your time"
+        back: "Polite closing"
+      - front: "I'll send out the meeting notes"
+        back: "Follow-up commitment"
+      - front: "Have a productive rest of your day"
+        back: "Farewell wish"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: GIVING & RECEIVING INFORMATION (41-60)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-45)
+  - id: 41
+    type: multiple_choice
+    question: "Which phrase best introduces important information?"
+    options:
+      - "Listen up, this is important"
+      - "I'd like to bring to your attention that..."
+      - "Hey, check this out"
+      - "You need to know this"
+    answer: "I'd like to bring to your attention that..."
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "How should you acknowledge receiving information from a colleague?"
+    options:
+      - "Okay, whatever"
+      - "Got it, thanks for letting me know"
+      - "I already knew that"
+      - "So what?"
+    answer: "Got it, thanks for letting me know"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "What does it mean to 'keep someone in the loop'?"
+    options:
+      - "Ignore them completely"
+      - "Update them regularly on progress"
+      - "Keep them physically inside a circle"
+      - "Stop sharing information with them"
+    answer: "Update them regularly on progress"
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "Which phrase confirms you have understood the information?"
+    options:
+      - "I have no idea what you're saying"
+      - "Just to confirm, you're saying that..."
+      - "That doesn't make sense"
+      - "Whatever you say"
+    answer: "Just to confirm, you're saying that..."
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "How do you politely ask someone to repeat information?"
+    options:
+      - "What? Say it again"
+      - "Huh?"
+      - "Could you please repeat that? I didn't quite catch it."
+      - "Again, please"
+    answer: "Could you please repeat that? I didn't quite catch it."
+    xp_reward: 15
+
+  # FILL IN THE BLANK (46-50)
+  - id: 46
+    type: fill_blank
+    question: "Complete the information-sharing phrase"
+    text_with_blank: "I'd like to bring to your ___ that the deadline has changed."
+    options: ["attention", "notice", "awareness", "knowledge"]
+    correct_answer: "attention"
+    xp_reward: 15
+
+  - id: 47
+    type: fill_blank
+    question: "Complete the confirmation phrase"
+    text_with_blank: "Just to ___ , the meeting is at 2 PM tomorrow."
+    options: ["confirm", "check", "verify", "ensure"]
+    correct_answer: "confirm"
+    xp_reward: 15
+
+  - id: 48
+    type: fill_blank
+    question: "Complete the update phrase"
+    text_with_blank: "I'm writing to ___ you on the project status."
+    options: ["update", "inform", "notify", "tell"]
+    correct_answer: "update"
+    xp_reward: 15
+
+  - id: 49
+    type: fill_blank
+    question: "Complete the acknowledgment phrase"
+    text_with_blank: "Thanks for keeping me in the ___ ."
+    options: ["loop", "circle", "group", "know"]
+    correct_answer: "loop"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the request for clarification"
+    text_with_blank: "Could you please ___ on that point? I want to make sure I understand."
+    options: ["elaborate", "explain", "expand", "detail"]
+    correct_answer: "elaborate"
+    xp_reward: 15
+
+  # TRUE / FALSE (51-53)
+  - id: 51
+    type: true_false
+    question: "Is this statement true or false? You should always acknowledge when you receive information, even with a simple 'Got it, thanks'."
+    statement: "You should always acknowledge when you receive information, even with a simple 'Got it, thanks'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 52
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to assume someone knows information without telling them directly."
+    statement: "It is acceptable to assume someone knows information without telling them directly."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 53
+    type: true_false
+    question: "Is this statement true or false? Summarizing what you heard helps ensure you understood correctly."
+    statement: "Summarizing what you heard helps ensure you understood correctly."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (54-56)
+  - id: 54
+    type: matching
+    question: "Match the information-giving phrase with its purpose"
+    pairs:
+      - left: "I'd like to inform you that..."
+        right: "Formal announcement"
+      - left: "Just so you know..."
+        right: "Casual information sharing"
+      - left: "Please be advised that..."
+        right: "Formal warning or notice"
+      - left: "For your information..."
+        right: "Sharing without requiring action"
+      - left: "I wanted to let you know that..."
+        right: "Polite heads-up"
+    xp_reward: 25
+
+  - id: 55
+    type: matching
+    question: "Match the acknowledgment phrase with its meaning"
+    pairs:
+      - left: "Noted"
+        right: "I have received and understood"
+      - left: "Copy that"
+        right: "I understand and will comply"
+      - left: "Duly noted"
+        right: "Formal acknowledgment"
+      - left: "Message received"
+        right: "Confirmation of understanding"
+      - left: "I'm on it"
+        right: "I will take action"
+    xp_reward: 25
+
+  - id: 56
+    type: matching
+    question: "Match the information quality with its description"
+    pairs:
+      - left: "Accurate"
+        right: "Information is correct and error-free"
+      - left: "Relevant"
+        right: "Information relates to the topic"
+      - left: "Timely"
+        right: "Information is shared at the right time"
+      - left: "Complete"
+        right: "Information includes all necessary details"
+      - left: "Clear"
+        right: "Information is easy to understand"
+    xp_reward: 25
+
+  # FLASHCARDS (57-60)
+  - id: 57
+    type: flashcards
+    question: "Flashcards: Giving Information"
+    flashcards:
+      - front: "I'd like to bring to your attention"
+        back: "Introduce important information"
+      - front: "Please be aware that"
+        back: "Formal notification"
+      - front: "This is just a quick heads-up"
+        back: "Casual advance notice"
+      - front: "For your reference"
+        back: "When sharing documents or resources"
+      - front: "As a reminder"
+        back: "When repeating previously shared information"
+    xp_reward: 30
+
+  - id: 58
+    type: flashcards
+    question: "Flashcards: Receiving Information"
+    flashcards:
+      - front: "Thanks for letting me know"
+        back: "Standard acknowledgment"
+      - front: "I appreciate the update"
+        back: "Shows gratitude for information"
+      - front: "Good to know"
+        back: "Acknowledges useful information"
+      - front: "I'll make a note of that"
+        back: "Shows you will remember"
+      - front: "Please keep me posted"
+        back: "Request future updates"
+    xp_reward: 30
+
+  - id: 59
+    type: flashcards
+    question: "Flashcards: Confirming Understanding"
+    flashcards:
+      - front: "Just to confirm"
+        back: "Check understanding before proceeding"
+      - front: "Let me make sure I understand"
+        back: "Polite way to verify"
+      - front: "So what you're saying is"
+        back: "Paraphrasing to confirm"
+      - front: "If I understand correctly"
+        back: "Humble confirmation"
+      - front: "Let me summarize"
+        back: "Review key points"
+    xp_reward: 30
+
+  - id: 60
+    type: flashcards
+    question: "Flashcards: Information Channels"
+    flashcards:
+      - front: "Email"
+        back: "For formal, documented information"
+      - front: "Instant message"
+        back: "For quick, informal updates"
+      - front: "Phone call"
+        back: "For urgent or complex information"
+      - front: "Meeting"
+        back: "For collaborative discussion"
+      - front: "Memo"
+        back: "For company-wide announcements"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: ASKING QUESTIONS PROFESSIONALLY (61-80)
+  # ============================================
+
+  # MULTIPLE CHOICE (61-65)
+  - id: 61
+    type: multiple_choice
+    question: "Which is the most professional way to ask a question?"
+    options:
+      - "Hey, what's this?"
+      - "Could you please clarify what you mean by that?"
+      - "I don't get it"
+      - "Explain this to me"
+    answer: "Could you please clarify what you mean by that?"
+    xp_reward: 15
+
+  - id: 62
+    type: multiple_choice
+    question: "How do you politely ask for more time to answer a question?"
+    options:
+      - "I don't know"
+      - "Give me a minute"
+      - "That's a great question. Let me think about that for a moment."
+      - "Next question please"
+    answer: "That's a great question. Let me think about that for a moment."
+    xp_reward: 15
+
+  - id: 63
+    type: multiple_choice
+    question: "What is a 'leading question'?"
+    options:
+      - "A question that walks ahead of you"
+      - "A question that suggests a particular answer"
+      - "A question that has no answer"
+      - "A question that is too long"
+    answer: "A question that suggests a particular answer"
+    xp_reward: 15
+
+  - id: 64
+    type: multiple_choice
+    question: "How do you ask for an example professionally?"
+    options:
+      - "Give me an example"
+      - "Show me what you mean"
+      - "Could you provide an example to illustrate that?"
+      - "Example, please"
+    answer: "Could you provide an example to illustrate that?"
+    xp_reward: 15
+
+  - id: 65
+    type: multiple_choice
+    question: "What should you say before asking a question in a large meeting?"
+    options:
+      - "I have a question"
+      - "Excuse me, I have a quick question"
+      - "Question!"
+      - "Hey, listen"
+    answer: "Excuse me, I have a quick question"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (66-70)
+  - id: 66
+    type: fill_blank
+    question: "Complete the polite question introduction"
+    text_with_blank: "Excuse me, I have a quick ___ about the timeline."
+    options: ["question", "inquiry", "query", "doubt"]
+    correct_answer: "question"
+    xp_reward: 15
+
+  - id: 67
+    type: fill_blank
+    question: "Complete the request for clarification"
+    text_with_blank: "Could you please ___ what you mean by 'Q4 targets'?"
+    options: ["explain", "clarify", "describe", "define"]
+    correct_answer: "clarify"
+    xp_reward: 15
+
+  - id: 68
+    type: fill_blank
+    question: "Complete the polite interruption for a question"
+    text_with_blank: "Sorry to ___ , but may I ask a question?"
+    options: ["interrupt", "bother", "disturb", "trouble"]
+    correct_answer: "interrupt"
+    xp_reward: 15
+
+  - id: 69
+    type: fill_blank
+    question: "Complete the follow-up question"
+    text_with_blank: "Building on that point, I have a ___ question."
+    options: ["follow-up", "related", "similar", "next"]
+    correct_answer: "follow-up"
+    xp_reward: 15
+
+  - id: 70
+    type: fill_blank
+    question: "Complete the question about unfamiliar terminology"
+    text_with_blank: "Could you please ___ that term? I'm not familiar with it."
+    options: ["define", "explain", "describe", "clarify"]
+    correct_answer: "define"
+    xp_reward: 15
+
+  # TRUE / FALSE (71-73)
+  - id: 71
+    type: true_false
+    question: "Is this statement true or false? Asking questions shows engagement and interest."
+    statement: "Asking questions shows engagement and interest."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 72
+    type: true_false
+    question: "Is this statement true or false? You should never ask a question in a meeting because it shows weakness."
+    statement: "You should never ask a question in a meeting because it shows weakness."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 73
+    type: true_false
+    question: "Is this statement true or false? It is better to ask a clarifying question than to make a wrong assumption."
+    statement: "It is better to ask a clarifying question than to make a wrong assumption."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (74-76)
+  - id: 74
+    type: matching
+    question: "Match the question type with its purpose"
+    pairs:
+      - left: "Closed question"
+        right: "Yes/no answer - for confirmation"
+      - left: "Open-ended question"
+        right: "Detailed explanation - for exploration"
+      - left: "Clarifying question"
+        right: "To ensure understanding"
+      - left: "Probing question"
+        right: "To dig deeper into a topic"
+      - left: "Hypothetical question"
+        right: "To explore possibilities"
+    xp_reward: 25
+
+  - id: 75
+    type: matching
+    question: "Match the question phrase with its formality level"
+    pairs:
+      - left: "Could you please..."
+        right: "Formal"
+      - left: "Would you mind..."
+        right: "Polite formal"
+      - left: "Can you..."
+        right: "Neutral professional"
+      - left: "Do you know..."
+        right: "Casual professional"
+      - left: "Any thoughts on...?"
+        right: "Informal"
+    xp_reward: 25
+
+  - id: 76
+    type: matching
+    question: "Match the question situation with the best approach"
+    pairs:
+      - left: "You didn't hear something"
+        right: "Could you please repeat that?"
+      - left: "You need an example"
+        right: "Could you provide an example?"
+      - left: "You need more detail"
+        right: "Could you elaborate on that?"
+      - left: "You disagree respectfully"
+        right: "Have you considered an alternative approach?"
+      - left: "You need to confirm"
+        right: "Just to confirm, is that correct?"
+    xp_reward: 25
+
+  # FLASHCARDS (77-80)
+  - id: 77
+    type: flashcards
+    question: "Flashcards: Asking for Clarification"
+    flashcards:
+      - front: "Could you please clarify?"
+        back: "Ask for clearer explanation"
+      - front: "What do you mean by that?"
+        back: "Ask for meaning"
+      - front: "Could you rephrase that?"
+        back: "Ask for different wording"
+      - front: "Could you break that down for me?"
+        back: "Ask for step-by-step explanation"
+      - front: "I want to make sure I understand"
+        back: "Polite preface to confirmation"
+    xp_reward: 30
+
+  - id: 78
+    type: flashcards
+    question: "Flashcards: Asking for Opinions"
+    flashcards:
+      - front: "What are your thoughts on this?"
+        back: "Ask for opinion"
+      - front: "How do you see this playing out?"
+        back: "Ask for prediction"
+      - front: "What would you recommend?"
+        back: "Ask for advice"
+      - front: "Do you have any concerns about this approach?"
+        back: "Ask for objections"
+      - front: "What's your perspective on this matter?"
+        back: "Formal opinion request"
+    xp_reward: 30
+
+  - id: 79
+    type: flashcards
+    question: "Flashcards: Asking for Help"
+    flashcards:
+      - front: "Could you please assist me with this?"
+        back: "Polite help request"
+      - front: "I could use your expertise on something"
+        back: "Respectful help request"
+      - front: "Would you have time to look at this?"
+        back: "Respectful of other's schedule"
+      - front: "Could you point me in the right direction?"
+        back: "Ask for guidance"
+      - front: "I'd appreciate your input on this"
+        back: "Polite request for opinion"
+    xp_reward: 30
+
+  - id: 80
+    type: flashcards
+    question: "Flashcards: Responding to Questions"
+    flashcards:
+      - front: "That's an excellent question"
+        back: "Positive acknowledgment"
+      - front: "Let me find out and get back to you"
+        back: "When you don't know the answer"
+      - front: "I appreciate you asking that"
+        back: "Gratitude for the question"
+      - front: "To answer your question"
+        back: "Transition to your response"
+      - front: "Does that answer your question?"
+        back: "Check if response was sufficient"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: GIVING INSTRUCTIONS (81-100)
+  # ============================================
+
+  # MULTIPLE CHOICE (81-85)
+  - id: 81
+    type: multiple_choice
+    question: "Which is the most professional way to give an instruction?"
+    options:
+      - "Do this now!"
+      - "Could you please complete this report by Friday?"
+      - "You need to do this"
+      - "This is your job, do it"
+    answer: "Could you please complete this report by Friday?"
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "How should you confirm someone understood your instructions?"
+    options:
+      - "Did you get that?"
+      - "Do you understand?"
+      - "Could you please summarize the next steps?"
+      - "Got it?"
+    answer: "Could you please summarize the next steps?"
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "What should you include when giving instructions?"
+    options:
+      - "Only the task name"
+      - "Task, deadline, priority, and expected outcome"
+      - "Only the deadline"
+      - "Only who should do it"
+    answer: "Task, deadline, priority, and expected outcome"
+    xp_reward: 15
+
+  - id: 84
+    type: multiple_choice
+    question: "What does 'actionable' mean in instruction-giving?"
+    options:
+      - "The instruction can be acted upon clearly"
+      - "The instruction is a movie about action"
+      - "The instruction is very long"
+      - "The instruction is optional"
+    answer: "The instruction can be acted upon clearly"
+    xp_reward: 15
+
+  - id: 85
+    type: multiple_choice
+    question: "How do you politely delegate a task?"
+    options:
+      - "You're doing this"
+      - "This is your problem now"
+      - "Would you be able to handle this task? I think it's a good fit for your skills."
+      - "Someone needs to do this, and it's not me"
+    answer: "Would you be able to handle this task? I think it's a good fit for your skills."
+    xp_reward: 15
+
+  # FILL IN THE BLANK (86-90)
+  - id: 86
+    type: fill_blank
+    question: "Complete the polite instruction"
+    text_with_blank: "Could you please ___ the report by Friday?"
+    options: ["complete", "finish", "do", "make"]
+    correct_answer: "complete"
+    xp_reward: 15
+
+  - id: 87
+    type: fill_blank
+    question: "Complete the instruction with deadline"
+    text_with_blank: "Please have this ready ___ the end of day."
+    options: ["by", "at", "on", "for"]
+    correct_answer: "by"
+    xp_reward: 15
+
+  - id: 88
+    type: fill_blank
+    question: "Complete the check for understanding"
+    text_with_blank: "Does that make ___? Please let me know if anything is unclear."
+    options: ["sense", "understanding", "clarity", "point"]
+    correct_answer: "sense"
+    xp_reward: 15
+
+  - id: 89
+    type: fill_blank
+    question: "Complete the instruction about priority"
+    text_with_blank: "This task is high ___ . Please prioritize it."
+    options: ["priority", "importance", "urgency", "value"]
+    correct_answer: "priority"
+    xp_reward: 15
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the follow-up instruction"
+    text_with_blank: "Once you finish, please ___ it to me for review."
+    options: ["send", "forward", "submit", "give"]
+    correct_answer: "submit"
+    xp_reward: 15
+
+  # TRUE / FALSE (91-93)
+  - id: 91
+    type: true_false
+    question: "Is this statement true or false? Vague instructions are acceptable because people should figure it out."
+    statement: "Vague instructions are acceptable because people should figure it out."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 92
+    type: true_false
+    question: "Is this statement true or false? You should always provide a deadline when giving instructions."
+    statement: "You should always provide a deadline when giving instructions."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 93
+    type: true_false
+    question: "Is this statement true or false? Using 'please' and 'thank you' makes instructions more professional."
+    statement: "Using 'please' and 'thank you' makes instructions more professional."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (94-96)
+  - id: 94
+    type: matching
+    question: "Match the instruction element with its description"
+    pairs:
+      - left: "Action verb"
+        right: "What to do (complete, send, review)"
+      - left: "Deadline"
+        right: "When to do it (by Friday, EOD)"
+      - left: "Priority"
+        right: "How important (high, medium, low)"
+      - left: "Outcome"
+        right: "What success looks like"
+      - left: "Resources"
+        right: "What tools or help are available"
+    xp_reward: 25
+
+  - id: 95
+    type: matching
+    question: "Match the instruction level with the phrasing"
+    pairs:
+      - left: "Strong instruction (urgent)"
+        right: "This needs to be completed by noon today"
+      - left: "Standard instruction"
+        right: "Could you please complete this by Friday?"
+      - left: "Delegation"
+        right: "Would you be able to take this on?"
+      - left: "Request for help"
+        right: "Could you assist me with this task?"
+      - left: "Reminder"
+        right: "Just a quick reminder about the deadline"
+    xp_reward: 25
+
+  - id: 96
+    type: matching
+    question: "Match the instruction verb with its meaning"
+    pairs:
+      - left: "Complete"
+        right: "Finish the entire task"
+      - left: "Review"
+        right: "Check for accuracy and quality"
+      - left: "Draft"
+        right: "Create a preliminary version"
+      - left: "Submit"
+        right: "Hand in for approval"
+      - left: "Coordinate"
+        right: "Organize with others"
+    xp_reward: 25
+
+  # FLASHCARDS (97-100)
+  - id: 97
+    type: flashcards
+    question: "Flashcards: Giving Clear Instructions"
+    flashcards:
+      - front: "Use action verbs"
+        back: "Start with what you want done"
+      - front: "Specify the deadline"
+        back: "Always say when it's needed"
+      - front: "Explain why"
+        back: "Context helps with buy-in"
+      - front: "Provide examples"
+        back: "Shows what success looks like"
+      - front: "Confirm understanding"
+        back: "Ask them to summarize back"
+    xp_reward: 30
+
+  - id: 98
+    type: flashcards
+    question: "Flashcards: Instruction Phrases"
+    flashcards:
+      - front: "Could you please..."
+        back: "Polite instruction starter"
+      - front: "I'd like you to..."
+        back: "Direct but professional"
+      - front: "Please make sure to..."
+        back: "Reminder instruction"
+      - front: "It would be helpful if you could..."
+        back: "Soft instruction"
+      - front: "As discussed, please..."
+        back: "Follow-up on conversation"
+    xp_reward: 30
+
+  - id: 99
+    type: flashcards
+    question: "Flashcards: Confirming Instruction Understanding"
+    flashcards:
+      - front: "Does that make sense?"
+        back: "Check general understanding"
+      - front: "Any questions about this?"
+        back: "Invite clarification"
+      - front: "Could you walk me through your approach?"
+        back: "Deeper understanding check"
+      - front: "What's your timeline for this?"
+        back: "Check deadline understanding"
+      - front: "Let me know if you hit any roadblocks"
+        back: "Open communication invitation"
+    xp_reward: 30
+
+  - id: 100
+    type: flashcards
+    question: "Flashcards: Following Up on Instructions"
+    flashcards:
+      - front: "Just checking in on your progress"
+        back: "Polite status update request"
+      - front: "Do you need any additional resources?"
+        back: "Offer support"
+      - front: "Thanks for your work on this"
+        back: "Positive reinforcement"
+      - front: "Let me know when you've completed this"
+        back: "Request notification"
+      - front: "I'm available if you have questions"
+        back: "Open door for help"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: HANDLING REQUESTS (101-115)
+  # ============================================
+
+  # MULTIPLE CHOICE (101-105)
+  - id: 101
+    type: multiple_choice
+    question: "What is the best response when you cannot fulfill a request?"
+    options:
+      - "No, I can't do it"
+      - "That's impossible"
+      - "I'm afraid I won't be able to do that, but here's what I can do instead."
+      - "Ask someone else"
+    answer: "I'm afraid I won't be able to do that, but here's what I can do instead."
+    xp_reward: 15
+
+  - id: 102
+    type: multiple_choice
+    question: "How do you politely decline a request?"
+    options:
+      - "No way"
+      - "Unfortunately, I'm at capacity right now. Could we revisit this next week?"
+      - "I'm too busy"
+      - "Not my problem"
+    answer: "Unfortunately, I'm at capacity right now. Could we revisit this next week?"
+    xp_reward: 15
+
+  - id: 103
+    type: multiple_choice
+    question: "What does it mean to 'escalate' a request?"
+    options:
+      - "Ignore the request"
+      - "Send the request to a higher authority"
+      - "Delete the request"
+      - "Complete the request faster"
+    answer: "Send the request to a higher authority"
+    xp_reward: 15
+
+  - id: 104
+    type: multiple_choice
+    question: "How do you acknowledge a request you need time to complete?"
+    options:
+      - "I'll get to it whenever"
+      - "I've received your request and will provide an update by end of day"
+      - "Stop asking me"
+      - "Maybe later"
+    answer: "I've received your request and will provide an update by end of day"
+    xp_reward: 15
+
+  - id: 105
+    type: multiple_choice
+    question: "What is a reasonable turnaround time for acknowledging most work requests?"
+    options:
+      - "One month"
+      - "Within 24-48 business hours"
+      - "Never"
+      - "Only when reminded"
+    answer: "Within 24-48 business hours"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (106-110)
+  - id: 106
+    type: fill_blank
+    question: "Complete the request acknowledgment"
+    text_with_blank: "Thank you for your request. I'll ___ to it as soon as possible."
+    options: ["attend", "tend", "respond", "handle"]
+    correct_answer: "attend"
+    xp_reward: 15
+
+  - id: 107
+    type: fill_blank
+    question: "Complete the polite decline"
+    text_with_blank: "Unfortunately, I'm at ___ right now. Could we revisit this next week?"
+    options: ["capacity", "limit", "maximum", "full"]
+    correct_answer: "capacity"
+    xp_reward: 15
+
+  - id: 108
+    type: fill_blank
+    question: "Complete the request redirection"
+    text_with_blank: "I'm not the right person for this. Let me ___ you to someone who can help."
+    options: ["direct", "send", "transfer", "point"]
+    correct_answer: "direct"
+    xp_reward: 15
+
+  - id: 109
+    type: fill_blank
+    question: "Complete the request for more information"
+    text_with_blank: "Could you please provide more ___ about what you need?"
+    options: ["details", "info", "specifics", "clarity"]
+    correct_answer: "details"
+    xp_reward: 15
+
+  - id: 110
+    type: fill_blank
+    question: "Complete the request confirmation"
+    text_with_blank: "I've received your request and will have an answer for you by ___ of business."
+    options: ["close", "end", "finish", "completion"]
+    correct_answer: "close"
+    xp_reward: 15
+
+  # TRUE / FALSE (111-113)
+  - id: 111
+    type: true_false
+    question: "Is this statement true or false? Ignoring a request is better than saying no."
+    statement: "Ignoring a request is better than saying no."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 112
+    type: true_false
+    question: "Is this statement true or false? You should always acknowledge a request even if you cannot fulfill it immediately."
+    statement: "You should always acknowledge a request even if you cannot fulfill it immediately."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Is this statement true or false? Providing an alternative when you say no is professional."
+    statement: "Providing an alternative when you say no is professional."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (114-115)
+  - id: 114
+    type: matching
+    question: "Match the request response with the situation"
+    pairs:
+      - left: "Can you help with this urgent issue?"
+        right: "I'll prioritize this and get back to you shortly"
+      - left: "Can you take on one more project?"
+        right: "I'm at capacity, but I can help next week"
+      - left: "I need information about the Smith account"
+        right: "Let me gather that and send it to you"
+      - left: "This is outside your expertise"
+        right: "Let me refer you to the right person"
+      - left: "I need this by tomorrow"
+        right: "I'll do my best. Let me confirm by end of day"
+    xp_reward: 25
+
+  - id: 115
+    type: matching
+    question: "Match the request follow-up phrase"
+    pairs:
+      - left: "Just checking in"
+        right: "Politely ask for status"
+      - left: "Any update on this?"
+        right: "Request for progress"
+      - left: "I wanted to follow up"
+        right: "Reminder about outstanding request"
+      - left: "Please let me know if you need anything else"
+        right: "Offer additional help"
+      - left: "Thanks for your prompt attention to this"
+        right: "Appreciation for quick response"
+    xp_reward: 25
+
+  # ============================================
+  # SECTION 7: CLARIFYING MISUNDERSTANDINGS (116-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (116-120)
+  - id: 116
+    type: multiple_choice
+    question: "How do you politely point out a misunderstanding?"
+    options:
+      - "You're wrong"
+      - "That's not what I said"
+      - "I think there may have been a misunderstanding. What I meant was..."
+      - "You didn't listen"
+    answer: "I think there may have been a misunderstanding. What I meant was..."
+    xp_reward: 15
+
+  - id: 117
+    type: multiple_choice
+    question: "What should you say when you realize you misunderstood something?"
+    options:
+      - "My bad"
+      - "I apologize for the confusion. I misunderstood. Let me correct that."
+      - "Whatever"
+      - "Not my fault"
+    answer: "I apologize for the confusion. I misunderstood. Let me correct that."
+    xp_reward: 15
+
+  - id: 118
+    type: multiple_choice
+    question: "How do you check if you and a colleague are on the same page?"
+    options:
+      - "Are we good?"
+      - "Just to make sure we're aligned, here's my understanding..."
+      - "Do you agree with me?"
+      - "Are you following?"
+    answer: "Just to make sure we're aligned, here's my understanding..."
+    xp_reward: 15
+
+  - id: 119
+    type: multiple_choice
+    question: "What does it mean to 'loop back' on a misunderstanding?"
+    options:
+      - "Ignore it completely"
+      - "Return to the topic later to clarify"
+      - "Blame someone else"
+      - "Change the subject"
+    answer: "Return to the topic later to clarify"
+    xp_reward: 15
+
+  - id: 120
+    type: multiple_choice
+    question: "How do you apologize for your own mistake professionally?"
+    options:
+      - "It's not a big deal"
+      - "Everyone makes mistakes"
+      - "I take full responsibility for the error. Here's how I'll fix it."
+      - "It wasn't me"
+    answer: "I take full responsibility for the error. Here's how I'll fix it."
+    xp_reward: 15
+
+  # FILL IN THE BLANK (121-125)
+  - id: 121
+    type: fill_blank
+    question: "Complete the misunderstanding clarification"
+    text_with_blank: "I think there may have been a ___ . Let me clarify what I meant."
+    options: ["misunderstanding", "confusion", "mix-up", "error"]
+    correct_answer: "misunderstanding"
+    xp_reward: 15
+
+  - id: 122
+    type: fill_blank
+    question: "Complete the alignment check"
+    text_with_blank: "Let me make sure we're on the same ___ ."
+    options: ["page", "track", "path", "road"]
+    correct_answer: "page"
+    xp_reward: 15
+
+  - id: 123
+    type: fill_blank
+    question: "Complete the apology for confusion"
+    text_with_blank: "I apologize for any ___ this may have caused."
+    options: ["confusion", "trouble", "inconvenience", "difficulty"]
+    correct_answer: "confusion"
+    xp_reward: 15
+
+  - id: 124
+    type: fill_blank
+    question: "Complete the request to restart"
+    text_with_blank: "Let's ___ back and make sure we understand each other."
+    options: ["loop", "go", "come", "circle"]
+    correct_answer: "loop"
+    xp_reward: 15
+
+  - id: 125
+    type: fill_blank
+    question: "Complete the ownership statement"
+    text_with_blank: "I take full ___ for the error. I will correct it immediately."
+    options: ["responsibility", "blame", "accountability", "ownership"]
+    correct_answer: "responsibility"
+    xp_reward: 15
+
+  # TRUE / FALSE (126-128)
+  - id: 126
+    type: true_false
+    question: "Is this statement true or false? It is best to ignore misunderstandings and hope they go away."
+    statement: "It is best to ignore misunderstandings and hope they go away."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 127
+    type: true_false
+    question: "Is this statement true or false? Clarifying misunderstandings early prevents bigger problems later."
+    statement: "Clarifying misunderstandings early prevents bigger problems later."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 128
+    type: true_false
+    question: "Is this statement true or false? Blaming others is the best way to handle a misunderstanding."
+    statement: "Blaming others is the best way to handle a misunderstanding."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (129-130)
+  - id: 129
+    type: matching
+    question: "Match the clarifying phrase with its purpose"
+    pairs:
+      - left: "Let me rephrase that"
+        right: "Say something differently"
+      - left: "What I meant was"
+        right: "Correct a previous statement"
+      - left: "Let me give you an example"
+        right: "Illustrate with specifics"
+      - left: "In other words"
+        right: "Provide alternative wording"
+      - left: "To put it differently"
+        right: "Explain another way"
+    xp_reward: 25
+
+  - id: 130
+    type: matching
+    question: "Match the resolution phrase with its action"
+    pairs:
+      - left: "Let's agree on next steps"
+        right: "Create action plan"
+      - left: "Let me summarize our agreement"
+        right: "Confirm mutual understanding"
+      - left: "I'll send a confirmation email"
+        right: "Document in writing"
+      - left: "Let's schedule a follow-up"
+        right: "Revisit to ensure resolution"
+      - left: "I appreciate your patience"
+        right: "Acknowledge the other person"
+    xp_reward: 25

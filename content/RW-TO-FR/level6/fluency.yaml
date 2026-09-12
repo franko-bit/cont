@@ -1,0 +1,1133 @@
+lesson:
+  name: "Kuganira Neza"
+  description: "Learn phrases to help you speak French more fluently"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Fluency Words ONLY (Safe for single words)
+  # Vocabulary - Fluency Terms
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'Vuga' mu igifaransa?"
+    answer: "Parler"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'Vuga' mu igifaransa?"
+    answer: "Dire"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'Ganira' mu igifaransa?"
+    answer: "Discuter"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'Tega' mu igifaransa?"
+    answer: "Écouter"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'Sobanukirwa' mu igifaransa?"
+    answer: "Comprendre"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'Subiramo' mu igifaransa?"
+    answer: "Répéter"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'Vuga neza' mu igifaransa?"
+    answer: "Prononcer"
+    xp_reward: 15
+
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'Bucece' mu igifaransa?"
+    answer: "Lentement"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'Vuba' mu igifaransa?"
+    answer: "Vite"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'Neza kandi byihuse' mu igifaransa?"
+    answer: "Couramment"
+    xp_reward: 15
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'Ikiganiro' mu igifaransa?"
+    answer: "Conversation"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'Ikiganiro' mu igifaransa?"
+    answer: "Dialogue"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'Imvugo' mu igifaransa?"
+    answer: "Expression"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'Ikibazo' mu igifaransa?"
+    answer: "Question"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'Igisubizo' mu igifaransa?"
+    answer: "Réponse"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'Sobanura neza' mu igifaransa?"
+    answer: "Clarifier"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Imyitozo' mu igifaransa?"
+    answer: "Pratique"
+    xp_reward: 10
+
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Itumanaho' mu igifaransa?"
+    answer: "Communication"
+    xp_reward: 10
+
+  # Translation - Conversational Fluency Phrases
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Ushobora gusubiramo?' mu igifaransa?"
+    answer: "Pouvez-vous répéter ?"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Sinasobanukiwe' mu igifaransa?"
+    answer: "Je ne comprends pas"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Nyamuneka vuga bucece' mu igifaransa?"
+    answer: "S'il vous plaît, parlez lentement"
+    xp_reward: 18
+
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Ushobora gusobanura neza?' mu igifaransa?"
+    answer: "Pourriez-vous clarifier ?"
+    xp_reward: 18
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Ni gute wavuga... mu Kinyarwanda?' mu igifaransa?"
+    answer: "Comment dit-on... en Kinyarwanda ?"
+    xp_reward: 20
+
+  - id: 24
+    type: translation
+    question: "Wavuga ute 'Ngerageza kuvuga Ikinyarwanda' mu igifaransa?"
+    answer: "J'essaie de parler Kinyarwanda"
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "Wavuga ute 'Ushobora kunsana niba mpfubye?' mu igifaransa?"
+    answer: "Pouvez-vous me corriger si je me trompe ?"
+    xp_reward: 20
+
+  - id: 26
+    type: translation
+    question: "Wavuga ute 'Tuganire' mu igifaransa?"
+    answer: "Discutons"
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "Wavuga ute 'Ndashaka gukora imyitozo yo kuvuga' mu igifaransa?"
+    answer: "Je veux pratiquer la conversation"
+    xp_reward: 20
+
+  - id: 28
+    type: translation
+    question: "Wavuga ute 'Subiramo inyuma yanjye' mu igifaransa?"
+    answer: "Répétez après moi"
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "'Vuga' bisobanura iki mu igifaransa?"
+    options:
+      - "Écouter"
+      - "Parler"
+      - "Comprendre"
+      - "Répéter"
+    answer: "Parler"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Sobanukirwa' bisobanura iki mu igifaransa?"
+    options:
+      - "Répéter"
+      - "Comprendre"
+      - "Parler"
+      - "Écouter"
+    answer: "Comprendre"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Subiramo' bisobanura iki mu igifaransa?"
+    options:
+      - "Parler"
+      - "Écouter"
+      - "Répéter"
+      - "Pratiquer"
+    answer: "Répéter"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Bucece' bisobanura iki mu igifaransa?"
+    options:
+      - "Vite"
+      - "Lentement"
+      - "Couramment"
+      - "Clairement"
+    answer: "Lentement"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Sinasobanukiwe' bisobanura iki mu igifaransa?"
+    options:
+      - "Je comprends"
+      - "Je ne comprends pas"
+      - "S'il vous plaît répétez"
+      - "Parlez lentement"
+    answer: "Je ne comprends pas"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "'Ushobora gusubiramo?' bisobanura iki mu igifaransa?"
+    options:
+      - "Pouvez-vous parler lentement ?"
+      - "Pouvez-vous répéter ?"
+      - "Pouvez-vous clarifier ?"
+      - "Pouvez-vous me corriger ?"
+    answer: "Pouvez-vous répéter ?"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 35
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'ubuvanganzo mu igifaransa"
+    tts_text: "Vuga"
+    answer: "Parler"
+    translation: "Vuga"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'ubuvanganzo mu igifaransa"
+    tts_text: "Subiramo"
+    answer: "Répéter"
+    translation: "Subiramo"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'ubuvanganzo mu igifaransa"
+    tts_text: "Bucece"
+    answer: "Lentement"
+    translation: "Bucece"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Sinasobanukiwe"
+    answer: "Je ne comprends pas"
+    translation: "Sinasobanukiwe"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 42
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye mu igifaransa"
+    tts_text: "Vuga"
+    options:
+      - "Écouter"
+      - "Parler"
+      - "Répéter"
+    answer: "Parler"
+    xp_reward: 15
+
+  - id: 43
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye mu igifaransa"
+    tts_text: "Subiramo"
+    options:
+      - "Parler"
+      - "Comprendre"
+      - "Répéter"
+    answer: "Répéter"
+    xp_reward: 15
+
+  - id: 44
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye mu igifaransa"
+    tts_text: "Sinasobanukiwe"
+    options:
+      - "Je comprends"
+      - "Je ne comprends pas"
+      - "S'il vous plaît répétez"
+    answer: "Je ne comprends pas"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 47
+    type: speaking
+    question: "Vuga iri jambo ry'ubuvanganzo mu igifaransa"
+    prompt: "Vuga"
+    translation: "Parler"
+    xp_reward: 15
+
+  - id: 48
+    type: speaking
+    question: "Vuga iri jambo ry'ubuvanganzo mu igifaransa"
+    prompt: "Sobanukirwa"
+    translation: "Comprendre"
+    xp_reward: 15
+
+  - id: 49
+    type: speaking
+    question: "Vuga iri jambo ry'ubuvanganzo mu igifaransa"
+    prompt: "Subiramo"
+    translation: "Répéter"
+    xp_reward: 15
+
+  - id: 50
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Sinasobanukiwe"
+    translation: "Je ne comprends pas"
+    xp_reward: 18
+
+  - id: 51
+    type: speaking
+    question: "Vuga iki kibazo mu igifaransa"
+    prompt: "Ushobora gusubiramo"
+    translation: "Pouvez-vous répéter ?"
+    xp_reward: 18
+
+  - id: 52
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Nyamuneka vuga bucece"
+    translation: "S'il vous plaît, parlez lentement"
+    xp_reward: 20
+
+  - id: 53
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Ngerageza kuvuga Ikinyarwanda"
+    translation: "J'essaie de parler Kinyarwanda"
+    xp_reward: 20
+
+  - id: 54
+    type: speaking
+    question: "Vuga ubutumire mu igifaransa"
+    prompt: "Tuganire"
+    translation: "Discutons"
+    xp_reward: 15
+
+  # 6. Word Bank Sentence Building
+  - id: 55
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Sinasobanukiwe'"
+    word_bank: ["Je", "ne", "comprends", "pas", "pouvez", "vous", "répéter"]
+    correct_answer: ["Je", "ne", "comprends", "pas"]
+    xp_reward: 15
+
+  - id: 56
+    type: word_bank
+    question: "Ubaka ikibazo cy'igifaransa gisobanura 'Ushobora gusubiramo?'"
+    word_bank: ["Pouvez-vous", "répéter", "cela", "s'il", "vous", "plaît", "parler"]
+    correct_answer: ["Pouvez-vous", "répéter"]
+    xp_reward: 18
+
+  - id: 57
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Nyamuneka vuga bucece'"
+    word_bank: ["S'il", "vous", "plaît", "parlez", "lentement", "vite", "clairement"]
+    correct_answer: ["S'il", "vous", "plaît", "parlez", "lentement"]
+    xp_reward: 20
+
+  - id: 58
+    type: word_bank
+    question: "Ubaka ikibazo cy'igifaransa gisobanura 'Ushobora gusobanura neza?'"
+    word_bank: ["Pourriez-vous", "clarifier", "cela", "s'il", "vous", "plaît", "répéter"]
+    correct_answer: ["Pourriez-vous", "clarifier"]
+    xp_reward: 20
+
+  - id: 59
+    type: word_bank
+    question: "Ubaka ikibazo cy'igifaransa gisobanura 'Ni gute wavuga mu Kinyarwanda?'"
+    word_bank: ["Comment", "dit-on", "en", "Kinyarwanda", "français"]
+    correct_answer: ["Comment", "dit-on", "en", "Kinyarwanda"]
+    xp_reward: 22
+
+  - id: 60
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Ngerageza kuvuga Ikinyarwanda'"
+    word_bank: ["J'", "essaie", "de", "parler", "Kinyarwanda", "français"]
+    correct_answer: ["J'", "essaie", "de", "parler", "Kinyarwanda"]
+    xp_reward: 20
+
+  - id: 61
+    type: word_bank
+    question: "Ubaka ikibazo cy'igifaransa gisobanura 'Ushobora kunsana niba mpfubye?'"
+    word_bank: ["Pouvez-vous", "me", "corriger", "si", "je", "me", "trompe", "ai", "raison"]
+    correct_answer: ["Pouvez-vous", "me", "corriger", "si", "je", "me", "trompe"]
+    xp_reward: 22
+
+  - id: 62
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Tuganire'"
+    word_bank: ["Discutons", "ayons", "une", "conversation", "parlons"]
+    correct_answer: ["Discutons"]
+    xp_reward: 15
+
+  - id: 63
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Ndashaka gukora imyitozo yo kuvuga'"
+    word_bank: ["Je", "veux", "pratiquer", "la", "conversation", "parler", "écouter"]
+    correct_answer: ["Je", "veux", "pratiquer", "la", "conversation"]
+    xp_reward: 22
+
+  - id: 64
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Subiramo inyuma yanjye'"
+    word_bank: ["Répétez", "après", "moi", "s'il", "vous", "plaît", "lentement"]
+    correct_answer: ["Répétez", "après", "moi"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble
+  - id: 65
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Sinasobanukiwe'"
+    scrambled_words: ["ne", "Je", "comprends", "pas"]
+    correct_sentence: "Je ne comprends pas"
+    translation: "Sinasobanukiwe"
+    xp_reward: 15
+
+  - id: 66
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ushobora gusubiramo?'"
+    scrambled_words: ["cela", "vous", "répéter", "Pouvez-vous"]
+    correct_sentence: "Pouvez-vous répéter ?"
+    translation: "Ushobora gusubiramo?"
+    xp_reward: 18
+
+  - id: 67
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nyamuneka vuga bucece'"
+    scrambled_words: ["lentement", "parlez", "S'il", "vous", "plaît"]
+    correct_sentence: "S'il vous plaît, parlez lentement"
+    translation: "Nyamuneka vuga bucece"
+    xp_reward: 20
+
+  - id: 68
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ushobora gusobanura neza?'"
+    scrambled_words: ["cela", "vous", "clarifier", "Pourriez-vous"]
+    correct_sentence: "Pourriez-vous clarifier ?"
+    translation: "Ushobora gusobanura neza?"
+    xp_reward: 20
+
+  - id: 69
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ni gute wavuga mu Kinyarwanda?'"
+    scrambled_words: ["en", "Kinyarwanda", "dit-on", "Comment"]
+    correct_sentence: "Comment dit-on en Kinyarwanda ?"
+    translation: "Ni gute wavuga mu Kinyarwanda?"
+    xp_reward: 22
+
+  - id: 70
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ngerageza kuvuga Ikinyarwanda'"
+    scrambled_words: ["parler", "J'", "essaie", "de", "Kinyarwanda"]
+    correct_sentence: "J'essaie de parler Kinyarwanda"
+    translation: "Ngerageza kuvuga Ikinyarwanda"
+    xp_reward: 20
+
+  - id: 71
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ushobora kunsana niba mpfubye?'"
+    scrambled_words: ["me", "corriger", "Pouvez-vous", "je", "me", "trompe", "si"]
+    correct_sentence: "Pouvez-vous me corriger si je me trompe ?"
+    translation: "Ushobora kunsana niba mpfubye?"
+    xp_reward: 22
+
+  - id: 72
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Tuganire'"
+    scrambled_words: ["Discutons"]
+    correct_sentence: "Discutons"
+    translation: "Tuganire"
+    xp_reward: 15
+
+  - id: 73
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ndashaka gukora imyitozo yo kuvuga'"
+    scrambled_words: ["Je", "veux", "pratiquer", "la", "conversation"]
+    correct_sentence: "Je veux pratiquer la conversation"
+    translation: "Ndashaka gukora imyitozo yo kuvuga"
+    xp_reward: 22
+
+  - id: 74
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Subiramo inyuma yanjye'"
+    scrambled_words: ["moi", "après", "Répétez"]
+    correct_sentence: "Répétez après moi"
+    translation: "Subiramo inyuma yanjye"
+    xp_reward: 20
+
+  # 8. Fill in the Blank
+  - id: 75
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Je ne ___ pas."
+    options: ["comprends", "parle", "répète"]
+    correct_answer: "comprends"
+    translation: "Sinasobanukiwe"
+    xp_reward: 12
+
+  - id: 76
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza ikibazo mu igifaransa"
+    text_with_blank: "Pouvez-vous ___ cela ?"
+    options: ["répéter", "dire", "parler"]
+    correct_answer: "répéter"
+    translation: "Ushobora gusubiramo?"
+    xp_reward: 15
+
+  - id: 77
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "S'il vous plaît, parlez ___."
+    options: ["lentement", "vite", "fort"]
+    correct_answer: "lentement"
+    translation: "Nyamuneka vuga bucece"
+    xp_reward: 18
+
+  - id: 78
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza ikibazo mu igifaransa"
+    text_with_blank: "Pourriez-vous ___ cela ?"
+    options: ["clarifier", "répéter", "dire"]
+    correct_answer: "clarifier"
+    translation: "Ushobora gusobanura neza?"
+    xp_reward: 18
+
+  - id: 79
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza ikibazo mu igifaransa"
+    text_with_blank: "Comment dit-on en ___ ?"
+    options: ["Kinyarwanda", "français", "anglais"]
+    correct_answer: "Kinyarwanda"
+    translation: "Ni gute wavuga mu Kinyarwanda?"
+    xp_reward: 18
+
+  - id: 80
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "J'essaie de ___ Kinyarwanda."
+    options: ["parler", "écouter", "comprendre"]
+    correct_answer: "parler"
+    translation: "Ngerageza kuvuga Ikinyarwanda"
+    xp_reward: 15
+
+  - id: 81
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza ikibazo mu igifaransa"
+    text_with_blank: "Pouvez-vous me ___ si je me trompe ?"
+    options: ["corriger", "répéter", "expliquer"]
+    correct_answer: "corriger"
+    translation: "Ushobora kunsana niba mpfubye?"
+    xp_reward: 20
+
+  - id: 82
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "___."
+    options: ["Discutons", "Parlons", "Écoutons"]
+    correct_answer: "Discutons"
+    translation: "Tuganire"
+    xp_reward: 12
+
+  - id: 83
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Je veux pratiquer la ___."
+    options: ["conversation", "lecture", "écriture"]
+    correct_answer: "conversation"
+    translation: "Ndashaka gukora imyitozo yo kuvuga"
+    xp_reward: 18
+
+  - id: 84
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "___ après moi."
+    options: ["Répétez", "Parlez", "Écoutez"]
+    correct_answer: "Répétez"
+    translation: "Subiramo inyuma yanjye"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images) - Conceptual images for fluency
+  - id: 85
+    type: picture_word
+    question: "Iki gishushanyo kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?speaking"
+    options: ["Parler", "Écouter", "Répéter"]
+    correct_answer: "Parler"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Iki gishushanyo kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?listening"
+    options: ["Parler", "Écouter", "Comprendre"]
+    correct_answer: "Écouter"
+    xp_reward: 10
+
+  - id: 87
+    type: picture_word
+    question: "Iki gishushanyo kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?understanding"
+    options: ["Répéter", "Comprendre", "Discuter"]
+    correct_answer: "Comprendre"
+    xp_reward: 10
+
+  - id: 88
+    type: picture_word
+    question: "Iki gishushanyo kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?repeat"
+    options: ["Répéter", "Parler", "Lentement"]
+    correct_answer: "Répéter"
+    xp_reward: 10
+
+  - id: 89
+    type: picture_word
+    question: "Iki gishushanyo kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?slow"
+    options: ["Lentement", "Vite", "Clairement"]
+    correct_answer: "Lentement"
+    xp_reward: 10
+
+  - id: 90
+    type: picture_word
+    question: "Iki gishushanyo kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?fast"
+    options: ["Lentement", "Vite", "Couramment"]
+    correct_answer: "Vite"
+    xp_reward: 10
+
+  - id: 91
+    type: picture_word
+    question: "Iki gishushanyo kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?conversation"
+    options: ["Conversation", "Question", "Réponse"]
+    correct_answer: "Conversation"
+    xp_reward: 10
+
+  - id: 92
+    type: picture_word
+    question: "Iki gishushanyo kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?question"
+    options: ["Question", "Réponse", "Conversation"]
+    correct_answer: "Question"
+    xp_reward: 10
+
+  - id: 93
+    type: picture_word
+    question: "Iki gishushanyo kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?answer"
+    options: ["Question", "Réponse", "Expression"]
+    correct_answer: "Réponse"
+    xp_reward: 10
+
+  - id: 94
+    type: picture_word
+    question: "Iki gishushanyo kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?practice"
+    options: ["Pratique", "Communication", "Expression"]
+    correct_answer: "Pratique"
+    xp_reward: 10
+
+  # 10. Word Matching
+  - id: 95
+    type: matching
+    question: "Huza inshinga z'ubuvanganzo mu igifaransa"
+    pairs:
+      - left: "Parler"
+        right: "Vuga"
+      - left: "Discuter"
+        right: "Ganira"
+      - left: "Écouter"
+        right: "Tega"
+      - left: "Comprendre"
+        right: "Sobanukirwa"
+      - left: "Répéter"
+        right: "Subiramo"
+      - left: "Prononcer"
+        right: "Vuga neza"
+      - left: "Clarifier"
+        right: "Sobanura neza"
+    xp_reward: 20
+
+  - id: 96
+    type: matching
+    question: "Huza inshinga n'amazina mu igifaransa"
+    pairs:
+      - left: "Lentement"
+        right: "Bucece"
+      - left: "Vite"
+        right: "Vuba"
+      - left: "Couramment"
+        right: "Neza kandi byihuse"
+      - left: "Conversation"
+        right: "Ikiganiro"
+      - left: "Question"
+        right: "Ikibazo"
+      - left: "Réponse"
+        right: "Igisubizo"
+      - left: "Pratique"
+        right: "Imyitozo"
+      - left: "Communication"
+        right: "Itumanaho"
+    xp_reward: 20
+
+  - id: 97
+    type: matching
+    question: "Huza interuro mu igifaransa"
+    pairs:
+      - left: "Pouvez-vous répéter ?"
+        right: "Ushobora gusubiramo?"
+      - left: "Je ne comprends pas"
+        right: "Sinasobanukiwe"
+      - left: "S'il vous plaît, parlez lentement"
+        right: "Nyamuneka vuga bucece"
+      - left: "Discutons"
+        right: "Tuganire"
+      - left: "Répétez après moi"
+        right: "Subiramo inyuma yanjye"
+    xp_reward: 25
+
+  # 11. Choose Missing Word
+  - id: 98
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Pouvez-vous ___ cela ?"
+    missing_word_position: 3
+    options: ["répéter", "parler", "écouter"]
+    correct_answer: "répéter"
+    translation: "Ushobora gusubiramo?"
+    xp_reward: 15
+
+  - id: 99
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "S'il vous plaît, parlez ___."
+    missing_word_position: 5
+    options: ["lentement", "vite", "fort"]
+    correct_answer: "lentement"
+    translation: "Nyamuneka vuga bucece"
+    xp_reward: 18
+
+  - id: 100
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Pourriez-vous ___ cela ?"
+    missing_word_position: 3
+    options: ["clarifier", "répéter", "dire"]
+    correct_answer: "clarifier"
+    translation: "Ushobora gusobanura neza?"
+    xp_reward: 18
+
+  - id: 101
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Comment dit-on en ___ ?"
+    missing_word_position: 5
+    options: ["Kinyarwanda", "français", "anglais"]
+    correct_answer: "Kinyarwanda"
+    translation: "Ni gute wavuga mu Kinyarwanda?"
+    xp_reward: 18
+
+  - id: 102
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "___ après moi."
+    missing_word_position: 1
+    options: ["Répétez", "Parlez", "Écoutez"]
+    correct_answer: "Répétez"
+    translation: "Subiramo inyuma yanjye"
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 103
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Person A: Ushobora gusubiramo? Person B: Yego, ndashobora."
+    question: "Person A abaza iki?"
+    options: ["Pouvez-vous parler lentement ?", "Pouvez-vous répéter ?", "Pouvez-vous clarifier ?"]
+    correct_answer: "Pouvez-vous répéter ?"
+    xp_reward: 15
+
+  - id: 104
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Ngerageza kuvuga Ikinyarwanda. Nyamuneka vuga bucece."
+    question: "Kuki uyu muntu asaba undi kuvuga bucece?"
+    options: ["Ils sont pressés", "Ils essaient d'apprendre le Kinyarwanda", "Ils sont en colère"]
+    correct_answer: "Ils essaient d'apprendre le Kinyarwanda"
+    xp_reward: 18
+
+  - id: 105
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Sinasobanukiwe. Ushobora gusobanura neza?"
+    question: "Umuntu ashaka iki?"
+    options: ["Une répétition", "Une clarification", "Parler lentement"]
+    correct_answer: "Une clarification"
+    xp_reward: 18
+
+  - id: 106
+    type: read_answer
+    question: "Soma ibiganiro hanyuma usubize ikibazo mu igifaransa"
+    text: "A: Tuganire. B: Ni byiza, ndashaka gukora imyitozo yo kuvuga."
+    question: "B ashaka kwitoza iki?"
+    options: ["Écouter", "Parler", "Lire"]
+    correct_answer: "Parler"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 107
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Vuga' means 'to speak'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 108
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Sobanukirwa' means 'to repeat'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 109
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Sinasobanukiwe' means 'I understand'."
+    correct_answer: false
+    xp_reward: 12
+
+  - id: 110
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Ushobora gusubiramo?' means 'Can you repeat that?'"
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 111
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Bucece' means 'quickly'."
+    correct_answer: false
+    xp_reward: 10
+
+  # 14. Conversation Exercise
+  - id: 112
+    type: conversation
+    question: "Subiza icyavuzwe ukoresheje amagambo atanzwe mu igifaransa"
+    bot_message: "Nvuga vuba cyane."
+    translation: "I speak very fast."
+    word_bank: ["S'il", "vous", "plaît", "parlez", "lentement", "vite", "répéter"]
+    correct_response: ["S'il", "vous", "plaît", "parlez", "lentement"]
+    xp_reward: 20
+
+  - id: 113
+    type: conversation
+    question: "Subiza ikibazo mu igifaransa"
+    bot_message: "Ushobora gusubiramo?"
+    translation: "Can you repeat that?"
+    options:
+      - "Oui, je peux"
+      - "Je ne comprends pas"
+      - "Discutons"
+    correct_response: "Oui, je peux"
+    xp_reward: 15
+
+  - id: 114
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe mu igifaransa"
+    bot_message: "Umenya Ikinyarwanda?"
+    translation: "Do you know Kinyarwanda?"
+    word_bank: ["J'", "essaie", "de", "parler", "Kinyarwanda", "français"]
+    correct_response: ["J'", "essaie", "de", "parler", "Kinyarwanda"]
+    xp_reward: 20
+
+  - id: 115
+    type: conversation
+    question: "Subiza ubutumire mu igifaransa"
+    bot_message: "Tuganire?"
+    translation: "Shall we have a conversation?"
+    options:
+      - "Oui, je veux pratiquer"
+      - "Je ne comprends pas"
+      - "S'il vous plaît, parlez lentement"
+    correct_response: "Oui, je veux pratiquer"
+    xp_reward: 18
+
+  # 15. Story Exercise
+  - id: 116
+    type: story
+    title: "Kwiga Ikinyarwanda"
+    story_intro: "Soma inkuru y'umuntu wiga Ikinyarwanda. Hanyuma ubake interuro mu igifaransa."
+    story_segments:
+      - text: "I'm trying to speak Kinyarwanda."
+      - text: "I don't understand."
+      - text: "Can you repeat that?"
+      - text: "Please speak slowly."
+      - text: "Can you correct me if I'm wrong?"
+      - text: "Let's have a conversation."
+      - text: "I want to practice speaking."
+    exercises:
+      - type: word_bank
+        question: "Ubaka 'I'm trying to speak Kinyarwanda' mu igifaransa"
+        word_bank: ["J'", "essaie", "de", "parler", "Kinyarwanda", "comprendre"]
+        correct_answer: ["J'", "essaie", "de", "parler", "Kinyarwanda"]
+      - type: word_bank
+        question: "Ubaka 'I don't understand' mu igifaransa"
+        word_bank: ["Je", "ne", "comprends", "pas", "répéter", "s'il", "vous", "plaît"]
+        correct_answer: ["Je", "ne", "comprends", "pas"]
+      - type: word_bank
+        question: "Ubaka 'Can you repeat that?' mu igifaransa"
+        word_bank: ["Pouvez-vous", "répéter", "cela", "s'il", "vous", "plaît"]
+        correct_answer: ["Pouvez-vous", "répéter"]
+      - type: word_bank
+        question: "Ubaka 'Please speak slowly' mu igifaransa"
+        word_bank: ["S'il", "vous", "plaît", "parlez", "lentement", "vite"]
+        correct_answer: ["S'il", "vous", "plaît", "parlez", "lentement"]
+      - type: word_bank
+        question: "Ubaka 'Can you correct me if I'm wrong?' mu igifaransa"
+        word_bank: ["Pouvez-vous", "me", "corriger", "si", "je", "me", "trompe"]
+        correct_answer: ["Pouvez-vous", "me", "corriger", "si", "je", "me", "trompe"]
+      - type: word_bank
+        question: "Ubaka 'Let's have a conversation' mu igifaransa"
+        word_bank: ["Discutons", "ayons", "une", "conversation", "parlons"]
+        correct_answer: ["Discutons"]
+      - type: word_bank
+        question: "Ubaka 'I want to practice speaking' mu igifaransa"
+        word_bank: ["Je", "veux", "pratiquer", "la", "conversation", "parler", "écouter"]
+        correct_answer: ["Je", "veux", "pratiquer", "la", "conversation"]
+    xp_reward: 45
+
+  # 16. Pronunciation Check
+  - id: 117
+    type: pronunciation
+    question: "Vuga iri jambo ry'ubuvanganzo mu igifaransa neza"
+    prompt: "Vuga"
+    translation: "Parler"
+    xp_reward: 15
+
+  - id: 118
+    type: pronunciation
+    question: "Vuga iri jambo ry'ubuvanganzo mu igifaransa neza"
+    prompt: "Sobanukirwa"
+    translation: "Comprendre"
+    xp_reward: 15
+
+  - id: 119
+    type: pronunciation
+    question: "Vuga iri jambo ry'ubuvanganzo mu igifaransa neza"
+    prompt: "Subiramo"
+    translation: "Répéter"
+    xp_reward: 15
+
+  - id: 120
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Sinasobanukiwe"
+    translation: "Je ne comprends pas"
+    xp_reward: 18
+
+  - id: 121
+    type: pronunciation
+    question: "Vuga iki kibazo mu igifaransa neza"
+    prompt: "Ushobora gusubiramo"
+    translation: "Pouvez-vous répéter ?"
+    xp_reward: 18
+
+  - id: 122
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Nyamuneka vuga bucece"
+    translation: "S'il vous plaît, parlez lentement"
+    xp_reward: 20
+
+  - id: 123
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Ngerageza kuvuga Ikinyarwanda"
+    translation: "J'essaie de parler Kinyarwanda"
+    xp_reward: 20
+
+  # 17. Identify Correct Meaning
+  - id: 124
+    type: identify_meaning
+    question: "'Sinasobanukiwe' bisobanura iki mu igifaransa?"
+    context_sentence: "Sinasobanukiwe."
+    word: "Sinasobanukiwe"
+    options: ["Je comprends", "Je ne comprends pas", "S'il vous plaît répétez"]
+    correct_answer: "Je ne comprends pas"
+    xp_reward: 15
+
+  - id: 125
+    type: identify_meaning
+    question: "'gusubiramo' bisobanura iki mu igifaransa muri iki kibazo?"
+    context_sentence: "Ushobora gusubiramo?"
+    word: "gusubiramo"
+    options: ["parler", "répéter", "expliquer"]
+    correct_answer: "répéter"
+    xp_reward: 15
+
+  - id: 126
+    type: identify_meaning
+    question: "'bucece' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Nyamuneka vuga bucece."
+    word: "bucece"
+    options: ["vite", "lentement", "clairement"]
+    correct_answer: "lentement"
+    xp_reward: 15
+
+  - id: 127
+    type: identify_meaning
+    question: "'kunsana' bisobanura iki mu igifaransa muri iki kibazo?"
+    context_sentence: "Ushobora kunsana niba mpfubye?"
+    word: "kunsana"
+    options: ["répéter", "me corriger", "expliquer"]
+    correct_answer: "me corriger"
+    xp_reward: 18
+
+  # 18. Speed Matching
+  - id: 128
+    type: speed_matching
+    title: "Huza Byihuse: Ubuvanganzo"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Parler"
+        right: "Vuga"
+      - left: "Écouter"
+        right: "Tega"
+      - left: "Comprendre"
+        right: "Sobanukirwa"
+      - left: "Répéter"
+        right: "Subiramo"
+      - left: "Lentement"
+        right: "Bucece"
+      - left: "Vite"
+        right: "Vuba"
+      - left: "Conversation"
+        right: "Ikiganiro"
+      - left: "Question"
+        right: "Ikibazo"
+      - left: "Réponse"
+        right: "Igisubizo"
+      - left: "Pratique"
+        right: "Imyitozo"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 129
+    type: timed_challenge
+    title: "Kubahuka: Ubuvanganzo"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Vuga"
+        answer: "Parler"
+      - question: "Tega"
+        answer: "Écouter"
+      - question: "Sobanukirwa"
+        answer: "Comprendre"
+      - question: "Subiramo"
+        answer: "Répéter"
+      - question: "Bucece"
+        answer: "Lentement"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Parler"
+      back: "Vuga"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Dire"
+      back: "Vuga"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Discuter"
+      back: "Ganira"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Écouter"
+      back: "Tega"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Comprendre"
+      back: "Sobanukirwa"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Répéter"
+      back: "Subiramo"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Prononcer"
+      back: "Vuga neza"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Lentement"
+      back: "Bucece"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Vite"
+      back: "Vuba"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Couramment"
+      back: "Neza kandi byihuse"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

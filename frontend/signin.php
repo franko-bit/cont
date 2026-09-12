@@ -2,13 +2,35 @@
 // signin.php
 require_once '../backend/config.php';
 
+// Validate and sanitize redirect URL
+function sanitizeRedirect($url) {
+    // Default to dashboard if invalid
+    $default = 'dashboard.php';
+    // Block open redirects (full URLs with ://)
+    if (filter_var($url, FILTER_VALIDATE_URL) || strpos($url, '://') !== false) {
+        return $default;
+    }
+    // Allow relative paths with /, ./, or ../
+    if (strpos($url, '/') !== 0 && strpos($url, './') !== 0 && strpos($url, '../') !== 0) {
+        $url = './' . $url;
+    }
+    return $url;
+}
+
 // Redirect if already logged in
 if (isset($_SESSION['user_id'])) {
-    header("Location: dashboard.php");
+    $redirect_to = sanitizeRedirect($_GET['redirect_to'] ?? $_POST['redirect_to'] ?? 'dashboard.php');
+    if (empty($_SESSION['institution_id']) && strpos($redirect_to, 'exam-dashboard.php') !== false) {
+        $redirect_to = 'dashboard.php';
+    }
+    header("Location: " . $redirect_to);
     exit;
 }
 
 $error = '';
+
+// Get redirect URL from query or form
+$redirect_to = sanitizeRedirect($_GET['redirect_to'] ?? $_POST['redirect_to'] ?? 'dashboard.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = trim($_POST['email'] ?? '');
@@ -18,64 +40,42 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (empty($email) || empty($password)) {
         $error = 'Email and password are required';
     } else {
-        // Get user
-        $stmt = $pdo->prepare("SELECT * FROM users WHERE email = ?");
-        $stmt->execute([$email]);
-        $user = $stmt->fetch();
+        try {
+            // Get user
+            $stmt = $pdo->prepare("SELECT * FROM users WHERE email = ?");
+            $stmt->execute([$email]);
+            $user = $stmt->fetch();
 
-        if ($user && password_verify($password, $user['password'])) {
-            // Update last login and streak
-            $today = date('Y-m-d');
-            $last_login = date('Y-m-d', strtotime($user['last_login']));
-            $yesterday = date('Y-m-d', strtotime('-1 day'));
-            
-            // Calculate streak
-            if ($last_login == $yesterday) {
-                // Consecutive day
-                $new_streak = $user['current_streak'] + 1;
-            } elseif ($last_login == $today) {
-                // Already logged in today
-                $new_streak = $user['current_streak'];
+            if ($user && password_verify($password, $user['password'])) {
+                // Success - set session
+                $_SESSION['user_id'] = $user['id'];
+                $_SESSION['full_name'] = $user['full_name'];
+                $_SESSION['user_email'] = $user['email'];
+                
+                // Get institution_id for this user
+                $inst_stmt = $pdo->prepare("SELECT institution_id FROM institution_users WHERE user_id = ? LIMIT 1");
+                $inst_stmt->execute([$user['id']]);
+                $inst_row = $inst_stmt->fetch();
+                if ($inst_row) {
+                    $_SESSION['institution_id'] = $inst_row['institution_id'];
+                }
+                
+                // Debug: Log session was set
+                error_log("Login success for user_id: " . $user['id'] . ", session_id: " . session_id() . ", institution_id: " . ($_SESSION['institution_id'] ?? 'none'));
+                
+                if (empty($_SESSION['institution_id']) && strpos($redirect_to, 'exam-dashboard.php') !== false) {
+                    $redirect_to = 'dashboard.php';
+                }
+                
+                header("Location: " . $redirect_to);
+                exit;
             } else {
-                // Streak broken
-                $new_streak = 1;
+                $error = 'Invalid email or password';
+                error_log("Login failed for email: $email - user found: " . ($user ? 'yes' : 'no'));
             }
-            
-            // Update longest streak if needed
-            $longest_streak = max($user['longest_streak'], $new_streak);
-            
-            // Update user
-            $stmt = $pdo->prepare("
-                UPDATE users 
-                SET last_login = NOW(), 
-                    current_streak = ?,
-                    longest_streak = ?,
-                    last_activity = NOW()
-                WHERE id = ?
-            ");
-            $stmt->execute([$new_streak, $longest_streak, $user['id']]);
-
-            // Set session
-            $_SESSION['user_id'] = $user['id'];
-            $_SESSION['user_name'] = $user['full_name'];
-            $_SESSION['user_email'] = $user['email'];
-            $_SESSION['user_role'] = $user['is_student'] ? 'student' : 'learner';
-
-            // Set remember me cookie (30 days)
-            if ($remember) {
-                $token = bin2hex(random_bytes(32));
-                $expires = date('Y-m-d H:i:s', strtotime('+30 days'));
-                
-                // Store token in database (you'd need a remember_tokens table)
-                // For simplicity, we'll skip this part
-                
-                setcookie('remember_token', $token, time() + (86400 * 30), '/', '', true, true);
-            }
-
-            header("Location: dashboard.php");
-            exit;
-        } else {
-            $error = 'Invalid email or password';
+        } catch (PDOException $e) {
+            $error = 'Database error: ' . $e->getMessage();
+            error_log("Login PDO error: " . $e->getMessage());
         }
     }
 }
@@ -266,6 +266,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <?php endif; ?>
         
         <form method="POST" action="">
+            <input type="hidden" name="redirect_to" value="<?= htmlspecialchars($redirect_to) ?>">
             <div class="form-group">
                 <label>Email</label>
                 <input type="email" name="email" value="<?= htmlspecialchars($_POST['email'] ?? '') ?>" required>

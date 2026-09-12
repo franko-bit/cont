@@ -1,0 +1,1480 @@
+lesson:
+  name: "Sales and Marketing English"
+  description: "Master professional sales and marketing communication including conversations, product descriptions, negotiations, customer communication, advertising, and pitching"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: SALES CONVERSATIONS (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-7)
+  - id: 1
+    type: multiple_choice
+    question: "What is the best way to open a sales conversation with a new prospect?"
+    options:
+      - "Do you want to buy our product?"
+      - "Hi, I'm calling to sell you something."
+      - "Hello, I'm [Name] from [Company]. Do you have a few minutes to discuss how we might help your business?"
+      - "You need our product."
+    answer: "Hello, I'm [Name] from [Company]. Do you have a few minutes to discuss how we might help your business?"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What is the SPIN selling methodology?"
+    options:
+      - "Sell, Price, Invoice, Negotiate"
+      - "Situation, Problem, Implication, Need-payoff"
+      - "Start, Present, Interest, Close"
+      - "Sample, Product, Information, Name"
+    answer: "Situation, Problem, Implication, Need-payoff"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "What is a 'discovery question' in a sales conversation?"
+    options:
+      - "A question about the customer's discovery of your company"
+      - "A question asked to understand the customer's needs and challenges"
+      - "A question at the end of the sale"
+      - "A question about pricing"
+    answer: "A question asked to understand the customer's needs and challenges"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "How should you handle a customer's objection about price?"
+    options:
+      - "Immediately offer a discount"
+      - "Agree that it's too expensive"
+      - "Acknowledge their concern, reinforce value, then discuss pricing options"
+      - "Argue with them about the price"
+    answer: "Acknowledge their concern, reinforce value, then discuss pricing options"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "What is the best way to ask for the sale (close)?"
+    options:
+      - "So, are you going to buy it or not?"
+      - "Based on what we've discussed, shall we move forward with the implementation?"
+      - "When can you sign?"
+      - "Take it or leave it."
+    answer: "Based on what we've discussed, shall we move forward with the implementation?"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What is a 'warm lead'?"
+    options:
+      - "A potential customer who is hot-tempered"
+      - "A potential customer who has shown previous interest in your product"
+      - "A customer who just bought something"
+      - "A customer in a warm climate"
+    answer: "A potential customer who has shown previous interest in your product"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "What is the meaning of 'BANT' in sales qualification?"
+    options:
+      - "Buy, Ask, Negotiate, Test"
+      - "Budget, Authority, Need, Timeline"
+      - "Business, Account, Number, Time"
+      - "Basic, Advanced, Normal, Technical"
+    answer: "Budget, Authority, Need, Timeline"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (8-12)
+  - id: 8
+    type: fill_blank
+    question: "Complete the discovery question"
+    text_with_blank: "What are the biggest ___ you're currently facing in your operations?"
+    options: ["challenges", "problems", "issues", "difficulties"]
+    correct_answer: "challenges"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the objection handling phrase"
+    text_with_blank: "I understand your concern about price. Let me ___ the value you would receive."
+    options: ["explain", "show", "demonstrate", "highlight"]
+    correct_answer: "demonstrate"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the closing question"
+    text_with_blank: "Based on our conversation, does it ___ sense to move forward?"
+    options: ["make", "do", "have", "take"]
+    correct_answer: "make"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the follow-up commitment"
+    text_with_blank: "I'll ___ a proposal to you by end of day tomorrow."
+    options: ["send", "forward", "email", "share"]
+    correct_answer: "send"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the need identification"
+    text_with_blank: "So if I understand correctly, you're looking to ___ your customer retention?"
+    options: ["improve", "increase", "boost", "enhance"]
+    correct_answer: "improve"
+    xp_reward: 15
+
+  # TRUE / FALSE (13-15)
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? The best sales conversations focus on product features rather than customer needs."
+    statement: "The best sales conversations focus on product features rather than customer needs."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 14
+    type: true_false
+    question: "Is this statement true or false? Asking open-ended questions helps uncover customer needs."
+    statement: "Asking open-ended questions helps uncover customer needs."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? You should always try to close the sale multiple times during a conversation."
+    statement: "You should always try to close the sale multiple times during a conversation."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (16-18)
+  - id: 16
+    type: matching
+    question: "Match the sales questioning technique with its purpose"
+    pairs:
+      - left: "Situation questions"
+        right: "Gather facts about current circumstances"
+      - left: "Problem questions"
+        right: "Identify difficulties or dissatisfactions"
+      - left: "Implication questions"
+        right: "Explore consequences of problems"
+      - left: "Need-payoff questions"
+        right: "Show value of solving the problem"
+    xp_reward: 25
+
+  - id: 17
+    type: matching
+    question: "Match the sales stage with the appropriate conversation focus"
+    pairs:
+      - left: "Prospecting"
+        right: "Identifying potential customers"
+      - left: "Discovery"
+        right: "Understanding customer needs"
+      - left: "Presentation"
+        right: "Demonstrating value proposition"
+      - left: "Handling objections"
+        right: "Addressing concerns"
+      - left: "Closing"
+        right: "Asking for commitment"
+    xp_reward: 25
+
+  - id: 18
+    type: matching
+    question: "Match the BANT qualification criteria with its meaning"
+    pairs:
+      - left: "Budget"
+        right: "Does the customer have financial resources?"
+      - left: "Authority"
+        right: "Can the person make the decision?"
+      - left: "Need"
+        right: "Does the customer have a genuine requirement?"
+      - left: "Timeline"
+        right: "When does the customer need a solution?"
+    xp_reward: 25
+
+  # FLASHCARDS (19-20)
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Sales Opening Phrases"
+    flashcards:
+      - front: "Is now a good time to talk?"
+        right: "Respects prospect's time"
+      - front: "I was hoping to learn more about your current process"
+        right: "Discovery-focused opening"
+      - front: "We've helped similar companies with [problem]"
+        right: "Social proof opening"
+      - front: "I'm following up on our conversation about"
+        right: "Warm lead opening"
+      - front: "I came across your company and was impressed by"
+        right: "Personalized opening"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Sales Closing Phrases"
+    flashcards:
+      - front: "Shall we move forward with the next steps?"
+        right: "Assumptive close"
+      - front: "Would you like to proceed with implementation?"
+        right: "Direct close"
+      - front: "I'll send over the contract - when can you review it?"
+        right: "Action close"
+      - front: "If we can address this last concern, are you ready to move ahead?"
+        right: "Objection close"
+      - front: "Which of these options works better for you?"
+        right: "Alternative choice close"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: PRODUCT DESCRIPTIONS (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-27)
+  - id: 21
+    type: multiple_choice
+    question: "What is the difference between a feature and a benefit?"
+    options:
+      - "Features are negative, benefits are positive"
+      - "Features describe what the product does, benefits describe what the customer gains"
+      - "Features are for internal use, benefits are for customers"
+      - "There is no difference"
+    answer: "Features describe what the product does, benefits describe what the customer gains"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "Which is an example of a benefit statement?"
+    options:
+      - "Our software has 256-bit encryption"
+      - "Our software includes cloud backup"
+      - "Our software gives you peace of mind knowing your data is secure"
+      - "Our software runs on Windows 10"
+    answer: "Our software gives you peace of mind knowing your data is secure"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What does 'FAB' stand for in product description?"
+    options:
+      - "Facts, Analysis, Benefits"
+      - "Features, Advantages, Benefits"
+      - "Functions, Applications, Brands"
+      - "Focus, Action, Buy"
+    answer: "Features, Advantages, Benefits"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "What is a 'unique selling proposition' (USP)?"
+    options:
+      - "The price of the product"
+      - "What makes your product different and better than competitors"
+      - "The color of the packaging"
+      - "The shipping method"
+    answer: "What makes your product different and better than competitors"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "Which phrase best describes a product's value proposition?"
+    options:
+      - "The product is cheap"
+      - "The product has many buttons"
+      - "The specific value a customer will receive from purchasing the product"
+      - "The product's weight and dimensions"
+    answer: "The specific value a customer will receive from purchasing the product"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What does 'customer pain point' mean?"
+    options:
+      - "A physical injury the customer has"
+      - "A specific problem the customer is experiencing"
+      - "The customer's budget"
+      - "The customer's location"
+    answer: "A specific problem the customer is experiencing"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "Which phrase creates a stronger product description?"
+    options:
+      - "Our product has a long battery life"
+      - "Our product keeps you powered all day without recharging"
+      - "Our product has a battery"
+      - "The battery exists"
+    answer: "Our product keeps you powered all day without recharging"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (28-32)
+  - id: 28
+    type: fill_blank
+    question: "Complete the feature-to-benefit conversion"
+    text_with_blank: "Our software includes real-time reporting, which ___ you make faster, data-driven decisions."
+    options: ["lets", "allows", "enables", "helps"]
+    correct_answer: "enables"
+    xp_reward: 15
+
+  - id: 29
+    type: fill_blank
+    question: "Complete the value statement"
+    text_with_blank: "What sets us apart from the competition is our ___ customer support."
+    options: ["24/7", "dedicated", "responsive", "exceptional"]
+    correct_answer: "dedicated"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the problem-solution description"
+    text_with_blank: "Tired of wasting time on manual data entry? Our platform ___ this process."
+    options: ["automates", "simplifies", "streamlines", "optimizes"]
+    correct_answer: "automates"
+    xp_reward: 15
+
+  - id: 31
+    type: fill_blank
+    question: "Complete the outcome statement"
+    text_with_blank: "Customers who use our product typically see a 30% ___ in productivity."
+    options: ["increase", "improvement", "boost", "gain"]
+    correct_answer: "increase"
+    xp_reward: 15
+
+  - id: 32
+    type: fill_blank
+    question: "Complete the proof statement"
+    text_with_blank: "Our solution has been ___ by over 10,000 satisfied customers."
+    options: ["trusted", "chosen", "selected", "adopted"]
+    correct_answer: "trusted"
+    xp_reward: 15
+
+  # TRUE / FALSE (33-35)
+  - id: 33
+    type: true_false
+    question: "Is this statement true or false? The best product descriptions focus only on features, not benefits."
+    statement: "The best product descriptions focus only on features, not benefits."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 34
+    type: true_false
+    question: "Is this statement true or false? Using customer testimonials adds credibility to product descriptions."
+    statement: "Using customer testimonials adds credibility to product descriptions."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 35
+    type: true_false
+    question: "Is this statement true or false? A strong product description should address customer pain points."
+    statement: "A strong product description should address customer pain points."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (36-38)
+  - id: 36
+    type: matching
+    question: "Match the product description element with its example"
+    pairs:
+      - left: "Feature"
+        right: "12-megapixel camera"
+      - left: "Advantage"
+        right: "Crisp, detailed photos in any lighting"
+      - left: "Benefit"
+        right: "Capture precious memories you'll treasure forever"
+      - left: "Pain point addressed"
+        right: "Never miss a perfect shot due to poor lighting again"
+      - left: "Proof point"
+        right: "Voted 'Best Camera' by Photography Magazine"
+    xp_reward: 25
+
+  - id: 37
+    type: matching
+    question: "Match the product adjective with what it conveys"
+    pairs:
+      - left: "Innovative"
+        right: "New and cutting-edge"
+      - left: "Reliable"
+        right: "Consistently performs as expected"
+      - left: "User-friendly"
+        right: "Easy to use without training"
+      - left: "Cost-effective"
+        right: "Good value for the price"
+      - left: "Scalable"
+        right: "Can grow with your needs"
+    xp_reward: 25
+
+  - id: 38
+    type: matching
+    question: "Match the product description phrase with its strength"
+    pairs:
+      - left: "It's good"
+        right: "Weak, vague"
+      - left: "It will transform your workflow"
+        right: "Strong, aspirational"
+      - left: "It has a 99.9% uptime guarantee"
+        right: "Specific, credible"
+      - left: "Trusted by industry leaders"
+        right: "Social proof"
+      - left: "Try it risk-free for 30 days"
+        right: "Reduces purchase anxiety"
+    xp_reward: 25
+
+  # FLASHCARDS (39-40)
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Benefit Language"
+    flashcards:
+      - front: "Save time"
+        right: "Benefit for efficiency seekers"
+      - front: "Reduce costs"
+        right: "Financial benefit"
+      - front: "Increase revenue"
+        right: "Growth benefit"
+      - front: "Gain peace of mind"
+        right: "Emotional benefit"
+      - front: "Stay ahead of competitors"
+        right: "Competitive benefit"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Powerful Product Adjectives"
+    flashcards:
+      - front: "Revolutionary"
+        right: "Completely new and different"
+      - front: "Award-winning"
+        right: "Recognized by experts"
+      - front: "Industry-leading"
+        right: "Better than competitors"
+      - front: "Proven"
+        right: "Tested and validated"
+      - front: "Seamless"
+        right: "Works without friction"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: NEGOTIATION LANGUAGE (41-60)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-47)
+  - id: 41
+    type: multiple_choice
+    question: "What is the first rule of business negotiation?"
+    options:
+      - "Always say no first"
+      - "Never negotiate"
+      - "Know your best alternative (BATNA) before you start"
+      - "Always accept the first offer"
+    answer: "Know your best alternative (BATNA) before you start"
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "What does BATNA stand for?"
+    options:
+      - "Best Alternative To a Negotiated Agreement"
+      - "Basic Agreement Terms and Negotiation Approach"
+      - "Business And Trade Negotiation Association"
+      - "Before Any Talk, Note Alternatives"
+    answer: "Best Alternative To a Negotiated Agreement"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "What is the best way to respond to a lowball offer?"
+    options:
+      - "Get angry and walk away"
+      - "Accept it immediately"
+      - "Stay calm, acknowledge the offer, and counter with your position"
+      - "Laugh at them"
+    answer: "Stay calm, acknowledge the offer, and counter with your position"
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "What is 'win-win' negotiation?"
+    options:
+      - "One side wins everything"
+      - "Both sides feel they gained value from the agreement"
+      - "Neither side gets anything"
+      - "The negotiation ends in a tie"
+    answer: "Both sides feel they gained value from the agreement"
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "What should you say when you need to compromise?"
+    options:
+      - "Fine, whatever"
+      - "You win, I lose"
+      - "I can agree to that if you can agree to X"
+      - "Never compromise"
+    answer: "I can agree to that if you can agree to X"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "What is 'anchoring' in negotiation?"
+    options:
+      - "Ships and boats reference"
+      - "The first offer or price mentioned, which sets the reference point"
+      - "Refusing to move from a position"
+      - "Ending the negotiation"
+    answer: "The first offer or price mentioned, which sets the reference point"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "How should you handle a negotiation impasse?"
+    options:
+      - "Yell at the other party"
+      - "Walk away permanently"
+      - "Take a break, change the topic, or suggest involving a mediator"
+      - "Accept their last offer"
+    answer: "Take a break, change the topic, or suggest involving a mediator"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (48-52)
+  - id: 48
+    type: fill_blank
+    question: "Complete the counteroffer phrase"
+    text_with_blank: "I understand your position. However, we were hoping for something in the ___ of $50,000."
+    options: ["range", "area", "ballpark", "vicinity"]
+    correct_answer: "range"
+    xp_reward: 15
+
+  - id: 49
+    type: fill_blank
+    question: "Complete the conditional offer"
+    text_with_blank: "We can agree to that price if you can ___ on the delivery timeline."
+    options: ["flex", "budge", "compromise", "concede"]
+    correct_answer: "compromise"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the concession statement"
+    text_with_blank: "If you're willing to increase the volume, we would be ___ to reduce the unit price."
+    options: ["prepared", "ready", "willing", "able"]
+    correct_answer: "prepared"
+    xp_reward: 15
+
+  - id: 51
+    type: fill_blank
+    question: "Complete the deadlock resolution"
+    text_with_blank: "It seems we've reached a ___ on this point. Shall we take a break and revisit?"
+    options: ["stalemate", "deadlock", "impasse", "standoff"]
+    correct_answer: "impasse"
+    xp_reward: 15
+
+  - id: 52
+    type: fill_blank
+    question: "Complete the agreement confirmation"
+    text_with_blank: "Let me ___ what we've agreed so far to ensure we're aligned."
+    options: ["recap", "summarize", "review", "repeat"]
+    correct_answer: "recap"
+    xp_reward: 15
+
+  # TRUE / FALSE (53-55)
+  - id: 53
+    type: true_false
+    question: "Is this statement true or false? In negotiation, you should always reveal your bottom line immediately."
+    statement: "In negotiation, you should always reveal your bottom line immediately."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 54
+    type: true_false
+    question: "Is this statement true or false? Silence can be a powerful negotiation tactic."
+    statement: "Silence can be a powerful negotiation tactic."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 55
+    type: true_false
+    question: "Is this statement true or false? Personal attacks can be effective negotiation strategies."
+    statement: "Personal attacks can be effective negotiation strategies."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (56-58)
+  - id: 56
+    type: matching
+    question: "Match the negotiation term with its definition"
+    pairs:
+      - left: "BATNA"
+        right: "Your best alternative if no deal is reached"
+      - left: "Reservation price"
+        right: "Your walk-away point"
+      - left: "ZOPA"
+        right: "Zone of Possible Agreement - overlap of acceptable ranges"
+      - left: "Concession"
+        right: "Giving up something to reach agreement"
+      - left: "Trade-off"
+        right: "Exchanging one thing for another"
+    xp_reward: 25
+
+  - id: 57
+    type: matching
+    question: "Match the negotiation strategy with its approach"
+    pairs:
+      - left: "Distributive negotiation"
+        right: "Fixed pie - one winner, one loser"
+      - left: "Integrative negotiation"
+        right: "Expand the pie - both sides gain"
+      - left: "Principled negotiation"
+        right: "Focus on interests, not positions"
+      - left: "Competitive negotiation"
+        right: "Aggressive, high-pressure tactics"
+      - left: "Collaborative negotiation"
+        right: "Problem-solving, partnership focus"
+    xp_reward: 25
+
+  - id: 58
+    type: matching
+    question: "Match the negotiation phrase with its intention"
+    pairs:
+      - left: "Help me understand your position better"
+        right: "Seek information"
+      - left: "What if we...?"
+        right: "Suggest alternative"
+      - left: "Is that your best offer?"
+        right: "Test firmness"
+      - left: "Let me check with my team"
+        right: "Buy time"
+      - left: "I appreciate your flexibility on this"
+        right: "Build goodwill"
+    xp_reward: 25
+
+  # FLASHCARDS (59-60)
+  - id: 59
+    type: flashcards
+    question: "Flashcards: Negotiation Phrases"
+    flashcards:
+      - front: "Let me see if I understand correctly"
+        right: "Confirm understanding"
+      - front: "What would it take to make this work?"
+        right: "Explore possibilities"
+      - front: "We're not that far apart"
+        right: "Find common ground"
+      - front: "Let me propose a compromise"
+        right: "Suggest middle ground"
+      - front: "I think we're making progress"
+        right: "Positive reinforcement"
+    xp_reward: 30
+
+  - id: 60
+    type: flashcards
+    question: "Flashcards: Concession Language"
+    flashcards:
+      - front: "If you, then I"
+        right: "Conditional concession"
+      - front: "We can agree to X, provided that you"
+        right: "Traded concession"
+      - front: "I'll need to get approval for that"
+        right: "Create room for later"
+      - front: "That's less than we hoped for, but let's see"
+        right: "Accept with reservation"
+      - front: "We can meet you halfway"
+        right: "Split the difference"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: MARKETING TERMINOLOGY (61-80)
+  # ============================================
+
+  # MULTIPLE CHOICE (61-67)
+  - id: 61
+    type: multiple_choice
+    question: "What is a 'target market'?"
+    options:
+      - "A store that sells targets"
+      - "The specific group of consumers a company aims to reach"
+      - "The price of a product"
+      - "A type of marketing campaign"
+    answer: "The specific group of consumers a company aims to reach"
+    xp_reward: 15
+
+  - id: 62
+    type: multiple_choice
+    question: "What does 'ROI' stand for in marketing?"
+    options:
+      - "Return on Investment"
+      - "Rate of Interest"
+      - "Return of Income"
+      - "Reach of Impressions"
+    answer: "Return on Investment"
+    xp_reward: 15
+
+  - id: 63
+    type: multiple_choice
+    question: "What is a 'buyer persona'?"
+    options:
+      - "A person who buys things"
+      - "A fictional representation of your ideal customer"
+      - "A type of marketing software"
+      - "A sales technique"
+    answer: "A fictional representation of your ideal customer"
+    xp_reward: 15
+
+  - id: 64
+    type: multiple_choice
+    question: "What does 'lead generation' mean?"
+    options:
+      - "Generating electricity"
+      - "The process of attracting and converting strangers into potential customers"
+      - "Leading a team"
+      - "Generating metal leads"
+    answer: "The process of attracting and converting strangers into potential customers"
+    xp_reward: 15
+
+  - id: 65
+    type: multiple_choice
+    question: "What is the 'marketing funnel'?"
+    options:
+      - "A physical funnel used in stores"
+      - "The model describing the customer journey from awareness to purchase"
+      - "A type of advertising"
+      - "A pricing strategy"
+    answer: "The model describing the customer journey from awareness to purchase"
+    xp_reward: 15
+
+  - id: 66
+    type: multiple_choice
+    question: "What does 'KPI' stand for in marketing?"
+    options:
+      - "Keep Promoting Internally"
+      - "Key Performance Indicator"
+      - "Knowledge Product Information"
+      - "Kind Personal Interaction"
+    answer: "Key Performance Indicator"
+    xp_reward: 15
+
+  - id: 67
+    type: multiple_choice
+    question: "What is 'brand awareness'?"
+    options:
+      - "How much a brand costs"
+      - "The extent to which consumers recognize a brand"
+      - "The color of a brand's logo"
+      - "The brand's website"
+    answer: "The extent to which consumers recognize a brand"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (68-72)
+  - id: 68
+    type: fill_blank
+    question: "Complete the market segmentation phrase"
+    text_with_blank: "Our primary ___ market is professionals aged 25-40."
+    options: ["target", "focus", "key", "core"]
+    correct_answer: "target"
+    xp_reward: 15
+
+  - id: 69
+    type: fill_blank
+    question: "Complete the campaign objective"
+    text_with_blank: "The goal of this campaign is to increase brand ___ among millennials."
+    options: ["awareness", "recognition", "visibility", "exposure"]
+    correct_answer: "awareness"
+    xp_reward: 15
+
+  - id: 70
+    type: fill_blank
+    question: "Complete the funnel stage description"
+    text_with_blank: "At the top of the funnel, our focus is on driving ___ to our website."
+    options: ["traffic", "visitors", "clicks", "views"]
+    correct_answer: "traffic"
+    xp_reward: 15
+
+  - id: 71
+    type: fill_blank
+    question: "Complete the metric statement"
+    text_with_blank: "Our key ___ for this quarter is customer acquisition cost."
+    options: ["metric", "KPI", "measure", "indicator"]
+    correct_answer: "KPI"
+    xp_reward: 15
+
+  - id: 72
+    type: fill_blank
+    question: "Complete the positioning statement"
+    text_with_blank: "We position ourselves as the ___ provider of cloud solutions for small businesses."
+    options: ["leading", "premier", "top", "number one"]
+    correct_answer: "leading"
+    xp_reward: 15
+
+  # TRUE / FALSE (73-75)
+  - id: 73
+    type: true_false
+    question: "Is this statement true or false? A marketing strategy should be based on assumptions, not data."
+    statement: "A marketing strategy should be based on assumptions, not data."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 74
+    type: true_false
+    question: "Is this statement true or false? Understanding your competition is essential for effective marketing."
+    statement: "Understanding your competition is essential for effective marketing."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 75
+    type: true_false
+    question: "Is this statement true or false? A single marketing channel is usually enough to reach all customers."
+    statement: "A single marketing channel is usually enough to reach all customers."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (76-78)
+  - id: 76
+    type: matching
+    question: "Match the marketing term with its definition"
+    pairs:
+      - left: "SEO"
+        right: "Search Engine Optimization - improving website visibility"
+      - left: "PPC"
+        right: "Pay Per Click - advertising where you pay for clicks"
+      - left: "CTR"
+        right: "Click-Through Rate - percentage of people who click"
+      - left: "Conversion rate"
+        right: "Percentage of visitors who complete desired action"
+      - left: "Bounce rate"
+        right: "Percentage of visitors who leave immediately"
+    xp_reward: 25
+
+  - id: 77
+    type: matching
+    question: "Match the marketing channel with its description"
+    pairs:
+      - left: "Email marketing"
+        right: "Communicating with customers via email"
+      - left: "Content marketing"
+        right: "Creating valuable content to attract customers"
+      - left: "Social media marketing"
+        right: "Promoting through social platforms"
+      - left: "Influencer marketing"
+        right: "Partnering with influential people"
+      - left: "Affiliate marketing"
+        right: "Paying partners for referrals or sales"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Match the funnel stage with the marketing focus"
+    pairs:
+      - left: "Top of funnel (Awareness)"
+        right: "Attract attention, drive traffic"
+      - left: "Middle of funnel (Consideration)"
+        right: "Educate, nurture leads"
+      - left: "Bottom of funnel (Conversion)"
+        right: "Close sale, convert customer"
+      - left: "Post-purchase"
+        right: "Retain, upsell, get referrals"
+    xp_reward: 25
+
+  # FLASHCARDS (79-80)
+  - id: 79
+    type: flashcards
+    question: "Flashcards: Marketing Metrics"
+    flashcards:
+      - front: "Impressions"
+        right: "Number of times content is shown"
+      - front: "Reach"
+        right: "Number of unique people who see content"
+      - front: "Engagement rate"
+        right: "Interactions divided by impressions"
+      - front: "Customer lifetime value (CLV)"
+        right: "Total revenue from a customer over time"
+      - front: "Churn rate"
+        right: "Percentage of customers who stop using service"
+    xp_reward: 30
+
+  - id: 80
+    type: flashcards
+    question: "Flashcards: Marketing Strategy Terms"
+    flashcards:
+      - front: "Differentiation"
+        right: "Making your product stand out"
+      - front: "Positioning"
+        right: "How customers perceive your brand"
+      - front: "Segmentation"
+        right: "Dividing market into distinct groups"
+      - front: "Targeting"
+        right: "Choosing which segments to pursue"
+      - front: "SWOT analysis"
+        right: "Strengths, Weaknesses, Opportunities, Threats"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: CUSTOMER COMMUNICATION (81-100)
+  # ============================================
+
+  # MULTIPLE CHOICE (81-87)
+  - id: 81
+    type: multiple_choice
+    question: "What is the most important rule of customer communication?"
+    options:
+      - "Always use jargon"
+      - "Listen more than you talk"
+      - "Talk as much as possible"
+      - "Never apologize"
+    answer: "Listen more than you talk"
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "How should you respond to an angry customer?"
+    options:
+      - "Get angry back"
+      - "Ignore them"
+      - "Acknowledge their feelings, apologize for the issue, and focus on solving the problem"
+      - "Hang up"
+    answer: "Acknowledge their feelings, apologize for the issue, and focus on solving the problem"
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "What is 'active listening' in customer service?"
+    options:
+      - "Listening while doing other tasks"
+      - "Listening with full attention, showing understanding, and responding appropriately"
+      - "Listening only to respond"
+      - "Pretending to listen"
+    answer: "Listening with full attention, showing understanding, and responding appropriately"
+    xp_reward: 15
+
+  - id: 84
+    type: multiple_choice
+    question: "What should you say when a customer is waiting?"
+    options:
+      - "Just wait"
+      - "I'll be with you shortly - thank you for your patience"
+      - "Be quiet"
+      - "I'm busy"
+    answer: "I'll be with you shortly - thank you for your patience"
+    xp_reward: 15
+
+  - id: 85
+    type: multiple_choice
+    question: "How do you professionally handle a request you can't fulfill?"
+    options:
+      - "Say 'No' and hang up"
+      - "Say 'That's impossible'"
+      - "Acknowledge the request, explain why you can't fulfill it, and offer alternatives"
+      - "Pretend you didn't hear"
+    answer: "Acknowledge the request, explain why you can't fulfill it, and offer alternatives"
+    xp_reward: 15
+
+  - id: 86
+    type: multiple_choice
+    question: "What does 'under-promise and over-deliver' mean in customer service?"
+    options:
+      - "Say you'll do less than you actually can, then do more"
+      - "Promise everything and deliver nothing"
+      - "Never make promises"
+      - "Always promise more than possible"
+    answer: "Say you'll do less than you actually can, then do more"
+    xp_reward: 15
+
+  - id: 87
+    type: multiple_choice
+    question: "How should you end a customer service interaction?"
+    options:
+      - "Just hang up"
+      - "Is there anything else I can help you with today?"
+      - "Finally, you're done"
+      - "Goodbye forever"
+    answer: "Is there anything else I can help you with today?"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (88-92)
+  - id: 88
+    type: fill_blank
+    question: "Complete the acknowledgment phrase"
+    text_with_blank: "I completely ___ your frustration, and I'm going to help resolve this."
+    options: ["understand", "recognize", "appreciate", "hear"]
+    correct_answer: "understand"
+    xp_reward: 15
+
+  - id: 89
+    type: fill_blank
+    question: "Complete the apology phrase"
+    text_with_blank: "I sincerely ___ for the inconvenience this has caused you."
+    options: ["apologize", "am sorry", "regret", "feel bad"]
+    correct_answer: "apologize"
+    xp_reward: 15
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the solution offer"
+    text_with_blank: "Let me ___ what I can do to make this right."
+    options: ["see", "check", "investigate", "determine"]
+    correct_answer: "see"
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the follow-up commitment"
+    text_with_blank: "I will ___ back to you within 24 hours with an update."
+    options: ["get", "come", "reach", "call"]
+    correct_answer: "get"
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complete the closing check"
+    text_with_blank: "Is there ___ else I can assist you with today?"
+    options: ["anything", "something", "nothing", "everything"]
+    correct_answer: "anything"
+    xp_reward: 15
+
+  # TRUE / FALSE (93-95)
+  - id: 93
+    type: true_false
+    question: "Is this statement true or false? Using the customer's name in conversation builds rapport."
+    statement: "Using the customer's name in conversation builds rapport."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 94
+    type: true_false
+    question: "Is this statement true or false? Interrupting the customer shows you're engaged and listening."
+    statement: "Interrupting the customer shows you're engaged and listening."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 95
+    type: true_false
+    question: "Is this statement true or false? Following up after resolving an issue shows you care about the customer."
+    statement: "Following up after resolving an issue shows you care about the customer."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (96-98)
+  - id: 96
+    type: matching
+    question: "Match the customer communication scenario with the best response"
+    pairs:
+      - left: "Customer is angry about a delay"
+        right: "I understand your frustration. Let me check the status and get back to you."
+      - left: "Customer doesn't understand the product"
+        right: "Let me explain how this works. Do you have any specific questions?"
+      - left: "Customer wants a refund"
+        right: "I understand. Let me process that refund for you right away."
+      - left: "Customer is in a hurry"
+        right: "I'll be as quick as possible. Thank you for your patience."
+      - left: "Customer compliments your service"
+        right: "Thank you so much! I'm glad I could help."
+    xp_reward: 25
+
+  - id: 97
+    type: matching
+    question: "Match the customer service principle with its description"
+    pairs:
+      - left: "Empathy"
+        right: "Understanding and sharing customer feelings"
+      - left: "Clarity"
+        right: "Communicating clearly without jargon"
+      - left: "Timeliness"
+        right: "Responding and resolving quickly"
+      - left: "Ownership"
+        right: "Taking responsibility until resolution"
+      - left: "Professionalism"
+        right: "Maintaining composure and respect"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Match the customer communication channel with its best use"
+    pairs:
+      - left: "Phone call"
+        right: "Complex or urgent issues requiring dialogue"
+      - left: "Email"
+        right: "Detailed information, documentation, non-urgent"
+      - left: "Live chat"
+        right: "Quick questions, real-time support"
+      - left: "Social media"
+        right: "Public responses, brand monitoring"
+      - left: "FAQ page"
+        right: "Self-service for common questions"
+    xp_reward: 25
+
+  # FLASHCARDS (99-100)
+  - id: 99
+    type: flashcards
+    question: "Flashcards: Customer Service Phrases"
+    flashcards:
+      - front: "Thank you for bringing this to my attention"
+        right: "Shows appreciation for feedback"
+      - front: "I can see why that would be frustrating"
+        right: "Validates customer emotion"
+      - front: "Let me take ownership of this issue"
+        right: "Shows accountability"
+      - front: "Here's what I'm going to do for you"
+        right: "States clear action plan"
+      - front: "I appreciate your patience throughout this"
+        right: "Acknowledges customer's time"
+    xp_reward: 30
+
+  - id: 100
+    type: flashcards
+    question: "Flashcards: Customer Service Don'ts"
+    flashcards:
+      - front: "That's not my job"
+        right: "Never deflect responsibility"
+      - front: "You're wrong"
+        right: "Never blame the customer"
+      - front: "Calm down"
+        right: "Never tell customer to calm down"
+      - front: "I don't know"
+        right: "Say 'Let me find out' instead"
+      - front: "No problem"
+        right: "Say 'You're welcome' instead"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: ADVERTISING VOCABULARY (101-115)
+  # ============================================
+
+  # MULTIPLE CHOICE (101-107)
+  - id: 101
+    type: multiple_choice
+    question: "What is a 'call to action' (CTA) in advertising?"
+    options:
+      - "A phone call"
+      - "A specific instruction telling the audience what to do next"
+      - "A type of action movie"
+      - "A legal document"
+    answer: "A specific instruction telling the audience what to do next"
+    xp_reward: 15
+
+  - id: 102
+    type: multiple_choice
+    question: "What is 'A/B testing' in advertising?"
+    options:
+      - "Testing from A to B"
+      - "Comparing two versions of an ad to see which performs better"
+      - "Testing one ad only"
+      - "A type of blood test"
+    answer: "Comparing two versions of an ad to see which performs better"
+    xp_reward: 15
+
+  - id: 103
+    type: multiple_choice
+    question: "What does 'CPM' stand for in advertising?"
+    options:
+      - "Cost Per Thousand impressions"
+      - "Click Per Minute"
+      - "Customer Per Month"
+      - "Cost Per Million"
+    answer: "Cost Per Thousand impressions"
+    xp_reward: 15
+
+  - id: 104
+    type: multiple_choice
+    question: "What does 'CPC' stand for in advertising?"
+    options:
+      - "Cost Per Click"
+      - "Click Per Customer"
+      - "Cost Per Conversion"
+      - "Content Per Channel"
+    answer: "Cost Per Click"
+    xp_reward: 15
+
+  - id: 105
+    type: multiple_choice
+    question: "What is a 'headline' in advertising?"
+    options:
+      - "A type of injury"
+      - "The main attention-grabbing text in an ad"
+      - "The price of the product"
+      - "The company logo"
+    answer: "The main attention-grabbing text in an ad"
+    xp_reward: 15
+
+  - id: 106
+    type: multiple_choice
+    question: "What does 'retargeting' mean in advertising?"
+    options:
+      - "Shooting at a target again"
+      - "Showing ads to people who have already visited your website"
+      - "Changing your target audience"
+      - "Lowering your ad budget"
+    answer: "Showing ads to people who have already visited your website"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What is an 'impression' in advertising?"
+    options:
+      - "A fake image"
+      - "The number of times an ad is displayed"
+      - "The number of clicks on an ad"
+      - "The number of sales from an ad"
+    answer: "The number of times an ad is displayed"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (108-111)
+  - id: 108
+    type: fill_blank
+    question: "Complete the CTA phrase"
+    text_with_blank: "___ now to get 20% off your first purchase."
+    options: ["Shop", "Buy", "Order", "Click"]
+    correct_answer: "Shop"
+    xp_reward: 15
+
+  - id: 109
+    type: fill_blank
+    question: "Complete the value proposition"
+    text_with_blank: "Limited time ___ - don't miss out!"
+    options: ["offer", "deal", "promotion", "sale"]
+    correct_answer: "offer"
+    xp_reward: 15
+
+  - id: 110
+    type: fill_blank
+    question: "Complete the headline formula"
+    text_with_blank: "How to ___ your productivity in 7 days"
+    options: ["double", "increase", "boost", "maximize"]
+    correct_answer: "double"
+    xp_reward: 15
+
+  - id: 111
+    type: fill_blank
+    question: "Complete the urgency statement"
+    text_with_blank: "Only ___ left in stock - order today!"
+    options: ["few", "some", "several", "limited"]
+    correct_answer: "few"
+    xp_reward: 15
+
+  # TRUE / FALSE (112-113)
+  - id: 112
+    type: true_false
+    question: "Is this statement true or false? The most effective ads have a single, clear message."
+    statement: "The most effective ads have a single, clear message."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Is this statement true or false? Using all capital letters in ad headlines is always effective."
+    statement: "Using all capital letters in ad headlines is always effective."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (114-115)
+  - id: 114
+    type: matching
+    question: "Match the ad element with its purpose"
+    pairs:
+      - left: "Headline"
+        right: "Grab attention instantly"
+      - left: "Subheadline"
+        right: "Provide supporting detail"
+      - left: "Body copy"
+        right: "Explain benefits and features"
+      - left: "Visual/image"
+        right: "Communicate emotion and product"
+      - left: "Call to action (CTA)"
+        right: "Tell audience what to do next"
+    xp_reward: 25
+
+  - id: 115
+    type: matching
+    question: "Match the advertising term with its meaning"
+    pairs:
+      - left: "Ad spend"
+        right: "Budget allocated to advertising"
+      - left: "Reach"
+        right: "Number of unique people exposed to ad"
+      - left: "Frequency"
+        right: "Average number of times person sees ad"
+      - left: "Conversion"
+        right: "Desired action completed"
+      - left: "Attribution"
+        right: "Determining which ad led to conversion"
+    xp_reward: 25
+
+  # ============================================
+  # SECTION 7: PITCHING PRODUCTS AND SERVICES (116-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (116-120)
+  - id: 116
+    type: multiple_choice
+    question: "What is an 'elevator pitch'?"
+    options:
+      - "A pitch in an elevator"
+      - "A very brief summary of your product/service that can be delivered in 30-60 seconds"
+      - "A pitch about elevators"
+      - "A written proposal"
+    answer: "A very brief summary of your product/service that can be delivered in 30-60 seconds"
+    xp_reward: 15
+
+  - id: 117
+    type: multiple_choice
+    question: "What is the ideal length of an effective pitch?"
+    options:
+      - "30-90 seconds"
+      - "30 minutes"
+      - "2 hours"
+      - "One sentence"
+    answer: "30-90 seconds"
+    xp_reward: 15
+
+  - id: 118
+    type: multiple_choice
+    question: "What should your pitch include?"
+    options:
+      - "Only your name"
+      - "Who you are, what you do, who it's for, what problem it solves, and why you're different"
+      - "Your entire life story"
+      - "Only the price"
+    answer: "Who you are, what you do, who it's for, what problem it solves, and why you're different"
+    xp_reward: 15
+
+  - id: 119
+    type: multiple_choice
+    question: "What is a 'value proposition' in a pitch?"
+    options:
+      - "The price of the product"
+      - "The clear statement of the value the customer will receive"
+      - "The product's color"
+      - "The delivery time"
+    answer: "The clear statement of the value the customer will receive"
+    xp_reward: 15
+
+  - id: 120
+    type: multiple_choice
+    question: "What is the best way to end a pitch?"
+    options:
+      - "Just stop talking"
+      - "That's it"
+      - "Ask for a specific next step (e.g., 'Can we schedule a follow-up call?')"
+      - "Walk away silently"
+    answer: "Ask for a specific next step (e.g., 'Can we schedule a follow-up call?')"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (121-124)
+  - id: 121
+    type: fill_blank
+    question: "Complete the pitch opening"
+    text_with_blank: "Hi, I'm [Name] from [Company], and we help [target audience] ___."
+    options: ["achieve", "accomplish", "solve", "address"]
+    correct_answer: "achieve"
+    xp_reward: 15
+
+  - id: 122
+    type: fill_blank
+    question: "Complete the problem statement"
+    text_with_blank: "Many businesses struggle with [problem], which leads to lost ___ and efficiency."
+    options: ["revenue", "money", "income", "profit"]
+    correct_answer: "revenue"
+    xp_reward: 15
+
+  - id: 123
+    type: fill_blank
+    question: "Complete the solution statement"
+    text_with_blank: "Our [product/service] solves this by ___."
+    options: ["automating", "simplifying", "streamlining", "optimizing"]
+    correct_answer: "streamlining"
+    xp_reward: 15
+
+  - id: 124
+    type: fill_blank
+    question: "Complete the differentiation statement"
+    text_with_blank: "What makes us different from competitors is our focus on ___."
+    options: ["customer success", "quality", "innovation", "value"]
+    correct_answer: "customer success"
+    xp_reward: 15
+
+  # TRUE / FALSE (125-126)
+  - id: 125
+    type: true_false
+    question: "Is this statement true or false? Your pitch should be memorized word for word."
+    statement: "Your pitch should be memorized word for word."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 126
+    type: true_false
+    question: "Is this statement true or false? You should adapt your pitch based on who you're talking to."
+    statement: "You should adapt your pitch based on who you're talking to."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (127-128)
+  - id: 127
+    type: matching
+    question: "Match the pitch element with what it answers"
+    pairs:
+      - left: "Who you are"
+        right: "Why should they listen to you?"
+      - left: "What you do"
+        right: "What product/service do you offer?"
+      - left: "Problem you solve"
+        right: "What pain point do you address?"
+      - left: "Value proposition"
+        right: "What's in it for the customer?"
+      - left: "Differentiation"
+        right: "Why you over competitors?"
+    xp_reward: 25
+
+  - id: 128
+    type: matching
+    question: "Match the pitch scenario with the appropriate approach"
+    pairs:
+      - left: "Networking event"
+        right: "30-second elevator pitch, focus on hook"
+      - left: "Investor meeting"
+        right: "Longer pitch with data and business model"
+      - left: "Sales call with potential client"
+        right: "Focus on their specific pain points"
+      - left: "Conference presentation"
+        right: "Story-driven, engaging, high-level"
+      - left: "Job interview"
+        right: "Personal value proposition, relevant skills"
+    xp_reward: 25
+
+  # FLASHCARDS (129-130)
+  - id: 129
+    type: flashcards
+    question: "Flashcards: Pitch Structure"
+    flashcards:
+      - front: "The Hook"
+        right: "Grab attention immediately"
+      - front: "The Problem"
+        right: "Identify what you solve"
+      - front: "The Solution"
+        right: "Explain your product/service"
+      - front: "The Proof"
+        right: "Share evidence or testimonials"
+      - front: "The Ask"
+        right: "Request specific next step"
+    xp_reward: 30
+
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Sales & Marketing Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "What does SPIN stand for in sales"
+        answer: "Situation Problem Implication Need payoff"
+      - question: "Difference between feature and benefit"
+        answer: "Feature is what product does benefit is customer gain"
+      - question: "What BATNA stands for"
+        answer: "Best Alternative To Negotiated Agreement"
+      - question: "What ROI stands for"
+        answer: "Return on Investment"
+      - question: "What CTA stands for in advertising"
+        answer: "Call to action"
+      - question: "Ideal length of elevator pitch"
+        answer: "30 to 60 seconds"
+      - question: "What CPC stands for"
+        answer: "Cost Per Click"
+      - question: "First rule of customer communication"
+        answer: "Listen more than talk"
+    xp_reward: 50

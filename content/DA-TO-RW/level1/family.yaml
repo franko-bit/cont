@@ -1,0 +1,1060 @@
+lesson:
+ name: "Familie - Umuryango"
+ description: "Lær Familie member names in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Familie Members ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Mother' på kinyarwanda?"
+ Svar: "Mama"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Father' på kinyarwanda?"
+ Svar: "Data"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Brother' på kinyarwanda?"
+ Svar: "Musaza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Sister' på kinyarwanda?"
+ Svar: "Mushiki"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Child' på kinyarwanda?"
+ Svar: "Umwana"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Grandmother' på kinyarwanda?"
+ Svar: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Grandfather' på kinyarwanda?"
+ Svar: "Sogokuru"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Husband' på kinyarwanda?"
+ Svar: "Umugabo"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Wife' på kinyarwanda?"
+ Svar: "Umugore"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Paternal uncle' på kinyarwanda?"
+ Svar: "Datawabo"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Maternal uncle' på kinyarwanda?"
+ Svar: "Marume"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Paternal aunt' på kinyarwanda?"
+ Svar: "Masenge"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Maternal aunt' på kinyarwanda?"
+ Svar: "Nyirarume"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Grandchild' på kinyarwanda?"
+ Svar: "Umwuzukuru"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Great-grandchild' på kinyarwanda?"
+ Svar: "Umwuzukuruza"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Son-in-law / Groom' på kinyarwanda?"
+ Svar: "Umukwe"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Father-in-law' på kinyarwanda?"
+ Svar: "Sebukwe"
+ xp_reward: 10
+
+ # Translation - Hilsner & Basic Phrases (Safe as fixed expressions)
+ - id: 18
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Hej, mother!' på kinyarwanda?"
+ Svar: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 19
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Hej, father!' på kinyarwanda?"
+ Svar: "Muraho, Data!"
+ xp_reward: 12
+
+ - id: 20
+ type: translation
+ Spørgsmål: "Hvordan spørger man 'How is the Familie?' på kinyarwanda?"
+ Svar: "Umuryango umeze ute?"
+ xp_reward: 15
+
+ # Translation - Possession (Simple phrases with "have")
+ - id: 21
+ type: translation
+ Spørgsmål: "Hvordan siger man 'I have a brother' på kinyarwanda?"
+ Svar: "Mfite Musaza."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Spørgsmål: "Hvordan siger man 'I have a sister' på kinyarwanda?"
+ Svar: "Mfite Mushiki."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Spørgsmål: "Hvordan siger man 'My grandfather has a Hus' på kinyarwanda?"
+ Svar: "Sogokuru afite inzu."
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR COMPLEX Sætning OR PARAGRAPHS
+ # Instead, we use Sætning building, Match, and Ord bank exercises
+
+ # 2. Multiple Choice
+ - id: 24
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Mama' i denne sætning?"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ - "Sister"
+ Svar: "Mother"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Data' i denne sætning?"
+ options:
+ - "Mother"
+ - "Father"
+ - "Grandfather"
+ - "Uncle"
+ Svar: "Father"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Musaza' i denne sætning?"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ - "Husband"
+ Svar: "Brother"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Mushiki' i denne sætning?"
+ options:
+ - "Brother"
+ - "Sister"
+ - "Mother"
+ - "Aunt"
+ Svar: "Sister"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Nyogokuru' i denne sætning?"
+ options:
+ - "Grandfather"
+ - "Grandmother"
+ - "Aunt"
+ - "Uncle"
+ Svar: "Grandmother"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Sogokuru' i denne sætning?"
+ options:
+ - "Grandmother"
+ - "Grandfather"
+ - "Father-in-law"
+ - "Uncle"
+ Svar: "Grandfather"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Datawabo' i denne sætning?"
+ options:
+ - "Maternal uncle"
+ - "Paternal uncle"
+ - "Father-in-law"
+ - "Grandfather"
+ Svar: "Paternal uncle"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Marume' i denne sætning?"
+ options:
+ - "Paternal uncle"
+ - "Maternal uncle"
+ - "Brother"
+ - "Son-in-law"
+ Svar: "Maternal uncle"
+ xp_reward: 15
+
+ # 3. Lyt and Type (Dictation) - Safe because audio is provided
+ - id: 32
+ type: listen_and_type
+ Spørgsmål: "Lyt and type the Familie member"
+ tts_text: "Mama"
+ Svar: "Mama"
+ translation: "Mother"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Spørgsmål: "Lyt and type the Familie member"
+ tts_text: "Data"
+ Svar: "Data"
+ translation: "Father"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Spørgsmål: "Lyt and type the Familie member"
+ tts_text: "Nyogokuru"
+ Svar: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Mama ari mu nzu"
+ Svar: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 25
+
+ - id: 36
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Data ari mu kazi"
+ Svar: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 25
+
+ - id: 37
+ type: listen_and_type
+ Spørgsmål: "Lyt and type the Spørgsmål"
+ tts_text: "Umuryango umeze ute"
+ Svar: "Umuryango umeze ute"
+ translation: "How is the Familie?"
+ xp_reward: 25
+
+ # 4. Lyt and Vælg
+ - id: 38
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt Familie member"
+ tts_text: "Mama"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ Svar: "Mother"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt Familie member"
+ tts_text: "Data"
+ options:
+ - "Mother"
+ - "Father"
+ - "Sister"
+ Svar: "Father"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt Familie member"
+ tts_text: "Musaza"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ Svar: "Brother"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt phrase"
+ tts_text: "Mama ari mu nzu"
+ options:
+ - "Mother is at home"
+ - "Father is working"
+ - "Brother is playing"
+ Svar: "Mother is at home"
+ xp_reward: 20
+
+ # 5. Repeat / Tal Exercise
+ - id: 42
+ type: Tal
+ Spørgsmål: "Say this Familie member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 43
+ type: Tal
+ Spørgsmål: "Say this Familie member"
+ prompt: "Data"
+ translation: "Father"
+ xp_reward: 15
+
+ - id: 44
+ type: Tal
+ Spørgsmål: "Say this Familie member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 45
+ type: Tal
+ Spørgsmål: "Say this Sætning"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 46
+ type: Tal
+ Spørgsmål: "Say this Sætning"
+ prompt: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 47
+ type: Tal
+ Spørgsmål: "Say this Spørgsmål"
+ prompt: "Umuryango umeze ute"
+ translation: "How is the Familie?"
+ xp_reward: 20
+
+ # 6. Ord Bank Sætning Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 48
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'Mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 49
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'Father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ xp_reward: 22
+
+ - id: 51
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My sister Læs a book'"
+ word_bank: ["Mushiki", "arasoma", "igitabo", "Musaza", "arakina", "hanze"]
+ correct_answer: ["Mushiki", "arasoma", "igitabo"]
+ xp_reward: 22
+
+ - id: 52
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'I love my grandmother'"
+ word_bank: ["Nkunda", "Nyogokuru", "Sogokuru", "arasaza", "cyane"]
+ correct_answer: ["Nkunda", "Nyogokuru"]
+ xp_reward: 20
+
+ - id: 53
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My grandfather is very old'"
+ word_bank: ["Sogokuru", "arasaza", "cyane", "Nyogokuru", "araduteka"]
+ correct_answer: ["Sogokuru", "arasaza", "cyane"]
+ xp_reward: 22
+
+ - id: 54
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'I have a brother'"
+ word_bank: ["Mfite", "Musaza", "Mushiki", "Umwana"]
+ correct_answer: ["Mfite", "Musaza"]
+ xp_reward: 18
+
+ - id: 55
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My grandfather has a Hus'"
+ word_bank: ["Sogokuru", "afite", "inzu", "Nyogokuru", "araduteka", "ibiryo"]
+ correct_answer: ["Sogokuru", "afite", "inzu"]
+ xp_reward: 20
+
+ - id: 56
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My grandmother cooks Mad'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 22
+
+ - id: 57
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My paternal uncle has a Ged'"
+ word_bank: ["Datawabo", "afite", "ihene", "Marume", "inka", "afite"]
+ correct_answer: ["Datawabo", "afite", "ihene"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My maternal uncle has a Ko'"
+ word_bank: ["Marume", "afite", "inka", "Datawabo", "ihene", "afite"]
+ correct_answer: ["Marume", "afite", "inka"]
+ xp_reward: 22
+
+ - id: 59
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My paternal aunt is kind'"
+ word_bank: ["Masenge", "ni", "mwiza", "Nyirarume", "ni", "mwiza", "cyane"]
+ correct_answer: ["Masenge", "ni", "mwiza"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My maternal aunt is very nice'"
+ word_bank: ["Nyirarume", "ni", "mwiza", "cyane", "Masenge", "ni", "mwiza"]
+ correct_answer: ["Nyirarume", "ni", "mwiza", "cyane"]
+ xp_reward: 22
+
+ - id: 61
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My child is playing'"
+ word_bank: ["Umwana", "arakinira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwana", "arakinira"]
+ xp_reward: 18
+
+ - id: 62
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My grandchild likes to Læs'"
+ word_bank: ["Umwuzukuru", "akunda", "gusoma", "Umwana", "arakinira"]
+ correct_answer: ["Umwuzukuru", "akunda", "gusoma"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My great-grandchild sleeps'"
+ word_bank: ["Umwuzukuruza", "arahunyira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwuzukuruza", "arahunyira"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My son-in-law is helpful'"
+ word_bank: ["Umukwe", "ni", "umufasha", "Sebukwe", "ni", "inyangamugayo"]
+ correct_answer: ["Umukwe", "ni", "umufasha"]
+ xp_reward: 20
+
+ - id: 65
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My father-in-law is wise'"
+ word_bank: ["Sebukwe", "ni", "inyangamugayo", "Umukwe", "ni", "umufasha"]
+ correct_answer: ["Sebukwe", "ni", "inyangamugayo"]
+ xp_reward: 20
+
+ # 7. Sætning Scramble - PIECES PROVIDED
+ - id: 66
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["ari", "Mama", "mu nzu"]
+ correct_sentence: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 67
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["ari", "Data", "mu kazi"]
+ correct_sentence: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["arakina", "Musaza", "hanze"]
+ correct_sentence: "Musaza arakina hanze"
+ translation: "My brother plays outside"
+ xp_reward: 22
+
+ - id: 69
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["arasoma", "Mushiki", "igitabo"]
+ correct_sentence: "Mushiki arasoma igitabo"
+ translation: "My sister Læs a book"
+ xp_reward: 22
+
+ - id: 70
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["Nkunda", "Nyogokuru"]
+ correct_sentence: "Nkunda Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["arasaza", "Sogokuru", "cyane"]
+ correct_sentence: "Sogokuru arasaza cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 20
+
+ - id: 72
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["afite", "Sogokuru", "inzu"]
+ correct_sentence: "Sogokuru afite inzu"
+ translation: "My grandfather has a Hus"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["araduteka", "Nyogokuru", "ibiryo"]
+ correct_sentence: "Nyogokuru araduteka ibiryo"
+ translation: "My grandmother cooks Mad"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Vælg FROM OPTIONS
+ - id: 74
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Mama ___ mu nzu."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Data ___ mu kazi."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 76
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Musaza ___ hanze."
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ - id: 77
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Mushiki ___ igitabo."
+ options: ["arasoma", "arakina", "ari"]
+ correct_answer: "arasoma"
+ translation: "My sister Læs a book"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Nkunda ___."
+ options: ["Nyogokuru", "Sogokuru", "Data"]
+ correct_answer: "Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Sogokuru arasaza ___."
+ options: ["cyane", "neza", "nziza"]
+ correct_answer: "cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 15
+
+ - id: 80
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Sogokuru ___ inzu."
+ options: ["afite", "ari", "ni"]
+ correct_answer: "afite"
+ translation: "My grandfather has a Hus"
+ xp_reward: 15
+
+ - id: 81
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Nyogokuru araduteka ___."
+ options: ["ibiryo", "amazi", "inyama"]
+ correct_answer: "ibiryo"
+ translation: "My grandmother cooks Mad"
+ xp_reward: 18
+
+ # 9. Picture → Ord (Unsplash Images)
+ - id: 82
+ type: picture_word
+ Spørgsmål: "Who is this Familie member?"
+ image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Nyogokuru", "Sogokuru"]
+ correct_answer: "Mama"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ Spørgsmål: "Who is this Familie member?"
+ image_url: "https://source.unsplash.com/featured/?fatherhttps://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Musaza", "Mushiki"]
+ correct_answer: "Data"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ Spørgsmål: "Who is this Familie member?"
+ image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Nyogokuru", "Sogokuru", "Mama", "Data"]
+ correct_answer: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ Spørgsmål: "Who is this Familie member?"
+ image_url: "https://source.unsplash.com/featured/?grandfather"
+ options: ["Sogokuru", "Nyogokuru", "Data", "Marume"]
+ correct_answer: "Sogokuru"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Spørgsmål: "Who is this Familie member?"
+ image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Musaza", "Mushiki", "Umwana", "Data"]
+ correct_answer: "Musaza"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Spørgsmål: "Who is this Familie member?"
+ image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mushiki", "Musaza", "Mama", "Nyogokuru"]
+ correct_answer: "Mushiki"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Spørgsmål: "Who is this Familie member?"
+ image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umwana", "Umwuzukuru", "Musaza", "Mushiki"]
+ correct_answer: "Umwana"
+ xp_reward: 10
+
+ 
+ # 10. Ord Match (Pairing)
+ - id: 90
+ type: Match
+ Spørgsmål: "Match the Familie members"
+ pairs:
+ - Venstre: "Mother"
+ Højre: "Mama"
+ - Venstre: "Father"
+ Højre: "Data"
+ - Venstre: "Brother"
+ Højre: "Musaza"
+ - Venstre: "Sister"
+ Højre: "Mushiki"
+ - Venstre: "Child"
+ Højre: "Umwana"
+ - Venstre: "Grandmother"
+ Højre: "Nyogokuru"
+ - Venstre: "Grandfather"
+ Højre: "Sogokuru"
+ - Venstre: "Husband"
+ Højre: "Umugabo"
+ - Venstre: "Wife"
+ Højre: "Umugore"
+ xp_reward: 25
+
+ - id: 91
+ type: Match
+ Spørgsmål: "Match the extended Familie members"
+ pairs:
+ - Venstre: "Paternal uncle"
+ Højre: "Datawabo"
+ - Venstre: "Maternal uncle"
+ Højre: "Marume"
+ - Venstre: "Paternal aunt"
+ Højre: "Masenge"
+ - Venstre: "Maternal aunt"
+ Højre: "Nyirarume"
+ - Venstre: "Grandchild"
+ Højre: "Umwuzukuru"
+ - Venstre: "Great-grandchild"
+ Højre: "Umwuzukuruza"
+ - Venstre: "Son-in-law"
+ Højre: "Umukwe"
+ - Venstre: "Father-in-law"
+ Højre: "Sebukwe"
+ xp_reward: 25
+
+ - id: 92
+ type: Match
+ Spørgsmål: "Match the actions with Familie members"
+ pairs:
+ - Venstre: "is at home"
+ Højre: "ari mu nzu"
+ - Venstre: "is working"
+ Højre: "ari mu kazi"
+ - Venstre: "plays outside"
+ Højre: "arakina hanze"
+ - Venstre: "Læs a book"
+ Højre: "arasoma igitabo"
+ - Venstre: "cooks Mad"
+ Højre: "araduteka ibiryo"
+ - Venstre: "has a Hus"
+ Højre: "afite inzu"
+ xp_reward: 25
+
+ # 11. Vælg Missing Ord
+ - id: 97
+ type: choose_missing
+ Spørgsmål: "Vælg the missing Ord"
+ Sætning: "Mama ___ mu nzu."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 98
+ type: choose_missing
+ Spørgsmål: "Vælg the missing Ord"
+ Sætning: "Data ___ mu kazi."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 99
+ type: choose_missing
+ Spørgsmål: "Vælg the missing Ord"
+ Sætning: "Musaza ___ hanze."
+ missing_word_position: 2
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ # 12. Læs and Svar - Spørgsmål in English, Svar based on Kinyarwanda text
+ - id: 100
+ type: read_answer
+ Spørgsmål: "Læs the text and Svar the Spørgsmål"
+ text: "Mama ari mu nzu. Data ari mu kazi."
+ Spørgsmål: "Where is the mother?"
+ options: ["At home", "At work", "Outside", "At the Marked"]
+ correct_answer: "At home"
+ xp_reward: 20
+
+ - id: 101
+ type: read_answer
+ Spørgsmål: "Læs the text and Svar the Spørgsmål"
+ text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+ Spørgsmål: "Hvad er the sister doing?"
+ options: ["Playing", "Læs a book", "Working", "Cooking"]
+ correct_answer: "Læs a book"
+ xp_reward: 22
+
+ - id: 102
+ type: read_answer
+ Spørgsmål: "Læs the text and Svar the Spørgsmål"
+ text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+ Spørgsmål: "Hvad betyder the grandfather have?"
+ options: ["A Ko", "A Hus", "A Ged", "A book"]
+ correct_answer: "A Hus"
+ xp_reward: 20
+
+ - id: 103
+ type: read_answer
+ Spørgsmål: "Læs the text and Svar the Spørgsmål"
+ text: "Datawabo afite ihene. Marume afite inka."
+ Spørgsmål: "Hvad betyder the maternal uncle have?"
+ options: ["A Ged", "A Ko", "A Hus", "A Kylling"]
+ correct_answer: "A Ko"
+ xp_reward: 22
+
+ # 13. True / False
+ - id: 104
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "Mama ni umugore."
+ translation: "Mother is a woman"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 105
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "Data ni umugore."
+ translation: "Father is a woman"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 106
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "Nyogokuru arasaza cyane."
+ translation: "Grandmother is very old"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 107
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "Umwana arakina hanze."
+ translation: "The child plays outside"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 108
+ type: conversation
+ Spørgsmål: "Respond to the Spørgsmål by building a Sætning"
+ bot_message: "Mama ari he?"
+ translation: "Where is mother?"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "ari", "mu kazi"]
+ correct_response: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 109
+ type: conversation
+ Spørgsmål: "Respond to the Spørgsmål"
+ bot_message: "Umuryango umeze ute?"
+ translation: "How is the Familie?"
+ options:
+ - "Umeze neza"
+ - "Umeze nabi"
+ - "Umeze ute"
+ correct_response: "Umeze neza"
+ xp_reward: 15
+
+ - id: 110
+ type: conversation
+ Spørgsmål: "Respond to the Spørgsmål by building a Sætning"
+ bot_message: "Data ari he?"
+ translation: "Where is father?"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "ari", "mu nzu"]
+ correct_response: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build Sætning from pieces
+ - id: 111
+ type: story
+ title: "My Familie - Umuryango Wanjye"
+ story_intro: "Læs about the Familie. Then build the Sætning."
+ story_segments:
+ - text: "My mother is at home."
+ image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+ - text: "My father is working."
+ - text: "My brother plays outside."
+ - text: "My sister Læs a book."
+ - text: "My grandmother cooks Mad."
+ - text: "My grandfather has a Hus."
+ exercises:
+ - type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ - type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ - type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ - type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'My grandmother cooks Mad'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 112
+ type: pronunciation
+ Spørgsmål: "Say this Familie member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ Spørgsmål: "Say this Familie member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ Spørgsmål: "Say this Sætning"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ # 17. Identify Korrekt Meaning
+ - id: 115
+ type: identify_meaning
+ Spørgsmål: "Hvad betyder 'Mama' mean in this Sætning?"
+ context_sentence: "Mama ari mu nzu."
+ Ord: "Mama"
+ options: ["father", "mother", "brother", "sister"]
+ correct_answer: "mother"
+ xp_reward: 15
+
+ - id: 116
+ type: identify_meaning
+ Spørgsmål: "Hvad betyder 'arakina' mean in this Sætning?"
+ context_sentence: "Musaza arakina hanze."
+ Ord: "arakina"
+ options: ["Læs", "plays", "works", "cooks"]
+ correct_answer: "plays"
+ xp_reward: 18
+
+ - id: 117
+ type: identify_meaning
+ Spørgsmål: "Hvad betyder 'araduteka' mean in this Sætning?"
+ context_sentence: "Nyogokuru araduteka ibiryo."
+ Ord: "araduteka"
+ options: ["cooks", "eats", "has", "loves"]
+ correct_answer: "cooks"
+ xp_reward: 18
+
+ # 18. Speed Match
+ - id: 118
+ type: speed_Match
+ title: "Match Madness: Familie"
+ time_limit_seconds: 45
+ pairs:
+ - Venstre: "Mother"
+ Højre: "Mama"
+ - Venstre: "Father"
+ Højre: "Data"
+ - Venstre: "Brother"
+ Højre: "Musaza"
+ - Venstre: "Sister"
+ Højre: "Mushiki"
+ - Venstre: "Grandmother"
+ Højre: "Nyogokuru"
+ - Venstre: "Grandfather"
+ Højre: "Sogokuru"
+ - Venstre: "Child"
+ Højre: "Umwana"
+ - Venstre: "Husband"
+ Højre: "Umugabo"
+ - Venstre: "Wife"
+ Højre: "Umugore"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 119
+ type: timed_challenge
+ title: "Lightning Round: Familie"
+ time_limit_seconds: 30
+ Spørgsmål_count: 5
+ Spørgsmål:
+ - Spørgsmål: "Mother"
+ Svar: "Mama"
+ - Spørgsmål: "Father"
+ Svar: "Data"
+ - Spørgsmål: "Brother"
+ Svar: "Musaza"
+ - Spørgsmål: "Sister"
+ Svar: "Mushiki"
+ - Spørgsmål: "Grandmother"
+ Svar: "Nyogokuru"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Spørgsmål: "Flashcards"
+ Flashcards:
+ - front: "Mama"
+ back: "Mother"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Data"
+ back: "Father"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Musaza"
+ back: "Brother"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Mushiki"
+ back: "Sister"
+ image: "https://images.pexels.com/photos/45201/kitty-Kat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umwana"
+ back: "Child"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyogokuru"
+ back: "Grandmother"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Sogokuru"
+ back: "Grandfather"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugabo"
+ back: "Husband"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugore"
+ back: "Wife"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Datawabo"
+ back: "Paternal uncle"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

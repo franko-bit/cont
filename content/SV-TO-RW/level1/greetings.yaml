@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "Lär dig common greetings och expressions i Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe för single words/phrases)
+ - id: 1
+ type: translation
+ Fråga: "Hur säger man 'Hej' på kinyarwanda?"
+ Svar: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Fråga: "Hur säger man 'bra morning' på kinyarwanda?"
+ Svar: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Fråga: "Hur säger man 'bra afternoon / bra evening' på kinyarwanda?"
+ Svar: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Fråga: "Hur säger man 'bra night' på kinyarwanda?"
+ Svar: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Fråga: "Hur frågar man 'How är you?' på kinyarwanda?"
+ Svar: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Fråga: "Hur säger man 'I'm fine' på kinyarwanda?"
+ Svar: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Fråga: "Hur säger man 'Welcome' på kinyarwanda?"
+ Svar: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Fråga: "Hur säger man 'se you later' på kinyarwanda?"
+ Svar: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Fråga: "Hur säger man 'Adjö' på kinyarwanda?"
+ Svar: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Fråga: "Hur säger man 'Have en nice day' på kinyarwanda?"
+ Svar: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Fråga: "Hur säger man 'Take care' på kinyarwanda?"
+ Svar: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Fråga: "Hur säger man 'Long time nej se' på kinyarwanda?"
+ Svar: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Fråga: "Hur frågar man 'What's up?' på kinyarwanda?"
+ Svar: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Fråga: "Hur säger man 'Nice till meet you' på kinyarwanda?"
+ Svar: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings med Familj Members (Simple combinations)
+ - id: 15
+ type: translation
+ Fråga: "Hur säger man 'Hej, mother!' på kinyarwanda?"
+ Svar: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ Fråga: "Hur säger man 'bra morning, father!' på kinyarwanda?"
+ Svar: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ Fråga: "Hur säger man 'bra night, my child!' på kinyarwanda?"
+ Svar: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common Fråga (Fixed expressions)
+ - id: 18
+ type: translation
+ Fråga: "Hur frågar man 'How är you today?' på kinyarwanda?"
+ Svar: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Fråga: "Hur säger man 'I'm fine, thank you' på kinyarwanda?"
+ Svar: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Fråga: "Hur frågar man 'What's up med you today?' på kinyarwanda?"
+ Svar: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # nej DIRECT TRANSLATION för COMPLEX DIALOGUES eller PARAGRAPHS
+ # Instead, we use Sats building, Para ihop, och word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ Fråga: "Vad betyder 'Muraho' i den här meningen?"
+ options:
+ - "Adjö"
+ - "Hej"
+ - "bra morning"
+ - "bra night"
+ Svar: "Hej"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ Fråga: "Vad betyder 'Mwaramutse' i den här meningen?"
+ options:
+ - "bra evening"
+ - "bra morning"
+ - "bra night"
+ - "Adjö"
+ Svar: "bra morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ Fråga: "Vad betyder 'Amakuru' i den här meningen?"
+ options:
+ - "Adjö"
+ - "Welcome"
+ - "How är you?"
+ - "se you later"
+ Svar: "How är you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ Fråga: "Vad betyder 'Ni meza' i den här meningen?"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ Svar: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Fråga: "Vad betyder 'Murabeho' i den här meningen?"
+ options:
+ - "Hej"
+ - "Welcome"
+ - "Adjö"
+ - "se you later"
+ Svar: "Adjö"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Fråga: "Vad betyder 'Tuzasubira' i den här meningen?"
+ options:
+ - "Adjö"
+ - "se you later"
+ - "Welcome back"
+ - "Take care"
+ Svar: "se you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Fråga: "Vad betyder 'Nishimiye kukubona' i den här meningen?"
+ options:
+ - "bra morning"
+ - "Nice till meet you"
+ - "Welcome"
+ - "Take care"
+ Svar: "Nice till meet you"
+ xp_reward: 18
+
+ # 3. Lyssna och Type (Dictation) - Safe because audio är provided
+ - id: 28
+ type: listen_och_type
+ Fråga: "Lyssna och type den greeting"
+ tts_text: "Muraho"
+ Svar: "Muraho"
+ translation: "Hej"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_och_type
+ Fråga: "Lyssna och type den greeting"
+ tts_text: "Mwaramutse"
+ Svar: "Mwaramutse"
+ translation: "bra morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_och_type
+ Fråga: "Lyssna och type den greeting"
+ tts_text: "Mwiriwe"
+ Svar: "Mwiriwe"
+ translation: "bra afternoon / bra evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ tts_text: "Ijoro ryiza"
+ Svar: "Ijoro ryiza"
+ translation: "bra night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_och_type
+ Fråga: "Lyssna och type den Fråga"
+ tts_text: "Amakuru"
+ Svar: "Amakuru"
+ translation: "How är you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_och_type
+ Fråga: "Lyssna och type den response"
+ tts_text: "Ni meza"
+ Svar: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ tts_text: "Murakaza neza"
+ Svar: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ tts_text: "Tuzasubira"
+ Svar: "Tuzasubira"
+ translation: "se you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ tts_text: "Murabeho"
+ Svar: "Murabeho"
+ translation: "Adjö"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ Svar: "Hashize igihe tutabonanye"
+ translation: "Long time nej se"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ tts_text: "Nishimiye kukubona"
+ Svar: "Nishimiye kukubona"
+ translation: "Nice till meet you"
+ xp_reward: 25
+
+ # 4. Lyssna och Välj
+ - id: 39
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "Adjö"
+ - "Hej"
+ - "bra morning"
+ Svar: "Hej"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "bra evening"
+ - "bra morning"
+ - "bra night"
+ Svar: "bra morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "bra morning"
+ - "bra afternoon/evening"
+ - "bra night"
+ Svar: "bra afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "Adjö"
+ - "How är you?"
+ - "Welcome"
+ Svar: "How är you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ Svar: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "Hej"
+ - "Adjö"
+ - "se you later"
+ Svar: "Adjö"
+ xp_reward: 15
+
+ # 5. Repeat / Prata Exercise
+ - id: 45
+ type: Prata
+ Fråga: "Say denna greeting"
+ prompt: "Muraho"
+ translation: "Hej"
+ xp_reward: 15
+
+ - id: 46
+ type: Prata
+ Fråga: "Say denna greeting"
+ prompt: "Mwaramutse"
+ translation: "bra morning"
+ xp_reward: 15
+
+ - id: 47
+ type: Prata
+ Fråga: "Say denna greeting"
+ prompt: "Mwiriwe"
+ translation: "bra afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: Prata
+ Fråga: "Say denna phrase"
+ prompt: "Ijoro ryiza"
+ translation: "bra night"
+ xp_reward: 18
+
+ - id: 49
+ type: Prata
+ Fråga: "Ask 'How är you?' i Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How är you?"
+ xp_reward: 15
+
+ - id: 50
+ type: Prata
+ Fråga: "Say 'I'm fine' i Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: Prata
+ Fråga: "Say 'Welcome' i Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: Prata
+ Fråga: "Say 'se you later' i Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "se you later"
+ xp_reward: 18
+
+ - id: 53
+ type: Prata
+ Fråga: "Say 'Adjö' i Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "Adjö"
+ xp_reward: 15
+
+ - id: 54
+ type: Prata
+ Fråga: "Say 'Long time nej se' i Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time nej se"
+ xp_reward: 22
+
+ - id: 55
+ type: Prata
+ Fråga: "Say 'Nice till meet you' i Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice till meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: Prata
+ Fråga: "Say 'Hej, mother!' i Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "Hej, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: Prata
+ Fråga: "Say 'bra morning, father!' i Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "bra morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank Sats Building - PIECES PROVIDED, nej TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ Fråga: "Build den greeting för 'Hej, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Fråga: "Build den greeting för 'bra morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ Fråga: "Build den greeting för 'bra night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ Fråga: "Build den Fråga 'How är you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ Fråga: "Build den response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ Fråga: "Build den farewell 'se you later at Skola'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Fråga: "Build den farewell 'Adjö, se you Imorgon'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ Fråga: "Build den well-wish 'Have en nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Fråga: "Build den phrase 'Take care på your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ Fråga: "Build den greeting 'Long time nej se, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Fråga: "Build den Fråga 'What's up med you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ Fråga: "Build den phrase 'Nice till meet you at den party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. Sats Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "Hej, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "bra morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "bra night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Fråga"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How är you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "se you later at Skola."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "Adjö, se you Imorgon."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have en nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care på your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time nej se, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Fråga"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up med you today?"
+ xp_reward: 22
+
+ # 8. Fill i den Blank - Välj FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ Fråga: "Complete den greeting"
+ text_med_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "Hej, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Fråga: "Complete den greeting"
+ text_med_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "bra morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ Fråga: "Complete den phrase"
+ text_med_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "bra night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Fråga: "Complete den Fråga"
+ text_med_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How är you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Fråga: "Complete den response"
+ text_med_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Fråga: "Complete den farewell"
+ text_med_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "se you later at Skola."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ Fråga: "Complete den farewell"
+ text_med_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "Adjö, se you Imorgon."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ Fråga: "Complete den well-wish"
+ text_med_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have en nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ Fråga: "Complete den phrase"
+ text_med_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care på your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ Fråga: "Complete den greeting"
+ text_med_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time nej se, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ Fråga: "Complete den Fråga"
+ text_med_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up med you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word Para ihop (Pairing)
+ - id: 98
+ type: Para ihop
+ Fråga: "Para ihop den greetings till their meanings"
+ pairs:
+ - Vänster: "Muraho"
+ Höger: "Hej"
+ - Vänster: "Mwaramutse"
+ Höger: "bra morning"
+ - Vänster: "Mwiriwe"
+ Höger: "bra afternoon/evening"
+ - Vänster: "Ijoro ryiza"
+ Höger: "bra night"
+ - Vänster: "Amakuru"
+ Höger: "How är you?"
+ - Vänster: "Ni meza"
+ Höger: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: Para ihop
+ Fråga: "Para ihop den farewells och well-wishes"
+ pairs:
+ - Vänster: "Murabeho"
+ Höger: "Adjö"
+ - Vänster: "Tuzasubira"
+ Höger: "se you later"
+ - Vänster: "Umunsi mwiza"
+ Höger: "Have en nice day"
+ - Vänster: "Wirinde"
+ Höger: "Take care"
+ - Vänster: "Hashize igihe tutabonanye"
+ Höger: "Long time nej se"
+ - Vänster: "Nishimiye kukubona"
+ Höger: "Nice till meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: Para ihop
+ Fråga: "Para ihop den phrases med Familj members"
+ pairs:
+ - Vänster: "Muraho, Mama!"
+ Höger: "Hej, mother!"
+ - Vänster: "Mwaramutse, Data!"
+ Höger: "bra morning, father!"
+ - Vänster: "Ijoro ryiza, mwana wanjye!"
+ Höger: "bra night, my child!"
+ - Vänster: "Hashize igihe tutabonanye, nshuti yanjye"
+ Höger: "Long time nej se, my friend"
+ xp_reward: 25
+
+ # 10. Välj Missing Word
+ - id: 107
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How är you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have en nice day at work."
+ xp_reward: 15
+
+ # 11. Läs och Svar - Fråga based på context
+ - id: 110
+ type: read_answer
+ Fråga: "Läs den dialogue och Svar den Fråga"
+ text: "en: Muraho! Amakuru? B: Ni meza, murakoze."
+ Fråga: "How är person B?"
+ options: ["Ledsen", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ Fråga: "Läs den dialogue och Svar den Fråga"
+ text: "en: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ Fråga: "What time av day är it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ Fråga: "Läs den dialogue och Svar den Fråga"
+ text: "en: Tuzasubira ku ishuri. B: Murabeho!"
+ Fråga: "Where will they se each other later?"
+ options: ["At home", "At Skola", "At work", "At den Marknad"]
+ correct_answer: "At Skola"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "'Mwaramutse' är used i den morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "'Mwiriwe' är used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "'Murabeho' means Hej."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "'Nishimiye kukubona' means 'Nice till meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Fråga: "Respond till den greeting by building en Sats"
+ bot_message: "Muraho! Amakuru?"
+ translation: "Hej! How är you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ Fråga: "Välj den appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "bra morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ Fråga: "Respond till den farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "se you later at Skola."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ Fråga: "Build en response till den Fråga"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How är you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build Sats from pieces
+ - id: 121
+ type: story
+ title: "Meeting en Friend - Guhura n'inshuti"
+ story_intro: "Läs den conversation. Then build den Sats."
+ story_segments:
+ - text: "Person en says Hej."
+ - text: "Person en asks how they är."
+ - text: "Person B says they är fine och tack them."
+ - text: "Person en says nice till meet them."
+ - text: "Person B welcomes them."
+ - text: "Person en says se you later."
+ - text: "Person B says Adjö."
+ exercises:
+ - type: word_bank
+ Fråga: "Build den Kinyarwanda greeting för 'Hej!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ Fråga: "Build den Fråga 'How är you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ Fråga: "Build den response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ Fråga: "Build den phrase 'Nice till meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ Fråga: "Build den farewell 'se you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ Fråga: "Build den farewell 'Adjö'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Fråga: "Say denna greeting"
+ prompt: "Muraho"
+ translation: "Hej"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Fråga: "Say denna greeting"
+ prompt: "Mwaramutse"
+ translation: "bra morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Fråga: "Say denna phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice till meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ Fråga: "Say denna farewell"
+ prompt: "Murabeho"
+ translation: "Adjö"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ Fråga: "Vad betyder 'Muraho' i den här meningen?"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["Adjö", "Hej", "Thank you", "Welcome"]
+ correct_answer: "Hej"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ Fråga: "Vad betyder 'murakoze' mean i denna Sats?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["snälla", "thank you", "welcome", "Adjö"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ Fråga: "Vad betyder 'Mwiriwe' i den här meningen?"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["bra morning", "bra afternoon/evening", "bra night", "Hej"]
+ correct_answer: "bra afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed Para ihop
+ - id: 129
+ type: speed_Para ihop
+ title: "Para ihop Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - Vänster: "Hej"
+ Höger: "Muraho"
+ - Vänster: "bra morning"
+ Höger: "Mwaramutse"
+ - Vänster: "bra afternoon"
+ Höger: "Mwiriwe"
+ - Vänster: "bra night"
+ Höger: "Ijoro ryiza"
+ - Vänster: "How är you?"
+ Höger: "Amakuru"
+ - Vänster: "I'm fine"
+ Höger: "Ni meza"
+ - Vänster: "Welcome"
+ Höger: "Murakaza neza"
+ - Vänster: "se you later"
+ Höger: "Tuzasubira"
+ - Vänster: "Adjö"
+ Höger: "Murabeho"
+ - Vänster: "Take care"
+ Höger: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ Fråga_count: 5
+ Fråga:
+ - Fråga: "Hej"
+ Svar: "Muraho"
+ - Fråga: "bra morning"
+ Svar: "Mwaramutse"
+ - Fråga: "bra night"
+ Svar: "Ijoro ryiza"
+ - Fråga: "How är you?"
+ Svar: "Amakuru"
+ - Fråga: "Adjö"
+ Svar: "Murabeho"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Fråga: "Flashcards"
+ Flashcards:
+ - front: "Muraho"
+ back: "Hej"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "bra morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "bra afternoon / bra evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "bra night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How är you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "se you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "Adjö"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have en nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

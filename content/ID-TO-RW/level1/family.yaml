@@ -1,0 +1,1060 @@
+lesson:
+ name: "Keluarga - Umuryango"
+ description: "Belajar Keluarga member names in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Keluarga Members ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Mother' dalam bahasa Kinyarwanda?"
+ Jawaban: "Mama"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Father' dalam bahasa Kinyarwanda?"
+ Jawaban: "Data"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Brother' dalam bahasa Kinyarwanda?"
+ Jawaban: "Musaza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Sister' dalam bahasa Kinyarwanda?"
+ Jawaban: "Mushiki"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Child' dalam bahasa Kinyarwanda?"
+ Jawaban: "Umwana"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Grandmother' dalam bahasa Kinyarwanda?"
+ Jawaban: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Grandfather' dalam bahasa Kinyarwanda?"
+ Jawaban: "Sogokuru"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Husband' dalam bahasa Kinyarwanda?"
+ Jawaban: "Umugabo"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Wife' dalam bahasa Kinyarwanda?"
+ Jawaban: "Umugore"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Paternal uncle' dalam bahasa Kinyarwanda?"
+ Jawaban: "Datawabo"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Maternal uncle' dalam bahasa Kinyarwanda?"
+ Jawaban: "Marume"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Paternal aunt' dalam bahasa Kinyarwanda?"
+ Jawaban: "Masenge"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Maternal aunt' dalam bahasa Kinyarwanda?"
+ Jawaban: "Nyirarume"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Grandchild' dalam bahasa Kinyarwanda?"
+ Jawaban: "Umwuzukuru"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Great-grandchild' dalam bahasa Kinyarwanda?"
+ Jawaban: "Umwuzukuruza"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Son-in-law / Groom' dalam bahasa Kinyarwanda?"
+ Jawaban: "Umukwe"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Father-in-law' dalam bahasa Kinyarwanda?"
+ Jawaban: "Sebukwe"
+ xp_reward: 10
+
+ # Translation - Greetings & Basic Phrases (Safe as fixed expressions)
+ - id: 18
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Halo, mother!' dalam bahasa Kinyarwanda?"
+ Jawaban: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 19
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Halo, father!' dalam bahasa Kinyarwanda?"
+ Jawaban: "Muraho, Data!"
+ xp_reward: 12
+
+ - id: 20
+ type: translation
+ Pertanyaan: "Bagaimana cara bertanya 'How is the Keluarga?' dalam bahasa Kinyarwanda?"
+ Jawaban: "Umuryango umeze ute?"
+ xp_reward: 15
+
+ # Translation - Possession (Simple phrases with "have")
+ - id: 21
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'I have a brother' dalam bahasa Kinyarwanda?"
+ Jawaban: "Mfite Musaza."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'I have a sister' dalam bahasa Kinyarwanda?"
+ Jawaban: "Mfite Mushiki."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'My grandfather has a Rumah' dalam bahasa Kinyarwanda?"
+ Jawaban: "Sogokuru afite inzu."
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR COMPLEX Kalimat OR PARAGRAPHS
+ # Instead, we use Kalimat building, Cocokkan, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 24
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Mama' artinya?"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ - "Sister"
+ Jawaban: "Mother"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Data' artinya?"
+ options:
+ - "Mother"
+ - "Father"
+ - "Grandfather"
+ - "Uncle"
+ Jawaban: "Father"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Musaza' artinya?"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ - "Husband"
+ Jawaban: "Brother"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Mushiki' artinya?"
+ options:
+ - "Brother"
+ - "Sister"
+ - "Mother"
+ - "Aunt"
+ Jawaban: "Sister"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Nyogokuru' artinya?"
+ options:
+ - "Grandfather"
+ - "Grandmother"
+ - "Aunt"
+ - "Uncle"
+ Jawaban: "Grandmother"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Sogokuru' artinya?"
+ options:
+ - "Grandmother"
+ - "Grandfather"
+ - "Father-in-law"
+ - "Uncle"
+ Jawaban: "Grandfather"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Datawabo' artinya?"
+ options:
+ - "Maternal uncle"
+ - "Paternal uncle"
+ - "Father-in-law"
+ - "Grandfather"
+ Jawaban: "Paternal uncle"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Marume' artinya?"
+ options:
+ - "Paternal uncle"
+ - "Maternal uncle"
+ - "Brother"
+ - "Son-in-law"
+ Jawaban: "Maternal uncle"
+ xp_reward: 15
+
+ # 3. Dengarkan and Type (Dictation) - Safe because audio is provided
+ - id: 32
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the Keluarga member"
+ tts_text: "Mama"
+ Jawaban: "Mama"
+ translation: "Mother"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the Keluarga member"
+ tts_text: "Data"
+ Jawaban: "Data"
+ translation: "Father"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the Keluarga member"
+ tts_text: "Nyogokuru"
+ Jawaban: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the phrase"
+ tts_text: "Mama ari mu nzu"
+ Jawaban: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 25
+
+ - id: 36
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the phrase"
+ tts_text: "Data ari mu kazi"
+ Jawaban: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 25
+
+ - id: 37
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the Pertanyaan"
+ tts_text: "Umuryango umeze ute"
+ Jawaban: "Umuryango umeze ute"
+ translation: "How is the Keluarga?"
+ xp_reward: 25
+
+ # 4. Dengarkan and Pilih
+ - id: 38
+ type: listen_and_choose
+ Pertanyaan: "Dengarkan and Pilih the correct Keluarga member"
+ tts_text: "Mama"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ Jawaban: "Mother"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_and_choose
+ Pertanyaan: "Dengarkan and Pilih the correct Keluarga member"
+ tts_text: "Data"
+ options:
+ - "Mother"
+ - "Father"
+ - "Sister"
+ Jawaban: "Father"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Pertanyaan: "Dengarkan and Pilih the correct Keluarga member"
+ tts_text: "Musaza"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ Jawaban: "Brother"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Pertanyaan: "Dengarkan and Pilih the correct phrase"
+ tts_text: "Mama ari mu nzu"
+ options:
+ - "Mother is at home"
+ - "Father is working"
+ - "Brother is playing"
+ Jawaban: "Mother is at home"
+ xp_reward: 20
+
+ # 5. Repeat / Bicara Exercise
+ - id: 42
+ type: Bicara
+ Pertanyaan: "Say this Keluarga member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 43
+ type: Bicara
+ Pertanyaan: "Say this Keluarga member"
+ prompt: "Data"
+ translation: "Father"
+ xp_reward: 15
+
+ - id: 44
+ type: Bicara
+ Pertanyaan: "Say this Keluarga member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 45
+ type: Bicara
+ Pertanyaan: "Say this Kalimat"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 46
+ type: Bicara
+ Pertanyaan: "Say this Kalimat"
+ prompt: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 47
+ type: Bicara
+ Pertanyaan: "Say this Pertanyaan"
+ prompt: "Umuryango umeze ute"
+ translation: "How is the Keluarga?"
+ xp_reward: 20
+
+ # 6. Word Bank Kalimat Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 48
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'Mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 49
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'Father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ xp_reward: 22
+
+ - id: 51
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My sister Baca a book'"
+ word_bank: ["Mushiki", "arasoma", "igitabo", "Musaza", "arakina", "hanze"]
+ correct_answer: ["Mushiki", "arasoma", "igitabo"]
+ xp_reward: 22
+
+ - id: 52
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'I love my grandmother'"
+ word_bank: ["Nkunda", "Nyogokuru", "Sogokuru", "arasaza", "cyane"]
+ correct_answer: ["Nkunda", "Nyogokuru"]
+ xp_reward: 20
+
+ - id: 53
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My grandfather is very old'"
+ word_bank: ["Sogokuru", "arasaza", "cyane", "Nyogokuru", "araduteka"]
+ correct_answer: ["Sogokuru", "arasaza", "cyane"]
+ xp_reward: 22
+
+ - id: 54
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'I have a brother'"
+ word_bank: ["Mfite", "Musaza", "Mushiki", "Umwana"]
+ correct_answer: ["Mfite", "Musaza"]
+ xp_reward: 18
+
+ - id: 55
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My grandfather has a Rumah'"
+ word_bank: ["Sogokuru", "afite", "inzu", "Nyogokuru", "araduteka", "ibiryo"]
+ correct_answer: ["Sogokuru", "afite", "inzu"]
+ xp_reward: 20
+
+ - id: 56
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My grandmother cooks Makanan'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 22
+
+ - id: 57
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My paternal uncle has a Kambing'"
+ word_bank: ["Datawabo", "afite", "ihene", "Marume", "inka", "afite"]
+ correct_answer: ["Datawabo", "afite", "ihene"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My maternal uncle has a Sapi'"
+ word_bank: ["Marume", "afite", "inka", "Datawabo", "ihene", "afite"]
+ correct_answer: ["Marume", "afite", "inka"]
+ xp_reward: 22
+
+ - id: 59
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My paternal aunt is kind'"
+ word_bank: ["Masenge", "ni", "mwiza", "Nyirarume", "ni", "mwiza", "cyane"]
+ correct_answer: ["Masenge", "ni", "mwiza"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My maternal aunt is very nice'"
+ word_bank: ["Nyirarume", "ni", "mwiza", "cyane", "Masenge", "ni", "mwiza"]
+ correct_answer: ["Nyirarume", "ni", "mwiza", "cyane"]
+ xp_reward: 22
+
+ - id: 61
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My child is playing'"
+ word_bank: ["Umwana", "arakinira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwana", "arakinira"]
+ xp_reward: 18
+
+ - id: 62
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My grandchild likes to Baca'"
+ word_bank: ["Umwuzukuru", "akunda", "gusoma", "Umwana", "arakinira"]
+ correct_answer: ["Umwuzukuru", "akunda", "gusoma"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My great-grandchild sleeps'"
+ word_bank: ["Umwuzukuruza", "arahunyira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwuzukuruza", "arahunyira"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My son-in-law is helpful'"
+ word_bank: ["Umukwe", "ni", "umufasha", "Sebukwe", "ni", "inyangamugayo"]
+ correct_answer: ["Umukwe", "ni", "umufasha"]
+ xp_reward: 20
+
+ - id: 65
+ type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My father-in-law is wise'"
+ word_bank: ["Sebukwe", "ni", "inyangamugayo", "Umukwe", "ni", "umufasha"]
+ correct_answer: ["Sebukwe", "ni", "inyangamugayo"]
+ xp_reward: 20
+
+ # 7. Kalimat Scramble - PIECES PROVIDED
+ - id: 66
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kinyarwanda Kalimat"
+ scrambled_words: ["ari", "Mama", "mu nzu"]
+ correct_sentence: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 67
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kinyarwanda Kalimat"
+ scrambled_words: ["ari", "Data", "mu kazi"]
+ correct_sentence: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kinyarwanda Kalimat"
+ scrambled_words: ["arakina", "Musaza", "hanze"]
+ correct_sentence: "Musaza arakina hanze"
+ translation: "My brother plays outside"
+ xp_reward: 22
+
+ - id: 69
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kinyarwanda Kalimat"
+ scrambled_words: ["arasoma", "Mushiki", "igitabo"]
+ correct_sentence: "Mushiki arasoma igitabo"
+ translation: "My sister Baca a book"
+ xp_reward: 22
+
+ - id: 70
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kinyarwanda Kalimat"
+ scrambled_words: ["Nkunda", "Nyogokuru"]
+ correct_sentence: "Nkunda Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kinyarwanda Kalimat"
+ scrambled_words: ["arasaza", "Sogokuru", "cyane"]
+ correct_sentence: "Sogokuru arasaza cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 20
+
+ - id: 72
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kinyarwanda Kalimat"
+ scrambled_words: ["afite", "Sogokuru", "inzu"]
+ correct_sentence: "Sogokuru afite inzu"
+ translation: "My grandfather has a Rumah"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kinyarwanda Kalimat"
+ scrambled_words: ["araduteka", "Nyogokuru", "ibiryo"]
+ correct_sentence: "Nyogokuru araduteka ibiryo"
+ translation: "My grandmother cooks Makanan"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Pilih FROM OPTIONS
+ - id: 74
+ type: fill_blank
+ Pertanyaan: "Pilih the correct word to complete the Kalimat"
+ text_with_blank: "Mama ___ mu nzu."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ Pertanyaan: "Pilih the correct word to complete the Kalimat"
+ text_with_blank: "Data ___ mu kazi."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 76
+ type: fill_blank
+ Pertanyaan: "Pilih the correct word to complete the Kalimat"
+ text_with_blank: "Musaza ___ hanze."
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ - id: 77
+ type: fill_blank
+ Pertanyaan: "Pilih the correct word to complete the Kalimat"
+ text_with_blank: "Mushiki ___ igitabo."
+ options: ["arasoma", "arakina", "ari"]
+ correct_answer: "arasoma"
+ translation: "My sister Baca a book"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ Pertanyaan: "Pilih the correct word to complete the Kalimat"
+ text_with_blank: "Nkunda ___."
+ options: ["Nyogokuru", "Sogokuru", "Data"]
+ correct_answer: "Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ Pertanyaan: "Pilih the correct word to complete the Kalimat"
+ text_with_blank: "Sogokuru arasaza ___."
+ options: ["cyane", "neza", "nziza"]
+ correct_answer: "cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 15
+
+ - id: 80
+ type: fill_blank
+ Pertanyaan: "Pilih the correct word to complete the Kalimat"
+ text_with_blank: "Sogokuru ___ inzu."
+ options: ["afite", "ari", "ni"]
+ correct_answer: "afite"
+ translation: "My grandfather has a Rumah"
+ xp_reward: 15
+
+ - id: 81
+ type: fill_blank
+ Pertanyaan: "Pilih the correct word to complete the Kalimat"
+ text_with_blank: "Nyogokuru araduteka ___."
+ options: ["ibiryo", "amazi", "inyama"]
+ correct_answer: "ibiryo"
+ translation: "My grandmother cooks Makanan"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 82
+ type: picture_word
+ Pertanyaan: "Who is this Keluarga member?"
+ image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Nyogokuru", "Sogokuru"]
+ correct_answer: "Mama"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ Pertanyaan: "Who is this Keluarga member?"
+ image_url: "https://source.unsplash.com/featured/?fatherhttps://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Musaza", "Mushiki"]
+ correct_answer: "Data"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ Pertanyaan: "Who is this Keluarga member?"
+ image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Nyogokuru", "Sogokuru", "Mama", "Data"]
+ correct_answer: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ Pertanyaan: "Who is this Keluarga member?"
+ image_url: "https://source.unsplash.com/featured/?grandfather"
+ options: ["Sogokuru", "Nyogokuru", "Data", "Marume"]
+ correct_answer: "Sogokuru"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Pertanyaan: "Who is this Keluarga member?"
+ image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Musaza", "Mushiki", "Umwana", "Data"]
+ correct_answer: "Musaza"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Pertanyaan: "Who is this Keluarga member?"
+ image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mushiki", "Musaza", "Mama", "Nyogokuru"]
+ correct_answer: "Mushiki"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Pertanyaan: "Who is this Keluarga member?"
+ image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umwana", "Umwuzukuru", "Musaza", "Mushiki"]
+ correct_answer: "Umwana"
+ xp_reward: 10
+
+ 
+ # 10. Word Cocokkan (Pairing)
+ - id: 90
+ type: Cocokkan
+ Pertanyaan: "Cocokkan the Keluarga members"
+ pairs:
+ - Kiri: "Mother"
+ Kanan: "Mama"
+ - Kiri: "Father"
+ Kanan: "Data"
+ - Kiri: "Brother"
+ Kanan: "Musaza"
+ - Kiri: "Sister"
+ Kanan: "Mushiki"
+ - Kiri: "Child"
+ Kanan: "Umwana"
+ - Kiri: "Grandmother"
+ Kanan: "Nyogokuru"
+ - Kiri: "Grandfather"
+ Kanan: "Sogokuru"
+ - Kiri: "Husband"
+ Kanan: "Umugabo"
+ - Kiri: "Wife"
+ Kanan: "Umugore"
+ xp_reward: 25
+
+ - id: 91
+ type: Cocokkan
+ Pertanyaan: "Cocokkan the extended Keluarga members"
+ pairs:
+ - Kiri: "Paternal uncle"
+ Kanan: "Datawabo"
+ - Kiri: "Maternal uncle"
+ Kanan: "Marume"
+ - Kiri: "Paternal aunt"
+ Kanan: "Masenge"
+ - Kiri: "Maternal aunt"
+ Kanan: "Nyirarume"
+ - Kiri: "Grandchild"
+ Kanan: "Umwuzukuru"
+ - Kiri: "Great-grandchild"
+ Kanan: "Umwuzukuruza"
+ - Kiri: "Son-in-law"
+ Kanan: "Umukwe"
+ - Kiri: "Father-in-law"
+ Kanan: "Sebukwe"
+ xp_reward: 25
+
+ - id: 92
+ type: Cocokkan
+ Pertanyaan: "Cocokkan the actions with Keluarga members"
+ pairs:
+ - Kiri: "is at home"
+ Kanan: "ari mu nzu"
+ - Kiri: "is working"
+ Kanan: "ari mu kazi"
+ - Kiri: "plays outside"
+ Kanan: "arakina hanze"
+ - Kiri: "Baca a book"
+ Kanan: "arasoma igitabo"
+ - Kiri: "cooks Makanan"
+ Kanan: "araduteka ibiryo"
+ - Kiri: "has a Rumah"
+ Kanan: "afite inzu"
+ xp_reward: 25
+
+ # 11. Pilih Missing Word
+ - id: 97
+ type: choose_missing
+ Pertanyaan: "Pilih the missing word"
+ Kalimat: "Mama ___ mu nzu."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 98
+ type: choose_missing
+ Pertanyaan: "Pilih the missing word"
+ Kalimat: "Data ___ mu kazi."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 99
+ type: choose_missing
+ Pertanyaan: "Pilih the missing word"
+ Kalimat: "Musaza ___ hanze."
+ missing_word_position: 2
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ # 12. Baca and Jawaban - Pertanyaan in English, Jawaban based on Kinyarwanda text
+ - id: 100
+ type: read_answer
+ Pertanyaan: "Baca the text and Jawaban the Pertanyaan"
+ text: "Mama ari mu nzu. Data ari mu kazi."
+ Pertanyaan: "Where is the mother?"
+ options: ["At home", "At work", "Outside", "At the Pasar"]
+ correct_answer: "At home"
+ xp_reward: 20
+
+ - id: 101
+ type: read_answer
+ Pertanyaan: "Baca the text and Jawaban the Pertanyaan"
+ text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+ Pertanyaan: "Apa itu the sister doing?"
+ options: ["Playing", "Baca a book", "Working", "Cooking"]
+ correct_answer: "Baca a book"
+ xp_reward: 22
+
+ - id: 102
+ type: read_answer
+ Pertanyaan: "Baca the text and Jawaban the Pertanyaan"
+ text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+ Pertanyaan: "Apa arti the grandfather have?"
+ options: ["A Sapi", "A Rumah", "A Kambing", "A book"]
+ correct_answer: "A Rumah"
+ xp_reward: 20
+
+ - id: 103
+ type: read_answer
+ Pertanyaan: "Baca the text and Jawaban the Pertanyaan"
+ text: "Datawabo afite ihene. Marume afite inka."
+ Pertanyaan: "Apa arti the maternal uncle have?"
+ options: ["A Kambing", "A Sapi", "A Rumah", "A Ayam"]
+ correct_answer: "A Sapi"
+ xp_reward: 22
+
+ # 13. True / False
+ - id: 104
+ type: true_false
+ Pertanyaan: "Is this statement true or false?"
+ statement: "Mama ni umugore."
+ translation: "Mother is a woman"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 105
+ type: true_false
+ Pertanyaan: "Is this statement true or false?"
+ statement: "Data ni umugore."
+ translation: "Father is a woman"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 106
+ type: true_false
+ Pertanyaan: "Is this statement true or false?"
+ statement: "Nyogokuru arasaza cyane."
+ translation: "Grandmother is very old"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 107
+ type: true_false
+ Pertanyaan: "Is this statement true or false?"
+ statement: "Umwana arakina hanze."
+ translation: "The child plays outside"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 108
+ type: conversation
+ Pertanyaan: "Respond to the Pertanyaan by building a Kalimat"
+ bot_message: "Mama ari he?"
+ translation: "Where is mother?"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "ari", "mu kazi"]
+ correct_response: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 109
+ type: conversation
+ Pertanyaan: "Respond to the Pertanyaan"
+ bot_message: "Umuryango umeze ute?"
+ translation: "How is the Keluarga?"
+ options:
+ - "Umeze neza"
+ - "Umeze nabi"
+ - "Umeze ute"
+ correct_response: "Umeze neza"
+ xp_reward: 15
+
+ - id: 110
+ type: conversation
+ Pertanyaan: "Respond to the Pertanyaan by building a Kalimat"
+ bot_message: "Data ari he?"
+ translation: "Where is father?"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "ari", "mu nzu"]
+ correct_response: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build Kalimat from pieces
+ - id: 111
+ type: story
+ title: "My Keluarga - Umuryango Wanjye"
+ story_intro: "Baca about the Keluarga. Then build the Kalimat."
+ story_segments:
+ - text: "My mother is at home."
+ image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+ - text: "My father is working."
+ - text: "My brother plays outside."
+ - text: "My sister Baca a book."
+ - text: "My grandmother cooks Makanan."
+ - text: "My grandfather has a Rumah."
+ exercises:
+ - type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ - type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ - type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ - type: word_bank
+ Pertanyaan: "Build the Kinyarwanda Kalimat for 'My grandmother cooks Makanan'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 112
+ type: pronunciation
+ Pertanyaan: "Say this Keluarga member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ Pertanyaan: "Say this Keluarga member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ Pertanyaan: "Say this Kalimat"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 115
+ type: identify_meaning
+ Pertanyaan: "Apa arti 'Mama' mean in this Kalimat?"
+ context_sentence: "Mama ari mu nzu."
+ word: "Mama"
+ options: ["father", "mother", "brother", "sister"]
+ correct_answer: "mother"
+ xp_reward: 15
+
+ - id: 116
+ type: identify_meaning
+ Pertanyaan: "Apa arti 'arakina' mean in this Kalimat?"
+ context_sentence: "Musaza arakina hanze."
+ word: "arakina"
+ options: ["Baca", "plays", "works", "cooks"]
+ correct_answer: "plays"
+ xp_reward: 18
+
+ - id: 117
+ type: identify_meaning
+ Pertanyaan: "Apa arti 'araduteka' mean in this Kalimat?"
+ context_sentence: "Nyogokuru araduteka ibiryo."
+ word: "araduteka"
+ options: ["cooks", "eats", "has", "loves"]
+ correct_answer: "cooks"
+ xp_reward: 18
+
+ # 18. Speed Cocokkan
+ - id: 118
+ type: speed_Cocokkan
+ title: "Cocokkan Madness: Keluarga"
+ time_limit_seconds: 45
+ pairs:
+ - Kiri: "Mother"
+ Kanan: "Mama"
+ - Kiri: "Father"
+ Kanan: "Data"
+ - Kiri: "Brother"
+ Kanan: "Musaza"
+ - Kiri: "Sister"
+ Kanan: "Mushiki"
+ - Kiri: "Grandmother"
+ Kanan: "Nyogokuru"
+ - Kiri: "Grandfather"
+ Kanan: "Sogokuru"
+ - Kiri: "Child"
+ Kanan: "Umwana"
+ - Kiri: "Husband"
+ Kanan: "Umugabo"
+ - Kiri: "Wife"
+ Kanan: "Umugore"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 119
+ type: timed_challenge
+ title: "Lightning Round: Keluarga"
+ time_limit_seconds: 30
+ Pertanyaan_count: 5
+ Pertanyaan:
+ - Pertanyaan: "Mother"
+ Jawaban: "Mama"
+ - Pertanyaan: "Father"
+ Jawaban: "Data"
+ - Pertanyaan: "Brother"
+ Jawaban: "Musaza"
+ - Pertanyaan: "Sister"
+ Jawaban: "Mushiki"
+ - Pertanyaan: "Grandmother"
+ Jawaban: "Nyogokuru"
+ xp_reward: 35
+
+# Kartu kata
+ - id: 111
+ type: Kartu kata
+ Pertanyaan: "Kartu kata"
+ Kartu kata:
+ - front: "Mama"
+ back: "Mother"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Data"
+ back: "Father"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Musaza"
+ back: "Brother"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Mushiki"
+ back: "Sister"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umwana"
+ back: "Child"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyogokuru"
+ back: "Grandmother"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Sogokuru"
+ back: "Grandfather"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugabo"
+ back: "Husband"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugore"
+ back: "Wife"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Datawabo"
+ back: "Paternal uncle"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

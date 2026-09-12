@@ -1,0 +1,1028 @@
+lesson:
+ name: "Conditionals - Imyitwarire y'Ahazaza"
+ description: "Učte se how to express conditions and possibilities in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Slovní zásoba ONLY (Safe for single words/phrases)
+ # Basic Conditional Words
+ - id: 1
+ type: translation
+ Otázka: "Jak se řekne 'If' v kinyarwandštině?"
+ Odpověď: "Niba"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Otázka: "Jak se řekne 'When' v kinyarwandštině?"
+ Odpověď: "Iyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Otázka: "Jak se řekne 'Unless' v kinyarwandštině?"
+ Odpověď: "Keretse"
+ note: "Also expressed as 'Nti... niba'"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Otázka: "Jak se řekne 'Then' v kinyarwandštině?"
+ Odpověď: "Hanyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Otázka: "Jak se řekne 'Might' v kinyarwandštině?"
+ Odpověď: "Ashobora"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Otázka: "Jak se řekne 'Will' v kinyarwandštině?"
+ Odpověď: "Azakora"
+ note: "Also 'Azaba' depending on context"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Otázka: "Jak se řekne 'Would' v kinyarwandštině?"
+ Odpověď: "Byaba"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Otázka: "Jak se řekne 'Could' v kinyarwandštině?"
+ Odpověď: "Bashobora"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Otázka: "Jak se řekne 'Should' v kinyarwandštině?"
+ Odpověď: "Bikwiye"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Otázka: "Jak se řekne 'Can' v kinyarwandštině?"
+ Odpověď: "Ashobora"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Otázka: "Jak se řekne 'Impossible' v kinyarwandštině?"
+ Odpověď: "Ntibishoboka"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Otázka: "Jak se řekne 'Possible' v kinyarwandštině?"
+ Odpověď: "Birashoboka"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Otázka: "Jak se řekne 'Before' v kinyarwandštině?"
+ Odpověď: "Mbere y'uko"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Otázka: "Jak se řekne 'After' v kinyarwandštině?"
+ Odpověď: "Nyuma y'uko"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Otázka: "Jak se řekne 'Always' v kinyarwandštině?"
+ Odpověď: "Buri gihe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Otázka: "Jak se řekne 'Never' v kinyarwandštině?"
+ Odpověď: "Nta na rimwe"
+ xp_reward: 10
+
+ # Translation - Common Conditional Phrases
+ - id: 17
+ type: translation
+ Otázka: "Jak se řekne 'Pokud bude pr?et, z?stanu doma' v kinyarwandštině?"
+ Odpověď: "Niba imvura iguye, nzaguma mu rugo."
+ xp_reward: 20
+
+ - id: 18
+ type: translation
+ Otázka: "Jak se řekne 'If I go to Kigali, I will visit my friend' v kinyarwandštině?"
+ Odpověď: "Niba ngiye i Kigali, nzasura inshuti yanjye."
+ xp_reward: 20
+
+ - id: 19
+ type: translation
+ Otázka: "Jak se řekne 'Pokud se budete u?it, usp?jete' v kinyarwandštině?"
+ Odpověď: "Niba wiga, uzatsinda."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ Otázka: "Jak se řekne 'If he comes, we will start the schůzka' v kinyarwandštině?"
+ Odpověď: "Niba aje, tuzatangira inama."
+ xp_reward: 20
+
+ - id: 21
+ type: translation
+ Otázka: "Jak se řekne 'Unless you hurry, you will miss the bus' v kinyarwandštině?"
+ Odpověď: "Ntiwihutira, uzacika bisi."
+ xp_reward: 20
+
+ - id: 22
+ type: translation
+ Otázka: "Jak se řekne 'If I had money, I would buy a car' v kinyarwandštině?"
+ Odpověď: "Niba nari mfite amafaranga, nari kugura imodoka."
+ xp_reward: 22
+
+ - id: 23
+ type: translation
+ Otázka: "Jak se řekne 'If she were here, she could help' v kinyarwandštině?"
+ Odpověď: "Iyo yari hano, yashoboraga gufasha."
+ xp_reward: 22
+
+ - id: 24
+ type: translation
+ Otázka: "Jak se řekne 'I would Cestování if I had more time' v kinyarwandštině?"
+ Odpověď: "Nari gutembera iyo nari mfite igihe kinini."
+ xp_reward: 22
+
+ - id: 25
+ type: translation
+ Otázka: "Jak se řekne 'You should eat before leaving' v kinyarwandštině?"
+ Odpověď: "Bikwiye ko urya mbere yo kugenda."
+ xp_reward: 20
+
+ - id: 26
+ type: translation
+ Otázka: "Jak se řekne 'If it is possible, I will come Zítra' v kinyarwandštině?"
+ Odpověď: "Niba bishoboka, nzaza ejo."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Otázka: "Co znamená 'Niba' v této větě?"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ - "After"
+ Odpověď: "If"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Otázka: "Co znamená 'Iyo' v této větě?"
+ options:
+ - "If"
+ - "When"
+ - "Then"
+ - "Before"
+ Odpověď: "When"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Otázka: "Co znamená 'Hanyuma' v této větě?"
+ options:
+ - "Before"
+ - "After"
+ - "Then"
+ - "When"
+ Odpověď: "Then"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Otázka: "Co znamená 'Birashoboka' v této větě?"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ - "Never"
+ Odpověď: "Possible"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Otázka: "Co znamená 'Ntibishoboka' v této větě?"
+ options:
+ - "Possible"
+ - "Impossible"
+ - "Always"
+ - "Never"
+ Odpověď: "Impossible"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Otázka: "Co znamená 'Buri gihe' v této větě?"
+ options:
+ - "Never"
+ - "Always"
+ - "Sometimes"
+ - "Often"
+ Odpověď: "Always"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Otázka: "Co znamená 'Nta na rimwe' v této větě?"
+ options:
+ - "Always"
+ - "Sometimes"
+ - "Never"
+ - "Often"
+ Odpověď: "Never"
+ xp_reward: 15
+
+ # 3. Poslouchejte and Type (Dictation)
+ - id: 34
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the Slovo"
+ audio: "Niba"
+ Odpověď: "Niba"
+ translation: "If"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the Slovo"
+ audio: "Iyo"
+ Odpověď: "Iyo"
+ translation: "When"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the Slovo"
+ audio: "Birashoboka"
+ Odpověď: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ audio: "Niba imvura iguye nzaguma mu rugo"
+ Odpověď: "Niba imvura iguye nzaguma mu rugo"
+ translation: "Pokud bude pr?et, z?stanu doma"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ audio: "Niba wiga uzatsinda"
+ Odpověď: "Niba wiga uzatsinda"
+ translation: "Pokud se budete u?it, usp?jete"
+ xp_reward: 22
+
+ - id: 39
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ audio: "Niba bishoboka nzaza ejo"
+ Odpověď: "Niba bishoboka nzaza ejo"
+ translation: "If it is possible, I will come Zítra"
+ xp_reward: 22
+
+ # 4. Poslouchejte and Vyberte
+ - id: 40
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně Slovo"
+ audio: "Niba"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ Odpověď: "If"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně Slovo"
+ audio: "Birashoboka"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ Odpověď: "Possible"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně phrase"
+ audio: "Niba wiga, uzatsinda"
+ options:
+ - "Pokud se budete u?it, usp?jete"
+ - "Pokud bude pr?et, z?stanu doma"
+ - "If it is possible, I will come"
+ Odpověď: "Pokud se budete u?it, usp?jete"
+ xp_reward: 18
+
+ - id: 43
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně phrase"
+ audio: "Niba bishoboka, nzaza ejo"
+ options:
+ - "Pokud bude pr?et, z?stanu doma"
+ - "If it is possible, I will come Zítra"
+ - "Pokud se budete u?it, usp?jete"
+ Odpověď: "If it is possible, I will come Zítra"
+ xp_reward: 18
+
+ # 5. Repeat / Mluvte Exercise
+ - id: 44
+ type: Mluvte
+ Otázka: "Řekněte toto slovo"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 45
+ type: Mluvte
+ Otázka: "Řekněte toto slovo"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 46
+ type: Mluvte
+ Otázka: "Řekněte tuto větu"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "Pokud bude pr?et, z?stanu doma"
+ xp_reward: 20
+
+ - id: 47
+ type: Mluvte
+ Otázka: "Řekněte tuto větu"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "Pokud se budete u?it, usp?jete"
+ xp_reward: 18
+
+ - id: 48
+ type: Mluvte
+ Otázka: "Řekněte tuto větu"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will come Zítra"
+ xp_reward: 18
+
+ # 6. Slovo Bank Věta Building - PIECES PROVIDED
+ - id: 49
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'Pokud bude pr?et, z?stanu doma'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo", "nzaza"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ xp_reward: 22
+
+ - id: 50
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'If I go to Kigali, I will visit my friend'"
+ word_bank: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ correct_answer: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ xp_reward: 25
+
+ - id: 51
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'Pokud se budete u?it, usp?jete'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira", "inama"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'If he comes, we will start the schůzka'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga", "uzatsinda"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ xp_reward: 22
+
+ - id: 53
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'If I had money, I would buy a car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ xp_reward: 28
+
+ - id: 54
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'If she were here, she could help'"
+ word_bank: ["Iyo", "yari", "hano", "yashoboraga", "gufasha", "aje"]
+ correct_answer: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ xp_reward: 25
+
+ - id: 55
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'You should eat before leaving'"
+ word_bank: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda", "nyuma"]
+ correct_answer: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ xp_reward: 22
+
+ - id: 56
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'If it is possible, I will come Zítra'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura", "iguye"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 18
+
+ # 7. Věta Scramble - PIECES PROVIDED
+ - id: 57
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ translation: "Pokud bude pr?et, z?stanu doma."
+ xp_reward: 22
+
+ - id: 58
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Niba", "wiga", "uzatsinda"]
+ correct_sentence: "Niba wiga, uzatsinda."
+ translation: "Pokud se budete u?it, usp?jete."
+ xp_reward: 18
+
+ - id: 59
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Niba", "aje", "tuzatangira", "inama"]
+ correct_sentence: "Niba aje, tuzatangira inama."
+ translation: "If he comes, we will start the schůzka."
+ xp_reward: 22
+
+ - id: 60
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Ntiwihutira", "uzacika", "bisi"]
+ correct_sentence: "Ntiwihutira, uzacika bisi."
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 20
+
+ - id: 61
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ correct_sentence: "Iyo yari hano, yashoboraga gufasha."
+ translation: "If she were here, she could help."
+ xp_reward: 25
+
+ - id: 62
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ correct_sentence: "Bikwiye ko urya mbere yo kugenda."
+ translation: "You should eat before leaving."
+ xp_reward: 22
+
+ - id: 63
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Niba", "bishoboka", "nzaza", "ejo"]
+ correct_sentence: "Niba bishoboka, nzaza ejo."
+ translation: "If it is possible, I will come Zítra."
+ xp_reward: 18
+
+ # 8. Fill in the Blank - Vyberte FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "___ imvura iguye, nzaguma mu rugo."
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "Pokud bude pr?et, z?stanu doma."
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Niba wiga, ___."
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "Pokud se budete u?it, usp?jete."
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Niba aje, tuzatangira ___."
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he comes, we will start the schůzka."
+ xp_reward: 18
+
+ - id: 67
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Ntiwihutira, ___ bisi."
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 18
+
+ - id: 68
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Iyo yari hano, yashoboraga ___."
+ options: ["gufasha", "kwiga", "kurya"]
+ correct_answer: "gufasha"
+ translation: "If she were here, she could help."
+ xp_reward: 18
+
+ - id: 69
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Bikwiye ko urya ___ yo kugenda."
+ options: ["mbere", "nyuma", "hanyuma"]
+ correct_answer: "mbere"
+ translation: "You should eat before leaving."
+ xp_reward: 18
+
+ - id: 70
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Niba bishoboka, nzaza ___."
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will come Zítra."
+ xp_reward: 15
+
+ # 9. Picture → Slovo (Unsplash Images)
+ - id: 71
+ type: picture_word
+ Otázka: "Co znamená this image represent?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Izuba", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Otázka: "Co znamená this image represent?"
+ image_url: "https://source.unsplash.com/featured/?studying"
+ options: ["Kwiga", "Gukora", "Kurya"]
+ correct_answer: "Kwiga"
+ xp_reward: 10
+
+ - id: 73
+ type: picture_word
+ Otázka: "Co znamená this image represent?"
+ image_url: "https://source.unsplash.com/featured/?money"
+ options: ["Amafaranga", "Igitabo", "Inzu"]
+ correct_answer: "Amafaranga"
+ xp_reward: 10
+
+ - id: 74
+ type: picture_word
+ Otázka: "Co znamená this image represent?"
+ image_url: "https://source.unsplash.com/featured/?car"
+ options: ["Imodoka", "Bisi", "Igare"]
+ correct_answer: "Imodoka"
+ xp_reward: 10
+
+ - id: 75
+ type: picture_word
+ Otázka: "Co znamená this image represent?"
+ image_url: "https://source.unsplash.com/featured/?helping"
+ options: ["Gufasha", "Kurira", "Guseka"]
+ correct_answer: "Gufasha"
+ xp_reward: 10
+
+ - id: 76
+ type: picture_word
+ Otázka: "Co znamená this image represent?"
+ image_url: "https://source.unsplash.com/featured/?bus"
+ options: ["Bisi", "Imodoka", "Indege"]
+ correct_answer: "Bisi"
+ xp_reward: 10
+
+ # 10. Slovo Spojte (Pairing)
+ - id: 77
+ type: Spojte
+ Otázka: "Spojte the conditional words"
+ pairs:
+ - Vlevo: "If"
+ Vpravo: "Niba"
+ - Vlevo: "When"
+ Vpravo: "Iyo"
+ - Vlevo: "Then"
+ Vpravo: "Hanyuma"
+ - Vlevo: "Before"
+ Vpravo: "Mbere y'uko"
+ - Vlevo: "After"
+ Vpravo: "Nyuma y'uko"
+ - Vlevo: "Always"
+ Vpravo: "Buri gihe"
+ - Vlevo: "Never"
+ Vpravo: "Nta na rimwe"
+ - Vlevo: "Possible"
+ Vpravo: "Birashoboka"
+ - Vlevo: "Impossible"
+ Vpravo: "Ntibishoboka"
+ xp_reward: 25
+
+ - id: 78
+ type: Spojte
+ Otázka: "Spojte the modal verbs"
+ pairs:
+ - Vlevo: "Might"
+ Vpravo: "Ashobora"
+ - Vlevo: "Will"
+ Vpravo: "Azakora"
+ - Vlevo: "Would"
+ Vpravo: "Byaba"
+ - Vlevo: "Could"
+ Vpravo: "Bashobora"
+ - Vlevo: "Should"
+ Vpravo: "Bikwiye"
+ - Vlevo: "Can"
+ Vpravo: "Ashobora"
+ xp_reward: 20
+
+ - id: 79
+ type: Spojte
+ Otázka: "Spojte the Věta halves"
+ pairs:
+ - Vlevo: "Niba imvura iguye"
+ Vpravo: "nzaguma mu rugo"
+ - Vlevo: "Niba wiga"
+ Vpravo: "uzatsinda"
+ - Vlevo: "Niba aje"
+ Vpravo: "tuzatangira inama"
+ - Vlevo: "Niba bishoboka"
+ Vpravo: "nzaza ejo"
+ - Vlevo: "Niba ngiye i Kigali"
+ Vpravo: "nzasura inshuti yanjye"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Vyberte Missing Slovo
+ - id: 80
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "___ imvura iguye, nzaguma mu rugo."
+ missing_word_position: 1
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "Pokud bude pr?et, z?stanu doma."
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Niba wiga, ___."
+ missing_word_position: 3
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "Pokud se budete u?it, usp?jete."
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Niba aje, tuzatangira ___."
+ missing_word_position: 4
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he comes, we will start the schůzka."
+ xp_reward: 18
+
+ - id: 83
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Ntiwihutira, ___ bisi."
+ missing_word_position: 2
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 18
+
+ - id: 84
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Niba bishoboka, nzaza ___."
+ missing_word_position: 3
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will come Zítra."
+ xp_reward: 15
+
+ # 13. Čtěte and Odpověď - Otázka based on text
+ - id: 85
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Niba imvura iguye, nzaguma mu rugo."
+ Otázka: "What will happen if it rains?"
+ options: ["I will go out", "I will stay home", "I will go to Škola", "I will work"]
+ correct_answer: "I will stay home"
+ xp_reward: 15
+
+ - id: 86
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Niba wiga, uzatsinda."
+ Otázka: "What will happen if you study?"
+ options: ["You will fail", "You will succeed", "You will play", "You will sleep"]
+ correct_answer: "You will succeed"
+ xp_reward: 15
+
+ - id: 87
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Niba aje, tuzatangira inama."
+ Otázka: "When will they start the schůzka?"
+ options: ["If he comes", "If it rains", "If she studies", "If they work"]
+ correct_answer: "If he comes"
+ xp_reward: 18
+
+ - id: 88
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Niba nari mfite amafaranga, nari kugura imodoka."
+ Otázka: "What would I buy if I had money?"
+ options: ["A Dům", "A car", "Jídlo", "Clothes"]
+ correct_answer: "A car"
+ xp_reward: 18
+
+ - id: 89
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Niba bishoboka, nzaza ejo."
+ Otázka: "When will I come if it is possible?"
+ options: ["Today", "Zítra", "Next week", "Never"]
+ correct_answer: "Zítra"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 90
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Niba means 'when'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 91
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Birashoboka means 'possible'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 92
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Niba wiga, uzatsinda means 'Pokud se budete u?it, usp?jete'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 93
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Ntiwihutira, uzacika bisi means 'If you hurry, you will catch the bus'."
+ correct_answer: false
+ xp_reward: 15
+
+ - id: 94
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Buri gihe means 'never'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 95
+ type: conversation
+ Otázka: "Respond to the Otázka by building a Věta"
+ bot_message: "Uzakora iki niba imvura iguye?"
+ translation: "What will you do if it rains?"
+ word_bank: ["Nzaguma", "mu rugo", "nzajya", "ku ishuri", "nzakora"]
+ correct_response: ["Nzaguma", "mu rugo"]
+ xp_reward: 18
+
+ - id: 96
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Niba wiga, uzatsinda?"
+ translation: "If you study, will you succeed?"
+ options:
+ - "Yego, nzatsinda"
+ - "Oya, sinzatsinda"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzatsinda"
+ xp_reward: 15
+
+ - id: 97
+ type: conversation
+ Otázka: "Respond to the Otázka by building a Věta"
+ bot_message: "Uzakora iki niba ufite amafaranga?"
+ translation: "What will you do if you have money?"
+ word_bank: ["Nzakora", "nzabona", "imodoka", "nzaguza", "inzu"]
+ correct_response: ["Nzakora", "nzabona", "imodoka"]
+ xp_reward: 20
+
+ - id: 98
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Niba bishoboka, uzaza ejo?"
+ translation: "If it is possible, will you come Zítra?"
+ options:
+ - "Yego, nzaza ejo"
+ - "Oya, sinzaza"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzaza ejo"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Věta from pieces
+ - id: 99
+ type: story
+ title: "Plans and Conditions - Imigambi n'Imyitwarire"
+ story_intro: "Čtěte about different plans and conditions. Then build the Věta."
+ story_segments:
+ - text: "Pokud bude pr?et, z?stanu doma."
+ - text: "Pokud se budete u?it, usp?jete."
+ - text: "If he comes, we will start the schůzka."
+ - text: "If I had money, I would buy a car."
+ - text: "If it is possible, I will come Zítra."
+ exercises:
+ - type: word_bank
+ Otázka: "Build 'Pokud bude pr?et, z?stanu doma'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ - type: word_bank
+ Otázka: "Build 'Pokud se budete u?it, usp?jete'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ - type: word_bank
+ Otázka: "Build 'If he comes, we will start the schůzka'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ - type: word_bank
+ Otázka: "Build 'If I had money, I would buy a car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ - type: word_bank
+ Otázka: "Build 'If it is possible, I will come Zítra'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 100
+ type: pronunciation
+ Otázka: "Řekněte toto slovo"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 101
+ type: pronunciation
+ Otázka: "Řekněte toto slovo"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 102
+ type: pronunciation
+ Otázka: "Řekněte tuto větu"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "Pokud bude pr?et, z?stanu doma"
+ xp_reward: 22
+
+ - id: 103
+ type: pronunciation
+ Otázka: "Řekněte tuto větu"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "Pokud se budete u?it, usp?jete"
+ xp_reward: 18
+
+ - id: 104
+ type: pronunciation
+ Otázka: "Řekněte tuto větu"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will come Zítra"
+ xp_reward: 18
+
+ # 18. Identify Správně Meaning
+ - id: 105
+ type: identify_meaning
+ Otázka: "Co znamená 'Niba' mean in this Věta?"
+ context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ Slovo: "Niba"
+ options: ["When", "If", "Then", "After"]
+ correct_answer: "If"
+ xp_reward: 15
+
+ - id: 106
+ type: identify_meaning
+ Otázka: "Co znamená 'uzatsinda' mean in this Věta?"
+ context_sentence: "Niba wiga, uzatsinda."
+ Slovo: "uzatsinda"
+ options: ["you will fail", "you will succeed", "you will study", "you will work"]
+ correct_answer: "you will succeed"
+ xp_reward: 15
+
+ - id: 107
+ type: identify_meaning
+ Otázka: "Co znamená 'tuzatangira' mean in this Věta?"
+ context_sentence: "Niba aje, tuzatangira inama."
+ Slovo: "tuzatangira"
+ options: ["we will finish", "we will start", "we will attend", "we will leave"]
+ correct_answer: "we will start"
+ xp_reward: 15
+
+ - id: 108
+ type: identify_meaning
+ Otázka: "Co znamená 'bishoboka' mean in this Věta?"
+ context_sentence: "Niba bishoboka, nzaza ejo."
+ Slovo: "bishoboka"
+ options: ["it is possible", "it is impossible", "it is good", "it is bad"]
+ correct_answer: "it is possible"
+ xp_reward: 15
+
+ # 19. Speed Spojte
+ - id: 109
+ type: speed_Spojte
+ title: "Spojte Madness: Conditionals"
+ time_limit_seconds: 45
+ pairs:
+ - Vlevo: "If"
+ Vpravo: "Niba"
+ - Vlevo: "When"
+ Vpravo: "Iyo"
+ - Vlevo: "Then"
+ Vpravo: "Hanyuma"
+ - Vlevo: "Possible"
+ Vpravo: "Birashoboka"
+ - Vlevo: "Impossible"
+ Vpravo: "Ntibishoboka"
+ - Vlevo: "Always"
+ Vpravo: "Buri gihe"
+ - Vlevo: "Never"
+ Vpravo: "Nta na rimwe"
+ - Vlevo: "Before"
+ Vpravo: "Mbere y'uko"
+ - Vlevo: "After"
+ Vpravo: "Nyuma y'uko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 110
+ type: timed_challenge
+ title: "Lightning Round: Conditionals"
+ time_limit_seconds: 30
+ Otázka_count: 5
+ Otázka:
+ - Otázka: "If"
+ Odpověď: "Niba"
+ - Otázka: "When"
+ Odpověď: "Iyo"
+ - Otázka: "Possible"
+ Odpověď: "Birashoboka"
+ - Otázka: "Always"
+ Odpověď: "Buri gihe"
+ - Otázka: "Never"
+ Odpověď: "Nta na rimwe"
+ xp_reward: 35
+
+# Kartičky
+ - id: 111
+ type: Kartičky
+ Otázka: "Kartičky"
+ Kartičky:
+ - front: "Niba"
+ back: "If"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iyo"
+ back: "When"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Keretse"
+ back: "Unless"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Hanyuma"
+ back: "Then"
+ image: "https://images.pexels.com/photos/45201/kitty-Kočka-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Might"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Azakora"
+ back: "Will"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Byaba"
+ back: "Would"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Bashobora"
+ back: "Could"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Bikwiye"
+ back: "Should"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Can"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

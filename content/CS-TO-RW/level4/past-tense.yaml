@@ -1,0 +1,1228 @@
+lesson:
+ name: "Past Tense - Igihe Cyashize"
+ description: "Učte se how to talk about past actions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Past Tense Verbs ONLY (Safe for single words)
+ # Basic Past Tense Verbs
+ - id: 1
+ type: translation
+ Otázka: "Jak se řekne 'ate' v kinyarwandštině?"
+ Odpověď: "yariye"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Otázka: "Jak se řekne 'drank' v kinyarwandštině?"
+ Odpověď: "yanyoye"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Otázka: "Jak se řekne 'went' v kinyarwandštině?"
+ Odpověď: "yagiye"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Otázka: "Jak se řekne 'came' v kinyarwandštině?"
+ Odpověď: "yazanywe"
+ note: "Also 'yazanye'"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Otázka: "Jak se řekne 'saw' v kinyarwandštině?"
+ Odpověď: "yabonye"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Otázka: "Jak se řekne 'met' v kinyarwandštině?"
+ Odpověď: "yahuye"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Otázka: "Jak se řekne 'bought' v kinyarwandštině?"
+ Odpověď: "yaguzwe"
+ note: "Also 'yaguriye'"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Otázka: "Jak se řekne 'played' v kinyarwandštině?"
+ Odpověď: "yakinnye"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Otázka: "Jak se řekne 'slept' v kinyarwandštině?"
+ Odpověď: "yarahunyiriye"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Otázka: "Jak se řekne 'said' v kinyarwandštině?"
+ Odpověď: "yavuze"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Otázka: "Jak se řekne 'liked / loved' v kinyarwandštině?"
+ Odpověď: "yakunze"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Otázka: "Jak se řekne 'worked' v kinyarwandštině?"
+ Odpověď: "yakoranye"
+ note: "Also 'yakoze'"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Otázka: "Jak se řekne 'Učte se' v kinyarwandštině?"
+ Odpověď: "yize"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Otázka: "Jak se řekne 'wanted' v kinyarwandštině?"
+ Odpověď: "yashakaga"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Otázka: "Jak se řekne 'helped' v kinyarwandštině?"
+ Odpověď: "yafashije"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Otázka: "Jak se řekne 'called / named' v kinyarwandštině?"
+ Odpověď: "yitwa"
+ note: "Also 'yavuze ko'"
+ xp_reward: 10
+
+ # Subject Conjugations - Past Tense
+ - id: 17
+ type: translation
+ Otázka: "Jak se řekne 'I ate' v kinyarwandštině?"
+ Odpověď: "Nariye"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Otázka: "Jak se řekne 'You ate' v kinyarwandštině?"
+ Odpověď: "Wariye"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Otázka: "Jak se řekne 'He/She ate' v kinyarwandštině?"
+ Odpověď: "Yariye"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Otázka: "Jak se řekne 'We ate' v kinyarwandštině?"
+ Odpověď: "Twariye"
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Otázka: "Jak se řekne 'They ate' v kinyarwandštině?"
+ Odpověď: "Bariye"
+ xp_reward: 15
+
+ # Past Tense Phrases
+ - id: 22
+ type: translation
+ Otázka: "Jak se řekne 'I drank Voda' v kinyarwandštině?"
+ Odpověď: "Nanyoye amazi."
+ xp_reward: 18
+
+ - id: 23
+ type: translation
+ Otázka: "Jak se řekne 'He went to the Trh' v kinyarwandštině?"
+ Odpověď: "Yagiye ku isoko."
+ xp_reward: 18
+
+ - id: 24
+ type: translation
+ Otázka: "Jak se řekne 'She met her friend' v kinyarwandštině?"
+ Odpověď: "Yahuye n'inshuti ye."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Otázka: "Jak se řekne 'I bought a book' v kinyarwandštině?"
+ Odpověď: "Naguriye igitabo."
+ xp_reward: 18
+
+ - id: 26
+ type: translation
+ Otázka: "Jak se řekne 'The children played' v kinyarwandštině?"
+ Odpověď: "Abana bakinnyije."
+ note: "Also 'Abana bakinnye'"
+ xp_reward: 18
+
+ - id: 27
+ type: translation
+ Otázka: "Jak se řekne 'He slept well' v kinyarwandštině?"
+ Odpověď: "Yarahunyiriye neza."
+ xp_reward: 18
+
+ - id: 28
+ type: translation
+ Otázka: "Jak se řekne 'They said Ahoj' v kinyarwandštině?"
+ Odpověď: "Bavuze muraho."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Otázka: "Co znamená 'yariye' v této větě?"
+ options:
+ - "drank"
+ - "ate"
+ - "went"
+ - "saw"
+ Odpověď: "ate"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Otázka: "Co znamená 'yanyoye' v této větě?"
+ options:
+ - "ate"
+ - "drank"
+ - "slept"
+ - "played"
+ Odpověď: "drank"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Otázka: "Co znamená 'yagiye' v této větě?"
+ options:
+ - "came"
+ - "went"
+ - "saw"
+ - "met"
+ Odpověď: "went"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Otázka: "Co znamená 'yabonye' v této větě?"
+ options:
+ - "bought"
+ - "met"
+ - "saw"
+ - "played"
+ Odpověď: "saw"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Otázka: "Co znamená 'yahuye' v této větě?"
+ options:
+ - "saw"
+ - "met"
+ - "bought"
+ - "said"
+ Odpověď: "met"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Otázka: "Co znamená 'yaguzwe' v této větě?"
+ options:
+ - "bought"
+ - "sold"
+ - "gave"
+ - "took"
+ Odpověď: "bought"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Otázka: "Co znamená 'Nariye' v této větě?"
+ options:
+ - "You ate"
+ - "I ate"
+ - "He ate"
+ - "We ate"
+ Odpověď: "I ate"
+ xp_reward: 15
+
+ - id: 36
+ type: multiple_choice
+ Otázka: "Co znamená 'Twariye' v této větě?"
+ options:
+ - "I ate"
+ - "You ate"
+ - "We ate"
+ - "They ate"
+ Odpověď: "We ate"
+ xp_reward: 15
+
+ # 3. Poslouchejte and Type (Dictation)
+ - id: 37
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the past tense verb"
+ audio: "yariye"
+ Odpověď: "yariye"
+ translation: "ate"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the past tense verb"
+ audio: "yanyoye"
+ Odpověď: "yanyoye"
+ translation: "drank"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the past tense verb"
+ audio: "yagiye"
+ Odpověď: "yagiye"
+ translation: "went"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the past tense verb"
+ audio: "yabonye"
+ Odpověď: "yabonye"
+ translation: "saw"
+ xp_reward: 20
+
+ - id: 41
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the past tense verb"
+ audio: "yahuye"
+ Odpověď: "yahuye"
+ translation: "met"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the past tense phrase"
+ audio: "Nariye"
+ Odpověď: "Nariye"
+ translation: "I ate"
+ xp_reward: 22
+
+ - id: 43
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the past tense phrase"
+ audio: "Nanyoye amazi"
+ Odpověď: "Nanyoye amazi"
+ translation: "I drank Voda"
+ xp_reward: 25
+
+ - id: 44
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the past tense phrase"
+ audio: "Yagiye ku isoko"
+ Odpověď: "Yagiye ku isoko"
+ translation: "He went to the Trh"
+ xp_reward: 25
+
+ # 4. Poslouchejte and Vyberte
+ - id: 45
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně past tense verb"
+ audio: "yariye"
+ options:
+ - "drank"
+ - "ate"
+ - "went"
+ Odpověď: "ate"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně past tense verb"
+ audio: "yanyoye"
+ options:
+ - "ate"
+ - "drank"
+ - "slept"
+ Odpověď: "drank"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně past tense verb"
+ audio: "yagiye"
+ options:
+ - "came"
+ - "went"
+ - "saw"
+ Odpověď: "went"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně phrase"
+ audio: "Nariye"
+ options:
+ - "I ate"
+ - "You ate"
+ - "He ate"
+ Odpověď: "I ate"
+ xp_reward: 18
+
+ - id: 49
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně phrase"
+ audio: "Yagiye ku isoko"
+ options:
+ - "He went to Škola"
+ - "He went to the Trh"
+ - "He went home"
+ Odpověď: "He went to the Trh"
+ xp_reward: 20
+
+ # 5. Repeat / Mluvte Exercise
+ - id: 50
+ type: Mluvte
+ Otázka: "Say this past tense verb"
+ prompt: "yariye"
+ translation: "ate"
+ xp_reward: 15
+
+ - id: 51
+ type: Mluvte
+ Otázka: "Say this past tense verb"
+ prompt: "yanyoye"
+ translation: "drank"
+ xp_reward: 15
+
+ - id: 52
+ type: Mluvte
+ Otázka: "Say this past tense verb"
+ prompt: "yagiye"
+ translation: "went"
+ xp_reward: 15
+
+ - id: 53
+ type: Mluvte
+ Otázka: "Say this past tense verb"
+ prompt: "yabonye"
+ translation: "saw"
+ xp_reward: 15
+
+ - id: 54
+ type: Mluvte
+ Otázka: "Say this past tense phrase"
+ prompt: "Nariye"
+ translation: "I ate"
+ xp_reward: 18
+
+ - id: 55
+ type: Mluvte
+ Otázka: "Say this past tense phrase"
+ prompt: "Twariye"
+ translation: "We ate"
+ xp_reward: 18
+
+ - id: 56
+ type: Mluvte
+ Otázka: "Say this past tense phrase"
+ prompt: "Nanyoye amazi"
+ translation: "I drank Voda"
+ xp_reward: 20
+
+ - id: 57
+ type: Mluvte
+ Otázka: "Say this past tense phrase"
+ prompt: "Yagiye ku isoko"
+ translation: "He went to the Trh"
+ xp_reward: 20
+
+ # 6. Slovo Bank Věta Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ Otázka: "Vytvořte kinyarwandskou frázi pro 'I ate'"
+ word_bank: ["Nariye", "Wariye", "Yariye", "Twariye"]
+ correct_answer: ["Nariye"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Otázka: "Vytvořte kinyarwandskou frázi pro 'You ate'"
+ word_bank: ["Nariye", "Wariye", "Yariye", "Twariye"]
+ correct_answer: ["Wariye"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Otázka: "Vytvořte kinyarwandskou frázi pro 'He ate'"
+ word_bank: ["Nariye", "Wariye", "Yariye", "Bariye"]
+ correct_answer: ["Yariye"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ Otázka: "Vytvořte kinyarwandskou frázi pro 'We ate'"
+ word_bank: ["Nariye", "Wariye", "Yariye", "Twariye"]
+ correct_answer: ["Twariye"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Otázka: "Vytvořte kinyarwandskou frázi pro 'They ate'"
+ word_bank: ["Nariye", "Wariye", "Yariye", "Bariye"]
+ correct_answer: ["Bariye"]
+ xp_reward: 15
+
+ - id: 63
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'I drank Voda'"
+ word_bank: ["Nanyoye", "amazi", "yanyoye", "amata", "nariye"]
+ correct_answer: ["Nanyoye", "amazi"]
+ xp_reward: 18
+
+ - id: 64
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'He went to the Trh'"
+ word_bank: ["Yagiye", "ku isoko", "ku ishuri", "mu nzu", "yabonye"]
+ correct_answer: ["Yagiye", "ku isoko"]
+ xp_reward: 18
+
+ - id: 65
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'She met her friend'"
+ word_bank: ["Yahuye", "n'inshuti", "ye", "n'umuryango", "wanjye"]
+ correct_answer: ["Yahuye", "n'inshuti", "ye"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'I bought a book'"
+ word_bank: ["Naguriye", "igitabo", "yaguriye", "ibiryo", "nariye"]
+ correct_answer: ["Naguriye", "igitabo"]
+ xp_reward: 18
+
+ - id: 67
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The children played'"
+ word_bank: ["Abana", "bakinnyije", "yarahunyiriye", "neza", "bavuze"]
+ correct_answer: ["Abana", "bakinnyije"]
+ xp_reward: 18
+
+ - id: 68
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'He slept well'"
+ word_bank: ["Yarahunyiriye", "neza", "yarahunyiriye", "nabi", "yakoze"]
+ correct_answer: ["Yarahunyiriye", "neza"]
+ xp_reward: 18
+
+ - id: 69
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'They said Ahoj'"
+ word_bank: ["Bavuze", "muraho", "bavuze", "amakuru", "yavuze"]
+ correct_answer: ["Bavuze", "muraho"]
+ xp_reward: 18
+
+ # 7. Věta Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Otázka: "Arrange these to form a Správně phrase"
+ scrambled_words: ["Nariye"]
+ correct_sentence: "Nariye"
+ translation: "I ate"
+ xp_reward: 12
+
+ - id: 71
+ type: sentence_scramble
+ Otázka: "Arrange these to form a Správně phrase"
+ scrambled_words: ["Twariye"]
+ correct_sentence: "Twariye"
+ translation: "We ate"
+ xp_reward: 12
+
+ - id: 72
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Nanyoye", "amazi"]
+ correct_sentence: "Nanyoye amazi."
+ translation: "I drank Voda."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Yagiye", "ku isoko"]
+ correct_sentence: "Yagiye ku isoko."
+ translation: "He went to the Trh."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Yahuye", "n'inshuti", "ye"]
+ correct_sentence: "Yahuye n'inshuti ye."
+ translation: "She met her friend."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Naguriye", "igitabo"]
+ correct_sentence: "Naguriye igitabo."
+ translation: "I bought a book."
+ xp_reward: 15
+
+ - id: 76
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Abana", "bakinnyije"]
+ correct_sentence: "Abana bakinnyije."
+ translation: "The children played."
+ xp_reward: 15
+
+ - id: 77
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Yarahunyiriye", "neza"]
+ correct_sentence: "Yarahunyiriye neza."
+ translation: "He slept well."
+ xp_reward: 15
+
+ - id: 78
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Bavuze", "muraho"]
+ correct_sentence: "Bavuze muraho."
+ translation: "They said Ahoj."
+ xp_reward: 15
+
+ # 8. Fill in the Blank - Vyberte FROM OPTIONS
+ - id: 79
+ type: fill_blank
+ Otázka: "Dopl?te fr?zi for 'I ate'"
+ text_with_blank: "___"
+ options: ["Nariye", "Wariye", "Yariye"]
+ correct_answer: "Nariye"
+ translation: "I ate"
+ xp_reward: 10
+
+ - id: 80
+ type: fill_blank
+ Otázka: "Dopl?te fr?zi for 'We ate'"
+ text_with_blank: "___"
+ options: ["Nariye", "Twariye", "Bariye"]
+ correct_answer: "Twariye"
+ translation: "We ate"
+ xp_reward: 10
+
+ - id: 81
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Nanyoye ___."
+ options: ["amazi", "amata", "ibiryo"]
+ correct_answer: "amazi"
+ translation: "I drank Voda."
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Yagiye ___."
+ options: ["ku isoko", "ku ishuri", "mu nzu"]
+ correct_answer: "ku isoko"
+ translation: "He went to the Trh."
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Yahuye ___."
+ options: ["n'inshuti ye", "n'umuryango we", "n'umugore we"]
+ correct_answer: "n'inshuti ye"
+ translation: "She met her friend."
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Naguriye ___."
+ options: ["igitabo", "ibiryo", "umugati"]
+ correct_answer: "igitabo"
+ translation: "I bought a book."
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Abana ___."
+ options: ["bakinnyije", "bariye", "bavuze"]
+ correct_answer: "bakinnyije"
+ translation: "The children played."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Yarahunyiriye ___."
+ options: ["neza", "nabi", "kare"]
+ correct_answer: "neza"
+ translation: "He slept well."
+ xp_reward: 15
+
+ - id: 87
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Bavuze ___."
+ options: ["muraho", "amakuru", "ni meza"]
+ correct_answer: "muraho"
+ translation: "They said Ahoj."
+ xp_reward: 15
+
+ # 9. Picture → Slovo (Unsplash Images) - Representing past actions
+ - id: 88
+ type: picture_word
+ Otázka: "Co ud?lal? (minul? ?as)"
+ image_url: "https://source.unsplash.com/featured/?eating"
+ options: ["yariye", "yanyoye", "yagiye"]
+ correct_answer: "yariye"
+ xp_reward: 15
+
+ - id: 89
+ type: picture_word
+ Otázka: "Co ud?lal? (minul? ?as)"
+ image_url: "https://source.unsplash.com/featured/?drinking"
+ options: ["yariye", "yanyoye", "yakoze"]
+ correct_answer: "yanyoye"
+ xp_reward: 15
+
+ - id: 90
+ type: picture_word
+ Otázka: "Co ud?lal? (minul? ?as)"
+ image_url: "https://source.unsplash.com/featured/?walking-away"
+ options: ["yariye", "yanyoye", "yagiye"]
+ correct_answer: "yagiye"
+ xp_reward: 15
+
+ - id: 91
+ type: picture_word
+ Otázka: "Co ud?lal? (minul? ?as)"
+ image_url: "https://source.unsplash.com/featured/?seeing"
+ options: ["yabonye", "yahuye", "yavuze"]
+ correct_answer: "yabonye"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ Otázka: "What did they do? (past tense)"
+ image_url: "https://source.unsplash.com/featured/?schůzka"
+ options: ["yahuye", "yabonye", "yavuze"]
+ correct_answer: "yahuye"
+ xp_reward: 15
+
+ - id: 93
+ type: picture_word
+ Otázka: "Co ud?lal? (minul? ?as)"
+ image_url: "https://source.unsplash.com/featured/?Nakupování"
+ options: ["yaguzwe", "yariye", "yakoze"]
+ correct_answer: "yaguzwe"
+ xp_reward: 15
+
+ - id: 94
+ type: picture_word
+ Otázka: "What did the children do? (past tense)"
+ image_url: "https://source.unsplash.com/featured/?playing"
+ options: ["yakinnye", "yarahunyiriye", "yize"]
+ correct_answer: "yakinnye"
+ xp_reward: 15
+
+ - id: 95
+ type: picture_word
+ Otázka: "Co ud?lal? (minul? ?as)"
+ image_url: "https://source.unsplash.com/featured/?sleeping"
+ options: ["yarahunyiriye", "yakinnye", "yakoze"]
+ correct_answer: "yarahunyiriye"
+ xp_reward: 15
+
+ # 10. Slovo Spojte (Pairing)
+ - id: 96
+ type: Spojte
+ Otázka: "Spojte the present tense with past tense"
+ pairs:
+ - Vlevo: "irya (eat)"
+ Vpravo: "yariye"
+ - Vlevo: "inywa (drink)"
+ Vpravo: "yanyoye"
+ - Vlevo: "genda (go)"
+ Vpravo: "yagiye"
+ - Vlevo: "kora (work)"
+ Vpravo: "yakoze"
+ - Vlevo: "rya (eat for I)"
+ Vpravo: "nariye"
+ - Vlevo: "rya (eat for we)"
+ Vpravo: "twariye"
+ - Vlevo: "rya (eat for they)"
+ Vpravo: "bariye"
+ xp_reward: 25
+
+ - id: 97
+ type: Spojte
+ Otázka: "Spojte the past tense verbs with their meanings"
+ pairs:
+ - Vlevo: "yabonye"
+ Vpravo: "saw"
+ - Vlevo: "yahuye"
+ Vpravo: "met"
+ - Vlevo: "yaguzwe"
+ Vpravo: "bought"
+ - Vlevo: "yakinnye"
+ Vpravo: "played"
+ - Vlevo: "yarahunyiriye"
+ Vpravo: "slept"
+ - Vlevo: "yavuze"
+ Vpravo: "said"
+ - Vlevo: "yakunze"
+ Vpravo: "loved"
+ - Vlevo: "yize"
+ Vpravo: "Učte se"
+ xp_reward: 25
+
+ - id: 98
+ type: Spojte
+ Otázka: "Spojte the subject with the Správně past tense form of 'eat'"
+ pairs:
+ - Vlevo: "I"
+ Vpravo: "Nariye"
+ - Vlevo: "You"
+ Vpravo: "Wariye"
+ - Vlevo: "He/She"
+ Vpravo: "Yariye"
+ - Vlevo: "We"
+ Vpravo: "Twariye"
+ - Vlevo: "They"
+ Vpravo: "Bariye"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Vyberte Missing Slovo
+ - id: 99
+ type: choose_missing
+ Otázka: "Vyberte the Správně past tense verb for 'I'"
+ Věta: "___ amazi."
+ missing_word_position: 1
+ options: ["Nanyoye", "Yanyoye", "Banyoye"]
+ correct_answer: "Nanyoye"
+ translation: "I drank Voda."
+ xp_reward: 15
+
+ - id: 100
+ type: choose_missing
+ Otázka: "Vyberte the Správně past tense verb"
+ Věta: "Yagiye ___."
+ missing_word_position: 2
+ options: ["ku isoko", "ku ishuri", "mu nzu"]
+ correct_answer: "ku isoko"
+ translation: "He went to the Trh."
+ xp_reward: 15
+
+ - id: 101
+ type: choose_missing
+ Otázka: "Vyberte the Správně past tense verb"
+ Věta: "___ igitabo."
+ missing_word_position: 1
+ options: ["Naguriye", "Yaguriye", "Baguriye"]
+ correct_answer: "Naguriye"
+ translation: "I bought a book."
+ xp_reward: 15
+
+ - id: 102
+ type: choose_missing
+ Otázka: "Vyberte the Správně past tense verb"
+ Věta: "Abana ___."
+ missing_word_position: 2
+ options: ["bakinnyije", "bariye", "bavuze"]
+ correct_answer: "bakinnyije"
+ translation: "The children played."
+ xp_reward: 15
+
+ - id: 103
+ type: choose_missing
+ Otázka: "Vyberte the Správně Slovo"
+ Věta: "Yarahunyiriye ___."
+ missing_word_position: 2
+ options: ["neza", "nabi", "kare"]
+ correct_answer: "neza"
+ translation: "He slept well."
+ xp_reward: 15
+
+ # 13. Čtěte and Odpověď - Otázka based on text
+ - id: 104
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Nanyoye amazi. Nariye ibiryo."
+ Otázka: "What did I drink?"
+ options: ["Voda", "Milk", "Jídlo", "Juice"]
+ correct_answer: "Voda"
+ xp_reward: 15
+
+ - id: 105
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Yagiye ku isoko. Yaguriye ibiryo."
+ Otázka: "Where did he go?"
+ options: ["To Škola", "To the Trh", "Home", "To work"]
+ correct_answer: "To the Trh"
+ xp_reward: 15
+
+ - id: 106
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Yahuye n'inshuti ye. Bavuze muraho."
+ Otázka: "Who did she meet?"
+ options: ["Her Rodina", "Her friend", "Her teacher", "Her brother"]
+ correct_answer: "Her friend"
+ xp_reward: 18
+
+ - id: 107
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Abana bakinnyije. Yarahunyiriye neza."
+ Otázka: "What did the children do?"
+ options: ["Slept", "Played", "Ate", "Drank"]
+ correct_answer: "Played"
+ xp_reward: 15
+
+ - id: 108
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Naguriye igitabo. Nsoma buri munsi."
+ Otázka: "Co jsem koupil?"
+ options: ["Jídlo", "A book", "Voda", "Clothes"]
+ correct_answer: "A book"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 109
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Yariye means 'drank'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 110
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Yanyoye means 'drank'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 111
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Yagiye means 'went'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Nariye means 'I ate'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Twariye means 'they ate'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Yarahunyiriye neza means 'He slept well'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 115
+ type: conversation
+ Otázka: "Respond to the Otázka by building a Věta"
+ bot_message: "Wakoze iki ejo?"
+ translation: "What did you do Včera?"
+ word_bank: ["Nariye", "ibiryo", "nanyoye", "amazi", "naguriye"]
+ correct_response: ["Nariye", "ibiryo"]
+ xp_reward: 20
+
+ - id: 116
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Yagiye he?"
+ translation: "Where did he go?"
+ options:
+ - "Yagiye ku isoko"
+ - "Yagiye ku ishuri"
+ - "Yagiye mu nzu"
+ correct_response: "Yagiye ku isoko"
+ xp_reward: 15
+
+ - id: 117
+ type: conversation
+ Otázka: "Respond to the Otázka by building a Věta"
+ bot_message: "Waguriye iki?"
+ translation: "What did you buy?"
+ word_bank: ["Naguriye", "igitabo", "ibiryo", "umugati", "amazi"]
+ correct_response: ["Naguriye", "igitabo"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Abana bakoze iki?"
+ translation: "What did the children do?"
+ options:
+ - "Bakinnyije"
+ - "Bariye"
+ - "Bavuze muraho"
+ correct_response: "Bakinnyije"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Věta from pieces
+ - id: 119
+ type: story
+ title: "Včera - Ejo Hashize"
+ story_intro: "Čtěte about what happened Včera. Then build the Věta."
+ story_segments:
+ - text: "I ate Jídlo."
+ - text: "I drank Voda."
+ - text: "He went to the Trh."
+ - text: "She met her friend."
+ - text: "I bought a book."
+ - text: "The children played."
+ - text: "He slept well."
+ - text: "They said Ahoj."
+ exercises:
+ - type: word_bank
+ Otázka: "Build 'I ate Jídlo'"
+ word_bank: ["Nariye", "ibiryo", "nanyoye", "amazi"]
+ correct_answer: ["Nariye", "ibiryo"]
+ - type: word_bank
+ Otázka: "Build 'I drank Voda'"
+ word_bank: ["Nanyoye", "amazi", "nariye", "ibiryo"]
+ correct_answer: ["Nanyoye", "amazi"]
+ - type: word_bank
+ Otázka: "Build 'He went to the Trh'"
+ word_bank: ["Yagiye", "ku isoko", "yahuye", "n'inshuti"]
+ correct_answer: ["Yagiye", "ku isoko"]
+ - type: word_bank
+ Otázka: "Build 'She met her friend'"
+ word_bank: ["Yahuye", "n'inshuti", "ye", "yagiye", "ku isoko"]
+ correct_answer: ["Yahuye", "n'inshuti", "ye"]
+ - type: word_bank
+ Otázka: "Build 'I bought a book'"
+ word_bank: ["Naguriye", "igitabo", "nariye", "ibiryo"]
+ correct_answer: ["Naguriye", "igitabo"]
+ - type: word_bank
+ Otázka: "Build 'The children played'"
+ word_bank: ["Abana", "bakinnyije", "yarahunyiriye", "neza"]
+ correct_answer: ["Abana", "bakinnyije"]
+ - type: word_bank
+ Otázka: "Build 'He slept well'"
+ word_bank: ["Yarahunyiriye", "neza", "bakinnyije", "bavuze"]
+ correct_answer: ["Yarahunyiriye", "neza"]
+ - type: word_bank
+ Otázka: "Build 'They said Ahoj'"
+ word_bank: ["Bavuze", "muraho", "bakinnyije", "bariye"]
+ correct_answer: ["Bavuze", "muraho"]
+ xp_reward: 50
+
+ # 17. Pronunciation Check
+ - id: 120
+ type: pronunciation
+ Otázka: "Say this past tense verb"
+ prompt: "yariye"
+ translation: "ate"
+ xp_reward: 15
+
+ - id: 121
+ type: pronunciation
+ Otázka: "Say this past tense verb"
+ prompt: "yanyoye"
+ translation: "drank"
+ xp_reward: 15
+
+ - id: 122
+ type: pronunciation
+ Otázka: "Say this past tense verb"
+ prompt: "yagiye"
+ translation: "went"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Otázka: "Say this past tense phrase"
+ prompt: "Nariye"
+ translation: "I ate"
+ xp_reward: 18
+
+ - id: 124
+ type: pronunciation
+ Otázka: "Say this past tense phrase"
+ prompt: "Twariye"
+ translation: "We ate"
+ xp_reward: 18
+
+ - id: 125
+ type: pronunciation
+ Otázka: "Say this past tense Věta"
+ prompt: "Nanyoye amazi"
+ translation: "I drank Voda"
+ xp_reward: 20
+
+ - id: 126
+ type: pronunciation
+ Otázka: "Say this past tense Věta"
+ prompt: "Yagiye ku isoko"
+ translation: "He went to the Trh"
+ xp_reward: 20
+
+ # 18. Identify Správně Meaning
+ - id: 127
+ type: identify_meaning
+ Otázka: "Co znamená 'yariye' mean in this Věta?"
+ context_sentence: "Yariye ibiryo."
+ Slovo: "yariye"
+ options: ["drank", "ate", "went", "saw"]
+ correct_answer: "ate"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ Otázka: "Co znamená 'Nanyoye' mean in this Věta?"
+ context_sentence: "Nanyoye amazi."
+ Slovo: "Nanyoye"
+ options: ["I ate", "I drank", "I went", "I saw"]
+ correct_answer: "I drank"
+ xp_reward: 15
+
+ - id: 129
+ type: identify_meaning
+ Otázka: "Co znamená 'yahuye' mean in this Věta?"
+ context_sentence: "Yahuye n'inshuti ye."
+ Slovo: "yahuye"
+ options: ["saw", "met", "bought", "said"]
+ correct_answer: "met"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ Otázka: "Co znamená 'bakinnyije' mean in this Věta?"
+ context_sentence: "Abana bakinnyije."
+ Slovo: "bakinnyije"
+ options: ["ate", "drank", "played", "slept"]
+ correct_answer: "played"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ Otázka: "Co znamená 'neza' mean in this Věta?"
+ context_sentence: "Yarahunyiriye neza."
+ Slovo: "neza"
+ options: ["badly", "well", "quickly", "pomalu"]
+ correct_answer: "well"
+ xp_reward: 15
+
+ # 19. Speed Spojte
+ - id: 132
+ type: speed_Spojte
+ title: "Spojte Madness: Past Tense"
+ time_limit_seconds: 45
+ pairs:
+ - Vlevo: "ate"
+ Vpravo: "yariye"
+ - Vlevo: "drank"
+ Vpravo: "yanyoye"
+ - Vlevo: "went"
+ Vpravo: "yagiye"
+ - Vlevo: "saw"
+ Vpravo: "yabonye"
+ - Vlevo: "met"
+ Vpravo: "yahuye"
+ - Vlevo: "bought"
+ Vpravo: "yaguzwe"
+ - Vlevo: "played"
+ Vpravo: "yakinnye"
+ - Vlevo: "slept"
+ Vpravo: "yarahunyiriye"
+ - Vlevo: "said"
+ Vpravo: "yavuze"
+ - Vlevo: "worked"
+ Vpravo: "yakoze"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 133
+ type: timed_challenge
+ title: "Lightning Round: Past Tense"
+ time_limit_seconds: 30
+ Otázka_count: 5
+ Otázka:
+ - Otázka: "ate"
+ Odpověď: "yariye"
+ - Otázka: "drank"
+ Odpověď: "yanyoye"
+ - Otázka: "went"
+ Odpověď: "yagiye"
+ - Otázka: "saw"
+ Odpověď: "yabonye"
+ - Otázka: "met"
+ Odpověď: "yahuye"
+ xp_reward: 35
+
+# Kartičky
+ - id: 111
+ type: Kartičky
+ Otázka: "Kartičky"
+ Kartičky:
+ - front: "yariye"
+ back: "ate"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "yanyoye"
+ back: "drank"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "yagiye"
+ back: "went"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "yazanywe"
+ back: "came"
+ image: "https://images.pexels.com/photos/45201/kitty-Kočka-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "yabonye"
+ back: "saw"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "yahuye"
+ back: "met"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "yaguzwe"
+ back: "bought"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "yakinnye"
+ back: "played"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "yarahunyiriye"
+ back: "slept"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "yavuze"
+ back: "said"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

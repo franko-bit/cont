@@ -1,0 +1,907 @@
+lesson:
+ name: "色"
+ description: "学ぶ basic 色 で Kinyarwanda と 動物 と objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - 色 ONLY (Safe のために single words)
+ - id: 1
+ type: translation
+ 質問: "何と言いますか '赤' キニャルワンダ語で？"
+ 答え: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 質問: "何と言いますか '青' キニャルワンダ語で？"
+ 答え: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 質問: "何と言いますか '緑' キニャルワンダ語で？"
+ 答え: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 質問: "何と言いますか '黄色' キニャルワンダ語で？"
+ 答え: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 質問: "何と言いますか '黒' キニャルワンダ語で？"
+ 答え: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 質問: "何と言いますか '白' キニャルワンダ語で？"
+ 答え: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 質問: "何と言いますか 'オレンジ' キニャルワンダ語で？"
+ 答え: "オレンジ"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, ない full 文)
+ - id: 8
+ type: translation
+ 質問: "何と言いますか '赤 apple' キニャルワンダ語で？"
+ 答え: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ 質問: "何と言いますか '青 sky' キニャルワンダ語で？"
+ 答え: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ 質問: "何と言いますか '緑 grass' キニャルワンダ語で？"
+ 答え: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ 質問: "何と言いますか '黄色 sun' キニャルワンダ語で？"
+ 答え: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ 質問: "何と言いますか '黒 猫' キニャルワンダ語で？"
+ 答え: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ 質問: "何と言いますか '白 牛' キニャルワンダ語で？"
+ 答え: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ 質問: "何と言いますか 'オレンジ carrot' キニャルワンダ語で？"
+ 答え: "Karoti ya オレンジ"
+ xp_reward: 15
+
+ # Translation - 色 と 動物 (Noun + Color phrases)
+ - id: 15
+ type: translation
+ 質問: "何と言いますか '赤 とり' キニャルワンダ語で？"
+ 答え: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ 質問: "何と言いますか '緑 かえる' キニャルワンダ語で？"
+ 答え: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ 質問: "何と言いますか '青 さかな' キニャルワンダ語で？"
+ 答え: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ 質問: "何と言いますか '黄色 にわとり' キニャルワンダ語で？"
+ 答え: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ 質問: "何と言いますか '黒 うさぎ' キニャルワンダ語で？"
+ 答え: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ 質問: "何と言いますか '白 やぎ' キニャルワンダ語で？"
+ 答え: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers と 色 (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ 質問: "何と言いますか 'One 赤 apple' キニャルワンダ語で？"
+ 答え: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ 質問: "何と言いますか 'Two 青 とり' キニャルワンダ語で？"
+ 答え: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ 質問: "何と言いますか 'Three 黄色 にわとり' キニャルワンダ語で？"
+ 答え: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ 質問: "何と言いますか 'Four 黒 猫' キニャルワンダ語で？"
+ 答え: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ 質問: "何と言いますか 'Five 白 牛' キニャルワンダ語で？"
+ 答え: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color 質問 (Phrases - safe  they です fixed expressions)
+ - id: 26
+ type: translation
+ 質問: "どう聞きますか 'What color です  apple?' キニャルワンダ語で？"
+ 答え: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ 質問: "どう聞きますか 'What color です  sky?' キニャルワンダ語で？"
+ 答え: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ 質問: "どう聞きますか 'です  猫 黒?' キニャルワンダ語で？"
+ 答え: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # いいえ DIRECT TRANSLATION のために FULL 文 または PARAGRAPHS
+ # Instead, we use 文 building, 一致させる, と word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ 質問: "何を意味しますか 'Umutuku' という意味ですか"
+ options:
+ - "青"
+ - "赤"
+ - "緑"
+ - "黄色"
+ 答え: "赤"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ 質問: "何を意味しますか 'Ubururu' という意味ですか"
+ options:
+ - "赤"
+ - "青"
+ - "黒"
+ - "白"
+ 答え: "青"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ 質問: "何を意味しますか 'Icyatsi' という意味ですか"
+ options:
+ - "緑"
+ - "黄色"
+ - "オレンジ"
+ - "赤"
+ 答え: "緑"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ 質問: "何を意味しますか 'Umuhondo' という意味ですか"
+ options:
+ - "青"
+ - "赤"
+ - "黄色"
+ - "白"
+ 答え: "黄色"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ 質問: "何を意味しますか 'Umukara' という意味ですか"
+ options:
+ - "白"
+ - "黒"
+ - "緑"
+ - "オレンジ"
+ 答え: "黒"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ 質問: "何を意味しますか 'Umweru' という意味ですか"
+ options:
+ - "黒"
+ - "白"
+ - "赤"
+ - "青"
+ 答え: "白"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ 質問: "何を意味しますか 'Inyoni itukura' という意味ですか"
+ options:
+ - "青 とり"
+ - "赤 とり"
+ - "緑 とり"
+ - "黄色 とり"
+ 答え: "赤 とり"
+ xp_reward: 15
+
+ # 3. 聞く と Type (Dictation) - Safe because audio です provided
+ - id: 36
+ type: listen_と_type
+ 質問: "聞く と type  color"
+ tts_text: "Umutuku"
+ 答え: "Umutuku"
+ translation: "赤"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_と_type
+ 質問: "聞く と type  color"
+ tts_text: "Ubururu"
+ 答え: "Ubururu"
+ translation: "青"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ tts_text: "Pome ni umutuku"
+ 答え: "Pome ni umutuku"
+ translation: " apple です 赤"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ tts_text: "Ijuru ni ubururu"
+ 答え: "Ijuru ni ubururu"
+ translation: " sky です 青"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ 答え: "Inyoni itukura iraguruka"
+ translation: " 赤 とり flies"
+ xp_reward: 25
+
+ # 4. 聞く と 選ぶ
+ - id: 41
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct color"
+ tts_text: "Umutuku"
+ options:
+ - "赤"
+ - "青"
+ - "緑"
+ 答え: "赤"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "赤"
+ - "黄色"
+ - "黒"
+ 答え: "黄色"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - " apple です 赤"
+ - " sky です 青"
+ - " sun です 黄色"
+ 答え: " apple です 赤"
+ xp_reward: 20
+
+ # 5. Repeat / 話す Exercise
+ - id: 44
+ type: 話す
+ 質問: "Say これ color"
+ prompt: "Umutuku"
+ translation: "赤"
+ xp_reward: 15
+
+ - id: 45
+ type: 話す
+ 質問: "Say これ color"
+ prompt: "Ubururu"
+ translation: "青"
+ xp_reward: 15
+
+ - id: 46
+ type: 話す
+ 質問: "Say これ phrase"
+ prompt: "Pome itukura"
+ translation: "赤 apple"
+ xp_reward: 18
+
+ - id: 47
+ type: 話す
+ 質問: "Say これ 文"
+ prompt: "Pome ni umutuku"
+ translation: " apple です 赤"
+ xp_reward: 20
+
+ - id: 48
+ type: 話す
+ 質問: "Say これ 文"
+ prompt: "Ijuru ni ubururu"
+ translation: " sky です 青"
+ xp_reward: 20
+
+ # 6. Word Bank 文 Building - PIECES PROVIDED, いいえ TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' apple です 赤'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' sky です 青'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ 質問: "Build  Kinyarwanda phrase のために '赤 とり'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ 質問: "Build  Kinyarwanda phrase のために '青 さかな'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' 赤 とり flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' 緑 かえる jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. 文 Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct Kinyarwanda 文"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: " apple です 赤"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct Kinyarwanda 文"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: " sky です 青"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct Kinyarwanda 文"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: " 赤 とり flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct Kinyarwanda 文"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: " 緑 かえる jumps"
+ xp_reward: 25
+
+ # 8. Fill で  Blank - 選ぶ FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ 質問: "選ぶ  correct word に complete  文"
+ text_と_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: " apple です 赤"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ 質問: "選ぶ  correct word に complete  文"
+ text_と_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: " sky です 青"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ 質問: "選ぶ  correct word に complete  文"
+ text_と_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: " grass です 緑"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ 質問: "選ぶ  correct word に complete  文"
+ text_と_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: " sun です 黄色"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ 質問: "選ぶ  correct word に complete  phrase"
+ text_と_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: " 赤 とり flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ 質問: "What color です これ?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ 質問: "What color です これ?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ 質問: "What color です これ?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "オレンジ", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ 質問: "What color です これ?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ 質問: "What color です これ?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "オレンジ"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ 質問: "What color です これ?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ 質問: "What color です これ?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "オレンジ", "Ubururu"]
+ correct_answer: "オレンジ"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ 質問: "What color です これ apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "オレンジ"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ 質問: "What color です これ とり?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word 一致させる (Pairing)
+ - id: 73
+ type: 一致させる
+ 質問: "一致させる  色"
+ pairs:
+ - 左: "赤"
+ 右: "Umutuku"
+ - 左: "青"
+ 右: "Ubururu"
+ - 左: "緑"
+ 右: "Icyatsi"
+ - 左: "黄色"
+ 右: "Umuhondo"
+ - 左: "黒"
+ 右: "Umukara"
+ - 左: "白"
+ 右: "Umweru"
+ - 左: "オレンジ"
+ 右: "オレンジ"
+ xp_reward: 25
+
+ - id: 74
+ type: 一致させる
+ 質問: "一致させる  colored objects"
+ pairs:
+ - 左: "赤 apple"
+ 右: "Pome itukura"
+ - 左: "青 sky"
+ 右: "Ijuru ry'ubururu"
+ - 左: "緑 grass"
+ 右: "Ibyatsi by'icyatsi"
+ - 左: "黄色 sun"
+ 右: "Izuba ry'umuhondo"
+ - 左: "黒 猫"
+ 右: "Injangwe y'umukara"
+ - 左: "白 牛"
+ 右: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: 一致させる
+ 質問: "一致させる  colored 動物"
+ pairs:
+ - 左: "赤 とり"
+ 右: "Inyoni itukura"
+ - 左: "緑 かえる"
+ 右: "Igikeri cy'icyatsi"
+ - 左: "青 さかな"
+ 右: "Ifi y'ubururu"
+ - 左: "黄色 にわとり"
+ 右: "Inkoko y'umuhondo"
+ - 左: "黒 うさぎ"
+ 右: "Urukwavu rw'umukara"
+ - 左: "白 やぎ"
+ 右: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. 選ぶ Missing Word
+ - id: 80
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: " apple です 赤"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: " sky です 青"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: " 赤 とり flies"
+ xp_reward: 18
+
+ # 12. 読む と 答え - 質問 で English, 答え based に Kinyarwanda text
+ - id: 83
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ 質問: "What color です  apple?"
+ options: ["赤", "青", "緑", "黄色"]
+ correct_answer: "赤"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ 質問: "何を意味しますか  赤 とり do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ 質問: "What color です  牛?"
+ options: ["黒", "白", "黄色", "赤"]
+ correct_answer: "白"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Pome ni umutuku."
+ translation: " apple です 赤"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Ijuru ni icyatsi."
+ translation: " sky です 緑"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Inka ni umweru."
+ translation: " 牛 です 白"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: " 赤 とり flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ 質問: "Respond に  質問 by building  文"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color です これ apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ 質問: "Respond に  質問"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color です  sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ 質問: "Respond に  質問"
+ bot_message: "Injangwe ni umukara?"
+ translation: "です  猫 黒?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build 文 from pieces
+ - id: 93
+ type: story
+ title: "色 で  Field"
+ story_intro: "読む about  colorful 動物. Then build  文."
+ story_segments:
+ - text: "There です  赤 とり で  sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: " とり flies above."
+ - text: "There です  緑 かえる near  水."
+ - text: " かえる jumps."
+ - text: "There です  青 さかな で  水."
+ - text: " さかな swims."
+ exercises:
+ - type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' 赤 とり flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' 緑 かえる jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために ' 青 さかな swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ 質問: "Say  color"
+ prompt: "Umutuku"
+ translation: "赤"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ 質問: "Say  color"
+ prompt: "Agasumbashyamba" # キリン - testing color knowledge で context
+ translation: "キリン (they です 黄色 と 茶色)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ 質問: "Say  phrase"
+ prompt: "Pome itukura"
+ translation: "赤 apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ 質問: "何を意味しますか 'umutuku' mean で これ 文?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["赤", "青", "緑", "黄色"]
+ correct_answer: "赤"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ 質問: "何を意味しますか 'itukura' mean で これ 文?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["赤", "青", "緑", "黄色"]
+ correct_answer: "赤"
+ note: "itukura です  adjective form の umutuku when describing  noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ 質問: "何を意味しますか 'cy'icyatsi' mean で これ 文?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["赤", "青", "緑", "黄色"]
+ correct_answer: "緑"
+ xp_reward: 18
+
+ # 18. Speed 一致させる
+ - id: 100
+ type: speed_一致させる
+ title: "一致させる Madness: 色"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "赤"
+ 右: "Umutuku"
+ - 左: "青"
+ 右: "Ubururu"
+ - 左: "緑"
+ 右: "Icyatsi"
+ - 左: "黄色"
+ 右: "Umuhondo"
+ - 左: "黒"
+ 右: "Umukara"
+ - 左: "白"
+ 右: "Umweru"
+ - 左: "オレンジ"
+ 右: "オレンジ"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: 色"
+ time_limit_seconds: 30
+ 質問_count: 5
+ 質問:
+ - 質問: "赤"
+ 答え: "Umutuku"
+ - 質問: "青"
+ 答え: "Ubururu"
+ - 質問: "緑"
+ 答え: "Icyatsi"
+ - 質問: "黄色"
+ 答え: "Umuhondo"
+ - 質問: "黒"
+ 答え: "Umukara"
+ xp_reward: 35
+
+# フラッシュカード
+ - id: 111
+ type: フラッシュカード
+ 質問: "フラッシュカード"
+ フラッシュカード:
+ - front: "Umutuku"
+ back: "赤"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "青"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "緑"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "黄色"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "黒"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "白"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "オレンジ"
+ back: "オレンジ"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "赤 apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "青 sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "緑 grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

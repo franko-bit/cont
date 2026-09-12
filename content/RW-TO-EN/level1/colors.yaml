@@ -4,7 +4,6 @@ lesson:
   xp_reward: 500
 
 exercises:
-
   # 1. Translation Exercises - Colors ONLY (Safe for single words)
   - id: 1
     type: translation
@@ -331,7 +330,7 @@ exercises:
     answer: "The apple is red"
     xp_reward: 20
 
-  # 5. Repeat / Speaking Exercise
+  # 4. Repeat / Speaking Exercise
   - id: 44
     type: speaking
     question: "Vuga iri jambo mu Cyongereza"
@@ -367,7 +366,7 @@ exercises:
     translation: "The sky is blue"
     xp_reward: 20
 
-  # 6. Word Bank Sentence Building
+  # 5. Word Bank Sentence Building
   - id: 49
     type: word_bank
     question: "Ubaka interuro y'icyongereza isobanura 'Pome ni umutuku'"
@@ -410,7 +409,7 @@ exercises:
     correct_answer: ["The", "green", "frog", "jumps"]
     xp_reward: 25
 
-  # 7. Sentence Scramble
+  # 6. Sentence Scramble
   - id: 55
     type: sentence_scramble
     question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Pome ni umutuku'"
@@ -443,7 +442,7 @@ exercises:
     translation: "Igikeri cy'icyatsi kirasimbuka"
     xp_reward: 25
 
-  # 8. Fill in the Blank
+  # 7. Fill in the Blank
   - id: 59
     type: fill_blank
     question: "Hitamo ijambo rikwiye ruzuza interuro"
@@ -489,7 +488,7 @@ exercises:
     translation: "Inyoni itukura iraguruka"
     xp_reward: 18
 
-  # 9. Picture → Word
+  # 8. Picture → Word
   - id: 64
     type: picture_word
     question: "Iri bara ni irihe?"
@@ -562,7 +561,7 @@ exercises:
     correct_answer: "Blue"
     xp_reward: 15
 
-  # 10. Word Matching
+  # 9. Word Matching
   - id: 73
     type: matching
     question: "Huza amabara"
@@ -619,7 +618,7 @@ exercises:
         right: "Ihene y'umweru"
     xp_reward: 25
 
-  # 12. Choose Missing Word
+  # 10. Choose Missing Word
   - id: 80
     type: choose_missing
     question: "Hitamo ijambo ribuze"
@@ -650,7 +649,7 @@ exercises:
     translation: "Inyoni itukura iraguruka"
     xp_reward: 18
 
-  # 13. Read and Answer
+  # 11. Read and Answer
   - id: 83
     type: read_answer
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
@@ -678,7 +677,7 @@ exercises:
     correct_answer: "White"
     xp_reward: 20
 
-  # 14. True / False
+  # 12. True / False
   - id: 86
     type: true_false
     question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
@@ -711,7 +710,7 @@ exercises:
     correct_answer: true
     xp_reward: 10
 
-  # 15. Conversation Exercise
+  # 13. Conversation Exercise
   - id: 90
     type: conversation
     question: "Subiza ikibazo ukoresheje amagambo atanzwe"
@@ -746,7 +745,7 @@ exercises:
     correct_response: "Yes, it is black"
     xp_reward: 15
 
-  # 16. Story Exercise
+  # 14. Story Exercise
   - id: 93
     type: story
     title: "Amabara mu Murima"
@@ -774,7 +773,7 @@ exercises:
         correct_answer: ["The", "blue", "fish", "swims"]
     xp_reward: 40
 
-  # 17. Pronunciation Check
+  # 15. Pronunciation Check
   - id: 94
     type: pronunciation
     question: "Vuga ibara mu Cyongereza neza"
@@ -796,7 +795,7 @@ exercises:
     translation: "Red apple"
     xp_reward: 18
 
-  # 18. Identify Correct Meaning
+  # 16. Identify Correct Meaning
   - id: 97
     type: identify_meaning
     question: "'Umutuku' risobanura iki muri iyi nteruro?"
@@ -825,7 +824,7 @@ exercises:
     correct_answer: "green"
     xp_reward: 18
 
-  # 19. Speed Matching
+  # 17. Speed Matching
   - id: 100
     type: speed_matching
     title: "Huza Byihuse: Amabara"
@@ -847,7 +846,7 @@ exercises:
         right: "Orange"
     xp_reward: 30
 
-  # 20. Timed Challenges
+  # 18. Timed Challenges
   - id: 101
     type: timed_challenge
     title: "Kubahuka: Amabara"
@@ -866,136 +865,40 @@ exercises:
         answer: "Black"
     xp_reward: 35
 
-  # 21. Character Writing
-  - id: 102
-    type: character_writing
-    question: "Yandika ijambo ry'ibara mu Cyongereza"
-    prompt: "Umutuku"
-    translation: "Red"
-    xp_reward: 15
-
-  - id: 103
-    type: character_writing
-    question: "Yandika ijambo ry'ibara mu Cyongereza"
-    prompt: "Ubururu"
-    translation: "Blue"
-    xp_reward: 15
-
-  # 22. Spaced Repetition Review
-  - id: 104
-    type: review
-    title: "Isubiramo: Amabara"
-    exercises:
-      - type: translation
-        question: "Umutuku"
-        answer: "Red"
-      - type: multiple_choice
-        question: "Ubururu"
-        options: ["Red", "Blue", "Green"]
-        answer: "Blue"
-      - type: fill_blank
-        question: "The apple is ___."
-        text_with_blank: "The apple is ___."
-        options: ["red", "blue", "green"]
-        correct_answer: "red"
-      - type: picture_word
-        question: "Iri bara ni irihe?"
-        image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        options: ["Yellow", "Red", "Blue"]
-        correct_answer: "Yellow"
-    xp_reward: 25
-
-  # 23. Listening Comprehension
-  - id: 105
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma usubize ikibazo"
-    dialogue_tts: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
-    translation: "The apple is red. The sky is blue. The grass is green."
-    question: "Iyi pome ni ibara ki?"
-    options: ["Red", "Blue", "Green"]
-    correct_answer: "Red"
-    xp_reward: 20
-
-  - id: 106
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma usubize ikibazo"
-    dialogue_tts: "Inyoni itukura iraguruka. Igikeri cy'icyatsi kirasimbuka. Ifi y'ubururu iroga."
-    translation: "The red bird flies. The green frog jumps. The blue fish swims."
-    question: "Igikeri cy'icyatsi kikora iki?"
-    options: ["Flies", "Jumps", "Swims"]
-    correct_answer: "Jumps"
-    xp_reward: 25
-
-  # 24. Grammar Selection
-  - id: 107
-    type: grammar
-    question: "Hitamo inshinga ikwiye isobanura 'umutuku'"
-    sentence: "The ___ bird flies."
-    options: ["red", "blue", "green"]
-    correct_answer: "red"
-    explanation: "In English, adjectives come before the noun: 'red bird'"
-    xp_reward: 20
-
-  - id: 108
-    type: grammar
-    question: "Hitamo inshinga ikwiye isobanura 'ubururu'"
-    sentence: "The ___ fish swims."
-    options: ["red", "blue", "green"]
-    correct_answer: "blue"
-    explanation: "In English, adjectives come before the noun: 'blue fish'"
-    xp_reward: 20
-
-  # 25. Error Correction
-  - id: 109
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "Apple red is."
-    translation: "Pome itukura"
-    word_bank_for_fix: ["The", "apple", "is", "red"]
-    correct_sentence: "The apple is red."
-    explanation: "In English, word order is: The + noun + is + adjective"
-    xp_reward: 20
-
-  - id: 110
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "Sky blue is."
-    translation: "Ijuru ry'ubururu"
-    word_bank_for_fix: ["The", "sky", "is", "blue"]
-    correct_sentence: "The sky is blue."
-    explanation: "In English, word order is: The + noun + is + adjective"
-    xp_reward: 20
-
-  # Flashcards
+# Flashcards
   - id: 111
     type: flashcards
-    question: "Iyi ni modero y'amafishi y'amabara"
+    question: "Flashcards"
     flashcards:
-      - front: "Umutuku"
-        back: "Red"
-        image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ubururu"
-        back: "Blue"
-        image: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Icyatsi"
-        back: "Green"
-        image: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Umuhondo"
-        back: "Yellow"
-        image: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Umukara"
-        back: "Black"
-        image: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Umweru"
-        back: "White"
-        image: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Orange"
-        back: "Orange"
-        image: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Pome itukura"
-        back: "Red apple"
-        image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Inyoni y'ubururu"
-        back: "Blue bird"
-        image: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    - front: "Red"
+      back: "Umutuku"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Blue"
+      back: "Ubururu"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Green"
+      back: "Icyatsi"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Yellow"
+      back: "Umuhondo"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Black"
+      back: "Umukara"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "White"
+      back: "Umweru"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Orange"
+      back: "Orange"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Red apple"
+      back: "Pome itukura"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Blue sky"
+      back: "Ijuru ry"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Green grass"
+      back: "Ibyatsi by"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
     xp_reward: 30
+

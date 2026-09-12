@@ -1,0 +1,882 @@
+lesson:
+ name: "Zvířata"
+ description: "Učte se animal names in Kinyarwanda by categories"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Words ONLY (Safe for single words)
+ # Domestic / Farm Zvířata
+ - id: 1
+ type: translation
+ Otázka: "Jak se řekne 'Kráva' v kinyarwandštině?"
+ Odpověď: "Inka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Otázka: "Jak se řekne 'Pes' v kinyarwandštině?"
+ Odpověď: "Imbwa"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Otázka: "Jak se řekne 'Kočka' v kinyarwandštině?"
+ Odpověď: "Injangwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Otázka: "Jak se řekne 'Koza' v kinyarwandštině?"
+ Odpověď: "Ihene"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Otázka: "Jak se řekne 'Ovce' v kinyarwandštině?"
+ Odpověď: "Intama"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Otázka: "Jak se řekne 'Prase' v kinyarwandštině?"
+ Odpověď: "Ingurube"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Otázka: "Jak se řekne 'Kuře' v kinyarwandštině?"
+ Odpověď: "Inkoko"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Otázka: "Jak se řekne 'Králík' v kinyarwandštině?"
+ Odpověď: "Urukwavu"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Otázka: "Jak se řekne 'Osel' v kinyarwandštině?"
+ Odpověď: "Indogobe"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Otázka: "Jak se řekne 'Holub' v kinyarwandštině?"
+ Odpověď: "Inuma"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Otázka: "Jak se řekne 'Pták' v kinyarwandštině?"
+ Odpověď: "Inyoni"
+ xp_reward: 10
+
+ # Wildlife Zvířata
+ - id: 12
+ type: translation
+ Otázka: "Jak se řekne 'Lev' v kinyarwandštině?"
+ Odpověď: "Intare"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Otázka: "Jak se řekne 'Slon' v kinyarwandštině?"
+ Odpověď: "Inzovu"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Otázka: "Jak se řekne 'Hora gorila' v kinyarwandštině?"
+ Odpověď: "Ingagi"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Otázka: "Jak se řekne 'Leopard' v kinyarwandštině?"
+ Odpověď: "Ingwe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Otázka: "Jak se řekne 'Buvol' v kinyarwandštině?"
+ Odpověď: "Imbogo"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Otázka: "Jak se řekne 'Zebra' v kinyarwandštině?"
+ Odpověď: "Imparage"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Otázka: "Jak se řekne 'Hroch' v kinyarwandštině?"
+ Odpověď: "Imvubu"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ Otázka: "Jak se řekne 'Žirafa' v kinyarwandštině?"
+ Odpověď: "Agasumbashyamba"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ Otázka: "Jak se řekne 'Hyena' v kinyarwandštině?"
+ Odpověď: "Imfyisi"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ Otázka: "Jak se řekne 'Opice' v kinyarwandštině?"
+ Odpověď: "Inkende"
+ xp_reward: 10
+
+ # Pták, Reptiles, Insects, Ryba
+ - id: 22
+ type: translation
+ Otázka: "Jak se řekne 'Šedý korunkový jeřáb' v kinyarwandštině?"
+ Odpověď: "Umusambi"
+ xp_reward: 10
+
+ - id: 23
+ type: translation
+ Otázka: "Jak se řekne 'Had' v kinyarwandštině?"
+ Odpověď: "Inzoka"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ Otázka: "Jak se řekne 'Žába' v kinyarwandštině?"
+ Odpověď: "Igikeri"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ Otázka: "Jak se řekne 'Ryba' v kinyarwandštině?"
+ Odpověď: "Ifi"
+ xp_reward: 10
+
+ - id: 26
+ type: translation
+ Otázka: "Jak se řekne 'Včela' v kinyarwandštině?"
+ Odpověď: "Inzuki"
+ xp_reward: 10
+
+ # Animal Actions (Verbs)
+ - id: 27
+ type: translation
+ Otázka: "Jak se řekne 'eats' v kinyarwandštině?"
+ Odpověď: "irya"
+ xp_reward: 10
+
+ - id: 28
+ type: translation
+ Otázka: "Jak se řekne 'drinks' v kinyarwandštině?"
+ Odpověď: "inywa"
+ xp_reward: 10
+
+ - id: 29
+ type: translation
+ Otázka: "Jak se řekne 'sleeps' v kinyarwandštině?"
+ Odpověď: "irasinzira"
+ xp_reward: 10
+
+ - id: 30
+ type: translation
+ Otázka: "Jak se řekne 'runs' v kinyarwandštině?"
+ Odpověď: "iriruka"
+ xp_reward: 10
+
+ - id: 31
+ type: translation
+ Otázka: "Jak se řekne 'flies' v kinyarwandštině?"
+ Odpověď: "iraguruka"
+ xp_reward: 10
+
+ - id: 32
+ type: translation
+ Otázka: "Jak se řekne 'swims' v kinyarwandštině?"
+ Odpověď: "iroga"
+ xp_reward: 10
+
+ - id: 33
+ type: translation
+ Otázka: "Jak se řekne 'plays' v kinyarwandštině?"
+ Odpověď: "irakina"
+ xp_reward: 10
+
+ # Animal Jídlo
+ - id: 34
+ type: translation
+ Otázka: "Jak se řekne 'grass' v kinyarwandštině?"
+ Odpověď: "ibyatsi"
+ xp_reward: 10
+
+ - id: 35
+ type: translation
+ Otázka: "Jak se řekne 'Voda' v kinyarwandštině?"
+ Odpověď: "amazi"
+ xp_reward: 10
+
+ - id: 36
+ type: translation
+ Otázka: "Jak se řekne 'meat' v kinyarwandštině?"
+ Odpověď: "inyama"
+ xp_reward: 10
+
+ # NO DIRECT TRANSLATION FOR Věta OR PARAGRAPHS
+ # Instead, we use Věta building, Spojte, and Slovo bank exercises
+
+ # 2. Multiple Choice
+ - id: 37
+ type: multiple_choice
+ Otázka: "Co je 'Inka'?"
+ options:
+ - "Pes"
+ - "Kráva"
+ - "Kočka"
+ - "Koza"
+ Odpověď: "Kráva"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ Otázka: "Co je 'Intare'?"
+ options:
+ - "Lev"
+ - "Slon"
+ - "Opice"
+ - "Pes"
+ Odpověď: "Lev"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ Otázka: "Co znamená 'irya' v této větě?"
+ options:
+ - "drinks"
+ - "eats"
+ - "sleeps"
+ - "runs"
+ Odpověď: "eats"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ Otázka: "Co znamená 'ibyatsi' v této větě?"
+ options:
+ - "Voda"
+ - "meat"
+ - "grass"
+ - "milk"
+ Odpověď: "grass"
+ xp_reward: 15
+
+ # 3. Poslouchejte and Type (Dictation) - SINGLE WORDS ONLY
+ - id: 41
+ type: listen_and_type
+ Otázka: "Poslouchejte a napi?te n?zev zv??ete"
+ tts_text: "Inka"
+ Odpověď: "Inka"
+ translation: "Kráva"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_and_type
+ Otázka: "Poslouchejte a napi?te n?zev zv??ete"
+ tts_text: "Imbwa"
+ Odpověď: "Imbwa"
+ translation: "Pes"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_and_type
+ Otázka: "Poslouchejte a napi?te n?zev zv??ete"
+ tts_text: "Injangwe"
+ Odpověď: "Injangwe"
+ translation: "Kočka"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_and_type
+ Otázka: "Poslouchejte a napi?te n?zev zv??ete"
+ tts_text: "Ihene"
+ Odpověď: "Ihene"
+ translation: "Koza"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_and_type
+ Otázka: "Poslouchejte a napi?te n?zev zv??ete"
+ tts_text: "Intama"
+ Odpověď: "Intama"
+ translation: "Ovce"
+ xp_reward: 20
+
+ - id: 46
+ type: listen_and_type
+ Otázka: "Poslouchejte a napi?te n?zev zv??ete"
+ tts_text: "Inkoko"
+ Odpověď: "Inkoko"
+ translation: "Kuře"
+ xp_reward: 20
+
+ # 4. Poslouchejte and Vyberte - SINGLE WORDS ONLY
+ - id: 47
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně animal"
+ tts_text: "Imbwa"
+ options:
+ - "Kočka"
+ - "Pes"
+ - "Kráva"
+ Odpověď: "Pes"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně animal"
+ tts_text: "Intare"
+ options:
+ - "Lev"
+ - "Slon"
+ - "Žirafa"
+ Odpověď: "Lev"
+ xp_reward: 15
+
+ - id: 49
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně animal"
+ tts_text: "Intama"
+ options:
+ - "Koza"
+ - "Ovce"
+ - "Kráva"
+ Odpověď: "Ovce"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně animal"
+ tts_text: "Inkoko"
+ options:
+ - "Kuře"
+ - "Pták"
+ - "Duck"
+ Odpověď: "Kuře"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně animal"
+ tts_text: "Injangwe"
+ options:
+ - "Pes"
+ - "Kočka"
+ - "Králík"
+ Odpověď: "Kočka"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně animal"
+ tts_text: "Ihene"
+ options:
+ - "Koza"
+ - "Ovce"
+ - "Kráva"
+ Odpověď: "Koza"
+ xp_reward: 15
+
+ # 5. Repeat / Mluvte Exercise
+ - id: 53
+ type: Mluvte
+ Otázka: "Řekněte toto slovo"
+ prompt: "Inka"
+ translation: "Kráva"
+ xp_reward: 15
+
+ - id: 54
+ type: Mluvte
+ Otázka: "Řekněte toto slovo"
+ prompt: "Imbwa"
+ translation: "Pes"
+ xp_reward: 15
+
+ - id: 55
+ type: Mluvte
+ Otázka: "Řekněte toto slovo"
+ prompt: "Injangwe"
+ translation: "Kočka"
+ xp_reward: 15
+
+ - id: 56
+ type: Mluvte
+ Otázka: "Say this Věta"
+ prompt: "Inka irya ibyatsi"
+ translation: "The Kráva eats grass"
+ xp_reward: 20
+
+ # 6. Slovo Bank Věta Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 57
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Kráva eats grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Pes drinks Voda'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 20
+
+ - id: 59
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Pták flies'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Ryba swims'"
+ word_bank: ["Ifi", "iroga", "amazi", "Inyoni", "iraguruka", "hejuru"]
+ correct_answer: ["Ifi", "iroga"]
+ xp_reward: 20
+
+ # 7. Věta Scramble - PIECES PROVIDED
+ - id: 61
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Kinyarwanda Věta"
+ scrambled_words: ["irya", "Inka", "ibyatsi"]
+ correct_sentence: "Inka irya ibyatsi"
+ translation: "The Kráva eats grass"
+ xp_reward: 20
+
+ - id: 62
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Kinyarwanda Věta"
+ scrambled_words: ["inywa", "Imbwa", "amazi"]
+ correct_sentence: "Imbwa inywa amazi"
+ translation: "The Pes drinks Voda"
+ xp_reward: 20
+
+ - id: 63
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Kinyarwanda Věta"
+ scrambled_words: ["iraguruka", "Inyoni", "hejuru"]
+ correct_sentence: "Inyoni iraguruka hejuru"
+ translation: "The Pták flies above"
+ xp_reward: 20
+
+ # 8. Fill in the Blank - Vyberte FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Otázka: "Vyberte the Správně Slovo to complete the Věta"
+ text_with_blank: "Inka ___ ibyatsi."
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "The Kráva eats grass"
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Otázka: "Vyberte the Správně Slovo to complete the Věta"
+ text_with_blank: "Imbwa ___ amazi."
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "The Pes drinks Voda"
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Otázka: "Vyberte the Správně Slovo to complete the Věta"
+ text_with_blank: "Inyoni ___ hejuru."
+ options: ["iraguruka", "iriruka", "iroga"]
+ correct_answer: "iraguruka"
+ translation: "The Pták flies above"
+ xp_reward: 15
+
+ # 9. Picture → Slovo (Unsplash Images)
+ - id: 67
+ type: picture_word
+ Otázka: "Jak? zv??e je to?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Intama", "Ihene"]
+ correct_answer: "Inka"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Otázka: "Jak? zv??e je to?"
+ image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Injangwe", "Inkoko"]
+ correct_answer: "Imbwa"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Otázka: "Jak? zv??e je to?"
+ image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Intare", "Ingwe", "Imbogo"]
+ correct_answer: "Intare"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Otázka: "Jak? zv??e je to?"
+ image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Imvubu", "Ingagi", "Imparage"]
+ correct_answer: "Inzovu"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Otázka: "Jak? zv??e je to?"
+ image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inyoni", "Inkoko", "Inuma", "Umusambi"]
+ correct_answer: "Inyoni"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Otázka: "Jak? zv??e je to?"
+ image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Ifi", "Inzoka", "Igikeri", "Akanyamasyo"]
+ correct_answer: "Ifi"
+ xp_reward: 10
+
+ # 10. Slovo Spojte (Pairing)
+ - id: 73
+ type: Spojte
+ Otázka: "Spojte the Zvířata"
+ pairs:
+ - Vlevo: "Kráva"
+ Vpravo: "Inka"
+ - Vlevo: "Pes"
+ Vpravo: "Imbwa"
+ - Vlevo: "Kočka"
+ Vpravo: "Injangwe"
+ - Vlevo: "Lev"
+ Vpravo: "Intare"
+ - Vlevo: "Slon"
+ Vpravo: "Inzovu"
+ - Vlevo: "Pták"
+ Vpravo: "Inyoni"
+ - Vlevo: "Ryba"
+ Vpravo: "Ifi"
+ xp_reward: 25
+
+ - id: 74
+ type: Spojte
+ Otázka: "Spojte the actions"
+ pairs:
+ - Vlevo: "eats"
+ Vpravo: "irya"
+ - Vlevo: "drinks"
+ Vpravo: "inywa"
+ - Vlevo: "sleeps"
+ Vpravo: "irasinzira"
+ - Vlevo: "flies"
+ Vpravo: "iraguruka"
+ - Vlevo: "swims"
+ Vpravo: "iroga"
+ - Vlevo: "runs"
+ Vpravo: "iriruka"
+ xp_reward: 25
+
+ - id: 75
+ type: Spojte
+ Otázka: "Spojte the animal Jídlo"
+ pairs:
+ - Vlevo: "grass"
+ Vpravo: "ibyatsi"
+ - Vlevo: "Voda"
+ Vpravo: "amazi"
+ - Vlevo: "meat"
+ Vpravo: "inyama"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - PIECES PROVIDED
+ - id: 76
+ type: tap_hear
+ Otázka: "Klepn?te na slova, kter? sly??te, v po?ad?"
+ tts_text: "Inka irya ibyatsi"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_taps: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 25
+
+ - id: 77
+ type: tap_hear
+ Otázka: "Klepn?te na slova, kter? sly??te, v po?ad?"
+ tts_text: "Imbwa inywa amazi"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_taps: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 25
+
+ - id: 78
+ type: tap_hear
+ Otázka: "Klepn?te na slova, kter? sly??te, v po?ad?"
+ tts_text: "Inyoni iraguruka hejuru"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_taps: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 25
+
+ # 12. Vyberte Missing Slovo
+ - id: 79
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Inka ___ ibyatsi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "The Kráva eats grass"
+ xp_reward: 15
+
+ - id: 80
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Imbwa ___ amazi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "The Pes drinks Voda"
+ xp_reward: 15
+
+ # 13. Čtěte and Odpověď - Otázka in English, Odpověď based on Kinyarwanda text
+ - id: 81
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
+ Otázka: "Where is the Kráva?"
+ options: ["In the Dům", "In the field", "At the Trh", "Near the Pes"]
+ correct_answer: "In the field"
+ xp_reward: 25
+
+ - id: 82
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
+ Otázka: "Co znamená the Lev eat?"
+ options: ["Grass", "Voda", "Meat", "Ryba"]
+ correct_answer: "Meat"
+ xp_reward: 20
+
+ # 14. True / False
+ - id: 83
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Imbwa ni inyamaswa."
+ translation: "A Pes is an animal"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 84
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Inka iraguruka."
+ translation: "A Kráva flies"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 85
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Ifi iroga."
+ translation: "A Ryba swims"
+ correct_answer: true
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 86
+ type: conversation
+ Otázka: "Respond to the Otázka by building a Věta"
+ bot_message: "Iyi ni inyamaswa ki?"
+ translation: "Jak? zv??e je to?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ word_bank: ["Inka", "ni", "inyamaswa", "Imbwa", "ni", "igikeri"]
+ correct_response: ["Inka", "ni", "inyamaswa"]
+ xp_reward: 20
+
+ - id: 87
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Inka iri he?"
+ translation: "Where is the Kráva?"
+ options:
+ - "Mu murima"
+ - "Mu nzu"
+ - "Ku isoko"
+ correct_response: "Mu murima"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Věta from pieces
+ - id: 88
+ type: story
+ title: "The Kráva and Friends"
+ story_intro: "Čtěte about the Zvířata. Then build the Věta."
+ story_segments:
+ - text: "There is a Kráva in the field."
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ - text: "The Kráva eats grass."
+ - text: "A Pes is near the Kráva."
+ - text: "The Pes drinks Voda."
+ - text: "A Pták flies above."
+ exercises:
+ - type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Kráva eats grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ - type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Pes drinks Voda'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ - type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Pták flies above'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 89
+ type: pronunciation
+ Otázka: "Say the Slovo"
+ prompt: "Inka"
+ translation: "Kráva"
+ xp_reward: 15
+
+ - id: 90
+ type: pronunciation
+ Otázka: "Say the Slovo"
+ prompt: "Imbwa"
+ translation: "Pes"
+ xp_reward: 15
+
+ - id: 91
+ type: pronunciation
+ Otázka: "Say the Slovo"
+ prompt: "Injangwe"
+ translation: "Kočka"
+ xp_reward: 15
+
+ - id: 92
+ type: pronunciation
+ Otázka: "Say the Slovo"
+ prompt: "Intare"
+ translation: "Lev"
+ xp_reward: 15
+
+ - id: 93
+ type: pronunciation
+ Otázka: "Say the Slovo"
+ prompt: "Agasumbashyamba"
+ translation: "Žirafa"
+ xp_reward: 20
+
+ # 18. Identify Správně Meaning
+ - id: 94
+ type: identify_meaning
+ Otázka: "Co znamená 'amazi' mean in this Věta?"
+ context_sentence: "Imbwa inywa amazi."
+ Slovo: "amazi"
+ options: ["milk", "Voda", "Jídlo", "grass"]
+ correct_answer: "Voda"
+ xp_reward: 15
+
+ - id: 95
+ type: identify_meaning
+ Otázka: "Co znamená 'irya' mean in this Věta?"
+ context_sentence: "Inka irya ibyatsi."
+ Slovo: "irya"
+ options: ["drinks", "eats", "runs", "flies"]
+ correct_answer: "eats"
+ xp_reward: 15
+
+ # 19. Speed Spojte
+ - id: 96
+ type: speed_Spojte
+ title: "Spojte Madness: Zvířata"
+ time_limit_seconds: 45
+ pairs:
+ - Vlevo: "Kráva"
+ Vpravo: "Inka"
+ - Vlevo: "Pes"
+ Vpravo: "Imbwa"
+ - Vlevo: "Kočka"
+ Vpravo: "Injangwe"
+ - Vlevo: "Lev"
+ Vpravo: "Intare"
+ - Vlevo: "Slon"
+ Vpravo: "Inzovu"
+ - Vlevo: "Pták"
+ Vpravo: "Inyoni"
+ - Vlevo: "Ryba"
+ Vpravo: "Ifi"
+ - Vlevo: "Koza"
+ Vpravo: "Ihene"
+ - Vlevo: "Ovce"
+ Vpravo: "Intama"
+ - Vlevo: "Kuře"
+ Vpravo: "Inkoko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 97
+ type: timed_challenge
+ title: "Lightning Round: Zvířata"
+ time_limit_seconds: 30
+ Otázka_count: 5
+ Otázka:
+ - Otázka: "Kráva"
+ Odpověď: "Inka"
+ - Otázka: "Pes"
+ Odpověď: "Imbwa"
+ - Otázka: "Kočka"
+ Odpověď: "Injangwe"
+ - Otázka: "Lev"
+ Odpověď: "Intare"
+ - Otázka: "Slon"
+ Odpověď: "Inzovu"
+ xp_reward: 35
+
+# Kartičky
+ - id: 111
+ type: Kartičky
+ Otázka: "Kartičky"
+ Kartičky:
+ - front: "Inka"
+ back: "Kráva"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Imbwa"
+ back: "Pes"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Injangwe"
+ back: "Kočka"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ihene"
+ back: "Koza"
+ image: "https://images.pexels.com/photos/45201/kitty-Kočka-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Intama"
+ back: "Ovce"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ingurube"
+ back: "Prase"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkoko"
+ back: "Kuře"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Urukwavu"
+ back: "Králík"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Indogobe"
+ back: "Osel"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Inuma"
+ back: "Holub"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

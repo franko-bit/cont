@@ -1,0 +1,1023 @@
+lesson:
+  name: "Hali na Masharti"
+  description: "Learn how to express conditions and possibilities in French"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Vocabulary ONLY (Safe for single words/phrases)
+  # Basic Conditional Words
+  - id: 1
+    type: translation
+    question: "Je, unasemaje 'Kama' kwa Kifaransa?"
+    answer: "Si"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Je, unasemaje 'Wakati' kwa Kifaransa?"
+    answer: "Quand"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Je, unasemaje 'Isipokuwa' kwa Kifaransa?"
+    answer: "Sauf si"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "Je, unasemaje 'Kisha' kwa Kifaransa?"
+    answer: "Alors"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Je, unasemaje 'Angeweza' kwa Kifaransa?"
+    answer: "Pourrait"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Je, unasemaje 'Atafanya' kwa Kifaransa?"
+    answer: "Fera"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Je, unasemaje 'Ingekuwa' kwa Kifaransa?"
+    answer: "Serait"
+    xp_reward: 15
+
+  - id: 8
+    type: translation
+    question: "Je, unasemaje 'Wangeweza' kwa Kifaransa?"
+    answer: "Pourraient"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Je, unasemaje 'Anapaswa' kwa Kifaransa?"
+    answer: "Devrait"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Je, unasemaje 'Anaweza' kwa Kifaransa?"
+    answer: "Peut"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Je, unasemaje 'Haiwezekani' kwa Kifaransa?"
+    answer: "Impossible"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Je, unasemaje 'Inawezekana' kwa Kifaransa?"
+    answer: "Possible"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Je, unasemaje 'Kabla ya' kwa Kifaransa?"
+    answer: "Avant de"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Je, unasemaje 'Baada ya' kwa Kifaransa?"
+    answer: "Après avoir"
+    xp_reward: 15
+
+  - id: 15
+    type: translation
+    question: "Je, unasemaje 'Kila wakati' kwa Kifaransa?"
+    answer: "Toujours"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Je, unasemaje 'Kamwe' kwa Kifaransa?"
+    answer: "Jamais"
+    xp_reward: 10
+
+  # Translation - Common Conditional Phrases
+  - id: 17
+    type: translation
+    question: "Je, unasemaje 'Kama mvua inanyesha, nitabaki nyumbani' kwa Kifaransa?"
+    answer: "S'il pleut, je resterai à la maison"
+    xp_reward: 20
+
+  - id: 18
+    type: translation
+    question: "Je, unasemaje 'Kama nikienda Kigali, nitamtembelea rafiki yangu' kwa Kifaransa?"
+    answer: "Si je vais à Kigali, je rendrai visite à mon ami"
+    xp_reward: 20
+
+  - id: 19
+    type: translation
+    question: "Je, unasemaje 'Kama unasoma, utafaulu' kwa Kifaransa?"
+    answer: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 20
+    type: translation
+    question: "Je, unasemaje 'Kama anakuja, tutaanza mkutano' kwa Kifaransa?"
+    answer: "S'il vient, nous commencerons la réunion"
+    xp_reward: 20
+
+  - id: 21
+    type: translation
+    question: "Je, unasemaje 'Isipokuwa ukifanya haraka, utakosa basi' kwa Kifaransa?"
+    answer: "Sauf si tu te dépêches, tu rateras le bus"
+    xp_reward: 20
+
+  - id: 22
+    type: translation
+    question: "Je, unasemaje 'Kama ningekuwa na pesa,ningenunua gari' kwa Kifaransa?"
+    answer: "Si j'avais de l'argent, j'achèterais une voiture"
+    xp_reward: 22
+
+  - id: 23
+    type: translation
+    question: "Je, unasemaje 'Kama angekuwa hapa, angeweza kusaidia' kwa Kifaransa?"
+    answer: "Si elle était ici, elle pourrait aider"
+    xp_reward: 22
+
+  - id: 24
+    type: translation
+    question: "Je, unasemaje 'Ningesafiri kama ningekuwa na muda zaidi' kwa Kifaransa?"
+    answer: "Je voyagerais si j'avais plus de temps"
+    xp_reward: 22
+
+  - id: 25
+    type: translation
+    question: "Je, unasemaje 'Unapaswa kula kabla ya kuondoka' kwa Kifaransa?"
+    answer: "Tu devrais manger avant de partir"
+    xp_reward: 20
+
+  - id: 26
+    type: translation
+    question: "Je, unasemaje 'Kama inawezekana, nitakuja kesho' kwa Kifaransa?"
+    answer: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 27
+    type: multiple_choice
+    question: "'Kama' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Wakati"
+      - "Kama"
+      - "Kisha"
+      - "Baada ya"
+    answer: "Kama"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Wakati' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Kama"
+      - "Wakati"
+      - "Kisha"
+      - "Kabla ya"
+    answer: "Wakati"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Kisha' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Kabla ya"
+      - "Baada ya"
+      - "Kisha"
+      - "Wakati"
+    answer: "Kisha"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Inawezekana' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Haiwezekani"
+      - "Inawezekana"
+      - "Kila wakati"
+      - "Kamwe"
+    answer: "Inawezekana"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Haiwezekani' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Inawezekana"
+      - "Haiwezekani"
+      - "Kila wakati"
+      - "Kamwe"
+    answer: "Haiwezekani"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Kila wakati' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Kamwe"
+      - "Kila wakati"
+      - "Wakati mwingine"
+      - "Mara nyingi"
+    answer: "Kila wakati"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Kamwe' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Kila wakati"
+      - "Wakati mwingine"
+      - "Kamwe"
+      - "Mara nyingi"
+    answer: "Kamwe"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 34
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno kwa Kifaransa"
+    tts_text: "Kama"
+    answer: "Si"
+    translation: "Kama"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno kwa Kifaransa"
+    tts_text: "Wakati"
+    answer: "Quand"
+    translation: "Wakati"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno kwa Kifaransa"
+    tts_text: "Inawezekana"
+    answer: "Possible"
+    translation: "Inawezekana"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Kama mvua inanyesha, nitabaki nyumbani"
+    answer: "S'il pleut, je resterai à la maison"
+    translation: "Kama mvua inanyesha, nitabaki nyumbani"
+    xp_reward: 25
+
+  - id: 38
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Kama unasoma, utafaulu"
+    answer: "Si tu étudies, tu réussiras"
+    translation: "Kama unasoma, utafaulu"
+    xp_reward: 22
+
+  - id: 39
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Kama inawezekana, nitakuja kesho"
+    answer: "Si c'est possible, je viendrai demain"
+    translation: "Kama inawezekana, nitakuja kesho"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 40
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague neno linalofaa kwa Kifaransa"
+    tts_text: "Kama"
+    options:
+      - "Wakati"
+      - "Kama"
+      - "Kisha"
+    answer: "Kama"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague neno linalofaa kwa Kifaransa"
+    tts_text: "Inawezekana"
+    options:
+      - "Haiwezekani"
+      - "Inawezekana"
+      - "Kila wakati"
+    answer: "Inawezekana"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi inayofaa kwa Kifaransa"
+    tts_text: "Kama unasoma, utafaulu"
+    options:
+      - "Si tu étudies, tu réussiras"
+      - "S'il pleut, je resterai à la maison"
+      - "Si c'est possible, je viendrai"
+    answer: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 43
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi inayofaa kwa Kifaransa"
+    tts_text: "Kama inawezekana, nitakuja kesho"
+    options:
+      - "S'il pleut, je resterai à la maison"
+      - "Si c'est possible, je viendrai demain"
+      - "Si tu étudies, tu réussiras"
+    answer: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 44
+    type: speaking
+    question: "Taja neno hili kwa Kifaransa"
+    prompt: "Kama"
+    translation: "Si"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Taja neno hili kwa Kifaransa"
+    prompt: "Inawezekana"
+    translation: "Possible"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Kama mvua inanyesha, nitabaki nyumbani"
+    translation: "S'il pleut, je resterai à la maison"
+    xp_reward: 20
+
+  - id: 47
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Kama unasoma, utafaulu"
+    translation: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Kama inawezekana, nitakuja kesho"
+    translation: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 6. Word Bank Sentence Building
+  - id: 49
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kama mvua inanyesha, nitabaki nyumbani'"
+    word_bank: ["S'", "il", "pleut", "je", "resterai", "à", "la", "maison", "irai", "dehors"]
+    correct_answer: ["S'", "il", "pleut", "je", "resterai", "à", "la", "maison"]
+    xp_reward: 22
+
+  - id: 50
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kama nikienda Kigali, nitamtembelea rafiki yangu'"
+    word_bank: ["Si", "je", "vais", "à", "Kigali", "je", "rendrai", "visite", "à", "mon", "ami"]
+    correct_answer: ["Si", "je", "vais", "à", "Kigali", "je", "rendrai", "visite", "à", "mon", "ami"]
+    xp_reward: 25
+
+  - id: 51
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kama unasoma, utafaulu'"
+    word_bank: ["Si", "tu", "étudies", "tu", "réussiras", "échoueras", "travailles"]
+    correct_answer: ["Si", "tu", "étudies", "tu", "réussiras"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kama anakuja, tutaanza mkutano'"
+    word_bank: ["S'", "il", "vient", "nous", "commencerons", "la", "réunion", "classe"]
+    correct_answer: ["S'", "il", "vient", "nous", "commencerons", "la", "réunion"]
+    xp_reward: 22
+
+  - id: 53
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kama ningekuwa na pesa, ningenunua gari'"
+    word_bank: ["Si", "j'", "avais", "de", "l'", "argent", "j'", "achèterais", "une", "voiture", "maison"]
+    correct_answer: ["Si", "j'", "avais", "de", "l'", "argent", "j'", "achèterais", "une", "voiture"]
+    xp_reward: 28
+
+  - id: 54
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kama angekuwa hapa, angeweza kusaidia'"
+    word_bank: ["Si", "elle", "était", "ici", "elle", "pourrait", "aider", "venir", "travailler"]
+    correct_answer: ["Si", "elle", "était", "ici", "elle", "pourrait", "aider"]
+    xp_reward: 25
+
+  - id: 55
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Unapaswa kula kabla ya kuondoka'"
+    word_bank: ["Tu", "devrais", "manger", "avant", "de", "partir", "après", "venir"]
+    correct_answer: ["Tu", "devrais", "manger", "avant", "de", "partir"]
+    xp_reward: 22
+
+  - id: 56
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kama inawezekana, nitakuja kesho'"
+    word_bank: ["Si", "c'", "est", "possible", "je", "viendrai", "demain", "aujourd'hui"]
+    correct_answer: ["Si", "c'", "est", "possible", "je", "viendrai", "demain"]
+    xp_reward: 18
+
+  # 7. Sentence Scramble
+  - id: 57
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Kama mvua inanyesha, nitabaki nyumbani'"
+    scrambled_words: ["pleut", "S'", "il", "je", "resterai", "à", "la", "maison"]
+    correct_sentence: "S'il pleut, je resterai à la maison"
+    translation: "Kama mvua inanyesha, nitabaki nyumbani"
+    xp_reward: 22
+
+  - id: 58
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Kama unasoma, utafaulu'"
+    scrambled_words: ["tu", "Si", "étudies", "tu", "réussiras"]
+    correct_sentence: "Si tu étudies, tu réussiras"
+    translation: "Kama unasoma, utafaulu"
+    xp_reward: 18
+
+  - id: 59
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Kama anakuja, tutaanza mkutano'"
+    scrambled_words: ["il", "S'", "vient", "nous", "commencerons", "la", "réunion"]
+    correct_sentence: "S'il vient, nous commencerons la réunion"
+    translation: "Kama anakuja, tutaanza mkutano"
+    xp_reward: 22
+
+  - id: 60
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Isipokuwa ukifanya haraka, utakosa basi'"
+    scrambled_words: ["dépêches", "Sauf", "si", "tu", "te", "tu", "rateras", "le", "bus"]
+    correct_sentence: "Sauf si tu te dépêches, tu rateras le bus"
+    translation: "Isipokuwa ukifanya haraka, utakosa basi"
+    xp_reward: 20
+
+  - id: 61
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Kama angekuwa hapa, angeweza kusaidia'"
+    scrambled_words: ["elle", "Si", "était", "ici", "elle", "pourrait", "aider"]
+    correct_sentence: "Si elle était ici, elle pourrait aider"
+    translation: "Kama angekuwa hapa, angeweza kusaidia"
+    xp_reward: 25
+
+  - id: 62
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Unapaswa kula kabla ya kuondoka'"
+    scrambled_words: ["devrais", "Tu", "manger", "avant", "de", "partir"]
+    correct_sentence: "Tu devrais manger avant de partir"
+    translation: "Unapaswa kula kabla ya kuondoka"
+    xp_reward: 22
+
+  - id: 63
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Kama inawezekana, nitakuja kesho'"
+    scrambled_words: ["est", "Si", "c'", "possible", "je", "viendrai", "demain"]
+    correct_sentence: "Si c'est possible, je viendrai demain"
+    translation: "Kama inawezekana, nitakuja kesho"
+    xp_reward: 18
+
+  # 8. Fill in the Blank
+  - id: 64
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "___ il pleut, je resterai à la maison."
+    options: ["Kama", "Wakati", "Kisha"]
+    correct_answer: "Kama"
+    translation: "Kama mvua inanyesha, nitabaki nyumbani"
+    xp_reward: 15
+
+  - id: 65
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Si tu étudies, tu ___."
+    options: ["réussiras", "échoueras", "partiras"]
+    correct_answer: "réussiras"
+    translation: "Kama unasoma, utafaulu"
+    xp_reward: 15
+
+  - id: 66
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "S'il vient, nous commencerons la ___."
+    options: ["réunion", "école", "route"]
+    correct_answer: "réunion"
+    translation: "Kama anakuja, tutaanza mkutano"
+    xp_reward: 18
+
+  - id: 67
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Sauf si tu te dépêches, tu ___ le bus."
+    options: ["rateras", "attraperas", "prendras"]
+    correct_answer: "rateras"
+    translation: "Isipokuwa ukifanya haraka, utakosa basi"
+    xp_reward: 18
+
+  - id: 68
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Si elle était ici, elle pourrait ___."
+    options: ["aider", "partir", "venir"]
+    correct_answer: "aider"
+    translation: "Kama angekuwa hapa, angeweza kusaidia"
+    xp_reward: 18
+
+  - id: 69
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Tu devrais manger ___ de partir."
+    options: ["avant", "après", "alors"]
+    correct_answer: "avant"
+    translation: "Unapaswa kula kabla ya kuondoka"
+    xp_reward: 18
+
+  - id: 70
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Si c'est possible, je viendrai ___."
+    options: ["demain", "aujourd'hui", "hier"]
+    correct_answer: "demain"
+    translation: "Kama inawezekana, nitakuja kesho"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 71
+    type: picture_word
+    question: "Hiki ni nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?rain"
+    options: ["Mvua", "Jua", "Upepo"]
+    correct_answer: "Mvua"
+    xp_reward: 10
+
+  - id: 72
+    type: picture_word
+    question: "Hiki ni nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?studying"
+    options: ["Kusoma", "Kufanya kazi", "Kula"]
+    correct_answer: "Kusoma"
+    xp_reward: 10
+
+  - id: 73
+    type: picture_word
+    question: "Hiki ni nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?money"
+    options: ["Pesa", "Kitabu", "Nyumba"]
+    correct_answer: "Pesa"
+    xp_reward: 10
+
+  - id: 74
+    type: picture_word
+    question: "Hiki ni nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?car"
+    options: ["Gari", "Basi", "Baiskeli"]
+    correct_answer: "Gari"
+    xp_reward: 10
+
+  - id: 75
+    type: picture_word
+    question: "Hiki ni nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?helping"
+    options: ["Kusaidia", "Kulilia", "Kucheka"]
+    correct_answer: "Kusaidia"
+    xp_reward: 10
+
+  - id: 76
+    type: picture_word
+    question: "Hiki ni nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?bus"
+    options: ["Basi", "Gari", "Ndege"]
+    correct_answer: "Basi"
+    xp_reward: 10
+
+  # 10. Word Matching
+  - id: 77
+    type: matching
+    question: "Linganisha maneno ya hali na masharti kwa Kifaransa"
+    pairs:
+      - left: "Kama"
+        right: "Si"
+      - left: "Wakati"
+        right: "Quand"
+      - left: "Kisha"
+        right: "Alors"
+      - left: "Kabla ya"
+        right: "Avant de"
+      - left: "Baada ya"
+        right: "Après avoir"
+      - left: "Kila wakati"
+        right: "Toujours"
+      - left: "Kamwe"
+        right: "Jamais"
+      - left: "Inawezekana"
+        right: "Possible"
+      - left: "Haiwezekani"
+        right: "Impossible"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Linganisha vitenzi vya masharti kwa Kifaransa"
+    pairs:
+      - left: "Angeweza"
+        right: "Pourrait"
+      - left: "Atafanya"
+        right: "Fera"
+      - left: "Ingekuwa"
+        right: "Serait"
+      - left: "Wangeweza"
+        right: "Pourraient"
+      - left: "Anapaswa"
+        right: "Devrait"
+      - left: "Anaweza"
+        right: "Peut"
+    xp_reward: 20
+
+  - id: 79
+    type: matching
+    question: "Linganisha sehemu za sentensi kwa Kifaransa"
+    pairs:
+      - left: "S'il pleut"
+        right: "je resterai à la maison"
+      - left: "Si tu étudies"
+        right: "tu réussiras"
+      - left: "S'il vient"
+        right: "nous commencerons la réunion"
+      - left: "Si c'est possible"
+        right: "je viendrai demain"
+      - left: "Si je vais à Kigali"
+        right: "je rendrai visite à mon ami"
+    xp_reward: 25
+
+  # 11. Choose Missing Word
+  - id: 80
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "___ il pleut, je resterai à la maison."
+    missing_word_position: 1
+    options: ["Kama", "Wakati", "Kisha"]
+    correct_answer: "Kama"
+    translation: "Kama mvua inanyesha, nitabaki nyumbani"
+    xp_reward: 15
+
+  - id: 81
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Si tu étudies, tu ___."
+    missing_word_position: 4
+    options: ["réussiras", "échoueras", "partiras"]
+    correct_answer: "réussiras"
+    translation: "Kama unasoma, utafaulu"
+    xp_reward: 15
+
+  - id: 82
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "S'il vient, nous commencerons la ___."
+    missing_word_position: 6
+    options: ["réunion", "école", "route"]
+    correct_answer: "réunion"
+    translation: "Kama anakuja, tutaanza mkutano"
+    xp_reward: 18
+
+  - id: 83
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Sauf si tu te dépêches, tu ___ le bus."
+    missing_word_position: 7
+    options: ["rateras", "attraperas", "prendras"]
+    correct_answer: "rateras"
+    translation: "Isipokuwa ukifanya haraka, utakosa basi"
+    xp_reward: 18
+
+  - id: 84
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Si c'est possible, je viendrai ___."
+    missing_word_position: 6
+    options: ["demain", "aujourd'hui", "hier"]
+    correct_answer: "demain"
+    translation: "Kama inawezekana, nitakuja kesho"
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 85
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Kama mvua inanyesha, nitabaki nyumbani."
+    question: "Nitafanya nini kama mvua itanyesha?"
+    options: ["Nitatoka", "Nitabaki nyumbani", "Nitaenda shuleni", "Nitafanya kazi"]
+    correct_answer: "Nitabaki nyumbani"
+    xp_reward: 15
+
+  - id: 86
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Kama unasoma, utafaulu."
+    question: "Nini kitatokea kama unasoma?"
+    options: ["Utafeli", "Utafaulu", "Utacheza", "Utalala"]
+    correct_answer: "Utafaulu"
+    xp_reward: 15
+
+  - id: 87
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Kama anakuja, tutaanza mkutano."
+    question: "Wataanza mkutano lini?"
+    options: ["Kama anakuja", "Kama mvua inanyesha", "Kama anasoma", "Kama anafanya kazi"]
+    correct_answer: "Kama anakuja"
+    xp_reward: 18
+
+  - id: 88
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Kama ningekuwa na pesa, ningenunua gari."
+    question: "Ningenunua nini kama ningekuwa na pesa?"
+    options: ["Nyumba", "Gari", "Chakula", "Nguo"]
+    correct_answer: "Gari"
+    xp_reward: 18
+
+  - id: 89
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Kama inawezekana, nitakuja kesho."
+    question: "Nitakuja lini kama inawezekana?"
+    options: ["Leo", "Kesho", "Wiki ijayo", "Kamwe"]
+    correct_answer: "Kesho"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 90
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Kama' means 'when'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 91
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Inawezekana' means 'possible'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 92
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Kama unasoma, utafaulu' means 'If you study, you will succeed'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 93
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Isipokuwa ukifanya haraka, utakosa basi' means 'If you hurry, you will catch the bus'."
+    correct_answer: false
+    xp_reward: 15
+
+  - id: 94
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Kila wakati' means 'never'."
+    correct_answer: false
+    xp_reward: 10
+
+  # 14. Conversation Exercise
+  - id: 95
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Utafanya nini kama mvua itanyesha?"
+    translation: "What will you do if it rains?"
+    word_bank: ["Je", "resterai", "à", "la", "maison", "irai", "dehors", "travaillerai"]
+    correct_response: ["Je", "resterai", "à", "la", "maison"]
+    xp_reward: 18
+
+  - id: 96
+    type: conversation
+    question: "Jibu swali kwa Kifaransa"
+    bot_message: "Kama unasoma, utafaulu?"
+    translation: "If you study, will you succeed?"
+    options:
+      - "Oui, je réussirai"
+      - "Non, je ne réussirai pas"
+      - "C'est impossible"
+    correct_response: "Oui, je réussirai"
+    xp_reward: 15
+
+  - id: 97
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Utafanya nini kama una pesa?"
+    translation: "What will you do if you have money?"
+    word_bank: ["Je", "achèterai", "une", "voiture", "maison", "nourriture"]
+    correct_response: ["Je", "achèterai", "une", "voiture"]
+    xp_reward: 20
+
+  - id: 98
+    type: conversation
+    question: "Jibu swali kwa Kifaransa"
+    bot_message: "Kama inawezekana, utakuja kesho?"
+    translation: "If it is possible, will you come tomorrow?"
+    options:
+      - "Oui, je viendrai demain"
+      - "Non, je ne viendrai pas"
+      - "C'est impossible"
+    correct_response: "Oui, je viendrai demain"
+    xp_reward: 15
+
+  # 15. Story Exercise
+  - id: 99
+    type: story
+    title: "Mipango na Masharti"
+    story_intro: "Soma hadithi ya mipango na masharti. Kisha jenga sentensi kwa Kifaransa."
+    story_segments:
+      - text: "If it rains, I will stay home."
+      - text: "If you study, you will succeed."
+      - text: "If he comes, we will start the meeting."
+      - text: "If I had money, I would buy a car."
+      - text: "If it is possible, I will come tomorrow."
+    exercises:
+      - type: word_bank
+        question: "Jenga 'If it rains, I will stay home' kwa Kifaransa"
+        word_bank: ["S'", "il", "pleut", "je", "resterai", "à", "la", "maison", "irai", "dehors"]
+        correct_answer: ["S'", "il", "pleut", "je", "resterai", "à", "la", "maison"]
+      - type: word_bank
+        question: "Jenga 'If you study, you will succeed' kwa Kifaransa"
+        word_bank: ["Si", "tu", "étudies", "tu", "réussiras", "échoueras"]
+        correct_answer: ["Si", "tu", "étudies", "tu", "réussiras"]
+      - type: word_bank
+        question: "Jenga 'If he comes, we will start the meeting' kwa Kifaransa"
+        word_bank: ["S'", "il", "vient", "nous", "commencerons", "la", "réunion", "classe"]
+        correct_answer: ["S'", "il", "vient", "nous", "commencerons", "la", "réunion"]
+      - type: word_bank
+        question: "Jenga 'If I had money, I would buy a car' kwa Kifaransa"
+        word_bank: ["Si", "j'", "avais", "de", "l'", "argent", "j'", "achèterais", "une", "voiture", "maison"]
+        correct_answer: ["Si", "j'", "avais", "de", "l'", "argent", "j'", "achèterais", "une", "voiture"]
+      - type: word_bank
+        question: "Jenga 'If it is possible, I will come tomorrow' kwa Kifaransa"
+        word_bank: ["Si", "c'", "est", "possible", "je", "viendrai", "demain", "aujourd'hui"]
+        correct_answer: ["Si", "c'", "est", "possible", "je", "viendrai", "demain"]
+    xp_reward: 45
+
+  # 16. Pronunciation Check
+  - id: 100
+    type: pronunciation
+    question: "Taja neno hili kwa Kifaransa vizuri"
+    prompt: "Kama"
+    translation: "Si"
+    xp_reward: 15
+
+  - id: 101
+    type: pronunciation
+    question: "Taja neno hili kwa Kifaransa vizuri"
+    prompt: "Inawezekana"
+    translation: "Possible"
+    xp_reward: 15
+
+  - id: 102
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Kama mvua inanyesha, nitabaki nyumbani"
+    translation: "S'il pleut, je resterai à la maison"
+    xp_reward: 22
+
+  - id: 103
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Kama unasoma, utafaulu"
+    translation: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 104
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Kama inawezekana, nitakuja kesho"
+    translation: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 17. Identify Correct Meaning
+  - id: 105
+    type: identify_meaning
+    question: "'Kama' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Kama mvua inanyesha, nitabaki nyumbani."
+    word: "Kama"
+    options: ["Wakati", "Kama", "Kisha", "Baada ya"]
+    correct_answer: "Kama"
+    xp_reward: 15
+
+  - id: 106
+    type: identify_meaning
+    question: "'Utafaulu' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Kama unasoma, utafaulu."
+    word: "utafaulu"
+    options: ["utafeli", "utafaulu", "utasoma", "utafanya kazi"]
+    correct_answer: "utafaulu"
+    xp_reward: 15
+
+  - id: 107
+    type: identify_meaning
+    question: "'Tutaanza' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Kama anakuja, tutaanza mkutano."
+    word: "tutaanza"
+    options: ["tutamaliza", "tutaanza", "tutahudhuria", "tutaondoka"]
+    correct_answer: "tutaanza"
+    xp_reward: 15
+
+  - id: 108
+    type: identify_meaning
+    question: "'Inawezekana' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Kama inawezekana, nitakuja kesho."
+    word: "inawezekana"
+    options: ["haiwezekani", "inawezekana", "ni nzuri", "ni mbaya"]
+    correct_answer: "inawezekana"
+    xp_reward: 15
+
+  # 18. Speed Matching
+  - id: 109
+    type: speed_matching
+    title: "Linganisha kwa Kasi: Hali na Masharti"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Kama"
+        right: "Si"
+      - left: "Wakati"
+        right: "Quand"
+      - left: "Kisha"
+        right: "Alors"
+      - left: "Inawezekana"
+        right: "Possible"
+      - left: "Haiwezekani"
+        right: "Impossible"
+      - left: "Kila wakati"
+        right: "Toujours"
+      - left: "Kamwe"
+        right: "Jamais"
+      - left: "Kabla ya"
+        right: "Avant de"
+      - left: "Baada ya"
+        right: "Après avoir"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 110
+    type: timed_challenge
+    title: "Haraka: Hali na Masharti"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Kama"
+        answer: "Si"
+      - question: "Wakati"
+        answer: "Quand"
+      - question: "Inawezekana"
+        answer: "Possible"
+      - question: "Kila wakati"
+        answer: "Toujours"
+      - question: "Kamwe"
+        answer: "Jamais"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Si"
+      back: "Kama"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Quand"
+      back: "Wakati"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Sauf si"
+      back: "Isipokuwa"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Alors"
+      back: "Kisha"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Pourrait"
+      back: "Angeweza"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Fera"
+      back: "Atafanya"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Serait"
+      back: "Ingekuwa"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Pourraient"
+      back: "Wangeweza"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Devrait"
+      back: "Anapaswa"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Peut"
+      back: "Anaweza"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

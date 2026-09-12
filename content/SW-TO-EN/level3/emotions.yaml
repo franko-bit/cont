@@ -1,0 +1,1146 @@
+lesson:
+  name: "Hisia"
+  description: "Learn emotion words in English and how to express feelings"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Emotion Words ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Unasemaje 'Nina furaha / Nimefurahi' kwa Kiingereza?"
+    answer: "Happy"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Unasemaje 'Huzuni / Nina huzuni' kwa Kiingereza?"
+    answer: "Sad"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Unasemaje 'Hasira / Ana hasira' kwa Kiingereza?"
+    answer: "Angry"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Unasemaje 'Woga / Ana woga' kwa Kiingereza?"
+    answer: "Afraid / Scared"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Unasemaje 'Mshangao / Ameshangaa' kwa Kiingereza?"
+    answer: "Surprised"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Unasemaje 'Msisimko / Anasisimka' kwa Kiingereza?"
+    answer: "Excited"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Unasemaje 'Utulivu / Ametulia' kwa Kiingereza?"
+    answer: "Calm"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Unasemaje 'Kuchanganyikiwa / Amechanganyikiwa' kwa Kiingereza?"
+    answer: "Confused"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Unasemaje 'Uchovu / Amechoka' kwa Kiingereza?"
+    answer: "Tired"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Unasemaje 'Upweke / Yuko peke yake' kwa Kiingereza?"
+    answer: "Lonely"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Unasemaje 'Aibu / Ana aibu' kwa Kiingereza?"
+    answer: "Embarrassed"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Unasemaje 'Kiburi / Anajivunia' kwa Kiingereza?"
+    answer: "Proud"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Unasemaje 'Upendo / Anapenda' kwa Kiingereza?"
+    answer: "Love / Loving"
+    note: "Both are correct"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Unasemaje 'Chuki / Anachukia' kwa Kiingereza?"
+    answer: "Hate"
+    note: "Both are correct"
+    xp_reward: 10
+
+  # Sentences About Emotions
+  - id: 15
+    type: translation
+    question: "Unasemaje 'Nina furaha / Nimefurahi' kwa Kiingereza?"
+    answer: "I am happy"
+    note: "Both are correct"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Unasemaje 'Ana huzuni' kwa Kiingereza?"
+    answer: "She is sad"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Unasemaje 'Ana hasira' kwa Kiingereza?"
+    answer: "He is angry"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Unasemaje 'Wana woga' kwa Kiingereza?"
+    answer: "They are scared"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Unasemaje 'Ninasisimka kwa ajili ya sherehe' kwa Kiingereza?"
+    answer: "I am excited about the party"
+    xp_reward: 18
+
+  - id: 20
+    type: translation
+    question: "Unasemaje 'Ametulia' kwa Kiingereza?"
+    answer: "She is calm"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Unasemaje 'Niko peke yangu / Ninahisi upweke' kwa Kiingereza?"
+    answer: "I feel lonely"
+    note: "Both are correct"
+    xp_reward: 18
+
+  - id: 22
+    type: translation
+    question: "Unasemaje 'Anajivunia mwanawe wa kiume' kwa Kiingereza?"
+    answer: "He is proud of his son"
+    xp_reward: 20
+
+  - id: 23
+    type: translation
+    question: "Unasemaje 'Naipenda familia yangu' kwa Kiingereza?"
+    answer: "I love my family"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Unasemaje 'Anachukia uongo' kwa Kiingereza?"
+    answer: "She hates lies"
+    xp_reward: 20
+
+  # 2. Multiple Choice
+  - id: 25
+    type: multiple_choice
+    question: "'Nina furaha' inamaanisha nini?"
+    options:
+      - "Sad"
+      - "Happy"
+      - "Angry"
+      - "Tired"
+    answer: "Happy"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "'Ana huzuni' inamaanisha nini?"
+    options:
+      - "She is happy"
+      - "She is sad"
+      - "She is angry"
+      - "She is calm"
+    answer: "She is sad"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "'Ana hasira' inamaanisha nini?"
+    options:
+      - "He is scared"
+      - "He is tired"
+      - "He is angry"
+      - "He is surprised"
+    answer: "He is angry"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Wana woga' inamaanisha nini?"
+    options:
+      - "They are happy"
+      - "They are scared"
+      - "They are calm"
+      - "They are proud"
+    answer: "They are scared"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Ametulia' inamaanisha nini?"
+    options:
+      - "She is calm"
+      - "She is confused"
+      - "She is excited"
+      - "She is lonely"
+    answer: "She is calm"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Naipenda familia yangu' inamaanisha nini?"
+    options:
+      - "I hate my family"
+      - "I love my family"
+      - "I miss my family"
+      - "I see my family"
+    answer: "I love my family"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 31
+    type: listen_and_type
+    question: "Sikiliza kisha uandike hisia kwa Kiingereza"
+    tts_text: "Nina furaha"
+    answer: "Happy"
+    translation: "Nina furaha"
+    xp_reward: 20
+
+  - id: 32
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kiingereza"
+    tts_text: "Ana huzuni"
+    answer: "She is sad"
+    translation: "Ana huzuni"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kiingereza"
+    tts_text: "Ana hasira"
+    answer: "He is angry"
+    translation: "Ana hasira"
+    xp_reward: 20
+
+  - id: 34
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kiingereza"
+    tts_text: "Wana woga"
+    answer: "They are scared"
+    translation: "Wana woga"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kiingereza"
+    tts_text: "Ninasisimka kwa ajili ya sherehe"
+    answer: "I am excited about the party"
+    translation: "Ninasisimka kwa ajili ya sherehe"
+    xp_reward: 22
+
+  - id: 36
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kiingereza"
+    tts_text: "Naipenda familia yangu"
+    answer: "I love my family"
+    translation: "Naipenda familia yangu"
+    xp_reward: 22
+
+  - id: 37
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kiingereza"
+    tts_text: "Anajivunia mwanawe wa kiume"
+    answer: "He is proud of his son"
+    translation: "Anajivunia mwanawe wa kiume"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 38
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague hisia sahihi"
+    tts_text: "Nina furaha"
+    options:
+      - "Sad"
+      - "Happy"
+      - "Angry"
+    answer: "Happy"
+    xp_reward: 15
+
+  - id: 39
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague hisia sahihi"
+    tts_text: "Ana huzuni"
+    options:
+      - "She is happy"
+      - "She is sad"
+      - "She is calm"
+    answer: "She is sad"
+    xp_reward: 15
+
+  - id: 40
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague hisia sahihi"
+    tts_text: "Ana hasira"
+    options:
+      - "He is scared"
+      - "He is tired"
+      - "He is angry"
+    answer: "He is angry"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague hisia sahihi"
+    tts_text: "Ametulia"
+    options:
+      - "She is calm"
+      - "She is confused"
+      - "She is excited"
+    answer: "She is calm"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi sahihi"
+    tts_text: "Naipenda familia yangu"
+    options:
+      - "I hate my family"
+      - "I love my family"
+      - "I see my family"
+    answer: "I love my family"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 43
+    type: speaking
+    question: "Taja hisia hii kwa Kiingereza"
+    prompt: "Nina furaha"
+    translation: "Happy"
+    xp_reward: 15
+
+  - id: 44
+    type: speaking
+    question: "Taja sentensi hii kwa Kiingereza"
+    prompt: "Ana huzuni"
+    translation: "She is sad"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Taja sentensi hii kwa Kiingereza"
+    prompt: "Ana hasira"
+    translation: "He is angry"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Taja sentensi hii kwa Kiingereza"
+    prompt: "Wana woga"
+    translation: "They are scared"
+    xp_reward: 15
+
+  - id: 47
+    type: speaking
+    question: "Taja sentensi hii kwa Kiingereza"
+    prompt: "Ninasisimka kwa ajili ya sherehe"
+    translation: "I am excited about the party"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Taja sentensi hii kwa Kiingereza"
+    prompt: "Naipenda familia yangu"
+    translation: "I love my family"
+    xp_reward: 18
+
+  - id: 49
+    type: speaking
+    question: "Taja sentensi hii kwa Kiingereza"
+    prompt: "Anajivunia mwanawe wa kiume"
+    translation: "He is proud of his son"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 50
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Nina furaha'"
+    word_bank: ["I", "am", "happy", "she", "is", "sad"]
+    correct_answer: ["I", "am", "happy"]
+    xp_reward: 15
+
+  - id: 51
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Ana huzuni'"
+    word_bank: ["She", "is", "sad", "I", "am", "happy"]
+    correct_answer: ["She", "is", "sad"]
+    xp_reward: 15
+
+  - id: 52
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Ana hasira'"
+    word_bank: ["He", "is", "angry", "she", "is", "sad"]
+    correct_answer: ["He", "is", "angry"]
+    xp_reward: 15
+
+  - id: 53
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Wana woga'"
+    word_bank: ["They", "are", "scared", "he", "is", "angry"]
+    correct_answer: ["They", "are", "scared"]
+    xp_reward: 15
+
+  - id: 54
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Ninasisimka kwa ajili ya sherehe'"
+    word_bank: ["I", "am", "excited", "about", "the", "party", "she", "is", "sad"]
+    correct_answer: ["I", "am", "excited", "about", "the", "party"]
+    xp_reward: 20
+
+  - id: 55
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Ametulia'"
+    word_bank: ["She", "is", "calm", "they", "are", "scared"]
+    correct_answer: ["She", "is", "calm"]
+    xp_reward: 15
+
+  - id: 56
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Niko peke yangu'"
+    word_bank: ["I", "feel", "lonely", "I", "am", "happy"]
+    correct_answer: ["I", "feel", "lonely"]
+    xp_reward: 15
+
+  - id: 57
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Anajivunia mwanawe wa kiume'"
+    word_bank: ["He", "is", "proud", "of", "his", "son", "she", "is", "calm"]
+    correct_answer: ["He", "is", "proud", "of", "his", "son"]
+    xp_reward: 22
+
+  - id: 58
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Naipenda familia yangu'"
+    word_bank: ["I", "love", "my", "family", "he", "loves", "his", "son"]
+    correct_answer: ["I", "love", "my", "family"]
+    xp_reward: 18
+
+  - id: 59
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Anachukia uongo'"
+    word_bank: ["She", "hates", "lies", "he", "loves", "truth"]
+    correct_answer: ["She", "hates", "lies"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble
+  - id: 60
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi kumaanisha 'Nina furaha'"
+    scrambled_words: ["happy", "am", "I"]
+    correct_sentence: "I am happy"
+    translation: "Nina furaha"
+    xp_reward: 12
+
+  - id: 61
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi kumaanisha 'Ana huzuni'"
+    scrambled_words: ["sad", "is", "She"]
+    correct_sentence: "She is sad"
+    translation: "Ana huzuni"
+    xp_reward: 12
+
+  - id: 62
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi kumaanisha 'Ana hasira'"
+    scrambled_words: ["angry", "is", "He"]
+    correct_sentence: "He is angry"
+    translation: "Ana hasira"
+    xp_reward: 12
+
+  - id: 63
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi kumaanisha 'Wana woga'"
+    scrambled_words: ["scared", "are", "They"]
+    correct_sentence: "They are scared"
+    translation: "Wana woga"
+    xp_reward: 12
+
+  - id: 64
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi kumaanisha 'Ninasisimka kwa ajili ya sherehe'"
+    scrambled_words: ["excited", "about", "the", "party", "I", "am"]
+    correct_sentence: "I am excited about the party"
+    translation: "Ninasisimka kwa ajili ya sherehe"
+    xp_reward: 18
+
+  - id: 65
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi kumaanisha 'Ametulia'"
+    scrambled_words: ["calm", "is", "She"]
+    correct_sentence: "She is calm"
+    translation: "Ametulia"
+    xp_reward: 12
+
+  - id: 66
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi kumaanisha 'Niko peke yangu'"
+    scrambled_words: ["lonely", "feel", "I"]
+    correct_sentence: "I feel lonely"
+    translation: "Niko peke yangu"
+    xp_reward: 12
+
+  - id: 67
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi kumaanisha 'Anajivunia mwanawe wa kiume'"
+    scrambled_words: ["proud", "of", "his", "son", "He", "is"]
+    correct_sentence: "He is proud of his son"
+    translation: "Anajivunia mwanawe wa kiume"
+    xp_reward: 20
+
+  - id: 68
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi kumaanisha 'Naipenda familia yangu'"
+    scrambled_words: ["my", "family", "love", "I"]
+    correct_sentence: "I love my family"
+    translation: "Naipenda familia yangu"
+    xp_reward: 18
+
+  - id: 69
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi kumaanisha 'Anachukia uongo'"
+    scrambled_words: ["lies", "hates", "She"]
+    correct_sentence: "She hates lies"
+    translation: "Anachukia uongo"
+    xp_reward: 18
+
+  # 8. Fill in the Blank
+  - id: 70
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "I am ___."
+    options: ["happy", "sad", "angry"]
+    correct_answer: "happy"
+    translation: "Nina furaha"
+    xp_reward: 12
+
+  - id: 71
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "She is ___."
+    options: ["happy", "sad", "angry"]
+    correct_answer: "sad"
+    translation: "Ana huzuni"
+    xp_reward: 12
+
+  - id: 72
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "He is ___."
+    options: ["happy", "sad", "angry"]
+    correct_answer: "angry"
+    translation: "Ana hasira"
+    xp_reward: 12
+
+  - id: 73
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "They are ___."
+    options: ["scared", "calm", "lonely"]
+    correct_answer: "scared"
+    translation: "Wana woga"
+    xp_reward: 12
+
+  - id: 74
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "I am excited about the ___."
+    options: ["party", "family", "son"]
+    correct_answer: "party"
+    translation: "Ninasisimka kwa ajili ya sherehe"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "She is ___."
+    options: ["calm", "scared", "lonely"]
+    correct_answer: "calm"
+    translation: "Ametulia"
+    xp_reward: 12
+
+  - id: 76
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "I feel ___."
+    options: ["lonely", "happy", "sad"]
+    correct_answer: "lonely"
+    translation: "Niko peke yangu"
+    xp_reward: 12
+
+  - id: 77
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "He is proud of his ___."
+    options: ["son", "family", "party"]
+    correct_answer: "son"
+    translation: "Anajivunia mwanawe wa kiume"
+    xp_reward: 18
+
+  - id: 78
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "I love my ___."
+    options: ["family", "son", "party"]
+    correct_answer: "family"
+    translation: "Naipenda familia yangu"
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "She hates ___."
+    options: ["lies", "truth", "family"]
+    correct_answer: "lies"
+    translation: "Anachukia uongo"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 80
+    type: picture_word
+    question: "Hii ni hisia gani?"
+    image_url: "https://source.unsplash.com/featured/?happy"
+    options: ["Happy", "Sad", "Angry"]
+    correct_answer: "Happy"
+    xp_reward: 10
+
+  - id: 81
+    type: picture_word
+    question: "Hii ni hisia gani?"
+    image_url: "https://source.unsplash.com/featured/?sad"
+    options: ["Happy", "Sad", "Angry"]
+    correct_answer: "Sad"
+    xp_reward: 10
+
+  - id: 82
+    type: picture_word
+    question: "Hii ni hisia gani?"
+    image_url: "https://source.unsplash.com/featured/?angry"
+    options: ["Happy", "Sad", "Angry"]
+    correct_answer: "Angry"
+    xp_reward: 10
+
+  - id: 83
+    type: picture_word
+    question: "Hii ni hisia gani?"
+    image_url: "https://source.unsplash.com/featured/?scared"
+    options: ["Scared", "Calm", "Lonely"]
+    correct_answer: "Scared"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "Hii ni hisia gani?"
+    image_url: "https://source.unsplash.com/featured/?calm"
+    options: ["Scared", "Calm", "Lonely"]
+    correct_answer: "Calm"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "Hii ni hisia gani?"
+    image_url: "https://source.unsplash.com/featured/?lonely"
+    options: ["Scared", "Calm", "Lonely"]
+    correct_answer: "Lonely"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Hii ni hisia gani?"
+    image_url: "https://source.unsplash.com/featured/?proud"
+    options: ["Proud", "Hate", "Happy"]
+    correct_answer: "Proud"
+    xp_reward: 12
+
+  - id: 87
+    type: picture_word
+    question: "Hii ni hisia gani?"
+    image_url: "https://source.unsplash.com/featured/?love"
+    options: ["Love", "Hate", "Scared"]
+    correct_answer: "Love"
+    xp_reward: 12
+
+  # 10. Word Matching
+  - id: 88
+    type: matching
+    question: "Linganisha hisia"
+    pairs:
+      - left: "Happy"
+        right: "Nina furaha"
+      - left: "Sad"
+        right: "Ana huzuni"
+      - left: "Angry"
+        right: "Ana hasira"
+      - left: "Scared"
+        right: "Wana woga"
+      - left: "Calm"
+        right: "Ametulia"
+      - left: "Lonely"
+        right: "Niko peke yangu"
+      - left: "Proud"
+        right: "Anajivunia"
+      - left: "Love"
+        right: "Naipenda"
+      - left: "Hate"
+        right: "Anachukia"
+    xp_reward: 25
+
+  - id: 89
+    type: matching
+    question: "Linganisha sentensi"
+    pairs:
+      - left: "I am happy"
+        right: "Nina furaha"
+      - left: "She is sad"
+        right: "Ana huzuni"
+      - left: "He is angry"
+        right: "Ana hasira"
+      - left: "They are scared"
+        right: "Wana woga"
+      - left: "I am excited about the party"
+        right: "Ninasisimka kwa ajili ya sherehe"
+      - left: "She is calm"
+        right: "Ametulia"
+      - left: "I feel lonely"
+        right: "Niko peke yangu"
+      - left: "He is proud of his son"
+        right: "Anajivunia mwanawe wa kiume"
+      - left: "I love my family"
+        right: "Naipenda familia yangu"
+      - left: "She hates lies"
+        right: "Anachukia uongo"
+    xp_reward: 28
+
+  # 11. Choose Missing Word
+  - id: 90
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "I am ___."
+    missing_word_position: 2
+    options: ["happy", "sad", "angry"]
+    correct_answer: "happy"
+    translation: "Nina furaha"
+    xp_reward: 12
+
+  - id: 91
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "She is ___."
+    missing_word_position: 2
+    options: ["happy", "sad", "angry"]
+    correct_answer: "sad"
+    translation: "Ana huzuni"
+    xp_reward: 12
+
+  - id: 92
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "They are ___."
+    missing_word_position: 2
+    options: ["scared", "calm", "lonely"]
+    correct_answer: "scared"
+    translation: "Wana woga"
+    xp_reward: 12
+
+  - id: 93
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "I am excited about the ___."
+    missing_word_position: 4
+    options: ["party", "family", "son"]
+    correct_answer: "party"
+    translation: "Ninasisimka kwa ajili ya sherehe"
+    xp_reward: 15
+
+  - id: 94
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "I love my ___."
+    missing_word_position: 3
+    options: ["family", "son", "party"]
+    correct_answer: "family"
+    translation: "Naipenda familia yangu"
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 95
+    type: read_answer
+    question: "Soma kifungu kisha ujibu swali"
+    text: "Nina furaha. Ana huzuni. Ana hasira."
+    question: "Mimi ninahisije?"
+    options: ["Happy", "Sad", "Angry", "Scared"]
+    correct_answer: "Happy"
+    xp_reward: 12
+
+  - id: 96
+    type: read_answer
+    question: "Soma kifungu kisha ujibu swali"
+    text: "Ninasisimka kwa ajili ya sherehe. Naipenda familia yangu."
+    question: "Ninasisimka kwa ajili ya nini?"
+    options: ["My family", "The party", "My son", "Lies"]
+    correct_answer: "The party"
+    xp_reward: 15
+
+  - id: 97
+    type: read_answer
+    question: "Soma kifungu kisha ujibu swali"
+    text: "Anajivunia mwanawe wa kiume. Ana huzuni."
+    question: "Anamjivunia nani?"
+    options: ["His daughter", "His son", "His wife", "His friend"]
+    correct_answer: "His son"
+    xp_reward: 15
+
+  - id: 98
+    type: read_answer
+    question: "Soma kifungu kisha ujibu swali"
+    text: "Anachukia uongo. Naipenda familia yangu."
+    question: "Anachukia nini?"
+    options: ["Her family", "The party", "Lies", "Being alone"]
+    correct_answer: "Lies"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 99
+    type: true_false
+    question: "Je, taarifa hii ni kweli au ni uongo?"
+    statement: "'Nina furaha' inamaanisha 'I am happy'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 100
+    type: true_false
+    question: "Je, taarifa hii ni kweli au ni uongo?"
+    statement: "'Ana huzuni' inamaanisha 'He is angry'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 101
+    type: true_false
+    question: "Je, taarifa hii ni kweli au ni uongo?"
+    statement: "'Wana woga' inamaanisha 'They are scared'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 102
+    type: true_false
+    question: "Je, taarifa hii ni kweli au ni uongo?"
+    statement: "'Naipenda familia yangu' inamaanisha 'I love my family'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 103
+    type: true_false
+    question: "Je, taarifa hii ni kweli au ni uongo?"
+    statement: "'Anachukia uongo' inamaanisha 'She loves lies'."
+    correct_answer: false
+    xp_reward: 12
+
+  # 14. Conversation Exercise
+  - id: 104
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa"
+    bot_message: "Unaendeleaje?"
+    translation: "How are you?"
+    word_bank: ["I", "am", "happy", "she", "is", "sad"]
+    correct_response: ["I", "am", "happy"]
+    xp_reward: 15
+
+  - id: 105
+    type: conversation
+    question: "Jibu swali"
+    bot_message: "Unaendeleaje?"
+    translation: "How are you?"
+    options:
+      - "I am happy"
+      - "She is sad"
+      - "He is angry"
+    correct_response: "I am happy"
+    xp_reward: 12
+
+  - id: 106
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa"
+    bot_message: "Unaisisimka kwa ajili ya nini?"
+    translation: "What are you excited about?"
+    word_bank: ["I", "am", "excited", "about", "the", "party", "my", "family"]
+    correct_response: ["I", "am", "excited", "about", "the", "party"]
+    xp_reward: 18
+
+  - id: 107
+    type: conversation
+    question: "Jibu swali"
+    bot_message: "Unajisikiaje?"
+    translation: "How are you feeling?"
+    options:
+      - "I feel lonely"
+      - "I am happy"
+      - "They are scared"
+    correct_response: "I am happy"
+    xp_reward: 12
+
+  # 15. Story Exercise
+  - id: 108
+    type: story
+    title: "Hisia Zangu"
+    story_intro: "Soma hadithi ya hisia. Kisha jenga sentensi."
+    story_segments:
+      - text: "I am happy."
+      - text: "She is sad."
+      - text: "He is angry."
+      - text: "They are scared."
+      - text: "I am excited about the party."
+      - text: "She is calm."
+      - text: "I love my family."
+      - text: "He is proud of his son."
+    exercises:
+      - type: word_bank
+        question: "Jenga 'I am happy'"
+        word_bank: ["I", "am", "happy", "she", "is", "sad"]
+        correct_answer: ["I", "am", "happy"]
+      - type: word_bank
+        question: "Jenga 'She is sad'"
+        word_bank: ["She", "is", "sad", "I", "am", "happy"]
+        correct_answer: ["She", "is", "sad"]
+      - type: word_bank
+        question: "Jenga 'He is angry'"
+        word_bank: ["He", "is", "angry", "she", "is", "sad"]
+        correct_answer: ["He", "is", "angry"]
+      - type: word_bank
+        question: "Jenga 'They are scared'"
+        word_bank: ["They", "are", "scared", "he", "is", "angry"]
+        correct_answer: ["They", "are", "scared"]
+      - type: word_bank
+        question: "Jenga 'I am excited about the party'"
+        word_bank: ["I", "am", "excited", "about", "the", "party", "she", "is", "calm"]
+        correct_answer: ["I", "am", "excited", "about", "the", "party"]
+      - type: word_bank
+        question: "Jenga 'I love my family'"
+        word_bank: ["I", "love", "my", "family", "he", "loves", "his", "son"]
+        correct_answer: ["I", "love", "my", "family"]
+      - type: word_bank
+        question: "Jenga 'He is proud of his son'"
+        word_bank: ["He", "is", "proud", "of", "his", "son", "she", "is", "calm"]
+        correct_answer: ["He", "is", "proud", "of", "his", "son"]
+    xp_reward: 45
+
+  # 16. Pronunciation Check
+  - id: 109
+    type: pronunciation
+    question: "Taja hisia hii kwa Kiingereza vizuri"
+    prompt: "Nina furaha"
+    translation: "I am happy"
+    xp_reward: 15
+
+  - id: 110
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kiingereza vizuri"
+    prompt: "Ana huzuni"
+    translation: "She is sad"
+    xp_reward: 15
+
+  - id: 111
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kiingereza vizuri"
+    prompt: "Ana hasira"
+    translation: "He is angry"
+    xp_reward: 15
+
+  - id: 112
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kiingereza vizuri"
+    prompt: "Wana woga"
+    translation: "They are scared"
+    xp_reward: 15
+
+  - id: 113
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kiingereza vizuri"
+    prompt: "Ninasisimka kwa ajili ya sherehe"
+    translation: "I am excited about the party"
+    xp_reward: 18
+
+  - id: 114
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kiingereza vizuri"
+    prompt: "Naipenda familia yangu"
+    translation: "I love my family"
+    xp_reward: 18
+
+  - id: 115
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kiingereza vizuri"
+    prompt: "Anajivunia mwanawe wa kiume"
+    translation: "He is proud of his son"
+    xp_reward: 20
+
+  # 17. Identify Correct Meaning
+  - id: 116
+    type: identify_meaning
+    question: "'Nina furaha' inamaanisha nini?"
+    context_sentence: "Nina furaha."
+    word: "Nina furaha"
+    options: ["I am sad", "I am happy", "I am angry", "I am scared"]
+    correct_answer: "I am happy"
+    xp_reward: 15
+
+  - id: 117
+    type: identify_meaning
+    question: "'Ana huzuni' inamaanisha nini?"
+    context_sentence: "Ana huzuni."
+    word: "Ana huzuni"
+    options: ["He is happy", "She is sad", "They are angry", "We are scared"]
+    correct_answer: "She is sad"
+    xp_reward: 15
+
+  - id: 118
+    type: identify_meaning
+    question: "'Wana woga' inamaanisha nini?"
+    context_sentence: "Wana woga."
+    word: "Wana woga"
+    options: ["I am scared", "You are scared", "They are scared", "We are scared"]
+    correct_answer: "They are scared"
+    xp_reward: 15
+
+  - id: 119
+    type: identify_meaning
+    question: "'Naipenda' inamaanisha nini katika sentensi hii?"
+    context_sentence: "Naipenda familia yangu."
+    word: "Naipenda"
+    options: ["I hate", "I love", "I see", "I want"]
+    correct_answer: "I love"
+    xp_reward: 15
+
+  - id: 120
+    type: identify_meaning
+    question: "'Uongo' inamaanisha nini katika sentensi hii?"
+    context_sentence: "Anachukia uongo."
+    word: "uongo"
+    options: ["truth", "lies", "family", "party"]
+    correct_answer: "lies"
+    xp_reward: 18
+
+  # 18. Speed Matching
+  - id: 121
+    type: speed_matching
+    title: "Linganisha kwa Kasi: Hisia"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Happy"
+        right: "Nina furaha"
+      - left: "Sad"
+        right: "Ana huzuni"
+      - left: "Angry"
+        right: "Ana hasira"
+      - left: "Scared"
+        right: "Wana woga"
+      - left: "Calm"
+        right: "Ametulia"
+      - left: "Lonely"
+        right: "Niko peke yangu"
+      - left: "Proud"
+        right: "Anajivunia"
+      - left: "Love"
+        right: "Naipenda"
+      - left: "Hate"
+        right: "Anachukia"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 122
+    type: timed_challenge
+    title: "Mbio za Hisia"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Nina furaha"
+        answer: "Happy"
+      - question: "Ana huzuni"
+        answer: "Sad"
+      - question: "Ana hasira"
+        answer: "Angry"
+      - question: "Wana woga"
+        answer: "Scared"
+      - question: "Ametulia"
+        answer: "Calm"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Happy"
+      back: "Nina furaha / Nimefurahi"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Sad"
+      back: "Huzuni / Nina huzuni"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Angry"
+      back: "Hasira / Ana hasira"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Afraid / Scared"
+      back: "Woga / Ana woga"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Surprised"
+      back: "Mshangao / Ameshangaa"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Excited"
+      back: "Msisimko / Anasisimka"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Calm"
+      back: "Utulivu / Ametulia"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Confused"
+      back: "Kuchanganyikiwa / Amechanganyikiwa"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Tired"
+      back: "Uchovu / Amechoka"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Lonely"
+      back: "Upweke / Yuko peke yake"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

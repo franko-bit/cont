@@ -1,0 +1,728 @@
+lesson:
+  name: "Wanyama"
+  description: "Apprenez les noms des animaux en Kiswahili par catégories"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Words ONLY (Safe for single words)
+  # Domestic / Farm Animals
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Vache' en Kiswahili ?"
+    answer: "Ng'ombe"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Chien' en Kiswahili ?"
+    answer: "Mbwa"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Chat' en Kiswahili ?"
+    answer: "Paka"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Chèvre' en Kiswahili ?"
+    answer: "Mbuzi"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Mouton' en Kiswahili ?"
+    answer: "Kondoo"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Cochon' en Kiswahili ?"
+    answer: "Nguruwe"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Poulet' en Kiswahili ?"
+    answer: "Kuku"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Lapin' en Kiswahili ?"
+    answer: "Sungura"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Âne' en Kiswahili ?"
+    answer: "Punda"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Pigeon' en Kiswahili ?"
+    answer: "Njiwa"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Oiseau' en Kiswahili ?"
+    answer: "Ndege"
+    xp_reward: 10
+
+  # Wildlife Animals
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Lion' en Kiswahili ?"
+    answer: "Simba"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Éléphant' en Kiswahili ?"
+    answer: "Tembo"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Gorille' en Kiswahili ?"
+    answer: "Gorila"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Léopard' en Kiswahili ?"
+    answer: "Chui"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Buffle' en Kiswahili ?"
+    answer: "Nyati"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Zèbre' en Kiswahili ?"
+    answer: "Pundamilia"
+    xp_reward: 10
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Hippopotame' en Kiswahili ?"
+    answer: "Kiboko"
+    xp_reward: 10
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Girafe' en Kiswahili ?"
+    answer: "Twiga"
+    xp_reward: 10
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'Hyène' en Kiswahili ?"
+    answer: "Fisi"
+    xp_reward: 10
+
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'Singe' en Kiswahili ?"
+    answer: "Tumbili"
+    xp_reward: 10
+
+  # Birds, Reptiles, Insects, Fish
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'Grue couronnée grise' en Kiswahili ?"
+    answer: "Korongo"
+    xp_reward: 10
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Serpent' en Kiswahili ?"
+    answer: "Nyoka"
+    xp_reward: 10
+
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'Grenouille' en Kiswahili ?"
+    answer: "Chura"
+    xp_reward: 10
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'Poisson' en Kiswahili ?"
+    answer: "Samaki"
+    xp_reward: 10
+
+  - id: 26
+    type: translation
+    question: "Comment dit-on 'Abeille' en Kiswahili ?"
+    answer: "Nyuki"
+    xp_reward: 10
+
+  # Animal Actions (Verbs)
+  - id: 27
+    type: translation
+    question: "Comment dit-on 'mange' en Kiswahili ?"
+    answer: "hula"
+    xp_reward: 10
+
+  - id: 28
+    type: translation
+    question: "Comment dit-on 'boit' en Kiswahili ?"
+    answer: "kunywa"
+    xp_reward: 10
+
+  - id: 29
+    type: translation
+    question: "Comment dit-on 'dort' en Kiswahili ?"
+    answer: "analala"
+    xp_reward: 10
+
+  - id: 30
+    type: translation
+    question: "Comment dit-on 'court' en Kiswahili ?"
+    answer: "anakimbia"
+    xp_reward: 10
+
+  - id: 31
+    type: translation
+    question: "Comment dit-on 'vole' en Kiswahili ?"
+    answer: "anaruka"
+    xp_reward: 10
+
+  - id: 32
+    type: translation
+    question: "Comment dit-on 'nage' en Kiswahili ?"
+    answer: "anaogelea"
+    xp_reward: 10
+
+  - id: 33
+    type: translation
+    question: "Comment dit-on 'joue' en Kiswahili ?"
+    answer: "anacheza"
+    xp_reward: 10
+
+  # Animal Food
+  - id: 34
+    type: translation
+    question: "Comment dit-on 'herbe' en Kiswahili ?"
+    answer: "nyasi"
+    xp_reward: 10
+
+  - id: 35
+    type: translation
+    question: "Comment dit-on 'eau' en Kiswahili ?"
+    answer: "maji"
+    xp_reward: 10
+
+  - id: 36
+    type: translation
+    question: "Comment dit-on 'viande' en Kiswahili ?"
+    answer: "nyama"
+    xp_reward: 10
+
+  # NO DIRECT TRANSLATION FOR SENTENCES OR PARAGRAPHS
+  # Instead, we use sentence building, matching, and word bank exercises
+
+  # 2. Multiple Choice
+  - id: 37
+    type: multiple_choice
+    question: "Que signifie 'Ng'ombe' ?"
+    options:
+      - "Chien"
+      - "Vache"
+      - "Chat"
+      - "Chèvre"
+    answer: "Vache"
+    xp_reward: 15
+
+  - id: 38
+    type: multiple_choice
+    question: "Que signifie 'Simba' ?"
+    options:
+      - "Lion"
+      - "Éléphant"
+      - "Singe"
+      - "Chien"
+    answer: "Lion"
+    xp_reward: 15
+
+  - id: 39
+    type: multiple_choice
+    question: "Que signifie 'hula' ?"
+    options:
+      - "boit"
+      - "mange"
+      - "dort"
+      - "court"
+    answer: "mange"
+    xp_reward: 15
+
+  - id: 40
+    type: multiple_choice
+    question: "Que signifie 'nyasi' ?"
+    options:
+      - "eau"
+      - "viande"
+      - "herbe"
+      - "lait"
+    answer: "herbe"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation) - SINGLE WORDS ONLY
+  - id: 41
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Ng'ombe"
+    answer: "Ng'ombe"
+    translation: "Vache"
+    xp_reward: 20
+
+  - id: 42
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Mbwa"
+    answer: "Mbwa"
+    translation: "Chien"
+    xp_reward: 20
+
+  - id: 43
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Paka"
+    answer: "Paka"
+    translation: "Chat"
+    xp_reward: 20
+
+  - id: 44
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Mbuzi"
+    answer: "Mbuzi"
+    translation: "Chèvre"
+    xp_reward: 20
+
+  - id: 45
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Kondoo"
+    answer: "Kondoo"
+    translation: "Mouton"
+    xp_reward: 20
+
+  - id: 46
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Kuku"
+    answer: "Kuku"
+    translation: "Poulet"
+    xp_reward: 20
+
+  # 4. Listen and Choose - SINGLE WORDS ONLY
+  - id: 47
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Mbwa"
+    options:
+      - "Chat"
+      - "Chien"
+      - "Vache"
+    answer: "Chien"
+    xp_reward: 15
+
+  - id: 48
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Simba"
+    options:
+      - "Lion"
+      - "Éléphant"
+      - "Girafe"
+    answer: "Lion"
+    xp_reward: 15
+
+  - id: 49
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Kondoo"
+    options:
+      - "Chèvre"
+      - "Mouton"
+      - "Vache"
+    answer: "Mouton"
+    xp_reward: 15
+
+  - id: 50
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Kuku"
+    options:
+      - "Poulet"
+      - "Oiseau"
+      - "Canard"
+    answer: "Poulet"
+    xp_reward: 15
+
+  - id: 51
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Paka"
+    options:
+      - "Chien"
+      - "Chat"
+      - "Lapin"
+    answer: "Chat"
+    xp_reward: 15
+
+  - id: 52
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Mbuzi"
+    options:
+      - "Chèvre"
+      - "Mouton"
+      - "Vache"
+    answer: "Chèvre"
+    xp_reward: 15
+
+  # 5. Repeat / Speaking Exercise
+  - id: 53
+    type: speaking
+    question: "Dites ce mot"
+    prompt: "Ng'ombe"
+    translation: "Vache"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Dites ce mot"
+    prompt: "Mbwa"
+    translation: "Chien"
+    xp_reward: 15
+
+  - id: 55
+    type: speaking
+    question: "Dites ce mot"
+    prompt: "Paka"
+    translation: "Chat"
+    xp_reward: 15
+
+  - id: 56
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Ng'ombe hula nyasi"
+    translation: "La vache mange de l'herbe"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+  - id: 57
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'La vache mange de l'herbe'"
+    word_bank: ["Ng'ombe", "hula", "nyasi", "Mbwa", "kunywa", "maji"]
+    correct_answer: ["Ng'ombe", "hula", "nyasi"]
+    xp_reward: 20
+
+  - id: 58
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Le chien boit de l'eau'"
+    word_bank: ["Mbwa", "kunywa", "maji", "Ng'ombe", "hula", "nyasi"]
+    correct_answer: ["Mbwa", "kunywa", "maji"]
+    xp_reward: 20
+
+  - id: 59
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'L'oiseau vole'"
+    word_bank: ["Ndege", "anaruka", "juu", "Mbwa", "anakimbia", "ni"]
+    correct_answer: ["Ndege", "anaruka"]
+    xp_reward: 20
+
+  - id: 60
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Le poisson nage'"
+    word_bank: ["Samaki", "anaogelea", "majini", "Ndege", "anaruka", "juu"]
+    correct_answer: ["Samaki", "anaogelea"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 61
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["hula", "Ng'ombe", "nyasi"]
+    correct_sentence: "Ng'ombe hula nyasi"
+    translation: "La vache mange de l'herbe"
+    xp_reward: 20
+
+  - id: 62
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["kunywa", "Mbwa", "maji"]
+    correct_sentence: "Mbwa anakunywa maji"
+    translation: "Le chien boit de l'eau"
+    xp_reward: 20
+
+  - id: 63
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["anaruka", "Ndege", "juu"]
+    correct_sentence: "Ndege anaruka juu"
+    translation: "L'oiseau vole au-dessus"
+    xp_reward: 20
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 64
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Ng'ombe ___ nyasi."
+    options: ["hula", "kunywa", "anapenda"]
+    correct_answer: "hula"
+    translation: "La vache mange de l'herbe"
+    xp_reward: 15
+
+  - id: 65
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Mbwa ___ maji."
+    options: ["hula", "anakunywa", "analala"]
+    correct_answer: "anakunywa"
+    translation: "Le chien boit de l'eau"
+    xp_reward: 15
+
+  - id: 66
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Ndege ___ juu."
+    options: ["anaruka", "anakimbia", "anaogelea"]
+    correct_answer: "anaruka"
+    translation: "L'oiseau vole au-dessus"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 67
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Ng'ombe", "Mbwa", "Kondoo", "Mbuzi"]
+    correct_answer: "Ng'ombe"
+    xp_reward: 10
+
+  - id: 68
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Ng'ombe", "Mbwa", "Paka", "Kuku"]
+    correct_answer: "Mbwa"
+    xp_reward: 10
+
+  - id: 69
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Tembo", "Simba", "Chui", "Nyati"]
+    correct_answer: "Simba"
+    xp_reward: 10
+
+  - id: 70
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Tembo", "Kiboko", "Gorila", "Pundamilia"]
+    correct_answer: "Tembo"
+    xp_reward: 10
+
+  - id: 71
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Ndege", "Kuku", "Njiwa", "Korongo"]
+    correct_answer: "Ndege"
+    xp_reward: 10
+
+  - id: 72
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Samaki", "Nyoka", "Chura", "Kasa"]
+    correct_answer: "Samaki"
+    xp_reward: 10
+
+  # 10. Word Matching (Pairing)
+  - id: 73
+    type: matching
+    question: "Associez les animaux"
+    pairs:
+      - left: "Vache"
+        right: "Ng'ombe"
+      - left: "Chien"
+        right: "Mbwa"
+      - left: "Chat"
+        right: "Paka"
+      - left: "Lion"
+        right: "Simba"
+      - left: "Éléphant"
+        right: "Tembo"
+      - left: "Oiseau"
+        right: "Ndege"
+      - left: "Poisson"
+        right: "Samaki"
+    xp_reward: 25
+
+  - id: 74
+    type: matching
+    question: "Associez les actions"
+    pairs:
+      - left: "mange"
+        right: "hula"
+      - left: "boit"
+        right: "kunywa"
+      - left: "dort"
+        right: "analala"
+      - left: "vole"
+        right: "anaruka"
+      - left: "nage"
+        right: "anaogelea"
+      - left: "court"
+        right: "anakimbia"
+    xp_reward: 25
+
+  - id: 75
+    type: matching
+    question: "Associez la nourriture des animaux"
+    pairs:
+      - left: "herbe"
+        right: "nyasi"
+      - left: "eau"
+        right: "maji"
+      - left: "viande"
+        right: "nyama"
+    xp_reward: 20
+
+  # 11. Tap What You Hear - PIECES PROVIDED
+  - id: 76
+    type: tap_hear
+    question: "Appuyez sur les mots que vous entendez dans l'ordre"
+    tts_text: "Ng'ombe hula nyasi"
+    word_bank: ["Ng'ombe", "hula", "nyasi", "Mbwa", "kunywa", "maji"]
+    correct_taps: ["Ng'ombe", "hula", "nyasi"]
+    xp_reward: 25
+
+  - id: 77
+    type: tap_hear
+    question: "Appuyez sur les mots que vous entendez dans l'ordre"
+    tts_text: "Mbwa anakunywa maji"
+    word_bank: ["Mbwa", "anakunywa", "maji", "Ng'ombe", "hula", "nyasi"]
+    correct_taps: ["Mbwa", "anakunywa", "maji"]
+    xp_reward: 25
+
+  - id: 78
+    type: tap_hear
+    question: "Appuyez sur les mots que vous entendez dans l'ordre"
+    tts_text: "Ndege anaruka juu"
+    word_bank: ["Ndege", "anaruka", "juu", "Mbwa", "anakimbia", "ni"]
+    correct_taps: ["Ndege", "anaruka", "juu"]
+    xp_reward: 25
+
+  # 12. Choose Missing Word
+  - id: 79
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Ng'ombe ___ nyasi."
+    missing_word_position: 2
+    options: ["hula", "kunywa", "anapenda"]
+    correct_answer: "hula"
+    translation: "La vache mange de l'herbe"
+    xp_reward: 15
+
+  - id: 80
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Mbwa ___ maji."
+    missing_word_position: 2
+    options: ["hula", "anakunywa", "analala"]
+    correct_answer: "anakunywa"
+    translation: "Le chien boit de l'eau"
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions in French, answers based on Kiswahili text
+  - id: 81
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Ng'ombe yuko shambani. Ng'ombe hula nyasi. Mbwa yuko karibu naye."
+    question: "Où se trouve la vache ?"
+    options: ["Dans la maison", "Dans le champ", "Au marché", "Près du chien"]
+    correct_answer: "Dans le champ"
+    xp_reward: 25
+
+  - id: 82
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Simba ni mkubwa. Simba hula nyama. Simba hunguruma."
+    question: "Que mange le lion ?"
+    options: ["De l'herbe", "De l'eau", "De la viande", "Du poisson"]
+    correct_answer: "De la viande"
+    xp_reward: 20
+
+  # 14. True / False
+  - id: 83
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Mbwa ni mnyama."
+    translation: "Un chien est un animal"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 84
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Ng'ombe anaruka."
+    translation: "Une vache vole"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 85
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Samaki anaogelea."
+    translation: "Un poisson nage"
+    correct_answer: true
+    xp_reward: 10
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 86
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Huyu ni mnyama gani?"
+    translation: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    word_bank: ["Ng'ombe", "ni", "mnyama", "Mbwa", "ni", "chura"]
+    correct_response: ["Ng'ombe", "ni", "mnyama"]
+    xp_reward: 20
+
+  - id: 87
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Ng'ombe yuko wapi?"
+    translation: "Où est la vache ?"
+    options:
+      - "Shambani"
+      - "Nyumbani"
+      - "Sokoni"
+    correct_response: "Shambani"
+    xp_reward: 15
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 88
+    type: story
+    title: "Ng'ombe na Marafiki Zake"
+    story_intro: "Lisez l'histoire sur les animaux. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "Il y a une vache dans le champ."
+        image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - text: "La vache mange de l'herbe."
+      - text: "Un chien est près de la vache."
+      - text: "Le chien boit de l'eau."
+      - text: "Un oiseau vole au-dessus."

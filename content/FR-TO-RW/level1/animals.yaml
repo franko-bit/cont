@@ -1,0 +1,882 @@
+lesson:
+  name: "Inyamaswa"
+  description: "Apprenez les noms des animaux en kinyarwanda par catégories"
+  xp_reward: 500
+
+exercises:
+  # 1. Exercices de traduction - Mots uniquement (s?curis? pour les mots seuls)
+  # Domestic / Farm Animals
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Vache' en kinyarwanda ?"
+    answer: "Inka"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Chien' en kinyarwanda ?"
+    answer: "Imbwa"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Chat' en kinyarwanda ?"
+    answer: "Injangwe"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Chèvre' en kinyarwanda ?"
+    answer: "Ihene"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Mouton' en kinyarwanda ?"
+    answer: "Intama"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Cochon' en kinyarwanda ?"
+    answer: "Ingurube"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Poulet' en kinyarwanda ?"
+    answer: "Inkoko"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Lapin' en kinyarwanda ?"
+    answer: "Urukwavu"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Âne' en kinyarwanda ?"
+    answer: "Indogobe"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Pigeon' en kinyarwanda ?"
+    answer: "Inuma"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Oiseau' en kinyarwanda ?"
+    answer: "Inyoni"
+    xp_reward: 10
+
+  # Wildlife Animals
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Lion' en kinyarwanda ?"
+    answer: "Intare"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Éléphant' en kinyarwanda ?"
+    answer: "Inzovu"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Gorille' en kinyarwanda ?"
+    answer: "Ingagi"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Léopard' en kinyarwanda ?"
+    answer: "Ingwe"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Buffle' en kinyarwanda ?"
+    answer: "Imbogo"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Zèbre' en kinyarwanda ?"
+    answer: "Imparage"
+    xp_reward: 10
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Hippopotame' en kinyarwanda ?"
+    answer: "Imvubu"
+    xp_reward: 10
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Girafe' en kinyarwanda ?"
+    answer: "Agasumbashyamba"
+    xp_reward: 10
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'Hyène' en kinyarwanda ?"
+    answer: "Imfyisi"
+    xp_reward: 10
+
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'Singe' en kinyarwanda ?"
+    answer: "Inkende"
+    xp_reward: 10
+
+  # Birds, Reptiles, Insects, Fish
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'Grue couronnée grise' en kinyarwanda ?"
+    answer: "Umusambi"
+    xp_reward: 10
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Serpent' en kinyarwanda ?"
+    answer: "Inzoka"
+    xp_reward: 10
+
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'Grenouille' en kinyarwanda ?"
+    answer: "Igikeri"
+    xp_reward: 10
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'Poisson' en kinyarwanda ?"
+    answer: "Ifi"
+    xp_reward: 10
+
+  - id: 26
+    type: translation
+    question: "Comment dit-on 'Abeille' en kinyarwanda ?"
+    answer: "Inzuki"
+    xp_reward: 10
+
+  # Animal Actions (Verbs)
+  - id: 27
+    type: translation
+    question: "Comment dit-on 'mange' en kinyarwanda ?"
+    answer: "irya"
+    xp_reward: 10
+
+  - id: 28
+    type: translation
+    question: "Comment dit-on 'boit' en kinyarwanda ?"
+    answer: "inywa"
+    xp_reward: 10
+
+  - id: 29
+    type: translation
+    question: "Comment dit-on 'dort' en kinyarwanda ?"
+    answer: "irasinzira"
+    xp_reward: 10
+
+  - id: 30
+    type: translation
+    question: "Comment dit-on 'court' en kinyarwanda ?"
+    answer: "iriruka"
+    xp_reward: 10
+
+  - id: 31
+    type: translation
+    question: "Comment dit-on 'vole' en kinyarwanda ?"
+    answer: "iraguruka"
+    xp_reward: 10
+
+  - id: 32
+    type: translation
+    question: "Comment dit-on 'nage' en kinyarwanda ?"
+    answer: "iroga"
+    xp_reward: 10
+
+  - id: 33
+    type: translation
+    question: "Comment dit-on 'joue' en kinyarwanda ?"
+    answer: "irakina"
+    xp_reward: 10
+
+  # Animal Food
+  - id: 34
+    type: translation
+    question: "Comment dit-on 'herbe' en kinyarwanda ?"
+    answer: "ibyatsi"
+    xp_reward: 10
+
+  - id: 35
+    type: translation
+    question: "Comment dit-on 'eau' en kinyarwanda ?"
+    answer: "amazi"
+    xp_reward: 10
+
+  - id: 36
+    type: translation
+    question: "Comment dit-on 'viande' en kinyarwanda ?"
+    answer: "inyama"
+    xp_reward: 10
+
+  # NO DIRECT TRANSLATION FOR SENTENCES OR PARAGRAPHS
+  # Instead, we use sentence building, matching, and word bank exercises
+
+  # 2. Choix multiples
+  - id: 37
+    type: multiple_choice
+    question: "Que signifie 'Inka' ?"
+    options:
+      - "Chien"
+      - "Vache"
+      - "Chat"
+      - "Chèvre"
+    answer: "Vache"
+    xp_reward: 15
+
+  - id: 38
+    type: multiple_choice
+    question: "Que signifie 'Intare' ?"
+    options:
+      - "Lion"
+      - "Éléphant"
+      - "Singe"
+      - "Chien"
+    answer: "Lion"
+    xp_reward: 15
+
+  - id: 39
+    type: multiple_choice
+    question: "Que signifie 'irya' ?"
+    options:
+      - "boit"
+      - "mange"
+      - "dort"
+      - "court"
+    answer: "mange"
+    xp_reward: 15
+
+  - id: 40
+    type: multiple_choice
+    question: "Que signifie 'ibyatsi' ?"
+    options:
+      - "eau"
+      - "viande"
+      - "herbe"
+      - "lait"
+    answer: "herbe"
+    xp_reward: 15
+
+  # 3. ?coutez et ?crivez (dict?e) - SINGLE WORDS ONLY
+  - id: 41
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Inka"
+    answer: "Inka"
+    translation: "Vache"
+    xp_reward: 20
+
+  - id: 42
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Imbwa"
+    answer: "Imbwa"
+    translation: "Chien"
+    xp_reward: 20
+
+  - id: 43
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Injangwe"
+    answer: "Injangwe"
+    translation: "Chat"
+    xp_reward: 20
+
+  - id: 44
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Ihene"
+    answer: "Ihene"
+    translation: "Chèvre"
+    xp_reward: 20
+
+  - id: 45
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Intama"
+    answer: "Intama"
+    translation: "Mouton"
+    xp_reward: 20
+
+  - id: 46
+    type: listen_and_type
+    question: "Écoutez et tapez le nom de l'animal"
+    tts_text: "Inkoko"
+    answer: "Inkoko"
+    translation: "Poulet"
+    xp_reward: 20
+
+  # 4. Listen and Choose - SINGLE WORDS ONLY
+  - id: 47
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Imbwa"
+    options:
+      - "Chat"
+      - "Chien"
+      - "Vache"
+    answer: "Chien"
+    xp_reward: 15
+
+  - id: 48
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Intare"
+    options:
+      - "Lion"
+      - "Éléphant"
+      - "Girafe"
+    answer: "Lion"
+    xp_reward: 15
+
+  - id: 49
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Intama"
+    options:
+      - "Chèvre"
+      - "Mouton"
+      - "Vache"
+    answer: "Mouton"
+    xp_reward: 15
+
+  - id: 50
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Inkoko"
+    options:
+      - "Poulet"
+      - "Oiseau"
+      - "Canard"
+    answer: "Poulet"
+    xp_reward: 15
+
+  - id: 51
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Injangwe"
+    options:
+      - "Chien"
+      - "Chat"
+      - "Lapin"
+    answer: "Chat"
+    xp_reward: 15
+
+  - id: 52
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon animal"
+    tts_text: "Ihene"
+    options:
+      - "Chèvre"
+      - "Mouton"
+      - "Vache"
+    answer: "Chèvre"
+    xp_reward: 15
+
+  # 5. R?p?ter / Exercice oral
+  - id: 53
+    type: speaking
+    question: "Dites ce mot"
+    prompt: "Inka"
+    translation: "Vache"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Dites ce mot"
+    prompt: "Imbwa"
+    translation: "Chien"
+    xp_reward: 15
+
+  - id: 55
+    type: speaking
+    question: "Dites ce mot"
+    prompt: "Injangwe"
+    translation: "Chat"
+    xp_reward: 15
+
+  - id: 56
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Inka irya ibyatsi"
+    translation: "La vache mange de l'herbe"
+    xp_reward: 20
+
+  # 6. Construction de phrases avec banque de mots - PIECES PROVIDED, NO TRANSLATION NEEDED
+  - id: 57
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'La vache mange de l'herbe'"
+    word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+    correct_answer: ["Inka", "irya", "ibyatsi"]
+    xp_reward: 20
+
+  - id: 58
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Le chien boit de l'eau'"
+    word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+    correct_answer: ["Imbwa", "inywa", "amazi"]
+    xp_reward: 20
+
+  - id: 59
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'L'oiseau vole'"
+    word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+    correct_answer: ["Inyoni", "iraguruka"]
+    xp_reward: 20
+
+  - id: 60
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Le poisson nage'"
+    word_bank: ["Ifi", "iroga", "amazi", "Inyoni", "iraguruka", "hejuru"]
+    correct_answer: ["Ifi", "iroga"]
+    xp_reward: 20
+
+  # 7. Mots m?lang?s - PIECES PROVIDED
+  - id: 61
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["irya", "Inka", "ibyatsi"]
+    correct_sentence: "Inka irya ibyatsi"
+    translation: "La vache mange de l'herbe"
+    xp_reward: 20
+
+  - id: 62
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["inywa", "Imbwa", "amazi"]
+    correct_sentence: "Imbwa inywa amazi"
+    translation: "Le chien boit de l'eau"
+    xp_reward: 20
+
+  - id: 63
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["iraguruka", "Inyoni", "hejuru"]
+    correct_sentence: "Inyoni iraguruka hejuru"
+    translation: "L'oiseau vole au-dessus"
+    xp_reward: 20
+
+  # 8. Compl?ter le texte - CHOOSE FROM OPTIONS
+  - id: 64
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Inka ___ ibyatsi."
+    options: ["irya", "inywa", "ikunda"]
+    correct_answer: "irya"
+    translation: "La vache mange de l'herbe"
+    xp_reward: 15
+
+  - id: 65
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Imbwa ___ amazi."
+    options: ["irya", "inywa", "irasinzira"]
+    correct_answer: "inywa"
+    translation: "Le chien boit de l'eau"
+    xp_reward: 15
+
+  - id: 66
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Inyoni ___ hejuru."
+    options: ["iraguruka", "iriruka", "iroga"]
+    correct_answer: "iraguruka"
+    translation: "L'oiseau vole au-dessus"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 67
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Inka", "Imbwa", "Intama", "Ihene"]
+    correct_answer: "Inka"
+    xp_reward: 10
+
+  - id: 68
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Inka", "Imbwa", "Injangwe", "Inkoko"]
+    correct_answer: "Imbwa"
+    xp_reward: 10
+
+  - id: 69
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Inzovu", "Intare", "Ingwe", "Imbogo"]
+    correct_answer: "Intare"
+    xp_reward: 10
+
+  - id: 70
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Inzovu", "Imvubu", "Ingagi", "Imparage"]
+    correct_answer: "Inzovu"
+    xp_reward: 10
+
+  - id: 71
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Inyoni", "Inkoko", "Inuma", "Umusambi"]
+    correct_answer: "Inyoni"
+    xp_reward: 10
+
+  - id: 72
+    type: picture_word
+    question: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Ifi", "Inzoka", "Igikeri", "Akanyamasyo"]
+    correct_answer: "Ifi"
+    xp_reward: 10
+
+  # 10. Association de mots (Pairing)
+  - id: 73
+    type: matching
+    question: "Associez les animaux"
+    pairs:
+      - left: "Vache"
+        right: "Inka"
+      - left: "Chien"
+        right: "Imbwa"
+      - left: "Chat"
+        right: "Injangwe"
+      - left: "Lion"
+        right: "Intare"
+      - left: "Éléphant"
+        right: "Inzovu"
+      - left: "Oiseau"
+        right: "Inyoni"
+      - left: "Poisson"
+        right: "Ifi"
+    xp_reward: 25
+
+  - id: 74
+    type: matching
+    question: "Associez les actions"
+    pairs:
+      - left: "mange"
+        right: "irya"
+      - left: "boit"
+        right: "inywa"
+      - left: "dort"
+        right: "irasinzira"
+      - left: "vole"
+        right: "iraguruka"
+      - left: "nage"
+        right: "iroga"
+      - left: "court"
+        right: "iriruka"
+    xp_reward: 25
+
+  - id: 75
+    type: matching
+    question: "Associez la nourriture des animaux"
+    pairs:
+      - left: "herbe"
+        right: "ibyatsi"
+      - left: "eau"
+        right: "amazi"
+      - left: "viande"
+        right: "inyama"
+    xp_reward: 20
+
+  # 11. Tap What You Hear - PIECES PROVIDED
+  - id: 76
+    type: tap_hear
+    question: "Appuyez sur les mots que vous entendez dans l'ordre"
+    tts_text: "Inka irya ibyatsi"
+    word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+    correct_taps: ["Inka", "irya", "ibyatsi"]
+    xp_reward: 25
+
+  - id: 77
+    type: tap_hear
+    question: "Appuyez sur les mots que vous entendez dans l'ordre"
+    tts_text: "Imbwa inywa amazi"
+    word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+    correct_taps: ["Imbwa", "inywa", "amazi"]
+    xp_reward: 25
+
+  - id: 78
+    type: tap_hear
+    question: "Appuyez sur les mots que vous entendez dans l'ordre"
+    tts_text: "Inyoni iraguruka hejuru"
+    word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+    correct_taps: ["Inyoni", "iraguruka", "hejuru"]
+    xp_reward: 25
+
+  # 12. Choose Missing Word
+  - id: 79
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Inka ___ ibyatsi."
+    missing_word_position: 2
+    options: ["irya", "inywa", "ikunda"]
+    correct_answer: "irya"
+    translation: "La vache mange de l'herbe"
+    xp_reward: 15
+
+  - id: 80
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Imbwa ___ amazi."
+    missing_word_position: 2
+    options: ["irya", "inywa", "irasinzira"]
+    correct_answer: "inywa"
+    translation: "Le chien boit de l'eau"
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions in French, answers based on Kinyarwanda text
+  - id: 81
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
+    question: "Où se trouve la vache ?"
+    options: ["Dans la maison", "Dans le champ", "Au marché", "Près du chien"]
+    correct_answer: "Dans le champ"
+    xp_reward: 25
+
+  - id: 82
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
+    question: "Que mange le lion ?"
+    options: ["De l'herbe", "De l'eau", "De la viande", "Du poisson"]
+    correct_answer: "De la viande"
+    xp_reward: 20
+
+  # 14. True / False
+  - id: 83
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Imbwa ni inyamaswa."
+    translation: "Un chien est un animal"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 84
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Inka iraguruka."
+    translation: "Une vache vole"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 85
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Ifi iroga."
+    translation: "Un poisson nage"
+    correct_answer: true
+    xp_reward: 10
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 86
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Iyi ni inyamaswa ki?"
+    translation: "Quel est cet animal ?"
+    image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    word_bank: ["Inka", "ni", "inyamaswa", "Imbwa", "ni", "igikeri"]
+    correct_response: ["Inka", "ni", "inyamaswa"]
+    xp_reward: 20
+
+  - id: 87
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Inka iri he?"
+    translation: "Où est la vache ?"
+    options:
+      - "Mu murima"
+      - "Mu nzu"
+      - "Ku isoko"
+    correct_response: "Mu murima"
+    xp_reward: 15
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 88
+    type: story
+    title: "La Vache et ses Amis"
+    story_intro: "Lisez l'histoire sur les animaux. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "Il y a une vache dans le champ."
+        image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - text: "La vache mange de l'herbe."
+      - text: "Un chien est près de la vache."
+      - text: "Le chien boit de l'eau."
+      - text: "Un oiseau vole au-dessus."
+    exercises:
+      - type: word_bank
+        question: "Construisez la phrase en kinyarwanda pour 'La vache mange de l'herbe'"
+        word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+        correct_answer: ["Inka", "irya", "ibyatsi"]
+      - type: word_bank
+        question: "Construisez la phrase en kinyarwanda pour 'Le chien boit de l'eau'"
+        word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+        correct_answer: ["Imbwa", "inywa", "amazi"]
+      - type: word_bank
+        question: "Construisez la phrase en kinyarwanda pour 'L'oiseau vole au-dessus'"
+        word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+        correct_answer: ["Inyoni", "iraguruka", "hejuru"]
+    xp_reward: 40
+
+  # 17. Pronunciation Check
+  - id: 89
+    type: pronunciation
+    question: "Dites le mot"
+    prompt: "Inka"
+    translation: "Vache"
+    xp_reward: 15
+
+  - id: 90
+    type: pronunciation
+    question: "Dites le mot"
+    prompt: "Imbwa"
+    translation: "Chien"
+    xp_reward: 15
+
+  - id: 91
+    type: pronunciation
+    question: "Dites le mot"
+    prompt: "Injangwe"
+    translation: "Chat"
+    xp_reward: 15
+
+  - id: 92
+    type: pronunciation
+    question: "Dites le mot"
+    prompt: "Intare"
+    translation: "Lion"
+    xp_reward: 15
+
+  - id: 93
+    type: pronunciation
+    question: "Dites le mot"
+    prompt: "Agasumbashyamba"
+    translation: "Girafe"
+    xp_reward: 20
+
+  # 18. Identify Correct Meaning
+  - id: 94
+    type: identify_meaning
+    question: "Que signifie 'amazi' dans cette phrase ?"
+    context_sentence: "Imbwa inywa amazi."
+    word: "amazi"
+    options: ["lait", "eau", "nourriture", "herbe"]
+    correct_answer: "eau"
+    xp_reward: 15
+
+  - id: 95
+    type: identify_meaning
+    question: "Que signifie 'irya' dans cette phrase ?"
+    context_sentence: "Inka irya ibyatsi."
+    word: "irya"
+    options: ["boit", "mange", "court", "vole"]
+    correct_answer: "mange"
+    xp_reward: 15
+
+  # 19. Speed Matching
+  - id: 96
+    type: speed_matching
+    title: "Match Madness : Animaux"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Vache"
+        right: "Inka"
+      - left: "Chien"
+        right: "Imbwa"
+      - left: "Chat"
+        right: "Injangwe"
+      - left: "Lion"
+        right: "Intare"
+      - left: "Éléphant"
+        right: "Inzovu"
+      - left: "Oiseau"
+        right: "Inyoni"
+      - left: "Poisson"
+        right: "Ifi"
+      - left: "Chèvre"
+        right: "Ihene"
+      - left: "Mouton"
+        right: "Intama"
+      - left: "Poulet"
+        right: "Inkoko"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 97
+    type: timed_challenge
+    title: "Tour éclair : Animaux"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Vache"
+        answer: "Inka"
+      - question: "Chien"
+        answer: "Imbwa"
+      - question: "Chat"
+        answer: "Injangwe"
+      - question: "Lion"
+        answer: "Intare"
+      - question: "Éléphant"
+        answer: "Inzovu"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Inka"
+      back: "Vache"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Imbwa"
+      back: "Chien"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Injangwe"
+      back: "Chat"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Ihene"
+      back: "Chèvre"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Intama"
+      back: "Mouton"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Ingurube"
+      back: "Cochon"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Inkoko"
+      back: "Poulet"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Urukwavu"
+      back: "Lapin"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Indogobe"
+      back: "Âne"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Inuma"
+      back: "Pigeon"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

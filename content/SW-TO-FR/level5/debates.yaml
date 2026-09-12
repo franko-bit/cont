@@ -1,0 +1,1209 @@
+lesson:
+  name: "Mjadala"
+  description: "Learn debate vocabulary and opinion expressions in French"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Debate Vocabulary ONLY (Safe for single words/phrases)
+  # Debate Terms
+  - id: 1
+    type: translation
+    question: "Je, unasemaje 'Mjadala' kwa Kifaransa?"
+    answer: "Débat"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Je, unasemaje 'Maoni' kwa Kifaransa?"
+    answer: "Opinion"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Je, unasemaje 'Kukubaliana' kwa Kifaransa?"
+    answer: "Être d'accord"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Je, unasemaje 'Kutokubaliana' kwa Kifaransa?"
+    answer: "Ne pas être d'accord"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Je, unasemaje 'Hoja' kwa Kifaransa?"
+    answer: "Argument"
+    xp_reward: 15
+
+  - id: 6
+    type: translation
+    question: "Je, unasemaje 'Ushahidi' kwa Kifaransa?"
+    answer: "Preuve"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Je, unasemaje 'Ukweli' kwa Kifaransa?"
+    answer: "Fait"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Je, unasemaje 'Maoni ya kibinafsi' kwa Kifaransa?"
+    answer: "Opinion personnelle"
+    xp_reward: 15
+
+  - id: 9
+    type: translation
+    question: "Je, unasemaje 'Mtazamo' kwa Kifaransa?"
+    answer: "Point de vue"
+    xp_reward: 15
+
+  - id: 10
+    type: translation
+    question: "Je, unasemaje 'Majadiliano' kwa Kifaransa?"
+    answer: "Discussion"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Je, unasemaje 'Mzungumzaji' kwa Kifaransa?"
+    answer: "Orateur"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Je, unasemaje 'Watazamaji / Wasikilizaji' kwa Kifaransa?"
+    answer: "Public"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Je, unasemaje 'Kushawishi' kwa Kifaransa?"
+    answer: "Persuader"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Je, unasemaje 'Kipinga hoja' kwa Kifaransa?"
+    answer: "Contre-argument"
+    xp_reward: 15
+
+  - id: 15
+    type: translation
+    question: "Je, unasemaje 'Kukanusha' kwa Kifaransa?"
+    answer: "Réfuter"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Je, unasemaje 'Swali' kwa Kifaransa?"
+    answer: "Question"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "Je, unasemaje 'Jibu' kwa Kifaransa?"
+    answer: "Réponse"
+    xp_reward: 10
+
+  - id: 18
+    type: translation
+    question: "Je, unasemaje 'Hitimisho' kwa Kifaransa?"
+    answer: "Conclusion"
+    xp_reward: 15
+
+  # Phrases - Expressing Opinions
+  - id: 19
+    type: translation
+    question: "Je, unasemaje 'Nadhani kwamba...' kwa Kifaransa?"
+    answer: "Je pense que..."
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Je, unasemaje 'Kwa maoni yangu...' kwa Kifaransa?"
+    answer: "À mon avis..."
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Je, unasemaje 'Ninakubaliana nawe' kwa Kifaransa?"
+    answer: "Je suis d'accord avec toi"
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Je, unasemaje 'Sikubaliani' kwa Kifaransa?"
+    answer: "Je ne suis pas d'accord"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Je, unasemaje 'Unaweza kueleza kwa nini?' kwa Kifaransa?"
+    answer: "Peux-tu expliquer pourquoi ?"
+    xp_reward: 18
+
+  - id: 24
+    type: translation
+    question: "Je, unasemaje 'Nina ushahidi kwamba...' kwa Kifaransa?"
+    answer: "J'ai des preuves que..."
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "Je, unasemaje 'Tujadili hoja hii' kwa Kifaransa?"
+    answer: "Discutons de ce point"
+    xp_reward: 18
+
+  - id: 26
+    type: translation
+    question: "Je, unasemaje 'Unafikiri nini?' kwa Kifaransa?"
+    answer: "Qu'en penses-tu ?"
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "Je, unasemaje 'Hiyo ni hoja imara' kwa Kifaransa?"
+    answer: "C'est un argument solide"
+    xp_reward: 18
+
+  - id: 28
+    type: translation
+    question: "Je, unasemaje 'Ninahitaji ukweli zaidi' kwa Kifaransa?"
+    answer: "J'ai besoin de plus de faits"
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "'Mjadala' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Maoni"
+      - "Mjadala"
+      - "Majadiliano"
+      - "Hoja"
+    answer: "Mjadala"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Maoni' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Ukweli"
+      - "Ushahidi"
+      - "Maoni"
+      - "Swali"
+    answer: "Maoni"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Kukubaliana' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Kutokubaliana"
+      - "Kukubaliana"
+      - "Kukanusha"
+      - "Kushawishi"
+    answer: "Kukubaliana"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Kutokubaliana' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Kukubaliana"
+      - "Kutokubaliana"
+      - "Kujadili"
+      - "Kuuliza"
+    answer: "Kutokubaliana"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Ushahidi' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Maoni"
+      - "Ukweli"
+      - "Ushahidi"
+      - "Hitimisho"
+    answer: "Ushahidi"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "'Ukweli' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Maoni"
+      - "Ukweli"
+      - "Ushahidi"
+      - "Mjadala"
+    answer: "Ukweli"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "'Ninakubaliana nawe' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Sikubaliani"
+      - "Ninakubaliana nawe"
+      - "Nadhani kwamba"
+      - "Unafikiri nini?"
+    answer: "Ninakubaliana nawe"
+    xp_reward: 18
+
+  - id: 36
+    type: multiple_choice
+    question: "'Sikubaliani' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Ninakubaliana"
+      - "Sikubaliani"
+      - "Nadhani"
+      - "Ninahitaji ukweli"
+    answer: "Sikubaliani"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 37
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la mjadala kwa Kifaransa"
+    tts_text: "Mjadala"
+    answer: "Débat"
+    translation: "Mjadala"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la mjadala kwa Kifaransa"
+    tts_text: "Maoni"
+    answer: "Opinion"
+    translation: "Maoni"
+    xp_reward: 20
+
+  - id: 39
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la mjadala kwa Kifaransa"
+    tts_text: "Ushahidi"
+    answer: "Preuve"
+    translation: "Ushahidi"
+    xp_reward: 20
+
+  - id: 40
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la mjadala kwa Kifaransa"
+    tts_text: "Swali"
+    answer: "Question"
+    translation: "Swali"
+    xp_reward: 20
+
+  - id: 42
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Sikubaliani"
+    answer: "Je ne suis pas d'accord"
+    translation: "Sikubaliani"
+    xp_reward: 22
+
+  - id: 44
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Nadhani kwamba"
+    answer: "Je pense que"
+    translation: "Nadhani kwamba"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 45
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague neno la mjadala linalofaa kwa Kifaransa"
+    tts_text: "Mjadala"
+    options:
+      - "Maoni"
+      - "Mjadala"
+      - "Majadiliano"
+    answer: "Mjadala"
+    xp_reward: 15
+
+  - id: 46
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague neno la mjadala linalofaa kwa Kifaransa"
+    tts_text: "Maoni"
+    options:
+      - "Ukweli"
+      - "Maoni"
+      - "Ushahidi"
+    answer: "Maoni"
+    xp_reward: 15
+
+  - id: 47
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague neno la mjadala linalofaa kwa Kifaransa"
+    tts_text: "Ushahidi"
+    options:
+      - "Ushahidi"
+      - "Ukweli"
+      - "Hitimisho"
+    answer: "Ushahidi"
+    xp_reward: 15
+
+  - id: 49
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi inayofaa kwa Kifaransa"
+    tts_text: "Sikubaliani"
+    options:
+      - "Ninakubaliana"
+      - "Sikubaliani"
+      - "Nadhani"
+    answer: "Sikubaliani"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 51
+    type: speaking
+    question: "Taja neno la mjadala kwa Kifaransa"
+    prompt: "Mjadala"
+    translation: "Débat"
+    xp_reward: 15
+
+  - id: 52
+    type: speaking
+    question: "Taja neno la mjadala kwa Kifaransa"
+    prompt: "Maoni"
+    translation: "Opinion"
+    xp_reward: 15
+
+  - id: 53
+    type: speaking
+    question: "Taja neno la mjadala kwa Kifaransa"
+    prompt: "Ushahidi"
+    translation: "Preuve"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Taja neno la mjadala kwa Kifaransa"
+    prompt: "Ukweli"
+    translation: "Fait"
+    xp_reward: 15
+
+  - id: 55
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Ninakubaliana nawe"
+    translation: "Je suis d'accord avec toi"
+    xp_reward: 18
+
+  - id: 56
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Sikubaliani"
+    translation: "Je ne suis pas d'accord"
+    xp_reward: 18
+
+  - id: 57
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Nadhani kwamba"
+    translation: "Je pense que"
+    xp_reward: 18
+
+  - id: 58
+    type: speaking
+    question: "Taja swali hili kwa Kifaransa"
+    prompt: "Unafikiri nini"
+    translation: "Qu'en penses-tu ?"
+    xp_reward: 18
+
+  - id: 59
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Hiyo ni hoja imara"
+    translation: "C'est un argument solide"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 60
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Ninakubaliana nawe'"
+    word_bank: ["Je", "suis", "d'accord", "avec", "toi", "pas", "pense"]
+    correct_answer: ["Je", "suis", "d'accord", "avec", "toi"]
+    xp_reward: 18
+
+  - id: 61
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Sikubaliani'"
+    word_bank: ["Je", "ne", "suis", "pas", "d'accord", "pense"]
+    correct_answer: ["Je", "ne", "suis", "pas", "d'accord"]
+    xp_reward: 15
+
+  - id: 62
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Nadhani kwamba...'"
+    word_bank: ["Je", "pense", "que", "suis", "d'accord"]
+    correct_answer: ["Je", "pense", "que"]
+    xp_reward: 18
+
+  - id: 63
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kwa maoni yangu...'"
+    word_bank: ["À", "mon", "avis", "pense", "que"]
+    correct_answer: ["À", "mon", "avis"]
+    xp_reward: 20
+
+  - id: 64
+    type: word_bank
+    question: "Jenga swali la Kifaransa linalomaanisha 'Unafikiri nini?'"
+    word_bank: ["Qu'", "en", "penses-tu", "pense", "toi"]
+    correct_answer: ["Qu'", "en", "penses-tu"]
+    xp_reward: 15
+
+  - id: 65
+    type: word_bank
+    question: "Jenga swali la Kifaransa linalomaanisha 'Unaweza kueleza kwa nini?'"
+    word_bank: ["Peux-tu", "expliquer", "pourquoi", "vipi", "nini"]
+    correct_answer: ["Peux-tu", "expliquer", "pourquoi"]
+    xp_reward: 20
+
+  - id: 66
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Nina ushahidi kwamba...'"
+    word_bank: ["J'", "ai", "des", "preuves", "que", "inaonyesha"]
+    correct_answer: ["J'", "ai", "des", "preuves", "que"]
+    xp_reward: 22
+
+  - id: 67
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Tujadili hoja hii'"
+    word_bank: ["Discutons", "de", "ce", "point", "hoja", "wazo"]
+    correct_answer: ["Discutons", "de", "ce", "point"]
+    xp_reward: 20
+
+  - id: 68
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Hiyo ni hoja imara'"
+    word_bank: ["C'", "est", "une", "argument", "imara", "nzuri", "hoja"]
+    correct_answer: ["C'", "est", "une", "argument", "imara"]
+    xp_reward: 22
+
+  - id: 69
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Ninahitaji ukweli zaidi'"
+    word_bank: ["J'", "ai", "besoin", "de", "plus", "de", "faits", "ushahidi", "maoni"]
+    correct_answer: ["J'", "ai", "besoin", "de", "plus", "de", "faits"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble
+  - id: 70
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Ninakubaliana nawe'"
+    scrambled_words: ["nawe", "toi", "na", "d'accord", "Je"]
+    correct_sentence: "Je suis d'accord avec toi"
+    translation: "Ninakubaliana nawe"
+    xp_reward: 18
+
+  - id: 71
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Sikubaliani'"
+    scrambled_words: ["si", "Je", "sikubaliani", "d'accord"]
+    correct_sentence: "Je ne suis pas d'accord"
+    translation: "Sikubaliani"
+    xp_reward: 15
+
+  - id: 72
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Nadhani kwamba...'"
+    scrambled_words: ["Nadhani", "Je", "kwamba"]
+    correct_sentence: "Je pense que"
+    translation: "Nadhani kwamba..."
+    xp_reward: 18
+
+  - id: 73
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Kwa maoni yangu...'"
+    scrambled_words: ["maoni", "yangu", "Kwa"]
+    correct_sentence: "À mon avis"
+    translation: "Kwa maoni yangu..."
+    xp_reward: 20
+
+  - id: 74
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Unafikiri nini?'"
+    scrambled_words: ["Unafikiri", "nini"]
+    correct_sentence: "Qu'en penses-tu ?"
+    translation: "Unafikiri nini?"
+    xp_reward: 15
+
+  - id: 75
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Unaweza kueleza kwa nini?'"
+    scrambled_words: ["kueleza", "Unaweza", "kwa", "nini"]
+    correct_sentence: "Peux-tu expliquer pourquoi ?"
+    translation: "Unaweza kueleza kwa nini?"
+    xp_reward: 20
+
+  - id: 76
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Nina ushahidi kwamba...'"
+    scrambled_words: ["Nina", "ushahidi", "kwamba"]
+    correct_sentence: "J'ai des preuves que"
+    translation: "Nina ushahidi kwamba..."
+    xp_reward: 22
+
+  - id: 77
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Tujadili hoja hii'"
+    scrambled_words: ["hii", "Tujadili", "hoja"]
+    correct_sentence: "Discutons de ce point"
+    translation: "Tujadili hoja hii"
+    xp_reward: 20
+
+  - id: 78
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Hiyo ni hoja imara'"
+    scrambled_words: ["imara", "ni", "Hiyo", "hoja"]
+    correct_sentence: "C'est un argument solide"
+    translation: "Hiyo ni hoja imara"
+    xp_reward: 22
+
+  - id: 79
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Ninahitaji ukweli zaidi'"
+    scrambled_words: ["Ninahitaji", "ukweli", "zaidi"]
+    correct_sentence: "J'ai besoin de plus de faits"
+    translation: "Ninahitaji ukweli zaidi"
+    xp_reward: 20
+
+  # 8. Fill in the Blank
+  - id: 80
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Je suis d'accord ___ toi."
+    options: ["nawe", "na", "kwa"]
+    correct_answer: "nawe"
+    translation: "Ninakubaliana nawe"
+    xp_reward: 15
+
+  - id: 81
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Je ___ que..."
+    options: ["pense", "suis", "nataka"]
+    correct_answer: "pense"
+    translation: "Nadhani kwamba..."
+    xp_reward: 15
+
+  - id: 82
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "À mon ___..."
+    options: ["avis", "maoni", "wazo"]
+    correct_answer: "avis"
+    translation: "Kwa maoni yangu..."
+    xp_reward: 18
+
+  - id: 83
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha swali kwa Kifaransa"
+    text_with_blank: "Qu'en ___ -tu ?"
+    options: ["penses", "unafikiri", "fanya"]
+    correct_answer: "penses"
+    translation: "Unafikiri nini?"
+    xp_reward: 12
+
+  - id: 84
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha swali kwa Kifaransa"
+    text_with_blank: "Peux-tu expliquer ___ ?"
+    options: ["kwa nini", "vipi", "nini"]
+    correct_answer: "kwa nini"
+    translation: "Unaweza kueleza kwa nini?"
+    xp_reward: 18
+
+  - id: 85
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "J'ai des ___ que..."
+    options: ["preuves", "maoni", "ukweli"]
+    correct_answer: "preuves"
+    translation: "Nina ushahidi kwamba..."
+    xp_reward: 18
+
+  - id: 86
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Discutons de ce ___."
+    options: ["hoja", "jambo", "wazo"]
+    correct_answer: "hoja"
+    translation: "Tujadili hoja hii"
+    xp_reward: 18
+
+  - id: 87
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "C'est un argument ___."
+    options: ["imara", "dhaifu", "nzuri"]
+    correct_answer: "imara"
+    translation: "Hiyo ni hoja imara"
+    xp_reward: 18
+
+  - id: 88
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "J'ai besoin de plus de ___."
+    options: ["faits", "maoni", "mawazo"]
+    correct_answer: "faits"
+    translation: "Ninahitaji ukweli zaidi"
+    xp_reward: 15
+
+  # 9. Picture → Word (Conceptual images for abstract debate terms)
+  - id: 89
+    type: picture_word
+    question: "Picha hii inawakilisha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?debate"
+    options: ["Mjadala", "Majadiliano", "Mzungumzaji"]
+    correct_answer: "Mjadala"
+    xp_reward: 12
+
+  - id: 90
+    type: picture_word
+    question: "Picha hii inawakilisha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?opinion"
+    options: ["Maoni", "Ukweli", "Ushahidi"]
+    correct_answer: "Maoni"
+    xp_reward: 12
+
+  - id: 91
+    type: picture_word
+    question: "Picha hii inawakilisha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?agreement"
+    options: ["Kukubaliana", "Kutokubaliana", "Kukanusha"]
+    correct_answer: "Kukubaliana"
+    xp_reward: 12
+
+  - id: 92
+    type: picture_word
+    question: "Picha hii inawakilisha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?disagreement"
+    options: ["Kutokubaliana", "Kukubaliana", "Kushawishi"]
+    correct_answer: "Kutokubaliana"
+    xp_reward: 12
+
+  - id: 93
+    type: picture_word
+    question: "Picha hii inawakilisha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?evidence"
+    options: ["Ushahidi", "Ukweli", "Hitimisho"]
+    correct_answer: "Ushahidi"
+    xp_reward: 12
+
+  - id: 94
+    type: picture_word
+    question: "Picha hii inawakilisha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?fact"
+    options: ["Ukweli", "Maoni", "Swali"]
+    correct_answer: "Ukweli"
+    xp_reward: 12
+
+  - id: 95
+    type: picture_word
+    question: "Picha hii inawakilisha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?speaker"
+    options: ["Mzungumzaji", "Watazamaji", "Mjadili"]
+    correct_answer: "Mzungumzaji"
+    xp_reward: 12
+
+  - id: 96
+    type: picture_word
+    question: "Picha hii inawakilisha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?audience"
+    options: ["Watazamaji", "Wazungumzaji", "Watu"]
+    correct_answer: "Watazamaji"
+    xp_reward: 12
+
+  # 10. Word Matching
+  - id: 97
+    type: matching
+    question: "Linganisha maneno ya mjadala kwa Kifaransa"
+    pairs:
+      - left: "Mjadala"
+        right: "Débat"
+      - left: "Maoni"
+        right: "Opinion"
+      - left: "Kukubaliana"
+        right: "Être d'accord"
+      - left: "Kutokubaliana"
+        right: "Ne pas être d'accord"
+      - left: "Ushahidi"
+        right: "Preuve"
+      - left: "Ukweli"
+        right: "Fait"
+      - left: "Swali"
+        right: "Question"
+      - left: "Jibu"
+        right: "Réponse"
+      - left: "Mzungumzaji"
+        right: "Orateur"
+      - left: "Watazamaji"
+        right: "Public"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Linganisha sentensi za mjadala kwa Kifaransa"
+    pairs:
+      - left: "Je suis d'accord avec toi"
+        right: "Ninakubaliana nawe"
+      - left: "Je ne suis pas d'accord"
+        right: "Sikubaliani"
+      - left: "Je pense que..."
+        right: "Nadhani kwamba..."
+      - left: "À mon avis..."
+        right: "Kwa maoni yangu..."
+      - left: "Qu'en penses-tu ?"
+        right: "Unafikiri nini?"
+      - left: "Peux-tu expliquer pourquoi ?"
+        right: "Unaweza kueleza kwa nini?"
+      - left: "C'est un argument solide"
+        right: "Hiyo ni hoja imara"
+      - left: "J'ai besoin de plus de faits"
+        right: "Ninahitaji ukweli zaidi"
+    xp_reward: 25
+
+  - id: 99
+    type: matching
+    question: "Linganisha maneno ya mjadala ya juu kwa Kifaransa"
+    pairs:
+      - left: "Hoja"
+        right: "Argument"
+      - left: "Maoni ya kibinafsi"
+        right: "Opinion personnelle"
+      - left: "Mtazamo"
+        right: "Point de vue"
+      - left: "Majadiliano"
+        right: "Discussion"
+      - left: "Kushawishi"
+        right: "Persuader"
+      - left: "Kipinga hoja"
+        right: "Contre-argument"
+      - left: "Kukanusha"
+        right: "Réfuter"
+      - left: "Hitimisho"
+        right: "Conclusion"
+    xp_reward: 25
+
+  # 11. Choose Missing Word
+  - id: 100
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Je suis d'accord ___ toi."
+    missing_word_position: 5
+    options: ["nawe", "na", "kwa"]
+    correct_answer: "nawe"
+    translation: "Ninakubaliana nawe"
+    xp_reward: 12
+
+  - id: 101
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Je ___ que..."
+    missing_word_position: 2
+    options: ["pense", "suis", "nataka"]
+    correct_answer: "pense"
+    translation: "Nadhani kwamba..."
+    xp_reward: 12
+
+  - id: 102
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "À mon ___..."
+    missing_word_position: 3
+    options: ["avis", "maoni", "wazo"]
+    correct_answer: "avis"
+    translation: "Kwa maoni yangu..."
+    xp_reward: 15
+
+  - id: 103
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Qu'en ___ -tu ?"
+    missing_word_position: 3
+    options: ["penses", "unafikiri", "fanya"]
+    correct_answer: "penses"
+    translation: "Unafikiri nini?"
+    xp_reward: 10
+
+  - id: 104
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Peux-tu expliquer ___ ?"
+    missing_word_position: 4
+    options: ["kwa nini", "vipi", "nini"]
+    correct_answer: "kwa nini"
+    translation: "Unaweza kueleza kwa nini?"
+    xp_reward: 15
+
+  - id: 105
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "J'ai des ___ que..."
+    missing_word_position: 3
+    options: ["preuves", "maoni", "ukweli"]
+    correct_answer: "preuves"
+    translation: "Nina ushahidi kwamba..."
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 106
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Kwa maoni yangu, mjadala ni muhimu. Ninakubaliana kwamba lazima tuseme maoni yetu."
+    question: "Ni nini muhimu kulingana na mzungumzaji?"
+    options: ["Chakula", "Mjadala", "Shule", "Kazi"]
+    correct_answer: "Mjadala"
+    xp_reward: 15
+
+  - id: 107
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "A: Nadhani kwamba ushahidi ni muhimu. B: Ninakubaliana nawe. Nina ushahidi kwamba ni ukweli."
+    question: "B alikubaliana na yale A aliyosema?"
+    options: ["Ndiyo", "Hapana", "Labda", "Sijui"]
+    correct_answer: "Ndiyo"
+    xp_reward: 12
+
+  - id: 108
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "A: Hiyo ni hoja imara. B: Sikubaliani. Ninahitaji ukweli zaidi."
+    question: "B alikubaliana na yale A aliyosema?"
+    options: ["Ndiyo", "Hapana", "Labda", "Sijui"]
+    correct_answer: "Hapana"
+    xp_reward: 12
+
+  - id: 109
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Mzungumzaji alitoa ushahidi mwingi. Watazamaji walielewa vizuri."
+    question: "Mzungumzaji alitoa nini?"
+    options: ["Maswali", "Ushahidi", "Chakula", "Vitabu"]
+    correct_answer: "Ushahidi"
+    xp_reward: 15
+
+  - id: 110
+    type: read_answer
+    question: "Soma mazungumzo kisha ujibu swali kwa Kifaransa"
+    text: "A: Unaweza kueleza kwa nini? B: Nadhani kwamba mjadala ni muhimu kwa sababu tunajifunza maoni ya wengine."
+    question: "B anafikiria nini kuhusu mjadala?"
+    options: ["Ni wa kuchosha", "Ni muhimu", "Ni mgumu", "Ni rahisi"]
+    correct_answer: "Ni muhimu"
+    xp_reward: 18
+
+  # 13. True / False
+  - id: 111
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Mjadala' means 'debate'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 112
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Maoni' means 'fact'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Kukubaliana' means 'to agree'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 114
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Kutokubaliana' means 'to agree'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Ninakubaliana nawe' means 'I disagree with you'."
+    correct_answer: false
+    xp_reward: 12
+
+  - id: 116
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Sikubaliani' means 'I disagree'."
+    correct_answer: true
+    xp_reward: 12
+
+  # 14. Conversation Exercise
+  - id: 117
+    type: conversation
+    question: "Jibu taarifa kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Nadhani kwamba mjadala ni muhimu."
+    translation: "I think that debate is important."
+    word_bank: ["Je", "suis", "d'accord", "avec", "toi", "pas", "pense"]
+    correct_response: ["Je", "suis", "d'accord", "avec", "toi"]
+    xp_reward: 18
+
+  - id: 118
+    type: conversation
+    question: "Jibu swali kwa Kifaransa"
+    bot_message: "Unafikiri nini?"
+    translation: "What do you think?"
+    options:
+      - "Nadhani kwamba ni ukweli"
+      - "Ninakubaliana nawe"
+      - "Sikubaliani"
+    correct_response: "Nadhani kwamba ni ukweli"
+    xp_reward: 15
+
+  - id: 119
+    type: conversation
+    question: "Jibu taarifa kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Hiyo ni hoja imara."
+    translation: "That is a strong argument."
+    word_bank: ["Je", "suis", "d'accord", "avec", "toi", "nahitaji", "zaidi", "ukweli"]
+    correct_response: ["Je", "suis", "d'accord", "avec", "toi"]
+    xp_reward: 18
+
+  - id: 120
+    type: conversation
+    question: "Jibu swali kwa Kifaransa"
+    bot_message: "Unaweza kueleza kwa nini?"
+    translation: "Can you explain why?"
+    options:
+      - "Nadhani kwamba mjadala ni muhimu"
+      - "Ninakubaliana nawe"
+      - "Sikubaliani"
+    correct_response: "Nadhani kwamba mjadala ni muhimu"
+    xp_reward: 18
+
+  # 15. Story Exercise
+  - id: 121
+    type: story
+    title: "Mjadala"
+    story_intro: "Soma hadithi ya mjadala. Kisha jenga sentensi kwa Kifaransa."
+    story_segments:
+      - text: "Speaker A: In my opinion, debate is important."
+      - text: "Speaker A: I have evidence that shows this."
+      - text: "Speaker B: I disagree."
+      - text: "Speaker B: I need more facts."
+      - text: "Speaker A: That is a strong argument."
+      - text: "Speaker B: Can you explain why?"
+      - text: "Speaker A: I think that we learn from each other."
+      - text: "Speaker B: I agree with you."
+    exercises:
+      - type: word_bank
+        question: "Jenga 'In my opinion, debate is important' kwa Kifaransa"
+        word_bank: ["À", "mon", "avis", "le", "débat", "est", "important"]
+        correct_answer: ["À", "mon", "avis", "le", "débat", "est", "important"]
+      - type: word_bank
+        question: "Jenga 'I have evidence that shows this' kwa Kifaransa"
+        word_bank: ["J'", "ai", "des", "preuves", "qui", "montrent", "cela"]
+        correct_answer: ["J'", "ai", "des", "preuves", "qui", "montrent", "cela"]
+      - type: word_bank
+        question: "Jenga 'I disagree' kwa Kifaransa"
+        word_bank: ["Je", "ne", "suis", "pas", "d'accord", "suis", "d'accord"]
+        correct_answer: ["Je", "ne", "suis", "pas", "d'accord"]
+      - type: word_bank
+        question: "Jenga 'I need more facts' kwa Kifaransa"
+        word_bank: ["J'", "ai", "besoin", "de", "plus", "de", "faits", "preuves"]
+        correct_answer: ["J'", "ai", "besoin", "de", "plus", "de", "faits"]
+      - type: word_bank
+        question: "Jenga 'That is a strong argument' kwa Kifaransa"
+        word_bank: ["C'", "est", "un", "argument", "solide"]
+        correct_answer: ["C'", "est", "un", "argument", "solide"]
+      - type: word_bank
+        question: "Jenga 'I agree with you' kwa Kifaransa"
+        word_bank: ["Je", "suis", "d'accord", "avec", "toi"]
+        correct_answer: ["Je", "suis", "d'accord", "avec", "toi"]
+    xp_reward: 45
+
+  # 16. Pronunciation Check
+  - id: 122
+    type: pronunciation
+    question: "Taja neno la mjadala kwa Kifaransa vizuri"
+    prompt: "Mjadala"
+    translation: "Débat"
+    xp_reward: 15
+
+  - id: 123
+    type: pronunciation
+    question: "Taja neno la mjadala kwa Kifaransa vizuri"
+    prompt: "Maoni"
+    translation: "Opinion"
+    xp_reward: 15
+
+  - id: 124
+    type: pronunciation
+    question: "Taja neno la mjadala kwa Kifaransa vizuri"
+    prompt: "Ushahidi"
+    translation: "Preuve"
+    xp_reward: 15
+
+  - id: 125
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Ninakubaliana nawe"
+    translation: "Je suis d'accord avec toi"
+    xp_reward: 18
+
+  - id: 126
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Sikubaliani"
+    translation: "Je ne suis pas d'accord"
+    xp_reward: 18
+
+  - id: 127
+    type: pronunciation
+    question: "Taja swali hili kwa Kifaransa vizuri"
+    prompt: "Unafikiri nini"
+    translation: "Qu'en penses-tu ?"
+    xp_reward: 18
+
+  - id: 128
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Hiyo ni hoja imara"
+    translation: "C'est un argument solide"
+    xp_reward: 20
+
+  # 17. Identify Correct Meaning
+  - id: 129
+    type: identify_meaning
+    question: "'Ninakubaliana nawe' inamaanisha nini kwa Kifaransa?"
+    context_sentence: "Ninakubaliana nawe kuhusu mjadala."
+    word: "Ninakubaliana nawe"
+    options: ["Sikubaliani nawe", "Ninakubaliana nawe", "Nadhani kwamba", "Ninahitaji ukweli"]
+    correct_answer: "Ninakubaliana nawe"
+    xp_reward: 15
+
+  - id: 130
+    type: identify_meaning
+    question: "'Sikubaliani' inamaanisha nini kwa Kifaransa?"
+    context_sentence: "Sikubaliani na hoja hiyo."
+    word: "Sikubaliani"
+    options: ["Ninakubaliana", "Sikubaliani", "Nadhani", "Naelewa"]
+    correct_answer: "Sikubaliani"
+    xp_reward: 15
+
+  - id: 131
+    type: identify_meaning
+    question: "'Nadhani kwamba' inamaanisha nini kwa Kifaransa?"
+    context_sentence: "Nadhani kwamba mjadala ni muhimu."
+    word: "Nadhani kwamba"
+    options: ["Ninakubaliana kwamba", "Nadhani kwamba", "Najua kwamba", "Ninahisi kwamba"]
+    correct_answer: "Nadhani kwamba"
+    xp_reward: 15
+
+  - id: 132
+    type: identify_meaning
+    question: "'Ushahidi' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Nina ushahidi kwamba ni ukweli."
+    word: "ushahidi"
+    options: ["maoni", "ukweli", "ushahidi", "maswali"]
+    correct_answer: "ushahidi"
+    xp_reward: 15
+
+  - id: 133
+    type: identify_meaning
+    question: "'Ukweli' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Ninahitaji ukweli zaidi."
+    word: "ukweli"
+    options: ["maoni", "ukweli", "ushahidi", "maswali"]
+    correct_answer: "ukweli"
+    xp_reward: 15
+
+  # 18. Speed Matching
+  - id: 134
+    type: speed_matching
+    title: "Linganisha kwa Kasi: Maneno ya Mjadala"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Mjadala"
+        right: "Débat"
+      - left: "Maoni"
+        right: "Opinion"
+      - left: "Kukubaliana"
+        right: "Être d'accord"
+      - left: "Kutokubaliana"
+        right: "Ne pas être d'accord"
+      - left: "Ushahidi"
+        right: "Preuve"
+      - left: "Ukweli"
+        right: "Fait"
+      - left: "Swali"
+        right: "Question"
+      - left: "Jibu"
+        right: "Réponse"
+      - left: "Mzungumzaji"
+        right: "Orateur"
+      - left: "Watazamaji"
+        right: "Public"
+      - left: "Hitimisho"
+        right: "Conclusion"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 135
+    type: timed_challenge
+    title: "Haraka: Misemo ya Mjadala"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Ninakubaliana nawe"
+        answer: "Je suis d'accord avec toi"
+      - question: "Sikubaliani"
+        answer: "Je ne suis pas d'accord"
+      - question: "Nadhani kwamba"
+        answer: "Je pense que"
+      - question: "Unafikiri nini"
+        answer: "Qu'en penses-tu ?"
+      - question: "Kwa maoni yangu"
+        answer: "À mon avis"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Débat"
+      back: "Mjadala"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Opinion"
+      back: "Maoni"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Être d'accord"
+      back: "Kukubaliana"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Ne pas être d'accord"
+      back: "Kutokubaliana"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Argument"
+      back: "Hoja"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Preuve"
+      back: "Ushahidi"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Fait"
+      back: "Ukweli"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Opinion personnelle"
+      back: "Maoni ya kibinafsi"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Point de vue"
+      back: "Mtazamo"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Discussion"
+      back: "Majadiliano"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

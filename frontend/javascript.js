@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", () => {
         setButtonLoading(loginBtn, true);
 
         try {
-            const response = await fetch("login.php", {
+            const response = await fetch("signin.php", {
                 method: "POST",
                 body: new FormData(loginForm)
             });

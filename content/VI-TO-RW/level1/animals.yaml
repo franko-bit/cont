@@ -1,0 +1,882 @@
+lesson:
+ name: "Động vật"
+ description: "Học animal names in Kinyarwanda by categories"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Words ONLY (Safe for single words)
+ # Domestic / Farm Động vật
+ - id: 1
+ type: translation
+ Câu hỏi: "Nói thế nào 'Bò' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Inka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Câu hỏi: "Nói thế nào 'Chó' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Imbwa"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Câu hỏi: "Nói thế nào 'Mèo' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Injangwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Câu hỏi: "Nói thế nào 'Dê' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Ihene"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Câu hỏi: "Nói thế nào 'Cừu' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Intama"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Câu hỏi: "Nói thế nào 'Lợn' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Ingurube"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Câu hỏi: "Nói thế nào 'Gà' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Inkoko"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Câu hỏi: "Nói thế nào 'Thỏ' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Urukwavu"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Câu hỏi: "Nói thế nào 'Lừa' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Indogobe"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Câu hỏi: "Nói thế nào 'Chim bồ câu' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Inuma"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Câu hỏi: "Nói thế nào 'Chim' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Inyoni"
+ xp_reward: 10
+
+ # Wildlife Động vật
+ - id: 12
+ type: translation
+ Câu hỏi: "Nói thế nào 'Sư tử' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Intare"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Câu hỏi: "Nói thế nào 'Voi' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Inzovu"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Câu hỏi: "Nói thế nào 'Gorilla núi' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Ingagi"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Câu hỏi: "Nói thế nào 'Báo' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Ingwe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Câu hỏi: "Nói thế nào 'Trâu' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Imbogo"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Câu hỏi: "Nói thế nào 'Ngựa vằn' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Imparage"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Câu hỏi: "Nói thế nào 'Hà mã' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Imvubu"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ Câu hỏi: "Nói thế nào 'Hươu cao cổ' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Agasumbashyamba"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ Câu hỏi: "Nói thế nào 'Linh cẩu' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Imfyisi"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ Câu hỏi: "Nói thế nào 'Khỉ' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Inkende"
+ xp_reward: 10
+
+ # Chim, Reptiles, Insects, Cá
+ - id: 22
+ type: translation
+ Câu hỏi: "Nói thế nào 'Sếu đầu bạc' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Umusambi"
+ xp_reward: 10
+
+ - id: 23
+ type: translation
+ Câu hỏi: "Nói thế nào 'Rắn' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Inzoka"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ Câu hỏi: "Nói thế nào 'Ếch' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Igikeri"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ Câu hỏi: "Nói thế nào 'Cá' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Ifi"
+ xp_reward: 10
+
+ - id: 26
+ type: translation
+ Câu hỏi: "Nói thế nào 'Ong' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Inzuki"
+ xp_reward: 10
+
+ # Animal Actions (Verbs)
+ - id: 27
+ type: translation
+ Câu hỏi: "Nói thế nào 'eats' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "irya"
+ xp_reward: 10
+
+ - id: 28
+ type: translation
+ Câu hỏi: "Nói thế nào 'drinks' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "inywa"
+ xp_reward: 10
+
+ - id: 29
+ type: translation
+ Câu hỏi: "Nói thế nào 'sleeps' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "irasinzira"
+ xp_reward: 10
+
+ - id: 30
+ type: translation
+ Câu hỏi: "Nói thế nào 'runs' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "iriruka"
+ xp_reward: 10
+
+ - id: 31
+ type: translation
+ Câu hỏi: "Nói thế nào 'flies' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "iraguruka"
+ xp_reward: 10
+
+ - id: 32
+ type: translation
+ Câu hỏi: "Nói thế nào 'swims' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "iroga"
+ xp_reward: 10
+
+ - id: 33
+ type: translation
+ Câu hỏi: "Nói thế nào 'plays' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "irakina"
+ xp_reward: 10
+
+ # Animal Thức ăn
+ - id: 34
+ type: translation
+ Câu hỏi: "Nói thế nào 'grass' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "ibyatsi"
+ xp_reward: 10
+
+ - id: 35
+ type: translation
+ Câu hỏi: "Nói thế nào 'Nước' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "amazi"
+ xp_reward: 10
+
+ - id: 36
+ type: translation
+ Câu hỏi: "Nói thế nào 'meat' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "inyama"
+ xp_reward: 10
+
+ # NO DIRECT TRANSLATION FOR Câu OR PARAGRAPHS
+ # Instead, we use Câu building, Ghép, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 37
+ type: multiple_choice
+ Câu hỏi: "Đây là gì 'Inka'?"
+ options:
+ - "Chó"
+ - "Bò"
+ - "Mèo"
+ - "Dê"
+ Câu trả lời: "Bò"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ Câu hỏi: "Đây là gì 'Intare'?"
+ options:
+ - "Sư tử"
+ - "Voi"
+ - "Khỉ"
+ - "Chó"
+ Câu trả lời: "Sư tử"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ Câu hỏi: "Nghĩa là gì 'irya' trong câu này?"
+ options:
+ - "drinks"
+ - "eats"
+ - "sleeps"
+ - "runs"
+ Câu trả lời: "eats"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ Câu hỏi: "Nghĩa là gì 'ibyatsi' trong câu này?"
+ options:
+ - "Nước"
+ - "meat"
+ - "grass"
+ - "milk"
+ Câu trả lời: "grass"
+ xp_reward: 15
+
+ # 3. Nghe and Type (Dictation) - SINGLE WORDS ONLY
+ - id: 41
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the animal name"
+ tts_text: "Inka"
+ Câu trả lời: "Inka"
+ translation: "Bò"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the animal name"
+ tts_text: "Imbwa"
+ Câu trả lời: "Imbwa"
+ translation: "Chó"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the animal name"
+ tts_text: "Injangwe"
+ Câu trả lời: "Injangwe"
+ translation: "Mèo"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the animal name"
+ tts_text: "Ihene"
+ Câu trả lời: "Ihene"
+ translation: "Dê"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the animal name"
+ tts_text: "Intama"
+ Câu trả lời: "Intama"
+ translation: "Cừu"
+ xp_reward: 20
+
+ - id: 46
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the animal name"
+ tts_text: "Inkoko"
+ Câu trả lời: "Inkoko"
+ translation: "Gà"
+ xp_reward: 20
+
+ # 4. Nghe and Chọn - SINGLE WORDS ONLY
+ - id: 47
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct animal"
+ tts_text: "Imbwa"
+ options:
+ - "Mèo"
+ - "Chó"
+ - "Bò"
+ Câu trả lời: "Chó"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct animal"
+ tts_text: "Intare"
+ options:
+ - "Sư tử"
+ - "Voi"
+ - "Hươu cao cổ"
+ Câu trả lời: "Sư tử"
+ xp_reward: 15
+
+ - id: 49
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct animal"
+ tts_text: "Intama"
+ options:
+ - "Dê"
+ - "Cừu"
+ - "Bò"
+ Câu trả lời: "Cừu"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct animal"
+ tts_text: "Inkoko"
+ options:
+ - "Gà"
+ - "Chim"
+ - "Duck"
+ Câu trả lời: "Gà"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct animal"
+ tts_text: "Injangwe"
+ options:
+ - "Chó"
+ - "Mèo"
+ - "Thỏ"
+ Câu trả lời: "Mèo"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct animal"
+ tts_text: "Ihene"
+ options:
+ - "Dê"
+ - "Cừu"
+ - "Bò"
+ Câu trả lời: "Dê"
+ xp_reward: 15
+
+ # 5. Repeat / Nói Exercise
+ - id: 53
+ type: Nói
+ Câu hỏi: "Say this word"
+ prompt: "Inka"
+ translation: "Bò"
+ xp_reward: 15
+
+ - id: 54
+ type: Nói
+ Câu hỏi: "Say this word"
+ prompt: "Imbwa"
+ translation: "Chó"
+ xp_reward: 15
+
+ - id: 55
+ type: Nói
+ Câu hỏi: "Say this word"
+ prompt: "Injangwe"
+ translation: "Mèo"
+ xp_reward: 15
+
+ - id: 56
+ type: Nói
+ Câu hỏi: "Say this Câu"
+ prompt: "Inka irya ibyatsi"
+ translation: "The Bò eats grass"
+ xp_reward: 20
+
+ # 6. Word Bank Câu Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 57
+ type: word_bank
+ Câu hỏi: "Build the Kinyarwanda Câu for 'The Bò eats grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Câu hỏi: "Build the Kinyarwanda Câu for 'The Chó drinks Nước'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 20
+
+ - id: 59
+ type: word_bank
+ Câu hỏi: "Build the Kinyarwanda Câu for 'The Chim flies'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Câu hỏi: "Build the Kinyarwanda Câu for 'The Cá swims'"
+ word_bank: ["Ifi", "iroga", "amazi", "Inyoni", "iraguruka", "hejuru"]
+ correct_answer: ["Ifi", "iroga"]
+ xp_reward: 20
+
+ # 7. Câu Scramble - PIECES PROVIDED
+ - id: 61
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct Kinyarwanda Câu"
+ scrambled_words: ["irya", "Inka", "ibyatsi"]
+ correct_sentence: "Inka irya ibyatsi"
+ translation: "The Bò eats grass"
+ xp_reward: 20
+
+ - id: 62
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct Kinyarwanda Câu"
+ scrambled_words: ["inywa", "Imbwa", "amazi"]
+ correct_sentence: "Imbwa inywa amazi"
+ translation: "The Chó drinks Nước"
+ xp_reward: 20
+
+ - id: 63
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct Kinyarwanda Câu"
+ scrambled_words: ["iraguruka", "Inyoni", "hejuru"]
+ correct_sentence: "Inyoni iraguruka hejuru"
+ translation: "The Chim flies above"
+ xp_reward: 20
+
+ # 8. Fill in the Blank - Chọn FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Câu hỏi: "Chọn the correct word to complete the Câu"
+ text_with_blank: "Inka ___ ibyatsi."
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "The Bò eats grass"
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Câu hỏi: "Chọn the correct word to complete the Câu"
+ text_with_blank: "Imbwa ___ amazi."
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "The Chó drinks Nước"
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Câu hỏi: "Chọn the correct word to complete the Câu"
+ text_with_blank: "Inyoni ___ hejuru."
+ options: ["iraguruka", "iriruka", "iroga"]
+ correct_answer: "iraguruka"
+ translation: "The Chim flies above"
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 67
+ type: picture_word
+ Câu hỏi: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Intama", "Ihene"]
+ correct_answer: "Inka"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Câu hỏi: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Injangwe", "Inkoko"]
+ correct_answer: "Imbwa"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Câu hỏi: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Intare", "Ingwe", "Imbogo"]
+ correct_answer: "Intare"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Câu hỏi: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Imvubu", "Ingagi", "Imparage"]
+ correct_answer: "Inzovu"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Câu hỏi: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inyoni", "Inkoko", "Inuma", "Umusambi"]
+ correct_answer: "Inyoni"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Câu hỏi: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Ifi", "Inzoka", "Igikeri", "Akanyamasyo"]
+ correct_answer: "Ifi"
+ xp_reward: 10
+
+ # 10. Word Ghép (Pairing)
+ - id: 73
+ type: Ghép
+ Câu hỏi: "Ghép the Động vật"
+ pairs:
+ - Trái: "Bò"
+ Phải: "Inka"
+ - Trái: "Chó"
+ Phải: "Imbwa"
+ - Trái: "Mèo"
+ Phải: "Injangwe"
+ - Trái: "Sư tử"
+ Phải: "Intare"
+ - Trái: "Voi"
+ Phải: "Inzovu"
+ - Trái: "Chim"
+ Phải: "Inyoni"
+ - Trái: "Cá"
+ Phải: "Ifi"
+ xp_reward: 25
+
+ - id: 74
+ type: Ghép
+ Câu hỏi: "Ghép the actions"
+ pairs:
+ - Trái: "eats"
+ Phải: "irya"
+ - Trái: "drinks"
+ Phải: "inywa"
+ - Trái: "sleeps"
+ Phải: "irasinzira"
+ - Trái: "flies"
+ Phải: "iraguruka"
+ - Trái: "swims"
+ Phải: "iroga"
+ - Trái: "runs"
+ Phải: "iriruka"
+ xp_reward: 25
+
+ - id: 75
+ type: Ghép
+ Câu hỏi: "Ghép the animal Thức ăn"
+ pairs:
+ - Trái: "grass"
+ Phải: "ibyatsi"
+ - Trái: "Nước"
+ Phải: "amazi"
+ - Trái: "meat"
+ Phải: "inyama"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - PIECES PROVIDED
+ - id: 76
+ type: tap_hear
+ Câu hỏi: "Tap the words you hear in order"
+ tts_text: "Inka irya ibyatsi"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_taps: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 25
+
+ - id: 77
+ type: tap_hear
+ Câu hỏi: "Tap the words you hear in order"
+ tts_text: "Imbwa inywa amazi"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_taps: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 25
+
+ - id: 78
+ type: tap_hear
+ Câu hỏi: "Tap the words you hear in order"
+ tts_text: "Inyoni iraguruka hejuru"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_taps: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 25
+
+ # 12. Chọn Missing Word
+ - id: 79
+ type: choose_missing
+ Câu hỏi: "Chọn the missing word"
+ Câu: "Inka ___ ibyatsi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "The Bò eats grass"
+ xp_reward: 15
+
+ - id: 80
+ type: choose_missing
+ Câu hỏi: "Chọn the missing word"
+ Câu: "Imbwa ___ amazi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "The Chó drinks Nước"
+ xp_reward: 15
+
+ # 13. Đọc and Câu trả lời - Câu hỏi in English, Câu trả lời based on Kinyarwanda text
+ - id: 81
+ type: read_answer
+ Câu hỏi: "Đọc the text and Câu trả lời the Câu hỏi"
+ text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
+ Câu hỏi: "Where is the Bò?"
+ options: ["In the Nhà", "In the field", "At the Chợ", "Near the Chó"]
+ correct_answer: "In the field"
+ xp_reward: 25
+
+ - id: 82
+ type: read_answer
+ Câu hỏi: "Đọc the text and Câu trả lời the Câu hỏi"
+ text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
+ Câu hỏi: "Nghĩa là gì the Sư tử eat?"
+ options: ["Grass", "Nước", "Meat", "Cá"]
+ correct_answer: "Meat"
+ xp_reward: 20
+
+ # 14. True / False
+ - id: 83
+ type: true_false
+ Câu hỏi: "Is this statement true or false?"
+ statement: "Imbwa ni inyamaswa."
+ translation: "A Chó is an animal"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 84
+ type: true_false
+ Câu hỏi: "Is this statement true or false?"
+ statement: "Inka iraguruka."
+ translation: "A Bò flies"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 85
+ type: true_false
+ Câu hỏi: "Is this statement true or false?"
+ statement: "Ifi iroga."
+ translation: "A Cá swims"
+ correct_answer: true
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 86
+ type: conversation
+ Câu hỏi: "Respond to the Câu hỏi by building a Câu"
+ bot_message: "Iyi ni inyamaswa ki?"
+ translation: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ word_bank: ["Inka", "ni", "inyamaswa", "Imbwa", "ni", "igikeri"]
+ correct_response: ["Inka", "ni", "inyamaswa"]
+ xp_reward: 20
+
+ - id: 87
+ type: conversation
+ Câu hỏi: "Respond to the Câu hỏi"
+ bot_message: "Inka iri he?"
+ translation: "Where is the Bò?"
+ options:
+ - "Mu murima"
+ - "Mu nzu"
+ - "Ku isoko"
+ correct_response: "Mu murima"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Câu from pieces
+ - id: 88
+ type: story
+ title: "The Bò and Friends"
+ story_intro: "Đọc about the Động vật. Then build the Câu."
+ story_segments:
+ - text: "There is a Bò in the field."
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ - text: "The Bò eats grass."
+ - text: "A Chó is near the Bò."
+ - text: "The Chó drinks Nước."
+ - text: "A Chim flies above."
+ exercises:
+ - type: word_bank
+ Câu hỏi: "Build the Kinyarwanda Câu for 'The Bò eats grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ - type: word_bank
+ Câu hỏi: "Build the Kinyarwanda Câu for 'The Chó drinks Nước'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ - type: word_bank
+ Câu hỏi: "Build the Kinyarwanda Câu for 'The Chim flies above'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 89
+ type: pronunciation
+ Câu hỏi: "Say the word"
+ prompt: "Inka"
+ translation: "Bò"
+ xp_reward: 15
+
+ - id: 90
+ type: pronunciation
+ Câu hỏi: "Say the word"
+ prompt: "Imbwa"
+ translation: "Chó"
+ xp_reward: 15
+
+ - id: 91
+ type: pronunciation
+ Câu hỏi: "Say the word"
+ prompt: "Injangwe"
+ translation: "Mèo"
+ xp_reward: 15
+
+ - id: 92
+ type: pronunciation
+ Câu hỏi: "Say the word"
+ prompt: "Intare"
+ translation: "Sư tử"
+ xp_reward: 15
+
+ - id: 93
+ type: pronunciation
+ Câu hỏi: "Say the word"
+ prompt: "Agasumbashyamba"
+ translation: "Hươu cao cổ"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 94
+ type: identify_meaning
+ Câu hỏi: "Nghĩa là gì 'amazi' mean in this Câu?"
+ context_sentence: "Imbwa inywa amazi."
+ word: "amazi"
+ options: ["milk", "Nước", "Thức ăn", "grass"]
+ correct_answer: "Nước"
+ xp_reward: 15
+
+ - id: 95
+ type: identify_meaning
+ Câu hỏi: "Nghĩa là gì 'irya' mean in this Câu?"
+ context_sentence: "Inka irya ibyatsi."
+ word: "irya"
+ options: ["drinks", "eats", "runs", "flies"]
+ correct_answer: "eats"
+ xp_reward: 15
+
+ # 19. Speed Ghép
+ - id: 96
+ type: speed_Ghép
+ title: "Ghép Madness: Động vật"
+ time_limit_seconds: 45
+ pairs:
+ - Trái: "Bò"
+ Phải: "Inka"
+ - Trái: "Chó"
+ Phải: "Imbwa"
+ - Trái: "Mèo"
+ Phải: "Injangwe"
+ - Trái: "Sư tử"
+ Phải: "Intare"
+ - Trái: "Voi"
+ Phải: "Inzovu"
+ - Trái: "Chim"
+ Phải: "Inyoni"
+ - Trái: "Cá"
+ Phải: "Ifi"
+ - Trái: "Dê"
+ Phải: "Ihene"
+ - Trái: "Cừu"
+ Phải: "Intama"
+ - Trái: "Gà"
+ Phải: "Inkoko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 97
+ type: timed_challenge
+ title: "Lightning Round: Động vật"
+ time_limit_seconds: 30
+ Câu hỏi_count: 5
+ Câu hỏi:
+ - Câu hỏi: "Bò"
+ Câu trả lời: "Inka"
+ - Câu hỏi: "Chó"
+ Câu trả lời: "Imbwa"
+ - Câu hỏi: "Mèo"
+ Câu trả lời: "Injangwe"
+ - Câu hỏi: "Sư tử"
+ Câu trả lời: "Intare"
+ - Câu hỏi: "Voi"
+ Câu trả lời: "Inzovu"
+ xp_reward: 35
+
+# Thẻ học
+ - id: 111
+ type: Thẻ học
+ Câu hỏi: "Thẻ học"
+ Thẻ học:
+ - front: "Inka"
+ back: "Bò"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Imbwa"
+ back: "Chó"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Injangwe"
+ back: "Mèo"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ihene"
+ back: "Dê"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Intama"
+ back: "Cừu"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ingurube"
+ back: "Lợn"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkoko"
+ back: "Gà"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Urukwavu"
+ back: "Thỏ"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Indogobe"
+ back: "Lừa"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Inuma"
+ back: "Chim bồ câu"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

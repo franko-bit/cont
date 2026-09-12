@@ -1,0 +1,1385 @@
+lesson:
+  name: "Ubucuruzi"
+  description: "Apprenez le vocabulaire des affaires en kinyarwanda"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Business Words ONLY (Safe for single words)
+  # Basic Business Terms
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'affaires' en kinyarwanda ?"
+    answer: "Ubucuruzi"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'entreprise' en kinyarwanda ?"
+    answer: "Sosiyete"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'employé' en kinyarwanda ?"
+    answer: "Umukozi"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'employeur' en kinyarwanda ?"
+    answer: "Umukoresha"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'patron' en kinyarwanda ?"
+    answer: "Umuyobozi"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'directeur' en kinyarwanda ?"
+    answer: "Umuyobozi"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'partenaire' en kinyarwanda ?"
+    answer: "Umufatanyabikorwa"
+    xp_reward: 15
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'client' en kinyarwanda ?"
+    answer: "Umukiriya"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'réunion' en kinyarwanda ?"
+    answer: "Inama"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'projet' en kinyarwanda ?"
+    answer: "Umushinga"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'produit' en kinyarwanda ?"
+    answer: "Igicuruzwa"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'service' en kinyarwanda ?"
+    answer: "Serivisi"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'bureau' en kinyarwanda ?"
+    answer: "Ibiro"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'travail' en kinyarwanda ?"
+    answer: "Akazi"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'bénéfice' en kinyarwanda ?"
+    answer: "Inyungu"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'perte' en kinyarwanda ?"
+    answer: "Igihombo"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'investissement' en kinyarwanda ?"
+    answer: "Ishoramari"
+    xp_reward: 10
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'marché' en kinyarwanda ?"
+    answer: "Isoko"
+    xp_reward: 10
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'contrat' en kinyarwanda ?"
+    answer: "Amasezerano"
+    xp_reward: 10
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'accord' en kinyarwanda ?"
+    answer: "Amasezerano"
+    xp_reward: 10
+
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'salaire' en kinyarwanda ?"
+    answer: "Umushahara"
+    xp_reward: 10
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'négociation' en kinyarwanda ?"
+    answer: "Kugirana ibiganiro"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'stratégie' en kinyarwanda ?"
+    answer: "Uburyo bwo gukora"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'plan' en kinyarwanda ?"
+    answer: "Gahunda"
+    xp_reward: 10
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'ventes' en kinyarwanda ?"
+    answer: "Kugurisha"
+    xp_reward: 10
+
+  - id: 26
+    type: translation
+    question: "Comment dit-on 'achat' en kinyarwanda ?"
+    answer: "Kugura"
+    xp_reward: 10
+
+  - id: 27
+    type: translation
+    question: "Comment dit-on 'rapport' en kinyarwanda ?"
+    answer: "Raporo"
+    xp_reward: 10
+
+  - id: 28
+    type: translation
+    question: "Comment dit-on 'finance' en kinyarwanda ?"
+    answer: "Imari"
+    xp_reward: 10
+
+  - id: 29
+    type: translation
+    question: "Comment dit-on 'budget' en kinyarwanda ?"
+    answer: "Ingengo y'imari"
+    xp_reward: 15
+
+  # Business Phrases - Simple Sentences
+  - id: 30
+    type: translation
+    question: "Comment dit-on 'Je dirige une entreprise' en kinyarwanda ?"
+    answer: "Mfite sosiyete."
+    xp_reward: 15
+
+  - id: 31
+    type: translation
+    question: "Comment dit-on 'Nous avons une réunion aujourd'hui' en kinyarwanda ?"
+    answer: "Dufite inama uyu munsi."
+    xp_reward: 18
+
+  - id: 32
+    type: translation
+    question: "Comment dit-on 'Notre produit est populaire' en kinyarwanda ?"
+    answer: "Igicuruzwa cyacu kizwi cyane."
+    xp_reward: 18
+
+  - id: 33
+    type: translation
+    question: "Comment dit-on 'Le client est satisfait' en kinyarwanda ?"
+    answer: "Umukiriya yishimye."
+    xp_reward: 15
+
+  - id: 35
+    type: translation
+    question: "Comment dit-on 'Nous avons besoin d'une stratégie de vente' en kinyarwanda ?"
+    answer: "Dukeneye uburyo bwo kugurisha."
+    xp_reward: 20
+
+  - id: 36
+    type: translation
+    question: "Comment dit-on 'Le rapport est prêt' en kinyarwanda ?"
+    answer: "Raporo irarangiye."
+    xp_reward: 15
+
+  - id: 37
+    type: translation
+    question: "Comment dit-on 'L'investissement a réussi' en kinyarwanda ?"
+    answer: "Ishoramari ryagenze neza."
+    xp_reward: 18
+
+  - id: 38
+    type: translation
+    question: "Comment dit-on 'Nous avons signé le contrat' en kinyarwanda ?"
+    answer: "Twasinye amasezerano."
+    xp_reward: 15
+
+  - id: 39
+    type: translation
+    question: "Comment dit-on 'L'entreprise a réalisé un bénéfice' en kinyarwanda ?"
+    answer: "Sosiyete yabonye inyungu."
+    xp_reward: 18
+
+  - id: 40
+    type: translation
+    question: "Comment dit-on 'L'entreprise a subi une perte' en kinyarwanda ?"
+    answer: "Sosiyete yagize igihombo."
+    xp_reward: 18
+
+  - id: 41
+    type: translation
+    question: "Comment dit-on 'Elle est la directrice du projet' en kinyarwanda ?"
+    answer: "Ni we muyobozi w'umushinga."
+    xp_reward: 20
+
+  - id: 42
+    type: translation
+    question: "Comment dit-on 'Nous négocions avec le client' en kinyarwanda ?"
+    answer: "Turimo kugirana ibiganiro n'umukiriya."
+    xp_reward: 22
+
+  - id: 43
+    type: translation
+    question: "Comment demande-t-on 'Quel est le budget de ce projet ?' en kinyarwanda ?"
+    answer: "Ingengo y'imari y'uyu mushinga ni iyihe?"
+    xp_reward: 22
+
+  - id: 44
+    type: translation
+    question: "Comment dit-on 'Nous devons planifier les prochaines étapes' en kinyarwanda ?"
+    answer: "Dukeneye gutegura intambwe zikurikira."
+    xp_reward: 22
+
+  # 2. Choix multiples
+  - id: 45
+    type: multiple_choice
+    question: "Que signifie 'Ubucuruzi' ?"
+    options:
+      - "Entreprise"
+      - "Affaires"
+      - "Bureau"
+      - "Travail"
+    answer: "Affaires"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "Que signifie 'Umukozi' ?"
+    options:
+      - "Employeur"
+      - "Employé"
+      - "Patron"
+      - "Directeur"
+    answer: "Employé"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "Que signifie 'Umukiriya' ?"
+    options:
+      - "Partenaire"
+      - "Patron"
+      - "Client"
+      - "Employé"
+    answer: "Client"
+    xp_reward: 15
+
+  - id: 48
+    type: multiple_choice
+    question: "Que signifie 'Inama' ?"
+    options:
+      - "Projet"
+      - "Réunion"
+      - "Rapport"
+      - "Plan"
+    answer: "Réunion"
+    xp_reward: 15
+
+  - id: 49
+    type: multiple_choice
+    question: "Que signifie 'Inyungu' ?"
+    options:
+      - "Perte"
+      - "Bénéfice"
+      - "Salaire"
+      - "Investissement"
+    answer: "Bénéfice"
+    xp_reward: 15
+
+  - id: 50
+    type: multiple_choice
+    question: "Que signifie 'Igihombo' ?"
+    options:
+      - "Bénéfice"
+      - "Perte"
+      - "Budget"
+      - "Contrat"
+    answer: "Perte"
+    xp_reward: 15
+
+  - id: 51
+    type: multiple_choice
+    question: "Que signifie 'Amasezerano' ?"
+    options:
+      - "Réunion"
+      - "Contrat"
+      - "Rapport"
+      - "Plan"
+    answer: "Contrat"
+    xp_reward: 15
+
+  - id: 52
+    type: multiple_choice
+    question: "Que signifie 'Mfite sosiyete' ?"
+    options:
+      - "J'ai une entreprise"
+      - "Je dirige une entreprise"
+      - "Je veux une entreprise"
+      - "J'ai besoin d'une entreprise"
+    answer: "Je dirige une entreprise"
+    xp_reward: 18
+
+  # 3. ?coutez et ?crivez (dict?e)
+  - id: 53
+    type: listen_and_type
+    question: "Écoutez et tapez le mot d'affaires"
+    audio: "Ubucuruzi"
+    answer: "Ubucuruzi"
+    translation: "Affaires"
+    xp_reward: 20
+
+  - id: 54
+    type: listen_and_type
+    question: "Écoutez et tapez le mot d'affaires"
+    audio: "Umukozi"
+    answer: "Umukozi"
+    translation: "Employé"
+    xp_reward: 20
+
+  - id: 55
+    type: listen_and_type
+    question: "Écoutez et tapez le mot d'affaires"
+    audio: "Umukiriya"
+    answer: "Umukiriya"
+    translation: "Client"
+    xp_reward: 20
+
+  - id: 56
+    type: listen_and_type
+    question: "Écoutez et tapez le mot d'affaires"
+    audio: "Inama"
+    answer: "Inama"
+    translation: "Réunion"
+    xp_reward: 20
+
+  - id: 57
+    type: listen_and_type
+    question: "Écoutez et tapez le mot d'affaires"
+    audio: "Inyungu"
+    answer: "Inyungu"
+    translation: "Bénéfice"
+    xp_reward: 20
+
+  - id: 58
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Mfite sosiyete"
+    answer: "Mfite sosiyete"
+    translation: "Je dirige une entreprise"
+    xp_reward: 22
+
+  - id: 59
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Dufite inama uyu munsi"
+    answer: "Dufite inama uyu munsi"
+    translation: "Nous avons une réunion aujourd'hui"
+    xp_reward: 25
+
+  - id: 60
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Twasinye amasezerano"
+    answer: "Twasinye amasezerano"
+    translation: "Nous avons signé le contrat"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 61
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon mot d'affaires"
+    audio: "Ubucuruzi"
+    options:
+      - "Entreprise"
+      - "Affaires"
+      - "Bureau"
+    answer: "Affaires"
+    xp_reward: 15
+
+  - id: 62
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon mot d'affaires"
+    audio: "Umukozi"
+    options:
+      - "Employeur"
+      - "Employé"
+      - "Patron"
+    answer: "Employé"
+    xp_reward: 15
+
+  - id: 63
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon mot d'affaires"
+    audio: "Inyungu"
+    options:
+      - "Perte"
+      - "Bénéfice"
+      - "Salaire"
+    answer: "Bénéfice"
+    xp_reward: 15
+
+  - id: 64
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Mfite sosiyete"
+    options:
+      - "J'ai une entreprise"
+      - "Je dirige une entreprise"
+      - "J'ai besoin d'une entreprise"
+    answer: "Je dirige une entreprise"
+    xp_reward: 18
+
+  - id: 65
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Umukiriya yishimye"
+    options:
+      - "Le client est heureux"
+      - "Le client part"
+      - "Le client paie"
+    answer: "Le client est heureux"
+    xp_reward: 18
+
+  # 5. R?p?ter / Exercice oral
+  - id: 66
+    type: speaking
+    question: "Dites ce mot d'affaires"
+    prompt: "Ubucuruzi"
+    translation: "Affaires"
+    xp_reward: 15
+
+  - id: 67
+    type: speaking
+    question: "Dites ce mot d'affaires"
+    prompt: "Umukozi"
+    translation: "Employé"
+    xp_reward: 15
+
+  - id: 68
+    type: speaking
+    question: "Dites ce mot d'affaires"
+    prompt: "Umukiriya"
+    translation: "Client"
+    xp_reward: 15
+
+  - id: 69
+    type: speaking
+    question: "Dites ce mot d'affaires"
+    prompt: "Inyungu"
+    translation: "Bénéfice"
+    xp_reward: 15
+
+  - id: 70
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Mfite sosiyete"
+    translation: "Je dirige une entreprise"
+    xp_reward: 18
+
+  - id: 71
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Dufite inama uyu munsi"
+    translation: "Nous avons une réunion aujourd'hui"
+    xp_reward: 20
+
+  - id: 72
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Twasinye amasezerano"
+    translation: "Nous avons signé le contrat"
+    xp_reward: 18
+
+  # 6. Construction de phrases avec banque de mots - PIECES PROVIDED
+  - id: 73
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je dirige une entreprise'"
+    word_bank: ["Ndagira", "sosiyete", "dufite", "inama", "uyu munsi"]
+    correct_answer: ["Ndagira", "sosiyete"]
+    xp_reward: 15
+
+  - id: 74
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Nous avons une réunion aujourd'hui'"
+    word_bank: ["Dufite", "inama", "uyu munsi", "ndagira", "sosiyete"]
+    correct_answer: ["Dufite", "inama", "uyu munsi"]
+    xp_reward: 20
+
+  - id: 75
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Notre produit est populaire'"
+    word_bank: ["Igicuruzwa", "cyacu", "kizwi", "cyane", "inyungu"]
+    correct_answer: ["Igicuruzwa", "cyacu", "kizwi", "cyane"]
+    xp_reward: 22
+
+  - id: 76
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Le client est satisfait'"
+    word_bank: ["Umukiriya", "yishimiye", "akora", "mu by'imari"]
+    correct_answer: ["Umukiriya", "yishimiye"]
+    xp_reward: 15
+
+  - id: 77
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Il travaille dans la finance'"
+    word_bank: ["Akora", "mu by'imari", "mu kazi", "mu biro"]
+    correct_answer: ["Akora", "mu by'imari"]
+    xp_reward: 15
+
+  - id: 78
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Nous avons besoin d'une stratégie de vente'"
+    word_bank: ["Dukeneye", "uburyo", "bwo kugurisha", "gahunda", "nshya"]
+    correct_answer: ["Dukeneye", "uburyo", "bwo kugurisha"]
+    xp_reward: 20
+
+  - id: 79
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Le rapport est prêt'"
+    word_bank: ["Raporo", "irarangiye", "inama", "irasozwe"]
+    correct_answer: ["Raporo", "irarangiye"]
+    xp_reward: 15
+
+  - id: 80
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'L'investissement a réussi'"
+    word_bank: ["Ishoramari", "ryagenze", "neza", "inyungu", "yabonye"]
+    correct_answer: ["Ishoramari", "ryagenze", "neza"]
+    xp_reward: 18
+
+  - id: 81
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Nous avons signé le contrat'"
+    word_bank: ["Twasinye", "amasezerano", "dufite", "inama", "nshya"]
+    correct_answer: ["Twasinye", "amasezerano"]
+    xp_reward: 15
+
+  - id: 82
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'L'entreprise a réalisé un bénéfice'"
+    word_bank: ["Sosiyete", "yabonye", "inyungu", "yagize", "igihombo"]
+    correct_answer: ["Sosiyete", "yabonye", "inyungu"]
+    xp_reward: 18
+
+  - id: 83
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'L'entreprise a subi une perte'"
+    word_bank: ["Sosiyete", "yagize", "igihombo", "yabonye", "inyungu"]
+    correct_answer: ["Sosiyete", "yagize", "igihombo"]
+    xp_reward: 18
+
+  - id: 84
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Elle est la directrice du projet'"
+    word_bank: ["Ni", "we", "muyobozi", "w'umushinga", "umukozi", "w'umwuga"]
+    correct_answer: ["Ni", "we", "muyobozi", "w'umushinga"]
+    xp_reward: 22
+
+  - id: 85
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Nous négocions avec le client'"
+    word_bank: ["Turimo", "kugirana", "ibiganiro", "n'umukiriya", "tugura", "ibicuruzwa"]
+    correct_answer: ["Turimo", "kugirana", "ibiganiro", "n'umukiriya"]
+    xp_reward: 25
+
+  - id: 86
+    type: word_bank
+    question: "Construisez la question en kinyarwanda 'Quel est le budget de ce projet ?'"
+    word_bank: ["Ingengo", "y'imari", "y'uyu", "mushinga", "ni", "iyihe"]
+    correct_answer: ["Ingengo", "y'imari", "y'uyu", "mushinga", "ni", "iyihe"]
+    xp_reward: 25
+
+  - id: 87
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Nous devons planifier les prochaines étapes'"
+    word_bank: ["Dukeneye", "gutegura", "intambwe", "zikurikira", "gahunda", "nshya"]
+    correct_answer: ["Dukeneye", "gutegura", "intambwe", "zikurikira"]
+    xp_reward: 22
+
+  # 7. Mots m?lang?s - PIECES PROVIDED
+  - id: 88
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Ndagira", "sosiyete"]
+    correct_sentence: "Mfite sosiyete."
+    translation: "Je dirige une entreprise."
+    xp_reward: 15
+
+  - id: 89
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Dufite", "inama", "uyu munsi"]
+    correct_sentence: "Dufite inama uyu munsi."
+    translation: "Nous avons une réunion aujourd'hui."
+    xp_reward: 20
+
+  - id: 90
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Umukiriya", "yishimiye"]
+    correct_sentence: "Umukiriya yishimye."
+    translation: "Le client est satisfait."
+    xp_reward: 15
+
+  - id: 91
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Akora", "mu by'imari"]
+    correct_sentence: "Akora mu by'imari."
+    translation: "Il travaille dans la finance."
+    xp_reward: 15
+
+  - id: 92
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Raporo", "irarangiye"]
+    correct_sentence: "Raporo irarangiye."
+    translation: "Le rapport est prêt."
+    xp_reward: 15
+
+  - id: 93
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Ishoramari", "ryagenze", "neza"]
+    correct_sentence: "Ishoramari ryagenze neza."
+    translation: "L'investissement a réussi."
+    xp_reward: 18
+
+  - id: 94
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Twasinye", "amasezerano"]
+    correct_sentence: "Twasinye amasezerano."
+    translation: "Nous avons signé le contrat."
+    xp_reward: 15
+
+  - id: 95
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Sosiyete", "yabonye", "inyungu"]
+    correct_sentence: "Sosiyete yabonye inyungu."
+    translation: "L'entreprise a réalisé un bénéfice."
+    xp_reward: 18
+
+  - id: 96
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Sosiyete", "yagize", "igihombo"]
+    correct_sentence: "Sosiyete yagize igihombo."
+    translation: "L'entreprise a subi une perte."
+    xp_reward: 18
+
+  - id: 97
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Ni", "we", "muyobozi", "w'umushinga"]
+    correct_sentence: "Ni we muyobozi w'umushinga."
+    translation: "Elle est la directrice du projet."
+    xp_reward: 22
+
+  - id: 98
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une question correcte"
+    scrambled_words: ["Ingengo", "y'imari", "y'uyu", "mushinga", "ni", "iyihe"]
+    correct_sentence: "Ingengo y'imari y'uyu mushinga ni iyihe?"
+    translation: "Quel est le budget de ce projet ?"
+    xp_reward: 25
+
+  # 8. Compl?ter le texte - CHOOSE FROM OPTIONS
+  - id: 99
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Ndagira ___."
+    options: ["sosiyete", "inama", "akazi"]
+    correct_answer: "sosiyete"
+    translation: "Je dirige une entreprise."
+    xp_reward: 12
+
+  - id: 100
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Dufite ___ uyu munsi."
+    options: ["inama", "akazi", "umushinga"]
+    correct_answer: "inama"
+    translation: "Nous avons une réunion aujourd'hui."
+    xp_reward: 15
+
+  - id: 101
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Umukiriya ___."
+    options: ["yishimiye", "akora", "yagize"]
+    correct_answer: "yishimiye"
+    translation: "Le client est satisfait."
+    xp_reward: 12
+
+  - id: 102
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Akora ___."
+    options: ["mu by'imari", "mu biro", "mu kazi"]
+    correct_answer: "mu by'imari"
+    translation: "Il travaille dans la finance."
+    xp_reward: 12
+
+  - id: 103
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Raporo ___."
+    options: ["irarangiye", "irasozwe", "iraza"]
+    correct_answer: "irarangiye"
+    translation: "Le rapport est prêt."
+    xp_reward: 12
+
+  - id: 104
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Ishoramari ryagenze ___."
+    options: ["neza", "nibi", "cyane"]
+    correct_answer: "neza"
+    translation: "L'investissement a réussi."
+    xp_reward: 12
+
+  - id: 105
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Twasinye ___."
+    options: ["amasezerano", "inama", "raporo"]
+    correct_answer: "amasezerano"
+    translation: "Nous avons signé le contrat."
+    xp_reward: 12
+
+  - id: 106
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Sosiyete yabonye ___."
+    options: ["inyungu", "igihombo", "akazi"]
+    correct_answer: "inyungu"
+    translation: "L'entreprise a réalisé un bénéfice."
+    xp_reward: 12
+
+  - id: 107
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Sosiyete yagize ___."
+    options: ["igihombo", "inyungu", "amafaranga"]
+    correct_answer: "igihombo"
+    translation: "L'entreprise a subi une perte."
+    xp_reward: 12
+
+  - id: 108
+    type: fill_blank
+    question: "Complétez la question"
+    text_with_blank: "Ingengo y'imari y'uyu mushinga ni ___?"
+    options: ["iyihe", "angahe", "iki"]
+    correct_answer: "iyihe"
+    translation: "Quel est le budget de ce projet ?"
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 109
+    type: picture_word
+    question: "Quel concept d'affaires est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?business"
+    options: ["Ubucuruzi", "Akazi", "Ibiro"]
+    correct_answer: "Ubucuruzi"
+    xp_reward: 10
+
+  - id: 110
+    type: picture_word
+    question: "Quel concept d'affaires est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?office"
+    options: ["Ibiro", "Akazi", "Sosiyete"]
+    correct_answer: "Ibiro"
+    xp_reward: 10
+
+  - id: 111
+    type: picture_word
+    question: "Quel concept d'affaires est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?employee"
+    options: ["Umukozi", "Umukoresha", "Umuyobozi"]
+    correct_answer: "Umukozi"
+    xp_reward: 10
+
+  - id: 112
+    type: picture_word
+    question: "Quel concept d'affaires est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?meeting"
+    options: ["Inama", "Umushinga", "Raporo"]
+    correct_answer: "Inama"
+    xp_reward: 10
+
+  - id: 113
+    type: picture_word
+    question: "Quel concept d'affaires est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?profit"
+    options: ["Inyungu", "Igihombo", "Umushahara"]
+    correct_answer: "Inyungu"
+    xp_reward: 10
+
+  - id: 114
+    type: picture_word
+    question: "Quel concept d'affaires est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?contract"
+    options: ["Amasezerano", "Ishoramari", "Gahunda"]
+    correct_answer: "Amasezerano"
+    xp_reward: 10
+
+  - id: 115
+    type: picture_word
+    question: "Quel concept d'affaires est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?product"
+    options: ["Igicuruzwa", "Serivisi", "Isoko"]
+    correct_answer: "Igicuruzwa"
+    xp_reward: 10
+
+  - id: 116
+    type: picture_word
+    question: "Quel concept d'affaires est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?client"
+    options: ["Umukiriya", "Umufatanyabikorwa", "Umuyobozi"]
+    correct_answer: "Umukiriya"
+    xp_reward: 10
+
+  - id: 117
+    type: picture_word
+    question: "Quel concept d'affaires est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?investment"
+    options: ["Ishoramari", "Inyungu", "Igihombo"]
+    correct_answer: "Ishoramari"
+    xp_reward: 10
+
+  # 10. Association de mots (Pairing)
+  - id: 118
+    type: matching
+    question: "Associez les termes d'affaires"
+    pairs:
+      - left: "Affaires"
+        right: "Ubucuruzi"
+      - left: "Entreprise"
+        right: "Sosiyete"
+      - left: "Employé"
+        right: "Umukozi"
+      - left: "Employeur"
+        right: "Umukoresha"
+      - left: "Patron"
+        right: "Umuyobozi"
+      - left: "Client"
+        right: "Umukiriya"
+      - left: "Réunion"
+        right: "Inama"
+      - left: "Projet"
+        right: "Umushinga"
+    xp_reward: 20
+
+  - id: 119
+    type: matching
+    question: "Associez les termes d'affaires"
+    pairs:
+      - left: "Produit"
+        right: "Igicuruzwa"
+      - left: "Service"
+        right: "Serivisi"
+      - left: "Bureau"
+        right: "Ibiro"
+      - left: "Travail"
+        right: "Akazi"
+      - left: "Bénéfice"
+        right: "Inyungu"
+      - left: "Perte"
+        right: "Igihombo"
+      - left: "Investissement"
+        right: "Ishoramari"
+      - left: "Marché"
+        right: "Isoko"
+    xp_reward: 20
+
+  - id: 120
+    type: matching
+    question: "Associez les termes d'affaires"
+    pairs:
+      - left: "Contrat"
+        right: "Amasezerano"
+      - left: "Salaire"
+        right: "Umushahara"
+      - left: "Stratégie"
+        right: "Uburyo bwo gukora"
+      - left: "Plan"
+        right: "Gahunda"
+      - left: "Ventes"
+        right: "Kugurisha"
+      - left: "Rapport"
+        right: "Raporo"
+      - left: "Finance"
+        right: "Imari"
+      - left: "Budget"
+        right: "Ingengo y'imari"
+    xp_reward: 22
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 121
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Ndagira ___."
+    missing_word_position: 2
+    options: ["sosiyete", "inama", "akazi"]
+    correct_answer: "sosiyete"
+    translation: "Je dirige une entreprise."
+    xp_reward: 12
+
+  - id: 122
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Dufite ___ uyu munsi."
+    missing_word_position: 2
+    options: ["inama", "akazi", "umushinga"]
+    correct_answer: "inama"
+    translation: "Nous avons une réunion aujourd'hui."
+    xp_reward: 15
+
+  - id: 123
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Umukiriya ___."
+    missing_word_position: 2
+    options: ["yishimiye", "akora", "yagize"]
+    correct_answer: "yishimiye"
+    translation: "Le client est satisfait."
+    xp_reward: 12
+
+  - id: 124
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Akora ___."
+    missing_word_position: 2
+    options: ["mu by'imari", "mu biro", "mu kazi"]
+    correct_answer: "mu by'imari"
+    translation: "Il travaille dans la finance."
+    xp_reward: 12
+
+  - id: 125
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Twasinye ___."
+    missing_word_position: 2
+    options: ["amasezerano", "inama", "raporo"]
+    correct_answer: "amasezerano"
+    translation: "Nous avons signé le contrat."
+    xp_reward: 12
+
+  - id: 126
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Sosiyete yabonye ___."
+    missing_word_position: 3
+    options: ["inyungu", "igihombo", "akazi"]
+    correct_answer: "inyungu"
+    translation: "L'entreprise a réalisé un bénéfice."
+    xp_reward: 12
+
+  # 13. Read and Answer - Questions based on text
+  - id: 127
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Mfite sosiyete. Dufite inama uyu munsi."
+    question: "Qu'avons-nous aujourd'hui ?"
+    options: ["Une réunion", "Un projet", "Un rapport", "Un contrat"]
+    correct_answer: "Une réunion"
+    xp_reward: 15
+
+  - id: 128
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Umukiriya yishimye. Twasinye amasezerano."
+    question: "Comment se sent le client ?"
+    options: ["Heureux", "Triste", "En colère", "Fatigué"]
+    correct_answer: "Heureux"
+    xp_reward: 15
+
+  - id: 129
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Sosiyete yabonye inyungu. Ishōramari ryagenze neza."
+    question: "Comment l'investissement s'est-il déroulé ?"
+    options: ["Mal", "Avec succès", "Mal", "Lentement"]
+    correct_answer: "Avec succès"
+    xp_reward: 18
+
+  - id: 130
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Akora mu by'imari. Ni we muyobozi w'umushinga."
+    question: "Où travaille-t-il ?"
+    options: ["Dans les ventes", "Dans la finance", "Dans le marketing", "Dans les RH"]
+    correct_answer: "Dans la finance"
+    xp_reward: 15
+
+  - id: 131
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Turimo kugirana ibiganiro n'umukiriya. Dukeneye gutegura intambwe zikurikira."
+    question: "Que font-ils avec le client ?"
+    options: ["Signer un contrat", "Négocier", "Déjeuner", "Conclure un accord"]
+    correct_answer: "Négocier"
+    xp_reward: 20
+
+  # 14. True / False
+  - id: 132
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Ubucuruzi means 'business'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 133
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Umukozi means 'employer'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 134
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Inyungu means 'profit'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 135
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Igihombo means 'profit'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 136
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Amasezerano means 'contract'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 137
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Raporo irarangiye means 'The report is late'."
+    correct_answer: false
+    xp_reward: 15
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 138
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Ufite sosiyete?"
+    translation: "Avez-vous une entreprise ?"
+    word_bank: ["Yego", "ndagira", "sosiyete", "oya", "mfite", "akazi"]
+    correct_response: ["Yego", "ndagira", "sosiyete"]
+    xp_reward: 18
+
+  - id: 139
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Mufite inama uyu munsi?"
+    translation: "Avez-vous une réunion aujourd'hui ?"
+    options:
+      - "Yego, dufite inama"
+      - "Oya, nta nama"
+      - "Turimo gukora"
+    correct_response: "Yego, dufite inama"
+    xp_reward: 15
+
+  - id: 140
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Umukiriya yishimye?"
+    translation: "Le client est-il satisfait ?"
+    word_bank: ["Yego", "yishimiye", "cyane", "oya", "ntishimiye"]
+    correct_response: ["Yego", "yishimiye", "cyane"]
+    xp_reward: 18
+
+  - id: 141
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Mwasinye amasezerano?"
+    translation: "Avez-vous signé le contrat ?"
+    options:
+      - "Yego, twasinye"
+      - "Oya, ntatusinye"
+      - "Turimo kugirana ibiganiro"
+    correct_response: "Yego, twasinye"
+    xp_reward: 15
+
+  - id: 142
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Ingengo y'imari ni iyihe?"
+    translation: "Quel est le budget ?"
+    word_bank: ["Ingengo", "y'imari", "ni", "amafaranga", "igihumbi", "ibihumbi icumi"]
+    correct_response: ["Ingengo", "y'imari", "ni", "amafaranga", "ibihumbi icumi"]
+    xp_reward: 22
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 143
+    type: story
+    title: "Une réunion d'affaires - Inama y'Ubucuruzi"
+    story_intro: "Lisez l'histoire d'une réunion d'affaires. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "I run a company."
+      - text: "We have a meeting today."
+      - text: "The client is satisfied."
+      - text: "We signed the contract."
+      - text: "The company made a profit."
+      - text: "The investment was successful."
+      - text: "We need to plan the next steps."
+    exercises:
+      - type: word_bank
+        question: "Construisez 'Je dirige une entreprise'"
+        word_bank: ["Ndagira", "sosiyete", "dufite", "inama"]
+        correct_answer: ["Ndagira", "sosiyete"]
+      - type: word_bank
+        question: "Construisez 'Nous avons une réunion aujourd'hui'"
+        word_bank: ["Dufite", "inama", "uyu munsi", "ndagira", "sosiyete"]
+        correct_answer: ["Dufite", "inama", "uyu munsi"]
+      - type: word_bank
+        question: "Construisez 'Le client est satisfait'"
+        word_bank: ["Umukiriya", "yishimiye", "akora", "mu by'imari"]
+        correct_answer: ["Umukiriya", "yishimiye"]
+      - type: word_bank
+        question: "Construisez 'Nous avons signé le contrat'"
+        word_bank: ["Twasinye", "amasezerano", "dufite", "inama", "nshya"]
+        correct_answer: ["Twasinye", "amasezerano"]
+      - type: word_bank
+        question: "Construisez 'L'entreprise a réalisé un bénéfice'"
+        word_bank: ["Sosiyete", "yabonye", "inyungu", "yagize", "igihombo"]
+        correct_answer: ["Sosiyete", "yabonye", "inyungu"]
+      - type: word_bank
+        question: "Construisez 'L'investissement a réussi'"
+        word_bank: ["Ishoramari", "ryagenze", "neza", "inyungu", "yabonye"]
+        correct_answer: ["Ishoramari", "ryagenze", "neza"]
+      - type: word_bank
+        question: "Construisez 'Nous devons planifier les prochaines étapes'"
+        word_bank: ["Dukeneye", "gutegura", "intambwe", "zikurikira", "gahunda", "nshya"]
+        correct_answer: ["Dukeneye", "gutegura", "intambwe", "zikurikira"]
+    xp_reward: 50
+
+  # 17. Pronunciation Check
+  - id: 144
+    type: pronunciation
+    question: "Dites ce mot d'affaires"
+    prompt: "Ubucuruzi"
+    translation: "Affaires"
+    xp_reward: 15
+
+  - id: 145
+    type: pronunciation
+    question: "Dites ce mot d'affaires"
+    prompt: "Umukozi"
+    translation: "Employé"
+    xp_reward: 15
+
+  - id: 146
+    type: pronunciation
+    question: "Dites ce mot d'affaires"
+    prompt: "Inyungu"
+    translation: "Bénéfice"
+    xp_reward: 15
+
+  - id: 147
+    type: pronunciation
+    question: "Dites ce mot d'affaires"
+    prompt: "Amasezerano"
+    translation: "Contrat"
+    xp_reward: 15
+
+  - id: 148
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Mfite sosiyete"
+    translation: "Je dirige une entreprise"
+    xp_reward: 18
+
+  - id: 149
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Dufite inama uyu munsi"
+    translation: "Nous avons une réunion aujourd'hui"
+    xp_reward: 20
+
+  - id: 150
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Twasinye amasezerano"
+    translation: "Nous avons signé le contrat"
+    xp_reward: 18
+
+  # 18. Identify Correct Meaning
+  - id: 151
+    type: identify_meaning
+    question: "Que signifie 'Ndagira' dans cette phrase ?"
+    context_sentence: "Mfite sosiyete."
+    word: "Ndagira"
+    options: ["J'ai", "Je dirige", "Je veux", "J'ai besoin"]
+    correct_answer: "Je dirige"
+    xp_reward: 15
+
+  - id: 152
+    type: identify_meaning
+    question: "Que signifie 'yishimiye' dans cette phrase ?"
+    context_sentence: "Umukiriya yishimye."
+    word: "yishimiye"
+    options: ["part", "est satisfait", "paie", "attend"]
+    correct_answer: "est satisfait"
+    xp_reward: 15
+
+  - id: 153
+    type: identify_meaning
+    question: "Que signifie 'ryagenze neza' dans cette phrase ?"
+    context_sentence: "Ishoramari ryagenze neza."
+    word: "ryagenze neza"
+    options: ["a échoué", "a réussi", "a été retardé", "a été annulé"]
+    correct_answer: "a réussi"
+    xp_reward: 18
+
+  - id: 154
+    type: identify_meaning
+    question: "Que signifie 'Twasinye' dans cette phrase ?"
+    context_sentence: "Twasinye amasezerano."
+    word: "Twasinye"
+    options: ["Nous avons lu", "Nous avons signé", "Nous avons écrit", "Nous avons copié"]
+    correct_answer: "Nous avons signé"
+    xp_reward: 15
+
+  - id: 155
+    type: identify_meaning
+    question: "Que signifie 'ingengo y'imari' ?"
+    context_sentence: "Ingengo y'imari ni iyihe?"
+    word: "ingengo y'imari"
+    options: ["bénéfice", "perte", "budget", "salaire"]
+    correct_answer: "budget"
+    xp_reward: 18
+
+  # 19. Speed Matching
+  - id: 156
+    type: speed_matching
+    title: "Match Madness : Affaires"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Affaires"
+        right: "Ubucuruzi"
+      - left: "Entreprise"
+        right: "Sosiyete"
+      - left: "Employé"
+        right: "Umukozi"
+      - left: "Patron"
+        right: "Umuyobozi"
+      - left: "Client"
+        right: "Umukiriya"
+      - left: "Réunion"
+        right: "Inama"
+      - left: "Projet"
+        right: "Umushinga"
+      - left: "Produit"
+        right: "Igicuruzwa"
+      - left: "Bureau"
+        right: "Ibiro"
+      - left: "Bénéfice"
+        right: "Inyungu"
+      - left: "Perte"
+        right: "Igihombo"
+      - left: "Contrat"
+        right: "Amasezerano"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 157
+    type: timed_challenge
+    title: "Tour éclair : Affaires"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Affaires"
+        answer: "Ubucuruzi"
+      - question: "Entreprise"
+        answer: "Sosiyete"
+      - question: "Employé"
+        answer: "Umukozi"
+      - question: "Client"
+        answer: "Umukiriya"
+      - question: "Bénéfice"
+        answer: "Inyungu"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Ubucuruzi"
+      back: "affaires"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Sosiyete"
+      back: "entreprise"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Umukozi"
+      back: "employé"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Umukoresha"
+      back: "employeur"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Umuyobozi"
+      back: "patron"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Umuyobozi"
+      back: "directeur"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Umufatanyabikorwa"
+      back: "partenaire"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Umukiriya"
+      back: "client"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Inama"
+      back: "réunion"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Umushinga"
+      back: "projet"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

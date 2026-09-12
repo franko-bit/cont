@@ -1,0 +1,1217 @@
+lesson:
+  name: "Numbers"
+  description: "Learn the key vocabulary and practice exercises for this lesson."
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Single Numbers ONLY (Safe for single words)
+  # Basic Numbers 0-10
+  - id: 1
+    type: translation
+    question: "Je, unasemaje 'Sifuri' kwa Kifaransa?"
+    answer: "Zéro"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Je, unasemaje 'Moja' kwa Kifaransa?"
+    answer: "Un"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Je, unasemaje 'Mbili' kwa Kifaransa?"
+    answer: "Deux"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Je, unasemaje 'Tatu' kwa Kifaransa?"
+    answer: "Trois"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Je, unasemaje 'Nne' kwa Kifaransa?"
+    answer: "Quatre"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Je, unasemaje 'Tano' kwa Kifaransa?"
+    answer: "Cinq"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Je, unasemaje 'Sita' kwa Kifaransa?"
+    answer: "Six"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Je, unasemaje 'Saba' kwa Kifaransa?"
+    answer: "Sept"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Je, unasemaje 'Nane' kwa Kifaransa?"
+    answer: "Huit"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Je, unasemaje 'Tisa' kwa Kifaransa?"
+    answer: "Neuf"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Je, unasemaje 'Kumi' kwa Kifaransa?"
+    answer: "Dix"
+    xp_reward: 10
+
+  # Numbers 11-20
+  - id: 12
+    type: translation
+    question: "Je, unasemaje 'Kumi na moja' kwa Kifaransa?"
+    answer: "Onze"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Je, unasemaje 'Kumi na mbili' kwa Kifaransa?"
+    answer: "Douze"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Je, unasemaje 'Kumi na tatu' kwa Kifaransa?"
+    answer: "Treize"
+    xp_reward: 15
+
+  - id: 15
+    type: translation
+    question: "Je, unasemaje 'Kumi na nne' kwa Kifaransa?"
+    answer: "Quatorze"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Je, unasemaje 'Kumi na tano' kwa Kifaransa?"
+    answer: "Quinze"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Je, unasemaje 'Kumi na sita' kwa Kifaransa?"
+    answer: "Seize"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Je, unasemaje 'Kumi na saba' kwa Kifaransa?"
+    answer: "Dix-sept"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Je, unasemaje 'Kumi na nane' kwa Kifaransa?"
+    answer: "Dix-huit"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Je, unasemaje 'Kumi na tisa' kwa Kifaransa?"
+    answer: "Dix-neuf"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Je, unasemaje 'Ishirini' kwa Kifaransa?"
+    answer: "Vingt"
+    xp_reward: 15
+
+  # Tens (Multiples of 10)
+  - id: 22
+    type: translation
+    question: "Je, unasemaje 'Thelathini' kwa Kifaransa?"
+    answer: "Trente"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Je, unasemaje 'Arobaini' kwa Kifaransa?"
+    answer: "Quarante"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Je, unasemaje 'Hamsini' kwa Kifaransa?"
+    answer: "Cinquante"
+    xp_reward: 15
+
+  - id: 25
+    type: translation
+    question: "Je, unasemaje 'Sitini' kwa Kifaransa?"
+    answer: "Soixante"
+    xp_reward: 15
+
+  - id: 26
+    type: translation
+    question: "Je, unasemaje 'Sabini' kwa Kifaransa?"
+    answer: "Soixante-dix"
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "Je, unasemaje 'Themanini' kwa Kifaransa?"
+    answer: "Quatre-vingts"
+    xp_reward: 15
+
+  - id: 28
+    type: translation
+    question: "Je, unasemaje 'Tisini' kwa Kifaransa?"
+    answer: "Quatre-vingt-dix"
+    xp_reward: 15
+
+  - id: 29
+    type: translation
+    question: "Je, unasemaje 'Mia moja' kwa Kifaransa?"
+    answer: "Cent"
+    xp_reward: 10
+
+  # Hundreds
+  - id: 30
+    type: translation
+    question: "Je, unasemaje 'Mia mbili' kwa Kifaransa?"
+    answer: "Deux cents"
+    xp_reward: 15
+
+  - id: 31
+    type: translation
+    question: "Je, unasemaje 'Mia tatu' kwa Kifaransa?"
+    answer: "Trois cents"
+    xp_reward: 15
+
+  - id: 32
+    type: translation
+    question: "Je, unasemaje 'Mia nne' kwa Kifaransa?"
+    answer: "Quatre cents"
+    xp_reward: 15
+
+  - id: 33
+    type: translation
+    question: "Je, unasemaje 'Mia tano' kwa Kifaransa?"
+    answer: "Cinq cents"
+    xp_reward: 15
+
+  - id: 34
+    type: translation
+    question: "Je, unasemaje 'Mia sita' kwa Kifaransa?"
+    answer: "Six cents"
+    xp_reward: 15
+
+  - id: 35
+    type: translation
+    question: "Je, unasemaje 'Mia saba' kwa Kifaransa?"
+    answer: "Sept cents"
+    xp_reward: 15
+
+  - id: 36
+    type: translation
+    question: "Je, unasemaje 'Mia nane' kwa Kifaransa?"
+    answer: "Huit cents"
+    xp_reward: 15
+
+  - id: 37
+    type: translation
+    question: "Je, unasemaje 'Mia tisa' kwa Kifaransa?"
+    answer: "Neuf cents"
+    xp_reward: 15
+
+  - id: 38
+    type: translation
+    question: "Je, unasemaje 'Elfu moja' kwa Kifaransa?"
+    answer: "Mille"
+    xp_reward: 10
+
+  # Thousands
+  - id: 39
+    type: translation
+    question: "Je, unasemaje 'Elfu mbili' kwa Kifaransa?"
+    answer: "Deux mille"
+    xp_reward: 15
+
+  - id: 40
+    type: translation
+    question: "Je, unasemaje 'Elfu tatu' kwa Kifaransa?"
+    answer: "Trois mille"
+    xp_reward: 15
+
+  - id: 41
+    type: translation
+    question: "Je, unasemaje 'Elfu nne' kwa Kifaransa?"
+    answer: "Quatre mille"
+    xp_reward: 15
+
+  - id: 42
+    type: translation
+    question: "Je, unasemaje 'Elfu tano' kwa Kifaransa?"
+    answer: "Cinq mille"
+    xp_reward: 15
+
+  - id: 43
+    type: translation
+    question: "Je, unasemaje 'Elfu kumi' kwa Kifaransa?"
+    answer: "Dix mille"
+    xp_reward: 15
+
+  - id: 44
+    type: translation
+    question: "Je, unasemaje 'Elfu ishirini' kwa Kifaransa?"
+    answer: "Vingt mille"
+    xp_reward: 18
+
+  - id: 45
+    type: translation
+    question: "Je, unasemaje 'Elfu hamsini' kwa Kifaransa?"
+    answer: "Cinquante mille"
+    xp_reward: 18
+
+  - id: 46
+    type: translation
+    question: "Je, unasemaje 'Mia elfu' kwa Kifaransa?"
+    answer: "Cent mille"
+    xp_reward: 15
+
+  - id: 47
+    type: translation
+    question: "Je, unasemaje 'Mia mbili elfu' kwa Kifaransa?"
+    answer: "Deux cent mille"
+    xp_reward: 18
+
+  - id: 48
+    type: translation
+    question: "Je, unasemaje 'Mia tano elfu' kwa Kifaransa?"
+    answer: "Cinq cent mille"
+    xp_reward: 18
+
+  - id: 49
+    type: translation
+    question: "Je, unasemaje 'Milioni moja' kwa Kifaransa?"
+    answer: "Un million"
+    xp_reward: 15
+
+  # Money Context - Amafaranga
+  - id: 50
+    type: translation
+    question: "Je, unasemaje 'Mia ya faranga' kwa Kifaransa?"
+    answer: "Cent francs"
+    xp_reward: 15
+
+  - id: 51
+    type: translation
+    question: "Je, unasemaje 'Mia mbili faranga' kwa Kifaransa?"
+    answer: "Deux cents francs"
+    xp_reward: 15
+
+  - id: 52
+    type: translation
+    question: "Je, unasemaje 'Mia tano faranga' kwa Kifaransa?"
+    answer: "Cinq cents francs"
+    xp_reward: 15
+
+  - id: 53
+    type: translation
+    question: "Je, unasemaje 'Faranga elfu moja' kwa Kifaransa?"
+    answer: "Mille francs"
+    xp_reward: 15
+
+  - id: 54
+    type: translation
+    question: "Je, unasemaje 'Faranga elfu mbili' kwa Kifaransa?"
+    answer: "Deux mille francs"
+    xp_reward: 15
+
+  - id: 55
+    type: translation
+    question: "Je, unasemaje 'Faranga elfu tano' kwa Kifaransa?"
+    answer: "Cinq mille francs"
+    xp_reward: 15
+
+  - id: 56
+    type: translation
+    question: "Je, unasemaje 'Faranga elfu kumi' kwa Kifaransa?"
+    answer: "Dix mille francs"
+    xp_reward: 15
+
+  - id: 57
+    type: translation
+    question: "Je, unasemaje 'Faranga elfu ishirini' kwa Kifaransa?"
+    answer: "Vingt mille francs"
+    xp_reward: 18
+
+  - id: 58
+    type: translation
+    question: "Je, unasemaje 'Faranga elfu hamsini' kwa Kifaransa?"
+    answer: "Cinquante mille francs"
+    xp_reward: 18
+
+  - id: 59
+    type: translation
+    question: "Je, unasemaje 'Faranga mia elfu' kwa Kifaransa?"
+    answer: "Cent mille francs"
+    xp_reward: 18
+
+  - id: 60
+    type: translation
+    question: "Je, unasemaje 'Faranga mia mbili elfu' kwa Kifaransa?"
+    answer: "Deux cent mille francs"
+    xp_reward: 20
+
+  - id: 61
+    type: translation
+    question: "Je, unasemaje 'Faranga mia tano elfu' kwa Kifaransa?"
+    answer: "Cinq cent mille francs"
+    xp_reward: 20
+
+  - id: 62
+    type: translation
+    question: "Je, unasemaje 'Faranga milioni moja' kwa Kifaransa?"
+    answer: "Un million de francs"
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 63
+    type: multiple_choice
+    question: "'Moja' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+    answer: "1"
+    xp_reward: 15
+
+  - id: 64
+    type: multiple_choice
+    question: "'Mbili' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "1"
+      - "2"
+      - "3"
+      - "4"
+    answer: "2"
+    xp_reward: 15
+
+  - id: 65
+    type: multiple_choice
+    question: "'Tano' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "4"
+      - "5"
+      - "6"
+      - "7"
+    answer: "5"
+    xp_reward: 15
+
+  - id: 66
+    type: multiple_choice
+    question: "'Kumi' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "5"
+      - "10"
+      - "15"
+      - "20"
+    answer: "10"
+    xp_reward: 15
+
+  - id: 67
+    type: multiple_choice
+    question: "'Ishirini' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "10"
+      - "20"
+      - "30"
+      - "40"
+    answer: "20"
+    xp_reward: 15
+
+  - id: 68
+    type: multiple_choice
+    question: "'Mia moja' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "10"
+      - "100"
+      - "1000"
+      - "1,000,000"
+    answer: "100"
+    xp_reward: 15
+
+  - id: 69
+    type: multiple_choice
+    question: "'Elfu moja' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "100"
+      - "1000"
+      - "10,000"
+      - "1,000,000"
+    answer: "1000"
+    xp_reward: 15
+
+  - id: 70
+    type: multiple_choice
+    question: "'Milioni moja' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "1,000"
+      - "10,000"
+      - "100,000"
+      - "1,000,000"
+    answer: "1,000,000"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 71
+    type: listen_and_type
+    question: "Sikiliza kisha uandike nambari kwa Kifaransa"
+    tts_text: "Moja"
+    answer: "Un"
+    translation: "1"
+    xp_reward: 20
+
+  - id: 72
+    type: listen_and_type
+    question: "Sikiliza kisha uandike nambari kwa Kifaransa"
+    tts_text: "Mbili"
+    answer: "Deux"
+    translation: "2"
+    xp_reward: 20
+
+  - id: 73
+    type: listen_and_type
+    question: "Sikiliza kisha uandike nambari kwa Kifaransa"
+    tts_text: "Kumi"
+    answer: "Dix"
+    translation: "10"
+    xp_reward: 20
+
+  - id: 74
+    type: listen_and_type
+    question: "Sikiliza kisha uandike nambari kwa Kifaransa"
+    tts_text: "Kumi na moja"
+    answer: "Onze"
+    translation: "11"
+    xp_reward: 22
+
+  - id: 75
+    type: listen_and_type
+    question: "Sikiliza kisha uandike nambari kwa Kifaransa"
+    tts_text: "Ishirini"
+    answer: "Vingt"
+    translation: "20"
+    xp_reward: 20
+
+  - id: 76
+    type: listen_and_type
+    question: "Sikiliza kisha uandike nambari kwa Kifaransa"
+    tts_text: "Mia moja"
+    answer: "Cent"
+    translation: "100"
+    xp_reward: 20
+
+  - id: 77
+    type: listen_and_type
+    question: "Sikiliza kisha uandike nambari kwa Kifaransa"
+    tts_text: "Elfu moja"
+    answer: "Mille"
+    translation: "1000"
+    xp_reward: 20
+
+  - id: 78
+    type: listen_and_type
+    question: "Sikiliza kisha uandike fedha kwa Kifaransa"
+    tts_text: "Mia ya faranga"
+    answer: "Cent francs"
+    translation: "100 RWF"
+    xp_reward: 22
+
+  - id: 79
+    type: listen_and_type
+    question: "Sikiliza kisha uandike fedha kwa Kifaransa"
+    tts_text: "Faranga elfu tano"
+    answer: "Cinq mille francs"
+    translation: "5,000 RWF"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 80
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague nambari inayofaa kwa Kifaransa"
+    tts_text: "Moja"
+    options:
+      - "1"
+      - "2"
+      - "3"
+    answer: "1"
+    xp_reward: 15
+
+  - id: 81
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague nambari inayofaa kwa Kifaransa"
+    tts_text: "Tano"
+    options:
+      - "4"
+      - "5"
+      - "6"
+    answer: "5"
+    xp_reward: 15
+
+  - id: 82
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague nambari inayofaa kwa Kifaransa"
+    tts_text: "Kumi"
+    options:
+      - "5"
+      - "10"
+      - "15"
+    answer: "10"
+    xp_reward: 15
+
+  - id: 83
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague nambari inayofaa kwa Kifaransa"
+    tts_text: "Ishirini"
+    options:
+      - "10"
+      - "20"
+      - "30"
+    answer: "20"
+    xp_reward: 15
+
+  - id: 84
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague fedha inayofaa kwa Kifaransa"
+    tts_text: "Faranga elfu moja"
+    options:
+      - "100 RWF"
+      - "1,000 RWF"
+      - "10,000 RWF"
+    answer: "1,000 RWF"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 85
+    type: speaking
+    question: "Taja nambari hii kwa Kifaransa"
+    prompt: "Moja"
+    translation: "Un"
+    xp_reward: 15
+
+  - id: 86
+    type: speaking
+    question: "Taja nambari hii kwa Kifaransa"
+    prompt: "Mbili"
+    translation: "Deux"
+    xp_reward: 15
+
+  - id: 87
+    type: speaking
+    question: "Taja nambari hii kwa Kifaransa"
+    prompt: "Kumi"
+    translation: "Dix"
+    xp_reward: 15
+
+  - id: 88
+    type: speaking
+    question: "Taja nambari hii kwa Kifaransa"
+    prompt: "Kumi na moja"
+    translation: "Onze"
+    xp_reward: 18
+
+  - id: 89
+    type: speaking
+    question: "Taja nambari hii kwa Kifaransa"
+    prompt: "Ishirini"
+    translation: "Vingt"
+    xp_reward: 15
+
+  - id: 90
+    type: speaking
+    question: "Taja nambari hii kwa Kifaransa"
+    prompt: "Mia moja"
+    translation: "Cent"
+    xp_reward: 15
+
+  - id: 91
+    type: speaking
+    question: "Taja nambari hii kwa Kifaransa"
+    prompt: "Elfu moja"
+    translation: "Mille"
+    xp_reward: 15
+
+  - id: 92
+    type: speaking
+    question: "Taja fedha hizi kwa Kifaransa"
+    prompt: "Mia ya faranga"
+    translation: "Cent francs"
+    xp_reward: 18
+
+  - id: 93
+    type: speaking
+    question: "Taja fedha hizi kwa Kifaransa"
+    prompt: "Faranga elfu tano"
+    translation: "Cinq mille francs"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 94
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Nina tufaha tatu'"
+    word_bank: ["J'", "ai", "trois", "pommes", "deux", "une"]
+    correct_answer: ["J'", "ai", "trois", "pommes"]
+    xp_reward: 22
+
+  - id: 95
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Alinunua kalamu kumi na mbili'"
+    word_bank: ["Il", "a", "acheté", "douze", "stylos", "onze", "crayons"]
+    correct_answer: ["Il", "a", "acheté", "douze", "stylos"]
+    xp_reward: 22
+
+  - id: 96
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kitabu kinagharimu faranga elfu mbili'"
+    word_bank: ["Le", "livre", "coûte", "deux", "mille", "francs", "trois", "cents"]
+    correct_answer: ["Le", "livre", "coûte", "deux", "mille", "francs"]
+    xp_reward: 25
+
+  - id: 97
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Nyumba yangu inagharimu milioni moja ya faranga'"
+    word_bank: ["Ma", "maison", "coûte", "un", "million", "de", "francs", "deux", "mille"]
+    correct_answer: ["Ma", "maison", "coûte", "un", "million", "de", "francs"]
+    xp_reward: 25
+
+  - id: 98
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kuna wanafunzi hamsini darasani'"
+    word_bank: ["Il", "y", "a", "cinquante", "étudiants", "dans", "la", "classe", "trente"]
+    correct_answer: ["Il", "y", "a", "cinquante", "étudiants", "dans", "la", "classe"]
+    xp_reward: 22
+
+  - id: 99
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Ana mia ya faranga'"
+    word_bank: ["Elle", "a", "cent", "francs", "deux", "mille"]
+    correct_answer: ["Elle", "a", "cent", "francs"]
+    xp_reward: 20
+
+  - id: 100
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Begi linagharimu mia moja ishirini na tatu elfu mia nne hamsini na sita faranga'"
+    word_bank: ["Le", "sac", "coûte", "cent", "vingt", "trois", "mille", "quatre", "cent", "cinquante", "six", "francs"]
+    correct_answer: ["Le", "sac", "coûte", "cent", "vingt", "trois", "mille", "quatre", "cent", "cinquante", "six", "francs"]
+    xp_reward: 30
+
+  # 7. Sentence Scramble
+  - id: 101
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kwa Kifaransa"
+    scrambled_words: ["ai", "J'", "trois", "pommes"]
+    correct_sentence: "J'ai trois pommes."
+    translation: "Nina tufaha tatu."
+    xp_reward: 20
+
+  - id: 102
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kwa Kifaransa"
+    scrambled_words: ["a", "acheté", "Il", "douze", "stylos"]
+    correct_sentence: "Il a acheté douze stylos."
+    translation: "Alinunua kalamu kumi na mbili."
+    xp_reward: 22
+
+  - id: 103
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kwa Kifaransa"
+    scrambled_words: ["coûte", "Le", "livre", "deux", "mille", "francs"]
+    correct_sentence: "Le livre coûte deux mille francs."
+    translation: "Kitabu kinagharimu faranga elfu mbili."
+    xp_reward: 22
+
+  - id: 104
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kwa Kifaransa"
+    scrambled_words: ["a", "cinquante", "Il", "y", "étudiants", "dans", "la", "classe"]
+    correct_sentence: "Il y a cinquante étudiants dans la classe."
+    translation: "Kuna wanafunzi hamsini darasani."
+    xp_reward: 22
+
+  - id: 105
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kwa Kifaransa"
+    scrambled_words: ["a", "Elle", "cent", "francs"]
+    correct_sentence: "Elle a cent francs."
+    translation: "Ana mia ya faranga."
+    xp_reward: 18
+
+  # 8. Fill in the Blank
+  - id: 106
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "J'ai ___ pommes."
+    options: ["trois", "deux", "une"]
+    correct_answer: "trois"
+    translation: "Nina tufaha tatu."
+    xp_reward: 18
+
+  - id: 107
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Il a acheté ___ stylos."
+    options: ["douze", "onze", "vingt"]
+    correct_answer: "douze"
+    translation: "Alinunua kalamu kumi na mbili."
+    xp_reward: 18
+
+  - id: 108
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Le livre coûte ___ mille francs."
+    options: ["deux", "trois", "cinq"]
+    correct_answer: "deux"
+    translation: "Kitabu kinagharimu faranga elfu mbili."
+    xp_reward: 20
+
+  - id: 109
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Il y a ___ étudiants dans la classe."
+    options: ["cinquante", "trente", "dix"]
+    correct_answer: "cinquante"
+    translation: "Kuna wanafunzi hamsini darasani."
+    xp_reward: 18
+
+  - id: 110
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Elle a ___ francs."
+    options: ["cent", "deux cents", "cinq cents"]
+    correct_answer: "cent"
+    translation: "Ana mia ya faranga."
+    xp_reward: 15
+
+  # 9. Picture → Word
+  - id: 111
+    type: picture_word
+    question: "Unaona tufaha mangapi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?1-apple"
+    options: ["Un", "Deux", "Trois"]
+    correct_answer: "Un"
+    xp_reward: 15
+
+  - id: 112
+    type: picture_word
+    question: "Unaona tufaha mangapi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?2-apples"
+    options: ["Un", "Deux", "Trois"]
+    correct_answer: "Deux"
+    xp_reward: 15
+
+  - id: 113
+    type: picture_word
+    question: "Unaona tufaha mangapi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?3-apples"
+    options: ["Un", "Deux", "Trois"]
+    correct_answer: "Trois"
+    xp_reward: 15
+
+  - id: 114
+    type: picture_word
+    question: "Unaona kalamu ngapi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?10-pens"
+    options: ["Dix", "Vingt", "Cent"]
+    correct_answer: "Dix"
+    xp_reward: 15
+
+  - id: 115
+    type: picture_word
+    question: "Nambari hii ni ipi kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1621440318464-72633426377b?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Cent", "Mille", "Dix"]
+    correct_answer: "Cent"
+    xp_reward: 15
+
+  - id: 116
+    type: picture_word
+    question: "Fedha hizi ni kiasi gani kwa Kifaransa?"
+    image_url: "https://en.numista.com/catalogue/photos/rwanda/630cd1f91bd822.02742083-original.jpg"
+    options: ["Cinq cents francs", "Mille francs", "Cinq mille francs"]
+    correct_answer: "Cinq cents francs"
+    xp_reward: 20
+
+  # 10. Word Matching
+  - id: 117
+    type: matching
+    question: "Linganisha nambari kwa Kifaransa"
+    pairs:
+      - left: "1"
+        right: "Un"
+      - left: "2"
+        right: "Deux"
+      - left: "3"
+        right: "Trois"
+      - left: "4"
+        right: "Quatre"
+      - left: "5"
+        right: "Cinq"
+      - left: "6"
+        right: "Six"
+      - left: "7"
+        right: "Sept"
+      - left: "8"
+        right: "Huit"
+      - left: "9"
+        right: "Neuf"
+      - left: "10"
+        right: "Dix"
+    xp_reward: 25
+
+  - id: 118
+    type: matching
+    question: "Linganisha makumi kwa Kifaransa"
+    pairs:
+      - left: "20"
+        right: "Vingt"
+      - left: "30"
+        right: "Trente"
+      - left: "40"
+        right: "Quarante"
+      - left: "50"
+        right: "Cinquante"
+      - left: "60"
+        right: "Soixante"
+      - left: "70"
+        right: "Soixante-dix"
+      - left: "80"
+        right: "Quatre-vingts"
+      - left: "90"
+        right: "Quatre-vingt-dix"
+    xp_reward: 25
+
+  - id: 119
+    type: matching
+    question: "Linganisha mamia na maelfu kwa Kifaransa"
+    pairs:
+      - left: "100"
+        right: "Cent"
+      - left: "200"
+        right: "Deux cents"
+      - left: "500"
+        right: "Cinq cents"
+      - left: "1000"
+        right: "Mille"
+      - left: "2000"
+        right: "Deux mille"
+      - left: "5000"
+        right: "Cinq mille"
+      - left: "10,000"
+        right: "Dix mille"
+      - left: "1,000,000"
+        right: "Un million"
+    xp_reward: 25
+
+  - id: 120
+    type: matching
+    question: "Linganisha fedha kwa Kifaransa"
+    pairs:
+      - left: "100 RWF"
+        right: "Cent francs"
+      - left: "1,000 RWF"
+        right: "Mille francs"
+      - left: "5,000 RWF"
+        right: "Cinq mille francs"
+      - left: "10,000 RWF"
+        right: "Dix mille francs"
+      - left: "50,000 RWF"
+        right: "Cinquante mille francs"
+      - left: "100,000 RWF"
+        right: "Cent mille francs"
+      - left: "1,000,000 RWF"
+        right: "Un million de francs"
+    xp_reward: 28
+
+  # 11. Choose Missing Word
+  - id: 124
+    type: choose_missing
+    question: "Chagua nambari inayokosekana kwa Kifaransa"
+    sentence: "J'ai ___ pommes."
+    missing_word_position: 3
+    options: ["trois", "deux", "une"]
+    correct_answer: "trois"
+    translation: "Nina tufaha tatu."
+    xp_reward: 15
+
+  - id: 125
+    type: choose_missing
+    question: "Chagua nambari inayokosekana kwa Kifaransa"
+    sentence: "Il a acheté ___ stylos."
+    missing_word_position: 4
+    options: ["douze", "onze", "vingt"]
+    correct_answer: "douze"
+    translation: "Alinunua kalamu kumi na mbili."
+    xp_reward: 18
+
+  - id: 126
+    type: choose_missing
+    question: "Chagua fedha inayokosekana kwa Kifaransa"
+    sentence: "Le livre coûte ___ mille francs."
+    missing_word_position: 4
+    options: ["deux", "trois", "cinq"]
+    correct_answer: "deux"
+    translation: "Kitabu kinagharimu faranga elfu mbili."
+    xp_reward: 18
+
+  # 12. Read and Answer
+  - id: 127
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Nina tufaha tatu. Alinunua kalamu kumi na mbili."
+    question: "Nina tufaha mangapi?"
+    options: ["1", "2", "3", "12"]
+    correct_answer: "3"
+    xp_reward: 15
+
+  - id: 128
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Kitabu kinagharimu faranga elfu mbili. Nyumba yangu inagharimu milioni moja ya faranga."
+    question: "Kitabu kinagharimu kiasi gani?"
+    options: ["100 RWF", "1,000 RWF", "2,000 RWF", "1,000,000 RWF"]
+    correct_answer: "2,000 RWF"
+    xp_reward: 18
+
+  - id: 129
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Kuna wanafunzi hamsini darasani."
+    question: "Kuna wanafunzi wangapi?"
+    options: ["15", "20", "50", "100"]
+    correct_answer: "50"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 130
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Mbili means two."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 131
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Kumi means twenty."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 132
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Mia moja means one hundred."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 133
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Elfu moja means one million."
+    correct_answer: false
+    xp_reward: 10
+
+  # 14. Conversation Exercise
+  - id: 134
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Una tufaha mangapi?"
+    translation: "How many apples do you have?"
+    word_bank: ["J'", "ai", "trois", "pommes", "deux", "une"]
+    correct_response: ["J'", "ai", "trois", "pommes"]
+    xp_reward: 20
+
+  - id: 135
+    type: conversation
+    question: "Jibu swali kwa Kifaransa"
+    bot_message: "Kitabu kina bei gani?"
+    translation: "How much is the book?"
+    options:
+      - "Deux mille francs"
+      - "Cent francs"
+      - "Un million de francs"
+    correct_response: "Deux mille francs"
+    xp_reward: 18
+
+  - id: 136
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Kuna wanafunzi wangapi darasani?"
+    translation: "How many students are in the class?"
+    word_bank: ["Il", "y", "a", "cinquante", "étudiants", "dans", "la", "classe"]
+    correct_response: ["Il", "y", "a", "cinquante", "étudiants", "dans", "la", "classe"]
+    xp_reward: 20
+
+  # 15. Story Exercise
+  - id: 137
+    type: story
+    title: "Kununua"
+    story_intro: "Soma hadithi ya ununuzi. Kisha jenga sentensi kwa Kifaransa."
+    story_segments:
+      - text: "I have 3 apples."
+      - text: "He bought 12 pens."
+      - text: "The book costs 2,000 RWF."
+      - text: "My house costs 1,000,000 RWF."
+      - text: "She has 100 RWF."
+    exercises:
+      - type: word_bank
+        question: "Jenga 'Nina tufaha tatu' kwa Kifaransa"
+        word_bank: ["J'", "ai", "trois", "pommes", "deux", "une"]
+        correct_answer: ["J'", "ai", "trois", "pommes"]
+      - type: word_bank
+        question: "Jenga 'Alinunua kalamu kumi na mbili' kwa Kifaransa"
+        word_bank: ["Il", "a", "acheté", "douze", "stylos", "onze"]
+        correct_answer: ["Il", "a", "acheté", "douze", "stylos"]
+      - type: word_bank
+        question: "Jenga 'Kitabu kinagharimu faranga elfu mbili' kwa Kifaransa"
+        word_bank: ["Le", "livre", "coûte", "deux", "mille", "francs"]
+        correct_answer: ["Le", "livre", "coûte", "deux", "mille", "francs"]
+      - type: word_bank
+        question: "Jenga 'Ana mia ya faranga' kwa Kifaransa"
+        word_bank: ["Elle", "a", "cent", "francs"]
+        correct_answer: ["Elle", "a", "cent", "francs"]
+    xp_reward: 40
+
+  # 16. Pronunciation Check
+  - id: 138
+    type: pronunciation
+    question: "Taja nambari hii kwa Kifaransa vizuri"
+    prompt: "Moja"
+    translation: "Un"
+    xp_reward: 15
+
+  - id: 139
+    type: pronunciation
+    question: "Taja nambari hii kwa Kifaransa vizuri"
+    prompt: "Ishirini"
+    translation: "Vingt"
+    xp_reward: 15
+
+  - id: 140
+    type: pronunciation
+    question: "Taja fedha hizi kwa Kifaransa vizuri"
+    prompt: "Faranga elfu tano"
+    translation: "Cinq mille francs"
+    xp_reward: 20
+
+  # 17. Identify Correct Meaning
+  - id: 141
+    type: identify_meaning
+    question: "'Tatu' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Nina tufaha tatu."
+    word: "tatu"
+    options: ["1", "2", "3", "4"]
+    correct_answer: "3"
+    xp_reward: 15
+
+  - id: 142
+    type: identify_meaning
+    question: "'Elfu mbili' inamaanisha nini kwa Kifaransa?"
+    context_sentence: "Kitabu kinagharimu faranga elfu mbili."
+    word: "elfu mbili"
+    options: ["100 RWF", "1,000 RWF", "2,000 RWF", "20,000 RWF"]
+    correct_answer: "2,000 RWF"
+    xp_reward: 18
+
+  # 18. Speed Matching
+  - id: 143
+    type: speed_matching
+    title: "Linganisha kwa Kasi: Nambari"
+    time_limit_seconds: 45
+    pairs:
+      - left: "1"
+        right: "Un"
+      - left: "2"
+        right: "Deux"
+      - left: "3"
+        right: "Trois"
+      - left: "4"
+        right: "Quatre"
+      - left: "5"
+        right: "Cinq"
+      - left: "10"
+        right: "Dix"
+      - left: "20"
+        right: "Vingt"
+      - left: "100"
+        right: "Cent"
+      - left: "1000"
+        right: "Mille"
+      - left: "1,000,000"
+        right: "Un million"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 144
+    type: timed_challenge
+    title: "Haraka: Nambari"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Moja"
+        answer: "Un"
+      - question: "Mbili"
+        answer: "Deux"
+      - question: "Tatu"
+        answer: "Trois"
+      - question: "Kumi"
+        answer: "Dix"
+      - question: "Mia moja"
+        answer: "Cent"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Zéro"
+      back: "Sifuri"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Un"
+      back: "Moja"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Deux"
+      back: "Mbili"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Trois"
+      back: "Tatu"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Quatre"
+      back: "Nne"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Cinq"
+      back: "Tano"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Six"
+      back: "Sita"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Sept"
+      back: "Saba"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Huit"
+      back: "Nane"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Neuf"
+      back: "Tisa"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

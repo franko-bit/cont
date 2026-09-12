@@ -1,0 +1,1227 @@
+lesson:
+  name: "Igihe Cyashize"
+  description: "Learn how to talk about past actions in French"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Past Tense Verbs ONLY (Safe for single words)
+  # Basic Past Tense Verbs
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'yariye' mu igifaransa?"
+    answer: "a mangé"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'yanyoye' mu igifaransa?"
+    answer: "a bu"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'yagiye' mu igifaransa?"
+    answer: "est allé"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'yazanywe' mu igifaransa?"
+    answer: "est venu"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'yabonye' mu igifaransa?"
+    answer: "a vu"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'yahuye' mu igifaransa?"
+    answer: "a rencontré"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'yaguzwe' mu igifaransa?"
+    answer: "a acheté"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'yakinnye' mu igifaransa?"
+    answer: "a joué"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'yarahunyiriye' mu igifaransa?"
+    answer: "a dormi"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'yavuze' mu igifaransa?"
+    answer: "a dit"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'yakunze' mu igifaransa?"
+    answer: "a aimé"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'yakoranye' mu igifaransa?"
+    answer: "a travaillé"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'yize' mu igifaransa?"
+    answer: "a appris"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'yashakaga' mu igifaransa?"
+    answer: "a voulu"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'yafashije' mu igifaransa?"
+    answer: "a aidé"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'yitwa' mu igifaransa?"
+    answer: "a appelé"
+    xp_reward: 10
+
+  # Subject Conjugations - Past Tense
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Nariye' mu igifaransa?"
+    answer: "J'ai mangé"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Wariye' mu igifaransa?"
+    answer: "Tu as mangé"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Yariye' mu igifaransa?"
+    answer: "Il/Elle a mangé"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Twariye' mu igifaransa?"
+    answer: "Nous avons mangé"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Bariye' mu igifaransa?"
+    answer: "Ils/Elles ont mangé"
+    xp_reward: 15
+
+  # Past Tense Phrases
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Nanyoye amazi' mu igifaransa?"
+    answer: "J'ai bu de l'eau"
+    xp_reward: 18
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Yagiye ku isoko' mu igifaransa?"
+    answer: "Il est allé au marché"
+    xp_reward: 18
+
+  - id: 24
+    type: translation
+    question: "Wavuga ute 'Yahuye n'inshuti ye' mu igifaransa?"
+    answer: "Elle a rencontré son ami"
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "Wavuga ute 'Naguriye igitabo' mu igifaransa?"
+    answer: "J'ai acheté un livre"
+    xp_reward: 18
+
+  - id: 26
+    type: translation
+    question: "Wavuga ute 'Abana bakinnyije' mu igifaransa?"
+    answer: "Les enfants ont joué"
+    xp_reward: 18
+
+  - id: 27
+    type: translation
+    question: "Wavuga ute 'Yarahunyiriye neza' mu igifaransa?"
+    answer: "Il a bien dormi"
+    xp_reward: 18
+
+  - id: 28
+    type: translation
+    question: "Wavuga ute 'Bavuze muraho' mu igifaransa?"
+    answer: "Ils ont dit bonjour"
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "'yariye' bisobanura iki mu igifaransa?"
+    options:
+      - "a bu"
+      - "a mangé"
+      - "est allé"
+      - "a vu"
+    answer: "a mangé"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'yanyoye' bisobanura iki mu igifaransa?"
+    options:
+      - "a mangé"
+      - "a bu"
+      - "a dormi"
+      - "a joué"
+    answer: "a bu"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'yagiye' bisobanura iki mu igifaransa?"
+    options:
+      - "est venu"
+      - "est allé"
+      - "a vu"
+      - "a rencontré"
+    answer: "est allé"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'yabonye' bisobanura iki mu igifaransa?"
+    options:
+      - "a acheté"
+      - "a rencontré"
+      - "a vu"
+      - "a joué"
+    answer: "a vu"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'yahuye' bisobanura iki mu igifaransa?"
+    options:
+      - "a vu"
+      - "a rencontré"
+      - "a acheté"
+      - "a dit"
+    answer: "a rencontré"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "'yaguzwe' bisobanura iki mu igifaransa?"
+    options:
+      - "a acheté"
+      - "a vendu"
+      - "a donné"
+      - "a pris"
+    answer: "a acheté"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "'Nariye' bisobanura iki mu igifaransa?"
+    options:
+      - "Tu as mangé"
+      - "J'ai mangé"
+      - "Il a mangé"
+      - "Nous avons mangé"
+    answer: "J'ai mangé"
+    xp_reward: 15
+
+  - id: 36
+    type: multiple_choice
+    question: "'Twariye' bisobanura iki mu igifaransa?"
+    options:
+      - "J'ai mangé"
+      - "Tu as mangé"
+      - "Nous avons mangé"
+      - "Ils ont mangé"
+    answer: "Nous avons mangé"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 37
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike inshinga y'igihe cyashize mu igifaransa"
+    tts_text: "yariye"
+    answer: "a mangé"
+    translation: "yariye"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike inshinga y'igihe cyashize mu igifaransa"
+    tts_text: "yanyoye"
+    answer: "a bu"
+    translation: "yanyoye"
+    xp_reward: 20
+
+  - id: 39
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike inshinga y'igihe cyashize mu igifaransa"
+    tts_text: "yagiye"
+    answer: "est allé"
+    translation: "yagiye"
+    xp_reward: 20
+
+  - id: 40
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike inshinga y'igihe cyashize mu igifaransa"
+    tts_text: "yabonye"
+    answer: "a vu"
+    translation: "yabonye"
+    xp_reward: 20
+
+  - id: 41
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike inshinga y'igihe cyashize mu igifaransa"
+    tts_text: "yahuye"
+    answer: "a rencontré"
+    translation: "yahuye"
+    xp_reward: 20
+
+  - id: 42
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro y'igihe cyashize mu igifaransa"
+    tts_text: "Nariye"
+    answer: "J'ai mangé"
+    translation: "Nariye"
+    xp_reward: 22
+
+  - id: 43
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro y'igihe cyashize mu igifaransa"
+    tts_text: "Nanyoye amazi"
+    answer: "J'ai bu de l'eau"
+    translation: "Nanyoye amazi"
+    xp_reward: 25
+
+  - id: 44
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro y'igihe cyashize mu igifaransa"
+    tts_text: "Yagiye ku isoko"
+    answer: "Il est allé au marché"
+    translation: "Yagiye ku isoko"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 45
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo inshinga y'igihe cyashize ikwiye mu igifaransa"
+    tts_text: "yariye"
+    options:
+      - "a bu"
+      - "a mangé"
+      - "est allé"
+    answer: "a mangé"
+    xp_reward: 15
+
+  - id: 46
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo inshinga y'igihe cyashize ikwiye mu igifaransa"
+    tts_text: "yanyoye"
+    options:
+      - "a mangé"
+      - "a bu"
+      - "a dormi"
+    answer: "a bu"
+    xp_reward: 15
+
+  - id: 47
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo inshinga y'igihe cyashize ikwiye mu igifaransa"
+    tts_text: "yagiye"
+    options:
+      - "est venu"
+      - "est allé"
+      - "a vu"
+    answer: "est allé"
+    xp_reward: 15
+
+  - id: 48
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye mu igifaransa"
+    tts_text: "Nariye"
+    options:
+      - "J'ai mangé"
+      - "Tu as mangé"
+      - "Il a mangé"
+    answer: "J'ai mangé"
+    xp_reward: 18
+
+  - id: 49
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye mu igifaransa"
+    tts_text: "Yagiye ku isoko"
+    options:
+      - "Il est allé à l'école"
+      - "Il est allé au marché"
+      - "Il est allé à la maison"
+    answer: "Il est allé au marché"
+    xp_reward: 20
+
+  # 5. Repeat / Speaking Exercise
+  - id: 50
+    type: speaking
+    question: "Vuga iyi nshinga y'igihe cyashize mu igifaransa"
+    prompt: "yariye"
+    translation: "a mangé"
+    xp_reward: 15
+
+  - id: 51
+    type: speaking
+    question: "Vuga iyi nshinga y'igihe cyashize mu igifaransa"
+    prompt: "yanyoye"
+    translation: "a bu"
+    xp_reward: 15
+
+  - id: 52
+    type: speaking
+    question: "Vuga iyi nshinga y'igihe cyashize mu igifaransa"
+    prompt: "yagiye"
+    translation: "est allé"
+    xp_reward: 15
+
+  - id: 53
+    type: speaking
+    question: "Vuga iyi nshinga y'igihe cyashize mu igifaransa"
+    prompt: "yabonye"
+    translation: "a vu"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Vuga iyi nteruro y'igihe cyashize mu igifaransa"
+    prompt: "Nariye"
+    translation: "J'ai mangé"
+    xp_reward: 18
+
+  - id: 55
+    type: speaking
+    question: "Vuga iyi nteruro y'igihe cyashize mu igifaransa"
+    prompt: "Twariye"
+    translation: "Nous avons mangé"
+    xp_reward: 18
+
+  - id: 56
+    type: speaking
+    question: "Vuga iyi nteruro y'igihe cyashize mu igifaransa"
+    prompt: "Nanyoye amazi"
+    translation: "J'ai bu de l'eau"
+    xp_reward: 20
+
+  - id: 57
+    type: speaking
+    question: "Vuga iyi nteruro y'igihe cyashize mu igifaransa"
+    prompt: "Yagiye ku isoko"
+    translation: "Il est allé au marché"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 58
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Nariye'"
+    word_bank: ["J'", "ai", "mangé", "bu", "est", "allé", "a", "vu"]
+    correct_answer: ["J'", "ai", "mangé"]
+    xp_reward: 15
+
+  - id: 59
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Wariye'"
+    word_bank: ["Tu", "as", "mangé", "bu", "est", "allé", "a", "vu"]
+    correct_answer: ["Tu", "as", "mangé"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Yariye'"
+    word_bank: ["Il", "a", "mangé", "bu", "est", "allé", "a", "vu"]
+    correct_answer: ["Il", "a", "mangé"]
+    xp_reward: 15
+
+  - id: 61
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Twariye'"
+    word_bank: ["Nous", "avons", "mangé", "bu", "est", "allé", "a", "vu"]
+    correct_answer: ["Nous", "avons", "mangé"]
+    xp_reward: 15
+
+  - id: 62
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Bariye'"
+    word_bank: ["Ils", "ont", "mangé", "bu", "est", "allé", "a", "vu"]
+    correct_answer: ["Ils", "ont", "mangé"]
+    xp_reward: 15
+
+  - id: 63
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Nanyoye amazi'"
+    word_bank: ["J'", "ai", "bu", "de", "l'", "eau", "mangé", "de", "la", "nourriture", "du", "lait"]
+    correct_answer: ["J'", "ai", "bu", "de", "l'", "eau"]
+    xp_reward: 18
+
+  - id: 64
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Yagiye ku isoko'"
+    word_bank: ["Il", "est", "allé", "au", "marché", "à", "l'", "école", "à", "la", "maison"]
+    correct_answer: ["Il", "est", "allé", "au", "marché"]
+    xp_reward: 18
+
+  - id: 65
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Yahuye n'inshuti ye'"
+    word_bank: ["Elle", "a", "rencontré", "son", "ami", "sa", "famille", "son", "frère"]
+    correct_answer: ["Elle", "a", "rencontré", "son", "ami"]
+    xp_reward: 20
+
+  - id: 66
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Naguriye igitabo'"
+    word_bank: ["J'", "ai", "acheté", "un", "livre", "de", "la", "nourriture", "une", "voiture"]
+    correct_answer: ["J'", "ai", "acheté", "un", "livre"]
+    xp_reward: 18
+
+  - id: 67
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Abana bakinnyije'"
+    word_bank: ["Les", "enfants", "ont", "joué", "dormi", "mangé"]
+    correct_answer: ["Les", "enfants", "ont", "joué"]
+    xp_reward: 18
+
+  - id: 68
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Yarahunyiriye neza'"
+    word_bank: ["Il", "a", "bien", "dormi", "mal", "mangé"]
+    correct_answer: ["Il", "a", "bien", "dormi"]
+    xp_reward: 18
+
+  - id: 69
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Bavuze muraho'"
+    word_bank: ["Ils", "ont", "dit", "bonjour", "au", "revoir", "mangé"]
+    correct_answer: ["Ils", "ont", "dit", "bonjour"]
+    xp_reward: 18
+
+  # 7. Sentence Scramble
+  - id: 70
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nariye'"
+    scrambled_words: ["mangé", "J'", "ai"]
+    correct_sentence: "J'ai mangé"
+    translation: "Nariye"
+    xp_reward: 12
+
+  - id: 71
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Twariye'"
+    scrambled_words: ["mangé", "Nous", "avons"]
+    correct_sentence: "Nous avons mangé"
+    translation: "Twariye"
+    xp_reward: 12
+
+  - id: 72
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nanyoye amazi'"
+    scrambled_words: ["l'", "ai", "J'", "de", "bu", "eau"]
+    correct_sentence: "J'ai bu de l'eau"
+    translation: "Nanyoye amazi"
+    xp_reward: 15
+
+  - id: 73
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Yagiye ku isoko'"
+    scrambled_words: ["au", "Il", "allé", "marché", "est"]
+    correct_sentence: "Il est allé au marché"
+    translation: "Yagiye ku isoko"
+    xp_reward: 15
+
+  - id: 74
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Yahuye n'inshuti ye'"
+    scrambled_words: ["Elle", "son", "rencontré", "a", "ami"]
+    correct_sentence: "Elle a rencontré son ami"
+    translation: "Yahuye n'inshuti ye"
+    xp_reward: 18
+
+  - id: 75
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Naguriye igitabo'"
+    scrambled_words: ["acheté", "un", "J'", "ai", "livre"]
+    correct_sentence: "J'ai acheté un livre"
+    translation: "Naguriye igitabo"
+    xp_reward: 15
+
+  - id: 76
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Abana bakinnyije'"
+    scrambled_words: ["joué", "enfants", "Les", "ont"]
+    correct_sentence: "Les enfants ont joué"
+    translation: "Abana bakinnyije"
+    xp_reward: 15
+
+  - id: 77
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Yarahunyiriye neza'"
+    scrambled_words: ["a", "bien", "Il", "dormi"]
+    correct_sentence: "Il a bien dormi"
+    translation: "Yarahunyiriye neza"
+    xp_reward: 15
+
+  - id: 78
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Bavuze muraho'"
+    scrambled_words: ["ont", "Ils", "bonjour", "dit"]
+    correct_sentence: "Ils ont dit bonjour"
+    translation: "Bavuze muraho"
+    xp_reward: 15
+
+  # 8. Fill in the Blank
+  - id: 79
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro isobanura 'I ate' mu igifaransa"
+    text_with_blank: "J'___ mangé"
+    options: ["ai", "as", "a"]
+    correct_answer: "ai"
+    translation: "Nariye"
+    xp_reward: 10
+
+  - id: 80
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro isobanura 'We ate' mu igifaransa"
+    text_with_blank: "Nous ___ mangé"
+    options: ["avons", "avez", "ont"]
+    correct_answer: "avons"
+    translation: "Twariye"
+    xp_reward: 10
+
+  - id: 81
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "J'ai bu ___ l'eau."
+    options: ["de", "du", "de la"]
+    correct_answer: "de"
+    translation: "Nanyoye amazi"
+    xp_reward: 15
+
+  - id: 82
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Il est allé au ___."
+    options: ["marché", "école", "maison"]
+    correct_answer: "marché"
+    translation: "Yagiye ku isoko"
+    xp_reward: 15
+
+  - id: 83
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Elle a rencontré son ___."
+    options: ["ami", "famille", "frère"]
+    correct_answer: "ami"
+    translation: "Yahuye n'inshuti ye"
+    xp_reward: 18
+
+  - id: 84
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "J'ai acheté un ___."
+    options: ["livre", "voiture", "maison"]
+    correct_answer: "livre"
+    translation: "Naguriye igitabo"
+    xp_reward: 15
+
+  - id: 85
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Les enfants ont ___."
+    options: ["joué", "dormi", "mangé"]
+    correct_answer: "joué"
+    translation: "Abana bakinnyije"
+    xp_reward: 15
+
+  - id: 86
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Il a ___ dormi."
+    options: ["bien", "mal", "vite"]
+    correct_answer: "bien"
+    translation: "Yarahunyiriye neza"
+    xp_reward: 15
+
+  - id: 87
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Ils ont dit ___."
+    options: ["bonjour", "au revoir", "merci"]
+    correct_answer: "bonjour"
+    translation: "Bavuze muraho"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images) - Representing past actions
+  - id: 88
+    type: picture_word
+    question: "Yakoze iki? (igihe cyashize) mu igifaransa"
+    image_url: "https://source.unsplash.com/featured/?eating"
+    options: ["a mangé", "a bu", "est allé"]
+    correct_answer: "a mangé"
+    xp_reward: 15
+
+  - id: 89
+    type: picture_word
+    question: "Yakoze iki? (igihe cyashize) mu igifaransa"
+    image_url: "https://source.unsplash.com/featured/?drinking"
+    options: ["a mangé", "a bu", "a travaillé"]
+    correct_answer: "a bu"
+    xp_reward: 15
+
+  - id: 90
+    type: picture_word
+    question: "Yakoze iki? (igihe cyashize) mu igifaransa"
+    image_url: "https://source.unsplash.com/featured/?walking-away"
+    options: ["a mangé", "a bu", "est allé"]
+    correct_answer: "est allé"
+    xp_reward: 15
+
+  - id: 91
+    type: picture_word
+    question: "Yakoze iki? (igihe cyashize) mu igifaransa"
+    image_url: "https://source.unsplash.com/featured/?looking"
+    options: ["a vu", "a rencontré", "a dit"]
+    correct_answer: "a vu"
+    xp_reward: 15
+
+  - id: 92
+    type: picture_word
+    question: "Yakoze iki? (igihe cyashize) mu igifaransa"
+    image_url: "https://source.unsplash.com/featured/?meeting"
+    options: ["a vu", "a rencontré", "a acheté"]
+    correct_answer: "a rencontré"
+    xp_reward: 15
+
+  - id: 93
+    type: picture_word
+    question: "Yakoze iki? (igihe cyashize) mu igifaransa"
+    image_url: "https://source.unsplash.com/featured/?shopping"
+    options: ["a acheté", "a vu", "a mangé"]
+    correct_answer: "a acheté"
+    xp_reward: 15
+
+  - id: 94
+    type: picture_word
+    question: "Abana bakoze iki? (igihe cyashize) mu igifaransa"
+    image_url: "https://source.unsplash.com/featured/?playing"
+    options: ["ont joué", "ont dormi", "ont appris"]
+    correct_answer: "ont joué"
+    xp_reward: 15
+
+  - id: 95
+    type: picture_word
+    question: "Yakoze iki? (igihe cyashize) mu igifaransa"
+    image_url: "https://source.unsplash.com/featured/?sleeping"
+    options: ["a dormi", "a joué", "a travaillé"]
+    correct_answer: "a dormi"
+    xp_reward: 15
+
+  # 10. Word Matching
+  - id: 96
+    type: matching
+    question: "Huza igihe none n'igihe cyashize mu igifaransa"
+    pairs:
+      - left: "manger"
+        right: "a mangé"
+      - left: "boire"
+        right: "a bu"
+      - left: "aller"
+        right: "est allé"
+      - left: "voir"
+        right: "a vu"
+      - left: "rencontrer"
+        right: "a rencontré"
+      - left: "acheter"
+        right: "a acheté"
+      - left: "jouer"
+        right: "a joué"
+      - left: "dormir"
+        right: "a dormi"
+      - left: "dire"
+        right: "a dit"
+      - left: "travailler"
+        right: "a travaillé"
+    xp_reward: 25
+
+  - id: 97
+    type: matching
+    question: "Huza inshinga z'igihe cyashize n'ibisobanuro byazo mu igifaransa"
+    pairs:
+      - left: "a vu"
+        right: "yabonye"
+      - left: "a rencontré"
+        right: "yahuye"
+      - left: "a acheté"
+        right: "yaguzwe"
+      - left: "a joué"
+        right: "yakinnye"
+      - left: "a dormi"
+        right: "yarahunyiriye"
+      - left: "a dit"
+        right: "yavuze"
+      - left: "a aimé"
+        right: "yakunze"
+      - left: "a appris"
+        right: "yize"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Huza umuntu n'inshinga ikwiye y'igihe cyashize ya 'manger' mu igifaransa"
+    pairs:
+      - left: "J'"
+        right: "ai mangé"
+      - left: "Tu"
+        right: "as mangé"
+      - left: "Il/Elle"
+        right: "a mangé"
+      - left: "Nous"
+        right: "avons mangé"
+      - left: "Ils/Elles"
+        right: "ont mangé"
+    xp_reward: 15
+
+  # 11. Choose Missing Word
+  - id: 99
+    type: choose_missing
+    question: "Hitamo inshinga ikwiye y'igihe cyashize mu igifaransa"
+    sentence: "J'___ bu de l'eau."
+    missing_word_position: 2
+    options: ["ai", "as", "a"]
+    correct_answer: "ai"
+    translation: "Nanyoye amazi"
+    xp_reward: 15
+
+  - id: 100
+    type: choose_missing
+    question: "Hitamo ijambo rikwiye mu igifaransa"
+    sentence: "Il est allé au ___."
+    missing_word_position: 5
+    options: ["marché", "école", "maison"]
+    correct_answer: "marché"
+    translation: "Yagiye ku isoko"
+    xp_reward: 15
+
+  - id: 101
+    type: choose_missing
+    question: "Hitamo inshinga ikwiye y'igihe cyashize mu igifaransa"
+    sentence: "J'___ acheté un livre."
+    missing_word_position: 2
+    options: ["ai", "as", "a"]
+    correct_answer: "ai"
+    translation: "Naguriye igitabo"
+    xp_reward: 15
+
+  - id: 102
+    type: choose_missing
+    question: "Hitamo inshinga ikwiye y'igihe cyashize mu igifaransa"
+    sentence: "Les enfants ___ joué."
+    missing_word_position: 3
+    options: ["ont", "avons", "avez"]
+    correct_answer: "ont"
+    translation: "Abana bakinnyije"
+    xp_reward: 15
+
+  - id: 103
+    type: choose_missing
+    question: "Hitamo ijambo rikwiye mu igifaransa"
+    sentence: "Il a ___ dormi."
+    missing_word_position: 3
+    options: ["bien", "mal", "vite"]
+    correct_answer: "bien"
+    translation: "Yarahunyiriye neza"
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 104
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Nanyoye amazi. Nariye ibiryo."
+    question: "Nanyoye iki?"
+    options: ["Eau", "Lait", "Nourriture", "Jus"]
+    correct_answer: "Eau"
+    xp_reward: 15
+
+  - id: 105
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Yagiye ku isoko. Yaguriye ibiryo."
+    question: "Yagiye he?"
+    options: ["À l'école", "Au marché", "À la maison", "Au travail"]
+    correct_answer: "Au marché"
+    xp_reward: 15
+
+  - id: 106
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Yahuye n'inshuti ye. Bavuze muraho."
+    question: "Yahuye na nde?"
+    options: ["Sa famille", "Son ami", "Son professeur", "Son frère"]
+    correct_answer: "Son ami"
+    xp_reward: 18
+
+  - id: 107
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Abana bakinnyije. Yarahunyiriye neza."
+    question: "Abana bakoze iki?"
+    options: ["Ont dormi", "Ont joué", "Ont mangé", "Ont bu"]
+    correct_answer: "Ont joué"
+    xp_reward: 15
+
+  - id: 108
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Naguriye igitabo. Nsoma buri munsi."
+    question: "Naguriye iki?"
+    options: ["Nourriture", "Un livre", "Eau", "Vêtements"]
+    correct_answer: "Un livre"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 109
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'yariye' means 'a bu'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 110
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'yanyoye' means 'a bu'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 111
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'yagiye' means 'est allé'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 112
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'I ate' means 'J'ai mangé'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'We ate' means 'Ils ont mangé'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 114
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'He slept well' means 'Il a bien dormi'."
+    correct_answer: true
+    xp_reward: 15
+
+  # 14. Conversation Exercise
+  - id: 115
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe mu igifaransa"
+    bot_message: "Wakoze iki ejo?"
+    translation: "What did you do yesterday?"
+    word_bank: ["J'", "ai", "mangé", "de", "la", "nourriture", "bu", "de", "l'", "eau", "acheté"]
+    correct_response: ["J'", "ai", "mangé", "de", "la", "nourriture"]
+    xp_reward: 20
+
+  - id: 116
+    type: conversation
+    question: "Subiza ikibazo mu igifaransa"
+    bot_message: "Yagiye he?"
+    translation: "Where did he go?"
+    options:
+      - "Il est allé au marché"
+      - "Il est allé à l'école"
+      - "Il est allé à la maison"
+    correct_response: "Il est allé au marché"
+    xp_reward: 15
+
+  - id: 117
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe mu igifaransa"
+    bot_message: "Waguriye iki?"
+    translation: "What did you buy?"
+    word_bank: ["J'", "ai", "acheté", "un", "livre", "de", "la", "nourriture", "une", "voiture"]
+    correct_response: ["J'", "ai", "acheté", "un", "livre"]
+    xp_reward: 18
+
+  - id: 118
+    type: conversation
+    question: "Subiza ikibazo mu igifaransa"
+    bot_message: "Abana bakoze iki?"
+    translation: "What did the children do?"
+    options:
+      - "Ils ont joué"
+      - "Ils ont mangé"
+      - "Ils ont dit bonjour"
+    correct_response: "Ils ont joué"
+    xp_reward: 15
+
+  # 15. Story Exercise
+  - id: 119
+    type: story
+    title: "Ejo Hashize"
+    story_intro: "Soma inkuru y'ibyabaye ejo. Hanyuma ubake interuro mu igifaransa."
+    story_segments:
+      - text: "I ate food."
+      - text: "I drank water."
+      - text: "He went to the market."
+      - text: "She met her friend."
+      - text: "I bought a book."
+      - text: "The children played."
+      - text: "He slept well."
+      - text: "They said hello."
+    exercises:
+      - type: word_bank
+        question: "Ubaka 'I ate food' mu igifaransa"
+        word_bank: ["J'", "ai", "mangé", "de", "la", "nourriture", "bu", "de", "l'", "eau"]
+        correct_answer: ["J'", "ai", "mangé", "de", "la", "nourriture"]
+      - type: word_bank
+        question: "Ubaka 'I drank water' mu igifaransa"
+        word_bank: ["J'", "ai", "bu", "de", "l'", "eau", "mangé", "de", "la", "nourriture"]
+        correct_answer: ["J'", "ai", "bu", "de", "l'", "eau"]
+      - type: word_bank
+        question: "Ubaka 'He went to the market' mu igifaransa"
+        word_bank: ["Il", "est", "allé", "au", "marché", "à", "l'", "école"]
+        correct_answer: ["Il", "est", "allé", "au", "marché"]
+      - type: word_bank
+        question: "Ubaka 'She met her friend' mu igifaransa"
+        word_bank: ["Elle", "a", "rencontré", "son", "ami", "sa", "famille"]
+        correct_answer: ["Elle", "a", "rencontré", "son", "ami"]
+      - type: word_bank
+        question: "Ubaka 'I bought a book' mu igifaransa"
+        word_bank: ["J'", "ai", "acheté", "un", "livre", "une", "voiture"]
+        correct_answer: ["J'", "ai", "acheté", "un", "livre"]
+      - type: word_bank
+        question: "Ubaka 'The children played' mu igifaransa"
+        word_bank: ["Les", "enfants", "ont", "joué", "dormi"]
+        correct_answer: ["Les", "enfants", "ont", "joué"]
+      - type: word_bank
+        question: "Ubaka 'He slept well' mu igifaransa"
+        word_bank: ["Il", "a", "bien", "dormi", "mal"]
+        correct_answer: ["Il", "a", "bien", "dormi"]
+      - type: word_bank
+        question: "Ubaka 'They said hello' mu igifaransa"
+        word_bank: ["Ils", "ont", "dit", "bonjour", "au", "revoir"]
+        correct_answer: ["Ils", "ont", "dit", "bonjour"]
+    xp_reward: 50
+
+  # 16. Pronunciation Check
+  - id: 120
+    type: pronunciation
+    question: "Vuga iyi nshinga y'igihe cyashize mu igifaransa neza"
+    prompt: "yariye"
+    translation: "a mangé"
+    xp_reward: 15
+
+  - id: 121
+    type: pronunciation
+    question: "Vuga iyi nshinga y'igihe cyashize mu igifaransa neza"
+    prompt: "yanyoye"
+    translation: "a bu"
+    xp_reward: 15
+
+  - id: 122
+    type: pronunciation
+    question: "Vuga iyi nshinga y'igihe cyashize mu igifaransa neza"
+    prompt: "yagiye"
+    translation: "est allé"
+    xp_reward: 15
+
+  - id: 123
+    type: pronunciation
+    question: "Vuga iyi nteruro y'igihe cyashize mu igifaransa neza"
+    prompt: "Nariye"
+    translation: "J'ai mangé"
+    xp_reward: 18
+
+  - id: 124
+    type: pronunciation
+    question: "Vuga iyi nteruro y'igihe cyashize mu igifaransa neza"
+    prompt: "Twariye"
+    translation: "Nous avons mangé"
+    xp_reward: 18
+
+  - id: 125
+    type: pronunciation
+    question: "Vuga iyi nteruro y'igihe cyashize mu igifaransa neza"
+    prompt: "Nanyoye amazi"
+    translation: "J'ai bu de l'eau"
+    xp_reward: 20
+
+  - id: 126
+    type: pronunciation
+    question: "Vuga iyi nteruro y'igihe cyashize mu igifaransa neza"
+    prompt: "Yagiye ku isoko"
+    translation: "Il est allé au marché"
+    xp_reward: 20
+
+  # 17. Identify Correct Meaning
+  - id: 127
+    type: identify_meaning
+    question: "'yariye' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Yariye ibiryo."
+    word: "yariye"
+    options: ["a bu", "a mangé", "est allé", "a vu"]
+    correct_answer: "a mangé"
+    xp_reward: 15
+
+  - id: 128
+    type: identify_meaning
+    question: "'Nanyoye' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Nanyoye amazi."
+    word: "Nanyoye"
+    options: ["J'ai mangé", "J'ai bu", "Je suis allé", "J'ai vu"]
+    correct_answer: "J'ai bu"
+    xp_reward: 15
+
+  - id: 129
+    type: identify_meaning
+    question: "'yahuye' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Yahuye n'inshuti ye."
+    word: "yahuye"
+    options: ["a vu", "a rencontré", "a acheté", "a dit"]
+    correct_answer: "a rencontré"
+    xp_reward: 15
+
+  - id: 130
+    type: identify_meaning
+    question: "'bakinnyije' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Abana bakinnyije."
+    word: "bakinnyije"
+    options: ["ont mangé", "ont bu", "ont joué", "ont dormi"]
+    correct_answer: "ont joué"
+    xp_reward: 15
+
+  - id: 131
+    type: identify_meaning
+    question: "'neza' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Yarahunyiriye neza."
+    word: "neza"
+    options: ["mal", "bien", "vite", "lentement"]
+    correct_answer: "bien"
+    xp_reward: 15
+
+  # 18. Speed Matching
+  - id: 132
+    type: speed_matching
+    title: "Huza Byihuse: Igihe Cyashize"
+    time_limit_seconds: 45
+    pairs:
+      - left: "a mangé"
+        right: "yariye"
+      - left: "a bu"
+        right: "yanyoye"
+      - left: "est allé"
+        right: "yagiye"
+      - left: "a vu"
+        right: "yabonye"
+      - left: "a rencontré"
+        right: "yahuye"
+      - left: "a acheté"
+        right: "yaguzwe"
+      - left: "a joué"
+        right: "yakinnye"
+      - left: "a dormi"
+        right: "yarahunyiriye"
+      - left: "a dit"
+        right: "yavuze"
+      - left: "a travaillé"
+        right: "yakoze"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 133
+    type: timed_challenge
+    title: "Kubahuka: Igihe Cyashize"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "yariye"
+        answer: "a mangé"
+      - question: "yanyoye"
+        answer: "a bu"
+      - question: "yagiye"
+        answer: "est allé"
+      - question: "yabonye"
+        answer: "a vu"
+      - question: "yahuye"
+        answer: "a rencontré"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "a mangé"
+      back: "yariye"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "a bu"
+      back: "yanyoye"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "est allé"
+      back: "yagiye"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "est venu"
+      back: "yazanywe"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "a vu"
+      back: "yabonye"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "a rencontré"
+      back: "yahuye"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "a acheté"
+      back: "yaguzwe"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "a joué"
+      back: "yakinnye"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "a dormi"
+      back: "yarahunyiriye"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "a dit"
+      back: "yavuze"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

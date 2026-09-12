@@ -1,0 +1,1055 @@
+lesson:
+  name: "Familia"
+  description: "Learn family member names in French"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Family Members ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Je, unasemaje 'Mama' kwa Kifaransa?"
+    answer: "Mère"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Je, unasemaje 'Baba' kwa Kifaransa?"
+    answer: "Père"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Je, unasemaje 'Kaka' kwa Kifaransa?"
+    answer: "Frère"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Je, unasemaje 'Dada' kwa Kifaransa?"
+    answer: "Sœur"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Je, unasemaje 'Mtoto' kwa Kifaransa?"
+    answer: "Enfant"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Je, unasemaje 'Bibi' kwa Kifaransa?"
+    answer: "Grand-mère"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Je, unasemaje 'Bab' kwa Kifaransa?"
+    answer: "Grand-père"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Je, unasemaje 'Mume' kwa Kifaransa?"
+    answer: "Mari"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Je, unasemaje 'Mke' kwa Kifaransa?"
+    answer: "Femme"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Je, unasemaje 'Mjomba (baba)' kwa Kifaransa?"
+    answer: "Oncle paternel"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Je, unasemaje 'Mjomba (mama)' kwa Kifaransa?"
+    answer: "Oncle maternel"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Je, unasemaje 'Shangazi (baba)' kwa Kifaransa?"
+    answer: "Tante paternelle"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Je, unasemaje 'Shangazi (mama)' kwa Kifaransa?"
+    answer: "Tante maternelle"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Je, unasemaje 'Mjukuu' kwa Kifaransa?"
+    answer: "Petit-enfant"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Je, unasemaje 'Mkukuu' kwa Kifaransa?"
+    answer: "Arrière-petit-enfant"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Je, unasemaje 'Mkwe wanaume' kwa Kifaransa?"
+    answer: "Gendre"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "Je, unasemaje 'Baba mkwe' kwa Kifaransa?"
+    answer: "Beau-père"
+    xp_reward: 10
+
+  # Translation - Greetings & Basic Phrases
+  - id: 18
+    type: translation
+    question: "Je, unasemaje 'Habari, Mama!' kwa Kifaransa?"
+    answer: "Bonjour, mère !"
+    xp_reward: 12
+
+  - id: 19
+    type: translation
+    question: "Je, unasemaje 'Habari, Baba!' kwa Kifaransa?"
+    answer: "Bonjour, père !"
+    xp_reward: 12
+
+  - id: 20
+    type: translation
+    question: "Je, unasemaje 'Familia ikoje?' kwa Kifaransa?"
+    answer: "Comment va la famille ?"
+    xp_reward: 15
+
+  # Translation - Possession (Simple phrases with "have")
+  - id: 21
+    type: translation
+    question: "Je, unasemaje 'Nina Kaka.' kwa Kifaransa?"
+    answer: "J'ai un frère."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Je, unasemaje 'Nina Dada.' kwa Kifaransa?"
+    answer: "J'ai une sœur."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Je, unasemaje 'Bab ana nyumba.' kwa Kifaransa?"
+    answer: "Mon grand-père a une maison."
+    xp_reward: 15
+
+  # 2. Multiple Choice
+  - id: 24
+    type: multiple_choice
+    question: "'Mama' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Père"
+      - "Mère"
+      - "Frère"
+      - "Sœur"
+    answer: "Mère"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "'Baba' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Mère"
+      - "Père"
+      - "Grand-père"
+      - "Oncle"
+    answer: "Père"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "'Kaka' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Sœur"
+      - "Frère"
+      - "Enfant"
+      - "Mari"
+    answer: "Frère"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "'Dada' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Frère"
+      - "Sœur"
+      - "Mère"
+      - "Tante"
+    answer: "Sœur"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Bibi' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Grand-père"
+      - "Grand-mère"
+      - "Tante"
+      - "Oncle"
+    answer: "Grand-mère"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Bab' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Grand-mère"
+      - "Grand-père"
+      - "Beau-père"
+      - "Oncle"
+    answer: "Grand-père"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Mjomba (baba)' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Oncle maternel"
+      - "Oncle paternel"
+      - "Beau-père"
+      - "Grand-père"
+    answer: "Oncle paternel"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Mjomba (mama)' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Oncle paternel"
+      - "Oncle maternel"
+      - "Frère"
+      - "Gendre"
+    answer: "Oncle maternel"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 32
+    type: listen_and_type
+    question: "Sikiliza kisha uandike mwanafamilia kwa Kifaransa"
+    tts_text: "Mama"
+    answer: "Mère"
+    translation: "Mama"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Sikiliza kisha uandike mwanafamilia kwa Kifaransa"
+    tts_text: "Baba"
+    answer: "Père"
+    translation: "Baba"
+    xp_reward: 20
+
+  - id: 34
+    type: listen_and_type
+    question: "Sikiliza kisha uandike mwanafamilia kwa Kifaransa"
+    tts_text: "Bibi"
+    answer: "Grand-mère"
+    translation: "Bibi"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Mama yuko nyumbani"
+    answer: "La mère est à la maison"
+    translation: "Mama yuko nyumbani"
+    xp_reward: 25
+
+  - id: 36
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Baba yuko kazini"
+    answer: "Le père travaille"
+    translation: "Baba yuko kazini"
+    xp_reward: 25
+
+  - id: 37
+    type: listen_and_type
+    question: "Sikiliza kisha uandike swali kwa Kifaransa"
+    tts_text: "Familia ikoje"
+    answer: "Comment va la famille ?"
+    translation: "Familia ikoje"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 38
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague mwanafamilia anayefaa kwa Kifaransa"
+    tts_text: "Mama"
+    options:
+      - "Père"
+      - "Mère"
+      - "Frère"
+    answer: "Mère"
+    xp_reward: 15
+
+  - id: 39
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague mwanafamilia anayefaa kwa Kifaransa"
+    tts_text: "Baba"
+    options:
+      - "Mère"
+      - "Père"
+      - "Sœur"
+    answer: "Père"
+    xp_reward: 15
+
+  - id: 40
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague mwanafamilia anayefaa kwa Kifaransa"
+    tts_text: "Kaka"
+    options:
+      - "Sœur"
+      - "Frère"
+      - "Enfant"
+    answer: "Frère"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi inayofaa kwa Kifaransa"
+    tts_text: "Mama yuko nyumbani"
+    options:
+      - "La mère est à la maison"
+      - "Le père travaille"
+      - "Le frère joue"
+    answer: "La mère est à la maison"
+    xp_reward: 20
+
+  # 5. Repeat / Speaking Exercise
+  - id: 42
+    type: speaking
+    question: "Taja mwanafamilia huyu kwa Kifaransa"
+    prompt: "Mama"
+    translation: "Mère"
+    xp_reward: 15
+
+  - id: 43
+    type: speaking
+    question: "Taja mwanafamilia huyu kwa Kifaransa"
+    prompt: "Baba"
+    translation: "Père"
+    xp_reward: 15
+
+  - id: 44
+    type: speaking
+    question: "Taja mwanafamilia huyu kwa Kifaransa"
+    prompt: "Bibi"
+    translation: "Grand-mère"
+    xp_reward: 18
+
+  - id: 45
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Mama yuko nyumbani"
+    translation: "La mère est à la maison"
+    xp_reward: 20
+
+  - id: 46
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Baba yuko kazini"
+    translation: "Le père travaille"
+    xp_reward: 20
+
+  - id: 47
+    type: speaking
+    question: "Taja swali hili kwa Kifaransa"
+    prompt: "Familia ikoje"
+    translation: "Comment va la famille ?"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 48
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Mama yuko nyumbani'"
+    word_bank: ["La", "mère", "est", "à", "la", "maison", "Le", "père", "travaille"]
+    correct_answer: ["La", "mère", "est", "à", "la", "maison"]
+    xp_reward: 20
+
+  - id: 49
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Baba yuko kazini'"
+    word_bank: ["Le", "père", "travaille", "La", "mère", "est", "à", "la", "maison"]
+    correct_answer: ["Le", "père", "travaille"]
+    xp_reward: 20
+
+  - id: 50
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kaka anacheza nje'"
+    word_bank: ["Mon", "frère", "joue", "dehors", "Ma", "sœur", "lit", "un", "livre"]
+    correct_answer: ["Mon", "frère", "joue", "dehors"]
+    xp_reward: 22
+
+  - id: 51
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Dada anasoma kitabu'"
+    word_bank: ["Ma", "sœur", "lit", "un", "livre", "Mon", "frère", "joue", "dehors"]
+    correct_answer: ["Ma", "sœur", "lit", "un", "livre"]
+    xp_reward: 22
+
+  - id: 52
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Nampenda Bibi'"
+    word_bank: ["J'", "aime", "ma", "grand-mère", "grand-père", "est", "vieux"]
+    correct_answer: ["J'", "aime", "ma", "grand-mère"]
+    xp_reward: 20
+
+  - id: 53
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Bab ni mzee sana'"
+    word_bank: ["Mon", "grand-père", "est", "très", "vieux", "grand-mère", "cuisine"]
+    correct_answer: ["Mon", "grand-père", "est", "très", "vieux"]
+    xp_reward: 22
+
+  - id: 54
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Nina Kaka'"
+    word_bank: ["J'", "ai", "un", "frère", "sœur", "enfant"]
+    correct_answer: ["J'", "ai", "un", "frère"]
+    xp_reward: 18
+
+  - id: 55
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Bab ana nyumba'"
+    word_bank: ["Mon", "grand-père", "a", "une", "maison", "grand-mère", "cuisine", "de", "la", "nourriture"]
+    correct_answer: ["Mon", "grand-père", "a", "une", "maison"]
+    xp_reward: 20
+
+  - id: 56
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Bibi anapika chakula'"
+    word_bank: ["Ma", "grand-mère", "cuisine", "de", "la", "nourriture", "grand-père", "a", "une", "maison"]
+    correct_answer: ["Ma", "grand-mère", "cuisine", "de", "la", "nourriture"]
+    xp_reward: 22
+
+  - id: 57
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Mjomba (baba) ana mbuzi'"
+    word_bank: ["Mon", "oncle", "paternel", "a", "une", "chèvre", "mon", "oncle", "maternel", "a", "une", "vache"]
+    correct_answer: ["Mon", "oncle", "paternel", "a", "une", "chèvre"]
+    xp_reward: 22
+
+  - id: 58
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Mjomba (mama) ana ng'ombe'"
+    word_bank: ["Mon", "oncle", "maternel", "a", "une", "vache", "mon", "oncle", "paternel", "a", "une", "chèvre"]
+    correct_answer: ["Mon", "oncle", "maternel", "a", "une", "vache"]
+    xp_reward: 22
+
+  - id: 59
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Shangazi (baba) ni mwema'"
+    word_bank: ["Ma", "tante", "paternelle", "est", "gentille", "ma", "tante", "maternelle", "est", "très", "sympa"]
+    correct_answer: ["Ma", "tante", "paternelle", "est", "gentille"]
+    xp_reward: 20
+
+  - id: 60
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Shangazi (mama) ni mwema sana'"
+    word_bank: ["Ma", "tante", "maternelle", "est", "très", "sympa", "ma", "tante", "paternelle", "est", "gentille"]
+    correct_answer: ["Ma", "tante", "maternelle", "est", "très", "sympa"]
+    xp_reward: 22
+
+  - id: 61
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Mtoto anacheza'"
+    word_bank: ["Mon", "enfant", "joue", "mon", "petit-enfant", "aime", "lire"]
+    correct_answer: ["Mon", "enfant", "joue"]
+    xp_reward: 18
+
+  - id: 62
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Mjukuu anapenda kusoma'"
+    word_bank: ["Mon", "petit-enfant", "aime", "lire", "mon", "enfant", "joue"]
+    correct_answer: ["Mon", "petit-enfant", "aime", "lire"]
+    xp_reward: 22
+
+  - id: 63
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Mkukuu analala'"
+    word_bank: ["Mon", "arrière-petit-enfant", "dort", "mon", "petit-enfant", "aime", "lire"]
+    correct_answer: ["Mon", "arrière-petit-enfant", "dort"]
+    xp_reward: 20
+
+  - id: 64
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Mkwe wanaume ni msaidizi'"
+    word_bank: ["Mon", "gendre", "est", "serviable", "mon", "beau-père", "est", "sage"]
+    correct_answer: ["Mon", "gendre", "est", "serviable"]
+    xp_reward: 20
+
+  - id: 65
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Baba mkwe ni mwenye hekima'"
+    word_bank: ["Mon", "beau-père", "est", "sage", "mon", "gendre", "est", "serviable"]
+    correct_answer: ["Mon", "beau-père", "est", "sage"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble
+  - id: 66
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Mama yuko nyumbani'"
+    scrambled_words: ["est", "La", "mère", "à", "la", "maison"]
+    correct_sentence: "La mère est à la maison"
+    translation: "Mama yuko nyumbani"
+    xp_reward: 20
+
+  - id: 67
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Baba yuko kazini'"
+    scrambled_words: ["travaille", "Le", "père"]
+    correct_sentence: "Le père travaille"
+    translation: "Baba yuko kazini"
+    xp_reward: 20
+
+  - id: 68
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Kaka anacheza nje'"
+    scrambled_words: ["frère", "Mon", "joue", "dehors"]
+    correct_sentence: "Mon frère joue dehors"
+    translation: "Kaka anacheza nje"
+    xp_reward: 22
+
+  - id: 69
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Dada anasoma kitabu'"
+    scrambled_words: ["sœur", "Ma", "lit", "un", "livre"]
+    correct_sentence: "Ma sœur lit un livre"
+    translation: "Dada anasoma kitabu"
+    xp_reward: 22
+
+  - id: 70
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Nampenda Bibi'"
+    scrambled_words: ["aime", "J'", "ma", "grand-mère"]
+    correct_sentence: "J'aime ma grand-mère"
+    translation: "Nampenda Bibi"
+    xp_reward: 18
+
+  - id: 71
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Bab ni mzee sana'"
+    scrambled_words: ["grand-père", "Mon", "est", "très", "vieux"]
+    correct_sentence: "Mon grand-père est très vieux"
+    translation: "Bab ni mzee sana"
+    xp_reward: 20
+
+  - id: 72
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Bab ana nyumba'"
+    scrambled_words: ["grand-père", "Mon", "a", "une", "maison"]
+    correct_sentence: "Mon grand-père a une maison"
+    translation: "Bab ana nyumba"
+    xp_reward: 20
+
+  - id: 73
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Bibi anapika chakula'"
+    scrambled_words: ["grand-mère", "Ma", "cuisine", "de", "la", "nourriture"]
+    correct_sentence: "Ma grand-mère cuisine de la nourriture"
+    translation: "Bibi anapika chakula"
+    xp_reward: 22
+
+  # 8. Fill in the Blank
+  - id: 74
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "La mère ___ à la maison."
+    options: ["est", "sont", "a"]
+    correct_answer: "est"
+    translation: "Mama yuko nyumbani"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "Le père ___."
+    options: ["travaille", "joue", "lit"]
+    correct_answer: "travaille"
+    translation: "Baba yuko kazini"
+    xp_reward: 15
+
+  - id: 76
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "Mon frère ___ dehors."
+    options: ["joue", "lit", "travaille"]
+    correct_answer: "joue"
+    translation: "Kaka anacheza nje"
+    xp_reward: 18
+
+  - id: 77
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "Ma sœur ___ un livre."
+    options: ["lit", "joue", "cuisine"]
+    correct_answer: "lit"
+    translation: "Dada anasoma kitabu"
+    xp_reward: 18
+
+  - id: 78
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "J'aime ma ___."
+    options: ["grand-mère", "grand-père", "père"]
+    correct_answer: "grand-mère"
+    translation: "Nampenda Bibi"
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "Mon grand-père est très ___."
+    options: ["vieux", "jeune", "grand"]
+    correct_answer: "vieux"
+    translation: "Bab ni mzee sana"
+    xp_reward: 15
+
+  - id: 80
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "Mon grand-père ___ une maison."
+    options: ["a", "est", "sont"]
+    correct_answer: "a"
+    translation: "Bab ana nyumba"
+    xp_reward: 15
+
+  - id: 81
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi"
+    text_with_blank: "Ma grand-mère cuisine de la ___."
+    options: ["nourriture", "eau", "viande"]
+    correct_answer: "nourriture"
+    translation: "Bibi anapika chakula"
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 82
+    type: picture_word
+    question: "Mwanafamilia huyu ni nani kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Mère", "Père", "Grand-mère", "Grand-père"]
+    correct_answer: "Mère"
+    xp_reward: 10
+
+  - id: 83
+    type: picture_word
+    question: "Mwanafamilia huyu ni nani kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Mère", "Père", "Frère", "Sœur"]
+    correct_answer: "Père"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "Mwanafamilia huyu ni nani kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Grand-mère", "Grand-père", "Mère", "Père"]
+    correct_answer: "Grand-mère"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "Mwanafamilia huyu ni nani kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1581007115376-1f8732065a2a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Grand-père", "Grand-mère", "Père", "Oncle"]
+    correct_answer: "Grand-père"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Mwanafamilia huyu ni nani kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Frère", "Sœur", "Enfant", "Père"]
+    correct_answer: "Frère"
+    xp_reward: 10
+
+  - id: 87
+    type: picture_word
+    question: "Mwanafamilia huyu ni nani kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Sœur", "Frère", "Mère", "Grand-mère"]
+    correct_answer: "Sœur"
+    xp_reward: 10
+
+  - id: 88
+    type: picture_word
+    question: "Mwanafamilia huyu ni nani kwa Kifaransa?"
+    image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Enfant", "Petit-enfant", "Frère", "Sœur"]
+    correct_answer: "Enfant"
+    xp_reward: 10
+
+  # 10. Word Matching (Pairing)
+  - id: 90
+    type: matching
+    question: "Linganisha wanafamilia kwa Kifaransa"
+    pairs:
+      - left: "Mère"
+        right: "Mama"
+      - left: "Père"
+        right: "Baba"
+      - left: "Frère"
+        right: "Kaka"
+      - left: "Sœur"
+        right: "Dada"
+      - left: "Enfant"
+        right: "Mtoto"
+      - left: "Grand-mère"
+        right: "Bibi"
+      - left: "Grand-père"
+        right: "Bab"
+      - left: "Mari"
+        right: "Mume"
+      - left: "Femme"
+        right: "Mke"
+    xp_reward: 25
+
+  - id: 91
+    type: matching
+    question: "Linganisha wanafamilia wakubwa kwa Kifaransa"
+    pairs:
+      - left: "Oncle paternel"
+        right: "Mjomba (baba)"
+      - left: "Oncle maternel"
+        right: "Mjomba (mama)"
+      - left: "Tante paternelle"
+        right: "Shangazi (baba)"
+      - left: "Tante maternelle"
+        right: "Shangazi (mama)"
+      - left: "Petit-enfant"
+        right: "Mjukuu"
+      - left: "Arrière-petit-enfant"
+        right: "Mkukuu"
+      - left: "Gendre"
+        right: "Mkwe wanaume"
+      - left: "Beau-père"
+        right: "Baba mkwe"
+    xp_reward: 25
+
+  - id: 92
+    type: matching
+    question: "Linganisha vitendo na wanafamilia kwa Kifaransa"
+    pairs:
+      - left: "est à la maison"
+        right: "yuko nyumbani"
+      - left: "travaille"
+        right: "yuko kazini"
+      - left: "joue dehors"
+        right: "anacheza nje"
+      - left: "lit un livre"
+        right: "anasoma kitabu"
+      - left: "cuisine de la nourriture"
+        right: "anapika chakula"
+      - left: "a une maison"
+        right: "ana nyumba"
+    xp_reward: 25
+
+  # 11. Choose Missing Word
+  - id: 97
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "La mère ___ à la maison."
+    missing_word_position: 3
+    options: ["est", "sont", "a"]
+    correct_answer: "est"
+    translation: "Mama yuko nyumbani"
+    xp_reward: 15
+
+  - id: 98
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "Le père ___."
+    missing_word_position: 3
+    options: ["travaille", "joue", "lit"]
+    correct_answer: "travaille"
+    translation: "Baba yuko kazini"
+    xp_reward: 15
+
+  - id: 99
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "Mon frère ___ dehors."
+    missing_word_position: 3
+    options: ["joue", "lit", "travaille"]
+    correct_answer: "joue"
+    translation: "Kaka anacheza nje"
+    xp_reward: 18
+
+  # 12. Read and Answer
+  - id: 100
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali"
+    text: "Mama yuko nyumbani. Baba yuko kazini."
+    question: "Mama yuko wapi kwa Kifaransa?"
+    options: ["À la maison", "Au travail", "Dehors", "Au marché"]
+    correct_answer: "À la maison"
+    xp_reward: 20
+
+  - id: 101
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali"
+    text: "Kaka anacheza nje. Dada anasoma kitabu."
+    question: "Dada anafanya nini kwa Kifaransa?"
+    options: ["Joue", "Lit un livre", "Travaille", "Cuisine"]
+    correct_answer: "Lit un livre"
+    xp_reward: 22
+
+  - id: 102
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali"
+    text: "Bibi anapika chakula. Bab ana nyumba."
+    question: "Bab ana nini kwa Kifaransa?"
+    options: ["Une vache", "Une maison", "Une chèvre", "Un livre"]
+    correct_answer: "Une maison"
+    xp_reward: 20
+
+  - id: 103
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali"
+    text: "Mjomba (baba) ana mbuzi. Mjomba (mama) ana ng'ombe."
+    question: "Mjomba (mama) ana nini kwa Kifaransa?"
+    options: ["Une chèvre", "Une vache", "Une maison", "Un poulet"]
+    correct_answer: "Une vache"
+    xp_reward: 22
+
+  # 13. True / False
+  - id: 104
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Mama ni mwanamke."
+    translation: "La mère est une femme"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 105
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Baba ni mwanamke."
+    translation: "Le père est une femme"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 106
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Bibi ni mzee sana."
+    translation: "La grand-mère est très vieille"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 107
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "Mtoto anacheza nje."
+    translation: "L'enfant joue dehors"
+    correct_answer: true
+    xp_reward: 10
+
+  # 14. Conversation Exercise
+  - id: 108
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa"
+    bot_message: "Mama yuko wapi?"
+    translation: "Où est la mère ?"
+    word_bank: ["La", "mère", "est", "à", "la", "maison", "Le", "père", "travaille"]
+    correct_response: ["La", "mère", "est", "à", "la", "maison"]
+    xp_reward: 20
+
+  - id: 109
+    type: conversation
+    question: "Jibu swali"
+    bot_message: "Familia ikoje?"
+    translation: "Comment va la famille ?"
+    options:
+      - "Elle va bien"
+      - "Elle va mal"
+      - "Comment ça va"
+    correct_response: "Elle va bien"
+    xp_reward: 15
+
+  - id: 110
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa"
+    bot_message: "Baba yuko wapi?"
+    translation: "Où est le père ?"
+    word_bank: ["Le", "père", "travaille", "La", "mère", "est", "à", "la", "maison"]
+    correct_response: ["Le", "père", "travaille"]
+    xp_reward: 20
+
+  # 15. Story Exercise
+  - id: 111
+    type: story
+    title: "Familia Yangu"
+    story_intro: "Soma hadithi ya familia. Kisha jenga sentensi kwa Kifaransa."
+    story_segments:
+      - text: "Mama yuko nyumbani."
+        image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - text: "Baba yuko kazini."
+      - text: "Kaka anacheza nje."
+      - text: "Dada anasoma kitabu."
+      - text: "Bibi anapika chakula."
+      - text: "Bab ana nyumba."
+    exercises:
+      - type: word_bank
+        question: "Jenga sentensi ya Kifaransa inayomaanisha 'Mama yuko nyumbani'"
+        word_bank: ["La", "mère", "est", "à", "la", "maison", "Le", "père", "travaille"]
+        correct_answer: ["La", "mère", "est", "à", "la", "maison"]
+      - type: word_bank
+        question: "Jenga sentensi ya Kifaransa inayomaanisha 'Baba yuko kazini'"
+        word_bank: ["Le", "père", "travaille", "La", "mère", "est", "à", "la", "maison"]
+        correct_answer: ["Le", "père", "travaille"]
+      - type: word_bank
+        question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kaka anacheza nje'"
+        word_bank: ["Mon", "frère", "joue", "dehors", "Ma", "sœur", "lit", "un", "livre"]
+        correct_answer: ["Mon", "frère", "joue", "dehors"]
+      - type: word_bank
+        question: "Jenga sentensi ya Kifaransa inayomaanisha 'Bibi anapika chakula'"
+        word_bank: ["Ma", "grand-mère", "cuisine", "de", "la", "nourriture", "Mon", "grand-père", "a", "une", "maison"]
+        correct_answer: ["Ma", "grand-mère", "cuisine", "de", "la", "nourriture"]
+    xp_reward: 40
+
+  # 16. Pronunciation Check
+  - id: 112
+    type: pronunciation
+    question: "Taja mwanafamilia huyu kwa Kifaransa vizuri"
+    prompt: "Mama"
+    translation: "Mère"
+    xp_reward: 15
+
+  - id: 113
+    type: pronunciation
+    question: "Taja mwanafamilia huyu kwa Kifaransa vizuri"
+    prompt: "Bibi"
+    translation: "Grand-mère"
+    xp_reward: 18
+
+  - id: 114
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Mama yuko nyumbani"
+    translation: "La mère est à la maison"
+    xp_reward: 20
+
+  # 17. Identify Correct Meaning
+  - id: 115
+    type: identify_meaning
+    question: "'Mama' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Mama yuko nyumbani."
+    word: "Mama"
+    options: ["père", "mère", "frère", "sœur"]
+    correct_answer: "mère"
+    xp_reward: 15
+
+  - id: 116
+    type: identify_meaning
+    question: "'Anacheza' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Kaka anacheza nje."
+    word: "anacheza"
+    options: ["lit", "joue", "travaille", "cuisine"]
+    correct_answer: "joue"
+    xp_reward: 18
+
+  - id: 117
+    type: identify_meaning
+    question: "'Anapika' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Bibi anapika chakula."
+    word: "anapika"
+    options: ["cuisine", "mange", "a", "aime"]
+    correct_answer: "cuisine"
+    xp_reward: 18
+
+  # 18. Speed Matching
+  - id: 118
+    type: speed_matching
+    title: "Linganisha kwa Kasi: Familia"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Mère"
+        right: "Mama"
+      - left: "Père"
+        right: "Baba"
+      - left: "Frère"
+        right: "Kaka"
+      - left: "Sœur"
+        right: "Dada"
+      - left: "Grand-mère"
+        right: "Bibi"
+      - left: "Grand-père"
+        right: "Bab"
+      - left: "Enfant"
+        right: "Mtoto"
+      - left: "Mari"
+        right: "Mume"
+      - left: "Femme"
+        right: "Mke"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 119
+    type: timed_challenge
+    title: "Haraka: Familia"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Mama"
+        answer: "Mère"
+      - question: "Baba"
+        answer: "Père"
+      - question: "Kaka"
+        answer: "Frère"
+      - question: "Dada"
+        answer: "Sœur"
+      - question: "Bibi"
+        answer: "Grand-mère"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Mère"
+      back: "Mama"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Père"
+      back: "Baba"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Frère"
+      back: "Kaka"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Sœur"
+      back: "Dada"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Enfant"
+      back: "Mtoto"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Grand-mère"
+      back: "Bibi"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Grand-père"
+      back: "Bab"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Mari"
+      back: "Mume"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Femme"
+      back: "Mke"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Oncle paternel"
+      back: "Mjomba (baba)"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

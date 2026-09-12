@@ -1,0 +1,966 @@
+lesson:
+  name: Indamukanyo - Amakuru
+  description: למדו common ברכות and expressions in English
+  xp_reward: 500
+exercises:
+- id: 1
+  type: translation
+  question: Wavuga ute 'Muraho' בעברית?
+  answer: שלום
+  xp_reward: 10
+- id: 2
+  type: translation
+  question: Wavuga ute 'Mwaramutse' בעברית?
+  answer: בוקר טוב
+  xp_reward: 10
+- id: 3
+  type: translation
+  question: Wavuga ute 'Mwiriwe' בעברית?
+  answer: Good afternoon / ערב טוב
+  xp_reward: 10
+- id: 4
+  type: translation
+  question: Wavuga ute 'Ijoro ryiza' בעברית?
+  answer: Good night
+  xp_reward: 10
+- id: 5
+  type: translation
+  question: Wavuga ute 'Amakuru' בעברית?
+  answer: מה שלומך?
+  xp_reward: 10
+- id: 6
+  type: translation
+  question: Wavuga ute 'Ni meza' בעברית?
+  answer: I'm fine
+  xp_reward: 10
+- id: 7
+  type: translation
+  question: Wavuga ute 'Murakaza neza' בעברית?
+  answer: Welcome
+  xp_reward: 10
+- id: 8
+  type: translation
+  question: Wavuga ute 'Tuzasubira' בעברית?
+  answer: See you מאוחר יותר
+  xp_reward: 10
+- id: 9
+  type: translation
+  question: Wavuga ute 'Murabeho' בעברית?
+  answer: להתראות
+  xp_reward: 10
+- id: 10
+  type: translation
+  question: Wavuga ute 'Umunsi mwiza' בעברית?
+  answer: Have אחד nice day
+  xp_reward: 10
+- id: 11
+  type: translation
+  question: Wavuga ute 'Wirinde' בעברית?
+  answer: Take care
+  xp_reward: 10
+- id: 12
+  type: translation
+  question: Wavuga ute 'Hashize igihe tutabonanye' בעברית?
+  answer: Long זמן no see
+  xp_reward: 15
+- id: 13
+  type: translation
+  question: Wavuga ute 'Ni iki?' בעברית?
+  answer: What's up?
+  xp_reward: 10
+- id: 14
+  type: translation
+  question: Wavuga ute 'Nishimiye kukubona' בעברית?
+  answer: Nice to meet you
+  xp_reward: 15
+- id: 15
+  type: translation
+  question: Wavuga ute 'Muraho, Mama!' בעברית?
+  answer: שלום, אמא!
+  xp_reward: 12
+- id: 16
+  type: translation
+  question: Wavuga ute 'Mwaramutse, Data!' בעברית?
+  answer: בוקר טוב, אבא!
+  xp_reward: 12
+- id: 17
+  type: translation
+  question: Wavuga ute 'Ijoro ryiza, mwana wanjye!' בעברית?
+  answer: Good night, my ילד!
+  xp_reward: 15
+- id: 18
+  type: translation
+  question: Wavuga ute 'Amakuru uyu munsi?' בעברית?
+  answer: How are you היום?
+  xp_reward: 15
+- id: 19
+  type: translation
+  question: Wavuga ute 'Ni meza, murakoze.' בעברית?
+  answer: I'm fine, thank you.
+  xp_reward: 15
+- id: 20
+  type: translation
+  question: Wavuga ute 'Ni iki kuri wowe uyu munsi?' בעברית?
+  answer: What's up with you היום?
+  xp_reward: 18
+- id: 21
+  type: multiple_choice
+  question: '''Muraho'' bisobanura iki?'
+  options:
+  - להתראות
+  - שלום
+  - בוקר טוב
+  - Good night
+  answer: שלום
+  xp_reward: 15
+- id: 22
+  type: multiple_choice
+  question: '''Mwaramutse'' bisobanura iki?'
+  options:
+  - ערב טוב
+  - בוקר טוב
+  - Good night
+  - להתראות
+  answer: בוקר טוב
+  xp_reward: 15
+- id: 23
+  type: multiple_choice
+  question: '''Amakuru'' bisobanura iki?'
+  options:
+  - להתראות
+  - Welcome
+  - מה שלומך?
+  - See you מאוחר יותר
+  answer: מה שלומך?
+  xp_reward: 15
+- id: 24
+  type: multiple_choice
+  question: '''Ni meza'' bisobanura iki?'
+  options:
+  - I'm fine
+  - Thank you
+  - Welcome
+  - Take care
+  answer: I'm fine
+  xp_reward: 15
+- id: 25
+  type: multiple_choice
+  question: '''Murabeho'' bisobanura iki?'
+  options:
+  - שלום
+  - Welcome
+  - להתראות
+  - See you מאוחר יותר
+  answer: להתראות
+  xp_reward: 15
+- id: 26
+  type: multiple_choice
+  question: '''Tuzasubira'' bisobanura iki?'
+  options:
+  - להתראות
+  - See you מאוחר יותר
+  - Welcome אחורה
+  - Take care
+  answer: See you מאוחר יותר
+  xp_reward: 15
+- id: 27
+  type: multiple_choice
+  question: '''Nishimiye kukubona'' bisobanura iki?'
+  options:
+  - בוקר טוב
+  - Nice to meet you
+  - Welcome
+  - Take care
+  answer: Nice to meet you
+  xp_reward: 18
+- id: 28
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike indamukanyo בעברית
+  tts_text: Muraho
+  answer: שלום
+  translation: Muraho
+  xp_reward: 20
+- id: 29
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike indamukanyo בעברית
+  tts_text: Mwaramutse
+  answer: בוקר טוב
+  translation: Mwaramutse
+  xp_reward: 20
+- id: 30
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike indamukanyo בעברית
+  tts_text: Mwiriwe
+  answer: Good afternoon
+  translation: Mwiriwe
+  xp_reward: 20
+- id: 31
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro בעברית
+  tts_text: Ijoro ryiza
+  answer: Good night
+  translation: Ijoro ryiza
+  xp_reward: 20
+- id: 32
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike ikibazo בעברית
+  tts_text: Amakuru
+  answer: מה שלומך?
+  translation: Amakuru
+  xp_reward: 20
+- id: 33
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike igisubizo בעברית
+  tts_text: Ni meza
+  answer: I'm fine
+  translation: Ni meza
+  xp_reward: 20
+- id: 34
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro בעברית
+  tts_text: Murakaza neza
+  answer: Welcome
+  translation: Murakaza neza
+  xp_reward: 22
+- id: 35
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro בעברית
+  tts_text: Tuzasubira
+  answer: See you מאוחר יותר
+  translation: Tuzasubira
+  xp_reward: 20
+- id: 36
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro בעברית
+  tts_text: Murabeho
+  answer: להתראות
+  translation: Murabeho
+  xp_reward: 20
+- id: 37
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro בעברית
+  tts_text: Hashize igihe tutabonanye
+  answer: Long זמן no see
+  translation: Hashize igihe tutabonanye
+  xp_reward: 25
+- id: 38
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro בעברית
+  tts_text: Nishimiye kukubona
+  answer: Nice to meet you
+  translation: Nishimiye kukubona
+  xp_reward: 25
+- id: 39
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo indamukanyo ikwiye
+  tts_text: Muraho
+  options:
+  - להתראות
+  - שלום
+  - בוקר טוב
+  answer: שלום
+  xp_reward: 15
+- id: 40
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo indamukanyo ikwiye
+  tts_text: Mwaramutse
+  options:
+  - ערב טוב
+  - בוקר טוב
+  - Good night
+  answer: בוקר טוב
+  xp_reward: 15
+- id: 41
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo indamukanyo ikwiye
+  tts_text: Mwiriwe
+  options:
+  - בוקר טוב
+  - Good afternoon
+  - Good night
+  answer: Good afternoon
+  xp_reward: 15
+- id: 42
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo ibisobanuro bikwiye
+  tts_text: Amakuru
+  options:
+  - להתראות
+  - מה שלומך?
+  - Welcome
+  answer: מה שלומך?
+  xp_reward: 15
+- id: 43
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo igisubizo gikwiye
+  tts_text: Ni meza
+  options:
+  - I'm fine
+  - Thank you
+  - Welcome
+  answer: I'm fine
+  xp_reward: 15
+- id: 44
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo indamukanyo y'igiciro ikwiye
+  tts_text: Murabeho
+  options:
+  - שלום
+  - להתראות
+  - See you מאוחר יותר
+  answer: להתראות
+  xp_reward: 15
+- id: 45
+  type: speaking
+  question: Vuga indamukanyo בעברית
+  prompt: Muraho
+  translation: שלום
+  xp_reward: 15
+- id: 46
+  type: speaking
+  question: Vuga indamukanyo בעברית
+  prompt: Mwaramutse
+  translation: בוקר טוב
+  xp_reward: 15
+- id: 47
+  type: speaking
+  question: Vuga indamukanyo בעברית
+  prompt: Mwiriwe
+  translation: Good afternoon
+  xp_reward: 15
+- id: 48
+  type: speaking
+  question: Vuga iyi interuro בעברית
+  prompt: Ijoro ryiza
+  translation: Good night
+  xp_reward: 18
+- id: 49
+  type: speaking
+  question: Vuga ikibazo בעברית
+  prompt: Amakuru
+  translation: מה שלומך?
+  xp_reward: 15
+- id: 50
+  type: speaking
+  question: Vuga igisubizo בעברית
+  prompt: Ni meza
+  translation: I'm fine
+  xp_reward: 15
+- id: 51
+  type: speaking
+  question: Vuga iyi interuro בעברית
+  prompt: Murakaza neza
+  translation: Welcome
+  xp_reward: 18
+- id: 52
+  type: speaking
+  question: Vuga iyi interuro בעברית
+  prompt: Tuzasubira
+  translation: See you מאוחר יותר
+  xp_reward: 18
+- id: 53
+  type: speaking
+  question: Vuga iyi interuro בעברית
+  prompt: Murabeho
+  translation: להתראות
+  xp_reward: 15
+- id: 54
+  type: speaking
+  question: Vuga iyi interuro בעברית
+  prompt: Hashize igihe tutabonanye
+  translation: Long זמן no see
+  xp_reward: 22
+- id: 55
+  type: speaking
+  question: Vuga iyi interuro בעברית
+  prompt: Nishimiye kukubona
+  translation: Nice to meet you
+  xp_reward: 20
+- id: 56
+  type: speaking
+  question: Vuga iyi interuro בעברית
+  prompt: Muraho, Mama!
+  translation: שלום, אמא!
+  xp_reward: 18
+- id: 57
+  type: speaking
+  question: Vuga iyi interuro בעברית
+  prompt: Mwaramutse, Data!
+  translation: בוקר טוב, אבא!
+  xp_reward: 18
+- id: 58
+  type: word_bank
+  question: Ubaka interuro y'icyongereza isobanura 'Muraho, Mama!'
+  word_bank:
+  - שלום
+  - אמא
+  - אבא
+  - בוקר טוב
+  correct_answer:
+  - שלום
+  - אמא
+  xp_reward: 18
+- id: 59
+  type: word_bank
+  question: Ubaka interuro y'icyongereza isobanura 'Mwaramutse, Data!'
+  word_bank:
+  - בוקר טוב
+  - אבא
+  - שלום
+  - אמא
+  correct_answer:
+  - בוקר טוב
+  - אבא
+  xp_reward: 18
+- id: 60
+  type: word_bank
+  question: Ubaka interuro y'icyongereza isobanura 'Ijoro ryiza, mwana wanjye!'
+  word_bank:
+  - Good night
+  - my ילד
+  - שלום
+  - אמא
+  correct_answer:
+  - Good night
+  - my ילד
+  xp_reward: 20
+- id: 61
+  type: word_bank
+  question: Ubaka ikibazo cy'icyongereza gisobanura 'Amakuru uyu munsi?'
+  word_bank:
+  - How are you
+  - היום
+  - I'm fine
+  - thank you
+  correct_answer:
+  - How are you
+  - היום
+  xp_reward: 20
+- id: 62
+  type: word_bank
+  question: Ubaka igisubizo cy'icyongereza gisobanura 'Ni meza, murakoze.'
+  word_bank:
+  - I'm fine
+  - thank you
+  - How are you
+  - היום
+  correct_answer:
+  - I'm fine
+  - thank you
+  xp_reward: 20
+- id: 63
+  type: word_bank
+  question: Ubaka indamukanyo y'icyongereza isobanura 'Tuzasubira ku ishuri'
+  word_bank:
+  - See you מאוחר יותר
+  - at בית ספר
+  - להתראות
+  - מחר
+  correct_answer:
+  - See you מאוחר יותר
+  - at בית ספר
+  xp_reward: 20
+- id: 64
+  type: word_bank
+  question: Ubaka indamukanyo y'icyongereza isobanura 'Murabeho, tuzabonana ejo'
+  word_bank:
+  - להתראות
+  - see you
+  - מחר
+  - See you מאוחר יותר
+  correct_answer:
+  - להתראות
+  - see you
+  - מחר
+  xp_reward: 22
+- id: 65
+  type: word_bank
+  question: Ubaka umugisha w'icyongereza usobanura 'Umunsi mwiza mu kazi'
+  word_bank:
+  - Have אחד nice day
+  - at עבודה
+  - Take care
+  - on your trip
+  correct_answer:
+  - Have אחד nice day
+  - at עבודה
+  xp_reward: 20
+- id: 66
+  type: word_bank
+  question: Ubaka interuro y'icyongereza isobanura 'Wirinde mu rugendo rwawe'
+  word_bank:
+  - Take care
+  - on your trip
+  - Have אחד nice day
+  - at עבודה
+  correct_answer:
+  - Take care
+  - on your trip
+  xp_reward: 20
+- id: 67
+  type: word_bank
+  question: Ubaka indamukanyo y'icyongereza isobanura 'Hashize igihe tutabonanye, nshuti yanjye'
+  word_bank:
+  - Long זמן no see
+  - my חבר
+  - שלום
+  - How are you
+  correct_answer:
+  - Long זמן no see
+  - my חבר
+  xp_reward: 22
+- id: 68
+  type: word_bank
+  question: Ubaka ikibazo cy'icyongereza gisobanura 'Ni iki kuri wowe uyu munsi?'
+  word_bank:
+  - What's up
+  - with you
+  - היום
+  - How are you
+  correct_answer:
+  - What's up
+  - with you
+  - היום
+  xp_reward: 22
+- id: 69
+  type: word_bank
+  question: Ubaka interuro y'icyongereza isobanura 'Nishimiye kukubona mu birori'
+  word_bank:
+  - Nice to meet you
+  - at ה party
+  - Welcome
+  - at בית
+  correct_answer:
+  - Nice to meet you
+  - at ה party
+  xp_reward: 22
+- id: 70
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Muraho, Mama!'
+  scrambled_words:
+  - שלום
+  - אמא
+  correct_sentence: שלום, אמא!
+  translation: Muraho, Mama!
+  xp_reward: 18
+- id: 71
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Mwaramutse, Data!'
+  scrambled_words:
+  - בוקר טוב
+  - אבא
+  correct_sentence: בוקר טוב, אבא!
+  translation: Mwaramutse, Data!
+  xp_reward: 18
+- id: 72
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Ijoro ryiza, mwana wanjye!'
+  scrambled_words:
+  - Good night
+  - my
+  - ילד
+  correct_sentence: Good night, my ילד!
+  translation: Ijoro ryiza, mwana wanjye!
+  xp_reward: 20
+- id: 73
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Amakuru uyu munsi?'
+  scrambled_words:
+  - How are you
+  - היום
+  correct_sentence: How are you היום?
+  translation: Amakuru uyu munsi?
+  xp_reward: 18
+- id: 74
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Ni meza, murakoze.'
+  scrambled_words:
+  - I'm fine
+  - thank you
+  correct_sentence: I'm fine, thank you.
+  translation: Ni meza, murakoze.
+  xp_reward: 18
+- id: 75
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Tuzasubira ku ishuri'
+  scrambled_words:
+  - See you מאוחר יותר
+  - at
+  - בית ספר
+  correct_sentence: See you מאוחר יותר at בית ספר.
+  translation: Tuzasubira ku ishuri.
+  xp_reward: 20
+- id: 76
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Murabeho, tuzabonana ejo'
+  scrambled_words:
+  - להתראות
+  - see you
+  - מחר
+  correct_sentence: להתראות, see you מחר.
+  translation: Murabeho, tuzabonana ejo.
+  xp_reward: 22
+- id: 77
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Umunsi mwiza mu kazi'
+  scrambled_words:
+  - Have אחד nice day
+  - at
+  - עבודה
+  correct_sentence: Have אחד nice day at עבודה.
+  translation: Umunsi mwiza mu kazi.
+  xp_reward: 20
+- id: 78
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Wirinde mu rugendo rwawe'
+  scrambled_words:
+  - Take care
+  - 'on'
+  - your
+  - trip
+  correct_sentence: Take care on your trip.
+  translation: Wirinde mu rugendo rwawe.
+  xp_reward: 20
+- id: 79
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Hashize igihe tutabonanye, nshuti yanjye'
+  scrambled_words:
+  - Long זמן no see
+  - my
+  - חבר
+  correct_sentence: Long זמן no see, my חבר.
+  translation: Hashize igihe tutabonanye, nshuti yanjye.
+  xp_reward: 25
+- id: 80
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Ni iki kuri wowe uyu munsi?'
+  scrambled_words:
+  - What's up
+  - with you
+  - היום
+  correct_sentence: What's up with you היום?
+  translation: Ni iki kuri wowe uyu munsi?
+  xp_reward: 22
+- id: 81
+  type: fill_blank
+  question: Uzuza indamukanyo
+  text_with_blank: ___ , אמא!
+  options:
+  - שלום
+  - בוקר טוב
+  - Good afternoon
+  correct_answer: שלום
+  translation: Muraho, Mama!
+  xp_reward: 15
+- id: 82
+  type: fill_blank
+  question: Uzuza indamukanyo
+  text_with_blank: ___ , אבא!
+  options:
+  - שלום
+  - בוקר טוב
+  - Good afternoon
+  correct_answer: בוקר טוב
+  translation: Mwaramutse, Data!
+  xp_reward: 15
+- id: 83
+  type: fill_blank
+  question: Uzuza interuro
+  text_with_blank: ___ ___, my ילד!
+  options:
+  - Good night
+  - בוקר טוב
+  - Good afternoon
+  correct_answer: Good night
+  translation: Ijoro ryiza, mwana wanjye!
+  xp_reward: 18
+- id: 84
+  type: fill_blank
+  question: Uzuza ikibazo
+  text_with_blank: ___ ___ היום?
+  options:
+  - How are you
+  - I'm fine
+  - שלום
+  correct_answer: How are you
+  translation: Amakuru uyu munsi?
+  xp_reward: 15
+- id: 85
+  type: fill_blank
+  question: Uzuza igisubizo
+  text_with_blank: I'm fine, ___.
+  options:
+  - thank you
+  - שלום
+  - how are you
+  correct_answer: thank you
+  translation: Ni meza, murakoze.
+  xp_reward: 15
+- id: 86
+  type: fill_blank
+  question: Uzuza indamukanyo
+  text_with_blank: See you מאוחר יותר ___.
+  options:
+  - at בית ספר
+  - at בית
+  - at עבודה
+  correct_answer: at בית ספר
+  translation: Tuzasubira ku ishuri.
+  xp_reward: 18
+- id: 87
+  type: fill_blank
+  question: Uzuza indamukanyo
+  text_with_blank: להתראות, see you ___.
+  options:
+  - מחר
+  - היום
+  - good night
+  correct_answer: מחר
+  translation: Murabeho, tuzabonana ejo.
+  xp_reward: 18
+- id: 88
+  type: fill_blank
+  question: Uzuza umugisha
+  text_with_blank: Have אחד nice day ___.
+  options:
+  - at עבודה
+  - at בית
+  - at בית ספר
+  correct_answer: at עבודה
+  translation: Umunsi mwiza mu kazi.
+  xp_reward: 15
+- id: 89
+  type: fill_blank
+  question: Uzuza interuro
+  text_with_blank: Take care on your ___.
+  options:
+  - trip
+  - עבודה
+  - בית
+  correct_answer: trip
+  translation: Wirinde mu rugendo rwawe.
+  xp_reward: 18
+- id: 90
+  type: fill_blank
+  question: Uzuza indamukanyo
+  text_with_blank: ___ ___ ___, my חבר.
+  options:
+  - Long זמן no see
+  - How are you
+  - Nice to meet you
+  correct_answer: Long זמן no see
+  translation: Hashize igihe tutabonanye, nshuti yanjye.
+  xp_reward: 20
+- id: 91
+  type: fill_blank
+  question: Uzuza ikibazo
+  text_with_blank: What's up with you ___?
+  options:
+  - היום
+  - מחר
+  - אתמול
+  correct_answer: היום
+  translation: Ni iki kuri wowe uyu munsi?
+  xp_reward: 18
+- id: 98
+  type: matching
+  question: Huza indamukanyo n'ibisobanuro byayo
+  pairs:
+  - left: Muraho
+    right: שלום
+  - left: Mwaramutse
+    right: בוקר טוב
+  - left: Mwiriwe
+    right: Good afternoon
+  - left: Ijoro ryiza
+    right: Good night
+  - left: Amakuru
+    right: מה שלומך?
+  - left: Ni meza
+    right: I'm fine
+  xp_reward: 25
+- id: 99
+  type: matching
+  question: Huza indamukanyo z'igiciro n'ubusabe
+  pairs:
+  - left: Murabeho
+    right: להתראות
+  - left: Tuzasubira
+    right: See you מאוחר יותר
+  - left: Umunsi mwiza
+    right: Have אחד nice day
+  - left: Wirinde
+    right: Take care
+  - left: Hashize igihe tutabonanye
+    right: Long זמן no see
+  - left: Nishimiye kukubona
+    right: Nice to meet you
+  xp_reward: 25
+- id: 100
+  type: matching
+  question: Huza interuro n'abagize umuryango
+  pairs:
+  - left: Muraho, Mama!
+    right: שלום, אמא!
+  - left: Mwaramutse, Data!
+    right: בוקר טוב, אבא!
+  - left: Ijoro ryiza, mwana wanjye!
+    right: Good night, my ילד!
+  - left: Hashize igihe tutabonanye, nshuti yanjye
+    right: Long זמן no see, my חבר
+  xp_reward: 25
+- id: 107
+  type: choose_missing
+  question: Hitamo ijambo ribuze
+  sentence: ___ היום?
+  missing_word_position: 1
+  options:
+  - How are you
+  - שלום
+  - I'm fine
+  correct_answer: How are you
+  translation: Amakuru uyu munsi?
+  xp_reward: 15
+- id: 108
+  type: choose_missing
+  question: Hitamo ijambo ribuze
+  sentence: I'm fine, ___.
+  missing_word_position: 3
+  options:
+  - thank you
+  - how are you
+  - שלום
+  correct_answer: thank you
+  translation: Ni meza, murakoze.
+  xp_reward: 15
+- id: 109
+  type: choose_missing
+  question: Hitamo ijambo ribuze
+  sentence: Have אחד nice day ___.
+  missing_word_position: 4
+  options:
+  - at עבודה
+  - at בית
+  - at בית ספר
+  correct_answer: at עבודה
+  translation: Umunsi mwiza mu kazi.
+  xp_reward: 15
+- id: 110
+  type: read_answer
+  question: Umuntu B ameze אכל?
+  text: 'אחד: Muraho! Amakuru? B: Ni meza, murakoze.'
+  options:
+  - Apfite agahinda
+  - Ameze neza
+  - Ananirwe
+  - Ashonye
+  correct_answer: Ameze neza
+  xp_reward: 15
+- id: 111
+  type: read_answer
+  question: Ni ikihe gihe cy'umunsi?
+  text: 'אחד: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!'
+  options:
+  - Mu gitondo
+  - Mu manywa
+  - Ni mugoroba
+  - Ijoro
+  correct_answer: Mu gitondo
+  xp_reward: 18
+- id: 112
+  type: read_answer
+  question: Bazasubira he?
+  text: 'אחד: Tuzasubira ku ishuri. B: Murabeho!'
+  options:
+  - Mu rugo
+  - Ku ishuri
+  - Ku kazi
+  - Ku isoko
+  correct_answer: Ku ishuri
+  xp_reward: 15
+- id: 113
+  type: true_false
+  question: Ese iki kintu ni ukuri cyangwa ikinyoma?
+  statement: '''Mwaramutse'' ikoreshwa mu gitondo.'
+  correct_answer: true
+  xp_reward: 10
+- id: 114
+  type: true_false
+  question: Ese iki kintu ni ukuri cyangwa ikinyoma?
+  statement: '''Mwiriwe'' ikoreshwa gusa nijoro.'
+  correct_answer: false
+  xp_reward: 10
+- id: 115
+  type: true_false
+  question: Ese iki kintu ni ukuri cyangwa ikinyoma?
+  statement: '''Murabeho'' bisobanura muraho.'
+  correct_answer: false
+  xp_reward: 10
+- id: 116
+  type: true_false
+  question: Ese iki kintu ni ukuri cyangwa ikinyoma?
+  statement: '''Nishimiye kukubona'' bisobanura ''Nice to meet you''.'
+  correct_answer: true
+  xp_reward: 15
+- id: 117
+  type: conversation
+  question: Subiza indamukanyo ukoresheje amagambo atanzwe
+  bot_message: Muraho! Amakuru?
+  translation: שלום! מה שלומך?
+  word_bank:
+  - I'm fine
+  - thank you
+  - How are you
+  - שלום
+  correct_response:
+  - I'm fine
+  - thank you
+  xp_reward: 20
+- id: 118
+  type: conversation
+  question: Hitamo igisubizo gikwiye
+  bot_message: Mwaramutse, Mama!
+  translation: בוקר טוב, אמא!
+  options:
+  - בוקר טוב, my ילד!
+  - Good afternoon, my ילד!
+  - Good night, my ילד!
+  correct_response: בוקר טוב, my ילד!
+  xp_reward: 18
+- id: 119
+  type: conversation
+  question: Subiza indamukanyo y'igiciro
+  bot_message: Tuzasubira ku ishuri.
+  translation: See you מאוחר יותר at בית ספר.
+  options:
+  - להתראות!
+  - שלום!
+  - מה שלומך?
+  correct_response: להתראות!
+  xp_reward: 15
+- id: 120
+  type: conversation
+  question: Subiza ikibazo ukoresheje amagambo atanzwe
+  bot_message: Amakuru uyu munsi?
+  translation: How are you היום?
+  word_bank:
+  - I'm fine
+  - thank you
+  - How are you
+  - היום
+  correct_response:
+  - I'm fine
+  - thank you
+  xp_reward: 20
+- id: 121
+  type: story
+  title: Guhura n'Inshuti
+  story_intro: Soma ikiganiro. Hanyuma ubake interuro.
+  story_segments:
+  - text: Umuntu אחד aramuhora.
+  - text: Umuntu אחד abaza uko bameze.
+  - text: Umuntu B avuga ko ameze neza anashimira.
+  - text: Umuntu אחד avuga ko yishimiye kumubona.
+  - text: Umuntu B aramukaririza.
+  - text: Umuntu אחד avuga tuzasubira.
+  - text: Umuntu B aramuragira.

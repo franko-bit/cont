@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "Aprenda common greetings e expressions em Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe para single words/phrases)
+ - id: 1
+ type: translation
+ Pergunta: "Como se diz 'Olá' em kinyarwanda?"
+ Resposta: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Pergunta: "Como se diz 'bom morning' em kinyarwanda?"
+ Resposta: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Pergunta: "Como se diz 'bom afternoon / bom evening' em kinyarwanda?"
+ Resposta: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Pergunta: "Como se diz 'bom night' em kinyarwanda?"
+ Resposta: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Pergunta: "Como se pergunta 'How são you?' em kinyarwanda?"
+ Resposta: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Pergunta: "Como se diz 'I'm fine' em kinyarwanda?"
+ Resposta: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Pergunta: "Como se diz 'Welcome' em kinyarwanda?"
+ Resposta: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Pergunta: "Como se diz 'ver you later' em kinyarwanda?"
+ Resposta: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Pergunta: "Como se diz 'Adeus' em kinyarwanda?"
+ Resposta: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Pergunta: "Como se diz 'Have um nice day' em kinyarwanda?"
+ Resposta: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Pergunta: "Como se diz 'Take care' em kinyarwanda?"
+ Resposta: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Pergunta: "Como se diz 'Long time não ver' em kinyarwanda?"
+ Resposta: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Pergunta: "Como se pergunta 'What's up?' em kinyarwanda?"
+ Resposta: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Pergunta: "Como se diz 'Nice para meet you' em kinyarwanda?"
+ Resposta: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings com Família Members (Simple combinations)
+ - id: 15
+ type: translation
+ Pergunta: "Como se diz 'Olá, mother!' em kinyarwanda?"
+ Resposta: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ Pergunta: "Como se diz 'bom morning, father!' em kinyarwanda?"
+ Resposta: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ Pergunta: "Como se diz 'bom night, my child!' em kinyarwanda?"
+ Resposta: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common Pergunta (Fixed expressions)
+ - id: 18
+ type: translation
+ Pergunta: "Como se pergunta 'How são you today?' em kinyarwanda?"
+ Resposta: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Pergunta: "Como se diz 'I'm fine, thank you' em kinyarwanda?"
+ Resposta: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Pergunta: "Como se pergunta 'What's up com you today?' em kinyarwanda?"
+ Resposta: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # não DIRECT TRANSLATION para COMPLEX DIALOGUES ou PARAGRAPHS
+ # Instead, we use Frase building, Associe, e word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ Pergunta: "O que significa 'Muraho' nesta frase?"
+ options:
+ - "Adeus"
+ - "Olá"
+ - "bom morning"
+ - "bom night"
+ Resposta: "Olá"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ Pergunta: "O que significa 'Mwaramutse' nesta frase?"
+ options:
+ - "bom evening"
+ - "bom morning"
+ - "bom night"
+ - "Adeus"
+ Resposta: "bom morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ Pergunta: "O que significa 'Amakuru' nesta frase?"
+ options:
+ - "Adeus"
+ - "Welcome"
+ - "How são you?"
+ - "ver you later"
+ Resposta: "How são you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ Pergunta: "O que significa 'Ni meza' nesta frase?"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ Resposta: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Pergunta: "O que significa 'Murabeho' nesta frase?"
+ options:
+ - "Olá"
+ - "Welcome"
+ - "Adeus"
+ - "ver you later"
+ Resposta: "Adeus"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Pergunta: "O que significa 'Tuzasubira' nesta frase?"
+ options:
+ - "Adeus"
+ - "ver you later"
+ - "Welcome back"
+ - "Take care"
+ Resposta: "ver you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Pergunta: "O que significa 'Nishimiye kukubona' nesta frase?"
+ options:
+ - "bom morning"
+ - "Nice para meet you"
+ - "Welcome"
+ - "Take care"
+ Resposta: "Nice para meet you"
+ xp_reward: 18
+
+ # 3. Ouçum e Type (Dictation) - Safe because audio é provided
+ - id: 28
+ type: listen_e_type
+ Pergunta: "Ouçum e type o greeting"
+ tts_text: "Muraho"
+ Resposta: "Muraho"
+ translation: "Olá"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_e_type
+ Pergunta: "Ouçum e type o greeting"
+ tts_text: "Mwaramutse"
+ Resposta: "Mwaramutse"
+ translation: "bom morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_e_type
+ Pergunta: "Ouçum e type o greeting"
+ tts_text: "Mwiriwe"
+ Resposta: "Mwiriwe"
+ translation: "bom afternoon / bom evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_e_type
+ Pergunta: "Ouçum e type o phrase"
+ tts_text: "Ijoro ryiza"
+ Resposta: "Ijoro ryiza"
+ translation: "bom night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_e_type
+ Pergunta: "Ouçum e type o Pergunta"
+ tts_text: "Amakuru"
+ Resposta: "Amakuru"
+ translation: "How são you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_e_type
+ Pergunta: "Ouçum e type o response"
+ tts_text: "Ni meza"
+ Resposta: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_e_type
+ Pergunta: "Ouçum e type o phrase"
+ tts_text: "Murakaza neza"
+ Resposta: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_e_type
+ Pergunta: "Ouçum e type o phrase"
+ tts_text: "Tuzasubira"
+ Resposta: "Tuzasubira"
+ translation: "ver you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_e_type
+ Pergunta: "Ouçum e type o phrase"
+ tts_text: "Murabeho"
+ Resposta: "Murabeho"
+ translation: "Adeus"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_e_type
+ Pergunta: "Ouçum e type o phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ Resposta: "Hashize igihe tutabonanye"
+ translation: "Long time não ver"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_e_type
+ Pergunta: "Ouçum e type o phrase"
+ tts_text: "Nishimiye kukubona"
+ Resposta: "Nishimiye kukubona"
+ translation: "Nice para meet you"
+ xp_reward: 25
+
+ # 4. Ouçum e Escolha
+ - id: 39
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "Adeus"
+ - "Olá"
+ - "bom morning"
+ Resposta: "Olá"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "bom evening"
+ - "bom morning"
+ - "bom night"
+ Resposta: "bom morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "bom morning"
+ - "bom afternoon/evening"
+ - "bom night"
+ Resposta: "bom afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "Adeus"
+ - "How são you?"
+ - "Welcome"
+ Resposta: "How são you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ Resposta: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "Olá"
+ - "Adeus"
+ - "ver you later"
+ Resposta: "Adeus"
+ xp_reward: 15
+
+ # 5. Repeat / Fale Exercise
+ - id: 45
+ type: Fale
+ Pergunta: "Say este greeting"
+ prompt: "Muraho"
+ translation: "Olá"
+ xp_reward: 15
+
+ - id: 46
+ type: Fale
+ Pergunta: "Say este greeting"
+ prompt: "Mwaramutse"
+ translation: "bom morning"
+ xp_reward: 15
+
+ - id: 47
+ type: Fale
+ Pergunta: "Say este greeting"
+ prompt: "Mwiriwe"
+ translation: "bom afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: Fale
+ Pergunta: "Say este phrase"
+ prompt: "Ijoro ryiza"
+ translation: "bom night"
+ xp_reward: 18
+
+ - id: 49
+ type: Fale
+ Pergunta: "Ask 'How são you?' em Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How são you?"
+ xp_reward: 15
+
+ - id: 50
+ type: Fale
+ Pergunta: "Say 'I'm fine' em Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: Fale
+ Pergunta: "Say 'Welcome' em Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: Fale
+ Pergunta: "Say 'ver you later' em Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "ver you later"
+ xp_reward: 18
+
+ - id: 53
+ type: Fale
+ Pergunta: "Say 'Adeus' em Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "Adeus"
+ xp_reward: 15
+
+ - id: 54
+ type: Fale
+ Pergunta: "Say 'Long time não ver' em Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time não ver"
+ xp_reward: 22
+
+ - id: 55
+ type: Fale
+ Pergunta: "Say 'Nice para meet you' em Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice para meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: Fale
+ Pergunta: "Say 'Olá, mother!' em Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "Olá, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: Fale
+ Pergunta: "Say 'bom morning, father!' em Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "bom morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank Frase Building - PIECES PROVIDED, não TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ Pergunta: "Build o greeting para 'Olá, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Pergunta: "Build o greeting para 'bom morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ Pergunta: "Build o greeting para 'bom night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ Pergunta: "Build o Pergunta 'How são you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ Pergunta: "Build o response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ Pergunta: "Build o farewell 'ver you later at Escola'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Pergunta: "Build o farewell 'Adeus, ver you Amanhã'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ Pergunta: "Build o well-wish 'Have um nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Pergunta: "Build o phrase 'Take care em your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ Pergunta: "Build o greeting 'Long time não ver, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Pergunta: "Build o Pergunta 'What's up com you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ Pergunta: "Build o phrase 'Nice para meet you at o party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. Frase Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "Olá, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "bom morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "bom night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct Pergunta"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How são you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "ver you later at Escola."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "Adeus, ver you Amanhã."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have um nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care em your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time não ver, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct Pergunta"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up com you today?"
+ xp_reward: 22
+
+ # 8. Fill em o Blank - Escolha FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ Pergunta: "Complete o greeting"
+ text_com_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "Olá, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Pergunta: "Complete o greeting"
+ text_com_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "bom morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ Pergunta: "Complete o phrase"
+ text_com_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "bom night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Pergunta: "Complete o Pergunta"
+ text_com_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How são you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Pergunta: "Complete o response"
+ text_com_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Pergunta: "Complete o farewell"
+ text_com_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "ver you later at Escola."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ Pergunta: "Complete o farewell"
+ text_com_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "Adeus, ver you Amanhã."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ Pergunta: "Complete o well-wish"
+ text_com_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have um nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ Pergunta: "Complete o phrase"
+ text_com_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care em your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ Pergunta: "Complete o greeting"
+ text_com_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time não ver, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ Pergunta: "Complete o Pergunta"
+ text_com_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up com you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word Associe (Pairing)
+ - id: 98
+ type: Associe
+ Pergunta: "Associe o greetings para their meanings"
+ pairs:
+ - Esquerda: "Muraho"
+ Direita: "Olá"
+ - Esquerda: "Mwaramutse"
+ Direita: "bom morning"
+ - Esquerda: "Mwiriwe"
+ Direita: "bom afternoon/evening"
+ - Esquerda: "Ijoro ryiza"
+ Direita: "bom night"
+ - Esquerda: "Amakuru"
+ Direita: "How são you?"
+ - Esquerda: "Ni meza"
+ Direita: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: Associe
+ Pergunta: "Associe o farewells e well-wishes"
+ pairs:
+ - Esquerda: "Murabeho"
+ Direita: "Adeus"
+ - Esquerda: "Tuzasubira"
+ Direita: "ver you later"
+ - Esquerda: "Umunsi mwiza"
+ Direita: "Have um nice day"
+ - Esquerda: "Wirinde"
+ Direita: "Take care"
+ - Esquerda: "Hashize igihe tutabonanye"
+ Direita: "Long time não ver"
+ - Esquerda: "Nishimiye kukubona"
+ Direita: "Nice para meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: Associe
+ Pergunta: "Associe o phrases com Família members"
+ pairs:
+ - Esquerda: "Muraho, Mama!"
+ Direita: "Olá, mother!"
+ - Esquerda: "Mwaramutse, Data!"
+ Direita: "bom morning, father!"
+ - Esquerda: "Ijoro ryiza, mwana wanjye!"
+ Direita: "bom night, my child!"
+ - Esquerda: "Hashize igihe tutabonanye, nshuti yanjye"
+ Direita: "Long time não ver, my friend"
+ xp_reward: 25
+
+ # 10. Escolha Missing Word
+ - id: 107
+ type: choose_missing
+ Pergunta: "Escolha o missing word"
+ Frase: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How são you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ Pergunta: "Escolha o missing word"
+ Frase: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ Pergunta: "Escolha o missing word"
+ Frase: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have um nice day at work."
+ xp_reward: 15
+
+ # 11. Leia e Resposta - Pergunta based em context
+ - id: 110
+ type: read_answer
+ Pergunta: "Leia o dialogue e Resposta o Pergunta"
+ text: "um: Muraho! Amakuru? B: Ni meza, murakoze."
+ Pergunta: "How é person B?"
+ options: ["Triste", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ Pergunta: "Leia o dialogue e Resposta o Pergunta"
+ text: "um: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ Pergunta: "What time de day é it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ Pergunta: "Leia o dialogue e Resposta o Pergunta"
+ text: "um: Tuzasubira ku ishuri. B: Murabeho!"
+ Pergunta: "Where will they ver each other later?"
+ options: ["At home", "At Escola", "At work", "At o Mercado"]
+ correct_answer: "At Escola"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "'Mwaramutse' é used em o morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "'Mwiriwe' é used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "'Murabeho' means Olá."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "'Nishimiye kukubona' means 'Nice para meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Pergunta: "Respond para o greeting by building um Frase"
+ bot_message: "Muraho! Amakuru?"
+ translation: "Olá! How são you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ Pergunta: "Escolha o appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "bom morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ Pergunta: "Respond para o farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "ver you later at Escola."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ Pergunta: "Build um response para o Pergunta"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How são you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build Frase from pieces
+ - id: 121
+ type: story
+ title: "Meeting um Friend - Guhura n'inshuti"
+ story_intro: "Leia o conversation. Then build o Frase."
+ story_segments:
+ - text: "Person um says Olá."
+ - text: "Person um asks how they são."
+ - text: "Person B says they são fine e obrigado them."
+ - text: "Person um says nice para meet them."
+ - text: "Person B welcomes them."
+ - text: "Person um says ver you later."
+ - text: "Person B says Adeus."
+ exercises:
+ - type: word_bank
+ Pergunta: "Build o Kinyarwanda greeting para 'Olá!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ Pergunta: "Build o Pergunta 'How são you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ Pergunta: "Build o response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ Pergunta: "Build o phrase 'Nice para meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ Pergunta: "Build o farewell 'ver you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ Pergunta: "Build o farewell 'Adeus'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Pergunta: "Say este greeting"
+ prompt: "Muraho"
+ translation: "Olá"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Pergunta: "Say este greeting"
+ prompt: "Mwaramutse"
+ translation: "bom morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Pergunta: "Say este phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice para meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ Pergunta: "Say este farewell"
+ prompt: "Murabeho"
+ translation: "Adeus"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ Pergunta: "O que significa 'Muraho' nesta frase?"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["Adeus", "Olá", "Thank you", "Welcome"]
+ correct_answer: "Olá"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ Pergunta: "O que significa 'murakoze' mean em este Frase?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["por favor", "thank you", "welcome", "Adeus"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ Pergunta: "O que significa 'Mwiriwe' nesta frase?"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["bom morning", "bom afternoon/evening", "bom night", "Olá"]
+ correct_answer: "bom afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed Associe
+ - id: 129
+ type: speed_Associe
+ title: "Associe Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - Esquerda: "Olá"
+ Direita: "Muraho"
+ - Esquerda: "bom morning"
+ Direita: "Mwaramutse"
+ - Esquerda: "bom afternoon"
+ Direita: "Mwiriwe"
+ - Esquerda: "bom night"
+ Direita: "Ijoro ryiza"
+ - Esquerda: "How são you?"
+ Direita: "Amakuru"
+ - Esquerda: "I'm fine"
+ Direita: "Ni meza"
+ - Esquerda: "Welcome"
+ Direita: "Murakaza neza"
+ - Esquerda: "ver you later"
+ Direita: "Tuzasubira"
+ - Esquerda: "Adeus"
+ Direita: "Murabeho"
+ - Esquerda: "Take care"
+ Direita: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ Pergunta_count: 5
+ Pergunta:
+ - Pergunta: "Olá"
+ Resposta: "Muraho"
+ - Pergunta: "bom morning"
+ Resposta: "Mwaramutse"
+ - Pergunta: "bom night"
+ Resposta: "Ijoro ryiza"
+ - Pergunta: "How são you?"
+ Resposta: "Amakuru"
+ - Pergunta: "Adeus"
+ Resposta: "Murabeho"
+ xp_reward: 35
+
+# Cartões de memória
+ - id: 111
+ type: Cartões de memória
+ Pergunta: "Cartões de memória"
+ Cartões de memória:
+ - front: "Muraho"
+ back: "Olá"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "bom morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "bom afternoon / bom evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "bom night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How são you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "ver you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "Adeus"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have um nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

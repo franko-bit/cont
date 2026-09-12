@@ -1,0 +1,907 @@
+lesson:
+ name: "Цвета"
+ description: "Учите basic Цвета in Kinyarwanda with Животные and objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Цвета ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Вопрос: "Как сказать 'Красный' на киньяруанда?"
+ Ответ: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Вопрос: "Как сказать 'Синий' на киньяруанда?"
+ Ответ: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Вопрос: "Как сказать 'Зелёный' на киньяруанда?"
+ Ответ: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Вопрос: "Как сказать 'Жёлтый' на киньяруанда?"
+ Ответ: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Вопрос: "Как сказать 'Чёрный' на киньяруанда?"
+ Ответ: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Вопрос: "Как сказать 'Белый' на киньяруанда?"
+ Ответ: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Вопрос: "Как сказать 'Оранжевый' на киньяруанда?"
+ Ответ: "Оранжевый"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, not full Предложение)
+ - id: 8
+ type: translation
+ Вопрос: "Как сказать 'Красный apple' на киньяруанда?"
+ Ответ: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Вопрос: "Как сказать 'Синий sky' на киньяруанда?"
+ Ответ: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Вопрос: "Как сказать 'Зелёный grass' на киньяруанда?"
+ Ответ: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Вопрос: "Как сказать 'Жёлтый sun' на киньяруанда?"
+ Ответ: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Вопрос: "Как сказать 'Чёрный Кошка' на киньяруанда?"
+ Ответ: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Вопрос: "Как сказать 'Белый Корова' на киньяруанда?"
+ Ответ: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Вопрос: "Как сказать 'Оранжевый carrot' на киньяруанда?"
+ Ответ: "Karoti ya Оранжевый"
+ xp_reward: 15
+
+ # Translation - Цвета with Животные (Noun + Color phrases)
+ - id: 15
+ type: translation
+ Вопрос: "Как сказать 'Красный Птица' на киньяруанда?"
+ Ответ: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Вопрос: "Как сказать 'Зелёный Лягушка' на киньяруанда?"
+ Ответ: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Вопрос: "Как сказать 'Синий Рыба' на киньяруанда?"
+ Ответ: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Вопрос: "Как сказать 'Жёлтый Курица' на киньяруанда?"
+ Ответ: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Вопрос: "Как сказать 'Чёрный Кролик' на киньяруанда?"
+ Ответ: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Вопрос: "Как сказать 'Белый Коза' на киньяруанда?"
+ Ответ: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers with Цвета (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ Вопрос: "Как сказать 'One Красный apple' на киньяруанда?"
+ Ответ: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Вопрос: "Как сказать 'Two Синий Птица' на киньяруанда?"
+ Ответ: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Вопрос: "Как сказать 'Three Жёлтый Курица' на киньяруанда?"
+ Ответ: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Вопрос: "Как сказать 'Four Чёрный Кошка' на киньяруанда?"
+ Ответ: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Вопрос: "Как сказать 'Five Белый Корова' на киньяруанда?"
+ Ответ: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color Вопрос (Phrases - safe as they are fixed expressions)
+ - id: 26
+ type: translation
+ Вопрос: "Как спросить 'What color is the apple?' на киньяруанда?"
+ Ответ: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Вопрос: "Как спросить 'What color is the sky?' на киньяруанда?"
+ Ответ: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Вопрос: "Как спросить 'Is the Кошка Чёрный?' на киньяруанда?"
+ Ответ: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR FULL Предложение OR PARAGRAPHS
+ # Instead, we use Предложение building, Сопоставьте, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Вопрос: "Что означает 'Umutuku' в этой фразе?"
+ options:
+ - "Синий"
+ - "Красный"
+ - "Зелёный"
+ - "Жёлтый"
+ Ответ: "Красный"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Вопрос: "Что означает 'Ubururu' в этой фразе?"
+ options:
+ - "Красный"
+ - "Синий"
+ - "Чёрный"
+ - "Белый"
+ Ответ: "Синий"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Вопрос: "Что означает 'Icyatsi' в этой фразе?"
+ options:
+ - "Зелёный"
+ - "Жёлтый"
+ - "Оранжевый"
+ - "Красный"
+ Ответ: "Зелёный"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Вопрос: "Что означает 'Umuhondo' в этой фразе?"
+ options:
+ - "Синий"
+ - "Красный"
+ - "Жёлтый"
+ - "Белый"
+ Ответ: "Жёлтый"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Вопрос: "Что означает 'Umukara' в этой фразе?"
+ options:
+ - "Белый"
+ - "Чёрный"
+ - "Зелёный"
+ - "Оранжевый"
+ Ответ: "Чёрный"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Вопрос: "Что означает 'Umweru' в этой фразе?"
+ options:
+ - "Чёрный"
+ - "Белый"
+ - "Красный"
+ - "Синий"
+ Ответ: "Белый"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Вопрос: "Что означает 'Inyoni itukura' в этой фразе?"
+ options:
+ - "Синий Птица"
+ - "Красный Птица"
+ - "Зелёный Птица"
+ - "Жёлтый Птица"
+ Ответ: "Красный Птица"
+ xp_reward: 15
+
+ # 3. Слушайте and Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_and_type
+ Вопрос: "Слушайте and type the color"
+ tts_text: "Umutuku"
+ Ответ: "Umutuku"
+ translation: "Красный"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Вопрос: "Слушайте and type the color"
+ tts_text: "Ubururu"
+ Ответ: "Ubururu"
+ translation: "Синий"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Вопрос: "Слушайте and type the phrase"
+ tts_text: "Pome ni umutuku"
+ Ответ: "Pome ni umutuku"
+ translation: "The apple is Красный"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_and_type
+ Вопрос: "Слушайте and type the phrase"
+ tts_text: "Ijuru ni ubururu"
+ Ответ: "Ijuru ni ubururu"
+ translation: "The sky is Синий"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_and_type
+ Вопрос: "Слушайте and type the phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ Ответ: "Inyoni itukura iraguruka"
+ translation: "The Красный Птица flies"
+ xp_reward: 25
+
+ # 4. Слушайте and Выберите
+ - id: 41
+ type: listen_and_choose
+ Вопрос: "Слушайте and Выберите the correct color"
+ tts_text: "Umutuku"
+ options:
+ - "Красный"
+ - "Синий"
+ - "Зелёный"
+ Ответ: "Красный"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Вопрос: "Слушайте and Выберите the correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "Красный"
+ - "Жёлтый"
+ - "Чёрный"
+ Ответ: "Жёлтый"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Вопрос: "Слушайте and Выберите the correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "The apple is Красный"
+ - "The sky is Синий"
+ - "The sun is Жёлтый"
+ Ответ: "The apple is Красный"
+ xp_reward: 20
+
+ # 5. Repeat / Говорите Exercise
+ - id: 44
+ type: Говорите
+ Вопрос: "Say this color"
+ prompt: "Umutuku"
+ translation: "Красный"
+ xp_reward: 15
+
+ - id: 45
+ type: Говорите
+ Вопрос: "Say this color"
+ prompt: "Ubururu"
+ translation: "Синий"
+ xp_reward: 15
+
+ - id: 46
+ type: Говорите
+ Вопрос: "Say this phrase"
+ prompt: "Pome itukura"
+ translation: "Красный apple"
+ xp_reward: 18
+
+ - id: 47
+ type: Говорите
+ Вопрос: "Say this Предложение"
+ prompt: "Pome ni umutuku"
+ translation: "The apple is Красный"
+ xp_reward: 20
+
+ - id: 48
+ type: Говорите
+ Вопрос: "Say this Предложение"
+ prompt: "Ijuru ni ubururu"
+ translation: "The sky is Синий"
+ xp_reward: 20
+
+ # 6. Word Bank Предложение Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'The apple is Красный'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'The sky is Синий'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda phrase for 'Красный Птица'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda phrase for 'Синий Рыба'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'The Красный Птица flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'The Зелёный Лягушка jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. Предложение Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Kinyarwanda Предложение"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "The apple is Красный"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Kinyarwanda Предложение"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "The sky is Синий"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Kinyarwanda Предложение"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "The Красный Птица flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Kinyarwanda Предложение"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "The Зелёный Лягушка jumps"
+ xp_reward: 25
+
+ # 8. Fill in the Blank - Выберите FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ Вопрос: "Выберите the correct word to complete the Предложение"
+ text_with_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Красный"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ Вопрос: "Выберите the correct word to complete the Предложение"
+ text_with_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Синий"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ Вопрос: "Выберите the correct word to complete the Предложение"
+ text_with_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "The grass is Зелёный"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ Вопрос: "Выберите the correct word to complete the Предложение"
+ text_with_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "The sun is Жёлтый"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ Вопрос: "Выберите the correct word to complete the phrase"
+ text_with_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Красный Птица flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ Вопрос: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ Вопрос: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ Вопрос: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "Оранжевый", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ Вопрос: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Вопрос: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "Оранжевый"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Вопрос: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Вопрос: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Оранжевый", "Ubururu"]
+ correct_answer: "Оранжевый"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Вопрос: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "Оранжевый"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ Вопрос: "What color is this Птица?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word Сопоставьте (Pairing)
+ - id: 73
+ type: Сопоставьте
+ Вопрос: "Сопоставьте the Цвета"
+ pairs:
+ - Влево: "Красный"
+ Вправо: "Umutuku"
+ - Влево: "Синий"
+ Вправо: "Ubururu"
+ - Влево: "Зелёный"
+ Вправо: "Icyatsi"
+ - Влево: "Жёлтый"
+ Вправо: "Umuhondo"
+ - Влево: "Чёрный"
+ Вправо: "Umukara"
+ - Влево: "Белый"
+ Вправо: "Umweru"
+ - Влево: "Оранжевый"
+ Вправо: "Оранжевый"
+ xp_reward: 25
+
+ - id: 74
+ type: Сопоставьте
+ Вопрос: "Сопоставьте the colored objects"
+ pairs:
+ - Влево: "Красный apple"
+ Вправо: "Pome itukura"
+ - Влево: "Синий sky"
+ Вправо: "Ijuru ry'ubururu"
+ - Влево: "Зелёный grass"
+ Вправо: "Ibyatsi by'icyatsi"
+ - Влево: "Жёлтый sun"
+ Вправо: "Izuba ry'umuhondo"
+ - Влево: "Чёрный Кошка"
+ Вправо: "Injangwe y'umukara"
+ - Влево: "Белый Корова"
+ Вправо: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: Сопоставьте
+ Вопрос: "Сопоставьте the colored Животные"
+ pairs:
+ - Влево: "Красный Птица"
+ Вправо: "Inyoni itukura"
+ - Влево: "Зелёный Лягушка"
+ Вправо: "Igikeri cy'icyatsi"
+ - Влево: "Синий Рыба"
+ Вправо: "Ifi y'ubururu"
+ - Влево: "Жёлтый Курица"
+ Вправо: "Inkoko y'umuhondo"
+ - Влево: "Чёрный Кролик"
+ Вправо: "Urukwavu rw'umukara"
+ - Влево: "Белый Коза"
+ Вправо: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. Выберите Missing Word
+ - id: 80
+ type: choose_missing
+ Вопрос: "Выберите the missing word"
+ Предложение: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Красный"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Вопрос: "Выберите the missing word"
+ Предложение: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Синий"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Вопрос: "Выберите the missing word"
+ Предложение: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Красный Птица flies"
+ xp_reward: 18
+
+ # 12. Читайте and Ответ - Вопрос in English, Ответ based on Kinyarwanda text
+ - id: 83
+ type: read_answer
+ Вопрос: "Читайте the text and Ответ the Вопрос"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ Вопрос: "What color is the apple?"
+ options: ["Красный", "Синий", "Зелёный", "Жёлтый"]
+ correct_answer: "Красный"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ Вопрос: "Читайте the text and Ответ the Вопрос"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ Вопрос: "Что означает the Красный Птица do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ Вопрос: "Читайте the text and Ответ the Вопрос"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ Вопрос: "What color is the Корова?"
+ options: ["Чёрный", "Белый", "Жёлтый", "Красный"]
+ correct_answer: "Белый"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ Вопрос: "Is this statement true or false?"
+ statement: "Pome ni umutuku."
+ translation: "The apple is Красный"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ Вопрос: "Is this statement true or false?"
+ statement: "Ijuru ni icyatsi."
+ translation: "The sky is Зелёный"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ Вопрос: "Is this statement true or false?"
+ statement: "Inka ni umweru."
+ translation: "The Корова is Белый"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ Вопрос: "Is this statement true or false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "The Красный Птица flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ Вопрос: "Respond to the Вопрос by building a Предложение"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ Вопрос: "Respond to the Вопрос"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is the sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ Вопрос: "Respond to the Вопрос"
+ bot_message: "Injangwe ni umukara?"
+ translation: "Is the Кошка Чёрный?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build Предложение from pieces
+ - id: 93
+ type: story
+ title: "Цвета in the Field"
+ story_intro: "Читайте about the colorful Животные. Then build the Предложение."
+ story_segments:
+ - text: "There is a Красный Птица in the sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: "The Птица flies above."
+ - text: "There is a Зелёный Лягушка near the Вода."
+ - text: "The Лягушка jumps."
+ - text: "There is a Синий Рыба in the Вода."
+ - text: "The Рыба swims."
+ exercises:
+ - type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'The Красный Птица flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'The Зелёный Лягушка jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'The Синий Рыба swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ Вопрос: "Say the color"
+ prompt: "Umutuku"
+ translation: "Красный"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ Вопрос: "Say the color"
+ prompt: "Agasumbashyamba" # Жираф - testing color knowledge in context
+ translation: "Жираф (they are Жёлтый and Коричневый)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ Вопрос: "Say the phrase"
+ prompt: "Pome itukura"
+ translation: "Красный apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ Вопрос: "Что означает 'umutuku' mean in this Предложение?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["Красный", "Синий", "Зелёный", "Жёлтый"]
+ correct_answer: "Красный"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ Вопрос: "Что означает 'itukura' mean in this Предложение?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["Красный", "Синий", "Зелёный", "Жёлтый"]
+ correct_answer: "Красный"
+ note: "itukura is the adjective form of umutuku when describing a noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ Вопрос: "Что означает 'cy'icyatsi' mean in this Предложение?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["Красный", "Синий", "Зелёный", "Жёлтый"]
+ correct_answer: "Зелёный"
+ xp_reward: 18
+
+ # 18. Speed Сопоставьте
+ - id: 100
+ type: speed_Сопоставьте
+ title: "Сопоставьте Madness: Цвета"
+ time_limit_seconds: 45
+ pairs:
+ - Влево: "Красный"
+ Вправо: "Umutuku"
+ - Влево: "Синий"
+ Вправо: "Ubururu"
+ - Влево: "Зелёный"
+ Вправо: "Icyatsi"
+ - Влево: "Жёлтый"
+ Вправо: "Umuhondo"
+ - Влево: "Чёрный"
+ Вправо: "Umukara"
+ - Влево: "Белый"
+ Вправо: "Umweru"
+ - Влево: "Оранжевый"
+ Вправо: "Оранжевый"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: Цвета"
+ time_limit_seconds: 30
+ Вопрос_count: 5
+ Вопрос:
+ - Вопрос: "Красный"
+ Ответ: "Umutuku"
+ - Вопрос: "Синий"
+ Ответ: "Ubururu"
+ - Вопрос: "Зелёный"
+ Ответ: "Icyatsi"
+ - Вопрос: "Жёлтый"
+ Ответ: "Umuhondo"
+ - Вопрос: "Чёрный"
+ Ответ: "Umukara"
+ xp_reward: 35
+
+# Карточки
+ - id: 111
+ type: Карточки
+ Вопрос: "Карточки"
+ Карточки:
+ - front: "Umutuku"
+ back: "Красный"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "Синий"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "Зелёный"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "Жёлтый"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "Чёрный"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "Белый"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Оранжевый"
+ back: "Оранжевый"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "Красный apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "Синий sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "Зелёный grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

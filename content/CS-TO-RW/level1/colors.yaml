@@ -1,0 +1,907 @@
+lesson:
+ name: "Barvy"
+ description: "Učte se basic Barvy in Kinyarwanda with Zvířata and objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Barvy ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Otázka: "Jak se řekne 'Červená' v kinyarwandštině?"
+ Odpověď: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Otázka: "Jak se řekne 'Modrá' v kinyarwandštině?"
+ Odpověď: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Otázka: "Jak se řekne 'Zelená' v kinyarwandštině?"
+ Odpověď: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Otázka: "Jak se řekne 'Žlutá' v kinyarwandštině?"
+ Odpověď: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Otázka: "Jak se řekne 'Černá' v kinyarwandštině?"
+ Odpověď: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Otázka: "Jak se řekne 'Bílá' v kinyarwandštině?"
+ Odpověď: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Otázka: "Jak se řekne 'Oranžová' v kinyarwandštině?"
+ Odpověď: "Oranžová"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, not full Věta)
+ - id: 8
+ type: translation
+ Otázka: "Jak se řekne 'Červená apple' v kinyarwandštině?"
+ Odpověď: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Otázka: "Jak se řekne 'Modrá sky' v kinyarwandštině?"
+ Odpověď: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Otázka: "Jak se řekne 'Zelená grass' v kinyarwandštině?"
+ Odpověď: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Otázka: "Jak se řekne 'Žlutá sun' v kinyarwandštině?"
+ Odpověď: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Otázka: "Jak se řekne 'Černá Kočka' v kinyarwandštině?"
+ Odpověď: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Otázka: "Jak se řekne 'Bílá Kráva' v kinyarwandštině?"
+ Odpověď: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Otázka: "Jak se řekne 'Oranžová carrot' v kinyarwandštině?"
+ Odpověď: "Karoti ya Oranžová"
+ xp_reward: 15
+
+ # Translation - Barvy with Zvířata (Noun + Color phrases)
+ - id: 15
+ type: translation
+ Otázka: "Jak se řekne 'Červená Pták' v kinyarwandštině?"
+ Odpověď: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Otázka: "Jak se řekne 'Zelená Žába' v kinyarwandštině?"
+ Odpověď: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Otázka: "Jak se řekne 'Modrá Ryba' v kinyarwandštině?"
+ Odpověď: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Otázka: "Jak se řekne 'Žlutá Kuře' v kinyarwandštině?"
+ Odpověď: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Otázka: "Jak se řekne 'Černá Králík' v kinyarwandštině?"
+ Odpověď: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Otázka: "Jak se řekne 'Bílá Koza' v kinyarwandštině?"
+ Odpověď: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Čísla with Barvy (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ Otázka: "Jak se řekne 'One Červená apple' v kinyarwandštině?"
+ Odpověď: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Otázka: "Jak se řekne 'Two Modrá Pták' v kinyarwandštině?"
+ Odpověď: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Otázka: "Jak se řekne 'Three Žlutá Kuře' v kinyarwandštině?"
+ Odpověď: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Otázka: "Jak se řekne 'Four Černá Kočka' v kinyarwandštině?"
+ Odpověď: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Otázka: "Jak se řekne 'Five Bílá Kráva' v kinyarwandštině?"
+ Odpověď: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color Otázka (Phrases - safe as they are fixed expressions)
+ - id: 26
+ type: translation
+ Otázka: "Jak se zeptáte 'What color is the apple?' v kinyarwandštině?"
+ Odpověď: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Otázka: "Jak se zeptáte 'What color is the sky?' v kinyarwandštině?"
+ Odpověď: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Otázka: "Jak se zeptáte 'Is the Kočka Černá?' v kinyarwandštině?"
+ Odpověď: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR FULL Věta OR PARAGRAPHS
+ # Instead, we use Věta building, Spojte, and Slovo bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Otázka: "Co znamená 'Umutuku' v této větě?"
+ options:
+ - "Modrá"
+ - "Červená"
+ - "Zelená"
+ - "Žlutá"
+ Odpověď: "Červená"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Otázka: "Co znamená 'Ubururu' v této větě?"
+ options:
+ - "Červená"
+ - "Modrá"
+ - "Černá"
+ - "Bílá"
+ Odpověď: "Modrá"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Otázka: "Co znamená 'Icyatsi' v této větě?"
+ options:
+ - "Zelená"
+ - "Žlutá"
+ - "Oranžová"
+ - "Červená"
+ Odpověď: "Zelená"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Otázka: "Co znamená 'Umuhondo' v této větě?"
+ options:
+ - "Modrá"
+ - "Červená"
+ - "Žlutá"
+ - "Bílá"
+ Odpověď: "Žlutá"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Otázka: "Co znamená 'Umukara' v této větě?"
+ options:
+ - "Bílá"
+ - "Černá"
+ - "Zelená"
+ - "Oranžová"
+ Odpověď: "Černá"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Otázka: "Co znamená 'Umweru' v této větě?"
+ options:
+ - "Černá"
+ - "Bílá"
+ - "Červená"
+ - "Modrá"
+ Odpověď: "Bílá"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Otázka: "Co znamená 'Inyoni itukura' v této větě?"
+ options:
+ - "Modrá Pták"
+ - "Červená Pták"
+ - "Zelená Pták"
+ - "Žlutá Pták"
+ Odpověď: "Červená Pták"
+ xp_reward: 15
+
+ # 3. Poslouchejte and Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the color"
+ tts_text: "Umutuku"
+ Odpověď: "Umutuku"
+ translation: "Červená"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the color"
+ tts_text: "Ubururu"
+ Odpověď: "Ubururu"
+ translation: "Modrá"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ tts_text: "Pome ni umutuku"
+ Odpověď: "Pome ni umutuku"
+ translation: "The apple is Červená"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ tts_text: "Ijuru ni ubururu"
+ Odpověď: "Ijuru ni ubururu"
+ translation: "The sky is Modrá"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ Odpověď: "Inyoni itukura iraguruka"
+ translation: "The Červená Pták flies"
+ xp_reward: 25
+
+ # 4. Poslouchejte and Vyberte
+ - id: 41
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně color"
+ tts_text: "Umutuku"
+ options:
+ - "Červená"
+ - "Modrá"
+ - "Zelená"
+ Odpověď: "Červená"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně color"
+ tts_text: "Umuhondo"
+ options:
+ - "Červená"
+ - "Žlutá"
+ - "Černá"
+ Odpověď: "Žlutá"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "The apple is Červená"
+ - "The sky is Modrá"
+ - "The sun is Žlutá"
+ Odpověď: "The apple is Červená"
+ xp_reward: 20
+
+ # 5. Repeat / Mluvte Exercise
+ - id: 44
+ type: Mluvte
+ Otázka: "Say this color"
+ prompt: "Umutuku"
+ translation: "Červená"
+ xp_reward: 15
+
+ - id: 45
+ type: Mluvte
+ Otázka: "Say this color"
+ prompt: "Ubururu"
+ translation: "Modrá"
+ xp_reward: 15
+
+ - id: 46
+ type: Mluvte
+ Otázka: "Řekněte tuto větu"
+ prompt: "Pome itukura"
+ translation: "Červená apple"
+ xp_reward: 18
+
+ - id: 47
+ type: Mluvte
+ Otázka: "Say this Věta"
+ prompt: "Pome ni umutuku"
+ translation: "The apple is Červená"
+ xp_reward: 20
+
+ - id: 48
+ type: Mluvte
+ Otázka: "Say this Věta"
+ prompt: "Ijuru ni ubururu"
+ translation: "The sky is Modrá"
+ xp_reward: 20
+
+ # 6. Slovo Bank Věta Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The apple is Červená'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The sky is Modrá'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ Otázka: "Vytvořte kinyarwandskou frázi pro 'Červená Pták'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Otázka: "Vytvořte kinyarwandskou frázi pro 'Modrá Ryba'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Červená Pták flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Zelená Žába jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. Věta Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Kinyarwanda Věta"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "The apple is Červená"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Kinyarwanda Věta"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "The sky is Modrá"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Kinyarwanda Věta"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "The Červená Pták flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Kinyarwanda Věta"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "The Zelená Žába jumps"
+ xp_reward: 25
+
+ # 8. Fill in the Blank - Vyberte FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ Otázka: "Vyberte the Správně Slovo to complete the Věta"
+ text_with_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Červená"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ Otázka: "Vyberte the Správně Slovo to complete the Věta"
+ text_with_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Modrá"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ Otázka: "Vyberte the Správně Slovo to complete the Věta"
+ text_with_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "The grass is Zelená"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ Otázka: "Vyberte the Správně Slovo to complete the Věta"
+ text_with_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "The sun is Žlutá"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ Otázka: "Vyberte the Správně Slovo to complete the phrase"
+ text_with_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Červená Pták flies"
+ xp_reward: 18
+
+ # 9. Picture → Slovo (Unsplash Images)
+ - id: 64
+ type: picture_word
+ Otázka: "Jak? barva je to?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ Otázka: "Jak? barva je to?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ Otázka: "Jak? barva je to?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "Oranžová", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ Otázka: "Jak? barva je to?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Otázka: "Jak? barva je to?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "Oranžová"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Otázka: "Jak? barva je to?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Otázka: "Jak? barva je to?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Oranžová", "Ubururu"]
+ correct_answer: "Oranžová"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Otázka: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "Oranžová"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ Otázka: "What color is this Pták?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Slovo Spojte (Pairing)
+ - id: 73
+ type: Spojte
+ Otázka: "Spojte the Barvy"
+ pairs:
+ - Vlevo: "Červená"
+ Vpravo: "Umutuku"
+ - Vlevo: "Modrá"
+ Vpravo: "Ubururu"
+ - Vlevo: "Zelená"
+ Vpravo: "Icyatsi"
+ - Vlevo: "Žlutá"
+ Vpravo: "Umuhondo"
+ - Vlevo: "Černá"
+ Vpravo: "Umukara"
+ - Vlevo: "Bílá"
+ Vpravo: "Umweru"
+ - Vlevo: "Oranžová"
+ Vpravo: "Oranžová"
+ xp_reward: 25
+
+ - id: 74
+ type: Spojte
+ Otázka: "Spojte the colored objects"
+ pairs:
+ - Vlevo: "Červená apple"
+ Vpravo: "Pome itukura"
+ - Vlevo: "Modrá sky"
+ Vpravo: "Ijuru ry'ubururu"
+ - Vlevo: "Zelená grass"
+ Vpravo: "Ibyatsi by'icyatsi"
+ - Vlevo: "Žlutá sun"
+ Vpravo: "Izuba ry'umuhondo"
+ - Vlevo: "Černá Kočka"
+ Vpravo: "Injangwe y'umukara"
+ - Vlevo: "Bílá Kráva"
+ Vpravo: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: Spojte
+ Otázka: "Spojte the colored Zvířata"
+ pairs:
+ - Vlevo: "Červená Pták"
+ Vpravo: "Inyoni itukura"
+ - Vlevo: "Zelená Žába"
+ Vpravo: "Igikeri cy'icyatsi"
+ - Vlevo: "Modrá Ryba"
+ Vpravo: "Ifi y'ubururu"
+ - Vlevo: "Žlutá Kuře"
+ Vpravo: "Inkoko y'umuhondo"
+ - Vlevo: "Černá Králík"
+ Vpravo: "Urukwavu rw'umukara"
+ - Vlevo: "Bílá Koza"
+ Vpravo: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. Vyberte Missing Slovo
+ - id: 80
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Červená"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Modrá"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Červená Pták flies"
+ xp_reward: 18
+
+ # 12. Čtěte and Odpověď - Otázka in English, Odpověď based on Kinyarwanda text
+ - id: 83
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ Otázka: "What color is the apple?"
+ options: ["Červená", "Modrá", "Zelená", "Žlutá"]
+ correct_answer: "Červená"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ Otázka: "Co znamená the Červená Pták do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ Otázka: "What color is the Kráva?"
+ options: ["Černá", "Bílá", "Žlutá", "Červená"]
+ correct_answer: "Bílá"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Pome ni umutuku."
+ translation: "The apple is Červená"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Ijuru ni icyatsi."
+ translation: "The sky is Zelená"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Inka ni umweru."
+ translation: "The Kráva is Bílá"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Inyoni itukura iraguruka."
+ translation: "The Červená Pták flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ Otázka: "Respond to the Otázka by building a Věta"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is the sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Injangwe ni umukara?"
+ translation: "Is the Kočka Černá?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build Věta from pieces
+ - id: 93
+ type: story
+ title: "Barvy in the Field"
+ story_intro: "Čtěte about the colorful Zvířata. Then build the Věta."
+ story_segments:
+ - text: "There is a Červená Pták in the sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-Pták"
+ - text: "The Pták flies above."
+ - text: "There is a Zelená Žába near the Voda."
+ - text: "The Žába jumps."
+ - text: "There is a Modrá Ryba in the Voda."
+ - text: "The Ryba swims."
+ exercises:
+ - type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Červená Pták flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Zelená Žába jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'The Modrá Ryba swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ Otázka: "Say the color"
+ prompt: "Umutuku"
+ translation: "Červená"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ Otázka: "Say the color"
+ prompt: "Agasumbashyamba" # Žirafa - testing color knowledge in context
+ translation: "Žirafa (they are Žlutá and Hnědá)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ Otázka: "Say the phrase"
+ prompt: "Pome itukura"
+ translation: "Červená apple"
+ xp_reward: 18
+
+ # 17. Identify Správně Meaning
+ - id: 97
+ type: identify_meaning
+ Otázka: "Co znamená 'umutuku' mean in this Věta?"
+ context_sentence: "Pome ni umutuku."
+ Slovo: "umutuku"
+ options: ["Červená", "Modrá", "Zelená", "Žlutá"]
+ correct_answer: "Červená"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ Otázka: "Co znamená 'itukura' mean in this Věta?"
+ context_sentence: "Inyoni itukura iraguruka."
+ Slovo: "itukura"
+ options: ["Červená", "Modrá", "Zelená", "Žlutá"]
+ correct_answer: "Červená"
+ note: "itukura is the adjective form of umutuku when describing a noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ Otázka: "Co znamená 'cy'icyatsi' mean in this Věta?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ Slovo: "cy'icyatsi"
+ options: ["Červená", "Modrá", "Zelená", "Žlutá"]
+ correct_answer: "Zelená"
+ xp_reward: 18
+
+ # 18. Speed Spojte
+ - id: 100
+ type: speed_Spojte
+ title: "Spojte Madness: Barvy"
+ time_limit_seconds: 45
+ pairs:
+ - Vlevo: "Červená"
+ Vpravo: "Umutuku"
+ - Vlevo: "Modrá"
+ Vpravo: "Ubururu"
+ - Vlevo: "Zelená"
+ Vpravo: "Icyatsi"
+ - Vlevo: "Žlutá"
+ Vpravo: "Umuhondo"
+ - Vlevo: "Černá"
+ Vpravo: "Umukara"
+ - Vlevo: "Bílá"
+ Vpravo: "Umweru"
+ - Vlevo: "Oranžová"
+ Vpravo: "Oranžová"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: Barvy"
+ time_limit_seconds: 30
+ Otázka_count: 5
+ Otázka:
+ - Otázka: "Červená"
+ Odpověď: "Umutuku"
+ - Otázka: "Modrá"
+ Odpověď: "Ubururu"
+ - Otázka: "Zelená"
+ Odpověď: "Icyatsi"
+ - Otázka: "Žlutá"
+ Odpověď: "Umuhondo"
+ - Otázka: "Černá"
+ Odpověď: "Umukara"
+ xp_reward: 35
+
+# Kartičky
+ - id: 111
+ type: Kartičky
+ Otázka: "Kartičky"
+ Kartičky:
+ - front: "Umutuku"
+ back: "Červená"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "Modrá"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "Zelená"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "Žlutá"
+ image: "https://images.pexels.com/photos/45201/kitty-Kočka-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "Černá"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "Bílá"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Oranžová"
+ back: "Oranžová"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "Červená apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "Modrá sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "Zelená grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

@@ -1,0 +1,1229 @@
+lesson:
+ name: "길 안내 - Amabwiriza y'ahantu"
+ description: "배우다 direction words 와 phrases 안에 Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Direction Words ONLY (Safe 위해 single words)
+ # Basic 길 안내
+ - id: 1
+ type: translation
+ 질문: "어떻게 말합니까 '왼쪽' 키냐르완다어로?"
+ 답: "Ibumoso"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 질문: "어떻게 말합니까 '오른쪽' 키냐르완다어로?"
+ 답: "Iburyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 질문: "어떻게 말합니까 '직진' 키냐르완다어로?"
+ 답: "Uburyohe / Guhita imbere"
+ note: "Both 이다 acceptable"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ 질문: "어떻게 말합니까 'Back / Behind' 키냐르완다어로?"
+ 답: "Inyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 질문: "어떻게 말합니까 'Front' 키냐르완다어로?"
+ 답: "Imbere"
+ xp_reward: 10
+
+ # Cardinal 길 안내
+ - id: 6
+ type: translation
+ 질문: "어떻게 말합니까 'North' 키냐르완다어로?"
+ 답: "Amajyaruguru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 질문: "어떻게 말합니까 'South' 키냐르완다어로?"
+ 답: "Amajyepfo"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 질문: "어떻게 말합니까 'East' 키냐르완다어로?"
+ 답: "Uburasirazuba"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ 질문: "어떻게 말합니까 'West' 키냐르완다어로?"
+ 답: "Uburengerazuba"
+ xp_reward: 10
+
+ # Location Words
+ - id: 10
+ type: translation
+ 질문: "어떻게 말합니까 'Near' 키냐르완다어로?"
+ 답: "Hafi"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 질문: "어떻게 말합니까 'Far' 키냐르완다어로?"
+ 답: "Hahandi / kure"
+ note: "Both 이다 acceptable"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ 질문: "어떻게 말합니까 'Around' 키냐르완다어로?"
+ 답: "Hagarika / ahantu hose"
+ note: "Both 이다 acceptable"
+ xp_reward: 15
+
+ # Places 와 Features
+ - id: 13
+ type: translation
+ 질문: "어떻게 말합니까 'Intersection / Crossroads' 키냐르완다어로?"
+ 답: "Ahantu hahurira imihanda"
+ xp_reward: 18
+
+ - id: 14
+ type: translation
+ 질문: "어떻게 말합니까 'Street / Road' 키냐르완다어로?"
+ 답: "Umuhanda"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ 질문: "어떻게 말합니까 'Corner' 키냐르완다어로?"
+ 답: "Inguni"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ 질문: "어떻게 말합니까 'Traffic light' 키냐르완다어로?"
+ 답: "Itara ry'umuhanda"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ 질문: "어떻게 말합니까 'Sign / Signpost' 키냐르완다어로?"
+ 답: "Ikimenyetso / Ikimenyetso cy'umuhanda"
+ xp_reward: 18
+
+ # Direction Commands
+ - id: 18
+ type: translation
+ 질문: "어떻게 말합니까 'Turn 왼쪽' 키냐르완다어로?"
+ 답: "Hagarika ibumoso."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ 질문: "어떻게 말합니까 'Turn 오른쪽' 키냐르완다어로?"
+ 답: "Hagarika iburyo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ 질문: "어떻게 말합니까 '가다 직진' 키냐르완다어로?"
+ 답: "Komeza imbere."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ 질문: "어떻게 말합니까 '가다 back' 키냐르완다어로?"
+ 답: "Subira inyuma."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ 질문: "어떻게 말합니까 'Cross  street' 키냐르완다어로?"
+ 답: "Kora umuhanda."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ 질문: "어떻게 말합니까 'Stop at  traffic light' 키냐르완다어로?"
+ 답: "Hagarara ku itara ry'umuhanda."
+ xp_reward: 18
+
+ # Location 문장
+ - id: 24
+ type: translation
+ 질문: "어떻게 말합니까 ' bank 이다 안에 front 의  학교' 키냐르완다어로?"
+ 답: "Banki iri imbere y'ishuri."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ 질문: "어떻게 말합니까 ' 시장 이다 near' 키냐르완다어로?"
+ 답: "Isoko riri hafi."
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ 질문: "어떻게 말합니까 ' hospital 이다 far' 키냐르완다어로?"
+ 답: "Ibitaro biri kure."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Ibumoso' 라는 뜻입니까"
+ options:
+ - "오른쪽"
+ - "왼쪽"
+ - "직진"
+ - "Front"
+ 답: "왼쪽"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Iburyo' 라는 뜻입니까"
+ options:
+ - "왼쪽"
+ - "오른쪽"
+ - "Back"
+ - "North"
+ 답: "오른쪽"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Imbere' 라는 뜻입니까"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ - "Far"
+ 답: "Front"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Inyuma' 라는 뜻입니까"
+ options:
+ - "Front"
+ - "Behind"
+ - "왼쪽"
+ - "오른쪽"
+ 답: "Behind"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Amajyaruguru' 라는 뜻입니까"
+ options:
+ - "South"
+ - "North"
+ - "East"
+ - "West"
+ 답: "North"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Hafi' 라는 뜻입니까"
+ options:
+ - "Far"
+ - "Near"
+ - "Around"
+ - "직진"
+ 답: "Near"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Umuhanda' 라는 뜻입니까"
+ options:
+ - "Corner"
+ - "Street"
+ - "Traffic light"
+ - "Sign"
+ 답: "Street"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Hagarika ibumoso' 라는 뜻입니까"
+ options:
+ - "Turn 오른쪽"
+ - "Turn 왼쪽"
+ - "가다 직진"
+ - "가다 back"
+ 답: "Turn 왼쪽"
+ xp_reward: 18
+
+ # 3. 듣다 와 Type (Dictation)
+ - id: 35
+ type: listen_와_type
+ 질문: "듣다 와 type  direction word"
+ audio: "Ibumoso"
+ 답: "Ibumoso"
+ translation: "왼쪽"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_와_type
+ 질문: "듣다 와 type  direction word"
+ audio: "Iburyo"
+ 답: "Iburyo"
+ translation: "오른쪽"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_와_type
+ 질문: "듣다 와 type  direction word"
+ audio: "Imbere"
+ 답: "Imbere"
+ translation: "Front"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_와_type
+ 질문: "듣다 와 type  direction word"
+ audio: "Inyuma"
+ 답: "Inyuma"
+ translation: "Behind"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_와_type
+ 질문: "듣다 와 type  direction word"
+ audio: "Hafi"
+ 답: "Hafi"
+ translation: "Near"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_와_type
+ 질문: "듣다 와 type  command"
+ audio: "Hagarika ibumoso"
+ 답: "Hagarika ibumoso"
+ translation: "Turn 왼쪽"
+ xp_reward: 22
+
+ - id: 41
+ type: listen_와_type
+ 질문: "듣다 와 type  command"
+ audio: "Komeza imbere"
+ 답: "Komeza imbere"
+ translation: "가다 직진"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_와_type
+ 질문: "듣다 와 type  문장"
+ audio: "Isoko riri hafi"
+ 답: "Isoko riri hafi"
+ translation: " 시장 이다 near"
+ xp_reward: 22
+
+ 
+ # 4. 듣다 와 선택하다
+ - id: 44
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct direction"
+ audio: "Ibumoso"
+ options:
+ - "왼쪽"
+ - "오른쪽"
+ - "직진"
+ 답: "왼쪽"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct direction"
+ audio: "Iburyo"
+ options:
+ - "왼쪽"
+ - "오른쪽"
+ - "Back"
+ 답: "오른쪽"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct direction"
+ audio: "Imbere"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ 답: "Front"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct command"
+ audio: "Hagarika ibumoso"
+ options:
+ - "Turn 오른쪽"
+ - "Turn 왼쪽"
+ - "가다 직진"
+ 답: "Turn 왼쪽"
+ xp_reward: 18
+
+ - id: 48
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct 문장"
+ audio: "Isoko riri hafi"
+ options:
+ - " 시장 이다 far"
+ - " 시장 이다 near"
+ - " 시장 이다 안에 front"
+ 답: " 시장 이다 near"
+ xp_reward: 18
+
+ # 5. Repeat / 말하다 Exercise
+ - id: 49
+ type: 말하다
+ 질문: "Say 이것 direction word"
+ prompt: "Ibumoso"
+ translation: "왼쪽"
+ xp_reward: 15
+
+ - id: 50
+ type: 말하다
+ 질문: "Say 이것 direction word"
+ prompt: "Iburyo"
+ translation: "오른쪽"
+ xp_reward: 15
+
+ - id: 51
+ type: 말하다
+ 질문: "Say 이것 direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 52
+ type: 말하다
+ 질문: "Say 이것 direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 53
+ type: 말하다
+ 질문: "Say 이것 direction word"
+ prompt: "Hafi"
+ translation: "Near"
+ xp_reward: 15
+
+ - id: 54
+ type: 말하다
+ 질문: "Say 이것 command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn 왼쪽"
+ xp_reward: 18
+
+ - id: 55
+ type: 말하다
+ 질문: "Say 이것 command"
+ prompt: "Komeza imbere"
+ translation: "가다 직진"
+ xp_reward: 18
+
+ - id: 56
+ type: 말하다
+ 질문: "Say 이것 문장"
+ prompt: "Isoko riri hafi"
+ translation: " 시장 이다 near"
+ xp_reward: 18
+
+ - id: 57
+ type: 말하다
+ 질문: "Say 이것 문장"
+ prompt: "Banki iri imbere y'ishuri"
+ translation: " bank 이다 안에 front 의  학교"
+ xp_reward: 22
+
+ # 6. Word Bank 문장 Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ 질문: "Build  command 'Turn 왼쪽'"
+ word_bank: ["Hagarika", "ibumoso", "iburyo", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "ibumoso"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ 질문: "Build  command 'Turn 오른쪽'"
+ word_bank: ["Hagarika", "iburyo", "ibumoso", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "iburyo"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ 질문: "Build  command '가다 직진'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira"]
+ correct_answer: ["Komeza", "imbere"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ 질문: "Build  command '가다 back'"
+ word_bank: ["Subira", "inyuma", "komeza", "imbere", "hagarika"]
+ correct_answer: ["Subira", "inyuma"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ 질문: "Build  문장 ' bank 이다 안에 front 의  학교'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri", "hafi"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ 질문: "Build  문장 ' 시장 이다 near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ 질문: "Build  문장 ' hospital 이다 far'"
+ word_bank: ["Ibitaro", "biri", "kure", "isoko", "riri", "hafi"]
+ correct_answer: ["Ibitaro", "biri", "kure"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ 질문: "Build  command 'Cross  street'"
+ word_bank: ["Kora", "umuhanda", "hagarara", "itara", "ry'umuhanda"]
+ correct_answer: ["Kora", "umuhanda"]
+ xp_reward: 15
+
+ - id: 66
+ type: word_bank
+ 질문: "Build  command 'Stop at  traffic light'"
+ word_bank: ["Hagarara", "ku", "itara", "ry'umuhanda", "kora", "umuhanda"]
+ correct_answer: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ xp_reward: 22
+
+ # 7. 문장 Scramble - PIECES PROVIDED
+ - id: 67
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct command"
+ scrambled_words: ["Hagarika", "ibumoso"]
+ correct_sentence: "Hagarika ibumoso."
+ translation: "Turn 왼쪽."
+ xp_reward: 15
+
+ - id: 68
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct command"
+ scrambled_words: ["Hagarika", "iburyo"]
+ correct_sentence: "Hagarika iburyo."
+ translation: "Turn 오른쪽."
+ xp_reward: 15
+
+ - id: 69
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct command"
+ scrambled_words: ["Komeza", "imbere"]
+ correct_sentence: "Komeza imbere."
+ translation: "가다 직진."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct command"
+ scrambled_words: ["Subira", "inyuma"]
+ correct_sentence: "Subira inyuma."
+ translation: "가다 back."
+ xp_reward: 15
+
+ - id: 71
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct 문장"
+ scrambled_words: ["Banki", "iri", "imbere", "y'ishuri"]
+ correct_sentence: "Banki iri imbere y'ishuri."
+ translation: " bank 이다 안에 front 의  학교."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct 문장"
+ scrambled_words: ["Isoko", "riri", "hafi"]
+ correct_sentence: "Isoko riri hafi."
+ translation: " 시장 이다 near."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct 문장"
+ scrambled_words: ["Ibitaro", "biri", "kure"]
+ correct_sentence: "Ibitaro biri kure."
+ translation: " hospital 이다 far."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct command"
+ scrambled_words: ["Kora", "umuhanda"]
+ correct_sentence: "Kora umuhanda."
+ translation: "Cross  street."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct command"
+ scrambled_words: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ correct_sentence: "Hagarara ku itara ry'umuhanda."
+ translation: "Stop at  traffic light."
+ xp_reward: 22
+
+ # 8. Fill 안에  Blank - 선택하다 FROM OPTIONS
+ - id: 76
+ type: fill_blank
+ 질문: "Complete  command"
+ text_와_blank: "Hagarika ___."
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn 왼쪽."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ 질문: "Complete  command"
+ text_와_blank: "Hagarika ___."
+ options: ["iburyo", "ibumoso", "imbere"]
+ correct_answer: "iburyo"
+ translation: "Turn 오른쪽."
+ xp_reward: 12
+
+ - id: 78
+ type: fill_blank
+ 질문: "Complete  command"
+ text_와_blank: "Komeza ___."
+ options: ["imbere", "inyuma", "ibumoso"]
+ correct_answer: "imbere"
+ translation: "가다 직진."
+ xp_reward: 12
+
+ - id: 79
+ type: fill_blank
+ 질문: "Complete  command"
+ text_와_blank: "Subira ___."
+ options: ["inyuma", "imbere", "iburyo"]
+ correct_answer: "inyuma"
+ translation: "가다 back."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ 질문: "Complete  문장"
+ text_와_blank: "Isoko riri ___."
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: " 시장 이다 near."
+ xp_reward: 12
+
+ - id: 81
+ type: fill_blank
+ 질문: "Complete  문장"
+ text_와_blank: "Ibitaro biri ___."
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: " hospital 이다 far."
+ xp_reward: 12
+
+ - id: 82
+ type: fill_blank
+ 질문: "Complete  문장"
+ text_와_blank: "Banki iri imbere ___."
+ options: ["y'ishuri", "y'isoko", "y'ibitaro"]
+ correct_answer: "y'ishuri"
+ translation: " bank 이다 안에 front 의  학교."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ 질문: "Complete  command"
+ text_와_blank: "Kora ___."
+ options: ["umuhanda", "itara", "inguni"]
+ correct_answer: "umuhanda"
+ translation: "Cross  street."
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ 질문: "Complete  command"
+ text_와_blank: "Hagarara ku ___ ry'umuhanda."
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at  traffic light."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 85
+ type: picture_word
+ 질문: "What direction does 이것 sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?left-arrow"
+ options: ["Ibumoso", "Iburyo", "Imbere"]
+ correct_answer: "Ibumoso"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ 질문: "What direction does 이것 sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?right-arrow"
+ options: ["Ibumoso", "Iburyo", "Inyuma"]
+ correct_answer: "Iburyo"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ 질문: "What direction does 이것 sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?straight-arrow"
+ options: ["Imbere", "Inyuma", "Ibumoso"]
+ correct_answer: "Imbere"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ 질문: "무엇입니까 이것?"
+ image_url: "https://source.unsplash.com/featured/?traffic-light"
+ options: ["Itara ry'umuhanda", "Umuhanda", "Ikimenyetso"]
+ correct_answer: "Itara ry'umuhanda"
+ xp_reward: 12
+
+ - id: 89
+ type: picture_word
+ 질문: "무엇입니까 이것?"
+ image_url: "https://source.unsplash.com/featured/?street-corner"
+ options: ["Inguni", "Umuhanda", "Ahantu hahurira imihanda"]
+ correct_answer: "Inguni"
+ xp_reward: 10
+
+ - id: 90
+ type: picture_word
+ 질문: "무엇입니까 이것?"
+ image_url: "https://source.unsplash.com/featured/?road-sign"
+ options: ["Ikimenyetso", "Itara", "Umuhanda"]
+ correct_answer: "Ikimenyetso"
+ xp_reward: 10
+
+ - id: 91
+ type: picture_word
+ 질문: "무엇입니까 이것?"
+ image_url: "https://source.unsplash.com/featured/?intersection"
+ options: ["Ahantu hahurira imihanda", "Inguni", "Umuhanda"]
+ correct_answer: "Ahantu hahurira imihanda"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ 질문: "What place 이다 이것?"
+ image_url: "https://source.unsplash.com/featured/?bank"
+ options: ["Banki", "Isoko", "Ibitaro"]
+ correct_answer: "Banki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ 질문: "What place 이다 이것?"
+ image_url: "https://source.unsplash.com/featured/?market"
+ options: ["Isoko", "Banki", "Ibitaro"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ 질문: "What place 이다 이것?"
+ image_url: "https://source.unsplash.com/featured/?hospital"
+ options: ["Ibitaro", "Isoko", "Banki"]
+ correct_answer: "Ibitaro"
+ xp_reward: 10
+
+ # 10. Word 맞추다 (Pairing)
+ - id: 95
+ type: 맞추다
+ 질문: "맞추다  basic 길 안내"
+ pairs:
+ - 왼쪽: "왼쪽"
+ 오른쪽: "Ibumoso"
+ - 왼쪽: "오른쪽"
+ 오른쪽: "Iburyo"
+ - 왼쪽: "직진"
+ 오른쪽: "Uburyohe / Guhita imbere"
+ - 왼쪽: "Front"
+ 오른쪽: "Imbere"
+ - 왼쪽: "Behind"
+ 오른쪽: "Inyuma"
+ xp_reward: 20
+
+ - id: 96
+ type: 맞추다
+ 질문: "맞추다  cardinal 길 안내"
+ pairs:
+ - 왼쪽: "North"
+ 오른쪽: "Amajyaruguru"
+ - 왼쪽: "South"
+ 오른쪽: "Amajyepfo"
+ - 왼쪽: "East"
+ 오른쪽: "Uburasirazuba"
+ - 왼쪽: "West"
+ 오른쪽: "Uburengerazuba"
+ xp_reward: 18
+
+ - id: 97
+ type: 맞추다
+ 질문: "맞추다  location words"
+ pairs:
+ - 왼쪽: "Near"
+ 오른쪽: "Hafi"
+ - 왼쪽: "Far"
+ 오른쪽: "Hahandi / kure"
+ - 왼쪽: "Around"
+ 오른쪽: "Hagarika / ahantu hose"
+ xp_reward: 15
+
+ - id: 98
+ type: 맞추다
+ 질문: "맞추다  commands"
+ pairs:
+ - 왼쪽: "Turn 왼쪽"
+ 오른쪽: "Hagarika ibumoso"
+ - 왼쪽: "Turn 오른쪽"
+ 오른쪽: "Hagarika iburyo"
+ - 왼쪽: "가다 직진"
+ 오른쪽: "Komeza imbere"
+ - 왼쪽: "가다 back"
+ 오른쪽: "Subira inyuma"
+ - 왼쪽: "Cross  street"
+ 오른쪽: "Kora umuhanda"
+ - 왼쪽: "Stop at  traffic light"
+ 오른쪽: "Hagarara ku itara ry'umuhanda"
+ xp_reward: 25
+
+ - id: 99
+ type: 맞추다
+ 질문: "맞추다  문장"
+ pairs:
+ - 왼쪽: " bank 이다 안에 front 의  학교"
+ 오른쪽: "Banki iri imbere y'ishuri"
+ - 왼쪽: " 시장 이다 near"
+ 오른쪽: "Isoko riri hafi"
+ - 왼쪽: " hospital 이다 far"
+ 오른쪽: "Ibitaro biri kure"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED  PER PREVIOUS PATTERN
+
+ # 12. 선택하다 Missing Word
+ - id: 100
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "Hagarika ___."
+ missing_word_position: 2
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn 왼쪽."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "Komeza ___."
+ missing_word_position: 2
+ options: ["imbere", "inyuma", "iburyo"]
+ correct_answer: "imbere"
+ translation: "가다 직진."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "Subira ___."
+ missing_word_position: 2
+ options: ["inyuma", "imbere", "ibumoso"]
+ correct_answer: "inyuma"
+ translation: "가다 back."
+ xp_reward: 12
+
+ - id: 103
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "Isoko riri ___."
+ missing_word_position: 3
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: " 시장 이다 near."
+ xp_reward: 12
+
+ - id: 104
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "Ibitaro biri ___."
+ missing_word_position: 3
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: " hospital 이다 far."
+ xp_reward: 12
+
+ - id: 105
+ type: choose_missing
+ 질문: "선택하다  missing phrase"
+ 문장: "Hagarara ku ___ ry'umuhanda."
+ missing_word_position: 3
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at  traffic light."
+ xp_reward: 15
+
+ # 13. 읽다 와 답 - 질문 based 위에 text
+ - id: 106
+ type: read_answer
+ 질문: "읽다  text 와 답  질문"
+ text: "Komeza imbere. Hagarika ibumoso."
+ 질문: "무엇입니까  first instruction?"
+ options: ["Turn 왼쪽", "가다 직진", "Turn 오른쪽", "가다 back"]
+ correct_answer: "가다 직진"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ 질문: "읽다  text 와 답  질문"
+ text: "Banki iri imbere y'ishuri. Isoko riri hafi."
+ 질문: "Where 이다  bank?"
+ options: ["Near  시장", "안에 front 의  학교", "Far away", "Behind  학교"]
+ correct_answer: "안에 front 의  학교"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ 질문: "읽다  text 와 답  질문"
+ text: "Hagarara ku itara ry'umuhanda. Kora umuhanda."
+ 질문: "What should you do at  traffic light?"
+ options: ["Turn 왼쪽", "Stop", "가다 직진", "Turn 오른쪽"]
+ correct_answer: "Stop"
+ xp_reward: 15
+
+ - id: 109
+ type: read_answer
+ 질문: "읽다  text 와 답  질문"
+ text: "Ibitaro biri kure. Isoko riri hafi."
+ 질문: "이다  hospital near 또는 far?"
+ options: ["Near", "Far", "매우 close", "안 mentioned"]
+ correct_answer: "Far"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ 질문: "읽다  text 와 답  질문"
+ text: "Subira inyuma. Hagarika iburyo."
+ 질문: "무엇입니까  second instruction?"
+ options: ["가다 back", "Turn 왼쪽", "Turn 오른쪽", "가다 직진"]
+ correct_answer: "Turn 오른쪽"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "Ibumoso means '오른쪽'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "Iburyo means '오른쪽'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "Imbere means 'front'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "Hafi means 'far'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "Komeza imbere means '가다 직진'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "Itara ry'umuhanda means 'street sign'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ 질문: "Respond 에  질문 by building  command"
+ bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+ translation: "I 원하다 에 reach  시장. What should I do?"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira", "inyuma"]
+ correct_response: ["Komeza", "imbere"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ 질문: "Respond 에  질문"
+ bot_message: "Banki iri he?"
+ translation: "Where 이다  bank?"
+ options:
+ - "Imbere y'ishuri"
+ - "Hafi y'isoko"
+ - "Kure"
+ correct_response: "Imbere y'ishuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ 질문: "Respond 에  질문 by building  command"
+ bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+ translation: "I 원하다 에 reach  hospital. What should I do?"
+ word_bank: ["Subira", "inyuma", "hagarika", "iburyo", "komeza", "imbere"]
+ correct_response: ["Subira", "inyuma"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ 질문: "Respond 에  질문"
+ bot_message: "Isoko riri hafi?"
+ translation: "이다  시장 near?"
+ options:
+ - "Yego, riri hafi"
+ - "Oya, riri kure"
+ - "Simenye"
+ correct_response: "Yego, riri hafi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build 문장 from pieces
+ - id: 121
+ type: story
+ title: "Finding  시장 - Gushaka Isoko"
+ story_intro: "읽다 about finding  시장. Then build  문장."
+ story_segments:
+ - text: "I 원하다 에 가다 에  시장."
+ - text: "가다 직진."
+ - text: "Turn 왼쪽 at  traffic light."
+ - text: " 시장 이다 near."
+ - text: " bank 이다 안에 front 의  학교."
+ exercises:
+ - type: word_bank
+ 질문: "Build '가다 직진'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso"]
+ correct_answer: ["Komeza", "imbere"]
+ - type: word_bank
+ 질문: "Build 'Turn 왼쪽 at  traffic light'"
+ word_bank: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ correct_answer: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ - type: word_bank
+ 질문: "Build ' 시장 이다 near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ - type: word_bank
+ 질문: "Build ' bank 이다 안에 front 의  학교'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ 질문: "Say 이것 direction word"
+ prompt: "Ibumoso"
+ translation: "왼쪽"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ 질문: "Say 이것 direction word"
+ prompt: "Iburyo"
+ translation: "오른쪽"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ 질문: "Say 이것 direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ 질문: "Say 이것 direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ 질문: "Say 이것 command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn 왼쪽"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ 질문: "Say 이것 command"
+ prompt: "Komeza imbere"
+ translation: "가다 직진"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ 질문: "Say 이것 문장"
+ prompt: "Isoko riri hafi"
+ translation: " 시장 이다 near"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 129
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'Hagarika' mean 안에 이것 command?"
+ context_sentence: "Hagarika ibumoso."
+ word: "Hagarika"
+ options: ["가다", "Turn", "Stop", "Cross"]
+ correct_answer: "Turn"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'Komeza' mean 안에 이것 command?"
+ context_sentence: "Komeza imbere."
+ word: "Komeza"
+ options: ["Turn", "Stop", "Continue / 가다", "Cross"]
+ correct_answer: "Continue / 가다"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'hafi' mean 안에 이것 문장?"
+ context_sentence: "Isoko riri hafi."
+ word: "hafi"
+ options: ["far", "near", "behind", "front"]
+ correct_answer: "near"
+ xp_reward: 12
+
+ - id: 132
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'kure' mean 안에 이것 문장?"
+ context_sentence: "Ibitaro biri kure."
+ word: "kure"
+ options: ["near", "far", "왼쪽", "오른쪽"]
+ correct_answer: "far"
+ xp_reward: 12
+
+ - id: 133
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'imbere y'' mean 안에 이것 문장?"
+ context_sentence: "Banki iri imbere y'ishuri."
+ word: "imbere y'"
+ options: ["behind", "안에 front 의", "next 에", "far from"]
+ correct_answer: "안에 front 의"
+ xp_reward: 15
+
+ # 19. Speed 맞추다
+ - id: 134
+ type: speed_맞추다
+ title: "맞추다 Madness: 길 안내"
+ time_limit_seconds: 45
+ pairs:
+ - 왼쪽: "왼쪽"
+ 오른쪽: "Ibumoso"
+ - 왼쪽: "오른쪽"
+ 오른쪽: "Iburyo"
+ - 왼쪽: "직진"
+ 오른쪽: "Imbere"
+ - 왼쪽: "Behind"
+ 오른쪽: "Inyuma"
+ - 왼쪽: "North"
+ 오른쪽: "Amajyaruguru"
+ - 왼쪽: "South"
+ 오른쪽: "Amajyepfo"
+ - 왼쪽: "East"
+ 오른쪽: "Uburasirazuba"
+ - 왼쪽: "West"
+ 오른쪽: "Uburengerazuba"
+ - 왼쪽: "Near"
+ 오른쪽: "Hafi"
+ - 왼쪽: "Far"
+ 오른쪽: "Kure"
+ - 왼쪽: "Turn 왼쪽"
+ 오른쪽: "Hagarika ibumoso"
+ - 왼쪽: "Turn 오른쪽"
+ 오른쪽: "Hagarika iburyo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: 길 안내"
+ time_limit_seconds: 30
+ 질문_count: 5
+ 질문:
+ - 질문: "왼쪽"
+ 답: "Ibumoso"
+ - 질문: "오른쪽"
+ 답: "Iburyo"
+ - 질문: "직진"
+ 답: "Imbere"
+ - 질문: "Behind"
+ 답: "Inyuma"
+ - 질문: "Near"
+ 답: "Hafi"
+ xp_reward: 35
+
+# 플래시카드
+ - id: 111
+ type: 플래시카드
+ 질문: "플래시카드"
+ 플래시카드:
+ - front: "Ibumoso"
+ back: "왼쪽"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iburyo"
+ back: "오른쪽"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Uburyohe / Guhita imbere"
+ back: "직진"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Inyuma"
+ back: "Back / Behind"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbere"
+ back: "Front"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyaruguru"
+ back: "North"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyepfo"
+ back: "South"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburasirazuba"
+ back: "East"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburengerazuba"
+ back: "West"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Hafi"
+ back: "Near"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

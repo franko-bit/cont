@@ -1,0 +1,907 @@
+lesson:
+ name: "Χρώματα"
+ description: "Μάθε basic Χρώματα in Kinyarwanda with Ζώα and objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Χρώματα ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Ερώτηση: "Πώς λες 'Κόκκινο' στην κινιαρουάντα;"
+ Απάντηση: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Ερώτηση: "Πώς λες 'Μπλε' στην κινιαρουάντα;"
+ Απάντηση: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Ερώτηση: "Πώς λες 'Πράσινο' στην κινιαρουάντα;"
+ Απάντηση: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Ερώτηση: "Πώς λες 'Κίτρινο' στην κινιαρουάντα;"
+ Απάντηση: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Ερώτηση: "Πώς λες 'Μαύρο' στην κινιαρουάντα;"
+ Απάντηση: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Ερώτηση: "Πώς λες 'Λευκό' στην κινιαρουάντα;"
+ Απάντηση: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Ερώτηση: "Πώς λες 'Πορτοκαλί' στην κινιαρουάντα;"
+ Απάντηση: "Πορτοκαλί"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, not full Πρόταση)
+ - id: 8
+ type: translation
+ Ερώτηση: "Πώς λες 'Κόκκινο apple' στην κινιαρουάντα;"
+ Απάντηση: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Ερώτηση: "Πώς λες 'Μπλε sky' στην κινιαρουάντα;"
+ Απάντηση: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Ερώτηση: "Πώς λες 'Πράσινο grass' στην κινιαρουάντα;"
+ Απάντηση: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Ερώτηση: "Πώς λες 'Κίτρινο sun' στην κινιαρουάντα;"
+ Απάντηση: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Ερώτηση: "Πώς λες 'Μαύρο Γάτα' στην κινιαρουάντα;"
+ Απάντηση: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Ερώτηση: "Πώς λες 'Λευκό Αγελάδα' στην κινιαρουάντα;"
+ Απάντηση: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Ερώτηση: "Πώς λες 'Πορτοκαλί carrot' στην κινιαρουάντα;"
+ Απάντηση: "Karoti ya Πορτοκαλί"
+ xp_reward: 15
+
+ # Translation - Χρώματα with Ζώα (Noun + Color phrases)
+ - id: 15
+ type: translation
+ Ερώτηση: "Πώς λες 'Κόκκινο Πουλί' στην κινιαρουάντα;"
+ Απάντηση: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Ερώτηση: "Πώς λες 'Πράσινο Βάτραχος' στην κινιαρουάντα;"
+ Απάντηση: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Ερώτηση: "Πώς λες 'Μπλε Ψάρι' στην κινιαρουάντα;"
+ Απάντηση: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Ερώτηση: "Πώς λες 'Κίτρινο Κοτόπουλο' στην κινιαρουάντα;"
+ Απάντηση: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Ερώτηση: "Πώς λες 'Μαύρο Κουνέλι' στην κινιαρουάντα;"
+ Απάντηση: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Ερώτηση: "Πώς λες 'Λευκό Κατσίκα' στην κινιαρουάντα;"
+ Απάντηση: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers with Χρώματα (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ Ερώτηση: "Πώς λες 'One Κόκκινο apple' στην κινιαρουάντα;"
+ Απάντηση: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Ερώτηση: "Πώς λες 'Two Μπλε Πουλί' στην κινιαρουάντα;"
+ Απάντηση: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Ερώτηση: "Πώς λες 'Three Κίτρινο Κοτόπουλο' στην κινιαρουάντα;"
+ Απάντηση: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Ερώτηση: "Πώς λες 'Four Μαύρο Γάτα' στην κινιαρουάντα;"
+ Απάντηση: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Ερώτηση: "Πώς λες 'Five Λευκό Αγελάδα' στην κινιαρουάντα;"
+ Απάντηση: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color Ερώτηση (Phrases - safe as they are fixed expressions)
+ - id: 26
+ type: translation
+ Ερώτηση: "Πώς ρωτάς 'What color is the apple?' στην κινιαρουάντα;"
+ Απάντηση: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Ερώτηση: "Πώς ρωτάς 'What color is the sky?' στην κινιαρουάντα;"
+ Απάντηση: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Ερώτηση: "Πώς ρωτάς 'Is the Γάτα Μαύρο?' στην κινιαρουάντα;"
+ Απάντηση: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR FULL Πρόταση OR PARAGRAPHS
+ # Instead, we use Πρόταση building, Ταιριάξε, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Umutuku' σε αυτήν τη φράση;"
+ options:
+ - "Μπλε"
+ - "Κόκκινο"
+ - "Πράσινο"
+ - "Κίτρινο"
+ Απάντηση: "Κόκκινο"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Ubururu' σε αυτήν τη φράση;"
+ options:
+ - "Κόκκινο"
+ - "Μπλε"
+ - "Μαύρο"
+ - "Λευκό"
+ Απάντηση: "Μπλε"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Icyatsi' σε αυτήν τη φράση;"
+ options:
+ - "Πράσινο"
+ - "Κίτρινο"
+ - "Πορτοκαλί"
+ - "Κόκκινο"
+ Απάντηση: "Πράσινο"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Umuhondo' σε αυτήν τη φράση;"
+ options:
+ - "Μπλε"
+ - "Κόκκινο"
+ - "Κίτρινο"
+ - "Λευκό"
+ Απάντηση: "Κίτρινο"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Umukara' σε αυτήν τη φράση;"
+ options:
+ - "Λευκό"
+ - "Μαύρο"
+ - "Πράσινο"
+ - "Πορτοκαλί"
+ Απάντηση: "Μαύρο"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Umweru' σε αυτήν τη φράση;"
+ options:
+ - "Μαύρο"
+ - "Λευκό"
+ - "Κόκκινο"
+ - "Μπλε"
+ Απάντηση: "Λευκό"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Ερώτηση: "Τι σημαίνει 'Inyoni itukura' σε αυτήν τη φράση;"
+ options:
+ - "Μπλε Πουλί"
+ - "Κόκκινο Πουλί"
+ - "Πράσινο Πουλί"
+ - "Κίτρινο Πουλί"
+ Απάντηση: "Κόκκινο Πουλί"
+ xp_reward: 15
+
+ # 3. Άκου and Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the color"
+ tts_text: "Umutuku"
+ Απάντηση: "Umutuku"
+ translation: "Κόκκινο"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the color"
+ tts_text: "Ubururu"
+ Απάντηση: "Ubururu"
+ translation: "Μπλε"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the phrase"
+ tts_text: "Pome ni umutuku"
+ Απάντηση: "Pome ni umutuku"
+ translation: "The apple is Κόκκινο"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the phrase"
+ tts_text: "Ijuru ni ubururu"
+ Απάντηση: "Ijuru ni ubururu"
+ translation: "The sky is Μπλε"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_and_type
+ Ερώτηση: "Άκου and type the phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ Απάντηση: "Inyoni itukura iraguruka"
+ translation: "The Κόκκινο Πουλί flies"
+ xp_reward: 25
+
+ # 4. Άκου and Επίλεξε
+ - id: 41
+ type: listen_and_choose
+ Ερώτηση: "Άκου and Επίλεξε the correct color"
+ tts_text: "Umutuku"
+ options:
+ - "Κόκκινο"
+ - "Μπλε"
+ - "Πράσινο"
+ Απάντηση: "Κόκκινο"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Ερώτηση: "Άκου and Επίλεξε the correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "Κόκκινο"
+ - "Κίτρινο"
+ - "Μαύρο"
+ Απάντηση: "Κίτρινο"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Ερώτηση: "Άκου and Επίλεξε the correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "The apple is Κόκκινο"
+ - "The sky is Μπλε"
+ - "The sun is Κίτρινο"
+ Απάντηση: "The apple is Κόκκινο"
+ xp_reward: 20
+
+ # 5. Repeat / Μίλησε Exercise
+ - id: 44
+ type: Μίλησε
+ Ερώτηση: "Say this color"
+ prompt: "Umutuku"
+ translation: "Κόκκινο"
+ xp_reward: 15
+
+ - id: 45
+ type: Μίλησε
+ Ερώτηση: "Say this color"
+ prompt: "Ubururu"
+ translation: "Μπλε"
+ xp_reward: 15
+
+ - id: 46
+ type: Μίλησε
+ Ερώτηση: "Say this phrase"
+ prompt: "Pome itukura"
+ translation: "Κόκκινο apple"
+ xp_reward: 18
+
+ - id: 47
+ type: Μίλησε
+ Ερώτηση: "Say this Πρόταση"
+ prompt: "Pome ni umutuku"
+ translation: "The apple is Κόκκινο"
+ xp_reward: 20
+
+ - id: 48
+ type: Μίλησε
+ Ερώτηση: "Say this Πρόταση"
+ prompt: "Ijuru ni ubururu"
+ translation: "The sky is Μπλε"
+ xp_reward: 20
+
+ # 6. Word Bank Πρόταση Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'The apple is Κόκκινο'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'The sky is Μπλε'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda phrase for 'Κόκκινο Πουλί'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda phrase for 'Μπλε Ψάρι'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'The Κόκκινο Πουλί flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'The Πράσινο Βάτραχος jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. Πρόταση Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "The apple is Κόκκινο"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "The sky is Μπλε"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "The Κόκκινο Πουλί flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ Ερώτηση: "Arrange these words to form a correct Kinyarwanda Πρόταση"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "The Πράσινο Βάτραχος jumps"
+ xp_reward: 25
+
+ # 8. Fill in the Blank - Επίλεξε FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Κόκκινο"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Μπλε"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "The grass is Πράσινο"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the Πρόταση"
+ text_with_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "The sun is Κίτρινο"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ Ερώτηση: "Επίλεξε the correct word to complete the phrase"
+ text_with_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Κόκκινο Πουλί flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ Ερώτηση: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ Ερώτηση: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ Ερώτηση: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "Πορτοκαλί", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ Ερώτηση: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Ερώτηση: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "Πορτοκαλί"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Ερώτηση: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Ερώτηση: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Πορτοκαλί", "Ubururu"]
+ correct_answer: "Πορτοκαλί"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Ερώτηση: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "Πορτοκαλί"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ Ερώτηση: "What color is this Πουλί?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word Ταιριάξε (Pairing)
+ - id: 73
+ type: Ταιριάξε
+ Ερώτηση: "Ταιριάξε the Χρώματα"
+ pairs:
+ - Αριστερά: "Κόκκινο"
+ Δεξιά: "Umutuku"
+ - Αριστερά: "Μπλε"
+ Δεξιά: "Ubururu"
+ - Αριστερά: "Πράσινο"
+ Δεξιά: "Icyatsi"
+ - Αριστερά: "Κίτρινο"
+ Δεξιά: "Umuhondo"
+ - Αριστερά: "Μαύρο"
+ Δεξιά: "Umukara"
+ - Αριστερά: "Λευκό"
+ Δεξιά: "Umweru"
+ - Αριστερά: "Πορτοκαλί"
+ Δεξιά: "Πορτοκαλί"
+ xp_reward: 25
+
+ - id: 74
+ type: Ταιριάξε
+ Ερώτηση: "Ταιριάξε the colored objects"
+ pairs:
+ - Αριστερά: "Κόκκινο apple"
+ Δεξιά: "Pome itukura"
+ - Αριστερά: "Μπλε sky"
+ Δεξιά: "Ijuru ry'ubururu"
+ - Αριστερά: "Πράσινο grass"
+ Δεξιά: "Ibyatsi by'icyatsi"
+ - Αριστερά: "Κίτρινο sun"
+ Δεξιά: "Izuba ry'umuhondo"
+ - Αριστερά: "Μαύρο Γάτα"
+ Δεξιά: "Injangwe y'umukara"
+ - Αριστερά: "Λευκό Αγελάδα"
+ Δεξιά: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: Ταιριάξε
+ Ερώτηση: "Ταιριάξε the colored Ζώα"
+ pairs:
+ - Αριστερά: "Κόκκινο Πουλί"
+ Δεξιά: "Inyoni itukura"
+ - Αριστερά: "Πράσινο Βάτραχος"
+ Δεξιά: "Igikeri cy'icyatsi"
+ - Αριστερά: "Μπλε Ψάρι"
+ Δεξιά: "Ifi y'ubururu"
+ - Αριστερά: "Κίτρινο Κοτόπουλο"
+ Δεξιά: "Inkoko y'umuhondo"
+ - Αριστερά: "Μαύρο Κουνέλι"
+ Δεξιά: "Urukwavu rw'umukara"
+ - Αριστερά: "Λευκό Κατσίκα"
+ Δεξιά: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. Επίλεξε Missing Word
+ - id: 80
+ type: choose_missing
+ Ερώτηση: "Επίλεξε the missing word"
+ Πρόταση: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Κόκκινο"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Ερώτηση: "Επίλεξε the missing word"
+ Πρόταση: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Μπλε"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Ερώτηση: "Επίλεξε the missing word"
+ Πρόταση: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Κόκκινο Πουλί flies"
+ xp_reward: 18
+
+ # 12. Διάβασε and Απάντηση - Ερώτηση in English, Απάντηση based on Kinyarwanda text
+ - id: 83
+ type: read_answer
+ Ερώτηση: "Διάβασε the text and Απάντηση the Ερώτηση"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ Ερώτηση: "What color is the apple?"
+ options: ["Κόκκινο", "Μπλε", "Πράσινο", "Κίτρινο"]
+ correct_answer: "Κόκκινο"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ Ερώτηση: "Διάβασε the text and Απάντηση the Ερώτηση"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ Ερώτηση: "Τι σημαίνει the Κόκκινο Πουλί do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ Ερώτηση: "Διάβασε the text and Απάντηση the Ερώτηση"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ Ερώτηση: "What color is the Αγελάδα?"
+ options: ["Μαύρο", "Λευκό", "Κίτρινο", "Κόκκινο"]
+ correct_answer: "Λευκό"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ Ερώτηση: "Is this statement true or false?"
+ statement: "Pome ni umutuku."
+ translation: "The apple is Κόκκινο"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ Ερώτηση: "Is this statement true or false?"
+ statement: "Ijuru ni icyatsi."
+ translation: "The sky is Πράσινο"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ Ερώτηση: "Is this statement true or false?"
+ statement: "Inka ni umweru."
+ translation: "The Αγελάδα is Λευκό"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ Ερώτηση: "Is this statement true or false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "The Κόκκινο Πουλί flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ Ερώτηση: "Respond to the Ερώτηση by building a Πρόταση"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ Ερώτηση: "Respond to the Ερώτηση"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is the sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ Ερώτηση: "Respond to the Ερώτηση"
+ bot_message: "Injangwe ni umukara?"
+ translation: "Is the Γάτα Μαύρο?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build Πρόταση from pieces
+ - id: 93
+ type: story
+ title: "Χρώματα in the Field"
+ story_intro: "Διάβασε about the colorful Ζώα. Then build the Πρόταση."
+ story_segments:
+ - text: "There is a Κόκκινο Πουλί in the sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: "The Πουλί flies above."
+ - text: "There is a Πράσινο Βάτραχος near the Νερό."
+ - text: "The Βάτραχος jumps."
+ - text: "There is a Μπλε Ψάρι in the Νερό."
+ - text: "The Ψάρι swims."
+ exercises:
+ - type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'The Κόκκινο Πουλί flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'The Πράσινο Βάτραχος jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ Ερώτηση: "Build the Kinyarwanda Πρόταση for 'The Μπλε Ψάρι swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ Ερώτηση: "Say the color"
+ prompt: "Umutuku"
+ translation: "Κόκκινο"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ Ερώτηση: "Say the color"
+ prompt: "Agasumbashyamba" # Καμηλοπάρδαλη - testing color knowledge in context
+ translation: "Καμηλοπάρδαλη (they are Κίτρινο and Καφέ)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ Ερώτηση: "Say the phrase"
+ prompt: "Pome itukura"
+ translation: "Κόκκινο apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ Ερώτηση: "Τι σημαίνει 'umutuku' mean in this Πρόταση?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["Κόκκινο", "Μπλε", "Πράσινο", "Κίτρινο"]
+ correct_answer: "Κόκκινο"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ Ερώτηση: "Τι σημαίνει 'itukura' mean in this Πρόταση?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["Κόκκινο", "Μπλε", "Πράσινο", "Κίτρινο"]
+ correct_answer: "Κόκκινο"
+ note: "itukura is the adjective form of umutuku when describing a noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ Ερώτηση: "Τι σημαίνει 'cy'icyatsi' mean in this Πρόταση?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["Κόκκινο", "Μπλε", "Πράσινο", "Κίτρινο"]
+ correct_answer: "Πράσινο"
+ xp_reward: 18
+
+ # 18. Speed Ταιριάξε
+ - id: 100
+ type: speed_Ταιριάξε
+ title: "Ταιριάξε Madness: Χρώματα"
+ time_limit_seconds: 45
+ pairs:
+ - Αριστερά: "Κόκκινο"
+ Δεξιά: "Umutuku"
+ - Αριστερά: "Μπλε"
+ Δεξιά: "Ubururu"
+ - Αριστερά: "Πράσινο"
+ Δεξιά: "Icyatsi"
+ - Αριστερά: "Κίτρινο"
+ Δεξιά: "Umuhondo"
+ - Αριστερά: "Μαύρο"
+ Δεξιά: "Umukara"
+ - Αριστερά: "Λευκό"
+ Δεξιά: "Umweru"
+ - Αριστερά: "Πορτοκαλί"
+ Δεξιά: "Πορτοκαλί"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: Χρώματα"
+ time_limit_seconds: 30
+ Ερώτηση_count: 5
+ Ερώτηση:
+ - Ερώτηση: "Κόκκινο"
+ Απάντηση: "Umutuku"
+ - Ερώτηση: "Μπλε"
+ Απάντηση: "Ubururu"
+ - Ερώτηση: "Πράσινο"
+ Απάντηση: "Icyatsi"
+ - Ερώτηση: "Κίτρινο"
+ Απάντηση: "Umuhondo"
+ - Ερώτηση: "Μαύρο"
+ Απάντηση: "Umukara"
+ xp_reward: 35
+
+# Κάρτες
+ - id: 111
+ type: Κάρτες
+ Ερώτηση: "Κάρτες"
+ Κάρτες:
+ - front: "Umutuku"
+ back: "Κόκκινο"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "Μπλε"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "Πράσινο"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "Κίτρινο"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "Μαύρο"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "Λευκό"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Πορτοκαλί"
+ back: "Πορτοκαλί"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "Κόκκινο apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "Μπλε sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "Πράσινο grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

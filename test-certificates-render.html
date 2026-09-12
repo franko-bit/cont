@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Certificate Rendering</title>
+    <style>
+        :root {
+            --sand: #f5ede6;
+            --ink: #1a1a18;
+            --muted: #8B7B72;
+        }
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        .test-section {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            background: var(--sand);
+        }
+        .card-title {
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--ink);
+            margin-bottom: 10px;
+        }
+        .badge {
+            display: inline-block;
+            background: #2d5a3d;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+        .text-muted {
+            color: var(--muted);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testing Certificate Rendering</h1>
+    
+    <div class="test-section">
+        <div class="card-title">Certificates <span class="badge">1 issued</span></div>
+        <p class="text-muted">Manage issued certificates and approve new awards.</p>
+    </div>
+
+    <h2>Expected Issues</h2>
+    <ul>
+        <li>If above text isn't visible, it's a CSS color issue</li>
+        <li>Background color: #f5ede6 (beige)</li>
+        <li>Text color: #1a1a18 (dark brown)</li>
+        <li>These should be easily readable</li>
+    </ul>
+</body>
+</html>

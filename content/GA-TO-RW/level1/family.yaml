@@ -1,0 +1,1060 @@
+lesson:
+ name: "Teaghlach - Umuryango"
+ description: "Foghlaim Teaghlach member names in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Teaghlach Members ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Ceist: "Conas a deir tú 'Mother' i gCinyarwanda?"
+ Freagra: "Mama"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Ceist: "Conas a deir tú 'Father' i gCinyarwanda?"
+ Freagra: "Data"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Ceist: "Conas a deir tú 'Brother' i gCinyarwanda?"
+ Freagra: "Musaza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Ceist: "Conas a deir tú 'Sister' i gCinyarwanda?"
+ Freagra: "Mushiki"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Ceist: "Conas a deir tú 'Child' i gCinyarwanda?"
+ Freagra: "Umwana"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Ceist: "Conas a deir tú 'Grandmother' i gCinyarwanda?"
+ Freagra: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Ceist: "Conas a deir tú 'Grandfather' i gCinyarwanda?"
+ Freagra: "Sogokuru"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Ceist: "Conas a deir tú 'Husband' i gCinyarwanda?"
+ Freagra: "Umugabo"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Ceist: "Conas a deir tú 'Wife' i gCinyarwanda?"
+ Freagra: "Umugore"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Ceist: "Conas a deir tú 'Paternal uncle' i gCinyarwanda?"
+ Freagra: "Datawabo"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Ceist: "Conas a deir tú 'Maternal uncle' i gCinyarwanda?"
+ Freagra: "Marume"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Ceist: "Conas a deir tú 'Paternal aunt' i gCinyarwanda?"
+ Freagra: "Masenge"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Ceist: "Conas a deir tú 'Maternal aunt' i gCinyarwanda?"
+ Freagra: "Nyirarume"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Ceist: "Conas a deir tú 'Grandchild' i gCinyarwanda?"
+ Freagra: "Umwuzukuru"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Ceist: "Conas a deir tú 'Great-grandchild' i gCinyarwanda?"
+ Freagra: "Umwuzukuruza"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Ceist: "Conas a deir tú 'Son-in-law / Groom' i gCinyarwanda?"
+ Freagra: "Umukwe"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Ceist: "Conas a deir tú 'Father-in-law' i gCinyarwanda?"
+ Freagra: "Sebukwe"
+ xp_reward: 10
+
+ # Translation - Greetings & Basic Phrases (Safe as fixed expressions)
+ - id: 18
+ type: translation
+ Ceist: "Conas a deir tú 'Dia dhuit, mother!' i gCinyarwanda?"
+ Freagra: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 19
+ type: translation
+ Ceist: "Conas a deir tú 'Dia dhuit, father!' i gCinyarwanda?"
+ Freagra: "Muraho, Data!"
+ xp_reward: 12
+
+ - id: 20
+ type: translation
+ Ceist: "Conas a fhaigheann tú 'How is the Teaghlach?' i gCinyarwanda?"
+ Freagra: "Umuryango umeze ute?"
+ xp_reward: 15
+
+ # Translation - Possession (Simple phrases with "have")
+ - id: 21
+ type: translation
+ Ceist: "Conas a deir tú 'I have a brother' i gCinyarwanda?"
+ Freagra: "Mfite Musaza."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Ceist: "Conas a deir tú 'I have a sister' i gCinyarwanda?"
+ Freagra: "Mfite Mushiki."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Ceist: "Conas a deir tú 'My grandfather has a Teach' i gCinyarwanda?"
+ Freagra: "Sogokuru afite inzu."
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR COMPLEX Abairt OR PARAGRAPHS
+ # Instead, we use Abairt building, Meaitseáil, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 24
+ type: multiple_choice
+ Ceist: "Cad é brí 'Mama' sa ráiteas seo?"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ - "Sister"
+ Freagra: "Mother"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Ceist: "Cad é brí 'Data' sa ráiteas seo?"
+ options:
+ - "Mother"
+ - "Father"
+ - "Grandfather"
+ - "Uncle"
+ Freagra: "Father"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Ceist: "Cad é brí 'Musaza' sa ráiteas seo?"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ - "Husband"
+ Freagra: "Brother"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Ceist: "Cad é brí 'Mushiki' sa ráiteas seo?"
+ options:
+ - "Brother"
+ - "Sister"
+ - "Mother"
+ - "Aunt"
+ Freagra: "Sister"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Ceist: "Cad é brí 'Nyogokuru' sa ráiteas seo?"
+ options:
+ - "Grandfather"
+ - "Grandmother"
+ - "Aunt"
+ - "Uncle"
+ Freagra: "Grandmother"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Ceist: "Cad é brí 'Sogokuru' sa ráiteas seo?"
+ options:
+ - "Grandmother"
+ - "Grandfather"
+ - "Father-in-law"
+ - "Uncle"
+ Freagra: "Grandfather"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Ceist: "Cad é brí 'Datawabo' sa ráiteas seo?"
+ options:
+ - "Maternal uncle"
+ - "Paternal uncle"
+ - "Father-in-law"
+ - "Grandfather"
+ Freagra: "Paternal uncle"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Ceist: "Cad é brí 'Marume' sa ráiteas seo?"
+ options:
+ - "Paternal uncle"
+ - "Maternal uncle"
+ - "Brother"
+ - "Son-in-law"
+ Freagra: "Maternal uncle"
+ xp_reward: 15
+
+ # 3. Éist and Type (Dictation) - Safe because audio is provided
+ - id: 32
+ type: listen_and_type
+ Ceist: "Éist and type the Teaghlach member"
+ tts_text: "Mama"
+ Freagra: "Mama"
+ translation: "Mother"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Ceist: "Éist and type the Teaghlach member"
+ tts_text: "Data"
+ Freagra: "Data"
+ translation: "Father"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Ceist: "Éist and type the Teaghlach member"
+ tts_text: "Nyogokuru"
+ Freagra: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ Ceist: "Éist and type the phrase"
+ tts_text: "Mama ari mu nzu"
+ Freagra: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 25
+
+ - id: 36
+ type: listen_and_type
+ Ceist: "Éist and type the phrase"
+ tts_text: "Data ari mu kazi"
+ Freagra: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 25
+
+ - id: 37
+ type: listen_and_type
+ Ceist: "Éist and type the Ceist"
+ tts_text: "Umuryango umeze ute"
+ Freagra: "Umuryango umeze ute"
+ translation: "How is the Teaghlach?"
+ xp_reward: 25
+
+ # 4. Éist and Roghnaigh
+ - id: 38
+ type: listen_and_choose
+ Ceist: "Éist and Roghnaigh the correct Teaghlach member"
+ tts_text: "Mama"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ Freagra: "Mother"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_and_choose
+ Ceist: "Éist and Roghnaigh the correct Teaghlach member"
+ tts_text: "Data"
+ options:
+ - "Mother"
+ - "Father"
+ - "Sister"
+ Freagra: "Father"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Ceist: "Éist and Roghnaigh the correct Teaghlach member"
+ tts_text: "Musaza"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ Freagra: "Brother"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Ceist: "Éist and Roghnaigh the correct phrase"
+ tts_text: "Mama ari mu nzu"
+ options:
+ - "Mother is at home"
+ - "Father is working"
+ - "Brother is playing"
+ Freagra: "Mother is at home"
+ xp_reward: 20
+
+ # 5. Repeat / Labhair Exercise
+ - id: 42
+ type: Labhair
+ Ceist: "Say this Teaghlach member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 43
+ type: Labhair
+ Ceist: "Say this Teaghlach member"
+ prompt: "Data"
+ translation: "Father"
+ xp_reward: 15
+
+ - id: 44
+ type: Labhair
+ Ceist: "Say this Teaghlach member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 45
+ type: Labhair
+ Ceist: "Say this Abairt"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 46
+ type: Labhair
+ Ceist: "Say this Abairt"
+ prompt: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 47
+ type: Labhair
+ Ceist: "Say this Ceist"
+ prompt: "Umuryango umeze ute"
+ translation: "How is the Teaghlach?"
+ xp_reward: 20
+
+ # 6. Word Bank Abairt Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 48
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'Mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 49
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'Father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ xp_reward: 22
+
+ - id: 51
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My sister Léigh a book'"
+ word_bank: ["Mushiki", "arasoma", "igitabo", "Musaza", "arakina", "hanze"]
+ correct_answer: ["Mushiki", "arasoma", "igitabo"]
+ xp_reward: 22
+
+ - id: 52
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'I love my grandmother'"
+ word_bank: ["Nkunda", "Nyogokuru", "Sogokuru", "arasaza", "cyane"]
+ correct_answer: ["Nkunda", "Nyogokuru"]
+ xp_reward: 20
+
+ - id: 53
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My grandfather is very old'"
+ word_bank: ["Sogokuru", "arasaza", "cyane", "Nyogokuru", "araduteka"]
+ correct_answer: ["Sogokuru", "arasaza", "cyane"]
+ xp_reward: 22
+
+ - id: 54
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'I have a brother'"
+ word_bank: ["Mfite", "Musaza", "Mushiki", "Umwana"]
+ correct_answer: ["Mfite", "Musaza"]
+ xp_reward: 18
+
+ - id: 55
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My grandfather has a Teach'"
+ word_bank: ["Sogokuru", "afite", "inzu", "Nyogokuru", "araduteka", "ibiryo"]
+ correct_answer: ["Sogokuru", "afite", "inzu"]
+ xp_reward: 20
+
+ - id: 56
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My grandmother cooks Bia'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 22
+
+ - id: 57
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My paternal uncle has a Gabhar'"
+ word_bank: ["Datawabo", "afite", "ihene", "Marume", "inka", "afite"]
+ correct_answer: ["Datawabo", "afite", "ihene"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My maternal uncle has a Bó'"
+ word_bank: ["Marume", "afite", "inka", "Datawabo", "ihene", "afite"]
+ correct_answer: ["Marume", "afite", "inka"]
+ xp_reward: 22
+
+ - id: 59
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My paternal aunt is kind'"
+ word_bank: ["Masenge", "ni", "mwiza", "Nyirarume", "ni", "mwiza", "cyane"]
+ correct_answer: ["Masenge", "ni", "mwiza"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My maternal aunt is very nice'"
+ word_bank: ["Nyirarume", "ni", "mwiza", "cyane", "Masenge", "ni", "mwiza"]
+ correct_answer: ["Nyirarume", "ni", "mwiza", "cyane"]
+ xp_reward: 22
+
+ - id: 61
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My child is playing'"
+ word_bank: ["Umwana", "arakinira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwana", "arakinira"]
+ xp_reward: 18
+
+ - id: 62
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My grandchild likes to Léigh'"
+ word_bank: ["Umwuzukuru", "akunda", "gusoma", "Umwana", "arakinira"]
+ correct_answer: ["Umwuzukuru", "akunda", "gusoma"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My great-grandchild sleeps'"
+ word_bank: ["Umwuzukuruza", "arahunyira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwuzukuruza", "arahunyira"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My son-in-law is helpful'"
+ word_bank: ["Umukwe", "ni", "umufasha", "Sebukwe", "ni", "inyangamugayo"]
+ correct_answer: ["Umukwe", "ni", "umufasha"]
+ xp_reward: 20
+
+ - id: 65
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My father-in-law is wise'"
+ word_bank: ["Sebukwe", "ni", "inyangamugayo", "Umukwe", "ni", "umufasha"]
+ correct_answer: ["Sebukwe", "ni", "inyangamugayo"]
+ xp_reward: 20
+
+ # 7. Abairt Scramble - PIECES PROVIDED
+ - id: 66
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Kinyarwanda Abairt"
+ scrambled_words: ["ari", "Mama", "mu nzu"]
+ correct_sentence: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 67
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Kinyarwanda Abairt"
+ scrambled_words: ["ari", "Data", "mu kazi"]
+ correct_sentence: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Kinyarwanda Abairt"
+ scrambled_words: ["arakina", "Musaza", "hanze"]
+ correct_sentence: "Musaza arakina hanze"
+ translation: "My brother plays outside"
+ xp_reward: 22
+
+ - id: 69
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Kinyarwanda Abairt"
+ scrambled_words: ["arasoma", "Mushiki", "igitabo"]
+ correct_sentence: "Mushiki arasoma igitabo"
+ translation: "My sister Léigh a book"
+ xp_reward: 22
+
+ - id: 70
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Kinyarwanda Abairt"
+ scrambled_words: ["Nkunda", "Nyogokuru"]
+ correct_sentence: "Nkunda Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Kinyarwanda Abairt"
+ scrambled_words: ["arasaza", "Sogokuru", "cyane"]
+ correct_sentence: "Sogokuru arasaza cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 20
+
+ - id: 72
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Kinyarwanda Abairt"
+ scrambled_words: ["afite", "Sogokuru", "inzu"]
+ correct_sentence: "Sogokuru afite inzu"
+ translation: "My grandfather has a Teach"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Kinyarwanda Abairt"
+ scrambled_words: ["araduteka", "Nyogokuru", "ibiryo"]
+ correct_sentence: "Nyogokuru araduteka ibiryo"
+ translation: "My grandmother cooks Bia"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Roghnaigh FROM OPTIONS
+ - id: 74
+ type: fill_blank
+ Ceist: "Roghnaigh the correct word to complete the Abairt"
+ text_with_blank: "Mama ___ mu nzu."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ Ceist: "Roghnaigh the correct word to complete the Abairt"
+ text_with_blank: "Data ___ mu kazi."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 76
+ type: fill_blank
+ Ceist: "Roghnaigh the correct word to complete the Abairt"
+ text_with_blank: "Musaza ___ hanze."
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ - id: 77
+ type: fill_blank
+ Ceist: "Roghnaigh the correct word to complete the Abairt"
+ text_with_blank: "Mushiki ___ igitabo."
+ options: ["arasoma", "arakina", "ari"]
+ correct_answer: "arasoma"
+ translation: "My sister Léigh a book"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ Ceist: "Roghnaigh the correct word to complete the Abairt"
+ text_with_blank: "Nkunda ___."
+ options: ["Nyogokuru", "Sogokuru", "Data"]
+ correct_answer: "Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ Ceist: "Roghnaigh the correct word to complete the Abairt"
+ text_with_blank: "Sogokuru arasaza ___."
+ options: ["cyane", "neza", "nziza"]
+ correct_answer: "cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 15
+
+ - id: 80
+ type: fill_blank
+ Ceist: "Roghnaigh the correct word to complete the Abairt"
+ text_with_blank: "Sogokuru ___ inzu."
+ options: ["afite", "ari", "ni"]
+ correct_answer: "afite"
+ translation: "My grandfather has a Teach"
+ xp_reward: 15
+
+ - id: 81
+ type: fill_blank
+ Ceist: "Roghnaigh the correct word to complete the Abairt"
+ text_with_blank: "Nyogokuru araduteka ___."
+ options: ["ibiryo", "amazi", "inyama"]
+ correct_answer: "ibiryo"
+ translation: "My grandmother cooks Bia"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 82
+ type: picture_word
+ Ceist: "Who is this Teaghlach member?"
+ image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Nyogokuru", "Sogokuru"]
+ correct_answer: "Mama"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ Ceist: "Who is this Teaghlach member?"
+ image_url: "https://source.unsplash.com/featured/?fatherhttps://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Musaza", "Mushiki"]
+ correct_answer: "Data"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ Ceist: "Who is this Teaghlach member?"
+ image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Nyogokuru", "Sogokuru", "Mama", "Data"]
+ correct_answer: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ Ceist: "Who is this Teaghlach member?"
+ image_url: "https://source.unsplash.com/featured/?grandfather"
+ options: ["Sogokuru", "Nyogokuru", "Data", "Marume"]
+ correct_answer: "Sogokuru"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Ceist: "Who is this Teaghlach member?"
+ image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Musaza", "Mushiki", "Umwana", "Data"]
+ correct_answer: "Musaza"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Ceist: "Who is this Teaghlach member?"
+ image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mushiki", "Musaza", "Mama", "Nyogokuru"]
+ correct_answer: "Mushiki"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Ceist: "Who is this Teaghlach member?"
+ image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umwana", "Umwuzukuru", "Musaza", "Mushiki"]
+ correct_answer: "Umwana"
+ xp_reward: 10
+
+ 
+ # 10. Word Meaitseáil (Pairing)
+ - id: 90
+ type: Meaitseáil
+ Ceist: "Meaitseáil the Teaghlach members"
+ pairs:
+ - Ar chlé: "Mother"
+ Ar dheis: "Mama"
+ - Ar chlé: "Father"
+ Ar dheis: "Data"
+ - Ar chlé: "Brother"
+ Ar dheis: "Musaza"
+ - Ar chlé: "Sister"
+ Ar dheis: "Mushiki"
+ - Ar chlé: "Child"
+ Ar dheis: "Umwana"
+ - Ar chlé: "Grandmother"
+ Ar dheis: "Nyogokuru"
+ - Ar chlé: "Grandfather"
+ Ar dheis: "Sogokuru"
+ - Ar chlé: "Husband"
+ Ar dheis: "Umugabo"
+ - Ar chlé: "Wife"
+ Ar dheis: "Umugore"
+ xp_reward: 25
+
+ - id: 91
+ type: Meaitseáil
+ Ceist: "Meaitseáil the extended Teaghlach members"
+ pairs:
+ - Ar chlé: "Paternal uncle"
+ Ar dheis: "Datawabo"
+ - Ar chlé: "Maternal uncle"
+ Ar dheis: "Marume"
+ - Ar chlé: "Paternal aunt"
+ Ar dheis: "Masenge"
+ - Ar chlé: "Maternal aunt"
+ Ar dheis: "Nyirarume"
+ - Ar chlé: "Grandchild"
+ Ar dheis: "Umwuzukuru"
+ - Ar chlé: "Great-grandchild"
+ Ar dheis: "Umwuzukuruza"
+ - Ar chlé: "Son-in-law"
+ Ar dheis: "Umukwe"
+ - Ar chlé: "Father-in-law"
+ Ar dheis: "Sebukwe"
+ xp_reward: 25
+
+ - id: 92
+ type: Meaitseáil
+ Ceist: "Meaitseáil the actions with Teaghlach members"
+ pairs:
+ - Ar chlé: "is at home"
+ Ar dheis: "ari mu nzu"
+ - Ar chlé: "is working"
+ Ar dheis: "ari mu kazi"
+ - Ar chlé: "plays outside"
+ Ar dheis: "arakina hanze"
+ - Ar chlé: "Léigh a book"
+ Ar dheis: "arasoma igitabo"
+ - Ar chlé: "cooks Bia"
+ Ar dheis: "araduteka ibiryo"
+ - Ar chlé: "has a Teach"
+ Ar dheis: "afite inzu"
+ xp_reward: 25
+
+ # 11. Roghnaigh Missing Word
+ - id: 97
+ type: choose_missing
+ Ceist: "Roghnaigh the missing word"
+ Abairt: "Mama ___ mu nzu."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 98
+ type: choose_missing
+ Ceist: "Roghnaigh the missing word"
+ Abairt: "Data ___ mu kazi."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 99
+ type: choose_missing
+ Ceist: "Roghnaigh the missing word"
+ Abairt: "Musaza ___ hanze."
+ missing_word_position: 2
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ # 12. Léigh and Freagra - Ceist in English, Freagra based on Kinyarwanda text
+ - id: 100
+ type: read_answer
+ Ceist: "Léigh the text and Freagra the Ceist"
+ text: "Mama ari mu nzu. Data ari mu kazi."
+ Ceist: "Where is the mother?"
+ options: ["At home", "At work", "Outside", "At the Margadh"]
+ correct_answer: "At home"
+ xp_reward: 20
+
+ - id: 101
+ type: read_answer
+ Ceist: "Léigh the text and Freagra the Ceist"
+ text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+ Ceist: "Cad é the sister doing?"
+ options: ["Playing", "Léigh a book", "Working", "Cooking"]
+ correct_answer: "Léigh a book"
+ xp_reward: 22
+
+ - id: 102
+ type: read_answer
+ Ceist: "Léigh the text and Freagra the Ceist"
+ text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+ Ceist: "Cad é brí the grandfather have?"
+ options: ["A Bó", "A Teach", "A Gabhar", "A book"]
+ correct_answer: "A Teach"
+ xp_reward: 20
+
+ - id: 103
+ type: read_answer
+ Ceist: "Léigh the text and Freagra the Ceist"
+ text: "Datawabo afite ihene. Marume afite inka."
+ Ceist: "Cad é brí the maternal uncle have?"
+ options: ["A Gabhar", "A Bó", "A Teach", "A Sicín"]
+ correct_answer: "A Bó"
+ xp_reward: 22
+
+ # 13. True / False
+ - id: 104
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Mama ni umugore."
+ translation: "Mother is a woman"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 105
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Data ni umugore."
+ translation: "Father is a woman"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 106
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Nyogokuru arasaza cyane."
+ translation: "Grandmother is very old"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 107
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Umwana arakina hanze."
+ translation: "The child plays outside"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 108
+ type: conversation
+ Ceist: "Respond to the Ceist by building a Abairt"
+ bot_message: "Mama ari he?"
+ translation: "Where is mother?"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "ari", "mu kazi"]
+ correct_response: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 109
+ type: conversation
+ Ceist: "Respond to the Ceist"
+ bot_message: "Umuryango umeze ute?"
+ translation: "How is the Teaghlach?"
+ options:
+ - "Umeze neza"
+ - "Umeze nabi"
+ - "Umeze ute"
+ correct_response: "Umeze neza"
+ xp_reward: 15
+
+ - id: 110
+ type: conversation
+ Ceist: "Respond to the Ceist by building a Abairt"
+ bot_message: "Data ari he?"
+ translation: "Where is father?"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "ari", "mu nzu"]
+ correct_response: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build Abairt from pieces
+ - id: 111
+ type: story
+ title: "My Teaghlach - Umuryango Wanjye"
+ story_intro: "Léigh about the Teaghlach. Then build the Abairt."
+ story_segments:
+ - text: "My mother is at home."
+ image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+ - text: "My father is working."
+ - text: "My brother plays outside."
+ - text: "My sister Léigh a book."
+ - text: "My grandmother cooks Bia."
+ - text: "My grandfather has a Teach."
+ exercises:
+ - type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ - type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ - type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ - type: word_bank
+ Ceist: "Build the Kinyarwanda Abairt for 'My grandmother cooks Bia'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 112
+ type: pronunciation
+ Ceist: "Say this Teaghlach member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ Ceist: "Say this Teaghlach member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ Ceist: "Say this Abairt"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 115
+ type: identify_meaning
+ Ceist: "Cad é brí 'Mama' mean in this Abairt?"
+ context_sentence: "Mama ari mu nzu."
+ word: "Mama"
+ options: ["father", "mother", "brother", "sister"]
+ correct_answer: "mother"
+ xp_reward: 15
+
+ - id: 116
+ type: identify_meaning
+ Ceist: "Cad é brí 'arakina' mean in this Abairt?"
+ context_sentence: "Musaza arakina hanze."
+ word: "arakina"
+ options: ["Léigh", "plays", "works", "cooks"]
+ correct_answer: "plays"
+ xp_reward: 18
+
+ - id: 117
+ type: identify_meaning
+ Ceist: "Cad é brí 'araduteka' mean in this Abairt?"
+ context_sentence: "Nyogokuru araduteka ibiryo."
+ word: "araduteka"
+ options: ["cooks", "eats", "has", "loves"]
+ correct_answer: "cooks"
+ xp_reward: 18
+
+ # 18. Speed Meaitseáil
+ - id: 118
+ type: speed_Meaitseáil
+ title: "Meaitseáil Madness: Teaghlach"
+ time_limit_seconds: 45
+ pairs:
+ - Ar chlé: "Mother"
+ Ar dheis: "Mama"
+ - Ar chlé: "Father"
+ Ar dheis: "Data"
+ - Ar chlé: "Brother"
+ Ar dheis: "Musaza"
+ - Ar chlé: "Sister"
+ Ar dheis: "Mushiki"
+ - Ar chlé: "Grandmother"
+ Ar dheis: "Nyogokuru"
+ - Ar chlé: "Grandfather"
+ Ar dheis: "Sogokuru"
+ - Ar chlé: "Child"
+ Ar dheis: "Umwana"
+ - Ar chlé: "Husband"
+ Ar dheis: "Umugabo"
+ - Ar chlé: "Wife"
+ Ar dheis: "Umugore"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 119
+ type: timed_challenge
+ title: "Lightning Round: Teaghlach"
+ time_limit_seconds: 30
+ Ceist_count: 5
+ Ceist:
+ - Ceist: "Mother"
+ Freagra: "Mama"
+ - Ceist: "Father"
+ Freagra: "Data"
+ - Ceist: "Brother"
+ Freagra: "Musaza"
+ - Ceist: "Sister"
+ Freagra: "Mushiki"
+ - Ceist: "Grandmother"
+ Freagra: "Nyogokuru"
+ xp_reward: 35
+
+# Cártaí meabhair
+ - id: 111
+ type: Cártaí meabhair
+ Ceist: "Cártaí meabhair"
+ Cártaí meabhair:
+ - front: "Mama"
+ back: "Mother"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Data"
+ back: "Father"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Musaza"
+ back: "Brother"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Mushiki"
+ back: "Sister"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umwana"
+ back: "Child"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyogokuru"
+ back: "Grandmother"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Sogokuru"
+ back: "Grandfather"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugabo"
+ back: "Husband"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugore"
+ back: "Wife"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Datawabo"
+ back: "Paternal uncle"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

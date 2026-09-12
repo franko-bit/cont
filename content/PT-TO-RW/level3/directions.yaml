@@ -1,0 +1,1229 @@
+lesson:
+ name: "Direções - Amabwiriza y'ahantu"
+ description: "Aprenda direction words e phrases em Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Direction Words ONLY (Safe para single words)
+ # Basic Direções
+ - id: 1
+ type: translation
+ Pergunta: "Como se diz 'Esquerda' em kinyarwanda?"
+ Resposta: "Ibumoso"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Pergunta: "Como se diz 'Direita' em kinyarwanda?"
+ Resposta: "Iburyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Pergunta: "Como se diz 'Em frente' em kinyarwanda?"
+ Resposta: "Uburyohe / Guhita imbere"
+ note: "Both são acceptable"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Pergunta: "Como se diz 'Back / Behind' em kinyarwanda?"
+ Resposta: "Inyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Pergunta: "Como se diz 'Front' em kinyarwanda?"
+ Resposta: "Imbere"
+ xp_reward: 10
+
+ # Cardinal Direções
+ - id: 6
+ type: translation
+ Pergunta: "Como se diz 'North' em kinyarwanda?"
+ Resposta: "Amajyaruguru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Pergunta: "Como se diz 'South' em kinyarwanda?"
+ Resposta: "Amajyepfo"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Pergunta: "Como se diz 'East' em kinyarwanda?"
+ Resposta: "Uburasirazuba"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Pergunta: "Como se diz 'West' em kinyarwanda?"
+ Resposta: "Uburengerazuba"
+ xp_reward: 10
+
+ # Location Words
+ - id: 10
+ type: translation
+ Pergunta: "Como se diz 'Near' em kinyarwanda?"
+ Resposta: "Hafi"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Pergunta: "Como se diz 'Far' em kinyarwanda?"
+ Resposta: "Hahandi / kure"
+ note: "Both são acceptable"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Pergunta: "Como se diz 'Around' em kinyarwanda?"
+ Resposta: "Hagarika / ahantu hose"
+ note: "Both são acceptable"
+ xp_reward: 15
+
+ # Places e Features
+ - id: 13
+ type: translation
+ Pergunta: "Como se diz 'Intersection / Crossroads' em kinyarwanda?"
+ Resposta: "Ahantu hahurira imihanda"
+ xp_reward: 18
+
+ - id: 14
+ type: translation
+ Pergunta: "Como se diz 'Street / Road' em kinyarwanda?"
+ Resposta: "Umuhanda"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Pergunta: "Como se diz 'Corner' em kinyarwanda?"
+ Resposta: "Inguni"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Pergunta: "Como se diz 'Traffic light' em kinyarwanda?"
+ Resposta: "Itara ry'umuhanda"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Pergunta: "Como se diz 'Sign / Signpost' em kinyarwanda?"
+ Resposta: "Ikimenyetso / Ikimenyetso cy'umuhanda"
+ xp_reward: 18
+
+ # Direction Commands
+ - id: 18
+ type: translation
+ Pergunta: "Como se diz 'Turn Esquerda' em kinyarwanda?"
+ Resposta: "Hagarika ibumoso."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Pergunta: "Como se diz 'Turn Direita' em kinyarwanda?"
+ Resposta: "Hagarika iburyo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Pergunta: "Como se diz 'ir Em frente' em kinyarwanda?"
+ Resposta: "Komeza imbere."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Pergunta: "Como se diz 'ir back' em kinyarwanda?"
+ Resposta: "Subira inyuma."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Pergunta: "Como se diz 'Cross o street' em kinyarwanda?"
+ Resposta: "Kora umuhanda."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Pergunta: "Como se diz 'Stop at o traffic light' em kinyarwanda?"
+ Resposta: "Hagarara ku itara ry'umuhanda."
+ xp_reward: 18
+
+ # Location Frase
+ - id: 24
+ type: translation
+ Pergunta: "Como se diz 'o bank é em front de o Escola' em kinyarwanda?"
+ Resposta: "Banki iri imbere y'ishuri."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Pergunta: "Como se diz 'o Mercado é near' em kinyarwanda?"
+ Resposta: "Isoko riri hafi."
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ Pergunta: "Como se diz 'o hospital é far' em kinyarwanda?"
+ Resposta: "Ibitaro biri kure."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Pergunta: "O que significa 'Ibumoso' nesta frase?"
+ options:
+ - "Direita"
+ - "Esquerda"
+ - "Em frente"
+ - "Front"
+ Resposta: "Esquerda"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Pergunta: "O que significa 'Iburyo' nesta frase?"
+ options:
+ - "Esquerda"
+ - "Direita"
+ - "Back"
+ - "North"
+ Resposta: "Direita"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Pergunta: "O que significa 'Imbere' nesta frase?"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ - "Far"
+ Resposta: "Front"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Pergunta: "O que significa 'Inyuma' nesta frase?"
+ options:
+ - "Front"
+ - "Behind"
+ - "Esquerda"
+ - "Direita"
+ Resposta: "Behind"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Pergunta: "O que significa 'Amajyaruguru' nesta frase?"
+ options:
+ - "South"
+ - "North"
+ - "East"
+ - "West"
+ Resposta: "North"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Pergunta: "O que significa 'Hafi' nesta frase?"
+ options:
+ - "Far"
+ - "Near"
+ - "Around"
+ - "Em frente"
+ Resposta: "Near"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Pergunta: "O que significa 'Umuhanda' nesta frase?"
+ options:
+ - "Corner"
+ - "Street"
+ - "Traffic light"
+ - "Sign"
+ Resposta: "Street"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Pergunta: "O que significa 'Hagarika ibumoso' nesta frase?"
+ options:
+ - "Turn Direita"
+ - "Turn Esquerda"
+ - "ir Em frente"
+ - "ir back"
+ Resposta: "Turn Esquerda"
+ xp_reward: 18
+
+ # 3. Ouçum e Type (Dictation)
+ - id: 35
+ type: listen_e_type
+ Pergunta: "Ouçum e type o direction word"
+ audio: "Ibumoso"
+ Resposta: "Ibumoso"
+ translation: "Esquerda"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_e_type
+ Pergunta: "Ouçum e type o direction word"
+ audio: "Iburyo"
+ Resposta: "Iburyo"
+ translation: "Direita"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_e_type
+ Pergunta: "Ouçum e type o direction word"
+ audio: "Imbere"
+ Resposta: "Imbere"
+ translation: "Front"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_e_type
+ Pergunta: "Ouçum e type o direction word"
+ audio: "Inyuma"
+ Resposta: "Inyuma"
+ translation: "Behind"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_e_type
+ Pergunta: "Ouçum e type o direction word"
+ audio: "Hafi"
+ Resposta: "Hafi"
+ translation: "Near"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_e_type
+ Pergunta: "Ouçum e type o command"
+ audio: "Hagarika ibumoso"
+ Resposta: "Hagarika ibumoso"
+ translation: "Turn Esquerda"
+ xp_reward: 22
+
+ - id: 41
+ type: listen_e_type
+ Pergunta: "Ouçum e type o command"
+ audio: "Komeza imbere"
+ Resposta: "Komeza imbere"
+ translation: "ir Em frente"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_e_type
+ Pergunta: "Ouçum e type o Frase"
+ audio: "Isoko riri hafi"
+ Resposta: "Isoko riri hafi"
+ translation: "o Mercado é near"
+ xp_reward: 22
+
+ 
+ # 4. Ouçum e Escolha
+ - id: 44
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct direction"
+ audio: "Ibumoso"
+ options:
+ - "Esquerda"
+ - "Direita"
+ - "Em frente"
+ Resposta: "Esquerda"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct direction"
+ audio: "Iburyo"
+ options:
+ - "Esquerda"
+ - "Direita"
+ - "Back"
+ Resposta: "Direita"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct direction"
+ audio: "Imbere"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ Resposta: "Front"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct command"
+ audio: "Hagarika ibumoso"
+ options:
+ - "Turn Direita"
+ - "Turn Esquerda"
+ - "ir Em frente"
+ Resposta: "Turn Esquerda"
+ xp_reward: 18
+
+ - id: 48
+ type: listen_e_choose
+ Pergunta: "Ouçum e Escolha o correct Frase"
+ audio: "Isoko riri hafi"
+ options:
+ - "o Mercado é far"
+ - "o Mercado é near"
+ - "o Mercado é em front"
+ Resposta: "o Mercado é near"
+ xp_reward: 18
+
+ # 5. Repeat / Fale Exercise
+ - id: 49
+ type: Fale
+ Pergunta: "Say este direction word"
+ prompt: "Ibumoso"
+ translation: "Esquerda"
+ xp_reward: 15
+
+ - id: 50
+ type: Fale
+ Pergunta: "Say este direction word"
+ prompt: "Iburyo"
+ translation: "Direita"
+ xp_reward: 15
+
+ - id: 51
+ type: Fale
+ Pergunta: "Say este direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 52
+ type: Fale
+ Pergunta: "Say este direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 53
+ type: Fale
+ Pergunta: "Say este direction word"
+ prompt: "Hafi"
+ translation: "Near"
+ xp_reward: 15
+
+ - id: 54
+ type: Fale
+ Pergunta: "Say este command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Esquerda"
+ xp_reward: 18
+
+ - id: 55
+ type: Fale
+ Pergunta: "Say este command"
+ prompt: "Komeza imbere"
+ translation: "ir Em frente"
+ xp_reward: 18
+
+ - id: 56
+ type: Fale
+ Pergunta: "Say este Frase"
+ prompt: "Isoko riri hafi"
+ translation: "o Mercado é near"
+ xp_reward: 18
+
+ - id: 57
+ type: Fale
+ Pergunta: "Say este Frase"
+ prompt: "Banki iri imbere y'ishuri"
+ translation: "o bank é em front de o Escola"
+ xp_reward: 22
+
+ # 6. Word Bank Frase Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ Pergunta: "Build o command 'Turn Esquerda'"
+ word_bank: ["Hagarika", "ibumoso", "iburyo", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "ibumoso"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Pergunta: "Build o command 'Turn Direita'"
+ word_bank: ["Hagarika", "iburyo", "ibumoso", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "iburyo"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Pergunta: "Build o command 'ir Em frente'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira"]
+ correct_answer: ["Komeza", "imbere"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ Pergunta: "Build o command 'ir back'"
+ word_bank: ["Subira", "inyuma", "komeza", "imbere", "hagarika"]
+ correct_answer: ["Subira", "inyuma"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Pergunta: "Build o Frase 'o bank é em front de o Escola'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri", "hafi"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Pergunta: "Build o Frase 'o Mercado é near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ Pergunta: "Build o Frase 'o hospital é far'"
+ word_bank: ["Ibitaro", "biri", "kure", "isoko", "riri", "hafi"]
+ correct_answer: ["Ibitaro", "biri", "kure"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ Pergunta: "Build o command 'Cross o street'"
+ word_bank: ["Kora", "umuhanda", "hagarara", "itara", "ry'umuhanda"]
+ correct_answer: ["Kora", "umuhanda"]
+ xp_reward: 15
+
+ - id: 66
+ type: word_bank
+ Pergunta: "Build o command 'Stop at o traffic light'"
+ word_bank: ["Hagarara", "ku", "itara", "ry'umuhanda", "kora", "umuhanda"]
+ correct_answer: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ xp_reward: 22
+
+ # 7. Frase Scramble - PIECES PROVIDED
+ - id: 67
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct command"
+ scrambled_words: ["Hagarika", "ibumoso"]
+ correct_sentence: "Hagarika ibumoso."
+ translation: "Turn Esquerda."
+ xp_reward: 15
+
+ - id: 68
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct command"
+ scrambled_words: ["Hagarika", "iburyo"]
+ correct_sentence: "Hagarika iburyo."
+ translation: "Turn Direita."
+ xp_reward: 15
+
+ - id: 69
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct command"
+ scrambled_words: ["Komeza", "imbere"]
+ correct_sentence: "Komeza imbere."
+ translation: "ir Em frente."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct command"
+ scrambled_words: ["Subira", "inyuma"]
+ correct_sentence: "Subira inyuma."
+ translation: "ir back."
+ xp_reward: 15
+
+ - id: 71
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct Frase"
+ scrambled_words: ["Banki", "iri", "imbere", "y'ishuri"]
+ correct_sentence: "Banki iri imbere y'ishuri."
+ translation: "o bank é em front de o Escola."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct Frase"
+ scrambled_words: ["Isoko", "riri", "hafi"]
+ correct_sentence: "Isoko riri hafi."
+ translation: "o Mercado é near."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct Frase"
+ scrambled_words: ["Ibitaro", "biri", "kure"]
+ correct_sentence: "Ibitaro biri kure."
+ translation: "o hospital é far."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct command"
+ scrambled_words: ["Kora", "umuhanda"]
+ correct_sentence: "Kora umuhanda."
+ translation: "Cross o street."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Pergunta: "Arrange these words para form um correct command"
+ scrambled_words: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ correct_sentence: "Hagarara ku itara ry'umuhanda."
+ translation: "Stop at o traffic light."
+ xp_reward: 22
+
+ # 8. Fill em o Blank - Escolha FROM OPTIONS
+ - id: 76
+ type: fill_blank
+ Pergunta: "Complete o command"
+ text_com_blank: "Hagarika ___."
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Esquerda."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ Pergunta: "Complete o command"
+ text_com_blank: "Hagarika ___."
+ options: ["iburyo", "ibumoso", "imbere"]
+ correct_answer: "iburyo"
+ translation: "Turn Direita."
+ xp_reward: 12
+
+ - id: 78
+ type: fill_blank
+ Pergunta: "Complete o command"
+ text_com_blank: "Komeza ___."
+ options: ["imbere", "inyuma", "ibumoso"]
+ correct_answer: "imbere"
+ translation: "ir Em frente."
+ xp_reward: 12
+
+ - id: 79
+ type: fill_blank
+ Pergunta: "Complete o command"
+ text_com_blank: "Subira ___."
+ options: ["inyuma", "imbere", "iburyo"]
+ correct_answer: "inyuma"
+ translation: "ir back."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ Pergunta: "Complete o Frase"
+ text_com_blank: "Isoko riri ___."
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "o Mercado é near."
+ xp_reward: 12
+
+ - id: 81
+ type: fill_blank
+ Pergunta: "Complete o Frase"
+ text_com_blank: "Ibitaro biri ___."
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "o hospital é far."
+ xp_reward: 12
+
+ - id: 82
+ type: fill_blank
+ Pergunta: "Complete o Frase"
+ text_com_blank: "Banki iri imbere ___."
+ options: ["y'ishuri", "y'isoko", "y'ibitaro"]
+ correct_answer: "y'ishuri"
+ translation: "o bank é em front de o Escola."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ Pergunta: "Complete o command"
+ text_com_blank: "Kora ___."
+ options: ["umuhanda", "itara", "inguni"]
+ correct_answer: "umuhanda"
+ translation: "Cross o street."
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ Pergunta: "Complete o command"
+ text_com_blank: "Hagarara ku ___ ry'umuhanda."
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at o traffic light."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 85
+ type: picture_word
+ Pergunta: "What direction does este sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?left-arrow"
+ options: ["Ibumoso", "Iburyo", "Imbere"]
+ correct_answer: "Ibumoso"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Pergunta: "What direction does este sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?right-arrow"
+ options: ["Ibumoso", "Iburyo", "Inyuma"]
+ correct_answer: "Iburyo"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Pergunta: "What direction does este sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?straight-arrow"
+ options: ["Imbere", "Inyuma", "Ibumoso"]
+ correct_answer: "Imbere"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Pergunta: "O que é este?"
+ image_url: "https://source.unsplash.com/featured/?traffic-light"
+ options: ["Itara ry'umuhanda", "Umuhanda", "Ikimenyetso"]
+ correct_answer: "Itara ry'umuhanda"
+ xp_reward: 12
+
+ - id: 89
+ type: picture_word
+ Pergunta: "O que é este?"
+ image_url: "https://source.unsplash.com/featured/?street-corner"
+ options: ["Inguni", "Umuhanda", "Ahantu hahurira imihanda"]
+ correct_answer: "Inguni"
+ xp_reward: 10
+
+ - id: 90
+ type: picture_word
+ Pergunta: "O que é este?"
+ image_url: "https://source.unsplash.com/featured/?road-sign"
+ options: ["Ikimenyetso", "Itara", "Umuhanda"]
+ correct_answer: "Ikimenyetso"
+ xp_reward: 10
+
+ - id: 91
+ type: picture_word
+ Pergunta: "O que é este?"
+ image_url: "https://source.unsplash.com/featured/?intersection"
+ options: ["Ahantu hahurira imihanda", "Inguni", "Umuhanda"]
+ correct_answer: "Ahantu hahurira imihanda"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ Pergunta: "What place é este?"
+ image_url: "https://source.unsplash.com/featured/?bank"
+ options: ["Banki", "Isoko", "Ibitaro"]
+ correct_answer: "Banki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ Pergunta: "What place é este?"
+ image_url: "https://source.unsplash.com/featured/?market"
+ options: ["Isoko", "Banki", "Ibitaro"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ Pergunta: "What place é este?"
+ image_url: "https://source.unsplash.com/featured/?hospital"
+ options: ["Ibitaro", "Isoko", "Banki"]
+ correct_answer: "Ibitaro"
+ xp_reward: 10
+
+ # 10. Word Associe (Pairing)
+ - id: 95
+ type: Associe
+ Pergunta: "Associe o basic Direções"
+ pairs:
+ - Esquerda: "Esquerda"
+ Direita: "Ibumoso"
+ - Esquerda: "Direita"
+ Direita: "Iburyo"
+ - Esquerda: "Em frente"
+ Direita: "Uburyohe / Guhita imbere"
+ - Esquerda: "Front"
+ Direita: "Imbere"
+ - Esquerda: "Behind"
+ Direita: "Inyuma"
+ xp_reward: 20
+
+ - id: 96
+ type: Associe
+ Pergunta: "Associe o cardinal Direções"
+ pairs:
+ - Esquerda: "North"
+ Direita: "Amajyaruguru"
+ - Esquerda: "South"
+ Direita: "Amajyepfo"
+ - Esquerda: "East"
+ Direita: "Uburasirazuba"
+ - Esquerda: "West"
+ Direita: "Uburengerazuba"
+ xp_reward: 18
+
+ - id: 97
+ type: Associe
+ Pergunta: "Associe o location words"
+ pairs:
+ - Esquerda: "Near"
+ Direita: "Hafi"
+ - Esquerda: "Far"
+ Direita: "Hahandi / kure"
+ - Esquerda: "Around"
+ Direita: "Hagarika / ahantu hose"
+ xp_reward: 15
+
+ - id: 98
+ type: Associe
+ Pergunta: "Associe o commands"
+ pairs:
+ - Esquerda: "Turn Esquerda"
+ Direita: "Hagarika ibumoso"
+ - Esquerda: "Turn Direita"
+ Direita: "Hagarika iburyo"
+ - Esquerda: "ir Em frente"
+ Direita: "Komeza imbere"
+ - Esquerda: "ir back"
+ Direita: "Subira inyuma"
+ - Esquerda: "Cross o street"
+ Direita: "Kora umuhanda"
+ - Esquerda: "Stop at o traffic light"
+ Direita: "Hagarara ku itara ry'umuhanda"
+ xp_reward: 25
+
+ - id: 99
+ type: Associe
+ Pergunta: "Associe o Frase"
+ pairs:
+ - Esquerda: "o bank é em front de o Escola"
+ Direita: "Banki iri imbere y'ishuri"
+ - Esquerda: "o Mercado é near"
+ Direita: "Isoko riri hafi"
+ - Esquerda: "o hospital é far"
+ Direita: "Ibitaro biri kure"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED um PER PREVIOUS PATTERN
+
+ # 12. Escolha Missing Word
+ - id: 100
+ type: choose_missing
+ Pergunta: "Escolha o missing word"
+ Frase: "Hagarika ___."
+ missing_word_position: 2
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Esquerda."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ Pergunta: "Escolha o missing word"
+ Frase: "Komeza ___."
+ missing_word_position: 2
+ options: ["imbere", "inyuma", "iburyo"]
+ correct_answer: "imbere"
+ translation: "ir Em frente."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ Pergunta: "Escolha o missing word"
+ Frase: "Subira ___."
+ missing_word_position: 2
+ options: ["inyuma", "imbere", "ibumoso"]
+ correct_answer: "inyuma"
+ translation: "ir back."
+ xp_reward: 12
+
+ - id: 103
+ type: choose_missing
+ Pergunta: "Escolha o missing word"
+ Frase: "Isoko riri ___."
+ missing_word_position: 3
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "o Mercado é near."
+ xp_reward: 12
+
+ - id: 104
+ type: choose_missing
+ Pergunta: "Escolha o missing word"
+ Frase: "Ibitaro biri ___."
+ missing_word_position: 3
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "o hospital é far."
+ xp_reward: 12
+
+ - id: 105
+ type: choose_missing
+ Pergunta: "Escolha o missing phrase"
+ Frase: "Hagarara ku ___ ry'umuhanda."
+ missing_word_position: 3
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at o traffic light."
+ xp_reward: 15
+
+ # 13. Leia e Resposta - Pergunta based em text
+ - id: 106
+ type: read_answer
+ Pergunta: "Leia o text e Resposta o Pergunta"
+ text: "Komeza imbere. Hagarika ibumoso."
+ Pergunta: "O que é o first instruction?"
+ options: ["Turn Esquerda", "ir Em frente", "Turn Direita", "ir back"]
+ correct_answer: "ir Em frente"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ Pergunta: "Leia o text e Resposta o Pergunta"
+ text: "Banki iri imbere y'ishuri. Isoko riri hafi."
+ Pergunta: "Where é o bank?"
+ options: ["Near o Mercado", "em front de o Escola", "Far away", "Behind o Escola"]
+ correct_answer: "em front de o Escola"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ Pergunta: "Leia o text e Resposta o Pergunta"
+ text: "Hagarara ku itara ry'umuhanda. Kora umuhanda."
+ Pergunta: "What should you do at o traffic light?"
+ options: ["Turn Esquerda", "Stop", "ir Em frente", "Turn Direita"]
+ correct_answer: "Stop"
+ xp_reward: 15
+
+ - id: 109
+ type: read_answer
+ Pergunta: "Leia o text e Resposta o Pergunta"
+ text: "Ibitaro biri kure. Isoko riri hafi."
+ Pergunta: "é o hospital near ou far?"
+ options: ["Near", "Far", "muito close", "não mentioned"]
+ correct_answer: "Far"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ Pergunta: "Leia o text e Resposta o Pergunta"
+ text: "Subira inyuma. Hagarika iburyo."
+ Pergunta: "O que é o second instruction?"
+ options: ["ir back", "Turn Esquerda", "Turn Direita", "ir Em frente"]
+ correct_answer: "Turn Direita"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "Ibumoso means 'Direita'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "Iburyo means 'Direita'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "Imbere means 'front'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "Hafi means 'far'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "Komeza imbere means 'ir Em frente'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ Pergunta: "é este statement true ou false?"
+ statement: "Itara ry'umuhanda means 'street sign'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Pergunta: "Respond para o Pergunta by building um command"
+ bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+ translation: "I querer para reach o Mercado. What should I do?"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira", "inyuma"]
+ correct_response: ["Komeza", "imbere"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ Pergunta: "Respond para o Pergunta"
+ bot_message: "Banki iri he?"
+ translation: "Where é o bank?"
+ options:
+ - "Imbere y'ishuri"
+ - "Hafi y'isoko"
+ - "Kure"
+ correct_response: "Imbere y'ishuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ Pergunta: "Respond para o Pergunta by building um command"
+ bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+ translation: "I querer para reach o hospital. What should I do?"
+ word_bank: ["Subira", "inyuma", "hagarika", "iburyo", "komeza", "imbere"]
+ correct_response: ["Subira", "inyuma"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ Pergunta: "Respond para o Pergunta"
+ bot_message: "Isoko riri hafi?"
+ translation: "é o Mercado near?"
+ options:
+ - "Yego, riri hafi"
+ - "Oya, riri kure"
+ - "Simenye"
+ correct_response: "Yego, riri hafi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build Frase from pieces
+ - id: 121
+ type: story
+ title: "Finding o Mercado - Gushaka Isoko"
+ story_intro: "Leia about finding o Mercado. Then build o Frase."
+ story_segments:
+ - text: "I querer para ir para o Mercado."
+ - text: "ir Em frente."
+ - text: "Turn Esquerda at o traffic light."
+ - text: "o Mercado é near."
+ - text: "o bank é em front de o Escola."
+ exercises:
+ - type: word_bank
+ Pergunta: "Build 'ir Em frente'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso"]
+ correct_answer: ["Komeza", "imbere"]
+ - type: word_bank
+ Pergunta: "Build 'Turn Esquerda at o traffic light'"
+ word_bank: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ correct_answer: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ - type: word_bank
+ Pergunta: "Build 'o Mercado é near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ - type: word_bank
+ Pergunta: "Build 'o bank é em front de o Escola'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Pergunta: "Say este direction word"
+ prompt: "Ibumoso"
+ translation: "Esquerda"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Pergunta: "Say este direction word"
+ prompt: "Iburyo"
+ translation: "Direita"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Pergunta: "Say este direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ Pergunta: "Say este direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ Pergunta: "Say este command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Esquerda"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ Pergunta: "Say este command"
+ prompt: "Komeza imbere"
+ translation: "ir Em frente"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ Pergunta: "Say este Frase"
+ prompt: "Isoko riri hafi"
+ translation: "o Mercado é near"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 129
+ type: identify_meaning
+ Pergunta: "O que significa 'Hagarika' mean em este command?"
+ context_sentence: "Hagarika ibumoso."
+ word: "Hagarika"
+ options: ["ir", "Turn", "Stop", "Cross"]
+ correct_answer: "Turn"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ Pergunta: "O que significa 'Komeza' mean em este command?"
+ context_sentence: "Komeza imbere."
+ word: "Komeza"
+ options: ["Turn", "Stop", "Continue / ir", "Cross"]
+ correct_answer: "Continue / ir"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ Pergunta: "O que significa 'hafi' mean em este Frase?"
+ context_sentence: "Isoko riri hafi."
+ word: "hafi"
+ options: ["far", "near", "behind", "front"]
+ correct_answer: "near"
+ xp_reward: 12
+
+ - id: 132
+ type: identify_meaning
+ Pergunta: "O que significa 'kure' mean em este Frase?"
+ context_sentence: "Ibitaro biri kure."
+ word: "kure"
+ options: ["near", "far", "Esquerda", "Direita"]
+ correct_answer: "far"
+ xp_reward: 12
+
+ - id: 133
+ type: identify_meaning
+ Pergunta: "O que significa 'imbere y'' mean em este Frase?"
+ context_sentence: "Banki iri imbere y'ishuri."
+ word: "imbere y'"
+ options: ["behind", "em front de", "next para", "far from"]
+ correct_answer: "em front de"
+ xp_reward: 15
+
+ # 19. Speed Associe
+ - id: 134
+ type: speed_Associe
+ title: "Associe Madness: Direções"
+ time_limit_seconds: 45
+ pairs:
+ - Esquerda: "Esquerda"
+ Direita: "Ibumoso"
+ - Esquerda: "Direita"
+ Direita: "Iburyo"
+ - Esquerda: "Em frente"
+ Direita: "Imbere"
+ - Esquerda: "Behind"
+ Direita: "Inyuma"
+ - Esquerda: "North"
+ Direita: "Amajyaruguru"
+ - Esquerda: "South"
+ Direita: "Amajyepfo"
+ - Esquerda: "East"
+ Direita: "Uburasirazuba"
+ - Esquerda: "West"
+ Direita: "Uburengerazuba"
+ - Esquerda: "Near"
+ Direita: "Hafi"
+ - Esquerda: "Far"
+ Direita: "Kure"
+ - Esquerda: "Turn Esquerda"
+ Direita: "Hagarika ibumoso"
+ - Esquerda: "Turn Direita"
+ Direita: "Hagarika iburyo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: Direções"
+ time_limit_seconds: 30
+ Pergunta_count: 5
+ Pergunta:
+ - Pergunta: "Esquerda"
+ Resposta: "Ibumoso"
+ - Pergunta: "Direita"
+ Resposta: "Iburyo"
+ - Pergunta: "Em frente"
+ Resposta: "Imbere"
+ - Pergunta: "Behind"
+ Resposta: "Inyuma"
+ - Pergunta: "Near"
+ Resposta: "Hafi"
+ xp_reward: 35
+
+# Cartões de memória
+ - id: 111
+ type: Cartões de memória
+ Pergunta: "Cartões de memória"
+ Cartões de memória:
+ - front: "Ibumoso"
+ back: "Esquerda"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iburyo"
+ back: "Direita"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Uburyohe / Guhita imbere"
+ back: "Em frente"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Inyuma"
+ back: "Back / Behind"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbere"
+ back: "Front"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyaruguru"
+ back: "North"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyepfo"
+ back: "South"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburasirazuba"
+ back: "East"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburengerazuba"
+ back: "West"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Hafi"
+ back: "Near"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

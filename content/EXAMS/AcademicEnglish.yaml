@@ -1,0 +1,1074 @@
+lesson:
+  name: "Academic English Final Exam"
+  description: "Complete Academic English examination with all exercise types including listening, tap what you hear, speaking, writing, and reading."
+  xp_reward: 2500
+
+exercises:
+
+  # ==================== MULTIPLE CHOICE (1-15) ====================
+
+  - id: 1
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The lecture was so ______ that many students fell asleep."
+    options: ["riveting", "tedious", "provocative", "insightful"]
+    answer: "tedious"
+    xp_reward: 10
+
+  - id: 2
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The study's findings were ______; other researchers could not reproduce them."
+    options: ["robust", "conclusive", "dubious", "compelling"]
+    answer: "dubious"
+    xp_reward: 10
+
+  - id: 3
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The two theories are not mutually ______; both could be correct."
+    options: ["inclusive", "exclusive", "exhaustive", "expansive"]
+    answer: "exclusive"
+    xp_reward: 10
+
+  - id: 4
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The researcher ______ the data to find patterns."
+    options: ["hypothesized", "synthesized", "analyzed", "speculated"]
+    answer: "analyzed"
+    xp_reward: 10
+
+  - id: 5
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "Her argument was ______, based on solid evidence."
+    options: ["tenuous", "superficial", "cogent", "ambiguous"]
+    answer: "cogent"
+    xp_reward: 10
+
+  - id: 6
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The paper provides a comprehensive ______ of existing literature."
+    options: ["summary", "review", "critique", "proposal"]
+    answer: "review"
+    xp_reward: 10
+
+  - id: 7
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The experiment was ______ three times to ensure reliability."
+    options: ["replicated", "rejected", "revised", "revealed"]
+    answer: "replicated"
+    xp_reward: 10
+
+  - id: 8
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The study had several ______, including a small sample size."
+    options: ["strengths", "implications", "limitations", "contributions"]
+    answer: "limitations"
+    xp_reward: 10
+
+  - id: 9
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The professor asked us to ______ the main arguments."
+    options: ["memorize", "summarize", "ignore", "expand"]
+    answer: "summarize"
+    xp_reward: 10
+
+  - id: 10
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The author's ______ were supported by extensive evidence."
+    options: ["assertions", "doubts", "denials", "questions"]
+    answer: "assertions"
+    xp_reward: 10
+
+  - id: 11
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "grammar"
+    question: "If I had known earlier, I ______ it last week."
+    options: ["would complete", "will complete", "would have completed", "completed"]
+    answer: "would have completed"
+    xp_reward: 10
+
+  - id: 12
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "grammar"
+    question: "______ the high cost, many students still pursue degrees."
+    options: ["Despite", "Although", "Because of", "Due to"]
+    answer: "Despite"
+    xp_reward: 10
+
+  - id: 13
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "grammar"
+    question: "Not only ______ the exam, but she finished early."
+    options: ["she passed", "did she pass", "passed she", "she did pass"]
+    answer: "did she pass"
+    xp_reward: 10
+
+  - id: 14
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "grammar"
+    question: "The theory, the origins of ______ date to the 19th century, remains influential."
+    options: ["which", "what", "whom", "whose"]
+    answer: "which"
+    xp_reward: 10
+
+  - id: 15
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "grammar"
+    question: "The more you practice, ______ you will become."
+    options: ["the good", "the better", "more better", "the best"]
+    answer: "the better"
+    xp_reward: 10
+
+  # ==================== LISTEN AND CHOOSE (16-25) ====================
+
+  - id: 16
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and choose the correct meaning"
+    tts_text: "The results of this study are inconclusive and require further investigation."
+    options: ["Results are final", "Results need more study", "Results are wrong", "Results are perfect"]
+    answer: "Results need more study"
+    xp_reward: 15
+
+  - id: 17
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and choose what the speaker is describing"
+    tts_text: "This is a testable prediction about the relationship between two variables."
+    options: ["Hypothesis", "Conclusion", "Data", "Theory"]
+    answer: "Hypothesis"
+    xp_reward: 15
+
+  - id: 18
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and choose the correct meaning"
+    tts_text: "The literature review synthesizes findings from multiple studies on this topic."
+    options: ["Lists all studies", "Summarizes each study separately", "Combines findings from many studies", "Criticizes all studies"]
+    answer: "Combines findings from many studies"
+    xp_reward: 15
+
+  - id: 19
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and choose what the speaker is referring to"
+    tts_text: "This refers to the extent to which a study measures what it claims to measure."
+    options: ["Reliability", "Validity", "Sample size", "Correlation"]
+    answer: "Validity"
+    xp_reward: 15
+
+  - id: 20
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and choose the correct interpretation"
+    tts_text: "The p-value was 0.03, which is less than 0.05."
+    options: ["Results are not significant", "Results are statistically significant", "The study failed", "Sample was too small"]
+    answer: "Results are statistically significant"
+    xp_reward: 15
+
+  - id: 21
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and choose the academic term"
+    tts_text: "This is a person's ability to remember information accurately over time."
+    options: ["Recall", "Recognition", "Retention", "Retrieval"]
+    answer: "Retention"
+    xp_reward: 15
+
+  - id: 22
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and choose the correct meaning"
+    tts_text: "The researcher used a double-blind procedure to eliminate bias."
+    options: ["Participants and researchers know the condition", "Neither participants nor researchers know the condition", "Only researchers know", "Only participants know"]
+    answer: "Neither participants nor researchers know the condition"
+    xp_reward: 15
+
+  - id: 23
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and choose the academic concept"
+    tts_text: "This fallacy occurs when someone attacks the person instead of the argument."
+    options: ["Straw man", "Ad hominem", "False dichotomy", "Circular reasoning"]
+    answer: "Ad hominem"
+    xp_reward: 15
+
+  - id: 24
+    type: listen_and_choose
+    difficulty: hard
+    time_limit_seconds: 50
+    topic: "listening"
+    question: "Listen to the mini-lecture and choose the main topic"
+    tts_text: "Cognitive load theory suggests that working memory has limited capacity. Intrinsic load is the difficulty of the material. Extraneous load comes from poor presentation. Germane load is productive mental effort."
+    options: ["Memory loss", "Learning styles", "Cognitive load theory", "Study habits"]
+    answer: "Cognitive load theory"
+    xp_reward: 20
+
+  - id: 25
+    type: listen_and_choose
+    difficulty: hard
+    time_limit_seconds: 50
+    topic: "listening"
+    question: "Listen to the conversation and choose what the student needs help with"
+    tts_text: "Student: I'm just summarizing each article instead of synthesizing them. Professor: For a literature review, you need to group sources by theme and identify patterns and gaps."
+    options: ["Finding sources", "Summarizing vs synthesizing", "Formatting citations", "Writing conclusions"]
+    answer: "Summarizing vs synthesizing"
+    xp_reward: 20
+
+  # ==================== LISTEN AND TYPE (26-35) ====================
+
+  - id: 26
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and type the academic word you hear"
+    tts_text: "Hypothesis"
+    answer: "Hypothesis"
+    xp_reward: 20
+
+  - id: 27
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and type the word"
+    tts_text: "Methodology"
+    answer: "Methodology"
+    xp_reward: 20
+
+  - id: 28
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and type the phrase"
+    tts_text: "Literature review"
+    answer: "Literature review"
+    xp_reward: 20
+
+  - id: 29
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and type the word"
+    tts_text: "Correlation"
+    answer: "Correlation"
+    xp_reward: 20
+
+  - id: 30
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and type the phrase"
+    tts_text: "Peer review"
+    answer: "Peer review"
+    xp_reward: 20
+
+  - id: 31
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and type the academic term"
+    tts_text: "Qualitative research"
+    answer: "Qualitative research"
+    xp_reward: 20
+
+  - id: 32
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "listening"
+    question: "Listen and type the word"
+    tts_text: "Causation"
+    answer: "Causation"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    difficulty: hard
+    time_limit_seconds: 60
+    topic: "listening"
+    question: "Listen and type the full sentence"
+    tts_text: "The findings contradict previous research in this field."
+    answer: "The findings contradict previous research in this field."
+    xp_reward: 25
+
+  - id: 34
+    type: listen_and_type
+    difficulty: hard
+    time_limit_seconds: 60
+    topic: "listening"
+    question: "Listen and type the sentence"
+    tts_text: "Further research is needed to establish causation."
+    answer: "Further research is needed to establish causation."
+    xp_reward: 25
+
+  - id: 35
+    type: listen_and_type
+    difficulty: hard
+    time_limit_seconds: 60
+    topic: "listening"
+    question: "Listen and type the academic phrase"
+    tts_text: "There is a statistically significant difference between the two groups."
+    answer: "There is a statistically significant difference between the two groups."
+    xp_reward: 25
+
+  # ==================== TAP WHAT YOU HEAR (36-40) ====================
+
+  - id: 36
+    type: tap_hear
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "listening"
+    question: "Tap the words you hear in order"
+    tts_text: "The data support the hypothesis"
+    word_bank: ["The", "data", "support", "the", "hypothesis", "results", "study"]
+    correct_taps: ["The", "data", "support", "the", "hypothesis"]
+    xp_reward: 25
+
+  - id: 37
+    type: tap_hear
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "listening"
+    question: "Tap the words in order"
+    tts_text: "This study has several limitations"
+    word_bank: ["This", "study", "has", "several", "limitations", "strengths", "findings"]
+    correct_taps: ["This", "study", "has", "several", "limitations"]
+    xp_reward: 25
+
+  - id: 38
+    type: tap_hear
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "listening"
+    question: "Tap the words in order"
+    tts_text: "Further research is recommended"
+    word_bank: ["Further", "research", "is", "recommended", "needed", "required", "suggested"]
+    correct_taps: ["Further", "research", "is", "recommended"]
+    xp_reward: 25
+
+  - id: 39
+    type: tap_hear
+    difficulty: hard
+    time_limit_seconds: 75
+    topic: "listening"
+    question: "Tap the words in order"
+    tts_text: "The results are consistent with previous findings"
+    word_bank: ["The", "results", "are", "consistent", "with", "previous", "findings", "studies", "research"]
+    correct_taps: ["The", "results", "are", "consistent", "with", "previous", "findings"]
+    xp_reward: 30
+
+  - id: 40
+    type: tap_hear
+    difficulty: hard
+    time_limit_seconds: 75
+    topic: "listening"
+    question: "Tap the words in order"
+    tts_text: "There is no significant correlation between the variables"
+    word_bank: ["There", "is", "no", "significant", "correlation", "between", "the", "variables", "groups"]
+    correct_taps: ["There", "is", "no", "significant", "correlation", "between", "the", "variables"]
+    xp_reward: 30
+
+  # ==================== READING COMPREHENSION (41-45) ====================
+
+  - id: 41
+    type: read_answer
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "reading"
+    question: "What caused global warming according to the IPCC?"
+    text: "The IPCC states that human activities, especially burning fossil fuels, have caused 1.1°C of warming."
+    options: ["Natural cycles", "Human activities", "Volcanoes", "Solar radiation"]
+    correct_answer: "Human activities"
+    xp_reward: 15
+
+  - id: 42
+    type: read_answer
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "reading"
+    question: "What does 'unequivocally' mean?"
+    text: "The IPCC has unequivocally stated that humans caused global warming."
+    options: ["Ambiguously", "Without doubt", "Gradually", "Surprisingly"]
+    correct_answer: "Without doubt"
+    xp_reward: 15
+
+  - id: 43
+    type: read_answer
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "reading"
+    question: "What did the meta-analysis of 47 studies find?"
+    text: "A meta-analysis of 47 studies found that AI tutoring improved outcomes by 0.8 standard deviations."
+    options: ["No improvement", "0.8 improvement", "0.5 improvement", "1.0 improvement"]
+    correct_answer: "0.8 improvement"
+    xp_reward: 15
+
+  - id: 44
+    type: read_answer
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "reading"
+    question: "What skills do educators want to prioritize?"
+    text: "Educators argue for a shift toward critical thinking, creativity, and collaboration."
+    options: ["Memorization", "Critical thinking", "Test taking", "Lectures"]
+    correct_answer: "Critical thinking"
+    xp_reward: 15
+
+  - id: 45
+    type: read_answer
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "reading"
+    question: "How much student debt exists in the US?"
+    text: "Student loan debt has surpassed $1.7 trillion."
+    options: ["$1.7 billion", "$1.7 trillion", "$17 trillion", "$170 billion"]
+    correct_answer: "$1.7 trillion"
+    xp_reward: 15
+
+  # ==================== SPEAKING (46-50) ====================
+
+  - id: 46
+    type: speaking
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "speaking"
+    question: "Say this academic phrase clearly"
+    prompt: "The data suggest a significant correlation."
+    xp_reward: 20
+
+  - id: 47
+    type: speaking
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "speaking"
+    question: "Say this presentation opening"
+    prompt: "Today I will present my research on sleep and academic performance."
+    xp_reward: 20
+
+  - id: 48
+    type: speaking
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "speaking"
+    question: "Say this academic phrase"
+    prompt: "Further research is needed to establish causation."
+    xp_reward: 20
+
+  - id: 49
+    type: speaking
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "speaking"
+    question: "Say this phrase about limitations"
+    prompt: "This study has several limitations including a small sample size."
+    xp_reward: 20
+
+  - id: 50
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 60
+    topic: "speaking"
+    question: "Say this full sentence with correct emphasis"
+    prompt: "The findings contradict previous research in this field."
+    xp_reward: 25
+
+  # ==================== WRITING (51-55) ====================
+
+  - id: 51
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 300
+    topic: "writing"
+    question: "Write a short email to your professor asking for a 3-day extension on a paper. Explain you were sick. Propose Monday as new deadline."
+    min_sentences: 4
+    xp_reward: 30
+
+  - id: 52
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 300
+    topic: "writing"
+    question: "Write a 150-word paragraph arguing for or against: 'Standardized tests should be eliminated from university admissions.' Give 2 reasons."
+    min_sentences: 5
+    xp_reward: 30
+
+  - id: 53
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 300
+    topic: "writing"
+    question: "Write an email to a classmate about scheduling a group project meeting. Propose two possible times."
+    min_sentences: 4
+    xp_reward: 30
+
+  - id: 54
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 300
+    topic: "writing"
+    question: "Write a 150-word abstract for a study on 'The effect of sleep on exam scores.' Include: Background, Methods, Results, Conclusion."
+    min_sentences: 5
+    xp_reward: 30
+
+  - id: 55
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 300
+    topic: "writing"
+    question: "Write a short email to a professor requesting a letter of recommendation for graduate school."
+    min_sentences: 4
+    xp_reward: 30
+
+  # ==================== WORD BANK (56-60) ====================
+
+  - id: 56
+    type: word_bank
+    difficulty: medium
+    time_limit_seconds: 90
+    topic: "writing"
+    question: "Build a thesis statement"
+    word_bank: ["social", "media", "negatively", "affects", "teen", "mental", "health"]
+    correct_answer: ["social", "media", "negatively", "affects", "teen", "mental", "health"]
+    xp_reward: 20
+
+  - id: 57
+    type: word_bank
+    difficulty: medium
+    time_limit_seconds: 90
+    topic: "writing"
+    question: "Build a topic sentence"
+    word_bank: ["first", "online", "learning", "offers", "greater", "flexibility"]
+    correct_answer: ["first", "online", "learning", "offers", "greater", "flexibility"]
+    xp_reward: 20
+
+  - id: 58
+    type: word_bank
+    difficulty: medium
+    time_limit_seconds: 90
+    topic: "writing"
+    question: "Build a concluding sentence"
+    word_bank: ["in", "conclusion", "the", "evidence", "supports", "the", "hypothesis"]
+    correct_answer: ["in", "conclusion", "the", "evidence", "supports", "the", "hypothesis"]
+    xp_reward: 20
+
+  - id: 59
+    type: word_bank
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "writing"
+    question: "Build an academic sentence"
+    word_bank: ["further", "research", "is", "needed", "to", "establish", "causation"]
+    correct_answer: ["further", "research", "is", "needed", "to", "establish", "causation"]
+    xp_reward: 25
+
+  - id: 60
+    type: word_bank
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "writing"
+    question: "Build a sentence about limitations"
+    word_bank: ["this", "study", "has", "several", "limitations", "including", "sample", "size"]
+    correct_answer: ["this", "study", "has", "several", "limitations", "including", "sample", "size"]
+    xp_reward: 25
+
+  # ==================== SENTENCE SCRAMBLE (61-65) ====================
+
+  - id: 61
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "writing"
+    question: "Arrange into a thesis statement"
+    scrambled_words: ["social", "media", "has", "negative", "effects", "on", "teens"]
+    correct_sentence: "Social media has negative effects on teens."
+    xp_reward: 20
+
+  - id: 62
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "writing"
+    question: "Arrange into an academic sentence"
+    scrambled_words: ["the", "data", "support", "the", "hypothesis"]
+    correct_sentence: "The data support the hypothesis."
+    xp_reward: 20
+
+  - id: 63
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "writing"
+    question: "Arrange into a transition sentence"
+    scrambled_words: ["however", "the", "results", "are", "inconclusive"]
+    correct_sentence: "However, the results are inconclusive."
+    xp_reward: 20
+
+  - id: 64
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "writing"
+    question: "Arrange into a citation sentence"
+    scrambled_words: ["according", "to", "smith", "2020", "sleep", "improves", "memory"]
+    correct_sentence: "According to Smith (2020), sleep improves memory."
+    xp_reward: 20
+
+  - id: 65
+    type: sentence_scramble
+    difficulty: hard
+    time_limit_seconds: 90
+    topic: "writing"
+    question: "Arrange into a complex academic sentence"
+    scrambled_words: ["although", "the", "sample", "was", "small", "the", "findings", "are", "significant"]
+    correct_sentence: "Although the sample was small, the findings are significant."
+    xp_reward: 25
+
+  # ==================== TRUE/FALSE (66-75) ====================
+
+  - id: 66
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "academic"
+    question: "Plagiarism is acceptable in academic writing."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 67
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "academic"
+    question: "Peer review ensures the quality of published research."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 68
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "academic"
+    question: "A thesis statement should be vague and general."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 69
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "academic"
+    question: "Primary sources are original research or firsthand accounts."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 70
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "academic"
+    question: "Correlation proves causation."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 71
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "academic"
+    question: "A literature review synthesizes existing research on a topic."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 72
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "academic"
+    question: "Wikipedia is a reliable source for academic citations."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 73
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "academic"
+    question: "A hypothesis must be testable and falsifiable."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 74
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "academic"
+    question: "The conclusion should introduce new arguments."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 75
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "academic"
+    question: "A p-value less than 0.05 is considered statistically significant."
+    correct_answer: true
+    xp_reward: 10
+
+  # ==================== ERROR CORRECTION (76-80) ====================
+
+  - id: 76
+    type: error_correction
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "grammar"
+    question: "Fix the error: 'Neither the professor nor the students was aware.'"
+    incorrect_sentence: "Neither the professor nor the students was aware."
+    correct_sentence: "Neither the professor nor the students were aware."
+    explanation: "Verb agrees with nearest subject 'students'."
+    xp_reward: 15
+
+  - id: 77
+    type: error_correction
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "grammar"
+    question: "Fix the error: 'Each of the participants were given a form.'"
+    incorrect_sentence: "Each of the participants were given a form."
+    correct_sentence: "Each of the participants was given a form."
+    explanation: "'Each' is singular."
+    xp_reward: 15
+
+  - id: 78
+    type: error_correction
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "grammar"
+    question: "Fix the error: 'Having finished the exam, the library was where I went.'"
+    incorrect_sentence: "Having finished the exam, the library was where I went."
+    correct_sentence: "Having finished the exam, I went to the library."
+    explanation: "Modifier must refer to subject 'I'."
+    xp_reward: 15
+
+  - id: 79
+    type: error_correction
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "grammar"
+    question: "Fix the error: 'The professor requires that each student submits their work.'"
+    incorrect_sentence: "The professor requires that each student submits their work."
+    correct_sentence: "The professor requires that each student submit their work."
+    explanation: "Subjunctive mood requires base verb."
+    xp_reward: 15
+
+  - id: 80
+    type: error_correction
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "citation"
+    question: "Fix the APA error in this citation"
+    incorrect_sentence: "(Smith and Jones, 2020, p. 45)"
+    correct_sentence: "(Smith & Jones, 2020, p. 45)"
+    explanation: "Use '&' inside parentheses."
+    xp_reward: 15
+
+  # ==================== MATCHING (81-85) ====================
+
+  - id: 81
+    type: matching
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "vocabulary"
+    question: "Match academic terms with definitions"
+    pairs:
+      - left: "Hypothesis"
+        right: "Testable prediction"
+      - left: "Methodology"
+        right: "Research approach"
+      - left: "Analysis"
+        right: "Data examination"
+      - left: "Conclusion"
+        right: "Summary of findings"
+    xp_reward: 15
+
+  - id: 82
+    type: matching
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "research"
+    question: "Match research terms"
+    pairs:
+      - left: "Qualitative"
+        right: "Non-numerical data"
+      - left: "Quantitative"
+        right: "Numerical data"
+      - left: "Primary source"
+        right: "Original research"
+      - left: "Secondary source"
+        right: "Analysis of research"
+    xp_reward: 15
+
+  - id: 83
+    type: matching
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "writing"
+    question: "Match essay parts"
+    pairs:
+      - left: "Introduction"
+        right: "State thesis"
+      - left: "Body paragraph"
+        right: "Support argument"
+      - left: "Conclusion"
+        right: "Restate thesis"
+      - left: "Topic sentence"
+        right: "Main idea of paragraph"
+    xp_reward: 15
+
+  - id: 84
+    type: matching
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "grammar"
+    question: "Match transition words"
+    pairs:
+      - left: "However"
+        right: "Contrast"
+      - left: "Therefore"
+        right: "Conclusion"
+      - left: "Furthermore"
+        right: "Addition"
+      - left: "For example"
+        right: "Illustration"
+    xp_reward: 15
+
+  - id: 85
+    type: matching
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "fallacies"
+    question: "Match fallacies with examples"
+    pairs:
+      - left: "Ad hominem"
+        right: "Attack the person"
+      - left: "Straw man"
+        right: "Misrepresent argument"
+      - left: "False dichotomy"
+        right: "Only two options"
+      - left: "Hasty generalization"
+        right: "Small sample"
+    xp_reward: 15
+
+  # ==================== CRITICAL THINKING (86-90) ====================
+
+  - id: 86
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 60
+    topic: "critical_thinking"
+    question: "What is the logical fallacy? 'Professor Smith wants attendance. But she gives boring lectures. Ignore her.'"
+    text: "Argument: 'Professor Smith wants attendance. But she gives boring lectures. Ignore her.'"
+    options: ["Straw man", "Ad hominem", "False dichotomy", "Circular reasoning"]
+    correct_answer: "Ad hominem"
+    xp_reward: 20
+
+  - id: 87
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 60
+    topic: "critical_thinking"
+    question: "Identify the assumption in this argument"
+    text: "Argument: 'We should eliminate tests because they cause stress. Therefore, use only essays.'"
+    options: ["Essays cause no stress", "Tests are the only stressor", "Students prefer essays", "Essays are easier"]
+    correct_answer: "Essays cause no stress"
+    xp_reward: 20
+
+  - id: 88
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 60
+    topic: "critical_thinking"
+    question: "What is wrong with this evidence? 'A survey of 10 students found that 9 prefer online learning. Therefore, all students prefer it.'"
+    options: ["Sample too small", "Survey biased", "Wrong question", "Old data"]
+    correct_answer: "Sample too small"
+    xp_reward: 20
+
+  - id: 89
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "critical_thinking"
+    question: "Write a short analysis of this argument: 'Online proctoring is necessary because without it, students would cheat on every exam.' Identify one assumption."
+    min_sentences: 3
+    xp_reward: 25
+
+  - id: 90
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "critical_thinking"
+    question: "Write a short analysis: 'Two students failed my exam. The exam must be too difficult.' Identify the fallacy."
+    min_sentences: 3
+    xp_reward: 25
+
+  # ==================== FILL IN THE BLANK (91-100) ====================
+
+  - id: 91
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "Choose the correct form: 'The researcher's ______ was evident.'"
+    options: ["thorough", "thoroughly", "thoroughness", "thoro"]
+    correct_answer: "thoroughness"
+    xp_reward: 10
+
+  - id: 92
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "Choose: 'Students must learn to ______ complex academic texts.'"
+    options: ["interpret", "interpretation", "interpretive", "interpretively"]
+    correct_answer: "interpret"
+    xp_reward: 10
+
+  - id: 93
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "Choose: 'The ______ of the study was to examine sleep and GPA.'"
+    options: ["objective", "object", "objectively", "objection"]
+    correct_answer: "objective"
+    xp_reward: 10
+
+  - id: 94
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "Choose: 'The results were ______; they supported the hypothesis.'"
+    options: ["conclusively", "conclusive", "conclude", "conclusion"]
+    correct_answer: "conclusive"
+    xp_reward: 10
+
+  - id: 95
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "Choose: 'The professor emphasized the ______ of citing sources.'"
+    options: ["important", "importantly", "importance", "import"]
+    correct_answer: "importance"
+    xp_reward: 10
+
+  - id: 96
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "research"
+    question: "The list of sources in APA is called the ______ list."
+    options: ["Bibliography", "Works Cited", "References", "Sources"]
+    correct_answer: "References"
+    xp_reward: 10
+
+  - id: 97
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "A ______ is a testable prediction about the relationship between variables."
+    options: ["theory", "hypothesis", "conclusion", "analysis"]
+    correct_answer: "hypothesis"
+    xp_reward: 10
+
+  - id: 98
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The ______ of a study refers to how well it measures what it claims to measure."
+    options: ["reliability", "validity", "accuracy", "precision"]
+    correct_answer: "validity"
+    xp_reward: 10
+
+  - id: 99
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "A ______ variable is one that is manipulated by the researcher."
+    options: ["dependent", "independent", "control", "confounding"]
+    correct_answer: "independent"
+    xp_reward: 10
+
+  - id: 100
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "The ______ summarizes the main findings and recommendations of a research paper."
+    options: ["introduction", "abstract", "conclusion", "methodology"]
+    correct_answer: "abstract"
+    xp_reward: 10

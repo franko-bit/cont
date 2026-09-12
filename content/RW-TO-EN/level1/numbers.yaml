@@ -1,10 +1,9 @@
 lesson:
-  name: "Imibare mu Cyongereza"
-  description: "Learn numbers in English from 0 to 1,000,000"
+  name: "Numbers"
+  description: "Learn the key vocabulary and practice exercises for this lesson."
   xp_reward: 500
 
 exercises:
-
   # 1. Translation Exercises - Single Numbers ONLY (Safe for single words)
   # Basic Numbers 0-10
   - id: 1
@@ -807,7 +806,7 @@ exercises:
   - id: 111
     type: picture_word
     question: "Uraba amapera angahe?"
-    image_url: "https://source.unsplash.com/featured/?1-apple"
+    image_url: "https://images.unsplash.com/photo-1621440318464-72633426377b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzA5MzJ8MHwxfHNlYXJjaHwxfHxudW1iZXIlMjAxfGVufDB8MHx8fDE3ODA3NjY0MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=600&h=400&fit=crop"
     options: ["One", "Two", "Three"]
     correct_answer: "One"
     xp_reward: 15
@@ -815,7 +814,7 @@ exercises:
   - id: 112
     type: picture_word
     question: "Uraba amapera angahe?"
-    image_url: "https://source.unsplash.com/featured/?2-apples"
+    image_url: "https://images.unsplash.com/photo-1621440318431-b720cd358375?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzA5MzJ8MHwxfHNlYXJjaHwxfHxudW1iZXIlMjAyfGVufDB8MHx8fDE3ODA3NjY0MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=600&h=400&fit=crop"
     options: ["One", "Two", "Three"]
     correct_answer: "Two"
     xp_reward: 15
@@ -823,7 +822,7 @@ exercises:
   - id: 113
     type: picture_word
     question: "Uraba amapera angahe?"
-    image_url: "https://source.unsplash.com/featured/?3-apples"
+    image_url: "https://images.unsplash.com/photo-1556917452-890eed890648?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzA5MzJ8MHwxfHNlYXJjaHwxfHxudW1iZXIlMjAzfGVufDB8MHx8fDE3ODA3NjY0NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=600&h=400&fit=crop"
     options: ["One", "Two", "Three"]
     correct_answer: "Three"
     xp_reward: 15
@@ -831,7 +830,7 @@ exercises:
   - id: 114
     type: picture_word
     question: "Uraba amakaramu angahe?"
-    image_url: "https://source.unsplash.com/featured/?10-pens"
+    image_url: "https://images.unsplash.com/photo-1522448023466-b1c85da46df0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzA5MzJ8MHwxfHNlYXJjaHwxfHxudW1iZXIlMjAxMHxlbnwwfDB8fHwxNzgwNzY2NDI3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=600&h=400&fit=crop"
     options: ["Ten", "Twenty", "One hundred"]
     correct_answer: "Ten"
     xp_reward: 15
@@ -839,7 +838,7 @@ exercises:
   - id: 115
     type: picture_word
     question: "Iyi numero ni iyihe?"
-    image_url: "https://images.unsplash.com/photo-1621440318464-72633426377b?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image_url: "https://images.unsplash.com/photo-1612128200447-710980d1d7bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzA5MzJ8MHwxfHNlYXJjaHwxfHxudW1iZXIlMjAxMDB8ZW58MHwwfHx8MTc4MDc2NjQyOXww&ixlib=rb-4.1.0&q=80&w=1080&w=600&h=400&fit=crop"
     options: ["One hundred", "One thousand", "Ten"]
     correct_answer: "One hundred"
     xp_reward: 15
@@ -847,7 +846,7 @@ exercises:
   - id: 116
     type: picture_word
     question: "Aya mafaranga ni angahe?"
-    image_url: "https://en.numista.com/catalogue/photos/rwanda/630cd1f91bd822.02742083-original.jpg"
+    image_url: "https://images.unsplash.com/photo-1740592903927-0f86f93ca039?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NzA5MzJ8MHwxfHNlYXJjaHwxfHxmaXZlJTIwaHVuZHJlZCUyMHJ3YW5kYW4lMjBmcmFuY3N8ZW58MHwwfHx8MTc4MDc2NjQzM3ww&ixlib=rb-4.1.0&q=80&w=1080&w=600&h=400&fit=crop"
     options: ["Five hundred RWF", "One thousand RWF", "Five thousand RWF"]
     correct_answer: "Five hundred RWF"
     xp_reward: 20
@@ -943,7 +942,7 @@ exercises:
         right: "One million francs"
     xp_reward: 28
 
-  # 12. Choose Missing Word
+  # 11. Choose Missing Word
   - id: 124
     type: choose_missing
     question: "Hitamo numero ibuze"
@@ -974,7 +973,7 @@ exercises:
     translation: "Igitabo ni amafaranga ibihumbi bibiri."
     xp_reward: 18
 
-  # 13. Read and Answer
+  # 12. Read and Answer
   - id: 127
     type: read_answer
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
@@ -1002,7 +1001,7 @@ exercises:
     correct_answer: "50"
     xp_reward: 15
 
-  # 14. True / False
+  # 13. True / False
   - id: 130
     type: true_false
     question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
@@ -1031,7 +1030,7 @@ exercises:
     correct_answer: false
     xp_reward: 10
 
-  # 15. Conversation Exercise
+  # 14. Conversation Exercise
   - id: 134
     type: conversation
     question: "Subiza ikibazo ukoresheje amagambo atanzwe"
@@ -1062,7 +1061,7 @@ exercises:
     correct_response: ["There", "are", "fifty", "students", "in", "the", "class"]
     xp_reward: 20
 
-  # 16. Story Exercise
+  # 15. Story Exercise
   - id: 137
     type: story
     title: "Kugura"
@@ -1092,7 +1091,7 @@ exercises:
         correct_answer: ["She", "has", "one", "hundred", "francs"]
     xp_reward: 40
 
-  # 17. Pronunciation Check
+  # 16. Pronunciation Check
   - id: 138
     type: pronunciation
     question: "Vuga iyi numero mu Cyongereza neza"
@@ -1114,7 +1113,7 @@ exercises:
     translation: "Five thousand RWF"
     xp_reward: 20
 
-  # 18. Identify Correct Meaning
+  # 17. Identify Correct Meaning
   - id: 141
     type: identify_meaning
     question: "'Atatu' risobanura iki muri iyi nteruro?"
@@ -1133,7 +1132,7 @@ exercises:
     correct_answer: "2,000 RWF"
     xp_reward: 18
 
-  # 19. Speed Matching
+  # 18. Speed Matching
   - id: 143
     type: speed_matching
     title: "Huza Byihuse: Imibare"
@@ -1161,7 +1160,7 @@ exercises:
         right: "One million"
     xp_reward: 30
 
-  # 20. Timed Challenges
+  # 19. Timed Challenges
   - id: 144
     type: timed_challenge
     title: "Kubahuka: Imibare"
@@ -1180,158 +1179,40 @@ exercises:
         answer: "One hundred"
     xp_reward: 35
 
-  # 21. Character Writing
-  - id: 145
-    type: character_writing
-    question: "Yandika iyi numero mu Cyongereza"
-    prompt: "Rimwe"
-    translation: "One"
-    xp_reward: 15
-
-  - id: 146
-    type: character_writing
-    question: "Yandika iyi numero mu Cyongereza"
-    prompt: "Ijana"
-    translation: "One hundred"
-    xp_reward: 15
-
-  # 22. Spaced Repetition Review
-  - id: 147
-    type: review
-    title: "Isubiramo: Imibare"
-    exercises:
-      - type: translation
-        question: "Rimwe"
-        answer: "One"
-      - type: multiple_choice
-        question: "Kabiri"
-        options: ["One", "Two", "Three"]
-        answer: "Two"
-      - type: fill_blank
-        question: "Mfite amapera ___."
-        text_with_blank: "I have three apples."
-        options: ["three", "two", "one"]
-        correct_answer: "three"
-      - type: picture_word
-        question: "Iyi numero ni iyihe?"
-        image_url: "https://images.unsplash.com/photo-1582731489394-51b65c9fcb04?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        options: ["Five", "Four", "Six"]
-        correct_answer: "Five"
-    xp_reward: 25
-
-  # 23. Listening Comprehension
-  - id: 148
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma usubize ikibazo"
-    dialogue_tts: "Mfite amapera atatu. Yanguriye amakaramu cumi na kabiri."
-    translation: "I have 3 apples. He bought 12 pens."
-    question: "Mfite amapera angahe?"
-    options: ["2", "3", "12"]
-    correct_answer: "3"
-    xp_reward: 15
-
-  - id: 149
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma usubize ikibazo"
-    dialogue_tts: "Igitabo ni amafaranga ibihumbi bibiri. Inzu yanjye ni amafaranga miliyoni imwe."
-    translation: "The book is 2,000 RWF. My house is 1,000,000 RWF."
-    question: "Inzu ni amafaranga angahe?"
-    options: ["2,000 RWF", "100,000 RWF", "1,000,000 RWF"]
-    correct_answer: "1,000,000 RWF"
-    xp_reward: 20
-
-  # 24. Grammar Selection
-  - id: 150
-    type: grammar
-    question: "Hitamo inshinga ikwiye yo kubara 'amapera atatu'"
-    options: ["three apples", "apples three", "tree apples"]
-    correct_answer: "three apples"
-    explanation: "In English, the number comes before the noun: 'three apples'"
-    xp_reward: 18
-
-  - id: 151
-    type: grammar
-    question: "Hitamo inshinga ikwiye yo kubara 'amafaranga ibihumbi bibiri'"
-    options: ["two thousand francs", "francs two thousand", "thousand two francs"]
-    correct_answer: "two thousand francs"
-    explanation: "In English, the number comes before the noun: 'two thousand francs'"
-    xp_reward: 18
-
-  # 25. Error Correction
-  - id: 152
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I have apples three."
-    translation: "Mfite amapera atatu"
-    word_bank_for_fix: ["I", "have", "three", "apples"]
-    correct_sentence: "I have three apples."
-    explanation: "In English, the number comes before the noun: 'three apples'"
-    xp_reward: 20
-
-  - id: 153
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "The book is thousand two francs."
-    translation: "Igitabo ni amafaranga ibihumbi bibiri"
-    word_bank_for_fix: ["The", "book", "is", "two", "thousand", "francs"]
-    correct_sentence: "The book is two thousand francs."
-    explanation: "In English, word order is: subject + verb + number + noun"
-    xp_reward: 20
-
-  # Flashcards
-  - id: 154
+# Flashcards
+  - id: 111
     type: flashcards
-    question: "Iyi ni modero y'amafishi y'imibare"
+    question: "Flashcards"
     flashcards:
-      - front: "0"
-        back: "Zero"
-        image: "https://images.unsplash.com/photo-1643404209006-fd2b0fcbe4df?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "1"
-        back: "One"
-        image: "https://images.unsplash.com/photo-1621440318464-72633426377b?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "2"
-        back: "Two"
-        image: "https://images.unsplash.com/photo-1621440318431-b720cd358375?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "3"
-        back: "Three"
-        image: "https://images.unsplash.com/photo-1656168203484-e5e09e9f3510?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "4"
-        back: "Four"
-        image: "https://images.unsplash.com/photo-1523286877159-d9636545890c?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "5"
-        back: "Five"
-        image: "https://images.unsplash.com/photo-1582731489394-51b65c9fcb04?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "6"
-        back: "Six"
-        image: "https://images.unsplash.com/photo-1484335629320-0e089b87a106?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "7"
-        back: "Seven"
-        image: "https://images.unsplash.com/photo-1571577275698-54f36820ee9b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "8"
-        back: "Eight"
-        image: "https://images.unsplash.com/photo-1669219801545-3c73b2aa23cc?q=80&w=928&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "9"
-        back: "Nine"
-        image: "https://images.unsplash.com/photo-1522448023466-b1c85da46df0?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "10"
-        back: "Ten"
-        image: "https://images.unsplash.com/photo-1612128200447-710980d1d7bd?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "100"
-        back: "One hundred"
-        image: "https://images.unsplash.com/photo-1621440318464-72633426377b?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "1000"
-        back: "One thousand"
-        image: "https://media.istockphoto.com/id/482637637/photo/1000-rwandan-francs.jpg?s=612x612&w=0&k=20&c=eEBeGk5LzunfMnA4LJ0h9KcRRBSdRM12RukrqQ0Iab4="
-      - front: "500 RWF"
-        back: "Five hundred francs"
-        image: "https://en.numista.com/catalogue/photos/rwanda/630cd1f91bd822.02742083-original.jpg"
-      - front: "1,000 RWF"
-        back: "One thousand francs"
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp2J2oMIWhcy5Vw2zSXaNiWc4NQ2Z--cizoA&s"
-      - front: "2,000 RWF"
-        back: "Two thousand francs"
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKxM1JctVLO_UN9iBVLxsTNNH6oWT8W7XVtQ&s"
-      - front: "5,000 RWF"
-        back: "Five thousand francs"
-        image: "https://en.numista.com/catalogue/photos/rwanda/6500988742fe07.38140644-original.jpg"
-    xp_reward: 35
+    - front: "Zero"
+      back: "Zero"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "One"
+      back: "Rimwe"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Two"
+      back: "Kabiri"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Three"
+      back: "Gatatu"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Four"
+      back: "Kane"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Five"
+      back: "Gatanu"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Six"
+      back: "Gatandatu"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Seven"
+      back: "Karindwi"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Eight"
+      back: "Umunani"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Nine"
+      back: "Icyenda"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

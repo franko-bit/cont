@@ -1,0 +1,1229 @@
+lesson:
+ name: "Směry - Amabwiriza y'ahantu"
+ description: "Učte se direction words and phrases in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Direction Words ONLY (Safe for single words)
+ # Basic Směry
+ - id: 1
+ type: translation
+ Otázka: "Jak se řekne 'Vlevo' v kinyarwandštině?"
+ Odpověď: "Ibumoso"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Otázka: "Jak se řekne 'Vpravo' v kinyarwandštině?"
+ Odpověď: "Iburyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Otázka: "Jak se řekne 'Přímo' v kinyarwandštině?"
+ Odpověď: "Uburyohe / Guhita imbere"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Otázka: "Jak se řekne 'Back / Behind' v kinyarwandštině?"
+ Odpověď: "Inyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Otázka: "Jak se řekne 'Front' v kinyarwandštině?"
+ Odpověď: "Imbere"
+ xp_reward: 10
+
+ # Cardinal Směry
+ - id: 6
+ type: translation
+ Otázka: "Jak se řekne 'North' v kinyarwandštině?"
+ Odpověď: "Amajyaruguru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Otázka: "Jak se řekne 'South' v kinyarwandštině?"
+ Odpověď: "Amajyepfo"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Otázka: "Jak se řekne 'East' v kinyarwandštině?"
+ Odpověď: "Uburasirazuba"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Otázka: "Jak se řekne 'West' v kinyarwandštině?"
+ Odpověď: "Uburengerazuba"
+ xp_reward: 10
+
+ # Location Words
+ - id: 10
+ type: translation
+ Otázka: "Jak se řekne 'Near' v kinyarwandštině?"
+ Odpověď: "Hafi"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Otázka: "Jak se řekne 'Far' v kinyarwandštině?"
+ Odpověď: "Hahandi / kure"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Otázka: "Jak se řekne 'Around' v kinyarwandštině?"
+ Odpověď: "Hagarika / ahantu hose"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ # Places and Features
+ - id: 13
+ type: translation
+ Otázka: "Jak se řekne 'Intersection / Crossroads' v kinyarwandštině?"
+ Odpověď: "Ahantu hahurira imihanda"
+ xp_reward: 18
+
+ - id: 14
+ type: translation
+ Otázka: "Jak se řekne 'Street / Road' v kinyarwandštině?"
+ Odpověď: "Umuhanda"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Otázka: "Jak se řekne 'Corner' v kinyarwandštině?"
+ Odpověď: "Inguni"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Otázka: "Jak se řekne 'Traffic light' v kinyarwandštině?"
+ Odpověď: "Itara ry'umuhanda"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Otázka: "Jak se řekne 'Sign / Signpost' v kinyarwandštině?"
+ Odpověď: "Ikimenyetso / Ikimenyetso cy'umuhanda"
+ xp_reward: 18
+
+ # Direction Commands
+ - id: 18
+ type: translation
+ Otázka: "Jak se řekne 'Turn Vlevo' v kinyarwandštině?"
+ Odpověď: "Hagarika ibumoso."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Otázka: "Jak se řekne 'Turn Vpravo' v kinyarwandštině?"
+ Odpověď: "Hagarika iburyo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Otázka: "Jak se řekne 'Go Přímo' v kinyarwandštině?"
+ Odpověď: "Komeza imbere."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Otázka: "Jak se řekne 'Go back' v kinyarwandštině?"
+ Odpověď: "Subira inyuma."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Otázka: "Jak se řekne 'Cross the street' v kinyarwandštině?"
+ Odpověď: "Kora umuhanda."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Otázka: "Jak se řekne 'Stop at the traffic light' v kinyarwandštině?"
+ Odpověď: "Hagarara ku itara ry'umuhanda."
+ xp_reward: 18
+
+ # Location Věta
+ - id: 24
+ type: translation
+ Otázka: "Jak se řekne 'The bank is in front of the Škola' v kinyarwandštině?"
+ Odpověď: "Banki iri imbere y'ishuri."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Otázka: "Jak se řekne 'The Trh is near' v kinyarwandštině?"
+ Odpověď: "Isoko riri hafi."
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ Otázka: "Jak se řekne 'The hospital is far' v kinyarwandštině?"
+ Odpověď: "Ibitaro biri kure."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Otázka: "Co znamená 'Ibumoso' v této větě?"
+ options:
+ - "Vpravo"
+ - "Vlevo"
+ - "Přímo"
+ - "Front"
+ Odpověď: "Vlevo"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Otázka: "Co znamená 'Iburyo' v této větě?"
+ options:
+ - "Vlevo"
+ - "Vpravo"
+ - "Back"
+ - "North"
+ Odpověď: "Vpravo"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Otázka: "Co znamená 'Imbere' v této větě?"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ - "Far"
+ Odpověď: "Front"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Otázka: "Co znamená 'Inyuma' v této větě?"
+ options:
+ - "Front"
+ - "Behind"
+ - "Vlevo"
+ - "Vpravo"
+ Odpověď: "Behind"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Otázka: "Co znamená 'Amajyaruguru' v této větě?"
+ options:
+ - "South"
+ - "North"
+ - "East"
+ - "West"
+ Odpověď: "North"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Otázka: "Co znamená 'Hafi' v této větě?"
+ options:
+ - "Far"
+ - "Near"
+ - "Around"
+ - "Přímo"
+ Odpověď: "Near"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Otázka: "Co znamená 'Umuhanda' v této větě?"
+ options:
+ - "Corner"
+ - "Street"
+ - "Traffic light"
+ - "Sign"
+ Odpověď: "Street"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Otázka: "Co znamená 'Hagarika ibumoso' v této větě?"
+ options:
+ - "Turn Vpravo"
+ - "Turn Vlevo"
+ - "Go Přímo"
+ - "Go back"
+ Odpověď: "Turn Vlevo"
+ xp_reward: 18
+
+ # 3. Poslouchejte and Type (Dictation)
+ - id: 35
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the direction Slovo"
+ audio: "Ibumoso"
+ Odpověď: "Ibumoso"
+ translation: "Vlevo"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the direction Slovo"
+ audio: "Iburyo"
+ Odpověď: "Iburyo"
+ translation: "Vpravo"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the direction Slovo"
+ audio: "Imbere"
+ Odpověď: "Imbere"
+ translation: "Front"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the direction Slovo"
+ audio: "Inyuma"
+ Odpověď: "Inyuma"
+ translation: "Behind"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the direction Slovo"
+ audio: "Hafi"
+ Odpověď: "Hafi"
+ translation: "Near"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the command"
+ audio: "Hagarika ibumoso"
+ Odpověď: "Hagarika ibumoso"
+ translation: "Turn Vlevo"
+ xp_reward: 22
+
+ - id: 41
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the command"
+ audio: "Komeza imbere"
+ Odpověď: "Komeza imbere"
+ translation: "Go Přímo"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the Věta"
+ audio: "Isoko riri hafi"
+ Odpověď: "Isoko riri hafi"
+ translation: "The Trh is near"
+ xp_reward: 22
+
+ 
+ # 4. Poslouchejte and Vyberte
+ - id: 44
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně direction"
+ audio: "Ibumoso"
+ options:
+ - "Vlevo"
+ - "Vpravo"
+ - "Přímo"
+ Odpověď: "Vlevo"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně direction"
+ audio: "Iburyo"
+ options:
+ - "Vlevo"
+ - "Vpravo"
+ - "Back"
+ Odpověď: "Vpravo"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně direction"
+ audio: "Imbere"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ Odpověď: "Front"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně command"
+ audio: "Hagarika ibumoso"
+ options:
+ - "Turn Vpravo"
+ - "Turn Vlevo"
+ - "Go Přímo"
+ Odpověď: "Turn Vlevo"
+ xp_reward: 18
+
+ - id: 48
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně Věta"
+ audio: "Isoko riri hafi"
+ options:
+ - "The Trh is far"
+ - "The Trh is near"
+ - "The Trh is in front"
+ Odpověď: "The Trh is near"
+ xp_reward: 18
+
+ # 5. Repeat / Mluvte Exercise
+ - id: 49
+ type: Mluvte
+ Otázka: "Say this direction Slovo"
+ prompt: "Ibumoso"
+ translation: "Vlevo"
+ xp_reward: 15
+
+ - id: 50
+ type: Mluvte
+ Otázka: "Say this direction Slovo"
+ prompt: "Iburyo"
+ translation: "Vpravo"
+ xp_reward: 15
+
+ - id: 51
+ type: Mluvte
+ Otázka: "Say this direction Slovo"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 52
+ type: Mluvte
+ Otázka: "Say this direction Slovo"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 53
+ type: Mluvte
+ Otázka: "Say this direction Slovo"
+ prompt: "Hafi"
+ translation: "Near"
+ xp_reward: 15
+
+ - id: 54
+ type: Mluvte
+ Otázka: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Vlevo"
+ xp_reward: 18
+
+ - id: 55
+ type: Mluvte
+ Otázka: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Přímo"
+ xp_reward: 18
+
+ - id: 56
+ type: Mluvte
+ Otázka: "Say this Věta"
+ prompt: "Isoko riri hafi"
+ translation: "The Trh is near"
+ xp_reward: 18
+
+ - id: 57
+ type: Mluvte
+ Otázka: "Say this Věta"
+ prompt: "Banki iri imbere y'ishuri"
+ translation: "The bank is in front of the Škola"
+ xp_reward: 22
+
+ # 6. Slovo Bank Věta Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ Otázka: "Build the command 'Turn Vlevo'"
+ word_bank: ["Hagarika", "ibumoso", "iburyo", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "ibumoso"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Otázka: "Build the command 'Turn Vpravo'"
+ word_bank: ["Hagarika", "iburyo", "ibumoso", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "iburyo"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Otázka: "Build the command 'Go Přímo'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira"]
+ correct_answer: ["Komeza", "imbere"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ Otázka: "Build the command 'Go back'"
+ word_bank: ["Subira", "inyuma", "komeza", "imbere", "hagarika"]
+ correct_answer: ["Subira", "inyuma"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Otázka: "Build the Věta 'The bank is in front of the Škola'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri", "hafi"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Otázka: "Build the Věta 'The Trh is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ Otázka: "Build the Věta 'The hospital is far'"
+ word_bank: ["Ibitaro", "biri", "kure", "isoko", "riri", "hafi"]
+ correct_answer: ["Ibitaro", "biri", "kure"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ Otázka: "Build the command 'Cross the street'"
+ word_bank: ["Kora", "umuhanda", "hagarara", "itara", "ry'umuhanda"]
+ correct_answer: ["Kora", "umuhanda"]
+ xp_reward: 15
+
+ - id: 66
+ type: word_bank
+ Otázka: "Build the command 'Stop at the traffic light'"
+ word_bank: ["Hagarara", "ku", "itara", "ry'umuhanda", "kora", "umuhanda"]
+ correct_answer: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ xp_reward: 22
+
+ # 7. Věta Scramble - PIECES PROVIDED
+ - id: 67
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně command"
+ scrambled_words: ["Hagarika", "ibumoso"]
+ correct_sentence: "Hagarika ibumoso."
+ translation: "Turn Vlevo."
+ xp_reward: 15
+
+ - id: 68
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně command"
+ scrambled_words: ["Hagarika", "iburyo"]
+ correct_sentence: "Hagarika iburyo."
+ translation: "Turn Vpravo."
+ xp_reward: 15
+
+ - id: 69
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně command"
+ scrambled_words: ["Komeza", "imbere"]
+ correct_sentence: "Komeza imbere."
+ translation: "Go Přímo."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně command"
+ scrambled_words: ["Subira", "inyuma"]
+ correct_sentence: "Subira inyuma."
+ translation: "Go back."
+ xp_reward: 15
+
+ - id: 71
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Banki", "iri", "imbere", "y'ishuri"]
+ correct_sentence: "Banki iri imbere y'ishuri."
+ translation: "The bank is in front of the Škola."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Isoko", "riri", "hafi"]
+ correct_sentence: "Isoko riri hafi."
+ translation: "The Trh is near."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Ibitaro", "biri", "kure"]
+ correct_sentence: "Ibitaro biri kure."
+ translation: "The hospital is far."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně command"
+ scrambled_words: ["Kora", "umuhanda"]
+ correct_sentence: "Kora umuhanda."
+ translation: "Cross the street."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně command"
+ scrambled_words: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ correct_sentence: "Hagarara ku itara ry'umuhanda."
+ translation: "Stop at the traffic light."
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Vyberte FROM OPTIONS
+ - id: 76
+ type: fill_blank
+ Otázka: "Dopl?te p??kaz"
+ text_with_blank: "Hagarika ___."
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Vlevo."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ Otázka: "Dopl?te p??kaz"
+ text_with_blank: "Hagarika ___."
+ options: ["iburyo", "ibumoso", "imbere"]
+ correct_answer: "iburyo"
+ translation: "Turn Vpravo."
+ xp_reward: 12
+
+ - id: 78
+ type: fill_blank
+ Otázka: "Dopl?te p??kaz"
+ text_with_blank: "Komeza ___."
+ options: ["imbere", "inyuma", "ibumoso"]
+ correct_answer: "imbere"
+ translation: "Go Přímo."
+ xp_reward: 12
+
+ - id: 79
+ type: fill_blank
+ Otázka: "Dopl?te p??kaz"
+ text_with_blank: "Subira ___."
+ options: ["inyuma", "imbere", "iburyo"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Isoko riri ___."
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Trh is near."
+ xp_reward: 12
+
+ - id: 81
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Ibitaro biri ___."
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 82
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Banki iri imbere ___."
+ options: ["y'ishuri", "y'isoko", "y'ibitaro"]
+ correct_answer: "y'ishuri"
+ translation: "The bank is in front of the Škola."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ Otázka: "Dopl?te p??kaz"
+ text_with_blank: "Kora ___."
+ options: ["umuhanda", "itara", "inguni"]
+ correct_answer: "umuhanda"
+ translation: "Cross the street."
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ Otázka: "Dopl?te p??kaz"
+ text_with_blank: "Hagarara ku ___ ry'umuhanda."
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 9. Picture → Slovo (Unsplash Images)
+ - id: 85
+ type: picture_word
+ Otázka: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?Vlevo-arrow"
+ options: ["Ibumoso", "Iburyo", "Imbere"]
+ correct_answer: "Ibumoso"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Otázka: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?Vpravo-arrow"
+ options: ["Ibumoso", "Iburyo", "Inyuma"]
+ correct_answer: "Iburyo"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Otázka: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?Rovně-arrow"
+ options: ["Imbere", "Inyuma", "Ibumoso"]
+ correct_answer: "Imbere"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Otázka: "Co je this?"
+ image_url: "https://source.unsplash.com/featured/?traffic-light"
+ options: ["Itara ry'umuhanda", "Umuhanda", "Ikimenyetso"]
+ correct_answer: "Itara ry'umuhanda"
+ xp_reward: 12
+
+ - id: 89
+ type: picture_word
+ Otázka: "Co je this?"
+ image_url: "https://source.unsplash.com/featured/?street-corner"
+ options: ["Inguni", "Umuhanda", "Ahantu hahurira imihanda"]
+ correct_answer: "Inguni"
+ xp_reward: 10
+
+ - id: 90
+ type: picture_word
+ Otázka: "Co je this?"
+ image_url: "https://source.unsplash.com/featured/?road-sign"
+ options: ["Ikimenyetso", "Itara", "Umuhanda"]
+ correct_answer: "Ikimenyetso"
+ xp_reward: 10
+
+ - id: 91
+ type: picture_word
+ Otázka: "Co je this?"
+ image_url: "https://source.unsplash.com/featured/?intersection"
+ options: ["Ahantu hahurira imihanda", "Inguni", "Umuhanda"]
+ correct_answer: "Ahantu hahurira imihanda"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ Otázka: "Jak? m?sto je to?"
+ image_url: "https://source.unsplash.com/featured/?bank"
+ options: ["Banki", "Isoko", "Ibitaro"]
+ correct_answer: "Banki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ Otázka: "Jak? m?sto je to?"
+ image_url: "https://source.unsplash.com/featured/?trh"
+ options: ["Isoko", "Banki", "Ibitaro"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ Otázka: "Jak? m?sto je to?"
+ image_url: "https://source.unsplash.com/featured/?hospital"
+ options: ["Ibitaro", "Isoko", "Banki"]
+ correct_answer: "Ibitaro"
+ xp_reward: 10
+
+ # 10. Slovo Spojte (Pairing)
+ - id: 95
+ type: Spojte
+ Otázka: "Spojte the basic Směry"
+ pairs:
+ - Vlevo: "Vlevo"
+ Vpravo: "Ibumoso"
+ - Vlevo: "Vpravo"
+ Vpravo: "Iburyo"
+ - Vlevo: "Přímo"
+ Vpravo: "Uburyohe / Guhita imbere"
+ - Vlevo: "Front"
+ Vpravo: "Imbere"
+ - Vlevo: "Behind"
+ Vpravo: "Inyuma"
+ xp_reward: 20
+
+ - id: 96
+ type: Spojte
+ Otázka: "Spojte the cardinal Směry"
+ pairs:
+ - Vlevo: "North"
+ Vpravo: "Amajyaruguru"
+ - Vlevo: "South"
+ Vpravo: "Amajyepfo"
+ - Vlevo: "East"
+ Vpravo: "Uburasirazuba"
+ - Vlevo: "West"
+ Vpravo: "Uburengerazuba"
+ xp_reward: 18
+
+ - id: 97
+ type: Spojte
+ Otázka: "Spojte the location words"
+ pairs:
+ - Vlevo: "Near"
+ Vpravo: "Hafi"
+ - Vlevo: "Far"
+ Vpravo: "Hahandi / kure"
+ - Vlevo: "Around"
+ Vpravo: "Hagarika / ahantu hose"
+ xp_reward: 15
+
+ - id: 98
+ type: Spojte
+ Otázka: "Spojte the commands"
+ pairs:
+ - Vlevo: "Turn Vlevo"
+ Vpravo: "Hagarika ibumoso"
+ - Vlevo: "Turn Vpravo"
+ Vpravo: "Hagarika iburyo"
+ - Vlevo: "Go Přímo"
+ Vpravo: "Komeza imbere"
+ - Vlevo: "Go back"
+ Vpravo: "Subira inyuma"
+ - Vlevo: "Cross the street"
+ Vpravo: "Kora umuhanda"
+ - Vlevo: "Stop at the traffic light"
+ Vpravo: "Hagarara ku itara ry'umuhanda"
+ xp_reward: 25
+
+ - id: 99
+ type: Spojte
+ Otázka: "Spojte the Věta"
+ pairs:
+ - Vlevo: "The bank is in front of the Škola"
+ Vpravo: "Banki iri imbere y'ishuri"
+ - Vlevo: "The Trh is near"
+ Vpravo: "Isoko riri hafi"
+ - Vlevo: "The hospital is far"
+ Vpravo: "Ibitaro biri kure"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Vyberte Missing Slovo
+ - id: 100
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Hagarika ___."
+ missing_word_position: 2
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Vlevo."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Komeza ___."
+ missing_word_position: 2
+ options: ["imbere", "inyuma", "iburyo"]
+ correct_answer: "imbere"
+ translation: "Go Přímo."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Subira ___."
+ missing_word_position: 2
+ options: ["inyuma", "imbere", "ibumoso"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 103
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Isoko riri ___."
+ missing_word_position: 3
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Trh is near."
+ xp_reward: 12
+
+ - id: 104
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Ibitaro biri ___."
+ missing_word_position: 3
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 105
+ type: choose_missing
+ Otázka: "Vyberte the missing phrase"
+ Věta: "Hagarara ku ___ ry'umuhanda."
+ missing_word_position: 3
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 13. Čtěte and Odpověď - Otázka based on text
+ - id: 106
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Komeza imbere. Hagarika ibumoso."
+ Otázka: "Co je the first instruction?"
+ options: ["Turn Vlevo", "Go Přímo", "Turn Vpravo", "Go back"]
+ correct_answer: "Go Přímo"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Banki iri imbere y'ishuri. Isoko riri hafi."
+ Otázka: "Where is the bank?"
+ options: ["Near the Trh", "In front of the Škola", "Far away", "Behind the Škola"]
+ correct_answer: "In front of the Škola"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Hagarara ku itara ry'umuhanda. Kora umuhanda."
+ Otázka: "What should you do at the traffic light?"
+ options: ["Turn Vlevo", "Stop", "Go Přímo", "Turn Vpravo"]
+ correct_answer: "Stop"
+ xp_reward: 15
+
+ - id: 109
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Ibitaro biri kure. Isoko riri hafi."
+ Otázka: "Is the hospital near or far?"
+ options: ["Near", "Far", "Very close", "Not mentioned"]
+ correct_answer: "Far"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Subira inyuma. Hagarika iburyo."
+ Otázka: "Co je the second instruction?"
+ options: ["Go back", "Turn Vlevo", "Turn Vpravo", "Go Přímo"]
+ correct_answer: "Turn Vpravo"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Ibumoso means 'Vpravo'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Iburyo means 'Vpravo'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Imbere means 'front'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Hafi means 'far'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Komeza imbere means 'go Přímo'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Itara ry'umuhanda means 'street sign'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Otázka: "Respond to the Otázka by building a command"
+ bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+ translation: "I want to reach the Trh. What should I do?"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira", "inyuma"]
+ correct_response: ["Komeza", "imbere"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Banki iri he?"
+ translation: "Where is the bank?"
+ options:
+ - "Imbere y'ishuri"
+ - "Hafi y'isoko"
+ - "Kure"
+ correct_response: "Imbere y'ishuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ Otázka: "Respond to the Otázka by building a command"
+ bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+ translation: "I want to reach the hospital. What should I do?"
+ word_bank: ["Subira", "inyuma", "hagarika", "iburyo", "komeza", "imbere"]
+ correct_response: ["Subira", "inyuma"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Isoko riri hafi?"
+ translation: "Is the Trh near?"
+ options:
+ - "Yego, riri hafi"
+ - "Oya, riri kure"
+ - "Simenye"
+ correct_response: "Yego, riri hafi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build Věta from pieces
+ - id: 121
+ type: story
+ title: "Finding the Trh - Gushaka Isoko"
+ story_intro: "Čtěte about finding the Trh. Then build the Věta."
+ story_segments:
+ - text: "I want to go to the Trh."
+ - text: "Go Přímo."
+ - text: "Turn Vlevo at the traffic light."
+ - text: "The Trh is near."
+ - text: "The bank is in front of the Škola."
+ exercises:
+ - type: word_bank
+ Otázka: "Build 'Go Přímo'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso"]
+ correct_answer: ["Komeza", "imbere"]
+ - type: word_bank
+ Otázka: "Build 'Turn Vlevo at the traffic light'"
+ word_bank: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ correct_answer: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ - type: word_bank
+ Otázka: "Build 'The Trh is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ - type: word_bank
+ Otázka: "Build 'The bank is in front of the Škola'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Otázka: "Say this direction Slovo"
+ prompt: "Ibumoso"
+ translation: "Vlevo"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Otázka: "Say this direction Slovo"
+ prompt: "Iburyo"
+ translation: "Vpravo"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Otázka: "Say this direction Slovo"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ Otázka: "Say this direction Slovo"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ Otázka: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Vlevo"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ Otázka: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Přímo"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ Otázka: "Say this Věta"
+ prompt: "Isoko riri hafi"
+ translation: "The Trh is near"
+ xp_reward: 18
+
+ # 18. Identify Správně Meaning
+ - id: 129
+ type: identify_meaning
+ Otázka: "Co znamená 'Hagarika' mean in this command?"
+ context_sentence: "Hagarika ibumoso."
+ Slovo: "Hagarika"
+ options: ["Go", "Turn", "Stop", "Cross"]
+ correct_answer: "Turn"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ Otázka: "Co znamená 'Komeza' mean in this command?"
+ context_sentence: "Komeza imbere."
+ Slovo: "Komeza"
+ options: ["Turn", "Stop", "Continue / Go", "Cross"]
+ correct_answer: "Continue / Go"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ Otázka: "Co znamená 'hafi' mean in this Věta?"
+ context_sentence: "Isoko riri hafi."
+ Slovo: "hafi"
+ options: ["far", "near", "behind", "front"]
+ correct_answer: "near"
+ xp_reward: 12
+
+ - id: 132
+ type: identify_meaning
+ Otázka: "Co znamená 'kure' mean in this Věta?"
+ context_sentence: "Ibitaro biri kure."
+ Slovo: "kure"
+ options: ["near", "far", "Vlevo", "Vpravo"]
+ correct_answer: "far"
+ xp_reward: 12
+
+ - id: 133
+ type: identify_meaning
+ Otázka: "Co znamená 'imbere y'' mean in this Věta?"
+ context_sentence: "Banki iri imbere y'ishuri."
+ Slovo: "imbere y'"
+ options: ["behind", "in front of", "next to", "far from"]
+ correct_answer: "in front of"
+ xp_reward: 15
+
+ # 19. Speed Spojte
+ - id: 134
+ type: speed_Spojte
+ title: "Spojte Madness: Směry"
+ time_limit_seconds: 45
+ pairs:
+ - Vlevo: "Vlevo"
+ Vpravo: "Ibumoso"
+ - Vlevo: "Vpravo"
+ Vpravo: "Iburyo"
+ - Vlevo: "Přímo"
+ Vpravo: "Imbere"
+ - Vlevo: "Behind"
+ Vpravo: "Inyuma"
+ - Vlevo: "North"
+ Vpravo: "Amajyaruguru"
+ - Vlevo: "South"
+ Vpravo: "Amajyepfo"
+ - Vlevo: "East"
+ Vpravo: "Uburasirazuba"
+ - Vlevo: "West"
+ Vpravo: "Uburengerazuba"
+ - Vlevo: "Near"
+ Vpravo: "Hafi"
+ - Vlevo: "Far"
+ Vpravo: "Kure"
+ - Vlevo: "Turn Vlevo"
+ Vpravo: "Hagarika ibumoso"
+ - Vlevo: "Turn Vpravo"
+ Vpravo: "Hagarika iburyo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: Směry"
+ time_limit_seconds: 30
+ Otázka_count: 5
+ Otázka:
+ - Otázka: "Vlevo"
+ Odpověď: "Ibumoso"
+ - Otázka: "Vpravo"
+ Odpověď: "Iburyo"
+ - Otázka: "Přímo"
+ Odpověď: "Imbere"
+ - Otázka: "Behind"
+ Odpověď: "Inyuma"
+ - Otázka: "Near"
+ Odpověď: "Hafi"
+ xp_reward: 35
+
+# Kartičky
+ - id: 111
+ type: Kartičky
+ Otázka: "Kartičky"
+ Kartičky:
+ - front: "Ibumoso"
+ back: "Vlevo"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iburyo"
+ back: "Vpravo"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Uburyohe / Guhita imbere"
+ back: "Přímo"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Inyuma"
+ back: "Back / Behind"
+ image: "https://images.pexels.com/photos/45201/kitty-Kočka-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbere"
+ back: "Front"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyaruguru"
+ back: "North"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyepfo"
+ back: "South"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburasirazuba"
+ back: "East"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburengerazuba"
+ back: "West"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Hafi"
+ back: "Near"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

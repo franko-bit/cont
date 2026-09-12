@@ -1,0 +1,882 @@
+lesson:
+ name: "Djur"
+ description: "Lär dig animal names i Kinyarwanda by categories"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Words ONLY (Safe för single words)
+ # Domestic / Farm Djur
+ - id: 1
+ type: translation
+ Fråga: "Hur säger man 'Ko' på kinyarwanda?"
+ Svar: "Inka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Fråga: "Hur säger man 'Hund' på kinyarwanda?"
+ Svar: "Imbwa"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Fråga: "Hur säger man 'Katt' på kinyarwanda?"
+ Svar: "Injangwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Fråga: "Hur säger man 'Get' på kinyarwanda?"
+ Svar: "Ihene"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Fråga: "Hur säger man 'Får' på kinyarwanda?"
+ Svar: "Intama"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Fråga: "Hur säger man 'Gris' på kinyarwanda?"
+ Svar: "Ingurube"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Fråga: "Hur säger man 'Kyckling' på kinyarwanda?"
+ Svar: "Inkoko"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Fråga: "Hur säger man 'Kanin' på kinyarwanda?"
+ Svar: "Urukwavu"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Fråga: "Hur säger man 'Åsna' på kinyarwanda?"
+ Svar: "Indogobe"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Fråga: "Hur säger man 'Duva' på kinyarwanda?"
+ Svar: "Inuma"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Fråga: "Hur säger man 'Fågel' på kinyarwanda?"
+ Svar: "Inyoni"
+ xp_reward: 10
+
+ # Wildlife Djur
+ - id: 12
+ type: translation
+ Fråga: "Hur säger man 'Lejon' på kinyarwanda?"
+ Svar: "Intare"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Fråga: "Hur säger man 'Elefant' på kinyarwanda?"
+ Svar: "Inzovu"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Fråga: "Hur säger man 'Bergsgorilla' på kinyarwanda?"
+ Svar: "Ingagi"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Fråga: "Hur säger man 'Leopard' på kinyarwanda?"
+ Svar: "Ingwe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Fråga: "Hur säger man 'Baffel' på kinyarwanda?"
+ Svar: "Imbogo"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Fråga: "Hur säger man 'Zebra' på kinyarwanda?"
+ Svar: "Imparage"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Fråga: "Hur säger man 'Flodhäst' på kinyarwanda?"
+ Svar: "Imvubu"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ Fråga: "Hur säger man 'Giraff' på kinyarwanda?"
+ Svar: "Agasumbashyamba"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ Fråga: "Hur säger man 'Hyena' på kinyarwanda?"
+ Svar: "Imfyisi"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ Fråga: "Hur säger man 'Apa' på kinyarwanda?"
+ Svar: "Inkende"
+ xp_reward: 10
+
+ # Fågel, Reptiles, Insects, Fisk
+ - id: 22
+ type: translation
+ Fråga: "Hur säger man 'Grå kronkran' på kinyarwanda?"
+ Svar: "Umusambi"
+ xp_reward: 10
+
+ - id: 23
+ type: translation
+ Fråga: "Hur säger man 'Orm' på kinyarwanda?"
+ Svar: "Inzoka"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ Fråga: "Hur säger man 'Groda' på kinyarwanda?"
+ Svar: "Igikeri"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ Fråga: "Hur säger man 'Fisk' på kinyarwanda?"
+ Svar: "Ifi"
+ xp_reward: 10
+
+ - id: 26
+ type: translation
+ Fråga: "Hur säger man 'Bi' på kinyarwanda?"
+ Svar: "Inzuki"
+ xp_reward: 10
+
+ # Animal Actions (Verbs)
+ - id: 27
+ type: translation
+ Fråga: "Hur säger man 'äta' på kinyarwanda?"
+ Svar: "irya"
+ xp_reward: 10
+
+ - id: 28
+ type: translation
+ Fråga: "Hur säger man 'dricka' på kinyarwanda?"
+ Svar: "inywa"
+ xp_reward: 10
+
+ - id: 29
+ type: translation
+ Fråga: "Hur säger man 'sleeps' på kinyarwanda?"
+ Svar: "irasinzira"
+ xp_reward: 10
+
+ - id: 30
+ type: translation
+ Fråga: "Hur säger man 'runs' på kinyarwanda?"
+ Svar: "iriruka"
+ xp_reward: 10
+
+ - id: 31
+ type: translation
+ Fråga: "Hur säger man 'flies' på kinyarwanda?"
+ Svar: "iraguruka"
+ xp_reward: 10
+
+ - id: 32
+ type: translation
+ Fråga: "Hur säger man 'swims' på kinyarwanda?"
+ Svar: "iroga"
+ xp_reward: 10
+
+ - id: 33
+ type: translation
+ Fråga: "Hur säger man 'plays' på kinyarwanda?"
+ Svar: "irakina"
+ xp_reward: 10
+
+ # Animal Mat
+ - id: 34
+ type: translation
+ Fråga: "Hur säger man 'grass' på kinyarwanda?"
+ Svar: "ibyatsi"
+ xp_reward: 10
+
+ - id: 35
+ type: translation
+ Fråga: "Hur säger man 'Vatten' på kinyarwanda?"
+ Svar: "amazi"
+ xp_reward: 10
+
+ - id: 36
+ type: translation
+ Fråga: "Hur säger man 'meat' på kinyarwanda?"
+ Svar: "inyama"
+ xp_reward: 10
+
+ # nej DIRECT TRANSLATION för Sats eller PARAGRAPHS
+ # Instead, we use Sats building, Para ihop, och word bank exercises
+
+ # 2. Multiple Choice
+ - id: 37
+ type: multiple_choice
+ Fråga: "Vad är 'Inka'?"
+ options:
+ - "Hund"
+ - "Ko"
+ - "Katt"
+ - "Get"
+ Svar: "Ko"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ Fråga: "Vad är 'Intare'?"
+ options:
+ - "Lejon"
+ - "Elefant"
+ - "Apa"
+ - "Hund"
+ Svar: "Lejon"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ Fråga: "Vad betyder 'irya' i den här meningen?"
+ options:
+ - "dricka"
+ - "äta"
+ - "sleeps"
+ - "runs"
+ Svar: "äta"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ Fråga: "Vad betyder 'ibyatsi' i den här meningen?"
+ options:
+ - "Vatten"
+ - "meat"
+ - "grass"
+ - "milk"
+ Svar: "grass"
+ xp_reward: 15
+
+ # 3. Lyssna och Type (Dictation) - SINGLE WORDS ONLY
+ - id: 41
+ type: listen_och_type
+ Fråga: "Lyssna och type den animal name"
+ tts_text: "Inka"
+ Svar: "Inka"
+ translation: "Ko"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_och_type
+ Fråga: "Lyssna och type den animal name"
+ tts_text: "Imbwa"
+ Svar: "Imbwa"
+ translation: "Hund"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_och_type
+ Fråga: "Lyssna och type den animal name"
+ tts_text: "Injangwe"
+ Svar: "Injangwe"
+ translation: "Katt"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_och_type
+ Fråga: "Lyssna och type den animal name"
+ tts_text: "Ihene"
+ Svar: "Ihene"
+ translation: "Get"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_och_type
+ Fråga: "Lyssna och type den animal name"
+ tts_text: "Intama"
+ Svar: "Intama"
+ translation: "Får"
+ xp_reward: 20
+
+ - id: 46
+ type: listen_och_type
+ Fråga: "Lyssna och type den animal name"
+ tts_text: "Inkoko"
+ Svar: "Inkoko"
+ translation: "Kyckling"
+ xp_reward: 20
+
+ # 4. Lyssna och Välj - SINGLE WORDS ONLY
+ - id: 47
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct animal"
+ tts_text: "Imbwa"
+ options:
+ - "Katt"
+ - "Hund"
+ - "Ko"
+ Svar: "Hund"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct animal"
+ tts_text: "Intare"
+ options:
+ - "Lejon"
+ - "Elefant"
+ - "Giraff"
+ Svar: "Lejon"
+ xp_reward: 15
+
+ - id: 49
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct animal"
+ tts_text: "Intama"
+ options:
+ - "Get"
+ - "Får"
+ - "Ko"
+ Svar: "Får"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct animal"
+ tts_text: "Inkoko"
+ options:
+ - "Kyckling"
+ - "Fågel"
+ - "Duck"
+ Svar: "Kyckling"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct animal"
+ tts_text: "Injangwe"
+ options:
+ - "Hund"
+ - "Katt"
+ - "Kanin"
+ Svar: "Katt"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct animal"
+ tts_text: "Ihene"
+ options:
+ - "Get"
+ - "Får"
+ - "Ko"
+ Svar: "Get"
+ xp_reward: 15
+
+ # 5. Repeat / Prata Exercise
+ - id: 53
+ type: Prata
+ Fråga: "Say denna word"
+ prompt: "Inka"
+ translation: "Ko"
+ xp_reward: 15
+
+ - id: 54
+ type: Prata
+ Fråga: "Say denna word"
+ prompt: "Imbwa"
+ translation: "Hund"
+ xp_reward: 15
+
+ - id: 55
+ type: Prata
+ Fråga: "Say denna word"
+ prompt: "Injangwe"
+ translation: "Katt"
+ xp_reward: 15
+
+ - id: 56
+ type: Prata
+ Fråga: "Say denna Sats"
+ prompt: "Inka irya ibyatsi"
+ translation: "den Ko äta grass"
+ xp_reward: 20
+
+ # 6. Word Bank Sats Building - PIECES PROVIDED, nej TRANSLATION NEEDED
+ - id: 57
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den Ko äta grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den Hund dricka Vatten'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 20
+
+ - id: 59
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den Fågel flies'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den Fisk swims'"
+ word_bank: ["Ifi", "iroga", "amazi", "Inyoni", "iraguruka", "hejuru"]
+ correct_answer: ["Ifi", "iroga"]
+ xp_reward: 20
+
+ # 7. Sats Scramble - PIECES PROVIDED
+ - id: 61
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Kinyarwanda Sats"
+ scrambled_words: ["irya", "Inka", "ibyatsi"]
+ correct_sentence: "Inka irya ibyatsi"
+ translation: "den Ko äta grass"
+ xp_reward: 20
+
+ - id: 62
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Kinyarwanda Sats"
+ scrambled_words: ["inywa", "Imbwa", "amazi"]
+ correct_sentence: "Imbwa inywa amazi"
+ translation: "den Hund dricka Vatten"
+ xp_reward: 20
+
+ - id: 63
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Kinyarwanda Sats"
+ scrambled_words: ["iraguruka", "Inyoni", "hejuru"]
+ correct_sentence: "Inyoni iraguruka hejuru"
+ translation: "den Fågel flies above"
+ xp_reward: 20
+
+ # 8. Fill i den Blank - Välj FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Fråga: "Välj den correct word till complete den Sats"
+ text_med_blank: "Inka ___ ibyatsi."
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "den Ko äta grass"
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Fråga: "Välj den correct word till complete den Sats"
+ text_med_blank: "Imbwa ___ amazi."
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "den Hund dricka Vatten"
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Fråga: "Välj den correct word till complete den Sats"
+ text_med_blank: "Inyoni ___ hejuru."
+ options: ["iraguruka", "iriruka", "iroga"]
+ correct_answer: "iraguruka"
+ translation: "den Fågel flies above"
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 67
+ type: picture_word
+ Fråga: "What animal är denna?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Intama", "Ihene"]
+ correct_answer: "Inka"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Fråga: "What animal är denna?"
+ image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Injangwe", "Inkoko"]
+ correct_answer: "Imbwa"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Fråga: "What animal är denna?"
+ image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Intare", "Ingwe", "Imbogo"]
+ correct_answer: "Intare"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Fråga: "What animal är denna?"
+ image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Imvubu", "Ingagi", "Imparage"]
+ correct_answer: "Inzovu"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Fråga: "What animal är denna?"
+ image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inyoni", "Inkoko", "Inuma", "Umusambi"]
+ correct_answer: "Inyoni"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Fråga: "What animal är denna?"
+ image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Ifi", "Inzoka", "Igikeri", "Akanyamasyo"]
+ correct_answer: "Ifi"
+ xp_reward: 10
+
+ # 10. Word Para ihop (Pairing)
+ - id: 73
+ type: Para ihop
+ Fråga: "Para ihop den Djur"
+ pairs:
+ - Vänster: "Ko"
+ Höger: "Inka"
+ - Vänster: "Hund"
+ Höger: "Imbwa"
+ - Vänster: "Katt"
+ Höger: "Injangwe"
+ - Vänster: "Lejon"
+ Höger: "Intare"
+ - Vänster: "Elefant"
+ Höger: "Inzovu"
+ - Vänster: "Fågel"
+ Höger: "Inyoni"
+ - Vänster: "Fisk"
+ Höger: "Ifi"
+ xp_reward: 25
+
+ - id: 74
+ type: Para ihop
+ Fråga: "Para ihop den actions"
+ pairs:
+ - Vänster: "äta"
+ Höger: "irya"
+ - Vänster: "dricka"
+ Höger: "inywa"
+ - Vänster: "sleeps"
+ Höger: "irasinzira"
+ - Vänster: "flies"
+ Höger: "iraguruka"
+ - Vänster: "swims"
+ Höger: "iroga"
+ - Vänster: "runs"
+ Höger: "iriruka"
+ xp_reward: 25
+
+ - id: 75
+ type: Para ihop
+ Fråga: "Para ihop den animal Mat"
+ pairs:
+ - Vänster: "grass"
+ Höger: "ibyatsi"
+ - Vänster: "Vatten"
+ Höger: "amazi"
+ - Vänster: "meat"
+ Höger: "inyama"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - PIECES PROVIDED
+ - id: 76
+ type: tap_hear
+ Fråga: "Tap den words you hear i order"
+ tts_text: "Inka irya ibyatsi"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_taps: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 25
+
+ - id: 77
+ type: tap_hear
+ Fråga: "Tap den words you hear i order"
+ tts_text: "Imbwa inywa amazi"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_taps: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 25
+
+ - id: 78
+ type: tap_hear
+ Fråga: "Tap den words you hear i order"
+ tts_text: "Inyoni iraguruka hejuru"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_taps: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 25
+
+ # 12. Välj Missing Word
+ - id: 79
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Inka ___ ibyatsi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "den Ko äta grass"
+ xp_reward: 15
+
+ - id: 80
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Imbwa ___ amazi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "den Hund dricka Vatten"
+ xp_reward: 15
+
+ # 13. Läs och Svar - Fråga i English, Svar based på Kinyarwanda text
+ - id: 81
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
+ Fråga: "Where är den Ko?"
+ options: ["i den Hus", "i den field", "At den Marknad", "Near den Hund"]
+ correct_answer: "i den field"
+ xp_reward: 25
+
+ - id: 82
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
+ Fråga: "Vad betyder den Lejon äta?"
+ options: ["Grass", "Vatten", "Meat", "Fisk"]
+ correct_answer: "Meat"
+ xp_reward: 20
+
+ # 14. True / False
+ - id: 83
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Imbwa ni inyamaswa."
+ translation: "en Hund är en animal"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 84
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Inka iraguruka."
+ translation: "en Ko flies"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 85
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Ifi iroga."
+ translation: "en Fisk swims"
+ correct_answer: true
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 86
+ type: conversation
+ Fråga: "Respond till den Fråga by building en Sats"
+ bot_message: "Iyi ni inyamaswa ki?"
+ translation: "What animal är denna?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ word_bank: ["Inka", "ni", "inyamaswa", "Imbwa", "ni", "igikeri"]
+ correct_response: ["Inka", "ni", "inyamaswa"]
+ xp_reward: 20
+
+ - id: 87
+ type: conversation
+ Fråga: "Respond till den Fråga"
+ bot_message: "Inka iri he?"
+ translation: "Where är den Ko?"
+ options:
+ - "Mu murima"
+ - "Mu nzu"
+ - "Ku isoko"
+ correct_response: "Mu murima"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Sats from pieces
+ - id: 88
+ type: story
+ title: "den Ko och Friends"
+ story_intro: "Läs about den Djur. Then build den Sats."
+ story_segments:
+ - text: "There är en Ko i den field."
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ - text: "den Ko äta grass."
+ - text: "en Hund är near den Ko."
+ - text: "den Hund dricka Vatten."
+ - text: "en Fågel flies above."
+ exercises:
+ - type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den Ko äta grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ - type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den Hund dricka Vatten'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ - type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den Fågel flies above'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 89
+ type: pronunciation
+ Fråga: "Say den word"
+ prompt: "Inka"
+ translation: "Ko"
+ xp_reward: 15
+
+ - id: 90
+ type: pronunciation
+ Fråga: "Say den word"
+ prompt: "Imbwa"
+ translation: "Hund"
+ xp_reward: 15
+
+ - id: 91
+ type: pronunciation
+ Fråga: "Say den word"
+ prompt: "Injangwe"
+ translation: "Katt"
+ xp_reward: 15
+
+ - id: 92
+ type: pronunciation
+ Fråga: "Say den word"
+ prompt: "Intare"
+ translation: "Lejon"
+ xp_reward: 15
+
+ - id: 93
+ type: pronunciation
+ Fråga: "Say den word"
+ prompt: "Agasumbashyamba"
+ translation: "Giraff"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 94
+ type: identify_meaning
+ Fråga: "Vad betyder 'amazi' mean i denna Sats?"
+ context_sentence: "Imbwa inywa amazi."
+ word: "amazi"
+ options: ["milk", "Vatten", "Mat", "grass"]
+ correct_answer: "Vatten"
+ xp_reward: 15
+
+ - id: 95
+ type: identify_meaning
+ Fråga: "Vad betyder 'irya' mean i denna Sats?"
+ context_sentence: "Inka irya ibyatsi."
+ word: "irya"
+ options: ["dricka", "äta", "runs", "flies"]
+ correct_answer: "äta"
+ xp_reward: 15
+
+ # 19. Speed Para ihop
+ - id: 96
+ type: speed_Para ihop
+ title: "Para ihop Madness: Djur"
+ time_limit_seconds: 45
+ pairs:
+ - Vänster: "Ko"
+ Höger: "Inka"
+ - Vänster: "Hund"
+ Höger: "Imbwa"
+ - Vänster: "Katt"
+ Höger: "Injangwe"
+ - Vänster: "Lejon"
+ Höger: "Intare"
+ - Vänster: "Elefant"
+ Höger: "Inzovu"
+ - Vänster: "Fågel"
+ Höger: "Inyoni"
+ - Vänster: "Fisk"
+ Höger: "Ifi"
+ - Vänster: "Get"
+ Höger: "Ihene"
+ - Vänster: "Får"
+ Höger: "Intama"
+ - Vänster: "Kyckling"
+ Höger: "Inkoko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 97
+ type: timed_challenge
+ title: "Lightning Round: Djur"
+ time_limit_seconds: 30
+ Fråga_count: 5
+ Fråga:
+ - Fråga: "Ko"
+ Svar: "Inka"
+ - Fråga: "Hund"
+ Svar: "Imbwa"
+ - Fråga: "Katt"
+ Svar: "Injangwe"
+ - Fråga: "Lejon"
+ Svar: "Intare"
+ - Fråga: "Elefant"
+ Svar: "Inzovu"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Fråga: "Flashcards"
+ Flashcards:
+ - front: "Inka"
+ back: "Ko"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Imbwa"
+ back: "Hund"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Injangwe"
+ back: "Katt"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ihene"
+ back: "Get"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Intama"
+ back: "Får"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ingurube"
+ back: "Gris"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkoko"
+ back: "Kyckling"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Urukwavu"
+ back: "Kanin"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Indogobe"
+ back: "Åsna"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Inuma"
+ back: "Duva"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

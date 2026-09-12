@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $result = $stmt->execute([$user_id, $exercise_id]);
             
             if ($result) {
-                $message = "✅ SUCCESS! Data saved to database!";
+                $message = "  SUCCESS! Data saved to database!";
                 
                 // Also update streak
                 $today = date('Y-m-d');
@@ -86,7 +86,7 @@ $progress_count = $stmt->fetchColumn();
         </div>
         
         <?php if ($message): ?>
-            <div class="message <?= strpos($message, '✅') !== false ? 'success' : 'error' ?>">
+            <div class="message <?= strpos($message, ' ') !== false ? 'success' : 'error' ?>">
                 <?= $message ?>
             </div>
         <?php endif; ?>

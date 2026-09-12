@@ -1,0 +1,1892 @@
+lesson:
+  name: "English Adaptive Exam (Task B)"
+  description: "Mixed topics. Adaptive difficulty. Starts medium."
+  xp_reward: 500
+
+exercises:
+
+  # ========== 🟡 MEDIUM (Start here) ==========
+  - id: 1
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "grammar"
+    question: "She ___ to school every day."
+    options: ["go", "goes", "going", "went"]
+    correct_answer: "goes"
+    xp_reward: 10
+
+  - id: 2
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "family"
+    question: "My mother's brother is my ___."
+    options: ["uncle", "aunt", "cousin", "grandfather"]
+    answer: "uncle"
+    xp_reward: 10
+
+  - id: 3
+    type: translation_english
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "daily_life"
+    question: "What is the correct English greeting for the morning?"
+    answer: "Good morning"
+    xp_reward: 10
+
+  # ========== 🟢 EASY (if wrong on medium) ==========
+  - id: 4
+    type: multiple_choice
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "vocabulary"
+    question: "What is the meal you eat in the morning called?"
+    options: ["Lunch", "Dinner", "Breakfast", "Snack"]
+    answer: "Breakfast"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "family"
+    question: "'Father' means the same as ___."
+    options: ["Mom", "Dad", "Sister", "Brother"]
+    answer: "Dad"
+    xp_reward: 15
+
+  - id: 6
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "daily_routines"
+    question: "True or false: People sleep at night."
+    correct_answer: true
+    xp_reward: 10
+
+  # ========== 🟡 MEDIUM (after easy correct) ==========
+  - id: 7
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "weather"
+    question: "When water falls from clouds, it is called ___."
+    options: ["snow", "rain", "wind", "sun"]
+    correct_answer: "rain"
+    xp_reward: 10
+
+  - id: 8
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "grammar"
+    question: "I wake up ___ 7 AM every day."
+    options: ["in", "on", "at", "for"]
+    answer: "at"
+    xp_reward: 10
+
+  - id: 9
+    type: translation_english
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "food"
+    question: "What is the English word for a long yellow fruit that monkeys eat?"
+    answer: "banana"
+    xp_reward: 10
+
+  # ========== 🔴 HARD (if medium correct) ==========
+  - id: 10
+    type: fill_blank
+    difficulty: hard
+    time_limit_seconds: 90
+    topic: "grammar"
+    question: "By the time I arrived, they ___ already eaten."
+    options: ["have", "had", "has", "was"]
+    correct_answer: "had"
+    xp_reward: 20
+
+  - id: 11
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "reading"
+    question: "Read and answer: John wanted to buy a car but didn't have enough money. He saved $200 every month. After six months, he had $1,200. How much did John save each month?"
+    text: "John wanted to buy a new car, but he didn't have enough money. He decided to save $200 every month. After six months, he had $1,200."
+    question: "How much did John save each month?"
+    options: ["$100", "$200", "$1,200", "$500"]
+    correct_answer: "$200"
+    xp_reward: 25
+
+  - id: 12
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "opinions"
+    question: "Say this sentence clearly: 'I think learning English is important for my future.'"
+    prompt: "I think learning English is important for my future."
+    xp_reward: 25
+
+  # ========== 🟡 MEDIUM (Listening) ==========
+  - id: 13
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "school"
+    question: "Listen and choose the correct meaning"
+    tts_text: "The teacher is writing on the board."
+    options: ["Students are reading", "Teacher is writing", "Class is over", "It's lunch time"]
+    answer: "Teacher is writing"
+    xp_reward: 15
+
+  - id: 14
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "travel"
+    question: "Listen and choose the correct meaning"
+    tts_text: "The train arrives at 3 PM."
+    options: ["Train is late", "Train arrives in the morning", "Train arrives in the afternoon", "Train is cancelled"]
+    answer: "Train arrives in the afternoon"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Sentence building) ==========
+  - id: 15
+    type: word_bank
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "daily_routines"
+    question: "Build the English sentence: I / go / to the store / every day"
+    word_bank: ["I", "go", "to the store", "every day", "yesterday", "tomorrow"]
+    correct_answer: ["I", "go", "to the store", "every day"]
+    xp_reward: 20
+
+  - id: 16
+    type: sentence_scramble
+    difficulty: hard
+    time_limit_seconds: 90
+    topic: "work"
+    question: "Arrange these words into a correct sentence"
+    scrambled_words: ["works", "She", "in a hospital"]
+    correct_sentence: "She works in a hospital"
+    xp_reward: 20
+
+  # ========== 🟡 MEDIUM (Grammar - verb tenses) ==========
+  - id: 17
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 55
+    topic: "grammar"
+    question: "Right now, I ___ an exam."
+    options: ["take", "takes", "am taking", "took"]
+    correct_answer: "am taking"
+    xp_reward: 15
+
+  - id: 18
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 55
+    topic: "grammar"
+    question: "Tomorrow, we ___ to the beach."
+    options: ["go", "went", "will go", "going"]
+    answer: "will go"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Speaking) ==========
+  - id: 19
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "hobbies"
+    question: "Say this sentence: 'I enjoy reading books in my free time.'"
+    prompt: "I enjoy reading books in my free time."
+    xp_reward: 25
+
+  - id: 20
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "family"
+    question: "Say this sentence: 'My sister is older than me.'"
+    prompt: "My sister is older than me."
+    xp_reward: 25
+
+  # ========== 🟡 MEDIUM (Sentence scramble) ==========
+  - id: 21
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 70
+    topic: "daily_life"
+    question: "Arrange these words"
+    scrambled_words: ["coffee", "drink", "I", "morning", "every"]
+    correct_sentence: "I drink coffee every morning"
+    xp_reward: 20
+
+  - id: 22
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 70
+    topic: "travel"
+    question: "Arrange these words"
+    scrambled_words: ["Paris", "to", "flew", "She", "yesterday"]
+    correct_sentence: "She flew to Paris yesterday"
+    xp_reward: 20
+
+  # ========== 🟢 EASY (Picture recognition) ==========
+  - id: 23
+    type: picture_word
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "food"
+    question: "What is this food?"
+    image_url: "https://images.unsplash.com/photo-1586201375761-83865001e8ac"
+    options: ["Rice", "Beans", "Pasta", "Bread"]
+    correct_answer: "Rice"
+    xp_reward: 10
+
+  - id: 24
+    type: picture_word
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "school"
+    question: "What is this place?"
+    image_url: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+    options: ["Hospital", "School", "Market", "Church"]
+    correct_answer: "School"
+    xp_reward: 10
+
+  # ========== 🔴 HARD (Reading comprehension) ==========
+  - id: 25
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "reading"
+    question: "Read and answer: How does Maria get to work?"
+    text: "Maria wakes up at 6 AM every day. First, she brushes her teeth. Then she eats breakfast. After breakfast, she takes the bus to work. She arrives at work by 8 AM."
+    question: "How does Maria get to work?"
+    options: ["By car", "By bus", "By train", "Walking"]
+    correct_answer: "By bus"
+    xp_reward: 25
+
+  - id: 26
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "reading"
+    question: "Read and answer: How many children are in David's family?"
+    text: "David has two brothers and one sister. His brothers are older than him. His sister is younger."
+    question: "How many children are in David's family?"
+    options: ["Three", "Four", "Two", "Five"]
+    correct_answer: "Four"
+    xp_reward: 25
+
+  # ========== 🟡 MEDIUM (Listen and type) ==========
+  - id: 27
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "weather"
+    question: "Listen and type the word you hear"
+    tts_text: "Thunderstorm"
+    answer: "Thunderstorm"
+    xp_reward: 20
+
+  - id: 28
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "food"
+    question: "Listen and type the word"
+    tts_text: "Vegetables"
+    answer: "Vegetables"
+    xp_reward: 20
+
+  # ========== 🔴 HARD (Error correction) ==========
+  - id: 29
+    type: error_correction
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "grammar"
+    question: "Fix the error in this sentence: 'She go to school every day.'"
+    incorrect_sentence: "She go to school every day."
+    correct_sentence: "She goes to school every day."
+    explanation: "With 'she', use 'goes' (third person singular)"
+    xp_reward: 20
+
+  # ========== 🟡 MEDIUM (True/False) ==========
+  - id: 30
+    type: true_false
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "school"
+    question: "True or false based on the sentence: 'Students study at school.'"
+    statement: "Students study at school."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 31
+    type: true_false
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "weather"
+    question: "True or false: 'It can rain and be sunny at the same time.'"
+    correct_answer: true
+    xp_reward: 10
+
+  # ========== 🔴 HARD (Conversation response) ==========
+  - id: 32
+    type: conversation
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "daily_life"
+    question: "Respond to the question with a full sentence: 'What time do you usually wake up?'"
+    bot_message: "What time do you usually wake up?"
+    correct_response_keywords: ["wake", "up", "at"]
+    xp_reward: 25
+
+  # ========== 🟢 EASY (Matching) ==========
+  - id: 33
+    type: matching
+    difficulty: easy
+    time_limit_seconds: 35
+    topic: "family"
+    question: "Match the family members"
+    pairs:
+      - left: "Mother"
+        right: "Mom"
+      - left: "Father"
+        right: "Dad"
+      - left: "Child"
+        right: "Kid"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (Choose missing word) ==========
+  - id: 34
+    type: choose_missing
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "food"
+    question: "Choose the missing word: 'I like to eat ___ for breakfast.'"
+    sentence: "I like to eat ___ for breakfast."
+    missing_word_position: 4
+    options: ["eggs", "water", "sleep", "run"]
+    correct_answer: "eggs"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Story + questions) ==========
+  - id: 35
+    type: story
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "storytelling"
+    title: "A Busy Morning"
+    story_intro: "Read the story, then answer the questions."
+    story_segments:
+      - text: "Anna wakes up at 6:30 AM."
+      - text: "She takes a shower and gets dressed."
+      - text: "She eats toast and drinks orange juice."
+      - text: "Then she walks to the bus stop."
+    exercises:
+      - type: read_answer
+        question: "What does Anna drink for breakfast?"
+        options: ["Coffee", "Orange juice", "Milk", "Water"]
+        correct_answer: "Orange juice"
+      - type: read_answer
+        question: "How does Anna get to the bus stop?"
+        options: ["By car", "By bus", "Walking", "By bike"]
+        correct_answer: "Walking"
+    xp_reward: 40
+
+  # ========== 🟡 MEDIUM (Grammar - articles) ==========
+  - id: 36
+    type: grammar
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "grammar"
+    question: "Choose the correct article: 'I saw ___ elephant at the zoo.'"
+    options: ["a", "an", "the", "none"]
+    correct_answer: "an"
+    xp_reward: 20
+
+  # ========== 🔴 HARD (Pronunciation) ==========
+  - id: 37
+    type: pronunciation
+    difficulty: hard
+    time_limit_seconds: 90
+    topic: "work"
+    question: "Say this sentence clearly"
+    prompt: "I have been working at this company for five years."
+    xp_reward: 25
+
+  # ========== 🟢 EASY (Identify meaning) ==========
+  - id: 38
+    type: identify_meaning
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "school"
+    question: "What does 'homework' mean?"
+    context_sentence: "The teacher gave us a lot of homework."
+    word: "homework"
+    options: ["School work done at home", "Playing games", "Sleeping", "Eating"]
+    correct_answer: "School work done at home"
+    xp_reward: 10
+
+  # ========== 🟡 MEDIUM (Tap what you hear) ==========
+  - id: 39
+    type: tap_hear
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "daily_life"
+    question: "Tap the words you hear in order"
+    tts_text: "I need to buy some milk"
+    word_bank: ["I", "need", "to", "buy", "some", "milk", "bread", "eggs"]
+    correct_taps: ["I", "need", "to", "buy", "some", "milk"]
+    xp_reward: 25
+
+  # ========== 🔴 HARD (Speaking - 3 sentences) ==========
+  - id: 40
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "opinions"
+    question: "Say three sentences about what you like to do on weekends"
+    min_sentences: 3
+    xp_reward: 30
+
+  # ========== 🟡 MEDIUM (Listening - dialogue) ==========
+  - id: 41
+    type: listening_comprehension
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "shopping"
+    question: "Listen to the dialogue and answer: How much is the shirt?"
+    dialogue_tts: "Customer: How much is this shirt? Seller: It's $25."
+    question: "How much is the shirt?"
+    options: ["$15", "$20", "$25", "$30"]
+    correct_answer: "$25"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Error correction - word order) ==========
+  - id: 42
+    type: error_correction
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "grammar"
+    question: "Fix the error: 'Yesterday I to the store went.'"
+    incorrect_sentence: "Yesterday I to the store went."
+    correct_sentence: "Yesterday I went to the store."
+    xp_reward: 20
+
+  # ========== 🟢 EASY (Speed matching) ==========
+  - id: 43
+    type: speed_matching
+    difficulty: easy
+    time_limit_seconds: 30
+    topic: "food"
+    title: "Quick match: Food and drink"
+    pairs:
+      - left: "Rice"
+        right: "A grain"
+      - left: "Water"
+        right: "A drink"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (Fill blank - preposition) ==========
+  - id: 44
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "travel"
+    question: "Complete the sentence: 'I arrived ___ the airport at 8 PM.'"
+    text_with_blank: "I arrived ___ the airport at 8 PM."
+    options: ["in", "on", "at", "to"]
+    correct_answer: "at"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Conversation - free response) ==========
+  - id: 45
+    type: conversation
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "daily_life"
+    question: "Respond to: 'What did you eat for breakfast today?'"
+    bot_message: "What did you eat for breakfast today?"
+    expected_keywords: ["ate", "breakfast", "had"]
+    xp_reward: 30
+
+  # ========== 🟢 EASY (True/False - basic fact) ==========
+  - id: 46
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "science"
+    question: "True or false: 'Water freezes at 0 degrees Celsius.'"
+    correct_answer: true
+    xp_reward: 10
+
+  # ========== 🟡 MEDIUM (Scramble - longer) ==========
+  - id: 47
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 80
+    topic: "hobbies"
+    question: "Arrange these words"
+    scrambled_words: ["playing", "I", "enjoy", "guitar", "the"]
+    correct_sentence: "I enjoy playing the guitar"
+    xp_reward: 20
+
+  # ========== 🔴 HARD (Reading + inference) ==========
+  - id: 48
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "reading"
+    question: "Read and infer: Why was the boss unhappy?"
+    text: "Tom usually arrives at work at 9 AM. Today, he arrived at 9:45 AM. His boss was not happy."
+    question: "Why was the boss unhappy?"
+    options: ["Tom was early", "Tom was late", "Tom didn't work", "Tom left early"]
+    correct_answer: "Tom was late"
+    xp_reward: 25
+
+  # ========== 🟡 MEDIUM (Listen and type - phrase) ==========
+  - id: 49
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 55
+    topic: "school"
+    question: "Listen and type the phrase"
+    tts_text: "The classroom is quiet"
+    answer: "The classroom is quiet"
+    xp_reward: 20
+
+  # ========== 🔴 HARD (Speaking - describe picture) ==========
+  - id: 50
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "daily_life"
+    question: "Describe what is happening in this picture"
+    image_url: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+    expected_keywords: ["students", "teacher", "classroom"]
+    xp_reward: 30
+
+  # ========== 🟢 EASY (Matching - opposites) ==========
+  - id: 51
+    type: matching
+    difficulty: easy
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "Match the opposites"
+    pairs:
+      - left: "Hot"
+        right: "Cold"
+      - left: "Big"
+        right: "Small"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (Choose missing - grammar) ==========
+  - id: 52
+    type: choose_missing
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "grammar"
+    question: "Choose the missing word: 'If it rains tomorrow, we ___ stay home.'"
+    sentence: "If it rains tomorrow, we ___ stay home."
+    missing_word_position: 5
+    options: ["will", "would", "can", "must"]
+    correct_answer: "will"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Story with summary) ==========
+  - id: 53
+    type: story
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "storytelling"
+    title: "A Lost Wallet"
+    story_intro: "Read the story, then answer the questions."
+    story_segments:
+      - text: "Sarah was walking home from work when she saw a wallet on the ground."
+      - text: "She opened it and found an ID card and $50."
+      - text: "She called the number on the ID card and returned the wallet."
+      - text: "The owner was very grateful and gave her $10 as a thank you."
+    exercises:
+      - type: read_answer
+        question: "How much money was in the wallet originally?"
+        options: ["$10", "$50", "$60", "$40"]
+        correct_answer: "$50"
+      - type: writing
+        question: "Write a two-sentence summary of the story"
+        min_sentences: 2
+    xp_reward: 40
+
+  # ========== 🟡 MEDIUM (Tap what you hear - longer) ==========
+  - id: 54
+    type: tap_hear
+    difficulty: medium
+    time_limit_seconds: 70
+    topic: "travel"
+    question: "Tap the words you hear in order"
+    tts_text: "The train will depart at six o'clock"
+    word_bank: ["The", "train", "will", "depart", "at", "six", "o'clock", "bus", "arrive"]
+    correct_taps: ["The", "train", "will", "depart", "at", "six", "o'clock"]
+    xp_reward: 25
+
+  # ========== 🔴 HARD (Grammar - explain rule) ==========
+  - id: 55
+    type: grammar
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "grammar"
+    question: "Why is 'has' correct in this sentence: 'She has lived here for ten years.'"
+    sentence: "She has lived here for ten years."
+    explanation_required: true
+    xp_reward: 25
+
+  # ========== 🟢 EASY (Flashcards review) ==========
+  - id: 56
+    type: flashcards
+    difficulty: easy
+    time_limit_seconds: 40
+    topic: "vocabulary"
+    question: "Study these words"
+    flashcards:
+      - front: "Good morning"
+        back: "Greeting for morning"
+      - front: "Mother"
+        back: "Parent"
+      - front: "School"
+        back: "Place of learning"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (Timed challenge) ==========
+  - id: 57
+    type: timed_challenge
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "mixed"
+    title: "Lightning round: Basic English"
+    questions_count: 5
+    questions:
+      - question: "What is the opposite of 'hot'?"
+        answer: "cold"
+      - question: "She ___ to school every day (go/goes)"
+        answer: "goes"
+      - question: "What do you drink when you are thirsty?"
+        answer: "water"
+      - question: "What is the past tense of 'eat'?"
+        answer: "ate"
+      - question: "What is the English word for 'the meal at night'?"
+        answer: "dinner"
+    xp_reward: 35
+
+  # ========== 🔴 HARD (Final - speaking) ==========
+  - id: 58
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "opinions"
+    question: "Explain your daily routine in English (minimum 4 sentences)"
+    min_sentences: 4
+    xp_reward: 50
+
+  # ========== 🔴 HARD (Writing paragraph) ==========
+  - id: 59
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "writing"
+    question: "Write a short paragraph (4-5 sentences) about your favorite hobby and why you enjoy it"
+    min_sentences: 4
+    xp_reward: 50
+
+  # ========== 🔴 HARD (Reading + summary) ==========
+  - id: 60
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "storytelling"
+    question: "Read the story and write a 3-sentence summary"
+    text: "Maria wanted to learn English because she wanted to travel to London. She studied every day for six months. She watched movies, listened to podcasts, and practiced speaking with friends. Finally, she took a test and passed. She was very happy because her dream was coming true."
+    summary_required: true
+    min_sentences: 3
+    xp_reward: 50
+
+    # ========== 🟡 MEDIUM (Start Task C) ==========
+  - id: 61
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "health"
+    question: "If you have a toothache, you should go to the ___."
+    options: ["doctor", "dentist", "nurse", "pharmacist"]
+    answer: "dentist"
+    xp_reward: 10
+
+  - id: 62
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "grammar"
+    question: "They ___ playing football when it started to rain."
+    options: ["was", "were", "is", "are"]
+    correct_answer: "were"
+    xp_reward: 10
+
+  - id: 63
+    type: translation_english
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "technology"
+    question: "What is the English word for 'a portable phone that can access the internet'?"
+    answer: "smartphone"
+    xp_reward: 10
+
+  # ========== 🟢 EASY (if wrong) ==========
+  - id: 64
+    type: multiple_choice
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "health"
+    question: "What do you call the person who treats sick animals?"
+    options: ["Doctor", "Veterinarian", "Nurse", "Dentist"]
+    answer: "Veterinarian"
+    xp_reward: 15
+
+  - id: 65
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "technology"
+    question: "True or false: 'A smartphone can make phone calls.'"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 66
+    type: multiple_choice
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "grammar"
+    question: "Which is correct: 'I ___ a student.'"
+    options: ["am", "is", "are", "be"]
+    answer: "am"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (after easy correct) ==========
+  - id: 67
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "grammar"
+    question: "This is the man ___ helped me yesterday."
+    options: ["who", "which", "whose", "whom"]
+    correct_answer: "who"
+    xp_reward: 10
+
+  - id: 68
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "travel"
+    question: "Before boarding a plane, you need to show your ___."
+    options: ["ticket", "passport", "both", "neither"]
+    answer: "both"
+    xp_reward: 10
+
+  - id: 69
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "health"
+    question: "Listen and choose"
+    tts_text: "You should take this medicine twice a day."
+    options: ["Once a day", "Twice a day", "Three times a day", "Every hour"]
+    answer: "Twice a day"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (if medium correct) ==========
+  - id: 70
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "reading"
+    question: "Read and answer: What is the main idea?"
+    text: "Recycling is important for the environment. When we recycle, we reduce waste and save energy. Many materials like paper, plastic, and glass can be recycled."
+    question: "What is the main idea of this passage?"
+    options: ["Recycling is difficult", "Recycling is important for the environment", "Only plastic can be recycled", "Recycling wastes energy"]
+    correct_answer: "Recycling is important for the environment"
+    xp_reward: 25
+
+  - id: 71
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "opinions"
+    question: "Say this sentence: 'In my opinion, exercise is essential for good health.'"
+    prompt: "In my opinion, exercise is essential for good health."
+    xp_reward: 25
+
+  - id: 72
+    type: error_correction
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "grammar"
+    question: "Fix the error: 'If I was you, I would apologize.'"
+    incorrect_sentence: "If I was you, I would apologize."
+    correct_sentence: "If I were you, I would apologize."
+    explanation: "Use 'were' for hypothetical situations"
+    xp_reward: 20
+
+  # ========== 🟡 MEDIUM (Listening) ==========
+  - id: 73
+    type: listening_comprehension
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "work"
+    question: "Listen and answer"
+    dialogue_tts: "Employee: I need to take Friday off. Manager: That's fine, but please finish your report by Thursday."
+    question: "When must the employee finish the report?"
+    options: ["Friday", "Thursday", "Monday", "Next week"]
+    correct_answer: "Thursday"
+    xp_reward: 15
+
+  - id: 74
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 55
+    topic: "technology"
+    question: "Listen and type"
+    tts_text: "Download the application"
+    answer: "Download the application"
+    xp_reward: 20
+
+  # ========== 🔴 HARD (Sentence building) ==========
+  - id: 75
+    type: word_bank
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "future_plans"
+    question: "Build: 'I / to become a doctor / want / someday'"
+    word_bank: ["I", "want", "to become", "a doctor", "someday", "yesterday"]
+    correct_answer: ["I", "want", "to become", "a doctor", "someday"]
+    xp_reward: 20
+
+  - id: 76
+    type: sentence_scramble
+    difficulty: hard
+    time_limit_seconds: 90
+    topic: "past_experiences"
+    question: "Arrange: 'never / have / I / to Japan / been'"
+    scrambled_words: ["never", "have", "I", "to Japan", "been"]
+    correct_sentence: "I have never been to Japan"
+    xp_reward: 20
+
+  # ========== 🟡 MEDIUM (Grammar - comparatives) ==========
+  - id: 77
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 55
+    topic: "grammar"
+    question: "This test is ___ than the last one."
+    options: ["easy", "easier", "easiest", "more easy"]
+    correct_answer: "easier"
+    xp_reward: 15
+
+  - id: 78
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 55
+    topic: "grammar"
+    question: "She speaks English ___ than her brother."
+    options: ["good", "well", "better", "best"]
+    answer: "better"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Speaking - comparison) ==========
+  - id: 79
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "opinions"
+    question: "Say: 'I prefer coffee to tea because it gives me more energy.'"
+    prompt: "I prefer coffee to tea because it gives me more energy."
+    xp_reward: 25
+
+  - id: 80
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "family"
+    question: "Say: 'My younger brother is taller than me now.'"
+    prompt: "My younger brother is taller than me now."
+    xp_reward: 25
+
+  # ========== 🟡 MEDIUM (Sentence scramble) ==========
+  - id: 81
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 70
+    topic: "health"
+    question: "Arrange: 'exercise / important / is / for health'"
+    scrambled_words: ["exercise", "important", "is", "for health"]
+    correct_sentence: "Exercise is important for health"
+    xp_reward: 20
+
+  - id: 82
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 70
+    topic: "technology"
+    question: "Arrange: 'internet / the / without / can't / I / live'"
+    scrambled_words: ["internet", "the", "without", "can't", "I", "live"]
+    correct_sentence: "I can't live without the internet"
+    xp_reward: 20
+
+  # ========== 🟢 EASY (Picture recognition) ==========
+  - id: 83
+    type: picture_word
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "health"
+    question: "What is this?"
+    image_url: "https://images.unsplash.com/photo-1584308666744-00d4f3c82ef9"
+    options: ["Stethoscope", "Thermometer", "Syringe", "Pills"]
+    correct_answer: "Stethoscope"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "technology"
+    question: "What is this device?"
+    image_url: "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d"
+    options: ["Laptop", "Smartphone", "Tablet", "Desktop"]
+    correct_answer: "Laptop"
+    xp_reward: 10
+
+  # ========== 🔴 HARD (Reading comprehension) ==========
+  - id: 85
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "reading"
+    question: "Read and answer: What should you do?"
+    text: "If you see a fire, leave the building immediately. Do not use the elevator. Use the stairs. Call the fire department once you are outside."
+    question: "What should you NOT do if you see a fire?"
+    options: ["Leave immediately", "Use the stairs", "Use the elevator", "Call for help"]
+    correct_answer: "Use the elevator"
+    xp_reward: 25
+
+  - id: 86
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "reading"
+    question: "Read and answer"
+    text: "The Amazon rainforest is home to millions of species. It produces 20% of the world's oxygen. Deforestation is a major threat to this ecosystem."
+    question: "What percentage of the world's oxygen does the Amazon produce?"
+    options: ["10%", "15%", "20%", "25%"]
+    correct_answer: "20%"
+    xp_reward: 25
+
+  # ========== 🟡 MEDIUM (Listen and type) ==========
+  - id: 87
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "work"
+    question: "Listen and type"
+    tts_text: "Deadline"
+    answer: "Deadline"
+    xp_reward: 20
+
+  - id: 88
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "travel"
+    question: "Listen and type"
+    tts_text: "Itinerary"
+    answer: "Itinerary"
+    xp_reward: 20
+
+  # ========== 🔴 HARD (Error correction) ==========
+  - id: 89
+    type: error_correction
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "grammar"
+    question: "Fix: 'Neither of the students are late.'"
+    incorrect_sentence: "Neither of the students are late."
+    correct_sentence: "Neither of the students is late."
+    explanation: "Neither takes a singular verb"
+    xp_reward: 20
+
+  # ========== 🟡 MEDIUM (True/False) ==========
+  - id: 90
+    type: true_false
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "health"
+    question: "True or false: 'Drinking water is essential for survival.'"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 91
+    type: true_false
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "technology"
+    question: "True or false: 'The internet was invented in 1990.'"
+    correct_answer: false
+    xp_reward: 10
+
+  # ========== 🔴 HARD (Conversation) ==========
+  - id: 92
+    type: conversation
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "work"
+    question: "Respond: 'What are your career goals?'"
+    bot_message: "What are your career goals?"
+    expected_keywords: ["want", "become", "future", "work"]
+    xp_reward: 25
+
+  # ========== 🟢 EASY (Matching) ==========
+  - id: 93
+    type: matching
+    difficulty: easy
+    time_limit_seconds: 35
+    topic: "health"
+    question: "Match symptoms with problems"
+    pairs:
+      - left: "Headache"
+        right: "Pain in head"
+      - left: "Fever"
+        right: "High temperature"
+      - left: "Cough"
+        right: "Sound from throat"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (Choose missing) ==========
+  - id: 94
+    type: choose_missing
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "grammar"
+    question: "Choose: 'She ___ to the party if she had time.'"
+    sentence: "She ___ to the party if she had time."
+    missing_word_position: 2
+    options: ["will come", "would come", "came", "comes"]
+    correct_answer: "would come"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Story) ==========
+  - id: 95
+    type: story
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "storytelling"
+    title: "The First Job Interview"
+    story_intro: "Read and answer"
+    story_segments:
+      - text: "Maria was nervous about her first job interview."
+      - text: "She prepared by researching the company and practicing common questions."
+      - text: "On the day of the interview, she arrived 15 minutes early."
+      - text: "The interviewer was impressed by her preparation and offered her the job."
+    exercises:
+      - type: read_answer
+        question: "Why was Maria nervous?"
+        options: ["She was late", "It was her first interview", "She didn't prepare", "The company was bad"]
+        correct_answer: "It was her first interview"
+      - type: read_answer
+        question: "How early did Maria arrive?"
+        options: ["5 minutes", "10 minutes", "15 minutes", "30 minutes"]
+        correct_answer: "15 minutes"
+    xp_reward: 40
+
+  # ========== 🟡 MEDIUM (Tap what you hear) ==========
+  - id: 96
+    type: tap_hear
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "daily_life"
+    question: "Tap in order"
+    tts_text: "Please remember to lock the door"
+    word_bank: ["Please", "remember", "to", "lock", "the", "door", "window", "close"]
+    correct_taps: ["Please", "remember", "to", "lock", "the", "door"]
+    xp_reward: 25
+
+  # ========== 🔴 HARD (Speaking - 3 sentences about past) ==========
+  - id: 97
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "past_experiences"
+    question: "Say three sentences about something you did last weekend"
+    min_sentences: 3
+    xp_reward: 30
+
+  # ========== 🟡 MEDIUM (Listening - comprehension) ==========
+  - id: 98
+    type: listening_comprehension
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "shopping"
+    question: "Listen and answer"
+    dialogue_tts: "Store clerk: This item is on sale for 50% off. Original price is $40."
+    question: "What is the sale price?"
+    options: ["$10", "$20", "$30", "$40"]
+    correct_answer: "$20"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Error correction) ==========
+  - id: 99
+    type: error_correction
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "grammar"
+    question: "Fix: 'Each of the players have a uniform.'"
+    incorrect_sentence: "Each of the players have a uniform."
+    correct_sentence: "Each of the players has a uniform."
+    xp_reward: 20
+
+  # ========== 🟢 EASY (Speed matching) ==========
+  - id: 100
+    type: speed_matching
+    difficulty: easy
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    title: "Quick match: Jobs"
+    pairs:
+      - left: "Doctor"
+        right: "Treats patients"
+      - left: "Teacher"
+        right: "Educates students"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (Fill blank) ==========
+  - id: 101
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "grammar"
+    question: "Complete: 'She has been studying ___ three hours.'"
+    text_with_blank: "She has been studying ___ three hours."
+    options: ["since", "for", "during", "while"]
+    correct_answer: "for"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Conversation - free) ==========
+  - id: 102
+    type: conversation
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "future_plans"
+    question: "Respond: 'Where do you see yourself in five years?'"
+    bot_message: "Where do you see yourself in five years?"
+    expected_keywords: ["hope", "want", "will", "plan"]
+    xp_reward: 30
+
+  # ========== 🟢 EASY (True/False) ==========
+  - id: 103
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "science"
+    question: "True or false: 'The Earth orbits the Sun.'"
+    correct_answer: true
+    xp_reward: 10
+
+  # ========== 🟡 MEDIUM (Scramble) ==========
+  - id: 104
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 80
+    topic: "health"
+    question: "Arrange: 'should / you / exercise / regularly'"
+    scrambled_words: ["should", "you", "exercise", "regularly"]
+    correct_sentence: "You should exercise regularly"
+    xp_reward: 20
+
+  # ========== 🔴 HARD (Reading + inference) ==========
+  - id: 105
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "reading"
+    question: "Read and infer"
+    text: "The company's profits increased by 50% after they launched their new product. However, they also had to hire 20 new employees to handle the demand."
+    question: "What can be inferred about the new product?"
+    options: ["It was unsuccessful", "It was very popular", "It was expensive", "It was poorly made"]
+    correct_answer: "It was very popular"
+    xp_reward: 25
+
+  # ========== 🟡 MEDIUM (Listen and type - phrase) ==========
+  - id: 106
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 55
+    topic: "work"
+    question: "Listen and type"
+    tts_text: "Please submit your report by Friday"
+    answer: "Please submit your report by Friday"
+    xp_reward: 20
+
+  # ========== 🔴 HARD (Speaking - describe) ==========
+  - id: 107
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "daily_life"
+    question: "Describe your ideal weekend in 3-4 sentences"
+    min_sentences: 3
+    xp_reward: 30
+
+  # ========== 🟢 EASY (Matching) ==========
+  - id: 108
+    type: matching
+    difficulty: easy
+    time_limit_seconds: 30
+    topic: "vocabulary"
+    question: "Match synonyms"
+    pairs:
+      - left: "Happy"
+        right: "Joyful"
+      - left: "Big"
+        right: "Large"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (Choose missing) ==========
+  - id: 109
+    type: choose_missing
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "grammar"
+    question: "Choose: 'This is the restaurant ___ I first met my wife.'"
+    sentence: "This is the restaurant ___ I first met my wife."
+    missing_word_position: 4
+    options: ["where", "which", "who", "when"]
+    correct_answer: "where"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Story with summary) ==========
+  - id: 110
+    type: story
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "storytelling"
+    title: "Learning a New Skill"
+    story_intro: "Read and write a summary"
+    story_segments:
+      - text: "Tom wanted to learn to play the guitar."
+      - text: "He practiced for 30 minutes every day."
+      - text: "After three months, he could play his favorite song."
+      - text: "He was proud of his progress."
+    exercises:
+      - type: read_answer
+        question: "How long did Tom practice each day?"
+        options: ["15 minutes", "30 minutes", "1 hour", "2 hours"]
+        correct_answer: "30 minutes"
+      - type: writing
+        question: "Write a two-sentence summary"
+        min_sentences: 2
+    xp_reward: 40
+
+  # ========== 🟡 MEDIUM (Tap what you hear) ==========
+  - id: 111
+    type: tap_hear
+    difficulty: medium
+    time_limit_seconds: 70
+    topic: "travel"
+    question: "Tap in order"
+    tts_text: "Don't forget to bring your passport"
+    word_bank: ["Don't", "forget", "to", "bring", "your", "passport", "ticket", "bag"]
+    correct_taps: ["Don't", "forget", "to", "bring", "your", "passport"]
+    xp_reward: 25
+
+  # ========== 🔴 HARD (Grammar - explain) ==========
+  - id: 112
+    type: grammar
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "grammar"
+    question: "Why is 'were' correct: 'I wish I were taller.'"
+    sentence: "I wish I were taller."
+    explanation_required: true
+    xp_reward: 25
+
+  # ========== 🟢 EASY (Flashcards) ==========
+  - id: 113
+    type: flashcards
+    difficulty: easy
+    time_limit_seconds: 40
+    topic: "vocabulary"
+    question: "Study these"
+    flashcards:
+      - front: "Doctor"
+        back: "Medical professional"
+      - front: "Teacher"
+        back: "Educator"
+      - front: "Engineer"
+        back: "Designs structures"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (Timed challenge) ==========
+  - id: 114
+    type: timed_challenge
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "mixed"
+    title: "Lightning round: Grammar"
+    questions_count: 5
+    questions:
+      - question: "Past tense of 'go'"
+        answer: "went"
+      - question: "She ___ (to be) happy yesterday"
+        answer: "was"
+      - question: "Opposite of 'expensive'"
+        answer: "cheap"
+      - question: "Plural of 'child'"
+        answer: "children"
+      - question: "He ___ (to do) his homework every day"
+        answer: "does"
+    xp_reward: 35
+
+  # ========== 🔴 HARD (Final - speaking) ==========
+  - id: 115
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "opinions"
+    question: "Explain why learning English is important for your future (minimum 4 sentences)"
+    min_sentences: 4
+    xp_reward: 50
+
+  # ========== 🔴 HARD (Writing) ==========
+  - id: 116
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "writing"
+    question: "Write a paragraph about a memorable trip you took (4-5 sentences)"
+    min_sentences: 4
+    xp_reward: 50
+
+  # ========== 🔴 HARD (Reading + summary) ==========
+  - id: 117
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "storytelling"
+    question: "Read and summarize"
+    text: "Climate change is one of the biggest challenges facing humanity. Rising temperatures are causing more frequent natural disasters. Sea levels are rising, threatening coastal cities. Many species are at risk of extinction. However, there are solutions. Renewable energy, reforestation, and reducing waste can help slow climate change."
+    summary_required: true
+    min_sentences: 3
+    xp_reward: 50
+
+  # ========== 🔴 HARD (Speaking - problem solving) ==========
+  - id: 118
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "problem_solving"
+    question: "Explain how you would solve the problem of traffic in big cities (minimum 3 sentences)"
+    min_sentences: 3
+    xp_reward: 50
+
+  # ========== 🔴 HARD (Writing - opinion) ==========
+  - id: 119
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "writing"
+    question: "Write your opinion: Should students wear uniforms to school? Why or why not? (4-5 sentences)"
+    min_sentences: 4
+    xp_reward: 50
+
+  # ========== 🔴 HARD (Final - mixed skills) ==========
+  - id: 120
+    type: story
+    difficulty: hard
+    time_limit_seconds: 200
+    topic: "storytelling"
+    title: "Final Challenge"
+    story_intro: "Read the story, answer questions, and write a summary"
+    story_segments:
+      - text: "Emma had always dreamed of starting her own business. She saved money for two years. Then she opened a small coffee shop. The first few months were difficult. But she worked hard and never gave up. After one year, her business became profitable. Now she employs five people."
+    exercises:
+      - type: read_answer
+        question: "How long did Emma save money?"
+        options: ["One year", "Two years", "Three years", "Six months"]
+        correct_answer: "Two years"
+      - type: read_answer
+        question: "How many people does Emma employ now?"
+        options: ["Two", "Three", "Four", "Five"]
+        correct_answer: "Five"
+      - type: writing
+        question: "Write a three-sentence summary of Emma's story"
+        min_sentences: 3
+    xp_reward: 60
+   - id: 121
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "grammar"
+    question: "The movie was ___ boring that I fell asleep."
+    options: ["so", "such", "very", "too"]
+    correct_answer: "so"
+    xp_reward: 10
+
+  - id: 122
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "shopping"
+    question: "If an item is 'on sale', it means ___."
+    options: ["It's expensive", "It's cheaper than usual", "It's sold out", "It's new"]
+    answer: "It's cheaper than usual"
+    xp_reward: 10
+
+  - id: 123
+    type: translation_english
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "feelings"
+    question: "What is the English word for 'extremely happy'?"
+    answer: "overjoyed"
+    xp_reward: 10
+
+  # ========== 🟢 EASY (if wrong) ==========
+  - id: 124
+    type: multiple_choice
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "feelings"
+    question: "If you are 'sad', you might ___."
+    options: ["laugh", "cry", "dance", "shout"]
+    answer: "cry"
+    xp_reward: 15
+
+  - id: 125
+    type: true_false
+    difficulty: easy
+    time_limit_seconds: 20
+    topic: "shopping"
+    question: "True or false: 'A discount means you pay more.'"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 126
+    type: multiple_choice
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "grammar"
+    question: "Which is correct: 'They ___ playing soccer now.'"
+    options: ["is", "am", "are", "be"]
+    answer: "are"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (after easy correct) ==========
+  - id: 127
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "grammar"
+    question: "By next year, I ___ my degree."
+    options: ["finish", "will finish", "will have finished", "finished"]
+    correct_answer: "will have finished"
+    xp_reward: 10
+
+  - id: 128
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "health"
+    question: "Which of these is a healthy habit?"
+    options: ["Smoking", "Eating vegetables", "Staying up late", "Skipping breakfast"]
+    answer: "Eating vegetables"
+    xp_reward: 10
+
+  - id: 129
+    type: listen_and_choose
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "travel"
+    question: "Listen and choose"
+    tts_text: "The flight has been delayed due to bad weather."
+    options: ["Flight is early", "Flight is on time", "Flight is delayed", "Flight is cancelled"]
+    answer: "Flight is delayed"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (if medium correct) ==========
+  - id: 130
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "reading"
+    question: "Read and answer"
+    text: "Despite the rain, the festival continued. Thousands of people showed up with umbrellas and raincoats. The organizers were surprised by the turnout."
+    question: "What does 'turnout' mean in this context?"
+    options: ["Weather", "Number of people who came", "Type of umbrella", "End of festival"]
+    correct_answer: "Number of people who came"
+    xp_reward: 25
+
+  - id: 131
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "opinions"
+    question: "Say: 'I believe that everyone should learn a second language.'"
+    prompt: "I believe that everyone should learn a second language."
+    xp_reward: 25
+
+  - id: 132
+    type: error_correction
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "grammar"
+    question: "Fix: 'He don't like pizza.'"
+    incorrect_sentence: "He don't like pizza."
+    correct_sentence: "He doesn't like pizza."
+    xp_reward: 20
+
+  # ========== 🟡 MEDIUM (Listening) ==========
+  - id: 133
+    type: listening_comprehension
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "work"
+    question: "Listen and answer"
+    dialogue_tts: "Boss: Can you work overtime tonight? Employee: I'm sorry, I have a family commitment."
+    question: "Why can't the employee work overtime?"
+    options: ["He is sick", "He has a family commitment", "He is tired", "He doesn't like his job"]
+    correct_answer: "He has a family commitment"
+    xp_reward: 15
+
+  - id: 134
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 55
+    topic: "feelings"
+    question: "Listen and type"
+    tts_text: "I am feeling very frustrated"
+    answer: "I am feeling very frustrated"
+    xp_reward: 20
+
+  # ========== 🔴 HARD (Sentence building) ==========
+  - id: 135
+    type: word_bank
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "future_plans"
+    question: "Build: 'hoping / I'm / find / to / a better job'"
+    word_bank: ["I'm", "hoping", "to", "find", "a better job", "yesterday"]
+    correct_answer: ["I'm", "hoping", "to", "find", "a better job"]
+    xp_reward: 20
+
+  - id: 136
+    type: sentence_scramble
+    difficulty: hard
+    time_limit_seconds: 90
+    topic: "past_experiences"
+    question: "Arrange: 'never / such / seen / I've / a beautiful view'"
+    scrambled_words: ["never", "such", "seen", "I've", "a beautiful view"]
+    correct_sentence: "I've never seen such a beautiful view"
+    xp_reward: 20
+
+  # ========== 🟡 MEDIUM (Grammar - conditionals) ==========
+  - id: 137
+    type: fill_blank
+    difficulty: medium
+    time_limit_seconds: 55
+    topic: "grammar"
+    question: "If you heat water to 100°C, it ___."
+    options: ["boils", "would boil", "will boil", "boiled"]
+    correct_answer: "boils"
+    xp_reward: 15
+
+  - id: 138
+    type: multiple_choice
+    difficulty: medium
+    time_limit_seconds: 55
+    topic: "grammar"
+    question: "She acts as if she ___ the boss."
+    options: ["is", "were", "was", "are"]
+    answer: "were"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Speaking) ==========
+  - id: 139
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "future_plans"
+    question: "Say: 'I plan to travel to three different countries next year.'"
+    prompt: "I plan to travel to three different countries next year."
+    xp_reward: 25
+
+  - id: 140
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "feelings"
+    question: "Say: 'I was extremely disappointed when I didn't get the job.'"
+    prompt: "I was extremely disappointed when I didn't get the job."
+    xp_reward: 25
+
+  # ========== 🟡 MEDIUM (Sentence scramble) ==========
+  - id: 141
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 70
+    topic: "health"
+    question: "Arrange: 'should / you / drink / water / plenty of'"
+    scrambled_words: ["should", "you", "drink", "water", "plenty of"]
+    correct_sentence: "You should drink plenty of water"
+    xp_reward: 20
+
+  - id: 142
+    type: sentence_scramble
+    difficulty: medium
+    time_limit_seconds: 70
+    topic: "shopping"
+    question: "Arrange: 'too / this / expensive / is / shirt'"
+    scrambled_words: ["too", "this", "expensive", "is", "shirt"]
+    correct_sentence: "This shirt is too expensive"
+    xp_reward: 20
+
+  # ========== 🟢 EASY (Picture recognition) ==========
+  - id: 143
+    type: picture_word
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "feelings"
+    question: "How is this person feeling?"
+    image_url: "https://images.unsplash.com/photo-1543269865-cbf427effbad"
+    options: ["Happy", "Sad", "Angry", "Surprised"]
+    correct_answer: "Happy"
+    xp_reward: 10
+
+  - id: 144
+    type: picture_word
+    difficulty: easy
+    time_limit_seconds: 25
+    topic: "health"
+    question: "What is this activity?"
+    image_url: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b"
+    options: ["Running", "Swimming", "Yoga", "Weightlifting"]
+    correct_answer: "Yoga"
+    xp_reward: 10
+
+  # ========== 🔴 HARD (Reading comprehension) ==========
+  - id: 145
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "reading"
+    question: "Read and answer"
+    text: "Social media has both positive and negative effects. On one hand, it helps people stay connected with friends and family. On the other hand, it can lead to addiction and mental health issues. It's important to use social media in moderation."
+    question: "What is the author's main message?"
+    options: ["Social media is completely bad", "Social media is completely good", "Use social media in moderation", "Don't use social media at all"]
+    correct_answer: "Use social media in moderation"
+    xp_reward: 25
+
+  - id: 146
+    type: read_answer
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "reading"
+    question: "Read and answer"
+    text: "The Great Wall of China is over 13,000 miles long. It was built over several dynasties. Contrary to popular belief, it cannot be seen from space with the naked eye."
+    question: "What is a common misconception about the Great Wall?"
+    options: ["It is very long", "It was built by one dynasty", "It can be seen from space", "It is in China"]
+    correct_answer: "It can be seen from space"
+    xp_reward: 25
+
+  # ========== 🟡 MEDIUM (Listen and type) ==========
+  - id: 147
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "work"
+    question: "Listen and type"
+    tts_text: "Collaboration"
+    answer: "Collaboration"
+    xp_reward: 20
+
+  - id: 148
+    type: listen_and_type
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "feelings"
+    question: "Listen and type"
+    tts_text: "Gratitude"
+    answer: "Gratitude"
+    xp_reward: 20
+
+  # ========== 🔴 HARD (Error correction) ==========
+  - id: 149
+    type: error_correction
+    difficulty: hard
+    time_limit_seconds: 120
+    topic: "grammar"
+    question: "Fix: 'Me and my friend went to the cinema.'"
+    incorrect_sentence: "Me and my friend went to the cinema."
+    correct_sentence: "My friend and I went to the cinema."
+    xp_reward: 20
+
+  # ========== 🟡 MEDIUM (True/False) ==========
+  - id: 150
+    type: true_false
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "science"
+    question: "True or false: 'The Sun is a star.'"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 151
+    type: true_false
+    difficulty: medium
+    time_limit_seconds: 45
+    topic: "feelings"
+    question: "True or false: 'Anxiety and excitement feel exactly the same physically.'"
+    correct_answer: true
+    xp_reward: 10
+
+  # ========== 🔴 HARD (Conversation) ==========
+  - id: 152
+    type: conversation
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "opinions"
+    question: "Respond: 'What is your opinion on remote work?'"
+    bot_message: "What is your opinion on remote work?"
+    expected_keywords: ["think", "believe", "advantage", "disadvantage", "flexible"]
+    xp_reward: 25
+
+  # ========== 🟢 EASY (Matching) ==========
+  - id: 153
+    type: matching
+    difficulty: easy
+    time_limit_seconds: 35
+    topic: "feelings"
+    question: "Match feelings with situations"
+    pairs:
+      - left: "Excitement"
+        right: "Before a party"
+      - left: "Fear"
+        right: "During a horror movie"
+      - left: "Relief"
+        right: "After finishing an exam"
+    xp_reward: 15
+
+  # ========== 🟡 MEDIUM (Choose missing) ==========
+  - id: 154
+    type: choose_missing
+    difficulty: medium
+    time_limit_seconds: 50
+    topic: "grammar"
+    question: "Choose: 'She is ___ honest person I know.'"
+    sentence: "She is ___ honest person I know."
+    missing_word_position: 3
+    options: ["a", "an", "the", "none"]
+    correct_answer: "the"
+    xp_reward: 15
+
+  # ========== 🔴 HARD (Story) ==========
+  - id: 155
+    type: story
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "storytelling"
+    title: "An Unexpected Friendship"
+    story_intro: "Read and answer"
+    story_segments:
+      - text: "When Sarah moved to a new city, she knew nobody."
+      - text: "One day, she got lost and asked a stranger for directions."
+      - text: "That stranger, named Emma, ended up showing her around the city."
+      - text: "They discovered they had many common interests."
+      - text: "Now, they are best friends."
+    exercises:
+      - type: read_answer
+        question: "How did Sarah and Emma meet?"
+        options: ["At work", "At school", "Sarah asked for directions", "They were neighbors"]
+        correct_answer: "Sarah asked for directions"
+      - type: read_answer
+        question: "What did they discover?"
+        options: ["They work together", "They have common interests", "They are from the same town", "They dislike each other"]
+        correct_answer: "They have common interests"
+    xp_reward: 40
+
+  # ========== 🟡 MEDIUM (Tap what you hear) ==========
+  - id: 156
+    type: tap_hear
+    difficulty: medium
+    time_limit_seconds: 60
+    topic: "daily_life"
+    question: "Tap in order"
+    tts_text: "Could you please help me with this"
+    word_bank: ["Could", "you", "please", "help", "me", "with", "this", "that"]
+    correct_taps: ["Could", "you", "please", "help", "me", "with", "this"]
+    xp_reward: 25
+
+  # ========== 🔴 HARD (Speaking - 3 sentences) ==========
+  - id: 157
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 150
+    topic: "opinions"
+    question: "Say three sentences about a book or movie you recently enjoyed"
+    min_sentences: 3
+    xp_reward: 30
+
+  # ========== 🔴 HARD (Final - speaking) ==========
+  - id: 158
+    type: speaking
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "problem_solving"
+    question: "Explain how you would handle a disagreement with a friend (minimum 4 sentences)"
+    min_sentences: 4
+    xp_reward: 50
+
+  # ========== 🔴 HARD (Writing) ==========
+  - id: 159
+    type: writing
+    difficulty: hard
+    time_limit_seconds: 180
+    topic: "writing"
+    question: "Write a paragraph about a challenge you overcame (4-5 sentences)"
+    min_sentences: 4
+    xp_reward: 50
+
+  # ========== 🔴 HARD (Final - comprehensive) ==========
+  - id: 160
+    type: story
+    difficulty: hard
+    time_limit_seconds: 200
+    topic: "storytelling"
+    title: "Final Exam Challenge"
+    story_intro: "Read carefully, answer questions, and write a summary"
+    story_segments:
+      - text: "Dr. Martinez was a scientist who believed that failure was the key to success. He had failed 999 experiments before his 1000th finally worked. His discovery helped cure a rare disease. When asked about his journey, he said, 'I didn't fail 999 times. I found 999 ways that didn't work.' His persistence changed the world."
+    exercises:
+      - type: read_answer
+        question: "How many experiments failed before success?"
+        options: ["99", "999", "1000", "100"]
+        correct_answer: "999"
+      - type: read_answer
+        question: "What did Dr. Martinez discover?"
+        options: ["A new planet", "A cure for a rare disease", "A new energy source", "A new species"]
+        correct_answer: "A cure for a rare disease"
+      - type: read_answer
+        question: "What was Dr. Martinez's attitude toward failure?"
+        options: ["He gave up", "He saw it as learning", "He was angry", "He blamed others"]
+        correct_answer: "He saw it as learning"
+      - type: writing
+        question: "Write a three-sentence summary of Dr. Martinez's story and what it teaches us"
+        min_sentences: 3
+    xp_reward: 60

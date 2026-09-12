@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "Opettele common greetings and expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe for single words/phrases)
+ - id: 1
+ type: translation
+ Kysymys: "Miten sanotaan 'Hei' kinyarwandaksi?"
+ Vastaus: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Kysymys: "Miten sanotaan 'Good morning' kinyarwandaksi?"
+ Vastaus: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Kysymys: "Miten sanotaan 'Good afternoon / Good evening' kinyarwandaksi?"
+ Vastaus: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Kysymys: "Miten sanotaan 'Good night' kinyarwandaksi?"
+ Vastaus: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Kysymys: "Miten kysyt 'How are you?' kinyarwandaksi?"
+ Vastaus: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Kysymys: "Miten sanotaan 'I'm fine' kinyarwandaksi?"
+ Vastaus: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Kysymys: "Miten sanotaan 'Welcome' kinyarwandaksi?"
+ Vastaus: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Kysymys: "Miten sanotaan 'See you later' kinyarwandaksi?"
+ Vastaus: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Kysymys: "Miten sanotaan 'Näkemiin' kinyarwandaksi?"
+ Vastaus: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Kysymys: "Miten sanotaan 'Have a nice day' kinyarwandaksi?"
+ Vastaus: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Kysymys: "Miten sanotaan 'Take care' kinyarwandaksi?"
+ Vastaus: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Kysymys: "Miten sanotaan 'Long time no see' kinyarwandaksi?"
+ Vastaus: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Kysymys: "Miten kysyt 'What's up?' kinyarwandaksi?"
+ Vastaus: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Kysymys: "Miten sanotaan 'Nice to meet you' kinyarwandaksi?"
+ Vastaus: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings with Perhe Members (Simple combinations)
+ - id: 15
+ type: translation
+ Kysymys: "Miten sanotaan 'Hei, mother!' kinyarwandaksi?"
+ Vastaus: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ Kysymys: "Miten sanotaan 'Good morning, father!' kinyarwandaksi?"
+ Vastaus: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ Kysymys: "Miten sanotaan 'Good night, my child!' kinyarwandaksi?"
+ Vastaus: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common Kysymys (Fixed expressions)
+ - id: 18
+ type: translation
+ Kysymys: "Miten kysyt 'How are you today?' kinyarwandaksi?"
+ Vastaus: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Kysymys: "Miten sanotaan 'I'm fine, thank you' kinyarwandaksi?"
+ Vastaus: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Kysymys: "Miten kysyt 'What's up with you today?' kinyarwandaksi?"
+ Vastaus: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # NO DIRECT TRANSLATION FOR COMPLEX DIALOGUES OR PARAGRAPHS
+ # Instead, we use Lause building, Yhdistä, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Muraho' tässä lauseessa?"
+ options:
+ - "Näkemiin"
+ - "Hei"
+ - "Good morning"
+ - "Good night"
+ Vastaus: "Hei"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Mwaramutse' tässä lauseessa?"
+ options:
+ - "Good evening"
+ - "Good morning"
+ - "Good night"
+ - "Näkemiin"
+ Vastaus: "Good morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Amakuru' tässä lauseessa?"
+ options:
+ - "Näkemiin"
+ - "Welcome"
+ - "How are you?"
+ - "See you later"
+ Vastaus: "How are you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Ni meza' tässä lauseessa?"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ Vastaus: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Murabeho' tässä lauseessa?"
+ options:
+ - "Hei"
+ - "Welcome"
+ - "Näkemiin"
+ - "See you later"
+ Vastaus: "Näkemiin"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Tuzasubira' tässä lauseessa?"
+ options:
+ - "Näkemiin"
+ - "See you later"
+ - "Welcome back"
+ - "Take care"
+ Vastaus: "See you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Nishimiye kukubona' tässä lauseessa?"
+ options:
+ - "Good morning"
+ - "Nice to meet you"
+ - "Welcome"
+ - "Take care"
+ Vastaus: "Nice to meet you"
+ xp_reward: 18
+
+ # 3. Kuuntele and Type (Dictation) - Safe because audio is provided
+ - id: 28
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the greeting"
+ tts_text: "Muraho"
+ Vastaus: "Muraho"
+ translation: "Hei"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the greeting"
+ tts_text: "Mwaramutse"
+ Vastaus: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the greeting"
+ tts_text: "Mwiriwe"
+ Vastaus: "Mwiriwe"
+ translation: "Good afternoon / Good evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Ijoro ryiza"
+ Vastaus: "Ijoro ryiza"
+ translation: "Good night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the Kysymys"
+ tts_text: "Amakuru"
+ Vastaus: "Amakuru"
+ translation: "How are you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the response"
+ tts_text: "Ni meza"
+ Vastaus: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Murakaza neza"
+ Vastaus: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Tuzasubira"
+ Vastaus: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Murabeho"
+ Vastaus: "Murabeho"
+ translation: "Näkemiin"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ Vastaus: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Nishimiye kukubona"
+ Vastaus: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 25
+
+ # 4. Kuuntele and Valitse
+ - id: 39
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "Näkemiin"
+ - "Hei"
+ - "Good morning"
+ Vastaus: "Hei"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "Good evening"
+ - "Good morning"
+ - "Good night"
+ Vastaus: "Good morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "Good morning"
+ - "Good afternoon/evening"
+ - "Good night"
+ Vastaus: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "Näkemiin"
+ - "How are you?"
+ - "Welcome"
+ Vastaus: "How are you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ Vastaus: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "Hei"
+ - "Näkemiin"
+ - "See you later"
+ Vastaus: "Näkemiin"
+ xp_reward: 15
+
+ # 5. Repeat / Puhu Exercise
+ - id: 45
+ type: Puhu
+ Kysymys: "Say this greeting"
+ prompt: "Muraho"
+ translation: "Hei"
+ xp_reward: 15
+
+ - id: 46
+ type: Puhu
+ Kysymys: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 15
+
+ - id: 47
+ type: Puhu
+ Kysymys: "Say this greeting"
+ prompt: "Mwiriwe"
+ translation: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: Puhu
+ Kysymys: "Say this phrase"
+ prompt: "Ijoro ryiza"
+ translation: "Good night"
+ xp_reward: 18
+
+ - id: 49
+ type: Puhu
+ Kysymys: "Ask 'How are you?' in Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How are you?"
+ xp_reward: 15
+
+ - id: 50
+ type: Puhu
+ Kysymys: "Say 'I'm fine' in Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: Puhu
+ Kysymys: "Say 'Welcome' in Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: Puhu
+ Kysymys: "Say 'See you later' in Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 18
+
+ - id: 53
+ type: Puhu
+ Kysymys: "Say 'Näkemiin' in Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "Näkemiin"
+ xp_reward: 15
+
+ - id: 54
+ type: Puhu
+ Kysymys: "Say 'Long time no see' in Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 22
+
+ - id: 55
+ type: Puhu
+ Kysymys: "Say 'Nice to meet you' in Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: Puhu
+ Kysymys: "Say 'Hei, mother!' in Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "Hei, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: Puhu
+ Kysymys: "Say 'Good morning, father!' in Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "Good morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank Lause Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ Kysymys: "Build the greeting for 'Hei, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Kysymys: "Build the greeting for 'Good morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ Kysymys: "Build the greeting for 'Good night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ Kysymys: "Build the Kysymys 'How are you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ Kysymys: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ Kysymys: "Build the farewell 'See you later at Koulu'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Kysymys: "Build the farewell 'Näkemiin, see you Huomenna'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ Kysymys: "Build the well-wish 'Have a nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Kysymys: "Build the phrase 'Take care on your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ Kysymys: "Build the greeting 'Long time no see, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Kysymys: "Build the Kysymys 'What's up with you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ Kysymys: "Build the phrase 'Nice to meet you at the party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. Lause Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "Hei, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "Good morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "Good night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kysymys"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "See you later at Koulu."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "Näkemiin, see you Huomenna."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have a nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care on your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time no see, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kysymys"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up with you today?"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Valitse FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ Kysymys: "Complete the greeting"
+ text_with_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "Hei, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Kysymys: "Complete the greeting"
+ text_with_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "Good morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ Kysymys: "Complete the phrase"
+ text_with_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "Good night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Kysymys: "Complete the Kysymys"
+ text_with_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Kysymys: "Complete the response"
+ text_with_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Kysymys: "Complete the farewell"
+ text_with_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "See you later at Koulu."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ Kysymys: "Complete the farewell"
+ text_with_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "Näkemiin, see you Huomenna."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ Kysymys: "Complete the well-wish"
+ text_with_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ Kysymys: "Complete the phrase"
+ text_with_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care on your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ Kysymys: "Complete the greeting"
+ text_with_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time no see, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ Kysymys: "Complete the Kysymys"
+ text_with_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up with you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word Yhdistä (Pairing)
+ - id: 98
+ type: Yhdistä
+ Kysymys: "Yhdistä the greetings to their meanings"
+ pairs:
+ - Vasen: "Muraho"
+ Oikea: "Hei"
+ - Vasen: "Mwaramutse"
+ Oikea: "Good morning"
+ - Vasen: "Mwiriwe"
+ Oikea: "Good afternoon/evening"
+ - Vasen: "Ijoro ryiza"
+ Oikea: "Good night"
+ - Vasen: "Amakuru"
+ Oikea: "How are you?"
+ - Vasen: "Ni meza"
+ Oikea: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: Yhdistä
+ Kysymys: "Yhdistä the farewells and well-wishes"
+ pairs:
+ - Vasen: "Murabeho"
+ Oikea: "Näkemiin"
+ - Vasen: "Tuzasubira"
+ Oikea: "See you later"
+ - Vasen: "Umunsi mwiza"
+ Oikea: "Have a nice day"
+ - Vasen: "Wirinde"
+ Oikea: "Take care"
+ - Vasen: "Hashize igihe tutabonanye"
+ Oikea: "Long time no see"
+ - Vasen: "Nishimiye kukubona"
+ Oikea: "Nice to meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: Yhdistä
+ Kysymys: "Yhdistä the phrases with Perhe members"
+ pairs:
+ - Vasen: "Muraho, Mama!"
+ Oikea: "Hei, mother!"
+ - Vasen: "Mwaramutse, Data!"
+ Oikea: "Good morning, father!"
+ - Vasen: "Ijoro ryiza, mwana wanjye!"
+ Oikea: "Good night, my child!"
+ - Vasen: "Hashize igihe tutabonanye, nshuti yanjye"
+ Oikea: "Long time no see, my friend"
+ xp_reward: 25
+
+ # 10. Valitse Missing Word
+ - id: 107
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ # 11. Lue and Vastaus - Kysymys based on context
+ - id: 110
+ type: read_answer
+ Kysymys: "Lue the dialogue and Vastaus the Kysymys"
+ text: "A: Muraho! Amakuru? B: Ni meza, murakoze."
+ Kysymys: "How is person B?"
+ options: ["Surullinen", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ Kysymys: "Lue the dialogue and Vastaus the Kysymys"
+ text: "A: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ Kysymys: "What time of day is it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ Kysymys: "Lue the dialogue and Vastaus the Kysymys"
+ text: "A: Tuzasubira ku ishuri. B: Murabeho!"
+ Kysymys: "Where will they see each other later?"
+ options: ["At home", "At Koulu", "At work", "At the Markkinat"]
+ correct_answer: "At Koulu"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "'Mwaramutse' is used in the morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "'Mwiriwe' is used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "'Murabeho' means Hei."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "'Nishimiye kukubona' means 'Nice to meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Kysymys: "Respond to the greeting by building a Lause"
+ bot_message: "Muraho! Amakuru?"
+ translation: "Hei! How are you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ Kysymys: "Valitse the appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "Good morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ Kysymys: "Respond to the farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "See you later at Koulu."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ Kysymys: "Build a response to the Kysymys"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build Lause from pieces
+ - id: 121
+ type: story
+ title: "Meeting a Friend - Guhura n'inshuti"
+ story_intro: "Lue the conversation. Then build the Lause."
+ story_segments:
+ - text: "Person A says Hei."
+ - text: "Person A asks how they are."
+ - text: "Person B says they are fine and thanks them."
+ - text: "Person A says nice to meet them."
+ - text: "Person B welcomes them."
+ - text: "Person A says see you later."
+ - text: "Person B says Näkemiin."
+ exercises:
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda greeting for 'Hei!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ Kysymys: "Build the Kysymys 'How are you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ Kysymys: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ Kysymys: "Build the phrase 'Nice to meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ Kysymys: "Build the farewell 'See you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ Kysymys: "Build the farewell 'Näkemiin'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Kysymys: "Say this greeting"
+ prompt: "Muraho"
+ translation: "Hei"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Kysymys: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Kysymys: "Say this phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ Kysymys: "Say this farewell"
+ prompt: "Murabeho"
+ translation: "Näkemiin"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'Muraho' tässä lauseessa?"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["Näkemiin", "Hei", "Thank you", "Welcome"]
+ correct_answer: "Hei"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'murakoze' mean in this Lause?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["please", "thank you", "welcome", "Näkemiin"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'Mwiriwe' tässä lauseessa?"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["Good morning", "Good afternoon/evening", "Good night", "Hei"]
+ correct_answer: "Good afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed Yhdistä
+ - id: 129
+ type: speed_Yhdistä
+ title: "Yhdistä Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - Vasen: "Hei"
+ Oikea: "Muraho"
+ - Vasen: "Good morning"
+ Oikea: "Mwaramutse"
+ - Vasen: "Good afternoon"
+ Oikea: "Mwiriwe"
+ - Vasen: "Good night"
+ Oikea: "Ijoro ryiza"
+ - Vasen: "How are you?"
+ Oikea: "Amakuru"
+ - Vasen: "I'm fine"
+ Oikea: "Ni meza"
+ - Vasen: "Welcome"
+ Oikea: "Murakaza neza"
+ - Vasen: "See you later"
+ Oikea: "Tuzasubira"
+ - Vasen: "Näkemiin"
+ Oikea: "Murabeho"
+ - Vasen: "Take care"
+ Oikea: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ Kysymys_count: 5
+ Kysymys:
+ - Kysymys: "Hei"
+ Vastaus: "Muraho"
+ - Kysymys: "Good morning"
+ Vastaus: "Mwaramutse"
+ - Kysymys: "Good night"
+ Vastaus: "Ijoro ryiza"
+ - Kysymys: "How are you?"
+ Vastaus: "Amakuru"
+ - Kysymys: "Näkemiin"
+ Vastaus: "Murabeho"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Kysymys: "Flashcards"
+ Flashcards:
+ - front: "Muraho"
+ back: "Hei"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "Good morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "Good afternoon / Good evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "Good night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How are you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "See you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "Näkemiin"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have a nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

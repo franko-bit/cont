@@ -1,0 +1,1222 @@
+lesson:
+  name: "Past Tense - Wakati Uliopita"
+  description: "Learn how to talk about past actions in Kiswahili"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Past Tense Verbs ONLY (Safe for single words)
+  # Basic Past Tense Verbs
+  - id: 1
+    type: translation
+    question: "How do you say 'ate' in Kiswahili?"
+    answer: "Alikula"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "How do you say 'drank' in Kiswahili?"
+    answer: "Alinywa"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "How do you say 'went' in Kiswahili?"
+    answer: "Alienda"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "How do you say 'came' in Kiswahili?"
+    answer: "Alikuja"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "How do you say 'saw' in Kiswahili?"
+    answer: "Aliona"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "How do you say 'met' in Kiswahili?"
+    answer: "Alikutana"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "How do you say 'bought' in Kiswahili?"
+    answer: "Alinunua"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "How do you say 'played' in Kiswahili?"
+    answer: "Alicheza"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "How do you say 'slept' in Kiswahili?"
+    answer: "Alilala"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "How do you say 'said' in Kiswahili?"
+    answer: "Alisema"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "How do you say 'liked / loved' in Kiswahili?"
+    answer: "Alipenda"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "How do you say 'worked' in Kiswahili?"
+    answer: "Alifanya kazi"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "How do you say 'learned' in Kiswahili?"
+    answer: "Alijifunza"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "How do you say 'wanted' in Kiswahili?"
+    answer: "Alitaka"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "How do you say 'helped' in Kiswahili?"
+    answer: "Alisaidia"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "How do you say 'called / named' in Kiswahili?"
+    answer: "Aliita"
+    xp_reward: 10
+
+  # Subject Conjugations - Past Tense
+  - id: 17
+    type: translation
+    question: "How do you say 'I ate' in Kiswahili?"
+    answer: "Nilikula"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "How do you say 'You ate' in Kiswahili?"
+    answer: "Ulikula"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "How do you say 'He/She ate' in Kiswahili?"
+    answer: "Alikula"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "How do you say 'We ate' in Kiswahili?"
+    answer: "Tulikula"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "How do you say 'They ate' in Kiswahili?"
+    answer: "Walikula"
+    xp_reward: 15
+
+  # Past Tense Phrases
+  - id: 22
+    type: translation
+    question: "How do you say 'I drank water' in Kiswahili?"
+    answer: "Nilinywa maji."
+    xp_reward: 18
+
+  - id: 23
+    type: translation
+    question: "How do you say 'He went to the market' in Kiswahili?"
+    answer: "Alienda sokoni."
+    xp_reward: 18
+
+  - id: 24
+    type: translation
+    question: "How do you say 'She met her friend' in Kiswahili?"
+    answer: "Alikutana na rafiki yake."
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "How do you say 'I bought a book' in Kiswahili?"
+    answer: "Nilinunua kitabu."
+    xp_reward: 18
+
+  - id: 26
+    type: translation
+    question: "How do you say 'The children played' in Kiswahili?"
+    answer: "Watoto walicheza."
+    xp_reward: 18
+
+  - id: 27
+    type: translation
+    question: "How do you say 'He slept well' in Kiswahili?"
+    answer: "Alilala vizuri."
+    xp_reward: 18
+
+  - id: 28
+    type: translation
+    question: "How do you say 'They said hello' in Kiswahili?"
+    answer: "Walisema habari."
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "What does 'Alikula' mean?"
+    options:
+      - "drank"
+      - "ate"
+      - "went"
+      - "saw"
+    answer: "ate"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "What does 'Alinywa' mean?"
+    options:
+      - "ate"
+      - "drank"
+      - "slept"
+      - "played"
+    answer: "drank"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "What does 'Alienda' mean?"
+    options:
+      - "came"
+      - "went"
+      - "saw"
+      - "met"
+    answer: "went"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "What does 'Aliona' mean?"
+    options:
+      - "bought"
+      - "met"
+      - "saw"
+      - "played"
+    answer: "saw"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "What does 'Alikutana' mean?"
+    options:
+      - "saw"
+      - "met"
+      - "bought"
+      - "said"
+    answer: "met"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "What does 'Alinunua' mean?"
+    options:
+      - "bought"
+      - "sold"
+      - "gave"
+      - "took"
+    answer: "bought"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "What does 'Nilikula' mean?"
+    options:
+      - "You ate"
+      - "I ate"
+      - "He ate"
+      - "We ate"
+    answer: "I ate"
+    xp_reward: 15
+
+  - id: 36
+    type: multiple_choice
+    question: "What does 'Tulikula' mean?"
+    options:
+      - "I ate"
+      - "You ate"
+      - "We ate"
+      - "They ate"
+    answer: "We ate"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 37
+    type: listen_and_type
+    question: "Listen and type the past tense verb"
+    audio: "Alikula"
+    answer: "Alikula"
+    translation: "ate"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Listen and type the past tense verb"
+    audio: "Alinywa"
+    answer: "Alinywa"
+    translation: "drank"
+    xp_reward: 20
+
+  - id: 39
+    type: listen_and_type
+    question: "Listen and type the past tense verb"
+    audio: "Alienda"
+    answer: "Alienda"
+    translation: "went"
+    xp_reward: 20
+
+  - id: 40
+    type: listen_and_type
+    question: "Listen and type the past tense verb"
+    audio: "Aliona"
+    answer: "Aliona"
+    translation: "saw"
+    xp_reward: 20
+
+  - id: 41
+    type: listen_and_type
+    question: "Listen and type the past tense verb"
+    audio: "Alikutana"
+    answer: "Alikutana"
+    translation: "met"
+    xp_reward: 20
+
+  - id: 42
+    type: listen_and_type
+    question: "Listen and type the past tense phrase"
+    audio: "Nilikula"
+    answer: "Nilikula"
+    translation: "I ate"
+    xp_reward: 22
+
+  - id: 43
+    type: listen_and_type
+    question: "Listen and type the past tense phrase"
+    audio: "Nilinywa maji"
+    answer: "Nilinywa maji"
+    translation: "I drank water"
+    xp_reward: 25
+
+  - id: 44
+    type: listen_and_type
+    question: "Listen and type the past tense phrase"
+    audio: "Alienda sokoni"
+    answer: "Alienda sokoni"
+    translation: "He went to the market"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 45
+    type: listen_and_choose
+    question: "Listen and choose the correct past tense verb"
+    audio: "Alikula"
+    options:
+      - "drank"
+      - "ate"
+      - "went"
+    answer: "ate"
+    xp_reward: 15
+
+  - id: 46
+    type: listen_and_choose
+    question: "Listen and choose the correct past tense verb"
+    audio: "Alinywa"
+    options:
+      - "ate"
+      - "drank"
+      - "slept"
+    answer: "drank"
+    xp_reward: 15
+
+  - id: 47
+    type: listen_and_choose
+    question: "Listen and choose the correct past tense verb"
+    audio: "Alienda"
+    options:
+      - "came"
+      - "went"
+      - "saw"
+    answer: "went"
+    xp_reward: 15
+
+  - id: 48
+    type: listen_and_choose
+    question: "Listen and choose the correct phrase"
+    audio: "Nilikula"
+    options:
+      - "I ate"
+      - "You ate"
+      - "He ate"
+    answer: "I ate"
+    xp_reward: 18
+
+  - id: 49
+    type: listen_and_choose
+    question: "Listen and choose the correct phrase"
+    audio: "Alienda sokoni"
+    options:
+      - "He went to school"
+      - "He went to the market"
+      - "He went home"
+    answer: "He went to the market"
+    xp_reward: 20
+
+  # 5. Repeat / Speaking Exercise
+  - id: 50
+    type: speaking
+    question: "Say this past tense verb"
+    prompt: "Alikula"
+    translation: "ate"
+    xp_reward: 15
+
+  - id: 51
+    type: speaking
+    question: "Say this past tense verb"
+    prompt: "Alinywa"
+    translation: "drank"
+    xp_reward: 15
+
+  - id: 52
+    type: speaking
+    question: "Say this past tense verb"
+    prompt: "Alienda"
+    translation: "went"
+    xp_reward: 15
+
+  - id: 53
+    type: speaking
+    question: "Say this past tense verb"
+    prompt: "Aliona"
+    translation: "saw"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Say this past tense phrase"
+    prompt: "Nilikula"
+    translation: "I ate"
+    xp_reward: 18
+
+  - id: 55
+    type: speaking
+    question: "Say this past tense phrase"
+    prompt: "Tulikula"
+    translation: "We ate"
+    xp_reward: 18
+
+  - id: 56
+    type: speaking
+    question: "Say this past tense phrase"
+    prompt: "Nilinywa maji"
+    translation: "I drank water"
+    xp_reward: 20
+
+  - id: 57
+    type: speaking
+    question: "Say this past tense phrase"
+    prompt: "Alienda sokoni"
+    translation: "He went to the market"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED
+  - id: 58
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'I ate'"
+    word_bank: ["Nilikula", "Ulikula", "Alikula", "Tulikula"]
+    correct_answer: ["Nilikula"]
+    xp_reward: 15
+
+  - id: 59
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'You ate'"
+    word_bank: ["Nilikula", "Ulikula", "Alikula", "Tulikula"]
+    correct_answer: ["Ulikula"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'He ate'"
+    word_bank: ["Nilikula", "Ulikula", "Alikula", "Walikula"]
+    correct_answer: ["Alikula"]
+    xp_reward: 15
+
+  - id: 61
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'We ate'"
+    word_bank: ["Nilikula", "Ulikula", "Alikula", "Tulikula"]
+    correct_answer: ["Tulikula"]
+    xp_reward: 15
+
+  - id: 62
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'They ate'"
+    word_bank: ["Nilikula", "Ulikula", "Alikula", "Walikula"]
+    correct_answer: ["Walikula"]
+    xp_reward: 15
+
+  - id: 63
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I drank water'"
+    word_bank: ["Nilinywa", "maji", "alinywa", "maziwa", "nilikula"]
+    correct_answer: ["Nilinywa", "maji"]
+    xp_reward: 18
+
+  - id: 64
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'He went to the market'"
+    word_bank: ["Alienda", "sokoni", "shuleni", "nyumbani", "aliona"]
+    correct_answer: ["Alienda", "sokoni"]
+    xp_reward: 18
+
+  - id: 65
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'She met her friend'"
+    word_bank: ["Alikutana", "na rafiki", "yake", "na familia", "yangu"]
+    correct_answer: ["Alikutana", "na rafiki", "yake"]
+    xp_reward: 20
+
+  - id: 66
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I bought a book'"
+    word_bank: ["Nilinunua", "kitabu", "alinunua", "chakula", "nilikula"]
+    correct_answer: ["Nilinunua", "kitabu"]
+    xp_reward: 18
+
+  - id: 67
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'The children played'"
+    word_bank: ["Watoto", "walicheza", "alilala", "vizuri", "walisema"]
+    correct_answer: ["Watoto", "walicheza"]
+    xp_reward: 18
+
+  - id: 68
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'He slept well'"
+    word_bank: ["Alilala", "vizuri", "alilala", "vibaya", "alifanya"]
+    correct_answer: ["Alilala", "vizuri"]
+    xp_reward: 18
+
+  - id: 69
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'They said hello'"
+    word_bank: ["Walisema", "habari", "walisema", "hujambo", "alisema"]
+    correct_answer: ["Walisema", "habari"]
+    xp_reward: 18
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 70
+    type: sentence_scramble
+    question: "Arrange these to form a correct phrase"
+    scrambled_words: ["Nilikula"]
+    correct_sentence: "Nilikula"
+    translation: "I ate"
+    xp_reward: 12
+
+  - id: 71
+    type: sentence_scramble
+    question: "Arrange these to form a correct phrase"
+    scrambled_words: ["Tulikula"]
+    correct_sentence: "Tulikula"
+    translation: "We ate"
+    xp_reward: 12
+
+  - id: 72
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nilinywa", "maji"]
+    correct_sentence: "Nilinywa maji."
+    translation: "I drank water."
+    xp_reward: 15
+
+  - id: 73
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Alienda", "sokoni"]
+    correct_sentence: "Alienda sokoni."
+    translation: "He went to the market."
+    xp_reward: 15
+
+  - id: 74
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Alikutana", "na rafiki", "yake"]
+    correct_sentence: "Alikutana na rafiki yake."
+    translation: "She met her friend."
+    xp_reward: 18
+
+  - id: 75
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Nilinunua", "kitabu"]
+    correct_sentence: "Nilinunua kitabu."
+    translation: "I bought a book."
+    xp_reward: 15
+
+  - id: 76
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Watoto", "walicheza"]
+    correct_sentence: "Watoto walicheza."
+    translation: "The children played."
+    xp_reward: 15
+
+  - id: 77
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Alilala", "vizuri"]
+    correct_sentence: "Alilala vizuri."
+    translation: "He slept well."
+    xp_reward: 15
+
+  - id: 78
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Walisema", "habari"]
+    correct_sentence: "Walisema habari."
+    translation: "They said hello."
+    xp_reward: 15
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 79
+    type: fill_blank
+    question: "Complete the phrase for 'I ate'"
+    text_with_blank: "___"
+    options: ["Nilikula", "Ulikula", "Alikula"]
+    correct_answer: "Nilikula"
+    translation: "I ate"
+    xp_reward: 10
+
+  - id: 80
+    type: fill_blank
+    question: "Complete the phrase for 'We ate'"
+    text_with_blank: "___"
+    options: ["Nilikula", "Tulikula", "Walikula"]
+    correct_answer: "Tulikula"
+    translation: "We ate"
+    xp_reward: 10
+
+  - id: 81
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nilinywa ___."
+    options: ["maji", "maziwa", "chakula"]
+    correct_answer: "maji"
+    translation: "I drank water."
+    xp_reward: 15
+
+  - id: 82
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Alienda ___."
+    options: ["sokoni", "shuleni", "nyumbani"]
+    correct_answer: "sokoni"
+    translation: "He went to the market."
+    xp_reward: 15
+
+  - id: 83
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Alikutana ___."
+    options: ["na rafiki yake", "na familia yake", "na mke wake"]
+    correct_answer: "na rafiki yake"
+    translation: "She met her friend."
+    xp_reward: 18
+
+  - id: 84
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Nilinunua ___."
+    options: ["kitabu", "chakula", "mkate"]
+    correct_answer: "kitabu"
+    translation: "I bought a book."
+    xp_reward: 15
+
+  - id: 85
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Watoto ___."
+    options: ["walicheza", "walikula", "walisema"]
+    correct_answer: "walicheza"
+    translation: "The children played."
+    xp_reward: 15
+
+  - id: 86
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Alilala ___."
+    options: ["vizuri", "vibaya", "mapema"]
+    correct_answer: "vizuri"
+    translation: "He slept well."
+    xp_reward: 15
+
+  - id: 87
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Walisema ___."
+    options: ["habari", "hujambo", "sawa"]
+    correct_answer: "habari"
+    translation: "They said hello."
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images) - Representing past actions
+  - id: 88
+    type: picture_word
+    question: "What did he do? (past tense)"
+    image_url: "https://source.unsplash.com/featured/?eating"
+    options: ["Alikula", "Alinywa", "Alienda"]
+    correct_answer: "Alikula"
+    xp_reward: 15
+
+  - id: 89
+    type: picture_word
+    question: "What did he do? (past tense)"
+    image_url: "https://source.unsplash.com/featured/?drinking"
+    options: ["Alikula", "Alinywa", "Alifanya kazi"]
+    correct_answer: "Alinywa"
+    xp_reward: 15
+
+  - id: 90
+    type: picture_word
+    question: "What did he do? (past tense)"
+    image_url: "https://source.unsplash.com/featured/?walking-away"
+    options: ["Alikula", "Alinywa", "Alienda"]
+    correct_answer: "Alienda"
+    xp_reward: 15
+
+  - id: 91
+    type: picture_word
+    question: "What did he do? (past tense)"
+    image_url: "https://source.unsplash.com/featured/?seeing"
+    options: ["Aliona", "Alikutana", "Alisema"]
+    correct_answer: "Aliona"
+    xp_reward: 15
+
+  - id: 92
+    type: picture_word
+    question: "What did they do? (past tense)"
+    image_url: "https://source.unsplash.com/featured/?meeting"
+    options: ["Alikutana", "Aliona", "Alisema"]
+    correct_answer: "Alikutana"
+    xp_reward: 15
+
+  - id: 93
+    type: picture_word
+    question: "What did he do? (past tense)"
+    image_url: "https://source.unsplash.com/featured/?shopping"
+    options: ["Alinunua", "Alikula", "Alifanya kazi"]
+    correct_answer: "Alinunua"
+    xp_reward: 15
+
+  - id: 94
+    type: picture_word
+    question: "What did the children do? (past tense)"
+    image_url: "https://source.unsplash.com/featured/?playing"
+    options: ["Alicheza", "Alilala", "Alijifunza"]
+    correct_answer: "Alicheza"
+    xp_reward: 15
+
+  - id: 95
+    type: picture_word
+    question: "What did he do? (past tense)"
+    image_url: "https://source.unsplash.com/featured/?sleeping"
+    options: ["Alilala", "Alicheza", "Alifanya kazi"]
+    correct_answer: "Alilala"
+    xp_reward: 15
+
+  # 10. Word Matching (Pairing)
+  - id: 96
+    type: matching
+    question: "Match the present tense with past tense"
+    pairs:
+      - left: "kula (eat)"
+        right: "Alikula"
+      - left: "kunywa (drink)"
+        right: "Alinywa"
+      - left: "kwenda (go)"
+        right: "Alienda"
+      - left: "kufanya kazi (work)"
+        right: "Alifanya kazi"
+      - left: "kula (eat for I)"
+        right: "Nilikula"
+      - left: "kula (eat for we)"
+        right: "Tulikula"
+      - left: "kula (eat for they)"
+        right: "Walikula"
+    xp_reward: 25
+
+  - id: 97
+    type: matching
+    question: "Match the past tense verbs with their meanings"
+    pairs:
+      - left: "Aliona"
+        right: "saw"
+      - left: "Alikutana"
+        right: "met"
+      - left: "Alinunua"
+        right: "bought"
+      - left: "Alicheza"
+        right: "played"
+      - left: "Alilala"
+        right: "slept"
+      - left: "Alisema"
+        right: "said"
+      - left: "Alipenda"
+        right: "loved"
+      - left: "Alijifunza"
+        right: "learned"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Match the subject with the correct past tense form of 'eat'"
+    pairs:
+      - left: "I"
+        right: "Nilikula"
+      - left: "You"
+        right: "Ulikula"
+      - left: "He/She"
+        right: "Alikula"
+      - left: "We"
+        right: "Tulikula"
+      - left: "They"
+        right: "Walikula"
+    xp_reward: 20
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 99
+    type: choose_missing
+    question: "Choose the correct past tense verb for 'I'"
+    sentence: "___ maji."
+    missing_word_position: 1
+    options: ["Nilinywa", "Alinywa", "Walinywa"]
+    correct_answer: "Nilinywa"
+    translation: "I drank water."
+    xp_reward: 15
+
+  - id: 100
+    type: choose_missing
+    question: "Choose the correct past tense verb"
+    sentence: "Alienda ___."
+    missing_word_position: 2
+    options: ["sokoni", "shuleni", "nyumbani"]
+    correct_answer: "sokoni"
+    translation: "He went to the market."
+    xp_reward: 15
+
+  - id: 101
+    type: choose_missing
+    question: "Choose the correct past tense verb"
+    sentence: "___ kitabu."
+    missing_word_position: 1
+    options: ["Nilinunua", "Alinunua", "Walinunua"]
+    correct_answer: "Nilinunua"
+    translation: "I bought a book."
+    xp_reward: 15
+
+  - id: 102
+    type: choose_missing
+    question: "Choose the correct past tense verb"
+    sentence: "Watoto ___."
+    missing_word_position: 2
+    options: ["walicheza", "walikula", "walisema"]
+    correct_answer: "walicheza"
+    translation: "The children played."
+    xp_reward: 15
+
+  - id: 103
+    type: choose_missing
+    question: "Choose the correct word"
+    sentence: "Alilala ___."
+    missing_word_position: 2
+    options: ["vizuri", "vibaya", "mapema"]
+    correct_answer: "vizuri"
+    translation: "He slept well."
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions based on text
+  - id: 104
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Nilinywa maji. Nilikula chakula."
+    question: "What did I drink?"
+    options: ["Water", "Milk", "Food", "Juice"]
+    correct_answer: "Water"
+    xp_reward: 15
+
+  - id: 105
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Alienda sokoni. Alinunua chakula."
+    question: "Where did he go?"
+    options: ["To school", "To the market", "Home", "To work"]
+    correct_answer: "To the market"
+    xp_reward: 15
+
+  - id: 106
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Alikutana na rafiki yake. Walisema habari."
+    question: "Who did she meet?"
+    options: ["Her family", "Her friend", "Her teacher", "Her brother"]
+    correct_answer: "Her friend"
+    xp_reward: 18
+
+  - id: 107
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Watoto walicheza. Alilala vizuri."
+    question: "What did the children do?"
+    options: ["Slept", "Played", "Ate", "Drank"]
+    correct_answer: "Played"
+    xp_reward: 15
+
+  - id: 108
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Nilinunua kitabu. Ninasoma kila siku."
+    question: "What did I buy?"
+    options: ["Food", "A book", "Water", "Clothes"]
+    correct_answer: "A book"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 109
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Alikula means 'drank'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 110
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Alinywa means 'drank'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 111
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Alienda means 'went'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 112
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Nilikula means 'I ate'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Tulikula means 'they ate'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 114
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Alilala vizuri means 'He slept well'."
+    correct_answer: true
+    xp_reward: 15
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 115
+    type: conversation
+    question: "Respond to the question by building a sentence"
+    bot_message: "Ulifanya nini jana?"
+    translation: "What did you do yesterday?"
+    word_bank: ["Nilikula", "chakula", "nilinywa", "maji", "nilinunua"]
+    correct_response: ["Nilikula", "chakula"]
+    xp_reward: 20
+
+  - id: 116
+    type: conversation
+    question: "Respond to the question"
+    bot_message: "Alienda wapi?"
+    translation: "Where did he go?"
+    options:
+      - "Alienda sokoni"
+      - "Alienda shuleni"
+      - "Alienda nyumbani"
+    correct_response: "Alienda sokoni"
+    xp_reward: 15
+
+  - id: 117
+    type: conversation
+    question: "Respond to the question by building a sentence"
+    bot_message: "Ulinunua nini?"
+    translation: "What did you buy?"
+    word_bank: ["Nilinunua", "kitabu", "chakula", "mkate", "maji"]
+    correct_response: ["Nilinunua", "kitabu"]
+    xp_reward: 18
+
+  - id: 118
+    type: conversation
+    question: "Respond to the question"
+    bot_message: "Watoto walifanya nini?"
+    translation: "What did the children do?"
+    options:
+      - "Walicheza"
+      - "Walikula"
+      - "Walisema habari"
+    correct_response: "Walicheza"
+    xp_reward: 15
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 119
+    type: story
+    title: "Yesterday - Jana"
+    story_intro: "Read about what happened yesterday. Then build the sentences."
+    story_segments:
+      - text: "I ate food."
+      - text: "I drank water."
+      - text: "He went to the market."
+      - text: "She met her friend."
+      - text: "I bought a book."
+      - text: "The children played."
+      - text: "He slept well."
+      - text: "They said hello."
+    exercises:
+      - type: word_bank
+        question: "Build 'I ate food'"
+        word_bank: ["Nilikula", "chakula", "nilinywa", "maji"]
+        correct_answer: ["Nilikula", "chakula"]
+      - type: word_bank
+        question: "Build 'I drank water'"
+        word_bank: ["Nilinywa", "maji", "nilikula", "chakula"]
+        correct_answer: ["Nilinywa", "maji"]
+      - type: word_bank
+        question: "Build 'He went to the market'"
+        word_bank: ["Alienda", "sokoni", "alikutana", "na rafiki"]
+        correct_answer: ["Alienda", "sokoni"]
+      - type: word_bank
+        question: "Build 'She met her friend'"
+        word_bank: ["Alikutana", "na rafiki", "yake", "alienda", "sokoni"]
+        correct_answer: ["Alikutana", "na rafiki", "yake"]
+      - type: word_bank
+        question: "Build 'I bought a book'"
+        word_bank: ["Nilinunua", "kitabu", "nilikula", "chakula"]
+        correct_answer: ["Nilinunua", "kitabu"]
+      - type: word_bank
+        question: "Build 'The children played'"
+        word_bank: ["Watoto", "walicheza", "alilala", "vizuri"]
+        correct_answer: ["Watoto", "walicheza"]
+      - type: word_bank
+        question: "Build 'He slept well'"
+        word_bank: ["Alilala", "vizuri", "walicheza", "walisema"]
+        correct_answer: ["Alilala", "vizuri"]
+      - type: word_bank
+        question: "Build 'They said hello'"
+        word_bank: ["Walisema", "habari", "walicheza", "walikula"]
+        correct_answer: ["Walisema", "habari"]
+    xp_reward: 50
+
+  # 17. Pronunciation Check
+  - id: 120
+    type: pronunciation
+    question: "Say this past tense verb"
+    prompt: "Alikula"
+    translation: "ate"
+    xp_reward: 15
+
+  - id: 121
+    type: pronunciation
+    question: "Say this past tense verb"
+    prompt: "Alinywa"
+    translation: "drank"
+    xp_reward: 15
+
+  - id: 122
+    type: pronunciation
+    question: "Say this past tense verb"
+    prompt: "Alienda"
+    translation: "went"
+    xp_reward: 15
+
+  - id: 123
+    type: pronunciation
+    question: "Say this past tense phrase"
+    prompt: "Nilikula"
+    translation: "I ate"
+    xp_reward: 18
+
+  - id: 124
+    type: pronunciation
+    question: "Say this past tense phrase"
+    prompt: "Tulikula"
+    translation: "We ate"
+    xp_reward: 18
+
+  - id: 125
+    type: pronunciation
+    question: "Say this past tense sentence"
+    prompt: "Nilinywa maji"
+    translation: "I drank water"
+    xp_reward: 20
+
+  - id: 126
+    type: pronunciation
+    question: "Say this past tense sentence"
+    prompt: "Alienda sokoni"
+    translation: "He went to the market"
+    xp_reward: 20
+
+  # 18. Identify Correct Meaning
+  - id: 127
+    type: identify_meaning
+    question: "What does 'Alikula' mean in this sentence?"
+    context_sentence: "Alikula chakula."
+    word: "Alikula"
+    options: ["drank", "ate", "went", "saw"]
+    correct_answer: "ate"
+    xp_reward: 15
+
+  - id: 128
+    type: identify_meaning
+    question: "What does 'Nilinywa' mean in this sentence?"
+    context_sentence: "Nilinywa maji."
+    word: "Nilinywa"
+    options: ["I ate", "I drank", "I went", "I saw"]
+    correct_answer: "I drank"
+    xp_reward: 15
+
+  - id: 129
+    type: identify_meaning
+    question: "What does 'Alikutana' mean in this sentence?"
+    context_sentence: "Alikutana na rafiki yake."
+    word: "Alikutana"
+    options: ["saw", "met", "bought", "said"]
+    correct_answer: "met"
+    xp_reward: 15
+
+  - id: 130
+    type: identify_meaning
+    question: "What does 'walicheza' mean in this sentence?"
+    context_sentence: "Watoto walicheza."
+    word: "walicheza"
+    options: ["ate", "drank", "played", "slept"]
+    correct_answer: "played"
+    xp_reward: 15
+
+  - id: 131
+    type: identify_meaning
+    question: "What does 'vizuri' mean in this sentence?"
+    context_sentence: "Alilala vizuri."
+    word: "vizuri"
+    options: ["badly", "well", "quickly", "slowly"]
+    correct_answer: "well"
+    xp_reward: 15
+
+  # 19. Speed Matching
+  - id: 132
+    type: speed_matching
+    title: "Match Madness: Past Tense"
+    time_limit_seconds: 45
+    pairs:
+      - left: "ate"
+        right: "Alikula"
+      - left: "drank"
+        right: "Alinywa"
+      - left: "went"
+        right: "Alienda"
+      - left: "saw"
+        right: "Aliona"
+      - left: "met"
+        right: "Alikutana"
+      - left: "bought"
+        right: "Alinunua"
+      - left: "played"
+        right: "Alicheza"
+      - left: "slept"
+        right: "Alilala"
+      - left: "said"
+        right: "Alisema"
+      - left: "worked"
+        right: "Alifanya kazi"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 133
+    type: timed_challenge
+    title: "Lightning Round: Past Tense"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "ate"
+        answer: "Alikula"
+      - question: "drank"
+        answer: "Alinywa"
+      - question: "went"
+        answer: "Alienda"
+      - question: "saw"
+        answer: "Aliona"
+      - question: "met"
+        answer: "Alikutana"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Alikula"
+      back: "ate"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Alinywa"
+      back: "drank"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Alienda"
+      back: "went"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Alikuja"
+      back: "came"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Aliona"
+      back: "saw"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Alikutana"
+      back: "met"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Alinunua"
+      back: "bought"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Alicheza"
+      back: "played"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Alilala"
+      back: "slept"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Alisema"
+      back: "said"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

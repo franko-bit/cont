@@ -1,0 +1,1229 @@
+lesson:
+ name: "दिशाएँ - Amabwiriza y'ahantu"
+ description: "सीखें direction words and phrases in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Direction Words ONLY (Safe for single words)
+ # Basic दिशाएँ
+ - id: 1
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'बाएँ' किन्यार्वाण्डा में?"
+ उत्तर: "Ibumoso"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'दाएँ' किन्यार्वाण्डा में?"
+ उत्तर: "Iburyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'सीधा' किन्यार्वाण्डा में?"
+ उत्तर: "Uburyohe / Guhita imbere"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Back / Behind' किन्यार्वाण्डा में?"
+ उत्तर: "Inyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Front' किन्यार्वाण्डा में?"
+ उत्तर: "Imbere"
+ xp_reward: 10
+
+ # Cardinal दिशाएँ
+ - id: 6
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'North' किन्यार्वाण्डा में?"
+ उत्तर: "Amajyaruguru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'South' किन्यार्वाण्डा में?"
+ उत्तर: "Amajyepfo"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'East' किन्यार्वाण्डा में?"
+ उत्तर: "Uburasirazuba"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'West' किन्यार्वाण्डा में?"
+ उत्तर: "Uburengerazuba"
+ xp_reward: 10
+
+ # Location Words
+ - id: 10
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Near' किन्यार्वाण्डा में?"
+ उत्तर: "Hafi"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Far' किन्यार्वाण्डा में?"
+ उत्तर: "Hahandi / kure"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Around' किन्यार्वाण्डा में?"
+ उत्तर: "Hagarika / ahantu hose"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ # Places and Features
+ - id: 13
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Intersection / Crossroads' किन्यार्वाण्डा में?"
+ उत्तर: "Ahantu hahurira imihanda"
+ xp_reward: 18
+
+ - id: 14
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Street / Road' किन्यार्वाण्डा में?"
+ उत्तर: "Umuhanda"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Corner' किन्यार्वाण्डा में?"
+ उत्तर: "Inguni"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Traffic light' किन्यार्वाण्डा में?"
+ उत्तर: "Itara ry'umuhanda"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Sign / Signpost' किन्यार्वाण्डा में?"
+ उत्तर: "Ikimenyetso / Ikimenyetso cy'umuhanda"
+ xp_reward: 18
+
+ # Direction Commands
+ - id: 18
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Turn बाएँ' किन्यार्वाण्डा में?"
+ उत्तर: "Hagarika ibumoso."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Turn दाएँ' किन्यार्वाण्डा में?"
+ उत्तर: "Hagarika iburyo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Go सीधा' किन्यार्वाण्डा में?"
+ उत्तर: "Komeza imbere."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Go back' किन्यार्वाण्डा में?"
+ उत्तर: "Subira inyuma."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Cross the street' किन्यार्वाण्डा में?"
+ उत्तर: "Kora umuhanda."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Stop at the traffic light' किन्यार्वाण्डा में?"
+ उत्तर: "Hagarara ku itara ry'umuhanda."
+ xp_reward: 18
+
+ # Location वाक्य
+ - id: 24
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'The bank is in front of the स्कूल' किन्यार्वाण्डा में?"
+ उत्तर: "Banki iri imbere y'ishuri."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'The बाज़ार is near' किन्यार्वाण्डा में?"
+ उत्तर: "Isoko riri hafi."
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'The hospital is far' किन्यार्वाण्डा में?"
+ उत्तर: "Ibitaro biri kure."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Ibumoso' इस वाक्य में?"
+ options:
+ - "दाएँ"
+ - "बाएँ"
+ - "सीधा"
+ - "Front"
+ उत्तर: "बाएँ"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Iburyo' इस वाक्य में?"
+ options:
+ - "बाएँ"
+ - "दाएँ"
+ - "Back"
+ - "North"
+ उत्तर: "दाएँ"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Imbere' इस वाक्य में?"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ - "Far"
+ उत्तर: "Front"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Inyuma' इस वाक्य में?"
+ options:
+ - "Front"
+ - "Behind"
+ - "बाएँ"
+ - "दाएँ"
+ उत्तर: "Behind"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Amajyaruguru' इस वाक्य में?"
+ options:
+ - "South"
+ - "North"
+ - "East"
+ - "West"
+ उत्तर: "North"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Hafi' इस वाक्य में?"
+ options:
+ - "Far"
+ - "Near"
+ - "Around"
+ - "सीधा"
+ उत्तर: "Near"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Umuhanda' इस वाक्य में?"
+ options:
+ - "Corner"
+ - "Street"
+ - "Traffic light"
+ - "Sign"
+ उत्तर: "Street"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Hagarika ibumoso' इस वाक्य में?"
+ options:
+ - "Turn दाएँ"
+ - "Turn बाएँ"
+ - "Go सीधा"
+ - "Go back"
+ उत्तर: "Turn बाएँ"
+ xp_reward: 18
+
+ # 3. सुनें and Type (Dictation)
+ - id: 35
+ type: listen_and_type
+ प्रश्न: "सुनें and type the direction word"
+ audio: "Ibumoso"
+ उत्तर: "Ibumoso"
+ translation: "बाएँ"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ प्रश्न: "सुनें and type the direction word"
+ audio: "Iburyo"
+ उत्तर: "Iburyo"
+ translation: "दाएँ"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ प्रश्न: "सुनें and type the direction word"
+ audio: "Imbere"
+ उत्तर: "Imbere"
+ translation: "Front"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ प्रश्न: "सुनें and type the direction word"
+ audio: "Inyuma"
+ उत्तर: "Inyuma"
+ translation: "Behind"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ प्रश्न: "सुनें and type the direction word"
+ audio: "Hafi"
+ उत्तर: "Hafi"
+ translation: "Near"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_and_type
+ प्रश्न: "सुनें and type the command"
+ audio: "Hagarika ibumoso"
+ उत्तर: "Hagarika ibumoso"
+ translation: "Turn बाएँ"
+ xp_reward: 22
+
+ - id: 41
+ type: listen_and_type
+ प्रश्न: "सुनें and type the command"
+ audio: "Komeza imbere"
+ उत्तर: "Komeza imbere"
+ translation: "Go सीधा"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_and_type
+ प्रश्न: "सुनें and type the वाक्य"
+ audio: "Isoko riri hafi"
+ उत्तर: "Isoko riri hafi"
+ translation: "The बाज़ार is near"
+ xp_reward: 22
+
+ 
+ # 4. सुनें and चुनें
+ - id: 44
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct direction"
+ audio: "Ibumoso"
+ options:
+ - "बाएँ"
+ - "दाएँ"
+ - "सीधा"
+ उत्तर: "बाएँ"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct direction"
+ audio: "Iburyo"
+ options:
+ - "बाएँ"
+ - "दाएँ"
+ - "Back"
+ उत्तर: "दाएँ"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct direction"
+ audio: "Imbere"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ उत्तर: "Front"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct command"
+ audio: "Hagarika ibumoso"
+ options:
+ - "Turn दाएँ"
+ - "Turn बाएँ"
+ - "Go सीधा"
+ उत्तर: "Turn बाएँ"
+ xp_reward: 18
+
+ - id: 48
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct वाक्य"
+ audio: "Isoko riri hafi"
+ options:
+ - "The बाज़ार is far"
+ - "The बाज़ार is near"
+ - "The बाज़ार is in front"
+ उत्तर: "The बाज़ार is near"
+ xp_reward: 18
+
+ # 5. Repeat / बोलें Exercise
+ - id: 49
+ type: बोलें
+ प्रश्न: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "बाएँ"
+ xp_reward: 15
+
+ - id: 50
+ type: बोलें
+ प्रश्न: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "दाएँ"
+ xp_reward: 15
+
+ - id: 51
+ type: बोलें
+ प्रश्न: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 52
+ type: बोलें
+ प्रश्न: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 53
+ type: बोलें
+ प्रश्न: "Say this direction word"
+ prompt: "Hafi"
+ translation: "Near"
+ xp_reward: 15
+
+ - id: 54
+ type: बोलें
+ प्रश्न: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn बाएँ"
+ xp_reward: 18
+
+ - id: 55
+ type: बोलें
+ प्रश्न: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go सीधा"
+ xp_reward: 18
+
+ - id: 56
+ type: बोलें
+ प्रश्न: "Say this वाक्य"
+ prompt: "Isoko riri hafi"
+ translation: "The बाज़ार is near"
+ xp_reward: 18
+
+ - id: 57
+ type: बोलें
+ प्रश्न: "Say this वाक्य"
+ prompt: "Banki iri imbere y'ishuri"
+ translation: "The bank is in front of the स्कूल"
+ xp_reward: 22
+
+ # 6. Word Bank वाक्य Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ प्रश्न: "Build the command 'Turn बाएँ'"
+ word_bank: ["Hagarika", "ibumoso", "iburyo", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "ibumoso"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ प्रश्न: "Build the command 'Turn दाएँ'"
+ word_bank: ["Hagarika", "iburyo", "ibumoso", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "iburyo"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ प्रश्न: "Build the command 'Go सीधा'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira"]
+ correct_answer: ["Komeza", "imbere"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ प्रश्न: "Build the command 'Go back'"
+ word_bank: ["Subira", "inyuma", "komeza", "imbere", "hagarika"]
+ correct_answer: ["Subira", "inyuma"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ प्रश्न: "Build the वाक्य 'The bank is in front of the स्कूल'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri", "hafi"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ प्रश्न: "Build the वाक्य 'The बाज़ार is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ प्रश्न: "Build the वाक्य 'The hospital is far'"
+ word_bank: ["Ibitaro", "biri", "kure", "isoko", "riri", "hafi"]
+ correct_answer: ["Ibitaro", "biri", "kure"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ प्रश्न: "Build the command 'Cross the street'"
+ word_bank: ["Kora", "umuhanda", "hagarara", "itara", "ry'umuhanda"]
+ correct_answer: ["Kora", "umuhanda"]
+ xp_reward: 15
+
+ - id: 66
+ type: word_bank
+ प्रश्न: "Build the command 'Stop at the traffic light'"
+ word_bank: ["Hagarara", "ku", "itara", "ry'umuhanda", "kora", "umuhanda"]
+ correct_answer: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ xp_reward: 22
+
+ # 7. वाक्य Scramble - PIECES PROVIDED
+ - id: 67
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "ibumoso"]
+ correct_sentence: "Hagarika ibumoso."
+ translation: "Turn बाएँ."
+ xp_reward: 15
+
+ - id: 68
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "iburyo"]
+ correct_sentence: "Hagarika iburyo."
+ translation: "Turn दाएँ."
+ xp_reward: 15
+
+ - id: 69
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct command"
+ scrambled_words: ["Komeza", "imbere"]
+ correct_sentence: "Komeza imbere."
+ translation: "Go सीधा."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct command"
+ scrambled_words: ["Subira", "inyuma"]
+ correct_sentence: "Subira inyuma."
+ translation: "Go back."
+ xp_reward: 15
+
+ - id: 71
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Banki", "iri", "imbere", "y'ishuri"]
+ correct_sentence: "Banki iri imbere y'ishuri."
+ translation: "The bank is in front of the स्कूल."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Isoko", "riri", "hafi"]
+ correct_sentence: "Isoko riri hafi."
+ translation: "The बाज़ार is near."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Ibitaro", "biri", "kure"]
+ correct_sentence: "Ibitaro biri kure."
+ translation: "The hospital is far."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct command"
+ scrambled_words: ["Kora", "umuhanda"]
+ correct_sentence: "Kora umuhanda."
+ translation: "Cross the street."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ correct_sentence: "Hagarara ku itara ry'umuhanda."
+ translation: "Stop at the traffic light."
+ xp_reward: 22
+
+ # 8. Fill in the Blank - चुनें FROM OPTIONS
+ - id: 76
+ type: fill_blank
+ प्रश्न: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn बाएँ."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ प्रश्न: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["iburyo", "ibumoso", "imbere"]
+ correct_answer: "iburyo"
+ translation: "Turn दाएँ."
+ xp_reward: 12
+
+ - id: 78
+ type: fill_blank
+ प्रश्न: "Complete the command"
+ text_with_blank: "Komeza ___."
+ options: ["imbere", "inyuma", "ibumoso"]
+ correct_answer: "imbere"
+ translation: "Go सीधा."
+ xp_reward: 12
+
+ - id: 79
+ type: fill_blank
+ प्रश्न: "Complete the command"
+ text_with_blank: "Subira ___."
+ options: ["inyuma", "imbere", "iburyo"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Isoko riri ___."
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The बाज़ार is near."
+ xp_reward: 12
+
+ - id: 81
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Ibitaro biri ___."
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 82
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Banki iri imbere ___."
+ options: ["y'ishuri", "y'isoko", "y'ibitaro"]
+ correct_answer: "y'ishuri"
+ translation: "The bank is in front of the स्कूल."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ प्रश्न: "Complete the command"
+ text_with_blank: "Kora ___."
+ options: ["umuhanda", "itara", "inguni"]
+ correct_answer: "umuhanda"
+ translation: "Cross the street."
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ प्रश्न: "Complete the command"
+ text_with_blank: "Hagarara ku ___ ry'umuhanda."
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 85
+ type: picture_word
+ प्रश्न: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?left-arrow"
+ options: ["Ibumoso", "Iburyo", "Imbere"]
+ correct_answer: "Ibumoso"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ प्रश्न: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?right-arrow"
+ options: ["Ibumoso", "Iburyo", "Inyuma"]
+ correct_answer: "Iburyo"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ प्रश्न: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?straight-arrow"
+ options: ["Imbere", "Inyuma", "Ibumoso"]
+ correct_answer: "Imbere"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ प्रश्न: "क्या है this?"
+ image_url: "https://source.unsplash.com/featured/?traffic-light"
+ options: ["Itara ry'umuhanda", "Umuhanda", "Ikimenyetso"]
+ correct_answer: "Itara ry'umuhanda"
+ xp_reward: 12
+
+ - id: 89
+ type: picture_word
+ प्रश्न: "क्या है this?"
+ image_url: "https://source.unsplash.com/featured/?street-corner"
+ options: ["Inguni", "Umuhanda", "Ahantu hahurira imihanda"]
+ correct_answer: "Inguni"
+ xp_reward: 10
+
+ - id: 90
+ type: picture_word
+ प्रश्न: "क्या है this?"
+ image_url: "https://source.unsplash.com/featured/?road-sign"
+ options: ["Ikimenyetso", "Itara", "Umuhanda"]
+ correct_answer: "Ikimenyetso"
+ xp_reward: 10
+
+ - id: 91
+ type: picture_word
+ प्रश्न: "क्या है this?"
+ image_url: "https://source.unsplash.com/featured/?intersection"
+ options: ["Ahantu hahurira imihanda", "Inguni", "Umuhanda"]
+ correct_answer: "Ahantu hahurira imihanda"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ प्रश्न: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?bank"
+ options: ["Banki", "Isoko", "Ibitaro"]
+ correct_answer: "Banki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ प्रश्न: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?market"
+ options: ["Isoko", "Banki", "Ibitaro"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ प्रश्न: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?hospital"
+ options: ["Ibitaro", "Isoko", "Banki"]
+ correct_answer: "Ibitaro"
+ xp_reward: 10
+
+ # 10. Word मेल करें (Pairing)
+ - id: 95
+ type: मेल करें
+ प्रश्न: "मेल करें the basic दिशाएँ"
+ pairs:
+ - बाएँ: "बाएँ"
+ दाएँ: "Ibumoso"
+ - बाएँ: "दाएँ"
+ दाएँ: "Iburyo"
+ - बाएँ: "सीधा"
+ दाएँ: "Uburyohe / Guhita imbere"
+ - बाएँ: "Front"
+ दाएँ: "Imbere"
+ - बाएँ: "Behind"
+ दाएँ: "Inyuma"
+ xp_reward: 20
+
+ - id: 96
+ type: मेल करें
+ प्रश्न: "मेल करें the cardinal दिशाएँ"
+ pairs:
+ - बाएँ: "North"
+ दाएँ: "Amajyaruguru"
+ - बाएँ: "South"
+ दाएँ: "Amajyepfo"
+ - बाएँ: "East"
+ दाएँ: "Uburasirazuba"
+ - बाएँ: "West"
+ दाएँ: "Uburengerazuba"
+ xp_reward: 18
+
+ - id: 97
+ type: मेल करें
+ प्रश्न: "मेल करें the location words"
+ pairs:
+ - बाएँ: "Near"
+ दाएँ: "Hafi"
+ - बाएँ: "Far"
+ दाएँ: "Hahandi / kure"
+ - बाएँ: "Around"
+ दाएँ: "Hagarika / ahantu hose"
+ xp_reward: 15
+
+ - id: 98
+ type: मेल करें
+ प्रश्न: "मेल करें the commands"
+ pairs:
+ - बाएँ: "Turn बाएँ"
+ दाएँ: "Hagarika ibumoso"
+ - बाएँ: "Turn दाएँ"
+ दाएँ: "Hagarika iburyo"
+ - बाएँ: "Go सीधा"
+ दाएँ: "Komeza imbere"
+ - बाएँ: "Go back"
+ दाएँ: "Subira inyuma"
+ - बाएँ: "Cross the street"
+ दाएँ: "Kora umuhanda"
+ - बाएँ: "Stop at the traffic light"
+ दाएँ: "Hagarara ku itara ry'umuhanda"
+ xp_reward: 25
+
+ - id: 99
+ type: मेल करें
+ प्रश्न: "मेल करें the वाक्य"
+ pairs:
+ - बाएँ: "The bank is in front of the स्कूल"
+ दाएँ: "Banki iri imbere y'ishuri"
+ - बाएँ: "The बाज़ार is near"
+ दाएँ: "Isoko riri hafi"
+ - बाएँ: "The hospital is far"
+ दाएँ: "Ibitaro biri kure"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. चुनें Missing Word
+ - id: 100
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Hagarika ___."
+ missing_word_position: 2
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn बाएँ."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Komeza ___."
+ missing_word_position: 2
+ options: ["imbere", "inyuma", "iburyo"]
+ correct_answer: "imbere"
+ translation: "Go सीधा."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Subira ___."
+ missing_word_position: 2
+ options: ["inyuma", "imbere", "ibumoso"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 103
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Isoko riri ___."
+ missing_word_position: 3
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The बाज़ार is near."
+ xp_reward: 12
+
+ - id: 104
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Ibitaro biri ___."
+ missing_word_position: 3
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 105
+ type: choose_missing
+ प्रश्न: "चुनें the missing phrase"
+ वाक्य: "Hagarara ku ___ ry'umuhanda."
+ missing_word_position: 3
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 13. पढ़ें and उत्तर - प्रश्न based on text
+ - id: 106
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Komeza imbere. Hagarika ibumoso."
+ प्रश्न: "क्या है the first instruction?"
+ options: ["Turn बाएँ", "Go सीधा", "Turn दाएँ", "Go back"]
+ correct_answer: "Go सीधा"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Banki iri imbere y'ishuri. Isoko riri hafi."
+ प्रश्न: "Where is the bank?"
+ options: ["Near the बाज़ार", "In front of the स्कूल", "Far away", "Behind the स्कूल"]
+ correct_answer: "In front of the स्कूल"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Hagarara ku itara ry'umuhanda. Kora umuhanda."
+ प्रश्न: "What should you do at the traffic light?"
+ options: ["Turn बाएँ", "Stop", "Go सीधा", "Turn दाएँ"]
+ correct_answer: "Stop"
+ xp_reward: 15
+
+ - id: 109
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Ibitaro biri kure. Isoko riri hafi."
+ प्रश्न: "Is the hospital near or far?"
+ options: ["Near", "Far", "Very close", "Not mentioned"]
+ correct_answer: "Far"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Subira inyuma. Hagarika iburyo."
+ प्रश्न: "क्या है the second instruction?"
+ options: ["Go back", "Turn बाएँ", "Turn दाएँ", "Go सीधा"]
+ correct_answer: "Turn दाएँ"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Ibumoso means 'दाएँ'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Iburyo means 'दाएँ'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Imbere means 'front'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Hafi means 'far'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Komeza imbere means 'go सीधा'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Itara ry'umuhanda means 'street sign'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ प्रश्न: "Respond to the प्रश्न by building a command"
+ bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+ translation: "I want to reach the बाज़ार. What should I do?"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira", "inyuma"]
+ correct_response: ["Komeza", "imbere"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ प्रश्न: "Respond to the प्रश्न"
+ bot_message: "Banki iri he?"
+ translation: "Where is the bank?"
+ options:
+ - "Imbere y'ishuri"
+ - "Hafi y'isoko"
+ - "Kure"
+ correct_response: "Imbere y'ishuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ प्रश्न: "Respond to the प्रश्न by building a command"
+ bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+ translation: "I want to reach the hospital. What should I do?"
+ word_bank: ["Subira", "inyuma", "hagarika", "iburyo", "komeza", "imbere"]
+ correct_response: ["Subira", "inyuma"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ प्रश्न: "Respond to the प्रश्न"
+ bot_message: "Isoko riri hafi?"
+ translation: "Is the बाज़ार near?"
+ options:
+ - "Yego, riri hafi"
+ - "Oya, riri kure"
+ - "Simenye"
+ correct_response: "Yego, riri hafi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build वाक्य from pieces
+ - id: 121
+ type: story
+ title: "Finding the बाज़ार - Gushaka Isoko"
+ story_intro: "पढ़ें about finding the बाज़ार. Then build the वाक्य."
+ story_segments:
+ - text: "I want to go to the बाज़ार."
+ - text: "Go सीधा."
+ - text: "Turn बाएँ at the traffic light."
+ - text: "The बाज़ार is near."
+ - text: "The bank is in front of the स्कूल."
+ exercises:
+ - type: word_bank
+ प्रश्न: "Build 'Go सीधा'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso"]
+ correct_answer: ["Komeza", "imbere"]
+ - type: word_bank
+ प्रश्न: "Build 'Turn बाएँ at the traffic light'"
+ word_bank: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ correct_answer: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ - type: word_bank
+ प्रश्न: "Build 'The बाज़ार is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ - type: word_bank
+ प्रश्न: "Build 'The bank is in front of the स्कूल'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ प्रश्न: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "बाएँ"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ प्रश्न: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "दाएँ"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ प्रश्न: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ प्रश्न: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ प्रश्न: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn बाएँ"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ प्रश्न: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go सीधा"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ प्रश्न: "Say this वाक्य"
+ prompt: "Isoko riri hafi"
+ translation: "The बाज़ार is near"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 129
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'Hagarika' mean in this command?"
+ context_sentence: "Hagarika ibumoso."
+ word: "Hagarika"
+ options: ["Go", "Turn", "Stop", "Cross"]
+ correct_answer: "Turn"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'Komeza' mean in this command?"
+ context_sentence: "Komeza imbere."
+ word: "Komeza"
+ options: ["Turn", "Stop", "Continue / Go", "Cross"]
+ correct_answer: "Continue / Go"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'hafi' mean in this वाक्य?"
+ context_sentence: "Isoko riri hafi."
+ word: "hafi"
+ options: ["far", "near", "behind", "front"]
+ correct_answer: "near"
+ xp_reward: 12
+
+ - id: 132
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'kure' mean in this वाक्य?"
+ context_sentence: "Ibitaro biri kure."
+ word: "kure"
+ options: ["near", "far", "बाएँ", "दाएँ"]
+ correct_answer: "far"
+ xp_reward: 12
+
+ - id: 133
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'imbere y'' mean in this वाक्य?"
+ context_sentence: "Banki iri imbere y'ishuri."
+ word: "imbere y'"
+ options: ["behind", "in front of", "next to", "far from"]
+ correct_answer: "in front of"
+ xp_reward: 15
+
+ # 19. Speed मेल करें
+ - id: 134
+ type: speed_मेल करें
+ title: "मेल करें Madness: दिशाएँ"
+ time_limit_seconds: 45
+ pairs:
+ - बाएँ: "बाएँ"
+ दाएँ: "Ibumoso"
+ - बाएँ: "दाएँ"
+ दाएँ: "Iburyo"
+ - बाएँ: "सीधा"
+ दाएँ: "Imbere"
+ - बाएँ: "Behind"
+ दाएँ: "Inyuma"
+ - बाएँ: "North"
+ दाएँ: "Amajyaruguru"
+ - बाएँ: "South"
+ दाएँ: "Amajyepfo"
+ - बाएँ: "East"
+ दाएँ: "Uburasirazuba"
+ - बाएँ: "West"
+ दाएँ: "Uburengerazuba"
+ - बाएँ: "Near"
+ दाएँ: "Hafi"
+ - बाएँ: "Far"
+ दाएँ: "Kure"
+ - बाएँ: "Turn बाएँ"
+ दाएँ: "Hagarika ibumoso"
+ - बाएँ: "Turn दाएँ"
+ दाएँ: "Hagarika iburyo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: दिशाएँ"
+ time_limit_seconds: 30
+ प्रश्न_count: 5
+ प्रश्न:
+ - प्रश्न: "बाएँ"
+ उत्तर: "Ibumoso"
+ - प्रश्न: "दाएँ"
+ उत्तर: "Iburyo"
+ - प्रश्न: "सीधा"
+ उत्तर: "Imbere"
+ - प्रश्न: "Behind"
+ उत्तर: "Inyuma"
+ - प्रश्न: "Near"
+ उत्तर: "Hafi"
+ xp_reward: 35
+
+# फ्लैशकार्ड
+ - id: 111
+ type: फ्लैशकार्ड
+ प्रश्न: "फ्लैशकार्ड"
+ फ्लैशकार्ड:
+ - front: "Ibumoso"
+ back: "बाएँ"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iburyo"
+ back: "दाएँ"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Uburyohe / Guhita imbere"
+ back: "सीधा"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Inyuma"
+ back: "Back / Behind"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbere"
+ back: "Front"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyaruguru"
+ back: "North"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyepfo"
+ back: "South"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburasirazuba"
+ back: "East"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburengerazuba"
+ back: "West"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Hafi"
+ back: "Near"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

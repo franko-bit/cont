@@ -4,7 +4,6 @@ lesson:
   xp_reward: 500
 
 exercises:
-
   # 1. Translation Exercises - Basic Clothing Words ONLY
   - id: 1
     type: translation
@@ -1144,7 +1143,7 @@ exercises:
         right: "Ikoti igura amafaranga ibihumbi icumi"
     xp_reward: 28
 
-  # 12. Choose Missing Word
+  # 11. Choose Missing Word
   - id: 152
     type: choose_missing
     question: "Hitamo ijambo ribuze"
@@ -1225,7 +1224,7 @@ exercises:
     translation: "Iyi shati ni angahe?"
     xp_reward: 15
 
-  # 13. Read and Answer
+  # 12. Read and Answer
   - id: 160
     type: read_answer
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
@@ -1271,7 +1270,7 @@ exercises:
     correct_answer: "Red"
     xp_reward: 18
 
-  # 14. True / False
+  # 13. True / False
   - id: 165
     type: true_false
     question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
@@ -1314,7 +1313,7 @@ exercises:
     correct_answer: false
     xp_reward: 10
 
-  # 15. Conversation Exercise
+  # 14. Conversation Exercise
   - id: 171
     type: conversation
     question: "Subiza ikibazo ukoresheje amagambo atanzwe"
@@ -1369,7 +1368,7 @@ exercises:
     correct_response: "A red shirt"
     xp_reward: 18
 
-  # 16. Story Exercise
+  # 15. Story Exercise
   - id: 176
     type: story
     title: "Kugura Imyambaro"
@@ -1408,7 +1407,7 @@ exercises:
         correct_answer: ["I", "have", "new", "clothes"]
     xp_reward: 45
 
-  # 17. Pronunciation Check
+  # 16. Pronunciation Check
   - id: 177
     type: pronunciation
     question: "Vuga iki kintu mu Cyongereza neza"
@@ -1458,7 +1457,7 @@ exercises:
     translation: "How much is this shirt?"
     xp_reward: 20
 
-  # 18. Identify Correct Meaning
+  # 17. Identify Correct Meaning
   - id: 184
     type: identify_meaning
     question: "'Nambara' bisobanura iki muri iyi nteruro?"
@@ -1504,7 +1503,7 @@ exercises:
     correct_answer: "how much"
     xp_reward: 18
 
-  # 19. Speed Matching
+  # 18. Speed Matching
   - id: 189
     type: speed_matching
     title: "Huza Byihuse: Imyambaro"
@@ -1532,7 +1531,7 @@ exercises:
         right: "Igitambaro"
     xp_reward: 30
 
-  # 20. Timed Challenges
+  # 19. Timed Challenges
   - id: 190
     type: timed_challenge
     title: "Kubahuka: Imyambaro"
@@ -1551,238 +1550,40 @@ exercises:
         answer: "Jacket"
     xp_reward: 35
 
-  # 21. Character Writing
-  - id: 191
-    type: character_writing
-    question: "Yandika ijambo ry'imyambaro mu Cyongereza"
-    prompt: "Ishati"
-    translation: "Shirt"
-    xp_reward: 15
-
-  - id: 192
-    type: character_writing
-    question: "Yandika ijambo ry'imyambaro mu Cyongereza"
-    prompt: "Inkweto"
-    translation: "Shoes"
-    xp_reward: 15
-
-  - id: 193
-    type: character_writing
-    question: "Yandika ijambo ry'imyambaro mu Cyongereza"
-    prompt: "Ikanzu"
-    translation: "Dress"
-    xp_reward: 15
-
-  - id: 194
-    type: character_writing
-    question: "Yandika ijambo ry'imyambaro mu Cyongereza"
-    prompt: "Ingofero"
-    translation: "Hat"
-    xp_reward: 15
-
-  # 22. Spaced Repetition Review
-  - id: 195
-    type: review
-    title: "Isubiramo: Imyambaro"
-    exercises:
-      - type: translation
-        question: "Ishati"
-        answer: "Shirt"
-      - type: multiple_choice
-        question: "Inkweto"
-        options: ["Socks", "Shoes", "Pants"]
-        answer: "Shoes"
-      - type: fill_blank
-        question: "I wear a ___."
-        text_with_blank: "I wear a ___."
-        options: ["shirt", "shoes", "pants"]
-        correct_answer: "shirt"
-      - type: picture_word
-        question: "Iki kintu ni iki?"
-        image_url: "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        options: ["Hat", "Shirt", "Jacket"]
-        correct_answer: "Hat"
-      - type: sentence_scramble
-        question: "Tondeka: Nambara ishati itukura"
-        scrambled_words: ["red", "wear", "I", "a", "shirt"]
-        correct_sentence: "I wear a red shirt"
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Clothes"
+      back: "Imyambaro"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Shirt"
+      back: "Ishati"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "T-shirt"
+      back: "T-shati"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Pants"
+      back: "Ipantaro"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Shorts"
+      back: "Ikabutura"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Dress"
+      back: "Ikanzu"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Skirt"
+      back: "Ijipo"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Jacket"
+      back: "Ikoti"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Coat"
+      back: "Ikote"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Sweater"
+      back: "Swateri"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
     xp_reward: 30
 
-  # 23. Listening Comprehension
-  - id: 196
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ikintu gikwiye"
-    audio: "Ishati"
-    options:
-      - "Shirt"
-      - "Pants"
-      - "Shoes"
-    correct_answer: "Shirt"
-    xp_reward: 15
-
-  - id: 197
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ikintu gikwiye"
-    audio: "Inkweto"
-    options:
-      - "Socks"
-      - "Shoes"
-      - "Hat"
-    correct_answer: "Shoes"
-    xp_reward: 15
-
-  - id: 198
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ikintu gikwiye"
-    audio: "Ikanzu"
-    options:
-      - "Shirt"
-      - "Dress"
-      - "Skirt"
-    correct_answer: "Dress"
-    xp_reward: 15
-
-  - id: 199
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ikintu gikwiye"
-    audio: "Ingofero"
-    options:
-      - "Hat"
-      - "Belt"
-      - "Jacket"
-    correct_answer: "Hat"
-    xp_reward: 15
-
-  # 24. Grammar Selection
-  - id: 200
-    type: grammar
-    question: "Hitamo inshinga ikwiye isobanura 'Nambara'"
-    options: ["I wear", "She wears", "We wear"]
-    correct_answer: "I wear"
-    explanation: "Nambara means 'I wear'"
-    xp_reward: 15
-
-  - id: 201
-    type: grammar
-    question: "Hitamo inshinga ikwiye isobanura 'Yambara' (umugore)"
-    options: ["I wear", "She wears", "They wear"]
-    correct_answer: "She wears"
-    explanation: "Yambara means 'she/he wears'"
-    xp_reward: 15
-
-  - id: 202
-    type: grammar
-    question: "Hitamo interuro ikwiye isobanura 'ishati itukura'"
-    options: ["red shirt", "blue shirt", "black shirt"]
-    correct_answer: "red shirt"
-    explanation: "In English, color comes before the noun: 'red shirt'"
-    xp_reward: 18
-
-  - id: 203
-    type: grammar
-    question: "Hitamo interuro ikwiye isobanura 'inkweto z'umukara'"
-    options: ["black shoes", "red shoes", "white shoes"]
-    correct_answer: "black shoes"
-    explanation: "In English, color comes before the noun: 'black shoes'"
-    xp_reward: 18
-
-  # 25. Error Correction
-  - id: 204
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I wear shirt red."
-    translation: "Nambara ishati itukura"
-    word_bank_for_fix: ["I", "wear", "a", "red", "shirt"]
-    correct_sentence: "I wear a red shirt."
-    explanation: "In English, adjectives come before nouns: 'red shirt'"
-    xp_reward: 20
-
-  - id: 205
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "She has dress blue."
-    translation: "Afite ikanzu y'ubururu"
-    word_bank_for_fix: ["She", "has", "a", "blue", "dress"]
-    correct_sentence: "She has a blue dress."
-    explanation: "In English, adjectives come before nouns: 'blue dress'"
-    xp_reward: 20
-
-  - id: 206
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "This shirt cost 5,000 francs."
-    translation: "Iyi shati igura amafaranga ibihumbi bitanu"
-    word_bank_for_fix: ["This", "shirt", "costs", "5,000", "francs"]
-    correct_sentence: "This shirt costs 5,000 francs."
-    explanation: "For 'he/she/it', use 'costs' (adds -s)"
-    xp_reward: 20
-
-  # Flashcards
-  - id: 207
-    type: flashcards
-    question: "Iyi ni modero y'amafishi y'imyambaro"
-    flashcards:
-      - front: "Imyambaro"
-        back: "Clothes"
-        image: "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ishati"
-        back: "Shirt"
-        image: "https://images.unsplash.com/photo-1626497764746-6dc36546b388?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "T-shati"
-        back: "T-shirt"
-        image: "https://images.unsplash.com/photo-1671438118097-479e63198629?q=80&w=577&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ipantaro"
-        back: "Pants"
-        image: "https://images.unsplash.com/photo-1718252540511-e958742e4165?q=80&w=580&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ikabutura"
-        back: "Shorts"
-        image: "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ikanzu"
-        back: "Dress"
-        image: "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ijipo"
-        back: "Skirt"
-        image: "https://images.unsplash.com/photo-1556747439-3b96858b9d8d?q=80&w=836&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ikoti"
-        back: "Jacket"
-        image: "https://images.unsplash.com/photo-1706765779494-2705542ebe74?q=80&w=751&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ikote"
-        back: "Coat"
-        image: "https://images.unsplash.com/photo-1667283831564-d0d8e7aa3450?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Swateri"
-        back: "Sweater"
-        image: "https://images.unsplash.com/photo-1610288311735-39b7facbd095?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Inkweto"
-        back: "Shoes"
-        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Amasogisi"
-        back: "Socks"
-        image: "https://images.unsplash.com/photo-1585499583264-491df5142e83?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ingofero"
-        back: "Hat"
-        image: "https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Umukandara"
-        back: "Belt"
-        image: "https://images.unsplash.com/photo-1664286074176-5206ee5dc878?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Igitambaro"
-        back: "Scarf"
-        image: "https://images.unsplash.com/photo-1457545195570-67f207084966?q=80&w=892&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Uturindantoki"
-        back: "Gloves"
-        image: "https://images.unsplash.com/photo-1617118602199-d3c05ae37ed8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Impuzankano"
-        back: "Uniform"
-        image: "https://images.unsplash.com/photo-1623792165505-b42b0c54372b?q=80&w=773&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Pajama"
-        back: "Pajamas"
-        image: "https://images.unsplash.com/flagged/photo-1553802921-f70ef4de0a40?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ishati itukura"
-        back: "Red shirt"
-        image: "https://images.unsplash.com/photo-1632768746061-75be7db8f8b3?q=80&w=773&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Ikanzu y'ubururu"
-        back: "Blue dress"
-        image: "https://images.unsplash.com/photo-1644945591333-d9ee9dffccff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Inkweto z'umukara"
-        back: "Black shoes"
-        image: "https://images.unsplash.com/photo-1605732440685-d0654d81aa30?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-    xp_reward: 40

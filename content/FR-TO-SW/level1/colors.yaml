@@ -1,0 +1,906 @@
+lesson:
+  name: "Rangi"
+  description: "Apprenez les couleurs de base en Kiswahili avec des animaux et des objets"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Colors ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Rouge' en Kiswahili ?"
+    answer: "Nyekundu"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Bleu' en Kiswahili ?"
+    answer: "Buluu"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Vert' en Kiswahili ?"
+    answer: "Kijani"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Jaune' en Kiswahili ?"
+    answer: "Manjano"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Noir' en Kiswahili ?"
+    answer: "Nyeusi"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Blanc' en Kiswahili ?"
+    answer: "Nyeupe"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Orange' en Kiswahili ?"
+    answer: "Machungwa"
+    xp_reward: 10
+
+  # Translation - Color Objects (Noun + Color phrases - single items, not full sentences)
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Pomme rouge' en Kiswahili ?"
+    answer: "Tofaa nyekundu"
+    xp_reward: 15
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Ciel bleu' en Kiswahili ?"
+    answer: "Anga ya buluu"
+    xp_reward: 15
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Herbe verte' en Kiswahili ?"
+    answer: "Nyasi za kijani"
+    xp_reward: 15
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Soleil jaune' en Kiswahili ?"
+    answer: "Jua la manjano"
+    xp_reward: 15
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Chat noir' en Kiswahili ?"
+    answer: "Paka mweusi"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Vache blanche' en Kiswahili ?"
+    answer: "Ng'ombe mweupe"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Carotte orange' en Kiswahili ?"
+    answer: "Karoti ya machungwa"
+    xp_reward: 15
+
+  # Translation - Colors with Animals (Noun + Color phrases)
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Oiseau rouge' en Kiswahili ?"
+    answer: "Ndege nyekundu"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Grenouille verte' en Kiswahili ?"
+    answer: "Chura wa kijani"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Poisson bleu' en Kiswahili ?"
+    answer: "Samaki wa buluu"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Poulet jaune' en Kiswahili ?"
+    answer: "Kuku wa manjano"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Lapin noir' en Kiswahili ?"
+    answer: "Sungura mweusi"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'Chèvre blanche' en Kiswahili ?"
+    answer: "Mbuzi mweupe"
+    xp_reward: 15
+
+  # Translation - Numbers with Colors (Number + Noun + Color phrases)
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'Une pomme rouge' en Kiswahili ?"
+    answer: "Tofaa moja nyekundu"
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'Deux oiseaux bleus' en Kiswahili ?"
+    answer: "Ndege wawili wa buluu"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Trois poulets jaunes' en Kiswahili ?"
+    answer: "Kuku watatu wa manjano"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'Quatre chats noirs' en Kiswahili ?"
+    answer: "Paka wanne weusi"
+    xp_reward: 15
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'Cinq vaches blanches' en Kiswahili ?"
+    answer: "Ng'ombe watano weupe"
+    xp_reward: 15
+
+  # Translation - Color Questions (Phrases - safe as they are fixed expressions)
+  - id: 26
+    type: translation
+    question: "Comment demande-t-on 'De quelle couleur est la pomme ?' en Kiswahili ?"
+    answer: "Tofaa ni rangi gani?"
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "Comment demande-t-on 'De quelle couleur est le ciel ?' en Kiswahili ?"
+    answer: "Anga ni rangi gani?"
+    xp_reward: 15
+
+  - id: 28
+    type: translation
+    question: "Comment demande-t-on 'Le chat est-il noir ?' en Kiswahili ?"
+    answer: "Paka ni mweusi?"
+    xp_reward: 15
+
+  # NO DIRECT TRANSLATION FOR FULL SENTENCES OR PARAGRAPHS
+  # Instead, we use sentence building, matching, and word bank exercises
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "Que signifie 'Nyekundu' ?"
+    options:
+      - "Bleu"
+      - "Rouge"
+      - "Vert"
+      - "Jaune"
+    answer: "Rouge"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "Que signifie 'Buluu' ?"
+    options:
+      - "Rouge"
+      - "Bleu"
+      - "Noir"
+      - "Blanc"
+    answer: "Bleu"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "Que signifie 'Kijani' ?"
+    options:
+      - "Vert"
+      - "Jaune"
+      - "Orange"
+      - "Rouge"
+    answer: "Vert"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "Que signifie 'Manjano' ?"
+    options:
+      - "Bleu"
+      - "Rouge"
+      - "Jaune"
+      - "Blanc"
+    answer: "Jaune"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "Que signifie 'Nyeusi' ?"
+    options:
+      - "Blanc"
+      - "Noir"
+      - "Vert"
+      - "Orange"
+    answer: "Noir"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "Que signifie 'Nyeupe' ?"
+    options:
+      - "Noir"
+      - "Blanc"
+      - "Rouge"
+      - "Bleu"
+    answer: "Blanc"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "Que signifie 'Ndege nyekundu' ?"
+    options:
+      - "Oiseau bleu"
+      - "Oiseau rouge"
+      - "Oiseau vert"
+      - "Oiseau jaune"
+    answer: "Oiseau rouge"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation) - Safe because audio is provided
+  - id: 36
+    type: listen_and_type
+    question: "Écoutez et tapez la couleur"
+    tts_text: "Nyekundu"
+    answer: "Nyekundu"
+    translation: "Rouge"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Écoutez et tapez la couleur"
+    tts_text: "Buluu"
+    answer: "Buluu"
+    translation: "Bleu"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Tofaa ni nyekundu"
+    answer: "Tofaa ni nyekundu"
+    translation: "La pomme est rouge"
+    xp_reward: 25
+
+  - id: 39
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Anga ni buluu"
+    answer: "Anga ni buluu"
+    translation: "Le ciel est bleu"
+    xp_reward: 25
+
+  - id: 40
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Ndege nyekundu anaruka"
+    answer: "Ndege nyekundu anaruka"
+    translation: "L'oiseau rouge vole"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 41
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne couleur"
+    tts_text: "Nyekundu"
+    options:
+      - "Rouge"
+      - "Bleu"
+      - "Vert"
+    answer: "Rouge"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne couleur"
+    tts_text: "Manjano"
+    options:
+      - "Rouge"
+      - "Jaune"
+      - "Noir"
+    answer: "Jaune"
+    xp_reward: 15
+
+  - id: 43
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    tts_text: "Tofaa ni nyekundu"
+    options:
+      - "La pomme est rouge"
+      - "Le ciel est bleu"
+      - "Le soleil est jaune"
+    answer: "La pomme est rouge"
+    xp_reward: 20
+
+  # 5. Repeat / Speaking Exercise
+  - id: 44
+    type: speaking
+    question: "Dites cette couleur"
+    prompt: "Nyekundu"
+    translation: "Rouge"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Dites cette couleur"
+    prompt: "Buluu"
+    translation: "Bleu"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Tofaa nyekundu"
+    translation: "Pomme rouge"
+    xp_reward: 18
+
+  - id: 47
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Tofaa ni nyekundu"
+    translation: "La pomme est rouge"
+    xp_reward: 20
+
+  - id: 48
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Anga ni buluu"
+    translation: "Le ciel est bleu"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+  - id: 49
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'La pomme est rouge'"
+    word_bank: ["Tofaa", "ni", "nyekundu", "Anga", "ni", "buluu"]
+    correct_answer: ["Tofaa", "ni", "nyekundu"]
+    xp_reward: 20
+
+  - id: 50
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Le ciel est bleu'"
+    word_bank: ["Anga", "ni", "buluu", "Tofaa", "ni", "nyekundu"]
+    correct_answer: ["Anga", "ni", "buluu"]
+    xp_reward: 20
+
+  - id: 51
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Oiseau rouge'"
+    word_bank: ["Ndege", "nyekundu", "wa", "buluu", "wa", "manjano"]
+    correct_answer: ["Ndege", "nyekundu"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Poisson bleu'"
+    word_bank: ["Samaki", "wa", "buluu", "nyekundu", "wa", "manjano"]
+    correct_answer: ["Samaki", "wa", "buluu"]
+    xp_reward: 18
+
+  - id: 53
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'L'oiseau rouge vole'"
+    word_bank: ["Ndege", "nyekundu", "anaruka", "Samaki", "anaogelea", "juu"]
+    correct_answer: ["Ndege", "nyekundu", "anaruka"]
+    xp_reward: 25
+
+  - id: 54
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'La grenouille verte saute'"
+    word_bank: ["Chura", "wa", "kijani", "anaruka", "Ndege", "nyekundu", "anaruka"]
+    correct_answer: ["Chura", "wa", "kijani", "anaruka"]
+    xp_reward: 25
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 55
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["ni", "Tofaa", "nyekundu"]
+    correct_sentence: "Tofaa ni nyekundu"
+    translation: "La pomme est rouge"
+    xp_reward: 20
+
+  - id: 56
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["ni", "Anga", "buluu"]
+    correct_sentence: "Anga ni buluu"
+    translation: "Le ciel est bleu"
+    xp_reward: 20
+
+  - id: 57
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["nyekundu", "Ndege", "anaruka"]
+    correct_sentence: "Ndege nyekundu anaruka"
+    translation: "L'oiseau rouge vole"
+    xp_reward: 25
+
+  - id: 58
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["wa", "kijani", "Chura", "anaruka"]
+    correct_sentence: "Chura wa kijani anaruka"
+    translation: "La grenouille verte saute"
+    xp_reward: 25
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 59
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Tofaa ni ___."
+    options: ["nyekundu", "buluu", "kijani"]
+    correct_answer: "nyekundu"
+    translation: "La pomme est rouge"
+    xp_reward: 15
+
+  - id: 60
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Anga ni ___."
+    options: ["nyekundu", "buluu", "manjano"]
+    correct_answer: "buluu"
+    translation: "Le ciel est bleu"
+    xp_reward: 15
+
+  - id: 61
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Nyasi ni ___."
+    options: ["kijani", "buluu", "nyekundu"]
+    correct_answer: "kijani"
+    translation: "L'herbe est verte"
+    xp_reward: 15
+
+  - id: 62
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Jua ni ___."
+    options: ["manjano", "nyekundu", "buluu"]
+    correct_answer: "manjano"
+    translation: "Le soleil est jaune"
+    xp_reward: 15
+
+  - id: 63
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Ndege ___ anaruka."
+    options: ["nyekundu", "wa buluu", "wa manjano"]
+    correct_answer: "nyekundu"
+    translation: "L'oiseau rouge vole"
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 64
+    type: picture_word
+    question: "De quelle couleur est ceci ?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Nyekundu", "Buluu", "Kijani", "Manjano"]
+    correct_answer: "Nyekundu"
+    xp_reward: 10
+
+  - id: 65
+    type: picture_word
+    question: "De quelle couleur est ceci ?"
+    image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Nyekundu", "Buluu", "Nyeusi", "Nyeupe"]
+    correct_answer: "Buluu"
+    xp_reward: 10
+
+  - id: 66
+    type: picture_word
+    question: "De quelle couleur est ceci ?"
+    image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Manjano", "Machungwa", "Kijani", "Buluu"]
+    correct_answer: "Kijani"
+    xp_reward: 10
+
+  - id: 67
+    type: picture_word
+    question: "De quelle couleur est ceci ?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Nyekundu", "Manjano", "Nyeusi", "Nyeupe"]
+    correct_answer: "Manjano"
+    xp_reward: 10
+
+  - id: 68
+    type: picture_word
+    question: "De quelle couleur est ceci ?"
+    image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Nyeupe", "Buluu", "Nyeusi", "Machungwa"]
+    correct_answer: "Nyeusi"
+    xp_reward: 10
+
+  - id: 69
+    type: picture_word
+    question: "De quelle couleur est ceci ?"
+    image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Nyeusi", "Nyeupe", "Kijani", "Nyekundu"]
+    correct_answer: "Nyeupe"
+    xp_reward: 10
+
+  - id: 70
+    type: picture_word
+    question: "De quelle couleur est ceci ?"
+    image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Nyekundu", "Manjano", "Machungwa", "Buluu"]
+    correct_answer: "Machungwa"
+    xp_reward: 10
+
+  - id: 71
+    type: picture_word
+    question: "De quelle couleur est cette pomme ?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+    options: ["Nyekundu", "Kijani", "Manjano", "Machungwa"]
+    correct_answer: "Nyekundu"
+    xp_reward: 15
+
+  - id: 72
+    type: picture_word
+    question: "De quelle couleur est cet oiseau ?"
+    image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Nyekundu", "Buluu", "Manjano", "Kijani"]
+    correct_answer: "Buluu"
+    xp_reward: 15
+
+  # 10. Word Matching (Pairing)
+  - id: 73
+    type: matching
+    question: "Associez les couleurs"
+    pairs:
+      - left: "Rouge"
+        right: "Nyekundu"
+      - left: "Bleu"
+        right: "Buluu"
+      - left: "Vert"
+        right: "Kijani"
+      - left: "Jaune"
+        right: "Manjano"
+      - left: "Noir"
+        right: "Nyeusi"
+      - left: "Blanc"
+        right: "Nyeupe"
+      - left: "Orange"
+        right: "Machungwa"
+    xp_reward: 25
+
+  - id: 74
+    type: matching
+    question: "Associez les objets colorés"
+    pairs:
+      - left: "Pomme rouge"
+        right: "Tofaa nyekundu"
+      - left: "Ciel bleu"
+        right: "Anga ya buluu"
+      - left: "Herbe verte"
+        right: "Nyasi za kijani"
+      - left: "Soleil jaune"
+        right: "Jua la manjano"
+      - left: "Chat noir"
+        right: "Paka mweusi"
+      - left: "Vache blanche"
+        right: "Ng'ombe mweupe"
+    xp_reward: 25
+
+  - id: 75
+    type: matching
+    question: "Associez les animaux colorés"
+    pairs:
+      - left: "Oiseau rouge"
+        right: "Ndege nyekundu"
+      - left: "Grenouille verte"
+        right: "Chura wa kijani"
+      - left: "Poisson bleu"
+        right: "Samaki wa buluu"
+      - left: "Poulet jaune"
+        right: "Kuku wa manjano"
+      - left: "Lapin noir"
+        right: "Sungura mweusi"
+      - left: "Chèvre blanche"
+        right: "Mbuzi mweupe"
+    xp_reward: 25
+
+  # 11. Choose Missing Word
+  - id: 80
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Tofaa ni ___."
+    missing_word_position: 3
+    options: ["nyekundu", "buluu", "kijani"]
+    correct_answer: "nyekundu"
+    translation: "La pomme est rouge"
+    xp_reward: 15
+
+  - id: 81
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Anga ni ___."
+    missing_word_position: 3
+    options: ["nyekundu", "buluu", "manjano"]
+    correct_answer: "buluu"
+    translation: "Le ciel est bleu"
+    xp_reward: 15
+
+  - id: 82
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Ndege ___ anaruka."
+    missing_word_position: 2
+    options: ["nyekundu", "wa buluu", "wa manjano"]
+    correct_answer: "nyekundu"
+    translation: "L'oiseau rouge vole"
+    xp_reward: 18
+
+  # 12. Read and Answer - Questions in French, answers based on Kiswahili text
+  - id: 83
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Tofaa ni nyekundu. Anga ni buluu. Nyasi ni kijani."
+    question: "De quelle couleur est la pomme ?"
+    options: ["Rouge", "Bleu", "Vert", "Jaune"]
+    correct_answer: "Rouge"
+    xp_reward: 20
+
+  - id: 84
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Ndege nyekundu anaruka. Chura wa kijani anaruka. Samaki wa buluu anaogelea."
+    question: "Que fait l'oiseau rouge ?"
+    options: ["Nage", "Saute", "Vole", "Court"]
+    correct_answer: "Vole"
+    xp_reward: 25
+
+  - id: 85
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Paka ni mweusi. Ng'ombe ni mweupe. Kuku ni wa manjano."
+    question: "De quelle couleur est la vache ?"
+    options: ["Noir", "Blanc", "Jaune", "Rouge"]
+    correct_answer: "Blanc"
+    xp_reward: 20
+
+  # 13. True / False
+  - id: 86
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Tofaa ni nyekundu."
+    translation: "La pomme est rouge"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 87
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Anga ni kijani."
+    translation: "Le ciel est vert"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 88
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Ng'ombe ni mweupe."
+    translation: "La vache est blanche"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 89
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Ndege nyekundu anaruka."
+    translation: "L'oiseau rouge vole"
+    correct_answer: true
+    xp_reward: 10
+
+  # 14. Conversation Exercise - Build responses from pieces
+  - id: 90
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Tofaa hili ni rangi gani?"
+    translation: "De quelle couleur est cette pomme ?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+    word_bank: ["Tofaa", "ni", "nyekundu", "ni", "buluu", "ni"]
+    correct_response: ["Tofaa", "ni", "nyekundu"]
+    xp_reward: 20
+
+  - id: 91
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Anga ni rangi gani?"
+    translation: "De quelle couleur est le ciel ?"
+    options:
+      - "Nyekundu"
+      - "Buluu"
+      - "Kijani"
+    correct_response: "Buluu"
+    xp_reward: 15
+
+  - id: 92
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Paka ni mweusi?"
+    translation: "Le chat est-il noir ?"
+    options:
+      - "Ndiyo, ni mweusi"
+      - "Hapana, ni mweupe"
+      - "Hapana, ni nyekundu"
+    correct_response: "Ndiyo, ni mweusi"
+    xp_reward: 15
+
+  # 15. Story Exercise - Build sentences from pieces
+  - id: 93
+    type: story
+    title: "Les couleurs dans le champ"
+    story_intro: "Lisez l'histoire sur les animaux colorés. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "Il y a un oiseau rouge dans le ciel."
+        image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+      - text: "L'oiseau vole au-dessus."
+      - text: "Il y a une grenouille verte près de l'eau."
+      - text: "La grenouille saute."
+      - text: "Il y a un poisson bleu dans l'eau."
+      - text: "Le poisson nage."
+    exercises:
+      - type: word_bank
+        question: "Construisez la phrase en Kiswahili pour 'L'oiseau rouge vole'"
+        word_bank: ["Ndege", "nyekundu", "anaruka", "Chura", "wa", "kijani", "anaruka"]
+        correct_answer: ["Ndege", "nyekundu", "anaruka"]
+      - type: word_bank
+        question: "Construisez la phrase en Kiswahili pour 'La grenouille verte saute'"
+        word_bank: ["Chura", "wa", "kijani", "anaruka", "Samaki", "wa", "buluu", "anaogelea"]
+        correct_answer: ["Chura", "wa", "kijani", "anaruka"]
+      - type: word_bank
+        question: "Construisez la phrase en Kiswahili pour 'Le poisson bleu nage'"
+        word_bank: ["Samaki", "wa", "buluu", "anaogelea", "Ndege", "nyekundu", "anaruka"]
+        correct_answer: ["Samaki", "wa", "buluu", "anaogelea"]
+    xp_reward: 40
+
+  # 16. Pronunciation Check
+  - id: 94
+    type: pronunciation
+    question: "Dites la couleur"
+    prompt: "Nyekundu"
+    translation: "Rouge"
+    xp_reward: 15
+
+  - id: 95
+    type: pronunciation
+    question: "Dites la couleur"
+    prompt: "Twiga"
+    translation: "Girafe (elles sont jaunes et marron)"
+    xp_reward: 20
+
+  - id: 96
+    type: pronunciation
+    question: "Dites la phrase"
+    prompt: "Tofaa nyekundu"
+    translation: "Pomme rouge"
+    xp_reward: 18
+
+  # 17. Identify Correct Meaning
+  - id: 97
+    type: identify_meaning
+    question: "Que signifie 'nyekundu' dans cette phrase ?"
+    context_sentence: "Tofaa ni nyekundu."
+    word: "nyekundu"
+    options: ["rouge", "bleu", "vert", "jaune"]
+    correct_answer: "rouge"
+    xp_reward: 15
+
+  - id: 98
+    type: identify_meaning
+    question: "Que signifie 'nyekundu' dans cette phrase ?"
+    context_sentence: "Ndege nyekundu anaruka."
+    word: "nyekundu"
+    options: ["rouge", "bleu", "vert", "jaune"]
+    correct_answer: "rouge"
+    note: "nyekundu est la forme adjectivale de nyekundu pour décrire un nom"
+    xp_reward: 18
+
+  - id: 99
+    type: identify_meaning
+    question: "Que signifie 'wa kijani' dans cette phrase ?"
+    context_sentence: "Chura wa kijani anaruka."
+    word: "wa kijani"
+    options: ["rouge", "bleu", "vert", "jaune"]
+    correct_answer: "vert"
+    xp_reward: 18
+
+  # 18. Speed Matching
+  - id: 100
+    type: speed_matching
+    title: "Match Madness : Couleurs"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Rouge"
+        right: "Nyekundu"
+      - left: "Bleu"
+        right: "Buluu"
+      - left: "Vert"
+        right: "Kijani"
+      - left: "Jaune"
+        right: "Manjano"
+      - left: "Noir"
+        right: "Nyeusi"
+      - left: "Blanc"
+        right: "Nyeupe"
+      - left: "Orange"
+        right: "Machungwa"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 101
+    type: timed_challenge
+    title: "Tour éclair : Couleurs"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Rouge"
+        answer: "Nyekundu"
+      - question: "Bleu"
+        answer: "Buluu"
+      - question: "Vert"
+        answer: "Kijani"
+      - question: "Jaune"
+        answer: "Manjano"
+      - question: "Noir"
+        answer: "Nyeusi"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Nyekundu"
+      back: "Rouge"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Buluu"
+      back: "Bleu"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Kijani"
+      back: "Vert"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Manjano"
+      back: "Jaune"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Nyeusi"
+      back: "Noir"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Nyeupe"
+      back: "Blanc"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Machungwa"
+      back: "Orange"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Tofaa nyekundu"
+      back: "Pomme rouge"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Anga ya buluu"
+      back: "Ciel bleu"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Nyasi za kijani"
+      back: "Herbe verte"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

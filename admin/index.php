@@ -1,32 +1,26 @@
 <?php
 session_start();
 include '../backend/config.php';
-
 // Check if user is logged in and is admin
 if (!isset($_SESSION['user_id']) || !isset($_SESSION['is_admin']) || $_SESSION['is_admin'] != 1) {
-    header("Location: ../frontend/login.php");
+    $current_page = basename($_SERVER['PHP_SELF']);
+    header("Location: ../frontend/signin.php?redirect_to=../../admin/" . $current_page);
     exit;
 }
-
 // Get statistics
 $stats = [];
-
 // Total users
 $stmt = $pdo->query("SELECT COUNT(*) as total FROM users");
 $stats['total_users'] = $stmt->fetch()['total'];
-
 // New users today
 $stmt = $pdo->query("SELECT COUNT(*) as total FROM users WHERE DATE(created_at) = CURDATE()");
 $stats['new_users_today'] = $stmt->fetch()['total'];
-
 // Total lessons
 $stmt = $pdo->query("SELECT COUNT(*) as total FROM lessons");
 $stats['total_lessons'] = $stmt->fetch()['total'];
-
 // Total exercises
 $stmt = $pdo->query("SELECT COUNT(*) as total FROM exercises");
 $stats['total_exercises'] = $stmt->fetch()['total'];
-
 // Active users (last 7 days)
 $stmt = $pdo->query("
     SELECT COUNT(DISTINCT user_id) as total 
@@ -34,7 +28,6 @@ $stmt = $pdo->query("
     WHERE last_attempt >= DATE_SUB(NOW(), INTERVAL 7 DAY)
 ");
 $stats['active_users'] = $stmt->fetch()['total'];
-
 // Total XP earned
 $stmt = $pdo->query("SELECT SUM(xp) as total FROM leaderboard");
 $stats['total_xp'] = $stmt->fetch()['total'] ?? 0;

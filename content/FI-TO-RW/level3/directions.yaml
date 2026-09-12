@@ -1,0 +1,1229 @@
+lesson:
+ name: "Suunta - Amabwiriza y'ahantu"
+ description: "Opettele direction words and phrases in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Direction Words ONLY (Safe for single words)
+ # Basic Suunta
+ - id: 1
+ type: translation
+ Kysymys: "Miten sanotaan 'Vasen' kinyarwandaksi?"
+ Vastaus: "Ibumoso"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Kysymys: "Miten sanotaan 'Oikea' kinyarwandaksi?"
+ Vastaus: "Iburyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Kysymys: "Miten sanotaan 'Suoraan' kinyarwandaksi?"
+ Vastaus: "Uburyohe / Guhita imbere"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Kysymys: "Miten sanotaan 'Back / Behind' kinyarwandaksi?"
+ Vastaus: "Inyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Kysymys: "Miten sanotaan 'Front' kinyarwandaksi?"
+ Vastaus: "Imbere"
+ xp_reward: 10
+
+ # Cardinal Suunta
+ - id: 6
+ type: translation
+ Kysymys: "Miten sanotaan 'North' kinyarwandaksi?"
+ Vastaus: "Amajyaruguru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Kysymys: "Miten sanotaan 'South' kinyarwandaksi?"
+ Vastaus: "Amajyepfo"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Kysymys: "Miten sanotaan 'East' kinyarwandaksi?"
+ Vastaus: "Uburasirazuba"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Kysymys: "Miten sanotaan 'West' kinyarwandaksi?"
+ Vastaus: "Uburengerazuba"
+ xp_reward: 10
+
+ # Location Words
+ - id: 10
+ type: translation
+ Kysymys: "Miten sanotaan 'Near' kinyarwandaksi?"
+ Vastaus: "Hafi"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Kysymys: "Miten sanotaan 'Far' kinyarwandaksi?"
+ Vastaus: "Hahandi / kure"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Kysymys: "Miten sanotaan 'Around' kinyarwandaksi?"
+ Vastaus: "Hagarika / ahantu hose"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ # Places and Features
+ - id: 13
+ type: translation
+ Kysymys: "Miten sanotaan 'Intersection / Crossroads' kinyarwandaksi?"
+ Vastaus: "Ahantu hahurira imihanda"
+ xp_reward: 18
+
+ - id: 14
+ type: translation
+ Kysymys: "Miten sanotaan 'Street / Road' kinyarwandaksi?"
+ Vastaus: "Umuhanda"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Kysymys: "Miten sanotaan 'Corner' kinyarwandaksi?"
+ Vastaus: "Inguni"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Kysymys: "Miten sanotaan 'Traffic light' kinyarwandaksi?"
+ Vastaus: "Itara ry'umuhanda"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Kysymys: "Miten sanotaan 'Sign / Signpost' kinyarwandaksi?"
+ Vastaus: "Ikimenyetso / Ikimenyetso cy'umuhanda"
+ xp_reward: 18
+
+ # Direction Commands
+ - id: 18
+ type: translation
+ Kysymys: "Miten sanotaan 'Turn Vasen' kinyarwandaksi?"
+ Vastaus: "Hagarika ibumoso."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Kysymys: "Miten sanotaan 'Turn Oikea' kinyarwandaksi?"
+ Vastaus: "Hagarika iburyo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Kysymys: "Miten sanotaan 'Go Suoraan' kinyarwandaksi?"
+ Vastaus: "Komeza imbere."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Kysymys: "Miten sanotaan 'Go back' kinyarwandaksi?"
+ Vastaus: "Subira inyuma."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Kysymys: "Miten sanotaan 'Cross the street' kinyarwandaksi?"
+ Vastaus: "Kora umuhanda."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Kysymys: "Miten sanotaan 'Stop at the traffic light' kinyarwandaksi?"
+ Vastaus: "Hagarara ku itara ry'umuhanda."
+ xp_reward: 18
+
+ # Location Lause
+ - id: 24
+ type: translation
+ Kysymys: "Miten sanotaan 'The bank is in front of the Koulu' kinyarwandaksi?"
+ Vastaus: "Banki iri imbere y'ishuri."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Kysymys: "Miten sanotaan 'The Markkinat is near' kinyarwandaksi?"
+ Vastaus: "Isoko riri hafi."
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ Kysymys: "Miten sanotaan 'The hospital is far' kinyarwandaksi?"
+ Vastaus: "Ibitaro biri kure."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Ibumoso' tässä lauseessa?"
+ options:
+ - "Oikea"
+ - "Vasen"
+ - "Suoraan"
+ - "Front"
+ Vastaus: "Vasen"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Iburyo' tässä lauseessa?"
+ options:
+ - "Vasen"
+ - "Oikea"
+ - "Back"
+ - "North"
+ Vastaus: "Oikea"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Imbere' tässä lauseessa?"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ - "Far"
+ Vastaus: "Front"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Inyuma' tässä lauseessa?"
+ options:
+ - "Front"
+ - "Behind"
+ - "Vasen"
+ - "Oikea"
+ Vastaus: "Behind"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Amajyaruguru' tässä lauseessa?"
+ options:
+ - "South"
+ - "North"
+ - "East"
+ - "West"
+ Vastaus: "North"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Hafi' tässä lauseessa?"
+ options:
+ - "Far"
+ - "Near"
+ - "Around"
+ - "Suoraan"
+ Vastaus: "Near"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Umuhanda' tässä lauseessa?"
+ options:
+ - "Corner"
+ - "Street"
+ - "Traffic light"
+ - "Sign"
+ Vastaus: "Street"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Hagarika ibumoso' tässä lauseessa?"
+ options:
+ - "Turn Oikea"
+ - "Turn Vasen"
+ - "Go Suoraan"
+ - "Go back"
+ Vastaus: "Turn Vasen"
+ xp_reward: 18
+
+ # 3. Kuuntele and Type (Dictation)
+ - id: 35
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the direction word"
+ audio: "Ibumoso"
+ Vastaus: "Ibumoso"
+ translation: "Vasen"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the direction word"
+ audio: "Iburyo"
+ Vastaus: "Iburyo"
+ translation: "Oikea"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the direction word"
+ audio: "Imbere"
+ Vastaus: "Imbere"
+ translation: "Front"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the direction word"
+ audio: "Inyuma"
+ Vastaus: "Inyuma"
+ translation: "Behind"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the direction word"
+ audio: "Hafi"
+ Vastaus: "Hafi"
+ translation: "Near"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the command"
+ audio: "Hagarika ibumoso"
+ Vastaus: "Hagarika ibumoso"
+ translation: "Turn Vasen"
+ xp_reward: 22
+
+ - id: 41
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the command"
+ audio: "Komeza imbere"
+ Vastaus: "Komeza imbere"
+ translation: "Go Suoraan"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the Lause"
+ audio: "Isoko riri hafi"
+ Vastaus: "Isoko riri hafi"
+ translation: "The Markkinat is near"
+ xp_reward: 22
+
+ 
+ # 4. Kuuntele and Valitse
+ - id: 44
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct direction"
+ audio: "Ibumoso"
+ options:
+ - "Vasen"
+ - "Oikea"
+ - "Suoraan"
+ Vastaus: "Vasen"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct direction"
+ audio: "Iburyo"
+ options:
+ - "Vasen"
+ - "Oikea"
+ - "Back"
+ Vastaus: "Oikea"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct direction"
+ audio: "Imbere"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ Vastaus: "Front"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct command"
+ audio: "Hagarika ibumoso"
+ options:
+ - "Turn Oikea"
+ - "Turn Vasen"
+ - "Go Suoraan"
+ Vastaus: "Turn Vasen"
+ xp_reward: 18
+
+ - id: 48
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct Lause"
+ audio: "Isoko riri hafi"
+ options:
+ - "The Markkinat is far"
+ - "The Markkinat is near"
+ - "The Markkinat is in front"
+ Vastaus: "The Markkinat is near"
+ xp_reward: 18
+
+ # 5. Repeat / Puhu Exercise
+ - id: 49
+ type: Puhu
+ Kysymys: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "Vasen"
+ xp_reward: 15
+
+ - id: 50
+ type: Puhu
+ Kysymys: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "Oikea"
+ xp_reward: 15
+
+ - id: 51
+ type: Puhu
+ Kysymys: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 52
+ type: Puhu
+ Kysymys: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 53
+ type: Puhu
+ Kysymys: "Say this direction word"
+ prompt: "Hafi"
+ translation: "Near"
+ xp_reward: 15
+
+ - id: 54
+ type: Puhu
+ Kysymys: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Vasen"
+ xp_reward: 18
+
+ - id: 55
+ type: Puhu
+ Kysymys: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Suoraan"
+ xp_reward: 18
+
+ - id: 56
+ type: Puhu
+ Kysymys: "Say this Lause"
+ prompt: "Isoko riri hafi"
+ translation: "The Markkinat is near"
+ xp_reward: 18
+
+ - id: 57
+ type: Puhu
+ Kysymys: "Say this Lause"
+ prompt: "Banki iri imbere y'ishuri"
+ translation: "The bank is in front of the Koulu"
+ xp_reward: 22
+
+ # 6. Word Bank Lause Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ Kysymys: "Build the command 'Turn Vasen'"
+ word_bank: ["Hagarika", "ibumoso", "iburyo", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "ibumoso"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Kysymys: "Build the command 'Turn Oikea'"
+ word_bank: ["Hagarika", "iburyo", "ibumoso", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "iburyo"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Kysymys: "Build the command 'Go Suoraan'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira"]
+ correct_answer: ["Komeza", "imbere"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ Kysymys: "Build the command 'Go back'"
+ word_bank: ["Subira", "inyuma", "komeza", "imbere", "hagarika"]
+ correct_answer: ["Subira", "inyuma"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Kysymys: "Build the Lause 'The bank is in front of the Koulu'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri", "hafi"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Kysymys: "Build the Lause 'The Markkinat is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ Kysymys: "Build the Lause 'The hospital is far'"
+ word_bank: ["Ibitaro", "biri", "kure", "isoko", "riri", "hafi"]
+ correct_answer: ["Ibitaro", "biri", "kure"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ Kysymys: "Build the command 'Cross the street'"
+ word_bank: ["Kora", "umuhanda", "hagarara", "itara", "ry'umuhanda"]
+ correct_answer: ["Kora", "umuhanda"]
+ xp_reward: 15
+
+ - id: 66
+ type: word_bank
+ Kysymys: "Build the command 'Stop at the traffic light'"
+ word_bank: ["Hagarara", "ku", "itara", "ry'umuhanda", "kora", "umuhanda"]
+ correct_answer: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ xp_reward: 22
+
+ # 7. Lause Scramble - PIECES PROVIDED
+ - id: 67
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "ibumoso"]
+ correct_sentence: "Hagarika ibumoso."
+ translation: "Turn Vasen."
+ xp_reward: 15
+
+ - id: 68
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "iburyo"]
+ correct_sentence: "Hagarika iburyo."
+ translation: "Turn Oikea."
+ xp_reward: 15
+
+ - id: 69
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct command"
+ scrambled_words: ["Komeza", "imbere"]
+ correct_sentence: "Komeza imbere."
+ translation: "Go Suoraan."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct command"
+ scrambled_words: ["Subira", "inyuma"]
+ correct_sentence: "Subira inyuma."
+ translation: "Go back."
+ xp_reward: 15
+
+ - id: 71
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Lause"
+ scrambled_words: ["Banki", "iri", "imbere", "y'ishuri"]
+ correct_sentence: "Banki iri imbere y'ishuri."
+ translation: "The bank is in front of the Koulu."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Lause"
+ scrambled_words: ["Isoko", "riri", "hafi"]
+ correct_sentence: "Isoko riri hafi."
+ translation: "The Markkinat is near."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Lause"
+ scrambled_words: ["Ibitaro", "biri", "kure"]
+ correct_sentence: "Ibitaro biri kure."
+ translation: "The hospital is far."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct command"
+ scrambled_words: ["Kora", "umuhanda"]
+ correct_sentence: "Kora umuhanda."
+ translation: "Cross the street."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ correct_sentence: "Hagarara ku itara ry'umuhanda."
+ translation: "Stop at the traffic light."
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Valitse FROM OPTIONS
+ - id: 76
+ type: fill_blank
+ Kysymys: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Vasen."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ Kysymys: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["iburyo", "ibumoso", "imbere"]
+ correct_answer: "iburyo"
+ translation: "Turn Oikea."
+ xp_reward: 12
+
+ - id: 78
+ type: fill_blank
+ Kysymys: "Complete the command"
+ text_with_blank: "Komeza ___."
+ options: ["imbere", "inyuma", "ibumoso"]
+ correct_answer: "imbere"
+ translation: "Go Suoraan."
+ xp_reward: 12
+
+ - id: 79
+ type: fill_blank
+ Kysymys: "Complete the command"
+ text_with_blank: "Subira ___."
+ options: ["inyuma", "imbere", "iburyo"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ Kysymys: "Complete the Lause"
+ text_with_blank: "Isoko riri ___."
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Markkinat is near."
+ xp_reward: 12
+
+ - id: 81
+ type: fill_blank
+ Kysymys: "Complete the Lause"
+ text_with_blank: "Ibitaro biri ___."
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 82
+ type: fill_blank
+ Kysymys: "Complete the Lause"
+ text_with_blank: "Banki iri imbere ___."
+ options: ["y'ishuri", "y'isoko", "y'ibitaro"]
+ correct_answer: "y'ishuri"
+ translation: "The bank is in front of the Koulu."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ Kysymys: "Complete the command"
+ text_with_blank: "Kora ___."
+ options: ["umuhanda", "itara", "inguni"]
+ correct_answer: "umuhanda"
+ translation: "Cross the street."
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ Kysymys: "Complete the command"
+ text_with_blank: "Hagarara ku ___ ry'umuhanda."
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 85
+ type: picture_word
+ Kysymys: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?left-arrow"
+ options: ["Ibumoso", "Iburyo", "Imbere"]
+ correct_answer: "Ibumoso"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Kysymys: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?right-arrow"
+ options: ["Ibumoso", "Iburyo", "Inyuma"]
+ correct_answer: "Iburyo"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Kysymys: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?straight-arrow"
+ options: ["Imbere", "Inyuma", "Ibumoso"]
+ correct_answer: "Imbere"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Kysymys: "Mikä on this?"
+ image_url: "https://source.unsplash.com/featured/?traffic-light"
+ options: ["Itara ry'umuhanda", "Umuhanda", "Ikimenyetso"]
+ correct_answer: "Itara ry'umuhanda"
+ xp_reward: 12
+
+ - id: 89
+ type: picture_word
+ Kysymys: "Mikä on this?"
+ image_url: "https://source.unsplash.com/featured/?street-corner"
+ options: ["Inguni", "Umuhanda", "Ahantu hahurira imihanda"]
+ correct_answer: "Inguni"
+ xp_reward: 10
+
+ - id: 90
+ type: picture_word
+ Kysymys: "Mikä on this?"
+ image_url: "https://source.unsplash.com/featured/?road-sign"
+ options: ["Ikimenyetso", "Itara", "Umuhanda"]
+ correct_answer: "Ikimenyetso"
+ xp_reward: 10
+
+ - id: 91
+ type: picture_word
+ Kysymys: "Mikä on this?"
+ image_url: "https://source.unsplash.com/featured/?intersection"
+ options: ["Ahantu hahurira imihanda", "Inguni", "Umuhanda"]
+ correct_answer: "Ahantu hahurira imihanda"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ Kysymys: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?bank"
+ options: ["Banki", "Isoko", "Ibitaro"]
+ correct_answer: "Banki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ Kysymys: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?market"
+ options: ["Isoko", "Banki", "Ibitaro"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ Kysymys: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?hospital"
+ options: ["Ibitaro", "Isoko", "Banki"]
+ correct_answer: "Ibitaro"
+ xp_reward: 10
+
+ # 10. Word Yhdistä (Pairing)
+ - id: 95
+ type: Yhdistä
+ Kysymys: "Yhdistä the basic Suunta"
+ pairs:
+ - Vasen: "Vasen"
+ Oikea: "Ibumoso"
+ - Vasen: "Oikea"
+ Oikea: "Iburyo"
+ - Vasen: "Suoraan"
+ Oikea: "Uburyohe / Guhita imbere"
+ - Vasen: "Front"
+ Oikea: "Imbere"
+ - Vasen: "Behind"
+ Oikea: "Inyuma"
+ xp_reward: 20
+
+ - id: 96
+ type: Yhdistä
+ Kysymys: "Yhdistä the cardinal Suunta"
+ pairs:
+ - Vasen: "North"
+ Oikea: "Amajyaruguru"
+ - Vasen: "South"
+ Oikea: "Amajyepfo"
+ - Vasen: "East"
+ Oikea: "Uburasirazuba"
+ - Vasen: "West"
+ Oikea: "Uburengerazuba"
+ xp_reward: 18
+
+ - id: 97
+ type: Yhdistä
+ Kysymys: "Yhdistä the location words"
+ pairs:
+ - Vasen: "Near"
+ Oikea: "Hafi"
+ - Vasen: "Far"
+ Oikea: "Hahandi / kure"
+ - Vasen: "Around"
+ Oikea: "Hagarika / ahantu hose"
+ xp_reward: 15
+
+ - id: 98
+ type: Yhdistä
+ Kysymys: "Yhdistä the commands"
+ pairs:
+ - Vasen: "Turn Vasen"
+ Oikea: "Hagarika ibumoso"
+ - Vasen: "Turn Oikea"
+ Oikea: "Hagarika iburyo"
+ - Vasen: "Go Suoraan"
+ Oikea: "Komeza imbere"
+ - Vasen: "Go back"
+ Oikea: "Subira inyuma"
+ - Vasen: "Cross the street"
+ Oikea: "Kora umuhanda"
+ - Vasen: "Stop at the traffic light"
+ Oikea: "Hagarara ku itara ry'umuhanda"
+ xp_reward: 25
+
+ - id: 99
+ type: Yhdistä
+ Kysymys: "Yhdistä the Lause"
+ pairs:
+ - Vasen: "The bank is in front of the Koulu"
+ Oikea: "Banki iri imbere y'ishuri"
+ - Vasen: "The Markkinat is near"
+ Oikea: "Isoko riri hafi"
+ - Vasen: "The hospital is far"
+ Oikea: "Ibitaro biri kure"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Valitse Missing Word
+ - id: 100
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Hagarika ___."
+ missing_word_position: 2
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Vasen."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Komeza ___."
+ missing_word_position: 2
+ options: ["imbere", "inyuma", "iburyo"]
+ correct_answer: "imbere"
+ translation: "Go Suoraan."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Subira ___."
+ missing_word_position: 2
+ options: ["inyuma", "imbere", "ibumoso"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 103
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Isoko riri ___."
+ missing_word_position: 3
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Markkinat is near."
+ xp_reward: 12
+
+ - id: 104
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Ibitaro biri ___."
+ missing_word_position: 3
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 105
+ type: choose_missing
+ Kysymys: "Valitse the missing phrase"
+ Lause: "Hagarara ku ___ ry'umuhanda."
+ missing_word_position: 3
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 13. Lue and Vastaus - Kysymys based on text
+ - id: 106
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Komeza imbere. Hagarika ibumoso."
+ Kysymys: "Mikä on the first instruction?"
+ options: ["Turn Vasen", "Go Suoraan", "Turn Oikea", "Go back"]
+ correct_answer: "Go Suoraan"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Banki iri imbere y'ishuri. Isoko riri hafi."
+ Kysymys: "Where is the bank?"
+ options: ["Near the Markkinat", "In front of the Koulu", "Far away", "Behind the Koulu"]
+ correct_answer: "In front of the Koulu"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Hagarara ku itara ry'umuhanda. Kora umuhanda."
+ Kysymys: "What should you do at the traffic light?"
+ options: ["Turn Vasen", "Stop", "Go Suoraan", "Turn Oikea"]
+ correct_answer: "Stop"
+ xp_reward: 15
+
+ - id: 109
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Ibitaro biri kure. Isoko riri hafi."
+ Kysymys: "Is the hospital near or far?"
+ options: ["Near", "Far", "Very close", "Not mentioned"]
+ correct_answer: "Far"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Subira inyuma. Hagarika iburyo."
+ Kysymys: "Mikä on the second instruction?"
+ options: ["Go back", "Turn Vasen", "Turn Oikea", "Go Suoraan"]
+ correct_answer: "Turn Oikea"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Ibumoso means 'Oikea'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Iburyo means 'Oikea'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Imbere means 'front'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Hafi means 'far'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Komeza imbere means 'go Suoraan'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Itara ry'umuhanda means 'street sign'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Kysymys: "Respond to the Kysymys by building a command"
+ bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+ translation: "I want to reach the Markkinat. What should I do?"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira", "inyuma"]
+ correct_response: ["Komeza", "imbere"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ Kysymys: "Respond to the Kysymys"
+ bot_message: "Banki iri he?"
+ translation: "Where is the bank?"
+ options:
+ - "Imbere y'ishuri"
+ - "Hafi y'isoko"
+ - "Kure"
+ correct_response: "Imbere y'ishuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ Kysymys: "Respond to the Kysymys by building a command"
+ bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+ translation: "I want to reach the hospital. What should I do?"
+ word_bank: ["Subira", "inyuma", "hagarika", "iburyo", "komeza", "imbere"]
+ correct_response: ["Subira", "inyuma"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ Kysymys: "Respond to the Kysymys"
+ bot_message: "Isoko riri hafi?"
+ translation: "Is the Markkinat near?"
+ options:
+ - "Yego, riri hafi"
+ - "Oya, riri kure"
+ - "Simenye"
+ correct_response: "Yego, riri hafi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build Lause from pieces
+ - id: 121
+ type: story
+ title: "Finding the Markkinat - Gushaka Isoko"
+ story_intro: "Lue about finding the Markkinat. Then build the Lause."
+ story_segments:
+ - text: "I want to go to the Markkinat."
+ - text: "Go Suoraan."
+ - text: "Turn Vasen at the traffic light."
+ - text: "The Markkinat is near."
+ - text: "The bank is in front of the Koulu."
+ exercises:
+ - type: word_bank
+ Kysymys: "Build 'Go Suoraan'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso"]
+ correct_answer: ["Komeza", "imbere"]
+ - type: word_bank
+ Kysymys: "Build 'Turn Vasen at the traffic light'"
+ word_bank: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ correct_answer: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ - type: word_bank
+ Kysymys: "Build 'The Markkinat is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ - type: word_bank
+ Kysymys: "Build 'The bank is in front of the Koulu'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Kysymys: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "Vasen"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Kysymys: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "Oikea"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Kysymys: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ Kysymys: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ Kysymys: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Vasen"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ Kysymys: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Suoraan"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ Kysymys: "Say this Lause"
+ prompt: "Isoko riri hafi"
+ translation: "The Markkinat is near"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 129
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'Hagarika' mean in this command?"
+ context_sentence: "Hagarika ibumoso."
+ word: "Hagarika"
+ options: ["Go", "Turn", "Stop", "Cross"]
+ correct_answer: "Turn"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'Komeza' mean in this command?"
+ context_sentence: "Komeza imbere."
+ word: "Komeza"
+ options: ["Turn", "Stop", "Continue / Go", "Cross"]
+ correct_answer: "Continue / Go"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'hafi' mean in this Lause?"
+ context_sentence: "Isoko riri hafi."
+ word: "hafi"
+ options: ["far", "near", "behind", "front"]
+ correct_answer: "near"
+ xp_reward: 12
+
+ - id: 132
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'kure' mean in this Lause?"
+ context_sentence: "Ibitaro biri kure."
+ word: "kure"
+ options: ["near", "far", "Vasen", "Oikea"]
+ correct_answer: "far"
+ xp_reward: 12
+
+ - id: 133
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'imbere y'' mean in this Lause?"
+ context_sentence: "Banki iri imbere y'ishuri."
+ word: "imbere y'"
+ options: ["behind", "in front of", "next to", "far from"]
+ correct_answer: "in front of"
+ xp_reward: 15
+
+ # 19. Speed Yhdistä
+ - id: 134
+ type: speed_Yhdistä
+ title: "Yhdistä Madness: Suunta"
+ time_limit_seconds: 45
+ pairs:
+ - Vasen: "Vasen"
+ Oikea: "Ibumoso"
+ - Vasen: "Oikea"
+ Oikea: "Iburyo"
+ - Vasen: "Suoraan"
+ Oikea: "Imbere"
+ - Vasen: "Behind"
+ Oikea: "Inyuma"
+ - Vasen: "North"
+ Oikea: "Amajyaruguru"
+ - Vasen: "South"
+ Oikea: "Amajyepfo"
+ - Vasen: "East"
+ Oikea: "Uburasirazuba"
+ - Vasen: "West"
+ Oikea: "Uburengerazuba"
+ - Vasen: "Near"
+ Oikea: "Hafi"
+ - Vasen: "Far"
+ Oikea: "Kure"
+ - Vasen: "Turn Vasen"
+ Oikea: "Hagarika ibumoso"
+ - Vasen: "Turn Oikea"
+ Oikea: "Hagarika iburyo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: Suunta"
+ time_limit_seconds: 30
+ Kysymys_count: 5
+ Kysymys:
+ - Kysymys: "Vasen"
+ Vastaus: "Ibumoso"
+ - Kysymys: "Oikea"
+ Vastaus: "Iburyo"
+ - Kysymys: "Suoraan"
+ Vastaus: "Imbere"
+ - Kysymys: "Behind"
+ Vastaus: "Inyuma"
+ - Kysymys: "Near"
+ Vastaus: "Hafi"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Kysymys: "Flashcards"
+ Flashcards:
+ - front: "Ibumoso"
+ back: "Vasen"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iburyo"
+ back: "Oikea"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Uburyohe / Guhita imbere"
+ back: "Suoraan"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Inyuma"
+ back: "Back / Behind"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbere"
+ back: "Front"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyaruguru"
+ back: "North"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyepfo"
+ back: "South"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburasirazuba"
+ back: "East"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburengerazuba"
+ back: "West"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Hafi"
+ back: "Near"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

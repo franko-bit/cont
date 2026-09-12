@@ -1,0 +1,1229 @@
+lesson:
+ name: "Treoracha - Amabwiriza y'ahantu"
+ description: "Foghlaim direction words and phrases in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Direction Words ONLY (Safe for single words)
+ # Basic Treoracha
+ - id: 1
+ type: translation
+ Ceist: "Conas a deir tú 'Ar chlé' i gCinyarwanda?"
+ Freagra: "Ibumoso"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Ceist: "Conas a deir tú 'Ar dheis' i gCinyarwanda?"
+ Freagra: "Iburyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Ceist: "Conas a deir tú 'Go díreach' i gCinyarwanda?"
+ Freagra: "Uburyohe / Guhita imbere"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Ceist: "Conas a deir tú 'Back / Behind' i gCinyarwanda?"
+ Freagra: "Inyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Ceist: "Conas a deir tú 'Front' i gCinyarwanda?"
+ Freagra: "Imbere"
+ xp_reward: 10
+
+ # Cardinal Treoracha
+ - id: 6
+ type: translation
+ Ceist: "Conas a deir tú 'North' i gCinyarwanda?"
+ Freagra: "Amajyaruguru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Ceist: "Conas a deir tú 'South' i gCinyarwanda?"
+ Freagra: "Amajyepfo"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Ceist: "Conas a deir tú 'East' i gCinyarwanda?"
+ Freagra: "Uburasirazuba"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Ceist: "Conas a deir tú 'West' i gCinyarwanda?"
+ Freagra: "Uburengerazuba"
+ xp_reward: 10
+
+ # Location Words
+ - id: 10
+ type: translation
+ Ceist: "Conas a deir tú 'Near' i gCinyarwanda?"
+ Freagra: "Hafi"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Ceist: "Conas a deir tú 'Far' i gCinyarwanda?"
+ Freagra: "Hahandi / kure"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Ceist: "Conas a deir tú 'Around' i gCinyarwanda?"
+ Freagra: "Hagarika / ahantu hose"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ # Places and Features
+ - id: 13
+ type: translation
+ Ceist: "Conas a deir tú 'Intersection / Crossroads' i gCinyarwanda?"
+ Freagra: "Ahantu hahurira imihanda"
+ xp_reward: 18
+
+ - id: 14
+ type: translation
+ Ceist: "Conas a deir tú 'Street / Road' i gCinyarwanda?"
+ Freagra: "Umuhanda"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Ceist: "Conas a deir tú 'Corner' i gCinyarwanda?"
+ Freagra: "Inguni"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Ceist: "Conas a deir tú 'Traffic light' i gCinyarwanda?"
+ Freagra: "Itara ry'umuhanda"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Ceist: "Conas a deir tú 'Sign / Signpost' i gCinyarwanda?"
+ Freagra: "Ikimenyetso / Ikimenyetso cy'umuhanda"
+ xp_reward: 18
+
+ # Direction Commands
+ - id: 18
+ type: translation
+ Ceist: "Conas a deir tú 'Turn Ar chlé' i gCinyarwanda?"
+ Freagra: "Hagarika ibumoso."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Ceist: "Conas a deir tú 'Turn Ar dheis' i gCinyarwanda?"
+ Freagra: "Hagarika iburyo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Ceist: "Conas a deir tú 'Go Go díreach' i gCinyarwanda?"
+ Freagra: "Komeza imbere."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Ceist: "Conas a deir tú 'Go back' i gCinyarwanda?"
+ Freagra: "Subira inyuma."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Ceist: "Conas a deir tú 'Cross the street' i gCinyarwanda?"
+ Freagra: "Kora umuhanda."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Ceist: "Conas a deir tú 'Stop at the traffic light' i gCinyarwanda?"
+ Freagra: "Hagarara ku itara ry'umuhanda."
+ xp_reward: 18
+
+ # Location Abairt
+ - id: 24
+ type: translation
+ Ceist: "Conas a deir tú 'The bank is in front of the Scoil' i gCinyarwanda?"
+ Freagra: "Banki iri imbere y'ishuri."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Ceist: "Conas a deir tú 'The Margadh is near' i gCinyarwanda?"
+ Freagra: "Isoko riri hafi."
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ Ceist: "Conas a deir tú 'The hospital is far' i gCinyarwanda?"
+ Freagra: "Ibitaro biri kure."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Ceist: "Cad é brí 'Ibumoso' sa ráiteas seo?"
+ options:
+ - "Ar dheis"
+ - "Ar chlé"
+ - "Go díreach"
+ - "Front"
+ Freagra: "Ar chlé"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Ceist: "Cad é brí 'Iburyo' sa ráiteas seo?"
+ options:
+ - "Ar chlé"
+ - "Ar dheis"
+ - "Back"
+ - "North"
+ Freagra: "Ar dheis"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Ceist: "Cad é brí 'Imbere' sa ráiteas seo?"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ - "Far"
+ Freagra: "Front"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Ceist: "Cad é brí 'Inyuma' sa ráiteas seo?"
+ options:
+ - "Front"
+ - "Behind"
+ - "Ar chlé"
+ - "Ar dheis"
+ Freagra: "Behind"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Ceist: "Cad é brí 'Amajyaruguru' sa ráiteas seo?"
+ options:
+ - "South"
+ - "North"
+ - "East"
+ - "West"
+ Freagra: "North"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Ceist: "Cad é brí 'Hafi' sa ráiteas seo?"
+ options:
+ - "Far"
+ - "Near"
+ - "Around"
+ - "Go díreach"
+ Freagra: "Near"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Ceist: "Cad é brí 'Umuhanda' sa ráiteas seo?"
+ options:
+ - "Corner"
+ - "Street"
+ - "Traffic light"
+ - "Sign"
+ Freagra: "Street"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Ceist: "Cad é brí 'Hagarika ibumoso' sa ráiteas seo?"
+ options:
+ - "Turn Ar dheis"
+ - "Turn Ar chlé"
+ - "Go Go díreach"
+ - "Go back"
+ Freagra: "Turn Ar chlé"
+ xp_reward: 18
+
+ # 3. Éist and Type (Dictation)
+ - id: 35
+ type: listen_and_type
+ Ceist: "Éist and type the direction word"
+ audio: "Ibumoso"
+ Freagra: "Ibumoso"
+ translation: "Ar chlé"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Ceist: "Éist and type the direction word"
+ audio: "Iburyo"
+ Freagra: "Iburyo"
+ translation: "Ar dheis"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Ceist: "Éist and type the direction word"
+ audio: "Imbere"
+ Freagra: "Imbere"
+ translation: "Front"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Ceist: "Éist and type the direction word"
+ audio: "Inyuma"
+ Freagra: "Inyuma"
+ translation: "Behind"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ Ceist: "Éist and type the direction word"
+ audio: "Hafi"
+ Freagra: "Hafi"
+ translation: "Near"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_and_type
+ Ceist: "Éist and type the command"
+ audio: "Hagarika ibumoso"
+ Freagra: "Hagarika ibumoso"
+ translation: "Turn Ar chlé"
+ xp_reward: 22
+
+ - id: 41
+ type: listen_and_type
+ Ceist: "Éist and type the command"
+ audio: "Komeza imbere"
+ Freagra: "Komeza imbere"
+ translation: "Go Go díreach"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_and_type
+ Ceist: "Éist and type the Abairt"
+ audio: "Isoko riri hafi"
+ Freagra: "Isoko riri hafi"
+ translation: "The Margadh is near"
+ xp_reward: 22
+
+ 
+ # 4. Éist and Roghnaigh
+ - id: 44
+ type: listen_and_choose
+ Ceist: "Éist and Roghnaigh the correct direction"
+ audio: "Ibumoso"
+ options:
+ - "Ar chlé"
+ - "Ar dheis"
+ - "Go díreach"
+ Freagra: "Ar chlé"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_and_choose
+ Ceist: "Éist and Roghnaigh the correct direction"
+ audio: "Iburyo"
+ options:
+ - "Ar chlé"
+ - "Ar dheis"
+ - "Back"
+ Freagra: "Ar dheis"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ Ceist: "Éist and Roghnaigh the correct direction"
+ audio: "Imbere"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ Freagra: "Front"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_and_choose
+ Ceist: "Éist and Roghnaigh the correct command"
+ audio: "Hagarika ibumoso"
+ options:
+ - "Turn Ar dheis"
+ - "Turn Ar chlé"
+ - "Go Go díreach"
+ Freagra: "Turn Ar chlé"
+ xp_reward: 18
+
+ - id: 48
+ type: listen_and_choose
+ Ceist: "Éist and Roghnaigh the correct Abairt"
+ audio: "Isoko riri hafi"
+ options:
+ - "The Margadh is far"
+ - "The Margadh is near"
+ - "The Margadh is in front"
+ Freagra: "The Margadh is near"
+ xp_reward: 18
+
+ # 5. Repeat / Labhair Exercise
+ - id: 49
+ type: Labhair
+ Ceist: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "Ar chlé"
+ xp_reward: 15
+
+ - id: 50
+ type: Labhair
+ Ceist: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "Ar dheis"
+ xp_reward: 15
+
+ - id: 51
+ type: Labhair
+ Ceist: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 52
+ type: Labhair
+ Ceist: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 53
+ type: Labhair
+ Ceist: "Say this direction word"
+ prompt: "Hafi"
+ translation: "Near"
+ xp_reward: 15
+
+ - id: 54
+ type: Labhair
+ Ceist: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Ar chlé"
+ xp_reward: 18
+
+ - id: 55
+ type: Labhair
+ Ceist: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Go díreach"
+ xp_reward: 18
+
+ - id: 56
+ type: Labhair
+ Ceist: "Say this Abairt"
+ prompt: "Isoko riri hafi"
+ translation: "The Margadh is near"
+ xp_reward: 18
+
+ - id: 57
+ type: Labhair
+ Ceist: "Say this Abairt"
+ prompt: "Banki iri imbere y'ishuri"
+ translation: "The bank is in front of the Scoil"
+ xp_reward: 22
+
+ # 6. Word Bank Abairt Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ Ceist: "Build the command 'Turn Ar chlé'"
+ word_bank: ["Hagarika", "ibumoso", "iburyo", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "ibumoso"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Ceist: "Build the command 'Turn Ar dheis'"
+ word_bank: ["Hagarika", "iburyo", "ibumoso", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "iburyo"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Ceist: "Build the command 'Go Go díreach'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira"]
+ correct_answer: ["Komeza", "imbere"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ Ceist: "Build the command 'Go back'"
+ word_bank: ["Subira", "inyuma", "komeza", "imbere", "hagarika"]
+ correct_answer: ["Subira", "inyuma"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Ceist: "Build the Abairt 'The bank is in front of the Scoil'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri", "hafi"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Ceist: "Build the Abairt 'The Margadh is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ Ceist: "Build the Abairt 'The hospital is far'"
+ word_bank: ["Ibitaro", "biri", "kure", "isoko", "riri", "hafi"]
+ correct_answer: ["Ibitaro", "biri", "kure"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ Ceist: "Build the command 'Cross the street'"
+ word_bank: ["Kora", "umuhanda", "hagarara", "itara", "ry'umuhanda"]
+ correct_answer: ["Kora", "umuhanda"]
+ xp_reward: 15
+
+ - id: 66
+ type: word_bank
+ Ceist: "Build the command 'Stop at the traffic light'"
+ word_bank: ["Hagarara", "ku", "itara", "ry'umuhanda", "kora", "umuhanda"]
+ correct_answer: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ xp_reward: 22
+
+ # 7. Abairt Scramble - PIECES PROVIDED
+ - id: 67
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "ibumoso"]
+ correct_sentence: "Hagarika ibumoso."
+ translation: "Turn Ar chlé."
+ xp_reward: 15
+
+ - id: 68
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "iburyo"]
+ correct_sentence: "Hagarika iburyo."
+ translation: "Turn Ar dheis."
+ xp_reward: 15
+
+ - id: 69
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct command"
+ scrambled_words: ["Komeza", "imbere"]
+ correct_sentence: "Komeza imbere."
+ translation: "Go Go díreach."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct command"
+ scrambled_words: ["Subira", "inyuma"]
+ correct_sentence: "Subira inyuma."
+ translation: "Go back."
+ xp_reward: 15
+
+ - id: 71
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Abairt"
+ scrambled_words: ["Banki", "iri", "imbere", "y'ishuri"]
+ correct_sentence: "Banki iri imbere y'ishuri."
+ translation: "The bank is in front of the Scoil."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Abairt"
+ scrambled_words: ["Isoko", "riri", "hafi"]
+ correct_sentence: "Isoko riri hafi."
+ translation: "The Margadh is near."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Abairt"
+ scrambled_words: ["Ibitaro", "biri", "kure"]
+ correct_sentence: "Ibitaro biri kure."
+ translation: "The hospital is far."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct command"
+ scrambled_words: ["Kora", "umuhanda"]
+ correct_sentence: "Kora umuhanda."
+ translation: "Cross the street."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ correct_sentence: "Hagarara ku itara ry'umuhanda."
+ translation: "Stop at the traffic light."
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Roghnaigh FROM OPTIONS
+ - id: 76
+ type: fill_blank
+ Ceist: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Ar chlé."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ Ceist: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["iburyo", "ibumoso", "imbere"]
+ correct_answer: "iburyo"
+ translation: "Turn Ar dheis."
+ xp_reward: 12
+
+ - id: 78
+ type: fill_blank
+ Ceist: "Complete the command"
+ text_with_blank: "Komeza ___."
+ options: ["imbere", "inyuma", "ibumoso"]
+ correct_answer: "imbere"
+ translation: "Go Go díreach."
+ xp_reward: 12
+
+ - id: 79
+ type: fill_blank
+ Ceist: "Complete the command"
+ text_with_blank: "Subira ___."
+ options: ["inyuma", "imbere", "iburyo"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ Ceist: "Complete the Abairt"
+ text_with_blank: "Isoko riri ___."
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Margadh is near."
+ xp_reward: 12
+
+ - id: 81
+ type: fill_blank
+ Ceist: "Complete the Abairt"
+ text_with_blank: "Ibitaro biri ___."
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 82
+ type: fill_blank
+ Ceist: "Complete the Abairt"
+ text_with_blank: "Banki iri imbere ___."
+ options: ["y'ishuri", "y'isoko", "y'ibitaro"]
+ correct_answer: "y'ishuri"
+ translation: "The bank is in front of the Scoil."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ Ceist: "Complete the command"
+ text_with_blank: "Kora ___."
+ options: ["umuhanda", "itara", "inguni"]
+ correct_answer: "umuhanda"
+ translation: "Cross the street."
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ Ceist: "Complete the command"
+ text_with_blank: "Hagarara ku ___ ry'umuhanda."
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 85
+ type: picture_word
+ Ceist: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?left-arrow"
+ options: ["Ibumoso", "Iburyo", "Imbere"]
+ correct_answer: "Ibumoso"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Ceist: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?right-arrow"
+ options: ["Ibumoso", "Iburyo", "Inyuma"]
+ correct_answer: "Iburyo"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Ceist: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?straight-arrow"
+ options: ["Imbere", "Inyuma", "Ibumoso"]
+ correct_answer: "Imbere"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Ceist: "Cad é this?"
+ image_url: "https://source.unsplash.com/featured/?traffic-light"
+ options: ["Itara ry'umuhanda", "Umuhanda", "Ikimenyetso"]
+ correct_answer: "Itara ry'umuhanda"
+ xp_reward: 12
+
+ - id: 89
+ type: picture_word
+ Ceist: "Cad é this?"
+ image_url: "https://source.unsplash.com/featured/?street-corner"
+ options: ["Inguni", "Umuhanda", "Ahantu hahurira imihanda"]
+ correct_answer: "Inguni"
+ xp_reward: 10
+
+ - id: 90
+ type: picture_word
+ Ceist: "Cad é this?"
+ image_url: "https://source.unsplash.com/featured/?road-sign"
+ options: ["Ikimenyetso", "Itara", "Umuhanda"]
+ correct_answer: "Ikimenyetso"
+ xp_reward: 10
+
+ - id: 91
+ type: picture_word
+ Ceist: "Cad é this?"
+ image_url: "https://source.unsplash.com/featured/?intersection"
+ options: ["Ahantu hahurira imihanda", "Inguni", "Umuhanda"]
+ correct_answer: "Ahantu hahurira imihanda"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ Ceist: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?bank"
+ options: ["Banki", "Isoko", "Ibitaro"]
+ correct_answer: "Banki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ Ceist: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?market"
+ options: ["Isoko", "Banki", "Ibitaro"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ Ceist: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?hospital"
+ options: ["Ibitaro", "Isoko", "Banki"]
+ correct_answer: "Ibitaro"
+ xp_reward: 10
+
+ # 10. Word Meaitseáil (Pairing)
+ - id: 95
+ type: Meaitseáil
+ Ceist: "Meaitseáil the basic Treoracha"
+ pairs:
+ - Ar chlé: "Ar chlé"
+ Ar dheis: "Ibumoso"
+ - Ar chlé: "Ar dheis"
+ Ar dheis: "Iburyo"
+ - Ar chlé: "Go díreach"
+ Ar dheis: "Uburyohe / Guhita imbere"
+ - Ar chlé: "Front"
+ Ar dheis: "Imbere"
+ - Ar chlé: "Behind"
+ Ar dheis: "Inyuma"
+ xp_reward: 20
+
+ - id: 96
+ type: Meaitseáil
+ Ceist: "Meaitseáil the cardinal Treoracha"
+ pairs:
+ - Ar chlé: "North"
+ Ar dheis: "Amajyaruguru"
+ - Ar chlé: "South"
+ Ar dheis: "Amajyepfo"
+ - Ar chlé: "East"
+ Ar dheis: "Uburasirazuba"
+ - Ar chlé: "West"
+ Ar dheis: "Uburengerazuba"
+ xp_reward: 18
+
+ - id: 97
+ type: Meaitseáil
+ Ceist: "Meaitseáil the location words"
+ pairs:
+ - Ar chlé: "Near"
+ Ar dheis: "Hafi"
+ - Ar chlé: "Far"
+ Ar dheis: "Hahandi / kure"
+ - Ar chlé: "Around"
+ Ar dheis: "Hagarika / ahantu hose"
+ xp_reward: 15
+
+ - id: 98
+ type: Meaitseáil
+ Ceist: "Meaitseáil the commands"
+ pairs:
+ - Ar chlé: "Turn Ar chlé"
+ Ar dheis: "Hagarika ibumoso"
+ - Ar chlé: "Turn Ar dheis"
+ Ar dheis: "Hagarika iburyo"
+ - Ar chlé: "Go Go díreach"
+ Ar dheis: "Komeza imbere"
+ - Ar chlé: "Go back"
+ Ar dheis: "Subira inyuma"
+ - Ar chlé: "Cross the street"
+ Ar dheis: "Kora umuhanda"
+ - Ar chlé: "Stop at the traffic light"
+ Ar dheis: "Hagarara ku itara ry'umuhanda"
+ xp_reward: 25
+
+ - id: 99
+ type: Meaitseáil
+ Ceist: "Meaitseáil the Abairt"
+ pairs:
+ - Ar chlé: "The bank is in front of the Scoil"
+ Ar dheis: "Banki iri imbere y'ishuri"
+ - Ar chlé: "The Margadh is near"
+ Ar dheis: "Isoko riri hafi"
+ - Ar chlé: "The hospital is far"
+ Ar dheis: "Ibitaro biri kure"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Roghnaigh Missing Word
+ - id: 100
+ type: choose_missing
+ Ceist: "Roghnaigh the missing word"
+ Abairt: "Hagarika ___."
+ missing_word_position: 2
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Ar chlé."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ Ceist: "Roghnaigh the missing word"
+ Abairt: "Komeza ___."
+ missing_word_position: 2
+ options: ["imbere", "inyuma", "iburyo"]
+ correct_answer: "imbere"
+ translation: "Go Go díreach."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ Ceist: "Roghnaigh the missing word"
+ Abairt: "Subira ___."
+ missing_word_position: 2
+ options: ["inyuma", "imbere", "ibumoso"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 103
+ type: choose_missing
+ Ceist: "Roghnaigh the missing word"
+ Abairt: "Isoko riri ___."
+ missing_word_position: 3
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Margadh is near."
+ xp_reward: 12
+
+ - id: 104
+ type: choose_missing
+ Ceist: "Roghnaigh the missing word"
+ Abairt: "Ibitaro biri ___."
+ missing_word_position: 3
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 105
+ type: choose_missing
+ Ceist: "Roghnaigh the missing phrase"
+ Abairt: "Hagarara ku ___ ry'umuhanda."
+ missing_word_position: 3
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 13. Léigh and Freagra - Ceist based on text
+ - id: 106
+ type: read_answer
+ Ceist: "Léigh the text and Freagra the Ceist"
+ text: "Komeza imbere. Hagarika ibumoso."
+ Ceist: "Cad é the first instruction?"
+ options: ["Turn Ar chlé", "Go Go díreach", "Turn Ar dheis", "Go back"]
+ correct_answer: "Go Go díreach"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ Ceist: "Léigh the text and Freagra the Ceist"
+ text: "Banki iri imbere y'ishuri. Isoko riri hafi."
+ Ceist: "Where is the bank?"
+ options: ["Near the Margadh", "In front of the Scoil", "Far away", "Behind the Scoil"]
+ correct_answer: "In front of the Scoil"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ Ceist: "Léigh the text and Freagra the Ceist"
+ text: "Hagarara ku itara ry'umuhanda. Kora umuhanda."
+ Ceist: "What should you do at the traffic light?"
+ options: ["Turn Ar chlé", "Stop", "Go Go díreach", "Turn Ar dheis"]
+ correct_answer: "Stop"
+ xp_reward: 15
+
+ - id: 109
+ type: read_answer
+ Ceist: "Léigh the text and Freagra the Ceist"
+ text: "Ibitaro biri kure. Isoko riri hafi."
+ Ceist: "Is the hospital near or far?"
+ options: ["Near", "Far", "Very close", "Not mentioned"]
+ correct_answer: "Far"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ Ceist: "Léigh the text and Freagra the Ceist"
+ text: "Subira inyuma. Hagarika iburyo."
+ Ceist: "Cad é the second instruction?"
+ options: ["Go back", "Turn Ar chlé", "Turn Ar dheis", "Go Go díreach"]
+ correct_answer: "Turn Ar dheis"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Ibumoso means 'Ar dheis'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Iburyo means 'Ar dheis'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Imbere means 'front'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Hafi means 'far'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Komeza imbere means 'go Go díreach'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Itara ry'umuhanda means 'street sign'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Ceist: "Respond to the Ceist by building a command"
+ bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+ translation: "I want to reach the Margadh. What should I do?"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira", "inyuma"]
+ correct_response: ["Komeza", "imbere"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ Ceist: "Respond to the Ceist"
+ bot_message: "Banki iri he?"
+ translation: "Where is the bank?"
+ options:
+ - "Imbere y'ishuri"
+ - "Hafi y'isoko"
+ - "Kure"
+ correct_response: "Imbere y'ishuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ Ceist: "Respond to the Ceist by building a command"
+ bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+ translation: "I want to reach the hospital. What should I do?"
+ word_bank: ["Subira", "inyuma", "hagarika", "iburyo", "komeza", "imbere"]
+ correct_response: ["Subira", "inyuma"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ Ceist: "Respond to the Ceist"
+ bot_message: "Isoko riri hafi?"
+ translation: "Is the Margadh near?"
+ options:
+ - "Yego, riri hafi"
+ - "Oya, riri kure"
+ - "Simenye"
+ correct_response: "Yego, riri hafi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build Abairt from pieces
+ - id: 121
+ type: story
+ title: "Finding the Margadh - Gushaka Isoko"
+ story_intro: "Léigh about finding the Margadh. Then build the Abairt."
+ story_segments:
+ - text: "I want to go to the Margadh."
+ - text: "Go Go díreach."
+ - text: "Turn Ar chlé at the traffic light."
+ - text: "The Margadh is near."
+ - text: "The bank is in front of the Scoil."
+ exercises:
+ - type: word_bank
+ Ceist: "Build 'Go Go díreach'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso"]
+ correct_answer: ["Komeza", "imbere"]
+ - type: word_bank
+ Ceist: "Build 'Turn Ar chlé at the traffic light'"
+ word_bank: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ correct_answer: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ - type: word_bank
+ Ceist: "Build 'The Margadh is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ - type: word_bank
+ Ceist: "Build 'The bank is in front of the Scoil'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Ceist: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "Ar chlé"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Ceist: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "Ar dheis"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Ceist: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ Ceist: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ Ceist: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Ar chlé"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ Ceist: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Go díreach"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ Ceist: "Say this Abairt"
+ prompt: "Isoko riri hafi"
+ translation: "The Margadh is near"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 129
+ type: identify_meaning
+ Ceist: "Cad é brí 'Hagarika' mean in this command?"
+ context_sentence: "Hagarika ibumoso."
+ word: "Hagarika"
+ options: ["Go", "Turn", "Stop", "Cross"]
+ correct_answer: "Turn"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ Ceist: "Cad é brí 'Komeza' mean in this command?"
+ context_sentence: "Komeza imbere."
+ word: "Komeza"
+ options: ["Turn", "Stop", "Continue / Go", "Cross"]
+ correct_answer: "Continue / Go"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ Ceist: "Cad é brí 'hafi' mean in this Abairt?"
+ context_sentence: "Isoko riri hafi."
+ word: "hafi"
+ options: ["far", "near", "behind", "front"]
+ correct_answer: "near"
+ xp_reward: 12
+
+ - id: 132
+ type: identify_meaning
+ Ceist: "Cad é brí 'kure' mean in this Abairt?"
+ context_sentence: "Ibitaro biri kure."
+ word: "kure"
+ options: ["near", "far", "Ar chlé", "Ar dheis"]
+ correct_answer: "far"
+ xp_reward: 12
+
+ - id: 133
+ type: identify_meaning
+ Ceist: "Cad é brí 'imbere y'' mean in this Abairt?"
+ context_sentence: "Banki iri imbere y'ishuri."
+ word: "imbere y'"
+ options: ["behind", "in front of", "next to", "far from"]
+ correct_answer: "in front of"
+ xp_reward: 15
+
+ # 19. Speed Meaitseáil
+ - id: 134
+ type: speed_Meaitseáil
+ title: "Meaitseáil Madness: Treoracha"
+ time_limit_seconds: 45
+ pairs:
+ - Ar chlé: "Ar chlé"
+ Ar dheis: "Ibumoso"
+ - Ar chlé: "Ar dheis"
+ Ar dheis: "Iburyo"
+ - Ar chlé: "Go díreach"
+ Ar dheis: "Imbere"
+ - Ar chlé: "Behind"
+ Ar dheis: "Inyuma"
+ - Ar chlé: "North"
+ Ar dheis: "Amajyaruguru"
+ - Ar chlé: "South"
+ Ar dheis: "Amajyepfo"
+ - Ar chlé: "East"
+ Ar dheis: "Uburasirazuba"
+ - Ar chlé: "West"
+ Ar dheis: "Uburengerazuba"
+ - Ar chlé: "Near"
+ Ar dheis: "Hafi"
+ - Ar chlé: "Far"
+ Ar dheis: "Kure"
+ - Ar chlé: "Turn Ar chlé"
+ Ar dheis: "Hagarika ibumoso"
+ - Ar chlé: "Turn Ar dheis"
+ Ar dheis: "Hagarika iburyo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: Treoracha"
+ time_limit_seconds: 30
+ Ceist_count: 5
+ Ceist:
+ - Ceist: "Ar chlé"
+ Freagra: "Ibumoso"
+ - Ceist: "Ar dheis"
+ Freagra: "Iburyo"
+ - Ceist: "Go díreach"
+ Freagra: "Imbere"
+ - Ceist: "Behind"
+ Freagra: "Inyuma"
+ - Ceist: "Near"
+ Freagra: "Hafi"
+ xp_reward: 35
+
+# Cártaí meabhair
+ - id: 111
+ type: Cártaí meabhair
+ Ceist: "Cártaí meabhair"
+ Cártaí meabhair:
+ - front: "Ibumoso"
+ back: "Ar chlé"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iburyo"
+ back: "Ar dheis"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Uburyohe / Guhita imbere"
+ back: "Go díreach"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Inyuma"
+ back: "Back / Behind"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbere"
+ back: "Front"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyaruguru"
+ back: "North"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyepfo"
+ back: "South"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburasirazuba"
+ back: "East"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburengerazuba"
+ back: "West"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Hafi"
+ back: "Near"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

@@ -1,0 +1,966 @@
+lesson:
+  name: Indamukanyo - Amakuru
+  description: Funda common Ukubingelela and expressions in English
+  xp_reward: 500
+exercises:
+- id: 1
+  type: translation
+  question: Wavuga ute 'Muraho' ngesiZulu?
+  answer: Sawubona
+  xp_reward: 10
+- id: 2
+  type: translation
+  question: Wavuga ute 'Mwaramutse' ngesiZulu?
+  answer: Good morning
+  xp_reward: 10
+- id: 3
+  type: translation
+  question: Wavuga ute 'Mwiriwe' ngesiZulu?
+  answer: Good afternoon / Good evening
+  xp_reward: 10
+- id: 4
+  type: translation
+  question: Wavuga ute 'Ijoro ryiza' ngesiZulu?
+  answer: Good night
+  xp_reward: 10
+- id: 5
+  type: translation
+  question: Wavuga ute 'Amakuru' ngesiZulu?
+  answer: How are you?
+  xp_reward: 10
+- id: 6
+  type: translation
+  question: Wavuga ute 'Ni meza' ngesiZulu?
+  answer: I'm fine
+  xp_reward: 10
+- id: 7
+  type: translation
+  question: Wavuga ute 'Murakaza neza' ngesiZulu?
+  answer: Welcome
+  xp_reward: 10
+- id: 8
+  type: translation
+  question: Wavuga ute 'Tuzasubira' ngesiZulu?
+  answer: See you Kamuva
+  xp_reward: 10
+- id: 9
+  type: translation
+  question: Wavuga ute 'Murabeho' ngesiZulu?
+  answer: Sala kahle
+  xp_reward: 10
+- id: 10
+  type: translation
+  question: Wavuga ute 'Umunsi mwiza' ngesiZulu?
+  answer: Have I nice day
+  xp_reward: 10
+- id: 11
+  type: translation
+  question: Wavuga ute 'Wirinde' ngesiZulu?
+  answer: Take care
+  xp_reward: 10
+- id: 12
+  type: translation
+  question: Wavuga ute 'Hashize igihe tutabonanye' ngesiZulu?
+  answer: Long time no see
+  xp_reward: 15
+- id: 13
+  type: translation
+  question: Wavuga ute 'Ni iki?' ngesiZulu?
+  answer: What's up?
+  xp_reward: 10
+- id: 14
+  type: translation
+  question: Wavuga ute 'Nishimiye kukubona' ngesiZulu?
+  answer: Nice to meet you
+  xp_reward: 15
+- id: 15
+  type: translation
+  question: Wavuga ute 'Muraho, Mama!' ngesiZulu?
+  answer: Sawubona, mother!
+  xp_reward: 12
+- id: 16
+  type: translation
+  question: Wavuga ute 'Mwaramutse, Data!' ngesiZulu?
+  answer: Good morning, father!
+  xp_reward: 12
+- id: 17
+  type: translation
+  question: Wavuga ute 'Ijoro ryiza, mwana wanjye!' ngesiZulu?
+  answer: Good night, my child!
+  xp_reward: 15
+- id: 18
+  type: translation
+  question: Wavuga ute 'Amakuru uyu munsi?' ngesiZulu?
+  answer: How are you Namuhla?
+  xp_reward: 15
+- id: 19
+  type: translation
+  question: Wavuga ute 'Ni meza, murakoze.' ngesiZulu?
+  answer: I'm fine, thank you.
+  xp_reward: 15
+- id: 20
+  type: translation
+  question: Wavuga ute 'Ni iki kuri wowe uyu munsi?' ngesiZulu?
+  answer: What's up with you Namuhla?
+  xp_reward: 18
+- id: 21
+  type: multiple_choice
+  question: '''Muraho'' bisobanura iki?'
+  options:
+  - Sala kahle
+  - Sawubona
+  - Good morning
+  - Good night
+  answer: Sawubona
+  xp_reward: 15
+- id: 22
+  type: multiple_choice
+  question: '''Mwaramutse'' bisobanura iki?'
+  options:
+  - Good evening
+  - Good morning
+  - Good night
+  - Sala kahle
+  answer: Good morning
+  xp_reward: 15
+- id: 23
+  type: multiple_choice
+  question: '''Amakuru'' bisobanura iki?'
+  options:
+  - Sala kahle
+  - Welcome
+  - How are you?
+  - See you Kamuva
+  answer: How are you?
+  xp_reward: 15
+- id: 24
+  type: multiple_choice
+  question: '''Ni meza'' bisobanura iki?'
+  options:
+  - I'm fine
+  - Thank you
+  - Welcome
+  - Take care
+  answer: I'm fine
+  xp_reward: 15
+- id: 25
+  type: multiple_choice
+  question: '''Murabeho'' bisobanura iki?'
+  options:
+  - Sawubona
+  - Welcome
+  - Sala kahle
+  - See you Kamuva
+  answer: Sala kahle
+  xp_reward: 15
+- id: 26
+  type: multiple_choice
+  question: '''Tuzasubira'' bisobanura iki?'
+  options:
+  - Sala kahle
+  - See you Kamuva
+  - Welcome back
+  - Take care
+  answer: See you Kamuva
+  xp_reward: 15
+- id: 27
+  type: multiple_choice
+  question: '''Nishimiye kukubona'' bisobanura iki?'
+  options:
+  - Good morning
+  - Nice to meet you
+  - Welcome
+  - Take care
+  answer: Nice to meet you
+  xp_reward: 18
+- id: 28
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike indamukanyo ngesiZulu
+  tts_text: Muraho
+  answer: Sawubona
+  translation: Muraho
+  xp_reward: 20
+- id: 29
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike indamukanyo ngesiZulu
+  tts_text: Mwaramutse
+  answer: Good morning
+  translation: Mwaramutse
+  xp_reward: 20
+- id: 30
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike indamukanyo ngesiZulu
+  tts_text: Mwiriwe
+  answer: Good afternoon
+  translation: Mwiriwe
+  xp_reward: 20
+- id: 31
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro ngesiZulu
+  tts_text: Ijoro ryiza
+  answer: Good night
+  translation: Ijoro ryiza
+  xp_reward: 20
+- id: 32
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike ikibazo ngesiZulu
+  tts_text: Amakuru
+  answer: How are you?
+  translation: Amakuru
+  xp_reward: 20
+- id: 33
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike igisubizo ngesiZulu
+  tts_text: Ni meza
+  answer: I'm fine
+  translation: Ni meza
+  xp_reward: 20
+- id: 34
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro ngesiZulu
+  tts_text: Murakaza neza
+  answer: Welcome
+  translation: Murakaza neza
+  xp_reward: 22
+- id: 35
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro ngesiZulu
+  tts_text: Tuzasubira
+  answer: See you Kamuva
+  translation: Tuzasubira
+  xp_reward: 20
+- id: 36
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro ngesiZulu
+  tts_text: Murabeho
+  answer: Sala kahle
+  translation: Murabeho
+  xp_reward: 20
+- id: 37
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro ngesiZulu
+  tts_text: Hashize igihe tutabonanye
+  answer: Long time no see
+  translation: Hashize igihe tutabonanye
+  xp_reward: 25
+- id: 38
+  type: listen_and_type
+  question: Tega amatwi hanyuma wandike interuro ngesiZulu
+  tts_text: Nishimiye kukubona
+  answer: Nice to meet you
+  translation: Nishimiye kukubona
+  xp_reward: 25
+- id: 39
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo indamukanyo ikwiye
+  tts_text: Muraho
+  options:
+  - Sala kahle
+  - Sawubona
+  - Good morning
+  answer: Sawubona
+  xp_reward: 15
+- id: 40
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo indamukanyo ikwiye
+  tts_text: Mwaramutse
+  options:
+  - Good evening
+  - Good morning
+  - Good night
+  answer: Good morning
+  xp_reward: 15
+- id: 41
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo indamukanyo ikwiye
+  tts_text: Mwiriwe
+  options:
+  - Good morning
+  - Good afternoon
+  - Good night
+  answer: Good afternoon
+  xp_reward: 15
+- id: 42
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo ibisobanuro bikwiye
+  tts_text: Amakuru
+  options:
+  - Sala kahle
+  - How are you?
+  - Welcome
+  answer: How are you?
+  xp_reward: 15
+- id: 43
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo igisubizo gikwiye
+  tts_text: Ni meza
+  options:
+  - I'm fine
+  - Thank you
+  - Welcome
+  answer: I'm fine
+  xp_reward: 15
+- id: 44
+  type: listen_and_choose
+  question: Tega amatwi hanyuma uhitemo indamukanyo y'igiciro ikwiye
+  tts_text: Murabeho
+  options:
+  - Sawubona
+  - Sala kahle
+  - See you Kamuva
+  answer: Sala kahle
+  xp_reward: 15
+- id: 45
+  type: speaking
+  question: Vuga indamukanyo ngesiZulu
+  prompt: Muraho
+  translation: Sawubona
+  xp_reward: 15
+- id: 46
+  type: speaking
+  question: Vuga indamukanyo ngesiZulu
+  prompt: Mwaramutse
+  translation: Good morning
+  xp_reward: 15
+- id: 47
+  type: speaking
+  question: Vuga indamukanyo ngesiZulu
+  prompt: Mwiriwe
+  translation: Good afternoon
+  xp_reward: 15
+- id: 48
+  type: speaking
+  question: Vuga iyi interuro ngesiZulu
+  prompt: Ijoro ryiza
+  translation: Good night
+  xp_reward: 18
+- id: 49
+  type: speaking
+  question: Vuga ikibazo ngesiZulu
+  prompt: Amakuru
+  translation: How are you?
+  xp_reward: 15
+- id: 50
+  type: speaking
+  question: Vuga igisubizo ngesiZulu
+  prompt: Ni meza
+  translation: I'm fine
+  xp_reward: 15
+- id: 51
+  type: speaking
+  question: Vuga iyi interuro ngesiZulu
+  prompt: Murakaza neza
+  translation: Welcome
+  xp_reward: 18
+- id: 52
+  type: speaking
+  question: Vuga iyi interuro ngesiZulu
+  prompt: Tuzasubira
+  translation: See you Kamuva
+  xp_reward: 18
+- id: 53
+  type: speaking
+  question: Vuga iyi interuro ngesiZulu
+  prompt: Murabeho
+  translation: Sala kahle
+  xp_reward: 15
+- id: 54
+  type: speaking
+  question: Vuga iyi interuro ngesiZulu
+  prompt: Hashize igihe tutabonanye
+  translation: Long time no see
+  xp_reward: 22
+- id: 55
+  type: speaking
+  question: Vuga iyi interuro ngesiZulu
+  prompt: Nishimiye kukubona
+  translation: Nice to meet you
+  xp_reward: 20
+- id: 56
+  type: speaking
+  question: Vuga iyi interuro ngesiZulu
+  prompt: Muraho, Mama!
+  translation: Sawubona, mother!
+  xp_reward: 18
+- id: 57
+  type: speaking
+  question: Vuga iyi interuro ngesiZulu
+  prompt: Mwaramutse, Data!
+  translation: Good morning, father!
+  xp_reward: 18
+- id: 58
+  type: word_bank
+  question: Ubaka interuro y'icyongereza isobanura 'Muraho, Mama!'
+  word_bank:
+  - Sawubona
+  - mother
+  - father
+  - Good morning
+  correct_answer:
+  - Sawubona
+  - mother
+  xp_reward: 18
+- id: 59
+  type: word_bank
+  question: Ubaka interuro y'icyongereza isobanura 'Mwaramutse, Data!'
+  word_bank:
+  - Good morning
+  - father
+  - Sawubona
+  - mother
+  correct_answer:
+  - Good morning
+  - father
+  xp_reward: 18
+- id: 60
+  type: word_bank
+  question: Ubaka interuro y'icyongereza isobanura 'Ijoro ryiza, mwana wanjye!'
+  word_bank:
+  - Good night
+  - my child
+  - Sawubona
+  - mother
+  correct_answer:
+  - Good night
+  - my child
+  xp_reward: 20
+- id: 61
+  type: word_bank
+  question: Ubaka ikibazo cy'icyongereza gisobanura 'Amakuru uyu munsi?'
+  word_bank:
+  - How are you
+  - Namuhla
+  - I'm fine
+  - thank you
+  correct_answer:
+  - How are you
+  - Namuhla
+  xp_reward: 20
+- id: 62
+  type: word_bank
+  question: Ubaka igisubizo cy'icyongereza gisobanura 'Ni meza, murakoze.'
+  word_bank:
+  - I'm fine
+  - thank you
+  - How are you
+  - Namuhla
+  correct_answer:
+  - I'm fine
+  - thank you
+  xp_reward: 20
+- id: 63
+  type: word_bank
+  question: Ubaka indamukanyo y'icyongereza isobanura 'Tuzasubira ku ishuri'
+  word_bank:
+  - See you Kamuva
+  - at isikole
+  - Sala kahle
+  - Kusasa
+  correct_answer:
+  - See you Kamuva
+  - at isikole
+  xp_reward: 20
+- id: 64
+  type: word_bank
+  question: Ubaka indamukanyo y'icyongereza isobanura 'Murabeho, tuzabonana ejo'
+  word_bank:
+  - Sala kahle
+  - see you
+  - Kusasa
+  - See you Kamuva
+  correct_answer:
+  - Sala kahle
+  - see you
+  - Kusasa
+  xp_reward: 22
+- id: 65
+  type: word_bank
+  question: Ubaka umugisha w'icyongereza usobanura 'Umunsi mwiza mu kazi'
+  word_bank:
+  - Have I nice day
+  - at umsebenzi
+  - Take care
+  - on your trip
+  correct_answer:
+  - Have I nice day
+  - at umsebenzi
+  xp_reward: 20
+- id: 66
+  type: word_bank
+  question: Ubaka interuro y'icyongereza isobanura 'Wirinde mu rugendo rwawe'
+  word_bank:
+  - Take care
+  - on your trip
+  - Have I nice day
+  - at umsebenzi
+  correct_answer:
+  - Take care
+  - on your trip
+  xp_reward: 20
+- id: 67
+  type: word_bank
+  question: Ubaka indamukanyo y'icyongereza isobanura 'Hashize igihe tutabonanye, nshuti yanjye'
+  word_bank:
+  - Long time no see
+  - my friend
+  - Sawubona
+  - How are you
+  correct_answer:
+  - Long time no see
+  - my friend
+  xp_reward: 22
+- id: 68
+  type: word_bank
+  question: Ubaka ikibazo cy'icyongereza gisobanura 'Ni iki kuri wowe uyu munsi?'
+  word_bank:
+  - What's up
+  - with you
+  - Namuhla
+  - How are you
+  correct_answer:
+  - What's up
+  - with you
+  - Namuhla
+  xp_reward: 22
+- id: 69
+  type: word_bank
+  question: Ubaka interuro y'icyongereza isobanura 'Nishimiye kukubona mu birori'
+  word_bank:
+  - Nice to meet you
+  - at Le party
+  - Welcome
+  - at home
+  correct_answer:
+  - Nice to meet you
+  - at Le party
+  xp_reward: 22
+- id: 70
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Muraho, Mama!'
+  scrambled_words:
+  - Sawubona
+  - mother
+  correct_sentence: Sawubona, mother!
+  translation: Muraho, Mama!
+  xp_reward: 18
+- id: 71
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Mwaramutse, Data!'
+  scrambled_words:
+  - Good morning
+  - father
+  correct_sentence: Good morning, father!
+  translation: Mwaramutse, Data!
+  xp_reward: 18
+- id: 72
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Ijoro ryiza, mwana wanjye!'
+  scrambled_words:
+  - Good night
+  - my
+  - child
+  correct_sentence: Good night, my child!
+  translation: Ijoro ryiza, mwana wanjye!
+  xp_reward: 20
+- id: 73
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Amakuru uyu munsi?'
+  scrambled_words:
+  - How are you
+  - Namuhla
+  correct_sentence: How are you Namuhla?
+  translation: Amakuru uyu munsi?
+  xp_reward: 18
+- id: 74
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Ni meza, murakoze.'
+  scrambled_words:
+  - I'm fine
+  - thank you
+  correct_sentence: I'm fine, thank you.
+  translation: Ni meza, murakoze.
+  xp_reward: 18
+- id: 75
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Tuzasubira ku ishuri'
+  scrambled_words:
+  - See you Kamuva
+  - at
+  - isikole
+  correct_sentence: See you Kamuva at isikole.
+  translation: Tuzasubira ku ishuri.
+  xp_reward: 20
+- id: 76
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Murabeho, tuzabonana ejo'
+  scrambled_words:
+  - Sala kahle
+  - see you
+  - Kusasa
+  correct_sentence: Sala kahle, see you Kusasa.
+  translation: Murabeho, tuzabonana ejo.
+  xp_reward: 22
+- id: 77
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Umunsi mwiza mu kazi'
+  scrambled_words:
+  - Have I nice day
+  - at
+  - umsebenzi
+  correct_sentence: Have I nice day at umsebenzi.
+  translation: Umunsi mwiza mu kazi.
+  xp_reward: 20
+- id: 78
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Wirinde mu rugendo rwawe'
+  scrambled_words:
+  - Take care
+  - 'on'
+  - your
+  - trip
+  correct_sentence: Take care on your trip.
+  translation: Wirinde mu rugendo rwawe.
+  xp_reward: 20
+- id: 79
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Hashize igihe tutabonanye, nshuti yanjye'
+  scrambled_words:
+  - Long time no see
+  - my
+  - friend
+  correct_sentence: Long time no see, my friend.
+  translation: Hashize igihe tutabonanye, nshuti yanjye.
+  xp_reward: 25
+- id: 80
+  type: sentence_scramble
+  question: Tondeka aya magambo mu buryo bukwiye bwerekana 'Ni iki kuri wowe uyu munsi?'
+  scrambled_words:
+  - What's up
+  - with you
+  - Namuhla
+  correct_sentence: What's up with you Namuhla?
+  translation: Ni iki kuri wowe uyu munsi?
+  xp_reward: 22
+- id: 81
+  type: fill_blank
+  question: Uzuza indamukanyo
+  text_with_blank: ___ , mother!
+  options:
+  - Sawubona
+  - Good morning
+  - Good afternoon
+  correct_answer: Sawubona
+  translation: Muraho, Mama!
+  xp_reward: 15
+- id: 82
+  type: fill_blank
+  question: Uzuza indamukanyo
+  text_with_blank: ___ , father!
+  options:
+  - Sawubona
+  - Good morning
+  - Good afternoon
+  correct_answer: Good morning
+  translation: Mwaramutse, Data!
+  xp_reward: 15
+- id: 83
+  type: fill_blank
+  question: Uzuza interuro
+  text_with_blank: ___ ___, my child!
+  options:
+  - Good night
+  - Good morning
+  - Good afternoon
+  correct_answer: Good night
+  translation: Ijoro ryiza, mwana wanjye!
+  xp_reward: 18
+- id: 84
+  type: fill_blank
+  question: Uzuza ikibazo
+  text_with_blank: ___ ___ Namuhla?
+  options:
+  - How are you
+  - I'm fine
+  - Sawubona
+  correct_answer: How are you
+  translation: Amakuru uyu munsi?
+  xp_reward: 15
+- id: 85
+  type: fill_blank
+  question: Uzuza igisubizo
+  text_with_blank: I'm fine, ___.
+  options:
+  - thank you
+  - Sawubona
+  - how are you
+  correct_answer: thank you
+  translation: Ni meza, murakoze.
+  xp_reward: 15
+- id: 86
+  type: fill_blank
+  question: Uzuza indamukanyo
+  text_with_blank: See you Kamuva ___.
+  options:
+  - at isikole
+  - at home
+  - at umsebenzi
+  correct_answer: at isikole
+  translation: Tuzasubira ku ishuri.
+  xp_reward: 18
+- id: 87
+  type: fill_blank
+  question: Uzuza indamukanyo
+  text_with_blank: Sala kahle, see you ___.
+  options:
+  - Kusasa
+  - Namuhla
+  - good night
+  correct_answer: Kusasa
+  translation: Murabeho, tuzabonana ejo.
+  xp_reward: 18
+- id: 88
+  type: fill_blank
+  question: Uzuza umugisha
+  text_with_blank: Have I nice day ___.
+  options:
+  - at umsebenzi
+  - at home
+  - at isikole
+  correct_answer: at umsebenzi
+  translation: Umunsi mwiza mu kazi.
+  xp_reward: 15
+- id: 89
+  type: fill_blank
+  question: Uzuza interuro
+  text_with_blank: Take care on your ___.
+  options:
+  - trip
+  - umsebenzi
+  - home
+  correct_answer: trip
+  translation: Wirinde mu rugendo rwawe.
+  xp_reward: 18
+- id: 90
+  type: fill_blank
+  question: Uzuza indamukanyo
+  text_with_blank: ___ ___ ___, my friend.
+  options:
+  - Long time no see
+  - How are you
+  - Nice to meet you
+  correct_answer: Long time no see
+  translation: Hashize igihe tutabonanye, nshuti yanjye.
+  xp_reward: 20
+- id: 91
+  type: fill_blank
+  question: Uzuza ikibazo
+  text_with_blank: What's up with you ___?
+  options:
+  - Namuhla
+  - Kusasa
+  - Izolo
+  correct_answer: Namuhla
+  translation: Ni iki kuri wowe uyu munsi?
+  xp_reward: 18
+- id: 98
+  type: matching
+  question: Huza indamukanyo n'ibisobanuro byayo
+  pairs:
+  - left: Muraho
+    right: Sawubona
+  - left: Mwaramutse
+    right: Good morning
+  - left: Mwiriwe
+    right: Good afternoon
+  - left: Ijoro ryiza
+    right: Good night
+  - left: Amakuru
+    right: How are you?
+  - left: Ni meza
+    right: I'm fine
+  xp_reward: 25
+- id: 99
+  type: matching
+  question: Huza indamukanyo z'igiciro n'ubusabe
+  pairs:
+  - left: Murabeho
+    right: Sala kahle
+  - left: Tuzasubira
+    right: See you Kamuva
+  - left: Umunsi mwiza
+    right: Have I nice day
+  - left: Wirinde
+    right: Take care
+  - left: Hashize igihe tutabonanye
+    right: Long time no see
+  - left: Nishimiye kukubona
+    right: Nice to meet you
+  xp_reward: 25
+- id: 100
+  type: matching
+  question: Huza interuro n'abagize umuryango
+  pairs:
+  - left: Muraho, Mama!
+    right: Sawubona, mother!
+  - left: Mwaramutse, Data!
+    right: Good morning, father!
+  - left: Ijoro ryiza, mwana wanjye!
+    right: Good night, my child!
+  - left: Hashize igihe tutabonanye, nshuti yanjye
+    right: Long time no see, my friend
+  xp_reward: 25
+- id: 107
+  type: choose_missing
+  question: Hitamo ijambo ribuze
+  sentence: ___ Namuhla?
+  missing_word_position: 1
+  options:
+  - How are you
+  - Sawubona
+  - I'm fine
+  correct_answer: How are you
+  translation: Amakuru uyu munsi?
+  xp_reward: 15
+- id: 108
+  type: choose_missing
+  question: Hitamo ijambo ribuze
+  sentence: I'm fine, ___.
+  missing_word_position: 3
+  options:
+  - thank you
+  - how are you
+  - Sawubona
+  correct_answer: thank you
+  translation: Ni meza, murakoze.
+  xp_reward: 15
+- id: 109
+  type: choose_missing
+  question: Hitamo ijambo ribuze
+  sentence: Have I nice day ___.
+  missing_word_position: 4
+  options:
+  - at umsebenzi
+  - at home
+  - at isikole
+  correct_answer: at umsebenzi
+  translation: Umunsi mwiza mu kazi.
+  xp_reward: 15
+- id: 110
+  type: read_answer
+  question: Umuntu B ameze wadla?
+  text: 'I: Muraho! Amakuru? B: Ni meza, murakoze.'
+  options:
+  - Apfite agahinda
+  - Ameze neza
+  - Ananirwe
+  - Ashonye
+  correct_answer: Ameze neza
+  xp_reward: 15
+- id: 111
+  type: read_answer
+  question: Ni ikihe gihe cy'umunsi?
+  text: 'I: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!'
+  options:
+  - Mu gitondo
+  - Mu manywa
+  - Ni mugoroba
+  - Ijoro
+  correct_answer: Mu gitondo
+  xp_reward: 18
+- id: 112
+  type: read_answer
+  question: Bazasubira he?
+  text: 'I: Tuzasubira ku ishuri. B: Murabeho!'
+  options:
+  - Mu rugo
+  - Ku ishuri
+  - Ku kazi
+  - Ku isoko
+  correct_answer: Ku ishuri
+  xp_reward: 15
+- id: 113
+  type: true_false
+  question: Ese iki kintu ni ukuri cyangwa ikinyoma?
+  statement: '''Mwaramutse'' ikoreshwa mu gitondo.'
+  correct_answer: true
+  xp_reward: 10
+- id: 114
+  type: true_false
+  question: Ese iki kintu ni ukuri cyangwa ikinyoma?
+  statement: '''Mwiriwe'' ikoreshwa gusa nijoro.'
+  correct_answer: false
+  xp_reward: 10
+- id: 115
+  type: true_false
+  question: Ese iki kintu ni ukuri cyangwa ikinyoma?
+  statement: '''Murabeho'' bisobanura muraho.'
+  correct_answer: false
+  xp_reward: 10
+- id: 116
+  type: true_false
+  question: Ese iki kintu ni ukuri cyangwa ikinyoma?
+  statement: '''Nishimiye kukubona'' bisobanura ''Nice to meet you''.'
+  correct_answer: true
+  xp_reward: 15
+- id: 117
+  type: conversation
+  question: Subiza indamukanyo ukoresheje amagambo atanzwe
+  bot_message: Muraho! Amakuru?
+  translation: Sawubona! How are you?
+  word_bank:
+  - I'm fine
+  - thank you
+  - How are you
+  - Sawubona
+  correct_response:
+  - I'm fine
+  - thank you
+  xp_reward: 20
+- id: 118
+  type: conversation
+  question: Hitamo igisubizo gikwiye
+  bot_message: Mwaramutse, Mama!
+  translation: Good morning, mother!
+  options:
+  - Good morning, my child!
+  - Good afternoon, my child!
+  - Good night, my child!
+  correct_response: Good morning, my child!
+  xp_reward: 18
+- id: 119
+  type: conversation
+  question: Subiza indamukanyo y'igiciro
+  bot_message: Tuzasubira ku ishuri.
+  translation: See you Kamuva at isikole.
+  options:
+  - Sala kahle!
+  - Sawubona!
+  - How are you?
+  correct_response: Sala kahle!
+  xp_reward: 15
+- id: 120
+  type: conversation
+  question: Subiza ikibazo ukoresheje amagambo atanzwe
+  bot_message: Amakuru uyu munsi?
+  translation: How are you Namuhla?
+  word_bank:
+  - I'm fine
+  - thank you
+  - How are you
+  - Namuhla
+  correct_response:
+  - I'm fine
+  - thank you
+  xp_reward: 20
+- id: 121
+  type: story
+  title: Guhura n'Inshuti
+  story_intro: Soma ikiganiro. Hanyuma ubake interuro.
+  story_segments:
+  - text: Umuntu I aramuhora.
+  - text: Umuntu I abaza uko bameze.
+  - text: Umuntu B avuga ko ameze neza anashimira.
+  - text: Umuntu I avuga ko yishimiye kumubona.
+  - text: Umuntu B aramukaririza.
+  - text: Umuntu I avuga tuzasubira.
+  - text: Umuntu B aramuragira.

@@ -1,0 +1,1221 @@
+lesson:
+ name: "Numbers - Imibare mu Kinyarwanda"
+ description: "Leer numbers in Kinyarwanda from 0 naar 1,000,000"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Numbers ONLY (Safe voor single words)
+ # Basic Numbers 0-10
+ - id: 1
+ type: translation
+ Vraag: "Hoe zeg je '0' in het Kinyarwanda?"
+ Antwoord: "Zero"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Vraag: "Hoe zeg je '1' in het Kinyarwanda?"
+ Antwoord: "Rimwe"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Vraag: "Hoe zeg je '2' in het Kinyarwanda?"
+ Antwoord: "Kabiri"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Vraag: "Hoe zeg je '3' in het Kinyarwanda?"
+ Antwoord: "Gatatu"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Vraag: "Hoe zeg je '4' in het Kinyarwanda?"
+ Antwoord: "Kane"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Vraag: "Hoe zeg je '5' in het Kinyarwanda?"
+ Antwoord: "Gatanu"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Vraag: "Hoe zeg je '6' in het Kinyarwanda?"
+ Antwoord: "Gatandatu"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Vraag: "Hoe zeg je '7' in het Kinyarwanda?"
+ Antwoord: "Karindwi"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Vraag: "Hoe zeg je '8' in het Kinyarwanda?"
+ Antwoord: "Umunani"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Vraag: "Hoe zeg je '9' in het Kinyarwanda?"
+ Antwoord: "Icyenda"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Vraag: "Hoe zeg je '10' in het Kinyarwanda?"
+ Antwoord: "Icumi"
+ xp_reward: 10
+
+ # Numbers 11-20
+ - id: 12
+ type: translation
+ Vraag: "Hoe zeg je '11' in het Kinyarwanda?"
+ Antwoord: "Cumi na rimwe"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Vraag: "Hoe zeg je '12' in het Kinyarwanda?"
+ Antwoord: "Cumi na kabiri"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Vraag: "Hoe zeg je '13' in het Kinyarwanda?"
+ Antwoord: "Cumi na gatatu"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Vraag: "Hoe zeg je '14' in het Kinyarwanda?"
+ Antwoord: "Cumi na kane"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Vraag: "Hoe zeg je '15' in het Kinyarwanda?"
+ Antwoord: "Cumi na gatanu"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Vraag: "Hoe zeg je '16' in het Kinyarwanda?"
+ Antwoord: "Cumi na gatandatu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Vraag: "Hoe zeg je '17' in het Kinyarwanda?"
+ Antwoord: "Cumi na karindwi"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Vraag: "Hoe zeg je '18' in het Kinyarwanda?"
+ Antwoord: "Cumi na umunani"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Vraag: "Hoe zeg je '19' in het Kinyarwanda?"
+ Antwoord: "Cumi na icyenda"
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Vraag: "Hoe zeg je '20' in het Kinyarwanda?"
+ Antwoord: "Makumyabiri"
+ xp_reward: 15
+
+ # Tens (Multiples van 10)
+ - id: 22
+ type: translation
+ Vraag: "Hoe zeg je '30' in het Kinyarwanda?"
+ Antwoord: "Makumyatatu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Vraag: "Hoe zeg je '40' in het Kinyarwanda?"
+ Antwoord: "Makumyane"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Vraag: "Hoe zeg je '50' in het Kinyarwanda?"
+ Antwoord: "Mirongo itanu"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Vraag: "Hoe zeg je '60' in het Kinyarwanda?"
+ Antwoord: "Mirongo itandatu"
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ Vraag: "Hoe zeg je '70' in het Kinyarwanda?"
+ Antwoord: "Mirongo irindwi"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Vraag: "Hoe zeg je '80' in het Kinyarwanda?"
+ Antwoord: "Mirongo inani"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Vraag: "Hoe zeg je '90' in het Kinyarwanda?"
+ Antwoord: "Mirongo icenda"
+ xp_reward: 15
+
+ - id: 29
+ type: translation
+ Vraag: "Hoe zeg je '100' in het Kinyarwanda?"
+ Antwoord: "Ijana"
+ xp_reward: 10
+
+ # Hundreds
+ - id: 30
+ type: translation
+ Vraag: "Hoe zeg je '200' in het Kinyarwanda?"
+ Antwoord: "Magana abiri"
+ xp_reward: 15
+
+ - id: 31
+ type: translation
+ Vraag: "Hoe zeg je '300' in het Kinyarwanda?"
+ Antwoord: "Magana atatu"
+ xp_reward: 15
+
+ - id: 32
+ type: translation
+ Vraag: "Hoe zeg je '400' in het Kinyarwanda?"
+ Antwoord: "Magana ane"
+ xp_reward: 15
+
+ - id: 33
+ type: translation
+ Vraag: "Hoe zeg je '500' in het Kinyarwanda?"
+ Antwoord: "Magana atanu"
+ xp_reward: 15
+
+ - id: 34
+ type: translation
+ Vraag: "Hoe zeg je '600' in het Kinyarwanda?"
+ Antwoord: "Magana atandatu"
+ xp_reward: 15
+
+ - id: 35
+ type: translation
+ Vraag: "Hoe zeg je '700' in het Kinyarwanda?"
+ Antwoord: "Magana arindwi"
+ xp_reward: 15
+
+ - id: 36
+ type: translation
+ Vraag: "Hoe zeg je '800' in het Kinyarwanda?"
+ Antwoord: "Magana umunani"
+ xp_reward: 15
+
+ - id: 37
+ type: translation
+ Vraag: "Hoe zeg je '900' in het Kinyarwanda?"
+ Antwoord: "Magana icyenda"
+ xp_reward: 15
+
+ - id: 38
+ type: translation
+ Vraag: "Hoe zeg je '1000' in het Kinyarwanda?"
+ Antwoord: "Igihumbi"
+ xp_reward: 10
+
+ # Thousands
+ - id: 39
+ type: translation
+ Vraag: "Hoe zeg je '2,000' in het Kinyarwanda?"
+ Antwoord: "Ibihumbi bibiri"
+ xp_reward: 15
+
+ - id: 40
+ type: translation
+ Vraag: "Hoe zeg je '3,000' in het Kinyarwanda?"
+ Antwoord: "Ibihumbi bitatu"
+ xp_reward: 15
+
+ - id: 41
+ type: translation
+ Vraag: "Hoe zeg je '4,000' in het Kinyarwanda?"
+ Antwoord: "Ibihumbi bine"
+ xp_reward: 15
+
+ - id: 42
+ type: translation
+ Vraag: "Hoe zeg je '5,000' in het Kinyarwanda?"
+ Antwoord: "Ibihumbi bitanu"
+ xp_reward: 15
+
+ - id: 43
+ type: translation
+ Vraag: "Hoe zeg je '10,000' in het Kinyarwanda?"
+ Antwoord: "Ibihumbi icumi"
+ xp_reward: 15
+
+ - id: 44
+ type: translation
+ Vraag: "Hoe zeg je '20,000' in het Kinyarwanda?"
+ Antwoord: "Ibihumbi makumyabiri"
+ xp_reward: 18
+
+ - id: 45
+ type: translation
+ Vraag: "Hoe zeg je '50,000' in het Kinyarwanda?"
+ Antwoord: "Ibihumbi mirongo itanu"
+ xp_reward: 18
+
+ - id: 46
+ type: translation
+ Vraag: "Hoe zeg je '100,000' in het Kinyarwanda?"
+ Antwoord: "Ijana ibihumbi"
+ xp_reward: 15
+
+ - id: 47
+ type: translation
+ Vraag: "Hoe zeg je '200,000' in het Kinyarwanda?"
+ Antwoord: "Magana abiri ibihumbi"
+ xp_reward: 18
+
+ - id: 48
+ type: translation
+ Vraag: "Hoe zeg je '500,000' in het Kinyarwanda?"
+ Antwoord: "Magana atanu ibihumbi"
+ xp_reward: 18
+
+ - id: 49
+ type: translation
+ Vraag: "Hoe zeg je '1,000,000' in het Kinyarwanda?"
+ Antwoord: "Miliyoni imwe"
+ xp_reward: 15
+
+ # Money Context - Amafaranga (Safe een phrases)
+ - id: 50
+ type: translation
+ Vraag: "Hoe zeg je '100 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga ijana"
+ xp_reward: 15
+
+ - id: 51
+ type: translation
+ Vraag: "Hoe zeg je '200 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga magana abiri"
+ xp_reward: 15
+
+ - id: 52
+ type: translation
+ Vraag: "Hoe zeg je '500 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga magana atanu"
+ xp_reward: 15
+
+ - id: 53
+ type: translation
+ Vraag: "Hoe zeg je '1,000 RWF' in het Kinyarwanda?"
+ Antwoord: "Ifaranga igihumbi"
+ xp_reward: 15
+
+ - id: 54
+ type: translation
+ Vraag: "Hoe zeg je '2,000 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga ibihumbi bibiri"
+ xp_reward: 15
+
+ - id: 55
+ type: translation
+ Vraag: "Hoe zeg je '5,000 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga ibihumbi bitanu"
+ xp_reward: 15
+
+ - id: 56
+ type: translation
+ Vraag: "Hoe zeg je '10,000 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga ibihumbi icumi"
+ xp_reward: 15
+
+ - id: 57
+ type: translation
+ Vraag: "Hoe zeg je '20,000 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga ibihumbi makumyabiri"
+ xp_reward: 18
+
+ - id: 58
+ type: translation
+ Vraag: "Hoe zeg je '50,000 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga ibihumbi mirongo itanu"
+ xp_reward: 18
+
+ - id: 59
+ type: translation
+ Vraag: "Hoe zeg je '100,000 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga ijana ibihumbi"
+ xp_reward: 18
+
+ - id: 60
+ type: translation
+ Vraag: "Hoe zeg je '200,000 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga magana abiri ibihumbi"
+ xp_reward: 20
+
+ - id: 61
+ type: translation
+ Vraag: "Hoe zeg je '500,000 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga magana atanu ibihumbi"
+ xp_reward: 20
+
+ - id: 62
+ type: translation
+ Vraag: "Hoe zeg je '1,000,000 RWF' in het Kinyarwanda?"
+ Antwoord: "Amafaranga miliyoni imwe"
+ xp_reward: 18
+
+ # nee DIRECT TRANSLATION voor COMPLEX COMBINED NUMBERS of FULL Zin
+ # Instead, we use Zin building, Koppel, en word bank exercises
+
+ # 2. Multiple Choice
+ - id: 63
+ type: multiple_choice
+ Vraag: "Wat betekent 'Rimwe' in deze zin?"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ - "4"
+ Antwoord: "1"
+ xp_reward: 15
+
+ - id: 64
+ type: multiple_choice
+ Vraag: "Wat betekent 'Kabiri' in deze zin?"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ - "4"
+ Antwoord: "2"
+ xp_reward: 15
+
+ - id: 65
+ type: multiple_choice
+ Vraag: "Wat betekent 'Gatanu' in deze zin?"
+ options:
+ - "4"
+ - "5"
+ - "6"
+ - "7"
+ Antwoord: "5"
+ xp_reward: 15
+
+ - id: 66
+ type: multiple_choice
+ Vraag: "Wat betekent 'Icumi' in deze zin?"
+ options:
+ - "5"
+ - "10"
+ - "15"
+ - "20"
+ Antwoord: "10"
+ xp_reward: 15
+
+ - id: 67
+ type: multiple_choice
+ Vraag: "Wat betekent 'Makumyabiri' in deze zin?"
+ options:
+ - "10"
+ - "20"
+ - "30"
+ - "40"
+ Antwoord: "20"
+ xp_reward: 15
+
+ - id: 68
+ type: multiple_choice
+ Vraag: "Wat betekent 'Ijana' in deze zin?"
+ options:
+ - "10"
+ - "100"
+ - "1000"
+ - "1,000,000"
+ Antwoord: "100"
+ xp_reward: 15
+
+ - id: 69
+ type: multiple_choice
+ Vraag: "Wat betekent 'Igihumbi' in deze zin?"
+ options:
+ - "100"
+ - "1000"
+ - "10,000"
+ - "1,000,000"
+ Antwoord: "1000"
+ xp_reward: 15
+
+ - id: 70
+ type: multiple_choice
+ Vraag: "Wat betekent 'Miliyoni imwe' in deze zin?"
+ options:
+ - "1,000"
+ - "10,000"
+ - "100,000"
+ - "1,000,000"
+ Antwoord: "1,000,000"
+ xp_reward: 18
+
+ # 3. Luister en Type (Dictation) - Safe because audio is provided
+ - id: 71
+ type: listen_en_type
+ Vraag: "Luister en type de number"
+ tts_text: "Rimwe"
+ Antwoord: "Rimwe"
+ translation: "1"
+ xp_reward: 20
+
+ - id: 72
+ type: listen_en_type
+ Vraag: "Luister en type de number"
+ tts_text: "Kabiri"
+ Antwoord: "Kabiri"
+ translation: "2"
+ xp_reward: 20
+
+ - id: 73
+ type: listen_en_type
+ Vraag: "Luister en type de number"
+ tts_text: "Icumi"
+ Antwoord: "Icumi"
+ translation: "10"
+ xp_reward: 20
+
+ - id: 74
+ type: listen_en_type
+ Vraag: "Luister en type de number"
+ tts_text: "Cumi na rimwe"
+ Antwoord: "Cumi na rimwe"
+ translation: "11"
+ xp_reward: 22
+
+ - id: 75
+ type: listen_en_type
+ Vraag: "Luister en type de number"
+ tts_text: "Makumyabiri"
+ Antwoord: "Makumyabiri"
+ translation: "20"
+ xp_reward: 20
+
+ - id: 76
+ type: listen_en_type
+ Vraag: "Luister en type de number"
+ tts_text: "Ijana"
+ Antwoord: "Ijana"
+ translation: "100"
+ xp_reward: 20
+
+ - id: 77
+ type: listen_en_type
+ Vraag: "Luister en type de number"
+ tts_text: "Igihumbi"
+ Antwoord: "Igihumbi"
+ translation: "1000"
+ xp_reward: 20
+
+ - id: 78
+ type: listen_en_type
+ Vraag: "Luister en type de money phrase"
+ tts_text: "Amafaranga ijana"
+ Antwoord: "Amafaranga ijana"
+ translation: "100 RWF"
+ xp_reward: 22
+
+ - id: 79
+ type: listen_en_type
+ Vraag: "Luister en type de money phrase"
+ tts_text: "Amafaranga ibihumbi bitanu"
+ Antwoord: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 25
+
+ # 4. Luister en Kies
+ - id: 80
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct number"
+ tts_text: "Rimwe"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ Antwoord: "1"
+ xp_reward: 15
+
+ - id: 81
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct number"
+ tts_text: "Gatanu"
+ options:
+ - "4"
+ - "5"
+ - "6"
+ Antwoord: "5"
+ xp_reward: 15
+
+ - id: 82
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct number"
+ tts_text: "Icumi"
+ options:
+ - "5"
+ - "10"
+ - "15"
+ Antwoord: "10"
+ xp_reward: 15
+
+ - id: 83
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct number"
+ tts_text: "Makumyabiri"
+ options:
+ - "10"
+ - "20"
+ - "30"
+ Antwoord: "20"
+ xp_reward: 15
+
+ - id: 84
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct amount"
+ tts_text: "Amafaranga igihumbi"
+ options:
+ - "100 RWF"
+ - "1,000 RWF"
+ - "10,000 RWF"
+ Antwoord: "1,000 RWF"
+ xp_reward: 18
+
+ # 5. Repeat / Praat Exercise
+ - id: 85
+ type: Praat
+ Vraag: "Say dit number"
+ prompt: "Rimwe"
+ translation: "1"
+ xp_reward: 15
+
+ - id: 86
+ type: Praat
+ Vraag: "Say dit number"
+ prompt: "Kabiri"
+ translation: "2"
+ xp_reward: 15
+
+ - id: 87
+ type: Praat
+ Vraag: "Say dit number"
+ prompt: "Icumi"
+ translation: "10"
+ xp_reward: 15
+
+ - id: 88
+ type: Praat
+ Vraag: "Say dit number"
+ prompt: "Cumi na rimwe"
+ translation: "11"
+ xp_reward: 18
+
+ - id: 89
+ type: Praat
+ Vraag: "Say dit number"
+ prompt: "Makumyabiri"
+ translation: "20"
+ xp_reward: 15
+
+ - id: 90
+ type: Praat
+ Vraag: "Say dit number"
+ prompt: "Ijana"
+ translation: "100"
+ xp_reward: 15
+
+ - id: 91
+ type: Praat
+ Vraag: "Say dit number"
+ prompt: "Igihumbi"
+ translation: "1000"
+ xp_reward: 15
+
+ - id: 92
+ type: Praat
+ Vraag: "Say dit money amount"
+ prompt: "Amafaranga ijana"
+ translation: "100 RWF"
+ xp_reward: 18
+
+ - id: 93
+ type: Praat
+ Vraag: "Say dit money amount"
+ prompt: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 20
+
+ # 6. Word Bank Zin Building - PIECES PROVIDED
+ - id: 94
+ type: word_bank
+ Vraag: "Build de Kinyarwanda phrase voor 'I have 3 apples'"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_answer: ["Mfite", "amapera", "atatu"]
+ xp_reward: 22
+
+ - id: 95
+ type: word_bank
+ Vraag: "Build de Kinyarwanda phrase voor 'He bought 12 pens'"
+ word_bank: ["Yanguriye", "amakaramu", "cumi na kabiri", "cumi na rimwe", "ibiri"]
+ correct_answer: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ xp_reward: 22
+
+ - id: 96
+ type: word_bank
+ Vraag: "Build de Kinyarwanda phrase voor 'de book costs 2,000 RWF'"
+ word_bank: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri", "ibihumbi bitatu", "ijana"]
+ correct_answer: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ xp_reward: 25
+
+ - id: 97
+ type: word_bank
+ Vraag: "Build de Kinyarwanda phrase voor 'My Huis costs 1,000,000 RWF'"
+ word_bank: ["Inzu", "yanjye", "ni", "amafaranga", "miliyoni imwe", "ibihumbi"]
+ correct_answer: ["Inzu", "yanjye", "ni", "amafaranga", "miliyoni imwe"]
+ xp_reward: 25
+
+ - id: 98
+ type: word_bank
+ Vraag: "Build de Kinyarwanda phrase voor 'There zijn 50 students in de class'"
+ word_bank: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri", "mirongo itatu"]
+ correct_answer: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ xp_reward: 22
+
+ - id: 99
+ type: word_bank
+ Vraag: "Build de Kinyarwanda phrase voor 'She has 100 RWF'"
+ word_bank: ["Afite", "amafaranga", "ijana", "magana abiri", "ibihumbi"]
+ correct_answer: ["Afite", "amafaranga", "ijana"]
+ xp_reward: 20
+
+ - id: 100
+ type: word_bank
+ Vraag: "Build de Kinyarwanda phrase voor 'de bag costs 123,456 RWF'"
+ word_bank: ["Isakoshi", "ni", "amafaranga", "ijana na makumyabiri na gatatu", "ibihumbi", "na magana ane na mirongo itanu na gatandatu"]
+ correct_answer: ["Isakoshi", "ni", "amafaranga", "ijana na makumyabiri na gatatu", "ibihumbi", "na magana ane na mirongo itanu na gatandatu"]
+ xp_reward: 30
+
+ # 7. Zin Scramble - PIECES PROVIDED
+ - id: 101
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct phrase"
+ scrambled_words: ["Mfite", "amapera", "atatu"]
+ correct_sentence: "Mfite amapera atatu."
+ translation: "I have 3 apples."
+ xp_reward: 20
+
+ - id: 102
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct phrase"
+ scrambled_words: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ correct_sentence: "Yanguriye amakaramu cumi na kabiri."
+ translation: "He bought 12 pens."
+ xp_reward: 22
+
+ - id: 103
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct phrase"
+ scrambled_words: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ correct_sentence: "Igitabo ni amafaranga ibihumbi bibiri."
+ translation: "de book costs 2,000 RWF."
+ xp_reward: 22
+
+ - id: 104
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct phrase"
+ scrambled_words: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ correct_sentence: "Hari abanyeshuri mirongo itanu mu ishuri."
+ translation: "There zijn 50 students in de class."
+ xp_reward: 22
+
+ - id: 105
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct phrase"
+ scrambled_words: ["Afite", "amafaranga", "ijana"]
+ correct_sentence: "Afite amafaranga ijana."
+ translation: "She has 100 RWF."
+ xp_reward: 18
+
+ # 8. Fill in de Blank - Kies FROM OPTIONS
+ - id: 106
+ type: fill_blank
+ Vraag: "Complete de phrase"
+ text_met_blank: "Mfite amapera ___."
+ options: ["atatu", "kabiri", "rimwe"]
+ correct_answer: "atatu"
+ translation: "I have 3 apples."
+ xp_reward: 18
+
+ - id: 107
+ type: fill_blank
+ Vraag: "Complete de phrase"
+ text_met_blank: "Yanguriye amakaramu ___."
+ options: ["cumi na kabiri", "cumi na rimwe", "makumyabiri"]
+ correct_answer: "cumi na kabiri"
+ translation: "He bought 12 pens."
+ xp_reward: 18
+
+ - id: 108
+ type: fill_blank
+ Vraag: "Complete de phrase"
+ text_met_blank: "Igitabo ni amafaranga ___."
+ options: ["ibihumbi bibiri", "ibihumbi bitatu", "ijana"]
+ correct_answer: "ibihumbi bibiri"
+ translation: "de book costs 2,000 RWF."
+ xp_reward: 20
+
+ - id: 109
+ type: fill_blank
+ Vraag: "Complete de phrase"
+ text_met_blank: "Hari abanyeshuri ___ mu ishuri."
+ options: ["mirongo itanu", "mirongo itatu", "cumi"]
+ correct_answer: "mirongo itanu"
+ translation: "There zijn 50 students in de class."
+ xp_reward: 18
+
+ - id: 110
+ type: fill_blank
+ Vraag: "Complete de phrase"
+ text_met_blank: "Afite amafaranga ___."
+ options: ["ijana", "magana abiri", "igihumbi"]
+ correct_answer: "ijana"
+ translation: "She has 100 RWF."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 111
+ type: picture_word
+ Vraag: "How many apples do you zien?"
+ image_url: "https://source.unsplash.com/featured/?1-apple"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Rimwe"
+ xp_reward: 15
+
+ - id: 112
+ type: picture_word
+ Vraag: "How many apples do you zien?"
+ image_url: "https://source.unsplash.com/featured/?2-apples"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Kabiri"
+ xp_reward: 15
+
+ - id: 113
+ type: picture_word
+ Vraag: "How many apples do you zien?"
+ image_url: "https://source.unsplash.com/featured/?3-apples"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Gatatu"
+ xp_reward: 15
+
+ - id: 114
+ type: picture_word
+ Vraag: "How many pens do you zien?"
+ image_url: "https://source.unsplash.com/featured/?10-pens"
+ options: ["Icumi", "Makumyabiri", "Ijana"]
+ correct_answer: "Icumi"
+ xp_reward: 15
+
+ - id: 115
+ type: picture_word
+ Vraag: "Wat is dit number?"
+ image_url: "https://images.unsplash.com/photo-1621440318464-72633426377b?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D00"
+ options: ["Ijana", "Igihumbi", "Icumi"]
+ correct_answer: "Ijana"
+ xp_reward: 15
+
+ - id: 116
+ type: picture_word
+ Vraag: "Wat is dit amount van money?"
+ image_url: "https://source.unsplash.com/featured/?1000-franc-note"
+ options: ["Amafaranga igihumbi", "Amafaranga ijana", "Amafaranga ibihumbi icumi"]
+ correct_answer: "Amafaranga igihumbi"
+ xp_reward: 20
+
+ # 10. Word Koppel (Pairing)
+ - id: 117
+ type: Koppel
+ Vraag: "Koppel de numbers"
+ pairs:
+ - Links: "1"
+ Rechts: "Rimwe"
+ - Links: "2"
+ Rechts: "Kabiri"
+ - Links: "3"
+ Rechts: "Gatatu"
+ - Links: "4"
+ Rechts: "Kane"
+ - Links: "5"
+ Rechts: "Gatanu"
+ - Links: "6"
+ Rechts: "Gatandatu"
+ - Links: "7"
+ Rechts: "Karindwi"
+ - Links: "8"
+ Rechts: "Umunani"
+ - Links: "9"
+ Rechts: "Icyenda"
+ - Links: "10"
+ Rechts: "Icumi"
+ xp_reward: 25
+
+ - id: 118
+ type: Koppel
+ Vraag: "Koppel de tens"
+ pairs:
+ - Links: "20"
+ Rechts: "Makumyabiri"
+ - Links: "30"
+ Rechts: "Makumyatatu"
+ - Links: "40"
+ Rechts: "Makumyane"
+ - Links: "50"
+ Rechts: "Mirongo itanu"
+ - Links: "60"
+ Rechts: "Mirongo itandatu"
+ - Links: "70"
+ Rechts: "Mirongo irindwi"
+ - Links: "80"
+ Rechts: "Mirongo inani"
+ - Links: "90"
+ Rechts: "Mirongo icenda"
+ xp_reward: 25
+
+ - id: 119
+ type: Koppel
+ Vraag: "Koppel de hundreds en thousands"
+ pairs:
+ - Links: "100"
+ Rechts: "Ijana"
+ - Links: "200"
+ Rechts: "Magana abiri"
+ - Links: "500"
+ Rechts: "Magana atanu"
+ - Links: "1000"
+ Rechts: "Igihumbi"
+ - Links: "2000"
+ Rechts: "Ibihumbi bibiri"
+ - Links: "5000"
+ Rechts: "Ibihumbi bitanu"
+ - Links: "10,000"
+ Rechts: "Ibihumbi icumi"
+ - Links: "1,000,000"
+ Rechts: "Miliyoni imwe"
+ xp_reward: 25
+
+ - id: 120
+ type: Koppel
+ Vraag: "Koppel de money amounts"
+ pairs:
+ - Links: "100 RWF"
+ Rechts: "Amafaranga ijana"
+ - Links: "1,000 RWF"
+ Rechts: "Ifaranga igihumbi"
+ - Links: "5,000 RWF"
+ Rechts: "Amafaranga ibihumbi bitanu"
+ - Links: "10,000 RWF"
+ Rechts: "Amafaranga ibihumbi icumi"
+ - Links: "50,000 RWF"
+ Rechts: "Amafaranga ibihumbi mirongo itanu"
+ - Links: "100,000 RWF"
+ Rechts: "Amafaranga ijana ibihumbi"
+ - Links: "1,000,000 RWF"
+ Rechts: "Amafaranga miliyoni imwe"
+ xp_reward: 28
+
+ # 11. Kies Missing Word
+ - id: 124
+ type: choose_missing
+ Vraag: "Kies de missing number"
+ Zin: "Mfite amapera ___."
+ missing_word_position: 3
+ options: ["atatu", "kabiri", "rimwe"]
+ correct_answer: "atatu"
+ translation: "I have 3 apples."
+ xp_reward: 15
+
+ - id: 125
+ type: choose_missing
+ Vraag: "Kies de missing number"
+ Zin: "Yanguriye amakaramu ___."
+ missing_word_position: 3
+ options: ["cumi na kabiri", "cumi na rimwe", "makumyabiri"]
+ correct_answer: "cumi na kabiri"
+ translation: "He bought 12 pens."
+ xp_reward: 18
+
+ - id: 126
+ type: choose_missing
+ Vraag: "Kies de missing amount"
+ Zin: "Igitabo ni amafaranga ___."
+ missing_word_position: 4
+ options: ["ibihumbi bibiri", "ijana", "ibihumbi icumi"]
+ correct_answer: "ibihumbi bibiri"
+ translation: "de book costs 2,000 RWF."
+ xp_reward: 18
+
+ # 12. Lees en Antwoord - Vraag based op text
+ - id: 127
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Mfite amapera atatu. Yanguriye amakaramu cumi na kabiri."
+ Vraag: "How many apples do I have?"
+ options: ["1", "2", "3", "12"]
+ correct_answer: "3"
+ xp_reward: 15
+
+ - id: 128
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Igitabo ni amafaranga ibihumbi bibiri. Inzu yanjye ni amafaranga miliyoni imwe."
+ Vraag: "How much is de book?"
+ options: ["100 RWF", "1,000 RWF", "2,000 RWF", "1,000,000 RWF"]
+ correct_answer: "2,000 RWF"
+ xp_reward: 18
+
+ - id: 129
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Hari abanyeshuri mirongo itanu mu ishuri."
+ Vraag: "How many students zijn there?"
+ options: ["15", "20", "50", "100"]
+ correct_answer: "50"
+ xp_reward: 15
+
+ # 13. True / False
+ - id: 130
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Kabiri means 2."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 131
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Icumi means 20."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 132
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Ijana means 100."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 133
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Igihumbi means 1,000,000."
+ correct_answer: false
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 134
+ type: conversation
+ Vraag: "Respond naar de Vraag by building een Zin"
+ bot_message: "Ufite amapera angahe?"
+ translation: "How many apples do you have?"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_response: ["Mfite", "amapera", "atatu"]
+ xp_reward: 20
+
+ - id: 135
+ type: conversation
+ Vraag: "Respond naar de Vraag about price"
+ bot_message: "Igitabo ni angahe?"
+ translation: "How much is de book?"
+ options:
+ - "Amafaranga ibihumbi bibiri"
+ - "Amafaranga ijana"
+ - "Amafaranga miliyoni imwe"
+ correct_response: "Amafaranga ibihumbi bibiri"
+ xp_reward: 18
+
+ - id: 136
+ type: conversation
+ Vraag: "Respond naar de Vraag by building een Zin"
+ bot_message: "Hari abanyeshuri bangahe mu ishuri?"
+ translation: "How many students zijn in de class?"
+ word_bank: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ correct_response: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build Zin from pieces
+ - id: 137
+ type: story
+ title: "Winkelen - Kugura"
+ story_intro: "Lees about Winkelen. Then build de Zin."
+ story_segments:
+ - text: "I have 3 apples."
+ - text: "He bought 12 pens."
+ - text: "de book costs 2,000 RWF."
+ - text: "My Huis costs 1,000,000 RWF."
+ - text: "She has 100 RWF."
+ exercises:
+ - type: word_bank
+ Vraag: "Build 'I have 3 apples'"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_answer: ["Mfite", "amapera", "atatu"]
+ - type: word_bank
+ Vraag: "Build 'He bought 12 pens'"
+ word_bank: ["Yanguriye", "amakaramu", "cumi na kabiri", "cumi na rimwe"]
+ correct_answer: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ - type: word_bank
+ Vraag: "Build 'de book costs 2,000 RWF'"
+ word_bank: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ correct_answer: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ - type: word_bank
+ Vraag: "Build 'She has 100 RWF'"
+ word_bank: ["Afite", "amafaranga", "ijana"]
+ correct_answer: ["Afite", "amafaranga", "ijana"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 138
+ type: pronunciation
+ Vraag: "Say dit number"
+ prompt: "Rimwe"
+ translation: "1"
+ xp_reward: 15
+
+ - id: 139
+ type: pronunciation
+ Vraag: "Say dit number"
+ prompt: "Makumyabiri"
+ translation: "20"
+ xp_reward: 15
+
+ - id: 140
+ type: pronunciation
+ Vraag: "Say dit amount"
+ prompt: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 141
+ type: identify_meaning
+ Vraag: "Wat betekent 'atatu' mean in dit Zin?"
+ context_sentence: "Mfite amapera atatu."
+ word: "atatu"
+ options: ["1", "2", "3", "4"]
+ correct_answer: "3"
+ xp_reward: 15
+
+ - id: 142
+ type: identify_meaning
+ Vraag: "Wat betekent 'ibihumbi bibiri' in deze zin?"
+ context_sentence: "Igitabo ni amafaranga ibihumbi bibiri."
+ word: "ibihumbi bibiri"
+ options: ["100 RWF", "1,000 RWF", "2,000 RWF", "20,000 RWF"]
+ correct_answer: "2,000 RWF"
+ xp_reward: 18
+
+ # 18. Speed Koppel
+ - id: 143
+ type: speed_Koppel
+ title: "Koppel Madness: Numbers"
+ time_limit_seconds: 45
+ pairs:
+ - Links: "1"
+ Rechts: "Rimwe"
+ - Links: "2"
+ Rechts: "Kabiri"
+ - Links: "3"
+ Rechts: "Gatatu"
+ - Links: "4"
+ Rechts: "Kane"
+ - Links: "5"
+ Rechts: "Gatanu"
+ - Links: "10"
+ Rechts: "Icumi"
+ - Links: "20"
+ Rechts: "Makumyabiri"
+ - Links: "100"
+ Rechts: "Ijana"
+ - Links: "1000"
+ Rechts: "Igihumbi"
+ - Links: "1,000,000"
+ Rechts: "Miliyoni imwe"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 144
+ type: timed_challenge
+ title: "Lightning Round: Numbers"
+ time_limit_seconds: 30
+ Vraag_count: 5
+ Vraag:
+ - Vraag: "1"
+ Antwoord: "Rimwe"
+ - Vraag: "2"
+ Antwoord: "Kabiri"
+ - Vraag: "3"
+ Antwoord: "Gatatu"
+ - Vraag: "10"
+ Antwoord: "Icumi"
+ - Vraag: "100"
+ Antwoord: "Ijana"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Vraag: "Flashcards"
+ Flashcards:
+ - front: "Rimwe"
+ back: "1"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Kabiri"
+ back: "2"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Gatatu"
+ back: "3"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Kane"
+ back: "4"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Gatanu"
+ back: "5"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Gatandatu"
+ back: "6"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Karindwi"
+ back: "7"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunani"
+ back: "8"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Icyenda"
+ back: "9"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Icumi"
+ back: "10"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

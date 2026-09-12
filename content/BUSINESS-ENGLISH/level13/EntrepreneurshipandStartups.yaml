@@ -1,0 +1,1460 @@
+lesson:
+  name: "Entrepreneurship and Startups"
+  description: "Master professional entrepreneurship and startup communication including business ideas, models, fundraising, investor meetings, vocabulary, growth strategies, and pitch decks"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: BUSINESS IDEAS (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-7)
+  - id: 1
+    type: multiple_choice
+    question: "What is a 'business idea'?"
+    options:
+      - "An idea about business"
+      - "A concept that can be used to start a business or create value"
+      - "A type of business plan"
+      - "A product only"
+    answer: "A concept that can be used to start a business or create value"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What is a 'pain point' in entrepreneurship?"
+    options:
+      - "A point of physical pain"
+      - "A specific problem that potential customers are experiencing"
+      - "A type of business metric"
+      - "A financial issue"
+    answer: "A specific problem that potential customers are experiencing"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "What is 'problem-solution fit'?"
+    options:
+      - "When a problem fits a solution"
+      - "The validation that a proposed solution actually addresses a real customer problem"
+      - "A type of market research"
+      - "A product design phase"
+    answer: "The validation that a proposed solution actually addresses a real customer problem"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What is 'market validation'?"
+    options:
+      - "Validating a market"
+      - "The process of testing a business idea with real potential customers to confirm demand"
+      - "A type of market research"
+      - "A sales process"
+    answer: "The process of testing a business idea with real potential customers to confirm demand"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "What is a 'minimum viable product' (MVP)?"
+    options:
+      - "A product with minimum viability"
+      - "The simplest version of a product that can be released to test core assumptions"
+      - "A prototype"
+      - "A beta version"
+    answer: "The simplest version of a product that can be released to test core assumptions"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What is 'customer discovery'?"
+    options:
+      - "Discovering customers"
+      - "The process of interviewing potential customers to understand their problems and needs"
+      - "A type of marketing"
+      - "A sales technique"
+    answer: "The process of interviewing potential customers to understand their problems and needs"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "What is the 'lean startup methodology'?"
+    options:
+      - "A lean approach to startups"
+      - "A methodology that emphasizes building MVPs, measuring customer feedback, and iterating quickly"
+      - "A type of business plan"
+      - "A fundraising strategy"
+    answer: "A methodology that emphasizes building MVPs, measuring customer feedback, and iterating quickly"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (8-12)
+  - id: 8
+    type: fill_blank
+    question: "Complete the problem identification"
+    text_with_blank: "Our business idea addresses the ___ point of inefficient inventory management for small retailers."
+    options: ["pain", "problem", "challenge", "issue"]
+    correct_answer: "pain"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the validation statement"
+    text_with_blank: "We need to ___ our idea by talking to at least 50 potential customers."
+    options: ["validate", "test", "confirm", "verify"]
+    correct_answer: "validate"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the MVP statement"
+    text_with_blank: "We'll launch an ___ within three months to test our core assumptions."
+    options: ["MVP", "minimum viable product", "prototype", "beta version"]
+    correct_answer: "MVP"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the customer discovery statement"
+    text_with_blank: "We conducted 25 customer ___ interviews to understand their needs."
+    options: ["discovery", "development", "validation", "research"]
+    correct_answer: "discovery"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the iteration statement"
+    text_with_blank: "Based on customer feedback, we need to ___ our product design."
+    options: ["iterate", "pivot", "change", "adjust"]
+    correct_answer: "iterate"
+    xp_reward: 15
+
+  # TRUE / FALSE (13-15)
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? The best business ideas come from solving your own problems."
+    statement: "The best business ideas come from solving your own problems."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 14
+    type: true_false
+    question: "Is this statement true or false? You should build a full product before talking to any customers."
+    statement: "You should build a full product before talking to any customers."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? Pivoting means completely abandoning your idea without learning anything."
+    statement: "Pivoting means completely abandoning your idea without learning anything."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (16-18)
+  - id: 16
+    type: matching
+    question: "Match the lean startup concept with its description"
+    pairs:
+      - left: "Build"
+        right: "Create MVP based on hypotheses"
+      - left: "Measure"
+        right: "Collect data on how customers use product"
+      - left: "Learn"
+        right: "Analyze data to validate or invalidate hypotheses"
+      - left: "Pivot"
+        right: "Change strategy based on learning"
+      - left: "Persevere"
+        right: "Continue with same strategy if validated"
+    xp_reward: 25
+
+  - id: 17
+    type: matching
+    question: "Match the customer discovery question with its purpose"
+    pairs:
+      - left: "What's the hardest part of your job?"
+        right: "Identify pain points"
+      - left: "How do you currently solve this problem?"
+        right: "Understand current alternatives"
+      - left: "What don't you like about current solutions?"
+        right: "Identify gaps in market"
+      - left: "How much would you pay for a solution?"
+        right: "Test price sensitivity"
+      - left: "Would you be interested in trying our solution?"
+        right: "Gauge early interest"
+    xp_reward: 25
+
+  - id: 18
+    type: matching
+    question: "Match the idea generation technique with its description"
+    pairs:
+      - left: "Brainstorming"
+        right: "Generating many ideas without judgment"
+      - left: "Problem interviews"
+        right: "Finding problems through customer conversations"
+      - left: "Competitor analysis"
+        right: "Identifying gaps in existing solutions"
+      - left: "Trend spotting"
+        right: "Identifying emerging market trends"
+      - left: "SCAMPER"
+        right: "Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse"
+    xp_reward: 25
+
+  # FLASHCARDS (19-20)
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Idea Validation Questions"
+    flashcards:
+      - front: "Is the problem real?"
+        right: "Does anyone actually need this solved?"
+      - front: "Is the problem urgent?"
+        right: "Do people need a solution now?"
+      - front: "Is the market large enough?"
+        right: "Can this be a sustainable business?"
+      - front: "Can we solve it profitably?"
+        right: "Is there a viable business model?"
+      - front: "Why us?"
+        right: "What is our unfair advantage?"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Common Startup Mistakes"
+    flashcards:
+      - front: "Building before validating"
+        right: "Wasting time on unwanted features"
+      - front: "Solving non-urgent problems"
+        right: "Customers won't pay for nice-to-haves"
+      - front: "Targeting everyone"
+        right: "Too broad, no clear focus"
+      - front: "Ignoring competition"
+        right: "Entering overcrowded market"
+      - front: "Founder solution bias"
+        right: "Falling in love with your own idea"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: BUSINESS MODELS (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-28)
+  - id: 21
+    type: multiple_choice
+    question: "What is a 'business model'?"
+    options:
+      - "A model of a business"
+      - "The plan for how a company creates, delivers, and captures value"
+      - "A type of business plan"
+      - "A revenue model"
+    answer: "The plan for how a company creates, delivers, and captures value"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "What is a 'subscription business model'?"
+    options:
+      - "A model about subscriptions"
+      - "A model where customers pay recurring fees for ongoing access to a product or service"
+      - "A one-time payment model"
+      - "A freemium model"
+    answer: "A model where customers pay recurring fees for ongoing access to a product or service"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What is a 'freemium business model'?"
+    options:
+      - "A model that is free and premium"
+      - "A model where basic features are free, premium features require payment"
+      - "A free-only model"
+      - "A premium-only model"
+    answer: "A model where basic features are free, premium features require payment"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "What is a 'marketplace business model'?"
+    options:
+      - "A marketplace for businesses"
+      - "A platform connecting buyers and sellers, taking a transaction fee"
+      - "A retail model"
+      - "An e-commerce model"
+    answer: "A platform connecting buyers and sellers, taking a transaction fee"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "What is a 'SaaS' business model?"
+    options:
+      - "Software as a Service - customers pay subscription for cloud-based software"
+      - "Software as a Solution"
+      - "Service as a Software"
+      - "Sales as a Service"
+    answer: "Software as a Service - customers pay subscription for cloud-based software"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What is the 'razor and blades' business model?"
+    options:
+      - "A model about razors"
+      - "Selling a durable product at low price and consumables at high price"
+      - "A subscription model"
+      - "A freemium model"
+    answer: "Selling a durable product at low price and consumables at high price"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "What is 'Customer Lifetime Value' (LTV) in a business model?"
+    options:
+      - "The value of a customer's life"
+      - "The total revenue a customer generates over their entire relationship with a company"
+      - "The cost to acquire a customer"
+      - "The profit per customer"
+    answer: "The total revenue a customer generates over their entire relationship with a company"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "What is 'Customer Acquisition Cost' (CAC)?"
+    options:
+      - "The cost to acquire a customer"
+      - "The total cost of sales and marketing to acquire a new customer"
+      - "The cost of customer service"
+      - "The product cost"
+    answer: "The total cost of sales and marketing to acquire a new customer"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (29-33)
+  - id: 29
+    type: fill_blank
+    question: "Complete the LTV:CAC statement"
+    text_with_blank: "A healthy business model typically has an LTV to CAC ratio of at least ___."
+    options: ["3:1", "3 to 1", "three to one", "greater than 3"]
+    correct_answer: "3:1"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the unit economics statement"
+    text_with_blank: "We need to have positive unit ___ , meaning each sale generates a profit."
+    options: ["economics", "profit", "margins", "contribution"]
+    correct_answer: "economics"
+    xp_reward: 15
+
+  - id: 31
+    type: fill_blank
+    question: "Complete the revenue stream statement"
+    text_with_blank: "Our primary ___ stream comes from monthly subscription fees."
+    options: ["revenue", "income", "profit", "cash flow"]
+    correct_answer: "revenue"
+    xp_reward: 15
+
+  - id: 32
+    type: fill_blank
+    question: "Complete the gross margin statement"
+    text_with_blank: "Our subscription model has high gross ___ since there are minimal variable costs."
+    options: ["margins", "profit", "returns", "yields"]
+    correct_answer: "margins"
+    xp_reward: 15
+
+  - id: 33
+    type: fill_blank
+    question: "Complete the churn statement"
+    text_with_blank: "In a subscription model, reducing customer ___ is critical for long-term success."
+    options: ["churn", "attrition", "turnover", "loss"]
+    correct_answer: "churn"
+    xp_reward: 15
+
+  # TRUE / FALSE (34-36)
+  - id: 34
+    type: true_false
+    question: "Is this statement true or false? The same business model works for every startup."
+    statement: "The same business model works for every startup."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 35
+    type: true_false
+    question: "Is this statement true or false? In a freemium model, typically 2-5% of users convert to paid."
+    statement: "In a freemium model, typically 2-5% of users convert to paid."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 36
+    type: true_false
+    question: "Is this statement true or false? Positive unit economics means each customer generates profit before accounting for fixed costs."
+    statement: "Positive unit economics means each customer generates profit before accounting for fixed costs."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (37-38)
+  - id: 37
+    type: matching
+    question: "Match the business model with its example"
+    pairs:
+      - left: "Subscription"
+        right: "Netflix, Spotify, SaaS"
+      - left: "Freemium"
+        right: "Dropbox, LinkedIn, Zoom"
+      - left: "Marketplace"
+        right: "Airbnb, Uber, Etsy"
+      - left: "E-commerce"
+        right: "Amazon, Warby Parker, Allbirds"
+      - left: "Advertising-based"
+        right: "Google, Facebook, YouTube"
+    xp_reward: 25
+
+  - id: 38
+    type: matching
+    question: "Match the business model component with its description"
+    pairs:
+      - left: "Value proposition"
+        right: "What problem you solve for customers"
+      - left: "Revenue model"
+        right: "How you make money"
+      - left: "Cost structure"
+        right: "Fixed and variable costs of operation"
+      - left: "Key resources"
+        right: "Assets needed to deliver value"
+      - left: "Key partnerships"
+        right: "External relationships that help the business"
+    xp_reward: 25
+
+  # FLASHCARDS (39-40)
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Business Model Canvas Components"
+    flashcards:
+      - front: "Customer segments"
+        right: "Who you serve"
+      - front: "Channels"
+        right: "How you reach customers"
+      - front: "Customer relationships"
+        right: "How you interact with customers"
+      - front: "Key activities"
+        right: "What you do daily"
+      - front: "Revenue streams"
+        right: "How money comes in"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Unit Economics Terms"
+    flashcards:
+      - front: "CAC"
+        right: "Customer Acquisition Cost"
+      - front: "LTV"
+        right: "Customer Lifetime Value"
+      - front: "ARPU"
+        right: "Average Revenue Per User"
+      - front: "CM"
+        right: "Contribution Margin"
+      - front: "CAC payback period"
+        right: "Months to recover customer acquisition cost"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: FUNDRAISING (41-60)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-48)
+  - id: 41
+    type: multiple_choice
+    question: "What is 'bootstrapping' in startup funding?"
+    options:
+      - "Pulling yourself up by your bootstraps"
+      - "Funding a startup using personal savings and revenue, without external investment"
+      - "A type of loan"
+      - "A grant"
+    answer: "Funding a startup using personal savings and revenue, without external investment"
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "What are 'friends and family' investors?"
+    options:
+      - "Investors who are friends and family"
+      - "Early-stage funding from personal network"
+      - "A type of bank loan"
+      - "Venture capital"
+    answer: "Early-stage funding from personal network"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "What is an 'angel investor'?"
+    options:
+      - "An investor with wings"
+      - "A wealthy individual who invests personal money in early-stage startups"
+      - "A type of venture capital fund"
+      - "A bank lender"
+    answer: "A wealthy individual who invests personal money in early-stage startups"
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "What is 'venture capital' (VC)?"
+    options:
+      - "Capital for ventures"
+      - "Professional investment funds that invest in high-growth startups in exchange for equity"
+      - "A type of loan"
+      - "Government grants"
+    answer: "Professional investment funds that invest in high-growth startups in exchange for equity"
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "What is a 'term sheet' in fundraising?"
+    options:
+      - "A sheet with terms"
+      - "A non-binding document outlining the key terms of a proposed investment"
+      - "A binding contract"
+      - "An investment agreement"
+    answer: "A non-binding document outlining the key terms of a proposed investment"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "What is 'valuation' in startup fundraising?"
+    options:
+      - "The value of something"
+      - "The estimated worth of a company, used to determine how much equity investors get for their money"
+      - "The price of shares"
+      - "The market cap"
+    answer: "The estimated worth of a company, used to determine how much equity investors get for their money"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "What is a 'convertible note'?"
+    options:
+      - "A note that converts"
+      - "A short-term debt instrument that converts into equity in a future financing round"
+      - "A type of loan"
+      - "An equity instrument"
+    answer: "A short-term debt instrument that converts into equity in a future financing round"
+    xp_reward: 15
+
+  - id: 48
+    type: multiple_choice
+    question: "What is 'dilution' in startup funding?"
+    options:
+      - "Watering down"
+      - "The reduction in ownership percentage when a company issues new shares"
+      - "A type of stock split"
+      - "A dividend"
+    answer: "The reduction in ownership percentage when a company issues new shares"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (49-53)
+  - id: 49
+    type: fill_blank
+    question: "Complete the pre-seed statement"
+    text_with_blank: "We are raising a ___ round of $500,000 to build our MVP and test the market."
+    options: ["pre-seed", "seed", "angel", "friends and family"]
+    correct_answer: "pre-seed"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the seed round statement"
+    text_with_blank: "After proving product-market fit, we'll raise a ___ round of $2 million."
+    options: ["seed", "Series A", "initial", "first"]
+    correct_answer: "seed"
+    xp_reward: 15
+
+  - id: 51
+    type: fill_blank
+    question: "Complete the valuation statement"
+    text_with_blank: "We are seeking a pre-money ___ of $10 million for this Series A round."
+    options: ["valuation", "worth", "value", "price"]
+    correct_answer: "valuation"
+    xp_reward: 15
+
+  - id: 52
+    type: fill_blank
+    question: "Complete the due diligence statement"
+    text_with_blank: "The investor will conduct ___ before signing the final agreement."
+    options: ["due diligence", "investigation", "review", "audit"]
+    correct_answer: "due diligence"
+    xp_reward: 15
+
+  - id: 53
+    type: fill_blank
+    question: "Complete the cap table statement"
+    text_with_blank: "Our capitalization table shows founder ownership at 60% after the last round."
+    options: ["cap table", "capitalization table", "ownership table", "equity table"]
+    correct_answer: "cap table"
+    xp_reward: 15
+
+  # TRUE / FALSE (54-56)
+  - id: 54
+    type: true_false
+    question: "Is this statement true or false? A higher valuation is always better for founders."
+    statement: "A higher valuation is always better for founders."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 55
+    type: true_false
+    question: "Is this statement true or false? The average VC fund looks for companies that can return 10x or more."
+    statement: "The average VC fund looks for companies that can return 10x or more."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 56
+    type: true_false
+    question: "Is this statement true or false? SAFE stands for Simple Agreement for Future Equity."
+    statement: "SAFE stands for Simple Agreement for Future Equity."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (57-58)
+  - id: 57
+    type: matching
+    question: "Match the funding round with its typical stage"
+    pairs:
+      - left: "Pre-seed"
+        right: "Idea stage, building MVP"
+      - left: "Seed"
+        right: "Initial product, early traction"
+      - left: "Series A"
+        right: "Product-market fit, scaling"
+      - left: "Series B"
+        right: "Proven model, scaling rapidly"
+      - left: "Series C+"
+        right: "Late-stage, pre-IPO"
+    xp_reward: 25
+
+  - id: 58
+    type: matching
+    question: "Match the term sheet term with its meaning"
+    pairs:
+      - left: "Liquidation preference"
+        right: "Investors get paid first in exit"
+      - left: "Anti-dilution"
+        right: "Protection from down rounds"
+      - left: "Board seat"
+        right: "Investor representation on board"
+      - left: "Pro-rata rights"
+        right: "Right to invest in future rounds"
+      - left: "Vesting schedule"
+        right: "Founder shares vest over time"
+    xp_reward: 25
+
+  # FLASHCARDS (59-60)
+  - id: 59
+    type: flashcards
+    question: "Flashcards: Investor Types by Stage"
+    flashcards:
+      - front: "Pre-seed/Seed"
+        right: "Angels, friends/family, micro-VCs"
+      - front: "Early stage (Series A/B)"
+        right: "Venture capital firms"
+      - front: "Growth stage (Series C+)"
+        right: "Growth equity, late-stage VC"
+      - front: "Pre-IPO"
+        right: "PE firms, mutual funds, sovereign wealth"
+      - front: "Alternative sources"
+        right: "Crowdfunding, revenue-based financing"
+    xp_reward: 30
+
+  - id: 60
+    type: flashcards
+    question: "Flashcards: Fundraising Documents"
+    flashcards:
+      - front: "Pitch deck"
+        right: "Presentation for investors"
+      - front: "Executive summary"
+        right: "2-page business overview"
+      - front: "Financial model"
+        right: "Spreadsheet with projections"
+      - front: "Data room"
+        right: "Secure repository of due diligence docs"
+      - front: "Term sheet"
+        right: "Proposed investment terms"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: INVESTOR MEETINGS (61-80)
+  # ============================================
+
+  # MULTIPLE CHOICE (61-68)
+  - id: 61
+    type: multiple_choice
+    question: "What is an 'investor meeting'?"
+    options:
+      - "A meeting with investors"
+      - "A meeting where entrepreneurs present their startup to potential investors"
+      - "A board meeting"
+      - "A pitch competition"
+    answer: "A meeting where entrepreneurs present their startup to potential investors"
+    xp_reward: 15
+
+  - id: 62
+    type: multiple_choice
+    question: "What is a 'warm introduction' to an investor?"
+    options:
+      - "An introduction from a warm person"
+      - "An introduction made by someone the investor knows and trusts"
+      - "A cold email"
+      - "A LinkedIn connection"
+    answer: "An introduction made by someone the investor knows and trusts"
+    xp_reward: 15
+
+  - id: 63
+    type: multiple_choice
+    question: "What should you research before an investor meeting?"
+    options:
+      - "Nothing - just show up"
+      - "The investor's portfolio, investment thesis, check size, and background"
+      - "Only the investor's name"
+      - "The weather"
+    answer: "The investor's portfolio, investment thesis, check size, and background"
+    xp_reward: 15
+
+  - id: 64
+    type: multiple_choice
+    question: "What is the ideal length of a first investor meeting?"
+    options:
+      - "3 hours"
+      - "30-60 minutes"
+      - "10 minutes"
+      - "All day"
+    answer: "30-60 minutes"
+    xp_reward: 15
+
+  - id: 65
+    type: multiple_choice
+    question: "What questions should you prepare to answer in an investor meeting?"
+    options:
+      - "Only about your product"
+      - "About problem, solution, market size, traction, team, competition, and use of funds"
+      - "Only about your team"
+      - "Only about your financials"
+    answer: "About problem, solution, market size, traction, team, competition, and use of funds"
+    xp_reward: 15
+
+  - id: 66
+    type: multiple_choice
+    question: "What should you ask investors at the end of the meeting?"
+    options:
+      - "Nothing - just leave"
+      - "What are the next steps? What concerns do you have? What would it take to get to yes?"
+      - "Give me money now"
+      - "Do you like my shirt?"
+    answer: "What are the next steps? What concerns do you have? What would it take to get to yes?"
+    xp_reward: 15
+
+  - id: 67
+    type: multiple_choice
+    question: "What is 'investor fit'?"
+    options:
+      - "How well you fit"
+      - "The alignment between a startup's needs and an investor's expertise, network, and investment criteria"
+      - "A type of investor"
+      - "A fitness program"
+    answer: "The alignment between a startup's needs and an investor's expertise, network, and investment criteria"
+    xp_reward: 15
+
+  - id: 68
+    type: multiple_choice
+    question: "What should you do after an investor meeting?"
+    options:
+      - "Wait and do nothing"
+      - "Send a thank-you email within 24 hours addressing any follow-up questions"
+      - "Call them every day"
+      - "Assume they will invest"
+    answer: "Send a thank-you email within 24 hours addressing any follow-up questions"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (69-73)
+  - id: 69
+    type: fill_blank
+    question: "Complete the follow-up email phrase"
+    text_with_blank: "Thank you for your time today. As ___ , I'm attaching our updated financial model."
+    options: ["promised", "discussed", "mentioned", "requested"]
+    correct_answer: "discussed"
+    xp_reward: 15
+
+  - id: 70
+    type: fill_blank
+    question: "Complete the next steps phrase"
+    text_with_blank: "What are the next ___ in your investment process?"
+    options: ["steps", "stages", "phases", "milestones"]
+    correct_answer: "steps"
+    xp_reward: 15
+
+  - id: 71
+    type: fill_blank
+    question: "Complete the concern address phrase"
+    text_with_blank: "I want to address your ___ about our customer acquisition strategy."
+    options: ["concern", "question", "doubt", "issue"]
+    correct_answer: "concern"
+    xp_reward: 15
+
+  - id: 72
+    type: fill_blank
+    question: "Complete the introduction request phrase"
+    text_with_blank: "Do you have any ___ to other investors who might be interested?"
+    options: ["introductions", "referrals", "connections", "recommendations"]
+    correct_answer: "introductions"
+    xp_reward: 15
+
+  - id: 73
+    type: fill_blank
+    question: "Complete the due diligence readiness phrase"
+    text_with_blank: "We are ready to begin the ___ process whenever you are."
+    options: ["due diligence", "review", "evaluation", "assessment"]
+    correct_answer: "due diligence"
+    xp_reward: 15
+
+  # TRUE / FALSE (74-76)
+  - id: 74
+    type: true_false
+    question: "Is this statement true or false? You should practice your pitch many times before meeting investors."
+    statement: "You should practice your pitch many times before meeting investors."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 75
+    type: true_false
+    question: "Is this statement true or false? It's better to hide problems from investors and hope they don't find them."
+    statement: "It's better to hide problems from investors and hope they don't find them."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 76
+    type: true_false
+    question: "Is this statement true or false? Be prepared to clearly explain how much money you're raising and exactly how you'll use it."
+    statement: "Be prepared to clearly explain how much money you're raising and exactly how you'll use it."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (77-78)
+  - id: 77
+    type: matching
+    question: "Match the investor question with what it assesses"
+    pairs:
+      - left: "How big is the market?"
+        right: "Market opportunity"
+      - left: "Why will customers choose you?"
+        right: "Value proposition and differentiation"
+      - left: "What traction do you have?"
+        right: "Evidence of demand"
+      - left: "What are your unit economics?"
+        right: "Business model viability"
+      - left: "How will you use the funds?"
+        right: "Capital allocation plan"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Match the red flag with why it concerns investors"
+    pairs:
+      - left: "Vague about how funds will be used"
+        right: "Lack of planning or discipline"
+      - left: "No clear competitive advantage"
+        right: "Easily replicated"
+      - left: "Founders don't get along"
+        right: "Team instability"
+      - left: "No customer traction after long period"
+        right: "Poor product-market fit"
+      - left: "Market is too small"
+        right: "Limited return potential"
+    xp_reward: 25
+
+  # FLASHCARDS (79-80)
+  - id: 79
+    type: flashcards
+    question: "Flashcards: Investor Meeting Preparation"
+    flashcards:
+      - front: "Research the investor"
+        right: "Portfolio, thesis, check size"
+      - front: "Practice your pitch"
+        right: "Be able to deliver in 5-10 minutes"
+      - front: "Prepare financial model"
+        right: "Be ready to defend assumptions"
+      - front: "Anticipate tough questions"
+        right: "Prepare honest answers"
+      - front: "Bring a partner if possible"
+        right: "Shows team strength"
+    xp_reward: 30
+
+  - id: 80
+    type: flashcards
+    question: "Flashcards: Follow-up After Investor Meeting"
+    flashcards:
+      - front: "Send thank you within 24 hours"
+        right: "Shows professionalism"
+      - front: "Address open questions"
+        right: "Provide requested information"
+      - front: "Summarize key points"
+        right: "Reinforce your message"
+      - front: "Ask about next steps"
+        right: "Shows commitment"
+      - front: "Be persistent but not annoying"
+        right: "Follow up every 1-2 weeks"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: STARTUP VOCABULARY (81-100)
+  # ============================================
+
+  # MULTIPLE CHOICE (81-88)
+  - id: 81
+    type: multiple_choice
+    question: "What is 'product-market fit'?"
+    options:
+      - "When a product fits a market"
+      - "When a product satisfies a strong market demand and customers are actively using and loving it"
+      - "A product launch"
+      - "A market research term"
+    answer: "When a product satisfies a strong market demand and customers are actively using and loving it"
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "What is 'traction' in startup terms?"
+    options:
+      - "Pulling something"
+      - "Measurable evidence of customer adoption and business progress"
+      - "A type of vehicle"
+      - "A marketing metric"
+    answer: "Measurable evidence of customer adoption and business progress"
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "What is 'runway' in startup finance?"
+    options:
+      - "A runway for planes"
+      - "The amount of time a startup can operate before running out of cash"
+      - "A type of expense"
+      - "A financial projection"
+    answer: "The amount of time a startup can operate before running out of cash"
+    xp_reward: 15
+
+  - id: 84
+    type: multiple_choice
+    question: "What is 'burn rate'?"
+    options:
+      - "The rate of burning"
+      - "The rate at which a startup spends its cash reserves"
+      - "A type of expense"
+      - "A financial metric"
+    answer: "The rate at which a startup spends its cash reserves"
+    xp_reward: 15
+
+  - id: 85
+    type: multiple_choice
+    question: "What is a 'unicorn' in startup terminology?"
+    options:
+      - "A mythical creature"
+      - "A privately held startup valued at over $1 billion"
+      - "A rare company"
+      - "A type of investor"
+    answer: "A privately held startup valued at over $1 billion"
+    xp_reward: 15
+
+  - id: 86
+    type: multiple_choice
+    question: "What is 'accelerator' in startup ecosystem?"
+    options:
+      - "A program that accelerates"
+      - "A fixed-term program that provides mentorship, funding, and resources to early-stage startups"
+      - "A type of investor"
+      - "A co-working space"
+    answer: "A fixed-term program that provides mentorship, funding, and resources to early-stage startups"
+    xp_reward: 15
+
+  - id: 87
+    type: multiple_choice
+    question: "What is 'incubator' in startup ecosystem?"
+    options:
+      - "A program that incubates"
+      - "A program that helps early-stage startups develop, often offering workspace and mentorship"
+      - "A type of accelerator"
+      - "A co-working space"
+    answer: "A program that helps early-stage startups develop, often offering workspace and mentorship"
+    xp_reward: 15
+
+  - id: 88
+    type: multiple_choice
+    question: "What is a 'pivot' in startup terminology?"
+    options:
+      - "A type of turn"
+      - "A strategic change in business direction based on learning and feedback"
+      - "A failure"
+      - "A new product launch"
+    answer: "A strategic change in business direction based on learning and feedback"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (89-93)
+  - id: 89
+    type: fill_blank
+    question: "Complete the product-market fit statement"
+    text_with_blank: "We know we have product-market ___ when customers are telling their friends about us."
+    options: ["fit", "match", "alignment", "harmony"]
+    correct_answer: "fit"
+    xp_reward: 15
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the runway statement"
+    text_with_blank: "With our current cash reserves, we have 12 months of ___ before we need more funding."
+    options: ["runway", "time", "operating time", "cash runway"]
+    correct_answer: "runway"
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the burn rate statement"
+    text_with_blank: "Our monthly net burn ___ is $50,000 after accounting for revenue."
+    options: ["rate", "number", "amount", "figure"]
+    correct_answer: "rate"
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complete the pivot statement"
+    text_with_blank: "After customer feedback, we decided to ___ from B2C to B2B."
+    options: ["pivot", "shift", "change", "transition"]
+    correct_answer: "pivot"
+    xp_reward: 15
+
+  - id: 93
+    type: fill_blank
+    question: "Complete the accelerator statement"
+    text_with_blank: "We were accepted into Y Combinator, one of the top startup ___ in the world."
+    options: ["accelerators", "programs", "incubators", "launchpads"]
+    correct_answer: "accelerators"
+    xp_reward: 15
+
+  # TRUE / FALSE (94-96)
+  - id: 94
+    type: true_false
+    question: "Is this statement true or false? A decacorn is a startup valued at over $10 billion."
+    statement: "A decacorn is a startup valued at over $10 billion."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 95
+    type: true_false
+    question: "Is this statement true or false? A 'soft launch' means launching without public announcement to test with limited users."
+    statement: "A 'soft launch' means launching without public announcement to test with limited users."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 96
+    type: true_false
+    question: "Is this statement true or false? 'Vesting' means founders get all their shares immediately."
+    statement: "'Vesting' means founders get all their shares immediately."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (97-98)
+  - id: 97
+    type: matching
+    question: "Match the startup term with its definition"
+    pairs:
+      - left: "Exit"
+        right: "Acquisition or IPO where investors get returns"
+      - left: "Acqui-hire"
+        right: "Acquisition primarily for team, not product"
+      - left: "Down round"
+        right: "Funding round at lower valuation than previous"
+      - left: "Up round"
+        right: "Funding round at higher valuation"
+      - left: "Flat round"
+        right: "Funding round at same valuation"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Match the startup role with its responsibility"
+    pairs:
+      - left: "CEO"
+        right: "Chief Executive Officer - overall vision and leadership"
+      - left: "CTO"
+        right: "Chief Technology Officer - technical strategy"
+      - left: "CPO"
+        right: "Chief Product Officer - product vision and roadmap"
+      - left: "CMO"
+        right: "Chief Marketing Officer - growth and brand"
+      - left: "COO"
+        right: "Chief Operating Officer - day-to-day operations"
+    xp_reward: 25
+
+  # FLASHCARDS (99-100)
+  - id: 99
+    type: flashcards
+    question: "Flashcards: Startup Metrics"
+    flashcards:
+      - front: "GMV"
+        right: "Gross Merchandise Value (total sales volume)"
+      - front: "NDR"
+        right: "Net Dollar Retention (revenue retained from existing customers)"
+      - front: "MQL"
+        right: "Marketing Qualified Lead"
+      - front: "SQL"
+        right: "Sales Qualified Lead"
+      - front: "CAC payback"
+        right: "Months to earn back customer acquisition cost"
+    xp_reward: 30
+
+  - id: 100
+    type: flashcards
+    question: "Flashcards: Startup Lifecycle Stages"
+    flashcards:
+      - front: "Ideation"
+        right: "Concept development"
+      - front: "Validation"
+        right: "Testing with customers"
+      - front: "Early traction"
+        right: "Initial customer adoption"
+      - front: "Scaling"
+        right: "Rapid growth"
+      - front: "Exit"
+        right: "Acquisition or IPO"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: GROWTH STRATEGIES (101-120)
+  # ============================================
+
+  # MULTIPLE CHOICE (101-108)
+  - id: 101
+    type: multiple_choice
+    question: "What is 'growth hacking'?"
+    options:
+      - "Hacking growth"
+      - "A marketing approach focused on rapid, experimental, and cost-effective customer acquisition"
+      - "A type of hacking"
+      - "A software development term"
+    answer: "A marketing approach focused on rapid, experimental, and cost-effective customer acquisition"
+    xp_reward: 15
+
+  - id: 102
+    type: multiple_choice
+    question: "What is 'viral marketing'?"
+    options:
+      - "Marketing about viruses"
+      - "A strategy that encourages customers to share the product, creating exponential growth"
+      - "A type of social media marketing"
+      - "A paid advertising strategy"
+    answer: "A strategy that encourages customers to share the product, creating exponential growth"
+    xp_reward: 15
+
+  - id: 103
+    type: multiple_choice
+    question: "What is the 'viral coefficient' (K-factor)?"
+    options:
+      - "A mathematical constant"
+      - "The average number of new users generated by each existing user"
+      - "A type of growth metric"
+      - "A social media metric"
+    answer: "The average number of new users generated by each existing user"
+    xp_reward: 15
+
+  - id: 104
+    type: multiple_choice
+    question: "What is 'product-led growth' (PLG)?"
+    options:
+      - "Growth led by product"
+      - "A growth strategy where the product itself drives user acquisition, conversion, and expansion"
+      - "A marketing strategy"
+      - "A sales strategy"
+    answer: "A growth strategy where the product itself drives user acquisition, conversion, and expansion"
+    xp_reward: 15
+
+  - id: 105
+    type: multiple_choice
+    question: "What is 'market penetration' growth strategy?"
+    options:
+      - "Penetrating the market"
+      - "Growing by selling more existing products to existing markets"
+      - "Entering new markets"
+      - "Developing new products"
+    answer: "Growing by selling more existing products to existing markets"
+    xp_reward: 15
+
+  - id: 106
+    type: multiple_choice
+    question: "What is 'market development' growth strategy?"
+    options:
+      - "Developing a market"
+      - "Growing by selling existing products to new markets"
+      - "Creating new products"
+      - "Expanding geographically only"
+    answer: "Growing by selling existing products to new markets"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What is 'product development' growth strategy?"
+    options:
+      - "Developing a product"
+      - "Growing by creating new products for existing markets"
+      - "Improving existing products"
+      - "A product launch"
+    answer: "Growing by creating new products for existing markets"
+    xp_reward: 15
+
+  - id: 108
+    type: multiple_choice
+    question: "What is 'diversification' growth strategy?"
+    options:
+      - "Diversifying the business"
+      - "Growing by creating new products for new markets"
+      - "Investing in different assets"
+      - "A risk management strategy"
+    answer: "Growing by creating new products for new markets"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (109-113)
+  - id: 109
+    type: fill_blank
+    question: "Complete the viral loop statement"
+    text_with_blank: "Our app has a built-in ___ loop where users invite friends for premium features."
+    options: ["viral", "referral", "sharing", "growth"]
+    correct_answer: "viral"
+    xp_reward: 15
+
+  - id: 110
+    type: fill_blank
+    question: "Complete the PLG statement"
+    text_with_blank: "We use a product-led ___ model with a self-service free trial to acquire customers."
+    options: ["growth", "acquisition", "strategy", "approach"]
+    correct_answer: "growth"
+    xp_reward: 15
+
+  - id: 111
+    type: fill_blank
+    question: "Complete the Ansoff Matrix statement"
+    text_with_blank: "According to the Ansoff Matrix, market ___ is the least risky growth strategy."
+    options: ["penetration", "expansion", "development", "share increase"]
+    correct_answer: "penetration"
+    xp_reward: 15
+
+  - id: 112
+    type: fill_blank
+    question: "Complete the NPS statement"
+    text_with_blank: "Our Net Promoter Score of 70 indicates strong word-of-mouth ___ potential."
+    options: ["growth", "referral", "viral", "organic"]
+    correct_answer: "growth"
+    xp_reward: 15
+
+  - id: 113
+    type: fill_blank
+    question: "Complete the retention statement"
+    text_with_blank: "Acquisition is important, but customer ___ is what drives sustainable growth."
+    options: ["retention", "loyalty", "stickiness", "engagement"]
+    correct_answer: "retention"
+    xp_reward: 15
+
+  # TRUE / FALSE (114-116)
+  - id: 114
+    type: true_false
+    question: "Is this statement true or false? A viral coefficient > 1.0 means exponential growth."
+    statement: "A viral coefficient > 1.0 means exponential growth."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Is this statement true or false? Paid advertising is the only way to acquire customers at scale."
+    statement: "Paid advertising is the only way to acquire customers at scale."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 116
+    type: true_false
+    question: "Is this statement true or false? Retention strategies are more cost-effective than acquisition strategies."
+    statement: "Retention strategies are more cost-effective than acquisition strategies."
+    xp_reward: 10
+
+  # MATCHING (117-118)
+  - id: 117
+    type: matching
+    question: "Match the growth channel with its description"
+    pairs:
+      - left: "SEO"
+        right: "Search Engine Optimization - organic search traffic"
+      - left: "Content marketing"
+        right: "Creating valuable content to attract customers"
+      - left: "Referral program"
+        right: "Incentivizing customers to bring new customers"
+      - left: "Partnerships"
+        right: "Leveraging other companies' audiences"
+      - left: "Paid social"
+        right: "Advertising on social media platforms"
+    xp_reward: 25
+
+  - id: 118
+    type: matching
+    question: "Match the growth metric with its definition"
+    pairs:
+      - left: "CAC"
+        right: "Customer Acquisition Cost"
+      - left: "LTV"
+        right: "Customer Lifetime Value"
+      - left: "Viral coefficient"
+        right: "New users per existing user"
+      - left: "Churn rate"
+        right: "Customer loss percentage"
+      - left: "Activation rate"
+        right: "Users reaching 'aha' moment"
+    xp_reward: 25
+
+  # FLASHCARDS (119-120)
+  - id: 119
+    type: flashcards
+    question: "Flashcards: Pirate Metrics (AARRR)"
+    flashcards:
+      - front: "Acquisition"
+        right: "Users discover your product"
+      - front: "Activation"
+        right: "Users have first positive experience"
+      - front: "Retention"
+        right: "Users come back repeatedly"
+      - front: "Referral"
+        right: "Users tell others"
+      - front: "Revenue"
+        right: "Users pay for your product"
+    xp_reward: 30
+
+  - id: 120
+    type: flashcards
+    question: "Flashcards: Growth Strategies"
+    flashcards:
+      - front: "Intensive growth"
+        right: "Existing products/markets"
+      - front: "Integrative growth"
+        right: "Acquisitions, mergers, partnerships"
+      - front: "Diversification growth"
+        right: "New products/markets"
+      - front: "International expansion"
+        right: "Entering new geographic markets"
+      - front: "Platform growth"
+        right: "Building ecosystem around product"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 7: PITCH DECKS (121-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (121-125)
+  - id: 121
+    type: multiple_choice
+    question: "What is a 'pitch deck'?"
+    options:
+      - "A deck for pitching"
+      - "A presentation that summarizes a startup's business for potential investors"
+      - "A type of business plan"
+      - "A marketing document"
+    answer: "A presentation that summarizes a startup's business for potential investors"
+    xp_reward: 15
+
+  - id: 122
+    type: multiple_choice
+    question: "What is the ideal length of a pitch deck?"
+    options:
+      - "50-100 slides"
+      - "10-15 slides"
+      - "2-3 slides"
+      - "30-40 slides"
+    answer: "10-15 slides"
+    xp_reward: 15
+
+  - id: 123
+    type: multiple_choice
+    question: "What is the most important slide in a pitch deck?"
+    options:
+      - "The team slide"
+      - "The problem and solution slides"
+      - "The financial projections"
+      - "The title slide"
+    answer: "The problem and solution slides"
+    xp_reward: 15
+
+  - id: 124
+    type: multiple_choice
+    question: "What should you include on the 'problem' slide?"
+    options:
+      - "Only your solution"
+      - "A clear description of the pain point, who experiences it, and why current solutions fail"
+      - "Your company history"
+      - "Financial data"
+    answer: "A clear description of the pain point, who experiences it, and why current solutions fail"
+    xp_reward: 15
+
+  - id: 125
+    type: multiple_choice
+    question: "What is the 'secret sauce' slide typically about?"
+    options:
+      - "Secret recipes"
+      - "Your unique competitive advantage and defensible technology"
+      - "Confidential information"
+      - "Trade secrets"
+    answer: "Your unique competitive advantage and defensible technology"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (126-128)
+  - id: 126
+    type: fill_blank
+    question: "Complete the deck structure statement"
+    text_with_blank: "The typical ___ slide order is: Problem, Solution, Market, Product, Traction, Team, Financials, Ask."
+    options: ["pitch deck", "presentation", "investor deck", "slide deck"]
+    correct_answer: "pitch deck"
+    xp_reward: 15
+
+  - id: 127
+    type: fill_blank
+    question: "Complete the traction slide statement"
+    text_with_blank: "Your ___ slide should show revenue, user growth, partnerships, or other proof points."
+    options: ["traction", "metrics", "progress", "results"]
+    correct_answer: "traction"
+    xp_reward: 15
+
+  - id: 128
+    type: fill_blank
+    question: "Complete the ask slide statement"
+    text_with_blank: "The '___' slide should clearly state how much money you're raising and how you'll use it."
+    options: ["ask", "request", "funding", "investment"]
+    correct_answer: "ask"
+    xp_reward: 15
+
+  # TRUE / FALSE (129)
+  - id: 129
+    type: true_false
+    question: "Is this statement true or false? You should design your pitch deck to be read and understood in 5-10 minutes."
+    statement: "You should design your pitch deck to be read and understood in 5-10 minutes."
+    correct_answer: true
+    xp_reward: 10
+
+  # TIMED CHALLENGE (130)
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Entrepreneurship Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "What does MVP stand for"
+        answer: "Minimum Viable Product"
+      - question: "What is product-market fit"
+        answer: "Product satisfies strong market demand"
+      - question: "What is bootstrapping"
+        answer: "Funding with personal savings and revenue"
+      - question: "What is a unicorn startup"
+        answer: "Valued over 1 billion dollars"
+      - question: "What does SaaS stand for"
+        answer: "Software as a Service"
+      - question: "What is the 3:1 ratio in business models"
+        answer: "LTV to CAC ratio"
+      - question: "What is burn rate"
+        answer: "Rate of spending cash"
+      - question: "Typical number of slides in pitch deck"
+        answer: "10 to 15 slides"
+    xp_reward: 50

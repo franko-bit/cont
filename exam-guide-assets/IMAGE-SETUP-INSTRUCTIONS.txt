@@ -1,0 +1,152 @@
+EXAM USER GUIDE - IMAGE SETUP INSTRUCTIONS
+=============================================
+
+Location: c:/xampp/htdocs/language-platform/exam-guide-assets/
+
+IMAGES TO ADD
+=============
+
+The HTML guide expects the following images to be saved in the exam-guide-assets folder:
+
+1. login-page.png
+   → Screenshot showing the Login page (email/password fields)
+   → Used in: "Login & Home Page" section
+   → Purpose: Shows users where to start
+
+2. home-page.png
+   → Screenshot showing the Playmates home page with game categories
+   → Used in: "Login & Home Page" section
+   → Purpose: Shows what users see after logging in
+
+3. dashboard.png
+   → Screenshot showing the user dashboard with progress, stats, and achievements
+   → Used in: "Your Dashboard" section
+   → Purpose: Shows overview of learning progress and stats
+
+4. choose-exam.png
+   → Screenshot showing the exam type selection (Academic English vs Business English)
+   → Used in: "Choosing Your Exam Type" section
+   → Purpose: Shows how to select the exam type
+
+5. popcorn-application.png
+   → Screenshot showing the popcorn code application form
+   → Used in: "Popcorn Application" section
+   → Purpose: Shows fields for popcorn code, applicant name, school name
+
+6. before-begin.png
+   → Screenshot showing exam rules and conduct requirements
+   → Used in: "Before You Begin" section
+   → Purpose: Shows important rules to follow during exam
+
+7. exam-overview.png
+   → Screenshot showing the exam overview with question count, XP, categories
+   → Used in: "Exam Overview" section
+   → Purpose: Shows what users will be tested on
+
+8. exam-interface.png
+   → Screenshot showing the actual exam interface during test
+   → Used in: "Taking the Exam" section
+   → Purpose: Shows the exam interface, timer, progress bar, and question format
+
+9. exam-warning.png
+   → Screenshot showing the tab switch warning modal
+   → Used in: "Taking the Exam" section
+   → Purpose: Shows warnings about breaking exam rules
+
+10. your-certificates.png
+    → Screenshot showing the certificates page with certificate cards
+    → Used in: "Your Certificates" section
+    → Purpose: Shows how to access and view certificates
+
+11. certificate-verified.png
+    → Screenshot showing a verified and approved certificate with full details
+    → Used in: "Your Certificates" section
+    → Purpose: Shows what a completed/verified certificate looks like
+
+
+HOW TO ADD IMAGES TO THE GUIDE
+================================
+
+Step 1: Save the Images
+   - Save each screenshot with the corresponding filename above
+   - Location: c:/xampp/htdocs/language-platform/exam-guide-assets/
+   - Format: PNG (recommended for screenshots)
+   - Size: No specific requirement, but 800-1200px width is ideal
+
+Step 2: Update the HTML
+   - Open exam-guide-with-images.html
+   - Find each image placeholder (shown as dashed box with filename)
+   - Replace the placeholder div with:
+     <img src="exam-guide-assets/[filename].png" alt="[description]">
+
+Step 3: Access the Guide
+   - Open in browser: http://localhost/language-platform/exam-guide-with-images.html
+   - Print to PDF: Ctrl+P → Save as PDF
+   - Share: The URL can be bookmarked and shared with students
+
+EXAMPLE REPLACEMENT
+====================
+
+BEFORE (Current placeholder):
+<div style="background: white; padding: 20px; border-radius: 12px; border: 2px dashed #ddd0c2; text-align: center; min-height: 300px; display: flex; align-items: center; justify-content: center;">
+    <p style="color: #aaa; font-size: 14px;">LOGIN PAGE IMAGE<br><em>Save as: login-page.png</em></p>
+</div>
+
+AFTER (With actual image):
+<img src="exam-guide-assets/login-page.png" alt="Login Page - Welcome to Playmates">
+
+CURRENT STATUS
+==============
+
+✓ Created: exam-guide-assets/ folder
+✓ Created: exam-guide-with-images.html with all placeholders and descriptions
+⏳ Pending: Add actual screenshots to the exam-guide-assets folder
+⏳ Pending: Replace placeholder divs with actual img tags
+
+BENEFITS OF THIS APPROACH
+===========================
+
+✓ Professional user guide with real screenshots
+✓ Easy to maintain and update images
+✓ Can be printed to PDF for distribution
+✓ Mobile-friendly responsive design
+✓ Fast loading with optimized images
+✓ Accessibility with alt text on images
+✓ SEO-friendly structure
+
+TIPS FOR SCREENSHOTS
+====================
+
+1. Capture the full interface/page content
+2. Keep them consistent in size (800-1000px width)
+3. Use PNG format for lossless compression
+4. Remove any personal/sensitive data before adding
+5. Use consistent lighting and contrast
+6. Consider adding a subtle border or shadow
+7. Name files descriptively and consistently
+
+SHARING THE GUIDE
+==================
+
+Once complete, you can:
+- Share the URL: http://localhost/language-platform/exam-guide-with-images.html
+- Print to PDF: For offline distribution
+- Embed in an iframe: On your learning platform
+- Add to email: Send the PDF to new students
+- Link from: Dashboard, help pages, or email notifications
+
+TROUBLESHOOTING
+===============
+
+If images don't appear:
+1. Check image filenames match exactly (case-sensitive)
+2. Verify images are in exam-guide-assets/ folder
+3. Clear browser cache and refresh page
+4. Check browser console for 404 errors
+5. Ensure file permissions allow reading
+
+If you need help:
+- Check image paths in HTML
+- Verify image files exist
+- Test with simple <img> tag first
+- Use browser developer tools (F12) to debug

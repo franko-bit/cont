@@ -1,0 +1,1291 @@
+lesson:
+  name: "Hali ya Hewa"
+  description: "Learn weather expressions in French"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Weather Words
+  # Basic Weather Words
+  - id: 1
+    type: translation
+    question: "Je, unasemaje 'Hali ya hewa' kwa Kifaransa?"
+    answer: "Temps"
+    xp_reward: 15
+
+  - id: 2
+    type: translation
+    question: "Je, unasemaje 'Jua' kwa Kifaransa?"
+    answer: "Soleil"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Je, unasemaje 'Mvua' kwa Kifaransa?"
+    answer: "Pluie"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Je, unasemaje 'Theluji' kwa Kifaransa?"
+    answer: "Neige"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Je, unasemaje 'Wingu' kwa Kifaransa?"
+    answer: "Nuage"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Je, unasemaje 'Upepo' kwa Kifaransa?"
+    answer: "Vent"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Je, unasemaje 'Dhoruba' kwa Kifaransa?"
+    answer: "Tempête"
+    xp_reward: 15
+
+  - id: 8
+    type: translation
+    question: "Je, unasemaje 'Ngurumo' kwa Kifaransa?"
+    answer: "Tonnerre"
+    xp_reward: 15
+
+  - id: 9
+    type: translation
+    question: "Je, unasemaje 'Radi' kwa Kifaransa?"
+    answer: "Éclair"
+    xp_reward: 15
+
+  - id: 10
+    type: translation
+    question: "Je, unasemaje 'Kuna joto' kwa Kifaransa?"
+    answer: "Chaud"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Je, unasemaje 'Kuna baridi' kwa Kifaransa?"
+    answer: "Froid"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Je, unasemaje 'Kuna joto kidogo' kwa Kifaransa?"
+    answer: "Chaud"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Je, unasemaje 'Kuna baridi kidogo' kwa Kifaransa?"
+    answer: "Frais"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Je, unasemaje 'Una unyevu' kwa Kifaransa?"
+    answer: "Humide"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Je, unasemaje 'Ukungu' kwa Kifaransa?"
+    answer: "Brouillard"
+    xp_reward: 10
+
+  # Sentences About Weather
+  - id: 16
+    type: translation
+    question: "Je, unasemaje 'Jua linaangaza' kwa Kifaransa?"
+    answer: "Le soleil brille"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Je, unasemaje 'Kunanyesha' kwa Kifaransa?"
+    answer: "Il pleut"
+    xp_reward: 18
+
+  - id: 18
+    type: translation
+    question: "Je, unasemaje 'Kunanyesha theluji' kwa Kifaransa?"
+    answer: "Il neige"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Je, unasemaje 'Upepo una nguvu' kwa Kifaransa?"
+    answer: "Le vent est fort"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Je, unasemaje 'Anga ni mawingu' kwa Kifaransa?"
+    answer: "Le ciel est nuageux"
+    xp_reward: 18
+
+  - id: 21
+    type: translation
+    question: "Je, unasemaje 'Leo kuna joto' kwa Kifaransa?"
+    answer: "Il fait chaud aujourd'hui"
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Je, unasemaje 'Nje kuna baridi' kwa Kifaransa?"
+    answer: "Il fait froid dehors"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Je, unasemaje 'Hali ya hewa ni nzuri' kwa Kifaransa?"
+    answer: "Il fait beau"
+    xp_reward: 15
+
+  # Daily Weather Expressions
+  - id: 24
+    type: translation
+    question: "Je, unasemaje 'Habari za asubuhi! Jua linaangaza' kwa Kifaransa?"
+    answer: "Bonjour ! Il fait soleil"
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "Je, unasemaje 'Leo itanyesha' kwa Kifaransa?"
+    answer: "Il va pleuvoir aujourd'hui"
+    xp_reward: 18
+
+  - id: 26
+    type: translation
+    question: "Je, unasemaje 'Upepo unavuma' kwa Kifaransa?"
+    answer: "Le vent souffle"
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "Je, unasemaje 'Jihadharini, inaweza kuteleza' kwa Kifaransa?"
+    answer: "Attention, ça peut glisser"
+    xp_reward: 20
+
+  - id: 28
+    type: translation
+    question: "Je, unasemaje 'Leo anga ni mawingu' kwa Kifaransa?"
+    answer: "Il est nuageux aujourd'hui"
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "'Jua' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Mvua"
+      - "Jua"
+      - "Upepo"
+      - "Wingu"
+    answer: "Jua"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Mvua' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Theluji"
+      - "Mvua"
+      - "Dhoruba"
+      - "Ukungu"
+    answer: "Mvua"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Upepo' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Jua"
+      - "Wingu"
+      - "Upepo"
+      - "Dhoruba"
+    answer: "Upepo"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Kuna joto' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Baridi"
+      - "Joto"
+      - "Joto kidogo"
+      - "Baridi kidogo"
+    answer: "Joto"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Kuna baridi' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Joto"
+      - "Joto"
+      - "Baridi"
+      - "Baridi kidogo"
+    answer: "Baridi"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "'Jua linaangaza' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Kunanyesha"
+      - "Jua linaangaza"
+      - "Upepo una nguvu"
+      - "Anga ni mawingu"
+    answer: "Jua linaangaza"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 35
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la hali ya hewa kwa Kifaransa"
+    tts_text: "Jua"
+    answer: "Soleil"
+    translation: "Jua"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la hali ya hewa kwa Kifaransa"
+    tts_text: "Mvua"
+    answer: "Pluie"
+    translation: "Mvua"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la hali ya hewa kwa Kifaransa"
+    tts_text: "Upepo"
+    answer: "Vent"
+    translation: "Upepo"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la hali ya hewa kwa Kifaransa"
+    tts_text: "Theluji"
+    answer: "Neige"
+    translation: "Theluji"
+    xp_reward: 20
+
+  - id: 39
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Jua linaangaza"
+    answer: "Le soleil brille"
+    translation: "Jua linaangaza"
+    xp_reward: 22
+
+  - id: 40
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Kunanyesha"
+    answer: "Il pleut"
+    translation: "Kunanyesha"
+    xp_reward: 25
+
+  - id: 41
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Leo kuna joto"
+    answer: "Il fait chaud aujourd'hui"
+    translation: "Leo kuna joto"
+    xp_reward: 22
+
+  - id: 42
+    type: listen_and_type
+    question: "Sikiliza kisha uandike msemo kwa Kifaransa"
+    tts_text: "Habari za asubuhi Jua limeangaza"
+    answer: "Bonjour ! Il fait soleil"
+    translation: "Habari za asubuhi Jua limeangaza"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 43
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague neno la hali ya hewa linalofaa kwa Kifaransa"
+    tts_text: "Jua"
+    options:
+      - "Mvua"
+      - "Jua"
+      - "Upepo"
+    answer: "Jua"
+    xp_reward: 15
+
+  - id: 44
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague neno la hali ya hewa linalofaa kwa Kifaransa"
+    tts_text: "Mvua"
+    options:
+      - "Theluji"
+      - "Mvua"
+      - "Wingu"
+    answer: "Mvua"
+    xp_reward: 15
+
+  - id: 45
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague neno la hali ya hewa linalofaa kwa Kifaransa"
+    tts_text: "Upepo"
+    options:
+      - "Jua"
+      - "Upepo"
+      - "Dhoruba"
+    answer: "Upepo"
+    xp_reward: 15
+
+  - id: 46
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi inayofaa kwa Kifaransa"
+    tts_text: "Jua linaangaza"
+    options:
+      - "Kunanyesha"
+      - "Jua linaangaza"
+      - "Upepo una nguvu"
+    answer: "Jua linaangaza"
+    xp_reward: 18
+
+  - id: 47
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi inayofaa kwa Kifaransa"
+    tts_text: "Kunanyesha"
+    options:
+      - "Leo kuna joto"
+      - "Kunanyesha"
+      - "Anga ni mawingu"
+    answer: "Kunanyesha"
+    xp_reward: 20
+
+  # 5. Repeat / Speaking Exercise
+  - id: 48
+    type: speaking
+    question: "Taja neno la hali ya hewa kwa Kifaransa"
+    prompt: "Jua"
+    translation: "Soleil"
+    xp_reward: 15
+
+  - id: 49
+    type: speaking
+    question: "Taja neno la hali ya hewa kwa Kifaransa"
+    prompt: "Mvua"
+    translation: "Pluie"
+    xp_reward: 15
+
+  - id: 50
+    type: speaking
+    question: "Taja neno la hali ya hewa kwa Kifaransa"
+    prompt: "Upepo"
+    translation: "Vent"
+    xp_reward: 15
+
+  - id: 51
+    type: speaking
+    question: "Taja neno la hali ya hewa kwa Kifaransa"
+    prompt: "Theluji"
+    translation: "Neige"
+    xp_reward: 15
+
+  - id: 52
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Jua linaangaza"
+    translation: "Le soleil brille"
+    xp_reward: 18
+
+  - id: 53
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Kunanyesha"
+    translation: "Il pleut"
+    xp_reward: 20
+
+  - id: 54
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Leo kuna joto"
+    translation: "Il fait chaud aujourd'hui"
+    xp_reward: 18
+
+  - id: 55
+    type: speaking
+    question: "Taja msemo huu kwa Kifaransa"
+    prompt: "Habari za asubuhi Jua limeangaza"
+    translation: "Bonjour ! Il fait soleil"
+    xp_reward: 22
+
+  # 6. Word Bank Sentence Building
+  - id: 56
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Jua linaangaza'"
+    word_bank: ["Le", "soleil", "brille", "il", "pleut"]
+    correct_answer: ["Le", "soleil", "brille"]
+    xp_reward: 15
+
+  - id: 57
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kunanyesha'"
+    word_bank: ["Il", "pleut", "neige", "vent"]
+    correct_answer: ["Il", "pleut"]
+    xp_reward: 20
+
+  - id: 58
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Kunanyesha theluji'"
+    word_bank: ["Il", "neige", "pleut", "vent"]
+    correct_answer: ["Il", "neige"]
+    xp_reward: 15
+
+  - id: 59
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Upepo una nguvu'"
+    word_bank: ["Le", "vent", "est", "fort", "souffle", "soleil"]
+    correct_answer: ["Le", "vent", "est", "fort"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Anga ni mawingu'"
+    word_bank: ["Le", "ciel", "est", "nuageux", "ensoleillé", "pluvieux"]
+    correct_answer: ["Le", "ciel", "est", "nuageux"]
+    xp_reward: 18
+
+  - id: 61
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Leo kuna joto'"
+    word_bank: ["Il", "fait", "chaud", "aujourd'hui", "froid", "dehors"]
+    correct_answer: ["Il", "fait", "chaud", "aujourd'hui"]
+    xp_reward: 15
+
+  - id: 62
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Nje kuna baridi'"
+    word_bank: ["Il", "fait", "froid", "dehors", "chaud", "aujourd'hui"]
+    correct_answer: ["Il", "fait", "froid", "dehors"]
+    xp_reward: 15
+
+  - id: 63
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Hali ya hewa ni nzuri'"
+    word_bank: ["Il", "fait", "beau", "mauvais", "temps"]
+    correct_answer: ["Il", "fait", "beau"]
+    xp_reward: 18
+
+  - id: 64
+    type: word_bank
+    question: "Jenga msemo wa Kifaransa unaomaanisha 'Habari za asubuhi! Jua linaangaza'"
+    word_bank: ["Bonjour", "Il", "fait", "soleil", "il", "pleut"]
+    correct_answer: ["Bonjour", "Il", "fait", "soleil"]
+    xp_reward: 18
+
+  - id: 65
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Leo itanyesha'"
+    word_bank: ["Il", "va", "pleuvoir", "aujourd'hui", "neiger", "demain"]
+    correct_answer: ["Il", "va", "pleuvoir", "aujourd'hui"]
+    xp_reward: 20
+
+  - id: 66
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Upepo unavuma'"
+    word_bank: ["Le", "vent", "souffle", "est", "fort", "froid"]
+    correct_answer: ["Le", "vent", "souffle"]
+    xp_reward: 15
+
+  - id: 67
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Jihadharini, inaweza kuteleza'"
+    word_bank: ["Attention", "ça", "peut", "glisser", "il", "pleut"]
+    correct_answer: ["Attention", "ça", "peut", "glisser"]
+    xp_reward: 22
+
+  - id: 68
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Leo anga ni mawingu'"
+    word_bank: ["Il", "est", "nuageux", "aujourd'hui", "ensoleillé", "demain"]
+    correct_answer: ["Il", "est", "nuageux", "aujourd'hui"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble
+  - id: 69
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Jua linaangaza'"
+    scrambled_words: ["brille", "Le", "soleil"]
+    correct_sentence: "Le soleil brille"
+    translation: "Jua linaangaza"
+    xp_reward: 15
+
+  - id: 70
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Kunanyesha'"
+    scrambled_words: ["pleut", "Il"]
+    correct_sentence: "Il pleut"
+    translation: "Kunanyesha"
+    xp_reward: 20
+
+  - id: 71
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Kunanyesha theluji'"
+    scrambled_words: ["neige", "Il"]
+    correct_sentence: "Il neige"
+    translation: "Kunanyesha theluji"
+    xp_reward: 15
+
+  - id: 72
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Upepo una nguvu'"
+    scrambled_words: ["fort", "est", "Le", "vent"]
+    correct_sentence: "Le vent est fort"
+    translation: "Upepo una nguvu"
+    xp_reward: 15
+
+  - id: 73
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Anga ni mawingu'"
+    scrambled_words: ["nuageux", "est", "Le", "ciel"]
+    correct_sentence: "Le ciel est nuageux"
+    translation: "Anga ni mawingu"
+    xp_reward: 18
+
+  - id: 74
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Leo kuna joto'"
+    scrambled_words: ["chaud", "fait", "Il", "aujourd'hui"]
+    correct_sentence: "Il fait chaud aujourd'hui"
+    translation: "Leo kuna joto"
+    xp_reward: 15
+
+  - id: 75
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Nje kuna baridi'"
+    scrambled_words: ["froid", "fait", "Il", "dehors"]
+    correct_sentence: "Il fait froid dehors"
+    translation: "Nje kuna baridi"
+    xp_reward: 15
+
+  - id: 76
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Hali ya hewa ni nzuri'"
+    scrambled_words: ["beau", "fait", "Il"]
+    correct_sentence: "Il fait beau"
+    translation: "Hali ya hewa ni nzuri"
+    xp_reward: 18
+
+  - id: 77
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Habari za asubuhi! Jua linaangaza'"
+    scrambled_words: ["Bonjour", "Il", "fait", "soleil"]
+    correct_sentence: "Bonjour ! Il fait soleil"
+    translation: "Habari za asubuhi! Jua linaangaza"
+    xp_reward: 18
+
+  - id: 78
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Leo itanyesha'"
+    scrambled_words: ["va", "Il", "aujourd'hui", "pleuvoir"]
+    correct_sentence: "Il va pleuvoir aujourd'hui"
+    translation: "Leo itanyesha"
+    xp_reward: 20
+
+  - id: 79
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Upepo unavuma'"
+    scrambled_words: ["souffle", "Le", "vent"]
+    correct_sentence: "Le vent souffle"
+    translation: "Upepo unavuma"
+    xp_reward: 15
+
+  - id: 80
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Jihadharini, inaweza kuteleza'"
+    scrambled_words: ["Attention", "ça", "peut", "glisser"]
+    correct_sentence: "Attention, ça peut glisser"
+    translation: "Jihadharini, inaweza kuteleza"
+    xp_reward: 22
+
+  - id: 81
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Leo anga ni mawingu'"
+    scrambled_words: ["nuageux", "est", "Il", "aujourd'hui"]
+    correct_sentence: "Il est nuageux aujourd'hui"
+    translation: "Leo anga ni mawingu"
+    xp_reward: 20
+
+  # 8. Fill in the Blank
+  - id: 82
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Le soleil ___."
+    options: ["brille", "tombe", "souffle"]
+    correct_answer: "brille"
+    translation: "Jua linaangaza"
+    xp_reward: 12
+
+  - id: 83
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Il ___."
+    options: ["pleut", "neige", "vent"]
+    correct_answer: "pleut"
+    translation: "Kunanyesha"
+    xp_reward: 15
+
+  - id: 84
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Il ___."
+    options: ["neige", "pleut", "souffle"]
+    correct_answer: "neige"
+    translation: "Kunanyesha theluji"
+    xp_reward: 12
+
+  - id: 85
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Le vent est ___."
+    options: ["fort", "faible", "froid"]
+    correct_answer: "fort"
+    translation: "Upepo una nguvu"
+    xp_reward: 12
+
+  - id: 86
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Le ciel est ___."
+    options: ["nuageux", "pluvieux", "neigeux"]
+    correct_answer: "nuageux"
+    translation: "Anga ni mawingu"
+    xp_reward: 15
+
+  - id: 87
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Il fait ___ aujourd'hui."
+    options: ["chaud", "froid", "vent"]
+    correct_answer: "chaud"
+    translation: "Leo kuna joto"
+    xp_reward: 12
+
+  - id: 88
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Il fait froid ___."
+    options: ["dehors", "dedans", "aujourd'hui"]
+    correct_answer: "dehors"
+    translation: "Nje kuna baridi"
+    xp_reward: 12
+
+  - id: 89
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Il fait ___."
+    options: ["beau", "chaud", "froid"]
+    correct_answer: "beau"
+    translation: "Hali ya hewa ni nzuri"
+    xp_reward: 12
+
+  - id: 90
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha msemo kwa Kifaransa"
+    text_with_blank: "Bonjour ! Il fait ___."
+    options: ["soleil", "pluie", "neige"]
+    correct_answer: "soleil"
+    translation: "Habari za asubuhi! Jua linaangaza"
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Il va ___ aujourd'hui."
+    options: ["pleuvoir", "neiger", "souffler"]
+    correct_answer: "pleuvoir"
+    translation: "Leo itanyesha"
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Le vent ___."
+    options: ["souffle", "brille", "tombe"]
+    correct_answer: "souffle"
+    translation: "Upepo unavuma"
+    xp_reward: 12
+
+  - id: 93
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha onyo kwa Kifaransa"
+    text_with_blank: "Attention, ça peut ___."
+    options: ["glisser", "pleuvoir", "neiger"]
+    correct_answer: "glisser"
+    translation: "Jihadharini, inaweza kuteleza"
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 94
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?sun"
+    options: ["Jua", "Mvua", "Wingu"]
+    correct_answer: "Jua"
+    xp_reward: 10
+
+  - id: 95
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?rain"
+    options: ["Mvua", "Theluji", "Upepo"]
+    correct_answer: "Mvua"
+    xp_reward: 10
+
+  - id: 96
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?snow"
+    options: ["Theluji", "Mvua", "Ukungu"]
+    correct_answer: "Theluji"
+    xp_reward: 10
+
+  - id: 97
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?cloud"
+    options: ["Wingu", "Jua", "Upepo"]
+    correct_answer: "Wingu"
+    xp_reward: 10
+
+  - id: 98
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?wind"
+    options: ["Upepo", "Mvua", "Theluji"]
+    correct_answer: "Upepo"
+    xp_reward: 10
+
+  - id: 99
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?storm"
+    options: ["Dhoruba", "Jua", "Wingu"]
+    correct_answer: "Dhoruba"
+    xp_reward: 15
+
+  - id: 100
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?lightning"
+    options: ["Radi", "Mvua", "Wingu"]
+    correct_answer: "Radi"
+    xp_reward: 15
+
+  - id: 101
+    type: picture_word
+    question: "Hali ya hewa hii ni ipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?fog"
+    options: ["Ukungu", "Wingu", "Upepo"]
+    correct_answer: "Ukungu"
+    xp_reward: 12
+
+  - id: 102
+    type: picture_word
+    question: "Hii ni joto gani kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?hot-weather"
+    options: ["Joto", "Baridi", "Baridi kidogo"]
+    correct_answer: "Joto"
+    xp_reward: 10
+
+  - id: 103
+    type: picture_word
+    question: "Hii ni joto gani kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?cold-weather"
+    options: ["Baridi", "Joto", "Joto kidogo"]
+    correct_answer: "Baridi"
+    xp_reward: 10
+
+  # 10. Word Matching
+  - id: 104
+    type: matching
+    question: "Linganisha maneno ya hali ya hewa kwa Kifaransa"
+    pairs:
+      - left: "Jua"
+        right: "Soleil"
+      - left: "Mvua"
+        right: "Pluie"
+      - left: "Theluji"
+        right: "Neige"
+      - left: "Wingu"
+        right: "Nuage"
+      - left: "Upepo"
+        right: "Vent"
+      - left: "Dhoruba"
+        right: "Tempête"
+      - left: "Ngurumo"
+        right: "Tonnerre"
+      - left: "Radi"
+        right: "Éclair"
+      - left: "Ukungu"
+        right: "Brouillard"
+    xp_reward: 25
+
+  - id: 105
+    type: matching
+    question: "Linganisha joto kwa Kifaransa"
+    pairs:
+      - left: "Joto"
+        right: "Chaud"
+      - left: "Baridi"
+        right: "Froid"
+      - left: "Joto kidogo"
+        right: "Chaud"
+      - left: "Baridi kidogo"
+        right: "Frais"
+      - left: "Unyevu"
+        right: "Humide"
+    xp_reward: 20
+
+  - id: 106
+    type: matching
+    question: "Linganisha sentensi za hali ya hewa kwa Kifaransa"
+    pairs:
+      - left: "Jua linaangaza"
+        right: "Le soleil brille"
+      - left: "Kunanyesha"
+        right: "Il pleut"
+      - left: "Kunanyesha theluji"
+        right: "Il neige"
+      - left: "Upepo una nguvu"
+        right: "Le vent est fort"
+      - left: "Anga ni mawingu"
+        right: "Le ciel est nuageux"
+      - left: "Leo kuna joto"
+        right: "Il fait chaud aujourd'hui"
+      - left: "Nje kuna baridi"
+        right: "Il fait froid dehors"
+    xp_reward: 25
+
+  - id: 107
+    type: matching
+    question: "Linganisha misemo ya kila siku kwa Kifaransa"
+    pairs:
+      - left: "Habari za asubuhi! Jua linaangaza"
+        right: "Bonjour ! Il fait soleil"
+      - left: "Leo itanyesha"
+        right: "Il va pleuvoir aujourd'hui"
+      - left: "Upepo unavuma"
+        right: "Le vent souffle"
+      - left: "Jihadharini, inaweza kuteleza"
+        right: "Attention, ça peut glisser"
+      - left: "Leo anga ni mawingu"
+        right: "Il est nuageux aujourd'hui"
+    xp_reward: 25
+
+  # 11. Choose Missing Word
+  - id: 108
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Le soleil ___."
+    missing_word_position: 3
+    options: ["brille", "tombe", "souffle"]
+    correct_answer: "brille"
+    translation: "Jua linaangaza"
+    xp_reward: 12
+
+  - id: 109
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Il ___."
+    missing_word_position: 2
+    options: ["pleut", "neige", "souffle"]
+    correct_answer: "pleut"
+    translation: "Kunanyesha"
+    xp_reward: 15
+
+  - id: 110
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Le vent est ___."
+    missing_word_position: 4
+    options: ["fort", "faible", "froid"]
+    correct_answer: "fort"
+    translation: "Upepo una nguvu"
+    xp_reward: 12
+
+  - id: 111
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Il fait ___ aujourd'hui."
+    missing_word_position: 3
+    options: ["chaud", "froid", "vent"]
+    correct_answer: "chaud"
+    translation: "Leo kuna joto"
+    xp_reward: 12
+
+  - id: 112
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Il fait froid ___."
+    missing_word_position: 4
+    options: ["dehors", "dedans", "aujourd'hui"]
+    correct_answer: "dehors"
+    translation: "Nje kuna baridi"
+    xp_reward: 12
+
+  - id: 113
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Il va ___ aujourd'hui."
+    missing_word_position: 3
+    options: ["pleuvoir", "neiger", "souffler"]
+    correct_answer: "pleuvoir"
+    translation: "Leo itanyesha"
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 114
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Jua linaangaza. Hali ya hewa ni nzuri."
+    question: "Hali ya hewa ikoje?"
+    options: ["Kunanyesha", "Kuna jua", "Kuna mawingu", "Kuna upepo"]
+    correct_answer: "Kuna jua"
+    xp_reward: 12
+
+  - id: 115
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Kunanyesha. Upepo una nguvu."
+    question: "Kinachotokea ni nini?"
+    options: ["Kunanyesha theluji", "Kunanyesha", "Kuna jua", "Kuna mawingu"]
+    correct_answer: "Kunanyesha"
+    xp_reward: 15
+
+  - id: 116
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Leo kuna joto. Jua linaangaza."
+    question: "Joto la leo likoje?"
+    options: ["Baridi", "Joto", "Baridi kidogo", "Joto kidogo"]
+    correct_answer: "Joto"
+    xp_reward: 12
+
+  - id: 117
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Anga ni mawingu. Itanyesha."
+    question: "Kitakachotokea leo ni nini?"
+    options: ["Itanyesha theluji", "Itanyesha", "Jua litaangaza", "Upepo utavuma"]
+    correct_answer: "Itanyesha"
+    xp_reward: 15
+
+  - id: 118
+    type: read_answer
+    question: "Soma mazungumzo kisha ujibu swali kwa Kifaransa"
+    text: "A: Habari za asubuhi! Jua linaangaza. B: Ndiyo, hali ya hewa ni nzuri."
+    question: "Hali ya hewa ikoje?"
+    options: ["Kunanyesha", "Kuna jua", "Kuna mawingu", "Kuna upepo"]
+    correct_answer: "Kuna jua"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 119
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Jua' means 'sun'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 120
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Mvua' means 'snow'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 121
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Upepo una nguvu' means 'the wind is strong'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 122
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Kuna baridi' means 'hot'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 123
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Kunanyesha' means 'it is raining'."
+    correct_answer: true
+    xp_reward: 15
+
+  - id: 124
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Leo itanyesha theluji' means 'it will rain today'."
+    correct_answer: false
+    xp_reward: 15
+
+  # 14. Conversation Exercise
+  - id: 125
+    type: conversation
+    question: "Jibu salamu kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Habari za asubuhi!"
+    translation: "Good morning!"
+    word_bank: ["Bonjour", "Il", "fait", "soleil"]
+    correct_response: ["Bonjour"]
+    xp_reward: 10
+
+  - id: 126
+    type: conversation
+    question: "Jibu swali kuhusu hali ya hewa kwa Kifaransa"
+    bot_message: "Hali ya hewa ikoje?"
+    translation: "How is the weather?"
+    options:
+      - "Jua linaangaza"
+      - "Kunanyesha"
+      - "Upepo una nguvu"
+    correct_response: "Jua linaangaza"
+    xp_reward: 15
+
+  - id: 127
+    type: conversation
+    question: "Jibu kauli kwa Kifaransa"
+    bot_message: "Leo kuna joto."
+    translation: "It is hot today."
+    options:
+      - "Ndiyo, jua linaangaza"
+      - "Hapana, kuna baridi"
+      - "Kunanyesha"
+    correct_response: "Ndiyo, jua linaangaza"
+    xp_reward: 12
+
+  - id: 128
+    type: conversation
+    question: "Jibu onyo kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Nje kuna baridi."
+    translation: "It is cold outside."
+    word_bank: ["Attention", "ça", "peut", "glisser", "dehors"]
+    correct_response: ["Attention", "ça", "peut", "glisser"]
+    xp_reward: 20
+
+  # 15. Story Exercise
+  - id: 129
+    type: story
+    title: "Siku ya Hali ya Hewa"
+    story_intro: "Soma hadithi ya hali ya hewa. Kisha jenga sentensi kwa Kifaransa."
+    story_segments:
+      - text: "Habari za asubuhi! Jua linaangaza."
+      - text: "Leo kuna joto."
+      - text: "Anga ni mawingu."
+      - text: "Leo itanyesha."
+      - text: "Upepo unavuma."
+      - text: "Jihadharini, inaweza kuteleza."
+    exercises:
+      - type: word_bank
+        question: "Jenga 'Good morning! The sun is shining' kwa Kifaransa"
+        word_bank: ["Bonjour", "Il", "fait", "soleil", "il", "pleut"]
+        correct_answer: ["Bonjour", "Il", "fait", "soleil"]
+      - type: word_bank
+        question: "Jenga 'It is hot today' kwa Kifaransa"
+        word_bank: ["Il", "fait", "chaud", "aujourd'hui", "froid", "dehors"]
+        correct_answer: ["Il", "fait", "chaud", "aujourd'hui"]
+      - type: word_bank
+        question: "Jenga 'The sky is cloudy' kwa Kifaransa"
+        word_bank: ["Le", "ciel", "est", "nuageux", "ensoleillé", "pluvieux"]
+        correct_answer: ["Le", "ciel", "est", "nuageux"]
+      - type: word_bank
+        question: "Jenga 'It will rain today' kwa Kifaransa"
+        word_bank: ["Il", "va", "pleuvoir", "aujourd'hui", "neiger", "demain"]
+        correct_answer: ["Il", "va", "pleuvoir", "aujourd'hui"]
+      - type: word_bank
+        question: "Jenga 'The wind is blowing' kwa Kifaransa"
+        word_bank: ["Le", "vent", "souffle", "est", "fort", "froid"]
+        correct_answer: ["Le", "vent", "souffle"]
+      - type: word_bank
+        question: "Jenga 'Be careful, it is slippery' kwa Kifaransa"
+        word_bank: ["Attention", "ça", "peut", "glisser", "dehors"]
+        correct_answer: ["Attention", "ça", "peut", "glisser"]
+    xp_reward: 45
+
+  # 16. Pronunciation Check
+  - id: 130
+    type: pronunciation
+    question: "Taja neno la hali ya hewa kwa Kifaransa vizuri"
+    prompt: "Jua"
+    translation: "Soleil"
+    xp_reward: 15
+
+  - id: 131
+    type: pronunciation
+    question: "Taja neno la hali ya hewa kwa Kifaransa vizuri"
+    prompt: "Mvua"
+    translation: "Pluie"
+    xp_reward: 15
+
+  - id: 132
+    type: pronunciation
+    question: "Taja neno la hali ya hewa kwa Kifaransa vizuri"
+    prompt: "Upepo"
+    translation: "Vent"
+    xp_reward: 15
+
+  - id: 133
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Jua linaangaza"
+    translation: "Le soleil brille"
+    xp_reward: 18
+
+  - id: 134
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Kunanyesha"
+    translation: "Il pleut"
+    xp_reward: 20
+
+  - id: 135
+    type: pronunciation
+    question: "Taja msemo huu kwa Kifaransa vizuri"
+    prompt: "Habari za asubuhi Jua limeangaza"
+    translation: "Bonjour ! Il fait soleil"
+    xp_reward: 22
+
+  # 17. Identify Correct Meaning
+  - id: 136
+    type: identify_meaning
+    question: "'Jua' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Jua linaangaza."
+    word: "Jua"
+    options: ["Mvua", "Jua", "Upepo", "Wingu"]
+    correct_answer: "Jua"
+    xp_reward: 12
+
+  - id: 137
+    type: identify_meaning
+    question: "'Linaangaza' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Jua linaangaza."
+    word: "linaangaza"
+    options: ["inanyesha", "inaangaza", "unavuma", "ina nguvu"]
+    correct_answer: "inaangaza"
+    xp_reward: 15
+
+  - id: 138
+    type: identify_meaning
+    question: "'Kuna joto' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Leo kuna joto."
+    word: "kuna joto"
+    options: ["baridi", "joto", "baridi kidogo", "joto kidogo"]
+    correct_answer: "joto"
+    xp_reward: 12
+
+  - id: 139
+    type: identify_meaning
+    question: "'Itanyesha' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Leo itanyesha."
+    word: "itanyesha"
+    options: ["itanyesha theluji", "itanyesha", "utavuma", "utaangaza"]
+    correct_answer: "itanyesha"
+    xp_reward: 18
+
+  - id: 140
+    type: identify_meaning
+    question: "'Kuteleza' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Jihadharini, inaweza kuteleza."
+    word: "kuteleza"
+    options: ["kuwa baridi", "kuteleza", "kuwa na joto", "kuwa na upepo"]
+    correct_answer: "kuteleza"
+    xp_reward: 18
+
+  # 18. Speed Matching
+  - id: 141
+    type: speed_matching
+    title: "Linganisha kwa Kasi: Hali ya Hewa"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Jua"
+        right: "Soleil"
+      - left: "Mvua"
+        right: "Pluie"
+      - left: "Theluji"
+        right: "Neige"
+      - left: "Wingu"
+        right: "Nuage"
+      - left: "Upepo"
+        right: "Vent"
+      - left: "Joto"
+        right: "Chaud"
+      - left: "Baridi"
+        right: "Froid"
+      - left: "Ukungu"
+        right: "Brouillard"
+      - left: "Kuna jua"
+        right: "Le soleil brille"
+      - left: "Kunanyesha"
+        right: "Il pleut"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 142
+    type: timed_challenge
+    title: "Haraka: Hali ya Hewa"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Jua"
+        answer: "Soleil"
+      - question: "Mvua"
+        answer: "Pluie"
+      - question: "Upepo"
+        answer: "Vent"
+      - question: "Kuna joto"
+        answer: "Chaud"
+      - question: "Kuna baridi"
+        answer: "Froid"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Temps"
+      back: "Hali ya hewa"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Soleil"
+      back: "Jua"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Pluie"
+      back: "Mvua"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Neige"
+      back: "Theluji"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Nuage"
+      back: "Wingu"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Vent"
+      back: "Upepo"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Tempête"
+      back: "Dhoruba"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Tonnerre"
+      back: "Ngurumo"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Éclair"
+      back: "Radi"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Chaud"
+      back: "Kuna joto"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

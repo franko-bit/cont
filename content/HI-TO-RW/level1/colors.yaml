@@ -1,0 +1,907 @@
+lesson:
+ name: "रंग"
+ description: "सीखें basic रंग in Kinyarwanda with जानवर and objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - रंग ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'लाल' किन्यार्वाण्डा में?"
+ उत्तर: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'नीला' किन्यार्वाण्डा में?"
+ उत्तर: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'हरा' किन्यार्वाण्डा में?"
+ उत्तर: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'पीला' किन्यार्वाण्डा में?"
+ उत्तर: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'काला' किन्यार्वाण्डा में?"
+ उत्तर: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'सफेद' किन्यार्वाण्डा में?"
+ उत्तर: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'नारंगी' किन्यार्वाण्डा में?"
+ उत्तर: "नारंगी"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, not full वाक्य)
+ - id: 8
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'लाल apple' किन्यार्वाण्डा में?"
+ उत्तर: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'नीला sky' किन्यार्वाण्डा में?"
+ उत्तर: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'हरा grass' किन्यार्वाण्डा में?"
+ उत्तर: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'पीला sun' किन्यार्वाण्डा में?"
+ उत्तर: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'काला बिल्ली' किन्यार्वाण्डा में?"
+ उत्तर: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'सफेद गाय' किन्यार्वाण्डा में?"
+ उत्तर: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'नारंगी carrot' किन्यार्वाण्डा में?"
+ उत्तर: "Karoti ya नारंगी"
+ xp_reward: 15
+
+ # Translation - रंग with जानवर (Noun + Color phrases)
+ - id: 15
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'लाल चिड़िया' किन्यार्वाण्डा में?"
+ उत्तर: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'हरा मेंढक' किन्यार्वाण्डा में?"
+ उत्तर: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'नीला मछली' किन्यार्वाण्डा में?"
+ उत्तर: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'पीला मुर्गी' किन्यार्वाण्डा में?"
+ उत्तर: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'काला खरगोश' किन्यार्वाण्डा में?"
+ उत्तर: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'सफेद बकरी' किन्यार्वाण्डा में?"
+ उत्तर: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers with रंग (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'One लाल apple' किन्यार्वाण्डा में?"
+ उत्तर: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Two नीला चिड़िया' किन्यार्वाण्डा में?"
+ उत्तर: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Three पीला मुर्गी' किन्यार्वाण्डा में?"
+ उत्तर: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Four काला बिल्ली' किन्यार्वाण्डा में?"
+ उत्तर: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Five सफेद गाय' किन्यार्वाण्डा में?"
+ उत्तर: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color प्रश्न (Phrases - safe as they are fixed expressions)
+ - id: 26
+ type: translation
+ प्रश्न: "आप कैसे पूछते हैं 'What color is the apple?' किन्यार्वाण्डा में?"
+ उत्तर: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ प्रश्न: "आप कैसे पूछते हैं 'What color is the sky?' किन्यार्वाण्डा में?"
+ उत्तर: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ प्रश्न: "आप कैसे पूछते हैं 'Is the बिल्ली काला?' किन्यार्वाण्डा में?"
+ उत्तर: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR FULL वाक्य OR PARAGRAPHS
+ # Instead, we use वाक्य building, मेल करें, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Umutuku' इस वाक्य में?"
+ options:
+ - "नीला"
+ - "लाल"
+ - "हरा"
+ - "पीला"
+ उत्तर: "लाल"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Ubururu' इस वाक्य में?"
+ options:
+ - "लाल"
+ - "नीला"
+ - "काला"
+ - "सफेद"
+ उत्तर: "नीला"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Icyatsi' इस वाक्य में?"
+ options:
+ - "हरा"
+ - "पीला"
+ - "नारंगी"
+ - "लाल"
+ उत्तर: "हरा"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Umuhondo' इस वाक्य में?"
+ options:
+ - "नीला"
+ - "लाल"
+ - "पीला"
+ - "सफेद"
+ उत्तर: "पीला"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Umukara' इस वाक्य में?"
+ options:
+ - "सफेद"
+ - "काला"
+ - "हरा"
+ - "नारंगी"
+ उत्तर: "काला"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Umweru' इस वाक्य में?"
+ options:
+ - "काला"
+ - "सफेद"
+ - "लाल"
+ - "नीला"
+ उत्तर: "सफेद"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Inyoni itukura' इस वाक्य में?"
+ options:
+ - "नीला चिड़िया"
+ - "लाल चिड़िया"
+ - "हरा चिड़िया"
+ - "पीला चिड़िया"
+ उत्तर: "लाल चिड़िया"
+ xp_reward: 15
+
+ # 3. सुनें and Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_and_type
+ प्रश्न: "सुनें and type the color"
+ tts_text: "Umutuku"
+ उत्तर: "Umutuku"
+ translation: "लाल"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ प्रश्न: "सुनें and type the color"
+ tts_text: "Ubururu"
+ उत्तर: "Ubururu"
+ translation: "नीला"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ प्रश्न: "सुनें and type the phrase"
+ tts_text: "Pome ni umutuku"
+ उत्तर: "Pome ni umutuku"
+ translation: "The apple is लाल"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_and_type
+ प्रश्न: "सुनें and type the phrase"
+ tts_text: "Ijuru ni ubururu"
+ उत्तर: "Ijuru ni ubururu"
+ translation: "The sky is नीला"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_and_type
+ प्रश्न: "सुनें and type the phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ उत्तर: "Inyoni itukura iraguruka"
+ translation: "The लाल चिड़िया flies"
+ xp_reward: 25
+
+ # 4. सुनें and चुनें
+ - id: 41
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct color"
+ tts_text: "Umutuku"
+ options:
+ - "लाल"
+ - "नीला"
+ - "हरा"
+ उत्तर: "लाल"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "लाल"
+ - "पीला"
+ - "काला"
+ उत्तर: "पीला"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "The apple is लाल"
+ - "The sky is नीला"
+ - "The sun is पीला"
+ उत्तर: "The apple is लाल"
+ xp_reward: 20
+
+ # 5. Repeat / बोलें Exercise
+ - id: 44
+ type: बोलें
+ प्रश्न: "Say this color"
+ prompt: "Umutuku"
+ translation: "लाल"
+ xp_reward: 15
+
+ - id: 45
+ type: बोलें
+ प्रश्न: "Say this color"
+ prompt: "Ubururu"
+ translation: "नीला"
+ xp_reward: 15
+
+ - id: 46
+ type: बोलें
+ प्रश्न: "Say this phrase"
+ prompt: "Pome itukura"
+ translation: "लाल apple"
+ xp_reward: 18
+
+ - id: 47
+ type: बोलें
+ प्रश्न: "Say this वाक्य"
+ prompt: "Pome ni umutuku"
+ translation: "The apple is लाल"
+ xp_reward: 20
+
+ - id: 48
+ type: बोलें
+ प्रश्न: "Say this वाक्य"
+ prompt: "Ijuru ni ubururu"
+ translation: "The sky is नीला"
+ xp_reward: 20
+
+ # 6. Word Bank वाक्य Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'The apple is लाल'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'The sky is नीला'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda phrase for 'लाल चिड़िया'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda phrase for 'नीला मछली'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'The लाल चिड़िया flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'The हरा मेंढक jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. वाक्य Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct Kinyarwanda वाक्य"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "The apple is लाल"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct Kinyarwanda वाक्य"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "The sky is नीला"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct Kinyarwanda वाक्य"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "The लाल चिड़िया flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct Kinyarwanda वाक्य"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "The हरा मेंढक jumps"
+ xp_reward: 25
+
+ # 8. Fill in the Blank - चुनें FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ प्रश्न: "चुनें the correct word to complete the वाक्य"
+ text_with_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is लाल"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ प्रश्न: "चुनें the correct word to complete the वाक्य"
+ text_with_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is नीला"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ प्रश्न: "चुनें the correct word to complete the वाक्य"
+ text_with_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "The grass is हरा"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ प्रश्न: "चुनें the correct word to complete the वाक्य"
+ text_with_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "The sun is पीला"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ प्रश्न: "चुनें the correct word to complete the phrase"
+ text_with_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The लाल चिड़िया flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ प्रश्न: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ प्रश्न: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ प्रश्न: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "नारंगी", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ प्रश्न: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ प्रश्न: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "नारंगी"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ प्रश्न: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ प्रश्न: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "नारंगी", "Ubururu"]
+ correct_answer: "नारंगी"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ प्रश्न: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "नारंगी"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ प्रश्न: "What color is this चिड़िया?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word मेल करें (Pairing)
+ - id: 73
+ type: मेल करें
+ प्रश्न: "मेल करें the रंग"
+ pairs:
+ - बाएँ: "लाल"
+ दाएँ: "Umutuku"
+ - बाएँ: "नीला"
+ दाएँ: "Ubururu"
+ - बाएँ: "हरा"
+ दाएँ: "Icyatsi"
+ - बाएँ: "पीला"
+ दाएँ: "Umuhondo"
+ - बाएँ: "काला"
+ दाएँ: "Umukara"
+ - बाएँ: "सफेद"
+ दाएँ: "Umweru"
+ - बाएँ: "नारंगी"
+ दाएँ: "नारंगी"
+ xp_reward: 25
+
+ - id: 74
+ type: मेल करें
+ प्रश्न: "मेल करें the colored objects"
+ pairs:
+ - बाएँ: "लाल apple"
+ दाएँ: "Pome itukura"
+ - बाएँ: "नीला sky"
+ दाएँ: "Ijuru ry'ubururu"
+ - बाएँ: "हरा grass"
+ दाएँ: "Ibyatsi by'icyatsi"
+ - बाएँ: "पीला sun"
+ दाएँ: "Izuba ry'umuhondo"
+ - बाएँ: "काला बिल्ली"
+ दाएँ: "Injangwe y'umukara"
+ - बाएँ: "सफेद गाय"
+ दाएँ: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: मेल करें
+ प्रश्न: "मेल करें the colored जानवर"
+ pairs:
+ - बाएँ: "लाल चिड़िया"
+ दाएँ: "Inyoni itukura"
+ - बाएँ: "हरा मेंढक"
+ दाएँ: "Igikeri cy'icyatsi"
+ - बाएँ: "नीला मछली"
+ दाएँ: "Ifi y'ubururu"
+ - बाएँ: "पीला मुर्गी"
+ दाएँ: "Inkoko y'umuhondo"
+ - बाएँ: "काला खरगोश"
+ दाएँ: "Urukwavu rw'umukara"
+ - बाएँ: "सफेद बकरी"
+ दाएँ: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. चुनें Missing Word
+ - id: 80
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is लाल"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is नीला"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The लाल चिड़िया flies"
+ xp_reward: 18
+
+ # 12. पढ़ें and उत्तर - प्रश्न in English, उत्तर based on Kinyarwanda text
+ - id: 83
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ प्रश्न: "What color is the apple?"
+ options: ["लाल", "नीला", "हरा", "पीला"]
+ correct_answer: "लाल"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ प्रश्न: "क्या मतलब है the लाल चिड़िया do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ प्रश्न: "What color is the गाय?"
+ options: ["काला", "सफेद", "पीला", "लाल"]
+ correct_answer: "सफेद"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Pome ni umutuku."
+ translation: "The apple is लाल"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Ijuru ni icyatsi."
+ translation: "The sky is हरा"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Inka ni umweru."
+ translation: "The गाय is सफेद"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "The लाल चिड़िया flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ प्रश्न: "Respond to the प्रश्न by building a वाक्य"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ प्रश्न: "Respond to the प्रश्न"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is the sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ प्रश्न: "Respond to the प्रश्न"
+ bot_message: "Injangwe ni umukara?"
+ translation: "Is the बिल्ली काला?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build वाक्य from pieces
+ - id: 93
+ type: story
+ title: "रंग in the Field"
+ story_intro: "पढ़ें about the colorful जानवर. Then build the वाक्य."
+ story_segments:
+ - text: "There is a लाल चिड़िया in the sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: "The चिड़िया flies above."
+ - text: "There is a हरा मेंढक near the पानी."
+ - text: "The मेंढक jumps."
+ - text: "There is a नीला मछली in the पानी."
+ - text: "The मछली swims."
+ exercises:
+ - type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'The लाल चिड़िया flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'The हरा मेंढक jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'The नीला मछली swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ प्रश्न: "Say the color"
+ prompt: "Umutuku"
+ translation: "लाल"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ प्रश्न: "Say the color"
+ prompt: "Agasumbashyamba" # जिराफ - testing color knowledge in context
+ translation: "जिराफ (they are पीला and भूरा)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ प्रश्न: "Say the phrase"
+ prompt: "Pome itukura"
+ translation: "लाल apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'umutuku' mean in this वाक्य?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["लाल", "नीला", "हरा", "पीला"]
+ correct_answer: "लाल"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'itukura' mean in this वाक्य?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["लाल", "नीला", "हरा", "पीला"]
+ correct_answer: "लाल"
+ note: "itukura is the adjective form of umutuku when describing a noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'cy'icyatsi' mean in this वाक्य?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["लाल", "नीला", "हरा", "पीला"]
+ correct_answer: "हरा"
+ xp_reward: 18
+
+ # 18. Speed मेल करें
+ - id: 100
+ type: speed_मेल करें
+ title: "मेल करें Madness: रंग"
+ time_limit_seconds: 45
+ pairs:
+ - बाएँ: "लाल"
+ दाएँ: "Umutuku"
+ - बाएँ: "नीला"
+ दाएँ: "Ubururu"
+ - बाएँ: "हरा"
+ दाएँ: "Icyatsi"
+ - बाएँ: "पीला"
+ दाएँ: "Umuhondo"
+ - बाएँ: "काला"
+ दाएँ: "Umukara"
+ - बाएँ: "सफेद"
+ दाएँ: "Umweru"
+ - बाएँ: "नारंगी"
+ दाएँ: "नारंगी"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: रंग"
+ time_limit_seconds: 30
+ प्रश्न_count: 5
+ प्रश्न:
+ - प्रश्न: "लाल"
+ उत्तर: "Umutuku"
+ - प्रश्न: "नीला"
+ उत्तर: "Ubururu"
+ - प्रश्न: "हरा"
+ उत्तर: "Icyatsi"
+ - प्रश्न: "पीला"
+ उत्तर: "Umuhondo"
+ - प्रश्न: "काला"
+ उत्तर: "Umukara"
+ xp_reward: 35
+
+# फ्लैशकार्ड
+ - id: 111
+ type: फ्लैशकार्ड
+ प्रश्न: "फ्लैशकार्ड"
+ फ्लैशकार्ड:
+ - front: "Umutuku"
+ back: "लाल"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "नीला"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "हरा"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "पीला"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "काला"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "सफेद"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "नारंगी"
+ back: "नारंगी"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "लाल apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "नीला sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "हरा grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

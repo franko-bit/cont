@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "למד common greetings and expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe for single words/phrases)
+ - id: 1
+ type: translation
+ שאלה: "איך אומרים 'שלום' בקיניארוואנדה?"
+ תשובה: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ שאלה: "איך אומרים 'Good morning' בקיניארוואנדה?"
+ תשובה: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ שאלה: "איך אומרים 'Good afternoon / Good evening' בקיניארוואנדה?"
+ תשובה: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ שאלה: "איך אומרים 'Good night' בקיניארוואנדה?"
+ תשובה: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ שאלה: "איך שואלים 'How are you?' בקיניארוואנדה?"
+ תשובה: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ שאלה: "איך אומרים 'I'm fine' בקיניארוואנדה?"
+ תשובה: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ שאלה: "איך אומרים 'Welcome' בקיניארוואנדה?"
+ תשובה: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ שאלה: "איך אומרים 'See you later' בקיניארוואנדה?"
+ תשובה: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ שאלה: "איך אומרים 'להתראות' בקיניארוואנדה?"
+ תשובה: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ שאלה: "איך אומרים 'Have a nice day' בקיניארוואנדה?"
+ תשובה: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ שאלה: "איך אומרים 'Take care' בקיניארוואנדה?"
+ תשובה: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ שאלה: "איך אומרים 'Long time no see' בקיניארוואנדה?"
+ תשובה: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ שאלה: "איך שואלים 'What's up?' בקיניארוואנדה?"
+ תשובה: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ שאלה: "איך אומרים 'Nice to meet you' בקיניארוואנדה?"
+ תשובה: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings with משפחה Members (Simple combinations)
+ - id: 15
+ type: translation
+ שאלה: "איך אומרים 'שלום, mother!' בקיניארוואנדה?"
+ תשובה: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ שאלה: "איך אומרים 'Good morning, father!' בקיניארוואנדה?"
+ תשובה: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ שאלה: "איך אומרים 'Good night, my child!' בקיניארוואנדה?"
+ תשובה: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common שאלה (Fixed expressions)
+ - id: 18
+ type: translation
+ שאלה: "איך שואלים 'How are you today?' בקיניארוואנדה?"
+ תשובה: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ שאלה: "איך אומרים 'I'm fine, thank you' בקיניארוואנדה?"
+ תשובה: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ שאלה: "איך שואלים 'What's up with you today?' בקיניארוואנדה?"
+ תשובה: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # NO DIRECT TRANSLATION FOR COMPLEX DIALOGUES OR PARAGRAPHS
+ # Instead, we use משפט building, התאם, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ שאלה: "מה פירוש 'Muraho' במשפט הזה?"
+ options:
+ - "להתראות"
+ - "שלום"
+ - "Good morning"
+ - "Good night"
+ תשובה: "שלום"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ שאלה: "מה פירוש 'Mwaramutse' במשפט הזה?"
+ options:
+ - "Good evening"
+ - "Good morning"
+ - "Good night"
+ - "להתראות"
+ תשובה: "Good morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ שאלה: "מה פירוש 'Amakuru' במשפט הזה?"
+ options:
+ - "להתראות"
+ - "Welcome"
+ - "How are you?"
+ - "See you later"
+ תשובה: "How are you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ שאלה: "מה פירוש 'Ni meza' במשפט הזה?"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ תשובה: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ שאלה: "מה פירוש 'Murabeho' במשפט הזה?"
+ options:
+ - "שלום"
+ - "Welcome"
+ - "להתראות"
+ - "See you later"
+ תשובה: "להתראות"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ שאלה: "מה פירוש 'Tuzasubira' במשפט הזה?"
+ options:
+ - "להתראות"
+ - "See you later"
+ - "Welcome back"
+ - "Take care"
+ תשובה: "See you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ שאלה: "מה פירוש 'Nishimiye kukubona' במשפט הזה?"
+ options:
+ - "Good morning"
+ - "Nice to meet you"
+ - "Welcome"
+ - "Take care"
+ תשובה: "Nice to meet you"
+ xp_reward: 18
+
+ # 3. הקשב and Type (Dictation) - Safe because audio is provided
+ - id: 28
+ type: listen_and_type
+ שאלה: "הקשב and type the greeting"
+ tts_text: "Muraho"
+ תשובה: "Muraho"
+ translation: "שלום"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_and_type
+ שאלה: "הקשב and type the greeting"
+ tts_text: "Mwaramutse"
+ תשובה: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_and_type
+ שאלה: "הקשב and type the greeting"
+ tts_text: "Mwiriwe"
+ תשובה: "Mwiriwe"
+ translation: "Good afternoon / Good evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ tts_text: "Ijoro ryiza"
+ תשובה: "Ijoro ryiza"
+ translation: "Good night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_and_type
+ שאלה: "הקשב and type the שאלה"
+ tts_text: "Amakuru"
+ תשובה: "Amakuru"
+ translation: "How are you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ שאלה: "הקשב and type the response"
+ tts_text: "Ni meza"
+ תשובה: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ tts_text: "Murakaza neza"
+ תשובה: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ tts_text: "Tuzasubira"
+ תשובה: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ tts_text: "Murabeho"
+ תשובה: "Murabeho"
+ translation: "להתראות"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ תשובה: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ tts_text: "Nishimiye kukubona"
+ תשובה: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 25
+
+ # 4. הקשב and בחר
+ - id: 39
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "להתראות"
+ - "שלום"
+ - "Good morning"
+ תשובה: "שלום"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "Good evening"
+ - "Good morning"
+ - "Good night"
+ תשובה: "Good morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "Good morning"
+ - "Good afternoon/evening"
+ - "Good night"
+ תשובה: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "להתראות"
+ - "How are you?"
+ - "Welcome"
+ תשובה: "How are you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ תשובה: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "שלום"
+ - "להתראות"
+ - "See you later"
+ תשובה: "להתראות"
+ xp_reward: 15
+
+ # 5. Repeat / דבר Exercise
+ - id: 45
+ type: דבר
+ שאלה: "Say this greeting"
+ prompt: "Muraho"
+ translation: "שלום"
+ xp_reward: 15
+
+ - id: 46
+ type: דבר
+ שאלה: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 15
+
+ - id: 47
+ type: דבר
+ שאלה: "Say this greeting"
+ prompt: "Mwiriwe"
+ translation: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: דבר
+ שאלה: "Say this phrase"
+ prompt: "Ijoro ryiza"
+ translation: "Good night"
+ xp_reward: 18
+
+ - id: 49
+ type: דבר
+ שאלה: "Ask 'How are you?' in Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How are you?"
+ xp_reward: 15
+
+ - id: 50
+ type: דבר
+ שאלה: "Say 'I'm fine' in Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: דבר
+ שאלה: "Say 'Welcome' in Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: דבר
+ שאלה: "Say 'See you later' in Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 18
+
+ - id: 53
+ type: דבר
+ שאלה: "Say 'להתראות' in Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "להתראות"
+ xp_reward: 15
+
+ - id: 54
+ type: דבר
+ שאלה: "Say 'Long time no see' in Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 22
+
+ - id: 55
+ type: דבר
+ שאלה: "Say 'Nice to meet you' in Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: דבר
+ שאלה: "Say 'שלום, mother!' in Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "שלום, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: דבר
+ שאלה: "Say 'Good morning, father!' in Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "Good morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank משפט Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ שאלה: "Build the greeting for 'שלום, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ שאלה: "Build the greeting for 'Good morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ שאלה: "Build the greeting for 'Good night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ שאלה: "Build the שאלה 'How are you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ שאלה: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ שאלה: "Build the farewell 'See you later at בית ספר'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ שאלה: "Build the farewell 'להתראות, see you מחר'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ שאלה: "Build the well-wish 'Have a nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ שאלה: "Build the phrase 'Take care on your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ שאלה: "Build the greeting 'Long time no see, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ שאלה: "Build the שאלה 'What's up with you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ שאלה: "Build the phrase 'Nice to meet you at the party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. משפט Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "שלום, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "Good morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "Good night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct שאלה"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "See you later at בית ספר."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "להתראות, see you מחר."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have a nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care on your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time no see, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct שאלה"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up with you today?"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - בחר FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ שאלה: "Complete the greeting"
+ text_with_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "שלום, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ שאלה: "Complete the greeting"
+ text_with_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "Good morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ שאלה: "Complete the phrase"
+ text_with_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "Good night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ שאלה: "Complete the שאלה"
+ text_with_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ שאלה: "Complete the response"
+ text_with_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ שאלה: "Complete the farewell"
+ text_with_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "See you later at בית ספר."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ שאלה: "Complete the farewell"
+ text_with_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "להתראות, see you מחר."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ שאלה: "Complete the well-wish"
+ text_with_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ שאלה: "Complete the phrase"
+ text_with_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care on your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ שאלה: "Complete the greeting"
+ text_with_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time no see, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ שאלה: "Complete the שאלה"
+ text_with_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up with you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word התאם (Pairing)
+ - id: 98
+ type: התאם
+ שאלה: "התאם the greetings to their meanings"
+ pairs:
+ - שמאל: "Muraho"
+ ימין: "שלום"
+ - שמאל: "Mwaramutse"
+ ימין: "Good morning"
+ - שמאל: "Mwiriwe"
+ ימין: "Good afternoon/evening"
+ - שמאל: "Ijoro ryiza"
+ ימין: "Good night"
+ - שמאל: "Amakuru"
+ ימין: "How are you?"
+ - שמאל: "Ni meza"
+ ימין: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: התאם
+ שאלה: "התאם the farewells and well-wishes"
+ pairs:
+ - שמאל: "Murabeho"
+ ימין: "להתראות"
+ - שמאל: "Tuzasubira"
+ ימין: "See you later"
+ - שמאל: "Umunsi mwiza"
+ ימין: "Have a nice day"
+ - שמאל: "Wirinde"
+ ימין: "Take care"
+ - שמאל: "Hashize igihe tutabonanye"
+ ימין: "Long time no see"
+ - שמאל: "Nishimiye kukubona"
+ ימין: "Nice to meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: התאם
+ שאלה: "התאם the phrases with משפחה members"
+ pairs:
+ - שמאל: "Muraho, Mama!"
+ ימין: "שלום, mother!"
+ - שמאל: "Mwaramutse, Data!"
+ ימין: "Good morning, father!"
+ - שמאל: "Ijoro ryiza, mwana wanjye!"
+ ימין: "Good night, my child!"
+ - שמאל: "Hashize igihe tutabonanye, nshuti yanjye"
+ ימין: "Long time no see, my friend"
+ xp_reward: 25
+
+ # 10. בחר Missing Word
+ - id: 107
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ # 11. קרא and תשובה - שאלה based on context
+ - id: 110
+ type: read_answer
+ שאלה: "קרא the dialogue and תשובה the שאלה"
+ text: "A: Muraho! Amakuru? B: Ni meza, murakoze."
+ שאלה: "How is person B?"
+ options: ["עצוב", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ שאלה: "קרא the dialogue and תשובה the שאלה"
+ text: "A: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ שאלה: "What time of day is it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ שאלה: "קרא the dialogue and תשובה the שאלה"
+ text: "A: Tuzasubira ku ishuri. B: Murabeho!"
+ שאלה: "Where will they see each other later?"
+ options: ["At home", "At בית ספר", "At work", "At the שוק"]
+ correct_answer: "At בית ספר"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "'Mwaramutse' is used in the morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "'Mwiriwe' is used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "'Murabeho' means שלום."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "'Nishimiye kukubona' means 'Nice to meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ שאלה: "Respond to the greeting by building a משפט"
+ bot_message: "Muraho! Amakuru?"
+ translation: "שלום! How are you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ שאלה: "בחר the appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "Good morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ שאלה: "Respond to the farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "See you later at בית ספר."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ שאלה: "Build a response to the שאלה"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build משפט from pieces
+ - id: 121
+ type: story
+ title: "Meeting a Friend - Guhura n'inshuti"
+ story_intro: "קרא the conversation. Then build the משפט."
+ story_segments:
+ - text: "Person A says שלום."
+ - text: "Person A asks how they are."
+ - text: "Person B says they are fine and thanks them."
+ - text: "Person A says nice to meet them."
+ - text: "Person B welcomes them."
+ - text: "Person A says see you later."
+ - text: "Person B says להתראות."
+ exercises:
+ - type: word_bank
+ שאלה: "Build the Kinyarwanda greeting for 'שלום!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ שאלה: "Build the שאלה 'How are you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ שאלה: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ שאלה: "Build the phrase 'Nice to meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ שאלה: "Build the farewell 'See you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ שאלה: "Build the farewell 'להתראות'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ שאלה: "Say this greeting"
+ prompt: "Muraho"
+ translation: "שלום"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ שאלה: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ שאלה: "Say this phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ שאלה: "Say this farewell"
+ prompt: "Murabeho"
+ translation: "להתראות"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ שאלה: "מה פירוש 'Muraho' במשפט הזה?"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["להתראות", "שלום", "Thank you", "Welcome"]
+ correct_answer: "שלום"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ שאלה: "מה פירוש 'murakoze' mean in this משפט?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["please", "thank you", "welcome", "להתראות"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ שאלה: "מה פירוש 'Mwiriwe' במשפט הזה?"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["Good morning", "Good afternoon/evening", "Good night", "שלום"]
+ correct_answer: "Good afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed התאם
+ - id: 129
+ type: speed_התאם
+ title: "התאם Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - שמאל: "שלום"
+ ימין: "Muraho"
+ - שמאל: "Good morning"
+ ימין: "Mwaramutse"
+ - שמאל: "Good afternoon"
+ ימין: "Mwiriwe"
+ - שמאל: "Good night"
+ ימין: "Ijoro ryiza"
+ - שמאל: "How are you?"
+ ימין: "Amakuru"
+ - שמאל: "I'm fine"
+ ימין: "Ni meza"
+ - שמאל: "Welcome"
+ ימין: "Murakaza neza"
+ - שמאל: "See you later"
+ ימין: "Tuzasubira"
+ - שמאל: "להתראות"
+ ימין: "Murabeho"
+ - שמאל: "Take care"
+ ימין: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ שאלה_count: 5
+ שאלה:
+ - שאלה: "שלום"
+ תשובה: "Muraho"
+ - שאלה: "Good morning"
+ תשובה: "Mwaramutse"
+ - שאלה: "Good night"
+ תשובה: "Ijoro ryiza"
+ - שאלה: "How are you?"
+ תשובה: "Amakuru"
+ - שאלה: "להתראות"
+ תשובה: "Murabeho"
+ xp_reward: 35
+
+# כרטיסים
+ - id: 111
+ type: כרטיסים
+ שאלה: "כרטיסים"
+ כרטיסים:
+ - front: "Muraho"
+ back: "שלום"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "Good morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "Good afternoon / Good evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "Good night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How are you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "See you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "להתראות"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have a nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

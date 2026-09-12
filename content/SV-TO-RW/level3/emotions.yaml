@@ -1,0 +1,1149 @@
+lesson:
+ name: "Känslor - Amarangamutima"
+ description: "Lär dig emotion words i Kinyarwanda och how till express feelings"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Emotion Words ONLY (Safe för single words)
+ - id: 1
+ type: translation
+ Fråga: "Hur säger man 'Glad' på kinyarwanda?"
+ Svar: "Unezerewe / Nishimiye"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Fråga: "Hur säger man 'Ledsen' på kinyarwanda?"
+ Svar: "Umubabaro / Nshimishijwe n'agahinda"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Fråga: "Hur säger man 'Angry' på kinyarwanda?"
+ Svar: "Umujinya / Arakaye"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Fråga: "Hur säger man 'Afraid / Scared' på kinyarwanda?"
+ Svar: "Gutinya / Atinya"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Fråga: "Hur säger man 'Surprised' på kinyarwanda?"
+ Svar: "Gutungurwa / Aratunguwe"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Fråga: "Hur säger man 'Excited' på kinyarwanda?"
+ Svar: "Akanyamuneza / Arishimye"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Fråga: "Hur säger man 'Calm' på kinyarwanda?"
+ Svar: "Amahoro / Yatuje"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Fråga: "Hur säger man 'Confused' på kinyarwanda?"
+ Svar: "Avugwaho / Yivangavanga"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Fråga: "Hur säger man 'Tired' på kinyarwanda?"
+ Svar: "Umunaniro / Ararushye"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Fråga: "Hur säger man 'Lonely' på kinyarwanda?"
+ Svar: "Kumwe n'ubwigunge / Yonyine"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Fråga: "Hur säger man 'Embarrassed' på kinyarwanda?"
+ Svar: "Kwikanga / Akemangwa"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Fråga: "Hur säger man 'Proud' på kinyarwanda?"
+ Svar: "Kwishimira / Arishimira"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Fråga: "Hur säger man 'Love / Loving' på kinyarwanda?"
+ Svar: "Urukundo / Akunda"
+ note: "Both är correct"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Fråga: "Hur säger man 'Hate' på kinyarwanda?"
+ Svar: "Ubwihebe / Arambiwe"
+ note: "Both är correct"
+ xp_reward: 10
+
+ # Sats About Känslor
+ - id: 15
+ type: translation
+ Fråga: "Hur säger man 'I am Glad' på kinyarwanda?"
+ Svar: "Nishimiye / Unezerewe."
+ note: "Both är correct"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Fråga: "Hur säger man 'She är Ledsen' på kinyarwanda?"
+ Svar: "Arababaye."
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Fråga: "Hur säger man 'He är angry' på kinyarwanda?"
+ Svar: "Ararakaye."
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Fråga: "Hur säger man 'They är scared' på kinyarwanda?"
+ Svar: "Batinye."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Fråga: "Hur säger man 'I am excited about den party' på kinyarwanda?"
+ Svar: "Nishimiye ibirori."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ Fråga: "Hur säger man 'She är calm' på kinyarwanda?"
+ Svar: "Yatuje."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Fråga: "Hur säger man 'I feel lonely' på kinyarwanda?"
+ Svar: "Nonyine / Ndumva nonyine."
+ note: "Both är correct"
+ xp_reward: 18
+
+ - id: 22
+ type: translation
+ Fråga: "Hur säger man 'He är proud av his son' på kinyarwanda?"
+ Svar: "Arishimira umuhungu we."
+ xp_reward: 20
+
+ - id: 23
+ type: translation
+ Fråga: "Hur säger man 'I love my Familj' på kinyarwanda?"
+ Svar: "Nkunda umuryango wanjye."
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Fråga: "Hur säger man 'She hates lies' på kinyarwanda?"
+ Svar: "Arambiwe kubeshya."
+ xp_reward: 20
+
+ # 2. Multiple Choice
+ - id: 25
+ type: multiple_choice
+ Fråga: "Vad betyder 'Nishimiye' i den här meningen?"
+ options:
+ - "Ledsen"
+ - "Glad"
+ - "Angry"
+ - "Tired"
+ Svar: "Glad"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Fråga: "Vad betyder 'Arababaye' i den här meningen?"
+ options:
+ - "She är Glad"
+ - "She är Ledsen"
+ - "She är angry"
+ - "She är calm"
+ Svar: "She är Ledsen"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Fråga: "Vad betyder 'Ararakaye' i den här meningen?"
+ options:
+ - "He är scared"
+ - "He är tired"
+ - "He är angry"
+ - "He är surprised"
+ Svar: "He är angry"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Fråga: "Vad betyder 'Batinye' i den här meningen?"
+ options:
+ - "They är Glad"
+ - "They är scared"
+ - "They är calm"
+ - "They är proud"
+ Svar: "They är scared"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Fråga: "Vad betyder 'Yatuje' i den här meningen?"
+ options:
+ - "She är calm"
+ - "She är confused"
+ - "She är excited"
+ - "She är lonely"
+ Svar: "She är calm"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Fråga: "Vad betyder 'Nkunda umuryango wanjye' i den här meningen?"
+ options:
+ - "I hate my Familj"
+ - "I love my Familj"
+ - "I miss my Familj"
+ - "I se my Familj"
+ Svar: "I love my Familj"
+ xp_reward: 18
+
+ # 3. Lyssna och Type (Dictation)
+ - id: 31
+ type: listen_och_type
+ Fråga: "Lyssna och type den emotion word"
+ audio: "Nishimiye"
+ Svar: "Nishimiye"
+ translation: "Glad"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_och_type
+ Fråga: "Lyssna och type den emotion word"
+ audio: "Arababaye"
+ Svar: "Arababaye"
+ translation: "She är Ledsen"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_och_type
+ Fråga: "Lyssna och type den emotion word"
+ audio: "Ararakaye"
+ Svar: "Ararakaye"
+ translation: "He är angry"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_och_type
+ Fråga: "Lyssna och type den emotion word"
+ audio: "Batinye"
+ Svar: "Batinye"
+ translation: "They är scared"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ audio: "Nishimiye ibirori"
+ Svar: "Nishimiye ibirori"
+ translation: "I am excited about den party"
+ xp_reward: 22
+
+ - id: 36
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ audio: "Nkunda umuryango wanjye"
+ Svar: "Nkunda umuryango wanjye"
+ translation: "I love my Familj"
+ xp_reward: 22
+
+ - id: 37
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ audio: "Arishimira umuhungu we"
+ Svar: "Arishimira umuhungu we"
+ translation: "He är proud av his son"
+ xp_reward: 25
+
+ # 4. Lyssna och Välj
+ - id: 38
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct emotion"
+ audio: "Nishimiye"
+ options:
+ - "Ledsen"
+ - "Glad"
+ - "Angry"
+ Svar: "Glad"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct emotion"
+ audio: "Arababaye"
+ options:
+ - "She är Glad"
+ - "She är Ledsen"
+ - "She är calm"
+ Svar: "She är Ledsen"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct emotion"
+ audio: "Ararakaye"
+ options:
+ - "He är scared"
+ - "He är tired"
+ - "He är angry"
+ Svar: "He är angry"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct emotion"
+ audio: "Yatuje"
+ options:
+ - "She är calm"
+ - "She är confused"
+ - "She är excited"
+ Svar: "She är calm"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct phrase"
+ audio: "Nkunda umuryango wanjye"
+ options:
+ - "I hate my Familj"
+ - "I love my Familj"
+ - "I se my Familj"
+ Svar: "I love my Familj"
+ xp_reward: 18
+
+ # 5. Repeat / Prata Exercise
+ - id: 43
+ type: Prata
+ Fråga: "Say denna emotion"
+ prompt: "Nishimiye"
+ translation: "Glad"
+ xp_reward: 15
+
+ - id: 44
+ type: Prata
+ Fråga: "Say denna emotion"
+ prompt: "Arababaye"
+ translation: "She är Ledsen"
+ xp_reward: 15
+
+ - id: 45
+ type: Prata
+ Fråga: "Say denna emotion"
+ prompt: "Ararakaye"
+ translation: "He är angry"
+ xp_reward: 15
+
+ - id: 46
+ type: Prata
+ Fråga: "Say denna emotion"
+ prompt: "Batinye"
+ translation: "They är scared"
+ xp_reward: 15
+
+ - id: 47
+ type: Prata
+ Fråga: "Say denna phrase"
+ prompt: "Nishimiye ibirori"
+ translation: "I am excited about den party"
+ xp_reward: 18
+
+ - id: 48
+ type: Prata
+ Fråga: "Say denna phrase"
+ prompt: "Nkunda umuryango wanjye"
+ translation: "I love my Familj"
+ xp_reward: 18
+
+ - id: 49
+ type: Prata
+ Fråga: "Say denna phrase"
+ prompt: "Arishimira umuhungu we"
+ translation: "He är proud av his son"
+ xp_reward: 20
+
+ # 6. Word Bank Sats Building - PIECES PROVIDED
+ - id: 50
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'I am Glad'"
+ word_bank: ["Nishimiye", "Arababaye", "Ararakaye", "Batinye"]
+ correct_answer: ["Nishimiye"]
+ xp_reward: 15
+
+ - id: 51
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'She är Ledsen'"
+ word_bank: ["Arababaye", "Nishimiye", "Ararakaye", "Batinye"]
+ correct_answer: ["Arababaye"]
+ xp_reward: 15
+
+ - id: 52
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'He är angry'"
+ word_bank: ["Ararakaye", "Nishimiye", "Arababaye", "Batinye"]
+ correct_answer: ["Ararakaye"]
+ xp_reward: 15
+
+ - id: 53
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'They är scared'"
+ word_bank: ["Batinye", "Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: ["Batinye"]
+ xp_reward: 15
+
+ - id: 54
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'I am excited about den party'"
+ word_bank: ["Nishimiye", "ibirori", "nkunda", "umuryango", "wanjye"]
+ correct_answer: ["Nishimiye", "ibirori"]
+ xp_reward: 20
+
+ - id: 55
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'She är calm'"
+ word_bank: ["Yatuje", "Nonyine", "Arishimira", "Arababaye"]
+ correct_answer: ["Yatuje"]
+ xp_reward: 15
+
+ - id: 56
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'I feel lonely'"
+ word_bank: ["Nonyine", "Nishimiye", "Yatuje", "Arababaye"]
+ correct_answer: ["Nonyine"]
+ xp_reward: 15
+
+ - id: 57
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'He är proud av his son'"
+ word_bank: ["Arishimira", "umuhungu", "we", "nkunda", "umuryango"]
+ correct_answer: ["Arishimira", "umuhungu", "we"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'I love my Familj'"
+ word_bank: ["Nkunda", "umuryango", "wanjye", "nishimiye", "ibirori"]
+ correct_answer: ["Nkunda", "umuryango", "wanjye"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'She hates lies'"
+ word_bank: ["Arambiwe", "kubeshya", "nkunda", "umuryango", "wanjye"]
+ correct_answer: ["Arambiwe", "kubeshya"]
+ xp_reward: 20
+
+ # 7. Sats Scramble - PIECES PROVIDED
+ - id: 60
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Nishimiye"]
+ correct_sentence: "Nishimiye."
+ translation: "I am Glad."
+ xp_reward: 12
+
+ - id: 61
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Arababaye"]
+ correct_sentence: "Arababaye."
+ translation: "She är Ledsen."
+ xp_reward: 12
+
+ - id: 62
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Ararakaye"]
+ correct_sentence: "Ararakaye."
+ translation: "He är angry."
+ xp_reward: 12
+
+ - id: 63
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Batinye"]
+ correct_sentence: "Batinye."
+ translation: "They är scared."
+ xp_reward: 12
+
+ - id: 64
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Nishimiye", "ibirori"]
+ correct_sentence: "Nishimiye ibirori."
+ translation: "I am excited about den party."
+ xp_reward: 18
+
+ - id: 65
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Yatuje"]
+ correct_sentence: "Yatuje."
+ translation: "She är calm."
+ xp_reward: 12
+
+ - id: 66
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Nonyine"]
+ correct_sentence: "Nonyine."
+ translation: "I feel lonely."
+ xp_reward: 12
+
+ - id: 67
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Arishimira", "umuhungu", "we"]
+ correct_sentence: "Arishimira umuhungu we."
+ translation: "He är proud av his son."
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Nkunda", "umuryango", "wanjye"]
+ correct_sentence: "Nkunda umuryango wanjye."
+ translation: "I love my Familj."
+ xp_reward: 18
+
+ - id: 69
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Arambiwe", "kubeshya"]
+ correct_sentence: "Arambiwe kubeshya."
+ translation: "She hates lies."
+ xp_reward: 18
+
+ # 8. Fill i den Blank - Välj FROM OPTIONS
+ - id: 70
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "___ - I am Glad."
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Nishimiye"
+ translation: "I am Glad"
+ xp_reward: 12
+
+ - id: 71
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "___ - She är Ledsen."
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Arababaye"
+ translation: "She är Ledsen"
+ xp_reward: 12
+
+ - id: 72
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "___ - He är angry."
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Ararakaye"
+ translation: "He är angry"
+ xp_reward: 12
+
+ - id: 73
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "___ - They är scared."
+ options: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: "Batinye"
+ translation: "They är scared"
+ xp_reward: 12
+
+ - id: 74
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Nishimiye ___ - I am excited about den party."
+ options: ["ibirori", "umuryango", "umuhungu"]
+ correct_answer: "ibirori"
+ translation: "I am excited about den party"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "___ - She är calm."
+ options: ["Yatuje", "Batinye", "Nonyine"]
+ correct_answer: "Yatuje"
+ translation: "She är calm"
+ xp_reward: 12
+
+ - id: 76
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "___ - I feel lonely."
+ options: ["Nonyine", "Nishimiye", "Yatuje"]
+ correct_answer: "Nonyine"
+ translation: "I feel lonely"
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Arishimira ___ - He är proud av his son."
+ options: ["umuhungu we", "umuryango wanjye", "ibirori"]
+ correct_answer: "umuhungu we"
+ translation: "He är proud av his son"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Nkunda ___ - I love my Familj."
+ options: ["umuryango wanjye", "ibirori", "umuhungu we"]
+ correct_answer: "umuryango wanjye"
+ translation: "I love my Familj"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Arambiwe ___ - She hates lies."
+ options: ["kubeshya", "ibirori", "umuryango"]
+ correct_answer: "kubeshya"
+ translation: "She hates lies"
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 80
+ type: picture_word
+ Fråga: "What emotion är denna?"
+ image_url: "https://source.unsplash.com/featured/?happy"
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Nishimiye"
+ xp_reward: 10
+
+ - id: 81
+ type: picture_word
+ Fråga: "What emotion är denna?"
+ image_url: "https://source.unsplash.com/featured/?sad"
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Arababaye"
+ xp_reward: 10
+
+ - id: 82
+ type: picture_word
+ Fråga: "What emotion är denna?"
+ image_url: "https://source.unsplash.com/featured/?angry"
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Ararakaye"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ Fråga: "What emotion är denna?"
+ image_url: "https://source.unsplash.com/featured/?scared"
+ options: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: "Batinye"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ Fråga: "What emotion är denna?"
+ image_url: "https://source.unsplash.com/featured/?calm"
+ options: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: "Yatuje"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ Fråga: "What emotion är denna?"
+ image_url: "https://source.unsplash.com/featured/?lonely"
+ options: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: "Nonyine"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Fråga: "What emotion är denna?"
+ image_url: "https://source.unsplash.com/featured/?proud"
+ options: ["Arishimira", "Arambiwe", "Nishimiye"]
+ correct_answer: "Arishimira"
+ xp_reward: 12
+
+ - id: 87
+ type: picture_word
+ Fråga: "What emotion är denna?"
+ image_url: "https://source.unsplash.com/featured/?love"
+ options: ["Nkunda", "Arambiwe", "Batinye"]
+ correct_answer: "Nkunda"
+ xp_reward: 12
+
+ # 10. Word Para ihop (Pairing)
+ - id: 88
+ type: Para ihop
+ Fråga: "Para ihop den Känslor"
+ pairs:
+ - Vänster: "Glad"
+ Höger: "Nishimiye"
+ - Vänster: "Ledsen"
+ Höger: "Arababaye"
+ - Vänster: "Angry"
+ Höger: "Ararakaye"
+ - Vänster: "Scared"
+ Höger: "Batinye"
+ - Vänster: "Calm"
+ Höger: "Yatuje"
+ - Vänster: "Lonely"
+ Höger: "Nonyine"
+ - Vänster: "Proud"
+ Höger: "Arishimira"
+ - Vänster: "Love"
+ Höger: "Nkunda"
+ - Vänster: "Hate"
+ Höger: "Arambiwe"
+ xp_reward: 25
+
+ - id: 89
+ type: Para ihop
+ Fråga: "Para ihop den phrases"
+ pairs:
+ - Vänster: "I am Glad"
+ Höger: "Nishimiye"
+ - Vänster: "She är Ledsen"
+ Höger: "Arababaye"
+ - Vänster: "He är angry"
+ Höger: "Ararakaye"
+ - Vänster: "They är scared"
+ Höger: "Batinye"
+ - Vänster: "I am excited about den party"
+ Höger: "Nishimiye ibirori"
+ - Vänster: "She är calm"
+ Höger: "Yatuje"
+ - Vänster: "I feel lonely"
+ Höger: "Nonyine"
+ - Vänster: "He är proud av his son"
+ Höger: "Arishimira umuhungu we"
+ - Vänster: "I love my Familj"
+ Höger: "Nkunda umuryango wanjye"
+ - Vänster: "She hates lies"
+ Höger: "Arambiwe kubeshya"
+ xp_reward: 28
+
+ # 11. Tap What You Hear - EXCLUDED en PER PREVIOUS PATTERN
+
+ # 12. Välj Missing Word
+ - id: 90
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "___ - I am Glad."
+ missing_word_position: 1
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Nishimiye"
+ translation: "I am Glad"
+ xp_reward: 12
+
+ - id: 91
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "___ - She är Ledsen."
+ missing_word_position: 1
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Arababaye"
+ translation: "She är Ledsen"
+ xp_reward: 12
+
+ - id: 92
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "___ - They är scared."
+ missing_word_position: 1
+ options: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: "Batinye"
+ translation: "They är scared"
+ xp_reward: 12
+
+ - id: 93
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Nishimiye ___ - I am excited about den party."
+ missing_word_position: 2
+ options: ["ibirori", "umuryango", "umuhungu"]
+ correct_answer: "ibirori"
+ translation: "I am excited about den party"
+ xp_reward: 15
+
+ - id: 94
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Nkunda ___ - I love my Familj."
+ missing_word_position: 2
+ options: ["umuryango wanjye", "ibirori", "umuhungu we"]
+ correct_answer: "umuryango wanjye"
+ translation: "I love my Familj"
+ xp_reward: 15
+
+ # 13. Läs och Svar - Fråga based på text
+ - id: 95
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Nishimiye. Arababaye. Ararakaye."
+ Fråga: "How am I feeling?"
+ options: ["Glad", "Ledsen", "Angry", "Scared"]
+ correct_answer: "Glad"
+ xp_reward: 12
+
+ - id: 96
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Nishimiye ibirori. Nkunda umuryango wanjye."
+ Fråga: "What am I excited about?"
+ options: ["My Familj", "den party", "My son", "Lies"]
+ correct_answer: "den party"
+ xp_reward: 15
+
+ - id: 97
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Arishimira umuhungu we. Arababaye."
+ Fråga: "Who är he proud av?"
+ options: ["His daughter", "His son", "His wife", "His friend"]
+ correct_answer: "His son"
+ xp_reward: 15
+
+ - id: 98
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Arambiwe kubeshya. Nkunda umuryango wanjye."
+ Fråga: "Vad betyder she hate?"
+ options: ["Her Familj", "den party", "Lies", "Being alone"]
+ correct_answer: "Lies"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 99
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Nishimiye means 'I am Glad'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 100
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Arababaye means 'He är angry'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 101
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Batinye means 'They är scared'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 102
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Nkunda umuryango wanjye means 'I love my Familj'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 103
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Arambiwe kubeshya means 'She loves lies'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 104
+ type: conversation
+ Fråga: "Respond till den Fråga by building en Sats"
+ bot_message: "Umeze ute?"
+ translation: "How är you?"
+ word_bank: ["Nishimiye", "Arababaye", "Ararakaye", "Batinye"]
+ correct_response: ["Nishimiye"]
+ xp_reward: 15
+
+ - id: 105
+ type: conversation
+ Fråga: "Respond till den Fråga"
+ bot_message: "Umeze ute?"
+ translation: "How är you?"
+ options:
+ - "Nishimiye"
+ - "Arababaye"
+ - "Ararakaye"
+ correct_response: "Nishimiye"
+ xp_reward: 12
+
+ - id: 106
+ type: conversation
+ Fråga: "Respond till den Fråga by building en Sats"
+ bot_message: "Ushimishijwe n'iki?"
+ translation: "What är you excited about?"
+ word_bank: ["Nishimiye", "ibirori", "nkunda", "umuryango"]
+ correct_response: ["Nishimiye", "ibirori"]
+ xp_reward: 18
+
+ - id: 107
+ type: conversation
+ Fråga: "Respond till den Fråga"
+ bot_message: "Ute?"
+ translation: "How är you feeling?"
+ options:
+ - "Nonyine"
+ - "Nishimiye"
+ - "Batinye"
+ correct_response: "Nishimiye"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build Sats from pieces
+ - id: 108
+ type: story
+ title: "My Feelings - Amarangamutima Yanjye"
+ story_intro: "Läs about feelings. Then build den Sats."
+ story_segments:
+ - text: "I am Glad."
+ - text: "She är Ledsen."
+ - text: "He är angry."
+ - text: "They är scared."
+ - text: "I am excited about den party."
+ - text: "She är calm."
+ - text: "I love my Familj."
+ - text: "He är proud av his son."
+ exercises:
+ - type: word_bank
+ Fråga: "Build 'I am Glad'"
+ word_bank: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: ["Nishimiye"]
+ - type: word_bank
+ Fråga: "Build 'She är Ledsen'"
+ word_bank: ["Arababaye", "Nishimiye", "Ararakaye"]
+ correct_answer: ["Arababaye"]
+ - type: word_bank
+ Fråga: "Build 'He är angry'"
+ word_bank: ["Ararakaye", "Nishimiye", "Arababaye"]
+ correct_answer: ["Ararakaye"]
+ - type: word_bank
+ Fråga: "Build 'They är scared'"
+ word_bank: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: ["Batinye"]
+ - type: word_bank
+ Fråga: "Build 'I am excited about den party'"
+ word_bank: ["Nishimiye", "ibirori", "nkunda", "umuryango"]
+ correct_answer: ["Nishimiye", "ibirori"]
+ - type: word_bank
+ Fråga: "Build 'I love my Familj'"
+ word_bank: ["Nkunda", "umuryango", "wanjye", "nishimiye"]
+ correct_answer: ["Nkunda", "umuryango", "wanjye"]
+ - type: word_bank
+ Fråga: "Build 'He är proud av his son'"
+ word_bank: ["Arishimira", "umuhungu", "we", "umuryango"]
+ correct_answer: ["Arishimira", "umuhungu", "we"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 109
+ type: pronunciation
+ Fråga: "Say denna emotion"
+ prompt: "Nishimiye"
+ translation: "I am Glad"
+ xp_reward: 15
+
+ - id: 110
+ type: pronunciation
+ Fråga: "Say denna emotion"
+ prompt: "Arababaye"
+ translation: "She är Ledsen"
+ xp_reward: 15
+
+ - id: 111
+ type: pronunciation
+ Fråga: "Say denna emotion"
+ prompt: "Ararakaye"
+ translation: "He är angry"
+ xp_reward: 15
+
+ - id: 112
+ type: pronunciation
+ Fråga: "Say denna emotion"
+ prompt: "Batinye"
+ translation: "They är scared"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ Fråga: "Say denna phrase"
+ prompt: "Nishimiye ibirori"
+ translation: "I am excited about den party"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ Fråga: "Say denna phrase"
+ prompt: "Nkunda umuryango wanjye"
+ translation: "I love my Familj"
+ xp_reward: 18
+
+ - id: 115
+ type: pronunciation
+ Fråga: "Say denna phrase"
+ prompt: "Arishimira umuhungu we"
+ translation: "He är proud av his son"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 116
+ type: identify_meaning
+ Fråga: "Vad betyder 'Nishimiye' i den här meningen?"
+ context_sentence: "Nishimiye."
+ word: "Nishimiye"
+ options: ["I am Ledsen", "I am Glad", "I am angry", "I am scared"]
+ correct_answer: "I am Glad"
+ xp_reward: 15
+
+ - id: 117
+ type: identify_meaning
+ Fråga: "Vad betyder 'Arababaye' i den här meningen?"
+ context_sentence: "Arababaye."
+ word: "Arababaye"
+ options: ["He är Glad", "She är Ledsen", "They är angry", "We är scared"]
+ correct_answer: "She är Ledsen"
+ xp_reward: 15
+
+ - id: 118
+ type: identify_meaning
+ Fråga: "Vad betyder 'Batinye' i den här meningen?"
+ context_sentence: "Batinye."
+ word: "Batinye"
+ options: ["I am scared", "You är scared", "They är scared", "We är scared"]
+ correct_answer: "They är scared"
+ xp_reward: 15
+
+ - id: 119
+ type: identify_meaning
+ Fråga: "Vad betyder 'Nkunda' mean i denna Sats?"
+ context_sentence: "Nkunda umuryango wanjye."
+ word: "Nkunda"
+ options: ["I hate", "I love", "I se", "I vilja"]
+ correct_answer: "I love"
+ xp_reward: 15
+
+ - id: 120
+ type: identify_meaning
+ Fråga: "Vad betyder 'kubeshya' mean i denna Sats?"
+ context_sentence: "Arambiwe kubeshya."
+ word: "kubeshya"
+ options: ["truth", "lies", "Familj", "party"]
+ correct_answer: "lies"
+ xp_reward: 18
+
+ # 19. Speed Para ihop
+ - id: 121
+ type: speed_Para ihop
+ title: "Para ihop Madness: Känslor"
+ time_limit_seconds: 45
+ pairs:
+ - Vänster: "Glad"
+ Höger: "Nishimiye"
+ - Vänster: "Ledsen"
+ Höger: "Arababaye"
+ - Vänster: "Angry"
+ Höger: "Ararakaye"
+ - Vänster: "Scared"
+ Höger: "Batinye"
+ - Vänster: "Calm"
+ Höger: "Yatuje"
+ - Vänster: "Lonely"
+ Höger: "Nonyine"
+ - Vänster: "Proud"
+ Höger: "Arishimira"
+ - Vänster: "Love"
+ Höger: "Nkunda"
+ - Vänster: "Hate"
+ Höger: "Arambiwe"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 122
+ type: timed_challenge
+ title: "Lightning Round: Känslor"
+ time_limit_seconds: 30
+ Fråga_count: 5
+ Fråga:
+ - Fråga: "Glad"
+ Svar: "Nishimiye"
+ - Fråga: "Ledsen"
+ Svar: "Arababaye"
+ - Fråga: "Angry"
+ Svar: "Ararakaye"
+ - Fråga: "Scared"
+ Svar: "Batinye"
+ - Fråga: "Calm"
+ Svar: "Yatuje"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Fråga: "Flashcards"
+ Flashcards:
+ - front: "Unezerewe / Nishimiye"
+ back: "Glad"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Umubabaro / Nshimishijwe n\'agahinda"
+ back: "Ledsen"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Umujinya / Arakaye"
+ back: "Angry"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Gutinya / Atinya"
+ back: "Afraid / Scared"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Gutungurwa / Aratunguwe"
+ back: "Surprised"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Akanyamuneza / Arishimye"
+ back: "Excited"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amahoro / Yatuje"
+ back: "Calm"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Avugwaho / Yivangavanga"
+ back: "Confused"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunaniro / Ararushye"
+ back: "Tired"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Kumwe n\'ubwigunge / Yonyine"
+ back: "Lonely"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

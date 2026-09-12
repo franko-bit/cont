@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "学ぶ common greetings と expressions で Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe のために single words/phrases)
+ - id: 1
+ type: translation
+ 質問: "何と言いますか 'こんにちは' キニャルワンダ語で？"
+ 答え: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 質問: "何と言いますか 'よい morning' キニャルワンダ語で？"
+ 答え: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 質問: "何と言いますか 'よい afternoon / よい evening' キニャルワンダ語で？"
+ 答え: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 質問: "何と言いますか 'よい night' キニャルワンダ語で？"
+ 答え: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 質問: "どう聞きますか 'How です you?' キニャルワンダ語で？"
+ 答え: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 質問: "何と言いますか 'I'm fine' キニャルワンダ語で？"
+ 答え: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 質問: "何と言いますか 'Welcome' キニャルワンダ語で？"
+ 答え: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 質問: "何と言いますか 'みる you later' キニャルワンダ語で？"
+ 答え: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ 質問: "何と言いますか 'さようなら' キニャルワンダ語で？"
+ 答え: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ 質問: "何と言いますか 'Have  nice day' キニャルワンダ語で？"
+ 答え: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 質問: "何と言いますか 'Take care' キニャルワンダ語で？"
+ 答え: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ 質問: "何と言いますか 'Long time いいえ みる' キニャルワンダ語で？"
+ 答え: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ 質問: "どう聞きますか 'What's up?' キニャルワンダ語で？"
+ 答え: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ 質問: "何と言いますか 'Nice に meet you' キニャルワンダ語で？"
+ 答え: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings と 家族 Members (Simple combinations)
+ - id: 15
+ type: translation
+ 質問: "何と言いますか 'こんにちは, mother!' キニャルワンダ語で？"
+ 答え: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ 質問: "何と言いますか 'よい morning, father!' キニャルワンダ語で？"
+ 答え: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ 質問: "何と言いますか 'よい night, my child!' キニャルワンダ語で？"
+ 答え: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common 質問 (Fixed expressions)
+ - id: 18
+ type: translation
+ 質問: "どう聞きますか 'How です you today?' キニャルワンダ語で？"
+ 答え: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ 質問: "何と言いますか 'I'm fine, thank you' キニャルワンダ語で？"
+ 答え: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ 質問: "どう聞きますか 'What's up と you today?' キニャルワンダ語で？"
+ 答え: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # いいえ DIRECT TRANSLATION のために COMPLEX DIALOGUES または PARAGRAPHS
+ # Instead, we use 文 building, 一致させる, と word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ 質問: "何を意味しますか 'Muraho' という意味ですか"
+ options:
+ - "さようなら"
+ - "こんにちは"
+ - "よい morning"
+ - "よい night"
+ 答え: "こんにちは"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ 質問: "何を意味しますか 'Mwaramutse' という意味ですか"
+ options:
+ - "よい evening"
+ - "よい morning"
+ - "よい night"
+ - "さようなら"
+ 答え: "よい morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ 質問: "何を意味しますか 'Amakuru' という意味ですか"
+ options:
+ - "さようなら"
+ - "Welcome"
+ - "How です you?"
+ - "みる you later"
+ 答え: "How です you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ 質問: "何を意味しますか 'Ni meza' という意味ですか"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ 答え: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ 質問: "何を意味しますか 'Murabeho' という意味ですか"
+ options:
+ - "こんにちは"
+ - "Welcome"
+ - "さようなら"
+ - "みる you later"
+ 答え: "さようなら"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ 質問: "何を意味しますか 'Tuzasubira' という意味ですか"
+ options:
+ - "さようなら"
+ - "みる you later"
+ - "Welcome back"
+ - "Take care"
+ 答え: "みる you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ 質問: "何を意味しますか 'Nishimiye kukubona' という意味ですか"
+ options:
+ - "よい morning"
+ - "Nice に meet you"
+ - "Welcome"
+ - "Take care"
+ 答え: "Nice に meet you"
+ xp_reward: 18
+
+ # 3. 聞く と Type (Dictation) - Safe because audio です provided
+ - id: 28
+ type: listen_と_type
+ 質問: "聞く と type  greeting"
+ tts_text: "Muraho"
+ 答え: "Muraho"
+ translation: "こんにちは"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_と_type
+ 質問: "聞く と type  greeting"
+ tts_text: "Mwaramutse"
+ 答え: "Mwaramutse"
+ translation: "よい morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_と_type
+ 質問: "聞く と type  greeting"
+ tts_text: "Mwiriwe"
+ 答え: "Mwiriwe"
+ translation: "よい afternoon / よい evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ tts_text: "Ijoro ryiza"
+ 答え: "Ijoro ryiza"
+ translation: "よい night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_と_type
+ 質問: "聞く と type  質問"
+ tts_text: "Amakuru"
+ 答え: "Amakuru"
+ translation: "How です you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_と_type
+ 質問: "聞く と type  response"
+ tts_text: "Ni meza"
+ 答え: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ tts_text: "Murakaza neza"
+ 答え: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ tts_text: "Tuzasubira"
+ 答え: "Tuzasubira"
+ translation: "みる you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ tts_text: "Murabeho"
+ 答え: "Murabeho"
+ translation: "さようなら"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ 答え: "Hashize igihe tutabonanye"
+ translation: "Long time いいえ みる"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ tts_text: "Nishimiye kukubona"
+ 答え: "Nishimiye kukubona"
+ translation: "Nice に meet you"
+ xp_reward: 25
+
+ # 4. 聞く と 選ぶ
+ - id: 39
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "さようなら"
+ - "こんにちは"
+ - "よい morning"
+ 答え: "こんにちは"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "よい evening"
+ - "よい morning"
+ - "よい night"
+ 答え: "よい morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "よい morning"
+ - "よい afternoon/evening"
+ - "よい night"
+ 答え: "よい afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "さようなら"
+ - "How です you?"
+ - "Welcome"
+ 答え: "How です you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ 答え: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "こんにちは"
+ - "さようなら"
+ - "みる you later"
+ 答え: "さようなら"
+ xp_reward: 15
+
+ # 5. Repeat / 話す Exercise
+ - id: 45
+ type: 話す
+ 質問: "Say これ greeting"
+ prompt: "Muraho"
+ translation: "こんにちは"
+ xp_reward: 15
+
+ - id: 46
+ type: 話す
+ 質問: "Say これ greeting"
+ prompt: "Mwaramutse"
+ translation: "よい morning"
+ xp_reward: 15
+
+ - id: 47
+ type: 話す
+ 質問: "Say これ greeting"
+ prompt: "Mwiriwe"
+ translation: "よい afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: 話す
+ 質問: "Say これ phrase"
+ prompt: "Ijoro ryiza"
+ translation: "よい night"
+ xp_reward: 18
+
+ - id: 49
+ type: 話す
+ 質問: "Ask 'How です you?' で Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How です you?"
+ xp_reward: 15
+
+ - id: 50
+ type: 話す
+ 質問: "Say 'I'm fine' で Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: 話す
+ 質問: "Say 'Welcome' で Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: 話す
+ 質問: "Say 'みる you later' で Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "みる you later"
+ xp_reward: 18
+
+ - id: 53
+ type: 話す
+ 質問: "Say 'さようなら' で Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "さようなら"
+ xp_reward: 15
+
+ - id: 54
+ type: 話す
+ 質問: "Say 'Long time いいえ みる' で Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time いいえ みる"
+ xp_reward: 22
+
+ - id: 55
+ type: 話す
+ 質問: "Say 'Nice に meet you' で Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice に meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: 話す
+ 質問: "Say 'こんにちは, mother!' で Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "こんにちは, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: 話す
+ 質問: "Say 'よい morning, father!' で Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "よい morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank 文 Building - PIECES PROVIDED, いいえ TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ 質問: "Build  greeting のために 'こんにちは, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ 質問: "Build  greeting のために 'よい morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ 質問: "Build  greeting のために 'よい night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ 質問: "Build  質問 'How です you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ 質問: "Build  response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ 質問: "Build  farewell 'みる you later at 学校'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ 質問: "Build  farewell 'さようなら, みる you 明日'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ 質問: "Build  well-wish 'Have  nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ 質問: "Build  phrase 'Take care に your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ 質問: "Build  greeting 'Long time いいえ みる, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ 質問: "Build  質問 'What's up と you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ 質問: "Build  phrase 'Nice に meet you at  party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. 文 Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "こんにちは, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "よい morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "よい night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 質問"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How です you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "みる you later at 学校."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "さようなら, みる you 明日."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have  nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care に your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time いいえ みる, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 質問"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up と you today?"
+ xp_reward: 22
+
+ # 8. Fill で  Blank - 選ぶ FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ 質問: "Complete  greeting"
+ text_と_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "こんにちは, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ 質問: "Complete  greeting"
+ text_と_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "よい morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ 質問: "Complete  phrase"
+ text_と_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "よい night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ 質問: "Complete  質問"
+ text_と_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How です you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ 質問: "Complete  response"
+ text_と_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ 質問: "Complete  farewell"
+ text_と_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "みる you later at 学校."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ 質問: "Complete  farewell"
+ text_と_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "さようなら, みる you 明日."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ 質問: "Complete  well-wish"
+ text_と_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have  nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ 質問: "Complete  phrase"
+ text_と_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care に your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ 質問: "Complete  greeting"
+ text_と_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time いいえ みる, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ 質問: "Complete  質問"
+ text_と_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up と you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word 一致させる (Pairing)
+ - id: 98
+ type: 一致させる
+ 質問: "一致させる  greetings に their meanings"
+ pairs:
+ - 左: "Muraho"
+ 右: "こんにちは"
+ - 左: "Mwaramutse"
+ 右: "よい morning"
+ - 左: "Mwiriwe"
+ 右: "よい afternoon/evening"
+ - 左: "Ijoro ryiza"
+ 右: "よい night"
+ - 左: "Amakuru"
+ 右: "How です you?"
+ - 左: "Ni meza"
+ 右: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: 一致させる
+ 質問: "一致させる  farewells と well-wishes"
+ pairs:
+ - 左: "Murabeho"
+ 右: "さようなら"
+ - 左: "Tuzasubira"
+ 右: "みる you later"
+ - 左: "Umunsi mwiza"
+ 右: "Have  nice day"
+ - 左: "Wirinde"
+ 右: "Take care"
+ - 左: "Hashize igihe tutabonanye"
+ 右: "Long time いいえ みる"
+ - 左: "Nishimiye kukubona"
+ 右: "Nice に meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: 一致させる
+ 質問: "一致させる  phrases と 家族 members"
+ pairs:
+ - 左: "Muraho, Mama!"
+ 右: "こんにちは, mother!"
+ - 左: "Mwaramutse, Data!"
+ 右: "よい morning, father!"
+ - 左: "Ijoro ryiza, mwana wanjye!"
+ 右: "よい night, my child!"
+ - 左: "Hashize igihe tutabonanye, nshuti yanjye"
+ 右: "Long time いいえ みる, my friend"
+ xp_reward: 25
+
+ # 10. 選ぶ Missing Word
+ - id: 107
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How です you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have  nice day at work."
+ xp_reward: 15
+
+ # 11. 読む と 答え - 質問 based に context
+ - id: 110
+ type: read_answer
+ 質問: "読む  dialogue と 答え  質問"
+ text: ": Muraho! Amakuru? B: Ni meza, murakoze."
+ 質問: "How です person B?"
+ options: ["悲しい", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ 質問: "読む  dialogue と 答え  質問"
+ text: ": Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ 質問: "What time の day です it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ 質問: "読む  dialogue と 答え  質問"
+ text: ": Tuzasubira ku ishuri. B: Murabeho!"
+ 質問: "Where will they みる each other later?"
+ options: ["At home", "At 学校", "At work", "At  市場"]
+ correct_answer: "At 学校"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "'Mwaramutse' です used で  morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "'Mwiriwe' です used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "'Murabeho' means こんにちは."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "'Nishimiye kukubona' means 'Nice に meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ 質問: "Respond に  greeting by building  文"
+ bot_message: "Muraho! Amakuru?"
+ translation: "こんにちは! How です you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ 質問: "選ぶ  appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "よい morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ 質問: "Respond に  farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "みる you later at 学校."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ 質問: "Build  response に  質問"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How です you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build 文 from pieces
+ - id: 121
+ type: story
+ title: "Meeting  Friend - Guhura n'inshuti"
+ story_intro: "読む  conversation. Then build  文."
+ story_segments:
+ - text: "Person  says こんにちは."
+ - text: "Person  asks how they です."
+ - text: "Person B says they です fine と ありがとう them."
+ - text: "Person  says nice に meet them."
+ - text: "Person B welcomes them."
+ - text: "Person  says みる you later."
+ - text: "Person B says さようなら."
+ exercises:
+ - type: word_bank
+ 質問: "Build  Kinyarwanda greeting のために 'こんにちは!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ 質問: "Build  質問 'How です you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ 質問: "Build  response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ 質問: "Build  phrase 'Nice に meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ 質問: "Build  farewell 'みる you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ 質問: "Build  farewell 'さようなら'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ 質問: "Say これ greeting"
+ prompt: "Muraho"
+ translation: "こんにちは"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ 質問: "Say これ greeting"
+ prompt: "Mwaramutse"
+ translation: "よい morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ 質問: "Say これ phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice に meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ 質問: "Say これ farewell"
+ prompt: "Murabeho"
+ translation: "さようなら"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ 質問: "何を意味しますか 'Muraho' という意味ですか"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["さようなら", "こんにちは", "Thank you", "Welcome"]
+ correct_answer: "こんにちは"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ 質問: "何を意味しますか 'murakoze' mean で これ 文?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["おねがい", "thank you", "welcome", "さようなら"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ 質問: "何を意味しますか 'Mwiriwe' という意味ですか"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["よい morning", "よい afternoon/evening", "よい night", "こんにちは"]
+ correct_answer: "よい afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed 一致させる
+ - id: 129
+ type: speed_一致させる
+ title: "一致させる Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "こんにちは"
+ 右: "Muraho"
+ - 左: "よい morning"
+ 右: "Mwaramutse"
+ - 左: "よい afternoon"
+ 右: "Mwiriwe"
+ - 左: "よい night"
+ 右: "Ijoro ryiza"
+ - 左: "How です you?"
+ 右: "Amakuru"
+ - 左: "I'm fine"
+ 右: "Ni meza"
+ - 左: "Welcome"
+ 右: "Murakaza neza"
+ - 左: "みる you later"
+ 右: "Tuzasubira"
+ - 左: "さようなら"
+ 右: "Murabeho"
+ - 左: "Take care"
+ 右: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ 質問_count: 5
+ 質問:
+ - 質問: "こんにちは"
+ 答え: "Muraho"
+ - 質問: "よい morning"
+ 答え: "Mwaramutse"
+ - 質問: "よい night"
+ 答え: "Ijoro ryiza"
+ - 質問: "How です you?"
+ 答え: "Amakuru"
+ - 質問: "さようなら"
+ 答え: "Murabeho"
+ xp_reward: 35
+
+# フラッシュカード
+ - id: 111
+ type: フラッシュカード
+ 質問: "フラッシュカード"
+ フラッシュカード:
+ - front: "Muraho"
+ back: "こんにちは"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "よい morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "よい afternoon / よい evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "よい night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How です you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "みる you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "さようなら"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have  nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

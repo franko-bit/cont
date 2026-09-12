@@ -1,0 +1,882 @@
+lesson:
+ name: "动物"
+ description: "学习 animal names 在 Kinyarwanda by categories"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Words ONLY (Safe 为了 single words)
+ # Domestic / Farm 动物
+ - id: 1
+ type: translation
+ 问题: "怎么说 '牛' 用基尼阿万达语？"
+ 答案: "Inka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 问题: "怎么说 '狗' 用基尼阿万达语？"
+ 答案: "Imbwa"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 问题: "怎么说 '猫' 用基尼阿万达语？"
+ 答案: "Injangwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 问题: "怎么说 '山羊' 用基尼阿万达语？"
+ 答案: "Ihene"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 问题: "怎么说 '绵羊' 用基尼阿万达语？"
+ 答案: "Intama"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 问题: "怎么说 '猪' 用基尼阿万达语？"
+ 答案: "Ingurube"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 问题: "怎么说 '鸡' 用基尼阿万达语？"
+ 答案: "Inkoko"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 问题: "怎么说 '兔子' 用基尼阿万达语？"
+ 答案: "Urukwavu"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ 问题: "怎么说 '驴' 用基尼阿万达语？"
+ 答案: "Indogobe"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ 问题: "怎么说 '鸽子' 用基尼阿万达语？"
+ 答案: "Inuma"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 问题: "怎么说 '鸟' 用基尼阿万达语？"
+ 答案: "Inyoni"
+ xp_reward: 10
+
+ # Wildlife 动物
+ - id: 12
+ type: translation
+ 问题: "怎么说 '狮子' 用基尼阿万达语？"
+ 答案: "Intare"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ 问题: "怎么说 '大象' 用基尼阿万达语？"
+ 答案: "Inzovu"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ 问题: "怎么说 '山地大猩猩' 用基尼阿万达语？"
+ 答案: "Ingagi"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ 问题: "怎么说 '豹子' 用基尼阿万达语？"
+ 答案: "Ingwe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ 问题: "怎么说 '水牛' 用基尼阿万达语？"
+ 答案: "Imbogo"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ 问题: "怎么说 '斑马' 用基尼阿万达语？"
+ 答案: "Imparage"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ 问题: "怎么说 '河马' 用基尼阿万达语？"
+ 答案: "Imvubu"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ 问题: "怎么说 '长颈鹿' 用基尼阿万达语？"
+ 答案: "Agasumbashyamba"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ 问题: "怎么说 '鬣狗' 用基尼阿万达语？"
+ 答案: "Imfyisi"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ 问题: "怎么说 '猴子' 用基尼阿万达语？"
+ 答案: "Inkende"
+ xp_reward: 10
+
+ # 鸟, Reptiles, Insects, 鱼
+ - id: 22
+ type: translation
+ 问题: "怎么说 '灰冠鹤' 用基尼阿万达语？"
+ 答案: "Umusambi"
+ xp_reward: 10
+
+ - id: 23
+ type: translation
+ 问题: "怎么说 '蛇' 用基尼阿万达语？"
+ 答案: "Inzoka"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ 问题: "怎么说 '青蛙' 用基尼阿万达语？"
+ 答案: "Igikeri"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ 问题: "怎么说 '鱼' 用基尼阿万达语？"
+ 答案: "Ifi"
+ xp_reward: 10
+
+ - id: 26
+ type: translation
+ 问题: "怎么说 '蜜蜂' 用基尼阿万达语？"
+ 答案: "Inzuki"
+ xp_reward: 10
+
+ # Animal Actions (Verbs)
+ - id: 27
+ type: translation
+ 问题: "怎么说 '吃' 用基尼阿万达语？"
+ 答案: "irya"
+ xp_reward: 10
+
+ - id: 28
+ type: translation
+ 问题: "怎么说 '喝' 用基尼阿万达语？"
+ 答案: "inywa"
+ xp_reward: 10
+
+ - id: 29
+ type: translation
+ 问题: "怎么说 'sleeps' 用基尼阿万达语？"
+ 答案: "irasinzira"
+ xp_reward: 10
+
+ - id: 30
+ type: translation
+ 问题: "怎么说 'runs' 用基尼阿万达语？"
+ 答案: "iriruka"
+ xp_reward: 10
+
+ - id: 31
+ type: translation
+ 问题: "怎么说 'flies' 用基尼阿万达语？"
+ 答案: "iraguruka"
+ xp_reward: 10
+
+ - id: 32
+ type: translation
+ 问题: "怎么说 'swims' 用基尼阿万达语？"
+ 答案: "iroga"
+ xp_reward: 10
+
+ - id: 33
+ type: translation
+ 问题: "怎么说 'plays' 用基尼阿万达语？"
+ 答案: "irakina"
+ xp_reward: 10
+
+ # Animal 食物
+ - id: 34
+ type: translation
+ 问题: "怎么说 'grass' 用基尼阿万达语？"
+ 答案: "ibyatsi"
+ xp_reward: 10
+
+ - id: 35
+ type: translation
+ 问题: "怎么说 '水' 用基尼阿万达语？"
+ 答案: "amazi"
+ xp_reward: 10
+
+ - id: 36
+ type: translation
+ 问题: "怎么说 'meat' 用基尼阿万达语？"
+ 答案: "inyama"
+ xp_reward: 10
+
+ # 不 DIRECT TRANSLATION 为了 句子 或 PARAGRAPHS
+ # Instead, we use 句子 building, 配对, 和 word bank exercises
+
+ # 2. Multiple Choice
+ - id: 37
+ type: multiple_choice
+ 问题: "什么是 'Inka'?"
+ options:
+ - "狗"
+ - "牛"
+ - "猫"
+ - "山羊"
+ 答案: "牛"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ 问题: "什么是 'Intare'?"
+ options:
+ - "狮子"
+ - "大象"
+ - "猴子"
+ - "狗"
+ 答案: "狮子"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ 问题: "是什么意思 'irya' 是什么意思"
+ options:
+ - "喝"
+ - "吃"
+ - "sleeps"
+ - "runs"
+ 答案: "吃"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ 问题: "是什么意思 'ibyatsi' 是什么意思"
+ options:
+ - "水"
+ - "meat"
+ - "grass"
+ - "milk"
+ 答案: "grass"
+ xp_reward: 15
+
+ # 3. 听 和 Type (Dictation) - SINGLE WORDS ONLY
+ - id: 41
+ type: listen_和_type
+ 问题: "听 和 type  animal name"
+ tts_text: "Inka"
+ 答案: "Inka"
+ translation: "牛"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_和_type
+ 问题: "听 和 type  animal name"
+ tts_text: "Imbwa"
+ 答案: "Imbwa"
+ translation: "狗"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_和_type
+ 问题: "听 和 type  animal name"
+ tts_text: "Injangwe"
+ 答案: "Injangwe"
+ translation: "猫"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_和_type
+ 问题: "听 和 type  animal name"
+ tts_text: "Ihene"
+ 答案: "Ihene"
+ translation: "山羊"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_和_type
+ 问题: "听 和 type  animal name"
+ tts_text: "Intama"
+ 答案: "Intama"
+ translation: "绵羊"
+ xp_reward: 20
+
+ - id: 46
+ type: listen_和_type
+ 问题: "听 和 type  animal name"
+ tts_text: "Inkoko"
+ 答案: "Inkoko"
+ translation: "鸡"
+ xp_reward: 20
+
+ # 4. 听 和 选择 - SINGLE WORDS ONLY
+ - id: 47
+ type: listen_和_choose
+ 问题: "听 和 选择  correct animal"
+ tts_text: "Imbwa"
+ options:
+ - "猫"
+ - "狗"
+ - "牛"
+ 答案: "狗"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_和_choose
+ 问题: "听 和 选择  correct animal"
+ tts_text: "Intare"
+ options:
+ - "狮子"
+ - "大象"
+ - "长颈鹿"
+ 答案: "狮子"
+ xp_reward: 15
+
+ - id: 49
+ type: listen_和_choose
+ 问题: "听 和 选择  correct animal"
+ tts_text: "Intama"
+ options:
+ - "山羊"
+ - "绵羊"
+ - "牛"
+ 答案: "绵羊"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_和_choose
+ 问题: "听 和 选择  correct animal"
+ tts_text: "Inkoko"
+ options:
+ - "鸡"
+ - "鸟"
+ - "Duck"
+ 答案: "鸡"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_和_choose
+ 问题: "听 和 选择  correct animal"
+ tts_text: "Injangwe"
+ options:
+ - "狗"
+ - "猫"
+ - "兔子"
+ 答案: "猫"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_和_choose
+ 问题: "听 和 选择  correct animal"
+ tts_text: "Ihene"
+ options:
+ - "山羊"
+ - "绵羊"
+ - "牛"
+ 答案: "山羊"
+ xp_reward: 15
+
+ # 5. Repeat / 说 Exercise
+ - id: 53
+ type: 说
+ 问题: "Say 这 word"
+ prompt: "Inka"
+ translation: "牛"
+ xp_reward: 15
+
+ - id: 54
+ type: 说
+ 问题: "Say 这 word"
+ prompt: "Imbwa"
+ translation: "狗"
+ xp_reward: 15
+
+ - id: 55
+ type: 说
+ 问题: "Say 这 word"
+ prompt: "Injangwe"
+ translation: "猫"
+ xp_reward: 15
+
+ - id: 56
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Inka irya ibyatsi"
+ translation: " 牛 吃 grass"
+ xp_reward: 20
+
+ # 6. Word Bank 句子 Building - PIECES PROVIDED, 不 TRANSLATION NEEDED
+ - id: 57
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 牛 吃 grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 狗 喝 水'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 20
+
+ - id: 59
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 鸟 flies'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 鱼 swims'"
+ word_bank: ["Ifi", "iroga", "amazi", "Inyoni", "iraguruka", "hejuru"]
+ correct_answer: ["Ifi", "iroga"]
+ xp_reward: 20
+
+ # 7. 句子 Scramble - PIECES PROVIDED
+ - id: 61
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["irya", "Inka", "ibyatsi"]
+ correct_sentence: "Inka irya ibyatsi"
+ translation: " 牛 吃 grass"
+ xp_reward: 20
+
+ - id: 62
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["inywa", "Imbwa", "amazi"]
+ correct_sentence: "Imbwa inywa amazi"
+ translation: " 狗 喝 水"
+ xp_reward: 20
+
+ - id: 63
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["iraguruka", "Inyoni", "hejuru"]
+ correct_sentence: "Inyoni iraguruka hejuru"
+ translation: " 鸟 flies above"
+ xp_reward: 20
+
+ # 8. Fill 在  Blank - 选择 FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Inka ___ ibyatsi."
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: " 牛 吃 grass"
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Imbwa ___ amazi."
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: " 狗 喝 水"
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Inyoni ___ hejuru."
+ options: ["iraguruka", "iriruka", "iroga"]
+ correct_answer: "iraguruka"
+ translation: " 鸟 flies above"
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 67
+ type: picture_word
+ 问题: "What animal 是 这?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Intama", "Ihene"]
+ correct_answer: "Inka"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ 问题: "What animal 是 这?"
+ image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Injangwe", "Inkoko"]
+ correct_answer: "Imbwa"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ 问题: "What animal 是 这?"
+ image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Intare", "Ingwe", "Imbogo"]
+ correct_answer: "Intare"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ 问题: "What animal 是 这?"
+ image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Imvubu", "Ingagi", "Imparage"]
+ correct_answer: "Inzovu"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ 问题: "What animal 是 这?"
+ image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inyoni", "Inkoko", "Inuma", "Umusambi"]
+ correct_answer: "Inyoni"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ 问题: "What animal 是 这?"
+ image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Ifi", "Inzoka", "Igikeri", "Akanyamasyo"]
+ correct_answer: "Ifi"
+ xp_reward: 10
+
+ # 10. Word 配对 (Pairing)
+ - id: 73
+ type: 配对
+ 问题: "配对  动物"
+ pairs:
+ - 左: "牛"
+ 右: "Inka"
+ - 左: "狗"
+ 右: "Imbwa"
+ - 左: "猫"
+ 右: "Injangwe"
+ - 左: "狮子"
+ 右: "Intare"
+ - 左: "大象"
+ 右: "Inzovu"
+ - 左: "鸟"
+ 右: "Inyoni"
+ - 左: "鱼"
+ 右: "Ifi"
+ xp_reward: 25
+
+ - id: 74
+ type: 配对
+ 问题: "配对  actions"
+ pairs:
+ - 左: "吃"
+ 右: "irya"
+ - 左: "喝"
+ 右: "inywa"
+ - 左: "sleeps"
+ 右: "irasinzira"
+ - 左: "flies"
+ 右: "iraguruka"
+ - 左: "swims"
+ 右: "iroga"
+ - 左: "runs"
+ 右: "iriruka"
+ xp_reward: 25
+
+ - id: 75
+ type: 配对
+ 问题: "配对  animal 食物"
+ pairs:
+ - 左: "grass"
+ 右: "ibyatsi"
+ - 左: "水"
+ 右: "amazi"
+ - 左: "meat"
+ 右: "inyama"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - PIECES PROVIDED
+ - id: 76
+ type: tap_hear
+ 问题: "Tap  words you hear 在 order"
+ tts_text: "Inka irya ibyatsi"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_taps: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 25
+
+ - id: 77
+ type: tap_hear
+ 问题: "Tap  words you hear 在 order"
+ tts_text: "Imbwa inywa amazi"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_taps: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 25
+
+ - id: 78
+ type: tap_hear
+ 问题: "Tap  words you hear 在 order"
+ tts_text: "Inyoni iraguruka hejuru"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_taps: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 25
+
+ # 12. 选择 Missing Word
+ - id: 79
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Inka ___ ibyatsi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: " 牛 吃 grass"
+ xp_reward: 15
+
+ - id: 80
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Imbwa ___ amazi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: " 狗 喝 水"
+ xp_reward: 15
+
+ # 13. 读 和 答案 - 问题 在 English, 答案 based 在 Kinyarwanda text
+ - id: 81
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
+ 问题: "Where 是  牛?"
+ options: ["在  房子", "在  field", "At  市场", "Near  狗"]
+ correct_answer: "在  field"
+ xp_reward: 25
+
+ - id: 82
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
+ 问题: "是什么意思  狮子 吃?"
+ options: ["Grass", "水", "Meat", "鱼"]
+ correct_answer: "Meat"
+ xp_reward: 20
+
+ # 14. True / False
+ - id: 83
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Imbwa ni inyamaswa."
+ translation: "一个 狗 是 一个 animal"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 84
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Inka iraguruka."
+ translation: "一个 牛 flies"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 85
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Ifi iroga."
+ translation: "一个 鱼 swims"
+ correct_answer: true
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 86
+ type: conversation
+ 问题: "Respond 到  问题 by building 一个 句子"
+ bot_message: "Iyi ni inyamaswa ki?"
+ translation: "What animal 是 这?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ word_bank: ["Inka", "ni", "inyamaswa", "Imbwa", "ni", "igikeri"]
+ correct_response: ["Inka", "ni", "inyamaswa"]
+ xp_reward: 20
+
+ - id: 87
+ type: conversation
+ 问题: "Respond 到  问题"
+ bot_message: "Inka iri he?"
+ translation: "Where 是  牛?"
+ options:
+ - "Mu murima"
+ - "Mu nzu"
+ - "Ku isoko"
+ correct_response: "Mu murima"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build 句子 from pieces
+ - id: 88
+ type: story
+ title: " 牛 和 Friends"
+ story_intro: "读 about  动物. Then build  句子."
+ story_segments:
+ - text: "There 是 一个 牛 在  field."
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ - text: " 牛 吃 grass."
+ - text: "一个 狗 是 near  牛."
+ - text: " 狗 喝 水."
+ - text: "一个 鸟 flies above."
+ exercises:
+ - type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 牛 吃 grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ - type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 狗 喝 水'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ - type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 鸟 flies above'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 89
+ type: pronunciation
+ 问题: "Say  word"
+ prompt: "Inka"
+ translation: "牛"
+ xp_reward: 15
+
+ - id: 90
+ type: pronunciation
+ 问题: "Say  word"
+ prompt: "Imbwa"
+ translation: "狗"
+ xp_reward: 15
+
+ - id: 91
+ type: pronunciation
+ 问题: "Say  word"
+ prompt: "Injangwe"
+ translation: "猫"
+ xp_reward: 15
+
+ - id: 92
+ type: pronunciation
+ 问题: "Say  word"
+ prompt: "Intare"
+ translation: "狮子"
+ xp_reward: 15
+
+ - id: 93
+ type: pronunciation
+ 问题: "Say  word"
+ prompt: "Agasumbashyamba"
+ translation: "长颈鹿"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 94
+ type: identify_meaning
+ 问题: "是什么意思 'amazi' mean 在 这 句子?"
+ context_sentence: "Imbwa inywa amazi."
+ word: "amazi"
+ options: ["milk", "水", "食物", "grass"]
+ correct_answer: "水"
+ xp_reward: 15
+
+ - id: 95
+ type: identify_meaning
+ 问题: "是什么意思 'irya' mean 在 这 句子?"
+ context_sentence: "Inka irya ibyatsi."
+ word: "irya"
+ options: ["喝", "吃", "runs", "flies"]
+ correct_answer: "吃"
+ xp_reward: 15
+
+ # 19. Speed 配对
+ - id: 96
+ type: speed_配对
+ title: "配对 Madness: 动物"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "牛"
+ 右: "Inka"
+ - 左: "狗"
+ 右: "Imbwa"
+ - 左: "猫"
+ 右: "Injangwe"
+ - 左: "狮子"
+ 右: "Intare"
+ - 左: "大象"
+ 右: "Inzovu"
+ - 左: "鸟"
+ 右: "Inyoni"
+ - 左: "鱼"
+ 右: "Ifi"
+ - 左: "山羊"
+ 右: "Ihene"
+ - 左: "绵羊"
+ 右: "Intama"
+ - 左: "鸡"
+ 右: "Inkoko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 97
+ type: timed_challenge
+ title: "Lightning Round: 动物"
+ time_limit_seconds: 30
+ 问题_count: 5
+ 问题:
+ - 问题: "牛"
+ 答案: "Inka"
+ - 问题: "狗"
+ 答案: "Imbwa"
+ - 问题: "猫"
+ 答案: "Injangwe"
+ - 问题: "狮子"
+ 答案: "Intare"
+ - 问题: "大象"
+ 答案: "Inzovu"
+ xp_reward: 35
+
+# 闪卡
+ - id: 111
+ type: 闪卡
+ 问题: "闪卡"
+ 闪卡:
+ - front: "Inka"
+ back: "牛"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Imbwa"
+ back: "狗"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Injangwe"
+ back: "猫"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ihene"
+ back: "山羊"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Intama"
+ back: "绵羊"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ingurube"
+ back: "猪"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkoko"
+ back: "鸡"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Urukwavu"
+ back: "兔子"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Indogobe"
+ back: "驴"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Inuma"
+ back: "鸽子"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

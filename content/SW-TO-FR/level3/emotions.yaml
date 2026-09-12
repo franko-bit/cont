@@ -1,0 +1,1130 @@
+lesson:
+  name: "Hisia"
+  description: "Learn emotion words in French and how to express feelings"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Emotion Words ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Je, unasemaje 'Furaha / Nina furaha' kwa Kifaransa?"
+    answer: "Heureux / Heureuse"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Je, unasemaje 'Huzuni / Ninasikitika' kwa Kifaransa?"
+    answer: "Triste"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Je, unasemaje 'Hasira / Amekasirika' kwa Kifaransa?"
+    answer: "En colère"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Je, unasemaje 'Woga / Anaogopa' kwa Kifaransa?"
+    answer: "Effrayé / Peur"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Je, unasemaje 'Mshangao / Ameshangaa' kwa Kifaransa?"
+    answer: "Surpris"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Je, unasemaje 'Msisimko / Amesisimka' kwa Kifaransa?"
+    answer: "Excité"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Je, unasemaje 'Amani / Ametulia' kwa Kifaransa?"
+    answer: "Calme"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Je, unasemaje 'Kuchanganyikiwa / Amechanganyikiwa' kwa Kifaransa?"
+    answer: "Confus"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Je, unasemaje 'Uchovu / Amechoka' kwa Kifaransa?"
+    answer: "Fatigué"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Je, unasemaje 'Upweke / Yuko peke yake' kwa Kifaransa?"
+    answer: "Seul"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Je, unasemaje 'Aibu / Ana aibu' kwa Kifaransa?"
+    answer: "Gêné"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Je, unasemaje 'Kiburi / Anajivunia' kwa Kifaransa?"
+    answer: "Fier"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Je, unasemaje 'Upendo / Anapenda' kwa Kifaransa?"
+    answer: "Amour / Aimant"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Je, unasemaje 'Chuki / Anachukia' kwa Kifaransa?"
+    answer: "Haine / Déteste"
+    xp_reward: 10
+
+  # Sentences About Emotions
+  - id: 15
+    type: translation
+    question: "Je, unasemaje 'Nina furaha / Nimefurahi' kwa Kifaransa?"
+    answer: "Je suis heureux / heureuse"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Je, unasemaje 'Ana huzuni' kwa Kifaransa?"
+    answer: "Elle est triste"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Je, unasemaje 'Amekasirika' kwa Kifaransa?"
+    answer: "Il est en colère"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Je, unasemaje 'Wanaogopa' kwa Kifaransa?"
+    answer: "Ils ont peur"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Je, unasemaje 'Nina msisimko kwa ajili ya sherehe' kwa Kifaransa?"
+    answer: "Je suis excité pour la fête"
+    xp_reward: 18
+
+  - id: 20
+    type: translation
+    question: "Je, unasemaje 'Ametulia' kwa Kifaransa?"
+    answer: "Elle est calme"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Je, unasemaje 'Niko peke yangu / Ninahisi upweke' kwa Kifaransa?"
+    answer: "Je me sens seul"
+    xp_reward: 18
+
+  - id: 22
+    type: translation
+    question: "Je, unasemaje 'Anajivunia mtoto wake' kwa Kifaransa?"
+    answer: "Il est fier de son fils"
+    xp_reward: 20
+
+  - id: 23
+    type: translation
+    question: "Je, unasemaje 'Ninaipenda familia yangu' kwa Kifaransa?"
+    answer: "J'aime ma famille"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Je, unasemaje 'Anachukia uongo' kwa Kifaransa?"
+    answer: "Elle déteste les mensonges"
+    xp_reward: 20
+
+  # 2. Multiple Choice
+  - id: 25
+    type: multiple_choice
+    question: "'Nina furaha' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Triste"
+      - "Heureux"
+      - "En colère"
+      - "Fatigué"
+    answer: "Heureux"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "'Ana huzuni' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Elle est heureuse"
+      - "Elle est triste"
+      - "Elle est en colère"
+      - "Elle est calme"
+    answer: "Elle est triste"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "'Amekasirika' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Il a peur"
+      - "Il est fatigué"
+      - "Il est en colère"
+      - "Il est surpris"
+    answer: "Il est en colère"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Wanaogopa' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Ils sont heureux"
+      - "Ils ont peur"
+      - "Ils sont calmes"
+      - "Ils sont fiers"
+    answer: "Ils ont peur"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Ametulia' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Elle est calme"
+      - "Elle est confuse"
+      - "Elle est excitée"
+      - "Elle est seule"
+    answer: "Elle est calme"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Ninaipenda familia yangu' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Je déteste ma famille"
+      - "J'aime ma famille"
+      - "Je manque à ma famille"
+      - "Je vois ma famille"
+    answer: "J'aime ma famille"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 31
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la hisia kwa Kifaransa"
+    tts_text: "Nina furaha"
+    answer: "Je suis heureux"
+    translation: "Nina furaha"
+    xp_reward: 20
+
+  - id: 32
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Ana huzuni"
+    answer: "Elle est triste"
+    translation: "Ana huzuni"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Amekasirika"
+    answer: "Il est en colère"
+    translation: "Amekasirika"
+    xp_reward: 20
+
+  - id: 34
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Wanaogopa"
+    answer: "Ils ont peur"
+    translation: "Wanaogopa"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Nina msisimko kwa ajili ya sherehe"
+    answer: "Je suis excité pour la fête"
+    translation: "Nina msisimko kwa ajili ya sherehe"
+    xp_reward: 22
+
+  - id: 36
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Ninaipenda familia yangu"
+    answer: "J'aime ma famille"
+    translation: "Ninaipenda familia yangu"
+    xp_reward: 22
+
+  - id: 37
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Anajivunia mtoto wake"
+    answer: "Il est fier de son fils"
+    translation: "Anajivunia mtoto wake"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 38
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague hisia inayofaa kwa Kifaransa"
+    tts_text: "Nina furaha"
+    options:
+      - "Triste"
+      - "Heureux"
+      - "En colère"
+    answer: "Heureux"
+    xp_reward: 15
+
+  - id: 39
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague hisia inayofaa kwa Kifaransa"
+    tts_text: "Ana huzuni"
+    options:
+      - "Elle est heureuse"
+      - "Elle est triste"
+      - "Elle est calme"
+    answer: "Elle est triste"
+    xp_reward: 15
+
+  - id: 40
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague hisia inayofaa kwa Kifaransa"
+    tts_text: "Amekasirika"
+    options:
+      - "Il a peur"
+      - "Il est fatigué"
+      - "Il est en colère"
+    answer: "Il est en colère"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague hisia inayofaa kwa Kifaransa"
+    tts_text: "Ametulia"
+    options:
+      - "Elle est calme"
+      - "Elle est confuse"
+      - "Elle est excitée"
+    answer: "Elle est calme"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi inayofaa kwa Kifaransa"
+    tts_text: "Ninaipenda familia yangu"
+    options:
+      - "Je déteste ma famille"
+      - "J'aime ma famille"
+      - "Je vois ma famille"
+    answer: "J'aime ma famille"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 43
+    type: speaking
+    question: "Taja neno la hisia kwa Kifaransa"
+    prompt: "Nina furaha"
+    translation: "Je suis heureux"
+    xp_reward: 15
+
+  - id: 44
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Ana huzuni"
+    translation: "Elle est triste"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Amekasirika"
+    translation: "Il est en colère"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Wanaogopa"
+    translation: "Ils ont peur"
+    xp_reward: 15
+
+  - id: 47
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Nina msisimko kwa ajili ya sherehe"
+    translation: "Je suis excité pour la fête"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Ninaipenda familia yangu"
+    translation: "J'aime ma famille"
+    xp_reward: 18
+
+  - id: 49
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Anajivunia mtoto wake"
+    translation: "Il est fier de son fils"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 50
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Nina furaha'"
+    word_bank: ["Je", "suis", "heureux", "elle", "est", "triste"]
+    correct_answer: ["Je", "suis", "heureux"]
+    xp_reward: 15
+
+  - id: 51
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Ana huzuni'"
+    word_bank: ["Elle", "est", "triste", "je", "suis", "heureux"]
+    correct_answer: ["Elle", "est", "triste"]
+    xp_reward: 15
+
+  - id: 52
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Amekasirika'"
+    word_bank: ["Il", "est", "en", "colère", "elle", "est", "triste"]
+    correct_answer: ["Il", "est", "en", "colère"]
+    xp_reward: 15
+
+  - id: 53
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Wanaogopa'"
+    word_bank: ["Ils", "ont", "peur", "il", "est", "en", "colère"]
+    correct_answer: ["Ils", "ont", "peur"]
+    xp_reward: 15
+
+  - id: 54
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Nina msisimko kwa ajili ya sherehe'"
+    word_bank: ["Je", "suis", "excité", "pour", "la", "fête", "elle", "est", "triste"]
+    correct_answer: ["Je", "suis", "excité", "pour", "la", "fête"]
+    xp_reward: 20
+
+  - id: 55
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Ametulia'"
+    word_bank: ["Elle", "est", "calme", "ils", "ont", "peur"]
+    correct_answer: ["Elle", "est", "calme"]
+    xp_reward: 15
+
+  - id: 56
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Niko peke yangu'"
+    word_bank: ["Je", "me", "sens", "seul", "je", "suis", "heureux"]
+    correct_answer: ["Je", "me", "sens", "seul"]
+    xp_reward: 15
+
+  - id: 57
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Anajivunia mtoto wake'"
+    word_bank: ["Il", "est", "fier", "de", "son", "fils", "elle", "est", "calme"]
+    correct_answer: ["Il", "est", "fier", "de", "son", "fils"]
+    xp_reward: 22
+
+  - id: 58
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Ninaipenda familia yangu'"
+    word_bank: ["J'", "aime", "ma", "famille", "il", "aime", "son", "fils"]
+    correct_answer: ["J'", "aime", "ma", "famille"]
+    xp_reward: 18
+
+  - id: 59
+    type: word_bank
+    question: "Jenga sentensi ya Kifaransa inayomaanisha 'Anachukia uongo'"
+    word_bank: ["Elle", "déteste", "les", "mensonges", "il", "aime", "la", "vérité"]
+    correct_answer: ["Elle", "déteste", "les", "mensonges"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble
+  - id: 60
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Nina furaha'"
+    scrambled_words: ["heureux", "suis", "Je"]
+    correct_sentence: "Je suis heureux"
+    translation: "Nina furaha"
+    xp_reward: 12
+
+  - id: 61
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Ana huzuni'"
+    scrambled_words: ["triste", "est", "Elle"]
+    correct_sentence: "Elle est triste"
+    translation: "Ana huzuni"
+    xp_reward: 12
+
+  - id: 62
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Amekasirika'"
+    scrambled_words: ["en", "colère", "est", "Il"]
+    correct_sentence: "Il est en colère"
+    translation: "Amekasirika"
+    xp_reward: 12
+
+  - id: 63
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Wanaogopa'"
+    scrambled_words: ["peur", "ont", "Ils"]
+    correct_sentence: "Ils ont peur"
+    translation: "Wanaogopa"
+    xp_reward: 12
+
+  - id: 64
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Nina msisimko kwa ajili ya sherehe'"
+    scrambled_words: ["excité", "pour", "la", "fête", "Je", "suis"]
+    correct_sentence: "Je suis excité pour la fête"
+    translation: "Nina msisimko kwa ajili ya sherehe"
+    xp_reward: 18
+
+  - id: 65
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Ametulia'"
+    scrambled_words: ["calme", "est", "Elle"]
+    correct_sentence: "Elle est calme"
+    translation: "Ametulia"
+    xp_reward: 12
+
+  - id: 66
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Niko peke yangu'"
+    scrambled_words: ["seul", "sens", "Je", "me"]
+    correct_sentence: "Je me sens seul"
+    translation: "Niko peke yangu"
+    xp_reward: 12
+
+  - id: 67
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Anajivunia mtoto wake'"
+    scrambled_words: ["fier", "de", "son", "fils", "Il", "est"]
+    correct_sentence: "Il est fier de son fils"
+    translation: "Anajivunia mtoto wake"
+    xp_reward: 20
+
+  - id: 68
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Ninaipenda familia yangu'"
+    scrambled_words: ["ma", "famille", "aime", "J'"]
+    correct_sentence: "J'aime ma famille"
+    translation: "Ninaipenda familia yangu"
+    xp_reward: 18
+
+  - id: 69
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Anachukia uongo'"
+    scrambled_words: ["les", "mensonges", "déteste", "Elle"]
+    correct_sentence: "Elle déteste les mensonges"
+    translation: "Anachukia uongo"
+    xp_reward: 18
+
+  # 8. Fill in the Blank
+  - id: 70
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Je suis ___."
+    options: ["heureux", "triste", "en colère"]
+    correct_answer: "heureux"
+    translation: "Nina furaha"
+    xp_reward: 12
+
+  - id: 71
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Elle est ___."
+    options: ["heureuse", "triste", "en colère"]
+    correct_answer: "triste"
+    translation: "Ana huzuni"
+    xp_reward: 12
+
+  - id: 72
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Il est ___."
+    options: ["heureux", "triste", "en colère"]
+    correct_answer: "en colère"
+    translation: "Amekasirika"
+    xp_reward: 12
+
+  - id: 73
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Ils ont ___."
+    options: ["peur", "calme", "seul"]
+    correct_answer: "peur"
+    translation: "Wanaogopa"
+    xp_reward: 12
+
+  - id: 74
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Je suis excité pour la ___."
+    options: ["fête", "famille", "fils"]
+    correct_answer: "fête"
+    translation: "Nina msisimko kwa ajili ya sherehe"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Elle est ___."
+    options: ["calme", "peur", "seule"]
+    correct_answer: "calme"
+    translation: "Ametulia"
+    xp_reward: 12
+
+  - id: 76
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Je me sens ___."
+    options: ["seul", "heureux", "triste"]
+    correct_answer: "seul"
+    translation: "Niko peke yangu"
+    xp_reward: 12
+
+  - id: 77
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Il est fier de son ___."
+    options: ["fils", "famille", "fête"]
+    correct_answer: "fils"
+    translation: "Anajivunia mtoto wake"
+    xp_reward: 18
+
+  - id: 78
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "J'aime ma ___."
+    options: ["famille", "fils", "fête"]
+    correct_answer: "famille"
+    translation: "Ninaipenda familia yangu"
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Elle déteste les ___."
+    options: ["mensonges", "vérité", "famille"]
+    correct_answer: "mensonges"
+    translation: "Anachukia uongo"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 80
+    type: picture_word
+    question: "Hisia hizi ni zipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?happy"
+    options: ["Heureux", "Triste", "En colère"]
+    correct_answer: "Heureux"
+    xp_reward: 10
+
+  - id: 81
+    type: picture_word
+    question: "Hisia hizi ni zipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?sad"
+    options: ["Heureux", "Triste", "En colère"]
+    correct_answer: "Triste"
+    xp_reward: 10
+
+  - id: 82
+    type: picture_word
+    question: "Hisia hizi ni zipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?angry"
+    options: ["Heureux", "Triste", "En colère"]
+    correct_answer: "En colère"
+    xp_reward: 10
+
+  - id: 83
+    type: picture_word
+    question: "Hisia hizi ni zipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?scared"
+    options: ["Peur", "Calme", "Seul"]
+    correct_answer: "Peur"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "Hisia hizi ni zipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?calm"
+    options: ["Peur", "Calme", "Seul"]
+    correct_answer: "Calme"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "Hisia hizi ni zipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?lonely"
+    options: ["Peur", "Calme", "Seul"]
+    correct_answer: "Seul"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Hisia hizi ni zipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?proud"
+    options: ["Fier", "Haine", "Heureux"]
+    correct_answer: "Fier"
+    xp_reward: 12
+
+  - id: 87
+    type: picture_word
+    question: "Hisia hizi ni zipi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?love"
+    options: ["Amour", "Haine", "Peur"]
+    correct_answer: "Amour"
+    xp_reward: 12
+
+  # 10. Word Matching
+  - id: 88
+    type: matching
+    question: "Linganisha hisia kwa Kifaransa"
+    pairs:
+      - left: "Heureux"
+        right: "Nina furaha"
+      - left: "Triste"
+        right: "Ana huzuni"
+      - left: "En colère"
+        right: "Amekasirika"
+      - left: "Peur"
+        right: "Wanaogopa"
+      - left: "Calme"
+        right: "Ametulia"
+      - left: "Seul"
+        right: "Niko peke yangu"
+      - left: "Fier"
+        right: "Anajivunia"
+      - left: "Amour"
+        right: "Ninaipenda"
+      - left: "Haine"
+        right: "Anachukia"
+    xp_reward: 25
+
+  - id: 89
+    type: matching
+    question: "Linganisha sentensi kwa Kifaransa"
+    pairs:
+      - left: "Je suis heureux"
+        right: "Nina furaha"
+      - left: "Elle est triste"
+        right: "Ana huzuni"
+      - left: "Il est en colère"
+        right: "Amekasirika"
+      - left: "Ils ont peur"
+        right: "Wanaogopa"
+      - left: "Je suis excité pour la fête"
+        right: "Nina msisimko kwa ajili ya sherehe"
+      - left: "Elle est calme"
+        right: "Ametulia"
+      - left: "Je me sens seul"
+        right: "Niko peke yangu"
+      - left: "Il est fier de son fils"
+        right: "Anajivunia mtoto wake"
+      - left: "J'aime ma famille"
+        right: "Ninaipenda familia yangu"
+      - left: "Elle déteste les mensonges"
+        right: "Anachukia uongo"
+    xp_reward: 28
+
+  # 11. Choose Missing Word
+  - id: 90
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Je suis ___."
+    missing_word_position: 3
+    options: ["heureux", "triste", "en colère"]
+    correct_answer: "heureux"
+    translation: "Nina furaha"
+    xp_reward: 12
+
+  - id: 91
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Elle est ___."
+    missing_word_position: 3
+    options: ["heureuse", "triste", "en colère"]
+    correct_answer: "triste"
+    translation: "Ana huzuni"
+    xp_reward: 12
+
+  - id: 92
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Ils ont ___."
+    missing_word_position: 3
+    options: ["peur", "calme", "seul"]
+    correct_answer: "peur"
+    translation: "Wanaogopa"
+    xp_reward: 12
+
+  - id: 93
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Je suis excité pour la ___."
+    missing_word_position: 6
+    options: ["fête", "famille", "fils"]
+    correct_answer: "fête"
+    translation: "Nina msisimko kwa ajili ya sherehe"
+    xp_reward: 15
+
+  - id: 94
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "J'aime ma ___."
+    missing_word_position: 4
+    options: ["famille", "fils", "fête"]
+    correct_answer: "famille"
+    translation: "Ninaipenda familia yangu"
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 95
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Nina furaha. Ana huzuni. Amekasirika."
+    question: "Mimi nina hisia gani?"
+    options: ["Heureux", "Triste", "En colère", "Peur"]
+    correct_answer: "Heureux"
+    xp_reward: 12
+
+  - id: 96
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Nina msisimko kwa ajili ya sherehe. Ninaipenda familia yangu."
+    question: "Nina msisimko kwa ajili ya nini?"
+    options: ["Ma famille", "La fête", "Mon fils", "Les mensonges"]
+    correct_answer: "La fête"
+    xp_reward: 15
+
+  - id: 97
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Anajivunia mtoto wake. Ana huzuni."
+    question: "Anamjivunia nani?"
+    options: ["Sa fille", "Son fils", "Sa femme", "Son ami"]
+    correct_answer: "Son fils"
+    xp_reward: 15
+
+  - id: 98
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Anachukia uongo. Ninaipenda familia yangu."
+    question: "Anachukia nini?"
+    options: ["Sa famille", "La fête", "Les mensonges", "Être seule"]
+    correct_answer: "Les mensonges"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 99
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Nina furaha' means 'I am happy'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 100
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Ana huzuni' means 'He is angry'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 101
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Wanaogopa' means 'They are scared'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 102
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Ninaipenda familia yangu' means 'I love my family'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 103
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Anachukia uongo' means 'She loves lies'."
+    correct_answer: false
+    xp_reward: 12
+
+  # 14. Conversation Exercise
+  - id: 104
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Unaendeleaje?"
+    translation: "How are you?"
+    word_bank: ["Je", "suis", "heureux", "elle", "est", "triste"]
+    correct_response: ["Je", "suis", "heureux"]
+    xp_reward: 15
+
+  - id: 105
+    type: conversation
+    question: "Jibu swali kwa Kifaransa"
+    bot_message: "Unaendeleaje?"
+    translation: "How are you?"
+    options:
+      - "Je suis heureux"
+      - "Elle est triste"
+      - "Il est en colère"
+    correct_response: "Je suis heureux"
+    xp_reward: 12
+
+  - id: 106
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Una msisimko kwa ajili ya nini?"
+    translation: "What are you excited about?"
+    word_bank: ["Je", "suis", "excité", "pour", "la", "fête", "ma", "famille"]
+    correct_response: ["Je", "suis", "excité", "pour", "la", "fête"]
+    xp_reward: 18
+
+  - id: 107
+    type: conversation
+    question: "Jibu swali kwa Kifaransa"
+    bot_message: "Unajisikiaje?"
+    translation: "How are you feeling?"
+    options:
+      - "Je me sens seul"
+      - "Je suis heureux"
+      - "Ils ont peur"
+    correct_response: "Je suis heureux"
+    xp_reward: 12
+
+  # 15. Story Exercise
+  - id: 108
+    type: story
+    title: "Hisia Zangu"
+    story_intro: "Soma hadithi ya hisia. Kisha jenga sentensi kwa Kifaransa."
+    story_segments:
+      - text: "I am happy."
+      - text: "She is sad."
+      - text: "He is angry."
+      - text: "They are scared."
+      - text: "I am excited about the party."
+      - text: "She is calm."
+      - text: "I love my family."
+      - text: "He is proud of his son."
+    exercises:
+      - type: word_bank
+        question: "Jenga 'I am happy' kwa Kifaransa"
+        word_bank: ["Je", "suis", "heureux", "elle", "est", "triste"]
+        correct_answer: ["Je", "suis", "heureux"]
+      - type: word_bank
+        question: "Jenga 'She is sad' kwa Kifaransa"
+        word_bank: ["Elle", "est", "triste", "je", "suis", "heureux"]
+        correct_answer: ["Elle", "est", "triste"]
+      - type: word_bank
+        question: "Jenga 'He is angry' kwa Kifaransa"
+        word_bank: ["Il", "est", "en", "colère", "elle", "est", "triste"]
+        correct_answer: ["Il", "est", "en", "colère"]
+      - type: word_bank
+        question: "Jenga 'They are scared' kwa Kifaransa"
+        word_bank: ["Ils", "ont", "peur", "il", "est", "en", "colère"]
+        correct_answer: ["Ils", "ont", "peur"]
+      - type: word_bank
+        question: "Jenga 'I am excited about the party' kwa Kifaransa"
+        word_bank: ["Je", "suis", "excité", "pour", "la", "fête", "elle", "est", "calme"]
+        correct_answer: ["Je", "suis", "excité", "pour", "la", "fête"]
+      - type: word_bank
+        question: "Jenga 'I love my family' kwa Kifaransa"
+        word_bank: ["J'", "aime", "ma", "famille", "il", "aime", "son", "fils"]
+        correct_answer: ["J'", "aime", "ma", "famille"]
+      - type: word_bank
+        question: "Jenga 'He is proud of his son' kwa Kifaransa"
+        word_bank: ["Il", "est", "fier", "de", "son", "fils", "elle", "est", "calme"]
+        correct_answer: ["Il", "est", "fier", "de", "son", "fils"]
+    xp_reward: 45
+
+  # 16. Pronunciation Check
+  - id: 109
+    type: pronunciation
+    question: "Taja neno la hisia kwa Kifaransa vizuri"
+    prompt: "Nina furaha"
+    translation: "Je suis heureux"
+    xp_reward: 15
+
+  - id: 110
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Ana huzuni"
+    translation: "Elle est triste"
+    xp_reward: 15
+
+  - id: 111
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Amekasirika"
+    translation: "Il est en colère"
+    xp_reward: 15
+
+  - id: 112
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Wanaogopa"
+    translation: "Ils ont peur"
+    xp_reward: 15
+
+  - id: 113
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Nina msisimko kwa ajili ya sherehe"
+    translation: "Je suis excité pour la fête"
+    xp_reward: 18
+
+  - id: 114
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Ninaipenda familia yangu"
+    translation: "J'aime ma famille"
+    xp_reward: 18
+
+  - id: 115
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Anajivunia mtoto wake"
+    translation: "Il est fier de son fils"
+    xp_reward: 20
+
+  # 17. Identify Correct Meaning
+  - id: 116
+    type: identify_meaning
+    question: "'Nina furaha' inamaanisha nini kwa Kifaransa?"
+    context_sentence: "Nina furaha."
+    word: "Nina furaha"
+    options: ["Je suis triste", "Je suis heureux", "Je suis en colère", "J'ai peur"]
+    correct_answer: "Je suis heureux"
+    xp_reward: 15
+
+  - id: 117
+    type: identify_meaning
+    question: "'Ana huzuni' inamaanisha nini kwa Kifaransa?"
+    context_sentence: "Ana huzuni."
+    word: "Ana huzuni"
+    options: ["Il est heureux", "Elle est triste", "Ils sont en colère", "Nous avons peur"]
+    correct_answer: "Elle est triste"
+    xp_reward: 15
+
+  - id: 118
+    type: identify_meaning
+    question: "'Wanaogopa' inamaanisha nini kwa Kifaransa?"
+    context_sentence: "Wanaogopa."
+    word: "Wanaogopa"
+    options: ["J'ai peur", "Una peur", "Wanaogopa", "Tunaogopa"]
+    correct_answer: "Wanaogopa"
+    xp_reward: 15
+
+  - id: 119
+    type: identify_meaning
+    question: "'Ninaipenda' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Ninaipenda familia yangu."
+    word: "Ninaipenda"
+    options: ["Ninachukia", "Ninapenda", "Ninaona", "Nataka"]
+    correct_answer: "Ninapenda"
+    xp_reward: 15
+
+  - id: 120
+    type: identify_meaning
+    question: "'Uongo' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Anachukia uongo."
+    word: "uongo"
+    options: ["ukweli", "uongo", "familia", "sherehe"]
+    correct_answer: "uongo"
+    xp_reward: 18
+
+  # 18. Speed Matching
+  - id: 121
+    type: speed_matching
+    title: "Linganisha kwa Kasi: Hisia"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Heureux"
+        right: "Nina furaha"
+      - left: "Triste"
+        right: "Ana huzuni"
+      - left: "En colère"
+        right: "Amekasirika"
+      - left: "Peur"
+        right: "Wanaogopa"
+      - left: "Calme"
+        right: "Ametulia"
+      - left: "Seul"
+        right: "Niko peke yangu"
+      - left: "Fier"
+        right: "Anajivunia"
+      - left: "Amour"
+        right: "Ninaipenda"
+      - left: "Haine"
+        right: "Anachukia"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 122
+    type: timed_challenge
+    title: "Haraka: Hisia"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Nina furaha"
+        answer: "Heureux"
+      - question: "Ana huzuni"
+        answer: "Triste"
+      - question: "Amekasirika"
+        answer: "En colère"
+      - question: "Wanaogopa"
+        answer: "Peur"
+      - question: "Ametulia"
+        answer: "Calme"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Heureux / Heureuse"
+      back: "Furaha / Nina furaha"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Triste"
+      back: "Huzuni / Ninasikitika"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "En colère"
+      back: "Hasira / Amekasirika"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Effrayé / Peur"
+      back: "Woga / Anaogopa"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Surpris"
+      back: "Mshangao / Ameshangaa"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Excité"
+      back: "Msisimko / Amesisimka"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Calme"
+      back: "Amani / Ametulia"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Confus"
+      back: "Kuchanganyikiwa / Amechanganyikiwa"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Fatigué"
+      back: "Uchovu / Amechoka"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Seul"
+      back: "Upweke / Yuko peke yake"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

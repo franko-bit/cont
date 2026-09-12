@@ -1,0 +1,1060 @@
+lesson:
+ name: "Perhe - Umuryango"
+ description: "Opettele Perhe member names in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Perhe Members ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Kysymys: "Miten sanotaan 'Mother' kinyarwandaksi?"
+ Vastaus: "Mama"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Kysymys: "Miten sanotaan 'Father' kinyarwandaksi?"
+ Vastaus: "Data"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Kysymys: "Miten sanotaan 'Brother' kinyarwandaksi?"
+ Vastaus: "Musaza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Kysymys: "Miten sanotaan 'Sister' kinyarwandaksi?"
+ Vastaus: "Mushiki"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Kysymys: "Miten sanotaan 'Child' kinyarwandaksi?"
+ Vastaus: "Umwana"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Kysymys: "Miten sanotaan 'Grandmother' kinyarwandaksi?"
+ Vastaus: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Kysymys: "Miten sanotaan 'Grandfather' kinyarwandaksi?"
+ Vastaus: "Sogokuru"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Kysymys: "Miten sanotaan 'Husband' kinyarwandaksi?"
+ Vastaus: "Umugabo"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Kysymys: "Miten sanotaan 'Wife' kinyarwandaksi?"
+ Vastaus: "Umugore"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Kysymys: "Miten sanotaan 'Paternal uncle' kinyarwandaksi?"
+ Vastaus: "Datawabo"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Kysymys: "Miten sanotaan 'Maternal uncle' kinyarwandaksi?"
+ Vastaus: "Marume"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Kysymys: "Miten sanotaan 'Paternal aunt' kinyarwandaksi?"
+ Vastaus: "Masenge"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Kysymys: "Miten sanotaan 'Maternal aunt' kinyarwandaksi?"
+ Vastaus: "Nyirarume"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Kysymys: "Miten sanotaan 'Grandchild' kinyarwandaksi?"
+ Vastaus: "Umwuzukuru"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Kysymys: "Miten sanotaan 'Great-grandchild' kinyarwandaksi?"
+ Vastaus: "Umwuzukuruza"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Kysymys: "Miten sanotaan 'Son-in-law / Groom' kinyarwandaksi?"
+ Vastaus: "Umukwe"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Kysymys: "Miten sanotaan 'Father-in-law' kinyarwandaksi?"
+ Vastaus: "Sebukwe"
+ xp_reward: 10
+
+ # Translation - Greetings & Basic Phrases (Safe as fixed expressions)
+ - id: 18
+ type: translation
+ Kysymys: "Miten sanotaan 'Hei, mother!' kinyarwandaksi?"
+ Vastaus: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 19
+ type: translation
+ Kysymys: "Miten sanotaan 'Hei, father!' kinyarwandaksi?"
+ Vastaus: "Muraho, Data!"
+ xp_reward: 12
+
+ - id: 20
+ type: translation
+ Kysymys: "Miten kysyt 'How is the Perhe?' kinyarwandaksi?"
+ Vastaus: "Umuryango umeze ute?"
+ xp_reward: 15
+
+ # Translation - Possession (Simple phrases with "have")
+ - id: 21
+ type: translation
+ Kysymys: "Miten sanotaan 'I have a brother' kinyarwandaksi?"
+ Vastaus: "Mfite Musaza."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Kysymys: "Miten sanotaan 'I have a sister' kinyarwandaksi?"
+ Vastaus: "Mfite Mushiki."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Kysymys: "Miten sanotaan 'My grandfather has a Talo' kinyarwandaksi?"
+ Vastaus: "Sogokuru afite inzu."
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR COMPLEX Lause OR PARAGRAPHS
+ # Instead, we use Lause building, Yhdistä, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 24
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Mama' tässä lauseessa?"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ - "Sister"
+ Vastaus: "Mother"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Data' tässä lauseessa?"
+ options:
+ - "Mother"
+ - "Father"
+ - "Grandfather"
+ - "Uncle"
+ Vastaus: "Father"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Musaza' tässä lauseessa?"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ - "Husband"
+ Vastaus: "Brother"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Mushiki' tässä lauseessa?"
+ options:
+ - "Brother"
+ - "Sister"
+ - "Mother"
+ - "Aunt"
+ Vastaus: "Sister"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Nyogokuru' tässä lauseessa?"
+ options:
+ - "Grandfather"
+ - "Grandmother"
+ - "Aunt"
+ - "Uncle"
+ Vastaus: "Grandmother"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Sogokuru' tässä lauseessa?"
+ options:
+ - "Grandmother"
+ - "Grandfather"
+ - "Father-in-law"
+ - "Uncle"
+ Vastaus: "Grandfather"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Datawabo' tässä lauseessa?"
+ options:
+ - "Maternal uncle"
+ - "Paternal uncle"
+ - "Father-in-law"
+ - "Grandfather"
+ Vastaus: "Paternal uncle"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Marume' tässä lauseessa?"
+ options:
+ - "Paternal uncle"
+ - "Maternal uncle"
+ - "Brother"
+ - "Son-in-law"
+ Vastaus: "Maternal uncle"
+ xp_reward: 15
+
+ # 3. Kuuntele and Type (Dictation) - Safe because audio is provided
+ - id: 32
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the Perhe member"
+ tts_text: "Mama"
+ Vastaus: "Mama"
+ translation: "Mother"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the Perhe member"
+ tts_text: "Data"
+ Vastaus: "Data"
+ translation: "Father"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the Perhe member"
+ tts_text: "Nyogokuru"
+ Vastaus: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Mama ari mu nzu"
+ Vastaus: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 25
+
+ - id: 36
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ tts_text: "Data ari mu kazi"
+ Vastaus: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 25
+
+ - id: 37
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the Kysymys"
+ tts_text: "Umuryango umeze ute"
+ Vastaus: "Umuryango umeze ute"
+ translation: "How is the Perhe?"
+ xp_reward: 25
+
+ # 4. Kuuntele and Valitse
+ - id: 38
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct Perhe member"
+ tts_text: "Mama"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ Vastaus: "Mother"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct Perhe member"
+ tts_text: "Data"
+ options:
+ - "Mother"
+ - "Father"
+ - "Sister"
+ Vastaus: "Father"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct Perhe member"
+ tts_text: "Musaza"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ Vastaus: "Brother"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct phrase"
+ tts_text: "Mama ari mu nzu"
+ options:
+ - "Mother is at home"
+ - "Father is working"
+ - "Brother is playing"
+ Vastaus: "Mother is at home"
+ xp_reward: 20
+
+ # 5. Repeat / Puhu Exercise
+ - id: 42
+ type: Puhu
+ Kysymys: "Say this Perhe member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 43
+ type: Puhu
+ Kysymys: "Say this Perhe member"
+ prompt: "Data"
+ translation: "Father"
+ xp_reward: 15
+
+ - id: 44
+ type: Puhu
+ Kysymys: "Say this Perhe member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 45
+ type: Puhu
+ Kysymys: "Say this Lause"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 46
+ type: Puhu
+ Kysymys: "Say this Lause"
+ prompt: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 47
+ type: Puhu
+ Kysymys: "Say this Kysymys"
+ prompt: "Umuryango umeze ute"
+ translation: "How is the Perhe?"
+ xp_reward: 20
+
+ # 6. Word Bank Lause Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 48
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'Mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 49
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'Father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ xp_reward: 22
+
+ - id: 51
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My sister Lue a book'"
+ word_bank: ["Mushiki", "arasoma", "igitabo", "Musaza", "arakina", "hanze"]
+ correct_answer: ["Mushiki", "arasoma", "igitabo"]
+ xp_reward: 22
+
+ - id: 52
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'I love my grandmother'"
+ word_bank: ["Nkunda", "Nyogokuru", "Sogokuru", "arasaza", "cyane"]
+ correct_answer: ["Nkunda", "Nyogokuru"]
+ xp_reward: 20
+
+ - id: 53
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My grandfather is very old'"
+ word_bank: ["Sogokuru", "arasaza", "cyane", "Nyogokuru", "araduteka"]
+ correct_answer: ["Sogokuru", "arasaza", "cyane"]
+ xp_reward: 22
+
+ - id: 54
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'I have a brother'"
+ word_bank: ["Mfite", "Musaza", "Mushiki", "Umwana"]
+ correct_answer: ["Mfite", "Musaza"]
+ xp_reward: 18
+
+ - id: 55
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My grandfather has a Talo'"
+ word_bank: ["Sogokuru", "afite", "inzu", "Nyogokuru", "araduteka", "ibiryo"]
+ correct_answer: ["Sogokuru", "afite", "inzu"]
+ xp_reward: 20
+
+ - id: 56
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My grandmother cooks Ruoka'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 22
+
+ - id: 57
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My paternal uncle has a Vuohi'"
+ word_bank: ["Datawabo", "afite", "ihene", "Marume", "inka", "afite"]
+ correct_answer: ["Datawabo", "afite", "ihene"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My maternal uncle has a Lehmä'"
+ word_bank: ["Marume", "afite", "inka", "Datawabo", "ihene", "afite"]
+ correct_answer: ["Marume", "afite", "inka"]
+ xp_reward: 22
+
+ - id: 59
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My paternal aunt is kind'"
+ word_bank: ["Masenge", "ni", "mwiza", "Nyirarume", "ni", "mwiza", "cyane"]
+ correct_answer: ["Masenge", "ni", "mwiza"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My maternal aunt is very nice'"
+ word_bank: ["Nyirarume", "ni", "mwiza", "cyane", "Masenge", "ni", "mwiza"]
+ correct_answer: ["Nyirarume", "ni", "mwiza", "cyane"]
+ xp_reward: 22
+
+ - id: 61
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My child is playing'"
+ word_bank: ["Umwana", "arakinira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwana", "arakinira"]
+ xp_reward: 18
+
+ - id: 62
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My grandchild likes to Lue'"
+ word_bank: ["Umwuzukuru", "akunda", "gusoma", "Umwana", "arakinira"]
+ correct_answer: ["Umwuzukuru", "akunda", "gusoma"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My great-grandchild sleeps'"
+ word_bank: ["Umwuzukuruza", "arahunyira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwuzukuruza", "arahunyira"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My son-in-law is helpful'"
+ word_bank: ["Umukwe", "ni", "umufasha", "Sebukwe", "ni", "inyangamugayo"]
+ correct_answer: ["Umukwe", "ni", "umufasha"]
+ xp_reward: 20
+
+ - id: 65
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My father-in-law is wise'"
+ word_bank: ["Sebukwe", "ni", "inyangamugayo", "Umukwe", "ni", "umufasha"]
+ correct_answer: ["Sebukwe", "ni", "inyangamugayo"]
+ xp_reward: 20
+
+ # 7. Lause Scramble - PIECES PROVIDED
+ - id: 66
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["ari", "Mama", "mu nzu"]
+ correct_sentence: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 67
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["ari", "Data", "mu kazi"]
+ correct_sentence: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["arakina", "Musaza", "hanze"]
+ correct_sentence: "Musaza arakina hanze"
+ translation: "My brother plays outside"
+ xp_reward: 22
+
+ - id: 69
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["arasoma", "Mushiki", "igitabo"]
+ correct_sentence: "Mushiki arasoma igitabo"
+ translation: "My sister Lue a book"
+ xp_reward: 22
+
+ - id: 70
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["Nkunda", "Nyogokuru"]
+ correct_sentence: "Nkunda Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["arasaza", "Sogokuru", "cyane"]
+ correct_sentence: "Sogokuru arasaza cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 20
+
+ - id: 72
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["afite", "Sogokuru", "inzu"]
+ correct_sentence: "Sogokuru afite inzu"
+ translation: "My grandfather has a Talo"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["araduteka", "Nyogokuru", "ibiryo"]
+ correct_sentence: "Nyogokuru araduteka ibiryo"
+ translation: "My grandmother cooks Ruoka"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Valitse FROM OPTIONS
+ - id: 74
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Mama ___ mu nzu."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Data ___ mu kazi."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 76
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Musaza ___ hanze."
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ - id: 77
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Mushiki ___ igitabo."
+ options: ["arasoma", "arakina", "ari"]
+ correct_answer: "arasoma"
+ translation: "My sister Lue a book"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Nkunda ___."
+ options: ["Nyogokuru", "Sogokuru", "Data"]
+ correct_answer: "Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Sogokuru arasaza ___."
+ options: ["cyane", "neza", "nziza"]
+ correct_answer: "cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 15
+
+ - id: 80
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Sogokuru ___ inzu."
+ options: ["afite", "ari", "ni"]
+ correct_answer: "afite"
+ translation: "My grandfather has a Talo"
+ xp_reward: 15
+
+ - id: 81
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Nyogokuru araduteka ___."
+ options: ["ibiryo", "amazi", "inyama"]
+ correct_answer: "ibiryo"
+ translation: "My grandmother cooks Ruoka"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 82
+ type: picture_word
+ Kysymys: "Who is this Perhe member?"
+ image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Nyogokuru", "Sogokuru"]
+ correct_answer: "Mama"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ Kysymys: "Who is this Perhe member?"
+ image_url: "https://source.unsplash.com/featured/?fatherhttps://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Musaza", "Mushiki"]
+ correct_answer: "Data"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ Kysymys: "Who is this Perhe member?"
+ image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Nyogokuru", "Sogokuru", "Mama", "Data"]
+ correct_answer: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ Kysymys: "Who is this Perhe member?"
+ image_url: "https://source.unsplash.com/featured/?grandfather"
+ options: ["Sogokuru", "Nyogokuru", "Data", "Marume"]
+ correct_answer: "Sogokuru"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Kysymys: "Who is this Perhe member?"
+ image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Musaza", "Mushiki", "Umwana", "Data"]
+ correct_answer: "Musaza"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Kysymys: "Who is this Perhe member?"
+ image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mushiki", "Musaza", "Mama", "Nyogokuru"]
+ correct_answer: "Mushiki"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Kysymys: "Who is this Perhe member?"
+ image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umwana", "Umwuzukuru", "Musaza", "Mushiki"]
+ correct_answer: "Umwana"
+ xp_reward: 10
+
+ 
+ # 10. Word Yhdistä (Pairing)
+ - id: 90
+ type: Yhdistä
+ Kysymys: "Yhdistä the Perhe members"
+ pairs:
+ - Vasen: "Mother"
+ Oikea: "Mama"
+ - Vasen: "Father"
+ Oikea: "Data"
+ - Vasen: "Brother"
+ Oikea: "Musaza"
+ - Vasen: "Sister"
+ Oikea: "Mushiki"
+ - Vasen: "Child"
+ Oikea: "Umwana"
+ - Vasen: "Grandmother"
+ Oikea: "Nyogokuru"
+ - Vasen: "Grandfather"
+ Oikea: "Sogokuru"
+ - Vasen: "Husband"
+ Oikea: "Umugabo"
+ - Vasen: "Wife"
+ Oikea: "Umugore"
+ xp_reward: 25
+
+ - id: 91
+ type: Yhdistä
+ Kysymys: "Yhdistä the extended Perhe members"
+ pairs:
+ - Vasen: "Paternal uncle"
+ Oikea: "Datawabo"
+ - Vasen: "Maternal uncle"
+ Oikea: "Marume"
+ - Vasen: "Paternal aunt"
+ Oikea: "Masenge"
+ - Vasen: "Maternal aunt"
+ Oikea: "Nyirarume"
+ - Vasen: "Grandchild"
+ Oikea: "Umwuzukuru"
+ - Vasen: "Great-grandchild"
+ Oikea: "Umwuzukuruza"
+ - Vasen: "Son-in-law"
+ Oikea: "Umukwe"
+ - Vasen: "Father-in-law"
+ Oikea: "Sebukwe"
+ xp_reward: 25
+
+ - id: 92
+ type: Yhdistä
+ Kysymys: "Yhdistä the actions with Perhe members"
+ pairs:
+ - Vasen: "is at home"
+ Oikea: "ari mu nzu"
+ - Vasen: "is working"
+ Oikea: "ari mu kazi"
+ - Vasen: "plays outside"
+ Oikea: "arakina hanze"
+ - Vasen: "Lue a book"
+ Oikea: "arasoma igitabo"
+ - Vasen: "cooks Ruoka"
+ Oikea: "araduteka ibiryo"
+ - Vasen: "has a Talo"
+ Oikea: "afite inzu"
+ xp_reward: 25
+
+ # 11. Valitse Missing Word
+ - id: 97
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Mama ___ mu nzu."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 98
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Data ___ mu kazi."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 99
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Musaza ___ hanze."
+ missing_word_position: 2
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ # 12. Lue and Vastaus - Kysymys in English, Vastaus based on Kinyarwanda text
+ - id: 100
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Mama ari mu nzu. Data ari mu kazi."
+ Kysymys: "Where is the mother?"
+ options: ["At home", "At work", "Outside", "At the Markkinat"]
+ correct_answer: "At home"
+ xp_reward: 20
+
+ - id: 101
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+ Kysymys: "Mikä on the sister doing?"
+ options: ["Playing", "Lue a book", "Working", "Cooking"]
+ correct_answer: "Lue a book"
+ xp_reward: 22
+
+ - id: 102
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+ Kysymys: "Mitä tarkoittaa the grandfather have?"
+ options: ["A Lehmä", "A Talo", "A Vuohi", "A book"]
+ correct_answer: "A Talo"
+ xp_reward: 20
+
+ - id: 103
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Datawabo afite ihene. Marume afite inka."
+ Kysymys: "Mitä tarkoittaa the maternal uncle have?"
+ options: ["A Vuohi", "A Lehmä", "A Talo", "A Kana"]
+ correct_answer: "A Lehmä"
+ xp_reward: 22
+
+ # 13. True / False
+ - id: 104
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Mama ni umugore."
+ translation: "Mother is a woman"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 105
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Data ni umugore."
+ translation: "Father is a woman"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 106
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Nyogokuru arasaza cyane."
+ translation: "Grandmother is very old"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 107
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Umwana arakina hanze."
+ translation: "The child plays outside"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 108
+ type: conversation
+ Kysymys: "Respond to the Kysymys by building a Lause"
+ bot_message: "Mama ari he?"
+ translation: "Where is mother?"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "ari", "mu kazi"]
+ correct_response: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 109
+ type: conversation
+ Kysymys: "Respond to the Kysymys"
+ bot_message: "Umuryango umeze ute?"
+ translation: "How is the Perhe?"
+ options:
+ - "Umeze neza"
+ - "Umeze nabi"
+ - "Umeze ute"
+ correct_response: "Umeze neza"
+ xp_reward: 15
+
+ - id: 110
+ type: conversation
+ Kysymys: "Respond to the Kysymys by building a Lause"
+ bot_message: "Data ari he?"
+ translation: "Where is father?"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "ari", "mu nzu"]
+ correct_response: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build Lause from pieces
+ - id: 111
+ type: story
+ title: "My Perhe - Umuryango Wanjye"
+ story_intro: "Lue about the Perhe. Then build the Lause."
+ story_segments:
+ - text: "My mother is at home."
+ image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+ - text: "My father is working."
+ - text: "My brother plays outside."
+ - text: "My sister Lue a book."
+ - text: "My grandmother cooks Ruoka."
+ - text: "My grandfather has a Talo."
+ exercises:
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'My grandmother cooks Ruoka'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 112
+ type: pronunciation
+ Kysymys: "Say this Perhe member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ Kysymys: "Say this Perhe member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ Kysymys: "Say this Lause"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 115
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'Mama' mean in this Lause?"
+ context_sentence: "Mama ari mu nzu."
+ word: "Mama"
+ options: ["father", "mother", "brother", "sister"]
+ correct_answer: "mother"
+ xp_reward: 15
+
+ - id: 116
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'arakina' mean in this Lause?"
+ context_sentence: "Musaza arakina hanze."
+ word: "arakina"
+ options: ["Lue", "plays", "works", "cooks"]
+ correct_answer: "plays"
+ xp_reward: 18
+
+ - id: 117
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'araduteka' mean in this Lause?"
+ context_sentence: "Nyogokuru araduteka ibiryo."
+ word: "araduteka"
+ options: ["cooks", "eats", "has", "loves"]
+ correct_answer: "cooks"
+ xp_reward: 18
+
+ # 18. Speed Yhdistä
+ - id: 118
+ type: speed_Yhdistä
+ title: "Yhdistä Madness: Perhe"
+ time_limit_seconds: 45
+ pairs:
+ - Vasen: "Mother"
+ Oikea: "Mama"
+ - Vasen: "Father"
+ Oikea: "Data"
+ - Vasen: "Brother"
+ Oikea: "Musaza"
+ - Vasen: "Sister"
+ Oikea: "Mushiki"
+ - Vasen: "Grandmother"
+ Oikea: "Nyogokuru"
+ - Vasen: "Grandfather"
+ Oikea: "Sogokuru"
+ - Vasen: "Child"
+ Oikea: "Umwana"
+ - Vasen: "Husband"
+ Oikea: "Umugabo"
+ - Vasen: "Wife"
+ Oikea: "Umugore"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 119
+ type: timed_challenge
+ title: "Lightning Round: Perhe"
+ time_limit_seconds: 30
+ Kysymys_count: 5
+ Kysymys:
+ - Kysymys: "Mother"
+ Vastaus: "Mama"
+ - Kysymys: "Father"
+ Vastaus: "Data"
+ - Kysymys: "Brother"
+ Vastaus: "Musaza"
+ - Kysymys: "Sister"
+ Vastaus: "Mushiki"
+ - Kysymys: "Grandmother"
+ Vastaus: "Nyogokuru"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Kysymys: "Flashcards"
+ Flashcards:
+ - front: "Mama"
+ back: "Mother"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Data"
+ back: "Father"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Musaza"
+ back: "Brother"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Mushiki"
+ back: "Sister"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umwana"
+ back: "Child"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyogokuru"
+ back: "Grandmother"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Sogokuru"
+ back: "Grandfather"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugabo"
+ back: "Husband"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugore"
+ back: "Wife"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Datawabo"
+ back: "Paternal uncle"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

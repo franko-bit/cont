@@ -1,0 +1,1660 @@
+lesson:
+  name: "Business English Foundations"
+  description: "Professional Business English covering greetings, introductions, company roles, workplace vocabulary, etiquette, and small talk"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: PROFESSIONAL GREETINGS (1-15)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-5)
+  - id: 1
+    type: multiple_choice
+    question: "Which greeting is most appropriate for a formal business email to a client you've never met?"
+    options:
+      - "Hey there,"
+      - "Hi guys,"
+      - "Dear Mr. Johnson,"
+      - "Yo,"
+    answer: "Dear Mr. Johnson,"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "Which closing is most professional for a business email?"
+    options:
+      - "Best regards,"
+      - "Later,"
+      - "Cheers,"
+      - "Talk soon,"
+    answer: "Best regards,"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "When answering a business call, which greeting is most professional?"
+    options:
+      - "Yeah, who's this?"
+      - "Hello, this is Sarah from ABC Corp. How may I help you?"
+      - "Hey, what's up?"
+      - "Talk to me."
+    answer: "Hello, this is Sarah from ABC Corp. How may I help you?"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What is the most formal way to address a female recipient when you don't know her marital status?"
+    options:
+      - "Mrs."
+      - "Miss"
+      - "Ms."
+      - "Madam"
+    answer: "Ms."
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "Which greeting is appropriate when emailing a group of colleagues you know well?"
+    options:
+      - "Dear Sirs,"
+      - "To whom it may concern,"
+      - "Hi everyone,"
+      - "Gentlemen,"
+    answer: "Hi everyone,"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (6-10)
+  - id: 6
+    type: fill_blank
+    question: "Complete the professional greeting"
+    text_with_blank: "___ Mr. Johnson, I hope this email finds you well."
+    options: ["Hey", "Dear", "Hi", "Hello there"]
+    correct_answer: "Dear"
+    xp_reward: 15
+
+  - id: 7
+    type: fill_blank
+    question: "Complete the sentence with the professional closing"
+    text_with_blank: "Thank you for your time. ___ regards, Michael Chen"
+    options: ["Best", "Warm", "Kind", "Friendly"]
+    correct_answer: "Best"
+    xp_reward: 15
+
+  - id: 8
+    type: fill_blank
+    question: "Complete the professional phone greeting"
+    text_with_blank: "Good morning, you've reached the office of David Kim. How ___ I help you?"
+    options: ["can", "may", "should", "would"]
+    correct_answer: "may"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the formal email opening"
+    text_with_blank: "I am writing to ___ regarding your job posting."
+    options: ["ask", "question", "inquire", "request"]
+    correct_answer: "inquire"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the polite follow-up"
+    text_with_blank: "I hope you had a ___ weekend."
+    options: ["nice", "good", "pleasant", "wonderful"]
+    correct_answer: "pleasant"
+    xp_reward: 15
+
+  # TRUE / FALSE (11-13)
+  - id: 11
+    type: true_false
+    question: "Is this statement true or false? It is professional to address a senior executive as 'Hey dude' in an email."
+    statement: "It is professional to address a senior executive as 'Hey dude' in an email."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 12
+    type: true_false
+    question: "Is this statement true or false? Using 'Please' and 'Thank you' in business emails shows professionalism."
+    statement: "Using 'Please' and 'Thank you' in business emails shows professionalism."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? Responding to emails within 24-48 hours is considered good business practice."
+    statement: "Responding to emails within 24-48 hours is considered good business practice."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (14-15)
+  - id: 14
+    type: matching
+    question: "Match the greeting with the appropriate situation"
+    pairs:
+      - left: "Dear Sir or Madam,"
+        right: "Formal email to unknown recipient"
+      - left: "Hi Sarah,"
+        right: "Casual email to a colleague you know well"
+      - left: "Good morning, everyone"
+        right: "Team meeting opening"
+      - left: "To the Hiring Manager,"
+        right: "Job application cover letter"
+      - left: "Dear Dr. Williams,"
+        right: "Email to someone with a doctorate degree"
+    xp_reward: 25
+
+  - id: 15
+    type: matching
+    question: "Match the email closing with its formality level"
+    pairs:
+      - left: "Sincerely,"
+        right: "Very formal"
+      - left: "Best regards,"
+        right: "Standard professional"
+      - left: "Warmly,"
+        right: "Friendly but professional"
+      - left: "Thanks,"
+        right: "Informal/casual"
+      - left: "Yours faithfully,"
+        right: "Formal (when name unknown)"
+    xp_reward: 25
+
+  # ============================================
+  # SECTION 2: INTRODUCING YOURSELF (16-30)
+  # ============================================
+
+  # MULTIPLE CHOICE (16-20)
+  - id: 16
+    type: multiple_choice
+    question: "Which is the most professional way to introduce yourself in a meeting?"
+    options:
+      - "Hi, I'm John"
+      - "Hey everyone, it's me, John"
+      - "Good morning, I'm John Smith from the Marketing Department"
+      - "Yo, I'm John"
+    answer: "Good morning, I'm John Smith from the Marketing Department"
+    xp_reward: 15
+
+  - id: 17
+    type: multiple_choice
+    question: "What should you say after someone introduces themselves to you?"
+    options:
+      - "Whatever"
+      - "Nice to meet you"
+      - "I don't care"
+      - "Tell me more"
+    answer: "Nice to meet you"
+    xp_reward: 15
+
+  - id: 18
+    type: multiple_choice
+    question: "Which phrase correctly states your job title?"
+    options:
+      - "I am doing a manager"
+      - "I work like a designer"
+      - "I work as a marketing specialist"
+      - "I make engineer"
+    answer: "I work as a marketing specialist"
+    xp_reward: 15
+
+  - id: 19
+    type: multiple_choice
+    question: "Which introduction includes your role and department?"
+    options:
+      - "I'm Sarah"
+      - "Hello, I'm Sarah from Accounting"
+      - "Hi, I'm Sarah, nice to meet you"
+      - "Hey, I'm Sarah"
+    answer: "Hello, I'm Sarah from Accounting"
+    xp_reward: 15
+
+  - id: 20
+    type: multiple_choice
+    question: "When shaking hands professionally, you should:"
+    options:
+      - "Squeeze as hard as possible"
+      - "Offer a limp hand"
+      - "Make eye contact and offer a firm handshake"
+      - "Avoid eye contact"
+    answer: "Make eye contact and offer a firm handshake"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (21-25)
+  - id: 21
+    type: fill_blank
+    question: "Complete the professional introduction"
+    text_with_blank: "Allow me to ___ myself. My name is David Kim."
+    options: ["present", "introduce", "show", "tell"]
+    correct_answer: "introduce"
+    xp_reward: 15
+
+  - id: 22
+    type: fill_blank
+    question: "Complete the introduction with your role"
+    text_with_blank: "Hello, I'm Jessica. I ___ as a business analyst at TechCorp."
+    options: ["job", "work", "do", "am"]
+    correct_answer: "work"
+    xp_reward: 15
+
+  - id: 23
+    type: fill_blank
+    question: "Complete the response to an introduction"
+    text_with_blank: "It's a ___ to meet you, Mr. Johnson."
+    options: ["pleasure", "happy", "good", "nice"]
+    correct_answer: "pleasure"
+    xp_reward: 15
+
+  - id: 24
+    type: fill_blank
+    question: "Complete the introductory sentence about experience"
+    text_with_blank: "I have five years of ___ in project management."
+    options: ["experience", "work", "job", "career"]
+    correct_answer: "experience"
+    xp_reward: 15
+
+  - id: 25
+    type: fill_blank
+    question: "Complete the phrase about your background"
+    text_with_blank: "My background is ___ finance and accounting."
+    options: ["on", "at", "in", "for"]
+    correct_answer: "in"
+    xp_reward: 15
+
+  # TRUE / FALSE (26-28)
+  - id: 26
+    type: true_false
+    question: "Is this statement true or false? It is professional to interrupt someone while they are introducing themselves."
+    statement: "It is professional to interrupt someone while they are introducing themselves."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 27
+    type: true_false
+    question: "Is this statement true or false? You should always stand when introducing yourself to a senior executive."
+    statement: "You should always stand when introducing yourself to a senior executive."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 28
+    type: true_false
+    question: "Is this statement true or false? Repeating a person's name after they introduce themselves helps you remember it."
+    statement: "Repeating a person's name after they introduce themselves helps you remember it."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (29-30)
+  - id: 29
+    type: matching
+    question: "Match the introduction phrase with its purpose"
+    pairs:
+      - left: "Allow me to introduce myself"
+        right: "Starting a self-introduction"
+      - left: "I'm reaching out because..."
+        right: "Stating the purpose of your email"
+      - left: "I look forward to hearing from you"
+        right: "Professional closing expectation"
+      - left: "Please don't hesitate to contact me"
+        right: "Inviting further communication"
+      - left: "Thank you for your consideration"
+        right: "Polite closing for requests"
+    xp_reward: 25
+
+  - id: 30
+    type: matching
+    question: "Match the introduction situation with the correct phrase"
+    pairs:
+      - left: "First meeting with a client"
+        right: "It's a pleasure to meet you"
+      - left: "Introducing yourself on a conference call"
+        right: "This is John speaking from the New York office"
+      - left: "Meeting a colleague for the second time"
+        right: "Good to see you again"
+      - left: "Introducing a guest speaker"
+        right: "I'd like to introduce our guest, Dr. Smith"
+      - left: "Answering who you are on a call"
+        right: "John Smith from Accounting here"
+    xp_reward: 25
+
+  # ============================================
+  # SECTION 3: COMPANY & JOB TITLES (31-50)
+  # ============================================
+
+  # MULTIPLE CHOICE (31-35)
+  - id: 31
+    type: multiple_choice
+    question: "Who is the highest-ranking executive in a company?"
+    options:
+      - "Manager"
+      - "Director"
+      - "CEO (Chief Executive Officer)"
+      - "Team Lead"
+    answer: "CEO (Chief Executive Officer)"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "What does CFO stand for?"
+    options:
+      - "Chief Food Officer"
+      - "Chief Financial Officer"
+      - "Company Field Operator"
+      - "Central Filing Office"
+    answer: "Chief Financial Officer"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "Which department is responsible for hiring new employees?"
+    options:
+      - "Sales"
+      - "Marketing"
+      - "Human Resources (HR)"
+      - "Finance"
+    answer: "Human Resources (HR)"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "What does COO stand for?"
+    options:
+      - "Chief Operating Officer"
+      - "Company Owner Only"
+      - "Chief Official Officer"
+      - "Corporate Operations Organization"
+    answer: "Chief Operating Officer"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "Which department typically handles customer complaints and support?"
+    options:
+      - "Customer Service"
+      - "Research & Development"
+      - "Legal"
+      - "Operations"
+    answer: "Customer Service"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (36-40)
+  - id: 36
+    type: fill_blank
+    question: "Complete the job title hierarchy"
+    text_with_blank: "The typical hierarchy is: Intern → Associate → ___ → Director → VP"
+    options: ["Assistant", "Manager", "Coordinator", "Specialist"]
+    correct_answer: "Manager"
+    xp_reward: 15
+
+  - id: 37
+    type: fill_blank
+    question: "Complete the sentence about responsibilities"
+    text_with_blank: "As a project manager, I am ___ for delivering the project on time."
+    options: ["accountable", "responsible", "in charge", "liable"]
+    correct_answer: "responsible"
+    xp_reward: 15
+
+  - id: 38
+    type: fill_blank
+    question: "Complete the department name"
+    text_with_blank: "The ___ department handles accounting, budgeting, and financial reporting."
+    options: ["Sales", "Finance", "HR", "IT"]
+    correct_answer: "Finance"
+    xp_reward: 15
+
+  - id: 39
+    type: fill_blank
+    question: "Complete the reporting structure"
+    text_with_blank: "I report directly to the ___ of Sales."
+    options: ["Manager", "Vice President", "Director", "Lead"]
+    correct_answer: "Vice President"
+    xp_reward: 15
+
+  - id: 40
+    type: fill_blank
+    question: "Complete the team description"
+    text_with_blank: "I manage a ___ of eight people."
+    options: ["group", "team", "crew", "bunch"]
+    correct_answer: "team"
+    xp_reward: 15
+
+  # TRUE / FALSE (41-43)
+  - id: 41
+    type: true_false
+    question: "Is this statement true or false? A VP (Vice President) typically outranks a Director."
+    statement: "A VP (Vice President) typically outranks a Director."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 42
+    type: true_false
+    question: "Is this statement true or false? The COO is responsible for day-to-day operations."
+    statement: "The COO (Chief Operating Officer) is responsible for day-to-day operations."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 43
+    type: true_false
+    question: "Is this statement true or false? Interns and entry-level employees report directly to the CEO."
+    statement: "Interns and entry-level employees report directly to the CEO."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (44-46)
+  - id: 44
+    type: matching
+    question: "Match the job title with its abbreviation"
+    pairs:
+      - left: "Chief Executive Officer"
+        right: "CEO"
+      - left: "Chief Financial Officer"
+        right: "CFO"
+      - left: "Chief Operating Officer"
+        right: "COO"
+      - left: "Chief Technology Officer"
+        right: "CTO"
+      - left: "Human Resources"
+        right: "HR"
+    xp_reward: 25
+
+  - id: 45
+    type: matching
+    question: "Match the department with its function"
+    pairs:
+      - left: "Sales"
+        right: "Generates revenue by selling products"
+      - left: "Marketing"
+        right: "Promotes products and builds brand awareness"
+      - left: "Human Resources"
+        right: "Manages hiring, benefits, and employee relations"
+      - left: "Finance"
+        right: "Handles budgets, accounting, and investments"
+      - left: "IT"
+        right: "Manages technology systems and security"
+    xp_reward: 25
+
+  - id: 46
+    type: matching
+    question: "Match the role with the level of seniority"
+    pairs:
+      - left: "Intern"
+        right: "Entry-level / Training"
+      - left: "Senior Analyst"
+        right: "Mid-level / Experienced"
+      - left: "Department Manager"
+        right: "Management"
+      - left: "Regional Director"
+        right: "Senior Management"
+      - left: "Vice President"
+        right: "Executive"
+    xp_reward: 25
+
+  # FLASHCARDS (47-50)
+  - id: 47
+    type: flashcards
+    question: "Flashcards: Executive Job Titles"
+    flashcards:
+      - front: "CEO"
+        back: "Chief Executive Officer - Highest-ranking executive"
+      - front: "CFO"
+        back: "Chief Financial Officer - Manages company finances"
+      - front: "CTO"
+        back: "Chief Technology Officer - Leads technology strategy"
+      - front: "COO"
+        back: "Chief Operating Officer - Manages daily operations"
+      - front: "VP of Sales"
+        back: "Vice President of Sales - Leads the sales department"
+    xp_reward: 30
+
+  - id: 48
+    type: flashcards
+    question: "Flashcards: Company Departments"
+    flashcards:
+      - front: "Human Resources (HR)"
+        back: "Handles hiring, payroll, benefits, and employee issues"
+      - front: "Research & Development (R&D)"
+        back: "Creates new products and improves existing ones"
+      - front: "Customer Service (CS)"
+        back: "Supports customers and resolves complaints"
+      - front: "Legal Department"
+        back: "Handles contracts, compliance, and lawsuits"
+      - front: "Operations"
+        back: "Manages day-to-day business activities"
+    xp_reward: 30
+
+  - id: 49
+    type: flashcards
+    question: "Flashcards: Describing Your Role"
+    flashcards:
+      - front: "I work as a [job title]"
+        back: "Standard way to state your position"
+      - front: "I report to [name/title]"
+        back: "Identifies your direct supervisor"
+      - front: "I manage a team of [number] people"
+        back: "Describes your leadership responsibility"
+      - front: "My role involves [verb + ing]"
+        back: "Describes your daily responsibilities"
+      - front: "I am responsible for [noun]"
+        back: "States your area of accountability"
+    xp_reward: 30
+
+  - id: 50
+    type: flashcards
+    question: "Flashcards: Corporate Hierarchy Terms"
+    flashcards:
+      - front: "C-suite"
+        back: "Top executives including CEO, CFO, COO, CTO"
+      - front: "Middle management"
+        back: "Managers who report to directors and oversee teams"
+      - front: "Direct report"
+        back: "An employee who reports directly to a manager"
+      - front: "Line manager"
+        back: "The immediate supervisor of an employee"
+      - front: "Stakeholder"
+        back: "Anyone with interest in a company's success"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: WORKPLACE VOCABULARY (51-70)
+  # ============================================
+
+  # MULTIPLE CHOICE (51-55)
+  - id: 51
+    type: multiple_choice
+    question: "What is a 'deadline'?"
+    options:
+      - "A line that is no longer alive"
+      - "The final date by which a task must be completed"
+      - "A type of meeting"
+      - "A workplace safety sign"
+    answer: "The final date by which a task must be completed"
+    xp_reward: 15
+
+  - id: 52
+    type: multiple_choice
+    question: "If you 'CC' someone on an email, what does that mean?"
+    options:
+      - "You are sending them a secret message"
+      - "You are copying them so they can see the email"
+      - "You are deleting them from the email"
+      - "You are replying only to them"
+    answer: "You are copying them so they can see the email"
+    xp_reward: 15
+
+  - id: 53
+    type: multiple_choice
+    question: "What does 'ASAP' stand for?"
+    options:
+      - "Always Say A Prayer"
+      - "As Soon As Possible"
+      - "All Sales Are Perfect"
+      - "Ask Sarah About Plans"
+    answer: "As Soon As Possible"
+    xp_reward: 15
+
+  - id: 54
+    type: multiple_choice
+    question: "What does 'FYI' mean in an email?"
+    options:
+      - "For Your Information"
+      - "Find Your Instructions"
+      - "Forward Your Interest"
+      - "Final Year Inspection"
+    answer: "For Your Information"
+    xp_reward: 15
+
+  - id: 55
+    type: multiple_choice
+    question: "What is a 'KPI'?"
+    options:
+      - "Kind Personal Interaction"
+      - "Key Performance Indicator"
+      - "Keep People Informed"
+      - "Knowledge Practice Interview"
+    answer: "Key Performance Indicator"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (56-60)
+  - id: 56
+    type: fill_blank
+    question: "Complete the workplace phrase"
+    text_with_blank: "Please find the report ___."
+    options: ["attached", "enclosed", "included", "added"]
+    correct_answer: "attached"
+    xp_reward: 15
+
+  - id: 57
+    type: fill_blank
+    question: "Complete the professional request"
+    text_with_blank: "Could you please send me an update ___ the project status?"
+    options: ["about", "for", "on", "of"]
+    correct_answer: "on"
+    xp_reward: 15
+
+  - id: 58
+    type: fill_blank
+    question: "Complete the apology"
+    text_with_blank: "I ___ for the delay in responding to your email."
+    options: ["sorry", "apologize", "regret", "excuse"]
+    correct_answer: "apologize"
+    xp_reward: 15
+
+  - id: 59
+    type: fill_blank
+    question: "Complete the meeting phrase"
+    text_with_blank: "Let's ___ a meeting for next Tuesday at 10 AM."
+    options: ["make", "do", "schedule", "set"]
+    correct_answer: "schedule"
+    xp_reward: 15
+
+  - id: 60
+    type: fill_blank
+    question: "Complete the follow-up phrase"
+    text_with_blank: "I am writing to ___ up on our conversation from yesterday."
+    options: ["follow", "check", "look", "go"]
+    correct_answer: "follow"
+    xp_reward: 15
+
+  # TRUE / FALSE (61-63)
+  - id: 61
+    type: true_false
+    question: "Is this statement true or false? Using 'Reply All' is always appropriate and professional."
+    statement: "Using 'Reply All' is always appropriate and professional."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 62
+    type: true_false
+    question: "Is this statement true or false? BCC (Blind Carbon Copy) hides email addresses from other recipients."
+    statement: "BCC (Blind Carbon Copy) hides email addresses from other recipients."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 63
+    type: true_false
+    question: "Is this statement true or false? 'EOD' stands for 'End of Discussion'."
+    statement: "'EOD' stands for 'End of Discussion'."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (64-66)
+  - id: 64
+    type: matching
+    question: "Match the workplace vocabulary with its definition"
+    pairs:
+      - left: "Deadline"
+        right: "The final date to complete a task"
+      - left: "KPI (Key Performance Indicator)"
+        right: "A measurable value showing progress toward goals"
+      - left: "Stakeholder"
+        right: "A person with interest in a project's outcome"
+      - left: "Deliverable"
+        right: "A tangible item produced from a project"
+      - left: "Scope creep"
+        right: "When a project's requirements expand beyond the original plan"
+    xp_reward: 25
+
+  - id: 65
+    type: matching
+    question: "Match the email abbreviation with its meaning"
+    pairs:
+      - left: "CC"
+        right: "Carbon copy - sends a copy to others"
+      - left: "BCC"
+        right: "Blind carbon copy - hides recipients from each other"
+      - left: "FYI"
+        right: "For your information"
+      - left: "ASAP"
+        right: "As soon as possible"
+      - left: "EOD"
+        right: "End of day"
+    xp_reward: 25
+
+  - id: 66
+    type: matching
+    question: "Match the phrase with its meaning"
+    pairs:
+      - left: "Per my previous email"
+        right: "Referring to an earlier message politely"
+      - left: "Let's circle back"
+        right: "Discuss a topic again later"
+      - left: "Touch base"
+        right: "Briefly connect or check in"
+      - left: "Move the needle"
+        right: "Make significant progress"
+      - left: "Bandwidth"
+        right: "Available time or capacity to work"
+    xp_reward: 25
+
+  # FLASHCARDS (67-70)
+  - id: 67
+    type: flashcards
+    question: "Flashcards: Common Workplace Phrases"
+    flashcards:
+      - front: "Please find attached"
+        back: "Used when sending a file with an email"
+      - front: "I look forward to hearing from you"
+        back: "Polite closing expecting a response"
+      - front: "Just a gentle reminder"
+        back: "Polite way to follow up on a request"
+      - front: "Per my previous email"
+        back: "Politely referencing an earlier message"
+      - front: "Let's circle back on this"
+        back: "Discuss a topic again later"
+    xp_reward: 30
+
+  - id: 68
+    type: flashcards
+    question: "Flashcards: Email Abbreviations"
+    flashcards:
+      - front: "ASAP"
+        back: "As Soon As Possible"
+      - front: "FYI"
+        back: "For Your Information"
+      - front: "EOD"
+        back: "End of Day"
+      - front: "COB"
+        back: "Close of Business"
+      - front: "PTO"
+        back: "Paid Time Off / Vacation"
+    xp_reward: 30
+
+  - id: 69
+    type: flashcards
+    question: "Flashcards: Project Vocabulary"
+    flashcards:
+      - front: "Milestone"
+        back: "Key checkpoint in a project timeline"
+      - front: "Action item"
+        back: "A specific task that needs to be completed"
+      - front: "Roadmap"
+        back: "High-level plan showing project direction"
+      - front: "Workflow"
+        back: "Sequence of processes to complete work"
+      - front: "Downtime"
+        back: "Period when systems or work is paused"
+    xp_reward: 30
+
+  - id: 70
+    type: flashcards
+    question: "Flashcards: Meeting Vocabulary"
+    flashcards:
+      - front: "Agenda"
+        back: "List of topics to discuss in a meeting"
+      - front: "Minutes"
+        back: "Written notes of what happened in a meeting"
+      - front: "Action items"
+        back: "Tasks assigned during a meeting"
+      - front: "RSVP"
+        back: "Please respond (to invitation)"
+      - front: "Regrets only"
+        back: "Only respond if you cannot attend"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: BUSINESS ETIQUETTE (71-90)
+  # ============================================
+
+  # MULTIPLE CHOICE (71-75)
+  - id: 71
+    type: multiple_choice
+    question: "What is the appropriate response when a colleague says 'Thank you for your help'?"
+    options:
+      - "No problem"
+      - "You're welcome"
+      - "It was nothing"
+      - "Sure thing"
+    answer: "You're welcome"
+    xp_reward: 15
+
+  - id: 72
+    type: multiple_choice
+    question: "Which is an example of good business etiquette during a meeting?"
+    options:
+      - "Interrupting others while they speak"
+      - "Checking your phone constantly"
+      - "Listening actively and taking notes"
+      - "Arriving 15 minutes late"
+    answer: "Listening actively and taking notes"
+    xp_reward: 15
+
+  - id: 73
+    type: multiple_choice
+    question: "What should you do if you are going to be late for a meeting?"
+    options:
+      - "Don't show up at all"
+      - "Arrive late without saying anything"
+      - "Notify the organizer in advance"
+      - "Send a text message during the meeting"
+    answer: "Notify the organizer in advance"
+    xp_reward: 15
+
+  - id: 74
+    type: multiple_choice
+    question: "During a video conference, your camera should be:"
+    options:
+      - "Pointed at the ceiling"
+      - "At eye level showing your face clearly"
+      - "Showing only the top of your head"
+      - "Turned off at all times"
+    answer: "At eye level showing your face clearly"
+    xp_reward: 15
+
+  - id: 75
+    type: multiple_choice
+    question: "What is the appropriate way to disagree with a colleague in a meeting?"
+    options:
+      - "You're completely wrong"
+      - "That's a stupid idea"
+      - "I see your point, but I have a different perspective"
+      - "No, that won't work"
+    answer: "I see your point, but I have a different perspective"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (76-80)
+  - id: 76
+    type: fill_blank
+    question: "Complete the polite disagreement"
+    text_with_blank: "I see your point, but I have a different ___."
+    options: ["opinion", "perspective", "view", "thought"]
+    correct_answer: "perspective"
+    xp_reward: 15
+
+  - id: 77
+    type: fill_blank
+    question: "Complete the apology for lateness"
+    text_with_blank: "I ___ for being late. There was unexpected traffic."
+    options: ["sorry", "apologize", "regret", "excuse"]
+    correct_answer: "apologize"
+    xp_reward: 15
+
+  - id: 78
+    type: fill_blank
+    question: "Complete the interruption request"
+    text_with_blank: "___ I add something to that point?"
+    options: ["Can", "May", "Should", "Will"]
+    correct_answer: "May"
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Complete the meeting invitation response"
+    text_with_blank: "Thank you for the invitation. I am ___ to attend."
+    options: ["happy", "pleased", "glad", "able"]
+    correct_answer: "pleased"
+    xp_reward: 15
+
+  - id: 80
+    type: fill_blank
+    question: "Complete the request for clarification"
+    text_with_blank: "Could you please ___ on that point?"
+    options: ["elaborate", "explain", "describe", "detail"]
+    correct_answer: "elaborate"
+    xp_reward: 15
+
+  # TRUE / FALSE (81-83)
+  - id: 81
+    type: true_false
+    question: "Is this statement true or false? It is professional to arrive 5-10 minutes early to a scheduled meeting."
+    statement: "It is professional to arrive 5-10 minutes early to a scheduled meeting."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 82
+    type: true_false
+    question: "Is this statement true or false? Following up after an interview shows initiative and professionalism."
+    statement: "Following up after an interview shows initiative and professionalism."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 83
+    type: true_false
+    question: "Is this statement true or false? Putting your phone on silent during a meeting is considered good etiquette."
+    statement: "Putting your phone on silent during a meeting is considered good etiquette."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (84-86)
+  - id: 84
+    type: matching
+    question: "Match the etiquette rule with its description"
+    pairs:
+      - left: "Active listening"
+        right: "Paying full attention and showing you understand"
+      - left: "Punctuality"
+        right: "Being on time for meetings and deadlines"
+      - left: "Professional attire"
+        right: "Dressing appropriately for your workplace"
+      - left: "Email response time"
+        right: "Replying within 24-48 business hours"
+      - left: "Respecting boundaries"
+        right: "Not interrupting colleagues during focused work"
+    xp_reward: 25
+
+  - id: 85
+    type: matching
+    question: "Match the virtual meeting etiquette with the correct behavior"
+    pairs:
+      - left: "Muting yourself"
+        right: "Prevents background noise"
+      - left: "Looking at the camera"
+        right: "Simulates eye contact"
+      - left: "Using the chat function"
+        right: "Share links or questions without interrupting"
+      - left: "Raise hand feature"
+        right: "Signal you want to speak"
+      - left: "Professional background"
+        right: "Avoids distractions"
+    xp_reward: 25
+
+  - id: 86
+    type: matching
+    question: "Match the dining etiquette with the correct behavior"
+    pairs:
+      - left: "Napkin placement"
+        right: "On your lap during the meal"
+      - left: "Business lunch order"
+        right: "Order something easy to eat while talking"
+      - left: "Who pays"
+        right: "The person who invited usually pays"
+      - left: "Talking with food"
+        right: "Finish chewing before speaking"
+      - left: "Cell phone at lunch"
+        right: "Keep it silent and out of sight"
+    xp_reward: 25
+
+  # FLASHCARDS (87-90)
+  - id: 87
+    type: flashcards
+    question: "Flashcards: Business Etiquette Rules"
+    flashcards:
+      - front: "Handshake"
+        back: "Standard professional greeting in many countries"
+      - front: "Making eye contact"
+        back: "Shows confidence and engagement"
+      - front: "Using professional titles"
+        back: "Addressing someone as Mr., Ms., Dr., or by their job title"
+      - front: "Muting yourself on calls"
+        back: "Prevents background noise during virtual meetings"
+      - front: "Sending a meeting agenda in advance"
+        back: "Allows attendees to prepare and shows organization"
+    xp_reward: 30
+
+  - id: 88
+    type: flashcards
+    question: "Flashcards: Professional Communication"
+    flashcards:
+      - front: "Please and thank you"
+        back: "Essential polite phrases in all business communication"
+      - front: "I appreciate your patience"
+        back: "Polite phrase when there has been a delay"
+      - front: "Thank you for understanding"
+        back: "Used when explaining an inconvenience"
+      - front: "I stand corrected"
+        back: "Professional way to admit you were wrong"
+      - front: "That's a fair point"
+        back: "Professional way to acknowledge someone else's argument"
+    xp_reward: 30
+
+  - id: 89
+    type: flashcards
+    question: "Flashcards: Meeting Etiquette"
+    flashcards:
+      - front: "Don't interrupt"
+        back: "Wait for a pause before speaking"
+      - front: "Stay on topic"
+        back: "Avoid going off on tangents"
+      - front: "Take notes"
+        back: "Shows engagement and helps remember action items"
+      - front: "Respect the time limit"
+        back: "End meetings as scheduled"
+      - front: "Put devices away"
+        back: "Shows respect to other attendees"
+    xp_reward: 30
+
+  - id: 90
+    type: flashcards
+    question: "Flashcards: Cross-Cultural Etiquette"
+    flashcards:
+      - front: "Research cultural norms"
+        back: "Different cultures have different business customs"
+      - front: "Use formal titles"
+        back: "Safer to be too formal than too casual"
+      - front: "Be mindful of personal space"
+        back: "Distance preferences vary by culture"
+      - front: "Gift-giving rules"
+        back: "Some cultures expect gifts, others see them as bribery"
+      - front: "Punctuality varies"
+        back: "Some cultures are strict, others more flexible"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: SMALL TALK AT WORK (91-110)
+  # ============================================
+
+  # MULTIPLE CHOICE (91-95)
+  - id: 91
+    type: multiple_choice
+    question: "Which is an appropriate small talk question for a Monday morning?"
+    options:
+      - "How much money do you make?"
+      - "Did you have a nice weekend?"
+      - "Why were you late yesterday?"
+      - "Do you like your boss?"
+    answer: "Did you have a nice weekend?"
+    xp_reward: 15
+
+  - id: 92
+    type: multiple_choice
+    question: "What is a safe topic for small talk with a new colleague?"
+    options:
+      - "Their political views"
+      - "The weather"
+      - "Their salary"
+      - "Their relationship status"
+    answer: "The weather"
+    xp_reward: 15
+
+  - id: 93
+    type: multiple_choice
+    question: "How should you respond when someone asks 'How are you?' in a professional setting?"
+    options:
+      - "Terrible, my life is falling apart"
+      - "Fine, thanks. And you?"
+      - "None of your business"
+      - "Why do you want to know?"
+    answer: "Fine, thanks. And you?"
+    xp_reward: 15
+
+  - id: 94
+    type: multiple_choice
+    question: "Which phrase politely ends a small talk conversation?"
+    options:
+      - "I'm done talking to you"
+      - "Goodbye forever"
+      - "It was nice talking to you. I should get back to work now."
+      - "I have to go, bye"
+    answer: "It was nice talking to you. I should get back to work now."
+    xp_reward: 15
+
+  - id: 95
+    type: multiple_choice
+    question: "What is an appropriate question to ask a colleague returning from vacation?"
+    options:
+      - "Did you gain weight?"
+      - "How was your trip?"
+      - "Why did you come back?"
+      - "How much did it cost?"
+    answer: "How was your trip?"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (96-100)
+  - id: 96
+    type: fill_blank
+    question: "Complete the small talk greeting"
+    text_with_blank: "___ are you doing today?"
+    options: ["How", "What", "Why", "Where"]
+    correct_answer: "How"
+    xp_reward: 15
+
+  - id: 97
+    type: fill_blank
+    question: "Complete the weekend question"
+    text_with_blank: "Did you do anything ___ over the weekend?"
+    options: ["interesting", "boring", "sad", "bad"]
+    correct_answer: "interesting"
+    xp_reward: 15
+
+  - id: 98
+    type: fill_blank
+    question: "Complete the polite end to a conversation"
+    text_with_blank: "It was nice ___ to you."
+    options: ["speaking", "talking", "chatting", "meeting"]
+    correct_answer: "talking"
+    xp_reward: 15
+
+  - id: 99
+    type: fill_blank
+    question: "Complete the holiday greeting"
+    text_with_blank: "I hope you have a wonderful ___ season."
+    options: ["holiday", "happy", "merry", "festive"]
+    correct_answer: "holiday"
+    xp_reward: 15
+
+  - id: 100
+    type: fill_blank
+    question: "Complete the question about a project"
+    text_with_blank: "How is your project ___?"
+    options: ["going", "doing", "working", "running"]
+    correct_answer: "going"
+    xp_reward: 15
+
+  # TRUE / FALSE (101-103)
+  - id: 101
+    type: true_false
+    question: "Is this statement true or false? Asking about someone's salary is appropriate small talk at work."
+    statement: "Asking about someone's salary is appropriate small talk at work."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 102
+    type: true_false
+    question: "Is this statement true or false? Complimenting a colleague's work is a good small talk topic."
+    statement: "Complimenting a colleague's work is a good small talk topic."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 103
+    type: true_false
+    question: "Is this statement true or false? Politics and religion are safe topics for workplace small talk."
+    statement: "Politics and religion are safe topics for workplace small talk."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (104-106)
+  - id: 104
+    type: matching
+    question: "Match the small talk topic with its appropriateness"
+    pairs:
+      - left: "Weekend plans"
+        right: "Appropriate"
+      - left: "Salary"
+        right: "Inappropriate"
+      - left: "Sports"
+        right: "Appropriate"
+      - left: "Romantic relationships"
+        right: "Usually inappropriate"
+      - left: "Hobbies"
+        right: "Appropriate"
+    xp_reward: 25
+
+  - id: 105
+    type: matching
+    question: "Match the small talk question with its situation"
+    pairs:
+      - left: "How was your weekend?"
+        right: "Monday morning"
+      - left: "Any plans for the holiday?"
+        right: "December/January"
+      - left: "How's the project coming along?"
+        right: "Work-related small talk"
+      - left: "Did you see the game last night?"
+        right: "With a sports fan colleague"
+      - left: "How was your vacation?"
+        right: "After someone returns from time off"
+    xp_reward: 25
+
+  - id: 106
+    type: matching
+    question: "Match the small talk response with the question"
+    pairs:
+      - left: "How are you?"
+        right: "I'm doing well, thanks. And you?"
+      - left: "What do you think of the new office?"
+        right: "I really like it. The natural light is great."
+      - left: "Did you have a good weekend?"
+        right: "Yes, it was very relaxing. How about yours?"
+      - left: "How's your day going?"
+        right: "Pretty busy, but good. Thanks for asking."
+      - left: "Any plans for the evening?"
+        right: "Just heading home to relax."
+    xp_reward: 25
+
+  # FLASHCARDS (107-110)
+  - id: 107
+    type: flashcards
+    question: "Flashcards: Small Talk Starters"
+    flashcards:
+      - front: "How was your weekend?"
+        back: "Safe opening for Monday conversations"
+      - front: "What do you think about the new office?"
+        back: "Neutral topic about workplace changes"
+      - front: "I heard you're working on the Johnson account"
+        back: "Shows interest in colleague's work"
+      - front: "How was your vacation?"
+        back: "Appropriate after someone returns from time off"
+      - front: "The weather has been beautiful lately"
+        back: "Universal safe topic for any situation"
+    xp_reward: 30
+
+  - id: 108
+    type: flashcards
+    question: "Flashcards: Small Talk Responses"
+    flashcards:
+      - front: "That sounds fun!"
+        back: "Positive response to someone's weekend plans"
+      - front: "I'm glad to hear that"
+        back: "Response to good news"
+      - front: "Sorry to hear that"
+        back: "Response to disappointing news"
+      - front: "That's interesting"
+        back: "Neutral, polite response"
+      - front: "I see what you mean"
+        back: "Shows understanding"
+    xp_reward: 30
+
+  - id: 109
+    type: flashcards
+    question: "Flashcards: Exiting Small Talk"
+    flashcards:
+      - front: "It was great chatting with you"
+        back: "Polite way to end a conversation"
+      - front: "I should get back to work"
+        back: "Valid reason to end small talk"
+      - front: "Let's continue this another time"
+        back: "Suggests future conversation"
+      - front: "I don't want to keep you"
+        back: "Polite exit acknowledging the other person is busy"
+      - front: "Enjoy the rest of your day"
+        back: "Friendly closing"
+    xp_reward: 30
+
+  - id: 110
+    type: flashcards
+    question: "Flashcards: Topics to Avoid"
+    flashcards:
+      - front: "Salary"
+        back: "Private information - do not ask"
+      - front: "Politics"
+        back: "Can cause division and discomfort"
+      - front: "Religion"
+        back: "Personal belief - not workplace appropriate"
+      - front: "Health problems"
+        back: "Private medical information"
+      - front: "Gossip about colleagues"
+        back: "Unprofessional and harmful"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 7: STORY EXERCISES (111-117)
+  # ============================================
+
+  - id: 111
+    type: story
+    title: "Sarah's First Day"
+    story_intro: "Read about Sarah's first day at a new company. Then answer the questions."
+    story_segments:
+      - text: "Sarah arrived at GlobalTech at 8:45 AM for her first day as a Marketing Coordinator."
+      - text: "She approached the reception desk and said, 'Good morning, I'm Sarah Chen. I have a meeting with David Miller at 9 AM.'"
+      - text: "The receptionist replied, 'Welcome, Ms. Chen. Please take a seat. Mr. Miller will be with you shortly.'"
+      - text: "David arrived and extended his hand. 'It's a pleasure to meet you, Sarah. I've heard great things about your work.'"
+      - text: "Sarah smiled and responded, 'Thank you, Mr. Miller. I'm excited to join the team.'"
+    exercises:
+      - type: multiple_choice
+        question: "What time did Sarah arrive?"
+        options: ["9:00 AM", "8:45 AM", "8:30 AM", "9:15 AM"]
+        correct_answer: "8:45 AM"
+      - type: fill_blank
+        question: "Complete Sarah's response to David"
+        text_with_blank: "Thank you, Mr. Miller. I'm ___ to join the team."
+        options: ["happy", "excited", "glad", "ready"]
+        correct_answer: "excited"
+    xp_reward: 40
+
+  - id: 112
+    type: story
+    title: "The Quarterly Review Meeting"
+    story_intro: "Read about a quarterly review meeting at a company called InnoSoft."
+    story_segments:
+      - text: "At InnoSoft's quarterly review, the CEO, Maria Santos, opened the meeting. 'Thank you all for being here. Let's start with updates from each department.'"
+      - text: "James, the CFO, spoke first. 'Our Q3 revenue grew by 12%. We are on track to meet our annual targets.'"
+      - text: "Lisa from HR added, 'We have hired 15 new employees this quarter, including 5 software engineers and 2 project managers.'"
+      - text: "Finally, David, the VP of Sales, reported: 'The sales team exceeded their quota by 8%. Great work, everyone.'"
+    exercises:
+      - type: multiple_choice
+        question: "Who is the CEO of InnoSoft?"
+        options: ["James", "Lisa", "Maria Santos", "David"]
+        correct_answer: "Maria Santos"
+      - type: true_false
+        question: "Is this statement true or false? James is the CFO and reported revenue growth."
+        statement: "James is the CFO and reported revenue growth."
+        correct_answer: true
+    xp_reward: 40
+
+  - id: 113
+    type: story
+    title: "The Monday Morning"
+    story_intro: "Read about Mark's Monday morning at the office and his interactions with colleagues."
+    story_segments:
+      - text: "Mark arrived at the office at 8:50 AM, ten minutes before the team meeting. He grabbed a coffee and went to the conference room."
+      - text: "His colleague Emma was already there. 'Good morning, Mark. How was your weekend?' she asked. 'It was great, thanks. How about yours?' Mark replied."
+      - text: "The manager, Sarah, began the meeting at 9:00 AM sharp. 'Let's review the Q4 targets. As you know, our deadline for the client presentation is this Friday.'"
+      - text: "After the meeting, Mark sent a follow-up email: 'Per our discussion, I will draft the presentation by Wednesday. Please review it by Thursday EOD.'"
+    exercises:
+      - type: multiple_choice
+        question: "What time was the team meeting?"
+        options: ["8:50 AM", "9:00 AM", "9:10 AM", "8:30 AM"]
+        correct_answer: "9:00 AM"
+      - type: fill_blank
+        question: "Complete Mark's email phrase"
+        text_with_blank: "___ our discussion, I will draft the presentation by Wednesday."
+        options: ["Per", "From", "About", "Regarding"]
+        correct_answer: "Per"
+    xp_reward: 40
+
+  - id: 114
+    type: story
+    title: "The Difficult Client Call"
+    story_intro: "Read about how a team handles a challenging client situation professionally."
+    story_segments:
+      - text: "Jessica, an account manager, received an angry email from a client. The client was unhappy about a delayed delivery."
+      - text: "Instead of responding immediately, Jessica took 30 minutes to calm down and plan her response. She consulted with her supervisor, Michael."
+      - text: "Michael advised, 'Acknowledge their frustration first, then explain what went wrong, and finally, offer a solution.'"
+      - text: "Jessica replied: 'I understand your frustration, and I sincerely apologize for the delay. Here is our plan to resolve this issue by Friday.'"
+    exercises:
+      - type: multiple_choice
+        question: "What did Michael advise Jessica to do FIRST?"
+        options: ["Offer a solution", "Explain what went wrong", "Acknowledge the client's frustration", "Ignore the email"]
+        correct_answer: "Acknowledge the client's frustration"
+      - type: fill_blank
+        question: "Complete Jessica's response"
+        text_with_blank: "I understand your frustration, and I sincerely ___ for the delay."
+        options: ["apologize", "regret", "am sorry", "excuse"]
+        correct_answer: "apologize"
+    xp_reward: 40
+
+  - id: 115
+    type: story
+    title: "The Virtual Team"
+    story_intro: "Read about a remote team working across different time zones."
+    story_segments:
+      - text: "Sarah's team is distributed across New York, London, and Singapore. They use video conferencing for weekly meetings."
+      - text: "Before each meeting, Sarah sends an agenda with the time converted to each time zone. She always starts the meeting by asking everyone to mute their microphones."
+      - text: "'Before we begin, please state your name when you speak,' Sarah reminds everyone. 'This helps us all get to know each other better.'"
+      - text: "When someone interrupts, Sarah politely says, 'May I ask you to hold that thought? Let's finish the current topic first.'"
+    exercises:
+      - type: multiple_choice
+        question: "What does Sarah send before each meeting?"
+        options: ["Lunch orders", "An agenda with time zones", "Performance reviews", "Meeting minutes"]
+        correct_answer: "An agenda with time zones"
+      - type: true_false
+        question: "Is this statement true or false? Sarah asks everyone to mute their microphones at the start."
+        statement: "Sarah asks everyone to mute their microphones at the start."
+        correct_answer: true
+    xp_reward: 40
+
+  - id: 116
+    type: story
+    title: "The Promotion Announcement"
+    story_intro: "Read about a promotion announcement and how colleagues respond professionally."
+    story_segments:
+      - text: "An email went out to the entire company: 'We are pleased to announce that David Chen has been promoted to Senior Project Manager, effective immediately.'"
+      - text: "Colleagues stopped by David's desk throughout the day. 'Congratulations, David! Well deserved,' said his teammate Rachel."
+      - text: "David responded humbly: 'Thank you, Rachel. I really appreciate the support from the whole team. This was a team effort.'"
+      - text: "When asked how he felt, David said, 'I'm honored by the opportunity, and I'm excited to take on new responsibilities. I have big shoes to fill.'"
+    exercises:
+      - type: multiple_choice
+        question: "What was David promoted to?"
+        options: ["Team Lead", "Department Director", "Senior Project Manager", "VP of Operations"]
+        correct_answer: "Senior Project Manager"
+      - type: fill_blank
+        question: "Complete David's response"
+        text_with_blank: "I'm honored by the opportunity, and I'm ___ to take on new responsibilities."
+        options: ["excited", "happy", "ready", "prepared"]
+        correct_answer: "excited"
+    xp_reward: 40
+
+  - id: 117
+    type: story
+    title: "The International Conference"
+    story_intro: "Read about Lisa's experience at an international business conference."
+    story_segments:
+      - text: "Lisa attended her first international conference in Dubai. She prepared by researching local business customs beforehand."
+      - text: "When meeting her host, she used a formal greeting: 'It is an honor to meet you. Thank you for having me.'"
+      - text: "During lunch, a colleague asked about her company. Lisa replied, 'Our company specializes in digital transformation solutions. We've been in the market for 15 years.'"
+      - text: "After the conference, Lisa sent thank-you emails to everyone she met, following up on her promises to share additional information."
+    exercises:
+      - type: multiple_choice
+        question: "What did Lisa do BEFORE the conference?"
+        options: ["Bought new clothes", "Researched local customs", "Practiced her presentation", "Arrived early"]
+        correct_answer: "Researched local customs"
+      - type: fill_blank
+        question: "Complete Lisa's greeting"
+        text_with_blank: "It is an ___ to meet you. Thank you for having me."
+        options: ["honor", "pleasure", "privilege", "joy"]
+        correct_answer: "honor"
+    xp_reward: 40
+
+  # ============================================
+  # SECTION 8: TIMED CHALLENGES (118-130)
+  # ============================================
+
+  - id: 118
+    type: timed_challenge
+    title: "Lightning Round: Professional Greetings"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Most formal way to greet an unknown recipient in a letter"
+        answer: "To whom it may concern"
+      - question: "Standard professional email closing"
+        answer: "Best regards"
+      - question: "Polite phrase to use before asking for something"
+        answer: "Please"
+      - question: "What you say after someone introduces themselves"
+        answer: "Nice to meet you"
+      - question: "Professional way to end a phone call"
+        answer: "Thank you for your time"
+    xp_reward: 35
+
+  - id: 119
+    type: timed_challenge
+    title: "Lightning Round: Email Etiquette"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Greeting for a male named John Smith"
+        answer: "Dear Mr. Smith"
+      - question: "What to write when you don't know the recipient's name"
+        answer: "Dear Sir or Madam"
+      - question: "Polite opening line after the greeting"
+        answer: "I hope this email finds you well"
+      - question: "Professional alternative to 'Thanks'"
+        answer: "Thank you"
+      - question: "What to write when attaching a document"
+        answer: "Please find attached"
+    xp_reward: 35
+
+  - id: 120
+    type: timed_challenge
+    title: "Lightning Round: Executive Titles"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Highest-ranking executive in a company"
+        answer: "CEO"
+      - question: "Executive responsible for finances"
+        answer: "CFO"
+      - question: "Executive responsible for day-to-day operations"
+        answer: "COO"
+      - question: "Executive responsible for technology"
+        answer: "CTO"
+      - question: "Department that handles hiring"
+        answer: "Human Resources"
+    xp_reward: 35
+
+  - id: 121
+    type: timed_challenge
+    title: "Lightning Round: Company Hierarchy"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Person who reports to a manager"
+        answer: "Employee"
+      - question: "Entry-level position often filled by students"
+        answer: "Intern"
+      - question: "Title for someone who leads a team"
+        answer: "Manager"
+      - question: "Title above manager, below VP"
+        answer: "Director"
+      - question: "Department that sells products"
+        answer: "Sales"
+    xp_reward: 35
+
+  - id: 122
+    type: timed_challenge
+    title: "Lightning Round: Email Abbreviations"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Abbreviation meaning 'For your information'"
+        answer: "FYI"
+      - question: "Abbreviation meaning 'As soon as possible'"
+        answer: "ASAP"
+      - question: "Abbreviation for sending a hidden copy of an email"
+        answer: "BCC"
+      - question: "Abbreviation meaning 'End of day'"
+        answer: "EOD"
+      - question: "Abbreviation for 'Please respond' (from French)"
+        answer: "RSVP"
+    xp_reward: 35
+
+  - id: 123
+    type: timed_challenge
+    title: "Lightning Round: Meeting Etiquette"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "What you should do to prevent background noise on a video call"
+        answer: "Mute yourself"
+      - question: "Document sent before a meeting to outline topics"
+        answer: "Agenda"
+      - question: "Action of arriving on time for meetings"
+        answer: "Punctuality"
+      - question: "Polite way to say 'Let's talk about this later'"
+        answer: "Let's circle back"
+      - question: "What you should do when someone else is speaking"
+        answer: "Listen actively"
+    xp_reward: 35
+
+  - id: 124
+    type: timed_challenge
+    title: "Lightning Round: Workplace Phrases"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Phrase used when sending a file with an email"
+        answer: "Please find attached"
+      - question: "Phrase meaning 'briefly connect'"
+        answer: "Touch base"
+      - question: "What 'KPI' stands for"
+        answer: "Key Performance Indicator"
+      - question: "Final date to complete a task"
+        answer: "Deadline"
+      - question: "Written notes from a meeting"
+        answer: "Minutes"
+    xp_reward: 35
+
+  - id: 125
+    type: timed_challenge
+    title: "Lightning Round: Business Etiquette"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Standard professional greeting gesture"
+        answer: "Handshake"
+      - question: "What shows confidence and engagement during conversation"
+        answer: "Eye contact"
+      - question: "How to address someone with a doctorate degree"
+        answer: "Dr."
+      - question: "What to do if you will be late to a meeting"
+        answer: "Notify the organizer"
+      - question: "Professional way to disagree"
+        answer: "I see your point but"
+    xp_reward: 35
+
+  - id: 126
+    type: timed_challenge
+    title: "Lightning Round: Small Talk"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Safe Monday morning small talk question"
+        answer: "How was your weekend"
+      - question: "Universal safe topic for any situation"
+        answer: "Weather"
+      - question: "Response to 'How are you?' in a professional setting"
+        answer: "Fine thanks and you"
+      - question: "Polite way to end a small talk conversation"
+        answer: "Nice talking to you"
+      - question: "Appropriate question for someone returning from vacation"
+        answer: "How was your trip"
+    xp_reward: 35
+
+  - id: 127
+    type: timed_challenge
+    title: "Lightning Round: Job Titles"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Person who manages a team of employees"
+        answer: "Manager"
+      - question: "Title for someone who oversees a department"
+        answer: "Director"
+      - question: "Executive who reports to the CEO"
+        answer: "VP"
+      - question: "Person responsible for a specific project"
+        answer: "Project Manager"
+      - question: "Entry-level professional position"
+        answer: "Associate"
+    xp_reward: 35
+
+  - id: 128
+    type: timed_challenge
+    title: "Lightning Round: Departments"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Department that handles hiring and benefits"
+        answer: "Human Resources"
+      - question: "Department responsible for revenue generation"
+        answer: "Sales"
+      - question: "Department that builds brand awareness"
+        answer: "Marketing"
+      - question: "Department that handles budgets and accounting"
+        answer: "Finance"
+      - question: "Department that manages computer systems"
+        answer: "IT"
+    xp_reward: 35
+
+  - id: 129
+    type: timed_challenge
+    title: "Lightning Round: Professional Responses"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Response to 'Thank you'"
+        answer: "You're welcome"
+      - question: "Phrase to use when you don't understand something"
+        answer: "Could you please clarify"
+      - question: "How to politely interrupt a meeting"
+        answer: "May I add something"
+      - question: "What to say when you make a mistake"
+        answer: "I apologize"
+      - question: "Phrase to use when you need more time"
+        answer: "I'll get back to you"
+    xp_reward: 35
+
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Final Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "Most formal email greeting for unknown recipient"
+        answer: "To whom it may concern"
+      - question: "Standard professional email closing"
+        answer: "Best regards"
+      - question: "Highest-ranking executive"
+        answer: "CEO"
+      - question: "Abbreviation for 'As soon as possible'"
+        answer: "ASAP"
+      - question: "What to do on a video call to avoid background noise"
+        answer: "Mute yourself"
+      - question: "Safe small talk topic"
+        answer: "Weather"
+      - question: "Department that hires employees"
+        answer: "Human Resources"
+      - question: "Phrase used when sending a file"
+        answer: "Please find attached"
+    xp_reward: 50

@@ -1,0 +1,1028 @@
+lesson:
+ name: "Conditionals - Imyitwarire y'Ahazaza"
+ description: "Opettele how to express conditions and possibilities in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Sanasto ONLY (Safe for single words/phrases)
+ # Basic Conditional Words
+ - id: 1
+ type: translation
+ Kysymys: "Miten sanotaan 'If' kinyarwandaksi?"
+ Vastaus: "Niba"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Kysymys: "Miten sanotaan 'When' kinyarwandaksi?"
+ Vastaus: "Iyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Kysymys: "Miten sanotaan 'Unless' kinyarwandaksi?"
+ Vastaus: "Keretse"
+ note: "Also expressed as 'Nti... niba'"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Kysymys: "Miten sanotaan 'Then' kinyarwandaksi?"
+ Vastaus: "Hanyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Kysymys: "Miten sanotaan 'Might' kinyarwandaksi?"
+ Vastaus: "Ashobora"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Kysymys: "Miten sanotaan 'Will' kinyarwandaksi?"
+ Vastaus: "Azakora"
+ note: "Also 'Azaba' depending on context"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Kysymys: "Miten sanotaan 'Would' kinyarwandaksi?"
+ Vastaus: "Byaba"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Kysymys: "Miten sanotaan 'Could' kinyarwandaksi?"
+ Vastaus: "Bashobora"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Kysymys: "Miten sanotaan 'Should' kinyarwandaksi?"
+ Vastaus: "Bikwiye"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Kysymys: "Miten sanotaan 'Can' kinyarwandaksi?"
+ Vastaus: "Ashobora"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Kysymys: "Miten sanotaan 'Impossible' kinyarwandaksi?"
+ Vastaus: "Ntibishoboka"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Kysymys: "Miten sanotaan 'Possible' kinyarwandaksi?"
+ Vastaus: "Birashoboka"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Kysymys: "Miten sanotaan 'Before' kinyarwandaksi?"
+ Vastaus: "Mbere y'uko"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Kysymys: "Miten sanotaan 'After' kinyarwandaksi?"
+ Vastaus: "Nyuma y'uko"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Kysymys: "Miten sanotaan 'Always' kinyarwandaksi?"
+ Vastaus: "Buri gihe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Kysymys: "Miten sanotaan 'Never' kinyarwandaksi?"
+ Vastaus: "Nta na rimwe"
+ xp_reward: 10
+
+ # Translation - Common Conditional Phrases
+ - id: 17
+ type: translation
+ Kysymys: "Miten sanotaan 'If it rains, I will stay home' kinyarwandaksi?"
+ Vastaus: "Niba imvura iguye, nzaguma mu rugo."
+ xp_reward: 20
+
+ - id: 18
+ type: translation
+ Kysymys: "Miten sanotaan 'If I go to Kigali, I will visit my friend' kinyarwandaksi?"
+ Vastaus: "Niba ngiye i Kigali, nzasura inshuti yanjye."
+ xp_reward: 20
+
+ - id: 19
+ type: translation
+ Kysymys: "Miten sanotaan 'If you study, you will succeed' kinyarwandaksi?"
+ Vastaus: "Niba wiga, uzatsinda."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ Kysymys: "Miten sanotaan 'If he comes, we will start the meeting' kinyarwandaksi?"
+ Vastaus: "Niba aje, tuzatangira inama."
+ xp_reward: 20
+
+ - id: 21
+ type: translation
+ Kysymys: "Miten sanotaan 'Unless you hurry, you will miss the bus' kinyarwandaksi?"
+ Vastaus: "Ntiwihutira, uzacika bisi."
+ xp_reward: 20
+
+ - id: 22
+ type: translation
+ Kysymys: "Miten sanotaan 'If I had money, I would buy a car' kinyarwandaksi?"
+ Vastaus: "Niba nari mfite amafaranga, nari kugura imodoka."
+ xp_reward: 22
+
+ - id: 23
+ type: translation
+ Kysymys: "Miten sanotaan 'If she were here, she could help' kinyarwandaksi?"
+ Vastaus: "Iyo yari hano, yashoboraga gufasha."
+ xp_reward: 22
+
+ - id: 24
+ type: translation
+ Kysymys: "Miten sanotaan 'I would Matkat if I had more time' kinyarwandaksi?"
+ Vastaus: "Nari gutembera iyo nari mfite igihe kinini."
+ xp_reward: 22
+
+ - id: 25
+ type: translation
+ Kysymys: "Miten sanotaan 'You should eat before leaving' kinyarwandaksi?"
+ Vastaus: "Bikwiye ko urya mbere yo kugenda."
+ xp_reward: 20
+
+ - id: 26
+ type: translation
+ Kysymys: "Miten sanotaan 'If it is possible, I will come Huomenna' kinyarwandaksi?"
+ Vastaus: "Niba bishoboka, nzaza ejo."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Niba' tässä lauseessa?"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ - "After"
+ Vastaus: "If"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Iyo' tässä lauseessa?"
+ options:
+ - "If"
+ - "When"
+ - "Then"
+ - "Before"
+ Vastaus: "When"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Hanyuma' tässä lauseessa?"
+ options:
+ - "Before"
+ - "After"
+ - "Then"
+ - "When"
+ Vastaus: "Then"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Birashoboka' tässä lauseessa?"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ - "Never"
+ Vastaus: "Possible"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Ntibishoboka' tässä lauseessa?"
+ options:
+ - "Possible"
+ - "Impossible"
+ - "Always"
+ - "Never"
+ Vastaus: "Impossible"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Buri gihe' tässä lauseessa?"
+ options:
+ - "Never"
+ - "Always"
+ - "Sometimes"
+ - "Often"
+ Vastaus: "Always"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'Nta na rimwe' tässä lauseessa?"
+ options:
+ - "Always"
+ - "Sometimes"
+ - "Never"
+ - "Often"
+ Vastaus: "Never"
+ xp_reward: 15
+
+ # 3. Kuuntele and Type (Dictation)
+ - id: 34
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the word"
+ audio: "Niba"
+ Vastaus: "Niba"
+ translation: "If"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the word"
+ audio: "Iyo"
+ Vastaus: "Iyo"
+ translation: "When"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the word"
+ audio: "Birashoboka"
+ Vastaus: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ audio: "Niba imvura iguye nzaguma mu rugo"
+ Vastaus: "Niba imvura iguye nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ audio: "Niba wiga uzatsinda"
+ Vastaus: "Niba wiga uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 22
+
+ - id: 39
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the phrase"
+ audio: "Niba bishoboka nzaza ejo"
+ Vastaus: "Niba bishoboka nzaza ejo"
+ translation: "If it is possible, I will come Huomenna"
+ xp_reward: 22
+
+ # 4. Kuuntele and Valitse
+ - id: 40
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct word"
+ audio: "Niba"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ Vastaus: "If"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct word"
+ audio: "Birashoboka"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ Vastaus: "Possible"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct phrase"
+ audio: "Niba wiga, uzatsinda"
+ options:
+ - "If you study, you will succeed"
+ - "If it rains, I will stay home"
+ - "If it is possible, I will come"
+ Vastaus: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 43
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct phrase"
+ audio: "Niba bishoboka, nzaza ejo"
+ options:
+ - "If it rains, I will stay home"
+ - "If it is possible, I will come Huomenna"
+ - "If you study, you will succeed"
+ Vastaus: "If it is possible, I will come Huomenna"
+ xp_reward: 18
+
+ # 5. Repeat / Puhu Exercise
+ - id: 44
+ type: Puhu
+ Kysymys: "Say this word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 45
+ type: Puhu
+ Kysymys: "Say this word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 46
+ type: Puhu
+ Kysymys: "Say this phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 20
+
+ - id: 47
+ type: Puhu
+ Kysymys: "Say this phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 48
+ type: Puhu
+ Kysymys: "Say this phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will come Huomenna"
+ xp_reward: 18
+
+ # 6. Word Bank Lause Building - PIECES PROVIDED
+ - id: 49
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo", "nzaza"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ xp_reward: 22
+
+ - id: 50
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'If I go to Kigali, I will visit my friend'"
+ word_bank: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ correct_answer: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ xp_reward: 25
+
+ - id: 51
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira", "inama"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'If he comes, we will start the meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga", "uzatsinda"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ xp_reward: 22
+
+ - id: 53
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'If I had money, I would buy a car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ xp_reward: 28
+
+ - id: 54
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'If she were here, she could help'"
+ word_bank: ["Iyo", "yari", "hano", "yashoboraga", "gufasha", "aje"]
+ correct_answer: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ xp_reward: 25
+
+ - id: 55
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'You should eat before leaving'"
+ word_bank: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda", "nyuma"]
+ correct_answer: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ xp_reward: 22
+
+ - id: 56
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'If it is possible, I will come Huomenna'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura", "iguye"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 18
+
+ # 7. Lause Scramble - PIECES PROVIDED
+ - id: 57
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Lause"
+ scrambled_words: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ translation: "If it rains, I will stay home."
+ xp_reward: 22
+
+ - id: 58
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Lause"
+ scrambled_words: ["Niba", "wiga", "uzatsinda"]
+ correct_sentence: "Niba wiga, uzatsinda."
+ translation: "If you study, you will succeed."
+ xp_reward: 18
+
+ - id: 59
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Lause"
+ scrambled_words: ["Niba", "aje", "tuzatangira", "inama"]
+ correct_sentence: "Niba aje, tuzatangira inama."
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 22
+
+ - id: 60
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Lause"
+ scrambled_words: ["Ntiwihutira", "uzacika", "bisi"]
+ correct_sentence: "Ntiwihutira, uzacika bisi."
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 20
+
+ - id: 61
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Lause"
+ scrambled_words: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ correct_sentence: "Iyo yari hano, yashoboraga gufasha."
+ translation: "If she were here, she could help."
+ xp_reward: 25
+
+ - id: 62
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Lause"
+ scrambled_words: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ correct_sentence: "Bikwiye ko urya mbere yo kugenda."
+ translation: "You should eat before leaving."
+ xp_reward: 22
+
+ - id: 63
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Lause"
+ scrambled_words: ["Niba", "bishoboka", "nzaza", "ejo"]
+ correct_sentence: "Niba bishoboka, nzaza ejo."
+ translation: "If it is possible, I will come Huomenna."
+ xp_reward: 18
+
+ # 8. Fill in the Blank - Valitse FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Kysymys: "Complete the Lause"
+ text_with_blank: "___ imvura iguye, nzaguma mu rugo."
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Kysymys: "Complete the Lause"
+ text_with_blank: "Niba wiga, ___."
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Kysymys: "Complete the Lause"
+ text_with_blank: "Niba aje, tuzatangira ___."
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 18
+
+ - id: 67
+ type: fill_blank
+ Kysymys: "Complete the Lause"
+ text_with_blank: "Ntiwihutira, ___ bisi."
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 18
+
+ - id: 68
+ type: fill_blank
+ Kysymys: "Complete the Lause"
+ text_with_blank: "Iyo yari hano, yashoboraga ___."
+ options: ["gufasha", "kwiga", "kurya"]
+ correct_answer: "gufasha"
+ translation: "If she were here, she could help."
+ xp_reward: 18
+
+ - id: 69
+ type: fill_blank
+ Kysymys: "Complete the Lause"
+ text_with_blank: "Bikwiye ko urya ___ yo kugenda."
+ options: ["mbere", "nyuma", "hanyuma"]
+ correct_answer: "mbere"
+ translation: "You should eat before leaving."
+ xp_reward: 18
+
+ - id: 70
+ type: fill_blank
+ Kysymys: "Complete the Lause"
+ text_with_blank: "Niba bishoboka, nzaza ___."
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will come Huomenna."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 71
+ type: picture_word
+ Kysymys: "Mitä tarkoittaa this image represent?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Izuba", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Kysymys: "Mitä tarkoittaa this image represent?"
+ image_url: "https://source.unsplash.com/featured/?studying"
+ options: ["Kwiga", "Gukora", "Kurya"]
+ correct_answer: "Kwiga"
+ xp_reward: 10
+
+ - id: 73
+ type: picture_word
+ Kysymys: "Mitä tarkoittaa this image represent?"
+ image_url: "https://source.unsplash.com/featured/?money"
+ options: ["Amafaranga", "Igitabo", "Inzu"]
+ correct_answer: "Amafaranga"
+ xp_reward: 10
+
+ - id: 74
+ type: picture_word
+ Kysymys: "Mitä tarkoittaa this image represent?"
+ image_url: "https://source.unsplash.com/featured/?car"
+ options: ["Imodoka", "Bisi", "Igare"]
+ correct_answer: "Imodoka"
+ xp_reward: 10
+
+ - id: 75
+ type: picture_word
+ Kysymys: "Mitä tarkoittaa this image represent?"
+ image_url: "https://source.unsplash.com/featured/?helping"
+ options: ["Gufasha", "Kurira", "Guseka"]
+ correct_answer: "Gufasha"
+ xp_reward: 10
+
+ - id: 76
+ type: picture_word
+ Kysymys: "Mitä tarkoittaa this image represent?"
+ image_url: "https://source.unsplash.com/featured/?bus"
+ options: ["Bisi", "Imodoka", "Indege"]
+ correct_answer: "Bisi"
+ xp_reward: 10
+
+ # 10. Word Yhdistä (Pairing)
+ - id: 77
+ type: Yhdistä
+ Kysymys: "Yhdistä the conditional words"
+ pairs:
+ - Vasen: "If"
+ Oikea: "Niba"
+ - Vasen: "When"
+ Oikea: "Iyo"
+ - Vasen: "Then"
+ Oikea: "Hanyuma"
+ - Vasen: "Before"
+ Oikea: "Mbere y'uko"
+ - Vasen: "After"
+ Oikea: "Nyuma y'uko"
+ - Vasen: "Always"
+ Oikea: "Buri gihe"
+ - Vasen: "Never"
+ Oikea: "Nta na rimwe"
+ - Vasen: "Possible"
+ Oikea: "Birashoboka"
+ - Vasen: "Impossible"
+ Oikea: "Ntibishoboka"
+ xp_reward: 25
+
+ - id: 78
+ type: Yhdistä
+ Kysymys: "Yhdistä the modal verbs"
+ pairs:
+ - Vasen: "Might"
+ Oikea: "Ashobora"
+ - Vasen: "Will"
+ Oikea: "Azakora"
+ - Vasen: "Would"
+ Oikea: "Byaba"
+ - Vasen: "Could"
+ Oikea: "Bashobora"
+ - Vasen: "Should"
+ Oikea: "Bikwiye"
+ - Vasen: "Can"
+ Oikea: "Ashobora"
+ xp_reward: 20
+
+ - id: 79
+ type: Yhdistä
+ Kysymys: "Yhdistä the Lause halves"
+ pairs:
+ - Vasen: "Niba imvura iguye"
+ Oikea: "nzaguma mu rugo"
+ - Vasen: "Niba wiga"
+ Oikea: "uzatsinda"
+ - Vasen: "Niba aje"
+ Oikea: "tuzatangira inama"
+ - Vasen: "Niba bishoboka"
+ Oikea: "nzaza ejo"
+ - Vasen: "Niba ngiye i Kigali"
+ Oikea: "nzasura inshuti yanjye"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Valitse Missing Word
+ - id: 80
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "___ imvura iguye, nzaguma mu rugo."
+ missing_word_position: 1
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Niba wiga, ___."
+ missing_word_position: 3
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Niba aje, tuzatangira ___."
+ missing_word_position: 4
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 18
+
+ - id: 83
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Ntiwihutira, ___ bisi."
+ missing_word_position: 2
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 18
+
+ - id: 84
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Niba bishoboka, nzaza ___."
+ missing_word_position: 3
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will come Huomenna."
+ xp_reward: 15
+
+ # 13. Lue and Vastaus - Kysymys based on text
+ - id: 85
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Niba imvura iguye, nzaguma mu rugo."
+ Kysymys: "What will happen if it rains?"
+ options: ["I will go out", "I will stay home", "I will go to Koulu", "I will work"]
+ correct_answer: "I will stay home"
+ xp_reward: 15
+
+ - id: 86
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Niba wiga, uzatsinda."
+ Kysymys: "What will happen if you study?"
+ options: ["You will fail", "You will succeed", "You will play", "You will sleep"]
+ correct_answer: "You will succeed"
+ xp_reward: 15
+
+ - id: 87
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Niba aje, tuzatangira inama."
+ Kysymys: "When will they start the meeting?"
+ options: ["If he comes", "If it rains", "If she studies", "If they work"]
+ correct_answer: "If he comes"
+ xp_reward: 18
+
+ - id: 88
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Niba nari mfite amafaranga, nari kugura imodoka."
+ Kysymys: "What would I buy if I had money?"
+ options: ["A Talo", "A car", "Ruoka", "Clothes"]
+ correct_answer: "A car"
+ xp_reward: 18
+
+ - id: 89
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Niba bishoboka, nzaza ejo."
+ Kysymys: "When will I come if it is possible?"
+ options: ["Today", "Huomenna", "Next week", "Never"]
+ correct_answer: "Huomenna"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 90
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Niba means 'when'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 91
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Birashoboka means 'possible'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 92
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Niba wiga, uzatsinda means 'If you study, you will succeed'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 93
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Ntiwihutira, uzacika bisi means 'If you hurry, you will catch the bus'."
+ correct_answer: false
+ xp_reward: 15
+
+ - id: 94
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Buri gihe means 'never'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 95
+ type: conversation
+ Kysymys: "Respond to the Kysymys by building a Lause"
+ bot_message: "Uzakora iki niba imvura iguye?"
+ translation: "What will you do if it rains?"
+ word_bank: ["Nzaguma", "mu rugo", "nzajya", "ku ishuri", "nzakora"]
+ correct_response: ["Nzaguma", "mu rugo"]
+ xp_reward: 18
+
+ - id: 96
+ type: conversation
+ Kysymys: "Respond to the Kysymys"
+ bot_message: "Niba wiga, uzatsinda?"
+ translation: "If you study, will you succeed?"
+ options:
+ - "Yego, nzatsinda"
+ - "Oya, sinzatsinda"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzatsinda"
+ xp_reward: 15
+
+ - id: 97
+ type: conversation
+ Kysymys: "Respond to the Kysymys by building a Lause"
+ bot_message: "Uzakora iki niba ufite amafaranga?"
+ translation: "What will you do if you have money?"
+ word_bank: ["Nzakora", "nzabona", "imodoka", "nzaguza", "inzu"]
+ correct_response: ["Nzakora", "nzabona", "imodoka"]
+ xp_reward: 20
+
+ - id: 98
+ type: conversation
+ Kysymys: "Respond to the Kysymys"
+ bot_message: "Niba bishoboka, uzaza ejo?"
+ translation: "If it is possible, will you come Huomenna?"
+ options:
+ - "Yego, nzaza ejo"
+ - "Oya, sinzaza"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzaza ejo"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Lause from pieces
+ - id: 99
+ type: story
+ title: "Plans and Conditions - Imigambi n'Imyitwarire"
+ story_intro: "Lue about different plans and conditions. Then build the Lause."
+ story_segments:
+ - text: "If it rains, I will stay home."
+ - text: "If you study, you will succeed."
+ - text: "If he comes, we will start the meeting."
+ - text: "If I had money, I would buy a car."
+ - text: "If it is possible, I will come Huomenna."
+ exercises:
+ - type: word_bank
+ Kysymys: "Build 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ - type: word_bank
+ Kysymys: "Build 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ - type: word_bank
+ Kysymys: "Build 'If he comes, we will start the meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ - type: word_bank
+ Kysymys: "Build 'If I had money, I would buy a car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ - type: word_bank
+ Kysymys: "Build 'If it is possible, I will come Huomenna'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 100
+ type: pronunciation
+ Kysymys: "Say this word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 101
+ type: pronunciation
+ Kysymys: "Say this word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 102
+ type: pronunciation
+ Kysymys: "Say this phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 22
+
+ - id: 103
+ type: pronunciation
+ Kysymys: "Say this phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 104
+ type: pronunciation
+ Kysymys: "Say this phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will come Huomenna"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 105
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'Niba' mean in this Lause?"
+ context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ word: "Niba"
+ options: ["When", "If", "Then", "After"]
+ correct_answer: "If"
+ xp_reward: 15
+
+ - id: 106
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'uzatsinda' mean in this Lause?"
+ context_sentence: "Niba wiga, uzatsinda."
+ word: "uzatsinda"
+ options: ["you will fail", "you will succeed", "you will study", "you will work"]
+ correct_answer: "you will succeed"
+ xp_reward: 15
+
+ - id: 107
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'tuzatangira' mean in this Lause?"
+ context_sentence: "Niba aje, tuzatangira inama."
+ word: "tuzatangira"
+ options: ["we will finish", "we will start", "we will attend", "we will leave"]
+ correct_answer: "we will start"
+ xp_reward: 15
+
+ - id: 108
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'bishoboka' mean in this Lause?"
+ context_sentence: "Niba bishoboka, nzaza ejo."
+ word: "bishoboka"
+ options: ["it is possible", "it is impossible", "it is good", "it is bad"]
+ correct_answer: "it is possible"
+ xp_reward: 15
+
+ # 19. Speed Yhdistä
+ - id: 109
+ type: speed_Yhdistä
+ title: "Yhdistä Madness: Conditionals"
+ time_limit_seconds: 45
+ pairs:
+ - Vasen: "If"
+ Oikea: "Niba"
+ - Vasen: "When"
+ Oikea: "Iyo"
+ - Vasen: "Then"
+ Oikea: "Hanyuma"
+ - Vasen: "Possible"
+ Oikea: "Birashoboka"
+ - Vasen: "Impossible"
+ Oikea: "Ntibishoboka"
+ - Vasen: "Always"
+ Oikea: "Buri gihe"
+ - Vasen: "Never"
+ Oikea: "Nta na rimwe"
+ - Vasen: "Before"
+ Oikea: "Mbere y'uko"
+ - Vasen: "After"
+ Oikea: "Nyuma y'uko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 110
+ type: timed_challenge
+ title: "Lightning Round: Conditionals"
+ time_limit_seconds: 30
+ Kysymys_count: 5
+ Kysymys:
+ - Kysymys: "If"
+ Vastaus: "Niba"
+ - Kysymys: "When"
+ Vastaus: "Iyo"
+ - Kysymys: "Possible"
+ Vastaus: "Birashoboka"
+ - Kysymys: "Always"
+ Vastaus: "Buri gihe"
+ - Kysymys: "Never"
+ Vastaus: "Nta na rimwe"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Kysymys: "Flashcards"
+ Flashcards:
+ - front: "Niba"
+ back: "If"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iyo"
+ back: "When"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Keretse"
+ back: "Unless"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Hanyuma"
+ back: "Then"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Might"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Azakora"
+ back: "Will"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Byaba"
+ back: "Would"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Bashobora"
+ back: "Could"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Bikwiye"
+ back: "Should"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Can"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

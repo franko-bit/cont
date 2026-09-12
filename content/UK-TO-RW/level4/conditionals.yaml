@@ -1,0 +1,1028 @@
+lesson:
+ name: "Conditionals - Imyitwarire y'Ahazaza"
+ description: "Вчіть how to express conditions and possibilities in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Словниковий запас ONLY (Safe for single words/phrases)
+ # Basic Conditional Words
+ - id: 1
+ type: translation
+ Питання: "Як сказати 'If' кіньяруанда?"
+ Відповідь: "Niba"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Питання: "Як сказати 'When' кіньяруанда?"
+ Відповідь: "Iyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Питання: "Як сказати 'Unless' кіньяруанда?"
+ Відповідь: "Keretse"
+ note: "Also expressed as 'Nti... niba'"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Питання: "Як сказати 'Then' кіньяруанда?"
+ Відповідь: "Hanyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Питання: "Як сказати 'Might' кіньяруанда?"
+ Відповідь: "Ashobora"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Питання: "Як сказати 'Will' кіньяруанда?"
+ Відповідь: "Azakora"
+ note: "Also 'Azaba' depending on context"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Питання: "Як сказати 'Would' кіньяруанда?"
+ Відповідь: "Byaba"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Питання: "Як сказати 'Could' кіньяруанда?"
+ Відповідь: "Bashobora"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Питання: "Як сказати 'Should' кіньяруанда?"
+ Відповідь: "Bikwiye"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Питання: "Як сказати 'Can' кіньяруанда?"
+ Відповідь: "Ashobora"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Питання: "Як сказати 'Impossible' кіньяруанда?"
+ Відповідь: "Ntibishoboka"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Питання: "Як сказати 'Possible' кіньяруанда?"
+ Відповідь: "Birashoboka"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Питання: "Як сказати 'Before' кіньяруанда?"
+ Відповідь: "Mbere y'uko"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Питання: "Як сказати 'After' кіньяруанда?"
+ Відповідь: "Nyuma y'uko"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Питання: "Як сказати 'Always' кіньяруанда?"
+ Відповідь: "Buri gihe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Питання: "Як сказати 'Never' кіньяруанда?"
+ Відповідь: "Nta na rimwe"
+ xp_reward: 10
+
+ # Translation - Common Conditional Phrases
+ - id: 17
+ type: translation
+ Питання: "Як сказати 'If it rains, I will stay home' кіньяруанда?"
+ Відповідь: "Niba imvura iguye, nzaguma mu rugo."
+ xp_reward: 20
+
+ - id: 18
+ type: translation
+ Питання: "Як сказати 'If I go to Kigali, I will visit my friend' кіньяруанда?"
+ Відповідь: "Niba ngiye i Kigali, nzasura inshuti yanjye."
+ xp_reward: 20
+
+ - id: 19
+ type: translation
+ Питання: "Як сказати 'If you study, you will succeed' кіньяруанда?"
+ Відповідь: "Niba wiga, uzatsinda."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ Питання: "Як сказати 'If he comes, we will start the meeting' кіньяруанда?"
+ Відповідь: "Niba aje, tuzatangira inama."
+ xp_reward: 20
+
+ - id: 21
+ type: translation
+ Питання: "Як сказати 'Unless you hurry, you will miss the bus' кіньяруанда?"
+ Відповідь: "Ntiwihutira, uzacika bisi."
+ xp_reward: 20
+
+ - id: 22
+ type: translation
+ Питання: "Як сказати 'If I had money, I would buy a car' кіньяруанда?"
+ Відповідь: "Niba nari mfite amafaranga, nari kugura imodoka."
+ xp_reward: 22
+
+ - id: 23
+ type: translation
+ Питання: "Як сказати 'If she were here, she could help' кіньяруанда?"
+ Відповідь: "Iyo yari hano, yashoboraga gufasha."
+ xp_reward: 22
+
+ - id: 24
+ type: translation
+ Питання: "Як сказати 'I would Подорожі if I had more time' кіньяруанда?"
+ Відповідь: "Nari gutembera iyo nari mfite igihe kinini."
+ xp_reward: 22
+
+ - id: 25
+ type: translation
+ Питання: "Як сказати 'You should eat before leaving' кіньяруанда?"
+ Відповідь: "Bikwiye ko urya mbere yo kugenda."
+ xp_reward: 20
+
+ - id: 26
+ type: translation
+ Питання: "Як сказати 'If it is possible, I will come Завтра' кіньяруанда?"
+ Відповідь: "Niba bishoboka, nzaza ejo."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Питання: "Що означає 'Niba' у цьому реченні?"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ - "After"
+ Відповідь: "If"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Питання: "Що означає 'Iyo' у цьому реченні?"
+ options:
+ - "If"
+ - "When"
+ - "Then"
+ - "Before"
+ Відповідь: "When"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Питання: "Що означає 'Hanyuma' у цьому реченні?"
+ options:
+ - "Before"
+ - "After"
+ - "Then"
+ - "When"
+ Відповідь: "Then"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Питання: "Що означає 'Birashoboka' у цьому реченні?"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ - "Never"
+ Відповідь: "Possible"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Питання: "Що означає 'Ntibishoboka' у цьому реченні?"
+ options:
+ - "Possible"
+ - "Impossible"
+ - "Always"
+ - "Never"
+ Відповідь: "Impossible"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Питання: "Що означає 'Buri gihe' у цьому реченні?"
+ options:
+ - "Never"
+ - "Always"
+ - "Sometimes"
+ - "Often"
+ Відповідь: "Always"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Питання: "Що означає 'Nta na rimwe' у цьому реченні?"
+ options:
+ - "Always"
+ - "Sometimes"
+ - "Never"
+ - "Often"
+ Відповідь: "Never"
+ xp_reward: 15
+
+ # 3. Слухайте and Type (Dictation)
+ - id: 34
+ type: listen_and_type
+ Питання: "Слухайте and type the word"
+ audio: "Niba"
+ Відповідь: "Niba"
+ translation: "If"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ Питання: "Слухайте and type the word"
+ audio: "Iyo"
+ Відповідь: "Iyo"
+ translation: "When"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Питання: "Слухайте and type the word"
+ audio: "Birashoboka"
+ Відповідь: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Питання: "Слухайте and type the phrase"
+ audio: "Niba imvura iguye nzaguma mu rugo"
+ Відповідь: "Niba imvura iguye nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ Питання: "Слухайте and type the phrase"
+ audio: "Niba wiga uzatsinda"
+ Відповідь: "Niba wiga uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 22
+
+ - id: 39
+ type: listen_and_type
+ Питання: "Слухайте and type the phrase"
+ audio: "Niba bishoboka nzaza ejo"
+ Відповідь: "Niba bishoboka nzaza ejo"
+ translation: "If it is possible, I will come Завтра"
+ xp_reward: 22
+
+ # 4. Слухайте and Виберіть
+ - id: 40
+ type: listen_and_choose
+ Питання: "Слухайте and Виберіть the correct word"
+ audio: "Niba"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ Відповідь: "If"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Питання: "Слухайте and Виберіть the correct word"
+ audio: "Birashoboka"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ Відповідь: "Possible"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Питання: "Слухайте and Виберіть the correct phrase"
+ audio: "Niba wiga, uzatsinda"
+ options:
+ - "If you study, you will succeed"
+ - "If it rains, I will stay home"
+ - "If it is possible, I will come"
+ Відповідь: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 43
+ type: listen_and_choose
+ Питання: "Слухайте and Виберіть the correct phrase"
+ audio: "Niba bishoboka, nzaza ejo"
+ options:
+ - "If it rains, I will stay home"
+ - "If it is possible, I will come Завтра"
+ - "If you study, you will succeed"
+ Відповідь: "If it is possible, I will come Завтра"
+ xp_reward: 18
+
+ # 5. Repeat / Говоріть Exercise
+ - id: 44
+ type: Говоріть
+ Питання: "Say this word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 45
+ type: Говоріть
+ Питання: "Say this word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 46
+ type: Говоріть
+ Питання: "Say this phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 20
+
+ - id: 47
+ type: Говоріть
+ Питання: "Say this phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 48
+ type: Говоріть
+ Питання: "Say this phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will come Завтра"
+ xp_reward: 18
+
+ # 6. Word Bank Речення Building - PIECES PROVIDED
+ - id: 49
+ type: word_bank
+ Питання: "Build the Kinyarwanda Речення for 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo", "nzaza"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ xp_reward: 22
+
+ - id: 50
+ type: word_bank
+ Питання: "Build the Kinyarwanda Речення for 'If I go to Kigali, I will visit my friend'"
+ word_bank: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ correct_answer: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ xp_reward: 25
+
+ - id: 51
+ type: word_bank
+ Питання: "Build the Kinyarwanda Речення for 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira", "inama"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Питання: "Build the Kinyarwanda Речення for 'If he comes, we will start the meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga", "uzatsinda"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ xp_reward: 22
+
+ - id: 53
+ type: word_bank
+ Питання: "Build the Kinyarwanda Речення for 'If I had money, I would buy a car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ xp_reward: 28
+
+ - id: 54
+ type: word_bank
+ Питання: "Build the Kinyarwanda Речення for 'If she were here, she could help'"
+ word_bank: ["Iyo", "yari", "hano", "yashoboraga", "gufasha", "aje"]
+ correct_answer: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ xp_reward: 25
+
+ - id: 55
+ type: word_bank
+ Питання: "Build the Kinyarwanda Речення for 'You should eat before leaving'"
+ word_bank: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda", "nyuma"]
+ correct_answer: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ xp_reward: 22
+
+ - id: 56
+ type: word_bank
+ Питання: "Build the Kinyarwanda Речення for 'If it is possible, I will come Завтра'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura", "iguye"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 18
+
+ # 7. Речення Scramble - PIECES PROVIDED
+ - id: 57
+ type: sentence_scramble
+ Питання: "Arrange these words to form a correct Речення"
+ scrambled_words: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ translation: "If it rains, I will stay home."
+ xp_reward: 22
+
+ - id: 58
+ type: sentence_scramble
+ Питання: "Arrange these words to form a correct Речення"
+ scrambled_words: ["Niba", "wiga", "uzatsinda"]
+ correct_sentence: "Niba wiga, uzatsinda."
+ translation: "If you study, you will succeed."
+ xp_reward: 18
+
+ - id: 59
+ type: sentence_scramble
+ Питання: "Arrange these words to form a correct Речення"
+ scrambled_words: ["Niba", "aje", "tuzatangira", "inama"]
+ correct_sentence: "Niba aje, tuzatangira inama."
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 22
+
+ - id: 60
+ type: sentence_scramble
+ Питання: "Arrange these words to form a correct Речення"
+ scrambled_words: ["Ntiwihutira", "uzacika", "bisi"]
+ correct_sentence: "Ntiwihutira, uzacika bisi."
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 20
+
+ - id: 61
+ type: sentence_scramble
+ Питання: "Arrange these words to form a correct Речення"
+ scrambled_words: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ correct_sentence: "Iyo yari hano, yashoboraga gufasha."
+ translation: "If she were here, she could help."
+ xp_reward: 25
+
+ - id: 62
+ type: sentence_scramble
+ Питання: "Arrange these words to form a correct Речення"
+ scrambled_words: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ correct_sentence: "Bikwiye ko urya mbere yo kugenda."
+ translation: "You should eat before leaving."
+ xp_reward: 22
+
+ - id: 63
+ type: sentence_scramble
+ Питання: "Arrange these words to form a correct Речення"
+ scrambled_words: ["Niba", "bishoboka", "nzaza", "ejo"]
+ correct_sentence: "Niba bishoboka, nzaza ejo."
+ translation: "If it is possible, I will come Завтра."
+ xp_reward: 18
+
+ # 8. Fill in the Blank - Виберіть FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Питання: "Complete the Речення"
+ text_with_blank: "___ imvura iguye, nzaguma mu rugo."
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Питання: "Complete the Речення"
+ text_with_blank: "Niba wiga, ___."
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Питання: "Complete the Речення"
+ text_with_blank: "Niba aje, tuzatangira ___."
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 18
+
+ - id: 67
+ type: fill_blank
+ Питання: "Complete the Речення"
+ text_with_blank: "Ntiwihutira, ___ bisi."
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 18
+
+ - id: 68
+ type: fill_blank
+ Питання: "Complete the Речення"
+ text_with_blank: "Iyo yari hano, yashoboraga ___."
+ options: ["gufasha", "kwiga", "kurya"]
+ correct_answer: "gufasha"
+ translation: "If she were here, she could help."
+ xp_reward: 18
+
+ - id: 69
+ type: fill_blank
+ Питання: "Complete the Речення"
+ text_with_blank: "Bikwiye ko urya ___ yo kugenda."
+ options: ["mbere", "nyuma", "hanyuma"]
+ correct_answer: "mbere"
+ translation: "You should eat before leaving."
+ xp_reward: 18
+
+ - id: 70
+ type: fill_blank
+ Питання: "Complete the Речення"
+ text_with_blank: "Niba bishoboka, nzaza ___."
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will come Завтра."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 71
+ type: picture_word
+ Питання: "Що означає this image represent?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Izuba", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Питання: "Що означає this image represent?"
+ image_url: "https://source.unsplash.com/featured/?studying"
+ options: ["Kwiga", "Gukora", "Kurya"]
+ correct_answer: "Kwiga"
+ xp_reward: 10
+
+ - id: 73
+ type: picture_word
+ Питання: "Що означає this image represent?"
+ image_url: "https://source.unsplash.com/featured/?money"
+ options: ["Amafaranga", "Igitabo", "Inzu"]
+ correct_answer: "Amafaranga"
+ xp_reward: 10
+
+ - id: 74
+ type: picture_word
+ Питання: "Що означає this image represent?"
+ image_url: "https://source.unsplash.com/featured/?car"
+ options: ["Imodoka", "Bisi", "Igare"]
+ correct_answer: "Imodoka"
+ xp_reward: 10
+
+ - id: 75
+ type: picture_word
+ Питання: "Що означає this image represent?"
+ image_url: "https://source.unsplash.com/featured/?helping"
+ options: ["Gufasha", "Kurira", "Guseka"]
+ correct_answer: "Gufasha"
+ xp_reward: 10
+
+ - id: 76
+ type: picture_word
+ Питання: "Що означає this image represent?"
+ image_url: "https://source.unsplash.com/featured/?bus"
+ options: ["Bisi", "Imodoka", "Indege"]
+ correct_answer: "Bisi"
+ xp_reward: 10
+
+ # 10. Word Співвіднесіть (Pairing)
+ - id: 77
+ type: Співвіднесіть
+ Питання: "Співвіднесіть the conditional words"
+ pairs:
+ - Ліворуч: "If"
+ Праворуч: "Niba"
+ - Ліворуч: "When"
+ Праворуч: "Iyo"
+ - Ліворуч: "Then"
+ Праворуч: "Hanyuma"
+ - Ліворуч: "Before"
+ Праворуч: "Mbere y'uko"
+ - Ліворуч: "After"
+ Праворуч: "Nyuma y'uko"
+ - Ліворуч: "Always"
+ Праворуч: "Buri gihe"
+ - Ліворуч: "Never"
+ Праворуч: "Nta na rimwe"
+ - Ліворуч: "Possible"
+ Праворуч: "Birashoboka"
+ - Ліворуч: "Impossible"
+ Праворуч: "Ntibishoboka"
+ xp_reward: 25
+
+ - id: 78
+ type: Співвіднесіть
+ Питання: "Співвіднесіть the modal verbs"
+ pairs:
+ - Ліворуч: "Might"
+ Праворуч: "Ashobora"
+ - Ліворуч: "Will"
+ Праворуч: "Azakora"
+ - Ліворуч: "Would"
+ Праворуч: "Byaba"
+ - Ліворуч: "Could"
+ Праворуч: "Bashobora"
+ - Ліворуч: "Should"
+ Праворуч: "Bikwiye"
+ - Ліворуч: "Can"
+ Праворуч: "Ashobora"
+ xp_reward: 20
+
+ - id: 79
+ type: Співвіднесіть
+ Питання: "Співвіднесіть the Речення halves"
+ pairs:
+ - Ліворуч: "Niba imvura iguye"
+ Праворуч: "nzaguma mu rugo"
+ - Ліворуч: "Niba wiga"
+ Праворуч: "uzatsinda"
+ - Ліворуч: "Niba aje"
+ Праворуч: "tuzatangira inama"
+ - Ліворуч: "Niba bishoboka"
+ Праворуч: "nzaza ejo"
+ - Ліворуч: "Niba ngiye i Kigali"
+ Праворуч: "nzasura inshuti yanjye"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Виберіть Missing Word
+ - id: 80
+ type: choose_missing
+ Питання: "Виберіть the missing word"
+ Речення: "___ imvura iguye, nzaguma mu rugo."
+ missing_word_position: 1
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Питання: "Виберіть the missing word"
+ Речення: "Niba wiga, ___."
+ missing_word_position: 3
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Питання: "Виберіть the missing word"
+ Речення: "Niba aje, tuzatangira ___."
+ missing_word_position: 4
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 18
+
+ - id: 83
+ type: choose_missing
+ Питання: "Виберіть the missing word"
+ Речення: "Ntiwihutira, ___ bisi."
+ missing_word_position: 2
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 18
+
+ - id: 84
+ type: choose_missing
+ Питання: "Виберіть the missing word"
+ Речення: "Niba bishoboka, nzaza ___."
+ missing_word_position: 3
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will come Завтра."
+ xp_reward: 15
+
+ # 13. Читайте and Відповідь - Питання based on text
+ - id: 85
+ type: read_answer
+ Питання: "Читайте the text and Відповідь the Питання"
+ text: "Niba imvura iguye, nzaguma mu rugo."
+ Питання: "What will happen if it rains?"
+ options: ["I will go out", "I will stay home", "I will go to Школа", "I will work"]
+ correct_answer: "I will stay home"
+ xp_reward: 15
+
+ - id: 86
+ type: read_answer
+ Питання: "Читайте the text and Відповідь the Питання"
+ text: "Niba wiga, uzatsinda."
+ Питання: "What will happen if you study?"
+ options: ["You will fail", "You will succeed", "You will play", "You will sleep"]
+ correct_answer: "You will succeed"
+ xp_reward: 15
+
+ - id: 87
+ type: read_answer
+ Питання: "Читайте the text and Відповідь the Питання"
+ text: "Niba aje, tuzatangira inama."
+ Питання: "When will they start the meeting?"
+ options: ["If he comes", "If it rains", "If she studies", "If they work"]
+ correct_answer: "If he comes"
+ xp_reward: 18
+
+ - id: 88
+ type: read_answer
+ Питання: "Читайте the text and Відповідь the Питання"
+ text: "Niba nari mfite amafaranga, nari kugura imodoka."
+ Питання: "What would I buy if I had money?"
+ options: ["A Будинок", "A car", "Їжа", "Clothes"]
+ correct_answer: "A car"
+ xp_reward: 18
+
+ - id: 89
+ type: read_answer
+ Питання: "Читайте the text and Відповідь the Питання"
+ text: "Niba bishoboka, nzaza ejo."
+ Питання: "When will I come if it is possible?"
+ options: ["Today", "Завтра", "Next week", "Never"]
+ correct_answer: "Завтра"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 90
+ type: true_false
+ Питання: "Is this statement true or false?"
+ statement: "Niba means 'when'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 91
+ type: true_false
+ Питання: "Is this statement true or false?"
+ statement: "Birashoboka means 'possible'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 92
+ type: true_false
+ Питання: "Is this statement true or false?"
+ statement: "Niba wiga, uzatsinda means 'If you study, you will succeed'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 93
+ type: true_false
+ Питання: "Is this statement true or false?"
+ statement: "Ntiwihutira, uzacika bisi means 'If you hurry, you will catch the bus'."
+ correct_answer: false
+ xp_reward: 15
+
+ - id: 94
+ type: true_false
+ Питання: "Is this statement true or false?"
+ statement: "Buri gihe means 'never'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 95
+ type: conversation
+ Питання: "Respond to the Питання by building a Речення"
+ bot_message: "Uzakora iki niba imvura iguye?"
+ translation: "What will you do if it rains?"
+ word_bank: ["Nzaguma", "mu rugo", "nzajya", "ku ishuri", "nzakora"]
+ correct_response: ["Nzaguma", "mu rugo"]
+ xp_reward: 18
+
+ - id: 96
+ type: conversation
+ Питання: "Respond to the Питання"
+ bot_message: "Niba wiga, uzatsinda?"
+ translation: "If you study, will you succeed?"
+ options:
+ - "Yego, nzatsinda"
+ - "Oya, sinzatsinda"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzatsinda"
+ xp_reward: 15
+
+ - id: 97
+ type: conversation
+ Питання: "Respond to the Питання by building a Речення"
+ bot_message: "Uzakora iki niba ufite amafaranga?"
+ translation: "What will you do if you have money?"
+ word_bank: ["Nzakora", "nzabona", "imodoka", "nzaguza", "inzu"]
+ correct_response: ["Nzakora", "nzabona", "imodoka"]
+ xp_reward: 20
+
+ - id: 98
+ type: conversation
+ Питання: "Respond to the Питання"
+ bot_message: "Niba bishoboka, uzaza ejo?"
+ translation: "If it is possible, will you come Завтра?"
+ options:
+ - "Yego, nzaza ejo"
+ - "Oya, sinzaza"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzaza ejo"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Речення from pieces
+ - id: 99
+ type: story
+ title: "Plans and Conditions - Imigambi n'Imyitwarire"
+ story_intro: "Читайте about different plans and conditions. Then build the Речення."
+ story_segments:
+ - text: "If it rains, I will stay home."
+ - text: "If you study, you will succeed."
+ - text: "If he comes, we will start the meeting."
+ - text: "If I had money, I would buy a car."
+ - text: "If it is possible, I will come Завтра."
+ exercises:
+ - type: word_bank
+ Питання: "Build 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ - type: word_bank
+ Питання: "Build 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ - type: word_bank
+ Питання: "Build 'If he comes, we will start the meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ - type: word_bank
+ Питання: "Build 'If I had money, I would buy a car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ - type: word_bank
+ Питання: "Build 'If it is possible, I will come Завтра'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 100
+ type: pronunciation
+ Питання: "Say this word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 101
+ type: pronunciation
+ Питання: "Say this word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 102
+ type: pronunciation
+ Питання: "Say this phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 22
+
+ - id: 103
+ type: pronunciation
+ Питання: "Say this phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 104
+ type: pronunciation
+ Питання: "Say this phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will come Завтра"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 105
+ type: identify_meaning
+ Питання: "Що означає 'Niba' mean in this Речення?"
+ context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ word: "Niba"
+ options: ["When", "If", "Then", "After"]
+ correct_answer: "If"
+ xp_reward: 15
+
+ - id: 106
+ type: identify_meaning
+ Питання: "Що означає 'uzatsinda' mean in this Речення?"
+ context_sentence: "Niba wiga, uzatsinda."
+ word: "uzatsinda"
+ options: ["you will fail", "you will succeed", "you will study", "you will work"]
+ correct_answer: "you will succeed"
+ xp_reward: 15
+
+ - id: 107
+ type: identify_meaning
+ Питання: "Що означає 'tuzatangira' mean in this Речення?"
+ context_sentence: "Niba aje, tuzatangira inama."
+ word: "tuzatangira"
+ options: ["we will finish", "we will start", "we will attend", "we will leave"]
+ correct_answer: "we will start"
+ xp_reward: 15
+
+ - id: 108
+ type: identify_meaning
+ Питання: "Що означає 'bishoboka' mean in this Речення?"
+ context_sentence: "Niba bishoboka, nzaza ejo."
+ word: "bishoboka"
+ options: ["it is possible", "it is impossible", "it is good", "it is bad"]
+ correct_answer: "it is possible"
+ xp_reward: 15
+
+ # 19. Speed Співвіднесіть
+ - id: 109
+ type: speed_Співвіднесіть
+ title: "Співвіднесіть Madness: Conditionals"
+ time_limit_seconds: 45
+ pairs:
+ - Ліворуч: "If"
+ Праворуч: "Niba"
+ - Ліворуч: "When"
+ Праворуч: "Iyo"
+ - Ліворуч: "Then"
+ Праворуч: "Hanyuma"
+ - Ліворуч: "Possible"
+ Праворуч: "Birashoboka"
+ - Ліворуч: "Impossible"
+ Праворуч: "Ntibishoboka"
+ - Ліворуч: "Always"
+ Праворуч: "Buri gihe"
+ - Ліворуч: "Never"
+ Праворуч: "Nta na rimwe"
+ - Ліворуч: "Before"
+ Праворуч: "Mbere y'uko"
+ - Ліворуч: "After"
+ Праворуч: "Nyuma y'uko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 110
+ type: timed_challenge
+ title: "Lightning Round: Conditionals"
+ time_limit_seconds: 30
+ Питання_count: 5
+ Питання:
+ - Питання: "If"
+ Відповідь: "Niba"
+ - Питання: "When"
+ Відповідь: "Iyo"
+ - Питання: "Possible"
+ Відповідь: "Birashoboka"
+ - Питання: "Always"
+ Відповідь: "Buri gihe"
+ - Питання: "Never"
+ Відповідь: "Nta na rimwe"
+ xp_reward: 35
+
+# Картки
+ - id: 111
+ type: Картки
+ Питання: "Картки"
+ Картки:
+ - front: "Niba"
+ back: "If"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iyo"
+ back: "When"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Keretse"
+ back: "Unless"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Hanyuma"
+ back: "Then"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Might"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Azakora"
+ back: "Will"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Byaba"
+ back: "Would"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Bashobora"
+ back: "Could"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Bikwiye"
+ back: "Should"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Can"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

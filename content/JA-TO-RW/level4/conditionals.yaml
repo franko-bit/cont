@@ -1,0 +1,1028 @@
+lesson:
+ name: "Conditionals - Imyitwarire y'Ahazaza"
+ description: "学ぶ how に express conditions と possibilities で Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic 語彙 ONLY (Safe のために single words/phrases)
+ # Basic Conditional Words
+ - id: 1
+ type: translation
+ 質問: "何と言いますか 'If' キニャルワンダ語で？"
+ 答え: "Niba"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 質問: "何と言いますか 'When' キニャルワンダ語で？"
+ 答え: "Iyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 質問: "何と言いますか 'Unless' キニャルワンダ語で？"
+ 答え: "Keretse"
+ note: "Also expressed  'Nti... niba'"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ 質問: "何と言いますか 'Then' キニャルワンダ語で？"
+ 答え: "Hanyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 質問: "何と言いますか 'Might' キニャルワンダ語で？"
+ 答え: "Ashobora"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 質問: "何と言いますか 'Will' キニャルワンダ語で？"
+ 答え: "Azakora"
+ note: "Also 'Azaba' depending に context"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 質問: "何と言いますか 'Would' キニャルワンダ語で？"
+ 答え: "Byaba"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ 質問: "何と言いますか 'Could' キニャルワンダ語で？"
+ 答え: "Bashobora"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ 質問: "何と言いますか 'Should' キニャルワンダ語で？"
+ 答え: "Bikwiye"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ 質問: "何と言いますか 'Can' キニャルワンダ語で？"
+ 答え: "Ashobora"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 質問: "何と言いますか 'Impossible' キニャルワンダ語で？"
+ 答え: "Ntibishoboka"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ 質問: "何と言いますか 'Possible' キニャルワンダ語で？"
+ 答え: "Birashoboka"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ 質問: "何と言いますか 'Before' キニャルワンダ語で？"
+ 答え: "Mbere y'uko"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ 質問: "何と言いますか 'After' キニャルワンダ語で？"
+ 答え: "Nyuma y'uko"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ 質問: "何と言いますか 'Always' キニャルワンダ語で？"
+ 答え: "Buri gihe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ 質問: "何と言いますか 'Never' キニャルワンダ語で？"
+ 答え: "Nta na rimwe"
+ xp_reward: 10
+
+ # Translation - Common Conditional Phrases
+ - id: 17
+ type: translation
+ 質問: "何と言いますか 'If it rains, I will stay home' キニャルワンダ語で？"
+ 答え: "Niba imvura iguye, nzaguma mu rugo."
+ xp_reward: 20
+
+ - id: 18
+ type: translation
+ 質問: "何と言いますか 'If I いく に Kigali, I will visit my friend' キニャルワンダ語で？"
+ 答え: "Niba ngiye i Kigali, nzasura inshuti yanjye."
+ xp_reward: 20
+
+ - id: 19
+ type: translation
+ 質問: "何と言いますか 'If you study, you will succeed' キニャルワンダ語で？"
+ 答え: "Niba wiga, uzatsinda."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ 質問: "何と言いますか 'If he くる, we will start  meeting' キニャルワンダ語で？"
+ 答え: "Niba aje, tuzatangira inama."
+ xp_reward: 20
+
+ - id: 21
+ type: translation
+ 質問: "何と言いますか 'Unless you hurry, you will miss  bus' キニャルワンダ語で？"
+ 答え: "Ntiwihutira, uzacika bisi."
+ xp_reward: 20
+
+ - id: 22
+ type: translation
+ 質問: "何と言いますか 'If I had money, I would buy  car' キニャルワンダ語で？"
+ 答え: "Niba nari mfite amafaranga, nari kugura imodoka."
+ xp_reward: 22
+
+ - id: 23
+ type: translation
+ 質問: "何と言いますか 'If she でした here, she could help' キニャルワンダ語で？"
+ 答え: "Iyo yari hano, yashoboraga gufasha."
+ xp_reward: 22
+
+ - id: 24
+ type: translation
+ 質問: "何と言いますか 'I would 旅行 if I had more time' キニャルワンダ語で？"
+ 答え: "Nari gutembera iyo nari mfite igihe kinini."
+ xp_reward: 22
+
+ - id: 25
+ type: translation
+ 質問: "何と言いますか 'You should たべる before leaving' キニャルワンダ語で？"
+ 答え: "Bikwiye ko urya mbere yo kugenda."
+ xp_reward: 20
+
+ - id: 26
+ type: translation
+ 質問: "何と言いますか 'If it です possible, I will くる 明日' キニャルワンダ語で？"
+ 答え: "Niba bishoboka, nzaza ejo."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ 質問: "何を意味しますか 'Niba' という意味ですか"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ - "After"
+ 答え: "If"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ 質問: "何を意味しますか 'Iyo' という意味ですか"
+ options:
+ - "If"
+ - "When"
+ - "Then"
+ - "Before"
+ 答え: "When"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ 質問: "何を意味しますか 'Hanyuma' という意味ですか"
+ options:
+ - "Before"
+ - "After"
+ - "Then"
+ - "When"
+ 答え: "Then"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ 質問: "何を意味しますか 'Birashoboka' という意味ですか"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ - "Never"
+ 答え: "Possible"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ 質問: "何を意味しますか 'Ntibishoboka' という意味ですか"
+ options:
+ - "Possible"
+ - "Impossible"
+ - "Always"
+ - "Never"
+ 答え: "Impossible"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ 質問: "何を意味しますか 'Buri gihe' という意味ですか"
+ options:
+ - "Never"
+ - "Always"
+ - "Sometimes"
+ - "Often"
+ 答え: "Always"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ 質問: "何を意味しますか 'Nta na rimwe' という意味ですか"
+ options:
+ - "Always"
+ - "Sometimes"
+ - "Never"
+ - "Often"
+ 答え: "Never"
+ xp_reward: 15
+
+ # 3. 聞く と Type (Dictation)
+ - id: 34
+ type: listen_と_type
+ 質問: "聞く と type  word"
+ audio: "Niba"
+ 答え: "Niba"
+ translation: "If"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_と_type
+ 質問: "聞く と type  word"
+ audio: "Iyo"
+ 答え: "Iyo"
+ translation: "When"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_と_type
+ 質問: "聞く と type  word"
+ audio: "Birashoboka"
+ 答え: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ audio: "Niba imvura iguye nzaguma mu rugo"
+ 答え: "Niba imvura iguye nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ audio: "Niba wiga uzatsinda"
+ 答え: "Niba wiga uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 22
+
+ - id: 39
+ type: listen_と_type
+ 質問: "聞く と type  phrase"
+ audio: "Niba bishoboka nzaza ejo"
+ 答え: "Niba bishoboka nzaza ejo"
+ translation: "If it です possible, I will くる 明日"
+ xp_reward: 22
+
+ # 4. 聞く と 選ぶ
+ - id: 40
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct word"
+ audio: "Niba"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ 答え: "If"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct word"
+ audio: "Birashoboka"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ 答え: "Possible"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct phrase"
+ audio: "Niba wiga, uzatsinda"
+ options:
+ - "If you study, you will succeed"
+ - "If it rains, I will stay home"
+ - "If it です possible, I will くる"
+ 答え: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 43
+ type: listen_と_choose
+ 質問: "聞く と 選ぶ  correct phrase"
+ audio: "Niba bishoboka, nzaza ejo"
+ options:
+ - "If it rains, I will stay home"
+ - "If it です possible, I will くる 明日"
+ - "If you study, you will succeed"
+ 答え: "If it です possible, I will くる 明日"
+ xp_reward: 18
+
+ # 5. Repeat / 話す Exercise
+ - id: 44
+ type: 話す
+ 質問: "Say これ word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 45
+ type: 話す
+ 質問: "Say これ word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 46
+ type: 話す
+ 質問: "Say これ phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 20
+
+ - id: 47
+ type: 話す
+ 質問: "Say これ phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 48
+ type: 話す
+ 質問: "Say これ phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it です possible, I will くる 明日"
+ xp_reward: 18
+
+ # 6. Word Bank 文 Building - PIECES PROVIDED
+ - id: 49
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo", "nzaza"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ xp_reward: 22
+
+ - id: 50
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'If I いく に Kigali, I will visit my friend'"
+ word_bank: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ correct_answer: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ xp_reward: 25
+
+ - id: 51
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira", "inama"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'If he くる, we will start  meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga", "uzatsinda"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ xp_reward: 22
+
+ - id: 53
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'If I had money, I would buy  car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ xp_reward: 28
+
+ - id: 54
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'If she でした here, she could help'"
+ word_bank: ["Iyo", "yari", "hano", "yashoboraga", "gufasha", "aje"]
+ correct_answer: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ xp_reward: 25
+
+ - id: 55
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'You should たべる before leaving'"
+ word_bank: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda", "nyuma"]
+ correct_answer: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ xp_reward: 22
+
+ - id: 56
+ type: word_bank
+ 質問: "Build  Kinyarwanda 文 のために 'If it です possible, I will くる 明日'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura", "iguye"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 18
+
+ # 7. 文 Scramble - PIECES PROVIDED
+ - id: 57
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ translation: "If it rains, I will stay home."
+ xp_reward: 22
+
+ - id: 58
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Niba", "wiga", "uzatsinda"]
+ correct_sentence: "Niba wiga, uzatsinda."
+ translation: "If you study, you will succeed."
+ xp_reward: 18
+
+ - id: 59
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Niba", "aje", "tuzatangira", "inama"]
+ correct_sentence: "Niba aje, tuzatangira inama."
+ translation: "If he くる, we will start  meeting."
+ xp_reward: 22
+
+ - id: 60
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Ntiwihutira", "uzacika", "bisi"]
+ correct_sentence: "Ntiwihutira, uzacika bisi."
+ translation: "Unless you hurry, you will miss  bus."
+ xp_reward: 20
+
+ - id: 61
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ correct_sentence: "Iyo yari hano, yashoboraga gufasha."
+ translation: "If she でした here, she could help."
+ xp_reward: 25
+
+ - id: 62
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ correct_sentence: "Bikwiye ko urya mbere yo kugenda."
+ translation: "You should たべる before leaving."
+ xp_reward: 22
+
+ - id: 63
+ type: sentence_scramble
+ 質問: "Arrange these words に form  correct 文"
+ scrambled_words: ["Niba", "bishoboka", "nzaza", "ejo"]
+ correct_sentence: "Niba bishoboka, nzaza ejo."
+ translation: "If it です possible, I will くる 明日."
+ xp_reward: 18
+
+ # 8. Fill で  Blank - 選ぶ FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "___ imvura iguye, nzaguma mu rugo."
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Niba wiga, ___."
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Niba aje, tuzatangira ___."
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he くる, we will start  meeting."
+ xp_reward: 18
+
+ - id: 67
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Ntiwihutira, ___ bisi."
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss  bus."
+ xp_reward: 18
+
+ - id: 68
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Iyo yari hano, yashoboraga ___."
+ options: ["gufasha", "kwiga", "kurya"]
+ correct_answer: "gufasha"
+ translation: "If she でした here, she could help."
+ xp_reward: 18
+
+ - id: 69
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Bikwiye ko urya ___ yo kugenda."
+ options: ["mbere", "nyuma", "hanyuma"]
+ correct_answer: "mbere"
+ translation: "You should たべる before leaving."
+ xp_reward: 18
+
+ - id: 70
+ type: fill_blank
+ 質問: "Complete  文"
+ text_と_blank: "Niba bishoboka, nzaza ___."
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it です possible, I will くる 明日."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 71
+ type: picture_word
+ 質問: "何を意味しますか これ image represent?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Izuba", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ 質問: "何を意味しますか これ image represent?"
+ image_url: "https://source.unsplash.com/featured/?studying"
+ options: ["Kwiga", "Gukora", "Kurya"]
+ correct_answer: "Kwiga"
+ xp_reward: 10
+
+ - id: 73
+ type: picture_word
+ 質問: "何を意味しますか これ image represent?"
+ image_url: "https://source.unsplash.com/featured/?money"
+ options: ["Amafaranga", "Igitabo", "Inzu"]
+ correct_answer: "Amafaranga"
+ xp_reward: 10
+
+ - id: 74
+ type: picture_word
+ 質問: "何を意味しますか これ image represent?"
+ image_url: "https://source.unsplash.com/featured/?car"
+ options: ["Imodoka", "Bisi", "Igare"]
+ correct_answer: "Imodoka"
+ xp_reward: 10
+
+ - id: 75
+ type: picture_word
+ 質問: "何を意味しますか これ image represent?"
+ image_url: "https://source.unsplash.com/featured/?helping"
+ options: ["Gufasha", "Kurira", "Guseka"]
+ correct_answer: "Gufasha"
+ xp_reward: 10
+
+ - id: 76
+ type: picture_word
+ 質問: "何を意味しますか これ image represent?"
+ image_url: "https://source.unsplash.com/featured/?bus"
+ options: ["Bisi", "Imodoka", "Indege"]
+ correct_answer: "Bisi"
+ xp_reward: 10
+
+ # 10. Word 一致させる (Pairing)
+ - id: 77
+ type: 一致させる
+ 質問: "一致させる  conditional words"
+ pairs:
+ - 左: "If"
+ 右: "Niba"
+ - 左: "When"
+ 右: "Iyo"
+ - 左: "Then"
+ 右: "Hanyuma"
+ - 左: "Before"
+ 右: "Mbere y'uko"
+ - 左: "After"
+ 右: "Nyuma y'uko"
+ - 左: "Always"
+ 右: "Buri gihe"
+ - 左: "Never"
+ 右: "Nta na rimwe"
+ - 左: "Possible"
+ 右: "Birashoboka"
+ - 左: "Impossible"
+ 右: "Ntibishoboka"
+ xp_reward: 25
+
+ - id: 78
+ type: 一致させる
+ 質問: "一致させる  modal verbs"
+ pairs:
+ - 左: "Might"
+ 右: "Ashobora"
+ - 左: "Will"
+ 右: "Azakora"
+ - 左: "Would"
+ 右: "Byaba"
+ - 左: "Could"
+ 右: "Bashobora"
+ - 左: "Should"
+ 右: "Bikwiye"
+ - 左: "Can"
+ 右: "Ashobora"
+ xp_reward: 20
+
+ - id: 79
+ type: 一致させる
+ 質問: "一致させる  文 halves"
+ pairs:
+ - 左: "Niba imvura iguye"
+ 右: "nzaguma mu rugo"
+ - 左: "Niba wiga"
+ 右: "uzatsinda"
+ - 左: "Niba aje"
+ 右: "tuzatangira inama"
+ - 左: "Niba bishoboka"
+ 右: "nzaza ejo"
+ - 左: "Niba ngiye i Kigali"
+ 右: "nzasura inshuti yanjye"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED  PER PREVIOUS PATTERN
+
+ # 12. 選ぶ Missing Word
+ - id: 80
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "___ imvura iguye, nzaguma mu rugo."
+ missing_word_position: 1
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Niba wiga, ___."
+ missing_word_position: 3
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Niba aje, tuzatangira ___."
+ missing_word_position: 4
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he くる, we will start  meeting."
+ xp_reward: 18
+
+ - id: 83
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Ntiwihutira, ___ bisi."
+ missing_word_position: 2
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss  bus."
+ xp_reward: 18
+
+ - id: 84
+ type: choose_missing
+ 質問: "選ぶ  missing word"
+ 文: "Niba bishoboka, nzaza ___."
+ missing_word_position: 3
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it です possible, I will くる 明日."
+ xp_reward: 15
+
+ # 13. 読む と 答え - 質問 based に text
+ - id: 85
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Niba imvura iguye, nzaguma mu rugo."
+ 質問: "What will happen if it rains?"
+ options: ["I will いく out", "I will stay home", "I will いく に 学校", "I will work"]
+ correct_answer: "I will stay home"
+ xp_reward: 15
+
+ - id: 86
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Niba wiga, uzatsinda."
+ 質問: "What will happen if you study?"
+ options: ["You will fail", "You will succeed", "You will play", "You will sleep"]
+ correct_answer: "You will succeed"
+ xp_reward: 15
+
+ - id: 87
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Niba aje, tuzatangira inama."
+ 質問: "When will they start  meeting?"
+ options: ["If he くる", "If it rains", "If she studies", "If they work"]
+ correct_answer: "If he くる"
+ xp_reward: 18
+
+ - id: 88
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Niba nari mfite amafaranga, nari kugura imodoka."
+ 質問: "What would I buy if I had money?"
+ options: [" 家", " car", "食べ物", "Clothes"]
+ correct_answer: " car"
+ xp_reward: 18
+
+ - id: 89
+ type: read_answer
+ 質問: "読む  text と 答え  質問"
+ text: "Niba bishoboka, nzaza ejo."
+ 質問: "When will I くる if it です possible?"
+ options: ["Today", "明日", "Next week", "Never"]
+ correct_answer: "明日"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 90
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Niba means 'when'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 91
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Birashoboka means 'possible'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 92
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Niba wiga, uzatsinda means 'If you study, you will succeed'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 93
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Ntiwihutira, uzacika bisi means 'If you hurry, you will catch  bus'."
+ correct_answer: false
+ xp_reward: 15
+
+ - id: 94
+ type: true_false
+ 質問: "です これ statement true または false?"
+ statement: "Buri gihe means 'never'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 95
+ type: conversation
+ 質問: "Respond に  質問 by building  文"
+ bot_message: "Uzakora iki niba imvura iguye?"
+ translation: "What will you do if it rains?"
+ word_bank: ["Nzaguma", "mu rugo", "nzajya", "ku ishuri", "nzakora"]
+ correct_response: ["Nzaguma", "mu rugo"]
+ xp_reward: 18
+
+ - id: 96
+ type: conversation
+ 質問: "Respond に  質問"
+ bot_message: "Niba wiga, uzatsinda?"
+ translation: "If you study, will you succeed?"
+ options:
+ - "Yego, nzatsinda"
+ - "Oya, sinzatsinda"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzatsinda"
+ xp_reward: 15
+
+ - id: 97
+ type: conversation
+ 質問: "Respond に  質問 by building  文"
+ bot_message: "Uzakora iki niba ufite amafaranga?"
+ translation: "What will you do if you have money?"
+ word_bank: ["Nzakora", "nzabona", "imodoka", "nzaguza", "inzu"]
+ correct_response: ["Nzakora", "nzabona", "imodoka"]
+ xp_reward: 20
+
+ - id: 98
+ type: conversation
+ 質問: "Respond に  質問"
+ bot_message: "Niba bishoboka, uzaza ejo?"
+ translation: "If it です possible, will you くる 明日?"
+ options:
+ - "Yego, nzaza ejo"
+ - "Oya, sinzaza"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzaza ejo"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build 文 from pieces
+ - id: 99
+ type: story
+ title: "Plans と Conditions - Imigambi n'Imyitwarire"
+ story_intro: "読む about different plans と conditions. Then build  文."
+ story_segments:
+ - text: "If it rains, I will stay home."
+ - text: "If you study, you will succeed."
+ - text: "If he くる, we will start  meeting."
+ - text: "If I had money, I would buy  car."
+ - text: "If it です possible, I will くる 明日."
+ exercises:
+ - type: word_bank
+ 質問: "Build 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ - type: word_bank
+ 質問: "Build 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ - type: word_bank
+ 質問: "Build 'If he くる, we will start  meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ - type: word_bank
+ 質問: "Build 'If I had money, I would buy  car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ - type: word_bank
+ 質問: "Build 'If it です possible, I will くる 明日'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 100
+ type: pronunciation
+ 質問: "Say これ word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 101
+ type: pronunciation
+ 質問: "Say これ word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 102
+ type: pronunciation
+ 質問: "Say これ phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 22
+
+ - id: 103
+ type: pronunciation
+ 質問: "Say これ phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 104
+ type: pronunciation
+ 質問: "Say これ phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it です possible, I will くる 明日"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 105
+ type: identify_meaning
+ 質問: "何を意味しますか 'Niba' mean で これ 文?"
+ context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ word: "Niba"
+ options: ["When", "If", "Then", "After"]
+ correct_answer: "If"
+ xp_reward: 15
+
+ - id: 106
+ type: identify_meaning
+ 質問: "何を意味しますか 'uzatsinda' mean で これ 文?"
+ context_sentence: "Niba wiga, uzatsinda."
+ word: "uzatsinda"
+ options: ["you will fail", "you will succeed", "you will study", "you will work"]
+ correct_answer: "you will succeed"
+ xp_reward: 15
+
+ - id: 107
+ type: identify_meaning
+ 質問: "何を意味しますか 'tuzatangira' mean で これ 文?"
+ context_sentence: "Niba aje, tuzatangira inama."
+ word: "tuzatangira"
+ options: ["we will finish", "we will start", "we will attend", "we will leave"]
+ correct_answer: "we will start"
+ xp_reward: 15
+
+ - id: 108
+ type: identify_meaning
+ 質問: "何を意味しますか 'bishoboka' mean で これ 文?"
+ context_sentence: "Niba bishoboka, nzaza ejo."
+ word: "bishoboka"
+ options: ["it です possible", "it です impossible", "it です よい", "it です わるい"]
+ correct_answer: "it です possible"
+ xp_reward: 15
+
+ # 19. Speed 一致させる
+ - id: 109
+ type: speed_一致させる
+ title: "一致させる Madness: Conditionals"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "If"
+ 右: "Niba"
+ - 左: "When"
+ 右: "Iyo"
+ - 左: "Then"
+ 右: "Hanyuma"
+ - 左: "Possible"
+ 右: "Birashoboka"
+ - 左: "Impossible"
+ 右: "Ntibishoboka"
+ - 左: "Always"
+ 右: "Buri gihe"
+ - 左: "Never"
+ 右: "Nta na rimwe"
+ - 左: "Before"
+ 右: "Mbere y'uko"
+ - 左: "After"
+ 右: "Nyuma y'uko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 110
+ type: timed_challenge
+ title: "Lightning Round: Conditionals"
+ time_limit_seconds: 30
+ 質問_count: 5
+ 質問:
+ - 質問: "If"
+ 答え: "Niba"
+ - 質問: "When"
+ 答え: "Iyo"
+ - 質問: "Possible"
+ 答え: "Birashoboka"
+ - 質問: "Always"
+ 答え: "Buri gihe"
+ - 質問: "Never"
+ 答え: "Nta na rimwe"
+ xp_reward: 35
+
+# フラッシュカード
+ - id: 111
+ type: フラッシュカード
+ 質問: "フラッシュカード"
+ フラッシュカード:
+ - front: "Niba"
+ back: "If"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iyo"
+ back: "When"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Keretse"
+ back: "Unless"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Hanyuma"
+ back: "Then"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Might"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Azakora"
+ back: "Will"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Byaba"
+ back: "Would"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Bashobora"
+ back: "Could"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Bikwiye"
+ back: "Should"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Can"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

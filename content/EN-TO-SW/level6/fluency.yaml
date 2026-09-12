@@ -1,0 +1,1135 @@
+lesson:
+  name: "Fluency - Ufasaha"
+  description: "Learn phrases to help you speak Kiswahili more fluently"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Fluency Words ONLY (Safe for single words)
+  # Vocabulary - Fluency Terms
+  - id: 1
+    type: translation
+    question: "How do you say 'Speak' in Kiswahili?"
+    answer: "Ongea"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "How do you say 'Say' in Kiswahili?"
+    answer: "Sema"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "How do you say 'Talk' in Kiswahili?"
+    answer: "Zungumza"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "How do you say 'Listen' in Kiswahili?"
+    answer: "Sikiliza"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "How do you say 'Understand' in Kiswahili?"
+    answer: "Elewa"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "How do you say 'Repeat' in Kiswahili?"
+    answer: "Rudia"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "How do you say 'Pronounce' in Kiswahili?"
+    answer: "Tamka"
+    xp_reward: 15
+
+  - id: 8
+    type: translation
+    question: "How do you say 'Slowly' in Kiswahili?"
+    answer: "Pole pole"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "How do you say 'Quickly' in Kiswahili?"
+    answer: "Haraka"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "How do you say 'Fluently' in Kiswahili?"
+    answer: "Kwa ufasaha"
+    xp_reward: 15
+
+  - id: 11
+    type: translation
+    question: "How do you say 'Conversation' in Kiswahili?"
+    answer: "Mazungumzo"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "How do you say 'Dialogue' in Kiswahili?"
+    answer: "Dialojia"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "How do you say 'Expression' in Kiswahili?"
+    answer: "Usemi"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "How do you say 'Question' in Kiswahili?"
+    answer: "Swali"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "How do you say 'Answer' in Kiswahili?"
+    answer: "Jibu"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "How do you say 'Clarify' in Kiswahili?"
+    answer: "Fafanua"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "How do you say 'Practice' in Kiswahili?"
+    answer: "Mazoezi"
+    xp_reward: 10
+
+  - id: 18
+    type: translation
+    question: "How do you say 'Communication' in Kiswahili?"
+    answer: "Mawasiliano"
+    xp_reward: 10
+
+  # Translation - Conversational Fluency Phrases
+  - id: 19
+    type: translation
+    question: "How do you ask 'Can you repeat that?' in Kiswahili?"
+    answer: "Unaweza kurudia?"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "How do you say 'I don't understand' in Kiswahili?"
+    answer: "Sielewi."
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "How do you say 'Please speak slowly' in Kiswahili?"
+    answer: "Tafadhali ongea pole pole."
+    xp_reward: 18
+
+  - id: 22
+    type: translation
+    question: "How do you ask 'Could you explain that?' in Kiswahili?"
+    answer: "Unaweza kuelezea hilo?"
+    xp_reward: 18
+
+  - id: 23
+    type: translation
+    question: "How do you ask 'How do you say... in Kiswahili?' in Kiswahili?"
+    answer: "Unasemaje... kwa Kiswahili?"
+    xp_reward: 20
+
+  - id: 24
+    type: translation
+    question: "How do you say 'I'm trying to speak Kiswahili' in Kiswahili?"
+    answer: "Ninajaribu kuzungumza Kiswahili."
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "How do you ask 'Can you correct me if I'm wrong?' in Kiswahili?"
+    answer: "Unaweza kunirekebisha nikikosea?"
+    xp_reward: 20
+
+  - id: 26
+    type: translation
+    question: "How do you say 'Let's have a conversation' in Kiswahili?"
+    answer: "Tuzungumze."
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "How do you say 'I want to practice speaking' in Kiswahili?"
+    answer: "Nataka kufanya mazoezi ya kuzungumza."
+    xp_reward: 20
+
+  - id: 28
+    type: translation
+    question: "How do you say 'Repeat after me' in Kiswahili?"
+    answer: "Rudia baada yangu."
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "What does 'Ongea' mean?"
+    options:
+      - "Listen"
+      - "Speak"
+      - "Understand"
+      - "Repeat"
+    answer: "Speak"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "What does 'Elewa' mean?"
+    options:
+      - "Repeat"
+      - "Understand"
+      - "Speak"
+      - "Listen"
+    answer: "Understand"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "What does 'Rudia' mean?"
+    options:
+      - "Speak"
+      - "Listen"
+      - "Repeat"
+      - "Practice"
+    answer: "Repeat"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "What does 'Pole pole' mean?"
+    options:
+      - "Quickly"
+      - "Slowly"
+      - "Fluently"
+      - "Clearly"
+    answer: "Slowly"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "What does 'Sielewi' mean?"
+    options:
+      - "I understand"
+      - "I don't understand"
+      - "Please repeat"
+      - "Speak slowly"
+    answer: "I don't understand"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "What does 'Unaweza kurudia?' mean?"
+    options:
+      - "Can you speak slowly?"
+      - "Can you repeat that?"
+      - "Can you explain that?"
+      - "Can you correct me?"
+    answer: "Can you repeat that?"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 35
+    type: listen_and_type
+    question: "Listen and type the fluency word"
+    audio: "Ongea"
+    answer: "Ongea"
+    translation: "Speak"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Listen and type the fluency word"
+    audio: "Rudia"
+    answer: "Rudia"
+    translation: "Repeat"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Listen and type the fluency word"
+    audio: "Pole pole"
+    answer: "Pole pole"
+    translation: "Slowly"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Listen and type the phrase"
+    audio: "Sielewi"
+    answer: "Sielewi"
+    translation: "I don't understand"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 42
+    type: listen_and_choose
+    question: "Listen and choose the correct meaning"
+    audio: "Ongea"
+    options:
+      - "Listen"
+      - "Speak"
+      - "Repeat"
+    answer: "Speak"
+    xp_reward: 15
+
+  - id: 43
+    type: listen_and_choose
+    question: "Listen and choose the correct meaning"
+    audio: "Rudia"
+    options:
+      - "Speak"
+      - "Understand"
+      - "Repeat"
+    answer: "Repeat"
+    xp_reward: 15
+
+  - id: 44
+    type: listen_and_choose
+    question: "Listen and choose the correct meaning"
+    audio: "Sielewi"
+    options:
+      - "I understand"
+      - "I don't understand"
+      - "Please repeat"
+    answer: "I don't understand"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 47
+    type: speaking
+    question: "Say this fluency word"
+    prompt: "Ongea"
+    translation: "Speak"
+    xp_reward: 15
+
+  - id: 48
+    type: speaking
+    question: "Say this fluency word"
+    prompt: "Elewa"
+    translation: "Understand"
+    xp_reward: 15
+
+  - id: 49
+    type: speaking
+    question: "Say this fluency word"
+    prompt: "Rudia"
+    translation: "Repeat"
+    xp_reward: 15
+
+  - id: 50
+    type: speaking
+    question: "Say this phrase"
+    prompt: "Sielewi"
+    translation: "I don't understand"
+    xp_reward: 18
+
+  - id: 51
+    type: speaking
+    question: "Say this question"
+    prompt: "Unaweza kurudia"
+    translation: "Can you repeat that?"
+    xp_reward: 18
+
+  - id: 52
+    type: speaking
+    question: "Say this phrase"
+    prompt: "Tafadhali ongea pole pole"
+    translation: "Please speak slowly"
+    xp_reward: 20
+
+  - id: 53
+    type: speaking
+    question: "Say this phrase"
+    prompt: "Ninajaribu kuzungumza Kiswahili"
+    translation: "I'm trying to speak Kiswahili"
+    xp_reward: 20
+
+  - id: 54
+    type: speaking
+    question: "Say this invitation"
+    prompt: "Tuzungumze"
+    translation: "Let's have a conversation"
+    xp_reward: 15
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED
+  - id: 55
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'I don't understand'"
+    word_bank: ["Sielewi", "Unaweza", "kurudia", "Tafadhali"]
+    correct_answer: ["Sielewi"]
+    xp_reward: 15
+
+  - id: 56
+    type: word_bank
+    question: "Build the Kiswahili question for 'Can you repeat that?'"
+    word_bank: ["Unaweza", "kurudia", "kuelezea", "vizuri", "sema"]
+    correct_answer: ["Unaweza", "kurudia"]
+    xp_reward: 18
+
+  - id: 57
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'Please speak slowly'"
+    word_bank: ["Tafadhali", "ongea", "pole pole", "haraka", "vizuri"]
+    correct_answer: ["Tafadhali", "ongea", "pole pole"]
+    xp_reward: 20
+
+  - id: 58
+    type: word_bank
+    question: "Build the Kiswahili question for 'Could you explain that?'"
+    word_bank: ["Unaweza", "kuelezea", "hilo", "kurudia", "kunirekebisha"]
+    correct_answer: ["Unaweza", "kuelezea", "hilo"]
+    xp_reward: 20
+
+  - id: 59
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'How do you say... in Kiswahili?'"
+    word_bank: ["Unasemaje", "kwa Kiswahili", "swali", "jibu"]
+    correct_answer: ["Unasemaje", "kwa Kiswahili"]
+    xp_reward: 22
+
+  - id: 60
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'I'm trying to speak Kiswahili'"
+    word_bank: ["Ninajaribu", "kuzungumza", "Kiswahili", "kuelezea", "vizuri"]
+    correct_answer: ["Ninajaribu", "kuzungumza", "Kiswahili"]
+    xp_reward: 20
+
+  - id: 61
+    type: word_bank
+    question: "Build the Kiswahili question for 'Can you correct me if I'm wrong?'"
+    word_bank: ["Unaweza", "kunirekebisha", "nikikosea", "kurudia"]
+    correct_answer: ["Unaweza", "kunirekebisha", "nikikosea"]
+    xp_reward: 22
+
+  - id: 62
+    type: word_bank
+    question: "Build the Kiswahili invitation for 'Let's have a conversation'"
+    word_bank: ["Tuzungumze", "rudia", "baada", "yangu", "sema"]
+    correct_answer: ["Tuzungumze"]
+    xp_reward: 15
+
+  - id: 63
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'I want to practice speaking'"
+    word_bank: ["Nataka", "kufanya", "mazoezi", "ya kuzungumza", "Kiswahili"]
+    correct_answer: ["Nataka", "kufanya", "mazoezi", "ya kuzungumza"]
+    xp_reward: 22
+
+  - id: 64
+    type: word_bank
+    question: "Build the Kiswahili phrase for 'Repeat after me'"
+    word_bank: ["Rudia", "baada", "yangu", "sema", "vizuri"]
+    correct_answer: ["Rudia", "baada", "yangu"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 65
+    type: sentence_scramble
+    question: "Arrange these words to form a correct phrase"
+    scrambled_words: ["Sielewi"]
+    correct_sentence: "Sielewi."
+    translation: "I don't understand."
+    xp_reward: 15
+
+  - id: 66
+    type: sentence_scramble
+    question: "Arrange these words to form a correct question"
+    scrambled_words: ["kurudia", "Unaweza"]
+    correct_sentence: "Unaweza kurudia?"
+    translation: "Can you repeat that?"
+    xp_reward: 18
+
+  - id: 67
+    type: sentence_scramble
+    question: "Arrange these words to form a correct phrase"
+    scrambled_words: ["ongea", "Tafadhali", "pole pole"]
+    correct_sentence: "Tafadhali ongea pole pole."
+    translation: "Please speak slowly."
+    xp_reward: 20
+
+  - id: 68
+    type: sentence_scramble
+    question: "Arrange these words to form a correct question"
+    scrambled_words: ["kuelezea", "hilo", "Unaweza"]
+    correct_sentence: "Unaweza kuelezea hilo?"
+    translation: "Could you explain that?"
+    xp_reward: 20
+
+  - id: 69
+    type: sentence_scramble
+    question: "Arrange these words to form a correct phrase"
+    scrambled_words: ["kwa Kiswahili", "Unasemaje"]
+    correct_sentence: "Unasemaje kwa Kiswahili?"
+    translation: "How do you say... in Kiswahili?"
+    xp_reward: 22
+
+  - id: 70
+    type: sentence_scramble
+    question: "Arrange these words to form a correct phrase"
+    scrambled_words: ["kuzungumza", "Kiswahili", "Ninajaribu"]
+    correct_sentence: "Ninajaribu kuzungumza Kiswahili."
+    translation: "I'm trying to speak Kiswahili."
+    xp_reward: 20
+
+  - id: 71
+    type: sentence_scramble
+    question: "Arrange these words to form a correct question"
+    scrambled_words: ["nikikosea", "Unaweza", "kunirekebisha"]
+    correct_sentence: "Unaweza kunirekebisha nikikosea?"
+    translation: "Can you correct me if I'm wrong?"
+    xp_reward: 22
+
+  - id: 72
+    type: sentence_scramble
+    question: "Arrange these words to form a correct invitation"
+    scrambled_words: ["Tuzungumze"]
+    correct_sentence: "Tuzungumze."
+    translation: "Let's have a conversation."
+    xp_reward: 15
+
+  - id: 73
+    type: sentence_scramble
+    question: "Arrange these words to form a correct phrase"
+    scrambled_words: ["kufanya", "mazoezi", "ya kuzungumza", "Nataka"]
+    correct_sentence: "Nataka kufanya mazoezi ya kuzungumza."
+    translation: "I want to practice speaking."
+    xp_reward: 22
+
+  - id: 74
+    type: sentence_scramble
+    question: "Arrange these words to form a correct phrase"
+    scrambled_words: ["baada", "yangu", "Rudia"]
+    correct_sentence: "Rudia baada yangu."
+    translation: "Repeat after me."
+    xp_reward: 20
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 75
+    type: fill_blank
+    question: "Complete the phrase"
+    text_with_blank: "Sielewi"
+    missing_word_position: 1
+    options: ["Sielewi", "Unaweza", "Tafadhali"]
+    correct_answer: "Sielewi"
+    translation: "I don't understand."
+    xp_reward: 12
+
+  - id: 76
+    type: fill_blank
+    question: "Complete the question"
+    text_with_blank: "Unaweza ___?"
+    options: ["kurudia", "ongea", "kunirekebisha"]
+    correct_answer: "kurudia"
+    translation: "Can you repeat that?"
+    xp_reward: 15
+
+  - id: 77
+    type: fill_blank
+    question: "Complete the phrase"
+    text_with_blank: "Tafadhali ongea ___."
+    options: ["pole pole", "haraka", "vizuri"]
+    correct_answer: "pole pole"
+    translation: "Please speak slowly."
+    xp_reward: 18
+
+  - id: 78
+    type: fill_blank
+    question: "Complete the question"
+    text_with_blank: "Unaweza kuelezea ___?"
+    options: ["hilo", "pole pole", "haraka"]
+    correct_answer: "hilo"
+    translation: "Could you explain that?"
+    xp_reward: 18
+
+  - id: 79
+    type: fill_blank
+    question: "Complete the phrase"
+    text_with_blank: "Unasemaje kwa ___?"
+    options: ["Kiswahili", "mazungumzo", "usemi"]
+    correct_answer: "Kiswahili"
+    translation: "How do you say... in Kiswahili?"
+    xp_reward: 18
+
+  - id: 80
+    type: fill_blank
+    question: "Complete the phrase"
+    text_with_blank: "Ninajaribu ___ Kiswahili."
+    options: ["kuzungumza", "kuelezea", "kurudia"]
+    correct_answer: "kuzungumza"
+    translation: "I'm trying to speak Kiswahili."
+    xp_reward: 15
+
+  - id: 81
+    type: fill_blank
+    question: "Complete the question"
+    text_with_blank: "Unaweza kunirekebisha ___?"
+    options: ["nikikosea", "kurudia", "kuelezea"]
+    correct_answer: "nikikosea"
+    translation: "Can you correct me if I'm wrong?"
+    xp_reward: 20
+
+  - id: 82
+    type: fill_blank
+    question: "Complete the invitation"
+    text_with_blank: "___"
+    options: ["Tuzungumze", "Rudia", "Ongea"]
+    correct_answer: "Tuzungumze"
+    translation: "Let's have a conversation."
+    xp_reward: 12
+
+  - id: 83
+    type: fill_blank
+    question: "Complete the phrase"
+    text_with_blank: "Nataka kufanya ___ ya kuzungumza."
+    options: ["mazoezi", "mazungumzo", "usemi"]
+    correct_answer: "mazoezi"
+    translation: "I want to practice speaking."
+    xp_reward: 18
+
+  - id: 84
+    type: fill_blank
+    question: "Complete the phrase"
+    text_with_blank: "Rudia ___ yangu."
+    options: ["baada", "kabla", "pamoja"]
+    correct_answer: "baada"
+    translation: "Repeat after me."
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images) - Conceptual images for fluency
+  - id: 85
+    type: picture_word
+    question: "What does this represent?"
+    image_url: "https://source.unsplash.com/featured/?speaking"
+    options: ["Ongea", "Sikiliza", "Rudia"]
+    correct_answer: "Ongea"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "What does this represent?"
+    image_url: "https://source.unsplash.com/featured/?listening"
+    options: ["Ongea", "Sikiliza", "Elewa"]
+    correct_answer: "Sikiliza"
+    xp_reward: 10
+
+  - id: 87
+    type: picture_word
+    question: "What does this represent?"
+    image_url: "https://source.unsplash.com/featured/?understanding"
+    options: ["Rudia", "Elewa", "Zungumza"]
+    correct_answer: "Elewa"
+    xp_reward: 10
+
+  - id: 88
+    type: picture_word
+    question: "What does this represent?"
+    image_url: "https://source.unsplash.com/featured/?repeat"
+    options: ["Rudia", "Ongea", "Pole pole"]
+    correct_answer: "Rudia"
+    xp_reward: 10
+
+  - id: 89
+    type: picture_word
+    question: "What does this represent?"
+    image_url: "https://source.unsplash.com/featured/?slow"
+    options: ["Pole pole", "Haraka", "Vizuri"]
+    correct_answer: "Pole pole"
+    xp_reward: 10
+
+  - id: 90
+    type: picture_word
+    question: "What does this represent?"
+    image_url: "https://source.unsplash.com/featured/?fast"
+    options: ["Pole pole", "Haraka", "Vizuri"]
+    correct_answer: "Haraka"
+    xp_reward: 10
+
+  - id: 91
+    type: picture_word
+    question: "What does this represent?"
+    image_url: "https://source.unsplash.com/featured/?conversation"
+    options: ["Mazungumzo", "Swali", "Jibu"]
+    correct_answer: "Mazungumzo"
+    xp_reward: 10
+
+  - id: 92
+    type: picture_word
+    question: "What does this represent?"
+    image_url: "https://source.unsplash.com/featured/?question"
+    options: ["Swali", "Jibu", "Mazungumzo"]
+    correct_answer: "Swali"
+    xp_reward: 10
+
+  - id: 93
+    type: picture_word
+    question: "What does this represent?"
+    image_url: "https://source.unsplash.com/featured/?answer"
+    options: ["Swali", "Jibu", "Usemi"]
+    correct_answer: "Jibu"
+    xp_reward: 10
+
+  - id: 94
+    type: picture_word
+    question: "What does this represent?"
+    image_url: "https://source.unsplash.com/featured/?practice"
+    options: ["Mazoezi", "Mawasiliano", "Usemi"]
+    correct_answer: "Mazoezi"
+    xp_reward: 10
+
+  # 10. Word Matching (Pairing)
+  - id: 95
+    type: matching
+    question: "Match the fluency verbs"
+    pairs:
+      - left: "Speak"
+        right: "Ongea"
+      - left: "Talk"
+        right: "Zungumza"
+      - left: "Listen"
+        right: "Sikiliza"
+      - left: "Understand"
+        right: "Elewa"
+      - left: "Repeat"
+        right: "Rudia"
+      - left: "Pronounce"
+        right: "Tamka"
+      - left: "Clarify"
+        right: "Fafanua"
+    xp_reward: 20
+
+  - id: 96
+    type: matching
+    question: "Match the adverbs and nouns"
+    pairs:
+      - left: "Slowly"
+        right: "Pole pole"
+      - left: "Quickly"
+        right: "Haraka"
+      - left: "Fluently"
+        right: "Kwa ufasaha"
+      - left: "Conversation"
+        right: "Mazungumzo"
+      - left: "Question"
+        right: "Swali"
+      - left: "Answer"
+        right: "Jibu"
+      - left: "Practice"
+        right: "Mazoezi"
+      - left: "Communication"
+        right: "Mawasiliano"
+    xp_reward: 20
+
+  - id: 97
+    type: matching
+    question: "Match the phrases"
+    pairs:
+      - left: "Can you repeat that?"
+        right: "Unaweza kurudia?"
+      - left: "I don't understand"
+        right: "Sielewi"
+      - left: "Please speak slowly"
+        right: "Tafadhali ongea pole pole"
+      - left: "Let's have a conversation"
+        right: "Tuzungumze"
+      - left: "Repeat after me"
+        right: "Rudia baada yangu"
+    xp_reward: 25
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 98
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Unaweza ___?"
+    missing_word_position: 2
+    options: ["kurudia", "kuelezea", "kunirekebisha"]
+    correct_answer: "kurudia"
+    translation: "Can you repeat that?"
+    xp_reward: 15
+
+  - id: 99
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Tafadhali ongea ___."
+    missing_word_position: 3
+    options: ["pole pole", "haraka", "vizuri"]
+    correct_answer: "pole pole"
+    translation: "Please speak slowly."
+    xp_reward: 18
+
+  - id: 100
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Unaweza kuelezea ___?"
+    missing_word_position: 3
+    options: ["hilo", "pole pole", "haraka"]
+    correct_answer: "hilo"
+    translation: "Could you explain that?"
+    xp_reward: 18
+
+  - id: 101
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Unasemaje kwa ___?"
+    missing_word_position: 3
+    options: ["Kiswahili", "mazungumzo", "usemi"]
+    correct_answer: "Kiswahili"
+    translation: "How do you say... in Kiswahili?"
+    xp_reward: 18
+
+  - id: 102
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Rudia ___ yangu."
+    missing_word_position: 2
+    options: ["baada", "kabla", "pamoja"]
+    correct_answer: "baada"
+    translation: "Repeat after me."
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions based on text
+  - id: 103
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Person A: Unaweza kurudia? Person B: Ndiyo, naweza."
+    question: "What is Person A asking?"
+    options: ["Can you speak slowly?", "Can you repeat that?", "Can you explain that?"]
+    correct_answer: "Can you repeat that?"
+    xp_reward: 15
+
+  - id: 104
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Ninajaribu kuzungumza Kiswahili. Tafadhali ongea pole pole."
+    question: "Why is the person asking the other to speak slowly?"
+    options: ["They are in a hurry", "They are trying to learn Kiswahili", "They are angry"]
+    correct_answer: "They are trying to learn Kiswahili"
+    xp_reward: 18
+
+  - id: 105
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Sielewi. Unaweza kuelezea hilo?"
+    question: "What does the person want?"
+    options: ["A repetition", "An explanation", "To speak slowly"]
+    correct_answer: "An explanation"
+    xp_reward: 18
+
+  - id: 106
+    type: read_answer
+    question: "Read the dialogue and answer the question"
+    text: "A: Tuzungumze. B: Vizuri, nataka kufanya mazoezi ya kuzungumza."
+    question: "What does B want to practice?"
+    options: ["Listening", "Speaking", "Reading"]
+    correct_answer: "Speaking"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 107
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "'Ongea' means 'to speak'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 108
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "'Elewa' means 'to repeat'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 109
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "'Sielewi' means 'I understand'."
+    correct_answer: false
+    xp_reward: 12
+
+  - id: 110
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "'Unaweza kurudia?' means 'Can you repeat that?'"
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 111
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "'Pole pole' means 'quickly'."
+    correct_answer: false
+    xp_reward: 10
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 112
+    type: conversation
+    question: "Respond to the statement by building a phrase"
+    bot_message: "Ninaongea haraka sana."
+    translation: "I speak very fast."
+    word_bank: ["Tafadhali", "ongea", "pole pole", "rudia", "vizuri"]
+    correct_response: ["Tafadhali", "ongea", "pole pole"]
+    xp_reward: 20
+
+  - id: 113
+    type: conversation
+    question: "Respond to the question"
+    bot_message: "Unaweza kurudia?"
+    translation: "Can you repeat that?"
+    options:
+      - "Ndiyo, naweza"
+      - "Sielewi"
+      - "Tuzungumze"
+    correct_response: "Ndiyo, naweza"
+    xp_reward: 15
+
+  - id: 114
+    type: conversation
+    question: "Respond to the question by building a phrase"
+    bot_message: "Unajua Kiswahili?"
+    translation: "Do you know Kiswahili?"
+    word_bank: ["Ninajaribu", "kuzungumza", "Kiswahili", "sielevi", "vizuri"]
+    correct_response: ["Ninajaribu", "kuzungumza", "Kiswahili"]
+    xp_reward: 20
+
+  - id: 115
+    type: conversation
+    question: "Respond to the invitation"
+    bot_message: "Tuzungumze?"
+    translation: "Shall we have a conversation?"
+    options:
+      - "Ndiyo, nataka kufanya mazoezi"
+      - "Sielewi"
+      - "Tafadhali ongea pole pole"
+    correct_response: "Ndiyo, nataka kufanya mazoezi"
+    xp_reward: 18
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 116
+    type: story
+    title: "Learning Kiswahili - Kujifunza Kiswahili"
+    story_intro: "Read about someone learning Kiswahili. Then build the sentences."
+    story_segments:
+      - text: "I'm trying to speak Kiswahili."
+      - text: "I don't understand."
+      - text: "Can you repeat that?"
+      - text: "Please speak slowly."
+      - text: "Can you correct me if I'm wrong?"
+      - text: "Let's have a conversation."
+      - text: "I want to practice speaking."
+    exercises:
+      - type: word_bank
+        question: "Build 'I'm trying to speak Kiswahili'"
+        word_bank: ["Ninajaribu", "kuzungumza", "Kiswahili", "kuelezea"]
+        correct_answer: ["Ninajaribu", "kuzungumza", "Kiswahili"]
+      - type: word_bank
+        question: "Build 'I don't understand'"
+        word_bank: ["Sielewi", "Unaweza", "kurudia"]
+        correct_answer: ["Sielewi"]
+      - type: word_bank
+        question: "Build 'Can you repeat that?'"
+        word_bank: ["Unaweza", "kurudia", "kuelezea", "vizuri"]
+        correct_answer: ["Unaweza", "kurudia"]
+      - type: word_bank
+        question: "Build 'Please speak slowly'"
+        word_bank: ["Tafadhali", "ongea", "pole pole", "haraka"]
+        correct_answer: ["Tafadhali", "ongea", "pole pole"]
+      - type: word_bank
+        question: "Build 'Can you correct me if I'm wrong?'"
+        word_bank: ["Unaweza", "kunirekebisha", "nikikosea"]
+        correct_answer: ["Unaweza", "kunirekebisha", "nikikosea"]
+      - type: word_bank
+        question: "Build 'Let's have a conversation'"
+        word_bank: ["Tuzungumze", "rudia", "baada"]
+        correct_answer: ["Tuzungumze"]
+      - type: word_bank
+        question: "Build 'I want to practice speaking'"
+        word_bank: ["Nataka", "kufanya", "mazoezi", "ya kuzungumza"]
+        correct_answer: ["Nataka", "kufanya", "mazoezi", "ya kuzungumza"]
+    xp_reward: 45
+
+  # 17. Pronunciation Check
+  - id: 117
+    type: pronunciation
+    question: "Say this fluency word"
+    prompt: "Ongea"
+    translation: "Speak"
+    xp_reward: 15
+
+  - id: 118
+    type: pronunciation
+    question: "Say this fluency word"
+    prompt: "Elewa"
+    translation: "Understand"
+    xp_reward: 15
+
+  - id: 119
+    type: pronunciation
+    question: "Say this fluency word"
+    prompt: "Rudia"
+    translation: "Repeat"
+    xp_reward: 15
+
+  - id: 120
+    type: pronunciation
+    question: "Say this phrase"
+    prompt: "Sielewi"
+    translation: "I don't understand"
+    xp_reward: 18
+
+  - id: 121
+    type: pronunciation
+    question: "Say this question"
+    prompt: "Unaweza kurudia"
+    translation: "Can you repeat that?"
+    xp_reward: 18
+
+  - id: 122
+    type: pronunciation
+    question: "Say this phrase"
+    prompt: "Tafadhali ongea pole pole"
+    translation: "Please speak slowly"
+    xp_reward: 20
+
+  - id: 123
+    type: pronunciation
+    question: "Say this phrase"
+    prompt: "Ninajaribu kuzungumza Kiswahili"
+    translation: "I'm trying to speak Kiswahili"
+    xp_reward: 20
+
+  # 18. Identify Correct Meaning
+  - id: 124
+    type: identify_meaning
+    question: "What does 'Sielewi' mean?"
+    context_sentence: "Sielewi."
+    word: "Sielewi"
+    options: ["I understand", "I don't understand", "Please repeat"]
+    correct_answer: "I don't understand"
+    xp_reward: 15
+
+  - id: 125
+    type: identify_meaning
+    question: "What does 'kurudia' mean in this question?"
+    context_sentence: "Unaweza kurudia?"
+    word: "kurudia"
+    options: ["to speak", "to repeat", "to explain"]
+    correct_answer: "to repeat"
+    xp_reward: 15
+
+  - id: 126
+    type: identify_meaning
+    question: "What does 'pole pole' mean in this sentence?"
+    context_sentence: "Tafadhali ongea pole pole."
+    word: "pole pole"
+    options: ["quickly", "slowly", "clearly"]
+    correct_answer: "slowly"
+    xp_reward: 15
+
+  - id: 127
+    type: identify_meaning
+    question: "What does 'kunirekebisha' mean in this question?"
+    context_sentence: "Unaweza kunirekebisha nikikosea?"
+    word: "kunirekebisha"
+    options: ["to repeat", "to correct me", "to explain"]
+    correct_answer: "to correct me"
+    xp_reward: 18
+
+  # 19. Speed Matching
+  - id: 128
+    type: speed_matching
+    title: "Match Madness: Fluency"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Speak"
+        right: "Ongea"
+      - left: "Listen"
+        right: "Sikiliza"
+      - left: "Understand"
+        right: "Elewa"
+      - left: "Repeat"
+        right: "Rudia"
+      - left: "Slowly"
+        right: "Pole pole"
+      - left: "Quickly"
+        right: "Haraka"
+      - left: "Conversation"
+        right: "Mazungumzo"
+      - left: "Question"
+        right: "Swali"
+      - left: "Answer"
+        right: "Jibu"
+      - left: "Practice"
+        right: "Mazoezi"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 129
+    type: timed_challenge
+    title: "Lightning Round: Fluency"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Speak"
+        answer: "Ongea"
+      - question: "Listen"
+        answer: "Sikiliza"
+      - question: "Understand"
+        answer: "Elewa"
+      - question: "Repeat"
+        answer: "Rudia"
+      - question: "Slowly"
+        answer: "Pole pole"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Ongea"
+      back: "Speak"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Sema"
+      back: "Say"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Zungumza"
+      back: "Talk"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Sikiliza"
+      back: "Listen"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Elewa"
+      back: "Understand"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Rudia"
+      back: "Repeat"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Tamka"
+      back: "Pronounce"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Pole pole"
+      back: "Slowly"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Haraka"
+      back: "Quickly"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Kwa ufasaha"
+      back: "Fluently"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

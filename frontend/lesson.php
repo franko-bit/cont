@@ -1,40 +1,253 @@
 <?php
 session_start();
-require_once '../backend/config.php';
+require_once '../db.php';
 
 if (!isset($_SESSION['user_id'])) {
-    header("Location: login.php");
+    header("Location: ../index.php");
     exit;
 }
 
+// UI Language translations
+$ui_languages = [
+    'en' => ['name' => 'English', 'flag' => 'gb', 'label' => 'EN'],
+    'rw' => ['name' => 'Kinyarwanda', 'flag' => 'rw', 'label' => 'RW'],
+    'sw' => ['name' => 'Kiswahili', 'flag' => 'tz', 'label' => 'SW']
+];
+
+// Get/set UI language preference
+$ui_lang = $_GET['ui_lang'] ?? $_SESSION['ui_lang'] ?? 'en';
+$_SESSION['ui_lang'] = $ui_lang;
+
+// Translation function
+function t($key) {
+    global $ui_lang;
+    $translations = [
+        'en' => [
+            'dashboard' => 'Dashboard',
+            'business_english' => 'Business English',
+            'level' => 'Level',
+            'exercises' => 'Exercises',
+            'total_xp' => 'Total XP',
+            'types' => 'Types',
+            'lang' => 'Lang',
+            'show' => 'Show:',
+            'exercises_10' => '10 exercises',
+            'exercises_15' => '15 exercises',
+            'exercises_20' => '20 exercises',
+            'exercises_30' => '30 exercises',
+            'exercises_50' => '50 exercises',
+            'exercises_all' => 'All',
+            'selected' => 'selected',
+            'start_lesson' => 'Start Lesson',
+            'continue_lesson' => 'Continue Lesson',
+            'play_voice_game' => 'Play Voice Game',
+            'exercise_preview' => 'Exercise Preview (Randomized)',
+            'leave_lesson' => 'Leave Lesson?',
+            'progress_will_be_lost' => 'Your progress will be lost.',
+            'stay' => 'Stay',
+            'leave' => 'Leave',
+            'close_lesson' => 'Close lesson',
+            'check' => 'Check',
+            'skip' => 'Skip',
+            'continue' => 'Continue →',
+            'submit' => 'Submit',
+            'play_audio' => '🔊 Play Audio',
+            'type_answer' => 'Type your answer…',
+            'type_what_hear' => 'Type what you hear…',
+        ],
+        'rw' => [
+            'dashboard' => 'Ikibaho',
+            'business_english' => 'Icyongereza cy\'Ubwenge',
+            'level' => 'Urwego',
+            'exercises' => 'Imyitozo',
+            'total_xp' => 'XP zose',
+            'types' => 'Ubwoko',
+            'lang' => 'Ururimi',
+            'show' => 'Kwereka:',
+            'exercises_10' => 'Imyitozo 10',
+            'exercises_15' => 'Imyitozo 15',
+            'exercises_20' => 'Imyitozo 20',
+            'exercises_30' => 'Imyitozo 30',
+            'exercises_50' => 'Imyitozo 50',
+            'exercises_all' => 'Byose',
+            'selected' => 'byahisw...',
+            'start_lesson' => 'Tangira Isomo',
+            'continue_lesson' => 'Komeza Isomo',
+            'play_voice_game' => 'Kina n\'Ijwi',
+            'exercise_preview' => 'Icyegeranyo cy\'Imyitozo',
+            'leave_lesson' => 'Gusohoka mu Isomo?',
+            'progress_will_be_lost' => 'Iterambere ryawe rirahagarara.',
+            'stay' => 'Guma hano',
+            'leave' => 'Sohoka',
+            'close_lesson' => 'Funga isomo',
+            'check' => 'Genzyura',
+            'skip' => 'Simbuka',
+            'continue' => 'Komeza →',
+            'submit' => 'Ohereza',
+            'play_audio' => '🔊 Umva amajwi',
+            'type_answer' => 'Andika igisubizo…',
+            'type_what_hear' => 'Andika icyo wumvise…',
+        ],
+        'sw' => [
+            'dashboard' => 'Dashibodi',
+            'business_english' => 'Kiingereza cha Biashara',
+            'level' => 'Kiwango',
+            'exercises' => 'Mazoezi',
+            'total_xp' => 'Jumla ya XP',
+            'types' => 'Aina',
+            'lang' => 'Lugha',
+            'show' => 'Onyesha:',
+            'exercises_10' => 'Mazoezi 10',
+            'exercises_15' => 'Mazoezi 15',
+            'exercises_20' => 'Mazoezi 20',
+            'exercises_30' => 'Mazoezi 30',
+            'exercises_50' => 'Mazoezi 50',
+            'exercises_all' => 'Yote',
+            'selected' => 'zilizochaguliwa',
+            'start_lesson' => 'Anza Somo',
+            'continue_lesson' => 'Endelea Somo',
+            'play_voice_game' => 'Cheza kwa Sauti',
+            'exercise_preview' => 'Hakiki ya Mazoezi',
+            'leave_lesson' => 'Kuondoka kwenye Somo?',
+            'progress_will_be_lost' => 'Maendeleo yako yatapotea.',
+            'stay' => 'Baki hapa',
+            'leave' => 'Ondoka',
+            'close_lesson' => 'Funga somo',
+            'check' => 'Kagua',
+            'skip' => 'Ruka',
+            'continue' => 'Endelea →',
+            'submit' => 'Wasilisha',
+            'play_audio' => '🔊 Cheza Sauti',
+            'type_answer' => 'Andika jibu lako…',
+            'type_what_hear' => 'Andika unachosikia…',
+        ],
+    ];
+    
+    return $translations[$ui_lang][$key] ?? $key;
+}
 $user_id = $_SESSION['user_id'];
 $level   = $_GET['level'] ?? 1;
 $topic   = $_GET['topic'] ?? 'animals.yaml';
 $exercise_id = isset($_GET['id']) ? (int)$_GET['id'] : 1;
 
-// Get language from URL or session
-$lang = $_GET['lang'] ?? $_SESSION['active_language'] ?? 'rw';
-$_SESSION['active_language'] = $lang;
+// ========== HOMEWORK ACCESS CONTROL ==========
+// If an invite_code is provided, validate email-based access
+$invite_code = trim($_GET['invite'] ?? $_GET['invite_code'] ?? '');
+if ($invite_code !== '') {
+    // Get user email
+    $stmt = $pdo->prepare("SELECT email FROM users WHERE user_id = ? LIMIT 1");
+    $stmt->execute([$user_id]);
+    $user = $stmt->fetch();
+    $user_email = $user['email'] ?? null;
+    
+    if (!$user_email) {
+        die("Error: Could not retrieve your email. Please contact support.");
+    }
+    
+    // Get assessment and check if user is in the candidate list
+    $stmt = $pdo->prepare("
+        SELECT ia.id as assessment_id, ia.title,
+               ic.id as candidate_id, ic.email, ic.status
+        FROM institution_assessments ia
+        LEFT JOIN institution_candidates ic ON ia.id = ic.assessment_id AND ic.email = ?
+        WHERE ia.invite_code = ? LIMIT 1
+    ");
+    $stmt->execute([$user_email, $invite_code]);
+    $result = $stmt->fetch();
+    
+    if (!$result) {
+        die("Error: Invalid homework invite code.");
+    }
+    
+    if (!$result['candidate_id']) {
+        die("Access Denied: Your email (" . htmlspecialchars($user_email) . ") is not on the access list for this homework. Please contact your instructor if you believe this is an error.");
+    }
+    
+    // Log access
+    error_log("HOMEWORK ACCESS: user_id=$user_id, email=$user_email, invite_code=$invite_code, assessment_id=" . $result['assessment_id']);
+}
 
-// ========== Map your folder names to language codes ==========
-$lang_folder_map = [
-    'en' => 'EN-TO-RW',  // English to Kinyarwanda
-    'rw' => 'RW-TO-EN',  // Kinyarwanda to English
-    // Add more mappings as needed for other languages
-    'fr' => 'FR-TO-EN',
-    'sw' => 'SW-TO-EN',
-    'es' => 'ES-TO-EN',
-    'de' => 'DE-TO-EN'
+// Support both old ?lang= and new ?direction= + ?pair= params
+$pair = $_GET['pair'] ?? $_SESSION['active_pair'] ?? 'en-rw';
+$direction = $_GET['direction'] ?? $_SESSION['active_direction'] ?? 'en';
+$lang = $direction;
+
+// Keep $lang for folder lookup (must stay as 'en', 'rw', 'fr')
+// But derive unique DB key from pair + direction
+$db_lang_map = [
+    'en-rw:en' => 'en-to-rw',
+    'en-rw:rw' => 'rw-to-en',
+    'fr-rw:fr' => 'fr-to-rw',
+    'fr-rw:rw' => 'rw-to-fr',
+    'en-sw:en' => 'en-to-sw',
+    'en-sw:sw' => 'sw-to-en',
+    'fr-sw:fr' => 'fr-to-sw',
+    'fr-sw:sw' => 'sw-to-fr',
 ];
+// Special case: Business English tracks progress with language_code='business-english'
+if ($pair === 'business-english') {
+    $target_lang = 'business-english';
+} else {
+    $target_lang = $db_lang_map[$pair . ':' . $direction] ?? strtolower($lang);
+    if (preg_match('/^rw-([a-z]{2})$/', $pair, $pair_match) && $direction === 'rw') {
+        $target_lang = 'rw-to-' . $pair_match[1];
+    } elseif (preg_match('/^rw-([a-z]{2})$/', $pair, $pair_match) && $direction === $pair_match[1]) {
+        $target_lang = $pair_match[1] . '-to-rw';
+    }
+}
+
+error_log("LESSON: lang=" . $lang . " pair=" . $pair . " direction=" . $direction . " target_lang=" . $target_lang);
+
+// ========== Determine folder name based on pair + direction ==========
+// This logic handles multiple language pairs intelligently
+$mapped_folder = null;
+
+// Special case: Business English uses dedicated content folder
+if ($pair === 'business-english') {
+    $mapped_folder = 'BUSINESS-ENGLISH';
+} else {
+    $pair_folder_map = [
+        'en-rw:en' => 'EN-TO-RW',
+        'en-rw:rw' => 'RW-TO-EN',
+        'fr-rw:fr' => 'FR-TO-RW',
+        'fr-rw:rw' => 'RW-TO-FR',
+        'en-sw:en' => 'EN-TO-SW',
+        'en-sw:sw' => 'SW-TO-EN',
+        'fr-sw:fr' => 'FR-TO-SW',
+        'fr-sw:sw' => 'SW-TO-FR',
+    ];
+
+    // First try pair-based mapping
+    if (isset($pair_folder_map[$pair . ':' . $direction])) {
+        $mapped_folder = $pair_folder_map[$pair . ':' . $direction];
+    } elseif (preg_match('/^rw-([a-z]{2})$/', $pair, $pair_match) && $direction === 'rw') {
+        $mapped_folder = 'RW-TO-' . strtoupper($pair_match[1]);
+    } elseif (preg_match('/^rw-([a-z]{2})$/', $pair, $pair_match) && $direction === $pair_match[1]) {
+        $mapped_folder = strtoupper($pair_match[1]) . '-TO-RW';
+    } else {
+        // Fallback to old direction-only mapping for backwards compatibility
+        $lang_folder_map = [
+            'en' => 'EN-TO-RW',  // English to Kinyarwanda
+            'rw' => 'RW-TO-EN',  // Kinyarwanda to English
+            'fr' => 'FR-TO-RW',  // French to Kinyarwanda
+            'sw' => 'SW-TO-RW',  // Swahili to Kinyarwanda
+            'es' => 'ES-TO-RW',  // Spanish to Kinyarwanda
+            'de' => 'DE-TO-RW'   // German to Kinyarwanda
+        ];
+        $mapped_folder = $lang_folder_map[$lang] ?? null;
+    }
+}
+
+// Only update session for regular language pairs (not Business English)
+// This prevents Business English from interfering with regular lesson navigation
+if ($pair !== 'business-english') {
+    $_SESSION['active_language'] = $target_lang;
+    $_SESSION['active_pair'] = $pair;
+    $_SESSION['active_direction'] = $direction;
+}
 
 // ========== Determine lesson direction for display ==========
-$mapped_folder = $lang_folder_map[$lang] ?? null;
-$lesson_direction = '';
-$direction_color = '';
-$direction_icon = '';
-
-// ========== Determine lesson direction for display ==========
-$mapped_folder = $lang_folder_map[$lang] ?? null;
+// NOTE: mapped_folder is already set above via pair_folder_map
 $lesson_direction = '';
 $direction_color = '';
 $direction_icon = '';
@@ -48,6 +261,38 @@ if ($mapped_folder) {
         $lesson_direction = 'Kinyarwanda → English';
         $direction_color = '#2196F3'; // Blue
         $direction_icon = '<span class="fi fi-rw"></span> → <span class="fi fi-gb"></span>';
+    } elseif ($mapped_folder == 'FR-TO-RW') {
+        $lesson_direction = 'French → Kinyarwanda';
+        $direction_color = '#FF9800'; // Orange
+        $direction_icon = '<span class="fi fi-fr"></span> → <span class="fi fi-rw"></span>';
+    } elseif ($mapped_folder == 'EN-TO-SW') {
+        $lesson_direction = 'English → Kiswahili';
+        $direction_color = '#FF6F00'; // Deep Orange
+        $direction_icon = '<span class="fi fi-gb"></span> → <span class="fi fi-tz"></span>';
+    } elseif ($mapped_folder == 'SW-TO-EN') {
+        $lesson_direction = 'Kiswahili → English';
+        $direction_color = '#E65100'; // Dark Orange
+        $direction_icon = '<span class="fi fi-tz"></span> → <span class="fi fi-gb"></span>';
+    } elseif ($mapped_folder == 'FR-TO-SW') {
+        $lesson_direction = 'French → Kiswahili';
+        $direction_color = '#D84315'; // Dark Deep Orange
+        $direction_icon = '<span class="fi fi-fr"></span> → <span class="fi fi-tz"></span>';
+    } elseif ($mapped_folder == 'SW-TO-FR') {
+        $lesson_direction = 'Kiswahili → French';
+        $direction_color = '#BF360C'; // Deep Orange Accent
+        $direction_icon = '<span class="fi fi-tz"></span> → <span class="fi fi-fr"></span>';
+    } elseif ($mapped_folder == 'SW-TO-RW') {
+        $lesson_direction = 'Swahili → Kinyarwanda';
+        $direction_color = '#9C27B0'; // Purple
+        $direction_icon = '<span class="fi fi-tz"></span> → <span class="fi fi-rw"></span>';
+    } elseif ($mapped_folder == 'ES-TO-RW') {
+        $lesson_direction = 'Spanish → Kinyarwanda';
+        $direction_color = '#FFC107'; // Amber
+        $direction_icon = '<span class="fi fi-es"></span> → <span class="fi fi-rw"></span>';
+    } elseif ($mapped_folder == 'DE-TO-RW') {
+        $lesson_direction = 'German → Kinyarwanda';
+        $direction_color = '#3F51B5'; // Indigo
+        $direction_icon = '<span class="fi fi-de"></span> → <span class="fi fi-rw"></span>';
     } else {
         $lesson_direction = $mapped_folder;
         $direction_color = '#9C27B0'; // Purple for other
@@ -92,7 +337,11 @@ function parse_yaml_manual($yaml){
         if($tr[0]!=='"'&&$tr[0]!=="'")$tr=trim(preg_replace('/\s+#[^"\']*$/','', $tr));
         if($tr==='')continue;
 
-        while(count($stk)>1&&$stk[count($stk)-1][0]>=$ind)array_pop($stk);
+        while(
+            count($stk)>1
+            && $stk[count($stk)-1][0]>=$ind
+            && !($tr[0]==='-'&&$stk[count($stk)-1][0]===$ind)
+        )array_pop($stk);
         $si=count($stk)-1;
         $pIdx=$stk[$si][1];
 
@@ -108,6 +357,15 @@ function parse_yaml_manual($yaml){
         if(strlen($tr)>0&&$tr[0]==='['&&$dash){
             $pool[$pIdx][]=_yaml_inline_seq($tr);continue;
         }
+        if($dash && preg_match('/^-\s*-\s*(.*)$/',$tr,$dm)){
+            $pool[$pi]=[];$pool[$pIdx][]= &$pool[$pi];
+            $itemIdx=$pi++;
+            $nested=trim($dm[1]);
+            if($nested!==''){$pool[$itemIdx][]=_yaml_scalar($nested);}
+            array_push($stk,[$ind,$itemIdx]);
+            $si=count($stk)-1;$pIdx=$itemIdx;
+            continue;
+        }
 
         if(preg_match('/^([^:]+):\s*(.*)$/',$tr,$m)){
             $key=trim($m[1]);$val=trim($m[2]);
@@ -117,7 +375,7 @@ function parse_yaml_manual($yaml){
             if($dash){
                 $pool[$pi]=[];$pool[$pIdx][]= &$pool[$pi];
                 $itemIdx=$pi++;
-                array_push($stk,[$ind,$itemIdx]);
+                array_push($stk,[$ind+1,$itemIdx]);
                 $si=count($stk)-1;$pIdx=$itemIdx;
             }
 
@@ -147,21 +405,26 @@ function parse_yaml_manual($yaml){
 }
 
 // ========== Load YAML file with folder mapping ==========
-// Try language-specific path with mapping first
-$mapped_folder = $lang_folder_map[$lang] ?? null;
+// Handle special case: exams from EXAMS folder
 $yaml_file = null;
-
-if ($mapped_folder && file_exists("../content/{$mapped_folder}/level$level/$topic")) {
-    $yaml_file = "../content/{$mapped_folder}/level$level/$topic";
-} elseif (file_exists("../content/$lang/level$level/$topic")) {
-    // Try standard language code folder
-    $yaml_file = "../content/$lang/level$level/$topic";
-} elseif (file_exists("../content/level$level/$topic")) {
-    // Fallback to non-language-specific
-    $yaml_file = "../content/level$level/$topic";
+if (strpos($topic, 'EXAMS/') === 0) {
+    // Direct path for exams (e.g., EXAMS/ENGLISH.yaml)
+    $yaml_file = "../content/$topic";
+} else {
+    // $mapped_folder is already set via pair_folder_map above; use it directly
+    if ($mapped_folder && file_exists("../content/{$mapped_folder}/level$level/$topic")) {
+        $yaml_file = "../content/{$mapped_folder}/level$level/$topic";
+    } elseif (file_exists("../content/$lang/level$level/$topic")) {
+        // Try standard language code folder
+        $yaml_file = "../content/$lang/level$level/$topic";
+    } elseif (file_exists("../content/level$level/$topic")) {
+        // Fallback to non-language-specific
+        $yaml_file = "../content/level$level/$topic";
+    }
 }
 
 if (!$yaml_file || !file_exists($yaml_file)) {
+    error_log("YAML_LOOKUP_FAIL: pair=$pair direction=$direction mapped_folder=$mapped_folder lang=$lang level=$level topic=$topic");
     die("Lesson not found. Tried: " . ($mapped_folder ? "../content/{$mapped_folder}/level$level/$topic, " : "") . "../content/$lang/level$level/$topic, ../content/level$level/$topic");
 }
 
@@ -178,6 +441,9 @@ $exercises        = $data['exercises'] ?? [];
 foreach ($exercises as $idx => &$ex) { if (!isset($ex['id'])) $ex['id'] = $idx + 1; }
 unset($ex);
 
+error_log("LESSON_LOADED: yaml_file=$yaml_file exercises_count=" . count($exercises));
+
+
 // Find current exercise and calculate progress
 $current_exercise = null;
 $next_id          = null;
@@ -192,7 +458,7 @@ $stmt = $pdo->prepare("
     FROM user_progress
     WHERE user_id = ? AND language_code = ? AND level_number = ? AND topic_file = ?
 ");
-$stmt->execute([$user_id, $lang, $level, $topic]);
+$stmt->execute([$user_id, $target_lang, $level, $topic]);
 $completed_exercises = [];
 while ($row = $stmt->fetch()) {
     $completed_exercises[$row['exercise_id']] = $row['completed'];
@@ -211,7 +477,7 @@ foreach ($exercises as $i => $ex) {
 }
 
 if (!$current_exercise) {
-    header("Location: lesson.php?lang=$lang&level=$level&topic=$topic&id=" . ($exercises[0]['id'] ?? 1));
+    header("Location: lesson.php?pair=$pair&direction=$direction&lang=$lang&level=$level&topic=$topic&id=" . ($exercises[0]['id'] ?? 1));
     exit;
 }
 
@@ -243,18 +509,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !$is_completed) {
             attempts = attempts + 1,
             completed_at = NOW()
         ");
-        $stmt->execute([$user_id, $lang, $level, $topic, $exercise_id, $xp, $result['accuracy'], $time_spent]);
+        $stmt->execute([$user_id, $target_lang, $level, $topic, $exercise_id, $xp, $result['accuracy'], $time_spent]);
 
         update_streak($pdo, $user_id);
-        update_daily_session($pdo, $user_id, $lang);
+        update_daily_session($pdo, $user_id, $target_lang);
 
         if (in_array($current_exercise['type'], ['translation', 'picture_word', 'multiple_choice'])) {
-            track_vocabulary($pdo, $user_id, $lang, $level, $topic, $current_exercise);
+            track_vocabulary($pdo, $user_id, $target_lang, $level, $topic, $current_exercise);
         }
 
         check_achievements($pdo, $user_id);
 
-        $feedback       = "✅ Correct! +$xp XP";
+        $feedback       = "  Correct! +$xp XP";
         $feedback_class = 'correct';
         $show_success   = true;
         $is_completed   = true;
@@ -270,7 +536,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !$is_completed) {
             attempts = attempts + 1,
             accuracy = (accuracy + VALUES(accuracy)) / 2
         ");
-        $stmt->execute([$user_id, $lang, $level, $topic, $exercise_id, $result['accuracy']]);
+        $stmt->execute([$user_id, $target_lang, $level, $topic, $exercise_id, $result['accuracy']]);
 
         $feedback       = "❌ " . ($result['message'] ?? 'Incorrect. Try again!');
         $feedback_class = 'incorrect';
@@ -318,7 +584,7 @@ function check_answer($exercise, $user_answer, $post_data) {
             $correct_arr = is_array($correct_val) ? $correct_val : [];
             $user_arr    = $post_data['selected_words'] ?? [];
             if (is_string($user_arr)) $user_arr = json_decode($user_arr, true) ?: [];
-            $result['correct']  = $user_arr === $correct_arr;
+            $result['correct']  = $user_arr == $correct_arr; // Loose comparison for arrays
             $result['accuracy'] = $result['correct'] ? 100 : 0;
             break;
 
@@ -475,6 +741,8 @@ $progress_percentage = $total_exercises > 0 ? round(($completed_count / $total_e
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka+One&display=swap" rel="stylesheet">
 <!-- Add this after your other CSS links -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/4.1.1/tesseract.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
 <style>
 /* ═══════════════════════════════════════════════════════════════
    KINYARWANDA LESSON — FULL REDESIGN
@@ -489,7 +757,6 @@ $progress_percentage = $total_exercises > 0 ? round(($completed_count / $total_e
   /* Palette — warm savanna */
   --sage:    #4A7C59;
   --sage-d:  #2F5E3E;
-  --sage-l:  #D6ECD F;
   --sage-l:  #DCF0E2;
   --sun:     #F5A623;
   --sun-d:   #D4841A;
@@ -572,13 +839,14 @@ body {
 .lesson-nav {
   position: fixed;
   top: 12px;
-  right: 14px;
+  left: 14px;
+  right: auto;
   z-index: 1000;
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
   max-width: calc(100vw - 28px);
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .nav-button {
@@ -946,6 +1214,33 @@ body {
   transition: background .15s, color .15s;
 }
 .close-btn:hover { background: var(--coral); color: #fff; }
+.back-btn {
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  background: var(--sky-l);
+  border: 2px solid var(--sky);
+  color: var(--sky-d);
+  font-size: 1.1rem; font-weight: 900;
+  cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  transition: background .15s, color .15s;
+}
+.back-btn:hover { background: var(--sky); color: #fff; }
+.dashboard-btn {
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  background: var(--sage-l);
+  border: 2px solid var(--sage);
+  color: var(--sage-d);
+  font-size: .9rem; font-weight: 900;
+  cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  text-decoration: none;
+  transition: background .15s, color .15s;
+}
+.dashboard-btn:hover { background: var(--sage); color: #fff; }
 .lesson-title {
   font-family: var(--font-display);
   font-weight: 800;
@@ -1324,6 +1619,26 @@ body {
   border-left: 4px solid var(--sky);
   font-size: .93rem;
 }
+.story-exercise-card {
+  background: var(--surface, #fff);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 18px;
+  margin-bottom: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+.story-exercise-card p {
+  margin-bottom: 12px;
+}
+.story-exercise-card .word-bank {
+  margin-top: 12px;
+}
+@media (max-width: 640px) {
+  .story-exercise-card {
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+}
 .read-context {
   background: var(--sun-l);
   border-radius: 14px;
@@ -1548,9 +1863,13 @@ body {
     height: 100%;
     pointer-events: none;
     z-index: 9999;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
+}
+
+#gif-container.show {
+    display: flex;
 }
 
 #gif-overlay {
@@ -1595,15 +1914,15 @@ body {
 }
 
 /* Animation types */
-.gif-correct #gif-wrapper {
+#gif-container.gif-correct #gif-wrapper {
     border: 4px solid var(--sage);
 }
 
-.gif-wrong #gif-wrapper {
+#gif-container.gif-wrong #gif-wrapper {
     border: 4px solid var(--coral);
 }
 
-.gif-idle #gif-wrapper {
+#gif-container.gif-idle #gif-wrapper {
     border: 4px solid var(--sky);
 }
 
@@ -1787,10 +2106,13 @@ body {
 </head>
 <body>
 
-<!-- Navigation buttons -->
-
-
+<!-- ═══ GLOBAL PROGRESS BAR ═══ -->
 <div id="progress-bar"><div id="progress-fill"></div></div>
+
+<!-- Navigation buttons -->
+<div class="lesson-nav">
+  <a href="dashboard.php?pair=<?= urlencode($pair) ?>&direction=<?= urlencode($direction) ?>&level=<?= $level ?>" class="nav-button dashboard" title="Back to dashboard">← <?= t('dashboard') ?></a>
+</div>
 
 <!-- ═══ GIF ANIMATION CONTAINER ═══ -->
 <div id="gif-container" style="display: none;">
@@ -1801,25 +2123,31 @@ body {
 </div>
 
 <!-- ═══ OVERVIEW SCREEN ═══ -->
+<div class="lesson-nav">
+  <a href="dashboard.php?pair=<?= urlencode($pair) ?>&direction=<?= urlencode($direction) ?>&level=<?= $level ?>" class="nav-button dashboard" title="Back to dashboard">← <?= t('dashboard') ?></a>
+</div>
 <div id="overview">
   <div class="ov-hero">
     <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">
-<span class="ov-tag" style="display: flex; align-items: center; gap: 8px;">
-    <span>Level <?= (int)$level ?></span>
-    <?php if ($lesson_direction): ?>
-        <span style="background: <?= $direction_color ?>; padding: 2px 10px; border-radius: 30px; font-size: 0.7rem;">
-            <?= $direction_icon ?> 
-        </span>
-    <?php endif; ?>
-</span>      <div class="xp-badge">⭐ <span id="ov-xp">0</span> XP</div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+      <span class="ov-tag" style="display: flex; align-items: center; gap: 8px;">
+          <span><?= t('level') ?> <?= (int)$level ?></span>
+          <?php if ($lesson_direction): ?>
+              <span style="background: <?= $direction_color ?>; padding: 2px 10px; border-radius: 30px; font-size: 0.7rem;">
+                  <?= $direction_icon ?> 
+              </span>
+          <?php endif; ?>
+      </span>
     </div>
+    <div class="xp-badge">⭐ <span id="ov-xp">0</span> XP</div>
+  </div>
     <div class="ov-title"><?= htmlspecialchars($lesson_info['name'] ?? 'Lesson') ?></div>
     <div class="ov-desc"><?= htmlspecialchars($lesson_info['description'] ?? '') ?></div>
     <div class="ov-stats">
-      <div class="ov-stat"><div class="ov-stat-n" id="ov-total"><?= count($exercises) ?></div><div class="ov-stat-l">Exercises</div></div>
-      <div class="ov-stat"><div class="ov-stat-n" id="ov-xp-total"><?= array_sum(array_column($exercises, 'xp_reward')) ?></div><div class="ov-stat-l">Total XP</div></div>
-      <div class="ov-stat"><div class="ov-stat-n"><?= count(array_unique(array_column($exercises, 'type'))) ?></div><div class="ov-stat-l">Types</div></div>
-      <div class="ov-stat"><div class="ov-stat-n"><?= strtoupper($lang) ?></div><div class="ov-stat-l">Lang</div></div>
+      <div class="ov-stat"><div class="ov-stat-n" id="ov-total"><?= count($exercises) ?></div><div class="ov-stat-l"><?= t('exercises') ?></div></div>
+      <div class="ov-stat"><div class="ov-stat-n" id="ov-xp-total"><?= array_sum(array_column($exercises, 'xp_reward')) ?></div><div class="ov-stat-l"><?= t('total_xp') ?></div></div>
+      <div class="ov-stat"><div class="ov-stat-n"><?= count(array_unique(array_column($exercises, 'type'))) ?></div><div class="ov-stat-l"><?= t('types') ?></div></div>
+      <div class="ov-stat"><div class="ov-stat-n"><?= strtoupper($lang) ?></div><div class="ov-stat-l"><?= t('lang') ?></div></div>
     </div>
   </div>
 
@@ -1828,25 +2156,29 @@ body {
   </div>
 
   <div class="range-selector">
-    <label>📚 Show:</label>
+    <label>📚 <?= t('show') ?></label>
     <select class="range-select" id="range-select" onchange="updateRange()">
-      <option value="10">10 exercises</option>
-      <option value="15">15 exercises</option>
-      <option value="20" selected>20 exercises</option>
-      <option value="30">30 exercises</option>
-      <option value="50">50 exercises</option>
-      <option value="9999">All (<?= count($exercises) ?>)</option>
+      <option value="10"><?= t('exercises_10') ?></option>
+      <option value="15"><?= t('exercises_15') ?></option>
+      <option value="20" selected><?= t('exercises_20') ?></option>
+      <option value="30"><?= t('exercises_30') ?></option>
+      <option value="50"><?= t('exercises_50') ?></option>
+      <option value="9999"><?= t('exercises_all') ?> (<?= count($exercises) ?>)</option>
     </select>
-    <span class="range-badge" id="range-badge">20 selected · Mixed</span>
   </div>
 
- <div style="display: column; gap: 12px; margin-bottom: 20px;">
-    <button id="startLessonBtn" class="oh-btn-primary" onclick="startLesson()" style="flex: 2;">📚 &nbsp; Start Lesson</button>
-    <a href="game.php?lang=<?= $lang ?>&level=<?= $level ?>&topic=<?= urlencode($topic) ?>" class="oh-btn-game" style="flex: 1;">🎮 &nbsp; Play Voice Game</a>
-  </div>
+ <div style="display: flex; flex-direction: column; gap: 20px; margin-bottom: 20px;">
+    <button id="startLessonBtn" class="oh-btn-primary" onclick="startLesson()" style="flex: 2;">
+        📚 &nbsp; <?= t('start_lesson') ?>
+    </button>
+    <a href="game.php?pair=<?= htmlspecialchars($pair) ?>&direction=<?= htmlspecialchars($direction) ?>&level=<?= $level ?>&topic=<?= urlencode($topic) ?>" class="oh-btn-game" style="flex: 1;">
+        🎮 &nbsp; <?= t('play_voice_game') ?>
+    </a>
+    
+</div>
 
   <div class="preview-card">
-    <div class="preview-hdr"><span>Exercise Preview (Randomized)</span><span id="preview-count"></span></div>
+    <div class="preview-hdr"><span><?= t('exercise_preview') ?></span><span id="preview-count"></span></div>
     <div id="preview-list"></div>
   </div>
 </div>
@@ -1854,7 +2186,7 @@ body {
 <!-- ═══ LESSON SCREEN ═══ -->
 <div id="lesson">
   <div class="lesson-header">
-    <button class="close-btn" onclick="confirmClose()" title="Close lesson">✕</button>
+    <button class="close-btn" onclick="confirmClose()" title="<?= t('close_lesson') ?>">✕</button>
 <?php if ($lesson_direction): ?>
     <span style="font-size: 0.7rem; background: <?= $direction_color ?>20; color: <?= $direction_color ?>; padding: 3px 8px; border-radius: 20px; font-weight: 700; margin-left: 8px;">
         <?= $direction_icon ?> 
@@ -1870,16 +2202,34 @@ body {
 <div id="close-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:2000;align-items:center;justify-content:center">
   <div style="background:#fff;border-radius:24px;padding:32px 28px;max-width:320px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.3)">
     <div style="font-size:2.5rem;margin-bottom:12px">🚪</div>
-    <div style="font-family:'Fredoka One',cursive;font-size:1.6rem;margin-bottom:8px">Leave Lesson?</div>
-    <div style="color:var(--muted);font-size:.95rem;margin-bottom:24px">Your progress will be lost.</div>
+    <div style="font-family:'Fredoka One',cursive;font-size:1.6rem;margin-bottom:8px"><?= t('leave_lesson') ?></div>
+    <div style="color:var(--muted);font-size:.95rem;margin-bottom:24px"><?= t('progress_will_be_lost') ?></div>
     <div style="display:flex;gap:12px;justify-content:center">
-      <button onclick="document.getElementById('close-modal').style.display='none'" style="flex:1;padding:14px;border:3px solid var(--border);border-radius:60px;font-family:'Fredoka One',cursive;font-size:1rem;background:#fff;cursor:pointer">Stay</button>
-      <button onclick="closeLesson()" style="flex:1;padding:14px;background:var(--red);color:#fff;border:none;border-radius:60px;font-family:'Fredoka One',cursive;font-size:1rem;cursor:pointer;box-shadow:0 4px 0 var(--red-dark)">Leave</button>
+      <button onclick="document.getElementById('close-modal').style.display='none'" style="flex:1;padding:14px;border:3px solid var(--border);border-radius:60px;font-family:'Fredoka One',cursive;font-size:1rem;background:#fff;cursor:pointer"><?= t('stay') ?></button>
+      <button onclick="closeLesson()" style="flex:1;padding:14px;background:var(--red);color:#fff;border:none;border-radius:60px;font-family:'Fredoka One',cursive;font-size:1rem;cursor:pointer;box-shadow:0 4px 0 var(--red-dark)"><?= t('leave') ?></button>
     </div>
   </div>
 </div>
 
 <script>
+// ========== SWAHILI AUDIO FILES ==========
+// Complete list of Swahili audio files for EN-TO-SW and FR-TO-SW lessons
+var SW_AUDIO_FILES = [
+    'alienda', 'alienda_sokoni', 'alikula', 'alikutana', 'alinywa', 'aliona', 'aliona_ndege_mrembo', 'ana_fahari_kwa_mtoto_wake_wa_kiume', 'ana_hasira', 'ana_huzuni', 'ana_utulivu', 'anga_ni_samawati', 'asante_kwa_msaada_wako', 'asubuhi', 'atakuja_kesho', 'baadaye', 'baba', 'baba_yuko_kazini', 'basi', 'begi', 'bei', 'biashara', 'bibi', 'bili', 'chakula_ni_kitamu', 'dirisha', 'elfu_moja', 'endelea_moja_kwa_moja', 'faida', 'familia_iko_vipi', 'faranga_elfu_moja', 'faranga_elfu_tano', 'faranga_mia_moja', 'gauni', 'habari_yako', 'habari_za_asubuhi', 'habari_za_asubuhi_jua_linaangaza', 'habari_za_mchana', 'hadithi', 'hapo_zamani_za_kale_kulikuwa_na_mvulana_aitwaye_paul', 'hapo_zamani_za_kale_mvulana', 'hii_inagharimu_kiasi_gani', 'hivi_karibuni', 'hoteli', 'hujambo', 'inawezekana', 'ishirini', 'jiko', 'jua', 'jua_linaangaza', 'jumapili', 'jumatatu', 'kahawa', 'kaka', 'kama', 'kama_inawezekana_nitakuja_kesho', 'kama_mvua_itanyesha_nitabaki_nyumbani', 'kama_utasoma_utafaulu', 'karibu', 'keshia_yuko_wapi', 'kesho', 'kitanda', 'kondoo', 'koti', 'kuamka', 'kuku', 'kukubali', 'kula', 'kulala', 'kulia', 'kumi', 'kumi_na_moja', 'kunanyesha', 'kuoga', 'kushoto', 'kwa_heri', 'kwenda_shule', 'labda', 'labda_tutakwenda_sokoni', 'leo_ni_jumatatu', 'leo_ni_moto', 'lugha_huunganisha_watu', 'maji', 'makubaliano', 'mama', 'mama_yuko_nyumbani', 'maoni', 'mbele', 'mbili', 'mbuzi', 'mbwa', 'mbwa_kunywa_maji', 'methali', 'meza', 'mfanyakazi', 'mia_moja', 'mimi_huamka_asubuhi', 'mimi_huenda_shule', 'mimi_husoma_kitabu', 'mjadala', 'mkahawa', 'mkutano', 'mlango', 'mlango_wazi', 'moja', 'msitu', 'mteja', 'mteja_ameridhika', 'muziki', 'mvua', 'mvulana', 'nadhani_kiswahili_ni_kizuri', 'nadhani_kwamba', 'nafurahi_kukutana_nawe', 'napenda', 'napika_jikoni', 'nataka_kununua_hii', 'nataka_maji', 'nataka_shati', 'nataka_wali', 'natumai_utafaulu', 'navaa_shati', 'ndege', 'ndege_alikuwa_amenaswa', 'ndege_huruka_juu', 'ndege_nyekundu_anaruka', 'ndizi', 'ndizi_hii_ni_bei_gani', 'ng_ombe', 'ng_ombe_hula_nyasi', 'ngoma', 'ngoma_za_kitamaduni_ni_nzuri_sana', 'nilikula', 'nilinunua_koti', 'nilinywa_maji', 'nina_furaha', 'nina_nafasi_iliyohifadhiwa', 'nina_nyumba', 'nina_shauku_ya_karamu', 'ninaendesha_kampuni', 'ninakubali', 'ninakubali_nawe', 'ninakula_chakula', 'ninakunywa_maji', 'ninapenda_familia_yangu', 'ningependa_teksi', 'nitakupiga_simu_baadaye', 'nitakwenda_kigali', 'njano', 'nyama', 'nyekundu', 'nyuma', 'nyumba', 'nzuri', 'ofa', 'ongea', 'paka', 'pasipoti', 'paul_alimsaidia_ndege', 'pesa', 'pinda_kushoto', 'pole_pole', 'rudia', 'saa_moja', 'saa_ngapi', 'samawati', 'sanaa_ni_sehemu_ya_utamaduni', 'shati', 'shati_hii_ni_bei_gani', 'sielewi', 'sijakuona_kwa_muda_mrefu', 'sikubali', 'simba', 'sipendi', 'soko', 'soko_liko_karibu', 'swali', 'tano', 'theluji', 'tiketi_ni_bei_gani', 'tufaha_ni_nyekundu', 'tulitia_saini_mkataba', 'tuna_mkutano_leo', 'tutaonana_baadaye', 'tutasafiri_wiki_ijayo', 'unafanya_nini_asubuhi', 'upepo', 'urithi_wetu_ni_muhimu', 'ushahidi', 'usiku_mwema', 'utamaduni', 'uwanja_wa_ndege_uko_wapi', 'viatu', 'wakati', 'wali', 'wana_woga', 'wiki_ijayo'
+];
+
+// Audio files list for Kinyarwanda words (for English-to-Kinyarwanda lessons)
+var RW_AUDIO_FILES = [
+    'Inka', 'Imbwa', 'Injangwe', 'Ihene', 'Intama', 'Ingurube', 'Inkoko', 'Urukwavu', 'Indogobe', 'Inuma',
+    'Inyoni', 'Intare', 'Inzovu', 'Ingagi', 'Ingwe', 'Imbogo', 'Imparage', 'Imvubu', 'Agasumbashyamba', 'Imfyisi',
+    'Inkende', 'Umusambi', 'Inzoka', 'Igikeri', 'Ifi', 'Inzuki', 'Irya', 'Inywa', 'Irasinzira', 'Iriruka',
+    'Iraguruka', 'Iroga', 'Irakina', 'Ibyatsi', 'Amazi', 'Inyama'
+];
+
+// ========== AUDIO BASE PATHS ==========
+var AUDIO_BASE = '../audio/kinyarwanda/';
+var SW_AUDIO_BASE = '../audio/swahili/';
+
 // ═══════════════════════════════════════════
 // LESSON DATA — from PHP/YAML
 // ═══════════════════════════════════════════
@@ -1902,6 +2252,8 @@ foreach ($exercises as $ex) {
     if (!isset($e['word_bank']) && isset($e['word_bank_for_fix'])) $e['word_bank'] = $e['word_bank_for_fix'];
     if (!isset($e['words']) && isset($e['scrambled_words'])) $e['words'] = $e['scrambled_words'];
     if (!isset($e['tts']) && isset($e['tts_text'])) $e['tts'] = $e['tts_text'];
+    if (!isset($e['tts']) && isset($e['audio'])) $e['tts'] = $e['audio'];
+    if (!isset($e['tts']) && isset($e['prompt'])) $e['tts'] = $e['prompt'];
     if (!isset($e['tts']) && isset($e['dialogue_tts'])) $e['tts'] = $e['dialogue_tts'];
     if (!isset($e['bot']) && isset($e['bot_message'])) $e['bot'] = $e['bot_message'];
     if (!isset($e['image']) && isset($e['image_url'])) $e['image'] = $e['image_url'];
@@ -1946,8 +2298,57 @@ echo json_encode($js_exercises, JSON_UNESCAPED_UNICODE);
 ?>;
 
 // ═══════════════════════════════════════════
-// STATE
+// UI TRANSLATIONS FOR JAVASCRIPT
 // ═══════════════════════════════════════════
+var TRANSLATIONS = <?php
+$translations_all = [
+    'en' => [
+        'dashboard' => 'Dashboard',
+        'business_english' => 'Business English',
+        'start_lesson' => 'Start Lesson',
+        'continue_lesson' => 'Continue Lesson',
+        'check' => 'Check',
+        'skip' => 'Skip',
+        'continue' => 'Continue →',
+        'submit' => 'Submit',
+        'play_audio' => '🔊 Play Audio',
+        'type_answer' => 'Type your answer…',
+        'type_what_hear' => 'Type what you hear…',
+    ],
+    'rw' => [
+        'dashboard' => 'Ikibaho',
+        'business_english' => 'Icyongereza cy\'Ubwenge',
+        'start_lesson' => 'Tangira Isomo',
+        'continue_lesson' => 'Komeza Isomo',
+        'check' => 'Reba',
+        'skip' => 'Renga',
+        'continue' => 'Komeza →',
+        'submit' => 'Kohereza',
+        'play_audio' => '🔊 Reka Amajwi',
+        'type_answer' => 'Andika igisubizo…',
+        'type_what_hear' => 'Andika cyamubitse…',
+    ],
+    'sw' => [
+        'dashboard' => 'Dashibodi',
+        'business_english' => 'Kiingereza cha Biashara',
+        'start_lesson' => 'Anza Somo',
+        'continue_lesson' => 'Endelea Somo',
+        'check' => 'Angalia',
+        'skip' => 'Ruka',
+        'continue' => 'Endelea →',
+        'submit' => 'Wasilisha',
+        'play_audio' => '🔊 Cheza Sauti',
+        'type_answer' => 'Andika jibu lako…',
+        'type_what_hear' => 'Andika unachosikia…',
+    ]
+];
+echo json_encode($translations_all, JSON_UNESCAPED_UNICODE);
+?>;
+var CURRENT_UI_LANG = '<?= $ui_lang ?>';
+
+function t_js(key) {
+    return TRANSLATIONS[CURRENT_UI_LANG]?.[key] || TRANSLATIONS['en'][key] || key;
+}
 var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition || null;
 var recognizer = null;
 var queue = [];
@@ -1959,9 +2360,10 @@ var matchLeft = null;
 var timerInt = null;
 var SHOW_COUNT = 20;
 var currentUserId = <?= $user_id ?>;
-var currentLang = '<?= $lang ?>';
+var currentLang = '<?= $target_lang ?>';
 var currentLevel = <?= $level ?>;
 var currentTopic = '<?= $topic ?>';
+var assignmentInviteCode = <?= json_encode($_GET['invite'] ?? '') ?>;
 var storyExercises = [];
 var builtWords = [];
 var storyBuiltWords = {};
@@ -1971,9 +2373,7 @@ var storyBuiltWords = {};
 // ═══════════════════════════════════════════
 var completedExercises = <?= json_encode(array_keys($completed_exercises)) ?>;
 
-console.log('✅ Completed exercises:', completedExercises);
-
-var AUDIO_BASE = '../audio/kinyarwanda/';
+console.log('  Completed exercises:', completedExercises);
 
 var LANG = '<?= $lang ?>';
 
@@ -2005,6 +2405,8 @@ function getAvailableExercises() {
 // SAVE PROGRESS TO DATABASE
 // ═══════════════════════════════════════════
 function saveProgressToDatabase(exerciseId, isCorrect, xpEarned, timeSpent) {
+    console.log('currentLang:', currentLang);
+    
     if (!isCorrect) {
         console.log('❌ Not saving - answer incorrect');
         return;
@@ -2024,7 +2426,8 @@ function saveProgressToDatabase(exerciseId, isCorrect, xpEarned, timeSpent) {
         xp: xpEarned || 10,
         accuracy: 100,
         time_spent: timeSpent || 5,
-        language_code: currentLang
+        language_code: currentLang,
+        invite_code: assignmentInviteCode || null
     };
     
     console.log('📤 Sending data:', data);
@@ -2043,7 +2446,7 @@ function saveProgressToDatabase(exerciseId, isCorrect, xpEarned, timeSpent) {
     .then(function(data) {
         console.log('📥 Server response:', data);
         if (data.success) {
-            console.log('✅ Saved successfully!');
+            console.log('  Saved successfully!');
             
             // Add to completed exercises list so it won't show again
             if (!completedExercises.includes(exerciseId)) {
@@ -2079,7 +2482,7 @@ function updateRange() {
     SHOW_COUNT = Math.min(parseInt(sel.value) || 20, availableExercises.length);
     
     var badge = document.getElementById('range-badge');
-    if (badge) badge.textContent = (SHOW_COUNT === availableExercises.length ? 'All' : SHOW_COUNT) + ' selected · ' + availableExercises.length + ' available';
+    if (badge) badge.textContent = (SHOW_COUNT === availableExercises.length ? 'All' : SHOW_COUNT) + ' selected';
     
     rebuildPreview();
 }
@@ -2122,16 +2525,16 @@ function updateStartButton() {
     var startBtn = document.getElementById('startLessonBtn');
     var availableExercises = getAvailableExercises();
     
-    if (completedExercises.length > 0) {
-        startBtn.textContent = '▶ Continue Lesson';
-        startBtn.classList.add('continue');
-    } else {
-        startBtn.textContent = '▶ Start Lesson';
-        startBtn.classList.remove('continue');
-    }
+if (completedExercises.length > 0) {
+    startBtn.textContent = '▶ ' + t_js('continue_lesson');  // Use t_js
+    startBtn.classList.add('continue');
+} else {
+    startBtn.textContent = '▶ ' + t_js('start_lesson');      // Use t_js
+    startBtn.classList.remove('continue');
+}
     
     if (availableExercises.length === 0) {
-        startBtn.textContent = '✅ All Completed!';
+        startBtn.textContent = '  All Completed!';
         startBtn.disabled = true;
         startBtn.style.opacity = '0.5';
     }
@@ -2168,7 +2571,7 @@ function initOverview() {
     
     // Add completion message if all done
     if (availableExercises.length === 0) {
-        chips.innerHTML = '<span class="type-chip" style="background:var(--green-light)">✅ All exercises completed!</span>';
+        chips.innerHTML = '<span class="type-chip" style="background:var(--green-light)">  All exercises completed!</span>';
     }
     
     rebuildPreview();
@@ -2198,6 +2601,7 @@ function startLesson() {
     console.log('🎯 Lesson queue (only new exercises):', queue.map(function(ex) { return ex.id; }));
     
     document.getElementById('overview').style.display = 'none';
+    document.querySelector('.lesson-nav').style.display = 'none';
     document.getElementById('lesson').style.display = 'block';
     render();
 }
@@ -2207,11 +2611,16 @@ function startLesson() {
 // ═══════════════════════════════════════════
 function updateProgress() {
     var pct = queue.length ? (idx / queue.length) * 100 : 0;
-    document.getElementById('progress-fill').style.width = pct + '%';
-    document.getElementById('lesson-prog').style.width = pct + '%';
-    document.getElementById('lesson-counter').textContent = idx + '/' + queue.length;
-    document.getElementById('lesson-xp').textContent = earnedXP;
-    document.getElementById('ov-xp').textContent = earnedXP;
+    var el = document.getElementById('progress-fill');
+    if (el) el.style.width = pct + '%';
+    el = document.getElementById('lesson-prog');
+    if (el) el.style.width = pct + '%';
+    el = document.getElementById('lesson-counter');
+    if (el) el.textContent = idx + '/' + queue.length;
+    el = document.getElementById('lesson-xp');
+    if (el) el.textContent = earnedXP;
+    el = document.getElementById('ov-xp');
+    if (el) el.textContent = earnedXP;
 }
 
 // ═══════════════════════════════════════════
@@ -2239,6 +2648,7 @@ function fuzzyMatch(user, correct) {
     if (u === c) return true;
     return lev(u, c) <= Math.min(2, Math.floor(c.length * 0.25));
 }
+
 // ═══════════════════════════════════════════
 // GIF ANIMATION MANAGER - Duolingo Style
 // ═══════════════════════════════════════════
@@ -2255,7 +2665,8 @@ var gifManager = {
     isVisible: false,
     
     // Show a GIF for a specified duration
-    show: function(type, duration = 2000) {
+    show: function(type, duration) {
+        if (duration === undefined) duration = 2000;
         var container = document.getElementById('gif-container');
         var gifImg = document.getElementById('gif-animation');
         
@@ -2278,15 +2689,16 @@ var gifManager = {
         
         // Show the container
         container.style.display = 'flex';
-        setTimeout(() => {
+        var self = this;
+        setTimeout(function() {
             container.classList.add('show');
         }, 10);
         
         this.isVisible = true;
         
         // Hide after duration
-        this.currentTimeout = setTimeout(() => {
-            this.hide();
+        this.currentTimeout = setTimeout(function() {
+            self.hide();
         }, duration);
     },
     
@@ -2295,7 +2707,8 @@ var gifManager = {
         var container = document.getElementById('gif-container');
         if (container) {
             container.classList.remove('show');
-            setTimeout(() => {
+            var self = this;
+            setTimeout(function() {
                 container.style.display = 'none';
             }, 400);
         }
@@ -2307,22 +2720,26 @@ var gifManager = {
     },
     
     // Show correct answer animation
-    showCorrect: function(duration = 2000) {
+    showCorrect: function(duration) {
+        if (duration === undefined) duration = 2000;
         this.show('correct', duration);
     },
     
     // Show wrong answer animation
-    showWrong: function(duration = 2000) {
+    showWrong: function(duration) {
+        if (duration === undefined) duration = 2000;
         this.show('wrong', duration);
     },
     
     // Show skip animation
-    showSkip: function(duration = 1500) {
+    showSkip: function(duration) {
+        if (duration === undefined) duration = 1500;
         this.show('skip', duration);
     },
     
     // Show idle/waiting animation
-    showIdle: function(duration = 3000) {
+    showIdle: function(duration) {
+        if (duration === undefined) duration = 3000;
         this.show('idle', duration);
     },
     
@@ -2377,239 +2794,8 @@ var gifManager = {
         }
     }
 };
-// ── INPUT ACTIVITY DETECTION FOR TYPING ANIMATION ──
-function setupActivityDetection() {
-    var input = document.getElementById('main-input');
-    if (!input) return;
-    
-    var typingTimer;
-    
-    input.addEventListener('input', function() {
-        // Show typing indicator when user starts typing
-        gifManager.showTyping();
-        
-        // Clear previous timer
-        clearTimeout(typingTimer);
-        
-        // Set timer to hide typing indicator after user stops typing
-        typingTimer = setTimeout(function() {
-            gifManager.removeTypingIndicator();
-        }, 1000);
-    });
-    
-    input.addEventListener('blur', function() {
-        // Hide typing indicator when input loses focus
-        clearTimeout(typingTimer);
-        gifManager.removeTypingIndicator();
-    });
-}
 
-// ── IDLE DETECTION ──
-var idleDetection = {
-    timeout: null,
-    idleTime: 5000, // 5 seconds of inactivity shows idle animation
-    
-    start: function() {
-        this.reset();
-        
-        // Listen for user activity
-        var events = ['mousedown', 'mousemove', 'keypress', 'scroll', 'touchstart'];
-        var self = this;
-        
-        function activityHandler() {
-            self.reset();
-        }
-        
-        events.forEach(event => {
-            document.addEventListener(event, activityHandler);
-        });
-        
-        // Store handlers for cleanup
-        this.handlers = activityHandler;
-        this.events = events;
-    },
-    
-    reset: function() {
-        if (this.timeout) {
-            clearTimeout(this.timeout);
-        }
-        
-        // Hide any existing idle animation
-        if (gifManager.isVisible && document.getElementById('gif-container').classList.contains('gif-idle')) {
-            gifManager.hide();
-        }
-        
-        // Set new timeout
-        var self = this;
-        this.timeout = setTimeout(function() {
-            // Only show idle if lesson is visible and no other animation is playing
-            if (document.getElementById('lesson').style.display === 'block' && !gifManager.isVisible) {
-                gifManager.showIdle();
-            }
-        }, this.idleTime);
-    },
-    
-    stop: function() {
-        if (this.timeout) {
-            clearTimeout(this.timeout);
-        }
-        
-        if (this.handlers) {
-            this.events.forEach(event => {
-                document.removeEventListener(event, this.handlers);
-            });
-        }
-    }
-};
-
-// ── MODIFY EXISTING FUNCTIONS TO USE GIFS ──
-
-// Override showFeedback function to include GIFs
-var originalShowFeedback = showFeedback;
-showFeedback = function(isCorrect, msg) {
-    // Show appropriate GIF
-    if (isCorrect) {
-        gifManager.showCorrect();
-    } else {
-        gifManager.showWrong();
-    }
-    
-    // Call original function
-    originalShowFeedback(isCorrect, msg);
-};
-
-// Override checkMCQ function to include GIFs
-var originalCheckMCQ = checkMCQ;
-checkMCQ = function(btn, chosen, correct) {
-    var ok = chosen.toLowerCase() === correct.toLowerCase();
-    
-    // Show GIF before checking
-    if (ok) {
-        gifManager.showCorrect();
-    } else {
-        gifManager.showWrong();
-    }
-    
-    // Call original function
-    originalCheckMCQ(btn, chosen, correct);
-};
-
-// Override checkWordBank function
-var originalCheckWordBank = checkWordBank;
-checkWordBank = function(correct) {
-    var ok = false;
-    if (Array.isArray(correct)) {
-        ok = builtWords.length === correct.length;
-        if (ok) {
-            for (var i = 0; i < builtWords.length; i++) {
-                if (builtWords[i].toLowerCase() !== correct[i].toLowerCase()) {
-                    ok = false;
-                    break;
-                }
-            }
-        }
-    } else {
-        ok = builtWords.join(' ').toLowerCase() === correct.toLowerCase();
-    }
-    
-    // Show GIF
-    if (ok) {
-        gifManager.showCorrect();
-    } else {
-        gifManager.showWrong();
-    }
-    
-    // Call original function
-    originalCheckWordBank(correct);
-};
-
-// Override checkErrorCorrectionFn
-var originalCheckErrorCorrection = checkErrorCorrectionFn;
-checkErrorCorrectionFn = function(correct, explanation) {
-    var correctArray = Array.isArray(correct) ? correct : correct.split(' ');
-    var ok = builtWords.length === correctArray.length;
-    if (ok) {
-        for (var i = 0; i < builtWords.length; i++) {
-            if (builtWords[i].toLowerCase() !== correctArray[i].toLowerCase()) {
-                ok = false;
-                break;
-            }
-        }
-    }
-    
-    // Show GIF
-    if (ok) {
-        gifManager.showCorrect();
-    } else {
-        gifManager.showWrong();
-    }
-    
-    // Call original function
-    originalCheckErrorCorrection(correct, explanation);
-};
-
-// Add loading animation when moving to next exercise
-var originalDoNext = doNext;
-doNext = function() {
-    // Show waiting bar while loading next exercise
-    gifManager.showWaitingBar();
-    
-    // Hide typing indicator if visible
-    gifManager.removeTypingIndicator();
-    
-    // Call original function after a slight delay
-    setTimeout(function() {
-        originalDoNext();
-        
-        // Remove waiting bar
-        gifManager.removeWaitingBar();
-        
-        // Setup activity detection for new input
-        setTimeout(setupActivityDetection, 100);
-    }, 300);
-};
-
-// Add animation when completing lesson
-var originalShowCompletion = showCompletion;
-showCompletion = function() {
-    // Show celebration animation
-    gifManager.showCorrect(3000);
-    
-    // Call original function
-    originalShowCompletion();
-};
-
-// Initialize activity detection when lesson starts
-var originalStartLesson = startLesson;
-startLesson = function() {
-    originalStartLesson();
-    
-    // Setup activity detection
-    setTimeout(function() {
-        setupActivityDetection();
-        
-        // Start idle detection
-        idleDetection.start();
-    }, 500);
-};
-
-// Clean up when closing lesson
-var originalCloseLesson = closeLesson;
-closeLesson = function() {
-    // Stop idle detection
-    idleDetection.stop();
-    
-    // Hide any visible GIFs
-    gifManager.hide();
-    gifManager.removeTypingIndicator();
-    gifManager.removeWaitingBar();
-    
-    originalCloseLesson();
-};
-
-// ═══════════════════════════════════════════
-// SKIP / NEXT
-// ═══════════════════════════════════════════
+// ── SKIP FUNCTION WITH ANIMATION ──
 function doSkip() {
     // Show skip animation
     gifManager.showSkip();
@@ -2623,52 +2809,30 @@ function doSkip() {
     render();
 }
 
+// ── NEXT FUNCTION ──
 function doNext() {
-    console.log('➡️ Next button clicked'); // Debug log
-    
+    console.log('➡️ Next button clicked');
+
     // Hide any visible GIFs
-    if (typeof gifManager !== 'undefined') {
-        gifManager.hide();
-        gifManager.removeTypingIndicator();
-        gifManager.removeWaitingBar();
-    }
-    
+    gifManager.hide();
+    gifManager.removeTypingIndicator();
+    gifManager.removeWaitingBar();
+
     if (timerInt) {
         clearInterval(timerInt);
         timerInt = null;
     }
-    
+
     idx++;
-    console.log('📊 Moving to exercise index:', idx, 'Queue length:', queue.length); // Debug log
-    
-    // If we've reached the end of the queue
+    console.log('📊 Moving to exercise index:', idx, 'Queue length:', queue.length);
+
+    // If we've reached the end of the queue, show completion
     if (idx >= queue.length) {
-        console.log('🏁 End of queue reached'); // Debug log
-        // Check if there are more available exercises not in queue
-        var availableExercises = getAvailableExercises();
-        var remainingNew = [];
-        for (var i = 0; i < availableExercises.length; i++) {
-            var ex = availableExercises[i];
-            var inQueue = false;
-            for (var j = 0; j < queue.length; j++) {
-                if (queue[j].id === ex.id) {
-                    inQueue = true;
-                    break;
-                }
-            }
-            if (!inQueue) {
-                remainingNew.push(ex);
-            }
-        }
-        
-        if (remainingNew.length > 0) {
-            // Add more exercises to the queue
-            console.log('➕ Adding ' + remainingNew.length + ' more exercises to queue');
-            var moreExercises = shuffle(remainingNew).slice(0, SHOW_COUNT);
-            queue = queue.concat(moreExercises);
-        }
+        console.log('🏁 End of queue reached - showing completion');
+        showCompletion();
+        return;
     }
-    
+
     render();
 }
 
@@ -2770,6 +2934,13 @@ function checkWordBank(correct) {
         ok = builtWords.join(' ').toLowerCase() === correct.toLowerCase();
     }
 
+    // Show GIF animation
+    if (ok) {
+        gifManager.showCorrect();
+    } else {
+        gifManager.showWrong();
+    }
+
     disableInputs();
     var ans = isArr ? correct.join(' ') : correct;
     showFeedback(ok, ok ? '✓ Correct!' : '✗ Correct: ' + ans);
@@ -2815,6 +2986,13 @@ function checkErrorCorrectionFn(correct, explanation) {
     
     var ex = queue[idx];
     
+    // Show GIF animation
+    if (ok) {
+        gifManager.showCorrect();
+    } else {
+        gifManager.showWrong();
+    }
+    
     disableInputs();
     var fb = document.getElementById('fb');
     if (fb) {
@@ -2845,14 +3023,15 @@ function shake() {
 }
 
 // ═══════════════════════════════════════════
-// TTS
+// TTS - UPDATED WITH SWAHILI SUPPORT
 // ═══════════════════════════════════════════
 function audioPath(f) {
     return AUDIO_BASE + f + '.mp3';
 }
 
-function speak(text, btn) {
+function speak(text, btn, exerciseType) {
     if (!text) return;
+
     var origLabel = btn ? (btn.dataset.origLabel || btn.textContent) : '🔊 Play Audio';
     if (btn) btn.dataset.origLabel = origLabel;
 
@@ -2869,81 +3048,141 @@ function speak(text, btn) {
             btn.textContent = '🔊 Playing…';
         }
     }
-    if (LANG === 'en') {
-        var sm = null;
-        for (var i = 0; i < RW_AUDIO_FILES.length; i++) {
-            if (RW_AUDIO_FILES[i].toLowerCase() === text.trim().toLowerCase()) {
-                sm = RW_AUDIO_FILES[i];
-                break;
+
+    var isEnToRw = exerciseType === 'en-to-rw';
+    var isFrToRw = exerciseType === 'fr-to-rw';
+    var isEnToSw = exerciseType === 'en-to-sw';
+    var isFrToSw = exerciseType === 'fr-to-sw';
+
+    var useAudioFile = isEnToRw || isFrToRw || isEnToSw || isFrToSw;
+    var CURRENT_AUDIO_BASE = (isEnToSw || isFrToSw) ? SW_AUDIO_BASE : AUDIO_BASE;
+    var CURRENT_AUDIO_FILES = (isEnToSw || isFrToSw) ? SW_AUDIO_FILES : RW_AUDIO_FILES;
+
+    var ttsLang = 'en-US';
+    if (isEnToRw || isFrToRw) ttsLang = 'rw-RW';
+    if (isEnToSw || isFrToSw) ttsLang = 'sw-TZ';
+    if (exerciseType === 'rw-to-fr') ttsLang = 'fr-FR';
+
+    if (useAudioFile) {
+        var cleanText = text.trim().replace(/[.,!?;:()"']/g, '');
+        var phraseFile = cleanText.replace(/\s+/g, '_');
+
+        // 1. Try exact phrase match
+        for (var j = 0; j < CURRENT_AUDIO_FILES.length; j++) {
+            if (CURRENT_AUDIO_FILES[j].toLowerCase() === phraseFile.toLowerCase()) {
+                setPlaying();
+                var audio = new Audio(CURRENT_AUDIO_BASE + CURRENT_AUDIO_FILES[j] + '.mp3');
+                audio.onended = resetBtn;
+                audio.onerror = function() { resetBtn(); };
+                audio.play()['catch'](function() { resetBtn(); });
+                return;
             }
         }
-        if (sm) {
-            setPlaying();
-            var a = new Audio(audioPath(sm));
-            a.onended = resetBtn;
-            a.onerror = function() {
-                resetBtn();
-                if (btn) {
-                    btn.textContent = '🔇 File not found';
-                    setTimeout(resetBtn, 1800);
-                }
-            };
-            a.play()['catch'](function() {
-                resetBtn();
-                if (btn) {
-                    btn.textContent = '🔇 Playback error';
-                    setTimeout(resetBtn, 1800);
-                }
-            });
-            return;
-        }
-        var words = text.trim().split(/\s+/);
+
+        // 2. Fall back to word-by-word
+        var words = cleanText.split(/\s+/);
         var hasMatch = false;
         for (var i = 0; i < words.length; i++) {
-            for (var j = 0; j < RW_AUDIO_FILES.length; j++) {
-                if (RW_AUDIO_FILES[j].toLowerCase() === words[i].toLowerCase()) {
-                    hasMatch = true;
-                    break;
-                }
+            var w = words[i].toLowerCase();
+            for (var j = 0; j < CURRENT_AUDIO_FILES.length; j++) {
+                if (CURRENT_AUDIO_FILES[j].toLowerCase() === w) { hasMatch = true; break; }
             }
             if (hasMatch) break;
         }
+
         if (hasMatch) {
             setPlaying();
-            playWordsSequentially(words, 0, resetBtn);
+            playWordsSequentially(words, 0, resetBtn, CURRENT_AUDIO_BASE, CURRENT_AUDIO_FILES);
             return;
         }
-        if (btn) {
-            btn.textContent = '🔇 No audio file';
-            setTimeout(resetBtn, 1800);
-        }
+
+        // 3. No audio found — use TTS
+        speakWithSynthesis(text, btn, ttsLang);
         return;
     }
-    speakWithSynthesis(text, btn, LANG === 'fr' ? 'fr-FR' : 'en-US');
+
+    speakWithSynthesis(text, btn, ttsLang);
 }
 
-function playWordsSequentially(words, i, onDone) {
-    if (i >= words.length) {
-        onDone();
+function playWordsSequentially(words, i, onDone, audioBase, audioFiles) {
+    audioBase = audioBase || AUDIO_BASE;
+    audioFiles = audioFiles || RW_AUDIO_FILES;
+
+    if (i >= words.length) { if (onDone) onDone(); return; }
+
+    var cleanWord = words[i].toLowerCase().replace(/[.,!?;:()"']/g, '');
+    var match = null;
+    for (var j = 0; j < audioFiles.length; j++) {
+        if (audioFiles[j].toLowerCase() === cleanWord) { match = audioFiles[j]; break; }
+    }
+
+    if (!match) {
+        playWordsSequentially(words, i + 1, onDone, audioBase, audioFiles);
         return;
     }
+
+    var a = new Audio(audioBase + match + '.mp3');
+    a.onended = function() {
+        setTimeout(function() { playWordsSequentially(words, i + 1, onDone, audioBase, audioFiles); }, 130);
+    };
+    a.onerror = function() { playWordsSequentially(words, i + 1, onDone, audioBase, audioFiles); };
+    a.play()['catch'](function() { playWordsSequentially(words, i + 1, onDone, audioBase, audioFiles); });
+}
+
+function playKinyarwandaAudio(word) {
     var match = null;
     for (var j = 0; j < RW_AUDIO_FILES.length; j++) {
-        if (RW_AUDIO_FILES[j].toLowerCase() === words[i].toLowerCase()) {
+        if (RW_AUDIO_FILES[j].toLowerCase() === word.toLowerCase()) {
             match = RW_AUDIO_FILES[j];
             break;
         }
     }
+
     if (!match) {
-        playWordsSequentially(words, i + 1, onDone);
+        console.log('No audio file for:', word);
         return;
     }
-    var a = new Audio(audioPath(match));
-    a.onended = function() { 
-        setTimeout(function() { playWordsSequentially(words, i + 1, onDone); }, 130); 
-    };
-    a.onerror = function() { playWordsSequentially(words, i + 1, onDone); };
-    a.play()['catch'](function() { playWordsSequentially(words, i + 1, onDone); });
+
+    var a = new Audio(AUDIO_BASE + match + '.mp3');
+    a.onerror = function() { console.log('Audio load error for:', match); };
+    a.play()['catch'](function() { console.log('Audio play error for:', match); });
+}
+
+function getPreferredSpeechSynthesisVoice(lang) {
+    var voices = window.speechSynthesis.getVoices();
+    if (!voices || !voices.length) return null;
+    var text = (lang || 'en-US').toLowerCase();
+    var femaleKeys = ['female','zira','hazel','samantha','susan','karen','anna','victoria','nora','luna','olivia','alloy','google us english','uk english'];
+
+    var preferred = voices.find(function(voice) {
+        var name = voice.name.toLowerCase();
+        return femaleKeys.some(function(key) {
+            return name.includes(key);
+        });
+    });
+    
+    if (!preferred) {
+        preferred = voices.find(function(voice) {
+            var uri = (voice.voiceURI || '').toLowerCase();
+            return femaleKeys.some(function(key) {
+                return uri.includes(key);
+            });
+        });
+    }
+    
+    if (!preferred) {
+        preferred = voices.find(function(voice) {
+            return voice.lang.toLowerCase().startsWith(text.slice(0,2));
+        });
+    }
+    
+    if (!preferred) {
+        preferred = voices.find(function(voice) {
+            return voice.lang.toLowerCase().startsWith('en');
+        });
+    }
+    
+    return preferred || voices[0];
 }
 
 function speakWithSynthesis(text, btn, lang) {
@@ -2957,10 +3196,28 @@ function speakWithSynthesis(text, btn, lang) {
         }
         return;
     }
+
     window.speechSynthesis.cancel();
+    var voices = window.speechSynthesis.getVoices();
+    if (!voices.length && window.speechSynthesis.onvoiceschanged !== undefined) {
+        window.speechSynthesis.onvoiceschanged = function() {
+            window.speechSynthesis.onvoiceschanged = null;
+            speakWithSynthesis(text, btn, lang);
+        };
+        return;
+    }
+
     var utt = new SpeechSynthesisUtterance(text);
     utt.lang = lang || 'en-US';
-    utt.rate = 0.85;
+    utt.rate = 0.8;
+    utt.pitch = 1.25;
+    utt.volume = 1.0;
+
+    var voice = getPreferredSpeechSynthesisVoice(lang);
+    if (voice) {
+        utt.voice = voice;
+    }
+
     if (btn) {
         btn.classList.add('playing');
         btn.textContent = '🔊 Playing…';
@@ -2983,39 +3240,47 @@ function speakWithSynthesis(text, btn, lang) {
 function renderStoryExercises(exercises) {
     var container = document.getElementById('story-exercises');
     if (!container || !exercises.length) return;
-    
+
     storyExercises = exercises;
     container.innerHTML = '<h3 style="margin:20px 0 10px">📝 Now build these sentences:</h3>';
-    
+
     for (var idx = 0; idx < exercises.length; idx++) {
         var ex = exercises[idx];
-        if (ex.type === 'word_bank') {
-            var containerId = 'story-wb-' + idx;
-            var wordBankHtml = '';
-            if (ex.word_bank) {
-                for (var w = 0; w < ex.word_bank.length; w++) {
-                    wordBankHtml += '<span class="bank-word" data-word="' + esc(ex.word_bank[w]) + '">' + esc(ex.word_bank[w]) + '</span>';
-                }
+        if (ex.type !== 'word_bank') continue;
+
+        var containerId = 'story-wb-' + idx;
+        var wordBankHtml = '';
+        if (ex.word_bank) {
+            for (var w = 0; w < ex.word_bank.length; w++) {
+                wordBankHtml += '<span class="bank-word" data-word="' + esc(ex.word_bank[w]) + '">' + esc(ex.word_bank[w]) + '</span>';
             }
-            
-            container.innerHTML += '<div class="story-exercise-card" id="story-card-' + idx + '">' +
-                '<p style="font-weight:700; margin-bottom:10px">' + (idx + 1) + '. ' + esc(ex.question) + '</p>' +
-                '<div class="sentence-builder" id="builder-' + containerId + '"><span class="builder-placeholder">Tap words below to build sentence…</span></div>' +
-                '<div class="word-bank" id="bank-' + containerId + '">' + wordBankHtml + '</div>' +
-                '<button class="check-btn" style="margin-top:10px" onclick="checkStoryExercise(\'' + containerId + '\', ' + JSON.stringify(ex.correct_answer || ex.correct) + ')">Check</button>' +
-            '</div>';
-            
-            // Initialize word bank for this story exercise
-            setTimeout(function(id, answer) {
-                setupStoryWordBank(id, answer);
-            }, 100, containerId, ex.correct_answer || ex.correct);
         }
+
+        //   createElement instead of innerHTML +=
+        var card = document.createElement('div');
+        card.className = 'story-exercise-card';
+        card.id = 'story-card-' + idx;
+        card.innerHTML =
+            '<p style="font-weight:700;margin-bottom:10px">' + (idx + 1) + '. ' + esc(ex.question) + '</p>' +
+            '<div class="sentence-builder" id="builder-' + containerId + '"><span class="builder-placeholder">Tap words below to build sentence…</span></div>' +
+            '<div class="word-bank" id="bank-' + containerId + '">' + wordBankHtml + '</div>' +
+            '<button class="check-btn" style="margin-top:10px">' + t_js('check') + '</button>';
+        container.appendChild(card); //   append once, DOM is stable
+
+        //   Wire up immediately after append — no setTimeout needed
+        (function(cid, correct) {
+            card.querySelector('.check-btn').addEventListener('click', function() {
+                checkStoryExercise(cid, correct);
+            });
+            setupStoryWordBank(cid, correct); //   elements exist right now
+        })(containerId, ex.correct_answer || ex.correct);
     }
 }
 
 // ═══════════════════════════════════════════
 // STORY WORD BANK SETUP
 // ═══════════════════════════════════════════
+
 function setupStoryWordBank(containerId, correctAnswer) {
     var bank = document.getElementById('bank-' + containerId);
     var builder = document.getElementById('builder-' + containerId);
@@ -3073,6 +3338,7 @@ function updateStoryBuilder(containerId, builder, bank, correctAnswer) {
 // ═══════════════════════════════════════════
 // CHECK STORY EXERCISE
 // ═══════════════════════════════════════════
+
 function checkStoryExercise(containerId, correctAnswer) {
     var builder = document.getElementById('builder-' + containerId);
     if (!builder) return;
@@ -3089,6 +3355,13 @@ function checkStoryExercise(containerId, correctAnswer) {
                 break;
             }
         }
+    }
+    
+    // Show GIF animation
+    if (ok) {
+        gifManager.showCorrect();
+    } else {
+        gifManager.showWrong();
     }
     
     var fb = document.createElement('div');
@@ -3136,374 +3409,7 @@ function esc(s) {
 }
 
 // ═══════════════════════════════════════════
-// RENDER
-// ═══════════════════════════════════════════
-function render() {
-    updateProgress();
-    if (idx >= queue.length) {
-        showCompletion();
-        return;
-    }
-    var ex = queue[idx];
-    var main = document.getElementById('lesson-main');
-    var typeName = ex.type.replace(/_/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
-    var letters = ['A', 'B', 'C', 'D', 'E', 'F'];
-
-    var body = '<div class="ex-card">' +
-    '<div class="ex-meta">' +
-      '<span class="ex-type">' + typeName + '</span>' +
-      '<span style="color:var(--muted);font-size:.85rem">' + (idx + 1) + '/' + queue.length + '</span>' +
-      '<span class="ex-xp">+' + ex.xp + ' XP</span>' +
-    '</div>';
-
-    if (ex.type === 'translation') {
-        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
-    '<input id="main-input" class="text-input" placeholder="Type your answer…" autocomplete="off" data-answer="' + esc(ex.answer) + '">' +
-    '<div id="fb" class="feedback"></div>' +
-    '<div class="action-row"><button class="check-btn" id="check-trans">Check</button><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'multiple_choice') {
-        body += '<div class="question-box">' + esc(ex.question) + '</div><div class="mcq-grid">';
-        for (var i = 0; i < ex.options.length; i++) {
-            var opt = ex.options[i];
-            body += '<button class="mcq-btn" onclick="checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ex.answer || ex.correct) + '\')"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
-        }
-        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'listen_and_type') {
-        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
-    '<button class="audio-btn" id="tts-btn" data-tts="' + esc(ex.tts) + '">🔊 Play Audio</button>' +
-    '<input id="main-input" class="text-input" placeholder="Type what you hear…" autocomplete="off" data-answer="' + esc(ex.answer) + '">' +
-    '<div id="fb" class="feedback"></div>' +
-    '<div class="action-row"><button class="check-btn" id="check-trans">Check</button><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'listen_and_choose' || ex.type === 'listening_comprehension') {
-        var tts = ex.tts || ex.dialogue || '';
-        var ans = ex.answer || ex.correct || '';
-        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
-    '<div style="text-align:center;margin-bottom:16px"><button class="audio-btn" id="tts-btn" data-tts="' + esc(tts) + '">🔊 Play Audio</button></div>' +
-    '<div class="mcq-grid" id="lac-grid" data-answer="' + esc(ans) + '">';
-        for (var i = 0; i < ex.options.length; i++) {
-            var opt = ex.options[i];
-            body += '<button class="mcq-btn" data-opt="' + esc(opt) + '"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
-        }
-        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'speaking' || ex.type === 'pronunciation') {
-        var micLang = LANG === 'en' ? 'rw' : (LANG === 'fr' ? 'fr-FR' : 'en-US');
-        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
-    '<div class="mic-wrap">' +
-      '<div class="speak-prompt">' + esc(ex.prompt) + '</div>' +
-      (ex.translation ? '<div style="color:var(--muted);margin-bottom:14px">' + esc(ex.translation) + '</div>' : '') +
-      '<button class="audio-btn" style="margin-bottom:16px" id="hear-btn" data-tts="' + esc(ex.prompt) + '"></button>' +
-      '<div><button class="mic-btn" id="mic-btn" data-prompt="' + esc(ex.prompt) + '" data-lang="' + micLang + '">🎤 Tap to Speak</button></div>' +
-      (!SpeechRecognition ? '<div style="color:var(--red);font-size:.85rem;margin-top:10px">⚠️ Use Chrome for speech recognition</div>' : '') +
-    '</div>' +
-    '<div id="fb" class="feedback"></div>' +
-    '<div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'word_bank' || ex.type === 'tap_hear' || ex.type === 'sentence_scramble' || ex.type === 'conversation') {
-        var wb = ex.word_bank || ex.words || [];
-        var wbHtml = '';
-        for (var i = 0; i < wb.length; i++) {
-            wbHtml += '<span class="bank-word" data-word="' + esc(wb[i]) + '">' + esc(wb[i]) + '</span>';
-        }
-        
-        if (ex.type === 'tap_hear') body += '<div class="question-box">' + esc(ex.question) + '</div><button class="audio-btn" onclick="speak(\'' + esc(ex.tts || '') + '\',this)">🔊 Play Audio</button>';
-        else if (ex.type === 'conversation') body += '<div class="question-box">🗣 ' + esc(ex.bot) + '</div><div style="color:var(--muted);font-size:.85rem;margin-bottom:14px">"' + esc(ex.translation) + '"</div>' + (ex.image ? '<img src="' + esc(ex.image) + '" class="ex-image" alt="" onerror="this.style.display=\'none\'">' : '');
-        else if (ex.type === 'sentence_scramble') body += '<div class="question-box">' + esc(ex.question) + '</div><p style="margin-bottom:10px;font-weight:700">Arrange the words:</p>';
-        else body += '<div class="question-box">' + esc(ex.question) + '</div>';
-        body += '<div class="sentence-builder" id="builder-wb"><span class="builder-placeholder">Tap words below to build sentence…</span></div>' +
-    '<div class="word-bank" id="bank-wb">' + wbHtml + '</div>' +
-    '<div id="fb" class="feedback"></div>' +
-    '<div class="action-row"><button class="check-btn" id="check-wb">Check</button><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'error_correction') {
-        var wb = ex.word_bank_for_fix || ex.word_bank || [];
-        var wbHtml = '';
-        for (var i = 0; i < wb.length; i++) {
-            wbHtml += '<span class="bank-word" data-word="' + esc(wb[i]) + '">' + esc(wb[i]) + '</span>';
-        }
-        body += '<div class="question-box">✏️ ' + esc(ex.question) + '</div>' +
-    '<div class="err-sentence">❌ ' + esc(ex.incorrect || ex.incorrect_sentence) + '</div>' +
-    '<p style="margin-bottom:10px;font-weight:700">Build the correct sentence:</p>' +
-    '<div class="sentence-builder" id="builder-wb"><span class="builder-placeholder">Tap words below to build the correct sentence…</span></div>' +
-    '<div class="word-bank" id="bank-wb">' + wbHtml + '</div>' +
-    '<div id="fb" class="feedback"></div>' +
-    '<div class="action-row"><button class="check-btn" id="check-wb">Check</button><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'fill_blank' || ex.type === 'choose_missing' || ex.type === 'grammar') {
-        var txt = ex.text || ex.text_with_blank || ex.sentence || '';
-        if (ex.type === 'grammar') body += '<div class="question-box">📐 ' + esc(ex.question) + '</div><div class="grammar-sentence">' + esc(ex.sentence) + '</div>';
-        else {
-            body += '<div class="question-box">' + esc(ex.question) + '</div><div style="font-size:1.2rem;margin-bottom:16px;font-weight:700;background:var(--yellow-light);padding:12px 20px;border-radius:14px">' + esc(txt) + '</div>';
-        }
-        var ans = ex.correct || ex.correct_answer || ex.answer || '';
-        body += '<div class="mcq-grid">';
-        for (var i = 0; i < ex.options.length; i++) {
-            var opt = ex.options[i];
-            var fn = ex.type === 'grammar' ? 'checkMCQWithExplain(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\',\'' + esc(ex.explanation || '') + '\')' : 'checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\')';
-            body += '<button class="mcq-btn" onclick="' + fn + '"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
-        }
-        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'picture_word') {
-        var ans = ex.correct || ex.correct_answer || '';
-        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
-    '<img src="' + esc(ex.image || ex.image_url || '') + '" class="ex-image" alt="Animal" onerror="this.style.display=\'none\'">' +
-    '<div class="mcq-grid">';
-        for (var i = 0; i < ex.options.length; i++) {
-            var opt = ex.options[i];
-            body += '<button class="mcq-btn" onclick="checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\')"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
-        }
-        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'matching' || ex.type === 'speed_matching') {
-        var pairs = ex.pairs || [];
-        var right = [];
-        for (var i = 0; i < pairs.length; i++) {
-            right.push(pairs[i].r);
-        }
-        right = shuffle(right);
-        
-        var leftHtml = '';
-        for (var i = 0; i < pairs.length; i++) {
-            leftHtml += '<div class="match-item" data-side="L" data-val="' + esc(pairs[i].l) + '" data-pair="' + esc(pairs[i].r) + '">' + esc(pairs[i].l) + '</div>';
-        }
-        
-        var rightHtml = '';
-        for (var i = 0; i < right.length; i++) {
-            rightHtml += '<div class="match-item" data-side="R" data-val="' + esc(right[i]) + '">' + esc(right[i]) + '</div>';
-        }
-        
-        body += '<div class="question-box">' + esc(ex.question || ex.title || 'Match the pairs') + '</div>';
-        if (ex.time && ex.type === 'speed_matching') body += '<div class="timer-pill" id="match-timer">⏱ ' + ex.time + 's</div>';
-        body += '<div class="match-score" id="match-score">0 / ' + pairs.length + ' matched</div>' +
-    '<div class="match-grid" id="match-wrap" data-total="' + pairs.length + '" data-matched="0">' +
-      '<div class="match-col">' + leftHtml + '</div>' +
-      '<div class="match-col">' + rightHtml + '</div>' +
-    '</div>' +
-    '<div id="fb" class="feedback"></div>' +
-    '<div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'read_answer') {
-        var ans = ex.correct || ex.correct_answer || '';
-        body += '<div class="read-context">' + esc(ex.text) + '</div><div class="question-box" style="font-size:1.3rem">❓ ' + esc(ex.question) + '</div><div class="mcq-grid">';
-        for (var i = 0; i < ex.options.length; i++) {
-            var opt = ex.options[i];
-            body += '<button class="mcq-btn" onclick="checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\')"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
-        }
-        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'true_false') {
-        var ans = (ex.correct === true || ex.correct_answer === true) ? 'True' : 'False';
-        body += '<div class="question-box">' + esc(ex.statement) + '</div>' +
-    '<div style="color:var(--muted);font-size:.9rem;margin-bottom:16px;text-align:center">' + esc(ex.translation) + '</div>' +
-    '<div class="tf-grid">' +
-      '<button class="tf-btn true-btn" onclick="checkMCQ(this,\'True\',\'' + ans + '\')">✓ True</button>' +
-      '<button class="tf-btn false-btn" onclick="checkMCQ(this,\'False\',\'' + ans + '\')">✗ False</button>' +
-    '</div>' +
-    '<div id="fb" class="feedback"></div>' +
-    '<div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'conversation_choice') {
-        var ans = ex.correct || ex.correct_response || '';
-        body += '<div class="question-box">🗣 ' + esc(ex.bot || ex.bot_message) + '</div>' +
-    '<div style="color:var(--muted);font-size:.85rem;margin-bottom:14px">"' + esc(ex.translation) + '"</div>' +
-    '<div class="mcq-grid">';
-        for (var i = 0; i < ex.options.length; i++) {
-            var opt = ex.options[i];
-            body += '<button class="mcq-btn" onclick="checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\')"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
-        }
-        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'story') {
-        var segs = ex.segments || [];
-        var storyExercisesList = ex.exercises || ex.items || [];
-        
-        var segsHtml = '';
-        for (var i = 0; i < segs.length; i++) {
-            segsHtml += '<div class="story-text">' + esc(segs[i].text || segs[i]) + '</div>';
-        }
-        
-        body += '<div class="question-box">📖 ' + esc(ex.title) + '</div>' +
-    '<p style="margin-bottom:14px;color:var(--muted)">' + esc(ex.intro || ex.story_intro || '') + '</p>' +
-    segsHtml +
-    '<div id="story-exercises"></div>' +
-    '<div id="fb" class="feedback"></div>' +
-    '<div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-        
-        earnedXP += ex.xp;
-        updateProgress();
-        
-        // After setting innerHTML, render the exercises
-        setTimeout(function(list) {
-            renderStoryExercises(list);
-        }, 100, storyExercisesList);
-    } else if (ex.type === 'flashcards') {
-        var cards = ex.cards || ex.flashcards || [];
-        var cardsHtml = '';
-        for (var i = 0; i < cards.length; i++) {
-            cardsHtml += '<div class="fc" onclick="this.classList.toggle(\'flipped\')"><div class="fc-front">' + esc(cards[i].front) + '</div><div class="fc-back">' + esc(cards[i].back) + '</div></div>';
-        }
-        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
-    '<p style="color:var(--muted);font-size:.85rem;margin-bottom:14px;text-align:center">Tap each card to reveal the Kinyarwanda word</p>' +
-    '<div class="fc-grid">' + cardsHtml + '</div>' +
-    '<div class="action-row"><button id="next-btn" class="next-btn show" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-        earnedXP += ex.xp;
-        updateProgress();
-    } else if (ex.type === 'identify_meaning') {
-        var ctx = ex.context || ex.context_sentence || '';
-        var highlighted = ctx.replace(new RegExp('\\b' + ex.word + '\\b', 'gi'), function(m) { return '<span class="highlight-word">' + m + '</span>'; });
-        var ans = ex.correct || ex.correct_answer || '';
-        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
-    '<p class="ctx-sentence">' + highlighted + '</p>' +
-    '<div class="word-meaning">' + esc(ex.word) + '</div>' +
-    '<div class="mcq-grid">';
-        for (var i = 0; i < ex.options.length; i++) {
-            var opt = ex.options[i];
-            body += '<button class="mcq-btn" onclick="checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\')"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
-        }
-        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'timed_challenge') {
-        body += '<div class="question-box">⚡ ' + esc(ex.title) + '</div>' +
-    '<div class="timer-pill" id="tc-timer">⏱ ' + (ex.time || ex.time_limit_seconds || 30) + 's</div>' +
-    '<div id="tc-content">' +
-      '<p style="margin-bottom:16px">Translate ' + (ex.questions || []).length + ' words as fast as you can!</p>' +
-      '<button class="start-btn" style="width:auto;padding:14px 28px;font-size:1rem" onclick="startTimedChallenge()">Start!</button>' +
-    '</div>' +
-    '<div id="fb" class="feedback"></div>' +
-    '<div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'character_writing') {
-        body += '<div class="question-box">✍️ ' + esc(ex.question) + '</div>' +
-    '<div style="text-align:center;font-family:\'Fredoka One\',cursive;font-size:2rem;margin-bottom:16px">' + esc(ex.prompt) + '</div>' +
-    '<div style="color:var(--muted);margin-bottom:12px;text-align:center">' + esc(ex.translation) + '</div>' +
-    '<canvas id="write-canvas" width="600" height="180" style="border:3px solid var(--border);border-radius:20px;background:#fff;width:100%;touch-action:none;cursor:crosshair;display:block;margin-bottom:12px"></canvas>' +
-    '<div style="text-align:center;margin-bottom:16px"><button onclick="clearWriteCanvas()" style="background:var(--red-light);border:2px solid var(--red);border-radius:30px;padding:8px 20px;font-weight:700;cursor:pointer">Clear</button></div>' +
-    '<div id="fb" class="feedback"></div>' +
-    '<div class="action-row"><button class="check-btn" onclick="checkWriting()">Submit</button><button id="next-btn" class="next-btn" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    } else if (ex.type === 'review') {
-        var items = ex.items || ex.exercises || [];
-        body += '<div class="question-box">🔄 ' + esc(ex.title || 'Review') + '</div>' +
-    '<p style="margin-bottom:18px;color:var(--muted)">Quick review of ' + items.length + ' items:</p>';
-        for (var i = 0; i < items.length; i++) {
-            var item = items[i];
-            if (item.type === 'translation') body += '<div style="background:var(--green-light);border-radius:14px;padding:12px 16px;margin-bottom:10px;font-weight:700">' + esc(item.q || item.question || '') + ' → <span style="color:var(--green-dark)">' + esc(item.a || item.answer || '') + '</span></div>';
-            else if (item.type === 'multiple_choice') body += '<div style="background:var(--blue-light);border-radius:14px;padding:12px 16px;margin-bottom:10px;font-weight:700">' + esc(item.q || item.question || '') + ' → <span style="color:var(--blue-dark)">' + esc(item.a || item.answer || '') + '</span></div>';
-            else if (item.type === 'fill_blank') body += '<div style="background:var(--yellow-light);border-radius:14px;padding:12px 16px;margin-bottom:10px;font-weight:700">' + esc(item.text || item.text_with_blank || '') + ' → <span style="color:var(--yellow-dark)">' + esc(item.a || item.correct_answer || '') + '</span></div>';
-        }
-        body += '<div class="action-row"><button id="next-btn" class="next-btn show" onclick="doNext()">Continue →</button></div>';
-        earnedXP += ex.xp;
-        updateProgress();
-    } else {
-        body += '<div class="question-box">' + esc(ex.question || ex.title || ex.prompt || 'Exercise') + '</div>' +
-    '<div class="action-row"><button id="next-btn" class="next-btn show" onclick="doNext()">Continue →</button><button class="skip-btn" onclick="doSkip()">Skip</button></div>';
-    }
-
-    body += '</div>';
-    main.innerHTML = body;
-
-    // Wire check-trans
-    var checkTransBtn = document.getElementById('check-trans');
-    if (checkTransBtn) {
-        checkTransBtn.addEventListener('click', function() {
-            var inp = document.getElementById('main-input');
-            if (!inp || inp.disabled) return;
-            var answer = inp.dataset.answer;
-            var val = inp.value.trim();
-            var ex = queue[idx];
-
-            console.log('🔍 Translation Check:', { userAnswer: val, correctAnswer: answer, exerciseId: ex ? ex.id : null });
-
-            if (!val) {
-                shake();
-                return;
-            }
-            var ok = fuzzyMatch(val, answer);
-            inp.disabled = true;
-            inp.classList.add(ok ? 'correct' : 'wrong');
-            showFeedback(ok, ok ? '✓ Correct!' : '✗ Correct answer: ' + answer);
-
-            if (ok && ex) {
-                correctCount++;
-                earnedXP += ex.xp;
-                updateProgress();
-
-                // SAVE TO DATABASE
-                console.log('💾 Saving translation exercise:', ex.id);
-                saveProgressToDatabase(ex.id, true, ex.xp, 5);
-            }
-
-            revealNext();
-        });
-    }
-
-    // Wire hear + mic
-    var hearBtn = document.getElementById('hear-btn');
-    if (hearBtn) {
-        hearBtn.addEventListener('click', function() {
-            speak(this.dataset.tts, this);
-        });
-    }
-    
-    var micBtn = document.getElementById('mic-btn');
-    if (micBtn) {
-        micBtn.addEventListener('click', function() {
-            startSpeechRecognition(this.dataset.prompt, this.dataset.lang);
-        });
-    }
-
-    // Wire tts button
-    var ttsBtnEl = document.getElementById('tts-btn');
-    if (ttsBtnEl) {
-        ttsBtnEl.addEventListener('click', function() {
-            speak(this.dataset.tts, this);
-        });
-    }
-
-    // Wire lac-grid
-    var lacGrid = document.getElementById('lac-grid');
-    if (lacGrid) {
-        var lacAnswer = lacGrid.dataset.answer;
-        var lacBtns = lacGrid.querySelectorAll('.mcq-btn');
-        for (var i = 0; i < lacBtns.length; i++) {
-            (function(btn) {
-                btn.addEventListener('click', function() {
-                    var ex = queue[idx];
-                    var ok = btn.dataset.opt.toLowerCase() === lacAnswer.toLowerCase();
-                    checkMCQ(btn, btn.dataset.opt, lacAnswer);
-                    if (ok && ex) {
-                        console.log('💾 Saving listen & choose exercise:', ex.id);
-                        saveProgressToDatabase(ex.id, true, ex.xp, 5);
-                    }
-                });
-            })(lacBtns[i]);
-        }
-    }
-
-    // Wire word bank
-    var WB_TYPES = ['word_bank', 'sentence_scramble', 'tap_hear', 'conversation', 'error_correction'];
-    if (WB_TYPES.includes(ex.type)) {
-        var wbCorrect = ex.correct || ex.correct_answer || ex.answer || ex.correct_sentence || [];
-        var wbExplain = ex.type === 'error_correction' ? (ex.explanation || '') : null;
-        
-        // For error_correction, use word_bank_for_fix or word_bank
-        var wordBank = ex.word_bank_for_fix || ex.word_bank || ex.words || [];
-        
-        setupWordBank(wordBank, wbCorrect, 'wb');
-        var checkWbBtn = document.getElementById('check-wb');
-        if (checkWbBtn) {
-            checkWbBtn.addEventListener('click', function() {
-                if (wbExplain !== null) {
-                    // For error_correction, we need to pass the correct sentence array
-                    var correctArray = Array.isArray(wbCorrect) ? wbCorrect : 
-                                        (typeof wbCorrect === 'string' ? wbCorrect.split(' ') : []);
-                    checkErrorCorrectionFn(correctArray, wbExplain);
-                } else {
-                    checkWordBank(wbCorrect);
-                }
-            });
-        }
-    }
-
-    if (ex.type === 'character_writing') setupWriteCanvas();
-    if (ex.type === 'speed_matching' && ex.time) startMatchTimer(ex.time || ex.time_limit_seconds);
-    if (ex.type === 'matching' || ex.type === 'speed_matching') setupMatching();
-
-    var inp2 = document.getElementById('main-input');
-    if (inp2) setTimeout(function() { inp2.focus(); }, 100);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-// ═══════════════════════════════════════════
-// CHECK FUNCTIONS
+// CHECK MCQ FUNCTIONS
 // ═══════════════════════════════════════════
 function checkMCQ(btn, chosen, correct) {
     var grid = btn.closest('.mcq-grid') || btn.closest('.tf-grid');
@@ -3514,6 +3420,13 @@ function checkMCQ(btn, chosen, correct) {
     var ex = queue[idx];
 
     console.log('🔍 MCQ Check:', { chosen: chosen, correct: correct, ok: ok, exerciseId: ex ? ex.id : null });
+
+    // Show GIF animation
+    if (ok) {
+        gifManager.showCorrect();
+    } else {
+        gifManager.showWrong();
+    }
 
     var allBtns = grid.querySelectorAll('.mcq-btn,.tf-btn');
     for (var i = 0; i < allBtns.length; i++) {
@@ -3551,6 +3464,13 @@ function checkMCQWithExplain(btn, chosen, correct, explanation) {
     grid.dataset.answered = '1';
     var ok = chosen.toLowerCase() === correct.toLowerCase();
     var ex = queue[idx];
+
+    // Show GIF animation
+    if (ok) {
+        gifManager.showCorrect();
+    } else {
+        gifManager.showWrong();
+    }
 
     var allBtns = grid.querySelectorAll('.mcq-btn');
     for (var i = 0; i < allBtns.length; i++) {
@@ -3627,6 +3547,9 @@ function setupMatching() {
                                 if (ex) saveProgressToDatabase(ex.id, true, ex.xp, 15);
 
                                 revealNext();
+                                setTimeout(function() {
+                                    doNext();
+                                }, 700);
                             }
                         }
                     } else {
@@ -3710,6 +3633,13 @@ function startSpeechRecognition(prompt, lang) {
         var best = alternatives[0] || '';
         var ex = queue[idx];
 
+        // Show GIF animation based on result
+        if (matched) {
+            gifManager.showCorrect();
+        } else {
+            gifManager.showWrong();
+        }
+
         if (matched) {
             showFeedback(true, '✓ Great! You said: "' + best + '"');
             correctCount++;
@@ -3776,7 +3706,7 @@ function showNextTCQuestion(ex) {
         return;
     }
     var q = ex.questions[tcQIdx];
-    cont.innerHTML = '<div style="text-align:center;margin-bottom:14px"><div style="font-family:\'Fredoka One\',cursive;font-size:1.8rem;margin-bottom:14px">' + (q.q || q.question) + '</div><input id="tc-input" class="text-input" style="max-width:320px;margin:0 auto 14px;display:block" placeholder="Type: ' + (q.a || q.answer || '').charAt(0) + '…" autocomplete="off"><button class="check-btn" style="width:auto;padding:14px 28px" onclick="checkTC()">Check</button></div>';
+    cont.innerHTML = '<div style="text-align:center;margin-bottom:14px"><div style="font-family:\'Fredoka One\',cursive;font-size:1.8rem;margin-bottom:14px">' + (q.q || q.question) + '</div><input id="tc-input" class="text-input" style="max-width:320px;margin:0 auto 14px;display:block" placeholder="Type: ' + (q.a || q.answer || '').charAt(0) + '…" autocomplete="off"><button class="check-btn" style="width:auto;padding:14px 28px" onclick="checkTC()">' + t_js('check') + '</button></div>';
     setTimeout(function() {
         var i = document.getElementById('tc-input');
         if (i) i.focus();
@@ -3789,6 +3719,14 @@ function checkTC() {
     var inp = document.getElementById('tc-input');
     if (!inp) return;
     var ok = fuzzyMatch(inp.value.trim(), q.a || q.answer || '');
+    
+    // Show GIF animation
+    if (ok) {
+        gifManager.showCorrect();
+    } else {
+        gifManager.showWrong();
+    }
+    
     if (ok) {
         tcScore++;
         // Save each correct answer in timed challenge
@@ -3878,24 +3816,22 @@ function setupWriteCanvas() {
         ctx.beginPath();
     });
 }
-
 function clearWriteCanvas() {
-    var cv = document.getElementById('write-canvas');
-    if (cv) cv.getContext('2d').clearRect(0, 0, cv.width, cv.height);
+    var canvas = document.getElementById('write-canvas');
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height); //   refill white, not just clear
+    document.getElementById('fb').className = 'feedback';
 }
-
 function checkWriting() {
     var cv = document.getElementById('write-canvas');
     if (!cv) return;
+
     var data = cv.getContext('2d').getImageData(0, 0, cv.width, cv.height).data;
     var hasContent = false;
     for (var i = 0; i < data.length; i += 4) {
-        if (data[i + 3] > 10) {
-            hasContent = true;
-            break;
-        }
+        if (data[i + 3] > 10) { hasContent = true; break; }
     }
-    var ex = queue[idx];
 
     if (!hasContent) {
         shake();
@@ -3903,17 +3839,185 @@ function checkWriting() {
         return;
     }
 
-    showFeedback(true, '✓ Great practice!');
-    correctCount++;
-    earnedXP += ex.xp;
-    updateProgress();
+    var ex = queue[idx];
+    var correct = (ex.prompt || '').trim().toLowerCase();
 
-    // SAVE TO DATABASE
-    console.log('💾 Saving writing exercise:', ex.id);
-    saveProgressToDatabase(ex.id, true, ex.xp, 15);
+    // Show loading state
+    showFeedback(true, '⏳ Reading your writing...');
+    document.querySelector('.check-btn').disabled = true;
 
-    revealNext();
+    Tesseract.recognize(cv, 'eng', {
+        tessedit_char_whitelist: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+    }).then(function(result) {
+        var recognized = result.data.text.trim().toLowerCase().replace(/[^a-z]/g, '');
+        var ok = recognized === correct;
+
+        // Show GIF animation
+        if (ok) {
+            gifManager.showCorrect();
+        } else {
+            gifManager.showWrong();
+        }
+
+        document.querySelector('.check-btn').disabled = false;
+
+        if (!ok) {
+            shake();
+            showFeedback(false, '✗ Recognized: "' + recognized + '" — expected: "' + correct + '"');
+            return;
+        }
+
+        showFeedback(true, '✓ Correct! Well written!');
+        correctCount++;
+        earnedXP += ex.xp_reward || ex.xp || 0;
+        updateProgress();
+        saveProgressToDatabase(ex.id, true, ex.xp_reward || ex.xp, 15);
+        revealNext();
+
+    }).catch(function() {
+        // OCR failed — do not accept
+        document.querySelector('.check-btn').disabled = false;
+        shake();
+        showFeedback(false, 'Unable to recognize the writing. Please try writing more clearly.');
+    });
 }
+function initWriteCanvas() {
+    var canvas = document.getElementById('write-canvas');
+    if (!canvas) return;
+    var ctx = canvas.getContext('2d');
+    var drawing = false;
+
+    // White background for Tesseract OCR
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.strokeStyle = '#000000';
+    ctx.lineWidth = 4;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+
+    // Mouse
+    canvas.addEventListener('mousedown', function(e) {
+        drawing = true;
+        ctx.beginPath();
+        ctx.moveTo(e.offsetX, e.offsetY);
+    });
+    canvas.addEventListener('mousemove', function(e) {
+        if (!drawing) return;
+        ctx.lineTo(e.offsetX, e.offsetY);
+        ctx.stroke();
+    });
+    canvas.addEventListener('mouseup', function() { drawing = false; });
+    canvas.addEventListener('mouseleave', function() { drawing = false; });
+
+    // Touch
+    canvas.addEventListener('touchstart', function(e) {
+        e.preventDefault();
+        drawing = true;
+        var t = e.touches[0];
+        var r = canvas.getBoundingClientRect();
+        var scaleX = canvas.width / r.width;
+        var scaleY = canvas.height / r.height;
+        ctx.beginPath();
+        ctx.moveTo((t.clientX - r.left) * scaleX, (t.clientY - r.top) * scaleY);
+    });
+    canvas.addEventListener('touchmove', function(e) {
+        e.preventDefault();
+        if (!drawing) return;
+        var t = e.touches[0];
+        var r = canvas.getBoundingClientRect();
+        var scaleX = canvas.width / r.width;
+        var scaleY = canvas.height / r.height;
+        ctx.lineTo((t.clientX - r.left) * scaleX, (t.clientY - r.top) * scaleY);
+        ctx.stroke();
+    });
+    canvas.addEventListener('touchend', function() { drawing = false; });
+}
+
+// ── INPUT ACTIVITY DETECTION FOR TYPING ANIMATION ──
+function setupActivityDetection() {
+    var input = document.getElementById('main-input');
+    if (!input) return;
+    
+    var typingTimer;
+    
+    input.addEventListener('input', function() {
+        // Show typing indicator when user starts typing
+        gifManager.showTyping();
+        
+        // Clear previous timer
+        clearTimeout(typingTimer);
+        
+        // Set timer to hide typing indicator after user stops typing
+        typingTimer = setTimeout(function() {
+            gifManager.removeTypingIndicator();
+        }, 1000);
+    });
+    
+    input.addEventListener('blur', function() {
+        // Hide typing indicator when input loses focus
+        clearTimeout(typingTimer);
+        gifManager.removeTypingIndicator();
+    });
+}
+
+// ── IDLE DETECTION ──
+var idleDetection = {
+    timeout: null,
+    idleTime: 5000, // 5 seconds of inactivity shows idle animation
+    
+    start: function() {
+        this.reset();
+        
+        // Listen for user activity
+        var events = ['mousedown', 'mousemove', 'keypress', 'scroll', 'touchstart'];
+        var self = this;
+        
+        function activityHandler() {
+            self.reset();
+        }
+        
+        events.forEach(event => {
+            document.addEventListener(event, activityHandler);
+        });
+        
+        // Store handlers for cleanup
+        this.handlers = activityHandler;
+        this.events = events;
+    },
+    
+    reset: function() {
+        if (this.timeout) {
+            clearTimeout(this.timeout);
+        }
+        
+        // Hide any existing idle animation
+        var container = document.getElementById('gif-container');
+        if (container && container.classList.contains('gif-idle')) {
+            gifManager.hide();
+        }
+        
+        // Set new timeout
+        var self = this;
+        this.timeout = setTimeout(function() {
+            // Only show idle if lesson is visible and no other animation is playing
+            if (document.getElementById('lesson').style.display === 'block' && !gifManager.isVisible) {
+                gifManager.showIdle();
+            }
+        }, this.idleTime);
+    },
+    
+    stop: function() {
+        if (this.timeout) {
+            clearTimeout(this.timeout);
+        }
+        
+        if (this.handlers && this.events) {
+            this.events.forEach(event => {
+                document.removeEventListener(event, this.handlers);
+            });
+        }
+    }
+};
 
 // ── ENTER KEY ──
 document.addEventListener('keydown', function(e) {
@@ -3923,6 +4027,14 @@ document.addEventListener('keydown', function(e) {
             e.preventDefault();
             var ex = queue[idx];
             var ok = fuzzyMatch(inp.value.trim(), ex.answer || '');
+            
+            // Show GIF animation
+            if (ok) {
+                gifManager.showCorrect();
+            } else {
+                gifManager.showWrong();
+            }
+            
             inp.disabled = true;
             inp.classList.add(ok ? 'correct' : 'wrong');
             showFeedback(ok, ok ? '✓ Correct!' : '✗ Correct answer: ' + (ex.answer || ''));
@@ -3947,6 +4059,497 @@ document.addEventListener('keydown', function(e) {
 });
 
 // ═══════════════════════════════════════════
+// RENDER FUNCTION - UPDATED WITH SWAHILI DIRECTION
+// ═══════════════════════════════════════════
+function render() {
+    updateProgress();
+    if (idx >= queue.length) {
+        showCompletion();
+        return;
+    }
+    var ex = queue[idx];
+    var main = document.getElementById('lesson-main');
+    var typeName = ex.type.replace(/_/g, ' ').replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+    var letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+    var body = '<div class="ex-card">' +
+    '<div class="ex-meta">' +
+      '<span class="ex-type">' + typeName + '</span>' +
+      '<span style="color:var(--muted);font-size:.85rem">' + (idx + 1) + '/' + queue.length + '</span>' +
+      '<span class="ex-xp">+' + ex.xp + ' XP</span>' +
+    '</div>';
+
+    if (ex.type === 'translation') {
+        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
+    '<input id="main-input" class="text-input" placeholder="' + t_js('type_answer') + '" autocomplete="off" data-answer="' + esc(ex.answer) + '">' +
+    '<div id="fb" class="feedback"></div>' +
+    '<div class="action-row"><button class="check-btn" id="check-trans">' + t_js('check') + '</button><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'multiple_choice') {
+        body += '<div class="question-box">' + esc(ex.question) + '</div><div class="mcq-grid">';
+        for (var i = 0; i < ex.options.length; i++) {
+            var opt = ex.options[i];
+            body += '<button class="mcq-btn" onclick="checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ex.answer || ex.correct) + '\')"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
+        }
+        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'listen_and_type') {
+        var listenDirection = currentLang;
+        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
+    '<button class="audio-btn" id="tts-btn" data-tts="' + esc(ex.tts) + '" data-exercise-type="' + listenDirection + '">' + t_js('play_audio') + '</button>' +
+    '<input id="main-input" class="text-input" placeholder="' + t_js('type_what_hear') + '" autocomplete="off" data-answer="' + esc(ex.answer) + '">' +
+    '<div id="fb" class="feedback"></div>' +
+    '<div class="action-row"><button class="check-btn" id="check-trans">' + t_js('check') + '</button><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'listen_and_choose' || ex.type === 'listening_comprehension') {
+        var tts = ex.tts || ex.dialogue || '';
+        var ans = ex.answer || ex.correct || '';
+        var listenDirection = currentLang;
+        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
+    '<div style="text-align:center;margin-bottom:16px"><button class="audio-btn" id="tts-btn" data-tts="' + esc(tts) + '" data-exercise-type="' + listenDirection + '">' + t_js('play_audio') + '</button></div>' +
+    '<div class="mcq-grid" id="lac-grid" data-answer="' + esc(ans) + '">';
+        for (var i = 0; i < ex.options.length; i++) {
+            var opt = ex.options[i];
+            body += '<button class="mcq-btn" data-opt="' + esc(opt) + '"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
+        }
+        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    }else if (ex.type === 'speaking' || ex.type === 'pronunciation') {
+    var micLang = (currentLang === 'rw-to-en') ? 'en-US' : ((currentLang === 'rw-to-fr') ? 'fr-FR' : (LANG === 'en' ? 'rw' : (LANG === 'fr' ? 'fr-FR' : 'en-US')));
+    var exerciseDirection = currentLang;
+
+    var audioButton;
+    if (ex.prompt.includes(' ')) {
+        audioButton = `<button 
+            class="audio-btn" 
+            style="margin-bottom:16px" 
+            id="hear-btn" 
+            data-tts="${esc(ex.prompt)}"
+            data-exercise-type="${exerciseDirection}">
+            🔊 Tap to listen
+        </button>`;
+    } else if (currentLang === 'rw-to-en' || currentLang === 'rw-to-fr') {
+        audioButton = `<button class="audio-btn" style="margin-bottom:16px" onclick="playKinyarwandaAudio('${esc(ex.prompt)}')">🔊 Tap to listen</button>`;
+    } else {
+        audioButton = `<button 
+            class="audio-btn" 
+            style="margin-bottom:16px" 
+            id="hear-btn" 
+            data-tts="${esc(ex.prompt)}"
+            data-exercise-type="${exerciseDirection}">
+            🔊 Tap to listen
+        </button>`;
+    }
+
+    body += `
+        <div class="question-box">${esc(ex.question)}</div>
+
+        <div class="mic-wrap">
+            ${audioButton}
+
+            <div>
+                <button 
+                    class="mic-btn" 
+                    id="mic-btn" 
+                    data-prompt="${esc(ex.translation || ex.answer || ex.prompt)}" 
+                    data-lang="${micLang}">
+                    🎤 Tap to Speak
+                </button>
+            </div>
+
+            ${!SpeechRecognition ? 
+                `<div style="color:var(--red); font-size:.85rem; margin-top:10px;">
+                    ⚠️ Use Chrome for speech recognition
+                </div>` 
+                : ''
+            }
+        </div>
+
+        <div id="fb" class="feedback"></div>
+
+        <div class="action-row">
+            <button id="next-btn" class="next-btn" onclick="doNext()">${t_js('continue')}</button>
+            <button class="skip-btn" onclick="doSkip()">${t_js('skip')}</button>
+        </div>
+    `;
+    } else if (ex.type === 'word_bank' || ex.type === 'sentence_scramble' || ex.type === 'tap_hear' || ex.type === 'conversation' || ex.type === 'error_correction') {
+        var wb = ex.word_bank || ex.word_bank_for_fix || ex.words || [];
+        var wbHtml = '';
+        for (var i = 0; i < wb.length; i++) {
+            wbHtml += '<span class="bank-word" data-word="' + esc(wb[i]) + '">' + esc(wb[i]) + '</span>';
+        }
+        
+        if (ex.type === 'tap_hear') {
+            var tapHearDirection = currentLang;
+            body += '<div class="question-box">' + esc(ex.question) + '</div><button class="audio-btn" onclick="speak(\'' + esc(ex.tts || '') + '\',this,\'' + tapHearDirection + '\')">' + t_js('play_audio') + '</button>';
+            body += '<div class="sentence-builder" id="builder-wb"><span class="builder-placeholder">Tap words below to build sentence…</span></div>' +
+                '<div class="word-bank" id="bank-wb">' + wbHtml + '</div>' +
+                '<div id="fb" class="feedback"></div>' +
+                '<div class="action-row"><button class="check-btn" id="check-wb">' + t_js('check') + '</button><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+        }
+
+        else if (ex.type === 'conversation' || ex.type === 'conversation_choice') {
+            var botMsg = ex.bot || ex.bot_message || '';
+            var translation = ex.translation || '';
+
+            body += '<div class="question-box">🗣 ' + esc(botMsg) + '</div>' +
+                '<div style="color:var(--muted);font-size:.85rem;margin-bottom:14px">"' + esc(translation) + '"</div>' +
+                (ex.image_url || ex.image ? '<img src="' + esc(ex.image_url || ex.image) + '" class="ex-image" alt="" onerror="this.style.display=\'none\'">' : '');
+
+            //   If options exist, render MCQ
+            if (ex.options && ex.options.length) {
+                var ans = ex.correct || ex.correct_response || '';
+                if (Array.isArray(ans)) ans = ans.join(' ');
+                body += '<div class="mcq-grid">';
+                for (var i = 0; i < ex.options.length; i++) {
+                    var opt = ex.options[i];
+                    body += '<button class="mcq-btn" onclick="checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\')"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
+                }
+                body += '</div>';
+            
+            //   If word_bank exists, render word bank
+            } else if (ex.word_bank && ex.word_bank.length) {
+                var correct = ex.correct_response || ex.correct || [];
+                body += '<div class="sentence-builder" id="builder-conv"><span class="builder-placeholder">Tap words below to build sentence…</span></div>' +
+                    '<div class="word-bank" id="bank-conv">';
+                for (var w = 0; w < ex.word_bank.length; w++) {
+                    body += '<span class="bank-word" data-word="' + esc(ex.word_bank[w]) + '">' + esc(ex.word_bank[w]) + '</span>';
+                }
+                body += '</div>';
+                setTimeout(function() { setupWordBank(ex.word_bank, correct, 'conv'); }, 50);
+            }
+
+            body += '<div id="fb" class="feedback"></div>' +
+                '<div class="action-row"><button id="next-btn" class="next-btn show" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+
+        } else if (ex.type === 'sentence_scramble') {
+            body += '<div class="question-box">' + esc(ex.question) + '</div><p style="margin-bottom:10px;font-weight:700">Arrange the words:</p>';
+            body += '<div class="sentence-builder" id="builder-wb"><span class="builder-placeholder">Tap words below to build sentence…</span></div>' +
+                '<div class="word-bank" id="bank-wb">' + wbHtml + '</div>' +
+                '<div id="fb" class="feedback"></div>' +
+                '<div class="action-row"><button class="check-btn" id="check-wb">' + t_js('check') + '</button><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+        } else {
+            body += '<div class="question-box">' + esc(ex.question) + '</div>';
+            body += '<div class="sentence-builder" id="builder-wb"><span class="builder-placeholder">Tap words below to build sentence…</span></div>' +
+                '<div class="word-bank" id="bank-wb">' + wbHtml + '</div>' +
+                '<div id="fb" class="feedback"></div>' +
+                '<div class="action-row"><button class="check-btn" id="check-wb">' + t_js('check') + '</button><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+        }
+    } else if (ex.type === 'error_correction') {
+        var wb = ex.word_bank_for_fix || ex.word_bank || [];
+        var wbHtml = '';
+        for (var i = 0; i < wb.length; i++) {
+            wbHtml += '<span class="bank-word" data-word="' + esc(wb[i]) + '">' + esc(wb[i]) + '</span>';
+        }
+        body += '<div class="question-box">✏️ ' + esc(ex.question) + '</div>' +
+    '<div class="err-sentence">❌ ' + esc(ex.incorrect || ex.incorrect_sentence) + '</div>' +
+    '<p style="margin-bottom:10px;font-weight:700">Build the correct sentence:</p>' +
+    '<div class="sentence-builder" id="builder-wb"><span class="builder-placeholder">Tap words below to build the correct sentence…</span></div>' +
+    '<div class="word-bank" id="bank-wb">' + wbHtml + '</div>' +
+    '<div id="fb" class="feedback"></div>' +
+    '<div class="action-row"><button class="check-btn" id="check-wb">' + t_js('check') + '</button><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'fill_blank' || ex.type === 'choose_missing' || ex.type === 'grammar') {
+        var txt = ex.text || ex.text_with_blank || ex.sentence || '';
+        if (ex.type === 'grammar') body += '<div class="question-box">📐 ' + esc(ex.question) + '</div><div class="grammar-sentence">' + esc(ex.sentence) + '</div>';
+        else {
+            body += '<div class="question-box">' + esc(ex.question) + '</div><div style="font-size:1.2rem;margin-bottom:16px;font-weight:700;background:var(--yellow-light);padding:12px 20px;border-radius:14px">' + esc(txt) + '</div>';
+        }
+        var ans = ex.correct || ex.correct_answer || ex.answer || '';
+        body += '<div class="mcq-grid">';
+        for (var i = 0; i < ex.options.length; i++) {
+            var opt = ex.options[i];
+            var fn = ex.type === 'grammar' ? 'checkMCQWithExplain(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\',\'' + esc(ex.explanation || '') + '\')' : 'checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\')';
+            body += '<button class="mcq-btn" onclick="' + fn + '"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
+        }
+        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'picture_word') {
+        var ans = ex.correct || ex.correct_answer || '';
+        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
+    '<img src="' + esc(ex.image || ex.image_url || '') + '" class="ex-image" alt="Animal" onerror="this.style.display=\'none\'">' +
+    '<div class="mcq-grid">';
+        for (var i = 0; i < ex.options.length; i++) {
+            var opt = ex.options[i];
+            body += '<button class="mcq-btn" onclick="checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\')"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
+        }
+        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'matching' || ex.type === 'speed_matching') {
+        var pairs = ex.pairs || [];
+        var right = [];
+        for (var i = 0; i < pairs.length; i++) {
+            right.push(pairs[i].r);
+        }
+        right = shuffle(right);
+        
+        var leftHtml = '';
+        for (var i = 0; i < pairs.length; i++) {
+            leftHtml += '<div class="match-item" data-side="L" data-val="' + esc(pairs[i].l) + '" data-pair="' + esc(pairs[i].r) + '">' + esc(pairs[i].l) + '</div>';
+        }
+        
+        var rightHtml = '';
+        for (var i = 0; i < right.length; i++) {
+            rightHtml += '<div class="match-item" data-side="R" data-val="' + esc(right[i]) + '">' + esc(right[i]) + '</div>';
+        }
+        
+        body += '<div class="question-box">' + esc(ex.question || ex.title || 'Match the pairs') + '</div>';
+        if (ex.time && ex.type === 'speed_matching') body += '<div class="timer-pill" id="match-timer">⏱ ' + ex.time + 's</div>';
+        body += '<div class="match-score" id="match-score">0 / ' + pairs.length + ' matched</div>' +
+    '<div class="match-grid" id="match-wrap" data-total="' + pairs.length + '" data-matched="0">' +
+      '<div class="match-col">' + leftHtml + '</div>' +
+      '<div class="match-col">' + rightHtml + '</div>' +
+    '</div>' +
+    '<div id="fb" class="feedback"></div>' +
+    '<div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'read_answer') {
+        var ans = ex.correct || ex.correct_answer || '';
+        body += '<div class="read-context">' + esc(ex.text) + '</div><div class="question-box" style="font-size:1.3rem">❓ ' + esc(ex.question) + '</div><div class="mcq-grid">';
+        for (var i = 0; i < ex.options.length; i++) {
+            var opt = ex.options[i];
+            body += '<button class="mcq-btn" onclick="checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\')"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
+        }
+        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'true_false') {
+        var ans = (ex.correct === true || ex.correct_answer === true) ? 'True' : 'False';
+        body += '<div class="question-box">' + esc(ex.statement) + '</div>' +
+    '<div style="color:var(--muted);font-size:.9rem;margin-bottom:16px;text-align:center">' + esc(ex.translation) + '</div>' +
+    '<div class="tf-grid">' +
+      '<button class="tf-btn true-btn" onclick="checkMCQ(this,\'True\',\'' + ans + '\')">✓ True</button>' +
+      '<button class="tf-btn false-btn" onclick="checkMCQ(this,\'False\',\'' + ans + '\')">✗ False</button>' +
+    '</div>' +
+    '<div id="fb" class="feedback"></div>' +
+    '<div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'story') {
+        var segs = ex.segments || [];
+        var storyExercisesList = ex.exercises || ex.items || [];
+        
+        var segsHtml = '';
+        for (var i = 0; i < segs.length; i++) {
+            segsHtml += '<div class="story-text">' + esc(segs[i].text || segs[i]) + '</div>';
+        }
+        
+        body += '<div class="question-box">📖 ' + esc(ex.title) + '</div>' +
+    '<p style="margin-bottom:14px;color:var(--muted)">' + esc(ex.intro || ex.story_intro || '') + '</p>' +
+    segsHtml +
+    '<div id="story-exercises"></div>' +
+    '<div id="fb" class="feedback"></div>' +
+    '<div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+        
+        earnedXP += ex.xp;
+        updateProgress();
+        
+        // After setting innerHTML, render the exercises
+        setTimeout(function(list) {
+            renderStoryExercises(list);
+        }, 100, storyExercisesList);
+    } else if (ex.type === 'flashcards') {
+        var cards = Array.isArray(ex.cards) ? ex.cards : (Array.isArray(ex.flashcards) ? ex.flashcards : []);
+        var cardsHtml = '';
+        for (var i = 0; i < cards.length; i++) {
+            var card = cards[i] || {};
+            var front = card.front || card.question || card.prompt || '';
+            var back = card.back || card.answer || card.translation || '';
+            var frontHtml = card.image ? '<img src="' + esc(card.image) + '" alt="' + esc(front) + '" style="max-width:100%;max-height:60px;border-radius:8px;margin-bottom:4px;"><br>' + esc(front) : esc(front);
+            cardsHtml += '<div class="fc" onclick="this.classList.toggle(\'flipped\')"><div class="fc-front">' + frontHtml + '</div><div class="fc-back">' + esc(back) + '</div></div>';
+        }
+        if (!cardsHtml) {
+            cardsHtml = '<div class="feedback" style="color:var(--muted);text-align:center;padding:14px;border:1px dashed var(--border);border-radius:14px;">No flashcards data is available for this exercise.</div>';
+        }
+        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
+    '<p style="color:var(--muted);font-size:.85rem;margin-bottom:14px;text-align:center">Tap each card to reveal the Kinyarwanda word</p>' +
+    '<div class="fc-grid">' + cardsHtml + '</div>' +
+    '<div class="action-row"><button id="next-btn" class="next-btn show" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+        earnedXP += ex.xp;
+        updateProgress();
+    } else if (ex.type === 'identify_meaning') {
+        var ctx = ex.context || ex.context_sentence || '';
+        var highlighted = ctx.replace(new RegExp('\\b' + ex.word + '\\b', 'gi'), function(m) { return '<span class="highlight-word">' + m + '</span>'; });
+        var ans = ex.correct || ex.correct_answer || '';
+        body += '<div class="question-box">' + esc(ex.question) + '</div>' +
+    '<p class="ctx-sentence">' + highlighted + '</p>' +
+    '<div class="word-meaning">' + esc(ex.word) + '</div>' +
+    '<div class="mcq-grid">';
+        for (var i = 0; i < ex.options.length; i++) {
+            var opt = ex.options[i];
+            body += '<button class="mcq-btn" onclick="checkMCQ(this,\'' + esc(opt) + '\',\'' + esc(ans) + '\')"><span class="opt-key">' + letters[i] + '</span>' + esc(opt) + '</button>';
+        }
+        body += '</div><div id="fb" class="feedback"></div><div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'timed_challenge') {
+        body += '<div class="question-box">⚡ ' + esc(ex.title) + '</div>' +
+    '<div class="timer-pill" id="tc-timer">⏱ ' + (ex.time || ex.time_limit_seconds || 30) + 's</div>' +
+    '<div id="tc-content">' +
+      '<p style="margin-bottom:16px">Translate ' + (ex.questions || []).length + ' words as fast as you can!</p>' +
+      '<button class="start-btn" style="width:auto;padding:14px 28px;font-size:1rem" onclick="startTimedChallenge()">Start!</button>' +
+    '</div>' +
+    '<div id="fb" class="feedback"></div>' +
+    '<div class="action-row"><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    } else if (ex.type === 'character_writing') {
+        body += '<div class="question-box">✍️ ' + esc(ex.question) + '</div>' +
+    '<div style="text-align:center;font-family:\'Fredoka One\',cursive;font-size:2rem;margin-bottom:16px">' + esc(ex.translation) + '</div>' +
+    '<canvas id="write-canvas" width="600" height="180" style="border:3px solid var(--border);border-radius:20px;background:#fff;width:100%;touch-action:none;cursor:crosshair;display:block;margin-bottom:12px"></canvas>' +
+    '<div style="text-align:center;margin-bottom:16px"><button onclick="clearWriteCanvas()" style="background:var(--red-light);border:2px solid var(--red);border-radius:30px;padding:8px 20px;font-weight:700;cursor:pointer">Clear</button></div>' +
+    '<div id="fb" class="feedback"></div>' +
+    '<div class="action-row"><button class="check-btn" onclick="checkWriting()">' + t_js('submit') + '</button><button id="next-btn" class="next-btn" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+setTimeout(function() {
+        initWriteCanvas();
+    }, 50);    
+} else if (ex.type === 'review') {
+        var items = ex.items || ex.exercises || [];
+        body += '<div class="question-box">🔄 ' + esc(ex.title || 'Review') + '</div>' +
+    '<p style="margin-bottom:18px;color:var(--muted)">Quick review of ' + items.length + ' items:</p>';
+        for (var i = 0; i < items.length; i++) {
+            var item = items[i];
+            if (item.type === 'translation') body += '<div style="background:var(--green-light);border-radius:14px;padding:12px 16px;margin-bottom:10px;font-weight:700">' + esc(item.q || item.question || '') + ' → <span style="color:var(--green-dark)">' + esc(item.a || item.answer || '') + '</span></div>';
+            else if (item.type === 'multiple_choice') body += '<div style="background:var(--blue-light);border-radius:14px;padding:12px 16px;margin-bottom:10px;font-weight:700">' + esc(item.q || item.question || '') + ' → <span style="color:var(--blue-dark)">' + esc(item.a || item.answer || '') + '</span></div>';
+            else if (item.type === 'fill_blank') body += '<div style="background:var(--yellow-light);border-radius:14px;padding:12px 16px;margin-bottom:10px;font-weight:700">' + esc(item.text || item.text_with_blank || '') + ' → <span style="color:var(--yellow-dark)">' + esc(item.a || item.correct_answer || '') + '</span></div>';
+        }
+        body += '<div class="action-row"><button id="next-btn" class="next-btn show" onclick="doNext()">' + t_js('continue') + '</button></div>';
+        earnedXP += ex.xp;
+        updateProgress();
+    } else {
+        body += '<div class="question-box">' + esc(ex.question || ex.title || ex.prompt || 'Exercise') + '</div>' +
+    '<div class="action-row"><button id="next-btn" class="next-btn show" onclick="doNext()">' + t_js('continue') + '</button><button class="skip-btn" onclick="doSkip()">' + t_js('skip') + '</button></div>';
+    }
+
+    body += '</div>';
+    main.innerHTML = body;
+
+    // Wire check-trans
+    var checkTransBtn = document.getElementById('check-trans');
+    if (checkTransBtn) {
+        checkTransBtn.addEventListener('click', function() {
+            var inp = document.getElementById('main-input');
+            if (!inp || inp.disabled) return;
+            var answer = inp.dataset.answer;
+            var val = inp.value.trim();
+            var ex = queue[idx];
+
+            console.log('🔍 Translation Check:', { userAnswer: val, correctAnswer: answer, exerciseId: ex ? ex.id : null });
+
+            if (!val) {
+                shake();
+                return;
+            }
+            var ok = fuzzyMatch(val, answer);
+            
+            // Show GIF animation
+            if (ok) {
+                gifManager.showCorrect();
+            } else {
+                gifManager.showWrong();
+            }
+            
+            inp.disabled = true;
+            inp.classList.add(ok ? 'correct' : 'wrong');
+            showFeedback(ok, ok ? '✓ Correct!' : '✗ Correct answer: ' + answer);
+
+            if (ok && ex) {
+                correctCount++;
+                earnedXP += ex.xp;
+                updateProgress();
+
+                // SAVE TO DATABASE
+                console.log('💾 Saving translation exercise:', ex.id);
+                saveProgressToDatabase(ex.id, true, ex.xp, 5);
+            }
+
+            revealNext();
+        });
+    }
+
+    // Wire hear + mic
+    var hearBtn = document.getElementById('hear-btn');
+    if (hearBtn) {
+        hearBtn.addEventListener('click', function() {
+            var exerciseType = this.dataset.exerciseType;
+            var text = this.dataset.tts;
+            if (currentLang === 'rw-to-fr' && text && !text.includes(' ')) {
+                // For RW-TO-FR speaking, play Kinyarwanda audio instead of TTS
+                playKinyarwandaAudio(text);
+            } else {
+                speak(text, this, exerciseType);
+            }
+        });
+    }
+    
+    var micBtn = document.getElementById('mic-btn');
+    if (micBtn) {
+        micBtn.addEventListener('click', function() {
+            startSpeechRecognition(this.dataset.prompt, this.dataset.lang);
+        });
+    }
+
+    // Wire tts button
+    var ttsBtnEl = document.getElementById('tts-btn');
+    if (ttsBtnEl) {
+        ttsBtnEl.addEventListener('click', function() {
+            var exerciseType = this.dataset.exerciseType;
+            speak(this.dataset.tts, this, exerciseType);
+        });
+    }
+
+    // Wire lac-grid
+    var lacGrid = document.getElementById('lac-grid');
+    if (lacGrid) {
+        var lacAnswer = lacGrid.dataset.answer;
+        var lacBtns = lacGrid.querySelectorAll('.mcq-btn');
+        for (var i = 0; i < lacBtns.length; i++) {
+            (function(btn) {
+                btn.addEventListener('click', function() {
+                    var ex = queue[idx];
+                    var ok = btn.dataset.opt.toLowerCase() === lacAnswer.toLowerCase();
+                    
+                    // Show GIF animation
+                    if (ok) {
+                        gifManager.showCorrect();
+                    } else {
+                        gifManager.showWrong();
+                    }
+                    
+                    checkMCQ(btn, btn.dataset.opt, lacAnswer);
+                    if (ok && ex) {
+                        console.log('💾 Saving listen & choose exercise:', ex.id);
+                        saveProgressToDatabase(ex.id, true, ex.xp, 5);
+                    }
+
+                    // Auto-continue after answer selection
+                    setTimeout(function() {
+                        doNext();
+                    }, 700);
+                });
+            })(lacBtns[i]);
+        }
+    }
+
+    // Wire word bank
+    var WB_TYPES = ['word_bank', 'sentence_scramble', 'tap_hear', 'conversation', 'error_correction'];
+    if (WB_TYPES.includes(ex.type)) {
+        var wbCorrect = ex.correct_taps || ex.correct || ex.correct_answer || ex.answer || ex.correct_sentence || [];
+        var wbExplain = ex.type === 'error_correction' ? (ex.explanation || '') : null;
+        
+        // For error_correction, use word_bank_for_fix or word_bank
+        var wordBank = ex.word_bank_for_fix || ex.word_bank || ex.words || [];
+        
+        setupWordBank(wordBank, wbCorrect, 'wb');
+        var checkWbBtn = document.getElementById('check-wb');
+        if (checkWbBtn) {
+            checkWbBtn.addEventListener('click', function() {
+                if (wbExplain !== null) {
+                    // For error_correction, we need to pass the correct sentence array
+                    var correctArray = Array.isArray(wbCorrect) ? wbCorrect : 
+                                        (typeof wbCorrect === 'string' ? wbCorrect.split(' ') : []);
+                    checkErrorCorrectionFn(correctArray, wbExplain);
+                } else {
+                    checkWordBank(wbCorrect);
+                }
+            });
+        }
+    }
+
+    if (ex.type === 'character_writing') setupWriteCanvas();
+    if (ex.type === 'speed_matching' && ex.time) startMatchTimer(ex.time || ex.time_limit_seconds);
+    if (ex.type === 'matching' || ex.type === 'speed_matching') setupMatching();
+
+    var inp2 = document.getElementById('main-input');
+    if (inp2) setTimeout(function() { inp2.focus(); }, 100);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ═══════════════════════════════════════════
 // COMPLETION
 // ═══════════════════════════════════════════
 function showCompletion() {
@@ -3966,8 +4569,10 @@ function showCompletion() {
       '<button class="comp-btn green" onclick="backToOverview()">← Back</button>' +
     '</div>' +
   '</div>';
-    document.getElementById('progress-fill').style.width = '100%';
-    document.getElementById('lesson-prog').style.width = '100%';
+    var el = document.getElementById('progress-fill');
+    if (el) el.style.width = '100%';
+    el = document.getElementById('lesson-prog');
+    if (el) el.style.width = '100%';
 
     // Save progress to server
     fetch('save-progress.php', {
@@ -3987,6 +4592,7 @@ function showCompletion() {
 
 function backToOverview() {
     document.getElementById('lesson').style.display = 'none';
+    document.querySelector('.lesson-nav').style.display = 'flex';
     document.getElementById('overview').style.display = 'block';
     
     // Refresh the overview to show updated completed count

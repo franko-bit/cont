@@ -4,7 +4,6 @@ lesson:
   xp_reward: 500
 
 exercises:
-
   # 1. Translation Exercises - Opinion Words ONLY (Safe for single words/phrases)
   # Basic Opinion Vocabulary
   - id: 1
@@ -740,7 +739,7 @@ exercises:
   - id: 95
     type: picture_word
     question: "Iki gitekerezo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?happy"
+    image_url: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["I like", "I don't like", "I agree"]
     correct_answer: "I like"
     xp_reward: 15
@@ -748,7 +747,7 @@ exercises:
   - id: 96
     type: picture_word
     question: "Iki gitekerezo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?sad"
+    image_url: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?ixid=M3w5NzA5MzJ8MHwxfHNlYXJjaHwxfHxzYWR8ZW58MHwwfHx8MTc4MDc3MDQ2N3ww&ixlib=rb-4.1.0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=600&h=400&fit=crop"
     options: ["I don't like", "I like", "I agree"]
     correct_answer: "I don't like"
     xp_reward: 15
@@ -756,7 +755,7 @@ exercises:
   - id: 97
     type: picture_word
     question: "Iki gitekerezo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?agreement"
+    image_url: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixid=M3w5NzA5MzJ8MHwxfHNlYXJjaHwxfHxhZ3JlZW1lbnR8ZW58MHwwfHx8MTc4MDc3MDk1MXww&ixlib=rb-4.1.0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=600&h=400&fit=crop"
     options: ["I agree", "I disagree", "I think"]
     correct_answer: "I agree"
     xp_reward: 15
@@ -764,7 +763,7 @@ exercises:
   - id: 98
     type: picture_word
     question: "Iki gitekerezo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?disagreement"
+    image_url: "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["I disagree", "I agree", "I like"]
     correct_answer: "I disagree"
     xp_reward: 15
@@ -772,7 +771,7 @@ exercises:
   - id: 99
     type: picture_word
     question: "Ijambo risobanura 'maybe' ni irihe?"
-    image_url: "https://source.unsplash.com/featured/?maybe"
+    image_url: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Maybe", "Definitely", "I'm sure"]
     correct_answer: "Maybe"
     xp_reward: 15
@@ -780,7 +779,7 @@ exercises:
   - id: 100
     type: picture_word
     question: "Ijambo risobanura 'definitely' ni irihe?"
-    image_url: "https://source.unsplash.com/featured/?definitely"
+    image_url: "https://images.unsplash.com/photo-1637601836836-dc1a779ae7f3?ixid=M3w5NzA5MzJ8MHwxfHNlYXJjaHwxfHxkZWZpbml0ZWx5fGVufDB8MHx8fDE3ODA3NzA5NzN8MA&ixlib=rb-4.1.0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=600&h=400&fit=crop"
     options: ["Definitely", "Maybe", "Probably"]
     correct_answer: "Definitely"
     xp_reward: 18
@@ -842,7 +841,7 @@ exercises:
         right: "Nizeye ko uzatsinda"
     xp_reward: 25
 
-  # 12. Choose Missing Word
+  # 11. Choose Missing Word
   - id: 104
     type: choose_missing
     question: "Hitamo ijambo ribuze"
@@ -903,7 +902,7 @@ exercises:
     translation: "Nizeye ko uzatsinda"
     xp_reward: 15
 
-  # 13. Read and Answer
+  # 12. Read and Answer
   - id: 110
     type: read_answer
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
@@ -949,7 +948,7 @@ exercises:
     correct_answer: "Tea"
     xp_reward: 18
 
-  # 14. True / False
+  # 13. True / False
   - id: 115
     type: true_false
     question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
@@ -992,7 +991,7 @@ exercises:
     correct_answer: false
     xp_reward: 12
 
-  # 15. Conversation Exercise
+  # 14. Conversation Exercise
   - id: 121
     type: conversation
     question: "Subiza icyavuzwe ukoresheje amagambo atanzwe"
@@ -1035,7 +1034,7 @@ exercises:
     correct_response: "I'm sure he is coming"
     xp_reward: 18
 
-  # 16. Story Exercise
+  # 15. Story Exercise
   - id: 125
     type: story
     title: "Gutanga Ibitekerezo"
@@ -1053,38 +1052,7 @@ exercises:
       - text: "Maybe we will go to the market."
       - text: "Definitely, this is correct."
       - text: "I hope you succeed."
-    exercises:
-      - type: word_bank
-        question: "Ubaka 'I like this food'"
-        word_bank: ["I", "like", "this", "food", "don't", "waiting"]
-        correct_answer: ["I", "like", "this", "food"]
-      - type: word_bank
-        question: "Ubaka 'I don't like waiting'"
-        word_bank: ["I", "don't", "like", "waiting", "this", "food"]
-        correct_answer: ["I", "don't", "like", "waiting"]
-      - type: word_bank
-        question: "Ubaka 'I agree with you'"
-        word_bank: ["I", "agree", "with", "you", "disagree", "that"]
-        correct_answer: ["I", "agree", "with", "you"]
-      - type: word_bank
-        question: "Ubaka 'I think Kinyarwanda is beautiful'"
-        word_bank: ["I", "think", "Kinyarwanda", "is", "beautiful", "good"]
-        correct_answer: ["I", "think", "Kinyarwanda", "is", "beautiful"]
-      - type: word_bank
-        question: "Ubaka 'In my opinion, this book is interesting'"
-        word_bank: ["In", "my", "opinion", "this", "book", "is", "interesting", "boring"]
-        correct_answer: ["In", "my", "opinion", "this", "book", "is", "interesting"]
-      - type: word_bank
-        question: "Ubaka 'I prefer tea over coffee'"
-        word_bank: ["I", "prefer", "tea", "over", "coffee", "milk"]
-        correct_answer: ["I", "prefer", "tea", "over", "coffee"]
-      - type: word_bank
-        question: "Ubaka 'I hope you succeed'"
-        word_bank: ["I", "hope", "you", "succeed", "win", "study"]
-        correct_answer: ["I", "hope", "you", "succeed"]
-    xp_reward: 50
-
-  # 17. Pronunciation Check
+  # 16. Pronunciation Check
   - id: 126
     type: pronunciation
     question: "Vuga iri jambo ry'igitekerezo mu Cyongereza neza"
@@ -1134,7 +1102,7 @@ exercises:
     translation: "Maybe we will go to the market"
     xp_reward: 22
 
-  # 18. Identify Correct Meaning
+  # 17. Identify Correct Meaning
   - id: 133
     type: identify_meaning
     question: "'Nkunda' bisobanura iki muri iyi nteruro?"
@@ -1180,7 +1148,7 @@ exercises:
     correct_answer: "Maybe"
     xp_reward: 15
 
-  # 19. Speed Matching
+  # 18. Speed Matching
   - id: 138
     type: speed_matching
     title: "Huza Byihuse: Ibitekerezo"
@@ -1208,7 +1176,7 @@ exercises:
         right: "Nizeye"
     xp_reward: 30
 
-  # 20. Timed Challenges
+  # 19. Timed Challenges
   - id: 139
     type: timed_challenge
     title: "Kubahuka: Ibitekerezo"
@@ -1227,217 +1195,40 @@ exercises:
         answer: "Maybe"
     xp_reward: 35
 
-  # 21. Character Writing
-  - id: 140
-    type: character_writing
-    question: "Yandika iri jambo ry'igitekerezo mu Cyongereza"
-    prompt: "Nkunda"
-    translation: "I like"
-    xp_reward: 15
-
-  - id: 141
-    type: character_writing
-    question: "Yandika iri jambo ry'igitekerezo mu Cyongereza"
-    prompt: "Sinakunda"
-    translation: "I don't like"
-    xp_reward: 15
-
-  - id: 142
-    type: character_writing
-    question: "Yandika iri jambo ry'igitekerezo mu Cyongereza"
-    prompt: "Nemeranya"
-    translation: "I agree"
-    xp_reward: 15
-
-  - id: 143
-    type: character_writing
-    question: "Yandika iri jambo ry'igitekerezo mu Cyongereza"
-    prompt: "Birashoboka"
-    translation: "Maybe"
-    xp_reward: 15
-
-  # 22. Spaced Repetition Review
-  - id: 144
-    type: review
-    title: "Isubiramo: Ibitekerezo"
-    exercises:
-      - type: translation
-        question: "Nkunda"
-        answer: "I like"
-      - type: multiple_choice
-        question: "Sinakunda"
-        options: ["I like", "I don't like", "I agree"]
-        answer: "I don't like"
-      - type: fill_blank
-        question: "I like ___ food."
-        text_with_blank: "I like ___ food."
-        options: ["this", "that", "these"]
-        correct_answer: "this"
-      - type: picture_word
-        question: "Ijambo risobanura 'maybe' ni irihe?"
-        image_url: "https://source.unsplash.com/featured/?maybe"
-        options: ["Maybe", "Definitely", "I'm sure"]
-        correct_answer: "Maybe"
-      - type: sentence_scramble
-        question: "Tondeka: I agree with you"
-        scrambled_words: ["with", "I", "you", "agree"]
-        correct_sentence: "I agree with you"
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "I think / I believe"
+      back: "Ndibwira / Ntekereza"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "I feel"
+      back: "Numva"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "In my opinion"
+      back: "Mu bitekerezo byanjye"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "I agree"
+      back: "Nemeranya"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "I disagree"
+      back: "Sinemeranya"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "I like"
+      back: "Nkunda"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "I don't like"
+      back: "Sinakunda"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "I prefer"
+      back: "Nkunda cyane / Nahitamo"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "I believe that..."
+      back: "Ntekereza ko..."
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "It seems that..."
+      back: "Bisa nk"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
     xp_reward: 30
 
-  # 23. Listening Comprehension
-  - id: 145
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "Nkunda"
-    options:
-      - "I like"
-      - "I don't like"
-      - "I agree"
-    correct_answer: "I like"
-    xp_reward: 15
-
-  - id: 146
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "Sinakunda"
-    options:
-      - "I like"
-      - "I don't like"
-      - "I disagree"
-    correct_answer: "I don't like"
-    xp_reward: 15
-
-  - id: 147
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "Nemeranya"
-    options:
-      - "I disagree"
-      - "I agree"
-      - "I think"
-    correct_answer: "I agree"
-    xp_reward: 15
-
-  - id: 148
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "Birashoboka"
-    options:
-      - "Definitely"
-      - "Maybe"
-      - "I'm sure"
-    correct_answer: "Maybe"
-    xp_reward: 15
-
-  # 24. Grammar Selection
-  - id: 149
-    type: grammar
-    question: "Hitamo ijambo rikwiye risobanura 'I like'"
-    options: ["I like", "I don't like", "I agree"]
-    correct_answer: "I like"
-    explanation: "'Nkunda' means 'I like'"
-    xp_reward: 15
-
-  - id: 150
-    type: grammar
-    question: "Hitamo ijambo rikwiye risobanura 'I don't like'"
-    options: ["I like", "I don't like", "I agree"]
-    correct_answer: "I don't like"
-    explanation: "'Sinakunda' means 'I don't like'"
-    xp_reward: 15
-
-  - id: 151
-    type: grammar
-    question: "Hitamo ijambo rikwiye risobanura 'I agree'"
-    options: ["I agree", "I disagree", "I think"]
-    correct_answer: "I agree"
-    explanation: "'Nemeranya' means 'I agree'"
-    xp_reward: 15
-
-  - id: 152
-    type: grammar
-    question: "Hitamo ijambo rikwiye ruzuza 'I think Kinyarwanda ___ beautiful'"
-    options: ["is", "are", "am"]
-    correct_answer: "is"
-    explanation: "Use 'is' with singular nouns like Kinyarwanda"
-    xp_reward: 18
-
-  # 25. Error Correction
-  - id: 153
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I don't like this food."
-    translation: "Sinakunda iri funguro (ariko umuntu akunda)"
-    word_bank_for_fix: ["I", "like", "this", "food", "don't"]
-    correct_sentence: "I like this food."
-    explanation: "To express liking, use 'I like', not 'I don't like'."
-    xp_reward: 18
-
-  - id: 154
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I agree with that."
-    translation: "Nemeranya n'icyo (ariko umuntu atemeranya)"
-    word_bank_for_fix: ["I", "disagree", "with", "that", "agree"]
-    correct_sentence: "I disagree with that."
-    explanation: "To express disagreement, use 'I disagree', not 'I agree'."
-    xp_reward: 18
-
-  - id: 155
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "Definitely, this is good."
-    translation: "Ntibishidikanywaho, ibi ni byiza (ariko bigomba kuba 'byo')"
-    word_bank_for_fix: ["Definitely", "this", "is", "correct", "good"]
-    correct_sentence: "Definitely, this is correct."
-    explanation: "To say 'this is correct', use 'correct', not 'good'."
-    xp_reward: 20
-
-  # Flashcards
-  - id: 156
-    type: flashcards
-    question: "Iyi ni modero y'amafishi y'ibitekerezo"
-    flashcards:
-      - front: "Nkunda"
-        back: "I like"
-        image: "https://source.unsplash.com/featured/?like"
-      - front: "Sinakunda"
-        back: "I don't like"
-        image: "https://source.unsplash.com/featured/?dislike"
-      - front: "Nemeranya"
-        back: "I agree"
-        image: "https://source.unsplash.com/featured/?agree"
-      - front: "Sinemeranya"
-        back: "I disagree"
-        image: "https://source.unsplash.com/featured/?disagree"
-      - front: "Ndibwira"
-        back: "I think"
-        image: "https://source.unsplash.com/featured/?think"
-      - front: "Numva"
-        back: "I feel"
-        image: "https://source.unsplash.com/featured/?feel"
-      - front: "Mu bitekerezo byanjye"
-        back: "In my opinion"
-        image: "https://source.unsplash.com/featured/?opinion"
-      - front: "Birashoboka"
-        back: "Maybe"
-        image: "https://source.unsplash.com/featured/?maybe"
-      - front: "Ntibishidikanywaho"
-        back: "Definitely"
-        image: "https://source.unsplash.com/featured/?definitely"
-      - front: "Ndizeye"
-        back: "I'm sure"
-        image: "https://source.unsplash.com/featured/?sure"
-      - front: "Nizeye"
-        back: "I hope"
-        image: "https://source.unsplash.com/featured/?hope"
-      - front: "Nemeranya nawe"
-        back: "I agree with you"
-        image: "https://source.unsplash.com/featured/?agreement"
-      - front: "Nkunda iri funguro"
-        back: "I like this food"
-        image: "https://source.unsplash.com/featured/?good-food"
-      - front: "Nkunda icyayi kurusha ikawa"
-        back: "I prefer tea over coffee"
-        image: "https://source.unsplash.com/featured/?tea-coffee"
-    xp_reward: 45

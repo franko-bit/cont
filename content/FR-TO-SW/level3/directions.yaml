@@ -1,0 +1,1224 @@
+lesson:
+  name: "Maelekezo ya Mahali"
+  description: "Apprenez les mots et expressions de direction en Kiswahili"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Direction Words ONLY (Safe for single words)
+  # Basic Directions
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Gauche' en Kiswahili ?"
+    answer: "Kushoto"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Droite' en Kiswahili ?"
+    answer: "Kulia"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Tout droit' en Kiswahili ?"
+    answer: "Moja kwa moja"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Derrière' en Kiswahili ?"
+    answer: "Nyuma"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Devant' en Kiswahili ?"
+    answer: "Mbele"
+    xp_reward: 10
+
+  # Cardinal Directions
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Nord' en Kiswahili ?"
+    answer: "Kaskazini"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Sud' en Kiswahili ?"
+    answer: "Kusini"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Est' en Kiswahili ?"
+    answer: "Mashariki"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Ouest' en Kiswahili ?"
+    answer: "Magharibi"
+    xp_reward: 10
+
+  # Location Words
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Près' en Kiswahili ?"
+    answer: "Karibu"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Loin' en Kiswahili ?"
+    answer: "Mbali"
+    xp_reward: 15
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Autour' en Kiswahili ?"
+    answer: "Pande zote"
+    xp_reward: 15
+
+  # Places and Features
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Carrefour' en Kiswahili ?"
+    answer: "Makutano"
+    xp_reward: 18
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Rue' en Kiswahili ?"
+    answer: "Barabara"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Coin' en Kiswahili ?"
+    answer: "Kona"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Feu tricolore' en Kiswahili ?"
+    answer: "Taa ya barabara"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Panneau' en Kiswahili ?"
+    answer: "Alama ya barabara"
+    xp_reward: 18
+
+  # Direction Commands
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Tournez à gauche' en Kiswahili ?"
+    answer: "Geuka kushoto."
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Tournez à droite' en Kiswahili ?"
+    answer: "Geuka kulia."
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'Allez tout droit' en Kiswahili ?"
+    answer: "Endelea mbele moja kwa moja."
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'Reculez' en Kiswahili ?"
+    answer: "Rudi nyuma."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'Traversez la rue' en Kiswahili ?"
+    answer: "Vuka barabara."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Arrêtez-vous au feu tricolore' en Kiswahili ?"
+    answer: "Simama kwenye taa ya barabara."
+    xp_reward: 18
+
+  # Location Sentences
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'La banque est devant l'école' en Kiswahili ?"
+    answer: "Benki iko mbele ya shule."
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'Le marché est près' en Kiswahili ?"
+    answer: "Soko liko karibu."
+    xp_reward: 15
+
+  - id: 26
+    type: translation
+    question: "Comment dit-on 'L'hôpital est loin' en Kiswahili ?"
+    answer: "Hospitali iko mbali."
+    xp_reward: 15
+
+  # 2. Multiple Choice
+  - id: 27
+    type: multiple_choice
+    question: "Que signifie 'Kushoto' ?"
+    options:
+      - "Kulia"
+      - "Kushoto"
+      - "Moja kwa moja"
+      - "Mbele"
+    answer: "Kushoto"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "Que signifie 'Kulia' ?"
+    options:
+      - "Kushoto"
+      - "Kulia"
+      - "Nyuma"
+      - "Kaskazini"
+    answer: "Kulia"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "Que signifie 'Mbele' ?"
+    options:
+      - "Nyuma"
+      - "Mbele"
+      - "Karibu"
+      - "Mbali"
+    answer: "Mbele"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "Que signifie 'Nyuma' ?"
+    options:
+      - "Mbele"
+      - "Nyuma"
+      - "Kushoto"
+      - "Kulia"
+    answer: "Nyuma"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "Que signifie 'Kaskazini' ?"
+    options:
+      - "Kusini"
+      - "Kaskazini"
+      - "Mashariki"
+      - "Magharibi"
+    answer: "Kaskazini"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "Que signifie 'Karibu' ?"
+    options:
+      - "Mbali"
+      - "Karibu"
+      - "Pande zote"
+      - "Moja kwa moja"
+    answer: "Karibu"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "Que signifie 'Barabara' ?"
+    options:
+      - "Kona"
+      - "Barabara"
+      - "Taa ya barabara"
+      - "Alama ya barabara"
+    answer: "Barabara"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "Que signifie 'Geuka kushoto' ?"
+    options:
+      - "Geuka kulia"
+      - "Geuka kushoto"
+      - "Endelea mbele"
+      - "Rudi nyuma"
+    answer: "Geuka kushoto"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 35
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de direction"
+    audio: "Kushoto"
+    answer: "Kushoto"
+    translation: "Gauche"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de direction"
+    audio: "Kulia"
+    answer: "Kulia"
+    translation: "Droite"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de direction"
+    audio: "Mbele"
+    answer: "Mbele"
+    translation: "Devant"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de direction"
+    audio: "Nyuma"
+    answer: "Nyuma"
+    translation: "Derrière"
+    xp_reward: 20
+
+  - id: 39
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de direction"
+    audio: "Karibu"
+    answer: "Karibu"
+    translation: "Près"
+    xp_reward: 20
+
+  - id: 40
+    type: listen_and_type
+    question: "Écoutez et tapez le commandement"
+    audio: "Geuka kushoto"
+    answer: "Geuka kushoto"
+    translation: "Tournez à gauche"
+    xp_reward: 22
+
+  - id: 41
+    type: listen_and_type
+    question: "Écoutez et tapez le commandement"
+    audio: "Endelea mbele"
+    answer: "Endelea mbele"
+    translation: "Allez tout droit"
+    xp_reward: 22
+
+  - id: 42
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Soko liko karibu"
+    answer: "Soko liko karibu"
+    translation: "Le marché est près"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 44
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne direction"
+    audio: "Kushoto"
+    options:
+      - "Kulia"
+      - "Kushoto"
+      - "Mbele"
+    answer: "Kushoto"
+    xp_reward: 15
+
+  - id: 45
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne direction"
+    audio: "Kulia"
+    options:
+      - "Kushoto"
+      - "Kulia"
+      - "Nyuma"
+    answer: "Kulia"
+    xp_reward: 15
+
+  - id: 46
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne direction"
+    audio: "Mbele"
+    options:
+      - "Nyuma"
+      - "Mbele"
+      - "Karibu"
+    answer: "Mbele"
+    xp_reward: 15
+
+  - id: 47
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon commandement"
+    audio: "Geuka kushoto"
+    options:
+      - "Geuka kulia"
+      - "Geuka kushoto"
+      - "Endelea mbele"
+    answer: "Geuka kushoto"
+    xp_reward: 18
+
+  - id: 48
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Soko liko karibu"
+    options:
+      - "Soko liko mbali"
+      - "Soko liko karibu"
+      - "Soko liko mbele"
+    answer: "Soko liko karibu"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 49
+    type: speaking
+    question: "Dites ce mot de direction"
+    prompt: "Kushoto"
+    translation: "Gauche"
+    xp_reward: 15
+
+  - id: 50
+    type: speaking
+    question: "Dites ce mot de direction"
+    prompt: "Kulia"
+    translation: "Droite"
+    xp_reward: 15
+
+  - id: 51
+    type: speaking
+    question: "Dites ce mot de direction"
+    prompt: "Mbele"
+    translation: "Devant"
+    xp_reward: 15
+
+  - id: 52
+    type: speaking
+    question: "Dites ce mot de direction"
+    prompt: "Nyuma"
+    translation: "Derrière"
+    xp_reward: 15
+
+  - id: 53
+    type: speaking
+    question: "Dites ce mot de direction"
+    prompt: "Karibu"
+    translation: "Près"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Dites ce commandement"
+    prompt: "Geuka kushoto"
+    translation: "Tournez à gauche"
+    xp_reward: 18
+
+  - id: 55
+    type: speaking
+    question: "Dites ce commandement"
+    prompt: "Endelea mbele"
+    translation: "Allez tout droit"
+    xp_reward: 18
+
+  - id: 56
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Soko liko karibu"
+    translation: "Le marché est près"
+    xp_reward: 18
+
+  - id: 57
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Benki iko mbele ya shule"
+    translation: "La banque est devant l'école"
+    xp_reward: 22
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED
+  - id: 58
+    type: word_bank
+    question: "Construisez le commandement 'Tournez à gauche'"
+    word_bank: ["Geuka", "kushoto", "kulia", "endelea", "mbele"]
+    correct_answer: ["Geuka", "kushoto"]
+    xp_reward: 15
+
+  - id: 59
+    type: word_bank
+    question: "Construisez le commandement 'Tournez à droite'"
+    word_bank: ["Geuka", "kulia", "kushoto", "endelea", "mbele"]
+    correct_answer: ["Geuka", "kulia"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Construisez le commandement 'Allez tout droit'"
+    word_bank: ["Endelea", "mbele", "geuka", "kushoto", "rudi"]
+    correct_answer: ["Endelea", "mbele"]
+    xp_reward: 15
+
+  - id: 61
+    type: word_bank
+    question: "Construisez le commandement 'Reculez'"
+    word_bank: ["Rudi", "nyuma", "endelea", "mbele", "geuka"]
+    correct_answer: ["Rudi", "nyuma"]
+    xp_reward: 15
+
+  - id: 62
+    type: word_bank
+    question: "Construisez la phrase 'La banque est devant l'école'"
+    word_bank: ["Benki", "iko", "mbele", "ya", "shule", "soko", "liko", "karibu"]
+    correct_answer: ["Benki", "iko", "mbele", "ya", "shule"]
+    xp_reward: 22
+
+  - id: 63
+    type: word_bank
+    question: "Construisez la phrase 'Le marché est près'"
+    word_bank: ["Soko", "liko", "karibu", "hospitali", "iko", "mbali"]
+    correct_answer: ["Soko", "liko", "karibu"]
+    xp_reward: 15
+
+  - id: 64
+    type: word_bank
+    question: "Construisez la phrase 'L'hôpital est loin'"
+    word_bank: ["Hospitali", "iko", "mbali", "soko", "liko", "karibu"]
+    correct_answer: ["Hospitali", "iko", "mbali"]
+    xp_reward: 15
+
+  - id: 65
+    type: word_bank
+    question: "Construisez le commandement 'Traversez la rue'"
+    word_bank: ["Vuka", "barabara", "simama", "taa", "ya", "barabara"]
+    correct_answer: ["Vuka", "barabara"]
+    xp_reward: 15
+
+  - id: 66
+    type: word_bank
+    question: "Construisez le commandement 'Arrêtez-vous au feu tricolore'"
+    word_bank: ["Simama", "kwenye", "taa", "ya", "barabara", "vuka", "barabara"]
+    correct_answer: ["Simama", "kwenye", "taa", "ya", "barabara"]
+    xp_reward: 22
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 67
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former un commandement correct"
+    scrambled_words: ["Geuka", "kushoto"]
+    correct_sentence: "Geuka kushoto."
+    translation: "Tournez à gauche."
+    xp_reward: 15
+
+  - id: 68
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former un commandement correct"
+    scrambled_words: ["Geuka", "kulia"]
+    correct_sentence: "Geuka kulia."
+    translation: "Tournez à droite."
+    xp_reward: 15
+
+  - id: 69
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former un commandement correct"
+    scrambled_words: ["Endelea", "mbele"]
+    correct_sentence: "Endelea mbele."
+    translation: "Allez tout droit."
+    xp_reward: 15
+
+  - id: 70
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former un commandement correct"
+    scrambled_words: ["Rudi", "nyuma"]
+    correct_sentence: "Rudi nyuma."
+    translation: "Reculez."
+    xp_reward: 15
+
+  - id: 71
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Benki", "iko", "mbele", "ya", "shule"]
+    correct_sentence: "Benki iko mbele ya shule."
+    translation: "La banque est devant l'école."
+    xp_reward: 22
+
+  - id: 72
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Soko", "liko", "karibu"]
+    correct_sentence: "Soko liko karibu."
+    translation: "Le marché est près."
+    xp_reward: 15
+
+  - id: 73
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Hospitali", "iko", "mbali"]
+    correct_sentence: "Hospitali iko mbali."
+    translation: "L'hôpital est loin."
+    xp_reward: 15
+
+  - id: 74
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former un commandement correct"
+    scrambled_words: ["Vuka", "barabara"]
+    correct_sentence: "Vuka barabara."
+    translation: "Traversez la rue."
+    xp_reward: 15
+
+  - id: 75
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former un commandement correct"
+    scrambled_words: ["Simama", "kwenye", "taa", "ya", "barabara"]
+    correct_sentence: "Simama kwenye taa ya barabara."
+    translation: "Arrêtez-vous au feu tricolore."
+    xp_reward: 22
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 76
+    type: fill_blank
+    question: "Complétez le commandement"
+    text_with_blank: "Geuka ___."
+    options: ["kushoto", "kulia", "mbele"]
+    correct_answer: "kushoto"
+    translation: "Tournez à gauche."
+    xp_reward: 12
+
+  - id: 77
+    type: fill_blank
+    question: "Complétez le commandement"
+    text_with_blank: "Geuka ___."
+    options: ["kulia", "kushoto", "mbele"]
+    correct_answer: "kulia"
+    translation: "Tournez à droite."
+    xp_reward: 12
+
+  - id: 78
+    type: fill_blank
+    question: "Complétez le commandement"
+    text_with_blank: "Endelea ___."
+    options: ["mbele", "nyuma", "kushoto"]
+    correct_answer: "mbele"
+    translation: "Allez tout droit."
+    xp_reward: 12
+
+  - id: 79
+    type: fill_blank
+    question: "Complétez le commandement"
+    text_with_blank: "Rudi ___."
+    options: ["nyuma", "mbele", "kulia"]
+    correct_answer: "nyuma"
+    translation: "Reculez."
+    xp_reward: 12
+
+  - id: 80
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Soko liko ___."
+    options: ["karibu", "mbali", "mbele"]
+    correct_answer: "karibu"
+    translation: "Le marché est près."
+    xp_reward: 12
+
+  - id: 81
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Hospitali iko ___."
+    options: ["mbali", "karibu", "mbele"]
+    correct_answer: "mbali"
+    translation: "L'hôpital est loin."
+    xp_reward: 12
+
+  - id: 82
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Benki iko mbele ___ shule."
+    options: ["ya", "na", "kwa"]
+    correct_answer: "ya"
+    translation: "La banque est devant l'école."
+    xp_reward: 18
+
+  - id: 83
+    type: fill_blank
+    question: "Complétez le commandement"
+    text_with_blank: "Vuka ___."
+    options: ["barabara", "kona", "taa"]
+    correct_answer: "barabara"
+    translation: "Traversez la rue."
+    xp_reward: 12
+
+  - id: 84
+    type: fill_blank
+    question: "Complétez le commandement"
+    text_with_blank: "Simama kwenye ___ ya barabara."
+    options: ["taa", "alama", "barabara"]
+    correct_answer: "taa"
+    translation: "Arrêtez-vous au feu tricolore."
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 85
+    type: picture_word
+    question: "Alama hii inaonyesha mwelekeo gani?"
+    image_url: "https://source.unsplash.com/featured/?left-arrow"
+    options: ["Kushoto", "Kulia", "Mbele"]
+    correct_answer: "Kushoto"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Alama hii inaonyesha mwelekeo gani?"
+    image_url: "https://source.unsplash.com/featured/?right-arrow"
+    options: ["Kushoto", "Kulia", "Nyuma"]
+    correct_answer: "Kulia"
+    xp_reward: 10
+
+  - id: 87
+    type: picture_word
+    question: "Alama hii inaonyesha mwelekeo gani?"
+    image_url: "https://source.unsplash.com/featured/?straight-arrow"
+    options: ["Mbele", "Nyuma", "Kushoto"]
+    correct_answer: "Mbele"
+    xp_reward: 10
+
+  - id: 88
+    type: picture_word
+    question: "Hiki ni kitu gani?"
+    image_url: "https://source.unsplash.com/featured/?traffic-light"
+    options: ["Taa ya barabara", "Barabara", "Alama ya barabara"]
+    correct_answer: "Taa ya barabara"
+    xp_reward: 12
+
+  - id: 89
+    type: picture_word
+    question: "Hiki ni kitu gani?"
+    image_url: "https://source.unsplash.com/featured/?street-corner"
+    options: ["Kona", "Barabara", "Makutano"]
+    correct_answer: "Kona"
+    xp_reward: 10
+
+  - id: 90
+    type: picture_word
+    question: "Hiki ni kitu gani?"
+    image_url: "https://source.unsplash.com/featured/?road-sign"
+    options: ["Alama ya barabara", "Taa", "Barabara"]
+    correct_answer: "Alama ya barabara"
+    xp_reward: 10
+
+  - id: 91
+    type: picture_word
+    question: "Hiki ni mahali gani?"
+    image_url: "https://source.unsplash.com/featured/?intersection"
+    options: ["Makutano", "Kona", "Barabara"]
+    correct_answer: "Makutano"
+    xp_reward: 15
+
+  - id: 92
+    type: picture_word
+    question: "Hapa ni mahali gani?"
+    image_url: "https://source.unsplash.com/featured/?bank"
+    options: ["Benki", "Soko", "Hospitali"]
+    correct_answer: "Benki"
+    xp_reward: 10
+
+  - id: 93
+    type: picture_word
+    question: "Hapa ni mahali gani?"
+    image_url: "https://source.unsplash.com/featured/?market"
+    options: ["Soko", "Benki", "Hospitali"]
+    correct_answer: "Soko"
+    xp_reward: 10
+
+  - id: 94
+    type: picture_word
+    question: "Hapa ni mahali gani?"
+    image_url: "https://source.unsplash.com/featured/?hospital"
+    options: ["Hospitali", "Soko", "Benki"]
+    correct_answer: "Hospitali"
+    xp_reward: 10
+
+  # 10. Word Matching (Pairing)
+  - id: 95
+    type: matching
+    question: "Associez les directions de base"
+    pairs:
+      - left: "Kushoto"
+        right: "Gauche"
+      - left: "Kulia"
+        right: "Droite"
+      - left: "Moja kwa moja"
+        right: "Tout droit"
+      - left: "Mbele"
+        right: "Devant"
+      - left: "Nyuma"
+        right: "Derrière"
+    xp_reward: 20
+
+  - id: 96
+    type: matching
+    question: "Associez les directions cardinales"
+    pairs:
+      - left: "Kaskazini"
+        right: "Nord"
+      - left: "Kusini"
+        right: "Sud"
+      - left: "Mashariki"
+        right: "Est"
+      - left: "Magharibi"
+        right: "Ouest"
+    xp_reward: 18
+
+  - id: 97
+    type: matching
+    question: "Associez les mots de localisation"
+    pairs:
+      - left: "Karibu"
+        right: "Près"
+      - left: "Mbali"
+        right: "Loin"
+      - left: "Pande zote"
+        right: "Autour"
+    xp_reward: 15
+
+  - id: 98
+    type: matching
+    question: "Associez les commandements"
+    pairs:
+      - left: "Geuka kushoto"
+        right: "Tournez à gauche"
+      - left: "Geuka kulia"
+        right: "Tournez à droite"
+      - left: "Endelea mbele"
+        right: "Allez tout droit"
+      - left: "Rudi nyuma"
+        right: "Reculez"
+      - left: "Vuka barabara"
+        right: "Traversez la rue"
+      - left: "Simama kwenye taa ya barabara"
+        right: "Arrêtez-vous au feu tricolore"
+    xp_reward: 25
+
+  - id: 99
+    type: matching
+    question: "Associez les phrases"
+    pairs:
+      - left: "Benki iko mbele ya shule"
+        right: "La banque est devant l'école"
+      - left: "Soko liko karibu"
+        right: "Le marché est près"
+      - left: "Hospitali iko mbali"
+        right: "L'hôpital est loin"
+    xp_reward: 20
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 100
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Geuka ___."
+    missing_word_position: 2
+    options: ["kushoto", "kulia", "mbele"]
+    correct_answer: "kushoto"
+    translation: "Tournez à gauche."
+    xp_reward: 12
+
+  - id: 101
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Endelea ___."
+    missing_word_position: 2
+    options: ["mbele", "nyuma", "kulia"]
+    correct_answer: "mbele"
+    translation: "Allez tout droit."
+    xp_reward: 12
+
+  - id: 102
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Rudi ___."
+    missing_word_position: 2
+    options: ["nyuma", "mbele", "kushoto"]
+    correct_answer: "nyuma"
+    translation: "Reculez."
+    xp_reward: 12
+
+  - id: 103
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Soko liko ___."
+    missing_word_position: 3
+    options: ["karibu", "mbali", "mbele"]
+    correct_answer: "karibu"
+    translation: "Le marché est près."
+    xp_reward: 12
+
+  - id: 104
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Hospitali iko ___."
+    missing_word_position: 3
+    options: ["mbali", "karibu", "mbele"]
+    correct_answer: "mbali"
+    translation: "L'hôpital est loin."
+    xp_reward: 12
+
+  - id: 105
+    type: choose_missing
+    question: "Choisissez la bonne expression"
+    sentence: "Simama kwenye ___ ya barabara."
+    missing_word_position: 3
+    options: ["taa", "alama", "kona"]
+    correct_answer: "taa"
+    translation: "Arrêtez-vous au feu tricolore."
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions based on text
+  - id: 106
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Endelea mbele. Geuka kushoto."
+    question: "Agizo la kwanza ni lipi?"
+    options: ["Geuka kushoto", "Endelea mbele", "Geuka kulia", "Rudi nyuma"]
+    correct_answer: "Endelea mbele"
+    xp_reward: 15
+
+  - id: 107
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Benki iko mbele ya shule. Soko liko karibu."
+    question: "Benki iko wapi?"
+    options: ["Karibu na soko", "Mbele ya shule", "Mbali", "Nyuma ya shule"]
+    correct_answer: "Mbele ya shule"
+    xp_reward: 18
+
+  - id: 108
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Simama kwenye taa ya barabara. Vuka barabara."
+    question: "Unapaswa kufanya nini kwenye taa ya barabara?"
+    options: ["Geuka kushoto", "Simama", "Endelea mbele", "Geuka kulia"]
+    correct_answer: "Simama"
+    xp_reward: 15
+
+  - id: 109
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Hospitali iko mbali. Soko liko karibu."
+    question: "Hospitali iko karibu au mbali?"
+    options: ["Karibu", "Mbali", "Karibu sana", "Haijatajwa"]
+    correct_answer: "Mbali"
+    xp_reward: 12
+
+  - id: 110
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Rudi nyuma. Geuka kulia."
+    question: "Agizo la pili ni lipi?"
+    options: ["Rudi nyuma", "Geuka kushoto", "Geuka kulia", "Endelea mbele"]
+    correct_answer: "Geuka kulia"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 111
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Kushoto means 'right'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 112
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Kulia means 'right'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Mbele means 'front'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 114
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Karibu means 'far'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Endelea mbele means 'go straight'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 116
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Taa ya barabara means 'street sign'."
+    correct_answer: false
+    xp_reward: 12
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 117
+    type: conversation
+    question: "Répondez à la question en construisant un commandement"
+    bot_message: "Nataka kwenda sokoni. Nifanye nini?"
+    translation: "Je veux aller au marché. Que dois-je faire ?"
+    word_bank: ["Endelea", "mbele", "geuka", "kushoto", "rudi", "nyuma"]
+    correct_response: ["Endelea", "mbele"]
+    xp_reward: 18
+
+  - id: 118
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Benki iko wapi?"
+    translation: "Où est la banque ?"
+    options:
+      - "Mbele ya shule"
+      - "Karibu ya soko"
+      - "Mbali"
+    correct_response: "Mbele ya shule"
+    xp_reward: 15
+
+  - id: 119
+    type: conversation
+    question: "Répondez à la question en construisant un commandement"
+    bot_message: "Nataka kwenda hospitalini. Nifanye nini?"
+    translation: "Je veux aller à l'hôpital. Que dois-je faire ?"
+    word_bank: ["Rudi", "nyuma", "geuka", "kulia", "endelea", "mbele"]
+    correct_response: ["Rudi", "nyuma"]
+    xp_reward: 18
+
+  - id: 120
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Soko liko karibu?"
+    translation: "Le marché est-il près ?"
+    options:
+      - "Ndiyo, liko karibu"
+      - "Hapana, liko mbali"
+      - "Sijui"
+    correct_response: "Ndiyo, liko karibu"
+    xp_reward: 12
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 121
+    type: story
+    title: "Kutafuta Soko - Trouver le marché"
+    story_intro: "Lisez l'histoire pour trouver le marché. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "I want to go to the market."
+      - text: "Go straight."
+      - text: "Turn left at the traffic light."
+      - text: "The market is near."
+      - text: "The bank is in front of the school."
+    exercises:
+      - type: word_bank
+        question: "Construisez 'Allez tout droit'"
+        word_bank: ["Endelea", "mbele", "geuka", "kushoto"]
+        correct_answer: ["Endelea", "mbele"]
+      - type: word_bank
+        question: "Construisez 'Tournez à gauche au feu tricolore'"
+        word_bank: ["Geuka", "kushoto", "kwenye", "taa", "ya", "barabara"]
+        correct_answer: ["Geuka", "kushoto", "kwenye", "taa", "ya", "barabara"]
+      - type: word_bank
+        question: "Construisez 'Le marché est près'"
+        word_bank: ["Soko", "liko", "karibu", "hospitali", "iko", "mbali"]
+        correct_answer: ["Soko", "liko", "karibu"]
+      - type: word_bank
+        question: "Construisez 'La banque est devant l'école'"
+        word_bank: ["Benki", "iko", "mbele", "ya", "shule", "soko", "liko"]
+        correct_answer: ["Benki", "iko", "mbele", "ya", "shule"]
+    xp_reward: 40
+
+  # 17. Pronunciation Check
+  - id: 122
+    type: pronunciation
+    question: "Dites ce mot de direction"
+    prompt: "Kushoto"
+    translation: "Gauche"
+    xp_reward: 15
+
+  - id: 123
+    type: pronunciation
+    question: "Dites ce mot de direction"
+    prompt: "Kulia"
+    translation: "Droite"
+    xp_reward: 15
+
+  - id: 124
+    type: pronunciation
+    question: "Dites ce mot de direction"
+    prompt: "Mbele"
+    translation: "Devant"
+    xp_reward: 15
+
+  - id: 125
+    type: pronunciation
+    question: "Dites ce mot de direction"
+    prompt: "Nyuma"
+    translation: "Derrière"
+    xp_reward: 15
+
+  - id: 126
+    type: pronunciation
+    question: "Dites ce commandement"
+    prompt: "Geuka kushoto"
+    translation: "Tournez à gauche"
+    xp_reward: 18
+
+  - id: 127
+    type: pronunciation
+    question: "Dites ce commandement"
+    prompt: "Endelea mbele"
+    translation: "Allez tout droit"
+    xp_reward: 18
+
+  - id: 128
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Soko liko karibu"
+    translation: "Le marché est près"
+    xp_reward: 18
+
+  # 18. Identify Correct Meaning
+  - id: 129
+    type: identify_meaning
+    question: "Que signifie 'Geuka' dans ce commandement ?"
+    context_sentence: "Geuka kushoto."
+    word: "Geuka"
+    options: ["Enda", "Geuka", "Simama", "Vuka"]
+    correct_answer: "Geuka"
+    xp_reward: 15
+
+  - id: 130
+    type: identify_meaning
+    question: "Que signifie 'Endelea' dans ce commandement ?"
+    context_sentence: "Endelea mbele."
+    word: "Endelea"
+    options: ["Geuka", "Simama", "Endelea / Enda", "Vuka"]
+    correct_answer: "Endelea / Enda"
+    xp_reward: 15
+
+  - id: 131
+    type: identify_meaning
+    question: "Que signifie 'karibu' dans cette phrase ?"
+    context_sentence: "Soko liko karibu."
+    word: "karibu"
+    options: ["mbali", "karibu", "nyuma", "mbele"]
+    correct_answer: "karibu"
+    xp_reward: 12
+
+  - id: 132
+    type: identify_meaning
+    question: "Que signifie 'mbali' dans cette phrase ?"
+    context_sentence: "Hospitali iko mbali."
+    word: "mbali"
+    options: ["karibu", "mbali", "kushoto", "kulia"]
+    correct_answer: "mbali"
+    xp_reward: 12
+
+  - id: 133
+    type: identify_meaning
+    question: "Que signifie 'mbele ya' dans cette phrase ?"
+    context_sentence: "Benki iko mbele ya shule."
+    word: "mbele ya"
+    options: ["nyuma ya", "mbele ya", "karibu na", "mbali na"]
+    correct_answer: "mbele ya"
+    xp_reward: 15
+
+  # 19. Speed Matching
+  - id: 134
+    type: speed_matching
+    title: "Match Madness : Maelekezo"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Kushoto"
+        right: "Gauche"
+      - left: "Kulia"
+        right: "Droite"
+      - left: "Moja kwa moja"
+        right: "Tout droit"
+      - left: "Nyuma"
+        right: "Derrière"
+      - left: "Kaskazini"
+        right: "Nord"
+      - left: "Kusini"
+        right: "Sud"
+      - left: "Mashariki"
+        right: "Est"
+      - left: "Magharibi"
+        right: "Ouest"
+      - left: "Karibu"
+        right: "Près"
+      - left: "Mbali"
+        right: "Loin"
+      - left: "Geuka kushoto"
+        right: "Tournez à gauche"
+      - left: "Geuka kulia"
+        right: "Tournez à droite"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 135
+    type: timed_challenge
+    title: "Tour éclair : Maelekezo"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Kushoto"
+        answer: "Gauche"
+      - question: "Kulia"
+        answer: "Droite"
+      - question: "Moja kwa moja"
+        answer: "Tout droit"
+      - question: "Nyuma"
+        answer: "Derrière"
+      - question: "Karibu"
+        answer: "Près"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Kushoto"
+      back: "Gauche"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Kulia"
+      back: "Droite"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Moja kwa moja"
+      back: "Tout droit"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Nyuma"
+      back: "Derrière"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Mbele"
+      back: "Devant"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Kaskazini"
+      back: "Nord"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Kusini"
+      back: "Sud"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Mashariki"
+      back: "Est"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Magharibi"
+      back: "Ouest"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Karibu"
+      back: "Près"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

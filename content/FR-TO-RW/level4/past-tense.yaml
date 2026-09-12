@@ -1,0 +1,1223 @@
+lesson:
+  name: "Igihe Cyashize"
+  description: "Apprenez à parler des actions passées en kinyarwanda"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Past Tense Verbs ONLY (Safe for single words)
+  # Basic Past Tense Verbs
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'a mangé' en kinyarwanda ?"
+    answer: "yariye"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'a bu' en kinyarwanda ?"
+    answer: "yanyoye"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'est allé(e)' en kinyarwanda ?"
+    answer: "yagiye"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'est venu(e)' en kinyarwanda ?"
+    answer: "yazanywe"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'a vu' en kinyarwanda ?"
+    answer: "yabonye"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'a rencontré' en kinyarwanda ?"
+    answer: "yahuye"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'a acheté' en kinyarwanda ?"
+    answer: "yaguzwe"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'a joué' en kinyarwanda ?"
+    answer: "yakinnye"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'a dormi' en kinyarwanda ?"
+    answer: "yarahunyiriye"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'a dit' en kinyarwanda ?"
+    answer: "yavuze"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'a aimé' en kinyarwanda ?"
+    answer: "yakunze"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'a travaillé' en kinyarwanda ?"
+    answer: "yakoranye"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'a appris' en kinyarwanda ?"
+    answer: "yize"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'a voulu' en kinyarwanda ?"
+    answer: "yashakaga"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'a aidé' en kinyarwanda ?"
+    answer: "yafashije"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'a appelé / nommé' en kinyarwanda ?"
+    answer: "yitwa"
+    xp_reward: 10
+
+  # Subject Conjugations - Past Tense
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'J'ai mangé' en kinyarwanda ?"
+    answer: "Nariye"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Tu as mangé' en kinyarwanda ?"
+    answer: "Wariye"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Il/Elle a mangé' en kinyarwanda ?"
+    answer: "Yariye"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'Nous avons mangé' en kinyarwanda ?"
+    answer: "Twariye"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'Ils/Elles ont mangé' en kinyarwanda ?"
+    answer: "Bariye"
+    xp_reward: 15
+
+  # Past Tense Phrases
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'J'ai bu de l'eau' en kinyarwanda ?"
+    answer: "Nanyoye amazi."
+    xp_reward: 18
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Il est allé au marché' en kinyarwanda ?"
+    answer: "Yagiye ku isoko."
+    xp_reward: 18
+
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'Elle a rencontré son ami(e)' en kinyarwanda ?"
+    answer: "Yahuye n'inshuti ye."
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'J'ai acheté un livre' en kinyarwanda ?"
+    answer: "Naguriye igitabo."
+    xp_reward: 18
+
+  - id: 26
+    type: translation
+    question: "Comment dit-on 'Les enfants ont joué' en kinyarwanda ?"
+    answer: "Abana bakinnyije."
+    xp_reward: 18
+
+  - id: 27
+    type: translation
+    question: "Comment dit-on 'Il a bien dormi' en kinyarwanda ?"
+    answer: "Yarahunyiriye neza."
+    xp_reward: 18
+
+  - id: 28
+    type: translation
+    question: "Comment dit-on 'Ils ont dit bonjour' en kinyarwanda ?"
+    answer: "Bavuze muraho."
+    xp_reward: 18
+
+  # 2. Choix multiples
+  - id: 29
+    type: multiple_choice
+    question: "Que signifie 'yariye' ?"
+    options:
+      - "a bu"
+      - "a mangé"
+      - "est allé"
+      - "a vu"
+    answer: "a mangé"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "Que signifie 'yanyoye' ?"
+    options:
+      - "a mangé"
+      - "a bu"
+      - "a dormi"
+      - "a joué"
+    answer: "a bu"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "Que signifie 'yagiye' ?"
+    options:
+      - "est venu"
+      - "est allé"
+      - "a vu"
+      - "a rencontré"
+    answer: "est allé"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "Que signifie 'yabonye' ?"
+    options:
+      - "a acheté"
+      - "a rencontré"
+      - "a vu"
+      - "a joué"
+    answer: "a vu"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "Que signifie 'yahuye' ?"
+    options:
+      - "a vu"
+      - "a rencontré"
+      - "a acheté"
+      - "a dit"
+    answer: "a rencontré"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "Que signifie 'yaguzwe' ?"
+    options:
+      - "a acheté"
+      - "a vendu"
+      - "a donné"
+      - "a pris"
+    answer: "a acheté"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "Que signifie 'Nariye' ?"
+    options:
+      - "Tu as mangé"
+      - "J'ai mangé"
+      - "Il a mangé"
+      - "Nous avons mangé"
+    answer: "J'ai mangé"
+    xp_reward: 15
+
+  - id: 36
+    type: multiple_choice
+    question: "Que signifie 'Twariye' ?"
+    options:
+      - "J'ai mangé"
+      - "Tu as mangé"
+      - "Nous avons mangé"
+      - "Ils ont mangé"
+    answer: "Nous avons mangé"
+    xp_reward: 15
+
+  # 3. ?coutez et ?crivez (dict?e)
+  - id: 37
+    type: listen_and_type
+    question: "Écoutez et tapez le verbe au passé"
+    audio: "yariye"
+    answer: "yariye"
+    translation: "a mangé"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Écoutez et tapez le verbe au passé"
+    audio: "yanyoye"
+    answer: "yanyoye"
+    translation: "a bu"
+    xp_reward: 20
+
+  - id: 39
+    type: listen_and_type
+    question: "Écoutez et tapez le verbe au passé"
+    audio: "yagiye"
+    answer: "yagiye"
+    translation: "est allé"
+    xp_reward: 20
+
+  - id: 40
+    type: listen_and_type
+    question: "Écoutez et tapez le verbe au passé"
+    audio: "yabonye"
+    answer: "yabonye"
+    translation: "a vu"
+    xp_reward: 20
+
+  - id: 41
+    type: listen_and_type
+    question: "Écoutez et tapez le verbe au passé"
+    audio: "yahuye"
+    answer: "yahuye"
+    translation: "a rencontré"
+    xp_reward: 20
+
+  - id: 42
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase au passé"
+    audio: "Nariye"
+    answer: "Nariye"
+    translation: "J'ai mangé"
+    xp_reward: 22
+
+  - id: 43
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase au passé"
+    audio: "Nanyoye amazi"
+    answer: "Nanyoye amazi"
+    translation: "J'ai bu de l'eau"
+    xp_reward: 25
+
+  - id: 44
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase au passé"
+    audio: "Yagiye ku isoko"
+    answer: "Yagiye ku isoko"
+    translation: "Il est allé au marché"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 45
+    type: listen_and_choose
+    question: "Écoutez et choisissez le verbe au passé correct"
+    audio: "yariye"
+    options:
+      - "a bu"
+      - "a mangé"
+      - "est allé"
+    answer: "a mangé"
+    xp_reward: 15
+
+  - id: 46
+    type: listen_and_choose
+    question: "Écoutez et choisissez le verbe au passé correct"
+    audio: "yanyoye"
+    options:
+      - "a mangé"
+      - "a bu"
+      - "a dormi"
+    answer: "a bu"
+    xp_reward: 15
+
+  - id: 47
+    type: listen_and_choose
+    question: "Écoutez et choisissez le verbe au passé correct"
+    audio: "yagiye"
+    options:
+      - "est venu"
+      - "est allé"
+      - "a vu"
+    answer: "est allé"
+    xp_reward: 15
+
+  - id: 48
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Nariye"
+    options:
+      - "J'ai mangé"
+      - "Tu as mangé"
+      - "Il a mangé"
+    answer: "J'ai mangé"
+    xp_reward: 18
+
+  - id: 49
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Yagiye ku isoko"
+    options:
+      - "Il est allé à l'école"
+      - "Il est allé au marché"
+      - "Il est rentré à la maison"
+    answer: "Il est allé au marché"
+    xp_reward: 20
+
+  # 5. R?p?ter / Exercice oral
+  - id: 50
+    type: speaking
+    question: "Dites ce verbe au passé"
+    prompt: "yariye"
+    translation: "a mangé"
+    xp_reward: 15
+
+  - id: 51
+    type: speaking
+    question: "Dites ce verbe au passé"
+    prompt: "yanyoye"
+    translation: "a bu"
+    xp_reward: 15
+
+  - id: 52
+    type: speaking
+    question: "Dites ce verbe au passé"
+    prompt: "yagiye"
+    translation: "est allé"
+    xp_reward: 15
+
+  - id: 53
+    type: speaking
+    question: "Dites ce verbe au passé"
+    prompt: "yabonye"
+    translation: "a vu"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Dites cette phrase au passé"
+    prompt: "Nariye"
+    translation: "J'ai mangé"
+    xp_reward: 18
+
+  - id: 55
+    type: speaking
+    question: "Dites cette phrase au passé"
+    prompt: "Twariye"
+    translation: "Nous avons mangé"
+    xp_reward: 18
+
+  - id: 56
+    type: speaking
+    question: "Dites cette phrase au passé"
+    prompt: "Nanyoye amazi"
+    translation: "J'ai bu de l'eau"
+    xp_reward: 20
+
+  - id: 57
+    type: speaking
+    question: "Dites cette phrase au passé"
+    prompt: "Yagiye ku isoko"
+    translation: "Il est allé au marché"
+    xp_reward: 20
+
+  # 6. Construction de phrases avec banque de mots - PIECES PROVIDED
+  - id: 58
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'J'ai mangé'"
+    word_bank: ["Nariye", "Wariye", "Yariye", "Twariye"]
+    correct_answer: ["Nariye"]
+    xp_reward: 15
+
+  - id: 59
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Tu as mangé'"
+    word_bank: ["Nariye", "Wariye", "Yariye", "Twariye"]
+    correct_answer: ["Wariye"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Il a mangé'"
+    word_bank: ["Nariye", "Wariye", "Yariye", "Bariye"]
+    correct_answer: ["Yariye"]
+    xp_reward: 15
+
+  - id: 61
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Nous avons mangé'"
+    word_bank: ["Nariye", "Wariye", "Yariye", "Twariye"]
+    correct_answer: ["Twariye"]
+    xp_reward: 15
+
+  - id: 62
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Ils ont mangé'"
+    word_bank: ["Nariye", "Wariye", "Yariye", "Bariye"]
+    correct_answer: ["Bariye"]
+    xp_reward: 15
+
+  - id: 63
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'J'ai bu de l'eau'"
+    word_bank: ["Nanyoye", "amazi", "yanyoye", "amata", "nariye"]
+    correct_answer: ["Nanyoye", "amazi"]
+    xp_reward: 18
+
+  - id: 64
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Il est allé au marché'"
+    word_bank: ["Yagiye", "ku isoko", "ku ishuri", "mu nzu", "yabonye"]
+    correct_answer: ["Yagiye", "ku isoko"]
+    xp_reward: 18
+
+  - id: 65
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Elle a rencontré son ami(e)'"
+    word_bank: ["Yahuye", "n'inshuti", "ye", "n'umuryango", "wanjye"]
+    correct_answer: ["Yahuye", "n'inshuti", "ye"]
+    xp_reward: 20
+
+  - id: 66
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'J'ai acheté un livre'"
+    word_bank: ["Naguriye", "igitabo", "yaguriye", "ibiryo", "nariye"]
+    correct_answer: ["Naguriye", "igitabo"]
+    xp_reward: 18
+
+  - id: 67
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Les enfants ont joué'"
+    word_bank: ["Abana", "bakinnyije", "yarahunyiriye", "neza", "bavuze"]
+    correct_answer: ["Abana", "bakinnyije"]
+    xp_reward: 18
+
+  - id: 68
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Il a bien dormi'"
+    word_bank: ["Yarahunyiriye", "neza", "yarahunyiriye", "nabi", "yakoze"]
+    correct_answer: ["Yarahunyiriye", "neza"]
+    xp_reward: 18
+
+  - id: 69
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Ils ont dit bonjour'"
+    word_bank: ["Bavuze", "muraho", "bavuze", "amakuru", "yavuze"]
+    correct_answer: ["Bavuze", "muraho"]
+    xp_reward: 18
+
+  # 7. Mots m?lang?s - PIECES PROVIDED
+  - id: 70
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nariye"]
+    correct_sentence: "Nariye"
+    translation: "J'ai mangé"
+    xp_reward: 12
+
+  - id: 71
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Twariye"]
+    correct_sentence: "Twariye"
+    translation: "Nous avons mangé"
+    xp_reward: 12
+
+  - id: 72
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nanyoye", "amazi"]
+    correct_sentence: "Nanyoye amazi."
+    translation: "J'ai bu de l'eau."
+    xp_reward: 15
+
+  - id: 73
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Yagiye", "ku isoko"]
+    correct_sentence: "Yagiye ku isoko."
+    translation: "Il est allé au marché."
+    xp_reward: 15
+
+  - id: 74
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Yahuye", "n'inshuti", "ye"]
+    correct_sentence: "Yahuye n'inshuti ye."
+    translation: "Elle a rencontré son ami(e)."
+    xp_reward: 18
+
+  - id: 75
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Naguriye", "igitabo"]
+    correct_sentence: "Naguriye igitabo."
+    translation: "J'ai acheté un livre."
+    xp_reward: 15
+
+  - id: 76
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Abana", "bakinnyije"]
+    correct_sentence: "Abana bakinnyije."
+    translation: "Les enfants ont joué."
+    xp_reward: 15
+
+  - id: 77
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Yarahunyiriye", "neza"]
+    correct_sentence: "Yarahunyiriye neza."
+    translation: "Il a bien dormi."
+    xp_reward: 15
+
+  - id: 78
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Bavuze", "muraho"]
+    correct_sentence: "Bavuze muraho."
+    translation: "Ils ont dit bonjour."
+    xp_reward: 15
+
+  # 8. Compl?ter le texte - CHOOSE FROM OPTIONS
+  - id: 79
+    type: fill_blank
+    question: "Complétez la phrase pour 'J'ai mangé'"
+    text_with_blank: "___"
+    options: ["Nariye", "Wariye", "Yariye"]
+    correct_answer: "Nariye"
+    translation: "J'ai mangé"
+    xp_reward: 10
+
+  - id: 80
+    type: fill_blank
+    question: "Complétez la phrase pour 'Nous avons mangé'"
+    text_with_blank: "___"
+    options: ["Nariye", "Twariye", "Bariye"]
+    correct_answer: "Twariye"
+    translation: "Nous avons mangé"
+    xp_reward: 10
+
+  - id: 81
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nanyoye ___."
+    options: ["amazi", "amata", "ibiryo"]
+    correct_answer: "amazi"
+    translation: "J'ai bu de l'eau."
+    xp_reward: 15
+
+  - id: 82
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Yagiye ___."
+    options: ["ku isoko", "ku ishuri", "mu nzu"]
+    correct_answer: "ku isoko"
+    translation: "Il est allé au marché."
+    xp_reward: 15
+
+  - id: 83
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Yahuye ___."
+    options: ["n'inshuti ye", "n'umuryango we", "n'umugore we"]
+    correct_answer: "n'inshuti ye"
+    translation: "Elle a rencontré son ami(e)."
+    xp_reward: 18
+
+  - id: 84
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Naguriye ___."
+    options: ["igitabo", "ibiryo", "umugati"]
+    correct_answer: "igitabo"
+    translation: "J'ai acheté un livre."
+    xp_reward: 15
+
+  - id: 85
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Abana ___."
+    options: ["bakinnyije", "bariye", "bavuze"]
+    correct_answer: "bakinnyije"
+    translation: "Les enfants ont joué."
+    xp_reward: 15
+
+  - id: 86
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Yarahunyiriye ___."
+    options: ["neza", "nabi", "kare"]
+    correct_answer: "neza"
+    translation: "Il a bien dormi."
+    xp_reward: 15
+
+  - id: 87
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Bavuze ___."
+    options: ["muraho", "amakuru", "ni meza"]
+    correct_answer: "muraho"
+    translation: "Ils ont dit bonjour."
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images) - Representing past actions
+  - id: 88
+    type: picture_word
+    question: "Qu'a-t-il fait ? (passé)"
+    image_url: "https://source.unsplash.com/featured/?eating"
+    options: ["yariye", "yanyoye", "yagiye"]
+    correct_answer: "yariye"
+    xp_reward: 15
+
+  - id: 89
+    type: picture_word
+    question: "Qu'a-t-il fait ? (passé)"
+    image_url: "https://source.unsplash.com/featured/?drinking"
+    options: ["yariye", "yanyoye", "yakoze"]
+    correct_answer: "yanyoye"
+    xp_reward: 15
+
+  - id: 90
+    type: picture_word
+    question: "Qu'a-t-il fait ? (passé)"
+    image_url: "https://source.unsplash.com/featured/?walking-away"
+    options: ["yariye", "yanyoye", "yagiye"]
+    correct_answer: "yagiye"
+    xp_reward: 15
+
+  - id: 91
+    type: picture_word
+    question: "Qu'a-t-il fait ? (passé)"
+    image_url: "https://source.unsplash.com/featured/?seeing"
+    options: ["yabonye", "yahuye", "yavuze"]
+    correct_answer: "yabonye"
+    xp_reward: 15
+
+  - id: 92
+    type: picture_word
+    question: "Qu'ont-ils fait ? (passé)"
+    image_url: "https://source.unsplash.com/featured/?meeting"
+    options: ["yahuye", "yabonye", "yavuze"]
+    correct_answer: "yahuye"
+    xp_reward: 15
+
+  - id: 93
+    type: picture_word
+    question: "Qu'a-t-il fait ? (passé)"
+    image_url: "https://source.unsplash.com/featured/?shopping"
+    options: ["yaguzwe", "yariye", "yakoze"]
+    correct_answer: "yaguzwe"
+    xp_reward: 15
+
+  - id: 94
+    type: picture_word
+    question: "Qu'ont fait les enfants ? (passé)"
+    image_url: "https://source.unsplash.com/featured/?playing"
+    options: ["yakinnye", "yarahunyiriye", "yize"]
+    correct_answer: "yakinnye"
+    xp_reward: 15
+
+  - id: 95
+    type: picture_word
+    question: "Qu'a-t-il fait ? (passé)"
+    image_url: "https://source.unsplash.com/featured/?sleeping"
+    options: ["yarahunyiriye", "yakinnye", "yakoze"]
+    correct_answer: "yarahunyiriye"
+    xp_reward: 15
+
+  # 10. Association de mots (Pairing)
+  - id: 96
+    type: matching
+    question: "Associez le présent avec le passé"
+    pairs:
+      - left: "irya (manger)"
+        right: "yariye"
+      - left: "inywa (boire)"
+        right: "yanyoye"
+      - left: "genda (aller)"
+        right: "yagiye"
+      - left: "kora (travailler)"
+        right: "yakoze"
+      - left: "rya (manger pour je)"
+        right: "nariye"
+      - left: "rya (manger pour nous)"
+        right: "twariye"
+      - left: "rya (manger pour ils)"
+        right: "bariye"
+    xp_reward: 25
+
+  - id: 97
+    type: matching
+    question: "Associez les verbes au passé avec leur signification"
+    pairs:
+      - left: "yabonye"
+        right: "a vu"
+      - left: "yahuye"
+        right: "a rencontré"
+      - left: "yaguzwe"
+        right: "a acheté"
+      - left: "yakinnye"
+        right: "a joué"
+      - left: "yarahunyiriye"
+        right: "a dormi"
+      - left: "yavuze"
+        right: "a dit"
+      - left: "yakunze"
+        right: "a aimé"
+      - left: "yize"
+        right: "a appris"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Associez le sujet avec la bonne forme au passé de 'manger'"
+    pairs:
+      - left: "Je"
+        right: "Nariye"
+      - left: "Tu"
+        right: "Wariye"
+      - left: "Il/Elle"
+        right: "Yariye"
+      - left: "Nous"
+        right: "Twariye"
+      - left: "Ils/Elles"
+        right: "Bariye"
+    xp_reward: 20
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 99
+    type: choose_missing
+    question: "Choisissez le verbe au passé correct pour 'Je'"
+    sentence: "___ amazi."
+    missing_word_position: 1
+    options: ["Nanyoye", "Yanyoye", "Banyoye"]
+    correct_answer: "Nanyoye"
+    translation: "J'ai bu de l'eau."
+    xp_reward: 15
+
+  - id: 100
+    type: choose_missing
+    question: "Choisissez le bon verbe au passé"
+    sentence: "Yagiye ___."
+    missing_word_position: 2
+    options: ["ku isoko", "ku ishuri", "mu nzu"]
+    correct_answer: "ku isoko"
+    translation: "Il est allé au marché."
+    xp_reward: 15
+
+  - id: 101
+    type: choose_missing
+    question: "Choisissez le bon verbe au passé"
+    sentence: "___ igitabo."
+    missing_word_position: 1
+    options: ["Naguriye", "Yaguriye", "Baguriye"]
+    correct_answer: "Naguriye"
+    translation: "J'ai acheté un livre."
+    xp_reward: 15
+
+  - id: 102
+    type: choose_missing
+    question: "Choisissez le bon verbe au passé"
+    sentence: "Abana ___."
+    missing_word_position: 2
+    options: ["bakinnyije", "bariye", "bavuze"]
+    correct_answer: "bakinnyije"
+    translation: "Les enfants ont joué."
+    xp_reward: 15
+
+  - id: 103
+    type: choose_missing
+    question: "Choisissez le bon mot"
+    sentence: "Yarahunyiriye ___."
+    missing_word_position: 2
+    options: ["neza", "nabi", "kare"]
+    correct_answer: "neza"
+    translation: "Il a bien dormi."
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions based on text
+  - id: 104
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Nanyoye amazi. Nariye ibiryo."
+    question: "Qu'est-ce que j'ai bu ?"
+    options: ["De l'eau", "Du lait", "De la nourriture", "Du jus"]
+    correct_answer: "De l'eau"
+    xp_reward: 15
+
+  - id: 105
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Yagiye ku isoko. Yaguriye ibiryo."
+    question: "Où est-il allé ?"
+    options: ["À l'école", "Au marché", "À la maison", "Au travail"]
+    correct_answer: "Au marché"
+    xp_reward: 15
+
+  - id: 106
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Yahuye n'inshuti ye. Bavuze muraho."
+    question: "Qui a-t-elle rencontré ?"
+    options: ["Sa famille", "Son ami(e)", "Son professeur", "Son frère"]
+    correct_answer: "Son ami(e)"
+    xp_reward: 18
+
+  - id: 107
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Abana bakinnyije. Yarahunyiriye neza."
+    question: "Qu'ont fait les enfants ?"
+    options: ["Ont dormi", "Ont joué", "Ont mangé", "Ont bu"]
+    correct_answer: "Ont joué"
+    xp_reward: 15
+
+  - id: 108
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Naguriye igitabo. Nsoma buri munsi."
+    question: "Qu'est-ce que j'ai acheté ?"
+    options: ["De la nourriture", "Un livre", "De l'eau", "Des vêtements"]
+    correct_answer: "Un livre"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 109
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Yariye means 'a bu'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 110
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Yanyoye means 'a bu'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 111
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Yagiye means 'est allé'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 112
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Nariye means 'J'ai mangé'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Twariye means 'ils ont mangé'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 114
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Yarahunyiriye neza means 'Il a bien dormi'."
+    correct_answer: true
+    xp_reward: 15
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 115
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Wakoze iki ejo?"
+    translation: "Qu'as-tu fait hier ?"
+    word_bank: ["Nariye", "ibiryo", "nanyoye", "amazi", "naguriye"]
+    correct_response: ["Nariye", "ibiryo"]
+    xp_reward: 20
+
+  - id: 116
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Yagiye he?"
+    translation: "Où est-il allé ?"
+    options:
+      - "Yagiye ku isoko"
+      - "Yagiye ku ishuri"
+      - "Yagiye mu nzu"
+    correct_response: "Yagiye ku isoko"
+    xp_reward: 15
+
+  - id: 117
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Waguriye iki?"
+    translation: "Qu'as-tu acheté ?"
+    word_bank: ["Naguriye", "igitabo", "ibiryo", "umugati", "amazi"]
+    correct_response: ["Naguriye", "igitabo"]
+    xp_reward: 18
+
+  - id: 118
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Abana bakoze iki?"
+    translation: "Qu'ont fait les enfants ?"
+    options:
+      - "Bakinnyije"
+      - "Bariye"
+      - "Bavuze muraho"
+    correct_response: "Bakinnyije"
+    xp_reward: 15
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 119
+    type: story
+    title: "Hier - Ejo Hashize"
+    story_intro: "Lisez ce qui s'est passé hier. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "I ate food."
+      - text: "I drank water."
+      - text: "He went to the market."
+      - text: "She met her friend."
+      - text: "I bought a book."
+      - text: "The children played."
+      - text: "He slept well."
+      - text: "They said hello."
+    exercises:
+      - type: word_bank
+        question: "Construisez 'J'ai mangé de la nourriture'"
+        word_bank: ["Nariye", "ibiryo", "nanyoye", "amazi"]
+        correct_answer: ["Nariye", "ibiryo"]
+      - type: word_bank
+        question: "Construisez 'J'ai bu de l'eau'"
+        word_bank: ["Nanyoye", "amazi", "nariye", "ibiryo"]
+        correct_answer: ["Nanyoye", "amazi"]
+      - type: word_bank
+        question: "Construisez 'Il est allé au marché'"
+        word_bank: ["Yagiye", "ku isoko", "yahuye", "n'inshuti"]
+        correct_answer: ["Yagiye", "ku isoko"]
+      - type: word_bank
+        question: "Construisez 'Elle a rencontré son ami(e)'"
+        word_bank: ["Yahuye", "n'inshuti", "ye", "yagiye", "ku isoko"]
+        correct_answer: ["Yahuye", "n'inshuti", "ye"]
+      - type: word_bank
+        question: "Construisez 'J'ai acheté un livre'"
+        word_bank: ["Naguriye", "igitabo", "nariye", "ibiryo"]
+        correct_answer: ["Naguriye", "igitabo"]
+      - type: word_bank
+        question: "Construisez 'Les enfants ont joué'"
+        word_bank: ["Abana", "bakinnyije", "yarahunyiriye", "neza"]
+        correct_answer: ["Abana", "bakinnyije"]
+      - type: word_bank
+        question: "Construisez 'Il a bien dormi'"
+        word_bank: ["Yarahunyiriye", "neza", "bakinnyije", "bavuze"]
+        correct_answer: ["Yarahunyiriye", "neza"]
+      - type: word_bank
+        question: "Construisez 'Ils ont dit bonjour'"
+        word_bank: ["Bavuze", "muraho", "bakinnyije", "bariye"]
+        correct_answer: ["Bavuze", "muraho"]
+    xp_reward: 50
+
+  # 17. Pronunciation Check
+  - id: 120
+    type: pronunciation
+    question: "Dites ce verbe au passé"
+    prompt: "yariye"
+    translation: "a mangé"
+    xp_reward: 15
+
+  - id: 121
+    type: pronunciation
+    question: "Dites ce verbe au passé"
+    prompt: "yanyoye"
+    translation: "a bu"
+    xp_reward: 15
+
+  - id: 122
+    type: pronunciation
+    question: "Dites ce verbe au passé"
+    prompt: "yagiye"
+    translation: "est allé"
+    xp_reward: 15
+
+  - id: 123
+    type: pronunciation
+    question: "Dites cette phrase au passé"
+    prompt: "Nariye"
+    translation: "J'ai mangé"
+    xp_reward: 18
+
+  - id: 124
+    type: pronunciation
+    question: "Dites cette phrase au passé"
+    prompt: "Twariye"
+    translation: "Nous avons mangé"
+    xp_reward: 18
+
+  - id: 125
+    type: pronunciation
+    question: "Dites cette phrase au passé"
+    prompt: "Nanyoye amazi"
+    translation: "J'ai bu de l'eau"
+    xp_reward: 20
+
+  - id: 126
+    type: pronunciation
+    question: "Dites cette phrase au passé"
+    prompt: "Yagiye ku isoko"
+    translation: "Il est allé au marché"
+    xp_reward: 20
+
+  # 18. Identify Correct Meaning
+  - id: 127
+    type: identify_meaning
+    question: "Que signifie 'yariye' dans cette phrase ?"
+    context_sentence: "Yariye ibiryo."
+    word: "yariye"
+    options: ["a bu", "a mangé", "est allé", "a vu"]
+    correct_answer: "a mangé"
+    xp_reward: 15
+
+  - id: 128
+    type: identify_meaning
+    question: "Que signifie 'Nanyoye' dans cette phrase ?"
+    context_sentence: "Nanyoye amazi."
+    word: "Nanyoye"
+    options: ["J'ai mangé", "J'ai bu", "Je suis allé", "J'ai vu"]
+    correct_answer: "J'ai bu"
+    xp_reward: 15
+
+  - id: 129
+    type: identify_meaning
+    question: "Que signifie 'yahuye' dans cette phrase ?"
+    context_sentence: "Yahuye n'inshuti ye."
+    word: "yahuye"
+    options: ["a vu", "a rencontré", "a acheté", "a dit"]
+    correct_answer: "a rencontré"
+    xp_reward: 15
+
+  - id: 130
+    type: identify_meaning
+    question: "Que signifie 'bakinnyije' dans cette phrase ?"
+    context_sentence: "Abana bakinnyije."
+    word: "bakinnyije"
+    options: ["ont mangé", "ont bu", "ont joué", "ont dormi"]
+    correct_answer: "ont joué"
+    xp_reward: 15
+
+  - id: 131
+    type: identify_meaning
+    question: "Que signifie 'neza' dans cette phrase ?"
+    context_sentence: "Yarahunyiriye neza."
+    word: "neza"
+    options: ["mal", "bien", "vite", "lentement"]
+    correct_answer: "bien"
+    xp_reward: 15
+
+  # 19. Speed Matching
+  - id: 132
+    type: speed_matching
+    title: "Match Madness : Passé"
+    time_limit_seconds: 45
+    pairs:
+      - left: "a mangé"
+        right: "yariye"
+      - left: "a bu"
+        right: "yanyoye"
+      - left: "est allé"
+        right: "yagiye"
+      - left: "a vu"
+        right: "yabonye"
+      - left: "a rencontré"
+        right: "yahuye"
+      - left: "a acheté"
+        right: "yaguzwe"
+      - left: "a joué"
+        right: "yakinnye"
+      - left: "a dormi"
+        right: "yarahunyiriye"
+      - left: "a dit"
+        right: "yavuze"
+      - left: "a travaillé"
+        right: "yakoze"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 133
+    type: timed_challenge
+    title: "Tour éclair : Passé"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "a mangé"
+        answer: "yariye"
+      - question: "a bu"
+        answer: "yanyoye"
+      - question: "est allé"
+        answer: "yagiye"
+      - question: "a vu"
+        answer: "yabonye"
+      - question: "a rencontré"
+        answer: "yahuye"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "yariye"
+      back: "a mangé"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "yanyoye"
+      back: "a bu"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "yagiye"
+      back: "est allé(e)"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "yazanywe"
+      back: "est venu(e)"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "yabonye"
+      back: "a vu"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "yahuye"
+      back: "a rencontré"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "yaguzwe"
+      back: "a acheté"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "yakinnye"
+      back: "a joué"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "yarahunyiriye"
+      back: "a dormi"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "yavuze"
+      back: "a dit"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

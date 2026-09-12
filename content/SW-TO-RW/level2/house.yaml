@@ -1,0 +1,1368 @@
+lesson:
+ name: "Nyumba - Inzu"
+ description: "Jifunze Nyumba Msamiati katika Kinyarwanda na how kwa talk about your home"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Nyumba Words ONLY (Safe kwa single words)
+ # Basic Nyumba Words
+ - id: 1
+ type: translation
+ Swali: "Unasemaje 'Nyumba' kwa Kinyarwanda?"
+ Jibu: "Inzu"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Swali: "Unasemaje 'Home' kwa Kinyarwanda?"
+ Jibu: "Urugo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Swali: "Unasemaje 'Room' kwa Kinyarwanda?"
+ Jibu: "Icyumba"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Swali: "Unasemaje 'Door' kwa Kinyarwanda?"
+ Jibu: "Urugi"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Swali: "Unasemaje 'Window' kwa Kinyarwanda?"
+ Jibu: "Idirishya"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Swali: "Unasemaje 'Roof' kwa Kinyarwanda?"
+ Jibu: "Igisenge"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Swali: "Unasemaje 'Wall' kwa Kinyarwanda?"
+ Jibu: "Urukuta"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Swali: "Unasemaje 'Floor' kwa Kinyarwanda?"
+ Jibu: "Hasi"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Swali: "Unasemaje 'Key' kwa Kinyarwanda?"
+ Jibu: "Urufunguzo"
+ xp_reward: 10
+
+ # Rooms katika moja Nyumba
+ - id: 10
+ type: translation
+ Swali: "Unasemaje 'Bedroom' kwa Kinyarwanda?"
+ Jibu: "Icyumba cyo kuraramo"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Swali: "Unasemaje 'Living room' kwa Kinyarwanda?"
+ Jibu: "Icyumba cyo kwakiriramo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Swali: "Unasemaje 'Kitchen' kwa Kinyarwanda?"
+ Jibu: "Igikoni"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Swali: "Unasemaje 'Bathroom' kwa Kinyarwanda?"
+ Jibu: "Ubwiherero"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Swali: "Unasemaje 'Dining room' kwa Kinyarwanda?"
+ Jibu: "Icyumba cyo kuriramo"
+ xp_reward: 15
+
+ # Furniture
+ - id: 15
+ type: translation
+ Swali: "Unasemaje 'Bed' kwa Kinyarwanda?"
+ Jibu: "Uburiri"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Swali: "Unasemaje 'Table' kwa Kinyarwanda?"
+ Jibu: "Ameza"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Swali: "Unasemaje 'Chair' kwa Kinyarwanda?"
+ Jibu: "Intebe"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Swali: "Unasemaje 'Sofa' kwa Kinyarwanda?"
+ Jibu: "Sofa"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ Swali: "Unasemaje 'Lamp' kwa Kinyarwanda?"
+ Jibu: "Itara"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ Swali: "Unasemaje 'Cupboard' kwa Kinyarwanda?"
+ Jibu: "Akabati"
+ xp_reward: 10
+
+ # Sentensi About moja Nyumba
+ - id: 21
+ type: translation
+ Swali: "Unasemaje 'I have moja Nyumba' kwa Kinyarwanda?"
+ Jibu: "Mfite inzu."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Swali: "Unasemaje 'ya Nyumba ni kubwa' kwa Kinyarwanda?"
+ Jibu: "Inzu nini."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Swali: "Unasemaje 'ya door ni open' kwa Kinyarwanda?"
+ Jibu: "Urugi rurafunguye."
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Swali: "Unasemaje 'ya window ni closed' kwa Kinyarwanda?"
+ Jibu: "Idirishya rirafunze."
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Swali: "Unasemaje 'ya Nyumba has many rooms' kwa Kinyarwanda?"
+ Jibu: "Inzu ifite ibyumba byinshi."
+ xp_reward: 18
+
+ - id: 26
+ type: translation
+ Swali: "Unasemaje 'I sleep katika ya bedroom' kwa Kinyarwanda?"
+ Jibu: "Nsinzira mu cyumba cyo kuraramo."
+ xp_reward: 18
+
+ - id: 27
+ type: translation
+ Swali: "Unasemaje 'I cook katika ya kitchen' kwa Kinyarwanda?"
+ Jibu: "Nteka mu gikoni."
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Swali: "Unasemaje 'I sit juu ya chair' kwa Kinyarwanda?"
+ Jibu: "Nicara ku ntebe."
+ xp_reward: 15
+
+ # Activities katika ya Nyumba
+ - id: 29
+ type: translation
+ Swali: "Unasemaje 'I open ya door' kwa Kinyarwanda?"
+ Jibu: "Mfunguza urugi."
+ xp_reward: 15
+
+ - id: 30
+ type: translation
+ Swali: "Unasemaje 'I close ya window' kwa Kinyarwanda?"
+ Jibu: "Mfunze idirishya."
+ xp_reward: 15
+
+ - id: 31
+ type: translation
+ Swali: "Unasemaje 'I clean ya Nyumba' kwa Kinyarwanda?"
+ Jibu: "Nsukura inzu."
+ xp_reward: 15
+
+ - id: 32
+ type: translation
+ Swali: "Unasemaje 'I cook Chakula katika ya kitchen' kwa Kinyarwanda?"
+ Jibu: "Nteka ibiryo mu gikoni."
+ xp_reward: 18
+
+ - id: 33
+ type: translation
+ Swali: "Unasemaje 'ya child sleeps juu ya bed' kwa Kinyarwanda?"
+ Jibu: "Umwana asinzira ku buriri."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 34
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Inzu' kwa sentensi hii?"
+ options:
+ - "Home"
+ - "Nyumba"
+ - "Room"
+ - "Door"
+ Jibu: "Nyumba"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Urugi' kwa sentensi hii?"
+ options:
+ - "Window"
+ - "Door"
+ - "Wall"
+ - "Roof"
+ Jibu: "Door"
+ xp_reward: 15
+
+ - id: 36
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Idirishya' kwa sentensi hii?"
+ options:
+ - "Door"
+ - "Window"
+ - "Key"
+ - "Floor"
+ Jibu: "Window"
+ xp_reward: 15
+
+ - id: 37
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Igikoni' kwa sentensi hii?"
+ options:
+ - "Bedroom"
+ - "Living room"
+ - "Kitchen"
+ - "Bathroom"
+ Jibu: "Kitchen"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Uburiri' kwa sentensi hii?"
+ options:
+ - "Chair"
+ - "Table"
+ - "Bed"
+ - "Sofa"
+ Jibu: "Bed"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Mfite inzu' kwa sentensi hii?"
+ options:
+ - "ya Nyumba ni kubwa"
+ - "I have moja Nyumba"
+ - "I clean ya Nyumba"
+ - "ya Nyumba has many rooms"
+ Jibu: "I have moja Nyumba"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Urugi rurafunguye' kwa sentensi hii?"
+ options:
+ - "ya window ni closed"
+ - "ya door ni open"
+ - "I open ya door"
+ - "I close ya window"
+ Jibu: "ya door ni open"
+ xp_reward: 18
+
+ # 3. Sikiliza na Type (Dictation)
+ - id: 41
+ type: listen_na_type
+ Swali: "Sikiliza na type ya Nyumba word"
+ audio: "Inzu"
+ Jibu: "Inzu"
+ translation: "Nyumba"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_na_type
+ Swali: "Sikiliza na type ya Nyumba word"
+ audio: "Urugi"
+ Jibu: "Urugi"
+ translation: "Door"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_na_type
+ Swali: "Sikiliza na type ya Nyumba word"
+ audio: "Idirishya"
+ Jibu: "Idirishya"
+ translation: "Window"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_na_type
+ Swali: "Sikiliza na type ya room"
+ audio: "Igikoni"
+ Jibu: "Igikoni"
+ translation: "Kitchen"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_na_type
+ Swali: "Sikiliza na type ya furniture"
+ audio: "Uburiri"
+ Jibu: "Uburiri"
+ translation: "Bed"
+ xp_reward: 20
+
+ - id: 46
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ audio: "Mfite inzu"
+ Jibu: "Mfite inzu"
+ translation: "I have moja Nyumba"
+ xp_reward: 22
+
+ - id: 47
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ audio: "Nteka mu gikoni"
+ Jibu: "Nteka mu gikoni"
+ translation: "I cook katika ya kitchen"
+ xp_reward: 22
+
+ - id: 48
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ audio: "Urugi rurafunguye"
+ Jibu: "Urugi rurafunguye"
+ translation: "ya door ni open"
+ xp_reward: 22
+
+ # 4. Sikiliza na Chagua
+ - id: 49
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct Nyumba word"
+ audio: "Inzu"
+ options:
+ - "Nyumba"
+ - "Home"
+ - "Room"
+ Jibu: "Nyumba"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct Nyumba word"
+ audio: "Urugi"
+ options:
+ - "Window"
+ - "Door"
+ - "Wall"
+ Jibu: "Door"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct Nyumba word"
+ audio: "Igikoni"
+ options:
+ - "Bedroom"
+ - "Kitchen"
+ - "Bathroom"
+ Jibu: "Kitchen"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct phrase"
+ audio: "Mfite inzu"
+ options:
+ - "I have moja Nyumba"
+ - "ya Nyumba ni kubwa"
+ - "I clean ya Nyumba"
+ Jibu: "I have moja Nyumba"
+ xp_reward: 18
+
+ - id: 53
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct phrase"
+ audio: "Urugi rurafunguye"
+ options:
+ - "ya window ni closed"
+ - "ya door ni open"
+ - "I open ya door"
+ Jibu: "ya door ni open"
+ xp_reward: 18
+
+ # 5. Repeat / Ongea Exercise
+ - id: 54
+ type: Ongea
+ Swali: "Say hii Nyumba word"
+ prompt: "Inzu"
+ translation: "Nyumba"
+ xp_reward: 15
+
+ - id: 55
+ type: Ongea
+ Swali: "Say hii Nyumba word"
+ prompt: "Urugi"
+ translation: "Door"
+ xp_reward: 15
+
+ - id: 56
+ type: Ongea
+ Swali: "Say hii Nyumba word"
+ prompt: "Idirishya"
+ translation: "Window"
+ xp_reward: 15
+
+ - id: 57
+ type: Ongea
+ Swali: "Say hii room"
+ prompt: "Igikoni"
+ translation: "Kitchen"
+ xp_reward: 15
+
+ - id: 58
+ type: Ongea
+ Swali: "Say hii furniture"
+ prompt: "Uburiri"
+ translation: "Bed"
+ xp_reward: 15
+
+ - id: 59
+ type: Ongea
+ Swali: "Say hii phrase"
+ prompt: "Mfite inzu"
+ translation: "I have moja Nyumba"
+ xp_reward: 18
+
+ - id: 60
+ type: Ongea
+ Swali: "Say hii phrase"
+ prompt: "Nteka mu gikoni"
+ translation: "I cook katika ya kitchen"
+ xp_reward: 18
+
+ - id: 61
+ type: Ongea
+ Swali: "Say hii phrase"
+ prompt: "Urugi rurafunguye"
+ translation: "ya door ni open"
+ xp_reward: 18
+
+ # 6. Word Bank Sentensi Building - PIECES PROVIDED
+ - id: 62
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'I have moja Nyumba'"
+ word_bank: ["Mfite", "inzu", "nini", "ifite", "ibyumba"]
+ correct_answer: ["Mfite", "inzu"]
+ xp_reward: 15
+
+ - id: 63
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya Nyumba ni kubwa'"
+ word_bank: ["Inzu", "nini", "mfite", "ifite", "ibyumba"]
+ correct_answer: ["Inzu", "nini"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya door ni open'"
+ word_bank: ["Urugi", "rurafunguye", "idirishya", "rirafunze"]
+ correct_answer: ["Urugi", "rurafunguye"]
+ xp_reward: 18
+
+ - id: 65
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya window ni closed'"
+ word_bank: ["Idirishya", "rirafunze", "urugi", "rurafunguye"]
+ correct_answer: ["Idirishya", "rirafunze"]
+ xp_reward: 18
+
+ - id: 66
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya Nyumba has many rooms'"
+ word_bank: ["Inzu", "ifite", "ibyumba", "byinshi", "nini"]
+ correct_answer: ["Inzu", "ifite", "ibyumba", "byinshi"]
+ xp_reward: 20
+ - id: 67
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'I sleep katika ya bedroom'"
+ word_bank: ["Nsinzira", "mu cyumba", "cyo kuraramo", "nte ka", "mu gikoni", "nicara"]
+ correct_answer: ["Nsinzira", "mu cyumba", "cyo kuraramo"]
+ xp_reward: 20
+
+ - id: 68
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'I cook katika ya kitchen'"
+ word_bank: ["Nteka", "mu gikoni", "nsinzira", "mu cyumba", "nicara"]
+ correct_answer: ["Nteka", "mu gikoni"]
+ xp_reward: 15
+
+ - id: 69
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'I sit juu ya chair'"
+ word_bank: ["Nicara", "ku ntebe", "ku buriri", "mu gikoni", "mu cyumba"]
+ correct_answer: ["Nicara", "ku ntebe"]
+ xp_reward: 15
+
+ - id: 70
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'I open ya door'"
+ word_bank: ["Mfunguza", "urugi", "mfunze", "idirishya", "nsukura", "inzu"]
+ correct_answer: ["Mfunguza", "urugi"]
+ xp_reward: 15
+
+ - id: 71
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'I close ya window'"
+ word_bank: ["Mfunze", "idirishya", "mfunguza", "urugi", "nsukura", "inzu"]
+ correct_answer: ["Mfunze", "idirishya"]
+ xp_reward: 15
+
+ - id: 72
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'I clean ya Nyumba'"
+ word_bank: ["Nsukura", "inzu", "mfunguza", "urugi", "mfunze", "idirishya"]
+ correct_answer: ["Nsukura", "inzu"]
+ xp_reward: 15
+
+ - id: 73
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'I cook Chakula katika ya kitchen'"
+ word_bank: ["Nteka", "ibiryo", "mu gikoni", "nsinzira", "mu cyumba", "nicara"]
+ correct_answer: ["Nteka", "ibiryo", "mu gikoni"]
+ xp_reward: 20
+
+ - id: 74
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya child sleeps juu ya bed'"
+ word_bank: ["Umwana", "asinzira", "ku buriri", "nte ka", "mu gikoni", "ku ntebe"]
+ correct_answer: ["Umwana", "asinzira", "ku buriri"]
+ xp_reward: 20
+
+ # 7. Sentensi Scramble - PIECES PROVIDED
+ - id: 75
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Mfite", "inzu"]
+ correct_sentence: "Mfite inzu."
+ translation: "I have moja Nyumba."
+ xp_reward: 15
+
+ - id: 76
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Inzu", "nini"]
+ correct_sentence: "Inzu nini."
+ translation: "ya Nyumba ni kubwa."
+ xp_reward: 15
+
+ - id: 77
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Urugi", "rurafunguye"]
+ correct_sentence: "Urugi rurafunguye."
+ translation: "ya door ni open."
+ xp_reward: 18
+
+ - id: 78
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Idirishya", "rirafunze"]
+ correct_sentence: "Idirishya rirafunze."
+ translation: "ya window ni closed."
+ xp_reward: 18
+
+ - id: 79
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Inzu", "ifite", "ibyumba", "byinshi"]
+ correct_sentence: "Inzu ifite ibyumba byinshi."
+ translation: "ya Nyumba has many rooms."
+ xp_reward: 20
+
+ - id: 80
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Nsinzira", "mu cyumba", "cyo kuraramo"]
+ correct_sentence: "Nsinzira mu cyumba cyo kuraramo."
+ translation: "I sleep katika ya bedroom."
+ xp_reward: 20
+
+ - id: 81
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Nteka", "mu gikoni"]
+ correct_sentence: "Nteka mu gikoni."
+ translation: "I cook katika ya kitchen."
+ xp_reward: 15
+
+ - id: 82
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Nicara", "ku ntebe"]
+ correct_sentence: "Nicara ku ntebe."
+ translation: "I sit juu ya chair."
+ xp_reward: 15
+
+ - id: 83
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Mfunguza", "urugi"]
+ correct_sentence: "Mfunguza urugi."
+ translation: "I open ya door."
+ xp_reward: 15
+
+ - id: 84
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Mfunze", "idirishya"]
+ correct_sentence: "Mfunze idirishya."
+ translation: "I close ya window."
+ xp_reward: 15
+
+ - id: 85
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Nsukura", "inzu"]
+ correct_sentence: "Nsukura inzu."
+ translation: "I clean ya Nyumba."
+ xp_reward: 15
+
+ - id: 86
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Nteka", "ibiryo", "mu gikoni"]
+ correct_sentence: "Nteka ibiryo mu gikoni."
+ translation: "I cook Chakula katika ya kitchen."
+ xp_reward: 20
+
+ - id: 87
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Sentensi"
+ scrambled_words: ["Umwana", "asinzira", "ku buriri"]
+ correct_sentence: "Umwana asinzira ku buriri."
+ translation: "ya child sleeps juu ya bed."
+ xp_reward: 20
+
+ # 8. Fill katika ya Blank - Chagua FROM OPTIONS
+ - id: 88
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Mfite ___."
+ options: ["inzu", "urugi", "idirishya"]
+ correct_answer: "inzu"
+ translation: "I have moja Nyumba."
+ xp_reward: 12
+
+ - id: 89
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Inzu ___."
+ options: ["nini", "ifite", "byinshi"]
+ correct_answer: "nini"
+ translation: "ya Nyumba ni kubwa."
+ xp_reward: 12
+
+ - id: 90
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Urugi ___."
+ options: ["rurafunguye", "rirafunze", "nini"]
+ correct_answer: "rurafunguye"
+ translation: "ya door ni open."
+ xp_reward: 15
+
+ - id: 91
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Idirishya ___."
+ options: ["rirafunze", "rurafunguye", "nini"]
+ correct_answer: "rirafunze"
+ translation: "ya window ni closed."
+ xp_reward: 15
+
+ - id: 92
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Inzu ifite ibyumba ___."
+ options: ["byinshi", "nini", "cyinshi"]
+ correct_answer: "byinshi"
+ translation: "ya Nyumba has many rooms."
+ xp_reward: 15
+
+ - id: 93
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Nsinzira mu cyumba ___."
+ options: ["cyo kuraramo", "cyo kwakiriramo", "cyo kuriramo"]
+ correct_answer: "cyo kuraramo"
+ translation: "I sleep katika ya bedroom."
+ xp_reward: 18
+
+ - id: 94
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Nteka ___."
+ options: ["mu gikoni", "mu cyumba", "ku ntebe"]
+ correct_answer: "mu gikoni"
+ translation: "I cook katika ya kitchen."
+ xp_reward: 12
+
+ - id: 95
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Nicara ___."
+ options: ["ku ntebe", "ku buriri", "mu gikoni"]
+ correct_answer: "ku ntebe"
+ translation: "I sit juu ya chair."
+ xp_reward: 12
+
+ - id: 96
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Mfunguza ___."
+ options: ["urugi", "idirishya", "inzu"]
+ correct_answer: "urugi"
+ translation: "I open ya door."
+ xp_reward: 12
+
+ - id: 97
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Mfunze ___."
+ options: ["idirishya", "urugi", "inzu"]
+ correct_answer: "idirishya"
+ translation: "I close ya window."
+ xp_reward: 12
+
+ - id: 98
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Nsukura ___."
+ options: ["inzu", "urugi", "idirishya"]
+ correct_answer: "inzu"
+ translation: "I clean ya Nyumba."
+ xp_reward: 12
+
+ - id: 99
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Nteka ibiryo ___."
+ options: ["mu gikoni", "mu cyumba", "ku ntebe"]
+ correct_answer: "mu gikoni"
+ translation: "I cook Chakula katika ya kitchen."
+ xp_reward: 15
+
+ - id: 100
+ type: fill_blank
+ Swali: "Complete ya Sentensi"
+ text_na_blank: "Umwana asinzira ___."
+ options: ["ku buriri", "ku ntebe", "mu gikoni"]
+ correct_answer: "ku buriri"
+ translation: "ya child sleeps juu ya bed."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 101
+ type: picture_word
+ Swali: "Ni nini hii?"
+ image_url: "https://source.unsplash.com/featured/?house"
+ options: ["Inzu", "Urugo", "Icyumba"]
+ correct_answer: "Inzu"
+ xp_reward: 10
+
+ - id: 102
+ type: picture_word
+ Swali: "Ni nini hii?"
+ image_url: "https://source.unsplash.com/featured/?door"
+ options: ["Urugi", "Idirishya", "Urukuta"]
+ correct_answer: "Urugi"
+ xp_reward: 10
+
+ - id: 103
+ type: picture_word
+ Swali: "Ni nini hii?"
+ image_url: "https://source.unsplash.com/featured/?window"
+ options: ["Idirishya", "Urugi", "Igisenge"]
+ correct_answer: "Idirishya"
+ xp_reward: 10
+
+ - id: 104
+ type: picture_word
+ Swali: "What room ni hii?"
+ image_url: "https://source.unsplash.com/featured/?kitchen"
+ options: ["Igikoni", "Ubwiherero", "Icyumba cyo kuraramo"]
+ correct_answer: "Igikoni"
+ xp_reward: 10
+
+ - id: 105
+ type: picture_word
+ Swali: "What room ni hii?"
+ image_url: "https://source.unsplash.com/featured/?bedroom"
+ options: ["Icyumba cyo kuraramo", "Icyumba cyo kwakiriramo", "Icyumba cyo kuriramo"]
+ correct_answer: "Icyumba cyo kuraramo"
+ xp_reward: 15
+
+ - id: 106
+ type: picture_word
+ Swali: "What room ni hii?"
+ image_url: "https://source.unsplash.com/featured/?bathroom"
+ options: ["Ubwiherero", "Igikoni", "Icyumba cyo kuraramo"]
+ correct_answer: "Ubwiherero"
+ xp_reward: 10
+
+ - id: 107
+ type: picture_word
+ Swali: "What furniture ni hii?"
+ image_url: "https://source.unsplash.com/featured/?bed"
+ options: ["Uburiri", "Intebe", "Ameza"]
+ correct_answer: "Uburiri"
+ xp_reward: 10
+
+ - id: 108
+ type: picture_word
+ Swali: "What furniture ni hii?"
+ image_url: "https://source.unsplash.com/featured/?chair"
+ options: ["Intebe", "Uburiri", "Sofa"]
+ correct_answer: "Intebe"
+ xp_reward: 10
+
+ - id: 109
+ type: picture_word
+ Swali: "What furniture ni hii?"
+ image_url: "https://source.unsplash.com/featured/?table"
+ options: ["Ameza", "Intebe", "Akabati"]
+ correct_answer: "Ameza"
+ xp_reward: 10
+
+ - id: 110
+ type: picture_word
+ Swali: "What furniture ni hii?"
+ image_url: "https://source.unsplash.com/featured/?sofa"
+ options: ["Sofa", "Intebe", "Uburiri"]
+ correct_answer: "Sofa"
+ xp_reward: 10
+
+ - id: 111
+ type: picture_word
+ Swali: "Ni nini hii?"
+ image_url: "https://source.unsplash.com/featured/?key"
+ options: ["Urufunguzo", "Urugi", "Itara"]
+ correct_answer: "Urufunguzo"
+ xp_reward: 10
+
+ # 10. Word Tingiza (Pairing)
+ - id: 112
+ type: Tingiza
+ Swali: "Tingiza ya Nyumba parts"
+ pairs:
+ - Kushoto: "Nyumba"
+ Kulia: "Inzu"
+ - Kushoto: "Home"
+ Kulia: "Urugo"
+ - Kushoto: "Room"
+ Kulia: "Icyumba"
+ - Kushoto: "Door"
+ Kulia: "Urugi"
+ - Kushoto: "Window"
+ Kulia: "Idirishya"
+ - Kushoto: "Roof"
+ Kulia: "Igisenge"
+ - Kushoto: "Wall"
+ Kulia: "Urukuta"
+ - Kushoto: "Floor"
+ Kulia: "Hasi"
+ - Kushoto: "Key"
+ Kulia: "Urufunguzo"
+ xp_reward: 25
+
+ - id: 113
+ type: Tingiza
+ Swali: "Tingiza ya rooms"
+ pairs:
+ - Kushoto: "Bedroom"
+ Kulia: "Icyumba cyo kuraramo"
+ - Kushoto: "Living room"
+ Kulia: "Icyumba cyo kwakiriramo"
+ - Kushoto: "Kitchen"
+ Kulia: "Igikoni"
+ - Kushoto: "Bathroom"
+ Kulia: "Ubwiherero"
+ - Kushoto: "Dining room"
+ Kulia: "Icyumba cyo kuriramo"
+ xp_reward: 20
+
+ - id: 114
+ type: Tingiza
+ Swali: "Tingiza ya furniture"
+ pairs:
+ - Kushoto: "Bed"
+ Kulia: "Uburiri"
+ - Kushoto: "Table"
+ Kulia: "Ameza"
+ - Kushoto: "Chair"
+ Kulia: "Intebe"
+ - Kushoto: "Sofa"
+ Kulia: "Sofa"
+ - Kushoto: "Lamp"
+ Kulia: "Itara"
+ - Kushoto: "Cupboard"
+ Kulia: "Akabati"
+ xp_reward: 20
+
+ - id: 115
+ type: Tingiza
+ Swali: "Tingiza ya actions"
+ pairs:
+ - Kushoto: "I open"
+ Kulia: "Mfunguza"
+ - Kushoto: "I close"
+ Kulia: "Mfunze"
+ - Kushoto: "I clean"
+ Kulia: "Nsukura"
+ - Kushoto: "I cook"
+ Kulia: "Nteka"
+ - Kushoto: "I sleep"
+ Kulia: "Nsinzira"
+ - Kushoto: "I sit"
+ Kulia: "Nicara"
+ xp_reward: 18
+
+ # 11. Tap What You Hear - EXCLUDED moja PER PREVIOUS PATTERN
+
+ # 12. Chagua Missing Word
+ - id: 116
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Mfite ___."
+ missing_word_position: 2
+ options: ["inzu", "urugi", "idirishya"]
+ correct_answer: "inzu"
+ translation: "I have moja Nyumba."
+ xp_reward: 12
+
+ - id: 117
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Inzu ___."
+ missing_word_position: 2
+ options: ["nini", "ifite", "byinshi"]
+ correct_answer: "nini"
+ translation: "ya Nyumba ni kubwa."
+ xp_reward: 12
+
+ - id: 118
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Urugi ___."
+ missing_word_position: 2
+ options: ["rurafunguye", "rirafunze", "nini"]
+ correct_answer: "rurafunguye"
+ translation: "ya door ni open."
+ xp_reward: 15
+
+ - id: 119
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Idirishya ___."
+ missing_word_position: 2
+ options: ["rirafunze", "rurafunguye", "nini"]
+ correct_answer: "rirafunze"
+ translation: "ya window ni closed."
+ xp_reward: 15
+
+ - id: 120
+ type: choose_missing
+ Swali: "Chagua ya missing phrase"
+ Sentensi: "Nsinzira ___."
+ missing_word_position: 2
+ options: ["mu cyumba cyo kuraramo", "mu gikoni", "ku ntebe"]
+ correct_answer: "mu cyumba cyo kuraramo"
+ translation: "I sleep katika ya bedroom."
+ xp_reward: 18
+
+ - id: 121
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Nteka ___."
+ missing_word_position: 2
+ options: ["mu gikoni", "mu cyumba", "ku ntebe"]
+ correct_answer: "mu gikoni"
+ translation: "I cook katika ya kitchen."
+ xp_reward: 12
+
+ - id: 122
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Nicara ___."
+ missing_word_position: 2
+ options: ["ku ntebe", "ku buriri", "mu gikoni"]
+ correct_answer: "ku ntebe"
+ translation: "I sit juu ya chair."
+ xp_reward: 12
+
+ # 13. Soma na Jibu - Swali based juu text
+ - id: 123
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Mfite inzu. Inzu nini. Ifite ibyumba byinshi."
+ Swali: "What do I have?"
+ options: ["moja car", "moja Nyumba", "moja bed", "moja table"]
+ correct_answer: "moja Nyumba"
+ xp_reward: 12
+
+ - id: 124
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Urugi rurafunguye. Idirishya rirafunze."
+ Swali: "ni ya window open au closed?"
+ options: ["Open", "Closed", "kubwa", "ndogo"]
+ correct_answer: "Closed"
+ xp_reward: 15
+
+ - id: 125
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Nteka mu gikoni. Nsinzira mu cyumba cyo kuraramo."
+ Swali: "Where do I cook?"
+ options: ["katika ya bedroom", "katika ya kitchen", "katika ya living room", "katika ya bathroom"]
+ correct_answer: "katika ya kitchen"
+ xp_reward: 15
+
+ - id: 126
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Umwana asinzira ku buriri. Nicara ku ntebe."
+ Swali: "Where does ya child sleep?"
+ options: ["juu ya chair", "juu ya bed", "juu ya table", "juu ya sofa"]
+ correct_answer: "juu ya bed"
+ xp_reward: 15
+
+ - id: 127
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Nsukura inzu. Mfunguza urugi. Mfunze idirishya."
+ Swali: "What do I close?"
+ options: ["ya door", "ya window", "ya Nyumba", "ya room"]
+ correct_answer: "ya window"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 128
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Inzu means 'Nyumba'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 129
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Urugi means 'window'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 130
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Igikoni means 'kitchen'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 131
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Uburiri means 'chair'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 132
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Mfite inzu means 'I have moja Nyumba'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 133
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Urugi rurafunguye means 'ya window ni open'."
+ correct_answer: false
+ xp_reward: 15
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 134
+ type: conversation
+ Swali: "Respond kwa ya Swali by building moja Sentensi"
+ bot_message: "Ufite inzu?"
+ translation: "Do you have moja Nyumba?"
+ word_bank: ["Mfite", "inzu", "nini", "ntifite"]
+ correct_response: ["Mfite", "inzu"]
+ xp_reward: 15
+
+ - id: 135
+ type: conversation
+ Swali: "Respond kwa ya Swali"
+ bot_message: "Urugi rurafunguye?"
+ translation: "ni ya door open?"
+ options:
+ - "Yego, rurafunguye"
+ - "Oya, rurafunze"
+ - "Inzu nini"
+ correct_response: "Yego, rurafunguye"
+ xp_reward: 15
+
+ - id: 136
+ type: conversation
+ Swali: "Respond kwa ya Swali by building moja Sentensi"
+ bot_message: "Uteka he?"
+ translation: "Where do you cook?"
+ word_bank: ["Nteka", "mu gikoni", "mu cyumba", "nsinzira"]
+ correct_response: ["Nteka", "mu gikoni"]
+ xp_reward: 15
+
+ - id: 137
+ type: conversation
+ Swali: "Respond kwa ya Swali"
+ bot_message: "Usinzira he?"
+ translation: "Where do you sleep?"
+ options:
+ - "Mu cyumba cyo kuraramo"
+ - "Mu gikoni"
+ - "Ku ntebe"
+ correct_response: "Mu cyumba cyo kuraramo"
+ xp_reward: 18
+
+ # 16. Story Exercise - Build Sentensi from pieces
+ - id: 138
+ type: story
+ title: "My Nyumba - Inzu Yanjye"
+ story_intro: "Soma about my Nyumba. Then build ya Sentensi."
+ story_segments:
+ - text: "I have moja Nyumba."
+ - text: "ya Nyumba ni kubwa."
+ - text: "ya Nyumba has many rooms."
+ - text: "I sleep katika ya bedroom."
+ - text: "I cook katika ya kitchen."
+ - text: "I sit juu ya chair."
+ - text: "I clean ya Nyumba."
+ exercises:
+ - type: word_bank
+ Swali: "Build 'I have moja Nyumba'"
+ word_bank: ["Mfite", "inzu", "nini", "ifite"]
+ correct_answer: ["Mfite", "inzu"]
+ - type: word_bank
+ Swali: "Build 'ya Nyumba ni kubwa'"
+ word_bank: ["Inzu", "nini", "ifite", "ibyumba"]
+ correct_answer: ["Inzu", "nini"]
+ - type: word_bank
+ Swali: "Build 'ya Nyumba has many rooms'"
+ word_bank: ["Inzu", "ifite", "ibyumba", "byinshi"]
+ correct_answer: ["Inzu", "ifite", "ibyumba", "byinshi"]
+ - type: word_bank
+ Swali: "Build 'I sleep katika ya bedroom'"
+ word_bank: ["Nsinzira", "mu cyumba", "cyo kuraramo", "nte ka"]
+ correct_answer: ["Nsinzira", "mu cyumba", "cyo kuraramo"]
+ - type: word_bank
+ Swali: "Build 'I cook katika ya kitchen'"
+ word_bank: ["Nteka", "mu gikoni", "nsinzira", "mu cyumba"]
+ correct_answer: ["Nteka", "mu gikoni"]
+ - type: word_bank
+ Swali: "Build 'I sit juu ya chair'"
+ word_bank: ["Nicara", "ku ntebe", "ku buriri", "mu gikoni"]
+ correct_answer: ["Nicara", "ku ntebe"]
+ - type: word_bank
+ Swali: "Build 'I clean ya Nyumba'"
+ word_bank: ["Nsukura", "inzu", "mfunguza", "urugi"]
+ correct_answer: ["Nsukura", "inzu"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 139
+ type: pronunciation
+ Swali: "Say hii Nyumba word"
+ prompt: "Inzu"
+ translation: "Nyumba"
+ xp_reward: 15
+
+ - id: 140
+ type: pronunciation
+ Swali: "Say hii Nyumba word"
+ prompt: "Urugi"
+ translation: "Door"
+ xp_reward: 15
+
+ - id: 141
+ type: pronunciation
+ Swali: "Say hii room"
+ prompt: "Igikoni"
+ translation: "Kitchen"
+ xp_reward: 15
+
+ - id: 142
+ type: pronunciation
+ Swali: "Say hii furniture"
+ prompt: "Uburiri"
+ translation: "Bed"
+ xp_reward: 15
+
+ - id: 143
+ type: pronunciation
+ Swali: "Say hii phrase"
+ prompt: "Mfite inzu"
+ translation: "I have moja Nyumba"
+ xp_reward: 18
+
+ - id: 144
+ type: pronunciation
+ Swali: "Say hii phrase"
+ prompt: "Urugi rurafunguye"
+ translation: "ya door ni open"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 145
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'Mfite' mean katika hii Sentensi?"
+ context_sentence: "Mfite inzu."
+ word: "Mfite"
+ options: ["I have", "I kuona", "I kutaka", "I buy"]
+ correct_answer: "I have"
+ xp_reward: 15
+
+ - id: 146
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'nini' mean katika hii Sentensi?"
+ context_sentence: "Inzu nini."
+ word: "nini"
+ options: ["ndogo", "kubwa", "mpya", "zamani"]
+ correct_answer: "kubwa"
+ xp_reward: 15
+
+ - id: 147
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'rurafunguye' mean katika hii Sentensi?"
+ context_sentence: "Urugi rurafunguye."
+ word: "rurafunguye"
+ options: ["ni closed", "ni open", "ni kubwa", "ni ndogo"]
+ correct_answer: "ni open"
+ xp_reward: 18
+
+ - id: 148
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'Nteka' mean katika hii Sentensi?"
+ context_sentence: "Nteka mu gikoni."
+ word: "Nteka"
+ options: ["I sleep", "I cook", "I kula", "I sit"]
+ correct_answer: "I cook"
+ xp_reward: 15
+
+ - id: 149
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'asinzira' mean katika hii Sentensi?"
+ context_sentence: "Umwana asinzira ku buriri."
+ word: "asinzira"
+ options: ["kula", "sleeps", "plays", "cooks"]
+ correct_answer: "sleeps"
+ xp_reward: 15
+
+ # 19. Speed Tingiza
+ - id: 150
+ type: speed_Tingiza
+ title: "Tingiza Madness: Nyumba"
+ time_limit_seconds: 45
+ pairs:
+ - Kushoto: "Nyumba"
+ Kulia: "Inzu"
+ - Kushoto: "Door"
+ Kulia: "Urugi"
+ - Kushoto: "Window"
+ Kulia: "Idirishya"
+ - Kushoto: "Kitchen"
+ Kulia: "Igikoni"
+ - Kushoto: "Bedroom"
+ Kulia: "Icyumba cyo kuraramo"
+ - Kushoto: "Bathroom"
+ Kulia: "Ubwiherero"
+ - Kushoto: "Bed"
+ Kulia: "Uburiri"
+ - Kushoto: "Chair"
+ Kulia: "Intebe"
+ - Kushoto: "Table"
+ Kulia: "Ameza"
+ - Kushoto: "Key"
+ Kulia: "Urufunguzo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 151
+ type: timed_challenge
+ title: "Lightning Round: Nyumba"
+ time_limit_seconds: 30
+ Swali_count: 5
+ Swali:
+ - Swali: "Nyumba"
+ Jibu: "Inzu"
+ - Swali: "Door"
+ Jibu: "Urugi"
+ - Swali: "Window"
+ Jibu: "Idirishya"
+ - Swali: "Kitchen"
+ Jibu: "Igikoni"
+ - Swali: "Bed"
+ Jibu: "Uburiri"
+ xp_reward: 35
+
+# Kadi za kujifunzia
+ - id: 111
+ type: Kadi za kujifunzia
+ Swali: "Kadi za kujifunzia"
+ Kadi za kujifunzia:
+ - front: "Inzu"
+ back: "Nyumba"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Urugo"
+ back: "Home"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyumba"
+ back: "Room"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Urugi"
+ back: "Door"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Idirishya"
+ back: "Window"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Igisenge"
+ back: "Roof"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Urukuta"
+ back: "Wall"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Hasi"
+ back: "Floor"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Urufunguzo"
+ back: "Key"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Icyumba cyo kuraramo"
+ back: "Bedroom"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

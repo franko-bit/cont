@@ -1,0 +1,1232 @@
+lesson:
+  name: "Negotiations - Majadiliano"
+  description: "Learn negotiation terms and expressions in Kiswahili"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Vocabulary Words ONLY (Safe for single words)
+  # Basic Negotiation Terms
+  - id: 1
+    type: translation
+    question: "How do you say 'Negotiate' in Kiswahili?"
+    answer: "Kujadiliana"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "How do you say 'Deal' in Kiswahili?"
+    answer: "Mpango"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "How do you say 'Agreement' in Kiswahili?"
+    answer: "Makubaliano"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "How do you say 'Contract' in Kiswahili?"
+    answer: "Mkataba"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "How do you say 'Price' in Kiswahili?"
+    answer: "Bei"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "How do you say 'Cost' in Kiswahili?"
+    answer: "Gharama"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "How do you say 'Value' in Kiswahili?"
+    answer: "Thamani"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "How do you say 'Offer' in Kiswahili?"
+    answer: "Ofa"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "How do you say 'Proposal' in Kiswahili?"
+    answer: "Pendekezo"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "How do you say 'Accept' in Kiswahili?"
+    answer: "Kukubali"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "How do you say 'Reject' in Kiswahili?"
+    answer: "Kukataa"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "How do you say 'Compromise' in Kiswahili?"
+    answer: "Kupatana"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "How do you say 'Condition' in Kiswahili?"
+    answer: "Sharti"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "How do you say 'Term' in Kiswahili?"
+    answer: "Muda"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "How do you say 'Bargain' in Kiswahili?"
+    answer: "Kujadili bei"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "How do you say 'Negotiator' in Kiswahili?"
+    answer: "Mjadiliana"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "How do you say 'Discussion' in Kiswahili?"
+    answer: "Majadiliano"
+    xp_reward: 10
+
+  - id: 18
+    type: translation
+    question: "How do you say 'Mutual' in Kiswahili?"
+    answer: "Kwa pande zote"
+    xp_reward: 10
+
+  - id: 19
+    type: translation
+    question: "How do you say 'Decision' in Kiswahili?"
+    answer: "Uamuzi"
+    xp_reward: 10
+
+  - id: 20
+    type: translation
+    question: "How do you say 'Strategy' in Kiswahili?"
+    answer: "Mkakati"
+    xp_reward: 10
+
+  - id: 21
+    type: translation
+    question: "How do you say 'Risk' in Kiswahili?"
+    answer: "Hatari"
+    xp_reward: 10
+
+  - id: 22
+    type: translation
+    question: "How do you say 'Benefit' in Kiswahili?"
+    answer: "Faida"
+    xp_reward: 10
+
+  # Translation - Phrases (Negotiation Expressions)
+  - id: 23
+    type: translation
+    question: "How do you ask 'What is your offer?' in Kiswahili?"
+    answer: "Ofa yako ni ipi?"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "How do you say 'I propose...' in Kiswahili?"
+    answer: "Ninapendekeza..."
+    xp_reward: 15
+
+  - id: 25
+    type: translation
+    question: "How do you ask 'Can you reduce the price?' in Kiswahili?"
+    answer: "Unaweza kupunguza bei?"
+    xp_reward: 18
+
+  - id: 26
+    type: translation
+    question: "How do you say 'I accept your proposal' in Kiswahili?"
+    answer: "Ninakubali pendekezo lako."
+    xp_reward: 18
+
+  - id: 27
+    type: translation
+    question: "How do you say 'I cannot accept that' in Kiswahili?"
+    answer: "Siwezi kukubali hilo."
+    xp_reward: 18
+
+  - id: 28
+    type: translation
+    question: "How do you say 'Let's find a compromise' in Kiswahili?"
+    answer: "Tutafute muafaka."
+    xp_reward: 20
+
+  - id: 29
+    type: translation
+    question: "How do you ask 'What are the conditions?' in Kiswahili?"
+    answer: "Masharti ni yapi?"
+    xp_reward: 18
+
+  - id: 30
+    type: translation
+    question: "How do you say 'This is my final offer' in Kiswahili?"
+    answer: "Hii ni ofa yangu ya mwisho."
+    xp_reward: 20
+
+  - id: 31
+    type: translation
+    question: "How do you say 'We need more time to decide' in Kiswahili?"
+    answer: "Tunahitaji muda zaidi kuamua."
+    xp_reward: 20
+
+  - id: 32
+    type: translation
+    question: "How do you ask 'What are the risks and benefits?' in Kiswahili?"
+    answer: "Hatari na faida ni zipi?"
+    xp_reward: 20
+
+  - id: 33
+    type: translation
+    question: "How do you ask 'Can we discuss the terms?' in Kiswahili?"
+    answer: "Tunaweza kujadili masharti?"
+    xp_reward: 18
+
+  - id: 34
+    type: translation
+    question: "How do you say 'I suggest an alternative' in Kiswahili?"
+    answer: "Ninapendekeza njia mbadala."
+    xp_reward: 20
+
+  - id: 35
+    type: translation
+    question: "How do you say 'We must reach a mutual agreement' in Kiswahili?"
+    answer: "Lazima tufikie makubaliano ya pande zote."
+    xp_reward: 22
+
+  # 2. Multiple Choice
+  - id: 36
+    type: multiple_choice
+    question: "What does 'Makubaliano' mean?"
+    options:
+      - "Price"
+      - "Agreement / Deal"
+      - "Offer"
+      - "Risk"
+    answer: "Agreement / Deal"
+    xp_reward: 15
+
+  - id: 37
+    type: multiple_choice
+    question: "What does 'Bei' mean?"
+    options:
+      - "Value"
+      - "Price / Cost"
+      - "Benefit"
+      - "Decision"
+    answer: "Price / Cost"
+    xp_reward: 15
+
+  - id: 38
+    type: multiple_choice
+    question: "What does 'Kukubali' mean?"
+    options:
+      - "Reject"
+      - "Accept"
+      - "Negotiate"
+      - "Compromise"
+    answer: "Accept"
+    xp_reward: 15
+
+  - id: 39
+    type: multiple_choice
+    question: "What does 'Kukataa' mean?"
+    options:
+      - "Accept"
+      - "Reject"
+      - "Offer"
+      - "Propose"
+    answer: "Reject"
+    xp_reward: 15
+
+  - id: 40
+    type: multiple_choice
+    question: "What does 'Ofa' mean?"
+    options:
+      - "Offer / Proposal"
+      - "Contract"
+      - "Condition"
+      - "Decision"
+    answer: "Offer / Proposal"
+    xp_reward: 15
+
+  - id: 41
+    type: multiple_choice
+    question: "What does 'Faida' mean?"
+    options:
+      - "Risk"
+      - "Benefit"
+      - "Value"
+      - "Cost"
+    answer: "Benefit"
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "What does 'Ofa yako ni ipi?' mean?"
+    options:
+      - "What is the price?"
+      - "What is your offer?"
+      - "What are the conditions?"
+      - "What is the decision?"
+    answer: "What is your offer?"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 43
+    type: listen_and_type
+    question: "Listen and type the negotiation term"
+    audio: "Makubaliano"
+    answer: "Makubaliano"
+    translation: "Agreement / Deal"
+    xp_reward: 20
+
+  - id: 44
+    type: listen_and_type
+    question: "Listen and type the negotiation term"
+    audio: "Bei"
+    answer: "Bei"
+    translation: "Price / Cost"
+    xp_reward: 20
+
+  - id: 45
+    type: listen_and_type
+    question: "Listen and type the negotiation term"
+    audio: "Kukubali"
+    answer: "Kukubali"
+    translation: "Accept"
+    xp_reward: 20
+
+  - id: 46
+    type: listen_and_type
+    question: "Listen and type the negotiation term"
+    audio: "Ofa"
+    answer: "Ofa"
+    translation: "Offer / Proposal"
+    xp_reward: 20
+
+  # 4. Listen and Choose
+  - id: 51
+    type: listen_and_choose
+    question: "Listen and choose the correct term"
+    audio: "Makubaliano"
+    options:
+      - "Price"
+      - "Agreement"
+      - "Offer"
+    answer: "Agreement"
+    xp_reward: 15
+
+  - id: 52
+    type: listen_and_choose
+    question: "Listen and choose the correct term"
+    audio: "Kukubali"
+    options:
+      - "Accept"
+      - "Reject"
+      - "Negotiate"
+    answer: "Accept"
+    xp_reward: 15
+
+  - id: 53
+    type: listen_and_choose
+    question: "Listen and choose the correct term"
+    audio: "Bei"
+    options:
+      - "Value"
+      - "Price"
+      - "Benefit"
+    answer: "Price"
+    xp_reward: 15
+
+  # 5. Repeat / Speaking Exercise
+  - id: 56
+    type: speaking
+    question: "Say this negotiation term"
+    prompt: "Makubaliano"
+    translation: "Agreement / Deal"
+    xp_reward: 15
+
+  - id: 57
+    type: speaking
+    question: "Say this negotiation term"
+    prompt: "Bei"
+    translation: "Price / Cost"
+    xp_reward: 15
+
+  - id: 58
+    type: speaking
+    question: "Say this negotiation term"
+    prompt: "Kukubali"
+    translation: "Accept"
+    xp_reward: 15
+
+  - id: 59
+    type: speaking
+    question: "Say this negotiation term"
+    prompt: "Ofa"
+    translation: "Offer / Proposal"
+    xp_reward: 15
+
+  - id: 60
+    type: speaking
+    question: "Say this phrase"
+    prompt: "Ofa yako ni ipi"
+    translation: "What is your offer?"
+    xp_reward: 18
+
+  - id: 61
+    type: speaking
+    question: "Say this phrase"
+    prompt: "Ninakubali pendekezo lako"
+    translation: "I accept your proposal"
+    xp_reward: 20
+
+  - id: 62
+    type: speaking
+    question: "Say this phrase"
+    prompt: "Tutafute muafaka"
+    translation: "Let's find a compromise"
+    xp_reward: 22
+
+  - id: 63
+    type: speaking
+    question: "Say this question"
+    prompt: "Hatari na faida ni zipi"
+    translation: "What are the risks and benefits?"
+    xp_reward: 22
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED
+  - id: 64
+    type: word_bank
+    question: "Build the Kiswahili question for 'What is your offer?'"
+    word_bank: ["Ofa", "yako", "ni", "ipi", "bei", "ni"]
+    correct_answer: ["Ofa", "yako", "ni", "ipi"]
+    xp_reward: 18
+
+  - id: 65
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I accept your proposal'"
+    word_bank: ["Ninakubali", "pendekezo", "lako", "siwezi", "kukubali"]
+    correct_answer: ["Ninakubali", "pendekezo", "lako"]
+    xp_reward: 20
+
+  - id: 66
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I cannot accept that'"
+    word_bank: ["Siwezi", "kukubali", "hilo", "ninakubali", "pendekezo"]
+    correct_answer: ["Siwezi", "kukubali", "hilo"]
+    xp_reward: 20
+
+  - id: 67
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'Let's find a compromise'"
+    word_bank: ["Tutafute", "muafaka", "tufikie", "makubaliano"]
+    correct_answer: ["Tutafute", "muafaka"]
+    xp_reward: 22
+
+  - id: 68
+    type: word_bank
+    question: "Build the Kiswahili question for 'What are the conditions?'"
+    word_bank: ["Masharti", "ni", "yapi", "bei", "ni", "ipi"]
+    correct_answer: ["Masharti", "ni", "yapi"]
+    xp_reward: 18
+
+  - id: 69
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'This is my final offer'"
+    word_bank: ["Hii", "ni", "ofa", "yangu", "ya mwisho", "ya kwanza"]
+    correct_answer: ["Hii", "ni", "ofa", "yangu", "ya mwisho"]
+    xp_reward: 22
+
+  - id: 70
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'We need more time to decide'"
+    word_bank: ["Tunahitaji", "muda", "zaidi", "kuamua", "kujadili"]
+    correct_answer: ["Tunahitaji", "muda", "zaidi", "kuamua"]
+    xp_reward: 22
+
+  - id: 71
+    type: word_bank
+    question: "Build the Kiswahili question for 'What are the risks and benefits?'"
+    word_bank: ["Hatari", "na", "faida", "ni", "zipi", "hatari", "na"]
+    correct_answer: ["Hatari", "na", "faida", "ni", "zipi"]
+    xp_reward: 22
+
+  - id: 72
+    type: word_bank
+    question: "Build the Kiswahili question for 'Can we discuss the terms?'"
+    word_bank: ["Tunaweza", "kujadili", "masharti", "makubaliano"]
+    correct_answer: ["Tunaweza", "kujadili", "masharti"]
+    xp_reward: 20
+
+  - id: 73
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'I suggest an alternative'"
+    word_bank: ["Ninapendekeza", "njia", "mbadala", "pendekezo"]
+    correct_answer: ["Ninapendekeza", "njia", "mbadala"]
+    xp_reward: 22
+
+  - id: 74
+    type: word_bank
+    question: "Build the Kiswahili sentence for 'We must reach a mutual agreement'"
+    word_bank: ["Lazima", "tufikie", "makubaliano", "ya pande zote", "mazuri"]
+    correct_answer: ["Lazima", "tufikie", "makubaliano", "ya pande zote"]
+    xp_reward: 25
+
+  - id: 75
+    type: word_bank
+    question: "Build the Kiswahili question for 'Can you reduce the price?'"
+    word_bank: ["Unaweza", "kupunguza", "bei", "kukubali", "ofa"]
+    correct_answer: ["Unaweza", "kupunguza", "bei"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 76
+    type: sentence_scramble
+    question: "Arrange these words to form a correct question"
+    scrambled_words: ["Ofa", "yako", "ni", "ipi"]
+    correct_sentence: "Ofa yako ni ipi?"
+    translation: "What is your offer?"
+    xp_reward: 18
+
+  - id: 77
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Ninakubali", "pendekezo", "lako"]
+    correct_sentence: "Ninakubali pendekezo lako."
+    translation: "I accept your proposal."
+    xp_reward: 20
+
+  - id: 78
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Siwezi", "kukubali", "hilo"]
+    correct_sentence: "Siwezi kukubali hilo."
+    translation: "I cannot accept that."
+    xp_reward: 20
+
+  - id: 79
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Tutafute", "muafaka"]
+    correct_sentence: "Tutafute muafaka."
+    translation: "Let's find a compromise."
+    xp_reward: 22
+
+  - id: 80
+    type: sentence_scramble
+    question: "Arrange these words to form a correct question"
+    scrambled_words: ["Masharti", "ni", "yapi"]
+    correct_sentence: "Masharti ni yapi?"
+    translation: "What are the conditions?"
+    xp_reward: 18
+
+  - id: 81
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Hii", "ni", "ofa", "yangu", "ya mwisho"]
+    correct_sentence: "Hii ni ofa yangu ya mwisho."
+    translation: "This is my final offer."
+    xp_reward: 22
+
+  - id: 82
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Tunahitaji", "muda", "zaidi", "kuamua"]
+    correct_sentence: "Tunahitaji muda zaidi kuamua."
+    translation: "We need more time to decide."
+    xp_reward: 22
+
+  - id: 83
+    type: sentence_scramble
+    question: "Arrange these words to form a correct question"
+    scrambled_words: ["Hatari", "na", "faida", "ni", "zipi"]
+    correct_sentence: "Hatari na faida ni zipi?"
+    translation: "What are the risks and benefits?"
+    xp_reward: 22
+
+  - id: 84
+    type: sentence_scramble
+    question: "Arrange these words to form a correct question"
+    scrambled_words: ["Tunaweza", "kujadili", "masharti"]
+    correct_sentence: "Tunaweza kujadili masharti?"
+    translation: "Can we discuss the terms?"
+    xp_reward: 20
+
+  - id: 85
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Ninapendekeza", "njia", "mbadala"]
+    correct_sentence: "Ninapendekeza njia mbadala."
+    translation: "I suggest an alternative."
+    xp_reward: 22
+
+  - id: 86
+    type: sentence_scramble
+    question: "Arrange these words to form a correct sentence"
+    scrambled_words: ["Lazima", "tufikie", "makubaliano", "ya pande zote"]
+    correct_sentence: "Lazima tufikie makubaliano ya pande zote."
+    translation: "We must reach a mutual agreement."
+    xp_reward: 25
+
+  - id: 87
+    type: sentence_scramble
+    question: "Arrange these words to form a correct question"
+    scrambled_words: ["Unaweza", "kupunguza", "bei"]
+    correct_sentence: "Unaweza kupunguza bei?"
+    translation: "Can you reduce the price?"
+    xp_reward: 20
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 88
+    type: fill_blank
+    question: "Complete the question"
+    text_with_blank: "Ofa yako ni ___?"
+    options: ["ipi", "bei", "masharti"]
+    correct_answer: "ipi"
+    translation: "What is your offer?"
+    xp_reward: 15
+
+  - id: 89
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Ninakubali ___ lako."
+    options: ["pendekezo", "bei", "muda"]
+    correct_answer: "pendekezo"
+    translation: "I accept your proposal."
+    xp_reward: 18
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Siwezi ___ hilo."
+    options: ["kukubali", "kukataa", "kupendekeza"]
+    correct_answer: "kukubali"
+    translation: "I cannot accept that."
+    xp_reward: 18
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Tutafute ___."
+    options: ["muafaka", "masharti", "ofa"]
+    correct_answer: "muafaka"
+    translation: "Let's find a compromise."
+    xp_reward: 20
+
+  - id: 92
+    type: fill_blank
+    question: "Complete the question"
+    text_with_blank: "Masharti ni ___?"
+    options: ["yapi", "ipi", "ngapi"]
+    correct_answer: "yapi"
+    translation: "What are the conditions?"
+    xp_reward: 15
+
+  - id: 93
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Hii ni ofa yangu ___."
+    options: ["ya mwisho", "ya kwanza", "nzuri"]
+    correct_answer: "ya mwisho"
+    translation: "This is my final offer."
+    xp_reward: 20
+
+  - id: 94
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Tunahitaji muda zaidi ___."
+    options: ["kuamua", "kujadili", "kupendekeza"]
+    correct_answer: "kuamua"
+    translation: "We need more time to decide."
+    xp_reward: 18
+
+  - id: 95
+    type: fill_blank
+    question: "Complete the question"
+    text_with_blank: "Hatari na faida ni ___?"
+    options: ["zipi", "yapi", "ngapi"]
+    correct_answer: "zipi"
+    translation: "What are the risks and benefits?"
+    xp_reward: 20
+
+  - id: 96
+    type: fill_blank
+    question: "Complete the question"
+    text_with_blank: "Tunaweza kujadili ___?"
+    options: ["masharti", "bei", "ofa"]
+    correct_answer: "masharti"
+    translation: "Can we discuss the terms?"
+    xp_reward: 18
+
+  - id: 97
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Ninapendekeza ___ mbadala."
+    options: ["njia", "bei", "muda"]
+    correct_answer: "njia"
+    translation: "I suggest an alternative."
+    xp_reward: 20
+
+  - id: 98
+    type: fill_blank
+    question: "Complete the sentence"
+    text_with_blank: "Lazima tufikie makubaliano ya ___ zote."
+    options: ["pande", "siku", "nyakati"]
+    correct_answer: "pande"
+    translation: "We must reach a mutual agreement."
+    xp_reward: 20
+
+  - id: 99
+    type: fill_blank
+    question: "Complete the question"
+    text_with_blank: "Unaweza kupunguza ___?"
+    options: ["bei", "muda", "ofa"]
+    correct_answer: "bei"
+    translation: "Can you reduce the price?"
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 100
+    type: picture_word
+    question: "What negotiation concept does this image represent?"
+    image_url: "https://source.unsplash.com/featured/?contract"
+    options: ["Makubaliano", "Bei", "Uamuzi"]
+    correct_answer: "Makubaliano"
+    xp_reward: 12
+
+  - id: 101
+    type: picture_word
+    question: "What negotiation concept does this image represent?"
+    image_url: "https://source.unsplash.com/featured/?price-tag"
+    options: ["Thamani", "Bei", "Faida"]
+    correct_answer: "Bei"
+    xp_reward: 12
+
+  - id: 102
+    type: picture_word
+    question: "What negotiation concept does this image represent?"
+    image_url: "https://source.unsplash.com/featured/?handshake"
+    options: ["Kukubali", "Kukataa", "Kupatana"]
+    correct_answer: "Kukubali"
+    xp_reward: 12
+
+  - id: 103
+    type: picture_word
+    question: "What negotiation concept does this image represent?"
+    image_url: "https://source.unsplash.com/featured/?proposal"
+    options: ["Ofa", "Uamuzi", "Masharti"]
+    correct_answer: "Ofa"
+    xp_reward: 12
+
+  - id: 104
+    type: picture_word
+    question: "What negotiation concept does this image represent?"
+    image_url: "https://source.unsplash.com/featured/?risk"
+    options: ["Hatari", "Faida", "Thamani"]
+    correct_answer: "Hatari"
+    xp_reward: 12
+
+  - id: 105
+    type: picture_word
+    question: "What negotiation concept does this image represent?"
+    image_url: "https://source.unsplash.com/featured/?profit"
+    options: ["Faida", "Hatari", "Bei"]
+    correct_answer: "Faida"
+    xp_reward: 12
+
+  - id: 106
+    type: picture_word
+    question: "What negotiation concept does this image represent?"
+    image_url: "https://source.unsplash.com/featured/?discussion"
+    options: ["Majadiliano", "Uamuzi", "Makubaliano"]
+    correct_answer: "Majadiliano"
+    xp_reward: 12
+
+  - id: 107
+    type: picture_word
+    question: "What negotiation concept does this image represent?"
+    image_url: "https://source.unsplash.com/featured/?decision"
+    options: ["Uamuzi", "Ofa", "Masharti"]
+    correct_answer: "Uamuzi"
+    xp_reward: 12
+
+  # 10. Word Matching (Pairing)
+  - id: 108
+    type: matching
+    question: "Match the negotiation terms"
+    pairs:
+      - left: "Agreement / Deal"
+        right: "Makubaliano"
+      - left: "Price / Cost"
+        right: "Bei"
+      - left: "Value"
+        right: "Thamani"
+      - left: "Offer / Proposal"
+        right: "Ofa"
+      - left: "Accept"
+        right: "Kukubali"
+      - left: "Reject"
+        right: "Kukataa"
+      - left: "Compromise"
+        right: "Kupatana"
+      - left: "Condition"
+        right: "Sharti"
+      - left: "Decision"
+        right: "Uamuzi"
+      - left: "Risk"
+        right: "Hatari"
+      - left: "Benefit"
+        right: "Faida"
+    xp_reward: 30
+
+  - id: 109
+    type: matching
+    question: "Match the negotiation phrases"
+    pairs:
+      - left: "What is your offer?"
+        right: "Ofa yako ni ipi?"
+      - left: "I accept your proposal"
+        right: "Ninakubali pendekezo lako"
+      - left: "I cannot accept that"
+        right: "Siwezi kukubali hilo"
+      - left: "Let's find a compromise"
+        right: "Tutafute muafaka"
+      - left: "What are the conditions?"
+        right: "Masharti ni yapi?"
+      - left: "This is my final offer"
+        right: "Hii ni ofa yangu ya mwisho"
+      - left: "We need more time to decide"
+        right: "Tunahitaji muda zaidi kuamua"
+      - left: "What are the risks and benefits?"
+        right: "Hatari na faida ni zipi?"
+      - left: "Can you reduce the price?"
+        right: "Unaweza kupunguza bei?"
+    xp_reward: 35
+
+  # 11. Tap What You Hear - EXCLUDED
+
+  # 12. Choose Missing Word
+  - id: 110
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Ofa yako ni ___?"
+    missing_word_position: 4
+    options: ["ipi", "bei", "masharti"]
+    correct_answer: "ipi"
+    translation: "What is your offer?"
+    xp_reward: 15
+
+  - id: 111
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Ninakubali ___ lako."
+    missing_word_position: 2
+    options: ["pendekezo", "bei", "muda"]
+    correct_answer: "pendekezo"
+    translation: "I accept your proposal."
+    xp_reward: 18
+
+  - id: 112
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Siwezi ___ hilo."
+    missing_word_position: 2
+    options: ["kukubali", "kukataa", "kupendekeza"]
+    correct_answer: "kukubali"
+    translation: "I cannot accept that."
+    xp_reward: 18
+
+  - id: 113
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Hii ni ofa yangu ___."
+    missing_word_position: 5
+    options: ["ya mwisho", "ya kwanza", "nzuri"]
+    correct_answer: "ya mwisho"
+    translation: "This is my final offer."
+    xp_reward: 20
+
+  - id: 114
+    type: choose_missing
+    question: "Choose the missing word"
+    sentence: "Unaweza kupunguza ___?"
+    missing_word_position: 3
+    options: ["bei", "muda", "ofa"]
+    correct_answer: "bei"
+    translation: "Can you reduce the price?"
+    xp_reward: 18
+
+  # 13. Read and Answer - Questions based on text
+  - id: 115
+    type: read_answer
+    question: "Read the negotiation dialogue and answer the question"
+    text: "A: Ofa yako ni ipi? B: Hii ni ofa yangu ya mwisho. A: Ninakubali pendekezo lako."
+    question: "Does A accept the offer?"
+    options: ["Yes", "No", "Not sure", "Maybe"]
+    correct_answer: "Yes"
+    xp_reward: 15
+
+  - id: 116
+    type: read_answer
+    question: "Read the negotiation dialogue and answer the question"
+    text: "A: Unaweza kupunguza bei? B: Siwezi kukubali hilo. A: Tutafute muafaka."
+    question: "Does B accept the price reduction?"
+    options: ["Yes", "No", "Maybe", "Later"]
+    correct_answer: "No"
+    xp_reward: 18
+
+  - id: 117
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Tunahitaji muda zaidi kuamua. Hatari na faida ni zipi?"
+    question: "What do they need more time for?"
+    options: ["To make an offer", "To make a decision", "To reduce the price", "To sign a contract"]
+    correct_answer: "To make a decision"
+    xp_reward: 18
+
+  - id: 118
+    type: read_answer
+    question: "Read the text and answer the question"
+    text: "Lazima tufikie makubaliano ya pande zote."
+    question: "What kind of agreement do they need?"
+    options: ["Final agreement", "Mutual agreement", "Written agreement", "Verbal agreement"]
+    correct_answer: "Mutual agreement"
+    xp_reward: 18
+
+  - id: 119
+    type: read_answer
+    question: "Read the negotiation dialogue and answer the question"
+    text: "A: Masharti ni yapi? B: Ninapendekeza njia mbadala."
+    question: "What does B suggest?"
+    options: ["A new price", "An alternative", "A contract", "A decision"]
+    correct_answer: "An alternative"
+    xp_reward: 20
+
+  # 14. True / False
+  - id: 120
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Makubaliano means 'price'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 121
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Kukubali means 'to accept'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 122
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Faida means 'risk'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 123
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Ofa yako ni ipi? means 'What is your offer?'"
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 124
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Siwezi kukubali hilo means 'I accept your proposal'."
+    correct_answer: false
+    xp_reward: 15
+
+  - id: 125
+    type: true_false
+    question: "Is this statement true or false?"
+    statement: "Hii ni ofa yangu ya mwisho means 'This is my final offer'."
+    correct_answer: true
+    xp_reward: 15
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 126
+    type: conversation
+    question: "Respond to the question by building a sentence"
+    bot_message: "Ofa yako ni ipi?"
+    translation: "What is your offer?"
+    word_bank: ["Hii", "ni", "ofa", "yangu", "ya mwisho", "bei"]
+    correct_response: ["Hii", "ni", "ofa", "yangu", "ya mwisho"]
+    xp_reward: 22
+
+  - id: 127
+    type: conversation
+    question: "Respond to the proposal"
+    bot_message: "Hii ni ofa yangu."
+    translation: "This is my offer."
+    options:
+      - "Ninakubali pendekezo lako"
+      - "Siwezi kukubali hilo"
+      - "Tutafute muafaka"
+    correct_response: "Ninakubali pendekezo lako"
+    xp_reward: 18
+
+  - id: 128
+    type: conversation
+    question: "Respond to the question by building a sentence"
+    bot_message: "Unaweza kupunguza bei?"
+    translation: "Can you reduce the price?"
+    word_bank: ["Siwezi", "kukubali", "hilo", "ninapendekeza", "njia", "mbadala"]
+    correct_response: ["Siwezi", "kukubali", "hilo"]
+    xp_reward: 20
+
+  - id: 129
+    type: conversation
+    question: "Respond to the suggestion"
+    bot_message: "Tutafute muafaka."
+    translation: "Let's find a compromise."
+    options:
+      - "Sawa"
+      - "Siwezi kukubali"
+      - "Hii ni ofa yangu"
+    correct_response: "Sawa"
+    xp_reward: 15
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 130
+    type: story
+    title: "Business Negotiation - Majadiliano ya Kibiashara"
+    story_intro: "Read about a business negotiation. Then build the sentences."
+    story_segments:
+      - text: "What is your offer?"
+      - text: "This is my final offer."
+      - text: "I accept your proposal."
+      - text: "Can you reduce the price?"
+      - text: "I cannot accept that."
+      - text: "Let's find a compromise."
+      - text: "What are the conditions?"
+      - text: "We must reach a mutual agreement."
+    exercises:
+      - type: word_bank
+        question: "Build 'What is your offer?'"
+        word_bank: ["Ofa", "yako", "ni", "ipi", "bei", "ni"]
+        correct_answer: ["Ofa", "yako", "ni", "ipi"]
+      - type: word_bank
+        question: "Build 'This is my final offer'"
+        word_bank: ["Hii", "ni", "ofa", "yangu", "ya mwisho"]
+        correct_answer: ["Hii", "ni", "ofa", "yangu", "ya mwisho"]
+      - type: word_bank
+        question: "Build 'I accept your proposal'"
+        word_bank: ["Ninakubali", "pendekezo", "lako", "langu"]
+        correct_answer: ["Ninakubali", "pendekezo", "lako"]
+      - type: word_bank
+        question: "Build 'Can you reduce the price?'"
+        word_bank: ["Unaweza", "kupunguza", "bei", "kukubali"]
+        correct_answer: ["Unaweza", "kupunguza", "bei"]
+      - type: word_bank
+        question: "Build 'I cannot accept that'"
+        word_bank: ["Siwezi", "kukubali", "hilo", "hicho"]
+        correct_answer: ["Siwezi", "kukubali", "hilo"]
+      - type: word_bank
+        question: "Build 'Let's find a compromise'"
+        word_bank: ["Tutafute", "muafaka", "tufikie"]
+        correct_answer: ["Tutafute", "muafaka"]
+      - type: word_bank
+        question: "Build 'We must reach a mutual agreement'"
+        word_bank: ["Lazima", "tufikie", "makubaliano", "ya pande zote"]
+        correct_answer: ["Lazima", "tufikie", "makubaliano", "ya pande zote"]
+    xp_reward: 50
+
+  # 17. Pronunciation Check
+  - id: 131
+    type: pronunciation
+    question: "Say this negotiation term"
+    prompt: "Makubaliano"
+    translation: "Agreement / Deal"
+    xp_reward: 15
+
+  - id: 132
+    type: pronunciation
+    question: "Say this negotiation term"
+    prompt: "Bei"
+    translation: "Price / Cost"
+    xp_reward: 15
+
+  - id: 133
+    type: pronunciation
+    question: "Say this negotiation term"
+    prompt: "Kukubali"
+    translation: "Accept"
+    xp_reward: 15
+
+  - id: 134
+    type: pronunciation
+    question: "Say this phrase"
+    prompt: "Ofa yako ni ipi"
+    translation: "What is your offer?"
+    xp_reward: 18
+
+  - id: 135
+    type: pronunciation
+    question: "Say this phrase"
+    prompt: "Ninakubali pendekezo lako"
+    translation: "I accept your proposal"
+    xp_reward: 20
+
+  - id: 136
+    type: pronunciation
+    question: "Say this phrase"
+    prompt: "Tutafute muafaka"
+    translation: "Let's find a compromise"
+    xp_reward: 22
+
+  # 18. Identify Correct Meaning
+  - id: 137
+    type: identify_meaning
+    question: "What does 'Makubaliano' mean in this sentence?"
+    context_sentence: "Lazima tufikie makubaliano ya pande zote."
+    word: "Makubaliano"
+    options: ["price", "agreement", "offer", "decision"]
+    correct_answer: "agreement"
+    xp_reward: 15
+
+  - id: 138
+    type: identify_meaning
+    question: "What does 'ofa' mean in this sentence?"
+    context_sentence: "Hii ni ofa yangu ya mwisho."
+    word: "ofa"
+    options: ["price", "offer", "decision", "condition"]
+    correct_answer: "offer"
+    xp_reward: 15
+
+  - id: 139
+    type: identify_meaning
+    question: "What does 'kukubali' mean in this sentence?"
+    context_sentence: "Ninakubali pendekezo lako."
+    word: "kukubali"
+    options: ["to reject", "to accept", "to propose", "to negotiate"]
+    correct_answer: "to accept"
+    xp_reward: 15
+
+  - id: 140
+    type: identify_meaning
+    question: "What does 'faida' mean in this question?"
+    context_sentence: "Hatari na faida ni zipi?"
+    word: "faida"
+    options: ["risks", "benefits", "costs", "conditions"]
+    correct_answer: "benefits"
+    xp_reward: 18
+
+  - id: 141
+    type: identify_meaning
+    question: "What does 'kupatana' mean?"
+    context_sentence: "Tutafute muafaka."
+    word: "kupatana"
+    options: ["compromise", "agreement", "offer", "decision"]
+    correct_answer: "compromise"
+    xp_reward: 18
+
+  # 19. Speed Matching
+  - id: 142
+    type: speed_matching
+    title: "Match Madness: Negotiation Terms"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Agreement"
+        right: "Makubaliano"
+      - left: "Price"
+        right: "Bei"
+      - left: "Offer"
+        right: "Ofa"
+      - left: "Accept"
+        right: "Kukubali"
+      - left: "Reject"
+        right: "Kukataa"
+      - left: "Compromise"
+        right: "Kupatana"
+      - left: "Condition"
+        right: "Sharti"
+      - left: "Decision"
+        right: "Uamuzi"
+      - left: "Risk"
+        right: "Hatari"
+      - left: "Benefit"
+        right: "Faida"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 143
+    type: timed_challenge
+    title: "Lightning Round: Negotiation"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Agreement"
+        answer: "Makubaliano"
+      - question: "Price"
+        answer: "Bei"
+      - question: "Offer"
+        answer: "Ofa"
+      - question: "Accept"
+        answer: "Kukubali"
+      - question: "Reject"
+        answer: "Kukataa"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Kujadiliana"
+      back: "Negotiate"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Mpango"
+      back: "Deal"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Makubaliano"
+      back: "Agreement"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Mkataba"
+      back: "Contract"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Bei"
+      back: "Price"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Gharama"
+      back: "Cost"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Thamani"
+      back: "Value"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Ofa"
+      back: "Offer"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Pendekezo"
+      back: "Proposal"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Kukubali"
+      back: "Accept"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

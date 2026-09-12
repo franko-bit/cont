@@ -1,0 +1,1028 @@
+lesson:
+ name: "Conditionals - Imyitwarire y'Ahazaza"
+ description: "למד how to express conditions and possibilities in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic אוצר מילים ONLY (Safe for single words/phrases)
+ # Basic Conditional Words
+ - id: 1
+ type: translation
+ שאלה: "איך אומרים 'If' בקיניארוואנדה?"
+ תשובה: "Niba"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ שאלה: "איך אומרים 'When' בקיניארוואנדה?"
+ תשובה: "Iyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ שאלה: "איך אומרים 'Unless' בקיניארוואנדה?"
+ תשובה: "Keretse"
+ note: "Also expressed as 'Nti... niba'"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ שאלה: "איך אומרים 'Then' בקיניארוואנדה?"
+ תשובה: "Hanyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ שאלה: "איך אומרים 'Might' בקיניארוואנדה?"
+ תשובה: "Ashobora"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ שאלה: "איך אומרים 'Will' בקיניארוואנדה?"
+ תשובה: "Azakora"
+ note: "Also 'Azaba' depending on context"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ שאלה: "איך אומרים 'Would' בקיניארוואנדה?"
+ תשובה: "Byaba"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ שאלה: "איך אומרים 'Could' בקיניארוואנדה?"
+ תשובה: "Bashobora"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ שאלה: "איך אומרים 'Should' בקיניארוואנדה?"
+ תשובה: "Bikwiye"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ שאלה: "איך אומרים 'Can' בקיניארוואנדה?"
+ תשובה: "Ashobora"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ שאלה: "איך אומרים 'Impossible' בקיניארוואנדה?"
+ תשובה: "Ntibishoboka"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ שאלה: "איך אומרים 'Possible' בקיניארוואנדה?"
+ תשובה: "Birashoboka"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ שאלה: "איך אומרים 'Before' בקיניארוואנדה?"
+ תשובה: "Mbere y'uko"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ שאלה: "איך אומרים 'After' בקיניארוואנדה?"
+ תשובה: "Nyuma y'uko"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ שאלה: "איך אומרים 'Always' בקיניארוואנדה?"
+ תשובה: "Buri gihe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ שאלה: "איך אומרים 'Never' בקיניארוואנדה?"
+ תשובה: "Nta na rimwe"
+ xp_reward: 10
+
+ # Translation - Common Conditional Phrases
+ - id: 17
+ type: translation
+ שאלה: "איך אומרים 'If it rains, I will stay home' בקיניארוואנדה?"
+ תשובה: "Niba imvura iguye, nzaguma mu rugo."
+ xp_reward: 20
+
+ - id: 18
+ type: translation
+ שאלה: "איך אומרים 'If I go to Kigali, I will visit my friend' בקיניארוואנדה?"
+ תשובה: "Niba ngiye i Kigali, nzasura inshuti yanjye."
+ xp_reward: 20
+
+ - id: 19
+ type: translation
+ שאלה: "איך אומרים 'If you study, you will succeed' בקיניארוואנדה?"
+ תשובה: "Niba wiga, uzatsinda."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ שאלה: "איך אומרים 'If he comes, we will start the meeting' בקיניארוואנדה?"
+ תשובה: "Niba aje, tuzatangira inama."
+ xp_reward: 20
+
+ - id: 21
+ type: translation
+ שאלה: "איך אומרים 'Unless you hurry, you will miss the bus' בקיניארוואנדה?"
+ תשובה: "Ntiwihutira, uzacika bisi."
+ xp_reward: 20
+
+ - id: 22
+ type: translation
+ שאלה: "איך אומרים 'If I had money, I would buy a car' בקיניארוואנדה?"
+ תשובה: "Niba nari mfite amafaranga, nari kugura imodoka."
+ xp_reward: 22
+
+ - id: 23
+ type: translation
+ שאלה: "איך אומרים 'If she were here, she could help' בקיניארוואנדה?"
+ תשובה: "Iyo yari hano, yashoboraga gufasha."
+ xp_reward: 22
+
+ - id: 24
+ type: translation
+ שאלה: "איך אומרים 'I would טיולים if I had more time' בקיניארוואנדה?"
+ תשובה: "Nari gutembera iyo nari mfite igihe kinini."
+ xp_reward: 22
+
+ - id: 25
+ type: translation
+ שאלה: "איך אומרים 'You should eat before leaving' בקיניארוואנדה?"
+ תשובה: "Bikwiye ko urya mbere yo kugenda."
+ xp_reward: 20
+
+ - id: 26
+ type: translation
+ שאלה: "איך אומרים 'If it is possible, I will come מחר' בקיניארוואנדה?"
+ תשובה: "Niba bishoboka, nzaza ejo."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ שאלה: "מה פירוש 'Niba' במשפט הזה?"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ - "After"
+ תשובה: "If"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ שאלה: "מה פירוש 'Iyo' במשפט הזה?"
+ options:
+ - "If"
+ - "When"
+ - "Then"
+ - "Before"
+ תשובה: "When"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ שאלה: "מה פירוש 'Hanyuma' במשפט הזה?"
+ options:
+ - "Before"
+ - "After"
+ - "Then"
+ - "When"
+ תשובה: "Then"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ שאלה: "מה פירוש 'Birashoboka' במשפט הזה?"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ - "Never"
+ תשובה: "Possible"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ שאלה: "מה פירוש 'Ntibishoboka' במשפט הזה?"
+ options:
+ - "Possible"
+ - "Impossible"
+ - "Always"
+ - "Never"
+ תשובה: "Impossible"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ שאלה: "מה פירוש 'Buri gihe' במשפט הזה?"
+ options:
+ - "Never"
+ - "Always"
+ - "Sometimes"
+ - "Often"
+ תשובה: "Always"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ שאלה: "מה פירוש 'Nta na rimwe' במשפט הזה?"
+ options:
+ - "Always"
+ - "Sometimes"
+ - "Never"
+ - "Often"
+ תשובה: "Never"
+ xp_reward: 15
+
+ # 3. הקשב and Type (Dictation)
+ - id: 34
+ type: listen_and_type
+ שאלה: "הקשב and type the word"
+ audio: "Niba"
+ תשובה: "Niba"
+ translation: "If"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ שאלה: "הקשב and type the word"
+ audio: "Iyo"
+ תשובה: "Iyo"
+ translation: "When"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ שאלה: "הקשב and type the word"
+ audio: "Birashoboka"
+ תשובה: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ audio: "Niba imvura iguye nzaguma mu rugo"
+ תשובה: "Niba imvura iguye nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ audio: "Niba wiga uzatsinda"
+ תשובה: "Niba wiga uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 22
+
+ - id: 39
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ audio: "Niba bishoboka nzaza ejo"
+ תשובה: "Niba bishoboka nzaza ejo"
+ translation: "If it is possible, I will come מחר"
+ xp_reward: 22
+
+ # 4. הקשב and בחר
+ - id: 40
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct word"
+ audio: "Niba"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ תשובה: "If"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct word"
+ audio: "Birashoboka"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ תשובה: "Possible"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct phrase"
+ audio: "Niba wiga, uzatsinda"
+ options:
+ - "If you study, you will succeed"
+ - "If it rains, I will stay home"
+ - "If it is possible, I will come"
+ תשובה: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 43
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct phrase"
+ audio: "Niba bishoboka, nzaza ejo"
+ options:
+ - "If it rains, I will stay home"
+ - "If it is possible, I will come מחר"
+ - "If you study, you will succeed"
+ תשובה: "If it is possible, I will come מחר"
+ xp_reward: 18
+
+ # 5. Repeat / דבר Exercise
+ - id: 44
+ type: דבר
+ שאלה: "Say this word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 45
+ type: דבר
+ שאלה: "Say this word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 46
+ type: דבר
+ שאלה: "Say this phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 20
+
+ - id: 47
+ type: דבר
+ שאלה: "Say this phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 48
+ type: דבר
+ שאלה: "Say this phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will come מחר"
+ xp_reward: 18
+
+ # 6. Word Bank משפט Building - PIECES PROVIDED
+ - id: 49
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo", "nzaza"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ xp_reward: 22
+
+ - id: 50
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'If I go to Kigali, I will visit my friend'"
+ word_bank: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ correct_answer: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ xp_reward: 25
+
+ - id: 51
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira", "inama"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'If he comes, we will start the meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga", "uzatsinda"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ xp_reward: 22
+
+ - id: 53
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'If I had money, I would buy a car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ xp_reward: 28
+
+ - id: 54
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'If she were here, she could help'"
+ word_bank: ["Iyo", "yari", "hano", "yashoboraga", "gufasha", "aje"]
+ correct_answer: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ xp_reward: 25
+
+ - id: 55
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'You should eat before leaving'"
+ word_bank: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda", "nyuma"]
+ correct_answer: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ xp_reward: 22
+
+ - id: 56
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'If it is possible, I will come מחר'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura", "iguye"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 18
+
+ # 7. משפט Scramble - PIECES PROVIDED
+ - id: 57
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct משפט"
+ scrambled_words: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ translation: "If it rains, I will stay home."
+ xp_reward: 22
+
+ - id: 58
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct משפט"
+ scrambled_words: ["Niba", "wiga", "uzatsinda"]
+ correct_sentence: "Niba wiga, uzatsinda."
+ translation: "If you study, you will succeed."
+ xp_reward: 18
+
+ - id: 59
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct משפט"
+ scrambled_words: ["Niba", "aje", "tuzatangira", "inama"]
+ correct_sentence: "Niba aje, tuzatangira inama."
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 22
+
+ - id: 60
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct משפט"
+ scrambled_words: ["Ntiwihutira", "uzacika", "bisi"]
+ correct_sentence: "Ntiwihutira, uzacika bisi."
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 20
+
+ - id: 61
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct משפט"
+ scrambled_words: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ correct_sentence: "Iyo yari hano, yashoboraga gufasha."
+ translation: "If she were here, she could help."
+ xp_reward: 25
+
+ - id: 62
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct משפט"
+ scrambled_words: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ correct_sentence: "Bikwiye ko urya mbere yo kugenda."
+ translation: "You should eat before leaving."
+ xp_reward: 22
+
+ - id: 63
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct משפט"
+ scrambled_words: ["Niba", "bishoboka", "nzaza", "ejo"]
+ correct_sentence: "Niba bishoboka, nzaza ejo."
+ translation: "If it is possible, I will come מחר."
+ xp_reward: 18
+
+ # 8. Fill in the Blank - בחר FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ שאלה: "Complete the משפט"
+ text_with_blank: "___ imvura iguye, nzaguma mu rugo."
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ שאלה: "Complete the משפט"
+ text_with_blank: "Niba wiga, ___."
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ שאלה: "Complete the משפט"
+ text_with_blank: "Niba aje, tuzatangira ___."
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 18
+
+ - id: 67
+ type: fill_blank
+ שאלה: "Complete the משפט"
+ text_with_blank: "Ntiwihutira, ___ bisi."
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 18
+
+ - id: 68
+ type: fill_blank
+ שאלה: "Complete the משפט"
+ text_with_blank: "Iyo yari hano, yashoboraga ___."
+ options: ["gufasha", "kwiga", "kurya"]
+ correct_answer: "gufasha"
+ translation: "If she were here, she could help."
+ xp_reward: 18
+
+ - id: 69
+ type: fill_blank
+ שאלה: "Complete the משפט"
+ text_with_blank: "Bikwiye ko urya ___ yo kugenda."
+ options: ["mbere", "nyuma", "hanyuma"]
+ correct_answer: "mbere"
+ translation: "You should eat before leaving."
+ xp_reward: 18
+
+ - id: 70
+ type: fill_blank
+ שאלה: "Complete the משפט"
+ text_with_blank: "Niba bishoboka, nzaza ___."
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will come מחר."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 71
+ type: picture_word
+ שאלה: "מה פירוש this image represent?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Izuba", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ שאלה: "מה פירוש this image represent?"
+ image_url: "https://source.unsplash.com/featured/?studying"
+ options: ["Kwiga", "Gukora", "Kurya"]
+ correct_answer: "Kwiga"
+ xp_reward: 10
+
+ - id: 73
+ type: picture_word
+ שאלה: "מה פירוש this image represent?"
+ image_url: "https://source.unsplash.com/featured/?money"
+ options: ["Amafaranga", "Igitabo", "Inzu"]
+ correct_answer: "Amafaranga"
+ xp_reward: 10
+
+ - id: 74
+ type: picture_word
+ שאלה: "מה פירוש this image represent?"
+ image_url: "https://source.unsplash.com/featured/?car"
+ options: ["Imodoka", "Bisi", "Igare"]
+ correct_answer: "Imodoka"
+ xp_reward: 10
+
+ - id: 75
+ type: picture_word
+ שאלה: "מה פירוש this image represent?"
+ image_url: "https://source.unsplash.com/featured/?helping"
+ options: ["Gufasha", "Kurira", "Guseka"]
+ correct_answer: "Gufasha"
+ xp_reward: 10
+
+ - id: 76
+ type: picture_word
+ שאלה: "מה פירוש this image represent?"
+ image_url: "https://source.unsplash.com/featured/?bus"
+ options: ["Bisi", "Imodoka", "Indege"]
+ correct_answer: "Bisi"
+ xp_reward: 10
+
+ # 10. Word התאם (Pairing)
+ - id: 77
+ type: התאם
+ שאלה: "התאם the conditional words"
+ pairs:
+ - שמאל: "If"
+ ימין: "Niba"
+ - שמאל: "When"
+ ימין: "Iyo"
+ - שמאל: "Then"
+ ימין: "Hanyuma"
+ - שמאל: "Before"
+ ימין: "Mbere y'uko"
+ - שמאל: "After"
+ ימין: "Nyuma y'uko"
+ - שמאל: "Always"
+ ימין: "Buri gihe"
+ - שמאל: "Never"
+ ימין: "Nta na rimwe"
+ - שמאל: "Possible"
+ ימין: "Birashoboka"
+ - שמאל: "Impossible"
+ ימין: "Ntibishoboka"
+ xp_reward: 25
+
+ - id: 78
+ type: התאם
+ שאלה: "התאם the modal verbs"
+ pairs:
+ - שמאל: "Might"
+ ימין: "Ashobora"
+ - שמאל: "Will"
+ ימין: "Azakora"
+ - שמאל: "Would"
+ ימין: "Byaba"
+ - שמאל: "Could"
+ ימין: "Bashobora"
+ - שמאל: "Should"
+ ימין: "Bikwiye"
+ - שמאל: "Can"
+ ימין: "Ashobora"
+ xp_reward: 20
+
+ - id: 79
+ type: התאם
+ שאלה: "התאם the משפט halves"
+ pairs:
+ - שמאל: "Niba imvura iguye"
+ ימין: "nzaguma mu rugo"
+ - שמאל: "Niba wiga"
+ ימין: "uzatsinda"
+ - שמאל: "Niba aje"
+ ימין: "tuzatangira inama"
+ - שמאל: "Niba bishoboka"
+ ימין: "nzaza ejo"
+ - שמאל: "Niba ngiye i Kigali"
+ ימין: "nzasura inshuti yanjye"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. בחר Missing Word
+ - id: 80
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "___ imvura iguye, nzaguma mu rugo."
+ missing_word_position: 1
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "Niba wiga, ___."
+ missing_word_position: 3
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "Niba aje, tuzatangira ___."
+ missing_word_position: 4
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 18
+
+ - id: 83
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "Ntiwihutira, ___ bisi."
+ missing_word_position: 2
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 18
+
+ - id: 84
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "Niba bishoboka, nzaza ___."
+ missing_word_position: 3
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will come מחר."
+ xp_reward: 15
+
+ # 13. קרא and תשובה - שאלה based on text
+ - id: 85
+ type: read_answer
+ שאלה: "קרא the text and תשובה the שאלה"
+ text: "Niba imvura iguye, nzaguma mu rugo."
+ שאלה: "What will happen if it rains?"
+ options: ["I will go out", "I will stay home", "I will go to בית ספר", "I will work"]
+ correct_answer: "I will stay home"
+ xp_reward: 15
+
+ - id: 86
+ type: read_answer
+ שאלה: "קרא the text and תשובה the שאלה"
+ text: "Niba wiga, uzatsinda."
+ שאלה: "What will happen if you study?"
+ options: ["You will fail", "You will succeed", "You will play", "You will sleep"]
+ correct_answer: "You will succeed"
+ xp_reward: 15
+
+ - id: 87
+ type: read_answer
+ שאלה: "קרא the text and תשובה the שאלה"
+ text: "Niba aje, tuzatangira inama."
+ שאלה: "When will they start the meeting?"
+ options: ["If he comes", "If it rains", "If she studies", "If they work"]
+ correct_answer: "If he comes"
+ xp_reward: 18
+
+ - id: 88
+ type: read_answer
+ שאלה: "קרא the text and תשובה the שאלה"
+ text: "Niba nari mfite amafaranga, nari kugura imodoka."
+ שאלה: "What would I buy if I had money?"
+ options: ["A בית", "A car", "אוכל", "Clothes"]
+ correct_answer: "A car"
+ xp_reward: 18
+
+ - id: 89
+ type: read_answer
+ שאלה: "קרא the text and תשובה the שאלה"
+ text: "Niba bishoboka, nzaza ejo."
+ שאלה: "When will I come if it is possible?"
+ options: ["Today", "מחר", "Next week", "Never"]
+ correct_answer: "מחר"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 90
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "Niba means 'when'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 91
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "Birashoboka means 'possible'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 92
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "Niba wiga, uzatsinda means 'If you study, you will succeed'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 93
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "Ntiwihutira, uzacika bisi means 'If you hurry, you will catch the bus'."
+ correct_answer: false
+ xp_reward: 15
+
+ - id: 94
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "Buri gihe means 'never'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 95
+ type: conversation
+ שאלה: "Respond to the שאלה by building a משפט"
+ bot_message: "Uzakora iki niba imvura iguye?"
+ translation: "What will you do if it rains?"
+ word_bank: ["Nzaguma", "mu rugo", "nzajya", "ku ishuri", "nzakora"]
+ correct_response: ["Nzaguma", "mu rugo"]
+ xp_reward: 18
+
+ - id: 96
+ type: conversation
+ שאלה: "Respond to the שאלה"
+ bot_message: "Niba wiga, uzatsinda?"
+ translation: "If you study, will you succeed?"
+ options:
+ - "Yego, nzatsinda"
+ - "Oya, sinzatsinda"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzatsinda"
+ xp_reward: 15
+
+ - id: 97
+ type: conversation
+ שאלה: "Respond to the שאלה by building a משפט"
+ bot_message: "Uzakora iki niba ufite amafaranga?"
+ translation: "What will you do if you have money?"
+ word_bank: ["Nzakora", "nzabona", "imodoka", "nzaguza", "inzu"]
+ correct_response: ["Nzakora", "nzabona", "imodoka"]
+ xp_reward: 20
+
+ - id: 98
+ type: conversation
+ שאלה: "Respond to the שאלה"
+ bot_message: "Niba bishoboka, uzaza ejo?"
+ translation: "If it is possible, will you come מחר?"
+ options:
+ - "Yego, nzaza ejo"
+ - "Oya, sinzaza"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzaza ejo"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build משפט from pieces
+ - id: 99
+ type: story
+ title: "Plans and Conditions - Imigambi n'Imyitwarire"
+ story_intro: "קרא about different plans and conditions. Then build the משפט."
+ story_segments:
+ - text: "If it rains, I will stay home."
+ - text: "If you study, you will succeed."
+ - text: "If he comes, we will start the meeting."
+ - text: "If I had money, I would buy a car."
+ - text: "If it is possible, I will come מחר."
+ exercises:
+ - type: word_bank
+ שאלה: "Build 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ - type: word_bank
+ שאלה: "Build 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ - type: word_bank
+ שאלה: "Build 'If he comes, we will start the meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ - type: word_bank
+ שאלה: "Build 'If I had money, I would buy a car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ - type: word_bank
+ שאלה: "Build 'If it is possible, I will come מחר'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 100
+ type: pronunciation
+ שאלה: "Say this word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 101
+ type: pronunciation
+ שאלה: "Say this word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 102
+ type: pronunciation
+ שאלה: "Say this phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 22
+
+ - id: 103
+ type: pronunciation
+ שאלה: "Say this phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 104
+ type: pronunciation
+ שאלה: "Say this phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will come מחר"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 105
+ type: identify_meaning
+ שאלה: "מה פירוש 'Niba' mean in this משפט?"
+ context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ word: "Niba"
+ options: ["When", "If", "Then", "After"]
+ correct_answer: "If"
+ xp_reward: 15
+
+ - id: 106
+ type: identify_meaning
+ שאלה: "מה פירוש 'uzatsinda' mean in this משפט?"
+ context_sentence: "Niba wiga, uzatsinda."
+ word: "uzatsinda"
+ options: ["you will fail", "you will succeed", "you will study", "you will work"]
+ correct_answer: "you will succeed"
+ xp_reward: 15
+
+ - id: 107
+ type: identify_meaning
+ שאלה: "מה פירוש 'tuzatangira' mean in this משפט?"
+ context_sentence: "Niba aje, tuzatangira inama."
+ word: "tuzatangira"
+ options: ["we will finish", "we will start", "we will attend", "we will leave"]
+ correct_answer: "we will start"
+ xp_reward: 15
+
+ - id: 108
+ type: identify_meaning
+ שאלה: "מה פירוש 'bishoboka' mean in this משפט?"
+ context_sentence: "Niba bishoboka, nzaza ejo."
+ word: "bishoboka"
+ options: ["it is possible", "it is impossible", "it is good", "it is bad"]
+ correct_answer: "it is possible"
+ xp_reward: 15
+
+ # 19. Speed התאם
+ - id: 109
+ type: speed_התאם
+ title: "התאם Madness: Conditionals"
+ time_limit_seconds: 45
+ pairs:
+ - שמאל: "If"
+ ימין: "Niba"
+ - שמאל: "When"
+ ימין: "Iyo"
+ - שמאל: "Then"
+ ימין: "Hanyuma"
+ - שמאל: "Possible"
+ ימין: "Birashoboka"
+ - שמאל: "Impossible"
+ ימין: "Ntibishoboka"
+ - שמאל: "Always"
+ ימין: "Buri gihe"
+ - שמאל: "Never"
+ ימין: "Nta na rimwe"
+ - שמאל: "Before"
+ ימין: "Mbere y'uko"
+ - שמאל: "After"
+ ימין: "Nyuma y'uko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 110
+ type: timed_challenge
+ title: "Lightning Round: Conditionals"
+ time_limit_seconds: 30
+ שאלה_count: 5
+ שאלה:
+ - שאלה: "If"
+ תשובה: "Niba"
+ - שאלה: "When"
+ תשובה: "Iyo"
+ - שאלה: "Possible"
+ תשובה: "Birashoboka"
+ - שאלה: "Always"
+ תשובה: "Buri gihe"
+ - שאלה: "Never"
+ תשובה: "Nta na rimwe"
+ xp_reward: 35
+
+# כרטיסים
+ - id: 111
+ type: כרטיסים
+ שאלה: "כרטיסים"
+ כרטיסים:
+ - front: "Niba"
+ back: "If"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iyo"
+ back: "When"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Keretse"
+ back: "Unless"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Hanyuma"
+ back: "Then"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Might"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Azakora"
+ back: "Will"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Byaba"
+ back: "Would"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Bashobora"
+ back: "Could"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Bikwiye"
+ back: "Should"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Can"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

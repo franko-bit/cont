@@ -1,0 +1,907 @@
+lesson:
+ name: "Imibala"
+ description: "Funda basic Imibala in Kinyarwanda with Izilwane and objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Imibala ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Umbuzo: "Usho kanjani 'Bomvu' ngesiKinyarwanda?"
+ Impendulo: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Umbuzo: "Usho kanjani 'Luhlaza okwesibhakabhaka' ngesiKinyarwanda?"
+ Impendulo: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Umbuzo: "Usho kanjani 'Luhlaza' ngesiKinyarwanda?"
+ Impendulo: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Umbuzo: "Usho kanjani 'Phuzi' ngesiKinyarwanda?"
+ Impendulo: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Umbuzo: "Usho kanjani 'Mnyama' ngesiKinyarwanda?"
+ Impendulo: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Umbuzo: "Usho kanjani 'Mhlophe' ngesiKinyarwanda?"
+ Impendulo: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Umbuzo: "Usho kanjani 'Orange' ngesiKinyarwanda?"
+ Impendulo: "Orange"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, not full Umusho)
+ - id: 8
+ type: translation
+ Umbuzo: "Usho kanjani 'Bomvu apple' ngesiKinyarwanda?"
+ Impendulo: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Umbuzo: "Usho kanjani 'Luhlaza okwesibhakabhaka sky' ngesiKinyarwanda?"
+ Impendulo: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Umbuzo: "Usho kanjani 'Luhlaza grass' ngesiKinyarwanda?"
+ Impendulo: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Umbuzo: "Usho kanjani 'Phuzi sun' ngesiKinyarwanda?"
+ Impendulo: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Umbuzo: "Usho kanjani 'Mnyama Ikati' ngesiKinyarwanda?"
+ Impendulo: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Umbuzo: "Usho kanjani 'Mhlophe Inkomo' ngesiKinyarwanda?"
+ Impendulo: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Umbuzo: "Usho kanjani 'Orange carrot' ngesiKinyarwanda?"
+ Impendulo: "Karoti ya Orange"
+ xp_reward: 15
+
+ # Translation - Imibala with Izilwane (Noun + Color phrases)
+ - id: 15
+ type: translation
+ Umbuzo: "Usho kanjani 'Bomvu Inyoni' ngesiKinyarwanda?"
+ Impendulo: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Umbuzo: "Usho kanjani 'Luhlaza Ikikeri' ngesiKinyarwanda?"
+ Impendulo: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Umbuzo: "Usho kanjani 'Luhlaza okwesibhakabhaka Inhlanzi' ngesiKinyarwanda?"
+ Impendulo: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Umbuzo: "Usho kanjani 'Phuzi Inkukhu' ngesiKinyarwanda?"
+ Impendulo: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Umbuzo: "Usho kanjani 'Mnyama Umvundla' ngesiKinyarwanda?"
+ Impendulo: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Umbuzo: "Usho kanjani 'Mhlophe Imbuzi' ngesiKinyarwanda?"
+ Impendulo: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers with Imibala (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ Umbuzo: "Usho kanjani 'One Bomvu apple' ngesiKinyarwanda?"
+ Impendulo: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Umbuzo: "Usho kanjani 'Two Luhlaza okwesibhakabhaka Inyoni' ngesiKinyarwanda?"
+ Impendulo: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Umbuzo: "Usho kanjani 'Three Phuzi Inkukhu' ngesiKinyarwanda?"
+ Impendulo: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Umbuzo: "Usho kanjani 'Four Mnyama Ikati' ngesiKinyarwanda?"
+ Impendulo: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Umbuzo: "Usho kanjani 'Five Mhlophe Inkomo' ngesiKinyarwanda?"
+ Impendulo: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color Umbuzo (Phrases - safe as they are fixed expressions)
+ - id: 26
+ type: translation
+ Umbuzo: "Ubuzwa kanjani 'What color is the apple?' ngesiKinyarwanda?"
+ Impendulo: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Umbuzo: "Ubuzwa kanjani 'What color is the sky?' ngesiKinyarwanda?"
+ Impendulo: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Umbuzo: "Ubuzwa kanjani 'Is the Ikati Mnyama?' ngesiKinyarwanda?"
+ Impendulo: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR FULL Umusho OR PARAGRAPHS
+ # Instead, we use Umusho building, Qondanisa, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Umutuku' kulomusho?"
+ options:
+ - "Luhlaza okwesibhakabhaka"
+ - "Bomvu"
+ - "Luhlaza"
+ - "Phuzi"
+ Impendulo: "Bomvu"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Ubururu' kulomusho?"
+ options:
+ - "Bomvu"
+ - "Luhlaza okwesibhakabhaka"
+ - "Mnyama"
+ - "Mhlophe"
+ Impendulo: "Luhlaza okwesibhakabhaka"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Icyatsi' kulomusho?"
+ options:
+ - "Luhlaza"
+ - "Phuzi"
+ - "Orange"
+ - "Bomvu"
+ Impendulo: "Luhlaza"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Umuhondo' kulomusho?"
+ options:
+ - "Luhlaza okwesibhakabhaka"
+ - "Bomvu"
+ - "Phuzi"
+ - "Mhlophe"
+ Impendulo: "Phuzi"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Umukara' kulomusho?"
+ options:
+ - "Mhlophe"
+ - "Mnyama"
+ - "Luhlaza"
+ - "Orange"
+ Impendulo: "Mnyama"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Umweru' kulomusho?"
+ options:
+ - "Mnyama"
+ - "Mhlophe"
+ - "Bomvu"
+ - "Luhlaza okwesibhakabhaka"
+ Impendulo: "Mhlophe"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Inyoni itukura' kulomusho?"
+ options:
+ - "Luhlaza okwesibhakabhaka Inyoni"
+ - "Bomvu Inyoni"
+ - "Luhlaza Inyoni"
+ - "Phuzi Inyoni"
+ Impendulo: "Bomvu Inyoni"
+ xp_reward: 15
+
+ # 3. Lalela and Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_and_type
+ Umbuzo: "Lalela and type the color"
+ tts_text: "Umutuku"
+ Impendulo: "Umutuku"
+ translation: "Bomvu"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Umbuzo: "Lalela and type the color"
+ tts_text: "Ubururu"
+ Impendulo: "Ubururu"
+ translation: "Luhlaza okwesibhakabhaka"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ tts_text: "Pome ni umutuku"
+ Impendulo: "Pome ni umutuku"
+ translation: "The apple is Bomvu"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ tts_text: "Ijuru ni ubururu"
+ Impendulo: "Ijuru ni ubururu"
+ translation: "The sky is Luhlaza okwesibhakabhaka"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ Impendulo: "Inyoni itukura iraguruka"
+ translation: "The Bomvu Inyoni flies"
+ xp_reward: 25
+
+ # 4. Lalela and Khetha
+ - id: 41
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct color"
+ tts_text: "Umutuku"
+ options:
+ - "Bomvu"
+ - "Luhlaza okwesibhakabhaka"
+ - "Luhlaza"
+ Impendulo: "Bomvu"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "Bomvu"
+ - "Phuzi"
+ - "Mnyama"
+ Impendulo: "Phuzi"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "The apple is Bomvu"
+ - "The sky is Luhlaza okwesibhakabhaka"
+ - "The sun is Phuzi"
+ Impendulo: "The apple is Bomvu"
+ xp_reward: 20
+
+ # 5. Repeat / Khuluma Exercise
+ - id: 44
+ type: Khuluma
+ Umbuzo: "Say this color"
+ prompt: "Umutuku"
+ translation: "Bomvu"
+ xp_reward: 15
+
+ - id: 45
+ type: Khuluma
+ Umbuzo: "Say this color"
+ prompt: "Ubururu"
+ translation: "Luhlaza okwesibhakabhaka"
+ xp_reward: 15
+
+ - id: 46
+ type: Khuluma
+ Umbuzo: "Say this phrase"
+ prompt: "Pome itukura"
+ translation: "Bomvu apple"
+ xp_reward: 18
+
+ - id: 47
+ type: Khuluma
+ Umbuzo: "Say this Umusho"
+ prompt: "Pome ni umutuku"
+ translation: "The apple is Bomvu"
+ xp_reward: 20
+
+ - id: 48
+ type: Khuluma
+ Umbuzo: "Say this Umusho"
+ prompt: "Ijuru ni ubururu"
+ translation: "The sky is Luhlaza okwesibhakabhaka"
+ xp_reward: 20
+
+ # 6. Word Bank Umusho Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The apple is Bomvu'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The sky is Luhlaza okwesibhakabhaka'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'Bomvu Inyoni'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'Luhlaza okwesibhakabhaka Inhlanzi'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Bomvu Inyoni flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Luhlaza Ikikeri jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. Umusho Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Kinyarwanda Umusho"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "The apple is Bomvu"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Kinyarwanda Umusho"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "The sky is Luhlaza okwesibhakabhaka"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Kinyarwanda Umusho"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "The Bomvu Inyoni flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Kinyarwanda Umusho"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "The Luhlaza Ikikeri jumps"
+ xp_reward: 25
+
+ # 8. Fill in the Blank - Khetha FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ Umbuzo: "Khetha the correct word to complete the Umusho"
+ text_with_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Bomvu"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ Umbuzo: "Khetha the correct word to complete the Umusho"
+ text_with_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Luhlaza okwesibhakabhaka"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ Umbuzo: "Khetha the correct word to complete the Umusho"
+ text_with_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "The grass is Luhlaza"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ Umbuzo: "Khetha the correct word to complete the Umusho"
+ text_with_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "The sun is Phuzi"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ Umbuzo: "Khetha the correct word to complete the phrase"
+ text_with_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Bomvu Inyoni flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ Umbuzo: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ Umbuzo: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ Umbuzo: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "Orange", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ Umbuzo: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Umbuzo: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "Orange"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Umbuzo: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Umbuzo: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Orange", "Ubururu"]
+ correct_answer: "Orange"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Umbuzo: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "Orange"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ Umbuzo: "What color is this Inyoni?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word Qondanisa (Pairing)
+ - id: 73
+ type: Qondanisa
+ Umbuzo: "Qondanisa the Imibala"
+ pairs:
+ - Kwesokunxele: "Bomvu"
+ Kwesokudla: "Umutuku"
+ - Kwesokunxele: "Luhlaza okwesibhakabhaka"
+ Kwesokudla: "Ubururu"
+ - Kwesokunxele: "Luhlaza"
+ Kwesokudla: "Icyatsi"
+ - Kwesokunxele: "Phuzi"
+ Kwesokudla: "Umuhondo"
+ - Kwesokunxele: "Mnyama"
+ Kwesokudla: "Umukara"
+ - Kwesokunxele: "Mhlophe"
+ Kwesokudla: "Umweru"
+ - Kwesokunxele: "Orange"
+ Kwesokudla: "Orange"
+ xp_reward: 25
+
+ - id: 74
+ type: Qondanisa
+ Umbuzo: "Qondanisa the colored objects"
+ pairs:
+ - Kwesokunxele: "Bomvu apple"
+ Kwesokudla: "Pome itukura"
+ - Kwesokunxele: "Luhlaza okwesibhakabhaka sky"
+ Kwesokudla: "Ijuru ry'ubururu"
+ - Kwesokunxele: "Luhlaza grass"
+ Kwesokudla: "Ibyatsi by'icyatsi"
+ - Kwesokunxele: "Phuzi sun"
+ Kwesokudla: "Izuba ry'umuhondo"
+ - Kwesokunxele: "Mnyama Ikati"
+ Kwesokudla: "Injangwe y'umukara"
+ - Kwesokunxele: "Mhlophe Inkomo"
+ Kwesokudla: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: Qondanisa
+ Umbuzo: "Qondanisa the colored Izilwane"
+ pairs:
+ - Kwesokunxele: "Bomvu Inyoni"
+ Kwesokudla: "Inyoni itukura"
+ - Kwesokunxele: "Luhlaza Ikikeri"
+ Kwesokudla: "Igikeri cy'icyatsi"
+ - Kwesokunxele: "Luhlaza okwesibhakabhaka Inhlanzi"
+ Kwesokudla: "Ifi y'ubururu"
+ - Kwesokunxele: "Phuzi Inkukhu"
+ Kwesokudla: "Inkoko y'umuhondo"
+ - Kwesokunxele: "Mnyama Umvundla"
+ Kwesokudla: "Urukwavu rw'umukara"
+ - Kwesokunxele: "Mhlophe Imbuzi"
+ Kwesokudla: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. Khetha Missing Word
+ - id: 80
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Bomvu"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Luhlaza okwesibhakabhaka"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Bomvu Inyoni flies"
+ xp_reward: 18
+
+ # 12. Funda and Impendulo - Umbuzo in English, Impendulo based on Kinyarwanda text
+ - id: 83
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ Umbuzo: "What color is the apple?"
+ options: ["Bomvu", "Luhlaza okwesibhakabhaka", "Luhlaza", "Phuzi"]
+ correct_answer: "Bomvu"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ Umbuzo: "Kusho ukuthini the Bomvu Inyoni do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ Umbuzo: "What color is the Inkomo?"
+ options: ["Mnyama", "Mhlophe", "Phuzi", "Bomvu"]
+ correct_answer: "Mhlophe"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Pome ni umutuku."
+ translation: "The apple is Bomvu"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Ijuru ni icyatsi."
+ translation: "The sky is Luhlaza"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Inka ni umweru."
+ translation: "The Inkomo is Mhlophe"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "The Bomvu Inyoni flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ Umbuzo: "Respond to the Umbuzo by building a Umusho"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ Umbuzo: "Respond to the Umbuzo"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is the sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ Umbuzo: "Respond to the Umbuzo"
+ bot_message: "Injangwe ni umukara?"
+ translation: "Is the Ikati Mnyama?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build Umusho from pieces
+ - id: 93
+ type: story
+ title: "Imibala in the Field"
+ story_intro: "Funda about the colorful Izilwane. Then build the Umusho."
+ story_segments:
+ - text: "There is a Bomvu Inyoni in the sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: "The Inyoni flies above."
+ - text: "There is a Luhlaza Ikikeri near the Amanzi."
+ - text: "The Ikikeri jumps."
+ - text: "There is a Luhlaza okwesibhakabhaka Inhlanzi in the Amanzi."
+ - text: "The Inhlanzi swims."
+ exercises:
+ - type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Bomvu Inyoni flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Luhlaza Ikikeri jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Luhlaza okwesibhakabhaka Inhlanzi swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ Umbuzo: "Say the color"
+ prompt: "Umutuku"
+ translation: "Bomvu"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ Umbuzo: "Say the color"
+ prompt: "Agasumbashyamba" # Indlulamithi - testing color knowledge in context
+ translation: "Indlulamithi (they are Phuzi and Browns)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ Umbuzo: "Say the phrase"
+ prompt: "Pome itukura"
+ translation: "Bomvu apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'umutuku' mean in this Umusho?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["Bomvu", "Luhlaza okwesibhakabhaka", "Luhlaza", "Phuzi"]
+ correct_answer: "Bomvu"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'itukura' mean in this Umusho?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["Bomvu", "Luhlaza okwesibhakabhaka", "Luhlaza", "Phuzi"]
+ correct_answer: "Bomvu"
+ note: "itukura is the adjective form of umutuku when describing a noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'cy'icyatsi' mean in this Umusho?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["Bomvu", "Luhlaza okwesibhakabhaka", "Luhlaza", "Phuzi"]
+ correct_answer: "Luhlaza"
+ xp_reward: 18
+
+ # 18. Speed Qondanisa
+ - id: 100
+ type: speed_Qondanisa
+ title: "Qondanisa Madness: Imibala"
+ time_limit_seconds: 45
+ pairs:
+ - Kwesokunxele: "Bomvu"
+ Kwesokudla: "Umutuku"
+ - Kwesokunxele: "Luhlaza okwesibhakabhaka"
+ Kwesokudla: "Ubururu"
+ - Kwesokunxele: "Luhlaza"
+ Kwesokudla: "Icyatsi"
+ - Kwesokunxele: "Phuzi"
+ Kwesokudla: "Umuhondo"
+ - Kwesokunxele: "Mnyama"
+ Kwesokudla: "Umukara"
+ - Kwesokunxele: "Mhlophe"
+ Kwesokudla: "Umweru"
+ - Kwesokunxele: "Orange"
+ Kwesokudla: "Orange"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: Imibala"
+ time_limit_seconds: 30
+ Umbuzo_count: 5
+ Umbuzo:
+ - Umbuzo: "Bomvu"
+ Impendulo: "Umutuku"
+ - Umbuzo: "Luhlaza okwesibhakabhaka"
+ Impendulo: "Ubururu"
+ - Umbuzo: "Luhlaza"
+ Impendulo: "Icyatsi"
+ - Umbuzo: "Phuzi"
+ Impendulo: "Umuhondo"
+ - Umbuzo: "Mnyama"
+ Impendulo: "Umukara"
+ xp_reward: 35
+
+# Amakhadi emfundo
+ - id: 111
+ type: Amakhadi emfundo
+ Umbuzo: "Amakhadi emfundo"
+ Amakhadi emfundo:
+ - front: "Umutuku"
+ back: "Bomvu"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "Luhlaza okwesibhakabhaka"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "Luhlaza"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "Phuzi"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "Mnyama"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "Mhlophe"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Orange"
+ back: "Orange"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "Bomvu apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "Luhlaza okwesibhakabhaka sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "Luhlaza grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

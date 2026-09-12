@@ -1,11 +1,9 @@
-
 lesson:
   name: "Inyamaswa - Animals"
   description: "Learn animal names in English"
   xp_reward: 500
 
 exercises:
-
   # 1. Translation Exercises - Words ONLY
   # Domestic / Farm Animals
   - id: 1
@@ -388,7 +386,7 @@ exercises:
       - "Cow"
     answer: "Goat"
     xp_reward: 15
-  # 5. Repeat / Speaking Exercise
+  # 4. Repeat / Speaking Exercise
   - id: 53
     type: speaking
     question: "Vuga iri jambo mu Cyongereza"
@@ -417,7 +415,7 @@ exercises:
     translation: "The cow eats grass"
     xp_reward: 20
 
-  # 6. Word Bank Sentence Building
+  # 5. Word Bank Sentence Building
   - id: 57
     type: word_bank
     question: "Ubaka interuro y'icyongereza isobanura 'Inka irya ibyatsi'"
@@ -446,7 +444,7 @@ exercises:
     correct_answer: ["The", "fish", "swims"]
     xp_reward: 20
 
-  # 7. Sentence Scramble
+  # 6. Sentence Scramble
   - id: 61
     type: sentence_scramble
     question: "Tondeka aya magambo mu buryo bukwiye"
@@ -471,7 +469,7 @@ exercises:
     translation: "Inyoni iraguruka hejuru"
     xp_reward: 20
 
-  # 8. Fill in the Blank
+  # 7. Fill in the Blank
   - id: 64
     type: fill_blank
     question: "Hitamo ijambo rikwiye"
@@ -499,7 +497,7 @@ exercises:
     translation: "Inyoni iraguruka hejuru"
     xp_reward: 15
 
-  # 9. Picture → Word
+  # 8. Picture → Word
   - id: 67
     type: picture_word
     question: "Iyi ni iyihe nyamaswa mu Cyongereza?"
@@ -548,7 +546,7 @@ exercises:
     correct_answer: "Fish"
     xp_reward: 10
 
-  # 10. Word Matching (Pairing)
+  # 9. Word Matching (Pairing)
   - id: 73
     type: matching
     question: "Huza inyamaswa n'amazina yazo mu Cyongereza"
@@ -599,7 +597,7 @@ exercises:
         right: "inyama"
     xp_reward: 20
 
-  # 11. Tap What You Hear
+  # 10. Tap What You Hear
   - id: 76
     type: tap_hear
     question: "Kanda amagambo yumva mu buryo bukurikirana"
@@ -624,7 +622,7 @@ exercises:
     correct_taps: ["The", "bird", "flies", "above"]
     xp_reward: 25
 
-  # 12. Choose Missing Word
+  # 11. Choose Missing Word
   - id: 79
     type: choose_missing
     question: "Hitamo ijambo ribura"
@@ -645,14 +643,14 @@ exercises:
     translation: "Imbwa inywa amazi"
     xp_reward: 15
 
-  # 13. Read and Answer
+  # 12. Read and Answer
   - id: 81
     type: read_answer
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
     text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
     question: "Inka iri he?"
-    options: ["Mu nzu", "Mu murima", "Ku isoko", "Hafi y'imbwa"]
-    correct_answer: "Mu murima"
+    options: ["In the house", "In the field", "At the market", "Near the dog"]
+    correct_answer: "In the field"
     xp_reward: 25
 
   - id: 82
@@ -660,11 +658,11 @@ exercises:
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
     text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
     question: "Intare irya iki?"
-    options: ["Ibyatsi", "Amazi", "Inyama", "Ifi"]
-    correct_answer: "Inyama"
+    options: ["Grass", "Water", "Meat", "Fish"]
+    correct_answer: "Meat"
     xp_reward: 20
 
-  # 14. True / False
+  # 13. True / False
   - id: 83
     type: true_false
     question: "Ese ibi ni ukuri cyangwa ikinyoma?"
@@ -689,7 +687,7 @@ exercises:
     correct_answer: true
     xp_reward: 10
 
-  # 15. Conversation Exercise
+  # 14. Conversation Exercise
   - id: 86
     type: conversation
     question: "Subiza ikibazo ukoresheje amagambo ari ku rutonde"
@@ -710,7 +708,7 @@ exercises:
     correct_response: "Mu murima"
     xp_reward: 15
 
-  # 16. Story Exercise
+  # 15. Story Exercise
   - id: 88
     type: story
     title: "Inka n'Inshuti zayo"
@@ -737,7 +735,7 @@ exercises:
         correct_answer: ["The", "bird", "flies", "above"]
     xp_reward: 40
 
-  # 17. Pronunciation Check
+  # 16. Pronunciation Check
   - id: 89
     type: pronunciation
     question: "Vuga iri jambo mu Cyongereza"
@@ -773,7 +771,7 @@ exercises:
     translation: "Giraffe"
     xp_reward: 20
 
-  # 18. Identify Correct Meaning
+  # 17. Identify Correct Meaning
   - id: 94
     type: identify_meaning
     question: "Amazi asobanura iki muri iyi nteruro?"
@@ -792,7 +790,7 @@ exercises:
     correct_answer: "eats"
     xp_reward: 15
 
-  # 19. Speed Matching
+  # 18. Speed Matching
   - id: 96
     type: speed_matching
     title: "Match Madness: Inyamaswa"
@@ -820,7 +818,7 @@ exercises:
         right: "Inkoko"
     xp_reward: 30
 
-  # 20. Timed Challenges
+  # 19. Timed Challenges
   - id: 97
     type: timed_challenge
     title: "Urugero rw'ikizamini cy'inyamaswa"
@@ -839,164 +837,40 @@ exercises:
         answer: "Inzovu"
     xp_reward: 35
 
-  # 21. Character Writing
-  - id: 98
-    type: character_writing
-    question: "Andika ijambo mu Cyongereza"
-    prompt: "Inka"
-    translation: "Cow"
-    xp_reward: 15
-
-  - id: 99
-    type: character_writing
-    question: "Andika ijambo mu Cyongereza"
-    prompt: "Imbwa"
-    translation: "Dog"
-    xp_reward: 15
-
-  # 22. Spaced Repetition Review
-  - id: 100
-    type: review
-    title: "Isubiramo: Inyamaswa zo mu rugo"
-    exercises:
-      - type: translation
-        question: "Cow"
-        answer: "Inka"
-      - type: multiple_choice
-        question: "Imbwa"
-        options: ["Dog", "Cat", "Cow"]
-        answer: "Dog"
-      - type: translation
-        question: "Sheep"
-        answer: "Intama"
-    xp_reward: 25
-
-  # 23. Listening Comprehension
-  - id: 101
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma umenye inyamaswa"
-    dialogue_tts: "Inka"
-    question: "Ni iyihe nyamaswa wumvise?"
-    options: ["Cow", "Dog", "Cat", "Sheep"]
-    correct_answer: "Cow"
-    xp_reward: 15
-
-  - id: 102
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma umenye inyamaswa"
-    dialogue_tts: "Imbwa"
-    question: "Ni iyihe nyamaswa wumvise?"
-    options: ["Cow", "Dog", "Cat", "Goat"]
-    correct_answer: "Dog"
-    xp_reward: 15
-
-  - id: 103
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma umenye inyamaswa"
-    dialogue_tts: "Injangwe"
-    question: "Ni iyihe nyamaswa wumvise?"
-    options: ["Dog", "Cat", "Rabbit", "Bird"]
-    correct_answer: "Cat"
-    xp_reward: 15
-
-  - id: 104
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma umenye inyamaswa"
-    dialogue_tts: "Intare"
-    question: "Ni iyihe nyamaswa wumvise?"
-    options: ["Elephant", "Lion", "Giraffe", "Zebra"]
-    correct_answer: "Lion"
-    xp_reward: 15
-
-  - id: 105
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma umenye inyamaswa"
-    dialogue_tts: "Intama"
-    question: "Ni iyihe nyamaswa wumvise?"
-    options: ["Goat", "Sheep", "Cow", "Pig"]
-    correct_answer: "Sheep"
-    xp_reward: 15
-
-  - id: 106
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma umenye inyamaswa"
-    dialogue_tts: "Ihene"
-    question: "Ni iyihe nyamaswa wumvise?"
-    options: ["Goat", "Sheep", "Cow", "Pig"]
-    correct_answer: "Goat"
-    xp_reward: 15
-
-  - id: 107
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma umenye inyamaswa"
-    dialogue_tts: "Inkoko"
-    question: "Ni iyihe nyamaswa wumvise?"
-    options: ["Duck", "Chicken", "Bird", "Turkey"]
-    correct_answer: "Chicken"
-    xp_reward: 15
-
-  # 24. Grammar Selection
-  - id: 108
-    type: grammar
-    question: "Hitamo inshinga ikwiye"
-    sentence: "The cow ___ grass."
-    options: ["eats", "drinks", "sleeps"]
-    correct_answer: "eats"
-    explanation: "irya = eats"
-    xp_reward: 20
-
-  - id: 109
-    type: grammar
-    question: "Hitamo inshinga ikwiye"
-    sentence: "The dog ___ water."
-    options: ["eats", "drinks", "sleeps"]
-    correct_answer: "drinks"
-    explanation: "inywa = drinks"
-    xp_reward: 20
-
-  # 25. Error Correction
-  - id: 110
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro"
-    incorrect_sentence: "Imbwa irya amazi."
-    word_bank_for_fix: ["Imbwa", "inywa", "amazi", "irya"]
-    correct_sentence: "Imbwa inywa amazi."
-    explanation: "Imbwa inywa amazi, ntabwo irya amazi."
-    xp_reward: 20
-
-  # Flashcards
+# Flashcards
   - id: 111
     type: flashcards
     question: "Flashcards"
     flashcards:
-      - front: "Cow"
-        back: "Inka"
-        image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Dog"
-        back: "Imbwa"
-        image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Cat"
-        back: "Injangwe"
-        image: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?q=80&w=843&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Goat"
-        back: "Ihene"
-        image: "https://images.unsplash.com/photo-1524024973431-2ad9167463ac?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Sheep"
-        back: "Intama"
-        image: "https://images.unsplash.com/photo-1484557985045-edf25e08da73?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Chicken"
-        back: "Inkoko"
-        image: "https://images.unsplash.com/photo-1548550023-8c1200e2a22d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Lion"
-        back: "Intare"
-        image: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Elephant"
-        back: "Inzovu"
-        image: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Bird"
-        back: "Inyoni"
-        image: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      - front: "Fish"
-        back: "Ifi"
-        image: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    - front: "Cow"
+      back: "Inka"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Dog"
+      back: "Imbwa"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Cat"
+      back: "Injangwe"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Goat"
+      back: "Ihene"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Sheep"
+      back: "Intama"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Pig"
+      back: "Ingurube"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Chicken"
+      back: "Inkoko"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Rabbit"
+      back: "Urukwavu"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Donkey"
+      back: "Indogobe"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Pigeon"
+      back: "Inuma"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
     xp_reward: 30
+

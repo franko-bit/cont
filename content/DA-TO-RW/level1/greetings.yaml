@@ -1,0 +1,1097 @@
+lesson:
+ name: "Hilsner - Amakuru"
+ description: "Lær common Hilsner and expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Hilsner ONLY (Safe for single words/phrases)
+ - id: 1
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Hej' på kinyarwanda?"
+ Svar: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Godmorgen' på kinyarwanda?"
+ Svar: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Good afternoon / Good evening' på kinyarwanda?"
+ Svar: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Spørgsmål: "Hvordan siger man 'God nat' på kinyarwanda?"
+ Svar: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Spørgsmål: "Hvordan spørger man 'Hvordan har du det?' på kinyarwanda?"
+ Svar: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Spørgsmål: "Hvordan siger man 'I'm fine' på kinyarwanda?"
+ Svar: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Welcome' på kinyarwanda?"
+ Svar: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Spørgsmål: "Hvordan siger man 'See you later' på kinyarwanda?"
+ Svar: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Farvel' på kinyarwanda?"
+ Svar: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Have a nice day' på kinyarwanda?"
+ Svar: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Take care' på kinyarwanda?"
+ Svar: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Long time no see' på kinyarwanda?"
+ Svar: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Spørgsmål: "Hvordan spørger man 'What's up?' på kinyarwanda?"
+ Svar: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Nice to meet you' på kinyarwanda?"
+ Svar: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Hilsner with Familie Members (Simple combinations)
+ - id: 15
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Hej, mother!' på kinyarwanda?"
+ Svar: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Godmorgen, father!' på kinyarwanda?"
+ Svar: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ Spørgsmål: "Hvordan siger man 'God nat, my child!' på kinyarwanda?"
+ Svar: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common Spørgsmål (Fixed expressions)
+ - id: 18
+ type: translation
+ Spørgsmål: "Hvordan spørger man 'How are you today?' på kinyarwanda?"
+ Svar: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Spørgsmål: "Hvordan siger man 'I'm fine, thank you' på kinyarwanda?"
+ Svar: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Spørgsmål: "Hvordan spørger man 'What's up with you today?' på kinyarwanda?"
+ Svar: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # NO DIRECT TRANSLATION FOR COMPLEX DIALOGUES OR PARAGRAPHS
+ # Instead, we use Sætning building, Match, and Ord bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Muraho' i denne sætning?"
+ options:
+ - "Farvel"
+ - "Hej"
+ - "Godmorgen"
+ - "God nat"
+ Svar: "Hej"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Mwaramutse' i denne sætning?"
+ options:
+ - "Good evening"
+ - "Godmorgen"
+ - "God nat"
+ - "Farvel"
+ Svar: "Godmorgen"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Amakuru' i denne sætning?"
+ options:
+ - "Farvel"
+ - "Welcome"
+ - "Hvordan har du det?"
+ - "See you later"
+ Svar: "Hvordan har du det?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Ni meza' i denne sætning?"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ Svar: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Murabeho' i denne sætning?"
+ options:
+ - "Hej"
+ - "Welcome"
+ - "Farvel"
+ - "See you later"
+ Svar: "Farvel"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Tuzasubira' i denne sætning?"
+ options:
+ - "Farvel"
+ - "See you later"
+ - "Welcome back"
+ - "Take care"
+ Svar: "See you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Nishimiye kukubona' i denne sætning?"
+ options:
+ - "Godmorgen"
+ - "Nice to meet you"
+ - "Welcome"
+ - "Take care"
+ Svar: "Nice to meet you"
+ xp_reward: 18
+
+ # 3. Lyt and Type (Dictation) - Safe because audio is provided
+ - id: 28
+ type: listen_and_type
+ Spørgsmål: "Lyt and type the greeting"
+ tts_text: "Muraho"
+ Svar: "Muraho"
+ translation: "Hej"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_and_type
+ Spørgsmål: "Lyt and type the greeting"
+ tts_text: "Mwaramutse"
+ Svar: "Mwaramutse"
+ translation: "Godmorgen"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_and_type
+ Spørgsmål: "Lyt and type the greeting"
+ tts_text: "Mwiriwe"
+ Svar: "Mwiriwe"
+ translation: "Good afternoon / Good evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Ijoro ryiza"
+ Svar: "Ijoro ryiza"
+ translation: "God nat"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_and_type
+ Spørgsmål: "Lyt and type the Spørgsmål"
+ tts_text: "Amakuru"
+ Svar: "Amakuru"
+ translation: "Hvordan har du det?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv svaret"
+ tts_text: "Ni meza"
+ Svar: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Murakaza neza"
+ Svar: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Tuzasubira"
+ Svar: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Murabeho"
+ Svar: "Murabeho"
+ translation: "Farvel"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Hashize igihe tutabonanye"
+ Svar: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Nishimiye kukubona"
+ Svar: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 25
+
+ # 4. Lyt and Vælg
+ - id: 39
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt greeting"
+ tts_text: "Muraho"
+ options:
+ - "Farvel"
+ - "Hej"
+ - "Godmorgen"
+ Svar: "Hej"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "Good evening"
+ - "Godmorgen"
+ - "God nat"
+ Svar: "Godmorgen"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "Godmorgen"
+ - "Good afternoon/evening"
+ - "God nat"
+ Svar: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt meaning"
+ tts_text: "Amakuru"
+ options:
+ - "Farvel"
+ - "Hvordan har du det?"
+ - "Welcome"
+ Svar: "Hvordan har du det?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ Svar: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt farewell"
+ tts_text: "Murabeho"
+ options:
+ - "Hej"
+ - "Farvel"
+ - "See you later"
+ Svar: "Farvel"
+ xp_reward: 15
+
+ # 5. Repeat / Tal Exercise
+ - id: 45
+ type: Tal
+ Spørgsmål: "Say this greeting"
+ prompt: "Muraho"
+ translation: "Hej"
+ xp_reward: 15
+
+ - id: 46
+ type: Tal
+ Spørgsmål: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Godmorgen"
+ xp_reward: 15
+
+ - id: 47
+ type: Tal
+ Spørgsmål: "Say this greeting"
+ prompt: "Mwiriwe"
+ translation: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: Tal
+ Spørgsmål: "Sig denne sætning"
+ prompt: "Ijoro ryiza"
+ translation: "God nat"
+ xp_reward: 18
+
+ - id: 49
+ type: Tal
+ Spørgsmål: "Ask 'Hvordan har du det?' in Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "Hvordan har du det?"
+ xp_reward: 15
+
+ - id: 50
+ type: Tal
+ Spørgsmål: "Say 'I'm fine' in Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: Tal
+ Spørgsmål: "Say 'Welcome' in Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: Tal
+ Spørgsmål: "Say 'See you later' in Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 18
+
+ - id: 53
+ type: Tal
+ Spørgsmål: "Say 'Farvel' in Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "Farvel"
+ xp_reward: 15
+
+ - id: 54
+ type: Tal
+ Spørgsmål: "Say 'Long time no see' in Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 22
+
+ - id: 55
+ type: Tal
+ Spørgsmål: "Say 'Nice to meet you' in Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: Tal
+ Spørgsmål: "Say 'Hej, mother!' in Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "Hej, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: Tal
+ Spørgsmål: "Say 'Godmorgen, father!' in Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "Godmorgen, father!"
+ xp_reward: 18
+
+ # 6. Ord Bank Sætning Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ Spørgsmål: "Build the greeting for 'Hej, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Spørgsmål: "Build the greeting for 'Godmorgen, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ Spørgsmål: "Build the greeting for 'God nat, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ Spørgsmål: "Build the Spørgsmål 'How are you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ Spørgsmål: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ Spørgsmål: "Build the farewell 'See you later at Skole'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Spørgsmål: "Build the farewell 'Farvel, see you I morgen'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ Spørgsmål: "Build the well-wish 'Have a nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Spørgsmål: "Build the phrase 'Take care on your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ Spørgsmål: "Build the greeting 'Long time no see, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Spørgsmål: "Build the Spørgsmål 'What's up with you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ Spørgsmål: "Build the phrase 'Nice to meet you at the party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. Sætning Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "Hej, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "Godmorgen, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ Spørgsmål: "Arranger disse ord for at danne en korrekt frase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "God nat, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Spørgsmål"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "See you later at Skole."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "Farvel, see you I morgen."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have a nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ Spørgsmål: "Arranger disse ord for at danne en korrekt frase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care on your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time no see, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Spørgsmål"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up with you today?"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Vælg FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ Spørgsmål: "Complete the greeting"
+ text_with_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "Hej, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Spørgsmål: "Complete the greeting"
+ text_with_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "Godmorgen, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ Spørgsmål: "F?rdigg?r s?tningen"
+ text_with_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "God nat, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Spørgsmål: "Complete the Spørgsmål"
+ text_with_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Spørgsmål: "Complete the response"
+ text_with_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Spørgsmål: "Complete the farewell"
+ text_with_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "See you later at Skole."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ Spørgsmål: "Complete the farewell"
+ text_with_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "Farvel, see you I morgen."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ Spørgsmål: "Complete the well-wish"
+ text_with_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ Spørgsmål: "F?rdigg?r s?tningen"
+ text_with_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care on your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ Spørgsmål: "Complete the greeting"
+ text_with_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time no see, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ Spørgsmål: "Complete the Spørgsmål"
+ text_with_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up with you today?"
+ xp_reward: 18
+
+
+
+ # 9. Ord Match (Pairing)
+ - id: 98
+ type: Match
+ Spørgsmål: "Match the Hilsner to their meanings"
+ pairs:
+ - Venstre: "Muraho"
+ Højre: "Hej"
+ - Venstre: "Mwaramutse"
+ Højre: "Godmorgen"
+ - Venstre: "Mwiriwe"
+ Højre: "Good afternoon/evening"
+ - Venstre: "Ijoro ryiza"
+ Højre: "God nat"
+ - Venstre: "Amakuru"
+ Højre: "Hvordan har du det?"
+ - Venstre: "Ni meza"
+ Højre: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: Match
+ Spørgsmål: "Match the farewells and well-wishes"
+ pairs:
+ - Venstre: "Murabeho"
+ Højre: "Farvel"
+ - Venstre: "Tuzasubira"
+ Højre: "See you later"
+ - Venstre: "Umunsi mwiza"
+ Højre: "Have a nice day"
+ - Venstre: "Wirinde"
+ Højre: "Take care"
+ - Venstre: "Hashize igihe tutabonanye"
+ Højre: "Long time no see"
+ - Venstre: "Nishimiye kukubona"
+ Højre: "Nice to meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: Match
+ Spørgsmål: "Match the phrases with Familie members"
+ pairs:
+ - Venstre: "Muraho, Mama!"
+ Højre: "Hej, mother!"
+ - Venstre: "Mwaramutse, Data!"
+ Højre: "Godmorgen, father!"
+ - Venstre: "Ijoro ryiza, mwana wanjye!"
+ Højre: "God nat, my child!"
+ - Venstre: "Hashize igihe tutabonanye, nshuti yanjye"
+ Højre: "Long time no see, my friend"
+ xp_reward: 25
+
+ # 10. Vælg Missing Ord
+ - id: 107
+ type: choose_missing
+ Spørgsmål: "Vælg the missing Ord"
+ Sætning: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ Spørgsmål: "Vælg the missing Ord"
+ Sætning: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ Spørgsmål: "Vælg the missing Ord"
+ Sætning: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ # 11. Læs and Svar - Spørgsmål based on context
+ - id: 110
+ type: read_answer
+ Spørgsmål: "Læs the dialogue and Svar the Spørgsmål"
+ text: "A: Muraho! Amakuru? B: Ni meza, murakoze."
+ Spørgsmål: "How is person B?"
+ options: ["Trist", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ Spørgsmål: "Læs the dialogue and Svar the Spørgsmål"
+ text: "A: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ Spørgsmål: "What time of day is it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ Spørgsmål: "Læs the dialogue and Svar the Spørgsmål"
+ text: "A: Tuzasubira ku ishuri. B: Murabeho!"
+ Spørgsmål: "Where will they see each other later?"
+ options: ["At home", "At Skole", "At work", "At the Marked"]
+ correct_answer: "At Skole"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "'Mwaramutse' is used in the morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "'Mwiriwe' is used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "'Murabeho' means Hej."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "'Nishimiye kukubona' means 'Nice to meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Spørgsmål: "Respond to the greeting by building a Sætning"
+ bot_message: "Muraho! Amakuru?"
+ translation: "Hej! Hvordan har du det?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ Spørgsmål: "Vælg the appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "Godmorgen, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ Spørgsmål: "Respond to the farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "See you later at Skole."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ Spørgsmål: "Build a response to the Spørgsmål"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build Sætning from pieces
+ - id: 121
+ type: story
+ title: "møde a Friend - Guhura n'inshuti"
+ story_intro: "Læs the conversation. Then build the Sætning."
+ story_segments:
+ - text: "Person A says Hej."
+ - text: "Person A asks how they are."
+ - text: "Person B says they are fine and thanks them."
+ - text: "Person A says nice to meet them."
+ - text: "Person B welcomes them."
+ - text: "Person A says see you later."
+ - text: "Person B says Farvel."
+ exercises:
+ - type: word_bank
+ Spørgsmål: "Byg den kinyarwanda hilsen for 'Hej!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ Spørgsmål: "Build the Spørgsmål 'Hvordan har du det?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ Spørgsmål: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ Spørgsmål: "Build the phrase 'Nice to meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ Spørgsmål: "Build the farewell 'See you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ Spørgsmål: "Build the farewell 'Farvel'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Spørgsmål: "Say this greeting"
+ prompt: "Muraho"
+ translation: "Hej"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Spørgsmål: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Godmorgen"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Spørgsmål: "Sig denne sætning"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ Spørgsmål: "Say this farewell"
+ prompt: "Murabeho"
+ translation: "Farvel"
+ xp_reward: 15
+
+ # 16. Identify Korrekt Meaning
+ - id: 126
+ type: identify_meaning
+ Spørgsmål: "Hvad betyder 'Muraho' i denne sætning?"
+ context_sentence: "Muraho! Amakuru?"
+ Ord: "Muraho"
+ options: ["Farvel", "Hej", "Thank you", "Welcome"]
+ correct_answer: "Hej"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ Spørgsmål: "Hvad betyder 'murakoze' mean in this Sætning?"
+ context_sentence: "Ni meza, murakoze."
+ Ord: "murakoze"
+ options: ["Vær så venlig", "thank you", "welcome", "Farvel"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ Spørgsmål: "Hvad betyder 'Mwiriwe' i denne sætning?"
+ context_sentence: "Mwiriwe, nshuti!"
+ Ord: "Mwiriwe"
+ options: ["Godmorgen", "Good afternoon/evening", "God nat", "Hej"]
+ correct_answer: "Good afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed Match
+ - id: 129
+ type: speed_Match
+ title: "Match Madness: Hilsner"
+ time_limit_seconds: 45
+ pairs:
+ - Venstre: "Hej"
+ Højre: "Muraho"
+ - Venstre: "Godmorgen"
+ Højre: "Mwaramutse"
+ - Venstre: "Good afternoon"
+ Højre: "Mwiriwe"
+ - Venstre: "God nat"
+ Højre: "Ijoro ryiza"
+ - Venstre: "Hvordan har du det?"
+ Højre: "Amakuru"
+ - Venstre: "I'm fine"
+ Højre: "Ni meza"
+ - Venstre: "Welcome"
+ Højre: "Murakaza neza"
+ - Venstre: "See you later"
+ Højre: "Tuzasubira"
+ - Venstre: "Farvel"
+ Højre: "Murabeho"
+ - Venstre: "Take care"
+ Højre: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Hilsner"
+ time_limit_seconds: 30
+ Spørgsmål_count: 5
+ Spørgsmål:
+ - Spørgsmål: "Hej"
+ Svar: "Muraho"
+ - Spørgsmål: "Godmorgen"
+ Svar: "Mwaramutse"
+ - Spørgsmål: "God nat"
+ Svar: "Ijoro ryiza"
+ - Spørgsmål: "Hvordan har du det?"
+ Svar: "Amakuru"
+ - Spørgsmål: "Farvel"
+ Svar: "Murabeho"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Spørgsmål: "Flashcards"
+ Flashcards:
+ - front: "Muraho"
+ back: "Hej"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "Godmorgen"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "Good afternoon / Good evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "God nat"
+ image: "https://images.pexels.com/photos/45201/kitty-Kat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "Hvordan har du det?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "See you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "Farvel"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have a nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

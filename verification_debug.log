@@ -1,0 +1,18 @@
+[2026-05-06 22:45:19] check_verification GET: Array
+(
+    [verificationSessionId] => c0a4bc23-3318-4539-8cad-97e1177d7172
+    [status] => Approved
+)
+[2026-05-06 22:45:19] Verification Status: approved | UserId: 1 | AttemptId: 0[2026-05-06 22:45:19] Database Update Result: verified=1 status=approved[2026-05-19 14:31:34] check_verification GET: Array
+(
+    [attempt_id] => 23
+    [verificationSessionId] => 8e496b22-b6e6-4757-92ce-dc54c063db6f
+    [status] => Declined
+)
+[2026-05-19 14:31:34] Verification Status: declined | UserId: 3 | AttemptId: 23[2026-05-19 14:32:49] check_verification GET: Array
+(
+    [attempt_id] => 23
+    [verificationSessionId] => 7dbf2ad7-8a61-4952-94c0-ab5238902cba
+    [status] => Approved
+)
+[2026-05-19 14:32:49] Verification Status: approved | UserId: 3 | AttemptId: 23[2026-05-19 14:32:49] Database Update Result: verified=1 status=approved

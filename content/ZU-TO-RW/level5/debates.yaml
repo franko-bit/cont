@@ -1,0 +1,1219 @@
+lesson:
+ name: "Debates - Impaka"
+ description: "Funda debate Amagama and opinion expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Debate Amagama ONLY (Safe for single words/phrases)
+ # Debate Terms
+ - id: 1
+ type: translation
+ Umbuzo: "Usho kanjani 'Debate' ngesiKinyarwanda?"
+ Impendulo: "Impaka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Umbuzo: "Usho kanjani 'Opinion' ngesiKinyarwanda?"
+ Impendulo: "Igitekerezo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Umbuzo: "Usho kanjani 'Agree' ngesiKinyarwanda?"
+ Impendulo: "Kwemera"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Umbuzo: "Usho kanjani 'Disagree' ngesiKinyarwanda?"
+ Impendulo: "Kutemera"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Umbuzo: "Usho kanjani 'Argument' ngesiKinyarwanda?"
+ Impendulo: "Impamvu / Inyandiko"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 6
+ type: translation
+ Umbuzo: "Usho kanjani 'Evidence' ngesiKinyarwanda?"
+ Impendulo: "Ibimenyetso"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Umbuzo: "Usho kanjani 'Fact' ngesiKinyarwanda?"
+ Impendulo: "Ukuri"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Umbuzo: "Usho kanjani 'Opinion piece' ngesiKinyarwanda?"
+ Impendulo: "Igitekerezo cy'umuntu"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Umbuzo: "Usho kanjani 'Point of view' ngesiKinyarwanda?"
+ Impendulo: "Inyungu / Igitekerezo"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Umbuzo: "Usho kanjani 'Discussion' ngesiKinyarwanda?"
+ Impendulo: "Ikiganiro"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Umbuzo: "Usho kanjani 'Speaker' ngesiKinyarwanda?"
+ Impendulo: "Umuvugizi"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Umbuzo: "Usho kanjani 'Audience' ngesiKinyarwanda?"
+ Impendulo: "Abareba / Abumvise"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Umbuzo: "Usho kanjani 'Persuade' ngesiKinyarwanda?"
+ Impendulo: "Guhindura igitekerezo"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Umbuzo: "Usho kanjani 'Counterargument' ngesiKinyarwanda?"
+ Impendulo: "Igitekerezo cy'ukundi"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Umbuzo: "Usho kanjani 'Refute' ngesiKinyarwanda?"
+ Impendulo: "Guhakana / Guhakana ibitekerezo"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Umbuzo: "Usho kanjani 'Umbuzo' ngesiKinyarwanda?"
+ Impendulo: "Ikibazo"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Umbuzo: "Usho kanjani 'Response' ngesiKinyarwanda?"
+ Impendulo: "Igisubizo"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Umbuzo: "Usho kanjani 'Conclusion' ngesiKinyarwanda?"
+ Impendulo: "Umusozo / Umwanzuro"
+ xp_reward: 15
+
+ # Phrases - Expressing Opinions
+ - id: 19
+ type: translation
+ Umbuzo: "Usho kanjani 'I think that...' ngesiKinyarwanda?"
+ Impendulo: "Ntekereza ko..."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Umbuzo: "Usho kanjani 'In my opinion...' ngesiKinyarwanda?"
+ Impendulo: "Mu bitekerezo byanjye..."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Umbuzo: "Usho kanjani 'I agree with you' ngesiKinyarwanda?"
+ Impendulo: "Ndemeranya nawe."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Umbuzo: "Usho kanjani 'I disagree' ngesiKinyarwanda?"
+ Impendulo: "Sinemeye."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Umbuzo: "Usho kanjani 'Can you explain why?' ngesiKinyarwanda?"
+ Impendulo: "Ushobora gusobanura impamvu?"
+ xp_reward: 18
+
+ - id: 24
+ type: translation
+ Umbuzo: "Usho kanjani 'I have evidence that...' ngesiKinyarwanda?"
+ Impendulo: "Mfite ibimenyetso byerekana ko..."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Umbuzo: "Usho kanjani 'Let's discuss this point' ngesiKinyarwanda?"
+ Impendulo: "Turebe iki gitekerezo."
+ xp_reward: 18
+
+ - id: 26
+ type: translation
+ Umbuzo: "Ubuzwa kanjani 'What do you think?' ngesiKinyarwanda?"
+ Impendulo: "Utekereza iki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Umbuzo: "Usho kanjani 'That is a strong argument' ngesiKinyarwanda?"
+ Impendulo: "Icyo ni igitekerezo gikomeye."
+ xp_reward: 18
+
+ - id: 28
+ type: translation
+ Umbuzo: "Usho kanjani 'I need more facts' ngesiKinyarwanda?"
+ Impendulo: "Nkeneye ibindi by'ukuri."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Impaka' kulomusho?"
+ options:
+ - "Opinion"
+ - "Debate"
+ - "Discussion"
+ - "Argument"
+ Impendulo: "Debate"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Igitekerezo' kulomusho?"
+ options:
+ - "Fact"
+ - "Evidence"
+ - "Opinion"
+ - "Umbuzo"
+ Impendulo: "Opinion"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Kwemera' kulomusho?"
+ options:
+ - "Disagree"
+ - "Agree"
+ - "Refute"
+ - "Persuade"
+ Impendulo: "Agree"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Kutemera' kulomusho?"
+ options:
+ - "Agree"
+ - "Disagree"
+ - "Discuss"
+ - "Umbuzo"
+ Impendulo: "Disagree"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Ibimenyetso' kulomusho?"
+ options:
+ - "Opinion"
+ - "Fact"
+ - "Evidence"
+ - "Conclusion"
+ Impendulo: "Evidence"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Ukuri' kulomusho?"
+ options:
+ - "Opinion"
+ - "Fact"
+ - "Evidence"
+ - "Debate"
+ Impendulo: "Fact"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Ndemeranya nawe' kulomusho?"
+ options:
+ - "I disagree"
+ - "I agree with you"
+ - "I think that"
+ - "What do you think?"
+ Impendulo: "I agree with you"
+ xp_reward: 18
+
+ - id: 36
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Sinemeye' kulomusho?"
+ options:
+ - "I agree"
+ - "I disagree"
+ - "I think"
+ - "I need facts"
+ Impendulo: "I disagree"
+ xp_reward: 18
+
+ # 3. Lalela and Type (Dictation)
+ - id: 37
+ type: listen_and_type
+ Umbuzo: "Lalela and type the debate term"
+ audio: "Impaka"
+ Impendulo: "Impaka"
+ translation: "Debate"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Umbuzo: "Lalela and type the debate term"
+ audio: "Igitekerezo"
+ Impendulo: "Igitekerezo"
+ translation: "Opinion"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ Umbuzo: "Lalela and type the debate term"
+ audio: "Ibimenyetso"
+ Impendulo: "Ibimenyetso"
+ translation: "Evidence"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_and_type
+ Umbuzo: "Lalela and type the debate term"
+ audio: "Ikibazo"
+ Impendulo: "Ikibazo"
+ translation: "Umbuzo"
+ xp_reward: 20
+
+ 
+ - id: 42
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ audio: "Sinemeye"
+ Impendulo: "Sinemeye"
+ translation: "I disagree"
+ xp_reward: 22
+
+ 
+
+ - id: 44
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ audio: "Ntekereza ko"
+ Impendulo: "Ntekereza ko"
+ translation: "I think that..."
+ xp_reward: 22
+
+ # 4. Lalela and Khetha
+ - id: 45
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct debate term"
+ audio: "Impaka"
+ options:
+ - "Opinion"
+ - "Debate"
+ - "Discussion"
+ Impendulo: "Debate"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct debate term"
+ audio: "Igitekerezo"
+ options:
+ - "Fact"
+ - "Opinion"
+ - "Evidence"
+ Impendulo: "Opinion"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct debate term"
+ audio: "Ibimenyetso"
+ options:
+ - "Evidence"
+ - "Fact"
+ - "Conclusion"
+ Impendulo: "Evidence"
+ xp_reward: 15
+
+ 
+
+ - id: 49
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct phrase"
+ audio: "Sinemeye"
+ options:
+ - "I agree"
+ - "I disagree"
+ - "I think"
+ Impendulo: "I disagree"
+ xp_reward: 18
+
+ # 5. Repeat / Khuluma Exercise
+ - id: 51
+ type: Khuluma
+ Umbuzo: "Say this debate term"
+ prompt: "Impaka"
+ translation: "Debate"
+ xp_reward: 15
+
+ - id: 52
+ type: Khuluma
+ Umbuzo: "Say this debate term"
+ prompt: "Igitekerezo"
+ translation: "Opinion"
+ xp_reward: 15
+
+ - id: 53
+ type: Khuluma
+ Umbuzo: "Say this debate term"
+ prompt: "Ibimenyetso"
+ translation: "Evidence"
+ xp_reward: 15
+
+ - id: 54
+ type: Khuluma
+ Umbuzo: "Say this debate term"
+ prompt: "Ukuri"
+ translation: "Fact"
+ xp_reward: 15
+
+ - id: 55
+ type: Khuluma
+ Umbuzo: "Say this phrase"
+ prompt: "Ndemeranya nawe"
+ translation: "I agree with you"
+ xp_reward: 18
+
+ - id: 56
+ type: Khuluma
+ Umbuzo: "Say this phrase"
+ prompt: "Sinemeye"
+ translation: "I disagree"
+ xp_reward: 18
+
+ - id: 57
+ type: Khuluma
+ Umbuzo: "Say this phrase"
+ prompt: "Ntekereza ko"
+ translation: "I think that..."
+ xp_reward: 18
+
+ - id: 58
+ type: Khuluma
+ Umbuzo: "Say this Umbuzo"
+ prompt: "Utekereza iki"
+ translation: "What do you think?"
+ xp_reward: 18
+
+ - id: 59
+ type: Khuluma
+ Umbuzo: "Say this phrase"
+ prompt: "Icyo ni igitekerezo gikomeye"
+ translation: "That is a strong argument"
+ xp_reward: 20
+
+ # 6. Word Bank Umusho Building - PIECES PROVIDED
+ - id: 60
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'I agree with you'"
+ word_bank: ["Ndemeranya", "nawe", "Sinemeye", "ntekereza"]
+ correct_answer: ["Ndemeranya", "nawe"]
+ xp_reward: 18
+
+ - id: 61
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'I disagree'"
+ word_bank: ["Sinemeye", "ndemeranya", "nawe", "ntekereza"]
+ correct_answer: ["Sinemeye"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'I think that...'"
+ word_bank: ["Ntekereza", "ko", "ndemeranya", "sinemeye"]
+ correct_answer: ["Ntekereza", "ko"]
+ xp_reward: 18
+
+ - id: 63
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'In my opinion...'"
+ word_bank: ["Mu", "bitekerezo", "byanjye", "ntekereza", "ko"]
+ correct_answer: ["Mu", "bitekerezo", "byanjye"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umbuzo 'What do you think?'"
+ word_bank: ["Utekereza", "iki", "ute", "iki"]
+ correct_answer: ["Utekereza", "iki"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'Can you explain why?'"
+ word_bank: ["Ushobora", "gusobanura", "impamvu", "ntekereza", "ko"]
+ correct_answer: ["Ushobora", "gusobanura", "impamvu"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'I have evidence that...'"
+ word_bank: ["Mfite", "ibimenyetso", "byerekana", "ko", "ibindi", "by'ukuri"]
+ correct_answer: ["Mfite", "ibimenyetso", "byerekana", "ko"]
+ xp_reward: 22
+
+ - id: 67
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'Let's discuss this point'"
+ word_bank: ["Turebe", "iki", "gitekerezo", "iki", "kibazo"]
+ correct_answer: ["Turebe", "iki", "gitekerezo"]
+ xp_reward: 20
+
+ - id: 68
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'That is a strong argument'"
+ word_bank: ["Icyo", "ni", "igitekerezo", "gikomeye", "icyo", "ni", "ukuri"]
+ correct_answer: ["Icyo", "ni", "igitekerezo", "gikomeye"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'I need more facts'"
+ word_bank: ["Nkeneye", "ibindi", "by'ukuri", "ibimenyetso", "ibitekerezo"]
+ correct_answer: ["Nkeneye", "ibindi", "by'ukuri"]
+ xp_reward: 20
+
+ # 7. Umusho Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Ndemeranya", "nawe"]
+ correct_sentence: "Ndemeranya nawe."
+ translation: "I agree with you."
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Sinemeye"]
+ correct_sentence: "Sinemeye."
+ translation: "I disagree."
+ xp_reward: 15
+
+ - id: 72
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Ntekereza", "ko"]
+ correct_sentence: "Ntekereza ko..."
+ translation: "I think that..."
+ xp_reward: 18
+
+ - id: 73
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Mu", "bitekerezo", "byanjye"]
+ correct_sentence: "Mu bitekerezo byanjye..."
+ translation: "In my opinion..."
+ xp_reward: 20
+
+ - id: 74
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Umbuzo"
+ scrambled_words: ["Utekereza", "iki"]
+ correct_sentence: "Utekereza iki?"
+ translation: "What do you think?"
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Umbuzo"
+ scrambled_words: ["Ushobora", "gusobanura", "impamvu"]
+ correct_sentence: "Ushobora gusobanura impamvu?"
+ translation: "Can you explain why?"
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Mfite", "ibimenyetso", "byerekana", "ko"]
+ correct_sentence: "Mfite ibimenyetso byerekana ko..."
+ translation: "I have evidence that..."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Turebe", "iki", "gitekerezo"]
+ correct_sentence: "Turebe iki gitekerezo."
+ translation: "Let's discuss this point."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Icyo", "ni", "igitekerezo", "gikomeye"]
+ correct_sentence: "Icyo ni igitekerezo gikomeye."
+ translation: "That is a strong argument."
+ xp_reward: 22
+
+ - id: 79
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Nkeneye", "ibindi", "by'ukuri"]
+ correct_sentence: "Nkeneye ibindi by'ukuri."
+ translation: "I need more facts."
+ xp_reward: 20
+
+ # 8. Fill in the Blank - Khetha FROM OPTIONS
+ - id: 80
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Ndemeranya ___."
+ options: ["nawe", "ko", "iki"]
+ correct_answer: "nawe"
+ translation: "I agree with you."
+ xp_reward: 15
+
+ - id: 81
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Ntekereza ___."
+ options: ["ko", "nawe", "iki"]
+ correct_answer: "ko"
+ translation: "I think that..."
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Mu bitekerezo ___."
+ options: ["byanjye", "byawe", "byacu"]
+ correct_answer: "byanjye"
+ translation: "In my opinion..."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ Umbuzo: "Complete the Umbuzo"
+ text_with_blank: "Utekereza ___?"
+ options: ["iki", "ko", "nawe"]
+ correct_answer: "iki"
+ translation: "What do you think?"
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ Umbuzo: "Complete the Umbuzo"
+ text_with_blank: "Ushobora gusobanura ___?"
+ options: ["impamvu", "igitekerezo", "ikibazo"]
+ correct_answer: "impamvu"
+ translation: "Can you explain why?"
+ xp_reward: 18
+
+ - id: 85
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Mfite ibimenyetso ___ ko..."
+ options: ["byerekana", "by'ukuri", "byiza"]
+ correct_answer: "byerekana"
+ translation: "I have evidence that..."
+ xp_reward: 18
+
+ - id: 86
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Turebe iki ___."
+ options: ["gitekerezo", "kibazo", "gitabo"]
+ correct_answer: "gitekerezo"
+ translation: "Let's discuss this point."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Icyo ni igitekerezo ___."
+ options: ["gikomeye", "cyiza", "kinini"]
+ correct_answer: "gikomeye"
+ translation: "That is a strong argument."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Nkeneye ibindi ___."
+ options: ["by'ukuri", "by'ibimenyetso", "by'ibitekerezo"]
+ correct_answer: "by'ukuri"
+ translation: "I need more facts."
+ xp_reward: 15
+
+ # 9. Picture → Word (Conceptual images for abstract debate terms)
+ - id: 89
+ type: picture_word
+ Umbuzo: "What debate concept does this image represent?"
+ image_url: "https://source.unsplash.com/featured/?debate"
+ options: ["Impaka", "Ikiganiro", "Umuvugizi"]
+ correct_answer: "Impaka"
+ xp_reward: 12
+
+ - id: 90
+ type: picture_word
+ Umbuzo: "What debate concept does this image represent?"
+ image_url: "https://source.unsplash.com/featured/?opinion"
+ options: ["Igitekerezo", "Ukuri", "Ibimenyetso"]
+ correct_answer: "Igitekerezo"
+ xp_reward: 12
+
+ - id: 91
+ type: picture_word
+ Umbuzo: "What debate concept does this image represent?"
+ image_url: "https://source.unsplash.com/featured/?agreement"
+ options: ["Kwemera", "Kutemera", "Guhakana"]
+ correct_answer: "Kwemera"
+ xp_reward: 12
+
+ - id: 92
+ type: picture_word
+ Umbuzo: "What debate concept does this image represent?"
+ image_url: "https://source.unsplash.com/featured/?disagreement"
+ options: ["Kutemera", "Kwemera", "Guhindura igitekerezo"]
+ correct_answer: "Kutemera"
+ xp_reward: 12
+
+ - id: 93
+ type: picture_word
+ Umbuzo: "What debate concept does this image represent?"
+ image_url: "https://source.unsplash.com/featured/?evidence"
+ options: ["Ibimenyetso", "Ukuri", "Igisubizo"]
+ correct_answer: "Ibimenyetso"
+ xp_reward: 12
+
+ - id: 94
+ type: picture_word
+ Umbuzo: "What debate concept does this image represent?"
+ image_url: "https://source.unsplash.com/featured/?fact"
+ options: ["Ukuri", "Igitekerezo", "Impamvu"]
+ correct_answer: "Ukuri"
+ xp_reward: 12
+
+ - id: 95
+ type: picture_word
+ Umbuzo: "What debate concept does this image represent?"
+ image_url: "https://source.unsplash.com/featured/?speaker"
+ options: ["Umuvugizi", "Abumvise", "Umuntu"]
+ correct_answer: "Umuvugizi"
+ xp_reward: 12
+
+ - id: 96
+ type: picture_word
+ Umbuzo: "What debate concept does this image represent?"
+ image_url: "https://source.unsplash.com/featured/?audience"
+ options: ["Abumvise", "Abareba", "Abantu"]
+ correct_answer: "Abumvise"
+ xp_reward: 12
+
+ # 10. Word Qondanisa (Pairing)
+ - id: 97
+ type: Qondanisa
+ Umbuzo: "Qondanisa the debate terms"
+ pairs:
+ - Kwesokunxele: "Debate"
+ Kwesokudla: "Impaka"
+ - Kwesokunxele: "Opinion"
+ Kwesokudla: "Igitekerezo"
+ - Kwesokunxele: "Agree"
+ Kwesokudla: "Kwemera"
+ - Kwesokunxele: "Disagree"
+ Kwesokudla: "Kutemera"
+ - Kwesokunxele: "Evidence"
+ Kwesokudla: "Ibimenyetso"
+ - Kwesokunxele: "Fact"
+ Kwesokudla: "Ukuri"
+ - Kwesokunxele: "Umbuzo"
+ Kwesokudla: "Ikibazo"
+ - Kwesokunxele: "Response"
+ Kwesokudla: "Igisubizo"
+ - Kwesokunxele: "Speaker"
+ Kwesokudla: "Umuvugizi"
+ - Kwesokunxele: "Audience"
+ Kwesokudla: "Abumvise"
+ xp_reward: 25
+
+ - id: 98
+ type: Qondanisa
+ Umbuzo: "Qondanisa the debate phrases"
+ pairs:
+ - Kwesokunxele: "I agree with you"
+ Kwesokudla: "Ndemeranya nawe"
+ - Kwesokunxele: "I disagree"
+ Kwesokudla: "Sinemeye"
+ - Kwesokunxele: "I think that..."
+ Kwesokudla: "Ntekereza ko..."
+ - Kwesokunxele: "In my opinion..."
+ Kwesokudla: "Mu bitekerezo byanjye..."
+ - Kwesokunxele: "What do you think?"
+ Kwesokudla: "Utekereza iki?"
+ - Kwesokunxele: "Can you explain why?"
+ Kwesokudla: "Ushobora gusobanura impamvu?"
+ - Kwesokunxele: "That is a strong argument"
+ Kwesokudla: "Icyo ni igitekerezo gikomeye"
+ - Kwesokunxele: "I need more facts"
+ Kwesokudla: "Nkeneye ibindi by'ukuri"
+ xp_reward: 25
+
+ - id: 99
+ type: Qondanisa
+ Umbuzo: "Qondanisa the advanced debate terms"
+ pairs:
+ - Kwesokunxele: "Argument"
+ Kwesokudla: "Impamvu"
+ - Kwesokunxele: "Opinion piece"
+ Kwesokudla: "Igitekerezo cy'umuntu"
+ - Kwesokunxele: "Point of view"
+ Kwesokudla: "Inyungu"
+ - Kwesokunxele: "Discussion"
+ Kwesokudla: "Ikiganiro"
+ - Kwesokunxele: "Persuade"
+ Kwesokudla: "Guhindura igitekerezo"
+ - Kwesokunxele: "Counterargument"
+ Kwesokudla: "Igitekerezo cy'ukundi"
+ - Kwesokunxele: "Refute"
+ Kwesokudla: "Guhakana"
+ - Kwesokunxele: "Conclusion"
+ Kwesokudla: "Umusozo"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Khetha Missing Word
+ - id: 100
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Ndemeranya ___."
+ missing_word_position: 2
+ options: ["nawe", "ko", "iki"]
+ correct_answer: "nawe"
+ translation: "I agree with you."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Ntekereza ___."
+ missing_word_position: 2
+ options: ["ko", "nawe", "iki"]
+ correct_answer: "ko"
+ translation: "I think that..."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Mu bitekerezo ___."
+ missing_word_position: 3
+ options: ["byanjye", "byawe", "byacu"]
+ correct_answer: "byanjye"
+ translation: "In my opinion..."
+ xp_reward: 15
+
+ - id: 103
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Utekereza ___?"
+ missing_word_position: 2
+ options: ["iki", "ko", "nawe"]
+ correct_answer: "iki"
+ translation: "What do you think?"
+ xp_reward: 10
+
+ - id: 104
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Ushobora gusobanura ___?"
+ missing_word_position: 3
+ options: ["impamvu", "igitekerezo", "ikibazo"]
+ correct_answer: "impamvu"
+ translation: "Can you explain why?"
+ xp_reward: 15
+
+ - id: 105
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Mfite ibimenyetso ___ ko..."
+ missing_word_position: 3
+ options: ["byerekana", "by'ukuri", "byiza"]
+ correct_answer: "byerekana"
+ translation: "I have evidence that..."
+ xp_reward: 15
+
+ # 13. Funda and Impendulo - Umbuzo based on text
+ - id: 106
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "Mu bitekerezo byanjye, impaka ni ngombwa. Ndemeranya ko tugomba kuvuga ibitekerezo byacu."
+ translation: "In my opinion, debate is important. I agree that we should express our opinions."
+ Umbuzo: "Yini important according to the speaker?"
+ options: ["Ukudla", "Debate", "Isikole", "Work"]
+ correct_answer: "Debate"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "A: Ntekereza ko ibimenyetso ari ngombwa. B: Ndemeranya nawe. Mfite ibimenyetso byerekana ko ari ukuri."
+ Umbuzo: "Does person B agree with person A?"
+ options: ["Yes", "No", "Maybe", "Not sure"]
+ correct_answer: "Yes"
+ xp_reward: 12
+
+ - id: 108
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "A: Icyo ni igitekerezo gikomeye. B: Sinemeye. Nkeneye ibindi by'ukuri."
+ Umbuzo: "Does person B agree with person A?"
+ options: ["Yes", "No", "Maybe", "Not sure"]
+ correct_answer: "No"
+ xp_reward: 12
+
+ - id: 109
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "Umuvugizi yatanze ibimenyetso byinshi. Abumvise bumvise neza."
+ Umbuzo: "What did the speaker provide?"
+ options: ["Umbuzo", "Evidence", "Ukudla", "Books"]
+ correct_answer: "Evidence"
+ xp_reward: 15
+
+ - id: 110
+ type: read_answer
+ Umbuzo: "Funda the conversation and Impendulo the Umbuzo"
+ text: "A: Ushobora gusobanura impamvu? B: Ntekereza ko impaka ari ngombwa kubera ko twiga ibitekerezo by'abandi."
+ Umbuzo: "Kusho ukuthini B think about debate?"
+ options: ["It's boring", "It's important", "It's difficult", "It's easy"]
+ correct_answer: "It's important"
+ xp_reward: 18
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Impaka means 'debate'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Igitekerezo means 'fact'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Kwemera means 'to agree'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Kutemera means 'to agree'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Ndemeranya nawe means 'I disagree with you'."
+ correct_answer: false
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Sinemeye means 'I disagree'."
+ correct_answer: true
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Umbuzo: "Respond to the statement by building a Umusho"
+ bot_message: "Ntekereza ko impaka ari ngombwa."
+ translation: "I think that debate is important."
+ word_bank: ["Ndemeranya", "nawe", "sinemeye", "ntekereza", "ko"]
+ correct_response: ["Ndemeranya", "nawe"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ Umbuzo: "Respond to the Umbuzo"
+ bot_message: "Utekereza iki?"
+ translation: "What do you think?"
+ options:
+ - "Ntekereza ko ari ukuri"
+ - "Ndemeranya nawe"
+ - "Sinemeye"
+ correct_response: "Ntekereza ko ari ukuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ Umbuzo: "Respond to the statement by building a Umusho"
+ bot_message: "Icyo ni igitekerezo gikomeye."
+ translation: "That is a strong argument."
+ word_bank: ["Ndemeranya", "nawe", "sinemeye", "nkeneye", "ibindi by'ukuri"]
+ correct_response: ["Ndemeranya", "nawe"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ Umbuzo: "Respond to the Umbuzo"
+ bot_message: "Ushobora gusobanura impamvu?"
+ translation: "Can you explain why?"
+ options:
+ - "Ntekereza ko impaka ari ngombwa"
+ - "Ndemeranya nawe"
+ - "Sinemeye"
+ correct_response: "Ntekereza ko impaka ari ngombwa"
+ xp_reward: 18
+
+ # 16. Story Exercise - Build Umusho from pieces
+ - id: 121
+ type: story
+ title: "A Debate - Impaka"
+ story_intro: "Funda about a debate. Then build the Umusho."
+ story_segments:
+ - text: "Speaker A: In my opinion, debate is important."
+ - text: "Speaker A: I have evidence that shows this."
+ - text: "Speaker B: I disagree."
+ - text: "Speaker B: I need more facts."
+ - text: "Speaker A: That is a strong argument."
+ - text: "Speaker B: Can you explain why?"
+ - text: "Speaker A: I think that we Funda from each other."
+ - text: "Speaker B: I agree with you."
+ exercises:
+ - type: word_bank
+ Umbuzo: "Build 'In my opinion, debate is important'"
+ word_bank: ["Mu", "bitekerezo", "byanjye", "impaka", "ni", "ngombwa"]
+ correct_answer: ["Mu", "bitekerezo", "byanjye", "impaka", "ni", "ngombwa"]
+ - type: word_bank
+ Umbuzo: "Build 'I have evidence that shows this'"
+ word_bank: ["Mfite", "ibimenyetso", "byerekana", "ibi"]
+ correct_answer: ["Mfite", "ibimenyetso", "byerekana", "ibi"]
+ - type: word_bank
+ Umbuzo: "Build 'I disagree'"
+ word_bank: ["Sinemeye", "ndemeranya", "nawe"]
+ correct_answer: ["Sinemeye"]
+ - type: word_bank
+ Umbuzo: "Build 'I need more facts'"
+ word_bank: ["Nkeneye", "ibindi", "by'ukuri", "ibimenyetso"]
+ correct_answer: ["Nkeneye", "ibindi", "by'ukuri"]
+ - type: word_bank
+ Umbuzo: "Build 'That is a strong argument'"
+ word_bank: ["Icyo", "ni", "igitekerezo", "gikomeye"]
+ correct_answer: ["Icyo", "ni", "igitekerezo", "gikomeye"]
+ - type: word_bank
+ Umbuzo: "Build 'I agree with you'"
+ word_bank: ["Ndemeranya", "nawe", "sinemeye"]
+ correct_answer: ["Ndemeranya", "nawe"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Umbuzo: "Say this debate term"
+ prompt: "Impaka"
+ translation: "Debate"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Umbuzo: "Say this debate term"
+ prompt: "Igitekerezo"
+ translation: "Opinion"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Umbuzo: "Say this debate term"
+ prompt: "Ibimenyetso"
+ translation: "Evidence"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ Umbuzo: "Say this phrase"
+ prompt: "Ndemeranya nawe"
+ translation: "I agree with you"
+ xp_reward: 18
+
+ - id: 126
+ type: pronunciation
+ Umbuzo: "Say this phrase"
+ prompt: "Sinemeye"
+ translation: "I disagree"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ Umbuzo: "Say this phrase"
+ prompt: "Utekereza iki"
+ translation: "What do you think?"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ Umbuzo: "Say this phrase"
+ prompt: "Icyo ni igitekerezo gikomeye"
+ translation: "That is a strong argument"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 129
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'Ndemeranya nawe' kulomusho?"
+ context_sentence: "Ndemeranya nawe ku birebana n'impaka."
+ word: "Ndemeranya nawe"
+ options: ["I disagree with you", "I agree with you", "I think that", "I need facts"]
+ correct_answer: "I agree with you"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'Sinemeye' kulomusho?"
+ context_sentence: "Sinemeye n'icyo gitekerezo."
+ word: "Sinemeye"
+ options: ["I agree", "I disagree", "I think", "I understand"]
+ correct_answer: "I disagree"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'Ntekereza ko' kulomusho?"
+ context_sentence: "Ntekereza ko impaka ari ngombwa."
+ word: "Ntekereza ko"
+ options: ["I agree that", "I think that", "I know that", "I feel that"]
+ correct_answer: "I think that"
+ xp_reward: 15
+
+ - id: 132
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'ibimenyetso' mean in this Umusho?"
+ context_sentence: "Mfite ibimenyetso byerekana ko ari ukuri."
+ word: "ibimenyetso"
+ options: ["opinions", "facts", "evidence", "Umbuzo"]
+ correct_answer: "evidence"
+ xp_reward: 15
+
+ - id: 133
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'ukuri' mean in this Umusho?"
+ context_sentence: "Nkeneye ibindi by'ukuri."
+ word: "ukuri"
+ options: ["opinions", "facts", "evidence", "Umbuzo"]
+ correct_answer: "facts"
+ xp_reward: 15
+
+ # 19. Speed Qondanisa
+ - id: 134
+ type: speed_Qondanisa
+ title: "Qondanisa Madness: Debate Terms"
+ time_limit_seconds: 45
+ pairs:
+ - Kwesokunxele: "Debate"
+ Kwesokudla: "Impaka"
+ - Kwesokunxele: "Opinion"
+ Kwesokudla: "Igitekerezo"
+ - Kwesokunxele: "Agree"
+ Kwesokudla: "Kwemera"
+ - Kwesokunxele: "Disagree"
+ Kwesokudla: "Kutemera"
+ - Kwesokunxele: "Evidence"
+ Kwesokudla: "Ibimenyetso"
+ - Kwesokunxele: "Fact"
+ Kwesokudla: "Ukuri"
+ - Kwesokunxele: "Umbuzo"
+ Kwesokudla: "Ikibazo"
+ - Kwesokunxele: "Response"
+ Kwesokudla: "Igisubizo"
+ - Kwesokunxele: "Speaker"
+ Kwesokudla: "Umuvugizi"
+ - Kwesokunxele: "Audience"
+ Kwesokudla: "Abumvise"
+ - Kwesokunxele: "Conclusion"
+ Kwesokudla: "Umusozo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: Debate Phrases"
+ time_limit_seconds: 30
+ Umbuzo_count: 5
+ Umbuzo:
+ - Umbuzo: "I agree with you"
+ Impendulo: "Ndemeranya nawe"
+ - Umbuzo: "I disagree"
+ Impendulo: "Sinemeye"
+ - Umbuzo: "I think that"
+ Impendulo: "Ntekereza ko"
+ - Umbuzo: "What do you think?"
+ Impendulo: "Utekereza iki"
+ - Umbuzo: "In my opinion"
+ Impendulo: "Mu bitekerezo byanjye"
+ xp_reward: 35
+
+# Amakhadi emfundo
+ - id: 111
+ type: Amakhadi emfundo
+ Umbuzo: "Amakhadi emfundo"
+ Amakhadi emfundo:
+ - front: "Impaka"
+ back: "Debate"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Igitekerezo"
+ back: "Opinion"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Kwemera"
+ back: "Agree"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Kutemera"
+ back: "Disagree"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Impamvu / Inyandiko"
+ back: "Argument"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibimenyetso"
+ back: "Evidence"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Ukuri"
+ back: "Fact"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Igitekerezo cy\'umuntu"
+ back: "Opinion piece"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Inyungu / Igitekerezo"
+ back: "Point of view"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ikiganiro"
+ back: "Discussion"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

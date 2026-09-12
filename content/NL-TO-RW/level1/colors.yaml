@@ -1,0 +1,907 @@
+lesson:
+ name: "Kleuren"
+ description: "Leer basic Kleuren in Kinyarwanda met Dieren en objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Kleuren ONLY (Safe voor single words)
+ - id: 1
+ type: translation
+ Vraag: "Hoe zeg je 'Rood' in het Kinyarwanda?"
+ Antwoord: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Vraag: "Hoe zeg je 'Blauw' in het Kinyarwanda?"
+ Antwoord: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Vraag: "Hoe zeg je 'Groen' in het Kinyarwanda?"
+ Antwoord: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Vraag: "Hoe zeg je 'Geel' in het Kinyarwanda?"
+ Antwoord: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Vraag: "Hoe zeg je 'Zwart' in het Kinyarwanda?"
+ Antwoord: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Vraag: "Hoe zeg je 'Wit' in het Kinyarwanda?"
+ Antwoord: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Vraag: "Hoe zeg je 'Oranje' in het Kinyarwanda?"
+ Antwoord: "Oranje"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, niet full Zin)
+ - id: 8
+ type: translation
+ Vraag: "Hoe zeg je 'Rood apple' in het Kinyarwanda?"
+ Antwoord: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Vraag: "Hoe zeg je 'Blauw sky' in het Kinyarwanda?"
+ Antwoord: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Vraag: "Hoe zeg je 'Groen grass' in het Kinyarwanda?"
+ Antwoord: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Vraag: "Hoe zeg je 'Geel sun' in het Kinyarwanda?"
+ Antwoord: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Vraag: "Hoe zeg je 'Zwart Kat' in het Kinyarwanda?"
+ Antwoord: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Vraag: "Hoe zeg je 'Wit Koe' in het Kinyarwanda?"
+ Antwoord: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Vraag: "Hoe zeg je 'Oranje carrot' in het Kinyarwanda?"
+ Antwoord: "Karoti ya Oranje"
+ xp_reward: 15
+
+ # Translation - Kleuren met Dieren (Noun + Color phrases)
+ - id: 15
+ type: translation
+ Vraag: "Hoe zeg je 'Rood Vogel' in het Kinyarwanda?"
+ Antwoord: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Vraag: "Hoe zeg je 'Groen Kikker' in het Kinyarwanda?"
+ Antwoord: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Vraag: "Hoe zeg je 'Blauw Vis' in het Kinyarwanda?"
+ Antwoord: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Vraag: "Hoe zeg je 'Geel Kip' in het Kinyarwanda?"
+ Antwoord: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Vraag: "Hoe zeg je 'Zwart Konijn' in het Kinyarwanda?"
+ Antwoord: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Vraag: "Hoe zeg je 'Wit Geit' in het Kinyarwanda?"
+ Antwoord: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers met Kleuren (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ Vraag: "Hoe zeg je 'One Rood apple' in het Kinyarwanda?"
+ Antwoord: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Vraag: "Hoe zeg je 'Two Blauw Vogel' in het Kinyarwanda?"
+ Antwoord: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Vraag: "Hoe zeg je 'Three Geel Kip' in het Kinyarwanda?"
+ Antwoord: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Vraag: "Hoe zeg je 'Four Zwart Kat' in het Kinyarwanda?"
+ Antwoord: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Vraag: "Hoe zeg je 'Five Wit Koe' in het Kinyarwanda?"
+ Antwoord: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color Vraag (Phrases - safe een they zijn fixed expressions)
+ - id: 26
+ type: translation
+ Vraag: "Hoe vraag je 'What color is de apple?' in het Kinyarwanda?"
+ Antwoord: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Vraag: "Hoe vraag je 'What color is de sky?' in het Kinyarwanda?"
+ Antwoord: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Vraag: "Hoe vraag je 'is de Kat Zwart?' in het Kinyarwanda?"
+ Antwoord: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # nee DIRECT TRANSLATION voor FULL Zin of PARAGRAPHS
+ # Instead, we use Zin building, Koppel, en word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Vraag: "Wat betekent 'Umutuku' in deze zin?"
+ options:
+ - "Blauw"
+ - "Rood"
+ - "Groen"
+ - "Geel"
+ Antwoord: "Rood"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Vraag: "Wat betekent 'Ubururu' in deze zin?"
+ options:
+ - "Rood"
+ - "Blauw"
+ - "Zwart"
+ - "Wit"
+ Antwoord: "Blauw"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Vraag: "Wat betekent 'Icyatsi' in deze zin?"
+ options:
+ - "Groen"
+ - "Geel"
+ - "Oranje"
+ - "Rood"
+ Antwoord: "Groen"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Vraag: "Wat betekent 'Umuhondo' in deze zin?"
+ options:
+ - "Blauw"
+ - "Rood"
+ - "Geel"
+ - "Wit"
+ Antwoord: "Geel"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Vraag: "Wat betekent 'Umukara' in deze zin?"
+ options:
+ - "Wit"
+ - "Zwart"
+ - "Groen"
+ - "Oranje"
+ Antwoord: "Zwart"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Vraag: "Wat betekent 'Umweru' in deze zin?"
+ options:
+ - "Zwart"
+ - "Wit"
+ - "Rood"
+ - "Blauw"
+ Antwoord: "Wit"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Vraag: "Wat betekent 'Inyoni itukura' in deze zin?"
+ options:
+ - "Blauw Vogel"
+ - "Rood Vogel"
+ - "Groen Vogel"
+ - "Geel Vogel"
+ Antwoord: "Rood Vogel"
+ xp_reward: 15
+
+ # 3. Luister en Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_en_type
+ Vraag: "Luister en type de color"
+ tts_text: "Umutuku"
+ Antwoord: "Umutuku"
+ translation: "Rood"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_en_type
+ Vraag: "Luister en type de color"
+ tts_text: "Ubururu"
+ Antwoord: "Ubururu"
+ translation: "Blauw"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ tts_text: "Pome ni umutuku"
+ Antwoord: "Pome ni umutuku"
+ translation: "de apple is Rood"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ tts_text: "Ijuru ni ubururu"
+ Antwoord: "Ijuru ni ubururu"
+ translation: "de sky is Blauw"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ Antwoord: "Inyoni itukura iraguruka"
+ translation: "de Rood Vogel flies"
+ xp_reward: 25
+
+ # 4. Luister en Kies
+ - id: 41
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct color"
+ tts_text: "Umutuku"
+ options:
+ - "Rood"
+ - "Blauw"
+ - "Groen"
+ Antwoord: "Rood"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "Rood"
+ - "Geel"
+ - "Zwart"
+ Antwoord: "Geel"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "de apple is Rood"
+ - "de sky is Blauw"
+ - "de sun is Geel"
+ Antwoord: "de apple is Rood"
+ xp_reward: 20
+
+ # 5. Repeat / Praat Exercise
+ - id: 44
+ type: Praat
+ Vraag: "Say dit color"
+ prompt: "Umutuku"
+ translation: "Rood"
+ xp_reward: 15
+
+ - id: 45
+ type: Praat
+ Vraag: "Say dit color"
+ prompt: "Ubururu"
+ translation: "Blauw"
+ xp_reward: 15
+
+ - id: 46
+ type: Praat
+ Vraag: "Say dit phrase"
+ prompt: "Pome itukura"
+ translation: "Rood apple"
+ xp_reward: 18
+
+ - id: 47
+ type: Praat
+ Vraag: "Say dit Zin"
+ prompt: "Pome ni umutuku"
+ translation: "de apple is Rood"
+ xp_reward: 20
+
+ - id: 48
+ type: Praat
+ Vraag: "Say dit Zin"
+ prompt: "Ijuru ni ubururu"
+ translation: "de sky is Blauw"
+ xp_reward: 20
+
+ # 6. Word Bank Zin Building - PIECES PROVIDED, nee TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de apple is Rood'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de sky is Blauw'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ Vraag: "Build de Kinyarwanda phrase voor 'Rood Vogel'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Vraag: "Build de Kinyarwanda phrase voor 'Blauw Vis'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de Rood Vogel flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de Groen Kikker jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. Zin Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "de apple is Rood"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "de sky is Blauw"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "de Rood Vogel flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "de Groen Kikker jumps"
+ xp_reward: 25
+
+ # 8. Fill in de Blank - Kies FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "de apple is Rood"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "de sky is Blauw"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "de grass is Groen"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "de sun is Geel"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de phrase"
+ text_met_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "de Rood Vogel flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ Vraag: "What color is dit?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ Vraag: "What color is dit?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ Vraag: "What color is dit?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "Oranje", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ Vraag: "What color is dit?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Vraag: "What color is dit?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "Oranje"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Vraag: "What color is dit?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Vraag: "What color is dit?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Oranje", "Ubururu"]
+ correct_answer: "Oranje"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Vraag: "What color is dit apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "Oranje"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ Vraag: "What color is dit Vogel?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word Koppel (Pairing)
+ - id: 73
+ type: Koppel
+ Vraag: "Koppel de Kleuren"
+ pairs:
+ - Links: "Rood"
+ Rechts: "Umutuku"
+ - Links: "Blauw"
+ Rechts: "Ubururu"
+ - Links: "Groen"
+ Rechts: "Icyatsi"
+ - Links: "Geel"
+ Rechts: "Umuhondo"
+ - Links: "Zwart"
+ Rechts: "Umukara"
+ - Links: "Wit"
+ Rechts: "Umweru"
+ - Links: "Oranje"
+ Rechts: "Oranje"
+ xp_reward: 25
+
+ - id: 74
+ type: Koppel
+ Vraag: "Koppel de colored objects"
+ pairs:
+ - Links: "Rood apple"
+ Rechts: "Pome itukura"
+ - Links: "Blauw sky"
+ Rechts: "Ijuru ry'ubururu"
+ - Links: "Groen grass"
+ Rechts: "Ibyatsi by'icyatsi"
+ - Links: "Geel sun"
+ Rechts: "Izuba ry'umuhondo"
+ - Links: "Zwart Kat"
+ Rechts: "Injangwe y'umukara"
+ - Links: "Wit Koe"
+ Rechts: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: Koppel
+ Vraag: "Koppel de colored Dieren"
+ pairs:
+ - Links: "Rood Vogel"
+ Rechts: "Inyoni itukura"
+ - Links: "Groen Kikker"
+ Rechts: "Igikeri cy'icyatsi"
+ - Links: "Blauw Vis"
+ Rechts: "Ifi y'ubururu"
+ - Links: "Geel Kip"
+ Rechts: "Inkoko y'umuhondo"
+ - Links: "Zwart Konijn"
+ Rechts: "Urukwavu rw'umukara"
+ - Links: "Wit Geit"
+ Rechts: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. Kies Missing Word
+ - id: 80
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "de apple is Rood"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "de sky is Blauw"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "de Rood Vogel flies"
+ xp_reward: 18
+
+ # 12. Lees en Antwoord - Vraag in English, Antwoord based op Kinyarwanda text
+ - id: 83
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ Vraag: "What color is de apple?"
+ options: ["Rood", "Blauw", "Groen", "Geel"]
+ correct_answer: "Rood"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ Vraag: "Wat betekent de Rood Vogel do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ Vraag: "What color is de Koe?"
+ options: ["Zwart", "Wit", "Geel", "Rood"]
+ correct_answer: "Wit"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Pome ni umutuku."
+ translation: "de apple is Rood"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Ijuru ni icyatsi."
+ translation: "de sky is Groen"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Inka ni umweru."
+ translation: "de Koe is Wit"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "de Rood Vogel flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ Vraag: "Respond naar de Vraag by building een Zin"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is dit apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ Vraag: "Respond naar de Vraag"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is de sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ Vraag: "Respond naar de Vraag"
+ bot_message: "Injangwe ni umukara?"
+ translation: "is de Kat Zwart?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build Zin from pieces
+ - id: 93
+ type: story
+ title: "Kleuren in de Field"
+ story_intro: "Lees about de colorful Dieren. Then build de Zin."
+ story_segments:
+ - text: "There is een Rood Vogel in de sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: "de Vogel flies above."
+ - text: "There is een Groen Kikker near de Water."
+ - text: "de Kikker jumps."
+ - text: "There is een Blauw Vis in de Water."
+ - text: "de Vis swims."
+ exercises:
+ - type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de Rood Vogel flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de Groen Kikker jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de Blauw Vis swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ Vraag: "Say de color"
+ prompt: "Umutuku"
+ translation: "Rood"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ Vraag: "Say de color"
+ prompt: "Agasumbashyamba" # Giraffe - testing color knowledge in context
+ translation: "Giraffe (they zijn Geel en Bruin)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ Vraag: "Say de phrase"
+ prompt: "Pome itukura"
+ translation: "Rood apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ Vraag: "Wat betekent 'umutuku' mean in dit Zin?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["Rood", "Blauw", "Groen", "Geel"]
+ correct_answer: "Rood"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ Vraag: "Wat betekent 'itukura' mean in dit Zin?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["Rood", "Blauw", "Groen", "Geel"]
+ correct_answer: "Rood"
+ note: "itukura is de adjective form van umutuku when describing een noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ Vraag: "Wat betekent 'cy'icyatsi' mean in dit Zin?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["Rood", "Blauw", "Groen", "Geel"]
+ correct_answer: "Groen"
+ xp_reward: 18
+
+ # 18. Speed Koppel
+ - id: 100
+ type: speed_Koppel
+ title: "Koppel Madness: Kleuren"
+ time_limit_seconds: 45
+ pairs:
+ - Links: "Rood"
+ Rechts: "Umutuku"
+ - Links: "Blauw"
+ Rechts: "Ubururu"
+ - Links: "Groen"
+ Rechts: "Icyatsi"
+ - Links: "Geel"
+ Rechts: "Umuhondo"
+ - Links: "Zwart"
+ Rechts: "Umukara"
+ - Links: "Wit"
+ Rechts: "Umweru"
+ - Links: "Oranje"
+ Rechts: "Oranje"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: Kleuren"
+ time_limit_seconds: 30
+ Vraag_count: 5
+ Vraag:
+ - Vraag: "Rood"
+ Antwoord: "Umutuku"
+ - Vraag: "Blauw"
+ Antwoord: "Ubururu"
+ - Vraag: "Groen"
+ Antwoord: "Icyatsi"
+ - Vraag: "Geel"
+ Antwoord: "Umuhondo"
+ - Vraag: "Zwart"
+ Antwoord: "Umukara"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Vraag: "Flashcards"
+ Flashcards:
+ - front: "Umutuku"
+ back: "Rood"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "Blauw"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "Groen"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "Geel"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "Zwart"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "Wit"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Oranje"
+ back: "Oranje"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "Rood apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "Blauw sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "Groen grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

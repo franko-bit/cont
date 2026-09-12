@@ -1,0 +1,1223 @@
+lesson:
+  name: "Amabwiriza y'Ahantu"
+  description: "Learn direction words and phrases in French"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Direction Words
+  # Basic Directions
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'Ibumoso' mu igifaransa?"
+    answer: "Gauche"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'Iburyo' mu igifaransa?"
+    answer: "Droite"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'Uburyohe / Guhita imbere' mu igifaransa?"
+    answer: "Tout droit"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'Inyuma' mu igifaransa?"
+    answer: "Derrière"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'Imbere' mu igifaransa?"
+    answer: "Devant"
+    xp_reward: 10
+
+  # Cardinal Directions
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'Amajyaruguru' mu igifaransa?"
+    answer: "Nord"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'Amajyepfo' mu igifaransa?"
+    answer: "Sud"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'Uburasirazuba' mu igifaransa?"
+    answer: "Est"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'Uburengerazuba' mu igifaransa?"
+    answer: "Ouest"
+    xp_reward: 10
+
+  # Location Words
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'Hafi' mu igifaransa?"
+    answer: "Près"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'Hahandi / Kure' mu igifaransa?"
+    answer: "Loin"
+    xp_reward: 15
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'Hagarika / Ahantu hose' mu igifaransa?"
+    answer: "Autour"
+    xp_reward: 15
+
+  # Places and Features
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'Ahantu hahurira imihanda' mu igifaransa?"
+    answer: "Carrefour"
+    xp_reward: 18
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'Umuhanda' mu igifaransa?"
+    answer: "Rue"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'Inguni' mu igifaransa?"
+    answer: "Coin"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'Itara ry'umuhanda' mu igifaransa?"
+    answer: "Feu tricolore"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Ikimenyetso / Ikimenyetso cy'umuhanda' mu igifaransa?"
+    answer: "Panneau"
+    xp_reward: 18
+
+  # Direction Commands
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Hagarika ibumoso' mu igifaransa?"
+    answer: "Tournez à gauche"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Hagarika iburyo' mu igifaransa?"
+    answer: "Tournez à droite"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Komeza imbere' mu igifaransa?"
+    answer: "Allez tout droit"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Subira inyuma' mu igifaransa?"
+    answer: "Reculez"
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Kora umuhanda' mu igifaransa?"
+    answer: "Traversez la rue"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Hagarara ku itara ry'umuhanda' mu igifaransa?"
+    answer: "Arrêtez-vous au feu tricolore"
+    xp_reward: 18
+
+  # Location Sentences
+  - id: 24
+    type: translation
+    question: "Wavuga ute 'Banki iri imbere y'ishuri' mu igifaransa?"
+    answer: "La banque est devant l'école"
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "Wavuga ute 'Isoko riri hafi' mu igifaransa?"
+    answer: "Le marché est près"
+    xp_reward: 15
+
+  - id: 26
+    type: translation
+    question: "Wavuga ute 'Ibitaro biri kure' mu igifaransa?"
+    answer: "L'hôpital est loin"
+    xp_reward: 15
+
+  # 2. Multiple Choice
+  - id: 27
+    type: multiple_choice
+    question: "'Ibumoso' bisobanura iki mu igifaransa?"
+    options:
+      - "Droite"
+      - "Gauche"
+      - "Tout droit"
+      - "Devant"
+    answer: "Gauche"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Iburyo' bisobanura iki mu igifaransa?"
+    options:
+      - "Gauche"
+      - "Droite"
+      - "Derrière"
+      - "Nord"
+    answer: "Droite"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Imbere' bisobanura iki mu igifaransa?"
+    options:
+      - "Derrière"
+      - "Devant"
+      - "Près"
+      - "Loin"
+    answer: "Devant"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Inyuma' bisobanura iki mu igifaransa?"
+    options:
+      - "Devant"
+      - "Derrière"
+      - "Gauche"
+      - "Droite"
+    answer: "Derrière"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Amajyaruguru' bisobanura iki mu igifaransa?"
+    options:
+      - "Sud"
+      - "Nord"
+      - "Est"
+      - "Ouest"
+    answer: "Nord"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Hafi' bisobanura iki mu igifaransa?"
+    options:
+      - "Loin"
+      - "Près"
+      - "Autour"
+      - "Tout droit"
+    answer: "Près"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Umuhanda' bisobanura iki mu igifaransa?"
+    options:
+      - "Coin"
+      - "Rue"
+      - "Feu tricolore"
+      - "Panneau"
+    answer: "Rue"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "'Hagarika ibumoso' bisobanura iki mu igifaransa?"
+    options:
+      - "Tournez à droite"
+      - "Tournez à gauche"
+      - "Allez tout droit"
+      - "Reculez"
+    answer: "Tournez à gauche"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 35
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'amabwiriza mu igifaransa"
+    tts_text: "Ibumoso"
+    answer: "Gauche"
+    translation: "Ibumoso"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'amabwiriza mu igifaransa"
+    tts_text: "Iburyo"
+    answer: "Droite"
+    translation: "Iburyo"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'amabwiriza mu igifaransa"
+    tts_text: "Imbere"
+    answer: "Devant"
+    translation: "Imbere"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'amabwiriza mu igifaransa"
+    tts_text: "Inyuma"
+    answer: "Derrière"
+    translation: "Inyuma"
+    xp_reward: 20
+
+  - id: 39
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'amabwiriza mu igifaransa"
+    tts_text: "Hafi"
+    answer: "Près"
+    translation: "Hafi"
+    xp_reward: 20
+
+  - id: 40
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike itegeko mu igifaransa"
+    tts_text: "Hagarika ibumoso"
+    answer: "Tournez à gauche"
+    translation: "Hagarika ibumoso"
+    xp_reward: 22
+
+  - id: 41
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike itegeko mu igifaransa"
+    tts_text: "Komeza imbere"
+    answer: "Allez tout droit"
+    translation: "Komeza imbere"
+    xp_reward: 22
+
+  - id: 42
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Isoko riri hafi"
+    answer: "Le marché est près"
+    translation: "Isoko riri hafi"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 44
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amabwiriza akwiye mu igifaransa"
+    tts_text: "Ibumoso"
+    options:
+      - "Gauche"
+      - "Droite"
+      - "Tout droit"
+    answer: "Gauche"
+    xp_reward: 15
+
+  - id: 45
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amabwiriza akwiye mu igifaransa"
+    tts_text: "Iburyo"
+    options:
+      - "Gauche"
+      - "Droite"
+      - "Derrière"
+    answer: "Droite"
+    xp_reward: 15
+
+  - id: 46
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amabwiriza akwiye mu igifaransa"
+    tts_text: "Imbere"
+    options:
+      - "Derrière"
+      - "Devant"
+      - "Près"
+    answer: "Devant"
+    xp_reward: 15
+
+  - id: 47
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo itegeko rikwiye mu igifaransa"
+    tts_text: "Hagarika ibumoso"
+    options:
+      - "Tournez à droite"
+      - "Tournez à gauche"
+      - "Allez tout droit"
+    answer: "Tournez à gauche"
+    xp_reward: 18
+
+  - id: 48
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye mu igifaransa"
+    tts_text: "Isoko riri hafi"
+    options:
+      - "Le marché est loin"
+      - "Le marché est près"
+      - "Le marché est devant"
+    answer: "Le marché est près"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 49
+    type: speaking
+    question: "Vuga iri jambo ry'amabwiriza mu igifaransa"
+    prompt: "Ibumoso"
+    translation: "Gauche"
+    xp_reward: 15
+
+  - id: 50
+    type: speaking
+    question: "Vuga iri jambo ry'amabwiriza mu igifaransa"
+    prompt: "Iburyo"
+    translation: "Droite"
+    xp_reward: 15
+
+  - id: 51
+    type: speaking
+    question: "Vuga iri jambo ry'amabwiriza mu igifaransa"
+    prompt: "Imbere"
+    translation: "Devant"
+    xp_reward: 15
+
+  - id: 52
+    type: speaking
+    question: "Vuga iri jambo ry'amabwiriza mu igifaransa"
+    prompt: "Inyuma"
+    translation: "Derrière"
+    xp_reward: 15
+
+  - id: 53
+    type: speaking
+    question: "Vuga iri jambo ry'amabwiriza mu igifaransa"
+    prompt: "Hafi"
+    translation: "Près"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Vuga iri tegeko mu igifaransa"
+    prompt: "Hagarika ibumoso"
+    translation: "Tournez à gauche"
+    xp_reward: 18
+
+  - id: 55
+    type: speaking
+    question: "Vuga iri tegeko mu igifaransa"
+    prompt: "Komeza imbere"
+    translation: "Allez tout droit"
+    xp_reward: 18
+
+  - id: 56
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Isoko riri hafi"
+    translation: "Le marché est près"
+    xp_reward: 18
+
+  - id: 57
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Banki iri imbere y'ishuri"
+    translation: "La banque est devant l'école"
+    xp_reward: 22
+
+  # 6. Word Bank Sentence Building
+  - id: 58
+    type: word_bank
+    question: "Ubaka itegeko risobanura 'Hagarika ibumoso' mu igifaransa"
+    word_bank: ["Tournez", "à", "gauche", "droite", "allez", "tout", "droit"]
+    correct_answer: ["Tournez", "à", "gauche"]
+    xp_reward: 15
+
+  - id: 59
+    type: word_bank
+    question: "Ubaka itegeko risobanura 'Hagarika iburyo' mu igifaransa"
+    word_bank: ["Tournez", "à", "droite", "gauche", "allez", "tout", "droit"]
+    correct_answer: ["Tournez", "à", "droite"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Ubaka itegeko risobanura 'Komeza imbere' mu igifaransa"
+    word_bank: ["Allez", "tout", "droit", "tournez", "à", "gauche", "derrière"]
+    correct_answer: ["Allez", "tout", "droit"]
+    xp_reward: 15
+
+  - id: 61
+    type: word_bank
+    question: "Ubaka itegeko risobanura 'Subira inyuma' mu igifaransa"
+    word_bank: ["Reculez", "tournez", "à", "gauche", "allez", "tout", "droit"]
+    correct_answer: ["Reculez"]
+    xp_reward: 15
+
+  - id: 62
+    type: word_bank
+    question: "Ubaka interuro isobanura 'Banki iri imbere y'ishuri' mu igifaransa"
+    word_bank: ["La", "banque", "est", "devant", "l'", "école", "marché", "près"]
+    correct_answer: ["La", "banque", "est", "devant", "l'", "école"]
+    xp_reward: 22
+
+  - id: 63
+    type: word_bank
+    question: "Ubaka interuro isobanura 'Isoko riri hafi' mu igifaransa"
+    word_bank: ["Le", "marché", "est", "près", "hôpital", "loin"]
+    correct_answer: ["Le", "marché", "est", "près"]
+    xp_reward: 15
+
+  - id: 64
+    type: word_bank
+    question: "Ubaka interuro isobanura 'Ibitaro biri kure' mu igifaransa"
+    word_bank: ["L'", "hôpital", "est", "loin", "marché", "près"]
+    correct_answer: ["L'", "hôpital", "est", "loin"]
+    xp_reward: 15
+
+  - id: 65
+    type: word_bank
+    question: "Ubaka itegeko risobanura 'Kora umuhanda' mu igifaransa"
+    word_bank: ["Traversez", "la", "rue", "arrêtez", "feu", "tricolore"]
+    correct_answer: ["Traversez", "la", "rue"]
+    xp_reward: 15
+
+  - id: 66
+    type: word_bank
+    question: "Ubaka itegeko risobanura 'Hagarara ku itara ry'umuhanda' mu igifaransa"
+    word_bank: ["Arrêtez", "vous", "au", "feu", "tricolore", "traversez", "rue"]
+    correct_answer: ["Arrêtez", "vous", "au", "feu", "tricolore"]
+    xp_reward: 22
+
+  # 7. Sentence Scramble
+  - id: 67
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Hagarika ibumoso' mu igifaransa"
+    scrambled_words: ["gauche", "à", "Tournez"]
+    correct_sentence: "Tournez à gauche"
+    translation: "Hagarika ibumoso"
+    xp_reward: 15
+
+  - id: 68
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Hagarika iburyo' mu igifaransa"
+    scrambled_words: ["droite", "à", "Tournez"]
+    correct_sentence: "Tournez à droite"
+    translation: "Hagarika iburyo"
+    xp_reward: 15
+
+  - id: 69
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Komeza imbere' mu igifaransa"
+    scrambled_words: ["droit", "tout", "Allez"]
+    correct_sentence: "Allez tout droit"
+    translation: "Komeza imbere"
+    xp_reward: 15
+
+  - id: 70
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Subira inyuma' mu igifaransa"
+    scrambled_words: ["Reculez"]
+    correct_sentence: "Reculez"
+    translation: "Subira inyuma"
+    xp_reward: 15
+
+  - id: 71
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Banki iri imbere y'ishuri' mu igifaransa"
+    scrambled_words: ["La", "banque", "est", "devant", "l'", "école"]
+    correct_sentence: "La banque est devant l'école"
+    translation: "Banki iri imbere y'ishuri"
+    xp_reward: 22
+
+  - id: 72
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Isoko riri hafi' mu igifaransa"
+    scrambled_words: ["Le", "marché", "est", "près"]
+    correct_sentence: "Le marché est près"
+    translation: "Isoko riri hafi"
+    xp_reward: 15
+
+  - id: 73
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ibitaro biri kure' mu igifaransa"
+    scrambled_words: ["L'", "hôpital", "est", "loin"]
+    correct_sentence: "L'hôpital est loin"
+    translation: "Ibitaro biri kure"
+    xp_reward: 15
+
+  - id: 74
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Kora umuhanda' mu igifaransa"
+    scrambled_words: ["Traversez", "la", "rue"]
+    correct_sentence: "Traversez la rue"
+    translation: "Kora umuhanda"
+    xp_reward: 15
+
+  - id: 75
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Hagarara ku itara ry'umuhanda' mu igifaransa"
+    scrambled_words: ["Arrêtez", "vous", "au", "feu", "tricolore"]
+    correct_sentence: "Arrêtez-vous au feu tricolore"
+    translation: "Hagarara ku itara ry'umuhanda"
+    xp_reward: 22
+
+  # 8. Fill in the Blank
+  - id: 76
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza itegeko mu igifaransa"
+    text_with_blank: "Tournez ___."
+    options: ["à gauche", "à droite", "tout droit"]
+    correct_answer: "à gauche"
+    translation: "Hagarika ibumoso"
+    xp_reward: 12
+
+  - id: 77
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza itegeko mu igifaransa"
+    text_with_blank: "Tournez ___."
+    options: ["à droite", "à gauche", "tout droit"]
+    correct_answer: "à droite"
+    translation: "Hagarika iburyo"
+    xp_reward: 12
+
+  - id: 78
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza itegeko mu igifaransa"
+    text_with_blank: "Allez ___."
+    options: ["tout droit", "à gauche", "à droite"]
+    correct_answer: "tout droit"
+    translation: "Komeza imbere"
+    xp_reward: 12
+
+  - id: 79
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza itegeko mu igifaransa"
+    text_with_blank: "___."
+    options: ["Reculez", "Tournez", "Allez"]
+    correct_answer: "Reculez"
+    translation: "Subira inyuma"
+    xp_reward: 12
+
+  - id: 80
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Le marché est ___."
+    options: ["près", "loin", "devant"]
+    correct_answer: "près"
+    translation: "Isoko riri hafi"
+    xp_reward: 12
+
+  - id: 81
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "L'hôpital est ___."
+    options: ["loin", "près", "derrière"]
+    correct_answer: "loin"
+    translation: "Ibitaro biri kure"
+    xp_reward: 12
+
+  - id: 82
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "La banque est devant ___ l'école."
+    options: ["de", "à", "sur"]
+    correct_answer: "de"
+    translation: "Banki iri imbere y'ishuri"
+    xp_reward: 18
+
+  - id: 83
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza itegeko mu igifaransa"
+    text_with_blank: "Traversez la ___."
+    options: ["rue", "route", "ville"]
+    correct_answer: "rue"
+    translation: "Kora umuhanda"
+    xp_reward: 12
+
+  - id: 84
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza itegeko mu igifaransa"
+    text_with_blank: "Arrêtez-vous au feu ___."
+    options: ["tricolore", "rouge", "vert"]
+    correct_answer: "tricolore"
+    translation: "Hagarara ku itara ry'umuhanda"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 85
+    type: picture_word
+    question: "Iki kimenyetso kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?left-arrow"
+    options: ["Gauche", "Droite", "Tout droit"]
+    correct_answer: "Gauche"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Iki kimenyetso kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?right-arrow"
+    options: ["Gauche", "Droite", "Derrière"]
+    correct_answer: "Droite"
+    xp_reward: 10
+
+  - id: 87
+    type: picture_word
+    question: "Iki kimenyetso kigaragaza iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?straight-arrow"
+    options: ["Tout droit", "Derrière", "Gauche"]
+    correct_answer: "Tout droit"
+    xp_reward: 10
+
+  - id: 88
+    type: picture_word
+    question: "Iki ni iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?traffic-light"
+    options: ["Feu tricolore", "Rue", "Panneau"]
+    correct_answer: "Feu tricolore"
+    xp_reward: 12
+
+  - id: 89
+    type: picture_word
+    question: "Iki ni iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?street-corner"
+    options: ["Coin", "Rue", "Carrefour"]
+    correct_answer: "Coin"
+    xp_reward: 10
+
+  - id: 90
+    type: picture_word
+    question: "Iki ni iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?road-sign"
+    options: ["Panneau", "Feu", "Rue"]
+    correct_answer: "Panneau"
+    xp_reward: 10
+
+  - id: 91
+    type: picture_word
+    question: "Iki ni iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?intersection"
+    options: ["Carrefour", "Coin", "Rue"]
+    correct_answer: "Carrefour"
+    xp_reward: 15
+
+  - id: 92
+    type: picture_word
+    question: "Aha ni he mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?bank"
+    options: ["Banque", "Marché", "Hôpital"]
+    correct_answer: "Banque"
+    xp_reward: 10
+
+  - id: 93
+    type: picture_word
+    question: "Aha ni he mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?market"
+    options: ["Marché", "Banque", "Hôpital"]
+    correct_answer: "Marché"
+    xp_reward: 10
+
+  - id: 94
+    type: picture_word
+    question: "Aha ni he mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?hospital"
+    options: ["Hôpital", "Marché", "Banque"]
+    correct_answer: "Hôpital"
+    xp_reward: 10
+
+  # 10. Word Matching
+  - id: 95
+    type: matching
+    question: "Huza amabwiriza y'ibanze mu igifaransa"
+    pairs:
+      - left: "Gauche"
+        right: "Ibumoso"
+      - left: "Droite"
+        right: "Iburyo"
+      - left: "Tout droit"
+        right: "Uburyohe / Guhita imbere"
+      - left: "Devant"
+        right: "Imbere"
+      - left: "Derrière"
+        right: "Inyuma"
+    xp_reward: 20
+
+  - id: 96
+    type: matching
+    question: "Huza ibice by'isi mu igifaransa"
+    pairs:
+      - left: "Nord"
+        right: "Amajyaruguru"
+      - left: "Sud"
+        right: "Amajyepfo"
+      - left: "Est"
+        right: "Uburasirazuba"
+      - left: "Ouest"
+        right: "Uburengerazuba"
+    xp_reward: 18
+
+  - id: 97
+    type: matching
+    question: "Huza amagambo y'ahantu mu igifaransa"
+    pairs:
+      - left: "Près"
+        right: "Hafi"
+      - left: "Loin"
+        right: "Hahandi / Kure"
+      - left: "Autour"
+        right: "Hagarika / Ahantu hose"
+    xp_reward: 15
+
+  - id: 98
+    type: matching
+    question: "Huza amategeko mu igifaransa"
+    pairs:
+      - left: "Tournez à gauche"
+        right: "Hagarika ibumoso"
+      - left: "Tournez à droite"
+        right: "Hagarika iburyo"
+      - left: "Allez tout droit"
+        right: "Komeza imbere"
+      - left: "Reculez"
+        right: "Subira inyuma"
+      - left: "Traversez la rue"
+        right: "Kora umuhanda"
+      - left: "Arrêtez-vous au feu tricolore"
+        right: "Hagarara ku itara ry'umuhanda"
+    xp_reward: 25
+
+  - id: 99
+    type: matching
+    question: "Huza interuro mu igifaransa"
+    pairs:
+      - left: "La banque est devant l'école"
+        right: "Banki iri imbere y'ishuri"
+      - left: "Le marché est près"
+        right: "Isoko riri hafi"
+      - left: "L'hôpital est loin"
+        right: "Ibitaro biri kure"
+    xp_reward: 20
+
+  # 11. Choose Missing Word
+  - id: 100
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Tournez ___."
+    missing_word_position: 2
+    options: ["à gauche", "à droite", "tout droit"]
+    correct_answer: "à gauche"
+    translation: "Hagarika ibumoso"
+    xp_reward: 12
+
+  - id: 101
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Allez ___."
+    missing_word_position: 2
+    options: ["tout droit", "à gauche", "à droite"]
+    correct_answer: "tout droit"
+    translation: "Komeza imbere"
+    xp_reward: 12
+
+  - id: 102
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "___."
+    missing_word_position: 1
+    options: ["Reculez", "Tournez", "Allez"]
+    correct_answer: "Reculez"
+    translation: "Subira inyuma"
+    xp_reward: 12
+
+  - id: 103
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Le marché est ___."
+    missing_word_position: 4
+    options: ["près", "loin", "derrière"]
+    correct_answer: "près"
+    translation: "Isoko riri hafi"
+    xp_reward: 12
+
+  - id: 104
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "L'hôpital est ___."
+    missing_word_position: 4
+    options: ["loin", "près", "devant"]
+    correct_answer: "loin"
+    translation: "Ibitaro biri kure"
+    xp_reward: 12
+
+  - id: 105
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Arrêtez-vous au feu ___."
+    missing_word_position: 5
+    options: ["tricolore", "rouge", "vert"]
+    correct_answer: "tricolore"
+    translation: "Hagarara ku itara ry'umuhanda"
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 106
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Allez tout droit. Tournez à gauche."
+    question: "Ni irihe tegeko rya mbere?"
+    options: ["Tournez à gauche", "Allez tout droit", "Tournez à droite", "Reculez"]
+    correct_answer: "Allez tout droit"
+    xp_reward: 15
+
+  - id: 107
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "La banque est devant l'école. Le marché est près."
+    question: "Banki iri he?"
+    options: ["Près du marché", "Devant l'école", "Loin", "Derrière l'école"]
+    correct_answer: "Devant l'école"
+    xp_reward: 18
+
+  - id: 108
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Arrêtez-vous au feu tricolore. Traversez la rue."
+    question: "Wagombye gukora iki ku itara ry'umuhanda?"
+    options: ["Tournez à gauche", "Arrêtez-vous", "Allez tout droit", "Tournez à droite"]
+    correct_answer: "Arrêtez-vous"
+    xp_reward: 15
+
+  - id: 109
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "L'hôpital est loin. Le marché est près."
+    question: "Ibitaro biri hafi cyangwa kure?"
+    options: ["Près", "Loin", "Très proche", "Pas mentionné"]
+    correct_answer: "Loin"
+    xp_reward: 12
+
+  - id: 110
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Reculez. Tournez à droite."
+    question: "Ni irihe tegeko rya kabiri?"
+    options: ["Reculez", "Tournez à gauche", "Tournez à droite", "Allez tout droit"]
+    correct_answer: "Tournez à droite"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 111
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Ibumoso' means 'right'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 112
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Iburyo' means 'right'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Imbere' means 'front'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 114
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Hafi' means 'far'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Komeza imbere' means 'go straight'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 116
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Itara ry'umuhanda' means 'street sign'."
+    correct_answer: false
+    xp_reward: 12
+
+  # 14. Conversation Exercise
+  - id: 117
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe mu igifaransa"
+    bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+    translation: "I want to reach the market. What should I do?"
+    word_bank: ["Allez", "tout", "droit", "tournez", "à", "gauche", "reculez"]
+    correct_response: ["Allez", "tout", "droit"]
+    xp_reward: 18
+
+  - id: 118
+    type: conversation
+    question: "Subiza ikibazo mu igifaransa"
+    bot_message: "Banki iri he?"
+    translation: "Where is the bank?"
+    options:
+      - "Devant l'école"
+      - "Près du marché"
+      - "Loin"
+    correct_response: "Devant l'école"
+    xp_reward: 15
+
+  - id: 119
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe mu igifaransa"
+    bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+    translation: "I want to reach the hospital. What should I do?"
+    word_bank: ["Reculez", "tournez", "à", "droite", "allez", "tout", "droit"]
+    correct_response: ["Reculez"]
+    xp_reward: 18
+
+  - id: 120
+    type: conversation
+    question: "Subiza ikibazo mu igifaransa"
+    bot_message: "Isoko riri hafi?"
+    translation: "Is the market near?"
+    options:
+      - "Oui, il est près"
+      - "Non, il est loin"
+      - "Je ne sais pas"
+    correct_response: "Oui, il est près"
+    xp_reward: 12
+
+  # 15. Story Exercise
+  - id: 121
+    type: story
+    title: "Gushaka Isoko"
+    story_intro: "Soma inkuru yo gushaka isoko. Hanyuma ubake interuro mu igifaransa."
+    story_segments:
+      - text: "I want to go to the market."
+      - text: "Go straight."
+      - text: "Turn left at the traffic light."
+      - text: "The market is near."
+      - text: "The bank is in front of the school."
+    exercises:
+      - type: word_bank
+        question: "Ubaka 'Allez tout droit' mu igifaransa"
+        word_bank: ["Allez", "tout", "droit", "tournez", "à", "gauche"]
+        correct_answer: ["Allez", "tout", "droit"]
+      - type: word_bank
+        question: "Ubaka 'Tournez à gauche au feu tricolore' mu igifaransa"
+        word_bank: ["Tournez", "à", "gauche", "au", "feu", "tricolore"]
+        correct_answer: ["Tournez", "à", "gauche", "au", "feu", "tricolore"]
+      - type: word_bank
+        question: "Ubaka 'Le marché est près' mu igifaransa"
+        word_bank: ["Le", "marché", "est", "près", "hôpital", "loin"]
+        correct_answer: ["Le", "marché", "est", "près"]
+      - type: word_bank
+        question: "Ubaka 'La banque est devant l'école' mu igifaransa"
+        word_bank: ["La", "banque", "est", "devant", "l'", "école"]
+        correct_answer: ["La", "banque", "est", "devant", "l'", "école"]
+    xp_reward: 40
+
+  # 16. Pronunciation Check
+  - id: 122
+    type: pronunciation
+    question: "Vuga iri jambo ry'amabwiriza mu igifaransa neza"
+    prompt: "Ibumoso"
+    translation: "Gauche"
+    xp_reward: 15
+
+  - id: 123
+    type: pronunciation
+    question: "Vuga iri jambo ry'amabwiriza mu igifaransa neza"
+    prompt: "Iburyo"
+    translation: "Droite"
+    xp_reward: 15
+
+  - id: 124
+    type: pronunciation
+    question: "Vuga iri jambo ry'amabwiriza mu igifaransa neza"
+    prompt: "Imbere"
+    translation: "Devant"
+    xp_reward: 15
+
+  - id: 125
+    type: pronunciation
+    question: "Vuga iri jambo ry'amabwiriza mu igifaransa neza"
+    prompt: "Inyuma"
+    translation: "Derrière"
+    xp_reward: 15
+
+  - id: 126
+    type: pronunciation
+    question: "Vuga iri tegeko mu igifaransa neza"
+    prompt: "Hagarika ibumoso"
+    translation: "Tournez à gauche"
+    xp_reward: 18
+
+  - id: 127
+    type: pronunciation
+    question: "Vuga iri tegeko mu igifaransa neza"
+    prompt: "Komeza imbere"
+    translation: "Allez tout droit"
+    xp_reward: 18
+
+  - id: 128
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Isoko riri hafi"
+    translation: "Le marché est près"
+    xp_reward: 18
+
+  # 17. Identify Correct Meaning
+  - id: 129
+    type: identify_meaning
+    question: "'Hagarika' risobanura iki mu igifaransa muri iri tegeko?"
+    context_sentence: "Hagarika ibumoso."
+    word: "Hagarika"
+    options: ["Allez", "Tournez", "Arrêtez", "Traversez"]
+    correct_answer: "Tournez"
+    xp_reward: 15
+
+  - id: 130
+    type: identify_meaning
+    question: "'Komeza' risobanura iki mu igifaransa muri iri tegeko?"
+    context_sentence: "Komeza imbere."
+    word: "Komeza"
+    options: ["Tournez", "Arrêtez", "Continuez / Allez", "Traversez"]
+    correct_answer: "Continuez / Allez"
+    xp_reward: 15
+
+  - id: 131
+    type: identify_meaning
+    question: "'Hafi' risobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Isoko riri hafi."
+    word: "hafi"
+    options: ["loin", "près", "derrière", "devant"]
+    correct_answer: "près"
+    xp_reward: 12
+
+  - id: 132
+    type: identify_meaning
+    question: "'Kure' risobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Ibitaro biri kure."
+    word: "kure"
+    options: ["près", "loin", "gauche", "droite"]
+    correct_answer: "loin"
+    xp_reward: 12
+
+  - id: 133
+    type: identify_meaning
+    question: "'Imbere y''' risobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Banki iri imbere y'ishuri."
+    word: "imbere y'"
+    options: ["derrière", "devant", "à côté de", "loin de"]
+    correct_answer: "devant"
+    xp_reward: 15
+
+  # 18. Speed Matching
+  - id: 134
+    type: speed_matching
+    title: "Huza Byihuse: Amabwiriza"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Gauche"
+        right: "Ibumoso"
+      - left: "Droite"
+        right: "Iburyo"
+      - left: "Tout droit"
+        right: "Imbere"
+      - left: "Derrière"
+        right: "Inyuma"
+      - left: "Nord"
+        right: "Amajyaruguru"
+      - left: "Sud"
+        right: "Amajyepfo"
+      - left: "Est"
+        right: "Uburasirazuba"
+      - left: "Ouest"
+        right: "Uburengerazuba"
+      - left: "Près"
+        right: "Hafi"
+      - left: "Loin"
+        right: "Kure"
+      - left: "Tournez à gauche"
+        right: "Hagarika ibumoso"
+      - left: "Tournez à droite"
+        right: "Hagarika iburyo"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 135
+    type: timed_challenge
+    title: "Kubahuka: Amabwiriza"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Ibumoso"
+        answer: "Gauche"
+      - question: "Iburyo"
+        answer: "Droite"
+      - question: "Imbere"
+        answer: "Tout droit"
+      - question: "Inyuma"
+        answer: "Derrière"
+      - question: "Hafi"
+        answer: "Près"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Gauche"
+      back: "Ibumoso"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Droite"
+      back: "Iburyo"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Tout droit"
+      back: "Uburyohe / Guhita imbere"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Derrière"
+      back: "Inyuma"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Devant"
+      back: "Imbere"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Nord"
+      back: "Amajyaruguru"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Sud"
+      back: "Amajyepfo"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Est"
+      back: "Uburasirazuba"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Ouest"
+      back: "Uburengerazuba"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Près"
+      back: "Hafi"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

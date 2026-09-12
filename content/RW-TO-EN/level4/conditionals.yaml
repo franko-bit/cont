@@ -4,7 +4,6 @@ lesson:
   xp_reward: 500
 
 exercises:
-
   # 1. Translation Exercises - Basic Vocabulary ONLY (Safe for single words/phrases)
   # Basic Conditional Words
   - id: 1
@@ -556,7 +555,7 @@ exercises:
   - id: 71
     type: picture_word
     question: "Iki ni iki?"
-    image_url: "https://source.unsplash.com/featured/?rain"
+    image_url: "https://images.unsplash.com/photo-1534274988757-a28bf1ab57c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Rain", "Sun", "Wind"]
     correct_answer: "Rain"
     xp_reward: 10
@@ -564,7 +563,7 @@ exercises:
   - id: 72
     type: picture_word
     question: "Iki ni iki?"
-    image_url: "https://source.unsplash.com/featured/?studying"
+    image_url: "https://images.unsplash.com/photo-1549887534-7b0a0d80be9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Studying", "Working", "Eating"]
     correct_answer: "Studying"
     xp_reward: 10
@@ -572,7 +571,7 @@ exercises:
   - id: 73
     type: picture_word
     question: "Iki ni iki?"
-    image_url: "https://source.unsplash.com/featured/?money"
+    image_url: "https://images.unsplash.com/photo-1556740714-a8395b3bf30f?ixid=M3w5NzA5MzJ8MXwxfHNlYXJjaHwxfHxtb25leXxlbnwwfDB8fHwxNzgwNzcwODM1fDA&ixlib=rb-4.1.0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=600&h=400&fit=crop"
     options: ["Money", "Book", "House"]
     correct_answer: "Money"
     xp_reward: 10
@@ -580,7 +579,7 @@ exercises:
   - id: 74
     type: picture_word
     question: "Iki ni iki?"
-    image_url: "https://source.unsplash.com/featured/?car"
+    image_url: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Car", "Bus", "Bicycle"]
     correct_answer: "Car"
     xp_reward: 10
@@ -588,7 +587,7 @@ exercises:
   - id: 75
     type: picture_word
     question: "Iki ni iki?"
-    image_url: "https://source.unsplash.com/featured/?helping"
+    image_url: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Helping", "Crying", "Laughing"]
     correct_answer: "Helping"
     xp_reward: 10
@@ -596,7 +595,7 @@ exercises:
   - id: 76
     type: picture_word
     question: "Iki ni iki?"
-    image_url: "https://source.unsplash.com/featured/?bus"
+    image_url: "https://images.unsplash.com/photo-1570125477492-45c003467e1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Bus", "Car", "Plane"]
     correct_answer: "Bus"
     xp_reward: 10
@@ -660,7 +659,7 @@ exercises:
         right: "I will visit my friend"
     xp_reward: 25
 
-  # 12. Choose Missing Word
+  # 11. Choose Missing Word
   - id: 80
     type: choose_missing
     question: "Hitamo ijambo ribuze"
@@ -711,7 +710,7 @@ exercises:
     translation: "Niba bishoboka, nzaza ejo"
     xp_reward: 15
 
-  # 13. Read and Answer
+  # 12. Read and Answer
   - id: 85
     type: read_answer
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
@@ -757,7 +756,7 @@ exercises:
     correct_answer: "Tomorrow"
     xp_reward: 15
 
-  # 14. True / False
+  # 13. True / False
   - id: 90
     type: true_false
     question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
@@ -793,7 +792,7 @@ exercises:
     correct_answer: false
     xp_reward: 10
 
-  # 15. Conversation Exercise
+  # 14. Conversation Exercise
   - id: 95
     type: conversation
     question: "Subiza ikibazo ukoresheje amagambo atanzwe"
@@ -836,7 +835,7 @@ exercises:
     correct_response: "Yes, I will come tomorrow"
     xp_reward: 15
 
-  # 16. Story Exercise
+  # 15. Story Exercise
   - id: 99
     type: story
     title: "Imigambi n'Imyitwarire"
@@ -847,30 +846,7 @@ exercises:
       - text: "If he comes, we will start the meeting."
       - text: "If I had money, I would buy a car."
       - text: "If it is possible, I will come tomorrow."
-    exercises:
-      - type: word_bank
-        question: "Ubaka 'If it rains, I will stay home'"
-        word_bank: ["If", "it", "rains", "I", "will", "stay", "home", "go", "out"]
-        correct_answer: ["If", "it", "rains", "I", "will", "stay", "home"]
-      - type: word_bank
-        question: "Ubaka 'If you study, you will succeed'"
-        word_bank: ["If", "you", "study", "you", "will", "succeed", "fail"]
-        correct_answer: ["If", "you", "study", "you", "will", "succeed"]
-      - type: word_bank
-        question: "Ubaka 'If he comes, we will start the meeting'"
-        word_bank: ["If", "he", "comes", "we", "will", "start", "the", "meeting", "class"]
-        correct_answer: ["If", "he", "comes", "we", "will", "start", "the", "meeting"]
-      - type: word_bank
-        question: "Ubaka 'If I had money, I would buy a car'"
-        word_bank: ["If", "I", "had", "money", "I", "would", "buy", "a", "car", "house"]
-        correct_answer: ["If", "I", "had", "money", "I", "would", "buy", "a", "car"]
-      - type: word_bank
-        question: "Ubaka 'If it is possible, I will come tomorrow'"
-        word_bank: ["If", "it", "is", "possible", "I", "will", "come", "tomorrow", "today"]
-        correct_answer: ["If", "it", "is", "possible", "I", "will", "come", "tomorrow"]
-    xp_reward: 45
-
-  # 17. Pronunciation Check
+  # 16. Pronunciation Check
   - id: 100
     type: pronunciation
     question: "Vuga iri jambo mu Cyongereza neza"
@@ -906,7 +882,7 @@ exercises:
     translation: "If it is possible, I will come tomorrow"
     xp_reward: 18
 
-  # 18. Identify Correct Meaning
+  # 17. Identify Correct Meaning
   - id: 105
     type: identify_meaning
     question: "'Niba' bisobanura iki muri iyi nteruro?"
@@ -943,7 +919,7 @@ exercises:
     correct_answer: "it is possible"
     xp_reward: 15
 
-  # 19. Speed Matching
+  # 18. Speed Matching
   - id: 109
     type: speed_matching
     title: "Huza Byihuse: Imyitwarire"
@@ -969,7 +945,7 @@ exercises:
         right: "Nyuma y'uko"
     xp_reward: 30
 
-  # 20. Timed Challenges
+  # 19. Timed Challenges
   - id: 110
     type: timed_challenge
     title: "Kubahuka: Imyitwarire"
@@ -988,217 +964,40 @@ exercises:
         answer: "Never"
     xp_reward: 35
 
-  # 21. Character Writing
+# Flashcards
   - id: 111
-    type: character_writing
-    question: "Yandika iri jambo mu Cyongereza"
-    prompt: "Niba"
-    translation: "If"
-    xp_reward: 15
-
-  - id: 112
-    type: character_writing
-    question: "Yandika iri jambo mu Cyongereza"
-    prompt: "Birashoboka"
-    translation: "Possible"
-    xp_reward: 15
-
-  - id: 113
-    type: character_writing
-    question: "Yandika iyi nteruro mu Cyongereza"
-    prompt: "Niba imvura iguye"
-    translation: "If it rains"
-    xp_reward: 18
-
-  # 22. Spaced Repetition Review
-  - id: 114
-    type: review
-    title: "Isubiramo: Imyitwarire"
-    exercises:
-      - type: translation
-        question: "Niba"
-        answer: "If"
-      - type: multiple_choice
-        question: "Birashoboka"
-        options: ["Impossible", "Possible", "Always"]
-        answer: "Possible"
-      - type: fill_blank
-        question: "If it rains, I will ___ home."
-        text_with_blank: "If it rains, I will ___ home."
-        options: ["stay", "go", "leave"]
-        correct_answer: "stay"
-      - type: sentence_scramble
-        question: "Tondeka: If you study, you will succeed"
-        scrambled_words: ["you", "succeed", "will", "study", "If", "you"]
-        correct_sentence: "If you study, you will succeed"
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "If"
+      back: "Niba"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "When"
+      back: "Iyo"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Unless"
+      back: "Keretse"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Then"
+      back: "Hanyuma"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Might"
+      back: "Ashobora"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Will"
+      back: "Azakora"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Would"
+      back: "Byaba"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Could"
+      back: "Bashobora"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Should"
+      back: "Bikwiye"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Can"
+      back: "Ashobora"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
     xp_reward: 30
 
-  # 23. Listening Comprehension
-  - id: 115
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "Niba"
-    options:
-      - "When"
-      - "If"
-      - "Then"
-    correct_answer: "If"
-    xp_reward: 15
-
-  - id: 116
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "Birashoboka"
-    options:
-      - "Impossible"
-      - "Possible"
-      - "Always"
-    correct_answer: "Possible"
-    xp_reward: 15
-
-  - id: 117
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "Buri gihe"
-    options:
-      - "Never"
-      - "Always"
-      - "Sometimes"
-    correct_answer: "Always"
-    xp_reward: 15
-
-  - id: 118
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "Nta na rimwe"
-    options:
-      - "Always"
-      - "Never"
-      - "Sometimes"
-    correct_answer: "Never"
-    xp_reward: 15
-
-  # 24. Grammar Selection
-  - id: 119
-    type: grammar
-    question: "Hitamo ijambo rikwiye risobanura 'if'"
-    options: ["If", "When", "Then"]
-    correct_answer: "If"
-    explanation: "'Niba' means 'if' in conditional sentences"
-    xp_reward: 15
-
-  - id: 120
-    type: grammar
-    question: "Hitamo ijambo rikwiye risobanura 'when'"
-    options: ["If", "When", "Then"]
-    correct_answer: "When"
-    explanation: "'Iyo' means 'when'"
-    xp_reward: 15
-
-  - id: 121
-    type: grammar
-    question: "Hitamo inshinga ikwiye y'igihe kizaza isobanura 'I will stay'"
-    options: ["I will stay", "I stay", "I stayed"]
-    correct_answer: "I will stay"
-    explanation: "The future tense uses 'will' + verb: 'I will stay'"
-    xp_reward: 15
-
-  - id: 122
-    type: grammar
-    question: "Hitamo ijambo rikwiye risobanura 'possible'"
-    options: ["Possible", "Impossible", "Always"]
-    correct_answer: "Possible"
-    explanation: "'Birashoboka' means 'it is possible'"
-    xp_reward: 12
-
-  # 25. Error Correction
-  - id: 123
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "When it rains, I will stay home."
-    translation: "Iyo imvura iguye, nzaguma mu rugo (ariko ugomba gukoresha 'if')"
-    word_bank_for_fix: ["If", "it", "rains", "I", "will", "stay", "home"]
-    correct_sentence: "If it rains, I will stay home."
-    explanation: "Use 'if' for conditions, not 'when'."
-    xp_reward: 18
-
-  - id: 124
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "If you study, you will miss."
-    translation: "Niba wiga, uzacika (ariko ugomba kuvuga gutsinda)"
-    word_bank_for_fix: ["If", "you", "study", "you", "will", "succeed", "miss"]
-    correct_sentence: "If you study, you will succeed."
-    explanation: "Studying leads to success (succeed), not missing (miss)."
-    xp_reward: 18
-
-  - id: 125
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "If it is possible, I will come at night."
-    translation: "Niba bishoboka, nzaza ijoro (ariko ugomba kuvuga ejo)"
-    word_bank_for_fix: ["If", "it", "is", "possible", "I", "will", "come", "tomorrow", "at night"]
-    correct_sentence: "If it is possible, I will come tomorrow."
-    explanation: "The sentence should say 'tomorrow' (ejo), not 'at night' (ijoro)."
-    xp_reward: 15
-
-  # Flashcards
-  - id: 126
-    type: flashcards
-    question: "Iyi ni modero y'amafishi y'imyitwarire"
-    flashcards:
-      - front: "Niba"
-        back: "If"
-        image: "https://source.unsplash.com/featured/?question"
-      - front: "Iyo"
-        back: "When"
-        image: "https://source.unsplash.com/featured/?clock"
-      - front: "Hanyuma"
-        back: "Then"
-        image: "https://source.unsplash.com/featured/?next"
-      - front: "Birashoboka"
-        back: "Possible"
-        image: "https://source.unsplash.com/featured/?possible"
-      - front: "Ntibishoboka"
-        back: "Impossible"
-        image: "https://source.unsplash.com/featured/?impossible"
-      - front: "Buri gihe"
-        back: "Always"
-        image: "https://source.unsplash.com/featured/?always"
-      - front: "Nta na rimwe"
-        back: "Never"
-        image: "https://source.unsplash.com/featured/?never"
-      - front: "Mbere y'uko"
-        back: "Before"
-        image: "https://source.unsplash.com/featured/?before"
-      - front: "Nyuma y'uko"
-        back: "After"
-        image: "https://source.unsplash.com/featured/?after"
-      - front: "Imvura"
-        back: "Rain"
-        image: "https://source.unsplash.com/featured/?rain"
-      - front: "Kwiga"
-        back: "Study"
-        image: "https://source.unsplash.com/featured/?study"
-      - front: "Gutsinda"
-        back: "Succeed"
-        image: "https://source.unsplash.com/featured/?success"
-      - front: "Amafaranga"
-        back: "Money"
-        image: "https://source.unsplash.com/featured/?money"
-      - front: "Imodoka"
-        back: "Car"
-        image: "https://source.unsplash.com/featured/?car"
-      - front: "Bisi"
-        back: "Bus"
-        image: "https://source.unsplash.com/featured/?bus"
-      - front: "Niba imvura iguye, nzaguma mu rugo"
-        back: "If it rains, I will stay home"
-        image: "https://source.unsplash.com/featured/?rain-home"
-      - front: "Niba wiga, uzatsinda"
-        back: "If you study, you will succeed"
-        image: "https://source.unsplash.com/featured/?study-success"
-      - front: "Niba bishoboka, nzaza ejo"
-        back: "If it is possible, I will come tomorrow"
-        image: "https://source.unsplash.com/featured/?tomorrow"
-    xp_reward: 45

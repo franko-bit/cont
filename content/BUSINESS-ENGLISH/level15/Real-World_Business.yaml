@@ -1,0 +1,1461 @@
+lesson:
+  name: "Real-World Business Scenarios"
+  description: "Master professional English for real-world business situations including job interviews, team meetings, client meetings, investor pitches, sales calls, customer complaints, and networking events"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: JOB INTERVIEWS (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-7)
+  - id: 1
+    type: multiple_choice
+    question: "How should you answer 'Tell me about yourself' in a job interview?"
+    options:
+      - "Recite your entire life story from birth"
+      - "Give a brief professional summary: past experience, current role, why this opportunity interests you"
+      - "Just say your name and where you went to school"
+      - "Ask what they want to know"
+    answer: "Give a brief professional summary: past experience, current role, why this opportunity interests you"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What is the STAR method used for?"
+    options:
+      - "Navigating by stars"
+      - "Answering behavioral interview questions: Situation, Task, Action, Result"
+      - "Writing cover letters"
+      - "Negotiating salary"
+    answer: "Answering behavioral interview questions: Situation, Task, Action, Result"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "What should you say when asked 'What is your greatest weakness?'"
+    options:
+      - "I have no weaknesses"
+      - "I work too hard"
+      - "A genuine weakness with specific steps you're taking to improve"
+      - "I'm perfect at everything"
+    answer: "A genuine weakness with specific steps you're taking to improve"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What questions should you ask at the end of an interview?"
+    options:
+      - "What time do I start?"
+      - "How much vacation time do I get?"
+      - "What does success look like in this role? What are the biggest challenges facing the team?"
+      - "Can you drive me home?"
+    answer: "What does success look like in this role? What are the biggest challenges facing the team?"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "How soon after an interview should you send a thank-you note?"
+    options:
+      - "One month later"
+      - "Within 24 hours"
+      - "Before the interview ends"
+      - "Only if you get the job"
+    answer: "Within 24 hours"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What should you wear to a professional job interview?"
+    options:
+      - "Casual clothes"
+      - "Business professional or business casual appropriate to company culture"
+      - "Sportswear"
+      - "Costume"
+    answer: "Business professional or business casual appropriate to company culture"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "How should you handle a question about your salary expectations?"
+    options:
+      - "Give an exact number immediately"
+      - "Say 'I'm flexible' and let them offer first"
+      - "Provide a research-based range and ask about total compensation package"
+      - "Refuse to answer"
+    answer: "Provide a research-based range and ask about total compensation package"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (8-12)
+  - id: 8
+    type: fill_blank
+    question: "Complete the STAR method step"
+    text_with_blank: "The S in STAR stands for ___ - describe the context of your example."
+    options: ["Situation", "Scenario", "Setting", "Context"]
+    correct_answer: "Situation"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the weakness statement"
+    text_with_blank: "One area I'm actively developing is my public speaking. I've been ___ Toastmasters for the past six months."
+    options: ["attending", "joining", "participating in", "taking"]
+    correct_answer: "attending"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the thank-you email opening"
+    text_with_blank: "Thank you for ___ the time to meet with me today. I really enjoyed learning about the team and the role."
+    options: ["taking", "spending", "finding", "making"]
+    correct_answer: "taking"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the follow-up phrase"
+    text_with_blank: "I wanted to ___ my interest in the position and reiterate how my skills align with your needs."
+    options: ["reiterate", "restate", "reaffirm", "confirm"]
+    correct_answer: "reiterate"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the closing statement"
+    text_with_blank: "I look forward to ___ from you regarding the next steps in the process."
+    options: ["hearing", "receiving", "getting", "seeing"]
+    correct_answer: "hearing"
+    xp_reward: 15
+
+  # TRUE / FALSE (13-15)
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? You should arrive 5-10 minutes early for an interview to show punctuality."
+    statement: "You should arrive 5-10 minutes early for an interview to show punctuality."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 14
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to check your phone during an interview."
+    statement: "It is acceptable to check your phone during an interview."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? Researching the company before an interview is essential."
+    statement: "Researching the company before an interview is essential."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (16-18)
+  - id: 16
+    type: matching
+    question: "Match the interview question with what it assesses"
+    pairs:
+      - left: "Why do you want to work here?"
+        right: "Your research and motivation"
+      - left: "Describe a time you failed"
+        right: "Self-awareness and learning ability"
+      - left: "Where do you see yourself in 5 years?"
+        right: "Ambition and career alignment"
+      - left: "Why should we hire you?"
+        right: "Your value proposition"
+      - left: "Describe a conflict you resolved"
+        right: "Interpersonal skills"
+    xp_reward: 25
+
+  - id: 17
+    type: matching
+    question: "Match the interview type with its format"
+    pairs:
+      - left: "Phone screen"
+        right: "Initial filter, 15-30 minutes"
+      - left: "Video interview"
+        right: "Remote via Zoom/Teams"
+      - left: "Panel interview"
+        right: "Multiple interviewers at once"
+      - left: "Case interview"
+        right: "Solving a business problem"
+      - left: "Technical interview"
+        right: "Testing job-specific skills"
+    xp_reward: 25
+
+  - id: 18
+    type: matching
+    question: "Match the red flag with what it signals"
+    pairs:
+      - left: "Arriving late"
+        right: "Poor time management"
+      - left: "Speaking negatively about previous employer"
+        right: "Unprofessionalism"
+      - left: "No questions for interviewer"
+        right: "Lack of interest"
+      - left: "Phone ringing during interview"
+        right: "Lack of preparation"
+      - left: "Vague answers"
+        right: "Lack of substance"
+    xp_reward: 25
+
+  # FLASHCARDS (19-20)
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Interview Questions to Ask"
+    flashcards:
+      - front: "What does a typical day look like in this role?"
+        right: "Understand daily responsibilities"
+      - front: "What are the biggest challenges facing the team?"
+        right: "Show strategic thinking"
+      - front: "How do you measure success in this position?"
+        right: "Understand expectations"
+      - front: "What is the company culture like?"
+        right: "Assess fit"
+      - front: "What are the next steps in the process?"
+        right: "Show organization"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Post-Interview Follow-up"
+    flashcards:
+      - front: "Send within 24 hours"
+        right: "Timing for thank-you email"
+      - front: "Reference a specific discussion point"
+        right: "Personalize the note"
+      - front: "Reiterate your interest"
+        right: "Show enthusiasm"
+      - front: "Briefly restate your value"
+        right: "Remind them of your fit"
+      - front: "Proofread carefully"
+        right: "Errors undermine professionalism"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: TEAM MEETINGS (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-28)
+  - id: 21
+    type: multiple_choice
+    question: "What should you do before a team meeting?"
+    options:
+      - "Show up without preparation"
+      - "Review the agenda, prepare updates, and gather necessary materials"
+      - "Skip the meeting"
+      - "Arrive late"
+    answer: "Review the agenda, prepare updates, and gather necessary materials"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "How should you share your status update in a team meeting?"
+    options:
+      - "Read every detail of your work"
+      - "Be concise: what you accomplished, what you're working on, and any blockers"
+      - "Say nothing"
+      - "Talk for 20 minutes"
+    answer: "Be concise: what you accomplished, what you're working on, and any blockers"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What should you say when you need to disagree with a colleague in a meeting?"
+    options:
+      - "You're wrong"
+      - "That's a terrible idea"
+      - "I see your point, but I have a different perspective. Here's why..."
+      - "I disagree with everything you said"
+    answer: "I see your point, but I have a different perspective. Here's why..."
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "How should you volunteer for a task in a team meeting?"
+    options:
+      - "Stay silent and hope someone else does it"
+      - "I can take that on. I'll have it done by Friday."
+      - "Someone should do that"
+      - "That's not my job"
+    answer: "I can take that on. I'll have it done by Friday."
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "How should you respond when you don't know the answer to a question in a meeting?"
+    options:
+      - "Make something up"
+      - "Say 'I don't know' and stop talking"
+      - "That's a great question. I don't have that information right now, but I'll find out and follow up."
+      - "Ask someone else to answer"
+    answer: "That's a great question. I don't have that information right now, but I'll find out and follow up."
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What is the best way to politely interrupt in a team meeting?"
+    options:
+      - "Just start talking loudly"
+      - "Excuse me, may I add something to that point?"
+      - "Shout over everyone"
+      - "Wave your arms wildly"
+    answer: "Excuse me, may I add something to that point?"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "How should you end your contribution in a team meeting?"
+    options:
+      - "Just stop talking"
+      - "That's all I have. Over to you, [Name]."
+      - "I'm done"
+      - "Someone else talk now"
+    answer: "That's all I have. Over to you, [Name]."
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "What should you do after a team meeting?"
+    options:
+      - "Forget everything discussed"
+      - "Review action items, complete assigned tasks, and follow up as needed"
+      - "Complain about the meeting"
+      - "Do nothing until the next meeting"
+    answer: "Review action items, complete assigned tasks, and follow up as needed"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (29-33)
+  - id: 29
+    type: fill_blank
+    question: "Complete the status update phrase"
+    text_with_blank: "Here's my quick ___. Last week I completed the market analysis. This week I'm working on the presentation. No blockers at the moment."
+    options: ["update", "status", "report", "summary"]
+    correct_answer: "update"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the blocker notification"
+    text_with_blank: "I've hit a ___ on the Johnson project. I'm waiting for approval from legal before I can proceed."
+    options: ["blocker", "roadblock", "obstacle", "issue"]
+    correct_answer: "blocker"
+    xp_reward: 15
+
+  - id: 31
+    type: fill_blank
+    question: "Complete the agreement phrase"
+    text_with_blank: "I completely ___ with Sarah's recommendation. That aligns with what we discussed last week."
+    options: ["agree", "concur", "align", "share"]
+    correct_answer: "agree"
+    xp_reward: 15
+
+  - id: 32
+    type: fill_blank
+    question: "Complete the action item commitment"
+    text_with_blank: "I'll ___ the report and have a draft ready by Wednesday COB."
+    options: ["draft", "write", "prepare", "complete"]
+    correct_answer: "draft"
+    xp_reward: 15
+
+  - id: 33
+    type: fill_blank
+    question: "Complete the meeting wrap-up phrase"
+    text_with_blank: "Let me ___ our action items: David will update the budget, Sarah will reach out to the client, and I'll schedule the follow-up."
+    options: ["recap", "summarize", "review", "repeat"]
+    correct_answer: "recap"
+    xp_reward: 15
+
+  # TRUE / FALSE (34-36)
+  - id: 34
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to multitask (check email) during a team meeting."
+    statement: "It is acceptable to multitask (check email) during a team meeting."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 35
+    type: true_false
+    question: "Is this statement true or false? You should speak up if you have a concern about a decision being made."
+    statement: "You should speak up if you have a concern about a decision being made."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 36
+    type: true_false
+    question: "Is this statement true or false? Meetings should start on time, even if some participants are late."
+    statement: "Meetings should start on time, even if some participants are late."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (37-38)
+  - id: 37
+    type: matching
+    question: "Match the meeting phrase with its purpose"
+    pairs:
+      - left: "Can we circle back to that?"
+        right: "Return to a previous topic"
+      - left: "Let's park that for now"
+        right: "Set aside for later discussion"
+      - left: "Could you elaborate on that?"
+        right: "Request more detail"
+      - left: "Let me play devil's advocate"
+        right: "Challenge an idea constructively"
+      - left: "To build on what [Name] said"
+        right: "Add to someone's point"
+    xp_reward: 25
+
+  - id: 38
+    type: matching
+    question: "Match the meeting role with the responsibility"
+    pairs:
+      - left: "Facilitator"
+        right: "Leads discussion and keeps on track"
+      - left: "Timekeeper"
+        right: "Monitors agenda timing"
+      - left: "Note-taker"
+        right: "Records decisions and action items"
+      - left: "Participant"
+        right: "Contributes and engages"
+      - left: "Decision-maker"
+        right: "Makes final call when needed"
+    xp_reward: 25
+
+  # FLASHCARDS (39-40)
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Meeting Etiquette"
+    flashcards:
+      - front: "Come prepared"
+        right: "Review agenda beforehand"
+      - front: "Be on time"
+        right: "Respect everyone's schedule"
+      - front: "Participate actively"
+        right: "Share updates and ideas"
+      - front: "Listen to others"
+        right: "Don't interrupt"
+      - front: "Stay on topic"
+        right: "Avoid tangents"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Virtual Meeting Phrases"
+    flashcards:
+      - front: "You're on mute"
+        right: "Reminder to unmute"
+      - front: "Can everyone see my screen?"
+        right: "Before screen sharing"
+      - front: "I think [Name] is trying to speak"
+        right: "Help with turn-taking"
+      - front: "I'll type that in the chat"
+        right: "Share information"
+      - front: "Let me stop sharing"
+        right: "End screen share"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: CLIENT MEETINGS (41-60)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-48)
+  - id: 41
+    type: multiple_choice
+    question: "How should you open a client meeting?"
+    options:
+      - "Let's get this over with"
+      - "Thank you for meeting with us today. To make the most of our time, here's what we'd like to cover."
+      - "Tell me what you want"
+      - "I'm busy so let's make this quick"
+    answer: "Thank you for meeting with us today. To make the most of our time, here's what we'd like to cover."
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "What should you do before a client meeting?"
+    options:
+      - "Show up without preparation"
+      - "Research the client, their business, recent news, and prepare an agenda"
+      - "Assume you know everything"
+      - "Wing it"
+    answer: "Research the client, their business, recent news, and prepare an agenda"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "How should you handle a client's objection during a meeting?"
+    options:
+      - "Argue with them"
+      - "I understand your concern. Let me address that directly."
+      - "Ignore the objection"
+      - "Get defensive"
+    answer: "I understand your concern. Let me address that directly."
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "What should you say when a client asks a question you can't answer immediately?"
+    options:
+      - "I don't know"
+      - "That's an excellent question. I don't have that information at hand, but I will research it and follow up by [specific time]."
+      - "Ask someone else"
+      - "Make up an answer"
+    answer: "That's an excellent question. I don't have that information at hand, but I will research it and follow up by [specific time]."
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "How should you end a client meeting?"
+    options:
+      - "Just stand up and leave"
+      - "Summarize key points, confirm next steps, thank the client for their time"
+      - "Ask if they're happy"
+      - "Say 'That's all I have'"
+    answer: "Summarize key points, confirm next steps, thank the client for their time"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "What should you do after a client meeting?"
+    options:
+      - "Forget about it"
+      - "Send a follow-up email summarizing decisions, action items, and next steps within 24 hours"
+      - "Wait for the client to contact you"
+      - "Do nothing"
+    answer: "Send a follow-up email summarizing decisions, action items, and next steps within 24 hours"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "How should you respond if a client is unhappy with your work?"
+    options:
+      - "Blame someone else"
+      - "I understand your frustration. Let me understand what went wrong and how we can make it right."
+      - "That's not my problem"
+      - "Get defensive"
+    answer: "I understand your frustration. Let me understand what went wrong and how we can make it right."
+    xp_reward: 15
+
+  - id: 48
+    type: multiple_choice
+    question: "What should you bring to a client meeting?"
+    options:
+      - "Nothing"
+      - "Agenda, presentation materials, note-taking tools, business cards"
+      - "Only your phone"
+      - "Coffee for yourself"
+    answer: "Agenda, presentation materials, note-taking tools, business cards"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (49-53)
+  - id: 49
+    type: fill_blank
+    question: "Complete the meeting opening"
+    text_with_blank: "Thank you for ___ us today. We've prepared a brief presentation followed by time for discussion."
+    options: ["meeting with", "joining", "seeing", "hosting"]
+    correct_answer: "joining"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the agenda preview"
+    text_with_blank: "Here's what we'd like to ___ today: first, a quick project update, then discussion of next quarter's priorities."
+    options: ["cover", "discuss", "review", "address"]
+    correct_answer: "cover"
+    xp_reward: 15
+
+  - id: 51
+    type: fill_blank
+    question: "Complete the understanding check"
+    text_with_blank: "Let me make sure I ___ your requirements correctly. You need the report by the 15th, is that right?"
+    options: ["understand", "interpret", "hear", "capture"]
+    correct_answer: "understand"
+    xp_reward: 15
+
+  - id: 52
+    type: fill_blank
+    question: "Complete the follow-up commitment"
+    text_with_blank: "I'll ___ a revised proposal to you by end of week based on our discussion today."
+    options: ["send", "email", "provide", "share"]
+    correct_answer: "send"
+    xp_reward: 15
+
+  - id: 53
+    type: fill_blank
+    question: "Complete the thank-you statement"
+    text_with_blank: "Thank you again for your ___ today. We look forward to continuing our partnership."
+    options: ["time", "input", "feedback", "insights"]
+    correct_answer: "time"
+    xp_reward: 15
+
+  # TRUE / FALSE (54-56)
+  - id: 54
+    type: true_false
+    question: "Is this statement true or false? You should always confirm next steps before leaving a client meeting."
+    statement: "You should always confirm next steps before leaving a client meeting."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 55
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to check your phone during a client meeting."
+    statement: "It is acceptable to check your phone during a client meeting."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 56
+    type: true_false
+    question: "Is this statement true or false? Active listening is crucial in client meetings."
+    statement: "Active listening is crucial in client meetings."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (57-58)
+  - id: 57
+    type: matching
+    question: "Match the client meeting phase with the appropriate phrase"
+    pairs:
+      - left: "Opening"
+        right: "Thank you for meeting with us. Here's our agenda."
+      - left: "Discovery"
+        right: "Can you tell me more about your current challenges?"
+      - left: "Presentation"
+        right: "Let me walk you through our proposed solution."
+      - left: "Discussion"
+        right: "What are your thoughts on this approach?"
+      - left: "Closing"
+        right: "Let me summarize next steps and when you can expect follow-up."
+    xp_reward: 25
+
+  - id: 58
+    type: matching
+    question: "Match the client concern with the appropriate response"
+    pairs:
+      - left: "Budget concern"
+        right: "I understand budget is a priority. Let me show you the ROI we're projecting."
+      - left: "Timeline concern"
+        right: "I hear your concern about the timeline. Let me walk you through our accelerated plan."
+      - left: "Quality concern"
+        right: "Quality is our top priority. Let me share our quality assurance process."
+      - left: "Previous bad experience"
+        right: "I'm sorry to hear about your past experience. Let me explain how our approach differs."
+      - left: "Competitor comparison"
+        right: "That's a fair question. Let me highlight what makes our solution unique."
+    xp_reward: 25
+
+  # FLASHCARDS (59-60)
+  - id: 59
+    type: flashcards
+    question: "Flashcards: Client Meeting Follow-up Email"
+    flashcards:
+      - front: "Subject line"
+        right: "Follow-up: [Meeting topic] - [Date]"
+      - front: "Thank you statement"
+        right: "Thank you for your time today"
+      - front: "Summary of discussion"
+        right: "Brief recap of key points"
+      - front: "Action items"
+        right: "What each party will do and by when"
+      - front: "Next meeting"
+        right: "Proposed date or confirmation of next steps"
+    xp_reward: 30
+
+  - id: 60
+    type: flashcards
+    question: "Flashcards: Building Client Rapport"
+    flashcards:
+      - front: "Use the client's name"
+        right: "Personalizes the conversation"
+      - front: "Show genuine interest"
+        right: "Ask about their business goals"
+      - front: "Acknowledge their expertise"
+        right: "You clearly know your market well"
+      - front: "Follow through on promises"
+        right: "Builds trust and credibility"
+      - front: "Be responsive"
+        right: "Answer questions promptly after meeting"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: INVESTOR PITCHES (61-80)
+  # ============================================
+
+  # MULTIPLE CHOICE (61-68)
+  - id: 61
+    type: multiple_choice
+    question: "What is the ideal length of an investor pitch deck?"
+    options:
+      - "30-40 slides"
+      - "10-15 slides"
+      - "50-60 slides"
+      - "2-3 slides"
+    answer: "10-15 slides"
+    xp_reward: 15
+
+  - id: 62
+    type: multiple_choice
+    question: "What is the most important thing to include in an investor pitch?"
+    options:
+      - "Your personal life story"
+      - "Clear articulation of the problem, solution, and market opportunity"
+      - "Detailed technical specifications"
+      - "Photos of your office"
+    answer: "Clear articulation of the problem, solution, and market opportunity"
+    xp_reward: 15
+
+  - id: 63
+    type: multiple_choice
+    question: "How long should your verbal pitch be?"
+    options:
+      - "5 minutes or less"
+      - "30-60 minutes"
+      - "2 hours"
+      - "10 seconds"
+    answer: "5 minutes or less"
+    xp_reward: 15
+
+  - id: 64
+    type: multiple_choice
+    question: "What should you include on your 'traction' slide?"
+    options:
+      - "Photos of your team"
+      - "Revenue, user growth, partnerships, or other proof of market demand"
+      - "Your personal hobbies"
+      - "Office photos"
+    answer: "Revenue, user growth, partnerships, or other proof of market demand"
+    xp_reward: 15
+
+  - id: 65
+    type: multiple_choice
+    question: "What should you say when an investor asks about your competition?"
+    options:
+      - "We have no competition"
+      - "Acknowledge competitors honestly, then explain your unique differentiation"
+      - "Ignore the question"
+      - "Say the competition is terrible"
+    answer: "Acknowledge competitors honestly, then explain your unique differentiation"
+    xp_reward: 15
+
+  - id: 66
+    type: multiple_choice
+    question: "What should you include on the 'ask' slide?"
+    options:
+      - "A request for money only"
+      - "How much you're raising, valuation (if applicable), and exactly how you'll use the funds"
+      - "A phone number to call"
+      - "Your bank account details"
+    answer: "How much you're raising, valuation (if applicable), and exactly how you'll use the funds"
+    xp_reward: 15
+
+  - id: 67
+    type: multiple_choice
+    question: "What is the most important slide in a pitch deck?"
+    options:
+      - "The title slide"
+      - "The problem and solution slides"
+      - "The team slide"
+      - "The financial projections"
+    answer: "The problem and solution slides"
+    xp_reward: 15
+
+  - id: 68
+    type: multiple_choice
+    question: "How should you handle a question you don't know the answer to during an investor pitch?"
+    options:
+      - "Make something up"
+      - "That's a great question. I don't have that data right now, but I will follow up with you after this meeting."
+      - "I don't know"
+      - "Ask them why they want to know"
+    answer: "That's a great question. I don't have that data right now, but I will follow up with you after this meeting."
+    xp_reward: 15
+
+  # FILL IN THE BLANK (69-73)
+  - id: 69
+    type: fill_blank
+    question: "Complete the problem statement"
+    text_with_blank: "Small businesses ___ with managing their inventory across multiple channels, leading to lost sales and inefficiency."
+    options: ["struggle", "have difficulty", "face challenges", "deal"]
+    correct_answer: "struggle"
+    xp_reward: 15
+
+  - id: 70
+    type: fill_blank
+    question: "Complete the solution statement"
+    text_with_blank: "Our platform ___ this by automatically syncing inventory across all sales channels in real-time."
+    options: ["solves", "addresses", "fixes", "resolves"]
+    correct_answer: "solves"
+    xp_reward: 15
+
+  - id: 71
+    type: fill_blank
+    question: "Complete the market opportunity statement"
+    text_with_blank: "The global inventory management market is $10 billion and growing at 15% ___ annually."
+    options: ["CAGR", "year over year", "annually", "per year"]
+    correct_answer: "CAGR"
+    xp_reward: 15
+
+  - id: 72
+    type: fill_blank
+    question: "Complete the traction statement"
+    text_with_blank: "To date, we've acquired 500 paying customers and generated $2M in ___ revenue."
+    options: ["annual recurring", "ARR", "subscription", "recurring"]
+    correct_answer: "ARR"
+    xp_reward: 15
+
+  - id: 73
+    type: fill_blank
+    question: "Complete the ask statement"
+    text_with_blank: "We are raising a $3M Series ___ to expand our sales team and accelerate product development."
+    options: ["A", "Seed", "Round", "Financing"]
+    correct_answer: "A"
+    xp_reward: 15
+
+  # TRUE / FALSE (74-76)
+  - id: 74
+    type: true_false
+    question: "Is this statement true or false? You should memorize your entire pitch and deliver it word-for-word."
+    statement: "You should memorize your entire pitch and deliver it word-for-word."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 75
+    type: true_false
+    question: "Is this statement true or false? You should practice your pitch many times before presenting to investors."
+    statement: "You should practice your pitch many times before presenting to investors."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 76
+    type: true_false
+    question: "Is this statement true or false? It's better to hide potential risks from investors and hope they don't ask."
+    statement: "It's better to hide potential risks from investors and hope they don't ask."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (77-78)
+  - id: 77
+    type: matching
+    question: "Match the pitch deck slide with its content"
+    pairs:
+      - left: "Problem"
+        right: "Pain point and current alternatives"
+      - left: "Solution"
+        right: "Your product/service and value proposition"
+      - left: "Market size"
+        right: "TAM, SAM, SOM with sources"
+      - left: "Business model"
+        right: "How you make money"
+      - left: "Team"
+        right: "Founders and key hires with relevant experience"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Match the investor question with what they're really asking"
+    pairs:
+      - left: "Why you?"
+        right: "What's your unique advantage?"
+      - left: "Why now?"
+        right: "What market trends make this the right time?"
+      - left: "How will you scale?"
+        right: "What's your growth strategy?"
+      - left: "What are your unit economics?"
+        right: "Is this a sustainable business?"
+      - left: "What keeps you up at night?"
+        right: "What are the biggest risks you see?"
+    xp_reward: 25
+
+  # FLASHCARDS (79-80)
+  - id: 79
+    type: flashcards
+    question: "Flashcards: Pitch Deck Don'ts"
+    flashcards:
+      - front: "Too many slides"
+        right: "Keep to 10-15"
+      - front: "Too much text"
+        right: "Use visuals, minimal words"
+      - front: "No clear ask"
+        right: "Be specific about funding needed"
+      - front: "Overly optimistic projections"
+        right: "Be realistic and defendable"
+      - front: "Ignoring competition"
+        right: "Acknowledge and differentiate"
+    xp_reward: 30
+
+  - id: 80
+    type: flashcards
+    question: "Flashcards: Post-Pitch Follow-up"
+    flashcards:
+      - front: "Send within 24 hours"
+        right: "Timing for thank-you"
+      - front: "Address unanswered questions"
+        right: "Provide promised information"
+      - front: "Reiterate key metrics"
+        right: "Remind of traction"
+      - front: "Propose next steps"
+        right: "Suggest follow-up meeting or call"
+      - front: "Be persistent but not pushy"
+        right: "Follow up every 1-2 weeks"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: SALES CALLS (81-100)
+  # ============================================
+
+  # MULTIPLE CHOICE (81-88)
+  - id: 81
+    type: multiple_choice
+    question: "How should you open a sales call?"
+    options:
+      - "Do you want to buy our product?"
+      - "Hi, this is [Name] from [Company]. Is now a good time to talk? I have an idea that might help with [specific challenge]."
+      - "Sell you something?"
+      - "I'm calling to waste your time"
+    answer: "Hi, this is [Name] from [Company]. Is now a good time to talk? I have an idea that might help with [specific challenge]."
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "What is the best way to handle a prospect saying 'I'm not interested'?"
+    options:
+      - "Hang up immediately"
+      - "I understand. May I ask what your current solution is? I'm not trying to sell you anything, just gathering information."
+      - "You're making a mistake"
+      - "Call them back 10 times"
+    answer: "I understand. May I ask what your current solution is? I'm not trying to sell you anything, just gathering information."
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "What is the SPIN selling framework?"
+    options:
+      - "Sell, Price, Invoice, Negotiate"
+      - "Situation, Problem, Implication, Need-payoff questions"
+      - "Sales, Presentation, Interest, Close"
+      - "Start, Pitch, Interest, Now"
+    answer: "Situation, Problem, Implication, Need-payoff questions"
+    xp_reward: 15
+
+  - id: 84
+    type: multiple_choice
+    question: "What is a discovery question in a sales call?"
+    options:
+      - "A question about discovering your product"
+      - "An open-ended question to understand the prospect's needs and challenges"
+      - "A question about their budget"
+      - "A closing question"
+    answer: "An open-ended question to understand the prospect's needs and challenges"
+    xp_reward: 15
+
+  - id: 85
+    type: multiple_choice
+    question: "How should you ask for the sale (close) on a sales call?"
+    options:
+      - "Are you going to buy or not?"
+      - "Based on what we've discussed, shall we move forward with the implementation?"
+      - "Sign here"
+      - "Take it or leave it"
+    answer: "Based on what we've discussed, shall we move forward with the implementation?"
+    xp_reward: 15
+
+  - id: 86
+    type: multiple_choice
+    question: "How should you handle a price objection?"
+    options:
+      - "Immediately offer a discount"
+      - "I understand price is a consideration. Let me walk you through the value and ROI you'll receive."
+      - "It's not expensive"
+      - "Find a cheaper customer"
+    answer: "I understand price is a consideration. Let me walk you through the value and ROI you'll receive."
+    xp_reward: 15
+
+  - id: 87
+    type: multiple_choice
+    question: "What should you do after a sales call?"
+    options:
+      - "Wait for them to call you"
+      - "Send a follow-up email summarizing next steps and any promised information"
+      - "Forget about it"
+      - "Call them again immediately"
+    answer: "Send a follow-up email summarizing next steps and any promised information"
+    xp_reward: 15
+
+  - id: 88
+    type: multiple_choice
+    question: "What is the best way to handle a 'let me think about it' response?"
+    options:
+      - "Okay, goodbye"
+      - "I understand. What specific concerns would you like to think about? Perhaps I can address them now."
+      - "You've had enough time"
+      - "Call them every hour"
+    answer: "I understand. What specific concerns would you like to think about? Perhaps I can address them now."
+    xp_reward: 15
+
+  # FILL IN THE BLANK (89-93)
+  - id: 89
+    type: fill_blank
+    question: "Complete the discovery question"
+    text_with_blank: "What are the biggest ___ you're currently facing with your current system?"
+    options: ["challenges", "problems", "issues", "pain points"]
+    correct_answer: "challenges"
+    xp_reward: 15
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the implication question"
+    text_with_blank: "How is that ___ impacting your team's productivity and your bottom line?"
+    options: ["problem", "issue", "challenge", "situation"]
+    correct_answer: "problem"
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the value statement"
+    text_with_blank: "Our solution helps companies like yours ___ their processing time by 40%."
+    options: ["reduce", "decrease", "cut", "lower"]
+    correct_answer: "reduce"
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complete the closing question"
+    text_with_blank: "Does it ___ sense to move forward with a pilot program next month?"
+    options: ["make", "do", "have", "seem"]
+    correct_answer: "make"
+    xp_reward: 15
+
+  - id: 93
+    type: fill_blank
+    question: "Complete the follow-up commitment"
+    text_with_blank: "I'll ___ a proposal to you by end of day tomorrow for your review."
+    options: ["send", "email", "provide", "share"]
+    correct_answer: "send"
+    xp_reward: 15
+
+  # TRUE / FALSE (94-96)
+  - id: 94
+    type: true_false
+    question: "Is this statement true or false? Talking more than listening is the key to successful sales calls."
+    statement: "Talking more than listening is the key to successful sales calls."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 95
+    type: true_false
+    question: "Is this statement true or false? It's important to research a prospect before calling them."
+    statement: "It's important to research a prospect before calling them."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 96
+    type: true_false
+    question: "Is this statement true or false? You should always ask for a specific next step before ending the call."
+    statement: "You should always ask for a specific next step before ending the call."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (97-98)
+  - id: 97
+    type: matching
+    question: "Match the sales call phase with the appropriate activity"
+    pairs:
+      - left: "Opening"
+        right: "Introduction, permission, agenda"
+      - left: "Discovery"
+        right: "Ask questions to understand needs"
+      - left: "Presentation"
+        right: "Tailor solution to identified needs"
+      - left: "Handling objections"
+        right: "Address concerns with evidence"
+      - left: "Closing"
+        right: "Ask for commitment, define next steps"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Match the objection with the best response"
+    pairs:
+      - left: "It's too expensive"
+        right: "Let me show you the ROI calculation"
+      - left: "We're happy with our current vendor"
+        right: "What do you like most about them? What could be better?"
+      - left: "Send me information"
+        right: "I'd be happy to. What specific aspects interest you most?"
+      - left: "I need to talk to my partner"
+        right: "I understand. What questions would they likely have?"
+      - left: "Call me back in six months"
+        right: "I'll put a reminder. May I check in sooner if something changes?"
+    xp_reward: 25
+
+  # FLASHCARDS (99-100)
+  - id: 99
+    type: flashcards
+    question: "Flashcards: Sales Call Best Practices"
+    flashcards:
+      - front: "Prepare an agenda"
+        right: "Share at start of call"
+      - front: "Ask open-ended questions"
+        right: "Start with who, what, where, why, how"
+      - front: "Listen actively"
+        right: "Take notes, paraphrase back"
+      - front: "Focus on value, not features"
+        right: "What problem does it solve?"
+      - front: "Control the call"
+        right: "Guide conversation toward next steps"
+    xp_reward: 30
+
+  - id: 100
+    type: flashcards
+    question: "Flashcards: Sales Follow-up Email"
+    flashcards:
+      - front: "Subject line"
+        right: "Following up on our call - [Date]"
+      - front: "Thank them"
+        right: "Appreciate their time"
+      - front: "Summarize key points"
+        right: "Show you listened"
+      - front: "Recap next steps"
+        right: "Who does what by when"
+      - front: "Add value"
+        right: "Include relevant resource or insight"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: CUSTOMER COMPLAINTS (101-120)
+  # ============================================
+
+  # MULTIPLE CHOICE (101-108)
+  - id: 101
+    type: multiple_choice
+    question: "What is the first thing you should do when a customer complains?"
+    options:
+      - "Argue with them"
+      - "Listen actively without interrupting"
+      - "Tell them they're wrong"
+      - "Transfer them to someone else"
+    answer: "Listen actively without interrupting"
+    xp_reward: 15
+
+  - id: 102
+    type: multiple_choice
+    question: "What should you say to show empathy to a complaining customer?"
+    options:
+      - "Calm down"
+      - "I completely understand why you would be frustrated about this situation."
+      - "It's not my fault"
+      - "You're overreacting"
+    answer: "I completely understand why you would be frustrated about this situation."
+    xp_reward: 15
+
+  - id: 103
+    type: multiple_choice
+    question: "What is the HEAT model for complaint handling?"
+    options:
+      - "Help, Explain, Apologize, Terminate"
+      - "Hear, Empathize, Apologize, Take action"
+      - "Hold, Evaluate, Assess, Talk"
+      - "Hurry, End, Avoid, Transfer"
+    answer: "Hear, Empathize, Apologize, Take action"
+    xp_reward: 15
+
+  - id: 104
+    type: multiple_choice
+    question: "How should you apologize to a customer?"
+    options:
+      - "Sorry if you were offended"
+      - "I sincerely apologize for the inconvenience this has caused you. Let me make it right."
+      - "Mistakes happen"
+      - "That's too bad"
+    answer: "I sincerely apologize for the inconvenience this has caused you. Let me make it right."
+    xp_reward: 15
+
+  - id: 105
+    type: multiple_choice
+    question: "What should you do after resolving a customer complaint?"
+    options:
+      - "Forget about it"
+      - "Follow up to ensure they are satisfied with the resolution"
+      - "Avoid that customer in the future"
+      - "Tell your colleagues about the difficult customer"
+    answer: "Follow up to ensure they are satisfied with the resolution"
+    xp_reward: 15
+
+  - id: 106
+    type: multiple_choice
+    question: "How should you handle an angry customer who is yelling?"
+    options:
+      - "Yell back"
+      - "Stay calm, speak softly, and say 'I want to help you. Let me understand what happened.'"
+      - "Hang up"
+      - "Transfer them"
+    answer: "Stay calm, speak softly, and say 'I want to help you. Let me understand what happened.'"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What should you avoid saying to a complaining customer?"
+    options:
+      - "I understand"
+      - "That's not my department"
+      - "Let me see what I can do"
+      - "I apologize"
+    answer: "That's not my department"
+    xp_reward: 15
+
+  - id: 108
+    type: multiple_choice
+    question: "What is a 'service recovery' strategy?"
+    options:
+      - "Recovering from a service failure"
+      - "The actions taken to resolve a customer's problem and restore their satisfaction"
+      - "A type of apology"
+      - "A refund policy"
+    answer: "The actions taken to resolve a customer's problem and restore their satisfaction"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (109-113)
+  - id: 109
+    type: fill_blank
+    question: "Complete the empathy statement"
+    text_with_blank: "I can see why you would be ___ about this situation. Let me help you."
+    options: ["upset", "frustrated", "angry", "disappointed"]
+    correct_answer: "frustrated"
+    xp_reward: 15
+
+  - id: 110
+    type: fill_blank
+    question: "Complete the ownership statement"
+    text_with_blank: "Let me take ___ of this issue and get it resolved for you personally."
+    options: ["ownership", "responsibility", "charge", "care"]
+    correct_answer: "ownership"
+    xp_reward: 15
+
+  - id: 111
+    type: fill_blank
+    question: "Complete the action statement"
+    text_with_blank: "Here's what I'm going to do: I will ___ a replacement immediately and cover the shipping cost."
+    options: ["send", "overnight", "expedite", "rush"]
+    correct_answer: "send"
+    xp_reward: 15
+
+  - id: 112
+    type: fill_blank
+    question: "Complete the follow-up statement"
+    text_with_blank: "I will ___ back to you within 24 hours to confirm everything is resolved to your satisfaction."
+    options: ["get", "reach", "call", "come"]
+    correct_answer: "get"
+    xp_reward: 15
+
+  - id: 113
+    type: fill_blank
+    question: "Complete the satisfaction check"
+    text_with_blank: "Does this resolution ___ your expectations? Is there anything else I can do?"
+    options: ["meet", "satisfy", "fulfill", "match"]
+    correct_answer: "meet"
+    xp_reward: 15
+
+  # TRUE / FALSE (114-116)
+  - id: 114
+    type: true_false
+    question: "Is this statement true or false? You should never interrupt a complaining customer, even if they are being unreasonable."
+    statement: "You should never interrupt a complaining customer, even if they are being unreasonable."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Is this statement true or false? A resolved complaint can turn an unhappy customer into a loyal one."
+    statement: "A resolved complaint can turn an unhappy customer into a loyal one."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 116
+    type: true_false
+    question: "Is this statement true or false? You should always document customer complaints and resolutions."
+    statement: "You should always document customer complaints and resolutions."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (117-118)
+  - id: 117
+    type: matching
+    question: "Match the complaint type with the appropriate response"
+    pairs:
+      - left: "Product defect"
+        right: "Apologize, offer replacement or refund, expedite shipping"
+      - left: "Billing error"
+        right: "Apologize, correct immediately, confirm with customer"
+      - left: "Shipping delay"
+        right: "Apologize, provide tracking, refund shipping fee"
+      - left: "Rude staff"
+        right: "Apologize sincerely, assure action, offer compensation"
+      - left: "Policy dissatisfaction"
+        right: "Explain rationale, acknowledge frustration, seek alternative"
+    xp_reward: 25
+
+  - id: 118
+    type: matching
+    question: "Match the phrase with the complaint handling stage"
+    pairs:
+      - left: "Tell me more about what happened"
+        right: "Hear/Information gathering"
+      - left: "I can see why that would be upsetting"
+        right: "Empathize"
+      - left: "I'm really sorry this happened"
+        right: "Apologize"
+      - left: "Here's what I'm going to do for you"
+        right: "Take action"
+      - left: "I'll follow up to make sure everything is resolved"
+        right: "Closing/Follow-up"
+    xp_reward: 25
+
+  # FLASHCARDS (119-120)
+  - id: 119
+    type: flashcards
+    question: "Flashcards: Complaint De-escalation Phrases"
+    flashcards:
+      - front: "I want to help you resolve this"
+        right: "Shows intention"
+      - front: "Thank you for bringing this to our attention"
+        right: "Values feedback"
+      - front: "Let me understand what happened"
+        right: "Gathers facts"
+      - front: "You've made a fair point"
+        right: "Validates concern"
+      - front: "Thank you for your patience"
+        right: "Acknowledges their effort"
+    xp_reward: 30
+
+  - id: 120
+    type: flashcards
+    question: "Flashcards: Complaint Resolution Options"
+    flashcards:
+      - front: "Refund"
+        right: "Full or partial money back"
+      - front: "Replacement"
+        right: "New product shipped"
+      - front: "Credit/discount"
+        right: "Future purchase discount"
+      - front: "Free upgrade"
+        right: "Enhanced product/service"
+      - front: "Service recovery gesture"
+        right: "Small gift or waiver"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 7: NETWORKING EVENTS (121-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (121-125)
+  - id: 121
+    type: multiple_choice
+    question: "How should you introduce yourself at a networking event?"
+    options:
+      - "Hi, I'm [Name]. I do stuff."
+      - "Hi, I'm [Name] from [Company]. We help [target audience] [achieve specific outcome]. What brings you here today?"
+      - "Give me your card"
+      - "I'm the best at what I do"
+    answer: "Hi, I'm [Name] from [Company]. We help [target audience] [achieve specific outcome]. What brings you here today?"
+    xp_reward: 15
+
+  - id: 122
+    type: multiple_choice
+    question: "What is an 'elevator pitch'?"
+    options:
+      - "A pitch in an elevator"
+      - "A 30-60 second summary of who you are, what you do, and what you're looking for"
+      - "A sales presentation"
+      - "A job interview"
+    answer: "A 30-60 second summary of who you are, what you do, and what you're looking for"
+    xp_reward: 15
+
+  - id: 123
+    type: multiple_choice
+    question: "What should you do with a business card you receive?"
+    options:
+      - "Put it in your pocket without looking"
+      - "Look at it briefly, acknowledge the person, and keep it visible during conversation"
+      - "Throw it away"
+      - "Write notes about the person on the back after they leave"
+    answer: "Look at it briefly, acknowledge the person, and keep it visible during conversation"
+    xp_reward: 15
+
+  - id: 124
+    type: multiple_choice
+    question: "How should you end a networking conversation?"
+    options:
+      - "Just walk away"
+      - "It was great meeting you. Let me give you my card. Would you like to connect on LinkedIn?"
+      - "I'm bored now"
+      - "Give me a job"
+    answer: "It was great meeting you. Let me give you my card. Would you like to connect on LinkedIn?"
+    xp_reward: 15
+
+  - id: 125
+    type: multiple_choice
+    question: "What is the best way to follow up after a networking event?"
+    options:
+      - "Send a generic LinkedIn request"
+      - "Send a personalized message within 48 hours referencing your conversation"
+      - "Never follow up"
+      - "Call them immediately the next day"
+    answer: "Send a personalized message within 48 hours referencing your conversation"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (126-128)
+  - id: 126
+    type: fill_blank
+    question: "Complete the networking introduction"
+    text_with_blank: "Hi, I'm Sarah from FinTech Solutions. We help small businesses ___ their payment processing costs. What do you do?"
+    options: ["reduce", "lower", "optimize", "streamline"]
+    correct_answer: "reduce"
+    xp_reward: 15
+
+  - id: 127
+    type: fill_blank
+    question: "Complete the conversation starter"
+    text_with_blank: "What ___ you to this event today?"
+    options: ["brings", "brought", "drew", "attracted"]
+    correct_answer: "brings"
+    xp_reward: 15
+
+  - id: 128
+    type: fill_blank
+    question: "Complete the follow-up message"
+    text_with_blank: "It was great ___ you at the conference yesterday. I enjoyed our conversation about [topic]."
+    options: ["meeting", "connecting with", "talking to", "seeing"]
+    correct_answer: "meeting"
+    xp_reward: 15
+
+  # TRUE / FALSE (129)
+  - id: 129
+    type: true_false
+    question: "Is this statement true or false? Networking is about what you can give, not just what you can get."
+    statement: "Networking is about what you can give, not just what you can get."
+    correct_answer: true
+    xp_reward: 10
+
+  # TIMED CHALLENGE (130)
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Business Scenarios Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "What does STAR stand for in interviews"
+        answer: "Situation Task Action Result"
+      - question: "How soon to send interview thank-you note"
+        answer: "Within 24 hours"
+      - question: "What does HEAT stand for in complaints"
+        answer: "Hear Empathize Apologize Take action"
+      - question: "Ideal length of investor pitch deck"
+        answer: "10 to 15 slides"
+      - question: "What does SPIN stand for in sales"
+        answer: "Situation Problem Implication Need payoff"
+      - question: "When to follow up after networking event"
+        answer: "Within 48 hours"
+      - question: "How to open a client meeting"
+        answer: "Thank you here's our agenda"
+      - question: "What to say when you don't know an answer"
+        answer: "Great question I will follow up"
+    xp_reward: 50

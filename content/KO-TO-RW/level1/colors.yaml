@@ -1,0 +1,907 @@
+lesson:
+ name: "색깔"
+ description: "배우다 basic 색깔 안에 Kinyarwanda 와 동물 와 objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - 색깔 ONLY (Safe 위해 single words)
+ - id: 1
+ type: translation
+ 질문: "어떻게 말합니까 '빨간색' 키냐르완다어로?"
+ 답: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 질문: "어떻게 말합니까 '파란색' 키냐르완다어로?"
+ 답: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 질문: "어떻게 말합니까 '초록색' 키냐르완다어로?"
+ 답: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 질문: "어떻게 말합니까 '노란색' 키냐르완다어로?"
+ 답: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 질문: "어떻게 말합니까 '검은색' 키냐르완다어로?"
+ 답: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 질문: "어떻게 말합니까 '하얀색' 키냐르완다어로?"
+ 답: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 질문: "어떻게 말합니까 '주황색' 키냐르완다어로?"
+ 답: "주황색"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, 안 full 문장)
+ - id: 8
+ type: translation
+ 질문: "어떻게 말합니까 '빨간색 apple' 키냐르완다어로?"
+ 답: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ 질문: "어떻게 말합니까 '파란색 sky' 키냐르완다어로?"
+ 답: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ 질문: "어떻게 말합니까 '초록색 grass' 키냐르완다어로?"
+ 답: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ 질문: "어떻게 말합니까 '노란색 sun' 키냐르완다어로?"
+ 답: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ 질문: "어떻게 말합니까 '검은색 고양이' 키냐르완다어로?"
+ 답: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ 질문: "어떻게 말합니까 '하얀색 소' 키냐르완다어로?"
+ 답: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ 질문: "어떻게 말합니까 '주황색 carrot' 키냐르완다어로?"
+ 답: "Karoti ya 주황색"
+ xp_reward: 15
+
+ # Translation - 색깔 와 동물 (Noun + Color phrases)
+ - id: 15
+ type: translation
+ 질문: "어떻게 말합니까 '빨간색 새' 키냐르완다어로?"
+ 답: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ 질문: "어떻게 말합니까 '초록색 개구리' 키냐르완다어로?"
+ 답: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ 질문: "어떻게 말합니까 '파란색 물고기' 키냐르완다어로?"
+ 답: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ 질문: "어떻게 말합니까 '노란색 닭' 키냐르완다어로?"
+ 답: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ 질문: "어떻게 말합니까 '검은색 토끼' 키냐르완다어로?"
+ 답: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ 질문: "어떻게 말합니까 '하얀색 염소' 키냐르완다어로?"
+ 답: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers 와 색깔 (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ 질문: "어떻게 말합니까 'One 빨간색 apple' 키냐르완다어로?"
+ 답: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ 질문: "어떻게 말합니까 'Two 파란색 새' 키냐르완다어로?"
+ 답: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ 질문: "어떻게 말합니까 'Three 노란색 닭' 키냐르완다어로?"
+ 답: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ 질문: "어떻게 말합니까 'Four 검은색 고양이' 키냐르완다어로?"
+ 답: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ 질문: "어떻게 말합니까 'Five 하얀색 소' 키냐르완다어로?"
+ 답: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color 질문 (Phrases - safe  they 이다 fixed expressions)
+ - id: 26
+ type: translation
+ 질문: "어떻게 물으나요 'What color 이다  apple?' 키냐르완다어로?"
+ 답: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ 질문: "어떻게 물으나요 'What color 이다  sky?' 키냐르완다어로?"
+ 답: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ 질문: "어떻게 물으나요 '이다  고양이 검은색?' 키냐르완다어로?"
+ 답: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # 아니오 DIRECT TRANSLATION 위해 FULL 문장 또는 PARAGRAPHS
+ # Instead, we use 문장 building, 맞추다, 와 word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Umutuku' 라는 뜻입니까"
+ options:
+ - "파란색"
+ - "빨간색"
+ - "초록색"
+ - "노란색"
+ 답: "빨간색"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Ubururu' 라는 뜻입니까"
+ options:
+ - "빨간색"
+ - "파란색"
+ - "검은색"
+ - "하얀색"
+ 답: "파란색"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Icyatsi' 라는 뜻입니까"
+ options:
+ - "초록색"
+ - "노란색"
+ - "주황색"
+ - "빨간색"
+ 답: "초록색"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Umuhondo' 라는 뜻입니까"
+ options:
+ - "파란색"
+ - "빨간색"
+ - "노란색"
+ - "하얀색"
+ 답: "노란색"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Umukara' 라는 뜻입니까"
+ options:
+ - "하얀색"
+ - "검은색"
+ - "초록색"
+ - "주황색"
+ 답: "검은색"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Umweru' 라는 뜻입니까"
+ options:
+ - "검은색"
+ - "하얀색"
+ - "빨간색"
+ - "파란색"
+ 답: "하얀색"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ 질문: "무슨 뜻입니까 'Inyoni itukura' 라는 뜻입니까"
+ options:
+ - "파란색 새"
+ - "빨간색 새"
+ - "초록색 새"
+ - "노란색 새"
+ 답: "빨간색 새"
+ xp_reward: 15
+
+ # 3. 듣다 와 Type (Dictation) - Safe because audio 이다 provided
+ - id: 36
+ type: listen_와_type
+ 질문: "듣다 와 type  color"
+ tts_text: "Umutuku"
+ 답: "Umutuku"
+ translation: "빨간색"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_와_type
+ 질문: "듣다 와 type  color"
+ tts_text: "Ubururu"
+ 답: "Ubururu"
+ translation: "파란색"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_와_type
+ 질문: "듣다 와 type  phrase"
+ tts_text: "Pome ni umutuku"
+ 답: "Pome ni umutuku"
+ translation: " apple 이다 빨간색"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_와_type
+ 질문: "듣다 와 type  phrase"
+ tts_text: "Ijuru ni ubururu"
+ 답: "Ijuru ni ubururu"
+ translation: " sky 이다 파란색"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_와_type
+ 질문: "듣다 와 type  phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ 답: "Inyoni itukura iraguruka"
+ translation: " 빨간색 새 flies"
+ xp_reward: 25
+
+ # 4. 듣다 와 선택하다
+ - id: 41
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct color"
+ tts_text: "Umutuku"
+ options:
+ - "빨간색"
+ - "파란색"
+ - "초록색"
+ 답: "빨간색"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "빨간색"
+ - "노란색"
+ - "검은색"
+ 답: "노란색"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_와_choose
+ 질문: "듣다 와 선택하다  correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - " apple 이다 빨간색"
+ - " sky 이다 파란색"
+ - " sun 이다 노란색"
+ 답: " apple 이다 빨간색"
+ xp_reward: 20
+
+ # 5. Repeat / 말하다 Exercise
+ - id: 44
+ type: 말하다
+ 질문: "Say 이것 color"
+ prompt: "Umutuku"
+ translation: "빨간색"
+ xp_reward: 15
+
+ - id: 45
+ type: 말하다
+ 질문: "Say 이것 color"
+ prompt: "Ubururu"
+ translation: "파란색"
+ xp_reward: 15
+
+ - id: 46
+ type: 말하다
+ 질문: "Say 이것 phrase"
+ prompt: "Pome itukura"
+ translation: "빨간색 apple"
+ xp_reward: 18
+
+ - id: 47
+ type: 말하다
+ 질문: "Say 이것 문장"
+ prompt: "Pome ni umutuku"
+ translation: " apple 이다 빨간색"
+ xp_reward: 20
+
+ - id: 48
+ type: 말하다
+ 질문: "Say 이것 문장"
+ prompt: "Ijuru ni ubururu"
+ translation: " sky 이다 파란색"
+ xp_reward: 20
+
+ # 6. Word Bank 문장 Building - PIECES PROVIDED, 아니오 TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ 질문: "Build  Kinyarwanda 문장 위해 ' apple 이다 빨간색'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ 질문: "Build  Kinyarwanda 문장 위해 ' sky 이다 파란색'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ 질문: "Build  Kinyarwanda phrase 위해 '빨간색 새'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ 질문: "Build  Kinyarwanda phrase 위해 '파란색 물고기'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ 질문: "Build  Kinyarwanda 문장 위해 ' 빨간색 새 flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ 질문: "Build  Kinyarwanda 문장 위해 ' 초록색 개구리 jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. 문장 Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct Kinyarwanda 문장"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: " apple 이다 빨간색"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct Kinyarwanda 문장"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: " sky 이다 파란색"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct Kinyarwanda 문장"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: " 빨간색 새 flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ 질문: "Arrange these words 에 form  correct Kinyarwanda 문장"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: " 초록색 개구리 jumps"
+ xp_reward: 25
+
+ # 8. Fill 안에  Blank - 선택하다 FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ 질문: "선택하다  correct word 에 complete  문장"
+ text_와_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: " apple 이다 빨간색"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ 질문: "선택하다  correct word 에 complete  문장"
+ text_와_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: " sky 이다 파란색"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ 질문: "선택하다  correct word 에 complete  문장"
+ text_와_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: " grass 이다 초록색"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ 질문: "선택하다  correct word 에 complete  문장"
+ text_와_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: " sun 이다 노란색"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ 질문: "선택하다  correct word 에 complete  phrase"
+ text_와_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: " 빨간색 새 flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ 질문: "What color 이다 이것?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ 질문: "What color 이다 이것?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ 질문: "What color 이다 이것?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "주황색", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ 질문: "What color 이다 이것?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ 질문: "What color 이다 이것?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "주황색"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ 질문: "What color 이다 이것?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ 질문: "What color 이다 이것?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "주황색", "Ubururu"]
+ correct_answer: "주황색"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ 질문: "What color 이다 이것 apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "주황색"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ 질문: "What color 이다 이것 새?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word 맞추다 (Pairing)
+ - id: 73
+ type: 맞추다
+ 질문: "맞추다  색깔"
+ pairs:
+ - 왼쪽: "빨간색"
+ 오른쪽: "Umutuku"
+ - 왼쪽: "파란색"
+ 오른쪽: "Ubururu"
+ - 왼쪽: "초록색"
+ 오른쪽: "Icyatsi"
+ - 왼쪽: "노란색"
+ 오른쪽: "Umuhondo"
+ - 왼쪽: "검은색"
+ 오른쪽: "Umukara"
+ - 왼쪽: "하얀색"
+ 오른쪽: "Umweru"
+ - 왼쪽: "주황색"
+ 오른쪽: "주황색"
+ xp_reward: 25
+
+ - id: 74
+ type: 맞추다
+ 질문: "맞추다  colored objects"
+ pairs:
+ - 왼쪽: "빨간색 apple"
+ 오른쪽: "Pome itukura"
+ - 왼쪽: "파란색 sky"
+ 오른쪽: "Ijuru ry'ubururu"
+ - 왼쪽: "초록색 grass"
+ 오른쪽: "Ibyatsi by'icyatsi"
+ - 왼쪽: "노란색 sun"
+ 오른쪽: "Izuba ry'umuhondo"
+ - 왼쪽: "검은색 고양이"
+ 오른쪽: "Injangwe y'umukara"
+ - 왼쪽: "하얀색 소"
+ 오른쪽: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: 맞추다
+ 질문: "맞추다  colored 동물"
+ pairs:
+ - 왼쪽: "빨간색 새"
+ 오른쪽: "Inyoni itukura"
+ - 왼쪽: "초록색 개구리"
+ 오른쪽: "Igikeri cy'icyatsi"
+ - 왼쪽: "파란색 물고기"
+ 오른쪽: "Ifi y'ubururu"
+ - 왼쪽: "노란색 닭"
+ 오른쪽: "Inkoko y'umuhondo"
+ - 왼쪽: "검은색 토끼"
+ 오른쪽: "Urukwavu rw'umukara"
+ - 왼쪽: "하얀색 염소"
+ 오른쪽: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. 선택하다 Missing Word
+ - id: 80
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: " apple 이다 빨간색"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: " sky 이다 파란색"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ 질문: "선택하다  missing word"
+ 문장: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: " 빨간색 새 flies"
+ xp_reward: 18
+
+ # 12. 읽다 와 답 - 질문 안에 English, 답 based 위에 Kinyarwanda text
+ - id: 83
+ type: read_answer
+ 질문: "읽다  text 와 답  질문"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ 질문: "What color 이다  apple?"
+ options: ["빨간색", "파란색", "초록색", "노란색"]
+ correct_answer: "빨간색"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ 질문: "읽다  text 와 답  질문"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ 질문: "무슨 뜻입니까  빨간색 새 do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ 질문: "읽다  text 와 답  질문"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ 질문: "What color 이다  소?"
+ options: ["검은색", "하얀색", "노란색", "빨간색"]
+ correct_answer: "하얀색"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "Pome ni umutuku."
+ translation: " apple 이다 빨간색"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "Ijuru ni icyatsi."
+ translation: " sky 이다 초록색"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "Inka ni umweru."
+ translation: " 소 이다 하얀색"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ 질문: "이다 이것 statement true 또는 false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: " 빨간색 새 flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ 질문: "Respond 에  질문 by building  문장"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color 이다 이것 apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ 질문: "Respond 에  질문"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color 이다  sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ 질문: "Respond 에  질문"
+ bot_message: "Injangwe ni umukara?"
+ translation: "이다  고양이 검은색?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build 문장 from pieces
+ - id: 93
+ type: story
+ title: "색깔 안에  Field"
+ story_intro: "읽다 about  colorful 동물. Then build  문장."
+ story_segments:
+ - text: "There 이다  빨간색 새 안에  sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: " 새 flies above."
+ - text: "There 이다  초록색 개구리 near  물."
+ - text: " 개구리 jumps."
+ - text: "There 이다  파란색 물고기 안에  물."
+ - text: " 물고기 swims."
+ exercises:
+ - type: word_bank
+ 질문: "Build  Kinyarwanda 문장 위해 ' 빨간색 새 flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ 질문: "Build  Kinyarwanda 문장 위해 ' 초록색 개구리 jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ 질문: "Build  Kinyarwanda 문장 위해 ' 파란색 물고기 swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ 질문: "Say  color"
+ prompt: "Umutuku"
+ translation: "빨간색"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ 질문: "Say  color"
+ prompt: "Agasumbashyamba" # 기린 - testing color knowledge 안에 context
+ translation: "기린 (they 이다 노란색 와 갈색)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ 질문: "Say  phrase"
+ prompt: "Pome itukura"
+ translation: "빨간색 apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'umutuku' mean 안에 이것 문장?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["빨간색", "파란색", "초록색", "노란색"]
+ correct_answer: "빨간색"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'itukura' mean 안에 이것 문장?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["빨간색", "파란색", "초록색", "노란색"]
+ correct_answer: "빨간색"
+ note: "itukura 이다  adjective form 의 umutuku when describing  noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ 질문: "무슨 뜻입니까 'cy'icyatsi' mean 안에 이것 문장?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["빨간색", "파란색", "초록색", "노란색"]
+ correct_answer: "초록색"
+ xp_reward: 18
+
+ # 18. Speed 맞추다
+ - id: 100
+ type: speed_맞추다
+ title: "맞추다 Madness: 색깔"
+ time_limit_seconds: 45
+ pairs:
+ - 왼쪽: "빨간색"
+ 오른쪽: "Umutuku"
+ - 왼쪽: "파란색"
+ 오른쪽: "Ubururu"
+ - 왼쪽: "초록색"
+ 오른쪽: "Icyatsi"
+ - 왼쪽: "노란색"
+ 오른쪽: "Umuhondo"
+ - 왼쪽: "검은색"
+ 오른쪽: "Umukara"
+ - 왼쪽: "하얀색"
+ 오른쪽: "Umweru"
+ - 왼쪽: "주황색"
+ 오른쪽: "주황색"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: 색깔"
+ time_limit_seconds: 30
+ 질문_count: 5
+ 질문:
+ - 질문: "빨간색"
+ 답: "Umutuku"
+ - 질문: "파란색"
+ 답: "Ubururu"
+ - 질문: "초록색"
+ 답: "Icyatsi"
+ - 질문: "노란색"
+ 답: "Umuhondo"
+ - 질문: "검은색"
+ 답: "Umukara"
+ xp_reward: 35
+
+# 플래시카드
+ - id: 111
+ type: 플래시카드
+ 질문: "플래시카드"
+ 플래시카드:
+ - front: "Umutuku"
+ back: "빨간색"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "파란색"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "초록색"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "노란색"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "검은색"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "하얀색"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "주황색"
+ back: "주황색"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "빨간색 apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "파란색 sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "초록색 grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

@@ -1,0 +1,1131 @@
+lesson:
+  name: "Amarangamutima"
+  description: "Learn emotion words in French and how to express feelings"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Emotion Words ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'Unezerewe / Nishimiye' mu igifaransa?"
+    answer: "Heureux / Heureuse"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'Umubabaro / Nshimishijwe n'agahinda' mu igifaransa?"
+    answer: "Triste"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'Umujinya / Arakaye' mu igifaransa?"
+    answer: "En colère"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'Gutinya / Atinya' mu igifaransa?"
+    answer: "Effrayé / Peur"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'Gutungurwa / Aratunguwe' mu igifaransa?"
+    answer: "Surpris"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'Akanyamuneza / Arishimye' mu igifaransa?"
+    answer: "Excité"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'Amahoro / Yatuje' mu igifaransa?"
+    answer: "Calme"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'Avugwaho / Yivangavanga' mu igifaransa?"
+    answer: "Confus"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'Umunaniro / Ararushye' mu igifaransa?"
+    answer: "Fatigué"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'Kumwe n'ubwigunge / Yonyine' mu igifaransa?"
+    answer: "Seul"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'Kwikanga / Akemangwa' mu igifaransa?"
+    answer: "Gêné"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'Kwishimira / Arishimira' mu igifaransa?"
+    answer: "Fier"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'Urukundo / Akunda' mu igifaransa?"
+    answer: "Amour / Aimant"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'Ubwihebe / Arambiwe' mu igifaransa?"
+    answer: "Haine / Déteste"
+    xp_reward: 10
+
+  # Sentences About Emotions
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'Nishimiye / Unezerewe' mu igifaransa?"
+    answer: "Je suis heureux / heureuse"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'Arababaye' mu igifaransa?"
+    answer: "Elle est triste"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Ararakaye' mu igifaransa?"
+    answer: "Il est en colère"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Batinye' mu igifaransa?"
+    answer: "Ils ont peur"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Nishimiye ibirori' mu igifaransa?"
+    answer: "Je suis excité pour la fête"
+    xp_reward: 18
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Yatuje' mu igifaransa?"
+    answer: "Elle est calme"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Nonyine / Ndumva nonyine' mu igifaransa?"
+    answer: "Je me sens seul"
+    xp_reward: 18
+
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Arishimira umuhungu we' mu igifaransa?"
+    answer: "Il est fier de son fils"
+    xp_reward: 20
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Nkunda umuryango wanjye' mu igifaransa?"
+    answer: "J'aime ma famille"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Wavuga ute 'Arambiwe kubeshya' mu igifaransa?"
+    answer: "Elle déteste les mensonges"
+    xp_reward: 20
+
+  # 2. Multiple Choice
+  - id: 25
+    type: multiple_choice
+    question: "'Nishimiye' bisobanura iki mu igifaransa?"
+    options:
+      - "Triste"
+      - "Heureux"
+      - "En colère"
+      - "Fatigué"
+    answer: "Heureux"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "'Arababaye' bisobanura iki mu igifaransa?"
+    options:
+      - "Elle est heureuse"
+      - "Elle est triste"
+      - "Elle est en colère"
+      - "Elle est calme"
+    answer: "Elle est triste"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "'Ararakaye' bisobanura iki mu igifaransa?"
+    options:
+      - "Il a peur"
+      - "Il est fatigué"
+      - "Il est en colère"
+      - "Il est surpris"
+    answer: "Il est en colère"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Batinye' bisobanura iki mu igifaransa?"
+    options:
+      - "Ils sont heureux"
+      - "Ils ont peur"
+      - "Ils sont calmes"
+      - "Ils sont fiers"
+    answer: "Ils ont peur"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Yatuje' bisobanura iki mu igifaransa?"
+    options:
+      - "Elle est calme"
+      - "Elle est confuse"
+      - "Elle est excitée"
+      - "Elle est seule"
+    answer: "Elle est calme"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Nkunda umuryango wanjye' bisobanura iki mu igifaransa?"
+    options:
+      - "Je déteste ma famille"
+      - "J'aime ma famille"
+      - "Je manque à ma famille"
+      - "Je vois ma famille"
+    answer: "J'aime ma famille"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 31
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo ry'amarangamutima mu igifaransa"
+    tts_text: "Nishimiye"
+    answer: "Je suis heureux"
+    translation: "Nishimiye"
+    xp_reward: 20
+
+  - id: 32
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Arababaye"
+    answer: "Elle est triste"
+    translation: "Arababaye"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Ararakaye"
+    answer: "Il est en colère"
+    translation: "Ararakaye"
+    xp_reward: 20
+
+  - id: 34
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Batinye"
+    answer: "Ils ont peur"
+    translation: "Batinye"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Nishimiye ibirori"
+    answer: "Je suis excité pour la fête"
+    translation: "Nishimiye ibirori"
+    xp_reward: 22
+
+  - id: 36
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Nkunda umuryango wanjye"
+    answer: "J'aime ma famille"
+    translation: "Nkunda umuryango wanjye"
+    xp_reward: 22
+
+  - id: 37
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Arishimira umuhungu we"
+    answer: "Il est fier de son fils"
+    translation: "Arishimira umuhungu we"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 38
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye mu igifaransa"
+    tts_text: "Nishimiye"
+    options:
+      - "Triste"
+      - "Heureux"
+      - "En colère"
+    answer: "Heureux"
+    xp_reward: 15
+
+  - id: 39
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye mu igifaransa"
+    tts_text: "Arababaye"
+    options:
+      - "Elle est heureuse"
+      - "Elle est triste"
+      - "Elle est calme"
+    answer: "Elle est triste"
+    xp_reward: 15
+
+  - id: 40
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye mu igifaransa"
+    tts_text: "Ararakaye"
+    options:
+      - "Il a peur"
+      - "Il est fatigué"
+      - "Il est en colère"
+    answer: "Il est en colère"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo amarangamutima akwiye mu igifaransa"
+    tts_text: "Yatuje"
+    options:
+      - "Elle est calme"
+      - "Elle est confuse"
+      - "Elle est excitée"
+    answer: "Elle est calme"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye mu igifaransa"
+    tts_text: "Nkunda umuryango wanjye"
+    options:
+      - "Je déteste ma famille"
+      - "J'aime ma famille"
+      - "Je vois ma famille"
+    answer: "J'aime ma famille"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 43
+    type: speaking
+    question: "Vuga iri jambo ry'amarangamutima mu igifaransa"
+    prompt: "Nishimiye"
+    translation: "Je suis heureux"
+    xp_reward: 15
+
+  - id: 44
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Arababaye"
+    translation: "Elle est triste"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Ararakaye"
+    translation: "Il est en colère"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Batinye"
+    translation: "Ils ont peur"
+    xp_reward: 15
+
+  - id: 47
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Nishimiye ibirori"
+    translation: "Je suis excité pour la fête"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Nkunda umuryango wanjye"
+    translation: "J'aime ma famille"
+    xp_reward: 18
+
+  - id: 49
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Arishimira umuhungu we"
+    translation: "Il est fier de son fils"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 50
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Nishimiye'"
+    word_bank: ["Je", "suis", "heureux", "elle", "est", "triste"]
+    correct_answer: ["Je", "suis", "heureux"]
+    xp_reward: 15
+
+  - id: 51
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Arababaye'"
+    word_bank: ["Elle", "est", "triste", "je", "suis", "heureux"]
+    correct_answer: ["Elle", "est", "triste"]
+    xp_reward: 15
+
+  - id: 52
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Ararakaye'"
+    word_bank: ["Il", "est", "en", "colère", "elle", "est", "triste"]
+    correct_answer: ["Il", "est", "en", "colère"]
+    xp_reward: 15
+
+  - id: 53
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Batinye'"
+    word_bank: ["Ils", "ont", "peur", "il", "est", "en", "colère"]
+    correct_answer: ["Ils", "ont", "peur"]
+    xp_reward: 15
+
+  - id: 54
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Nishimiye ibirori'"
+    word_bank: ["Je", "suis", "excité", "pour", "la", "fête", "elle", "est", "triste"]
+    correct_answer: ["Je", "suis", "excité", "pour", "la", "fête"]
+    xp_reward: 20
+
+  - id: 55
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Yatuje'"
+    word_bank: ["Elle", "est", "calme", "ils", "ont", "peur"]
+    correct_answer: ["Elle", "est", "calme"]
+    xp_reward: 15
+
+  - id: 56
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Nonyine'"
+    word_bank: ["Je", "me", "sens", "seul", "je", "suis", "heureux"]
+    correct_answer: ["Je", "me", "sens", "seul"]
+    xp_reward: 15
+
+  - id: 57
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Arishimira umuhungu we'"
+    word_bank: ["Il", "est", "fier", "de", "son", "fils", "elle", "est", "calme"]
+    correct_answer: ["Il", "est", "fier", "de", "son", "fils"]
+    xp_reward: 22
+
+  - id: 58
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Nkunda umuryango wanjye'"
+    word_bank: ["J'", "aime", "ma", "famille", "il", "aime", "son", "fils"]
+    correct_answer: ["J'", "aime", "ma", "famille"]
+    xp_reward: 18
+
+  - id: 59
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Arambiwe kubeshya'"
+    word_bank: ["Elle", "déteste", "les", "mensonges", "il", "aime", "la", "vérité"]
+    correct_answer: ["Elle", "déteste", "les", "mensonges"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble
+  - id: 60
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nishimiye'"
+    scrambled_words: ["heureux", "suis", "Je"]
+    correct_sentence: "Je suis heureux"
+    translation: "Nishimiye"
+    xp_reward: 12
+
+  - id: 61
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Arababaye'"
+    scrambled_words: ["triste", "est", "Elle"]
+    correct_sentence: "Elle est triste"
+    translation: "Arababaye"
+    xp_reward: 12
+
+  - id: 62
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ararakaye'"
+    scrambled_words: ["en", "colère", "est", "Il"]
+    correct_sentence: "Il est en colère"
+    translation: "Ararakaye"
+    xp_reward: 12
+
+  - id: 63
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Batinye'"
+    scrambled_words: ["peur", "ont", "Ils"]
+    correct_sentence: "Ils ont peur"
+    translation: "Batinye"
+    xp_reward: 12
+
+  - id: 64
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nishimiye ibirori'"
+    scrambled_words: ["excité", "pour", "la", "fête", "Je", "suis"]
+    correct_sentence: "Je suis excité pour la fête"
+    translation: "Nishimiye ibirori"
+    xp_reward: 18
+
+  - id: 65
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Yatuje'"
+    scrambled_words: ["calme", "est", "Elle"]
+    correct_sentence: "Elle est calme"
+    translation: "Yatuje"
+    xp_reward: 12
+
+  - id: 66
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nonyine'"
+    scrambled_words: ["seul", "sens", "Je", "me"]
+    correct_sentence: "Je me sens seul"
+    translation: "Nonyine"
+    xp_reward: 12
+
+  - id: 67
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Arishimira umuhungu we'"
+    scrambled_words: ["fier", "de", "son", "fils", "Il", "est"]
+    correct_sentence: "Il est fier de son fils"
+    translation: "Arishimira umuhungu we"
+    xp_reward: 20
+
+  - id: 68
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nkunda umuryango wanjye'"
+    scrambled_words: ["ma", "famille", "aime", "J'"]
+    correct_sentence: "J'aime ma famille"
+    translation: "Nkunda umuryango wanjye"
+    xp_reward: 18
+
+  - id: 69
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Arambiwe kubeshya'"
+    scrambled_words: ["les", "mensonges", "déteste", "Elle"]
+    correct_sentence: "Elle déteste les mensonges"
+    translation: "Arambiwe kubeshya"
+    xp_reward: 18
+
+  # 8. Fill in the Blank
+  - id: 70
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Je suis ___."
+    options: ["heureux", "triste", "en colère"]
+    correct_answer: "heureux"
+    translation: "Nishimiye"
+    xp_reward: 12
+
+  - id: 71
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Elle est ___."
+    options: ["heureuse", "triste", "en colère"]
+    correct_answer: "triste"
+    translation: "Arababaye"
+    xp_reward: 12
+
+  - id: 72
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Il est ___."
+    options: ["heureux", "triste", "en colère"]
+    correct_answer: "en colère"
+    translation: "Ararakaye"
+    xp_reward: 12
+
+  - id: 73
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Ils ont ___."
+    options: ["peur", "calme", "seul"]
+    correct_answer: "peur"
+    translation: "Batinye"
+    xp_reward: 12
+
+  - id: 74
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Je suis excité pour la ___."
+    options: ["fête", "famille", "fils"]
+    correct_answer: "fête"
+    translation: "Nishimiye ibirori"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Elle est ___."
+    options: ["calme", "peur", "seule"]
+    correct_answer: "calme"
+    translation: "Yatuje"
+    xp_reward: 12
+
+  - id: 76
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Je me sens ___."
+    options: ["seul", "heureux", "triste"]
+    correct_answer: "seul"
+    translation: "Nonyine"
+    xp_reward: 12
+
+  - id: 77
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Il est fier de son ___."
+    options: ["fils", "famille", "fête"]
+    correct_answer: "fils"
+    translation: "Arishimira umuhungu we"
+    xp_reward: 18
+
+  - id: 78
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "J'aime ma ___."
+    options: ["famille", "fils", "fête"]
+    correct_answer: "famille"
+    translation: "Nkunda umuryango wanjye"
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Elle déteste les ___."
+    options: ["mensonges", "vérité", "famille"]
+    correct_answer: "mensonges"
+    translation: "Arambiwe kubeshya"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 80
+    type: picture_word
+    question: "Aya ni amarangamutima aki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?happy"
+    options: ["Heureux", "Triste", "En colère"]
+    correct_answer: "Heureux"
+    xp_reward: 10
+
+  - id: 81
+    type: picture_word
+    question: "Aya ni amarangamutima aki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?sad"
+    options: ["Heureux", "Triste", "En colère"]
+    correct_answer: "Triste"
+    xp_reward: 10
+
+  - id: 82
+    type: picture_word
+    question: "Aya ni amarangamutima aki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?angry"
+    options: ["Heureux", "Triste", "En colère"]
+    correct_answer: "En colère"
+    xp_reward: 10
+
+  - id: 83
+    type: picture_word
+    question: "Aya ni amarangamutima aki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?scared"
+    options: ["Peur", "Calme", "Seul"]
+    correct_answer: "Peur"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "Aya ni amarangamutima aki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?calm"
+    options: ["Peur", "Calme", "Seul"]
+    correct_answer: "Calme"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "Aya ni amarangamutima aki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?lonely"
+    options: ["Peur", "Calme", "Seul"]
+    correct_answer: "Seul"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Aya ni amarangamutima aki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?proud"
+    options: ["Fier", "Haine", "Heureux"]
+    correct_answer: "Fier"
+    xp_reward: 12
+
+  - id: 87
+    type: picture_word
+    question: "Aya ni amarangamutima aki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?love"
+    options: ["Amour", "Haine", "Peur"]
+    correct_answer: "Amour"
+    xp_reward: 12
+
+  # 10. Word Matching
+  - id: 88
+    type: matching
+    question: "Huza amarangamutima mu igifaransa"
+    pairs:
+      - left: "Heureux"
+        right: "Nishimiye"
+      - left: "Triste"
+        right: "Arababaye"
+      - left: "En colère"
+        right: "Ararakaye"
+      - left: "Peur"
+        right: "Batinye"
+      - left: "Calme"
+        right: "Yatuje"
+      - left: "Seul"
+        right: "Nonyine"
+      - left: "Fier"
+        right: "Arishimira"
+      - left: "Amour"
+        right: "Nkunda"
+      - left: "Haine"
+        right: "Arambiwe"
+    xp_reward: 25
+
+  - id: 89
+    type: matching
+    question: "Huza interuro mu igifaransa"
+    pairs:
+      - left: "Je suis heureux"
+        right: "Nishimiye"
+      - left: "Elle est triste"
+        right: "Arababaye"
+      - left: "Il est en colère"
+        right: "Ararakaye"
+      - left: "Ils ont peur"
+        right: "Batinye"
+      - left: "Je suis excité pour la fête"
+        right: "Nishimiye ibirori"
+      - left: "Elle est calme"
+        right: "Yatuje"
+      - left: "Je me sens seul"
+        right: "Nonyine"
+      - left: "Il est fier de son fils"
+        right: "Arishimira umuhungu we"
+      - left: "J'aime ma famille"
+        right: "Nkunda umuryango wanjye"
+      - left: "Elle déteste les mensonges"
+        right: "Arambiwe kubeshya"
+    xp_reward: 28
+
+  # 11. Choose Missing Word
+  - id: 90
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Je suis ___."
+    missing_word_position: 3
+    options: ["heureux", "triste", "en colère"]
+    correct_answer: "heureux"
+    translation: "Nishimiye"
+    xp_reward: 12
+
+  - id: 91
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Elle est ___."
+    missing_word_position: 3
+    options: ["heureuse", "triste", "en colère"]
+    correct_answer: "triste"
+    translation: "Arababaye"
+    xp_reward: 12
+
+  - id: 92
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Ils ont ___."
+    missing_word_position: 3
+    options: ["peur", "calme", "seul"]
+    correct_answer: "peur"
+    translation: "Batinye"
+    xp_reward: 12
+
+  - id: 93
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Je suis excité pour la ___."
+    missing_word_position: 6
+    options: ["fête", "famille", "fils"]
+    correct_answer: "fête"
+    translation: "Nishimiye ibirori"
+    xp_reward: 15
+
+  - id: 94
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "J'aime ma ___."
+    missing_word_position: 4
+    options: ["famille", "fils", "fête"]
+    correct_answer: "famille"
+    translation: "Nkunda umuryango wanjye"
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 95
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Nishimiye. Arababaye. Ararakaye."
+    question: "Njye mfeeling nki?"
+    options: ["Heureux", "Triste", "En colère", "Peur"]
+    correct_answer: "Heureux"
+    xp_reward: 12
+
+  - id: 96
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Nishimiye ibirori. Nkunda umuryango wanjye."
+    question: "Nishimishijwe n'iki?"
+    options: ["Ma famille", "La fête", "Mon fils", "Les mensonges"]
+    correct_answer: "La fête"
+    xp_reward: 15
+
+  - id: 97
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Arishimira umuhungu we. Arababaye."
+    question: "Yishimira nde?"
+    options: ["Sa fille", "Son fils", "Sa femme", "Son ami"]
+    correct_answer: "Son fils"
+    xp_reward: 15
+
+  - id: 98
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Arambiwe kubeshya. Nkunda umuryango wanjye."
+    question: "Arambiwe iki?"
+    options: ["Sa famille", "La fête", "Les mensonges", "Être seule"]
+    correct_answer: "Les mensonges"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 99
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Nishimiye' means 'I am happy'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 100
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Arababaye' means 'He is angry'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 101
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Batinye' means 'They are scared'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 102
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Nkunda umuryango wanjye' means 'I love my family'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 103
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Arambiwe kubeshya' means 'She loves lies'."
+    correct_answer: false
+    xp_reward: 12
+
+  # 14. Conversation Exercise
+  - id: 104
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe mu igifaransa"
+    bot_message: "Umeze ute?"
+    translation: "How are you?"
+    word_bank: ["Je", "suis", "heureux", "elle", "est", "triste"]
+    correct_response: ["Je", "suis", "heureux"]
+    xp_reward: 15
+
+  - id: 105
+    type: conversation
+    question: "Subiza ikibazo mu igifaransa"
+    bot_message: "Umeze ute?"
+    translation: "How are you?"
+    options:
+      - "Je suis heureux"
+      - "Elle est triste"
+      - "Il est en colère"
+    correct_response: "Je suis heureux"
+    xp_reward: 12
+
+  - id: 106
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe mu igifaransa"
+    bot_message: "Ushimishijwe n'iki?"
+    translation: "What are you excited about?"
+    word_bank: ["Je", "suis", "excité", "pour", "la", "fête", "ma", "famille"]
+    correct_response: ["Je", "suis", "excité", "pour", "la", "fête"]
+    xp_reward: 18
+
+  - id: 107
+    type: conversation
+    question: "Subiza ikibazo mu igifaransa"
+    bot_message: "Ute?"
+    translation: "How are you feeling?"
+    options:
+      - "Je me sens seul"
+      - "Je suis heureux"
+      - "Ils ont peur"
+    correct_response: "Je suis heureux"
+    xp_reward: 12
+
+  # 15. Story Exercise
+  - id: 108
+    type: story
+    title: "Amarangamutima Yanjye"
+    story_intro: "Soma inkuru y'amarangamutima. Hanyuma ubake interuro mu igifaransa."
+    story_segments:
+      - text: "I am happy."
+      - text: "She is sad."
+      - text: "He is angry."
+      - text: "They are scared."
+      - text: "I am excited about the party."
+      - text: "She is calm."
+      - text: "I love my family."
+      - text: "He is proud of his son."
+    exercises:
+      - type: word_bank
+        question: "Ubaka 'I am happy' mu igifaransa"
+        word_bank: ["Je", "suis", "heureux", "elle", "est", "triste"]
+        correct_answer: ["Je", "suis", "heureux"]
+      - type: word_bank
+        question: "Ubaka 'She is sad' mu igifaransa"
+        word_bank: ["Elle", "est", "triste", "je", "suis", "heureux"]
+        correct_answer: ["Elle", "est", "triste"]
+      - type: word_bank
+        question: "Ubaka 'He is angry' mu igifaransa"
+        word_bank: ["Il", "est", "en", "colère", "elle", "est", "triste"]
+        correct_answer: ["Il", "est", "en", "colère"]
+      - type: word_bank
+        question: "Ubaka 'They are scared' mu igifaransa"
+        word_bank: ["Ils", "ont", "peur", "il", "est", "en", "colère"]
+        correct_answer: ["Ils", "ont", "peur"]
+      - type: word_bank
+        question: "Ubaka 'I am excited about the party' mu igifaransa"
+        word_bank: ["Je", "suis", "excité", "pour", "la", "fête", "elle", "est", "calme"]
+        correct_answer: ["Je", "suis", "excité", "pour", "la", "fête"]
+      - type: word_bank
+        question: "Ubaka 'I love my family' mu igifaransa"
+        word_bank: ["J'", "aime", "ma", "famille", "il", "aime", "son", "fils"]
+        correct_answer: ["J'", "aime", "ma", "famille"]
+      - type: word_bank
+        question: "Ubaka 'He is proud of his son' mu igifaransa"
+        word_bank: ["Il", "est", "fier", "de", "son", "fils", "elle", "est", "calme"]
+        correct_answer: ["Il", "est", "fier", "de", "son", "fils"]
+    xp_reward: 45
+
+  # 16. Pronunciation Check
+  - id: 109
+    type: pronunciation
+    question: "Vuga iri jambo ry'amarangamutima mu igifaransa neza"
+    prompt: "Nishimiye"
+    translation: "Je suis heureux"
+    xp_reward: 15
+
+  - id: 110
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Arababaye"
+    translation: "Elle est triste"
+    xp_reward: 15
+
+  - id: 111
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Ararakaye"
+    translation: "Il est en colère"
+    xp_reward: 15
+
+  - id: 112
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Batinye"
+    translation: "Ils ont peur"
+    xp_reward: 15
+
+  - id: 113
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Nishimiye ibirori"
+    translation: "Je suis excité pour la fête"
+    xp_reward: 18
+
+  - id: 114
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Nkunda umuryango wanjye"
+    translation: "J'aime ma famille"
+    xp_reward: 18
+
+  - id: 115
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Arishimira umuhungu we"
+    translation: "Il est fier de son fils"
+    xp_reward: 20
+
+  # 17. Identify Correct Meaning
+  - id: 116
+    type: identify_meaning
+    question: "'Nishimiye' bisobanura iki mu igifaransa?"
+    context_sentence: "Nishimiye."
+    word: "Nishimiye"
+    options: ["Je suis triste", "Je suis heureux", "Je suis en colère", "J'ai peur"]
+    correct_answer: "Je suis heureux"
+    xp_reward: 15
+
+  - id: 117
+    type: identify_meaning
+    question: "'Arababaye' bisobanura iki mu igifaransa?"
+    context_sentence: "Arababaye."
+    word: "Arababaye"
+    options: ["Il est heureux", "Elle est triste", "Ils sont en colère", "Nous avons peur"]
+    correct_answer: "Elle est triste"
+    xp_reward: 15
+
+  - id: 118
+    type: identify_meaning
+    question: "'Batinye' bisobanura iki mu igifaransa?"
+    context_sentence: "Batinye."
+    word: "Batinye"
+    options: ["J'ai peur", "Tu as peur", "Ils ont peur", "Nous avons peur"]
+    correct_answer: "Ils ont peur"
+    xp_reward: 15
+
+  - id: 119
+    type: identify_meaning
+    question: "'Nkunda' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Nkunda umuryango wanjye."
+    word: "Nkunda"
+    options: ["Je déteste", "J'aime", "Je vois", "Je veux"]
+    correct_answer: "J'aime"
+    xp_reward: 15
+
+  - id: 120
+    type: identify_meaning
+    question: "'Kubeshya' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Arambiwe kubeshya."
+    word: "kubeshya"
+    options: ["vérité", "mensonges", "famille", "fête"]
+    correct_answer: "mensonges"
+    xp_reward: 18
+
+  # 18. Speed Matching
+  - id: 121
+    type: speed_matching
+    title: "Huza Byihuse: Amarangamutima"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Heureux"
+        right: "Nishimiye"
+      - left: "Triste"
+        right: "Arababaye"
+      - left: "En colère"
+        right: "Ararakaye"
+      - left: "Peur"
+        right: "Batinye"
+      - left: "Calme"
+        right: "Yatuje"
+      - left: "Seul"
+        right: "Nonyine"
+      - left: "Fier"
+        right: "Arishimira"
+      - left: "Amour"
+        right: "Nkunda"
+      - left: "Haine"
+        right: "Arambiwe"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 122
+    type: timed_challenge
+    title: "Kubahuka: Amarangamutima"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Nishimiye"
+        answer: "Heureux"
+      - question: "Arababaye"
+        answer: "Triste"
+      - question: "Ararakaye"
+        answer: "En colère"
+      - question: "Batinye"
+        answer: "Peur"
+      - question: "Yatuje"
+        answer: "Calme"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Heureux / Heureuse"
+      back: "Unezerewe / Nishimiye"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Triste"
+      back: "Umubabaro / Nshimishijwe n"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "En colère"
+      back: "Umujinya / Arakaye"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Effrayé / Peur"
+      back: "Gutinya / Atinya"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Surpris"
+      back: "Gutungurwa / Aratunguwe"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Excité"
+      back: "Akanyamuneza / Arishimye"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Calme"
+      back: "Amahoro / Yatuje"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Confus"
+      back: "Avugwaho / Yivangavanga"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Fatigué"
+      back: "Umunaniro / Ararushye"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Seul"
+      back: "Kumwe n"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

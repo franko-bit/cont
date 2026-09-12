@@ -1,0 +1,1024 @@
+lesson:
+  name: "Imyitwarire y'Ahazaza"
+  description: "Learn how to express conditions and possibilities in French"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Vocabulary ONLY (Safe for single words/phrases)
+  # Basic Conditional Words
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'Niba' mu igifaransa?"
+    answer: "Si"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'Iyo' mu igifaransa?"
+    answer: "Quand"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'Keretse' mu igifaransa?"
+    answer: "Sauf si"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'Hanyuma' mu igifaransa?"
+    answer: "Alors"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'Ashobora' mu igifaransa?"
+    answer: "Pourrait"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'Azakora' mu igifaransa?"
+    answer: "Fera"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'Byaba' mu igifaransa?"
+    answer: "Serait"
+    xp_reward: 15
+
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'Bashobora' mu igifaransa?"
+    answer: "Pourraient"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'Bikwiye' mu igifaransa?"
+    answer: "Devrait"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'Ashobora' mu igifaransa?"
+    answer: "Peut"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'Ntibishoboka' mu igifaransa?"
+    answer: "Impossible"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'Birashoboka' mu igifaransa?"
+    answer: "Possible"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'Mbere y'uko' mu igifaransa?"
+    answer: "Avant de"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'Nyuma y'uko' mu igifaransa?"
+    answer: "Après avoir"
+    xp_reward: 15
+
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'Buri gihe' mu igifaransa?"
+    answer: "Toujours"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'Nta na rimwe' mu igifaransa?"
+    answer: "Jamais"
+    xp_reward: 10
+
+  # Translation - Common Conditional Phrases
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Niba imvura iguye, nzaguma mu rugo' mu igifaransa?"
+    answer: "S'il pleut, je resterai à la maison"
+    xp_reward: 20
+
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Niba ngiye i Kigali, nzasura inshuti yanjye' mu igifaransa?"
+    answer: "Si je vais à Kigali, je rendrai visite à mon ami"
+    xp_reward: 20
+
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Niba wiga, uzatsinda' mu igifaransa?"
+    answer: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Niba aje, tuzatangira inama' mu igifaransa?"
+    answer: "S'il vient, nous commencerons la réunion"
+    xp_reward: 20
+
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Ntiwihutira, uzacika bisi' mu igifaransa?"
+    answer: "Sauf si tu te dépêches, tu rateras le bus"
+    xp_reward: 20
+
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Niba nari mfite amafaranga, nari kugura imodoka' mu igifaransa?"
+    answer: "Si j'avais de l'argent, j'achèterais une voiture"
+    xp_reward: 22
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Iyo yari hano, yashoboraga gufasha' mu igifaransa?"
+    answer: "Si elle était ici, elle pourrait aider"
+    xp_reward: 22
+
+  - id: 24
+    type: translation
+    question: "Wavuga ute 'Nari gutembera iyo nari mfite igihe kinini' mu igifaransa?"
+    answer: "Je voyagerais si j'avais plus de temps"
+    xp_reward: 22
+
+  - id: 25
+    type: translation
+    question: "Wavuga ute 'Bikwiye ko urya mbere yo kugenda' mu igifaransa?"
+    answer: "Tu devrais manger avant de partir"
+    xp_reward: 20
+
+  - id: 26
+    type: translation
+    question: "Wavuga ute 'Niba bishoboka, nzaza ejo' mu igifaransa?"
+    answer: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 27
+    type: multiple_choice
+    question: "'Niba' bisobanura iki mu igifaransa?"
+    options:
+      - "Quand"
+      - "Si"
+      - "Alors"
+      - "Après"
+    answer: "Si"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Iyo' bisobanura iki mu igifaransa?"
+    options:
+      - "Si"
+      - "Quand"
+      - "Alors"
+      - "Avant"
+    answer: "Quand"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Hanyuma' bisobanura iki mu igifaransa?"
+    options:
+      - "Avant"
+      - "Après"
+      - "Alors"
+      - "Quand"
+    answer: "Alors"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Birashoboka' bisobanura iki mu igifaransa?"
+    options:
+      - "Impossible"
+      - "Possible"
+      - "Toujours"
+      - "Jamais"
+    answer: "Possible"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Ntibishoboka' bisobanura iki mu igifaransa?"
+    options:
+      - "Possible"
+      - "Impossible"
+      - "Toujours"
+      - "Jamais"
+    answer: "Impossible"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Buri gihe' bisobanura iki mu igifaransa?"
+    options:
+      - "Jamais"
+      - "Toujours"
+      - "Parfois"
+      - "Souvent"
+    answer: "Toujours"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Nta na rimwe' bisobanura iki mu igifaransa?"
+    options:
+      - "Toujours"
+      - "Parfois"
+      - "Jamais"
+      - "Souvent"
+    answer: "Jamais"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 34
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo mu igifaransa"
+    tts_text: "Niba"
+    answer: "Si"
+    translation: "Niba"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo mu igifaransa"
+    tts_text: "Iyo"
+    answer: "Quand"
+    translation: "Iyo"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ijambo mu igifaransa"
+    tts_text: "Birashoboka"
+    answer: "Possible"
+    translation: "Birashoboka"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Niba imvura iguye, nzaguma mu rugo"
+    answer: "S'il pleut, je resterai à la maison"
+    translation: "Niba imvura iguye, nzaguma mu rugo"
+    xp_reward: 25
+
+  - id: 38
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Niba wiga, uzatsinda"
+    answer: "Si tu étudies, tu réussiras"
+    translation: "Niba wiga, uzatsinda"
+    xp_reward: 22
+
+  - id: 39
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Niba bishoboka, nzaza ejo"
+    answer: "Si c'est possible, je viendrai demain"
+    translation: "Niba bishoboka, nzaza ejo"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 40
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ijambo rikwiye mu igifaransa"
+    tts_text: "Niba"
+    options:
+      - "Quand"
+      - "Si"
+      - "Alors"
+    answer: "Si"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo ijambo rikwiye mu igifaransa"
+    tts_text: "Birashoboka"
+    options:
+      - "Impossible"
+      - "Possible"
+      - "Toujours"
+    answer: "Possible"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye mu igifaransa"
+    tts_text: "Niba wiga, uzatsinda"
+    options:
+      - "Si tu étudies, tu réussiras"
+      - "S'il pleut, je resterai à la maison"
+      - "Si c'est possible, je viendrai"
+    answer: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 43
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye mu igifaransa"
+    tts_text: "Niba bishoboka, nzaza ejo"
+    options:
+      - "S'il pleut, je resterai à la maison"
+      - "Si c'est possible, je viendrai demain"
+      - "Si tu étudies, tu réussiras"
+    answer: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 44
+    type: speaking
+    question: "Vuga iri jambo mu igifaransa"
+    prompt: "Niba"
+    translation: "Si"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Vuga iri jambo mu igifaransa"
+    prompt: "Birashoboka"
+    translation: "Possible"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Niba imvura iguye, nzaguma mu rugo"
+    translation: "S'il pleut, je resterai à la maison"
+    xp_reward: 20
+
+  - id: 47
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Niba wiga, uzatsinda"
+    translation: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Niba bishoboka, nzaza ejo"
+    translation: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 6. Word Bank Sentence Building
+  - id: 49
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Niba imvura iguye, nzaguma mu rugo'"
+    word_bank: ["S'", "il", "pleut", "je", "resterai", "à", "la", "maison", "irai", "dehors"]
+    correct_answer: ["S'", "il", "pleut", "je", "resterai", "à", "la", "maison"]
+    xp_reward: 22
+
+  - id: 50
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Niba ngiye i Kigali, nzasura inshuti yanjye'"
+    word_bank: ["Si", "je", "vais", "à", "Kigali", "je", "rendrai", "visite", "à", "mon", "ami"]
+    correct_answer: ["Si", "je", "vais", "à", "Kigali", "je", "rendrai", "visite", "à", "mon", "ami"]
+    xp_reward: 25
+
+  - id: 51
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Niba wiga, uzatsinda'"
+    word_bank: ["Si", "tu", "étudies", "tu", "réussiras", "échoueras", "travailles"]
+    correct_answer: ["Si", "tu", "étudies", "tu", "réussiras"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Niba aje, tuzatangira inama'"
+    word_bank: ["S'", "il", "vient", "nous", "commencerons", "la", "réunion", "classe"]
+    correct_answer: ["S'", "il", "vient", "nous", "commencerons", "la", "réunion"]
+    xp_reward: 22
+
+  - id: 53
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Niba nari mfite amafaranga, nari kugura imodoka'"
+    word_bank: ["Si", "j'", "avais", "de", "l'", "argent", "j'", "achèterais", "une", "voiture", "maison"]
+    correct_answer: ["Si", "j'", "avais", "de", "l'", "argent", "j'", "achèterais", "une", "voiture"]
+    xp_reward: 28
+
+  - id: 54
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Iyo yari hano, yashoboraga gufasha'"
+    word_bank: ["Si", "elle", "était", "ici", "elle", "pourrait", "aider", "venir", "travailler"]
+    correct_answer: ["Si", "elle", "était", "ici", "elle", "pourrait", "aider"]
+    xp_reward: 25
+
+  - id: 55
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Bikwiye ko urya mbere yo kugenda'"
+    word_bank: ["Tu", "devrais", "manger", "avant", "de", "partir", "après", "venir"]
+    correct_answer: ["Tu", "devrais", "manger", "avant", "de", "partir"]
+    xp_reward: 22
+
+  - id: 56
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Niba bishoboka, nzaza ejo'"
+    word_bank: ["Si", "c'", "est", "possible", "je", "viendrai", "demain", "aujourd'hui"]
+    correct_answer: ["Si", "c'", "est", "possible", "je", "viendrai", "demain"]
+    xp_reward: 18
+
+  # 7. Sentence Scramble
+  - id: 57
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Niba imvura iguye, nzaguma mu rugo'"
+    scrambled_words: ["pleut", "S'", "il", "je", "resterai", "à", "la", "maison"]
+    correct_sentence: "S'il pleut, je resterai à la maison"
+    translation: "Niba imvura iguye, nzaguma mu rugo"
+    xp_reward: 22
+
+  - id: 58
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Niba wiga, uzatsinda'"
+    scrambled_words: ["tu", "Si", "étudies", "tu", "réussiras"]
+    correct_sentence: "Si tu étudies, tu réussiras"
+    translation: "Niba wiga, uzatsinda"
+    xp_reward: 18
+
+  - id: 59
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Niba aje, tuzatangira inama'"
+    scrambled_words: ["il", "S'", "vient", "nous", "commencerons", "la", "réunion"]
+    correct_sentence: "S'il vient, nous commencerons la réunion"
+    translation: "Niba aje, tuzatangira inama"
+    xp_reward: 22
+
+  - id: 60
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Ntiwihutira, uzacika bisi'"
+    scrambled_words: ["dépêches", "Sauf", "si", "tu", "te", "tu", "rateras", "le", "bus"]
+    correct_sentence: "Sauf si tu te dépêches, tu rateras le bus"
+    translation: "Ntiwihutira, uzacika bisi"
+    xp_reward: 20
+
+  - id: 61
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Iyo yari hano, yashoboraga gufasha'"
+    scrambled_words: ["elle", "Si", "était", "ici", "elle", "pourrait", "aider"]
+    correct_sentence: "Si elle était ici, elle pourrait aider"
+    translation: "Iyo yari hano, yashoboraga gufasha"
+    xp_reward: 25
+
+  - id: 62
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Bikwiye ko urya mbere yo kugenda'"
+    scrambled_words: ["devrais", "Tu", "manger", "avant", "de", "partir"]
+    correct_sentence: "Tu devrais manger avant de partir"
+    translation: "Bikwiye ko urya mbere yo kugenda"
+    xp_reward: 22
+
+  - id: 63
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Niba bishoboka, nzaza ejo'"
+    scrambled_words: ["est", "Si", "c'", "possible", "je", "viendrai", "demain"]
+    correct_sentence: "Si c'est possible, je viendrai demain"
+    translation: "Niba bishoboka, nzaza ejo"
+    xp_reward: 18
+
+  # 8. Fill in the Blank
+  - id: 64
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "___ il pleut, je resterai à la maison."
+    options: ["Si", "Quand", "Alors"]
+    correct_answer: "Si"
+    translation: "Niba imvura iguye, nzaguma mu rugo"
+    xp_reward: 15
+
+  - id: 65
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Si tu étudies, tu ___."
+    options: ["réussiras", "échoueras", "partiras"]
+    correct_answer: "réussiras"
+    translation: "Niba wiga, uzatsinda"
+    xp_reward: 15
+
+  - id: 66
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "S'il vient, nous commencerons la ___."
+    options: ["réunion", "école", "route"]
+    correct_answer: "réunion"
+    translation: "Niba aje, tuzatangira inama"
+    xp_reward: 18
+
+  - id: 67
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Sauf si tu te dépêches, tu ___ le bus."
+    options: ["rateras", "attraperas", "prendras"]
+    correct_answer: "rateras"
+    translation: "Ntiwihutira, uzacika bisi"
+    xp_reward: 18
+
+  - id: 68
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Si elle était ici, elle pourrait ___."
+    options: ["aider", "partir", "venir"]
+    correct_answer: "aider"
+    translation: "Iyo yari hano, yashoboraga gufasha"
+    xp_reward: 18
+
+  - id: 69
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Tu devrais manger ___ de partir."
+    options: ["avant", "après", "alors"]
+    correct_answer: "avant"
+    translation: "Bikwiye ko urya mbere yo kugenda"
+    xp_reward: 18
+
+  - id: 70
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro mu igifaransa"
+    text_with_blank: "Si c'est possible, je viendrai ___."
+    options: ["demain", "aujourd'hui", "hier"]
+    correct_answer: "demain"
+    translation: "Niba bishoboka, nzaza ejo"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 71
+    type: picture_word
+    question: "Iki ni iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?rain"
+    options: ["Pluie", "Soleil", "Vent"]
+    correct_answer: "Pluie"
+    xp_reward: 10
+
+  - id: 72
+    type: picture_word
+    question: "Iki ni iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?studying"
+    options: ["Étudier", "Travailler", "Manger"]
+    correct_answer: "Étudier"
+    xp_reward: 10
+
+  - id: 73
+    type: picture_word
+    question: "Iki ni iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?money"
+    options: ["Argent", "Livre", "Maison"]
+    correct_answer: "Argent"
+    xp_reward: 10
+
+  - id: 74
+    type: picture_word
+    question: "Iki ni iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?car"
+    options: ["Voiture", "Bus", "Vélo"]
+    correct_answer: "Voiture"
+    xp_reward: 10
+
+  - id: 75
+    type: picture_word
+    question: "Iki ni iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?helping"
+    options: ["Aider", "Pleurer", "Rire"]
+    correct_answer: "Aider"
+    xp_reward: 10
+
+  - id: 76
+    type: picture_word
+    question: "Iki ni iki mu igifaransa?"
+    image_url: "https://source.unsplash.com/featured/?bus"
+    options: ["Bus", "Voiture", "Avion"]
+    correct_answer: "Bus"
+    xp_reward: 10
+
+  # 10. Word Matching
+  - id: 77
+    type: matching
+    question: "Huza amagambo y'imyitwarire mu igifaransa"
+    pairs:
+      - left: "Si"
+        right: "Niba"
+      - left: "Quand"
+        right: "Iyo"
+      - left: "Alors"
+        right: "Hanyuma"
+      - left: "Avant de"
+        right: "Mbere y'uko"
+      - left: "Après avoir"
+        right: "Nyuma y'uko"
+      - left: "Toujours"
+        right: "Buri gihe"
+      - left: "Jamais"
+        right: "Nta na rimwe"
+      - left: "Possible"
+        right: "Birashoboka"
+      - left: "Impossible"
+        right: "Ntibishoboka"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Huza inshinga z'uburyo mu igifaransa"
+    pairs:
+      - left: "Pourrait"
+        right: "Ashobora"
+      - left: "Fera"
+        right: "Azakora"
+      - left: "Serait"
+        right: "Byaba"
+      - left: "Pourraient"
+        right: "Bashobora"
+      - left: "Devrait"
+        right: "Bikwiye"
+      - left: "Peut"
+        right: "Ashobora"
+    xp_reward: 20
+
+  - id: 79
+    type: matching
+    question: "Huza ibice by'interuro mu igifaransa"
+    pairs:
+      - left: "S'il pleut"
+        right: "je resterai à la maison"
+      - left: "Si tu étudies"
+        right: "tu réussiras"
+      - left: "S'il vient"
+        right: "nous commencerons la réunion"
+      - left: "Si c'est possible"
+        right: "je viendrai demain"
+      - left: "Si je vais à Kigali"
+        right: "je rendrai visite à mon ami"
+    xp_reward: 25
+
+  # 11. Choose Missing Word
+  - id: 80
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "___ il pleut, je resterai à la maison."
+    missing_word_position: 1
+    options: ["Si", "Quand", "Alors"]
+    correct_answer: "Si"
+    translation: "Niba imvura iguye, nzaguma mu rugo"
+    xp_reward: 15
+
+  - id: 81
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Si tu étudies, tu ___."
+    missing_word_position: 4
+    options: ["réussiras", "échoueras", "partiras"]
+    correct_answer: "réussiras"
+    translation: "Niba wiga, uzatsinda"
+    xp_reward: 15
+
+  - id: 82
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "S'il vient, nous commencerons la ___."
+    missing_word_position: 6
+    options: ["réunion", "école", "route"]
+    correct_answer: "réunion"
+    translation: "Niba aje, tuzatangira inama"
+    xp_reward: 18
+
+  - id: 83
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Sauf si tu te dépêches, tu ___ le bus."
+    missing_word_position: 7
+    options: ["rateras", "attraperas", "prendras"]
+    correct_answer: "rateras"
+    translation: "Ntiwihutira, uzacika bisi"
+    xp_reward: 18
+
+  - id: 84
+    type: choose_missing
+    question: "Hitamo ijambo ribuze mu igifaransa"
+    sentence: "Si c'est possible, je viendrai ___."
+    missing_word_position: 6
+    options: ["demain", "aujourd'hui", "hier"]
+    correct_answer: "demain"
+    translation: "Niba bishoboka, nzaza ejo"
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 85
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Niba imvura iguye, nzaguma mu rugo."
+    question: "Ni iki kizabaho niba imvura iguye?"
+    options: ["Je sortirai", "Je resterai à la maison", "J'irai à l'école", "Je travaillerai"]
+    correct_answer: "Je resterai à la maison"
+    xp_reward: 15
+
+  - id: 86
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Niba wiga, uzatsinda."
+    question: "Ni iki kizabaho niba wiga?"
+    options: ["Tu échoueras", "Tu réussiras", "Tu joueras", "Tu dormiras"]
+    correct_answer: "Tu réussiras"
+    xp_reward: 15
+
+  - id: 87
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Niba aje, tuzatangira inama."
+    question: "Bazatangira ryari inama?"
+    options: ["S'il vient", "S'il pleut", "Si elle étudie", "S'ils travaillent"]
+    correct_answer: "S'il vient"
+    xp_reward: 18
+
+  - id: 88
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Niba nari mfite amafaranga, nari kugura imodoka."
+    question: "Nari kugura iki iyo nari mfite amafaranga?"
+    options: ["Une maison", "Une voiture", "De la nourriture", "Des vêtements"]
+    correct_answer: "Une voiture"
+    xp_reward: 18
+
+  - id: 89
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo mu igifaransa"
+    text: "Niba bishoboka, nzaza ejo."
+    question: "Nzaza ryari niba bishoboka?"
+    options: ["Aujourd'hui", "Demain", "La semaine prochaine", "Jamais"]
+    correct_answer: "Demain"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 90
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Niba' means 'when'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 91
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Birashoboka' means 'possible'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 92
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Niba wiga, uzatsinda' means 'If you study, you will succeed'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 93
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Ntiwihutira, uzacika bisi' means 'If you hurry, you will catch the bus'."
+    correct_answer: false
+    xp_reward: 15
+
+  - id: 94
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "'Buri gihe' means 'never'."
+    correct_answer: false
+    xp_reward: 10
+
+  # 14. Conversation Exercise
+  - id: 95
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe mu igifaransa"
+    bot_message: "Uzakora iki niba imvura iguye?"
+    translation: "What will you do if it rains?"
+    word_bank: ["Je", "resterai", "à", "la", "maison", "irai", "dehors", "travaillerai"]
+    correct_response: ["Je", "resterai", "à", "la", "maison"]
+    xp_reward: 18
+
+  - id: 96
+    type: conversation
+    question: "Subiza ikibazo mu igifaransa"
+    bot_message: "Niba wiga, uzatsinda?"
+    translation: "If you study, will you succeed?"
+    options:
+      - "Oui, je réussirai"
+      - "Non, je ne réussirai pas"
+      - "C'est impossible"
+    correct_response: "Oui, je réussirai"
+    xp_reward: 15
+
+  - id: 97
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe mu igifaransa"
+    bot_message: "Uzakora iki niba ufite amafaranga?"
+    translation: "What will you do if you have money?"
+    word_bank: ["Je", "achèterai", "une", "voiture", "maison", "nourriture"]
+    correct_response: ["Je", "achèterai", "une", "voiture"]
+    xp_reward: 20
+
+  - id: 98
+    type: conversation
+    question: "Subiza ikibazo mu igifaransa"
+    bot_message: "Niba bishoboka, uzaza ejo?"
+    translation: "If it is possible, will you come tomorrow?"
+    options:
+      - "Oui, je viendrai demain"
+      - "Non, je ne viendrai pas"
+      - "C'est impossible"
+    correct_response: "Oui, je viendrai demain"
+    xp_reward: 15
+
+  # 15. Story Exercise
+  - id: 99
+    type: story
+    title: "Imigambi n'Imyitwarire"
+    story_intro: "Soma inkuru y'imigambi n'imyitwarire. Hanyuma ubake interuro mu igifaransa."
+    story_segments:
+      - text: "If it rains, I will stay home."
+      - text: "If you study, you will succeed."
+      - text: "If he comes, we will start the meeting."
+      - text: "If I had money, I would buy a car."
+      - text: "If it is possible, I will come tomorrow."
+    exercises:
+      - type: word_bank
+        question: "Ubaka 'If it rains, I will stay home' mu igifaransa"
+        word_bank: ["S'", "il", "pleut", "je", "resterai", "à", "la", "maison", "irai", "dehors"]
+        correct_answer: ["S'", "il", "pleut", "je", "resterai", "à", "la", "maison"]
+      - type: word_bank
+        question: "Ubaka 'If you study, you will succeed' mu igifaransa"
+        word_bank: ["Si", "tu", "étudies", "tu", "réussiras", "échoueras"]
+        correct_answer: ["Si", "tu", "étudies", "tu", "réussiras"]
+      - type: word_bank
+        question: "Ubaka 'If he comes, we will start the meeting' mu igifaransa"
+        word_bank: ["S'", "il", "vient", "nous", "commencerons", "la", "réunion", "classe"]
+        correct_answer: ["S'", "il", "vient", "nous", "commencerons", "la", "réunion"]
+      - type: word_bank
+        question: "Ubaka 'If I had money, I would buy a car' mu igifaransa"
+        word_bank: ["Si", "j'", "avais", "de", "l'", "argent", "j'", "achèterais", "une", "voiture", "maison"]
+        correct_answer: ["Si", "j'", "avais", "de", "l'", "argent", "j'", "achèterais", "une", "voiture"]
+      - type: word_bank
+        question: "Ubaka 'If it is possible, I will come tomorrow' mu igifaransa"
+        word_bank: ["Si", "c'", "est", "possible", "je", "viendrai", "demain", "aujourd'hui"]
+        correct_answer: ["Si", "c'", "est", "possible", "je", "viendrai", "demain"]
+    xp_reward: 45
+
+  # 16. Pronunciation Check
+  - id: 100
+    type: pronunciation
+    question: "Vuga iri jambo mu igifaransa neza"
+    prompt: "Niba"
+    translation: "Si"
+    xp_reward: 15
+
+  - id: 101
+    type: pronunciation
+    question: "Vuga iri jambo mu igifaransa neza"
+    prompt: "Birashoboka"
+    translation: "Possible"
+    xp_reward: 15
+
+  - id: 102
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Niba imvura iguye, nzaguma mu rugo"
+    translation: "S'il pleut, je resterai à la maison"
+    xp_reward: 22
+
+  - id: 103
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Niba wiga, uzatsinda"
+    translation: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 104
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Niba bishoboka, nzaza ejo"
+    translation: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 17. Identify Correct Meaning
+  - id: 105
+    type: identify_meaning
+    question: "'Niba' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+    word: "Niba"
+    options: ["Quand", "Si", "Alors", "Après"]
+    correct_answer: "Si"
+    xp_reward: 15
+
+  - id: 106
+    type: identify_meaning
+    question: "'Uzatsinda' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Niba wiga, uzatsinda."
+    word: "uzatsinda"
+    options: ["tu échoueras", "tu réussiras", "tu étudieras", "tu travailleras"]
+    correct_answer: "tu réussiras"
+    xp_reward: 15
+
+  - id: 107
+    type: identify_meaning
+    question: "'Tuzatangira' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Niba aje, tuzatangira inama."
+    word: "tuzatangira"
+    options: ["nous finirons", "nous commencerons", "nous assisterons", "nous partirons"]
+    correct_answer: "nous commencerons"
+    xp_reward: 15
+
+  - id: 108
+    type: identify_meaning
+    question: "'Bishoboka' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Niba bishoboka, nzaza ejo."
+    word: "bishoboka"
+    options: ["c'est possible", "c'est impossible", "c'est bon", "c'est mauvais"]
+    correct_answer: "c'est possible"
+    xp_reward: 15
+
+  # 18. Speed Matching
+  - id: 109
+    type: speed_matching
+    title: "Huza Byihuse: Imyitwarire"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Si"
+        right: "Niba"
+      - left: "Quand"
+        right: "Iyo"
+      - left: "Alors"
+        right: "Hanyuma"
+      - left: "Possible"
+        right: "Birashoboka"
+      - left: "Impossible"
+        right: "Ntibishoboka"
+      - left: "Toujours"
+        right: "Buri gihe"
+      - left: "Jamais"
+        right: "Nta na rimwe"
+      - left: "Avant de"
+        right: "Mbere y'uko"
+      - left: "Après avoir"
+        right: "Nyuma y'uko"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 110
+    type: timed_challenge
+    title: "Kubahuka: Imyitwarire"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Niba"
+        answer: "Si"
+      - question: "Iyo"
+        answer: "Quand"
+      - question: "Birashoboka"
+        answer: "Possible"
+      - question: "Buri gihe"
+        answer: "Toujours"
+      - question: "Nta na rimwe"
+        answer: "Jamais"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Si"
+      back: "Niba"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Quand"
+      back: "Iyo"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Sauf si"
+      back: "Keretse"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Alors"
+      back: "Hanyuma"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Pourrait"
+      back: "Ashobora"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Fera"
+      back: "Azakora"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Serait"
+      back: "Byaba"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Pourraient"
+      back: "Bashobora"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Devrait"
+      back: "Bikwiye"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Peut"
+      back: "Ashobora"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

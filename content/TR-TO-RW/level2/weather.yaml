@@ -1,0 +1,1294 @@
+lesson:
+ name: "Hava - Ibihe by'ikirere"
+ description: "Öğren Hava expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Hava Words ONLY (Safe for single words)
+ # Basic Hava Words
+ - id: 1
+ type: translation
+ Soru: "Nasıl dersin 'Hava' Kinyarwanda'da?"
+ Cevap: "Ibihe by'ikirere"
+ xp_reward: 15
+
+ - id: 2
+ type: translation
+ Soru: "Nasıl dersin 'Sun' Kinyarwanda'da?"
+ Cevap: "Izuba"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Soru: "Nasıl dersin 'Rain' Kinyarwanda'da?"
+ Cevap: "Imvura"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Soru: "Nasıl dersin 'Snow' Kinyarwanda'da?"
+ Cevap: "Urubura"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Soru: "Nasıl dersin 'Cloud' Kinyarwanda'da?"
+ Cevap: "Igicu"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Soru: "Nasıl dersin 'Wind' Kinyarwanda'da?"
+ Cevap: "Umuyaga"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Soru: "Nasıl dersin 'Storm' Kinyarwanda'da?"
+ Cevap: "Umuyaga ukomeye"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Soru: "Nasıl dersin 'Thunder' Kinyarwanda'da?"
+ Cevap: "Inkubi y'umuyaga"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Soru: "Nasıl dersin 'Lightning' Kinyarwanda'da?"
+ Cevap: "Umuriro w'amashanyarazi"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Soru: "Nasıl dersin 'Hot' Kinyarwanda'da?"
+ Cevap: "Harashyushye"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Soru: "Nasıl dersin 'Cold' Kinyarwanda'da?"
+ Cevap: "Bikonje"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Soru: "Nasıl dersin 'Warm' Kinyarwanda'da?"
+ Cevap: "Harashyushye buhoro"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Soru: "Nasıl dersin 'Cool' Kinyarwanda'da?"
+ Cevap: "Bikonje buhoro"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Soru: "Nasıl dersin 'Humid' Kinyarwanda'da?"
+ Cevap: "Humide"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Soru: "Nasıl dersin 'Fog' Kinyarwanda'da?"
+ Cevap: "Igitugu"
+ xp_reward: 10
+
+ # Cümle About Hava
+ - id: 16
+ type: translation
+ Soru: "Nasıl dersin 'The sun is shining' Kinyarwanda'da?"
+ Cevap: "Izuba rirarashe."
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Soru: "Nasıl dersin 'It is raining' Kinyarwanda'da?"
+ Cevap: "Harimo kugwa imvura"
+ xp_reward: 18
+
+ - id: 18
+ type: translation
+ Soru: "Nasıl dersin 'The snow is falling' Kinyarwanda'da?"
+ Cevap: "Urubura ruragwa."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Soru: "Nasıl dersin 'The wind is strong' Kinyarwanda'da?"
+ Cevap: "Umuyaga urakomeye."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Soru: "Nasıl dersin 'The sky is cloudy' Kinyarwanda'da?"
+ Cevap: "Ijuru ryuzuye ibicu."
+ xp_reward: 18
+
+ - id: 21
+ type: translation
+ Soru: "Nasıl dersin 'It is hot today' Kinyarwanda'da?"
+ Cevap: "Uyu munsi Harashyushye."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Soru: "Nasıl dersin 'It is cold outside' Kinyarwanda'da?"
+ Cevap: "Hanze hariho ubukonje."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Soru: "Nasıl dersin 'The Hava is nice' Kinyarwanda'da?"
+ Cevap: "Ibihe by'ikirere ni byiza."
+ xp_reward: 15
+
+ # Daily Hava Expressions
+ - id: 24
+ type: translation
+ Soru: "Nasıl dersin 'Good morning! It is sunny' Kinyarwanda'da?"
+ Cevap: "Mwaramutse! Izuba rirarashe."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Soru: "Nasıl dersin 'It will rain today' Kinyarwanda'da?"
+ Cevap: "Uyu munsi hazagwa imvura."
+ xp_reward: 18
+
+ - id: 26
+ type: translation
+ Soru: "Nasıl dersin 'The wind is blowing' Kinyarwanda'da?"
+ Cevap: "Umuyaga urahuma."
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Soru: "Nasıl dersin 'Be careful, it is slippery' Kinyarwanda'da?"
+ Cevap: "Wirinde, birashobora gusogongera."
+ xp_reward: 20
+
+ - id: 28
+ type: translation
+ Soru: "Nasıl dersin 'It is cloudy today' Kinyarwanda'da?"
+ Cevap: "Uyu munsi ijuru ryuzuye ibicu."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Izuba' bu cümlede?"
+ options:
+ - "Rain"
+ - "Sun"
+ - "Wind"
+ - "Cloud"
+ Cevap: "Sun"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Imvura' bu cümlede?"
+ options:
+ - "Snow"
+ - "Rain"
+ - "Storm"
+ - "Fog"
+ Cevap: "Rain"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Umuyaga' bu cümlede?"
+ options:
+ - "Sun"
+ - "Cloud"
+ - "Wind"
+ - "Storm"
+ Cevap: "Wind"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Harashyushye' bu cümlede?"
+ options:
+ - "Cold"
+ - "Hot"
+ - "Warm"
+ - "Cool"
+ Cevap: "Hot"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Bikonje' bu cümlede?"
+ options:
+ - "Hot"
+ - "Warm"
+ - "Cold"
+ - "Cool"
+ Cevap: "Cold"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Izuba rirarashe' bu cümlede?"
+ options:
+ - "It is raining"
+ - "The sun is shining"
+ - "The wind is strong"
+ - "The sky is cloudy"
+ Cevap: "The sun is shining"
+ xp_reward: 18
+
+ # 3. Dinle and Type (Dictation)
+ - id: 35
+ type: listen_and_type
+ Soru: "Dinle and type the Hava word"
+ audio: "Izuba"
+ Cevap: "Izuba"
+ translation: "Sun"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Soru: "Dinle and type the Hava word"
+ audio: "Imvura"
+ Cevap: "Imvura"
+ translation: "Rain"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Soru: "Dinle and type the Hava word"
+ audio: "Umuyaga"
+ Cevap: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Soru: "Dinle and type the Hava word"
+ audio: "Urubura"
+ Cevap: "Urubura"
+ translation: "Snow"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ Soru: "Dinle and type the phrase"
+ audio: "Izuba rirarashe"
+ Cevap: "Izuba rirarashe"
+ translation: "The sun is shining"
+ xp_reward: 22
+
+ - id: 40
+ type: listen_and_type
+ Soru: "Dinle and type the phrase"
+ audio: "Harimo kugwa imvura"
+ Cevap: "Harimo kugwa imvura"
+ translation: "It is raining"
+ xp_reward: 25
+
+ - id: 41
+ type: listen_and_type
+ Soru: "Dinle and type the phrase"
+ audio: "Uyu munsi birishyushye"
+ Cevap: "Uyu munsi birishyushye"
+ translation: "It is hot today"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_and_type
+ Soru: "Dinle and type the expression"
+ audio: "Mwaramutse Izuba ryarashe"
+ Cevap: "Mwaramutse Izuba ryarashe"
+ translation: "Good morning! The sun is shining"
+ xp_reward: 25
+
+ # 4. Dinle and Seç
+ - id: 43
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct Hava word"
+ audio: "Izuba"
+ options:
+ - "Rain"
+ - "Sun"
+ - "Wind"
+ Cevap: "Sun"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct Hava word"
+ audio: "Imvura"
+ options:
+ - "Snow"
+ - "Rain"
+ - "Cloud"
+ Cevap: "Rain"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct Hava word"
+ audio: "Umuyaga"
+ options:
+ - "Sun"
+ - "Wind"
+ - "Storm"
+ Cevap: "Wind"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct phrase"
+ audio: "Izuba rirarashe"
+ options:
+ - "It is raining"
+ - "The sun is shining"
+ - "The wind is strong"
+ Cevap: "The sun is shining"
+ xp_reward: 18
+
+ - id: 47
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct phrase"
+ audio: "Harimo kugwa imvura"
+ options:
+ - "It is hot today"
+ - "It is raining"
+ - "The sky is cloudy"
+ Cevap: "It is raining"
+ xp_reward: 20
+
+ # 5. Repeat / Konuş Exercise
+ - id: 48
+ type: Konuş
+ Soru: "Say this Hava word"
+ prompt: "Izuba"
+ translation: "Sun"
+ xp_reward: 15
+
+ - id: 49
+ type: Konuş
+ Soru: "Say this Hava word"
+ prompt: "Imvura"
+ translation: "Rain"
+ xp_reward: 15
+
+ - id: 50
+ type: Konuş
+ Soru: "Say this Hava word"
+ prompt: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 15
+
+ - id: 51
+ type: Konuş
+ Soru: "Say this Hava word"
+ prompt: "Urubura"
+ translation: "Snow"
+ xp_reward: 15
+
+ - id: 52
+ type: Konuş
+ Soru: "Say this phrase"
+ prompt: "Izuba rirarashe"
+ translation: "The sun is shining"
+ xp_reward: 18
+
+ - id: 53
+ type: Konuş
+ Soru: "Say this phrase"
+ prompt: "Harimo kugwa imvura"
+ translation: "It is raining"
+ xp_reward: 20
+
+ - id: 54
+ type: Konuş
+ Soru: "Say this phrase"
+ prompt: "Uyu munsi birishyushye"
+ translation: "It is hot today"
+ xp_reward: 18
+
+ - id: 55
+ type: Konuş
+ Soru: "Say this expression"
+ prompt: "Mwaramutse Izuba ryarashe"
+ translation: "Good morning! The sun is shining"
+ xp_reward: 22
+
+ # 6. Word Bank Cümle Building - PIECES PROVIDED
+ - id: 56
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The sun is shining'"
+ word_bank: ["Izuba", "rirakaza", "imvura", "irakaza", "umuyaga"]
+ correct_answer: ["Izuba", "rirakaza"]
+ xp_reward: 15
+
+ - id: 57
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'It is raining'"
+ word_bank: ["Birimo", "kugwa", "imvura", "urubura", "ruragwa"]
+ correct_answer: ["Birimo", "kugwa", "imvura"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The snow is falling'"
+ word_bank: ["Urubura", "ruragwa", "imvura", "irakaza", "izuba"]
+ correct_answer: ["Urubura", "ruragwa"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The wind is strong'"
+ word_bank: ["Umuyaga", "urakomeye", "izuba", "rirakaza", "imvura"]
+ correct_answer: ["Umuyaga", "urakomeye"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The sky is cloudy'"
+ word_bank: ["Ijuru", "ryuzuye", "ibicu", "izuba", "rirakaza", "umuyaga"]
+ correct_answer: ["Ijuru", "ryuzuye", "ibicu"]
+ xp_reward: 18
+
+ - id: 61
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'It is hot today'"
+ word_bank: ["Uyu", "munsi", "birishyushye", "bikonje", "ubukonje"]
+ correct_answer: ["Uyu", "munsi", "birishyushye"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'It is cold outside'"
+ word_bank: ["Hanze", "hariho", "ubukonje", "birishyushye", "umuyaga"]
+ correct_answer: ["Hanze", "hariho", "ubukonje"]
+ xp_reward: 15
+
+ - id: 63
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Hava is nice'"
+ word_bank: ["Ibihe", "by'ikirere", "ni", "byiza", "ibicu", "ryuzuye"]
+ correct_answer: ["Ibihe", "by'ikirere", "ni", "byiza"]
+ xp_reward: 18
+
+ - id: 64
+ type: word_bank
+ Soru: "Build the Kinyarwanda expression for 'Good morning! It is sunny'"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_answer: ["Mwaramutse", "Izuba", "rirakaza"]
+ xp_reward: 18
+
+ - id: 65
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'It will rain today'"
+ word_bank: ["Uyu", "munsi", "hazagwa", "imvura", "urubura", "ruragwa"]
+ correct_answer: ["Uyu", "munsi", "hazagwa", "imvura"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The wind is blowing'"
+ word_bank: ["Umuyaga", "urahuma", "urakomeye", "izuba", "rirakaza"]
+ correct_answer: ["Umuyaga", "urahuma"]
+ xp_reward: 15
+
+ - id: 67
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'Be careful, it is slippery'"
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "hanze", "hariho", "ubukonje"]
+ correct_answer: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'It is cloudy today'"
+ word_bank: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu", "birishyushye"]
+ correct_answer: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu"]
+ xp_reward: 20
+
+ # 7. Cümle Scramble - PIECES PROVIDED
+ - id: 69
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Izuba", "rirakaza"]
+ correct_sentence: "Izuba rirarashe."
+ translation: "The sun is shining."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Birimo", "kugwa", "imvura"]
+ correct_sentence: "Harimo kugwa imvura."
+ translation: "It is raining."
+ xp_reward: 20
+
+ - id: 71
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Urubura", "ruragwa"]
+ correct_sentence: "Urubura ruragwa."
+ translation: "The snow is falling."
+ xp_reward: 15
+
+ - id: 72
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Umuyaga", "urakomeye"]
+ correct_sentence: "Umuyaga urakomeye."
+ translation: "The wind is strong."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Ijuru", "ryuzuye", "ibicu"]
+ correct_sentence: "Ijuru ryuzuye ibicu."
+ translation: "The sky is cloudy."
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Uyu", "munsi", "birishyushye"]
+ correct_sentence: "Uyu munsi birishyushye."
+ translation: "It is hot today."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Hanze", "hariho", "ubukonje"]
+ correct_sentence: "Hanze hariho ubukonje."
+ translation: "It is cold outside."
+ xp_reward: 15
+
+ - id: 76
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Ibihe", "by'ikirere", "ni", "byiza"]
+ correct_sentence: "Ibihe by'ikirere ni byiza."
+ translation: "The Hava is nice."
+ xp_reward: 18
+
+ - id: 77
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct expression"
+ scrambled_words: ["Mwaramutse", "Izuba", "rirakaza"]
+ correct_sentence: "Mwaramutse! Izuba rirarashe."
+ translation: "Good morning! The sun is shining."
+ xp_reward: 18
+
+ - id: 78
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Uyu", "munsi", "hazagwa", "imvura"]
+ correct_sentence: "Uyu munsi hazagwa imvura."
+ translation: "It will rain today."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Umuyaga", "urahuma"]
+ correct_sentence: "Umuyaga urahuma."
+ translation: "The wind is blowing."
+ xp_reward: 15
+
+ - id: 80
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Wirinde", "birashobora", "gusogongera"]
+ correct_sentence: "Wirinde, birashobora gusogongera."
+ translation: "Be careful, it is slippery."
+ xp_reward: 22
+
+ - id: 81
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu"]
+ correct_sentence: "Uyu munsi ijuru ryuzuye ibicu."
+ translation: "It is cloudy today."
+ xp_reward: 20
+
+ # 8. Fill in the Blank - Seç FROM OPTIONS
+ - id: 82
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Izuba ___."
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "The sun is shining."
+ xp_reward: 12
+
+ - id: 83
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Birimo kugwa ___."
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It is raining."
+ xp_reward: 15
+
+ - id: 84
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Urubura ___."
+ options: ["ruragwa", "rirakaza", "urahuma"]
+ correct_answer: "ruragwa"
+ translation: "The snow is falling."
+ xp_reward: 12
+
+ - id: 85
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Umuyaga ___."
+ options: ["urakomeye", "rirakaza", "ryuzuye"]
+ correct_answer: "urakomeye"
+ translation: "The wind is strong."
+ xp_reward: 12
+
+ - id: 86
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Ijuru ryuzuye ___."
+ options: ["ibicu", "imvura", "urubura"]
+ correct_answer: "ibicu"
+ translation: "The sky is cloudy."
+ xp_reward: 15
+
+ - id: 87
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Uyu munsi ___."
+ options: ["birishyushye", "bikonje", "byiza"]
+ correct_answer: "birishyushye"
+ translation: "It is hot today."
+ xp_reward: 12
+
+ - id: 88
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Hanze hariho ___."
+ options: ["ubukonje", "ubushyuhe", "ibicu"]
+ correct_answer: "ubukonje"
+ translation: "It is cold outside."
+ xp_reward: 12
+
+ - id: 89
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Ibihe by'ikirere ni ___."
+ options: ["byiza", "bikonje", "birishyushye"]
+ correct_answer: "byiza"
+ translation: "The Hava is nice."
+ xp_reward: 12
+
+ - id: 90
+ type: fill_blank
+ Soru: "Complete the expression"
+ text_with_blank: "Mwaramutse! Izuba ___."
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "Good morning! The sun is shining."
+ xp_reward: 15
+
+ - id: 91
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Uyu munsi hazagwa ___."
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It will rain today."
+ xp_reward: 15
+
+ - id: 92
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Umuyaga ___."
+ options: ["urahuma", "rirakaza", "ruragwa"]
+ correct_answer: "urahuma"
+ translation: "The wind is blowing."
+ xp_reward: 12
+
+ - id: 93
+ type: fill_blank
+ Soru: "Complete the warning"
+ text_with_blank: "Wirinde, birashobora ___."
+ options: ["gusogongera", "kugwa imvura", "kubura"]
+ correct_answer: "gusogongera"
+ translation: "Be careful, it is slippery."
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 94
+ type: picture_word
+ Soru: "What Hava is this?"
+ image_url: "https://source.unsplash.com/featured/?sun"
+ options: ["Izuba", "Imvura", "Igicu"]
+ correct_answer: "Izuba"
+ xp_reward: 10
+
+ - id: 95
+ type: picture_word
+ Soru: "What Hava is this?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Urubura", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 96
+ type: picture_word
+ Soru: "What Hava is this?"
+ image_url: "https://source.unsplash.com/featured/?snow"
+ options: ["Urubura", "Imvura", "Igitugu"]
+ correct_answer: "Urubura"
+ xp_reward: 10
+
+ - id: 97
+ type: picture_word
+ Soru: "What Hava is this?"
+ image_url: "https://source.unsplash.com/featured/?cloud"
+ options: ["Igicu", "Izuba", "Umuyaga"]
+ correct_answer: "Igicu"
+ xp_reward: 10
+
+ - id: 98
+ type: picture_word
+ Soru: "What Hava is this?"
+ image_url: "https://source.unsplash.com/featured/?wind"
+ options: ["Umuyaga", "Imvura", "Urubura"]
+ correct_answer: "Umuyaga"
+ xp_reward: 10
+
+ - id: 99
+ type: picture_word
+ Soru: "What Hava is this?"
+ image_url: "https://source.unsplash.com/featured/?storm"
+ options: ["Umuyaga ukomeye", "Izuba", "Igicu"]
+ correct_answer: "Umuyaga ukomeye"
+ xp_reward: 15
+
+ - id: 100
+ type: picture_word
+ Soru: "What Hava is this?"
+ image_url: "https://source.unsplash.com/featured/?lightning"
+ options: ["Umuriro w'amashanyarazi", "Imvura", "Igicu"]
+ correct_answer: "Umuriro w'amashanyarazi"
+ xp_reward: 15
+
+ - id: 101
+ type: picture_word
+ Soru: "What Hava is this?"
+ image_url: "https://source.unsplash.com/featured/?fog"
+ options: ["Igitugu", "Igicu", "Umuyaga"]
+ correct_answer: "Igitugu"
+ xp_reward: 12
+
+ - id: 102
+ type: picture_word
+ Soru: "What temperature is this?"
+ image_url: "https://source.unsplash.com/featured/?hot-weather"
+ options: ["Harashyushye", "Bikonje", "Bikonje buhoro"]
+ correct_answer: "Harashyushye"
+ xp_reward: 10
+
+ - id: 103
+ type: picture_word
+ Soru: "What temperature is this?"
+ image_url: "https://source.unsplash.com/featured/?cold-weather"
+ options: ["Bikonje", "Harashyushye", "Harashyushye buhoro"]
+ correct_answer: "Bikonje"
+ xp_reward: 10
+
+ # 10. Word Eşleştir (Pairing)
+ - id: 104
+ type: Eşleştir
+ Soru: "Eşleştir the Hava words"
+ pairs:
+ - Sol: "Sun"
+ Sağ: "Izuba"
+ - Sol: "Rain"
+ Sağ: "Imvura"
+ - Sol: "Snow"
+ Sağ: "Urubura"
+ - Sol: "Cloud"
+ Sağ: "Igicu"
+ - Sol: "Wind"
+ Sağ: "Umuyaga"
+ - Sol: "Storm"
+ Sağ: "Umuyaga ukomeye"
+ - Sol: "Thunder"
+ Sağ: "Inkubi y'umuyaga"
+ - Sol: "Lightning"
+ Sağ: "Umuriro w'amashanyarazi"
+ - Sol: "Fog"
+ Sağ: "Igitugu"
+ xp_reward: 25
+
+ - id: 105
+ type: Eşleştir
+ Soru: "Eşleştir the temperatures"
+ pairs:
+ - Sol: "Hot"
+ Sağ: "Harashyushye"
+ - Sol: "Cold"
+ Sağ: "Bikonje"
+ - Sol: "Warm"
+ Sağ: "Harashyushye buhoro"
+ - Sol: "Cool"
+ Sağ: "Bikonje buhoro"
+ - Sol: "Humid"
+ Sağ: "Humide"
+ xp_reward: 20
+
+ - id: 106
+ type: Eşleştir
+ Soru: "Eşleştir the Hava Cümle"
+ pairs:
+ - Sol: "The sun is shining"
+ Sağ: "Izuba rirarashe"
+ - Sol: "It is raining"
+ Sağ: "Harimo kugwa imvura"
+ - Sol: "The snow is falling"
+ Sağ: "Urubura ruragwa"
+ - Sol: "The wind is strong"
+ Sağ: "Umuyaga urakomeye"
+ - Sol: "The sky is cloudy"
+ Sağ: "Ijuru ryuzuye ibicu"
+ - Sol: "It is hot today"
+ Sağ: "Uyu munsi birishyushye"
+ - Sol: "It is cold outside"
+ Sağ: "Hanze hariho ubukonje"
+ xp_reward: 25
+
+ - id: 107
+ type: Eşleştir
+ Soru: "Eşleştir the daily expressions"
+ pairs:
+ - Sol: "Good morning! It is sunny"
+ Sağ: "Mwaramutse! Izuba rirarashe"
+ - Sol: "It will rain today"
+ Sağ: "Uyu munsi hazagwa imvura"
+ - Sol: "The wind is blowing"
+ Sağ: "Umuyaga urahuma"
+ - Sol: "Be careful, it is slippery"
+ Sağ: "Wirinde, birashobora gusogongera"
+ - Sol: "It is cloudy today"
+ Sağ: "Uyu munsi ijuru ryuzuye ibicu"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Seç Missing Word
+ - id: 108
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Izuba ___."
+ missing_word_position: 2
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "The sun is shining."
+ xp_reward: 12
+
+ - id: 109
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Birimo kugwa ___."
+ missing_word_position: 3
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It is raining."
+ xp_reward: 15
+
+ - id: 110
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Umuyaga ___."
+ missing_word_position: 2
+ options: ["urakomeye", "rirakaza", "ruragwa"]
+ correct_answer: "urakomeye"
+ translation: "The wind is strong."
+ xp_reward: 12
+
+ - id: 111
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Uyu munsi ___."
+ missing_word_position: 3
+ options: ["birishyushye", "bikonje", "byiza"]
+ correct_answer: "birishyushye"
+ translation: "It is hot today."
+ xp_reward: 12
+
+ - id: 112
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Hanze hariho ___."
+ missing_word_position: 3
+ options: ["ubukonje", "ubushyuhe", "ibicu"]
+ correct_answer: "ubukonje"
+ translation: "It is cold outside."
+ xp_reward: 12
+
+ - id: 113
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Uyu munsi hazagwa ___."
+ missing_word_position: 4
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It will rain today."
+ xp_reward: 15
+
+ # 13. Oku and Cevap - Soru based on text
+ - id: 114
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Izuba rirarashe. Ibihe by'ikirere ni byiza."
+ Soru: "Ne the Hava like?"
+ options: ["Rainy", "Sunny", "Cloudy", "Windy"]
+ correct_answer: "Sunny"
+ xp_reward: 12
+
+ - id: 115
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Harimo kugwa imvura. Umuyaga urakomeye."
+ Soru: "Ne happening?"
+ options: ["It is snowing", "It is raining", "It is sunny", "It is cloudy"]
+ correct_answer: "It is raining"
+ xp_reward: 15
+
+ - id: 116
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Uyu munsi birishyushye. Izuba rirarashe."
+ Soru: "How is the temperature today?"
+ options: ["Cold", "Hot", "Cool", "Warm"]
+ correct_answer: "Hot"
+ xp_reward: 12
+
+ - id: 117
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Ijuru ryuzuye ibicu. Hazagwa imvura."
+ Soru: "What will happen today?"
+ options: ["It will snow", "It will rain", "The sun will shine", "The wind will blow"]
+ correct_answer: "It will rain"
+ xp_reward: 15
+
+ - id: 118
+ type: read_answer
+ Soru: "Oku the conversation and Cevap the Soru"
+ text: "A: Mwaramutse! Izuba rirarashe. B: Yego, ibihe ni byiza."
+ Soru: "Ne the Hava?"
+ options: ["Rainy", "Sunny", "Cloudy", "Windy"]
+ correct_answer: "Sunny"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 119
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Izuba means 'sun'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 120
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Imvura means 'snow'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 121
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Umuyaga urakomeye means 'the wind is strong'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 122
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Bikonje means 'hot'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 123
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Harimo kugwa imvura means 'it is raining'."
+ correct_answer: true
+ xp_reward: 15
+
+ - id: 124
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Uyu munsi hazagwa urubura means 'it will rain today'."
+ correct_answer: false
+ xp_reward: 15
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 125
+ type: conversation
+ Soru: "Respond to the greeting by building a Cümle"
+ bot_message: "Mwaramutse!"
+ translation: "Good morning!"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_response: ["Mwaramutse"]
+ xp_reward: 10
+
+ - id: 126
+ type: conversation
+ Soru: "Respond to the Soru about Hava"
+ bot_message: "Ibihe by'ikirere bimeze bite?"
+ translation: "How is the Hava?"
+ options:
+ - "Izuba rirarashe"
+ - "Harimo kugwa imvura"
+ - "Umuyaga urakomeye"
+ correct_response: "Izuba rirarashe"
+ xp_reward: 15
+
+ - id: 127
+ type: conversation
+ Soru: "Respond to the statement"
+ bot_message: "Uyu munsi birishyushye."
+ translation: "It is hot today."
+ options:
+ - "Yego, Izuba rirarashe"
+ - "Oya, bikonje"
+ - "Harimo kugwa imvura"
+ correct_response: "Yego, Izuba rirarashe"
+ xp_reward: 12
+
+ - id: 128
+ type: conversation
+ Soru: "Respond to the warning by building a Cümle"
+ bot_message: "Hanze hariho ubukonje."
+ translation: "It is cold outside."
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "umuyaga", "urahuma"]
+ correct_response: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 20
+
+ # 16. Story Exercise - Build Cümle from pieces
+ - id: 129
+ type: story
+ title: "A Day of Hava - Umunsi w'Ibihe by'Ikirere"
+ story_intro: "Oku about the Hava. Then build the Cümle."
+ story_segments:
+ - text: "Good morning! The sun is shining."
+ - text: "It is hot today."
+ - text: "The sky is cloudy."
+ - text: "It will rain today."
+ - text: "The wind is blowing."
+ - text: "Be careful, it is slippery."
+ exercises:
+ - type: word_bank
+ Soru: "Build 'Good morning! The sun is shining'"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_answer: ["Mwaramutse", "Izuba", "rirakaza"]
+ - type: word_bank
+ Soru: "Build 'It is hot today'"
+ word_bank: ["Uyu", "munsi", "birishyushye", "bikonje", "ubukonje"]
+ correct_answer: ["Uyu", "munsi", "birishyushye"]
+ - type: word_bank
+ Soru: "Build 'The sky is cloudy'"
+ word_bank: ["Ijuru", "ryuzuye", "ibicu", "izuba", "rirakaza"]
+ correct_answer: ["Ijuru", "ryuzuye", "ibicu"]
+ - type: word_bank
+ Soru: "Build 'It will rain today'"
+ word_bank: ["Uyu", "munsi", "hazagwa", "imvura", "urubura"]
+ correct_answer: ["Uyu", "munsi", "hazagwa", "imvura"]
+ - type: word_bank
+ Soru: "Build 'The wind is blowing'"
+ word_bank: ["Umuyaga", "urahuma", "urakomeye", "izuba"]
+ correct_answer: ["Umuyaga", "urahuma"]
+ - type: word_bank
+ Soru: "Build 'Be careful, it is slippery'"
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "hanze", "hariho", "ubukonje"]
+ correct_answer: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 130
+ type: pronunciation
+ Soru: "Say this Hava word"
+ prompt: "Izuba"
+ translation: "Sun"
+ xp_reward: 15
+
+ - id: 131
+ type: pronunciation
+ Soru: "Say this Hava word"
+ prompt: "Imvura"
+ translation: "Rain"
+ xp_reward: 15
+
+ - id: 132
+ type: pronunciation
+ Soru: "Say this Hava word"
+ prompt: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 15
+
+ - id: 133
+ type: pronunciation
+ Soru: "Say this phrase"
+ prompt: "Izuba rirarashe"
+ translation: "The sun is shining"
+ xp_reward: 18
+
+ - id: 134
+ type: pronunciation
+ Soru: "Say this phrase"
+ prompt: "Harimo kugwa imvura"
+ translation: "It is raining"
+ xp_reward: 20
+
+ - id: 135
+ type: pronunciation
+ Soru: "Say this expression"
+ prompt: "Mwaramutse Izuba ryarashe"
+ translation: "Good morning! The sun is shining"
+ xp_reward: 22
+
+ # 18. Identify Correct Meaning
+ - id: 136
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'Izuba' mean in this Cümle?"
+ context_sentence: "Izuba rirarashe."
+ word: "Izuba"
+ options: ["Rain", "Sun", "Wind", "Cloud"]
+ correct_answer: "Sun"
+ xp_reward: 12
+
+ - id: 137
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'rirakaza' mean in this Cümle?"
+ context_sentence: "Izuba rirarashe."
+ word: "rirakaza"
+ options: ["is falling", "is shining", "is blowing", "is strong"]
+ correct_answer: "is shining"
+ xp_reward: 15
+
+ - id: 138
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'birishyushye' mean in this Cümle?"
+ context_sentence: "Uyu munsi birishyushye."
+ word: "birishyushye"
+ options: ["cold", "hot", "cool", "warm"]
+ correct_answer: "hot"
+ xp_reward: 12
+
+ - id: 139
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'hazagwa' mean in this Cümle?"
+ context_sentence: "Uyu munsi hazagwa imvura."
+ word: "hazagwa"
+ options: ["is falling", "will fall", "is blowing", "will blow"]
+ correct_answer: "will fall"
+ xp_reward: 18
+
+ - id: 140
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'gusogongera' mean in this Cümle?"
+ context_sentence: "Wirinde, birashobora gusogongera."
+ word: "gusogongera"
+ options: ["to be cold", "to be slippery", "to be hot", "to be windy"]
+ correct_answer: "to be slippery"
+ xp_reward: 18
+
+ # 19. Speed Eşleştir
+ - id: 141
+ type: speed_Eşleştir
+ title: "Eşleştir Madness: Hava"
+ time_limit_seconds: 45
+ pairs:
+ - Sol: "Sun"
+ Sağ: "Izuba"
+ - Sol: "Rain"
+ Sağ: "Imvura"
+ - Sol: "Snow"
+ Sağ: "Urubura"
+ - Sol: "Cloud"
+ Sağ: "Igicu"
+ - Sol: "Wind"
+ Sağ: "Umuyaga"
+ - Sol: "Hot"
+ Sağ: "Harashyushye"
+ - Sol: "Cold"
+ Sağ: "Bikonje"
+ - Sol: "Fog"
+ Sağ: "Igitugu"
+ - Sol: "Sunny"
+ Sağ: "Izuba rirarashe"
+ - Sol: "Rainy"
+ Sağ: "Harimo kugwa imvura"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 142
+ type: timed_challenge
+ title: "Lightning Round: Hava"
+ time_limit_seconds: 30
+ Soru_count: 5
+ Soru:
+ - Soru: "Sun"
+ Cevap: "Izuba"
+ - Soru: "Rain"
+ Cevap: "Imvura"
+ - Soru: "Wind"
+ Cevap: "Umuyaga"
+ - Soru: "Hot"
+ Cevap: "Harashyushye"
+ - Soru: "Cold"
+ Cevap: "Bikonje"
+ xp_reward: 35
+
+# Kartlar
+ - id: 111
+ type: Kartlar
+ Soru: "Kartlar"
+ Kartlar:
+ - front: "Ibihe by\'ikirere"
+ back: "Hava"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Izuba"
+ back: "Sun"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Imvura"
+ back: "Rain"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Urubura"
+ back: "Snow"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Igicu"
+ back: "Cloud"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuyaga"
+ back: "Wind"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuyaga ukomeye"
+ back: "Storm"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkubi y\'umuyaga"
+ back: "Thunder"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuriro w\'amashanyarazi"
+ back: "Lightning"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Harashyushye"
+ back: "Hot"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

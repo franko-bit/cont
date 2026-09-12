@@ -1,0 +1,1028 @@
+lesson:
+ name: "Conditionals - Imyitwarire y'Ahazaza"
+ description: "Ionnsaich how to express conditions and possibilities in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Faclan ONLY (Safe for single words/phrases)
+ # Basic Conditional Words
+ - id: 1
+ type: translation
+ Ceist: "Ciamar a chanas tu 'If' ann an Kinyarwanda?"
+ Freagairt: "Niba"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Ceist: "Ciamar a chanas tu 'When' ann an Kinyarwanda?"
+ Freagairt: "Iyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Unless' ann an Kinyarwanda?"
+ Freagairt: "Keretse"
+ note: "Also expressed as 'Nti... niba'"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Then' ann an Kinyarwanda?"
+ Freagairt: "Hanyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Might' ann an Kinyarwanda?"
+ Freagairt: "Ashobora"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Will' ann an Kinyarwanda?"
+ Freagairt: "Azakora"
+ note: "Also 'Azaba' depending on context"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Would' ann an Kinyarwanda?"
+ Freagairt: "Byaba"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Could' ann an Kinyarwanda?"
+ Freagairt: "Bashobora"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Should' ann an Kinyarwanda?"
+ Freagairt: "Bikwiye"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Can' ann an Kinyarwanda?"
+ Freagairt: "Ashobora"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Impossible' ann an Kinyarwanda?"
+ Freagairt: "Ntibishoboka"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Possible' ann an Kinyarwanda?"
+ Freagairt: "Birashoboka"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Before' ann an Kinyarwanda?"
+ Freagairt: "Mbere y'uko"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Ceist: "Ciamar a chanas tu 'After' ann an Kinyarwanda?"
+ Freagairt: "Nyuma y'uko"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Always' ann an Kinyarwanda?"
+ Freagairt: "Buri gihe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Never' ann an Kinyarwanda?"
+ Freagairt: "Nta na rimwe"
+ xp_reward: 10
+
+ # Translation - Common Conditional Phrases
+ - id: 17
+ type: translation
+ Ceist: "Ciamar a chanas tu 'If it rains, I will stay home' ann an Kinyarwanda?"
+ Freagairt: "Niba imvura iguye, nzaguma mu rugo."
+ xp_reward: 20
+
+ - id: 18
+ type: translation
+ Ceist: "Ciamar a chanas tu 'If I go to Kigali, I will visit my friend' ann an Kinyarwanda?"
+ Freagairt: "Niba ngiye i Kigali, nzasura inshuti yanjye."
+ xp_reward: 20
+
+ - id: 19
+ type: translation
+ Ceist: "Ciamar a chanas tu 'If you study, you will succeed' ann an Kinyarwanda?"
+ Freagairt: "Niba wiga, uzatsinda."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ Ceist: "Ciamar a chanas tu 'If he comes, we will start the meeting' ann an Kinyarwanda?"
+ Freagairt: "Niba aje, tuzatangira inama."
+ xp_reward: 20
+
+ - id: 21
+ type: translation
+ Ceist: "Ciamar a chanas tu 'Unless you hurry, you will miss the bus' ann an Kinyarwanda?"
+ Freagairt: "Ntiwihutira, uzacika bisi."
+ xp_reward: 20
+
+ - id: 22
+ type: translation
+ Ceist: "Ciamar a chanas tu 'If I had money, I would buy a car' ann an Kinyarwanda?"
+ Freagairt: "Niba nari mfite amafaranga, nari kugura imodoka."
+ xp_reward: 22
+
+ - id: 23
+ type: translation
+ Ceist: "Ciamar a chanas tu 'If she were here, she could help' ann an Kinyarwanda?"
+ Freagairt: "Iyo yari hano, yashoboraga gufasha."
+ xp_reward: 22
+
+ - id: 24
+ type: translation
+ Ceist: "Ciamar a chanas tu 'I would Siubhal if I had more time' ann an Kinyarwanda?"
+ Freagairt: "Nari gutembera iyo nari mfite igihe kinini."
+ xp_reward: 22
+
+ - id: 25
+ type: translation
+ Ceist: "Ciamar a chanas tu 'You should eat before leaving' ann an Kinyarwanda?"
+ Freagairt: "Bikwiye ko urya mbere yo kugenda."
+ xp_reward: 20
+
+ - id: 26
+ type: translation
+ Ceist: "Ciamar a chanas tu 'If it is possible, I will come A-màireach' ann an Kinyarwanda?"
+ Freagairt: "Niba bishoboka, nzaza ejo."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Niba' san abairt seo?"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ - "After"
+ Freagairt: "If"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Iyo' san abairt seo?"
+ options:
+ - "If"
+ - "When"
+ - "Then"
+ - "Before"
+ Freagairt: "When"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Hanyuma' san abairt seo?"
+ options:
+ - "Before"
+ - "After"
+ - "Then"
+ - "When"
+ Freagairt: "Then"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Birashoboka' san abairt seo?"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ - "Never"
+ Freagairt: "Possible"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Ntibishoboka' san abairt seo?"
+ options:
+ - "Possible"
+ - "Impossible"
+ - "Always"
+ - "Never"
+ Freagairt: "Impossible"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Buri gihe' san abairt seo?"
+ options:
+ - "Never"
+ - "Always"
+ - "Sometimes"
+ - "Often"
+ Freagairt: "Always"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Ceist: "Dè tha e a' ciallachadh 'Nta na rimwe' san abairt seo?"
+ options:
+ - "Always"
+ - "Sometimes"
+ - "Never"
+ - "Often"
+ Freagairt: "Never"
+ xp_reward: 15
+
+ # 3. Èist and Type (Dictation)
+ - id: 34
+ type: listen_and_type
+ Ceist: "Èist and type the word"
+ audio: "Niba"
+ Freagairt: "Niba"
+ translation: "If"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ Ceist: "Èist and type the word"
+ audio: "Iyo"
+ Freagairt: "Iyo"
+ translation: "When"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Ceist: "Èist and type the word"
+ audio: "Birashoboka"
+ Freagairt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Ceist: "Èist and type the phrase"
+ audio: "Niba imvura iguye nzaguma mu rugo"
+ Freagairt: "Niba imvura iguye nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ Ceist: "Èist and type the phrase"
+ audio: "Niba wiga uzatsinda"
+ Freagairt: "Niba wiga uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 22
+
+ - id: 39
+ type: listen_and_type
+ Ceist: "Èist and type the phrase"
+ audio: "Niba bishoboka nzaza ejo"
+ Freagairt: "Niba bishoboka nzaza ejo"
+ translation: "If it is possible, I will come A-màireach"
+ xp_reward: 22
+
+ # 4. Èist and Tagh
+ - id: 40
+ type: listen_and_choose
+ Ceist: "Èist and Tagh the correct word"
+ audio: "Niba"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ Freagairt: "If"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Ceist: "Èist and Tagh the correct word"
+ audio: "Birashoboka"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ Freagairt: "Possible"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Ceist: "Èist and Tagh the correct phrase"
+ audio: "Niba wiga, uzatsinda"
+ options:
+ - "If you study, you will succeed"
+ - "If it rains, I will stay home"
+ - "If it is possible, I will come"
+ Freagairt: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 43
+ type: listen_and_choose
+ Ceist: "Èist and Tagh the correct phrase"
+ audio: "Niba bishoboka, nzaza ejo"
+ options:
+ - "If it rains, I will stay home"
+ - "If it is possible, I will come A-màireach"
+ - "If you study, you will succeed"
+ Freagairt: "If it is possible, I will come A-màireach"
+ xp_reward: 18
+
+ # 5. Repeat / Bruidhinn Exercise
+ - id: 44
+ type: Bruidhinn
+ Ceist: "Say this word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 45
+ type: Bruidhinn
+ Ceist: "Say this word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 46
+ type: Bruidhinn
+ Ceist: "Say this phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 20
+
+ - id: 47
+ type: Bruidhinn
+ Ceist: "Say this phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 48
+ type: Bruidhinn
+ Ceist: "Say this phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will come A-màireach"
+ xp_reward: 18
+
+ # 6. Word Bank Seantans Building - PIECES PROVIDED
+ - id: 49
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Seantans for 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo", "nzaza"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ xp_reward: 22
+
+ - id: 50
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Seantans for 'If I go to Kigali, I will visit my friend'"
+ word_bank: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ correct_answer: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ xp_reward: 25
+
+ - id: 51
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Seantans for 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira", "inama"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Seantans for 'If he comes, we will start the meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga", "uzatsinda"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ xp_reward: 22
+
+ - id: 53
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Seantans for 'If I had money, I would buy a car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ xp_reward: 28
+
+ - id: 54
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Seantans for 'If she were here, she could help'"
+ word_bank: ["Iyo", "yari", "hano", "yashoboraga", "gufasha", "aje"]
+ correct_answer: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ xp_reward: 25
+
+ - id: 55
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Seantans for 'You should eat before leaving'"
+ word_bank: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda", "nyuma"]
+ correct_answer: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ xp_reward: 22
+
+ - id: 56
+ type: word_bank
+ Ceist: "Build the Kinyarwanda Seantans for 'If it is possible, I will come A-màireach'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura", "iguye"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 18
+
+ # 7. Seantans Scramble - PIECES PROVIDED
+ - id: 57
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Seantans"
+ scrambled_words: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ translation: "If it rains, I will stay home."
+ xp_reward: 22
+
+ - id: 58
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Seantans"
+ scrambled_words: ["Niba", "wiga", "uzatsinda"]
+ correct_sentence: "Niba wiga, uzatsinda."
+ translation: "If you study, you will succeed."
+ xp_reward: 18
+
+ - id: 59
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Seantans"
+ scrambled_words: ["Niba", "aje", "tuzatangira", "inama"]
+ correct_sentence: "Niba aje, tuzatangira inama."
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 22
+
+ - id: 60
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Seantans"
+ scrambled_words: ["Ntiwihutira", "uzacika", "bisi"]
+ correct_sentence: "Ntiwihutira, uzacika bisi."
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 20
+
+ - id: 61
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Seantans"
+ scrambled_words: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ correct_sentence: "Iyo yari hano, yashoboraga gufasha."
+ translation: "If she were here, she could help."
+ xp_reward: 25
+
+ - id: 62
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Seantans"
+ scrambled_words: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ correct_sentence: "Bikwiye ko urya mbere yo kugenda."
+ translation: "You should eat before leaving."
+ xp_reward: 22
+
+ - id: 63
+ type: sentence_scramble
+ Ceist: "Arrange these words to form a correct Seantans"
+ scrambled_words: ["Niba", "bishoboka", "nzaza", "ejo"]
+ correct_sentence: "Niba bishoboka, nzaza ejo."
+ translation: "If it is possible, I will come A-màireach."
+ xp_reward: 18
+
+ # 8. Fill in the Blank - Tagh FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Ceist: "Complete the Seantans"
+ text_with_blank: "___ imvura iguye, nzaguma mu rugo."
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Ceist: "Complete the Seantans"
+ text_with_blank: "Niba wiga, ___."
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Ceist: "Complete the Seantans"
+ text_with_blank: "Niba aje, tuzatangira ___."
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 18
+
+ - id: 67
+ type: fill_blank
+ Ceist: "Complete the Seantans"
+ text_with_blank: "Ntiwihutira, ___ bisi."
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 18
+
+ - id: 68
+ type: fill_blank
+ Ceist: "Complete the Seantans"
+ text_with_blank: "Iyo yari hano, yashoboraga ___."
+ options: ["gufasha", "kwiga", "kurya"]
+ correct_answer: "gufasha"
+ translation: "If she were here, she could help."
+ xp_reward: 18
+
+ - id: 69
+ type: fill_blank
+ Ceist: "Complete the Seantans"
+ text_with_blank: "Bikwiye ko urya ___ yo kugenda."
+ options: ["mbere", "nyuma", "hanyuma"]
+ correct_answer: "mbere"
+ translation: "You should eat before leaving."
+ xp_reward: 18
+
+ - id: 70
+ type: fill_blank
+ Ceist: "Complete the Seantans"
+ text_with_blank: "Niba bishoboka, nzaza ___."
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will come A-màireach."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 71
+ type: picture_word
+ Ceist: "Dè tha e a' ciallachadh this image represent?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Izuba", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Ceist: "Dè tha e a' ciallachadh this image represent?"
+ image_url: "https://source.unsplash.com/featured/?studying"
+ options: ["Kwiga", "Gukora", "Kurya"]
+ correct_answer: "Kwiga"
+ xp_reward: 10
+
+ - id: 73
+ type: picture_word
+ Ceist: "Dè tha e a' ciallachadh this image represent?"
+ image_url: "https://source.unsplash.com/featured/?money"
+ options: ["Amafaranga", "Igitabo", "Inzu"]
+ correct_answer: "Amafaranga"
+ xp_reward: 10
+
+ - id: 74
+ type: picture_word
+ Ceist: "Dè tha e a' ciallachadh this image represent?"
+ image_url: "https://source.unsplash.com/featured/?car"
+ options: ["Imodoka", "Bisi", "Igare"]
+ correct_answer: "Imodoka"
+ xp_reward: 10
+
+ - id: 75
+ type: picture_word
+ Ceist: "Dè tha e a' ciallachadh this image represent?"
+ image_url: "https://source.unsplash.com/featured/?helping"
+ options: ["Gufasha", "Kurira", "Guseka"]
+ correct_answer: "Gufasha"
+ xp_reward: 10
+
+ - id: 76
+ type: picture_word
+ Ceist: "Dè tha e a' ciallachadh this image represent?"
+ image_url: "https://source.unsplash.com/featured/?bus"
+ options: ["Bisi", "Imodoka", "Indege"]
+ correct_answer: "Bisi"
+ xp_reward: 10
+
+ # 10. Word Co-thaorsaich (Pairing)
+ - id: 77
+ type: Co-thaorsaich
+ Ceist: "Co-thaorsaich the conditional words"
+ pairs:
+ - Clì: "If"
+ Deas: "Niba"
+ - Clì: "When"
+ Deas: "Iyo"
+ - Clì: "Then"
+ Deas: "Hanyuma"
+ - Clì: "Before"
+ Deas: "Mbere y'uko"
+ - Clì: "After"
+ Deas: "Nyuma y'uko"
+ - Clì: "Always"
+ Deas: "Buri gihe"
+ - Clì: "Never"
+ Deas: "Nta na rimwe"
+ - Clì: "Possible"
+ Deas: "Birashoboka"
+ - Clì: "Impossible"
+ Deas: "Ntibishoboka"
+ xp_reward: 25
+
+ - id: 78
+ type: Co-thaorsaich
+ Ceist: "Co-thaorsaich the modal verbs"
+ pairs:
+ - Clì: "Might"
+ Deas: "Ashobora"
+ - Clì: "Will"
+ Deas: "Azakora"
+ - Clì: "Would"
+ Deas: "Byaba"
+ - Clì: "Could"
+ Deas: "Bashobora"
+ - Clì: "Should"
+ Deas: "Bikwiye"
+ - Clì: "Can"
+ Deas: "Ashobora"
+ xp_reward: 20
+
+ - id: 79
+ type: Co-thaorsaich
+ Ceist: "Co-thaorsaich the Seantans halves"
+ pairs:
+ - Clì: "Niba imvura iguye"
+ Deas: "nzaguma mu rugo"
+ - Clì: "Niba wiga"
+ Deas: "uzatsinda"
+ - Clì: "Niba aje"
+ Deas: "tuzatangira inama"
+ - Clì: "Niba bishoboka"
+ Deas: "nzaza ejo"
+ - Clì: "Niba ngiye i Kigali"
+ Deas: "nzasura inshuti yanjye"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Tagh Missing Word
+ - id: 80
+ type: choose_missing
+ Ceist: "Tagh the missing word"
+ Seantans: "___ imvura iguye, nzaguma mu rugo."
+ missing_word_position: 1
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Ceist: "Tagh the missing word"
+ Seantans: "Niba wiga, ___."
+ missing_word_position: 3
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Ceist: "Tagh the missing word"
+ Seantans: "Niba aje, tuzatangira ___."
+ missing_word_position: 4
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he comes, we will start the meeting."
+ xp_reward: 18
+
+ - id: 83
+ type: choose_missing
+ Ceist: "Tagh the missing word"
+ Seantans: "Ntiwihutira, ___ bisi."
+ missing_word_position: 2
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss the bus."
+ xp_reward: 18
+
+ - id: 84
+ type: choose_missing
+ Ceist: "Tagh the missing word"
+ Seantans: "Niba bishoboka, nzaza ___."
+ missing_word_position: 3
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will come A-màireach."
+ xp_reward: 15
+
+ # 13. Leugh and Freagairt - Ceist based on text
+ - id: 85
+ type: read_answer
+ Ceist: "Leugh the text and Freagairt the Ceist"
+ text: "Niba imvura iguye, nzaguma mu rugo."
+ Ceist: "What will happen if it rains?"
+ options: ["I will go out", "I will stay home", "I will go to Sgoil", "I will work"]
+ correct_answer: "I will stay home"
+ xp_reward: 15
+
+ - id: 86
+ type: read_answer
+ Ceist: "Leugh the text and Freagairt the Ceist"
+ text: "Niba wiga, uzatsinda."
+ Ceist: "What will happen if you study?"
+ options: ["You will fail", "You will succeed", "You will play", "You will sleep"]
+ correct_answer: "You will succeed"
+ xp_reward: 15
+
+ - id: 87
+ type: read_answer
+ Ceist: "Leugh the text and Freagairt the Ceist"
+ text: "Niba aje, tuzatangira inama."
+ Ceist: "When will they start the meeting?"
+ options: ["If he comes", "If it rains", "If she studies", "If they work"]
+ correct_answer: "If he comes"
+ xp_reward: 18
+
+ - id: 88
+ type: read_answer
+ Ceist: "Leugh the text and Freagairt the Ceist"
+ text: "Niba nari mfite amafaranga, nari kugura imodoka."
+ Ceist: "What would I buy if I had money?"
+ options: ["A Taigh", "A car", "Biadh", "Clothes"]
+ correct_answer: "A car"
+ xp_reward: 18
+
+ - id: 89
+ type: read_answer
+ Ceist: "Leugh the text and Freagairt the Ceist"
+ text: "Niba bishoboka, nzaza ejo."
+ Ceist: "When will I come if it is possible?"
+ options: ["Today", "A-màireach", "Next week", "Never"]
+ correct_answer: "A-màireach"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 90
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Niba means 'when'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 91
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Birashoboka means 'possible'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 92
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Niba wiga, uzatsinda means 'If you study, you will succeed'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 93
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Ntiwihutira, uzacika bisi means 'If you hurry, you will catch the bus'."
+ correct_answer: false
+ xp_reward: 15
+
+ - id: 94
+ type: true_false
+ Ceist: "Is this statement true or false?"
+ statement: "Buri gihe means 'never'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 95
+ type: conversation
+ Ceist: "Respond to the Ceist by building a Seantans"
+ bot_message: "Uzakora iki niba imvura iguye?"
+ translation: "What will you do if it rains?"
+ word_bank: ["Nzaguma", "mu rugo", "nzajya", "ku ishuri", "nzakora"]
+ correct_response: ["Nzaguma", "mu rugo"]
+ xp_reward: 18
+
+ - id: 96
+ type: conversation
+ Ceist: "Respond to the Ceist"
+ bot_message: "Niba wiga, uzatsinda?"
+ translation: "If you study, will you succeed?"
+ options:
+ - "Yego, nzatsinda"
+ - "Oya, sinzatsinda"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzatsinda"
+ xp_reward: 15
+
+ - id: 97
+ type: conversation
+ Ceist: "Respond to the Ceist by building a Seantans"
+ bot_message: "Uzakora iki niba ufite amafaranga?"
+ translation: "What will you do if you have money?"
+ word_bank: ["Nzakora", "nzabona", "imodoka", "nzaguza", "inzu"]
+ correct_response: ["Nzakora", "nzabona", "imodoka"]
+ xp_reward: 20
+
+ - id: 98
+ type: conversation
+ Ceist: "Respond to the Ceist"
+ bot_message: "Niba bishoboka, uzaza ejo?"
+ translation: "If it is possible, will you come A-màireach?"
+ options:
+ - "Yego, nzaza ejo"
+ - "Oya, sinzaza"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzaza ejo"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Seantans from pieces
+ - id: 99
+ type: story
+ title: "Plans and Conditions - Imigambi n'Imyitwarire"
+ story_intro: "Leugh about different plans and conditions. Then build the Seantans."
+ story_segments:
+ - text: "If it rains, I will stay home."
+ - text: "If you study, you will succeed."
+ - text: "If he comes, we will start the meeting."
+ - text: "If I had money, I would buy a car."
+ - text: "If it is possible, I will come A-màireach."
+ exercises:
+ - type: word_bank
+ Ceist: "Build 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ - type: word_bank
+ Ceist: "Build 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ - type: word_bank
+ Ceist: "Build 'If he comes, we will start the meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ - type: word_bank
+ Ceist: "Build 'If I had money, I would buy a car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ - type: word_bank
+ Ceist: "Build 'If it is possible, I will come A-màireach'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 100
+ type: pronunciation
+ Ceist: "Say this word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 101
+ type: pronunciation
+ Ceist: "Say this word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 102
+ type: pronunciation
+ Ceist: "Say this phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 22
+
+ - id: 103
+ type: pronunciation
+ Ceist: "Say this phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 104
+ type: pronunciation
+ Ceist: "Say this phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will come A-màireach"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 105
+ type: identify_meaning
+ Ceist: "Dè tha e a' ciallachadh 'Niba' mean in this Seantans?"
+ context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ word: "Niba"
+ options: ["When", "If", "Then", "After"]
+ correct_answer: "If"
+ xp_reward: 15
+
+ - id: 106
+ type: identify_meaning
+ Ceist: "Dè tha e a' ciallachadh 'uzatsinda' mean in this Seantans?"
+ context_sentence: "Niba wiga, uzatsinda."
+ word: "uzatsinda"
+ options: ["you will fail", "you will succeed", "you will study", "you will work"]
+ correct_answer: "you will succeed"
+ xp_reward: 15
+
+ - id: 107
+ type: identify_meaning
+ Ceist: "Dè tha e a' ciallachadh 'tuzatangira' mean in this Seantans?"
+ context_sentence: "Niba aje, tuzatangira inama."
+ word: "tuzatangira"
+ options: ["we will finish", "we will start", "we will attend", "we will leave"]
+ correct_answer: "we will start"
+ xp_reward: 15
+
+ - id: 108
+ type: identify_meaning
+ Ceist: "Dè tha e a' ciallachadh 'bishoboka' mean in this Seantans?"
+ context_sentence: "Niba bishoboka, nzaza ejo."
+ word: "bishoboka"
+ options: ["it is possible", "it is impossible", "it is good", "it is bad"]
+ correct_answer: "it is possible"
+ xp_reward: 15
+
+ # 19. Speed Co-thaorsaich
+ - id: 109
+ type: speed_Co-thaorsaich
+ title: "Co-thaorsaich Madness: Conditionals"
+ time_limit_seconds: 45
+ pairs:
+ - Clì: "If"
+ Deas: "Niba"
+ - Clì: "When"
+ Deas: "Iyo"
+ - Clì: "Then"
+ Deas: "Hanyuma"
+ - Clì: "Possible"
+ Deas: "Birashoboka"
+ - Clì: "Impossible"
+ Deas: "Ntibishoboka"
+ - Clì: "Always"
+ Deas: "Buri gihe"
+ - Clì: "Never"
+ Deas: "Nta na rimwe"
+ - Clì: "Before"
+ Deas: "Mbere y'uko"
+ - Clì: "After"
+ Deas: "Nyuma y'uko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 110
+ type: timed_challenge
+ title: "Lightning Round: Conditionals"
+ time_limit_seconds: 30
+ Ceist_count: 5
+ Ceist:
+ - Ceist: "If"
+ Freagairt: "Niba"
+ - Ceist: "When"
+ Freagairt: "Iyo"
+ - Ceist: "Possible"
+ Freagairt: "Birashoboka"
+ - Ceist: "Always"
+ Freagairt: "Buri gihe"
+ - Ceist: "Never"
+ Freagairt: "Nta na rimwe"
+ xp_reward: 35
+
+# Cairtean
+ - id: 111
+ type: Cairtean
+ Ceist: "Cairtean"
+ Cairtean:
+ - front: "Niba"
+ back: "If"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iyo"
+ back: "When"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Keretse"
+ back: "Unless"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Hanyuma"
+ back: "Then"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Might"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Azakora"
+ back: "Will"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Byaba"
+ back: "Would"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Bashobora"
+ back: "Could"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Bikwiye"
+ back: "Should"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Can"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

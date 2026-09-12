@@ -1,0 +1,1294 @@
+lesson:
+ name: "Meteo - Ibihe by'ikirere"
+ description: "Impara Meteo expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Meteo Words ONLY (Safe per single words)
+ # Basic Meteo Words
+ - id: 1
+ type: translation
+ Domanda: "venire si dice 'Meteo' in kinyarwanda?"
+ Risposta: "Ibihe by'ikirere"
+ xp_reward: 15
+
+ - id: 2
+ type: translation
+ Domanda: "venire si dice 'Sun' in kinyarwanda?"
+ Risposta: "Izuba"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Domanda: "venire si dice 'Rain' in kinyarwanda?"
+ Risposta: "Imvura"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Domanda: "venire si dice 'Snow' in kinyarwanda?"
+ Risposta: "Urubura"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Domanda: "venire si dice 'Cloud' in kinyarwanda?"
+ Risposta: "Igicu"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Domanda: "venire si dice 'Wind' in kinyarwanda?"
+ Risposta: "Umuyaga"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Domanda: "venire si dice 'Storm' in kinyarwanda?"
+ Risposta: "Umuyaga ukomeye"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Domanda: "venire si dice 'Thunder' in kinyarwanda?"
+ Risposta: "Inkubi y'umuyaga"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Domanda: "venire si dice 'Lightning' in kinyarwanda?"
+ Risposta: "Umuriro w'amashanyarazi"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Domanda: "venire si dice 'Hot' in kinyarwanda?"
+ Risposta: "Harashyushye"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Domanda: "venire si dice 'Cold' in kinyarwanda?"
+ Risposta: "Bikonje"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Domanda: "venire si dice 'Warm' in kinyarwanda?"
+ Risposta: "Harashyushye buhoro"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Domanda: "venire si dice 'Cool' in kinyarwanda?"
+ Risposta: "Bikonje buhoro"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Domanda: "venire si dice 'Humid' in kinyarwanda?"
+ Risposta: "Humide"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Domanda: "venire si dice 'Fog' in kinyarwanda?"
+ Risposta: "Igitugu"
+ xp_reward: 10
+
+ # Frase About Meteo
+ - id: 16
+ type: translation
+ Domanda: "venire si dice 'il sun è shining' in kinyarwanda?"
+ Risposta: "Izuba rirarashe."
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Domanda: "venire si dice 'It è raining' in kinyarwanda?"
+ Risposta: "Harimo kugwa imvura"
+ xp_reward: 18
+
+ - id: 18
+ type: translation
+ Domanda: "venire si dice 'il snow è falling' in kinyarwanda?"
+ Risposta: "Urubura ruragwa."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Domanda: "venire si dice 'il wind è strong' in kinyarwanda?"
+ Risposta: "Umuyaga urakomeye."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Domanda: "venire si dice 'il sky è cloudy' in kinyarwanda?"
+ Risposta: "Ijuru ryuzuye ibicu."
+ xp_reward: 18
+
+ - id: 21
+ type: translation
+ Domanda: "venire si dice 'It è hot today' in kinyarwanda?"
+ Risposta: "Uyu munsi Harashyushye."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Domanda: "venire si dice 'It è cold outside' in kinyarwanda?"
+ Risposta: "Hanze hariho ubukonje."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Domanda: "venire si dice 'il Meteo è nice' in kinyarwanda?"
+ Risposta: "Ibihe by'ikirere ni byiza."
+ xp_reward: 15
+
+ # Daily Meteo Expressions
+ - id: 24
+ type: translation
+ Domanda: "venire si dice 'buono morning! It è sunny' in kinyarwanda?"
+ Risposta: "Mwaramutse! Izuba rirarashe."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Domanda: "venire si dice 'It will rain today' in kinyarwanda?"
+ Risposta: "Uyu munsi hazagwa imvura."
+ xp_reward: 18
+
+ - id: 26
+ type: translation
+ Domanda: "venire si dice 'il wind è blowing' in kinyarwanda?"
+ Risposta: "Umuyaga urahuma."
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Domanda: "venire si dice 'Be careful, it è slippery' in kinyarwanda?"
+ Risposta: "Wirinde, birashobora gusogongera."
+ xp_reward: 20
+
+ - id: 28
+ type: translation
+ Domanda: "venire si dice 'It è cloudy today' in kinyarwanda?"
+ Risposta: "Uyu munsi ijuru ryuzuye ibicu."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Izuba' in questa frase?"
+ options:
+ - "Rain"
+ - "Sun"
+ - "Wind"
+ - "Cloud"
+ Risposta: "Sun"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Imvura' in questa frase?"
+ options:
+ - "Snow"
+ - "Rain"
+ - "Storm"
+ - "Fog"
+ Risposta: "Rain"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Umuyaga' in questa frase?"
+ options:
+ - "Sun"
+ - "Cloud"
+ - "Wind"
+ - "Storm"
+ Risposta: "Wind"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Harashyushye' in questa frase?"
+ options:
+ - "Cold"
+ - "Hot"
+ - "Warm"
+ - "Cool"
+ Risposta: "Hot"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Bikonje' in questa frase?"
+ options:
+ - "Hot"
+ - "Warm"
+ - "Cold"
+ - "Cool"
+ Risposta: "Cold"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Izuba rirarashe' in questa frase?"
+ options:
+ - "It è raining"
+ - "il sun è shining"
+ - "il wind è strong"
+ - "il sky è cloudy"
+ Risposta: "il sun è shining"
+ xp_reward: 18
+
+ # 3. Ascolta e Type (Dictation)
+ - id: 35
+ type: listen_e_type
+ Domanda: "Ascolta e type il Meteo word"
+ audio: "Izuba"
+ Risposta: "Izuba"
+ translation: "Sun"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_e_type
+ Domanda: "Ascolta e type il Meteo word"
+ audio: "Imvura"
+ Risposta: "Imvura"
+ translation: "Rain"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_e_type
+ Domanda: "Ascolta e type il Meteo word"
+ audio: "Umuyaga"
+ Risposta: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_e_type
+ Domanda: "Ascolta e type il Meteo word"
+ audio: "Urubura"
+ Risposta: "Urubura"
+ translation: "Snow"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_e_type
+ Domanda: "Ascolta e type il phrase"
+ audio: "Izuba rirarashe"
+ Risposta: "Izuba rirarashe"
+ translation: "il sun è shining"
+ xp_reward: 22
+
+ - id: 40
+ type: listen_e_type
+ Domanda: "Ascolta e type il phrase"
+ audio: "Harimo kugwa imvura"
+ Risposta: "Harimo kugwa imvura"
+ translation: "It è raining"
+ xp_reward: 25
+
+ - id: 41
+ type: listen_e_type
+ Domanda: "Ascolta e type il phrase"
+ audio: "Uyu munsi birishyushye"
+ Risposta: "Uyu munsi birishyushye"
+ translation: "It è hot today"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_e_type
+ Domanda: "Ascolta e type il expression"
+ audio: "Mwaramutse Izuba ryarashe"
+ Risposta: "Mwaramutse Izuba ryarashe"
+ translation: "buono morning! il sun è shining"
+ xp_reward: 25
+
+ # 4. Ascolta e Scegli
+ - id: 43
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct Meteo word"
+ audio: "Izuba"
+ options:
+ - "Rain"
+ - "Sun"
+ - "Wind"
+ Risposta: "Sun"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct Meteo word"
+ audio: "Imvura"
+ options:
+ - "Snow"
+ - "Rain"
+ - "Cloud"
+ Risposta: "Rain"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct Meteo word"
+ audio: "Umuyaga"
+ options:
+ - "Sun"
+ - "Wind"
+ - "Storm"
+ Risposta: "Wind"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct phrase"
+ audio: "Izuba rirarashe"
+ options:
+ - "It è raining"
+ - "il sun è shining"
+ - "il wind è strong"
+ Risposta: "il sun è shining"
+ xp_reward: 18
+
+ - id: 47
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct phrase"
+ audio: "Harimo kugwa imvura"
+ options:
+ - "It è hot today"
+ - "It è raining"
+ - "il sky è cloudy"
+ Risposta: "It è raining"
+ xp_reward: 20
+
+ # 5. Repeat / Parla Exercise
+ - id: 48
+ type: Parla
+ Domanda: "Say questo Meteo word"
+ prompt: "Izuba"
+ translation: "Sun"
+ xp_reward: 15
+
+ - id: 49
+ type: Parla
+ Domanda: "Say questo Meteo word"
+ prompt: "Imvura"
+ translation: "Rain"
+ xp_reward: 15
+
+ - id: 50
+ type: Parla
+ Domanda: "Say questo Meteo word"
+ prompt: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 15
+
+ - id: 51
+ type: Parla
+ Domanda: "Say questo Meteo word"
+ prompt: "Urubura"
+ translation: "Snow"
+ xp_reward: 15
+
+ - id: 52
+ type: Parla
+ Domanda: "Say questo phrase"
+ prompt: "Izuba rirarashe"
+ translation: "il sun è shining"
+ xp_reward: 18
+
+ - id: 53
+ type: Parla
+ Domanda: "Say questo phrase"
+ prompt: "Harimo kugwa imvura"
+ translation: "It è raining"
+ xp_reward: 20
+
+ - id: 54
+ type: Parla
+ Domanda: "Say questo phrase"
+ prompt: "Uyu munsi birishyushye"
+ translation: "It è hot today"
+ xp_reward: 18
+
+ - id: 55
+ type: Parla
+ Domanda: "Say questo expression"
+ prompt: "Mwaramutse Izuba ryarashe"
+ translation: "buono morning! il sun è shining"
+ xp_reward: 22
+
+ # 6. Word Bank Frase Building - PIECES PROVIDED
+ - id: 56
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'il sun è shining'"
+ word_bank: ["Izuba", "rirakaza", "imvura", "irakaza", "umuyaga"]
+ correct_answer: ["Izuba", "rirakaza"]
+ xp_reward: 15
+
+ - id: 57
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'It è raining'"
+ word_bank: ["Birimo", "kugwa", "imvura", "urubura", "ruragwa"]
+ correct_answer: ["Birimo", "kugwa", "imvura"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'il snow è falling'"
+ word_bank: ["Urubura", "ruragwa", "imvura", "irakaza", "izuba"]
+ correct_answer: ["Urubura", "ruragwa"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'il wind è strong'"
+ word_bank: ["Umuyaga", "urakomeye", "izuba", "rirakaza", "imvura"]
+ correct_answer: ["Umuyaga", "urakomeye"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'il sky è cloudy'"
+ word_bank: ["Ijuru", "ryuzuye", "ibicu", "izuba", "rirakaza", "umuyaga"]
+ correct_answer: ["Ijuru", "ryuzuye", "ibicu"]
+ xp_reward: 18
+
+ - id: 61
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'It è hot today'"
+ word_bank: ["Uyu", "munsi", "birishyushye", "bikonje", "ubukonje"]
+ correct_answer: ["Uyu", "munsi", "birishyushye"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'It è cold outside'"
+ word_bank: ["Hanze", "hariho", "ubukonje", "birishyushye", "umuyaga"]
+ correct_answer: ["Hanze", "hariho", "ubukonje"]
+ xp_reward: 15
+
+ - id: 63
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'il Meteo è nice'"
+ word_bank: ["Ibihe", "by'ikirere", "ni", "byiza", "ibicu", "ryuzuye"]
+ correct_answer: ["Ibihe", "by'ikirere", "ni", "byiza"]
+ xp_reward: 18
+
+ - id: 64
+ type: word_bank
+ Domanda: "Build il Kinyarwanda expression per 'buono morning! It è sunny'"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_answer: ["Mwaramutse", "Izuba", "rirakaza"]
+ xp_reward: 18
+
+ - id: 65
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'It will rain today'"
+ word_bank: ["Uyu", "munsi", "hazagwa", "imvura", "urubura", "ruragwa"]
+ correct_answer: ["Uyu", "munsi", "hazagwa", "imvura"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'il wind è blowing'"
+ word_bank: ["Umuyaga", "urahuma", "urakomeye", "izuba", "rirakaza"]
+ correct_answer: ["Umuyaga", "urahuma"]
+ xp_reward: 15
+
+ - id: 67
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'Be careful, it è slippery'"
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "hanze", "hariho", "ubukonje"]
+ correct_answer: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'It è cloudy today'"
+ word_bank: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu", "birishyushye"]
+ correct_answer: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu"]
+ xp_reward: 20
+
+ # 7. Frase Scramble - PIECES PROVIDED
+ - id: 69
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Izuba", "rirakaza"]
+ correct_sentence: "Izuba rirarashe."
+ translation: "il sun è shining."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Birimo", "kugwa", "imvura"]
+ correct_sentence: "Harimo kugwa imvura."
+ translation: "It è raining."
+ xp_reward: 20
+
+ - id: 71
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Urubura", "ruragwa"]
+ correct_sentence: "Urubura ruragwa."
+ translation: "il snow è falling."
+ xp_reward: 15
+
+ - id: 72
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Umuyaga", "urakomeye"]
+ correct_sentence: "Umuyaga urakomeye."
+ translation: "il wind è strong."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Ijuru", "ryuzuye", "ibicu"]
+ correct_sentence: "Ijuru ryuzuye ibicu."
+ translation: "il sky è cloudy."
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Uyu", "munsi", "birishyushye"]
+ correct_sentence: "Uyu munsi birishyushye."
+ translation: "It è hot today."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Hanze", "hariho", "ubukonje"]
+ correct_sentence: "Hanze hariho ubukonje."
+ translation: "It è cold outside."
+ xp_reward: 15
+
+ - id: 76
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Ibihe", "by'ikirere", "ni", "byiza"]
+ correct_sentence: "Ibihe by'ikirere ni byiza."
+ translation: "il Meteo è nice."
+ xp_reward: 18
+
+ - id: 77
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct expression"
+ scrambled_words: ["Mwaramutse", "Izuba", "rirakaza"]
+ correct_sentence: "Mwaramutse! Izuba rirarashe."
+ translation: "buono morning! il sun è shining."
+ xp_reward: 18
+
+ - id: 78
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Uyu", "munsi", "hazagwa", "imvura"]
+ correct_sentence: "Uyu munsi hazagwa imvura."
+ translation: "It will rain today."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Umuyaga", "urahuma"]
+ correct_sentence: "Umuyaga urahuma."
+ translation: "il wind è blowing."
+ xp_reward: 15
+
+ - id: 80
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Wirinde", "birashobora", "gusogongera"]
+ correct_sentence: "Wirinde, birashobora gusogongera."
+ translation: "Be careful, it è slippery."
+ xp_reward: 22
+
+ - id: 81
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu"]
+ correct_sentence: "Uyu munsi ijuru ryuzuye ibicu."
+ translation: "It è cloudy today."
+ xp_reward: 20
+
+ # 8. Fill in il Blank - Scegli FROM OPTIONS
+ - id: 82
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Izuba ___."
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "il sun è shining."
+ xp_reward: 12
+
+ - id: 83
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Birimo kugwa ___."
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It è raining."
+ xp_reward: 15
+
+ - id: 84
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Urubura ___."
+ options: ["ruragwa", "rirakaza", "urahuma"]
+ correct_answer: "ruragwa"
+ translation: "il snow è falling."
+ xp_reward: 12
+
+ - id: 85
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Umuyaga ___."
+ options: ["urakomeye", "rirakaza", "ryuzuye"]
+ correct_answer: "urakomeye"
+ translation: "il wind è strong."
+ xp_reward: 12
+
+ - id: 86
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Ijuru ryuzuye ___."
+ options: ["ibicu", "imvura", "urubura"]
+ correct_answer: "ibicu"
+ translation: "il sky è cloudy."
+ xp_reward: 15
+
+ - id: 87
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Uyu munsi ___."
+ options: ["birishyushye", "bikonje", "byiza"]
+ correct_answer: "birishyushye"
+ translation: "It è hot today."
+ xp_reward: 12
+
+ - id: 88
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Hanze hariho ___."
+ options: ["ubukonje", "ubushyuhe", "ibicu"]
+ correct_answer: "ubukonje"
+ translation: "It è cold outside."
+ xp_reward: 12
+
+ - id: 89
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Ibihe by'ikirere ni ___."
+ options: ["byiza", "bikonje", "birishyushye"]
+ correct_answer: "byiza"
+ translation: "il Meteo è nice."
+ xp_reward: 12
+
+ - id: 90
+ type: fill_blank
+ Domanda: "Complete il expression"
+ text_con_blank: "Mwaramutse! Izuba ___."
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "buono morning! il sun è shining."
+ xp_reward: 15
+
+ - id: 91
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Uyu munsi hazagwa ___."
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It will rain today."
+ xp_reward: 15
+
+ - id: 92
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Umuyaga ___."
+ options: ["urahuma", "rirakaza", "ruragwa"]
+ correct_answer: "urahuma"
+ translation: "il wind è blowing."
+ xp_reward: 12
+
+ - id: 93
+ type: fill_blank
+ Domanda: "Complete il warning"
+ text_con_blank: "Wirinde, birashobora ___."
+ options: ["gusogongera", "kugwa imvura", "kubura"]
+ correct_answer: "gusogongera"
+ translation: "Be careful, it è slippery."
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 94
+ type: picture_word
+ Domanda: "What Meteo è questo?"
+ image_url: "https://source.unsplash.com/featured/?sun"
+ options: ["Izuba", "Imvura", "Igicu"]
+ correct_answer: "Izuba"
+ xp_reward: 10
+
+ - id: 95
+ type: picture_word
+ Domanda: "What Meteo è questo?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Urubura", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 96
+ type: picture_word
+ Domanda: "What Meteo è questo?"
+ image_url: "https://source.unsplash.com/featured/?snow"
+ options: ["Urubura", "Imvura", "Igitugu"]
+ correct_answer: "Urubura"
+ xp_reward: 10
+
+ - id: 97
+ type: picture_word
+ Domanda: "What Meteo è questo?"
+ image_url: "https://source.unsplash.com/featured/?cloud"
+ options: ["Igicu", "Izuba", "Umuyaga"]
+ correct_answer: "Igicu"
+ xp_reward: 10
+
+ - id: 98
+ type: picture_word
+ Domanda: "What Meteo è questo?"
+ image_url: "https://source.unsplash.com/featured/?wind"
+ options: ["Umuyaga", "Imvura", "Urubura"]
+ correct_answer: "Umuyaga"
+ xp_reward: 10
+
+ - id: 99
+ type: picture_word
+ Domanda: "What Meteo è questo?"
+ image_url: "https://source.unsplash.com/featured/?storm"
+ options: ["Umuyaga ukomeye", "Izuba", "Igicu"]
+ correct_answer: "Umuyaga ukomeye"
+ xp_reward: 15
+
+ - id: 100
+ type: picture_word
+ Domanda: "What Meteo è questo?"
+ image_url: "https://source.unsplash.com/featured/?lightning"
+ options: ["Umuriro w'amashanyarazi", "Imvura", "Igicu"]
+ correct_answer: "Umuriro w'amashanyarazi"
+ xp_reward: 15
+
+ - id: 101
+ type: picture_word
+ Domanda: "What Meteo è questo?"
+ image_url: "https://source.unsplash.com/featured/?fog"
+ options: ["Igitugu", "Igicu", "Umuyaga"]
+ correct_answer: "Igitugu"
+ xp_reward: 12
+
+ - id: 102
+ type: picture_word
+ Domanda: "What temperature è questo?"
+ image_url: "https://source.unsplash.com/featured/?hot-weather"
+ options: ["Harashyushye", "Bikonje", "Bikonje buhoro"]
+ correct_answer: "Harashyushye"
+ xp_reward: 10
+
+ - id: 103
+ type: picture_word
+ Domanda: "What temperature è questo?"
+ image_url: "https://source.unsplash.com/featured/?cold-weather"
+ options: ["Bikonje", "Harashyushye", "Harashyushye buhoro"]
+ correct_answer: "Bikonje"
+ xp_reward: 10
+
+ # 10. Word Abbina (Pairing)
+ - id: 104
+ type: Abbina
+ Domanda: "Abbina il Meteo words"
+ pairs:
+ - Sinistra: "Sun"
+ Destra: "Izuba"
+ - Sinistra: "Rain"
+ Destra: "Imvura"
+ - Sinistra: "Snow"
+ Destra: "Urubura"
+ - Sinistra: "Cloud"
+ Destra: "Igicu"
+ - Sinistra: "Wind"
+ Destra: "Umuyaga"
+ - Sinistra: "Storm"
+ Destra: "Umuyaga ukomeye"
+ - Sinistra: "Thunder"
+ Destra: "Inkubi y'umuyaga"
+ - Sinistra: "Lightning"
+ Destra: "Umuriro w'amashanyarazi"
+ - Sinistra: "Fog"
+ Destra: "Igitugu"
+ xp_reward: 25
+
+ - id: 105
+ type: Abbina
+ Domanda: "Abbina il temperatures"
+ pairs:
+ - Sinistra: "Hot"
+ Destra: "Harashyushye"
+ - Sinistra: "Cold"
+ Destra: "Bikonje"
+ - Sinistra: "Warm"
+ Destra: "Harashyushye buhoro"
+ - Sinistra: "Cool"
+ Destra: "Bikonje buhoro"
+ - Sinistra: "Humid"
+ Destra: "Humide"
+ xp_reward: 20
+
+ - id: 106
+ type: Abbina
+ Domanda: "Abbina il Meteo Frase"
+ pairs:
+ - Sinistra: "il sun è shining"
+ Destra: "Izuba rirarashe"
+ - Sinistra: "It è raining"
+ Destra: "Harimo kugwa imvura"
+ - Sinistra: "il snow è falling"
+ Destra: "Urubura ruragwa"
+ - Sinistra: "il wind è strong"
+ Destra: "Umuyaga urakomeye"
+ - Sinistra: "il sky è cloudy"
+ Destra: "Ijuru ryuzuye ibicu"
+ - Sinistra: "It è hot today"
+ Destra: "Uyu munsi birishyushye"
+ - Sinistra: "It è cold outside"
+ Destra: "Hanze hariho ubukonje"
+ xp_reward: 25
+
+ - id: 107
+ type: Abbina
+ Domanda: "Abbina il daily expressions"
+ pairs:
+ - Sinistra: "buono morning! It è sunny"
+ Destra: "Mwaramutse! Izuba rirarashe"
+ - Sinistra: "It will rain today"
+ Destra: "Uyu munsi hazagwa imvura"
+ - Sinistra: "il wind è blowing"
+ Destra: "Umuyaga urahuma"
+ - Sinistra: "Be careful, it è slippery"
+ Destra: "Wirinde, birashobora gusogongera"
+ - Sinistra: "It è cloudy today"
+ Destra: "Uyu munsi ijuru ryuzuye ibicu"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED un PER PREVIOUS PATTERN
+
+ # 12. Scegli Missing Word
+ - id: 108
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Izuba ___."
+ missing_word_position: 2
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "il sun è shining."
+ xp_reward: 12
+
+ - id: 109
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Birimo kugwa ___."
+ missing_word_position: 3
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It è raining."
+ xp_reward: 15
+
+ - id: 110
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Umuyaga ___."
+ missing_word_position: 2
+ options: ["urakomeye", "rirakaza", "ruragwa"]
+ correct_answer: "urakomeye"
+ translation: "il wind è strong."
+ xp_reward: 12
+
+ - id: 111
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Uyu munsi ___."
+ missing_word_position: 3
+ options: ["birishyushye", "bikonje", "byiza"]
+ correct_answer: "birishyushye"
+ translation: "It è hot today."
+ xp_reward: 12
+
+ - id: 112
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Hanze hariho ___."
+ missing_word_position: 3
+ options: ["ubukonje", "ubushyuhe", "ibicu"]
+ correct_answer: "ubukonje"
+ translation: "It è cold outside."
+ xp_reward: 12
+
+ - id: 113
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Uyu munsi hazagwa ___."
+ missing_word_position: 4
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It will rain today."
+ xp_reward: 15
+
+ # 13. Leggi e Risposta - Domanda based su text
+ - id: 114
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Izuba rirarashe. Ibihe by'ikirere ni byiza."
+ Domanda: "Cos'è il Meteo like?"
+ options: ["Rainy", "Sunny", "Cloudy", "Windy"]
+ correct_answer: "Sunny"
+ xp_reward: 12
+
+ - id: 115
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Harimo kugwa imvura. Umuyaga urakomeye."
+ Domanda: "Cos'è happening?"
+ options: ["It è snowing", "It è raining", "It è sunny", "It è cloudy"]
+ correct_answer: "It è raining"
+ xp_reward: 15
+
+ - id: 116
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Uyu munsi birishyushye. Izuba rirarashe."
+ Domanda: "How è il temperature today?"
+ options: ["Cold", "Hot", "Cool", "Warm"]
+ correct_answer: "Hot"
+ xp_reward: 12
+
+ - id: 117
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Ijuru ryuzuye ibicu. Hazagwa imvura."
+ Domanda: "What will happen today?"
+ options: ["It will snow", "It will rain", "il sun will shine", "il wind will blow"]
+ correct_answer: "It will rain"
+ xp_reward: 15
+
+ - id: 118
+ type: read_answer
+ Domanda: "Leggi il conversation e Risposta il Domanda"
+ text: "un: Mwaramutse! Izuba rirarashe. B: Yego, ibihe ni byiza."
+ Domanda: "Cos'è il Meteo?"
+ options: ["Rainy", "Sunny", "Cloudy", "Windy"]
+ correct_answer: "Sunny"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 119
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Izuba means 'sun'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 120
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Imvura means 'snow'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 121
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Umuyaga urakomeye means 'il wind è strong'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 122
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Bikonje means 'hot'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 123
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Harimo kugwa imvura means 'it è raining'."
+ correct_answer: true
+ xp_reward: 15
+
+ - id: 124
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Uyu munsi hazagwa urubura means 'it will rain today'."
+ correct_answer: false
+ xp_reward: 15
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 125
+ type: conversation
+ Domanda: "Respond a il greeting by building un Frase"
+ bot_message: "Mwaramutse!"
+ translation: "buono morning!"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_response: ["Mwaramutse"]
+ xp_reward: 10
+
+ - id: 126
+ type: conversation
+ Domanda: "Respond a il Domanda about Meteo"
+ bot_message: "Ibihe by'ikirere bimeze bite?"
+ translation: "How è il Meteo?"
+ options:
+ - "Izuba rirarashe"
+ - "Harimo kugwa imvura"
+ - "Umuyaga urakomeye"
+ correct_response: "Izuba rirarashe"
+ xp_reward: 15
+
+ - id: 127
+ type: conversation
+ Domanda: "Respond a il statement"
+ bot_message: "Uyu munsi birishyushye."
+ translation: "It è hot today."
+ options:
+ - "Yego, Izuba rirarashe"
+ - "Oya, bikonje"
+ - "Harimo kugwa imvura"
+ correct_response: "Yego, Izuba rirarashe"
+ xp_reward: 12
+
+ - id: 128
+ type: conversation
+ Domanda: "Respond a il warning by building un Frase"
+ bot_message: "Hanze hariho ubukonje."
+ translation: "It è cold outside."
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "umuyaga", "urahuma"]
+ correct_response: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 20
+
+ # 16. Story Exercise - Build Frase from pieces
+ - id: 129
+ type: story
+ title: "un Day di Meteo - Umunsi w'Ibihe by'Ikirere"
+ story_intro: "Leggi about il Meteo. Then build il Frase."
+ story_segments:
+ - text: "buono morning! il sun è shining."
+ - text: "It è hot today."
+ - text: "il sky è cloudy."
+ - text: "It will rain today."
+ - text: "il wind è blowing."
+ - text: "Be careful, it è slippery."
+ exercises:
+ - type: word_bank
+ Domanda: "Build 'buono morning! il sun è shining'"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_answer: ["Mwaramutse", "Izuba", "rirakaza"]
+ - type: word_bank
+ Domanda: "Build 'It è hot today'"
+ word_bank: ["Uyu", "munsi", "birishyushye", "bikonje", "ubukonje"]
+ correct_answer: ["Uyu", "munsi", "birishyushye"]
+ - type: word_bank
+ Domanda: "Build 'il sky è cloudy'"
+ word_bank: ["Ijuru", "ryuzuye", "ibicu", "izuba", "rirakaza"]
+ correct_answer: ["Ijuru", "ryuzuye", "ibicu"]
+ - type: word_bank
+ Domanda: "Build 'It will rain today'"
+ word_bank: ["Uyu", "munsi", "hazagwa", "imvura", "urubura"]
+ correct_answer: ["Uyu", "munsi", "hazagwa", "imvura"]
+ - type: word_bank
+ Domanda: "Build 'il wind è blowing'"
+ word_bank: ["Umuyaga", "urahuma", "urakomeye", "izuba"]
+ correct_answer: ["Umuyaga", "urahuma"]
+ - type: word_bank
+ Domanda: "Build 'Be careful, it è slippery'"
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "hanze", "hariho", "ubukonje"]
+ correct_answer: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 130
+ type: pronunciation
+ Domanda: "Say questo Meteo word"
+ prompt: "Izuba"
+ translation: "Sun"
+ xp_reward: 15
+
+ - id: 131
+ type: pronunciation
+ Domanda: "Say questo Meteo word"
+ prompt: "Imvura"
+ translation: "Rain"
+ xp_reward: 15
+
+ - id: 132
+ type: pronunciation
+ Domanda: "Say questo Meteo word"
+ prompt: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 15
+
+ - id: 133
+ type: pronunciation
+ Domanda: "Say questo phrase"
+ prompt: "Izuba rirarashe"
+ translation: "il sun è shining"
+ xp_reward: 18
+
+ - id: 134
+ type: pronunciation
+ Domanda: "Say questo phrase"
+ prompt: "Harimo kugwa imvura"
+ translation: "It è raining"
+ xp_reward: 20
+
+ - id: 135
+ type: pronunciation
+ Domanda: "Say questo expression"
+ prompt: "Mwaramutse Izuba ryarashe"
+ translation: "buono morning! il sun è shining"
+ xp_reward: 22
+
+ # 18. Identify Correct Meaning
+ - id: 136
+ type: identify_meaning
+ Domanda: "Che cosa significa 'Izuba' mean in questo Frase?"
+ context_sentence: "Izuba rirarashe."
+ word: "Izuba"
+ options: ["Rain", "Sun", "Wind", "Cloud"]
+ correct_answer: "Sun"
+ xp_reward: 12
+
+ - id: 137
+ type: identify_meaning
+ Domanda: "Che cosa significa 'rirakaza' mean in questo Frase?"
+ context_sentence: "Izuba rirarashe."
+ word: "rirakaza"
+ options: ["è falling", "è shining", "è blowing", "è strong"]
+ correct_answer: "è shining"
+ xp_reward: 15
+
+ - id: 138
+ type: identify_meaning
+ Domanda: "Che cosa significa 'birishyushye' mean in questo Frase?"
+ context_sentence: "Uyu munsi birishyushye."
+ word: "birishyushye"
+ options: ["cold", "hot", "cool", "warm"]
+ correct_answer: "hot"
+ xp_reward: 12
+
+ - id: 139
+ type: identify_meaning
+ Domanda: "Che cosa significa 'hazagwa' mean in questo Frase?"
+ context_sentence: "Uyu munsi hazagwa imvura."
+ word: "hazagwa"
+ options: ["è falling", "will fall", "è blowing", "will blow"]
+ correct_answer: "will fall"
+ xp_reward: 18
+
+ - id: 140
+ type: identify_meaning
+ Domanda: "Che cosa significa 'gusogongera' mean in questo Frase?"
+ context_sentence: "Wirinde, birashobora gusogongera."
+ word: "gusogongera"
+ options: ["a be cold", "a be slippery", "a be hot", "a be windy"]
+ correct_answer: "a be slippery"
+ xp_reward: 18
+
+ # 19. Speed Abbina
+ - id: 141
+ type: speed_Abbina
+ title: "Abbina Madness: Meteo"
+ time_limit_seconds: 45
+ pairs:
+ - Sinistra: "Sun"
+ Destra: "Izuba"
+ - Sinistra: "Rain"
+ Destra: "Imvura"
+ - Sinistra: "Snow"
+ Destra: "Urubura"
+ - Sinistra: "Cloud"
+ Destra: "Igicu"
+ - Sinistra: "Wind"
+ Destra: "Umuyaga"
+ - Sinistra: "Hot"
+ Destra: "Harashyushye"
+ - Sinistra: "Cold"
+ Destra: "Bikonje"
+ - Sinistra: "Fog"
+ Destra: "Igitugu"
+ - Sinistra: "Sunny"
+ Destra: "Izuba rirarashe"
+ - Sinistra: "Rainy"
+ Destra: "Harimo kugwa imvura"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 142
+ type: timed_challenge
+ title: "Lightning Round: Meteo"
+ time_limit_seconds: 30
+ Domanda_count: 5
+ Domanda:
+ - Domanda: "Sun"
+ Risposta: "Izuba"
+ - Domanda: "Rain"
+ Risposta: "Imvura"
+ - Domanda: "Wind"
+ Risposta: "Umuyaga"
+ - Domanda: "Hot"
+ Risposta: "Harashyushye"
+ - Domanda: "Cold"
+ Risposta: "Bikonje"
+ xp_reward: 35
+
+# Schede
+ - id: 111
+ type: Schede
+ Domanda: "Schede"
+ Schede:
+ - front: "Ibihe by\'ikirere"
+ back: "Meteo"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Izuba"
+ back: "Sun"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Imvura"
+ back: "Rain"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Urubura"
+ back: "Snow"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Igicu"
+ back: "Cloud"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuyaga"
+ back: "Wind"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuyaga ukomeye"
+ back: "Storm"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkubi y\'umuyaga"
+ back: "Thunder"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuriro w\'amashanyarazi"
+ back: "Lightning"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Harashyushye"
+ back: "Hot"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

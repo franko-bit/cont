@@ -4,7 +4,6 @@ lesson:
   xp_reward: 500
 
 exercises:
-
   # 1. Translation Exercises - Debate Vocabulary ONLY (Safe for single words/phrases)
   # Debate Terms
   - id: 1
@@ -658,11 +657,11 @@ exercises:
     translation: "Nkeneye ibindi by'ukuri"
     xp_reward: 15
 
-  # 9. Picture → Word (Conceptual images for abstract debate terms)
+  # 9. Picture → Word (Unsplash API Images for abstract debate terms)
   - id: 89
     type: picture_word
     question: "Iki gishushanyo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?debate"
+    image_url: "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Debate", "Discussion", "Speaker"]
     correct_answer: "Debate"
     xp_reward: 12
@@ -670,7 +669,7 @@ exercises:
   - id: 90
     type: picture_word
     question: "Iki gishushanyo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?opinion"
+    image_url: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Opinion", "Fact", "Evidence"]
     correct_answer: "Opinion"
     xp_reward: 12
@@ -678,7 +677,7 @@ exercises:
   - id: 91
     type: picture_word
     question: "Iki gishushanyo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?agreement"
+    image_url: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Agree", "Disagree", "Refute"]
     correct_answer: "Agree"
     xp_reward: 12
@@ -686,7 +685,7 @@ exercises:
   - id: 92
     type: picture_word
     question: "Iki gishushanyo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?disagreement"
+    image_url: "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Disagree", "Agree", "Persuade"]
     correct_answer: "Disagree"
     xp_reward: 12
@@ -694,7 +693,7 @@ exercises:
   - id: 93
     type: picture_word
     question: "Iki gishushanyo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?evidence"
+    image_url: "https://images.unsplash.com/photo-1434030216411-0b793313e4de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Evidence", "Fact", "Conclusion"]
     correct_answer: "Evidence"
     xp_reward: 12
@@ -702,7 +701,7 @@ exercises:
   - id: 94
     type: picture_word
     question: "Iki gishushanyo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?fact"
+    image_url: "https://images.unsplash.com/photo-1434030216411-0b793313e4de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Fact", "Opinion", "Question"]
     correct_answer: "Fact"
     xp_reward: 12
@@ -710,7 +709,7 @@ exercises:
   - id: 95
     type: picture_word
     question: "Iki gishushanyo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?speaker"
+    image_url: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Speaker", "Audience", "Debater"]
     correct_answer: "Speaker"
     xp_reward: 12
@@ -718,7 +717,7 @@ exercises:
   - id: 96
     type: picture_word
     question: "Iki gishushanyo kigaragaza iki?"
-    image_url: "https://source.unsplash.com/featured/?audience"
+    image_url: "https://images.unsplash.com/photo-1501596092352-8250445e5673?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["Audience", "Speakers", "People"]
     correct_answer: "Audience"
     xp_reward: 12
@@ -794,7 +793,7 @@ exercises:
         right: "Umusozo"
     xp_reward: 25
 
-  # 12. Choose Missing Word
+  # 11. Choose Missing Word
   - id: 100
     type: choose_missing
     question: "Hitamo ijambo ribuze"
@@ -855,7 +854,7 @@ exercises:
     translation: "Mfite ibimenyetso byerekana ko..."
     xp_reward: 15
 
-  # 13. Read and Answer
+  # 12. Read and Answer
   - id: 106
     type: read_answer
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
@@ -901,7 +900,7 @@ exercises:
     correct_answer: "It's important"
     xp_reward: 18
 
-  # 14. True / False
+  # 13. True / False
   - id: 111
     type: true_false
     question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
@@ -944,7 +943,7 @@ exercises:
     correct_answer: true
     xp_reward: 12
 
-  # 15. Conversation Exercise
+  # 14. Conversation Exercise
   - id: 117
     type: conversation
     question: "Subiza icyavuzwe ukoresheje amagambo atanzwe"
@@ -987,7 +986,7 @@ exercises:
     correct_response: "I think that debate is important"
     xp_reward: 18
 
-  # 16. Story Exercise
+  # 15. Story Exercise
   - id: 121
     type: story
     title: "Impaka"
@@ -1028,7 +1027,7 @@ exercises:
         correct_answer: ["I", "agree", "with", "you"]
     xp_reward: 45
 
-  # 17. Pronunciation Check
+  # 16. Pronunciation Check
   - id: 122
     type: pronunciation
     question: "Vuga iri jambo ry'impaka mu Cyongereza neza"
@@ -1078,7 +1077,7 @@ exercises:
     translation: "That is a strong argument"
     xp_reward: 20
 
-  # 18. Identify Correct Meaning
+  # 17. Identify Correct Meaning
   - id: 129
     type: identify_meaning
     question: "'Ndemeranya nawe' bisobanura iki?"
@@ -1124,7 +1123,7 @@ exercises:
     correct_answer: "facts"
     xp_reward: 15
 
-  # 19. Speed Matching
+  # 18. Speed Matching
   - id: 134
     type: speed_matching
     title: "Huza Byihuse: Amagambo y'Impaka"
@@ -1154,7 +1153,7 @@ exercises:
         right: "Umusozo"
     xp_reward: 30
 
-  # 20. Timed Challenges
+  # 19. Timed Challenges
   - id: 135
     type: timed_challenge
     title: "Kubahuka: Imvugo z'Impaka"
@@ -1173,232 +1172,40 @@ exercises:
         answer: "In my opinion"
     xp_reward: 35
 
-  # 21. Character Writing
-  - id: 136
-    type: character_writing
-    question: "Yandika iri jambo ry'impaka mu Cyongereza"
-    prompt: "Impaka"
-    translation: "Debate"
-    xp_reward: 15
-
-  - id: 137
-    type: character_writing
-    question: "Yandika iri jambo ry'impaka mu Cyongereza"
-    prompt: "Igitekerezo"
-    translation: "Opinion"
-    xp_reward: 15
-
-  - id: 138
-    type: character_writing
-    question: "Yandika iri jambo ry'impaka mu Cyongereza"
-    prompt: "Ibimenyetso"
-    translation: "Evidence"
-    xp_reward: 15
-
-  - id: 139
-    type: character_writing
-    question: "Yandika iyi nteruro mu Cyongereza"
-    prompt: "Ndemeranya nawe"
-    translation: "I agree with you"
-    xp_reward: 18
-
-  # 22. Spaced Repetition Review
-  - id: 140
-    type: review
-    title: "Isubiramo: Amagambo y'Impaka"
-    exercises:
-      - type: translation
-        question: "Impaka"
-        answer: "Debate"
-      - type: multiple_choice
-        question: "Igitekerezo"
-        options: ["Opinion", "Fact", "Evidence"]
-        answer: "Opinion"
-      - type: fill_blank
-        question: "I agree ___ you."
-        text_with_blank: "I agree ___ you."
-        options: ["with", "to", "on"]
-        correct_answer: "with"
-      - type: picture_word
-        question: "Iki gishushanyo kigaragaza iki?"
-        image_url: "https://source.unsplash.com/featured/?agreement"
-        options: ["Agree", "Disagree", "Refute"]
-        correct_answer: "Agree"
-      - type: sentence_scramble
-        question: "Tondeka: I agree with you"
-        scrambled_words: ["with", "you", "agree", "I"]
-        correct_sentence: "I agree with you"
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Debate"
+      back: "Impaka"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Opinion"
+      back: "Igitekerezo"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Agree"
+      back: "Kwemera"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Disagree"
+      back: "Kutemera"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Argument"
+      back: "Impamvu / Inyandiko"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Evidence"
+      back: "Ibimenyetso"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Fact"
+      back: "Ukuri"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Opinion piece"
+      back: "Igitekerezo cy"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Point of view"
+      back: "Inyungu / Igitekerezo"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Discussion"
+      back: "Ikiganiro"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
     xp_reward: 30
 
-  # 23. Listening Comprehension
-  - id: 141
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ijambo ry'impaka rikwiye"
-    audio: "Impaka"
-    options:
-      - "Opinion"
-      - "Debate"
-      - "Discussion"
-    correct_answer: "Debate"
-    xp_reward: 15
-
-  - id: 142
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ijambo ry'impaka rikwiye"
-    audio: "Igitekerezo"
-    options:
-      - "Fact"
-      - "Opinion"
-      - "Evidence"
-    correct_answer: "Opinion"
-    xp_reward: 15
-
-  - id: 143
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ijambo ry'impaka rikwiye"
-    audio: "Ibimenyetso"
-    options:
-      - "Fact"
-      - "Evidence"
-      - "Conclusion"
-    correct_answer: "Evidence"
-    xp_reward: 15
-
-  - id: 144
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ijambo ry'impaka rikwiye"
-    audio: "Ukuri"
-    options:
-      - "Opinion"
-      - "Fact"
-      - "Question"
-    correct_answer: "Fact"
-    xp_reward: 15
-
-  # 24. Grammar Selection
-  - id: 145
-    type: grammar
-    question: "Hitamo interuro ikwiye isobanura 'I agree with you'"
-    options: ["I agree with you", "I disagree", "I think that"]
-    correct_answer: "I agree with you"
-    explanation: "'Ndemeranya nawe' means 'I agree with you'"
-    xp_reward: 15
-
-  - id: 146
-    type: grammar
-    question: "Hitamo interuro ikwiye isobanura 'I disagree'"
-    options: ["I agree with you", "I disagree", "I think that"]
-    correct_answer: "I disagree"
-    explanation: "'Sinemeye' means 'I disagree'"
-    xp_reward: 15
-
-  - id: 147
-    type: grammar
-    question: "Hitamo interuro ikwiye isobanura 'I think that'"
-    options: ["I agree with you", "I disagree", "I think that"]
-    correct_answer: "I think that"
-    explanation: "'Ntekereza ko' means 'I think that'"
-    xp_reward: 15
-
-  - id: 148
-    type: grammar
-    question: "Hitamo ijambo rikwiye risobanura 'opinion'"
-    options: ["opinion", "fact", "evidence"]
-    correct_answer: "opinion"
-    explanation: "'Igitekerezo' means 'opinion'"
-    xp_reward: 12
-
-  # 25. Error Correction
-  - id: 149
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I agree that."
-    translation: "Ndemeranya ko (ariko agomba kuvuga 'with you')"
-    word_bank_for_fix: ["I", "agree", "with", "you", "that"]
-    correct_sentence: "I agree with you."
-    explanation: "Ndemeranya nawe means 'I agree with you'. Use 'with you' not 'that'."
-    xp_reward: 18
-
-  - id: 150
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "In your opinion"
-    translation: "Mu bitekerezo byawe (ariko agomba kuvuga 'my')"
-    word_bank_for_fix: ["In", "my", "opinion", "your"]
-    correct_sentence: "In my opinion"
-    explanation: "Mu bitekerezo byanjye means 'in my opinion'. Use 'my' not 'your'."
-    xp_reward: 18
-
-  - id: 151
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I have true evidence."
-    translation: "Mfite ibimenyetso by'ukuri (ariko agomba kuvuga 'I need more facts')"
-    word_bank_for_fix: ["I", "need", "more", "facts", "have", "evidence"]
-    correct_sentence: "I need more facts."
-    explanation: "Nkeneye ibindi by'ukuri means 'I need more facts'."
-    xp_reward: 18
-
-  # Flashcards
-  - id: 152
-    type: flashcards
-    question: "Iyi ni modero y'amafishi y'impaka"
-    flashcards:
-      - front: "Impaka"
-        back: "Debate"
-        image: "https://source.unsplash.com/featured/?debate"
-      - front: "Igitekerezo"
-        back: "Opinion"
-        image: "https://source.unsplash.com/featured/?opinion"
-      - front: "Kwemera"
-        back: "Agree"
-        image: "https://source.unsplash.com/featured/?agreement"
-      - front: "Kutemera"
-        back: "Disagree"
-        image: "https://source.unsplash.com/featured/?disagreement"
-      - front: "Impamvu"
-        back: "Argument"
-        image: "https://source.unsplash.com/featured/?argument"
-      - front: "Ibimenyetso"
-        back: "Evidence"
-        image: "https://source.unsplash.com/featured/?evidence"
-      - front: "Ukuri"
-        back: "Fact"
-        image: "https://source.unsplash.com/featured/?fact"
-      - front: "Ikiganiro"
-        back: "Discussion"
-        image: "https://source.unsplash.com/featured/?discussion"
-      - front: "Umuvugizi"
-        back: "Speaker"
-        image: "https://source.unsplash.com/featured/?speaker"
-      - front: "Abumvise"
-        back: "Audience"
-        image: "https://source.unsplash.com/featured/?audience"
-      - front: "Ikibazo"
-        back: "Question"
-        image: "https://source.unsplash.com/featured/?question"
-      - front: "Igisubizo"
-        back: "Response"
-        image: "https://source.unsplash.com/featured/?answer"
-      - front: "Umusozo"
-        back: "Conclusion"
-        image: "https://source.unsplash.com/featured/?conclusion"
-      - front: "Ndemeranya nawe"
-        back: "I agree with you"
-        image: "https://source.unsplash.com/featured/?agreement"
-      - front: "Sinemeye"
-        back: "I disagree"
-        image: "https://source.unsplash.com/featured/?disagreement"
-      - front: "Ntekereza ko..."
-        back: "I think that..."
-        image: "https://source.unsplash.com/featured/?thinking"
-      - front: "Mu bitekerezo byanjye..."
-        back: "In my opinion..."
-        image: "https://source.unsplash.com/featured/?opinion"
-      - front: "Utekereza iki?"
-        back: "What do you think?"
-        image: "https://source.unsplash.com/featured/?question"
-      - front: "Icyo ni igitekerezo gikomeye"
-        back: "That is a strong argument"
-        image: "https://source.unsplash.com/featured/?strong"
-    xp_reward: 50

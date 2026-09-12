@@ -1,0 +1,1267 @@
+lesson:
+ name: "Opinions - Ibitekerezo"
+ description: "सीखें how to express opinions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Opinion Words ONLY (Safe for single words/phrases)
+ # Basic Opinion शब्दावली
+ - id: 1
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I think / I believe' किन्यार्वाण्डा में?"
+ उत्तर: "Ndibwira / Ntekereza"
+ xp_reward: 15
+
+ - id: 2
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I feel' किन्यार्वाण्डा में?"
+ उत्तर: "Numva"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'In my opinion' किन्यार्वाण्डा में?"
+ उत्तर: "Mu bitekerezo byanjye"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I agree' किन्यार्वाण्डा में?"
+ उत्तर: "Nemeranya"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I disagree' किन्यार्वाण्डा में?"
+ उत्तर: "Sinemeranya"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I like' किन्यार्वाण्डा में?"
+ उत्तर: "Nkunda"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I don't like' किन्यार्वाण्डा में?"
+ उत्तर: "Sinakunda"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I prefer' किन्यार्वाण्डा में?"
+ उत्तर: "Nkunda cyane / Nahitamo"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I believe that...' किन्यार्वाण्डा में?"
+ उत्तर: "Ntekereza ko..."
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'It seems that...' किन्यार्वाण्डा में?"
+ उत्तर: "Bisa nk'aho..."
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I'm sure' किन्यार्वाण्डा में?"
+ उत्तर: "Ndizeye"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Maybe' किन्यार्वाण्डा में?"
+ उत्तर: "Birashoboka"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Definitely' किन्यार्वाण्डा में?"
+ उत्तर: "Ntibishidikanywaho"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Probably' किन्यार्वाण्डा में?"
+ उत्तर: "Birashoboka cyane"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I hope' किन्यार्वाण्डा में?"
+ उत्तर: "Nizeye / Niringiye"
+ xp_reward: 15
+
+ # Common Opinion Phrases (Full वाक्य - safe as fixed expressions)
+ - id: 16
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I think Kinyarwanda is beautiful' किन्यार्वाण्डा में?"
+ उत्तर: "Ndibwira ko I Kinyarwanda ari cyiza."
+ xp_reward: 20
+
+ - id: 17
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I feel खुश today' किन्यार्वाण्डा में?"
+ उत्तर: "Numva nishimye uyu munsi."
+ xp_reward: 18
+
+ - id: 18
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'In my opinion, this book is interesting' किन्यार्वाण्डा में?"
+ उत्तर: "Mu bitekerezo byanjye, iki gitabo kirashimishije."
+ xp_reward: 22
+
+ - id: 19
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I agree with you' किन्यार्वाण्डा में?"
+ उत्तर: "Nemeranya nawe."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I disagree with that' किन्यार्वाण्डा में?"
+ उत्तर: "Sinemeranya n'icyo."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I like this खाना' किन्यार्वाण्डा में?"
+ उत्तर: "Nkunda iri funguro."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I don't like waiting' किन्यार्वाण्डा में?"
+ उत्तर: "Sinakunda gutegereza."
+ xp_reward: 18
+
+ - id: 23
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I prefer tea over coffee' किन्यार्वाण्डा में?"
+ उत्तर: "Nkunda icyayi kurusha ikawa."
+ xp_reward: 20
+
+ - id: 24
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I believe that सीखें is important' किन्यार्वाण्डा में?"
+ उत्तर: "Ntekereza ko kwiga ari ingenzi."
+ xp_reward: 20
+
+ - id: 25
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'It seems that it will rain' किन्यार्वाण्डा में?"
+ उत्तर: "Bisa nk'aho hazagwa imvura."
+ xp_reward: 20
+
+ - id: 26
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I'm sure he is coming' किन्यार्वाण्डा में?"
+ उत्तर: "Ndizeye ko azaza."
+ xp_reward: 18
+
+ - id: 27
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Maybe we will go to the बाज़ार' किन्यार्वाण्डा में?"
+ उत्तर: "Birashoboka ko tuzajya ku isoko."
+ xp_reward: 20
+
+ - id: 28
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'Definitely, this is correct' किन्यार्वाण्डा में?"
+ उत्तर: "Ntibishidikanywaho, ibi ni byo."
+ xp_reward: 20
+
+ - id: 29
+ type: translation
+ प्रश्न: "आप कैसे कहते हैं 'I hope you succeed' किन्यार्वाण्डा में?"
+ उत्तर: "Nizeye ko uzatsinda."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 30
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Nkunda' इस वाक्य में?"
+ options:
+ - "I disagree"
+ - "I like"
+ - "I think"
+ - "I hope"
+ उत्तर: "I like"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Sinakunda' इस वाक्य में?"
+ options:
+ - "I like"
+ - "I don't like"
+ - "I agree"
+ - "I disagree"
+ उत्तर: "I don't like"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Nemeranya' इस वाक्य में?"
+ options:
+ - "I disagree"
+ - "I agree"
+ - "I think"
+ - "I feel"
+ उत्तर: "I agree"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Sinemeranya' इस वाक्य में?"
+ options:
+ - "I agree"
+ - "I disagree"
+ - "I like"
+ - "I hope"
+ उत्तर: "I disagree"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Birashoboka' इस वाक्य में?"
+ options:
+ - "Definitely"
+ - "Maybe"
+ - "Probably"
+ - "I'm sure"
+ उत्तर: "Maybe"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Ndizeye' इस वाक्य में?"
+ options:
+ - "I hope"
+ - "I'm sure"
+ - "I think"
+ - "I feel"
+ उत्तर: "I'm sure"
+ xp_reward: 15
+
+ - id: 36
+ type: multiple_choice
+ प्रश्न: "क्या मतलब है 'Mu bitekerezo byanjye' इस वाक्य में?"
+ options:
+ - "I think"
+ - "In my opinion"
+ - "I believe"
+ - "It seems"
+ उत्तर: "In my opinion"
+ xp_reward: 18
+
+ # 3. सुनें and Type (Dictation)
+ - id: 37
+ type: listen_and_type
+ प्रश्न: "सुनें and type the opinion phrase"
+ audio: "Nkunda"
+ उत्तर: "Nkunda"
+ translation: "I like"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ प्रश्न: "सुनें and type the opinion phrase"
+ audio: "Sinakunda"
+ उत्तर: "Sinakunda"
+ translation: "I don't like"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ प्रश्न: "सुनें and type the opinion phrase"
+ audio: "Nemeranya"
+ उत्तर: "Nemeranya"
+ translation: "I agree"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_and_type
+ प्रश्न: "सुनें and type the opinion phrase"
+ audio: "Sinemeranya"
+ उत्तर: "Sinemeranya"
+ translation: "I disagree"
+ xp_reward: 20
+
+ - id: 41
+ type: listen_and_type
+ प्रश्न: "सुनें and type the phrase"
+ audio: "Ndibwira ko I Kinyarwanda ari cyiza"
+ उत्तर: "Ndibwira ko I Kinyarwanda ari cyiza"
+ translation: "I think Kinyarwanda is beautiful"
+ xp_reward: 25
+
+ - id: 42
+ type: listen_and_type
+ प्रश्न: "सुनें and type the phrase"
+ audio: "Nemeranya nawe"
+ उत्तर: "Nemeranya nawe"
+ translation: "I agree with you"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_and_type
+ प्रश्न: "सुनें and type the phrase"
+ audio: "Birashoboka ko tuzajya ku isoko"
+ उत्तर: "Birashoboka ko tuzajya ku isoko"
+ translation: "Maybe we will go to the बाज़ार"
+ xp_reward: 25
+
+ - id: 44
+ type: listen_and_type
+ प्रश्न: "सुनें and type the phrase"
+ audio: "Nizeye ko uzatsinda"
+ उत्तर: "Nizeye ko uzatsinda"
+ translation: "I hope you succeed"
+ xp_reward: 22
+
+ # 4. सुनें and चुनें
+ - id: 45
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct meaning"
+ audio: "Nkunda"
+ options:
+ - "I like"
+ - "I don't like"
+ - "I agree"
+ उत्तर: "I like"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct meaning"
+ audio: "Sinakunda"
+ options:
+ - "I like"
+ - "I don't like"
+ - "I disagree"
+ उत्तर: "I don't like"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct meaning"
+ audio: "Nemeranya"
+ options:
+ - "I disagree"
+ - "I agree"
+ - "I think"
+ उत्तर: "I agree"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct meaning"
+ audio: "Birashoboka"
+ options:
+ - "Definitely"
+ - "Maybe"
+ - "I'm sure"
+ उत्तर: "Maybe"
+ xp_reward: 15
+
+ - id: 49
+ type: listen_and_choose
+ प्रश्न: "सुनें and चुनें the correct phrase"
+ audio: "Nemeranya nawe"
+ options:
+ - "I disagree with you"
+ - "I agree with you"
+ - "I think about you"
+ उत्तर: "I agree with you"
+ xp_reward: 18
+
+ # 5. Repeat / बोलें Exercise
+ - id: 50
+ type: बोलें
+ प्रश्न: "Say this opinion phrase"
+ prompt: "Nkunda"
+ translation: "I like"
+ xp_reward: 15
+
+ - id: 51
+ type: बोलें
+ प्रश्न: "Say this opinion phrase"
+ prompt: "Sinakunda"
+ translation: "I don't like"
+ xp_reward: 15
+
+ - id: 52
+ type: बोलें
+ प्रश्न: "Say this opinion phrase"
+ prompt: "Nemeranya"
+ translation: "I agree"
+ xp_reward: 15
+
+ - id: 53
+ type: बोलें
+ प्रश्न: "Say this opinion phrase"
+ prompt: "Sinemeranya"
+ translation: "I disagree"
+ xp_reward: 15
+
+ - id: 54
+ type: बोलें
+ प्रश्न: "Say this opinion phrase"
+ prompt: "Birashoboka"
+ translation: "Maybe"
+ xp_reward: 15
+
+ - id: 55
+ type: बोलें
+ प्रश्न: "Say this वाक्य"
+ prompt: "Nkunda iri funguro"
+ translation: "I like this खाना"
+ xp_reward: 18
+
+ - id: 56
+ type: बोलें
+ प्रश्न: "Say this वाक्य"
+ prompt: "Nemeranya nawe"
+ translation: "I agree with you"
+ xp_reward: 18
+
+ - id: 57
+ type: बोलें
+ प्रश्न: "Say this वाक्य"
+ prompt: "Ndizeye ko azaza"
+ translation: "I'm sure he is coming"
+ xp_reward: 20
+
+ # 6. Word Bank वाक्य Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'I like this खाना'"
+ word_bank: ["Nkunda", "iri", "funguro", "sinakunda", "gutegereza"]
+ correct_answer: ["Nkunda", "iri", "funguro"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'I don't like waiting'"
+ word_bank: ["Sinakunda", "gutegereza", "nkunda", "gukina"]
+ correct_answer: ["Sinakunda", "gutegereza"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'I agree with you'"
+ word_bank: ["Nemeranya", "nawe", "sinemeranya", "n'icyo"]
+ correct_answer: ["Nemeranya", "nawe"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'I disagree with that'"
+ word_bank: ["Sinemeranya", "n'icyo", "nemeranya", "nawe"]
+ correct_answer: ["Sinemeranya", "n'icyo"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'I think Kinyarwanda is beautiful'"
+ word_bank: ["Ndibwira", "ko", "Kinyarwanda", "ari", "cyiza", "nkunda"]
+ correct_answer: ["Ndibwira", "ko", "Kinyarwanda", "ari", "cyiza"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'In my opinion, this book is interesting'"
+ word_bank: ["Mu bitekerezo byanjye", "iki", "gitabo", "kirashimishije", "ari", "cyiza"]
+ correct_answer: ["Mu bitekerezo byanjye", "iki", "gitabo", "kirashimishije"]
+ xp_reward: 25
+
+ - id: 64
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'I prefer tea over coffee'"
+ word_bank: ["Nkunda", "icyayi", "kurusha", "ikawa", "sinakunda"]
+ correct_answer: ["Nkunda", "icyayi", "kurusha", "ikawa"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'I believe that सीखें is important'"
+ word_bank: ["Ntekereza", "ko", "kwiga", "ari", "ingenzi", "ari cyiza"]
+ correct_answer: ["Ntekereza", "ko", "kwiga", "ari", "ingenzi"]
+ xp_reward: 22
+
+ - id: 66
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'It seems that it will rain'"
+ word_bank: ["Bisa nk'aho", "hazagwa", "imvura", "izuba", "rirasira"]
+ correct_answer: ["Bisa nk'aho", "hazagwa", "imvura"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'I'm sure he is coming'"
+ word_bank: ["Ndizeye", "ko", "azaza", "birashoboka", "ko", "ataza"]
+ correct_answer: ["Ndizeye", "ko", "azaza"]
+ xp_reward: 18
+
+ - id: 68
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'Maybe we will go to the बाज़ार'"
+ word_bank: ["Birashoboka", "ko", "tuzajya", "ku isoko", "ku rugo", "mu ishuri"]
+ correct_answer: ["Birashoboka", "ko", "tuzajya", "ku isoko"]
+ xp_reward: 20
+
+ - id: 69
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'Definitely, this is correct'"
+ word_bank: ["Ntibishidikanywaho", "ibi", "ni", "byo", "ari", "byiza"]
+ correct_answer: ["Ntibishidikanywaho", "ibi", "ni", "byo"]
+ xp_reward: 20
+
+ - id: 70
+ type: word_bank
+ प्रश्न: "Build the Kinyarwanda वाक्य for 'I hope you succeed'"
+ word_bank: ["Nizeye", "ko", "uzatsinda", "uzakina", "uziga"]
+ correct_answer: ["Nizeye", "ko", "uzatsinda"]
+ xp_reward: 18
+
+ # 7. वाक्य Scramble - PIECES PROVIDED
+ - id: 71
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Nkunda", "iri", "funguro"]
+ correct_sentence: "Nkunda iri funguro."
+ translation: "I like this खाना."
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Sinakunda", "gutegereza"]
+ correct_sentence: "Sinakunda gutegereza."
+ translation: "I don't like waiting."
+ xp_reward: 18
+
+ - id: 73
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Nemeranya", "nawe"]
+ correct_sentence: "Nemeranya nawe."
+ translation: "I agree with you."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Sinemeranya", "n'icyo"]
+ correct_sentence: "Sinemeranya n'icyo."
+ translation: "I disagree with that."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Ndibwira", "ko", "Kinyarwanda", "ari", "cyiza"]
+ correct_sentence: "Ndibwira ko I Kinyarwanda ari cyiza."
+ translation: "I think Kinyarwanda is beautiful."
+ xp_reward: 22
+
+ - id: 76
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Mu", "bitekerezo", "byanjye", "iki", "gitabo", "kirashimishije"]
+ correct_sentence: "Mu bitekerezo byanjye, iki gitabo kirashimishije."
+ translation: "In my opinion, this book is interesting."
+ xp_reward: 25
+
+ - id: 77
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Nkunda", "icyayi", "kurusha", "ikawa"]
+ correct_sentence: "Nkunda icyayi kurusha ikawa."
+ translation: "I prefer tea over coffee."
+ xp_reward: 22
+
+ - id: 78
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Bisa", "nk'aho", "hazagwa", "imvura"]
+ correct_sentence: "Bisa nk'aho hazagwa imvura."
+ translation: "It seems that it will rain."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Ndizeye", "ko", "azaza"]
+ correct_sentence: "Ndizeye ko azaza."
+ translation: "I'm sure he is coming."
+ xp_reward: 18
+
+ - id: 80
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Birashoboka", "ko", "tuzajya", "ku isoko"]
+ correct_sentence: "Birashoboka ko tuzajya ku isoko."
+ translation: "Maybe we will go to the बाज़ार."
+ xp_reward: 20
+
+ - id: 81
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Ntibishidikanywaho", "ibi", "ni", "byo"]
+ correct_sentence: "Ntibishidikanywaho, ibi ni byo."
+ translation: "Definitely, this is correct."
+ xp_reward: 20
+
+ - id: 82
+ type: sentence_scramble
+ प्रश्न: "Arrange these words to form a correct वाक्य"
+ scrambled_words: ["Nizeye", "ko", "uzatsinda"]
+ correct_sentence: "Nizeye ko uzatsinda."
+ translation: "I hope you succeed."
+ xp_reward: 18
+
+ # 8. Fill in the Blank - चुनें FROM OPTIONS
+ - id: 83
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Nkunda ___ funguro."
+ options: ["iri", "iki", "iyi"]
+ correct_answer: "iri"
+ translation: "I like this खाना."
+ xp_reward: 15
+
+ - id: 84
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Sinakunda ___."
+ options: ["gutegereza", "gukina", "kwiga"]
+ correct_answer: "gutegereza"
+ translation: "I don't like waiting."
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Nemeranya ___."
+ options: ["nawe", "n'icyo", "ko"]
+ correct_answer: "nawe"
+ translation: "I agree with you."
+ xp_reward: 12
+
+ - id: 86
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Sinemeranya ___."
+ options: ["n'icyo", "nawe", "ko"]
+ correct_answer: "n'icyo"
+ translation: "I disagree with that."
+ xp_reward: 12
+
+ - id: 87
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Ndibwira ko Kinyarwanda ___ cyiza."
+ options: ["ari", "ni", "ko"]
+ correct_answer: "ari"
+ translation: "I think Kinyarwanda is beautiful."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Mu bitekerezo byanjye, iki gitabo ___."
+ options: ["kirashimishije", "ari cyiza", "ni ingenzi"]
+ correct_answer: "kirashimishije"
+ translation: "In my opinion, this book is interesting."
+ xp_reward: 20
+
+ - id: 89
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Nkunda icyayi ___ ikawa."
+ options: ["kurusha", "na", "n'"]
+ correct_answer: "kurusha"
+ translation: "I prefer tea over coffee."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Bisa nk'aho ___ imvura."
+ options: ["hazagwa", "iragwa", "yaraguye"]
+ correct_answer: "hazagwa"
+ translation: "It seems that it will rain."
+ xp_reward: 18
+
+ - id: 91
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Ndizeye ko ___."
+ options: ["azaza", "ataza", "yagiye"]
+ correct_answer: "azaza"
+ translation: "I'm sure he is coming."
+ xp_reward: 15
+
+ - id: 92
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Birashoboka ko tuzajya ___."
+ options: ["ku isoko", "mu rugo", "mu ishuri"]
+ correct_answer: "ku isoko"
+ translation: "Maybe we will go to the बाज़ार."
+ xp_reward: 15
+
+ - id: 93
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Ntibishidikanywaho, ibi ni ___."
+ options: ["byo", "byiza", "bibi"]
+ correct_answer: "byo"
+ translation: "Definitely, this is correct."
+ xp_reward: 15
+
+ - id: 94
+ type: fill_blank
+ प्रश्न: "Complete the वाक्य"
+ text_with_blank: "Nizeye ko ___."
+ options: ["uzatsinda", "uzatsindwa", "uzakina"]
+ correct_answer: "uzatsinda"
+ translation: "I hope you succeed."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 95
+ type: picture_word
+ प्रश्न: "What opinion does this express?"
+ image_url: "https://source.unsplash.com/featured/?happy"
+ options: ["Nkunda", "Sinakunda", "Nemeranya"]
+ correct_answer: "Nkunda"
+ xp_reward: 15
+
+ - id: 96
+ type: picture_word
+ प्रश्न: "What opinion does this express?"
+ image_url: "https://source.unsplash.com/featured/?sad"
+ options: ["Sinakunda", "Nkunda", "Nemeranya"]
+ correct_answer: "Sinakunda"
+ xp_reward: 15
+
+ - id: 97
+ type: picture_word
+ प्रश्न: "What opinion does this express?"
+ image_url: "https://source.unsplash.com/featured/?agreement"
+ options: ["Nemeranya", "Sinemeranya", "Ndibwira"]
+ correct_answer: "Nemeranya"
+ xp_reward: 15
+
+ - id: 98
+ type: picture_word
+ प्रश्न: "What opinion does this express?"
+ image_url: "https://source.unsplash.com/featured/?disagreement"
+ options: ["Sinemeranya", "Nemeranya", "Nkunda"]
+ correct_answer: "Sinemeranya"
+ xp_reward: 15
+
+ - id: 99
+ type: picture_word
+ प्रश्न: "What word means 'maybe'?"
+ image_url: "https://source.unsplash.com/featured/?maybe"
+ options: ["Birashoboka", "Ntibishidikanywaho", "Ndizeye"]
+ correct_answer: "Birashoboka"
+ xp_reward: 15
+
+ - id: 100
+ type: picture_word
+ प्रश्न: "What word means 'definitely'?"
+ image_url: "https://source.unsplash.com/featured/?definitely"
+ options: ["Ntibishidikanywaho", "Birashoboka", "Ndizeye"]
+ correct_answer: "Ntibishidikanywaho"
+ xp_reward: 18
+
+ # 10. Word मेल करें (Pairing)
+ - id: 101
+ type: मेल करें
+ प्रश्न: "मेल करें the opinion words"
+ pairs:
+ - बाएँ: "I like"
+ दाएँ: "Nkunda"
+ - बाएँ: "I don't like"
+ दाएँ: "Sinakunda"
+ - बाएँ: "I agree"
+ दाएँ: "Nemeranya"
+ - बाएँ: "I disagree"
+ दाएँ: "Sinemeranya"
+ - बाएँ: "I think"
+ दाएँ: "Ndibwira"
+ - बाएँ: "I feel"
+ दाएँ: "Numva"
+ - बाएँ: "I'm sure"
+ दाएँ: "Ndizeye"
+ - बाएँ: "I hope"
+ दाएँ: "Nizeye"
+ xp_reward: 25
+
+ - id: 102
+ type: मेल करें
+ प्रश्न: "मेल करें the opinion phrases"
+ pairs:
+ - बाएँ: "Maybe"
+ दाएँ: "Birashoboka"
+ - बाएँ: "Definitely"
+ दाएँ: "Ntibishidikanywaho"
+ - बाएँ: "Probably"
+ दाएँ: "Birashoboka cyane"
+ - बाएँ: "In my opinion"
+ दाएँ: "Mu bitekerezo byanjye"
+ - बाएँ: "It seems that"
+ दाएँ: "Bisa nk'aho"
+ - बाएँ: "I believe that"
+ दाएँ: "Ntekereza ko"
+ xp_reward: 25
+
+ - id: 103
+ type: मेल करें
+ प्रश्न: "मेल करें the full वाक्य"
+ pairs:
+ - बाएँ: "I agree with you"
+ दाएँ: "Nemeranya nawe"
+ - बाएँ: "I disagree with that"
+ दाएँ: "Sinemeranya n'icyo"
+ - बाएँ: "I like this खाना"
+ दाएँ: "Nkunda iri funguro"
+ - बाएँ: "I don't like waiting"
+ दाएँ: "Sinakunda gutegereza"
+ - बाएँ: "I hope you succeed"
+ दाएँ: "Nizeye ko uzatsinda"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. चुनें Missing Word
+ - id: 104
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Nkunda ___ funguro."
+ missing_word_position: 2
+ options: ["iri", "iki", "iyi"]
+ correct_answer: "iri"
+ translation: "I like this खाना."
+ xp_reward: 15
+
+ - id: 105
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Nemeranya ___."
+ missing_word_position: 2
+ options: ["nawe", "n'icyo", "ko"]
+ correct_answer: "nawe"
+ translation: "I agree with you."
+ xp_reward: 12
+
+ - id: 106
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Sinemeranya ___."
+ missing_word_position: 2
+ options: ["n'icyo", "nawe", "ko"]
+ correct_answer: "n'icyo"
+ translation: "I disagree with that."
+ xp_reward: 12
+
+ - id: 107
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Ndibwira ko Kinyarwanda ___ cyiza."
+ missing_word_position: 5
+ options: ["ari", "ni", "ko"]
+ correct_answer: "ari"
+ translation: "I think Kinyarwanda is beautiful."
+ xp_reward: 18
+
+ - id: 108
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Birashoboka ko tuzajya ___."
+ missing_word_position: 5
+ options: ["ku isoko", "mu rugo", "mu ishuri"]
+ correct_answer: "ku isoko"
+ translation: "Maybe we will go to the बाज़ार."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ प्रश्न: "चुनें the missing word"
+ वाक्य: "Nizeye ko ___."
+ missing_word_position: 3
+ options: ["uzatsinda", "uzakina", "uziga"]
+ correct_answer: "uzatsinda"
+ translation: "I hope you succeed."
+ xp_reward: 15
+
+ # 13. पढ़ें and उत्तर - प्रश्न based on text
+ - id: 110
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Nkunda iri funguro. Sinakunda gutegereza."
+ प्रश्न: "What do I like?"
+ options: ["Waiting", "This खाना", "Tea", "Coffee"]
+ correct_answer: "This खाना"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Nemeranya nawe. Sinemeranya n'icyo."
+ प्रश्न: "Do I agree with you?"
+ options: ["Yes", "No", "Maybe", "I don't know"]
+ correct_answer: "Yes"
+ xp_reward: 12
+
+ - id: 112
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Ndibwira ko I Kinyarwanda ari cyiza. Ntekereza ko kwiga ari ingenzi."
+ प्रश्न: "What do I think about Kinyarwanda?"
+ options: ["It is difficult", "It is beautiful", "It is easy", "It is boring"]
+ correct_answer: "It is beautiful"
+ xp_reward: 18
+
+ - id: 113
+ type: read_answer
+ प्रश्न: "पढ़ें the text and उत्तर the प्रश्न"
+ text: "Birashoboka ko tuzajya ku isoko. Ndizeye ko azaza."
+ प्रश्न: "Where might we go?"
+ options: ["To स्कूल", "To the बाज़ार", "To work", "Home"]
+ correct_answer: "To the बाज़ार"
+ xp_reward: 15
+
+ - id: 114
+ type: read_answer
+ प्रश्न: "पढ़ें the conversation and उत्तर the प्रश्न"
+ text: "A: Nkunda icyayi. B: Nkunda icyayi kurusha ikawa."
+ प्रश्न: "क्या मतलब है B prefer?"
+ options: ["Coffee", "Tea", "Milk", "पानी"]
+ correct_answer: "Tea"
+ xp_reward: 18
+
+ # 14. True / False
+ - id: 115
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Nkunda means 'I like'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Sinakunda means 'I agree'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 117
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Nemeranya means 'I disagree'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 118
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Birashoboka means 'maybe'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 119
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Ntibishidikanywaho means 'definitely'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 120
+ type: true_false
+ प्रश्न: "Is this statement true or false?"
+ statement: "Nemeranya nawe means 'I disagree with you'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 121
+ type: conversation
+ प्रश्न: "Respond to the statement by building a वाक्य"
+ bot_message: "Nkunda iri funguro."
+ translation: "I like this खाना."
+ word_bank: ["Nanje", "nkunda", "sinakunda", "gutegereza"]
+ correct_response: ["Nanje", "nkunda"]
+ xp_reward: 15
+
+ - id: 122
+ type: conversation
+ प्रश्न: "Respond to the statement"
+ bot_message: "Ntekereza ko kwiga ari ingenzi."
+ translation: "I believe that सीखें is important."
+ options:
+ - "Nemeranya nawe"
+ - "Sinemeranya n'icyo"
+ - "Birashoboka"
+ correct_response: "Nemeranya nawe"
+ xp_reward: 15
+
+ - id: 123
+ type: conversation
+ प्रश्न: "Respond to the प्रश्न by building a वाक्य"
+ bot_message: "Ukunda iki?"
+ translation: "What do you like?"
+ word_bank: ["Nkunda", "icyayi", "ikawa", "amazi"]
+ correct_response: ["Nkunda", "icyayi"]
+ xp_reward: 18
+
+ - id: 124
+ type: conversation
+ प्रश्न: "Respond to the प्रश्न"
+ bot_message: "Uzemera ko azaza?"
+ translation: "Do you agree that he is coming?"
+ options:
+ - "Ndizeye ko azaza"
+ - "Birashoboka ko ataza"
+ - "Sinakunda gutegereza"
+ correct_response: "Ndizeye ko azaza"
+ xp_reward: 18
+
+ # 16. Story Exercise - Build वाक्य from pieces
+ - id: 125
+ type: story
+ title: "Expressing Opinions - Gutanga Ibitekerezo"
+ story_intro: "पढ़ें about expressing opinions. Then build the वाक्य."
+ story_segments:
+ - text: "I like this खाना."
+ - text: "I don't like waiting."
+ - text: "I agree with you."
+ - text: "I think Kinyarwanda is beautiful."
+ - text: "In my opinion, this book is interesting."
+ - text: "I prefer tea over coffee."
+ - text: "I believe that सीखें is important."
+ - text: "It seems that it will rain."
+ - text: "I'm sure he is coming."
+ - text: "Maybe we will go to the बाज़ार."
+ - text: "Definitely, this is correct."
+ - text: "I hope you succeed."
+ exercises:
+ - type: word_bank
+ प्रश्न: "Build 'I like this खाना'"
+ word_bank: ["Nkunda", "iri", "funguro", "sinakunda"]
+ correct_answer: ["Nkunda", "iri", "funguro"]
+ - type: word_bank
+ प्रश्न: "Build 'I don't like waiting'"
+ word_bank: ["Sinakunda", "gutegereza", "nkunda"]
+ correct_answer: ["Sinakunda", "gutegereza"]
+ - type: word_bank
+ प्रश्न: "Build 'I agree with you'"
+ word_bank: ["Nemeranya", "nawe", "sinemeranya"]
+ correct_answer: ["Nemeranya", "nawe"]
+ - type: word_bank
+ प्रश्न: "Build 'I think Kinyarwanda is beautiful'"
+ word_bank: ["Ndibwira", "ko", "Kinyarwanda", "ari", "cyiza"]
+ correct_answer: ["Ndibwira", "ko", "Kinyarwanda", "ari", "cyiza"]
+ - type: word_bank
+ प्रश्न: "Build 'In my opinion, this book is interesting'"
+ word_bank: ["Mu bitekerezo byanjye", "iki", "gitabo", "kirashimishije"]
+ correct_answer: ["Mu bitekerezo byanjye", "iki", "gitabo", "kirashimishije"]
+ - type: word_bank
+ प्रश्न: "Build 'I prefer tea over coffee'"
+ word_bank: ["Nkunda", "icyayi", "kurusha", "ikawa"]
+ correct_answer: ["Nkunda", "icyayi", "kurusha", "ikawa"]
+ - type: word_bank
+ प्रश्न: "Build 'I hope you succeed'"
+ word_bank: ["Nizeye", "ko", "uzatsinda", "uzakina"]
+ correct_answer: ["Nizeye", "ko", "uzatsinda"]
+ xp_reward: 50
+
+ # 17. Pronunciation Check
+ - id: 126
+ type: pronunciation
+ प्रश्न: "Say this opinion word"
+ prompt: "Nkunda"
+ translation: "I like"
+ xp_reward: 15
+
+ - id: 127
+ type: pronunciation
+ प्रश्न: "Say this opinion word"
+ prompt: "Sinakunda"
+ translation: "I don't like"
+ xp_reward: 15
+
+ - id: 128
+ type: pronunciation
+ प्रश्न: "Say this opinion word"
+ prompt: "Nemeranya"
+ translation: "I agree"
+ xp_reward: 15
+
+ - id: 129
+ type: pronunciation
+ प्रश्न: "Say this opinion word"
+ prompt: "Sinemeranya"
+ translation: "I disagree"
+ xp_reward: 15
+
+ - id: 130
+ type: pronunciation
+ प्रश्न: "Say this phrase"
+ prompt: "Nkunda iri funguro"
+ translation: "I like this खाना"
+ xp_reward: 18
+
+ - id: 131
+ type: pronunciation
+ प्रश्न: "Say this phrase"
+ prompt: "Nemeranya nawe"
+ translation: "I agree with you"
+ xp_reward: 18
+
+ - id: 132
+ type: pronunciation
+ प्रश्न: "Say this phrase"
+ prompt: "Birashoboka ko tuzajya ku isoko"
+ translation: "Maybe we will go to the बाज़ार"
+ xp_reward: 22
+
+ # 18. Identify Correct Meaning
+ - id: 133
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'Nkunda' mean in this वाक्य?"
+ context_sentence: "Nkunda iri funguro."
+ word: "Nkunda"
+ options: ["I like", "I don't like", "I agree", "I disagree"]
+ correct_answer: "I like"
+ xp_reward: 15
+
+ - id: 134
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'Sinakunda' mean in this वाक्य?"
+ context_sentence: "Sinakunda gutegereza."
+ word: "Sinakunda"
+ options: ["I like", "I don't like", "I agree", "I disagree"]
+ correct_answer: "I don't like"
+ xp_reward: 15
+
+ - id: 135
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'Nemeranya' mean in this वाक्य?"
+ context_sentence: "Nemeranya nawe."
+ word: "Nemeranya"
+ options: ["I like", "I don't like", "I agree", "I disagree"]
+ correct_answer: "I agree"
+ xp_reward: 15
+
+ - id: 136
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'Sinemeranya' mean in this वाक्य?"
+ context_sentence: "Sinemeranya n'icyo."
+ word: "Sinemeranya"
+ options: ["I like", "I don't like", "I agree", "I disagree"]
+ correct_answer: "I disagree"
+ xp_reward: 15
+
+ - id: 137
+ type: identify_meaning
+ प्रश्न: "क्या मतलब है 'Birashoboka' mean in this वाक्य?"
+ context_sentence: "Birashoboka ko tuzajya ku isoko."
+ word: "Birashoboka"
+ options: ["Definitely", "Maybe", "Probably", "I'm sure"]
+ correct_answer: "Maybe"
+ xp_reward: 15
+
+ # 19. Speed मेल करें
+ - id: 138
+ type: speed_मेल करें
+ title: "मेल करें Madness: Opinions"
+ time_limit_seconds: 45
+ pairs:
+ - बाएँ: "I like"
+ दाएँ: "Nkunda"
+ - बाएँ: "I don't like"
+ दाएँ: "Sinakunda"
+ - बाएँ: "I agree"
+ दाएँ: "Nemeranya"
+ - बाएँ: "I disagree"
+ दाएँ: "Sinemeranya"
+ - बाएँ: "I think"
+ दाएँ: "Ndibwira"
+ - बाएँ: "I feel"
+ दाएँ: "Numva"
+ - बाएँ: "Maybe"
+ दाएँ: "Birashoboka"
+ - बाएँ: "Definitely"
+ दाएँ: "Ntibishidikanywaho"
+ - बाएँ: "I'm sure"
+ दाएँ: "Ndizeye"
+ - बाएँ: "I hope"
+ दाएँ: "Nizeye"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 139
+ type: timed_challenge
+ title: "Lightning Round: Opinions"
+ time_limit_seconds: 30
+ प्रश्न_count: 5
+ प्रश्न:
+ - प्रश्न: "I like"
+ उत्तर: "Nkunda"
+ - प्रश्न: "I don't like"
+ उत्तर: "Sinakunda"
+ - प्रश्न: "I agree"
+ उत्तर: "Nemeranya"
+ - प्रश्न: "I disagree"
+ उत्तर: "Sinemeranya"
+ - प्रश्न: "Maybe"
+ उत्तर: "Birashoboka"
+ xp_reward: 35
+
+# फ्लैशकार्ड
+ - id: 111
+ type: फ्लैशकार्ड
+ प्रश्न: "फ्लैशकार्ड"
+ फ्लैशकार्ड:
+ - front: "Ndibwira / Ntekereza"
+ back: "I think / I believe"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Numva"
+ back: "I feel"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mu bitekerezo byanjye"
+ back: "In my opinion"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Nemeranya"
+ back: "I agree"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Sinemeranya"
+ back: "I disagree"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Nkunda"
+ back: "I like"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Sinakunda"
+ back: "I don"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Nkunda cyane / Nahitamo"
+ back: "I prefer"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ntekereza ko..."
+ back: "I believe that..."
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Bisa nk\'aho..."
+ back: "It seems that..."
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

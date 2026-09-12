@@ -1,1282 +1,2193 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GESE Premier 2026 Ltd | Land Surveying & Engineering Consultancy</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #faf9f7;
-      color: #1a1a1a;
-      line-height: 1.6;
-    }
-
-    /* ============ NAVIGATION ============ */
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 20px 24px;
-      background: white;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 8px rgba(26, 26, 26, 0.04);
-    }
-
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      text-decoration: none;
-      color: #1a1a1a;
-    }
-
-    .logo img {
-      height: 48px;
-      width: auto;
-      display: block;
-    }
-
-    .logo-text {
-      font-size: 14px;
-      font-weight: 900;
-      letter-spacing: -0.5px;
-      text-transform: uppercase;
-      line-height: 1.1;
-      display: none;
-    }
-
-    .nav-toggle {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 8px;
-    }
-
-    .nav-toggle span {
-      width: 24px;
-      height: 2px;
-      background: #1a1a1a;
-      border-radius: 2px;
-      transition: all 0.3s ease;
-    }
-
-    .nav-toggle.active span:nth-child(1) {
-      transform: rotate(45deg) translateY(10px);
-    }
-
-    .nav-toggle.active span:nth-child(2) {
-      opacity: 0;
-    }
-
-    .nav-toggle.active span:nth-child(3) {
-      transform: rotate(-45deg) translateY(-10px);
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 32px;
-      list-style: none;
-    }
-
-    .nav-links a {
-      text-decoration: none;
-      color: #1a1a1a;
-      font-size: 13px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      transition: color 0.3s ease;
-      cursor: pointer;
-      position: relative;
-    }
-
-    .nav-links a::after {
-      content: '';
-      position: absolute;
-      bottom: -4px;
-      left: 0;
-      width: 0;
-      height: 2px;
-      background: #d4af37;
-      transition: width 0.3s ease;
-    }
-
-    .nav-links a:hover::after {
-      width: 100%;
-    }
-
-    /* ============ MOBILE NAVIGATION ============ */
-    @media (max-width: 768px) {
-      .logo-text {
-        display: block;
-      }
-
-      .nav-toggle {
-        display: flex;
-      }
-
-      .nav-links {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        gap: 0;
-        background: white;
-        border-top: 1px solid #efefef;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.3s ease;
-      }
-
-      .nav-links.active {
-        max-height: 300px;
-      }
-
-      .nav-links li {
-        border-bottom: 1px solid #efefef;
-      }
-
-      .nav-links a {
-        display: block;
-        padding: 16px 24px;
-        font-size: 14px;
-      }
-
-      .nav-links a::after {
-        display: none;
-      }
-
-      .nav-links a:active {
-        background: #f5f5f5;
-      }
-    }
-
-    /* ============ HERO SECTION ============ */
-    #hero {
-      padding: 60px 24px;
-      background: linear-gradient(135deg, #faf9f7 0%, #f0ebe6 100%);
-    }
-
-    @media (max-width: 768px) {
-      #hero {
-        padding: 40px 24px;
-      }
-    }
-
-    .hero-content {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 48px;
-      align-items: center;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    #hero h1 {
-      font-size: clamp(28px, 6vw, 52px);
-      font-weight: 900;
-      line-height: 1.15;
-      margin-bottom: 24px;
-      text-transform: uppercase;
-      letter-spacing: -1px;
-      color: #1a1a1a;
-    }
-
-    .hero-subtitle {
-      font-size: clamp(15px, 2.5vw, 18px);
-      max-width: 500px;
-      margin-bottom: 32px;
-      color: #4a4a4a;
-      line-height: 1.8;
-    }
-
-    .hero-logo-wrap {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 320px;
-    }
-
-    .hero-logo {
-      width: 100%;
-      height: auto;
-      max-width: 380px;
-      object-fit: contain;
-      filter: drop-shadow(0 16px 32px rgba(26, 26, 26, 0.08));
-    }
-
-    .cta-button {
-      display: inline-block;
-      background: #d4af37;
-      color: #1a1a1a;
-      padding: 16px 40px;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      border: none;
-      cursor: pointer;
-      border-radius: 4px;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
-    }
-
-    .cta-button:hover {
-      background: #c9a227;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
-    }
-
-    .cta-button:active {
-      transform: translateY(0);
-    }
-
-    @media (max-width: 1024px) {
-      .hero-content {
-        grid-template-columns: 1fr;
-        gap: 32px;
-      }
-
-      .hero-logo-wrap {
-        order: -1;
-        min-height: 280px;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .hero-content {
-        gap: 24px;
-      }
-
-      .hero-logo-wrap {
-        min-height: 240px;
-      }
-
-      .cta-button {
-        padding: 14px 32px;
-        font-size: 12px;
-      }
-    }
-
-    /* ============ FEATURED SERVICES ============ */
-    #featured {
-      padding: 80px 24px;
-      background: white;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    @media (max-width: 768px) {
-      #featured {
-        padding: 60px 24px;
-      }
-    }
-
-    .featured-title {
-      font-size: clamp(32px, 5vw, 56px);
-      font-weight: 900;
-      text-transform: uppercase;
-      margin-bottom: 60px;
-      letter-spacing: -1px;
-      color: #1a1a1a;
-    }
-
-    .services-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 28px;
-    }
-
-    .service-card {
-      background: white;
-      border: 1px solid #e8e8e8;
-      border-radius: 8px;
-      overflow: hidden;
-      transition: all 0.3s ease;
-      box-shadow: 0 2px 8px rgba(26, 26, 26, 0.04);
-    }
-
-    .service-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 24px rgba(26, 26, 26, 0.08);
-      border-color: #d4af37;
-    }
-
-    .service-card-image {
-      width: 100%;
-      height: 220px;
-      background: linear-gradient(135deg, #d4af37, #c9a227);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-    }
-
-    .service-card-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
-    }
-
-    .service-card-content {
-      padding: 28px;
-    }
-
-    .service-card h3 {
-      font-size: clamp(18px, 3vw, 22px);
-      font-weight: 900;
-      margin-bottom: 12px;
-      text-transform: uppercase;
-      letter-spacing: -0.5px;
-      color: #1a1a1a;
-    }
-
-    .service-card p {
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 16px;
-      line-height: 1.6;
-    }
-
-    .service-card a {
-      color: #d4af37;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      cursor: pointer;
-      transition: opacity 0.3s ease;
-      display: inline-block;
-    }
-
-    .service-card a:hover {
-      opacity: 0.7;
-    }
-
-    @media (max-width: 768px) {
-      .services-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .featured-title {
-        margin-bottom: 40px;
-      }
-    }
-
-    /* ============ ABOUT SECTION ============ */
-    #about {
-      background: linear-gradient(135deg, #faf9f7 0%, #f0ebe6 100%);
-      padding: 80px 24px;
-    }
-
-    @media (max-width: 768px) {
-      #about {
-        padding: 60px 24px;
-      }
-    }
-
-    .about-content {
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    #about h2 {
-      font-size: clamp(32px, 5vw, 48px);
-      font-weight: 900;
-      text-transform: uppercase;
-      margin-bottom: 32px;
-      letter-spacing: -1px;
-      color: #1a1a1a;
-    }
-
-    #about p {
-      font-size: clamp(15px, 2vw, 16px);
-      margin-bottom: 24px;
-      color: #444;
-      line-height: 1.8;
-    }
-
-    .about-stats {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 32px;
-      margin-top: 60px;
-      padding-top: 60px;
-      border-top: 2px solid #ddd;
-    }
-
-    .stat {
-      text-align: center;
-    }
-
-    .stat-number {
-      font-size: clamp(36px, 6vw, 48px);
-      font-weight: 900;
-      color: #d4af37;
-      margin-bottom: 12px;
-    }
-
-    .stat-label {
-      font-size: 12px;
-      text-transform: uppercase;
-      color: #666;
-      letter-spacing: 1px;
-      font-weight: 700;
-    }
-
-    @media (max-width: 768px) {
-      .about-stats {
-        grid-template-columns: 1fr;
-        gap: 24px;
-      }
-    }
-
-    /* ============ SERVICES DETAIL SECTION ============ */
-    #services-detail {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 80px 24px;
-      background: white;
-    }
-
-    @media (max-width: 768px) {
-      #services-detail {
-        padding: 60px 24px;
-      }
-    }
-
-    .section-header {
-      font-size: clamp(32px, 5vw, 56px);
-      font-weight: 900;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-      letter-spacing: -1px;
-      color: #1a1a1a;
-    }
-
-    .section-subtitle {
-      font-size: clamp(15px, 2.5vw, 18px);
-      max-width: 700px;
-      color: #555;
-      margin-bottom: 60px;
-      line-height: 1.7;
-    }
-
-    .service {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 60px;
-      margin-bottom: 80px;
-      align-items: start;
-    }
-
-    .service:nth-child(even) {
-      direction: rtl;
-    }
-
-    .service:nth-child(even) > * {
-      direction: ltr;
-    }
-
-    .service-visual {
-      background: linear-gradient(135deg, #d4af37, #c9a227);
-      height: 380px;
-      border: 1px solid #e8e8e8;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 8px 24px rgba(26, 26, 26, 0.08);
-    }
-
-    .service-visual img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .service-content h3 {
-      font-size: clamp(28px, 4vw, 44px);
-      font-weight: 900;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-      letter-spacing: -1px;
-      color: #1a1a1a;
-    }
-
-    .service-content p {
-      font-size: clamp(15px, 2vw, 16px);
-      margin-bottom: 24px;
-      color: #555;
-      line-height: 1.8;
-    }
-
-    .service-list {
-      list-style: none;
-      margin-bottom: 32px;
-    }
-
-    .service-list li {
-      padding: 12px 0 12px 28px;
-      position: relative;
-      font-size: 15px;
-      color: #555;
-      line-height: 1.6;
-    }
-
-    .service-list li:before {
-      content: "→";
-      position: absolute;
-      left: 0;
-      color: #d4af37;
-      font-weight: 900;
-    }
-
-    .service-cta {
-      display: inline-block;
-      background: #d4af37;
-      color: #1a1a1a;
-      padding: 14px 32px;
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 12px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      transition: all 0.3s ease;
-      cursor: pointer;
-      border: none;
-      border-radius: 4px;
-      box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
-    }
-
-    .service-cta:hover {
-      background: #c9a227;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
-    }
-
-    .service-info {
-      background: #faf9f7;
-      padding: 24px;
-      border-left: 3px solid #d4af37;
-      margin-top: 32px;
-      border-radius: 4px;
-    }
-
-    .service-info h4 {
-      font-size: 11px;
-      text-transform: uppercase;
-      color: #666;
-      font-weight: 700;
-      letter-spacing: 1px;
-      margin-bottom: 8px;
-    }
-
-    .service-info p {
-      font-size: 14px;
-      margin: 0;
-      color: #555;
-      line-height: 1.6;
-    }
-
-    @media (max-width: 1024px) {
-      .service {
-        grid-template-columns: 1fr;
-        gap: 40px;
-      }
-
-      .service:nth-child(even) {
-        direction: ltr;
-      }
-
-      .service-visual {
-        height: 300px;
-      }
-    }
-
-    @media (max-width: 768px) {
-      .service {
-        margin-bottom: 60px;
-      }
-
-      .service-visual {
-        height: 240px;
-      }
-    }
-
-    /* ============ CONTACT SECTION ============ */
-    #contact {
-      padding: 80px 24px;
-      background: linear-gradient(135deg, #faf9f7 0%, #f0ebe6 100%);
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    @media (max-width: 768px) {
-      #contact {
-        padding: 60px 24px;
-      }
-    }
-
-    #contact .section-header {
-      margin-bottom: 60px;
-    }
-
-    .contact-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 60px;
-      align-items: start;
-    }
-
-    .contact-form {
-      background: white;
-      padding: 48px;
-      border: 1px solid #e8e8e8;
-      border-radius: 8px;
-      box-shadow: 0 4px 16px rgba(26, 26, 26, 0.04);
-    }
-
-    .contact-form h2 {
-      font-size: clamp(24px, 3.5vw, 32px);
-      font-weight: 900;
-      text-transform: uppercase;
-      margin-bottom: 32px;
-      letter-spacing: -0.5px;
-      color: #1a1a1a;
-    }
-
-    .form-group {
-      margin-bottom: 24px;
-    }
-
-    .form-group label {
-      display: block;
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-bottom: 8px;
-      letter-spacing: 0.5px;
-      color: #1a1a1a;
-    }
-
-    .form-group input,
-    .form-group textarea,
-    .form-group select {
-      width: 100%;
-      padding: 12px 16px;
-      border: 1px solid #ddd;
-      background: #fafaf8;
-      font-family: inherit;
-      font-size: 15px;
-      color: #1a1a1a;
-      border-radius: 4px;
-      transition: all 0.3s ease;
-      appearance: none;
-    }
-
-    .form-group select {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%231a1a1a' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
-      background-repeat: no-repeat;
-      background-position: right 12px center;
-      padding-right: 36px;
-    }
-
-    .form-group input:focus,
-    .form-group textarea:focus,
-    .form-group select:focus {
-      outline: none;
-      border-color: #d4af37;
-      background: white;
-      box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
-    }
-
-    .form-group textarea {
-      resize: vertical;
-      min-height: 120px;
-      font-family: inherit;
-    }
-
-    .form-row {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 24px;
-    }
-
-    .form-row .form-group {
-      margin-bottom: 0;
-    }
-
-    .submit-button {
-      width: 100%;
-      background: #d4af37;
-      color: #1a1a1a;
-      padding: 16px;
-      border: none;
-      font-weight: 700;
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      margin-top: 8px;
-      border-radius: 4px;
-      box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
-    }
-
-    .submit-button:hover {
-      background: #c9a227;
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
-    }
-
-    .submit-button:active {
-      transform: translateY(0);
-    }
-
-    .form-note {
-      font-size: 12px;
-      color: #666;
-      margin-top: 16px;
-      text-align: center;
-    }
-
-    .contact-info {
-      padding-top: 0;
-    }
-
-    .info-block {
-      margin-bottom: 40px;
-    }
-
-    .info-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      color: #666;
-      font-weight: 700;
-      letter-spacing: 1px;
-      margin-bottom: 8px;
-    }
-
-    .info-content {
-      font-size: clamp(15px, 2vw, 18px);
-      color: #1a1a1a;
-      font-weight: 600;
-      line-height: 1.6;
-    }
-
-    .info-content a {
-      color: #d4af37;
-      text-decoration: none;
-      transition: opacity 0.3s ease;
-    }
-
-    .info-content a:hover {
-      opacity: 0.7;
-    }
-
-    .office-locations {
-      background: white;
-      padding: 32px;
-      border: 1px solid #e8e8e8;
-      margin-top: 40px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(26, 26, 26, 0.04);
-    }
-
-    .office-locations h3 {
-      font-size: clamp(18px, 3vw, 22px);
-      font-weight: 900;
-      text-transform: uppercase;
-      margin-bottom: 24px;
-      letter-spacing: -0.5px;
-      color: #1a1a1a;
-    }
-
-    .office {
-      margin-bottom: 24px;
-      padding-bottom: 24px;
-      border-bottom: 1px solid #efefef;
-    }
-
-    .office:last-child {
-      margin-bottom: 0;
-      padding-bottom: 0;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playmates — Learn Languages and Speak With Confidence</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+  :root{
+    --cream:#F4F8F3;
+    --burgundy:#006f4a;
+    --pink:#DDEEE2;
+    --olive:#2D785B;
+    --lemon:#E2D59A;
+    --ink:#173B30;
+    --mist:#EDF4EF;
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--cream);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    overflow-x:hidden;
+  }
+
+  @keyframes fadeUp{
+    0%{ opacity:0; transform:translateY(18px); }
+    100%{ opacity:1; transform:translateY(0); }
+  }
+
+  @keyframes drift{
+    0%{ transform:scale(1) translate3d(0,0,0); }
+    50%{ transform:scale(1.06) translate3d(-8px, 8px, 0); }
+    100%{ transform:scale(1.02) translate3d(10px,-6px,0); }
+  }
+
+  @keyframes floatY{
+    0%, 100%{ transform:translateY(0); }
+    50%{ transform:translateY(-6px); }
+  }
+
+  .reveal{
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+
+  .reveal.visible{
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Nav */
+  .top-bar{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:3px;
+    background:var(--olive);
+    z-index:6;
+  }
+  nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 48px;
+    position:relative;
+    z-index:5;
+    flex-shrink:0;
+  }
+  .nav-left{
+    display:flex;
+    gap:32px;
+    font-weight:600;
+    font-size:14px;
+    letter-spacing:0.03em;
+  }
+  .nav-left span{
+    cursor:pointer;
+    color:var(--cream);
+    transition:transform .25s ease, opacity .25s ease;
+  }
+  .nav-left span:hover{
+    transform:translateY(-2px);
+    opacity:0.9;
+  }
+  .logo{
+    font-family:'Caveat',cursive;
+    font-size:44px;
+    font-weight:700;
+    color:var(--cream);
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+  }
+  .nav-right{
+    display:flex;
+    gap:12px;
+  }
+  .pill-btn{
+    border:1.5px solid var(--cream);
+    background:transparent;
+    border-radius:0;
+    padding:10px 20px;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:0.03em;
+    color:var(--cream);
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    transition:transform .25s ease, background .25s ease, color .25s ease, box-shadow .25s ease;
+  }
+  .pill-btn:hover,
+  .cta-main:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 20px rgba(23,59,48,0.12);
+  }
+
+  /* Hero */
+  html, body{ height:100%; }
+  .page{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    overflow:hidden;
+  }
+  .hero-bg{
+    position:absolute;
+    inset:0;
+    background-image:url('https://res.cloudinary.com/franklinrw/image/upload/v1788970582/Untitled_Project_-_artboard-1_1_k2hvni.png');
+    background-size:cover;
+    background-position:center;
+    z-index:0;
+    animation:drift 16s ease-in-out infinite alternate;
+    contain: layout paint style;
+  }
+  .hero-bg::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(180deg, rgba(0,0,0,0.35) 0%, rgba(0,0,0,0.02) 22%, rgba(0,0,0,0.05) 55%, rgba(0,0,0,0.45) 100%);
+  }
+  .hero{
+    position:relative;
+    flex:1;
+    min-height:0;
+    display:flex;
+    align-items:flex-end;
+    overflow:hidden;
+    padding:0 48px 56px;
+    z-index:1;
+    animation:fadeUp .85s cubic-bezier(.2,.7,.3,1) both;
+  }
+
+  .hero-row{
+    display:flex;
+    width:100%;
+    align-items:flex-end;
+    justify-content:space-between;
+    gap:40px;
+  }
+
+  h1.headline{
+    font-family:'Fraunces',serif;
+    font-weight:500;
+    font-size:clamp(28px, 5.2vw, 72px);
+    line-height:1.02;
+    color:var(--cream);
+    text-align:left;
+    max-width:700px;
+    animation:fadeUp .9s cubic-bezier(.2,.7,.3,1) both;
+  }
+  h1.headline em{
+    font-style:italic;
+    font-weight:400;
+  }
+
+  .hero-side{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+    max-width:280px;
+    flex-shrink:0;
+  }
+  .subhead{
+    font-size:clamp(12px, 1.1vw, 15px);
+    line-height:1.5;
+    font-weight:400;
+    color:var(--cream);
+    text-align:left;
+    max-width:280px;
+    animation:fadeUp 1s cubic-bezier(.2,.7,.3,1) both;
+  }
+  .cta-main{
+    background:var(--cream);
+    color:var(--ink);
+    border:none;
+    border-radius:6px;
+    padding:14px 22px;
+    font-weight:600;
+    font-size:14px;
+    letter-spacing:0.01em;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    transition:transform .25s ease, box-shadow .25s ease;
+    animation:fadeUp 1.1s cubic-bezier(.2,.7,.3,1) both;
+  }
+
+  /* Responsive fixes */
+  html, body{
+    max-width:100%;
+    overflow-x:hidden;
+  }
+  .hero, section, nav{
+    max-width:100vw;
+  }
+
+  @media (max-width:900px){
+    nav{
+      flex-direction:row;
+      flex-wrap:wrap;
+      gap:8px;
+      padding:12px 16px;
+      row-gap:4px;
+    }
+    .logo{
+      position:static;
+      transform:none;
+      order:-1;
+      font-size:26px;
+      width:100%;
+      text-align:center;
+    }
+    .nav-left{
+      gap:14px;
+      font-size:12px;
+    }
+    .nav-right{
+      gap:6px;
+    }
+    .pill-btn{
+      padding:6px 12px;
+      font-size:11px;
+    }
+    .hero{
+      padding:0 24px 32px;
+    }
+    .hero-row{
+      flex-direction:column;
+      align-items:flex-start;
+      gap:20px;
+    }
+    h1.headline{
+      font-size:clamp(26px, 8vw, 44px);
+      max-width:100%;
+    }
+    .hero-side{
+      max-width:100%;
+    }
+    .subhead{
+      max-width:100%;
+    }
+  }
+
+  /* ============ MISSION SECTION ============ */
+  .mission{
+    background:var(--mist);
+    display:flex;
+    align-items:center;
+    gap:40px;
+    padding:88px 48px;
+    overflow:hidden;
+    animation:fadeUp .9s cubic-bezier(.2,.7,.3,1) both;
+    contain: layout paint;
+  }
+  .mission-text{
+    flex:1;
+    max-width:420px;
+    animation:fadeUp .95s cubic-bezier(.2,.7,.3,1) both;
+  }
+  .mission-lead{
+    font-family:'Fraunces',serif;
+    font-weight:500;
+    font-size:clamp(20px, 2.4vw, 28px);
+    line-height:1.35;
+    color:var(--ink);
+    margin-bottom:22px;
+  }
+  .mission-body{
+    font-size:14px;
+    line-height:1.7;
+    color:var(--ink);
+    opacity:0.7;
+    max-width:360px;
+  }
+  .mission-visual{
+    flex:1;
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+    gap:14px;
+    height:340px;
+    transform:rotate(-6deg) translateX(30px);
+    animation:fadeUp 1s cubic-bezier(.2,.7,.3,1) both;
+    contain: layout paint;
+  }
+
+  .bar{
+    width:38px;
+    border-radius:4px 4px 0 0;
+    background:var(--cream);
+    border:1px solid rgba(43,18,16,0.15);
+    transform-origin:bottom center;
+  }
+  .mission.is-visible .bar{
+    animation:floatY 3s ease-in-out infinite;
+  }
+  .mission.is-visible .bar:nth-child(2){ animation-delay:.08s; }
+  .mission.is-visible .bar:nth-child(3){ animation-delay:.16s; }
+  .mission.is-visible .bar:nth-child(4){ animation-delay:.24s; }
+  .mission.is-visible .bar:nth-child(5){ animation-delay:.32s; }
+  .mission.is-visible .bar:nth-child(6){ animation-delay:.4s; }
+  .mission.is-visible .bar:nth-child(7){ animation-delay:.48s; }
+  .bar:nth-child(1){ height:52%; }
+  .bar:nth-child(2){ height:68%; background:var(--ink); }
+  .bar:nth-child(3){ height:80%; }
+  .bar:nth-child(4){ height:64%; background:var(--olive); }
+  .bar:nth-child(5){ height:92%; }
+  .bar:nth-child(6){ height:74%; background:var(--ink); }
+  .bar:nth-child(7){ height:100%; background:var(--burgundy); }
+
+  @media (max-width:900px){
+    .mission{
+      flex-direction:column;
+      align-items:flex-start;
+      padding:56px 24px;
+      gap:40px;
+    }
+    .mission-text{ max-width:100%; }
+    .mission-visual{
+      width:100%;
+      height:220px;
+      transform:rotate(-6deg) translateX(10px);
+    }
+  }
+
+  /* ============ HOW IT WORKS SECTION ============ */
+  .how-it-works{
+    background: #ffffff;
+    padding: 0;
+    animation: fadeUp .85s cubic-bezier(.2,.7,.3,1) both;
+  }
+
+  .hiw-top{
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    align-items: stretch;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .hiw-label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 48px 40px 48px 48px;
+    border-right: 1px solid #e0e0e0;
+  }
+
+  .hiw-badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--ink);
+    color: #ffffff;
+    padding: 6px 14px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    line-height: 1;
+  }
+
+  .hiw-badge svg{
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .hiw-logo-box{
+    width: 160px;
+    height: 160px;
+    background: var(--olive);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 8px;
+  }
+
+  .hiw-logo-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hiw-logo-top-text{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: left;
+    letter-spacing: 0.2px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .hiw-logo-mark{
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    font-family: 'Caveat', cursive;
+    font-size: 96px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 0.75;
+    letter-spacing: -2px;
+  }
+
+  .hiw-headline-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 48px 48px 56px;
+  }
+
+  .hiw-headline{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: clamp(28px, 3.6vw, 52px);
+    line-height: 1.12;
+    letter-spacing: -0.5px;
+    color: var(--ink);
+    max-width: 700px;
+  }
+
+  .hiw-headline .orange{
+    color: var(--burgundy);
+  }
+
+  .hiw-sub{
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--ink);
+    opacity: 0.68;
+    max-width: 560px;
+    margin-top: 18px;
+  }
+
+  .hiw-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .hiw-card{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    overflow: hidden;
+    transition: background .3s ease;
+    contain: layout paint;
+  }
+
+  .hiw-card:nth-child(2n){
+    border-right: none;
+  }
+
+  .hiw-card:nth-child(3),
+  .hiw-card:nth-child(4){
+    border-bottom: none;
+  }
+
+  .hiw-card:hover{
+    background: #fafcfb;
+  }
+
+  /* ===== Water ripple WebGL image ===== */
+  .hiw-image{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: #e3ebe6;
+    isolation: isolate;
+    contain: layout paint;
+  }
+
+  .hiw-image canvas{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+    cursor: crosshair;
+    background: #e3ebe6;
+  }
+
+  /* Plain fallback <img> if WebGL isn't available */
+  .hiw-image img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    z-index: 1;
+  }
+
+  .hiw-number{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: var(--ink);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    z-index: 3;
+    box-shadow: 0 4px 12px rgba(20,20,15,0.18);
+    pointer-events: none;
+  }
+
+  .hiw-feedback{
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    display: flex;
+    gap: 8px;
+    z-index: 3;
+    pointer-events: none;
+  }
+
+  .hiw-pill{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(20,20,15,0.22);
+  }
+
+  .hiw-section.is-visible .hiw-pill{
+    animation: feedbackPulse 2.4s ease-in-out infinite;
+  }
+
+  .hiw-pill-correct{
+    background: var(--burgundy);
+    animation-delay: 0s;
+  }
+
+  .hiw-pill-wrong{
+    background: #c4483a;
+    animation-delay: 1.2s;
+  }
+
+  @keyframes feedbackPulse{
+    0%, 100%{ transform: scale(1); opacity: 1; }
+    50%{ transform: scale(1.12); opacity: 0.92; }
+  }
+
+  .hiw-body{
+    padding: 32px 40px 40px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+  }
+
+  .hiw-card:nth-child(2n) .hiw-body{
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .hiw-label-small{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--olive);
+  }
+
+  .hiw-label-small i{
+    font-size: 15px;
+  }
+
+  .hiw-title{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    color: var(--ink);
+  }
+
+  .hiw-title .orange{
+    color: var(--burgundy);
+  }
+
+  .hiw-desc{
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--ink);
+    opacity: 0.7;
+    max-width: 460px;
+  }
+
+  @media (max-width: 900px){
+    .hiw-top{
+      grid-template-columns: 1fr;
+    }
+    .hiw-label{
+      padding: 32px 24px;
+      border-right: none;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .hiw-logo-box{
+      width: 130px;
+      height: 130px;
+    }
+    .hiw-logo-mark{
+      font-size: 76px;
+      bottom: 6px;
+      right: 10px;
+    }
+    .hiw-logo-top-text{
+      font-size: 9px;
+      top: 14px;
+      left: 14px;
+    }
+    .hiw-headline-wrap{
+      padding: 32px 24px;
+    }
+    .hiw-grid{
+      grid-template-columns: 1fr;
+    }
+    .hiw-card{
+      border-right: none;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .hiw-card:last-child{
       border-bottom: none;
     }
-
-    .office-name {
-      font-size: 13px;
-      font-weight: 900;
-      text-transform: uppercase;
-      color: #d4af37;
-      margin-bottom: 8px;
-      letter-spacing: 0.5px;
+    .hiw-body,
+    .hiw-card:nth-child(2n) .hiw-body{
+      padding: 28px 24px 32px;
     }
-
-    .office-address {
-      font-size: 14px;
-      color: #555;
-      line-height: 1.6;
-      margin-bottom: 12px;
+    .hiw-title{
+      font-size: 21px;
     }
+  }
 
-    .office-details {
-      background: #faf9f7;
-      padding: 12px 16px;
-      border-left: 3px solid #d4af37;
-      border-radius: 4px;
+  /* ============ FEATURES SECTION ============ */
+  .features-section{
+    background: #ffffff;
+    padding: 0;
+    border-bottom: 1px solid #e0e0e0;
+    animation: fadeUp .85s cubic-bezier(.2,.7,.3,1) both;
+    contain: layout paint;
+  }
+
+  .features-top{
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    align-items: stretch;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .features-label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 48px 40px 48px 48px;
+    border-right: 1px solid #e0e0e0;
+  }
+
+  .features-badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--ink);
+    color: #ffffff;
+    padding: 6px 14px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    line-height: 1;
+  }
+
+  .features-badge svg{
+    display: block;
+    flex-shrink: 0;
+  }
+
+  .features-logo-box{
+    width: 160px;
+    height: 160px;
+    background: var(--burgundy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 8px;
+  }
+
+  .features-logo-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .features-logo-top-text{
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-align: left;
+    letter-spacing: 0.2px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .features-logo-mark{
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    font-family: 'Caveat', cursive;
+    font-size: 96px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 0.75;
+    letter-spacing: -2px;
+  }
+
+  .features-headline-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 48px 48px 56px;
+  }
+
+  .features-headline{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: clamp(28px, 3.6vw, 52px);
+    line-height: 1.12;
+    letter-spacing: -0.5px;
+    color: var(--ink);
+    max-width: 700px;
+  }
+
+  .features-headline .orange{
+    color: var(--burgundy);
+  }
+
+  .features-sub{
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--ink);
+    opacity: 0.68;
+    max-width: 560px;
+    margin-top: 18px;
+  }
+
+  @media (max-width: 900px){
+    .features-top{
+      grid-template-columns: 1fr;
     }
-
-    .office-details p {
-      font-size: 12px;
-      color: #666;
-      margin-bottom: 4px;
-      line-height: 1.5;
+    .features-label{
+      padding: 32px 24px;
+      border-right: none;
+      border-bottom: 1px solid #e0e0e0;
     }
-
-    .office-details p:last-child {
-      margin-bottom: 0;
+    .features-logo-box{
+      width: 130px;
+      height: 130px;
     }
-
-    @media (max-width: 1024px) {
-      .contact-container {
-        grid-template-columns: 1fr;
-        gap: 40px;
-      }
+    .features-logo-mark{
+      font-size: 76px;
+      bottom: 6px;
+      right: 10px;
     }
-
-    @media (max-width: 768px) {
-      .contact-form {
-        padding: 32px 24px;
-      }
-
-      .form-row {
-        grid-template-columns: 1fr;
-        gap: 0;
-      }
-
-      .form-row .form-group {
-        margin-bottom: 24px;
-      }
-
-      .form-row .form-group:last-child {
-        margin-bottom: 0;
-      }
-
-      .contact-form h2 {
-        font-size: 24px;
-      }
+    .features-logo-top-text{
+      font-size: 9px;
+      top: 14px;
+      left: 14px;
     }
-
-    /* ============ FOOTER ============ */
-    footer {
-      background: #1a1a1a;
-      color: #ddd;
-      padding: 40px 24px;
-      text-align: center;
-      font-size: 12px;
-      line-height: 1.8;
+    .features-headline-wrap{
+      padding: 32px 24px;
     }
+  }
 
-    footer a {
-      color: #d4af37;
-      text-decoration: none;
-      font-weight: 600;
-      transition: opacity 0.3s ease;
+  /* ============ LANGUAGE STRIP ============ */
+  .languages-strip{
+    background:#e9e3df;
+    padding:18px 0;
+    border-top:1px solid rgba(43,18,16,0.08);
+    border-bottom:1px solid rgba(43,18,16,0.08);
+    overflow:hidden;
+    animation:fadeUp .8s cubic-bezier(.2,.7,.3,1) both;
+    contain: layout paint;
+  }
+  .languages-track{
+    display:flex;
+    width:max-content;
+    align-items:center;
+    gap:28px;
+    will-change:transform;
+  }
+  .languages-strip.is-visible .languages-track{
+    animation: scrollLanguages 28s linear infinite;
+  }
+  .lang-item{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    min-width:max-content;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:rgba(43,18,16,0.7);
+  }
+  .lang-item img{
+    width:26px;
+    height:18px;
+    object-fit:cover;
+    border-radius:2px;
+    box-shadow:0 0 0 1px rgba(43,18,16,0.08);
+    display:block;
+  }
+
+  @keyframes scrollLanguages {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  @media (max-width:900px){
+    .languages-strip{
+      padding:14px 0;
     }
-
-    footer a:hover {
-      opacity: 0.7;
+    .languages-track{
+      gap:18px;
+      animation-duration:22s;
     }
-
-    /* ============ ANIMATIONS ============ */
-    @media (prefers-reduced-motion: no-preference) {
-      body {
-        scroll-behavior: smooth;
-      }
-
-      .service-card {
-        animation: fadeInUp 0.6s ease-out;
-      }
-
-      @keyframes fadeInUp {
-        from {
-          opacity: 0;
-          transform: translateY(20px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
+    .lang-item{
+      font-size:11px;
+      letter-spacing:0.06em;
     }
-
-    /* ============ ACCESSIBILITY ============ */
-    a:focus,
-    button:focus {
-      outline: 2px solid #d4af37;
-      outline-offset: 2px;
+    .lang-item img{
+      width:22px;
+      height:16px;
     }
+  }
 
-    @media (prefers-reduced-motion: reduce) {
-      * {
-        animation: none !important;
-        transition: none !important;
-      }
+  /* ============ LANGUAGE LEARNING CARDS ============ */
+  .cards-container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    animation:fadeUp .9s cubic-bezier(.2,.7,.3,1) both;
+    contain: layout paint;
+  }
+
+  .cards-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .feature-card{
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 1px 3px rgba(20,20,15,0.05);
+    display: flex;
+    flex-direction: column;
+    padding: 1.85rem;
+    opacity: 0;
+    transform: translateY(14px);
+    animation: riseCards 0.6s cubic-bezier(.2,.7,.3,1) forwards;
+    transition: box-shadow .3s ease, transform .3s ease;
+    contain: layout paint;
+  }
+
+  .feature-card:hover{
+    box-shadow: 0 10px 24px rgba(20,20,15,0.09);
+    transform: translateY(-3px);
+  }
+
+  .feature-icon-wrap,
+  .feature-visual,
+  .chip,
+  .dl-track,
+  .dl-check,
+  .room-center,
+  .typing-dots{
+    transition:transform .25s ease, box-shadow .25s ease;
+  }
+
+  .feature-card:nth-of-type(1){ animation-delay: .05s; }
+  .feature-card:nth-of-type(2){ animation-delay: .18s; }
+  .feature-card:nth-of-type(3){ animation-delay: .31s; }
+
+  @keyframes riseCards{ to{ opacity:1; transform: translateY(0); } }
+
+  .feature-header{
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .feature-icon-wrap{
+    width: 52px;
+    height: 52px;
+    border-radius: 16px;
+    background: var(--burgundy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+  }
+  .cards-container.is-visible .feature-icon-wrap{
+    animation: glowCards 2.6s ease-in-out infinite;
+  }
+
+  .feature-label{
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--olive);
+    line-height: 1;
+  }
+
+  @keyframes glowCards{
+    0%   { box-shadow: 0 0 0 0 rgba(31,90,73,0.35); }
+    70%  { box-shadow: 0 0 0 12px rgba(31,90,73,0); }
+    100% { box-shadow: 0 0 0 0 rgba(31,90,73,0); }
+  }
+
+  .feature-visual{
+    background: #f4f2ee;
+    border-radius: 16px;
+    padding: 1.1rem;
+    min-height: 140px;
+    margin-bottom: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .feature-title{
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    margin-bottom: 0.45rem;
+    color: var(--ink);
+  }
+
+  .feature-subtitle{
+    font-size: 14px;
+    color: rgba(23,23,21,0.68);
+    line-height: 1.5;
+  }
+
+  .chip-field{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .chip{
+    background: #fff;
+    border: 1px solid #ece9e4;
+    color: var(--ink);
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+  }
+  .cards-container.is-visible .chip{
+    animation: chipCycle 3.6s ease-in-out infinite;
+  }
+
+  .chip i{ margin-right: 0.35rem; color: #b7b6b0; }
+
+  .chip:nth-child(1){ animation-delay: 0s; }
+  .chip:nth-child(2){ animation-delay: 0.55s; }
+  .chip:nth-child(3){ animation-delay: 1.1s; }
+  .chip:nth-child(4){ animation-delay: 1.65s; }
+  .chip:nth-child(5){ animation-delay: 2.2s; }
+
+  @keyframes chipCycle{
+    0%, 100%{ background:#fff; color: var(--ink); border-color: #ece9e4; }
+    12%{ background: var(--burgundy); color:#fff; border-color: var(--burgundy); transform: scale(1.04); }
+    24%{ background:#fff; color: var(--ink); border-color: #ece9e4; transform: scale(1); }
+  }
+
+  .download-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .dl-row{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .dl-label{
+    font-size: 13px;
+    width: 78px;
+    flex-shrink: 0;
+    color: var(--ink);
+  }
+
+  .dl-track{
+    flex: 1;
+    height: 8px;
+    background: #e4e1da;
+    border-radius: 999px;
+    overflow: hidden;
+  }
+
+  .dl-fill{
+    height: 100%;
+    background: var(--burgundy);
+    border-radius: 999px;
+    width: 6%;
+  }
+  .cards-container.is-visible .dl-fill{
+    animation: fillBar 2.8s ease-in-out infinite alternate;
+  }
+
+  .cards-container.is-visible .dl-row:nth-child(1) .dl-fill{ animation-delay: 0s; }
+  .cards-container.is-visible .dl-row:nth-child(2) .dl-fill{ animation-delay: 0.4s; }
+  .cards-container.is-visible .dl-row:nth-child(3) .dl-fill{ animation-delay: 0.8s; }
+
+  @keyframes fillBar{
+    0%{ width: 6%; }
+    100%{ width: 100%; }
+  }
+
+  .dl-check{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--burgundy);
+    color: #fff;
+    font-size: 10px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+  .cards-container.is-visible .dl-check{
+    animation: popCheck 2.8s ease-in-out infinite alternate;
+  }
+
+  .cards-container.is-visible .dl-row:nth-child(1) .dl-check{ animation-delay: 0s; }
+  .cards-container.is-visible .dl-row:nth-child(2) .dl-check{ animation-delay: 0.4s; }
+  .cards-container.is-visible .dl-row:nth-child(3) .dl-check{ animation-delay: 0.8s; }
+
+  @keyframes popCheck{
+    0%, 75%{ opacity: 0; transform: scale(0.5); }
+    100%{ opacity: 1; transform: scale(1); }
+  }
+
+  .room{
+    position: relative;
+    width: 100%;
+    height: 140px;
+  }
+
+  .ring{
+    position: absolute;
+    top: 50%; left: 50%;
+    border: 1.5px dashed #dcd9d1;
+    border-radius: 50%;
+    transform: translate(-50%,-50%) scale(0.7);
+    opacity: 0;
+  }
+  .cards-container.is-visible .ring{
+    animation: pulseRing 3s ease-out infinite;
+  }
+  .cards-container.is-visible .ring.r2{ animation-delay: 1s; }
+
+  @keyframes pulseRing{
+    0%{ width: 40px; height: 40px; opacity: 0.7; transform: translate(-50%,-50%) scale(1); }
+    100%{ width: 160px; height: 160px; opacity: 0; transform: translate(-50%,-50%) scale(1); }
+  }
+
+  .room-center{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: var(--burgundy);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    z-index: 3;
+  }
+
+  .avatar-bubble{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 6px rgba(20,20,15,0.12);
+    z-index: 2;
+  }
+  .cards-container.is-visible .avatar-bubble{
+    animation: floatBob 2.8s ease-in-out infinite;
+  }
+
+  .a1{ top: 8px; left: 20%; animation-delay: 0s; }
+  .a2{ top: 12px; right: 14%; animation-delay: 0.5s; }
+  .a3{ bottom: 4px; left: 8%; animation-delay: 1s; }
+  .a4{ bottom: 10px; right: 6%; animation-delay: 1.5s; }
+
+  @keyframes floatBob{
+    0%, 100%{ transform: translateY(0); }
+    50%{ transform: translateY(-6px); }
+  }
+
+  .typing-dots{
+    position: absolute;
+    bottom: -6px; left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 4px;
+    background: #fff;
+    padding: 5px 9px;
+    border-radius: 999px;
+    box-shadow: 0 2px 6px rgba(20,20,15,0.12);
+    z-index: 3;
+  }
+
+  .typing-dots span{
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: rgba(23,23,21,0.5);
+  }
+  .cards-container.is-visible .typing-dots span{
+    animation: dotBounce 1.2s ease-in-out infinite;
+  }
+  .cards-container.is-visible .typing-dots span:nth-child(2){ animation-delay: 0.15s; }
+  .cards-container.is-visible .typing-dots span:nth-child(3){ animation-delay: 0.3s; }
+
+  @keyframes dotBounce{
+    0%, 60%, 100%{ transform: translateY(0); opacity: 0.5; }
+    30%{ transform: translateY(-4px); opacity: 1; }
+  }
+
+  @media (max-width: 860px){
+    .cards-grid{ grid-template-columns: 1fr; }
+    .cards-container{ padding: 2rem 1rem; }
+  }
+
+  /* ============ SIMPLE CTA SECTION (REDESIGNED) ============ */
+  .simple-cta{
+    background: var(--burgundy);
+    padding: 100px 48px;
+    text-align: center;
+    animation: fadeUp .85s cubic-bezier(.2,.7,.3,1) both;
+  }
+
+  .simple-cta-inner{
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .simple-cta-title{
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: clamp(30px, 4vw, 54px);
+    line-height: 1.12;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
+
+  .simple-cta-sub{
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgba(255,255,255,0.78);
+    margin-bottom: 36px;
+    max-width: 420px;
+  }
+
+  .simple-cta-btn{
+    background: #ffffff;
+    color: var(--burgundy);
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-family: inherit;
+    transition: transform .25s ease, box-shadow .25s ease, background .25s ease;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+  }
+
+  .simple-cta-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 10px 26px rgba(0,0,0,0.22);
+    background: #f4f8f3;
+  }
+
+  .simple-cta-btn .arrow-circle{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1.5px solid var(--burgundy);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 900px){
+    .simple-cta{ padding: 72px 24px; }
+    .simple-cta-title{ font-size: 28px; }
+    .simple-cta-sub{ font-size: 14px; margin-bottom: 28px; }
+    .simple-cta-btn{ padding: 14px 26px; font-size: 13px; }
+  }
+
+  /* ============ FOOTER ============ */
+  .site-footer{
+    background: #0f2a22;
+    color: rgba(244,248,243,0.7);
+    padding: 64px 48px 32px;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .footer-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .footer-brand{
+    max-width: 320px;
+  }
+
+  .footer-logo{
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 14px;
+    line-height: 1;
+  }
+
+  .footer-desc{
+    font-size: 13px;
+    line-height: 1.7;
+    color: rgba(244,248,243,0.6);
+    margin-bottom: 20px;
+  }
+
+  .footer-social{
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer-social a{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cream);
+    text-decoration: none;
+    font-size: 17px;
+    transition: background .25s ease, transform .25s ease;
+  }
+
+  .footer-social a:hover{
+    background: var(--burgundy);
+    border-color: var(--burgundy);
+    transform: translateY(-2px);
+  }
+
+  .footer-col h4{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--cream);
+    margin-bottom: 18px;
+  }
+
+  .footer-col ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-col ul li a{
+    font-size: 13px;
+    color: rgba(244,248,243,0.65);
+    text-decoration: none;
+    transition: color .25s ease, transform .25s ease;
+    display: inline-block;
+  }
+
+  .footer-col ul li a:hover{
+    color: var(--cream);
+    transform: translateX(3px);
+  }
+
+  .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .footer-bottom p{
+    font-size: 12px;
+    color: rgba(244,248,243,0.45);
+  }
+
+  .footer-bottom-links{
+    display: flex;
+    gap: 24px;
+  }
+
+  .footer-bottom-links a{
+    font-size: 12px;
+    color: rgba(244,248,243,0.55);
+    text-decoration: none;
+    transition: color .25s ease;
+  }
+
+  .footer-bottom-links a:hover{
+    color: var(--cream);
+  }
+
+  @media (max-width: 900px){
+    .site-footer{ padding: 48px 24px 24px; }
+    .footer-grid{
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
     }
-  </style>
+    .footer-brand{ grid-column: 1 / -1; max-width: 100%; }
+    .footer-bottom{
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 14px;
+    }
+  }
+
+  @media (max-width: 480px){
+    .footer-grid{ grid-template-columns: 1fr; }
+  }
+</style>
 </head>
 <body>
-  <!-- Navigation -->
-  <nav>
-    <a class="logo" href="#hero" aria-label="GESE Premier Home">
-      <img src="https://res.cloudinary.com/franklinrw/image/upload/v1785102281/GESEPremier-logo-with-slogan-removebg-preview_bkbgyz.png" alt="GESE Premier 2026 logo">
-      <span class="logo-text">GESE Premier</span>
-    </a>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <ul class="nav-links" id="navLinks">
-      <li><a onclick="closeMenu(); document.getElementById('hero').scrollIntoView()">Home</a></li>
-      <li><a onclick="closeMenu(); document.getElementById('about').scrollIntoView()">About</a></li>
-      <li><a onclick="closeMenu(); document.getElementById('featured').scrollIntoView()">Services</a></li>
-      <li><a onclick="closeMenu(); document.getElementById('services-detail').scrollIntoView()">Details</a></li>
-      <li><a onclick="closeMenu(); document.getElementById('contact').scrollIntoView()">Contact</a></li>
-    </ul>
-  </nav>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="hero-content">
-      <div>
-        <h1>Precision in Every Measure<br>Where Speed Meets Accuracy</h1>
-        <p class="hero-subtitle">GESE Premier 2026 Ltd is a professional land surveying and engineering consultancy based in Rwanda, delivering accurate, reliable, and modern geomatic solutions for land administration, infrastructure, and spatial planning.</p>
-        <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView()">Get a Quote</button>
+  <div class="page">
+    <div class="hero-bg"></div>
+    <div class="top-bar"></div>
+
+    <nav>
+      <div class="nav-left">
+        <span>Languages</span>
+        <span>Practice</span>
+        <span>Support</span>
       </div>
-      <div class="hero-logo-wrap">
-        <img class="hero-logo" src="https://images.unsplash.com/photo-1628158088936-68ccaaa400dc?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Professional surveying">
+      <div class="logo">Playmates</div>
+      <div class="nav-right">
+        <button class="pill-btn">Log in</button>
+        <button class="pill-btn">Start</button>
       </div>
+    </nav>
+
+    <section class="hero reveal">
+      <div class="hero-row">
+        <h1 class="headline">Learn Languages<br><em>and Speak With Confidence</em></h1>
+        <div class="hero-side">
+          <p class="subhead">Study up to 27 languages using a language you already understand, build real conversation skills, and practice speaking with others.</p>
+          <button class="cta-main">Start learning ↗</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="languages-strip reveal" aria-label="Language options">
+    <div class="languages-track">
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/es.png" alt="Spanish flag"><span>Spanish</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/fr.png" alt="French flag"><span>French</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/de.png" alt="German flag"><span>German</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/it.png" alt="Italian flag"><span>Italian</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/pt.png" alt="Portuguese flag"><span>Portuguese</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/jp.png" alt="Japanese flag"><span>Japanese</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/kr.png" alt="Korean flag"><span>Korean</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/cn.png" alt="Mandarin flag"><span>Mandarin</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/sa.png" alt="Arabic flag"><span>Arabic</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/ru.png" alt="Russian flag"><span>Russian</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/in.png" alt="Hindi flag"><span>Hindi</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/tr.png" alt="Turkish flag"><span>Turkish</span></div>
+
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/es.png" alt="Spanish flag"><span>Spanish</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/fr.png" alt="French flag"><span>French</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/de.png" alt="German flag"><span>German</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/it.png" alt="Italian flag"><span>Italian</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/pt.png" alt="Portuguese flag"><span>Portuguese</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/jp.png" alt="Japanese flag"><span>Japanese</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/kr.png" alt="Korean flag"><span>Korean</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/cn.png" alt="Mandarin flag"><span>Mandarin</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/sa.png" alt="Arabic flag"><span>Arabic</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/ru.png" alt="Russian flag"><span>Russian</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/in.png" alt="Hindi flag"><span>Hindi</span></div>
+      <div class="lang-item"><img loading="lazy" decoding="async" src="https://flagcdn.com/w80/tr.png" alt="Turkish flag"><span>Turkish</span></div>
     </div>
   </section>
 
-  <!-- Featured Services -->
-  <section id="featured">
-    <h2 class="featured-title">What We Do</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <div class="service-card-image"><img src="https://res.cloudinary.com/franklinrw/image/upload/v1785102281/WhatsApp_Image_2026-07-26_at_22.15.33_1_atqsil.jpg" alt="Cadastral and boundary surveys"></div>
-        <div class="service-card-content">
-          <h3>Cadastral & Boundary Surveys</h3>
-          <p>Accurate cadastral and boundary surveys for land registration, dispute resolution, and property documentation.</p>
-          <a onclick="document.getElementById('services-detail').scrollIntoView()">Learn more →</a>
+  <section class="features-section reveal">
+      <div class="features-headline-wrap">
+        <h2 class="features-headline">
+          Everything you need, <span class="orange">all in one place.</span>
+        </h2>
+        <p class="features-sub">
+          From learning in your own language to practicing real conversations, Playmates gives you the tools to build fluency with confidence.
+        </p>
+      </div>
+  </section>
+
+  <div class="cards-container reveal">
+    <div class="cards-grid">
+      <div class="feature-card reveal">
+        <div class="feature-header">
+          <div class="feature-icon-wrap"><i class="ti ti-language"></i></div>
+          <span class="feature-label">Languages</span>
         </div>
+        <div class="feature-visual">
+          <div class="chip-field">
+            <span class="chip"><i class="ti ti-flag"></i>English</span>
+            <span class="chip"><i class="ti ti-flag"></i>Español</span>
+            <span class="chip"><i class="ti ti-flag"></i>Français</span>
+            <span class="chip"><i class="ti ti-flag"></i>中文</span>
+            <span class="chip"><i class="ti ti-flag"></i>العربية</span>
+          </div>
+        </div>
+        <h3 class="feature-title">Learn in Your Language</h3>
+        <p class="feature-subtitle">Learn using a language you already understand.</p>
       </div>
 
-      <div class="service-card">
-        <div class="service-card-image"><img src="https://res.cloudinary.com/franklinrw/image/upload/v1785102283/photo6_vbz01g.jpg" alt="Engineering survey work"></div>
-        <div class="service-card-content">
-          <h3>Engineering Surveys</h3>
-          <p>Reliable engineering surveys for roads, buildings, utilities, and construction projects with precision execution.</p>
-          <a onclick="document.getElementById('services-detail').scrollIntoView()">Learn more →</a>
+      <div class="feature-card reveal">
+        <div class="feature-header">
+          <div class="feature-icon-wrap"><i class="ti ti-wifi-off"></i></div>
+          <span class="feature-label">Offline</span>
         </div>
+        <div class="feature-visual">
+          <div class="download-list">
+            <div class="dl-row">
+              <span class="dl-label">Lesson 1</span>
+              <div class="dl-track"><div class="dl-fill"></div></div>
+              <div class="dl-check"><i class="ti ti-check"></i></div>
+            </div>
+            <div class="dl-row">
+              <span class="dl-label">Lesson 2</span>
+              <div class="dl-track"><div class="dl-fill"></div></div>
+              <div class="dl-check"><i class="ti ti-check"></i></div>
+            </div>
+            <div class="dl-row">
+              <span class="dl-label">Lesson 3</span>
+              <div class="dl-track"><div class="dl-fill"></div></div>
+              <div class="dl-check"><i class="ti ti-check"></i></div>
+            </div>
+          </div>
+        </div>
+        <h3 class="feature-title">Learn With Limited Internet</h3>
+        <p class="feature-subtitle">Keep learning even with limited internet access.</p>
       </div>
 
-      <div class="service-card">
-        <div class="service-card-image"><img src="https://res.cloudinary.com/franklinrw/image/upload/v1785102283/WhatsApp_Image_2026-07-26_at_22.12.22_es1zbs.jpg" alt="GIS and geospatial mapping"></div>
-        <div class="service-card-content">
-          <h3>GIS & Spatial Data</h3>
-          <p>Modern GIS, mapping, and spatial data solutions for planning, management, and digital map delivery.</p>
-          <a onclick="document.getElementById('services-detail').scrollIntoView()">Learn more →</a>
+      <div class="feature-card reveal">
+        <div class="feature-header">
+          <div class="feature-icon-wrap"><i class="ti ti-messages"></i></div>
+          <span class="feature-label">Practice</span>
         </div>
-      </div>
-
-      <div class="service-card">
-        <div class="service-card-image"><img src="https://res.cloudinary.com/franklinrw/image/upload/v1785102284/WhatsApp_Image_2026-07-26_at_22.15.34_2_wr8kcj.jpg" alt="Survey equipment and field operations"></div>
-        <div class="service-card-content">
-          <h3>Verification & As-built Surveys</h3>
-          <p>Verification, relocation, as-built, and construction surveys tailored to project delivery and compliance.</p>
-          <a onclick="document.getElementById('services-detail').scrollIntoView()">Learn more →</a>
+        <div class="feature-visual">
+          <div class="room">
+            <div class="ring r1"></div>
+            <div class="ring r2"></div>
+            <div class="room-center"><i class="ti ti-microphone"></i></div>
+            <div class="avatar-bubble a1" style="background-image:url('https://i.pravatar.cc/64?img=32')"></div>
+            <div class="avatar-bubble a2" style="background-image:url('https://i.pravatar.cc/64?img=47')"></div>
+            <div class="avatar-bubble a3" style="background-image:url('https://i.pravatar.cc/64?img=15')"></div>
+            <div class="avatar-bubble a4" style="background-image:url('https://i.pravatar.cc/64?img=5')"></div>
+            <div class="typing-dots"><span></span><span></span><span></span></div>
+          </div>
         </div>
+        <h3 class="feature-title">Practice Real Conversations</h3>
+        <p class="feature-subtitle">Join rooms and practice speaking with other learners.</p>
       </div>
+    </div>
+  </div>
+  <section class="mission reveal">
+    <div class="mission-text">
+      <p class="mission-lead">Learning a language is about understanding, communicating, and speaking with confidence.</p>
+      <p class="mission-body">Our platform helps learners study up to 27 languages using a language they already know, making it easier to build fluency step by step.</p>
+    </div>
+    <div class="mission-visual">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
     </div>
   </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about-content">
-      <h2>About GESE Premier 2026 Ltd</h2>
-      <p>GESE Premier 2026 Ltd (Geomatic Survey & Engineering Premier 2026 Limited) is a professional land surveying and engineering consultancy company based in Rwanda. The company provides accurate, reliable, and modern geomatic and engineering survey services to support land administration, infrastructure development, and spatial planning.</p>
-      <p>Our mission is to provide precise, efficient, and affordable surveying and engineering services using modern technologies while maintaining professionalism, integrity, and client satisfaction. We support government institutions, private developers, landowners, and local communities with dependable geospatial solutions.</p>
+  <section class="hiw-section">
+    <div class="hiw-grid">
 
-      <div class="about-stats">
-        <div class="stat">
-          <div class="stat-number">100%</div>
-          <div class="stat-label">Accuracy Driven</div>
+      <!-- Card 1: Listen and Type -->
+      <div class="hiw-card">
+        <div class="hiw-image">
+          <div class="hiw-number">1</div>
+          <canvas class="ripple-canvas" data-src="https://res.cloudinary.com/franklinrw/image/upload/v1789045359/Mockuuups_Free_Walking_with_iPhone_X_mockup_mlnci0.jpg"></canvas>
         </div>
-        <div class="stat">
-          <div class="stat-number">6+</div>
-          <div class="stat-label">Years of Service</div>
-        </div>
-        <div class="stat">
-          <div class="stat-number">24/7</div>
-          <div class="stat-label">Project Support</div>
+        <div class="hiw-body">
+          <span class="hiw-label-small"><i class="ti ti-headphones"></i> Listen &amp; Type</span>
+          <h3 class="hiw-title">Train your ear, <span class="orange">one phrase at a time.</span></h3>
+          <p class="hiw-desc">
+            You can learn how to listen by listening and typing what you hear, or by choosing the correct answer from the options. Each repetition sharpens your ear for real conversations.
+          </p>
         </div>
       </div>
+
+      <!-- Card 2: See and Choose -->
+      <div class="hiw-card">
+        <div class="hiw-image">
+          <div class="hiw-number">2</div>
+          <canvas class="ripple-canvas" data-src="https://res.cloudinary.com/franklinrw/image/upload/v1789045081/Mockuuups_Free_iPhone_17_Pro_mockup_with_hand_on_blue_jacket_mzzs8w.jpg"></canvas>
+        </div>
+        <div class="hiw-body">
+          <span class="hiw-label-small"><i class="ti ti-photo"></i> See &amp; Choose</span>
+          <h3 class="hiw-title">Match words <span class="orange">to what you see.</span></h3>
+          <p class="hiw-desc">
+            Visually, you get images and choose the correct answer based on what you see. It connects new vocabulary to real-world objects and scenes, so words stick faster.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 3: Visual Feedback -->
+      <div class="hiw-card">
+        <div class="hiw-image">
+          <div class="hiw-number">3</div>
+          <canvas class="ripple-canvas" data-src="https://res.cloudinary.com/franklinrw/image/upload/v1789044927/Mockuuups_iPhone_16_mockup_in_a_woman_s_hand_with_concrete_backdrop_h9p6vw.jpg"></canvas>
+          <div class="hiw-feedback">
+            <div class="hiw-pill hiw-pill-correct"><i class="ti ti-check"></i></div>
+            <div class="hiw-pill hiw-pill-wrong"><i class="ti ti-x"></i></div>
+          </div>
+        </div>
+        <div class="hiw-body">
+          <span class="hiw-label-small"><i class="ti ti-mood-smile"></i> Instant Feedback</span>
+          <h3 class="hiw-title">Know right away <span class="orange">if you got it right.</span></h3>
+          <p class="hiw-desc">
+            If your answer is correct or wrong, a visual communicator — such as an animation — tells you whether you got it right or wrong, so you can learn and adjust in the moment.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 4: Listen and Speak -->
+      <div class="hiw-card">
+        <div class="hiw-image">
+          <div class="hiw-number">4</div>
+          <canvas class="ripple-canvas" data-src="https://res.cloudinary.com/franklinrw/image/upload/v1789044924/Mockuuups_Free_Holding_Samsung_S20_mockup_in_front_of_a_bike_jlqxye.jpg"></canvas>
+        </div>
+        <div class="hiw-body">
+          <span class="hiw-label-small"><i class="ti ti-microphone"></i> Listen &amp; Speak</span>
+          <h3 class="hiw-title">Repeat, practice, <span class="orange">and speak aloud.</span></h3>
+          <p class="hiw-desc">
+            Another part is listen and speak: you listen to a phrase and repeat what you hear to practice speaking. It builds pronunciation, rhythm, and confidence in your own voice.
+          </p>
+        </div>
+      </div>
+
     </div>
   </section>
 
-  <!-- Services Detail Section -->
-  <section id="services-detail">
-    <h2 class="section-header">Our Services</h2>
-    <p class="section-subtitle">Comprehensive surveying, engineering, and geospatial solutions delivered with precision, professionalism, and local expertise across Rwanda.</p>
+  <section class="simple-cta reveal">
+    <div class="simple-cta-inner">
+      <h2 class="simple-cta-title">Your Language Journey Starts Now</h2>
+      <p class="simple-cta-sub">No credit card required. Learn at your own pace.</p>
+      <button class="simple-cta-btn">
+        Start Learning Free
+        <span class="arrow-circle">↗</span>
+      </button>
+    </div>
+  </section>
 
-    <div class="service">
-      <div class="service-visual"><img src="https://res.cloudinary.com/franklinrw/image/upload/v1785102293/Screenshot_2026-07-26_233229_fk7swd.png" alt="GESE Premier project mapping"></div>
-      <div class="service-content">
-        <h3>Cadastral & Boundary Surveys</h3>
-        <p>From cadastral mapping to boundary definition, we deliver precise land surveys for registration, development, and dispute resolution. Our team combines advanced instruments with field expertise to establish accurate property records.</p>
-        
-        <ul class="service-list">
-          <li>Cadastral mapping & property registration</li>
-          <li>Topographic surveys</li>
-          <li>Boundary surveys & demarcation</li>
-          <li>Land subdivision & layouts</li>
-          <li>Verification surveys</li>
-          <li>Relocation surveys</li>
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">Playmates</div>
+        <p class="footer-desc">
+          Learn languages and speak with confidence. Study up to 27 languages, practice real conversations, and build fluency step by step.
+        </p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter"><i class="ti ti-brand-x"></i></a>
+          <a href="#" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="ti ti-brand-youtube"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="#">Languages</a></li>
+          <li><a href="#">Lessons</a></li>
+          <li><a href="#">Speaking Rooms</a></li>
+          <li><a href="#">Offline Mode</a></li>
         </ul>
-
-        <button class="service-cta" onclick="document.getElementById('contact').scrollIntoView()">Request Survey</button>
-
-        <div class="service-info">
-          <h4>Turnaround Time</h4>
-          <p>Fast, dependable field execution tailored to plot size, complexity, and client urgency.</p>
-        </div>
       </div>
-    </div>
 
-    <div class="service">
-      <div class="service-visual"><img src="https://res.cloudinary.com/franklinrw/image/upload/v1785102283/photo6_vbz01g.jpg" alt="GESE Premier engineering survey"></div>
-      <div class="service-content">
-        <h3>Engineering Surveys</h3>
-        <p>Precision setting-out and monitoring for roads, buildings, utilities, and other infrastructure works. We ensure structures, form-work, embedded elements, and finished surfaces align exactly with design specifications.</p>
-        
-        <ul class="service-list">
-          <li>Road and building engineering surveys</li>
-          <li>Utility and infrastructure layout</li>
-          <li>Construction setting-out</li>
-          <li>As-built surveys</li>
-          <li>Topographic support for development</li>
-          <li>Site verification and documentation</li>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Press</a></li>
         </ul>
-
-        <button class="service-cta" onclick="document.getElementById('contact').scrollIntoView()">Start Project</button>
-
-        <div class="service-info">
-          <h4>Site Support</h4>
-          <p>On-site support during critical project phases with accurate positioning and documentation.</p>
-        </div>
       </div>
-    </div>
 
-    <div class="service">
-      <div class="service-visual"><img src="https://res.cloudinary.com/franklinrw/image/upload/v1785102283/WhatsApp_Image_2026-07-26_at_22.12.22_es1zbs.jpg" alt="GESE Premier GIS mapping"></div>
-      <div class="service-content">
-        <h3>GIS & Spatial Data</h3>
-        <p>We transform spatial data into actionable intelligence through GIS, digital mapping, and spatial database solutions that support planning, development, and land management.</p>
-        
-        <ul class="service-list">
-          <li>GIS and spatial data management</li>
-          <li>Digital map and web mapping solutions</li>
-          <li>3D mapping and visualization</li>
-          <li>Land use planning support</li>
-          <li>Spatial data organization and delivery</li>
-          <li>Mapping support for institutional projects</li>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Privacy Policy</a></li>
         </ul>
-
-        <button class="service-cta" onclick="document.getElementById('contact').scrollIntoView()">Explore GIS</button>
-
-        <div class="service-info">
-          <h4>Platforms</h4>
-          <p>Modern geospatial workflows with reliable mapping outputs for professional project delivery.</p>
-        </div>
       </div>
     </div>
 
-    <div class="service">
-      <div class="service-visual"><img src="https://res.cloudinary.com/franklinrw/image/upload/v1785102284/WhatsApp_Image_2026-07-26_at_22.15.34_2_wr8kcj.jpg" alt="GESE Premier field survey equipment"></div>
-      <div class="service-content">
-        <h3>Verification & As-built Surveys</h3>
-        <p>We provide verification, relocation, as-built, and construction surveys that support project confirmation, compliance, and accurate implementation on site.</p>
-        
-        <ul class="service-list">
-          <li>Verification surveys</li>
-          <li>Relocation surveys</li>
-          <li>As-built surveys</li>
-          <li>Construction surveys</li>
-          <li>Project documentation support</li>
-          <li>Client reporting and field records</li>
-        </ul>
-
-        <button class="service-cta" onclick="document.getElementById('contact').scrollIntoView()">Request Service</button>
-
-        <div class="service-info">
-          <h4>Support</h4>
-          <p>Professional field delivery with clear reporting and dependable project coordination.</p>
-        </div>
+    <div class="footer-bottom">
+      <p>© 2025 Playmates. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
       </div>
     </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2 class="section-header">Get in Touch</h2>
-
-    <div class="contact-container">
-      <div class="contact-form">
-        <h2>Send us a Message</h2>
-        <form id="contactForm">
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name">Full Name</label>
-              <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-              <label for="company">Organization</label>
-              <input type="text" id="company" name="company">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="phone">
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="service">Service Needed</label>
-            <select id="service" name="service" required>
-              <option value="">Select a service</option>
-              <option value="land-surveys">Land Surveys</option>
-              <option value="engineering-surveys">Engineering Surveys</option>
-              <option value="gis-mapping">GIS & Mapping</option>
-              <option value="verification">Verification & As-built</option>
-              <option value="other">Other / Not Sure</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="message">Project Details</label>
-            <textarea id="message" name="message" required placeholder="Tell us about your project..."></textarea>
-          </div>
-
-          <button type="submit" class="submit-button">Send Message</button>
-          <p class="form-note">We'll review your inquiry and contact you within 24 hours.</p>
-        </form>
-      </div>
-
-      <div class="contact-info">
-        <div class="info-block">
-          <div class="info-label">Phone</div>
-          <div class="info-content"><a href="tel:+250788123456">+250 (0) 788 123 456</a></div>
-        </div>
-
-        <div class="info-block">
-          <div class="info-label">Email</div>
-          <div class="info-content"><a href="mailto:info@gesepremier2026.com">info@gesepremier2026.com</a></div>
-        </div>
-
-        <div class="info-block">
-          <div class="info-label">Main Office</div>
-          <div class="info-content">Kigali, Rwanda<br>Republic of Rwanda</div>
-        </div>
-
-        <div class="office-locations">
-          <h3>Office Locations</h3>
-
-          <div class="office">
-            <div class="office-name">Kigali Office</div>
-            <div class="office-address">Gasabo District, Remera Sector, Kigali</div>
-            <div class="office-details">
-              <p><strong>Mon–Fri:</strong> 8:00 AM – 5:00 PM</p>
-              <p><strong>Sat:</strong> 9:00 AM – 1:00 PM</p>
-            </div>
-          </div>
-
-          <div class="office">
-            <div class="office-name">Nyamata Office</div>
-            <div class="office-address">Bugesera District, Nyamata Sector</div>
-            <div class="office-details">
-              <p><strong>Mon–Fri:</strong> 8:00 AM – 4:00 PM</p>
-              <p>By appointment</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 GESE Premier 2026 Ltd. Kigali, Rwanda. Precision in Every Measure.<br><a href="#contact">Contact us</a></p>
   </footer>
 
   <script>
-    // Mobile menu toggle
-    const navToggle = document.getElementById('navToggle');
-    const navLinks = document.getElementById('navLinks');
+    /* ===== Reveal on scroll ===== */
+    const revealItems = document.querySelectorAll('.reveal');
 
-    navToggle.addEventListener('click', function() {
-      navToggle.classList.toggle('active');
-      navLinks.classList.toggle('active');
-    });
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const el = entry.target;
+            el.style.willChange = 'opacity, transform';
+            el.classList.add('visible');
 
-    function closeMenu() {
-      navToggle.classList.remove('active');
-      navLinks.classList.remove('active');
+            const cleanup = () => {
+              el.style.willChange = 'auto';
+              el.removeEventListener('transitionend', cleanup);
+            };
+            el.addEventListener('transitionend', cleanup, { once: true });
+
+            observer.unobserve(el);
+          }
+        });
+      }, { threshold: 0.18, rootMargin: '0px 0px -30px 0px' });
+
+      revealItems.forEach((item) => observer.observe(item));
+    } else {
+      revealItems.forEach((item) => item.classList.add('visible'));
     }
 
-    // Close menu when clicking outside
-    document.addEventListener('click', function(event) {
-      if (!event.target.closest('nav')) {
-        closeMenu();
-      }
-    });
+    /* ===== Section-level visibility observers ===== */
+    const animationSections = document.querySelectorAll(
+      '.mission, .hiw-section, .cards-container, .languages-strip'
+    );
 
-    // Contact form submission
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      alert('Thank you for your inquiry. We will contact you soon.');
-      this.reset();
+    if ('IntersectionObserver' in window) {
+      const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+          } else {
+            entry.target.classList.remove('is-visible');
+          }
+        });
+      }, { rootMargin: '100px 0px 100px 0px', threshold: 0 });
+      animationSections.forEach((s) => sectionObserver.observe(s));
+    } else {
+      animationSections.forEach((s) => s.classList.add('is-visible'));
+    }
+
+    /* ============================================================
+       WebGL Water-Ripple Image
+       ============================================================ */
+
+    const VERT_SRC = `
+      attribute vec2 aPosition;
+      varying vec2 vUv;
+      void main() {
+        vUv = aPosition * 0.5 + 0.5;
+        vUv.y = 1.0 - vUv.y;
+        gl_Position = vec4(aPosition, 0.0, 1.0);
+      }
+    `;
+
+    const FRAG_SRC = `
+      precision mediump float;
+
+      varying vec2 vUv;
+      uniform sampler2D uTexture;
+      uniform vec2  uResolution;
+      uniform float uTime;
+      uniform float uCanvasAspect;
+      uniform float uTextureAspect;
+
+      #define MAX_RIPPLES 4
+      uniform int   uRippleCount;
+      uniform vec2  uRipplePos[MAX_RIPPLES];
+      uniform float uRippleAge[MAX_RIPPLES];
+      uniform float uRippleStrength[MAX_RIPPLES];
+
+      void main() {
+        vec2 uv = vUv;
+
+        vec2 sampleUv = uv;
+        if (uCanvasAspect > uTextureAspect) {
+          sampleUv.y = (uv.y - 0.5) * (uTextureAspect / max(uCanvasAspect, 0.001)) + 0.5;
+        } else {
+          sampleUv.x = (uv.x - 0.5) * (uCanvasAspect / max(uTextureAspect, 0.001)) + 0.5;
+        }
+        sampleUv = clamp(sampleUv, 0.0, 1.0);
+
+        float aspect = uResolution.x / max(uResolution.y, 1.0);
+        vec2 p = (uv - 0.5) * vec2(aspect, 1.0);
+
+        vec2 totalOffset = vec2(0.0);
+
+        for (int i = 0; i < MAX_RIPPLES; i++) {
+          if (i >= uRippleCount) break;
+
+          vec2 rp = (uRipplePos[i] - 0.5) * vec2(aspect, 1.0);
+          float age = uRippleAge[i];
+          float strength = uRippleStrength[i];
+
+          float radius = age * 0.55;
+          vec2 diff = p - rp;
+          float d = length(diff);
+
+          float band = 1.0 - clamp(abs(d - radius) * 10.0, 0.0, 1.0);
+          float life = clamp(1.0 - age * 0.7, 0.0, 1.0);
+          float wave = sin((d - radius) * 26.0) * band * life * strength;
+
+          totalOffset += diff * (wave * 0.02 / max(d, 0.05));
+        }
+
+        vec2 distortedUv = clamp(sampleUv + totalOffset, 0.001, 0.999);
+        vec3 color = texture2D(uTexture, distortedUv).rgb;
+
+        float highlight = clamp(length(totalOffset) * 22.0, 0.0, 0.35);
+        color += vec3(highlight);
+
+        gl_FragColor = vec4(color, 1.0);
+      }
+    `;
+
+    function createShader(gl, type, src) {
+      const s = gl.createShader(type);
+      gl.shaderSource(s, src);
+      gl.compileShader(s);
+      if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) {
+        console.error(gl.getShaderInfoLog(s));
+        gl.deleteShader(s);
+        return null;
+      }
+      return s;
+    }
+
+    function createProgram(gl, vs, fs) {
+      const p = gl.createProgram();
+      gl.attachShader(p, vs);
+      gl.attachShader(p, fs);
+      gl.linkProgram(p);
+      if (!gl.getProgramParameter(p, gl.LINK_STATUS)) {
+        console.error(gl.getProgramInfoLog(p));
+        return null;
+      }
+      return p;
+    }
+
+    const MAX_RIPPLES = 4;
+    const RIPPLE_LIFETIME = 1.1;
+    const SPAWN_INTERVAL = 0.18;
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const useRippleEffect = !prefersReducedMotion;
+
+    document.querySelectorAll('.ripple-canvas').forEach((canvas) => {
+      const fallbackToImage = () => {
+        const img = document.createElement('img');
+        img.src = canvas.dataset.src;
+        img.alt = '';
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        canvas.replaceWith(img);
+      };
+
+      if (!useRippleEffect) {
+        fallbackToImage();
+        return;
+      }
+
+      const gl = canvas.getContext('webgl', {
+        premultipliedAlpha: false,
+        alpha: false,
+        powerPreference: 'low-power',
+        preserveDrawingBuffer: false,
+      }) || canvas.getContext('experimental-webgl', {
+        premultipliedAlpha: false,
+        alpha: false,
+        powerPreference: 'low-power',
+      });
+
+      if (!gl) {
+        fallbackToImage();
+        return;
+      }
+
+      const vs = createShader(gl, gl.VERTEX_SHADER, VERT_SRC);
+      const fs = createShader(gl, gl.FRAGMENT_SHADER, FRAG_SRC);
+      const program = createProgram(gl, vs, fs);
+      if (!program) {
+        fallbackToImage();
+        return;
+      }
+      gl.useProgram(program);
+
+      const quad = new Float32Array([
+        -1, -1,   1, -1,   -1, 1,
+        -1,  1,   1, -1,    1, 1,
+      ]);
+      const buf = gl.createBuffer();
+      gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+      gl.bufferData(gl.ARRAY_BUFFER, quad, gl.STATIC_DRAW);
+
+      const aPosition = gl.getAttribLocation(program, 'aPosition');
+      gl.enableVertexAttribArray(aPosition);
+      gl.vertexAttribPointer(aPosition, 2, gl.FLOAT, false, 0, 0);
+
+      const uTexture       = gl.getUniformLocation(program, 'uTexture');
+      const uResolution    = gl.getUniformLocation(program, 'uResolution');
+      const uTime          = gl.getUniformLocation(program, 'uTime');
+      const uCanvasAspect  = gl.getUniformLocation(program, 'uCanvasAspect');
+      const uTextureAspect = gl.getUniformLocation(program, 'uTextureAspect');
+      const uRippleCount   = gl.getUniformLocation(program, 'uRippleCount');
+      const uRipplePos     = gl.getUniformLocation(program, 'uRipplePos');
+      const uRippleAge     = gl.getUniformLocation(program, 'uRippleAge');
+      const uRippleStrength= gl.getUniformLocation(program, 'uRippleStrength');
+
+      const ripplePos = new Float32Array(MAX_RIPPLES * 2);
+      const rippleAge = new Float32Array(MAX_RIPPLES);
+      const rippleStrength = new Float32Array(MAX_RIPPLES);
+
+      let activeRipples = 0;
+      let isHovering = false;
+      let lastSpawn = 0;
+      let startTime = performance.now();
+      let textureReady = false;
+      let imageAspect = 1.6;
+
+      let running = false;
+      let rafId = null;
+      let lastFrameTime = 0;
+
+      // ----- Texture load -----
+      const img = new Image();
+      img.crossOrigin = 'anonymous';
+      img.decoding = 'async';
+      img.onload = () => {
+        imageAspect = (img.naturalWidth || 1) / (img.naturalHeight || 1);
+
+        const tex = gl.createTexture();
+        gl.bindTexture(gl.TEXTURE_2D, tex);
+        gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, false);
+        gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
+
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+        gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.LINEAR);
+
+        gl.uniform1i(uTexture, 0);
+        textureReady = true;
+
+        // Make sure the drawing buffer is at the right size before the
+        // first frame, otherwise the initial paint can look soft.
+        resize();
+        renderOnce();
+      };
+      img.onerror = () => {
+        // If the Cloudinary URL fails, swap in a plain <img> so at
+        // least something is visible.
+        console.warn('Failed to load ripple texture:', canvas.dataset.src);
+        fallbackToImage();
+      };
+      img.src = canvas.dataset.src;
+
+      // ----- Resize / DPR + pixel cap -----
+      // Caps are kept, but tuned so images stay sharp on retina:
+      //   - DPR cap raised from 1.5 → 2  (covers all real retina displays)
+      //   - pixel budget raised from 500k → 2,000,000
+      //     (a 1600×1200 buffer at DPR 1, or ~1000×1000 at DPR 2)
+      function resize() {
+        const rect = canvas.getBoundingClientRect();
+        if (rect.width === 0 || rect.height === 0) return;
+
+        const DPR_CAP = 2;
+        const MAX_PIXELS = 2000000;
+
+        const dpr = Math.min(window.devicePixelRatio || 1, DPR_CAP);
+        const pixelScale = Math.sqrt(MAX_PIXELS / (rect.width * rect.height));
+        const scale = Math.min(dpr, pixelScale);
+
+        const w = Math.max(1, Math.round(rect.width * scale));
+        const h = Math.max(1, Math.round(rect.height * scale));
+        if (canvas.width !== w || canvas.height !== h) {
+          canvas.width = w;
+          canvas.height = h;
+        }
+        gl.viewport(0, 0, canvas.width, canvas.height);
+      }
+      resize();
+      if ('ResizeObserver' in window) {
+        new ResizeObserver(() => {
+          resize();
+          // Redraw immediately so the picture doesn't disappear
+          // during a resize while nothing is animating.
+          renderOnce();
+        }).observe(canvas);
+      } else {
+        window.addEventListener('resize', () => {
+          resize();
+          renderOnce();
+        });
+      }
+
+      // ----- Ripple bookkeeping -----
+      function spawnRipple(x, y, strength = 1) {
+        if (activeRipples >= MAX_RIPPLES) {
+          for (let i = 0; i < MAX_RIPPLES - 1; i++) {
+            ripplePos[i*2]   = ripplePos[(i+1)*2];
+            ripplePos[i*2+1] = ripplePos[(i+1)*2+1];
+            rippleAge[i]     = rippleAge[i+1];
+            rippleStrength[i]= rippleStrength[i+1];
+          }
+          activeRipples = MAX_RIPPLES - 1;
+        }
+        const i = activeRipples;
+        ripplePos[i*2]   = x;
+        ripplePos[i*2+1] = y;
+        rippleAge[i]     = 0;
+        rippleStrength[i]= strength;
+        activeRipples++;
+      }
+
+      // ----- Draw one frame (used for the very first paint, on
+      // resize, and from the rAF loop) -----
+      function uploadUniforms(elapsed) {
+        gl.uniform2f(uResolution, canvas.width, canvas.height);
+        gl.uniform1f(uTime, elapsed);
+        gl.uniform1f(uCanvasAspect, canvas.width / Math.max(canvas.height, 1));
+        gl.uniform1f(uTextureAspect, imageAspect || 1.6);
+        gl.uniform1i(uRippleCount, activeRipples);
+        if (activeRipples > 0) {
+          gl.uniform2fv(uRipplePos, ripplePos);
+          gl.uniform1fv(uRippleAge, rippleAge);
+          gl.uniform1fv(uRippleStrength, rippleStrength);
+        }
+      }
+
+      function renderOnce() {
+        if (!textureReady) return;
+        const elapsed = (performance.now() - startTime) / 1000;
+        uploadUniforms(elapsed);
+        gl.drawArrays(gl.TRIANGLES, 0, 6);
+      }
+
+      // ----- Pointer events -----
+      canvas.addEventListener('pointerenter', (e) => {
+        isHovering = true;
+        const rect = canvas.getBoundingClientRect();
+        const x = (e.clientX - rect.left) / rect.width;
+        const y = (e.clientY - rect.top) / rect.height;
+        spawnRipple(x, y, 1.2);
+        lastSpawn = performance.now();
+        start();
+      });
+
+      canvas.addEventListener('pointermove', (e) => {
+        const rect = canvas.getBoundingClientRect();
+        const nx = (e.clientX - rect.left) / rect.width;
+        const ny = (e.clientY - rect.top) / rect.height;
+
+        const now = performance.now();
+        if (isHovering && (now - lastSpawn) / 1000 > SPAWN_INTERVAL) {
+          spawnRipple(nx, ny, 1.0);
+          lastSpawn = now;
+          start();
+        }
+      });
+
+      canvas.addEventListener('pointerleave', () => {
+        isHovering = false;
+      });
+
+      // ----- rAF loop -----
+      function frame(now) {
+        if (!running) return;
+        if (!lastFrameTime) lastFrameTime = now;
+        const dt = Math.min((now - lastFrameTime) / 1000, 0.05);
+        lastFrameTime = now;
+
+        if (textureReady) {
+          let write = 0;
+          for (let i = 0; i < activeRipples; i++) {
+            rippleAge[i] += dt;
+            if (rippleAge[i] < RIPPLE_LIFETIME) {
+              if (write !== i) {
+                ripplePos[write*2]    = ripplePos[i*2];
+                ripplePos[write*2+1]  = ripplePos[i*2+1];
+                rippleAge[write]      = rippleAge[i];
+                rippleStrength[write] = rippleStrength[i];
+              }
+              write++;
+            }
+          }
+          activeRipples = write;
+
+          renderOnce();
+
+          // Stop the loop entirely if there's nothing left to animate.
+          if (activeRipples === 0 && !isHovering) {
+            running = false;
+            rafId = null;
+            return;
+          }
+        }
+        rafId = requestAnimationFrame(frame);
+      }
+
+      function start() {
+        if (running) return;
+        running = true;
+        lastFrameTime = 0;
+        rafId = requestAnimationFrame(frame);
+      }
+
+      function stop() {
+        running = false;
+        if (rafId !== null) {
+          cancelAnimationFrame(rafId);
+          rafId = null;
+        }
+      }
+
+      // ----- IntersectionObserver: pause off-screen -----
+      if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              renderOnce();       // make sure the still image is painted
+              if (activeRipples > 0 || isHovering) start();
+            } else {
+              stop();
+            }
+          });
+        }, { rootMargin: '120px 0px 120px 0px', threshold: 0 });
+        io.observe(canvas);
+      } else {
+        renderOnce();
+      }
+
+      // ----- Tab visibility -----
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          stop();
+        } else {
+          const rect = canvas.getBoundingClientRect();
+          const inView = rect.bottom > -120 && rect.top < window.innerHeight + 120;
+          if (inView) {
+            renderOnce();
+            if (activeRipples > 0 || isHovering) start();
+          }
+        }
+      });
     });
   </script>
+
 </body>
 </html>

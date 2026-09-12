@@ -1,0 +1,1060 @@
+lesson:
+ name: "Familie - Umuryango"
+ description: "Leer Familie member names in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Familie Members ONLY (Safe voor single words)
+ - id: 1
+ type: translation
+ Vraag: "Hoe zeg je 'Mother' in het Kinyarwanda?"
+ Antwoord: "Mama"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Vraag: "Hoe zeg je 'Father' in het Kinyarwanda?"
+ Antwoord: "Data"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Vraag: "Hoe zeg je 'Brother' in het Kinyarwanda?"
+ Antwoord: "Musaza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Vraag: "Hoe zeg je 'Sister' in het Kinyarwanda?"
+ Antwoord: "Mushiki"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Vraag: "Hoe zeg je 'Child' in het Kinyarwanda?"
+ Antwoord: "Umwana"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Vraag: "Hoe zeg je 'Grandmother' in het Kinyarwanda?"
+ Antwoord: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Vraag: "Hoe zeg je 'Grandfather' in het Kinyarwanda?"
+ Antwoord: "Sogokuru"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Vraag: "Hoe zeg je 'Husband' in het Kinyarwanda?"
+ Antwoord: "Umugabo"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Vraag: "Hoe zeg je 'Wife' in het Kinyarwanda?"
+ Antwoord: "Umugore"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Vraag: "Hoe zeg je 'Paternal uncle' in het Kinyarwanda?"
+ Antwoord: "Datawabo"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Vraag: "Hoe zeg je 'Maternal uncle' in het Kinyarwanda?"
+ Antwoord: "Marume"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Vraag: "Hoe zeg je 'Paternal aunt' in het Kinyarwanda?"
+ Antwoord: "Masenge"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Vraag: "Hoe zeg je 'Maternal aunt' in het Kinyarwanda?"
+ Antwoord: "Nyirarume"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Vraag: "Hoe zeg je 'Grandchild' in het Kinyarwanda?"
+ Antwoord: "Umwuzukuru"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Vraag: "Hoe zeg je 'Great-grandchild' in het Kinyarwanda?"
+ Antwoord: "Umwuzukuruza"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Vraag: "Hoe zeg je 'Son-in-law / Groom' in het Kinyarwanda?"
+ Antwoord: "Umukwe"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Vraag: "Hoe zeg je 'Father-in-law' in het Kinyarwanda?"
+ Antwoord: "Sebukwe"
+ xp_reward: 10
+
+ # Translation - Greetings & Basic Phrases (Safe een fixed expressions)
+ - id: 18
+ type: translation
+ Vraag: "Hoe zeg je 'Hallo, mother!' in het Kinyarwanda?"
+ Antwoord: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 19
+ type: translation
+ Vraag: "Hoe zeg je 'Hallo, father!' in het Kinyarwanda?"
+ Antwoord: "Muraho, Data!"
+ xp_reward: 12
+
+ - id: 20
+ type: translation
+ Vraag: "Hoe vraag je 'How is de Familie?' in het Kinyarwanda?"
+ Antwoord: "Umuryango umeze ute?"
+ xp_reward: 15
+
+ # Translation - Possession (Simple phrases met "have")
+ - id: 21
+ type: translation
+ Vraag: "Hoe zeg je 'I have een brother' in het Kinyarwanda?"
+ Antwoord: "Mfite Musaza."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Vraag: "Hoe zeg je 'I have een sister' in het Kinyarwanda?"
+ Antwoord: "Mfite Mushiki."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Vraag: "Hoe zeg je 'My grandfather has een Huis' in het Kinyarwanda?"
+ Antwoord: "Sogokuru afite inzu."
+ xp_reward: 15
+
+ # nee DIRECT TRANSLATION voor COMPLEX Zin of PARAGRAPHS
+ # Instead, we use Zin building, Koppel, en word bank exercises
+
+ # 2. Multiple Choice
+ - id: 24
+ type: multiple_choice
+ Vraag: "Wat betekent 'Mama' in deze zin?"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ - "Sister"
+ Antwoord: "Mother"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Vraag: "Wat betekent 'Data' in deze zin?"
+ options:
+ - "Mother"
+ - "Father"
+ - "Grandfather"
+ - "Uncle"
+ Antwoord: "Father"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Vraag: "Wat betekent 'Musaza' in deze zin?"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ - "Husband"
+ Antwoord: "Brother"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Vraag: "Wat betekent 'Mushiki' in deze zin?"
+ options:
+ - "Brother"
+ - "Sister"
+ - "Mother"
+ - "Aunt"
+ Antwoord: "Sister"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Vraag: "Wat betekent 'Nyogokuru' in deze zin?"
+ options:
+ - "Grandfather"
+ - "Grandmother"
+ - "Aunt"
+ - "Uncle"
+ Antwoord: "Grandmother"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Vraag: "Wat betekent 'Sogokuru' in deze zin?"
+ options:
+ - "Grandmother"
+ - "Grandfather"
+ - "Father-in-law"
+ - "Uncle"
+ Antwoord: "Grandfather"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Vraag: "Wat betekent 'Datawabo' in deze zin?"
+ options:
+ - "Maternal uncle"
+ - "Paternal uncle"
+ - "Father-in-law"
+ - "Grandfather"
+ Antwoord: "Paternal uncle"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Vraag: "Wat betekent 'Marume' in deze zin?"
+ options:
+ - "Paternal uncle"
+ - "Maternal uncle"
+ - "Brother"
+ - "Son-in-law"
+ Antwoord: "Maternal uncle"
+ xp_reward: 15
+
+ # 3. Luister en Type (Dictation) - Safe because audio is provided
+ - id: 32
+ type: listen_en_type
+ Vraag: "Luister en type de Familie member"
+ tts_text: "Mama"
+ Antwoord: "Mama"
+ translation: "Mother"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_en_type
+ Vraag: "Luister en type de Familie member"
+ tts_text: "Data"
+ Antwoord: "Data"
+ translation: "Father"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_en_type
+ Vraag: "Luister en type de Familie member"
+ tts_text: "Nyogokuru"
+ Antwoord: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ tts_text: "Mama ari mu nzu"
+ Antwoord: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 25
+
+ - id: 36
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ tts_text: "Data ari mu kazi"
+ Antwoord: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 25
+
+ - id: 37
+ type: listen_en_type
+ Vraag: "Luister en type de Vraag"
+ tts_text: "Umuryango umeze ute"
+ Antwoord: "Umuryango umeze ute"
+ translation: "How is de Familie?"
+ xp_reward: 25
+
+ # 4. Luister en Kies
+ - id: 38
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct Familie member"
+ tts_text: "Mama"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ Antwoord: "Mother"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct Familie member"
+ tts_text: "Data"
+ options:
+ - "Mother"
+ - "Father"
+ - "Sister"
+ Antwoord: "Father"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct Familie member"
+ tts_text: "Musaza"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ Antwoord: "Brother"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct phrase"
+ tts_text: "Mama ari mu nzu"
+ options:
+ - "Mother is at home"
+ - "Father is working"
+ - "Brother is playing"
+ Antwoord: "Mother is at home"
+ xp_reward: 20
+
+ # 5. Repeat / Praat Exercise
+ - id: 42
+ type: Praat
+ Vraag: "Say dit Familie member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 43
+ type: Praat
+ Vraag: "Say dit Familie member"
+ prompt: "Data"
+ translation: "Father"
+ xp_reward: 15
+
+ - id: 44
+ type: Praat
+ Vraag: "Say dit Familie member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 45
+ type: Praat
+ Vraag: "Say dit Zin"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 46
+ type: Praat
+ Vraag: "Say dit Zin"
+ prompt: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 47
+ type: Praat
+ Vraag: "Say dit Vraag"
+ prompt: "Umuryango umeze ute"
+ translation: "How is de Familie?"
+ xp_reward: 20
+
+ # 6. Word Bank Zin Building - PIECES PROVIDED, nee TRANSLATION NEEDED
+ - id: 48
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'Mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 49
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'Father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ xp_reward: 22
+
+ - id: 51
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My sister Lees een book'"
+ word_bank: ["Mushiki", "arasoma", "igitabo", "Musaza", "arakina", "hanze"]
+ correct_answer: ["Mushiki", "arasoma", "igitabo"]
+ xp_reward: 22
+
+ - id: 52
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'I love my grandmother'"
+ word_bank: ["Nkunda", "Nyogokuru", "Sogokuru", "arasaza", "cyane"]
+ correct_answer: ["Nkunda", "Nyogokuru"]
+ xp_reward: 20
+
+ - id: 53
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My grandfather is heel oud'"
+ word_bank: ["Sogokuru", "arasaza", "cyane", "Nyogokuru", "araduteka"]
+ correct_answer: ["Sogokuru", "arasaza", "cyane"]
+ xp_reward: 22
+
+ - id: 54
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'I have een brother'"
+ word_bank: ["Mfite", "Musaza", "Mushiki", "Umwana"]
+ correct_answer: ["Mfite", "Musaza"]
+ xp_reward: 18
+
+ - id: 55
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My grandfather has een Huis'"
+ word_bank: ["Sogokuru", "afite", "inzu", "Nyogokuru", "araduteka", "ibiryo"]
+ correct_answer: ["Sogokuru", "afite", "inzu"]
+ xp_reward: 20
+
+ - id: 56
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My grandmother cooks Eten'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 22
+
+ - id: 57
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My paternal uncle has een Geit'"
+ word_bank: ["Datawabo", "afite", "ihene", "Marume", "inka", "afite"]
+ correct_answer: ["Datawabo", "afite", "ihene"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My maternal uncle has een Koe'"
+ word_bank: ["Marume", "afite", "inka", "Datawabo", "ihene", "afite"]
+ correct_answer: ["Marume", "afite", "inka"]
+ xp_reward: 22
+
+ - id: 59
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My paternal aunt is kind'"
+ word_bank: ["Masenge", "ni", "mwiza", "Nyirarume", "ni", "mwiza", "cyane"]
+ correct_answer: ["Masenge", "ni", "mwiza"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My maternal aunt is heel nice'"
+ word_bank: ["Nyirarume", "ni", "mwiza", "cyane", "Masenge", "ni", "mwiza"]
+ correct_answer: ["Nyirarume", "ni", "mwiza", "cyane"]
+ xp_reward: 22
+
+ - id: 61
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My child is playing'"
+ word_bank: ["Umwana", "arakinira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwana", "arakinira"]
+ xp_reward: 18
+
+ - id: 62
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My grandchild likes naar Lees'"
+ word_bank: ["Umwuzukuru", "akunda", "gusoma", "Umwana", "arakinira"]
+ correct_answer: ["Umwuzukuru", "akunda", "gusoma"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My great-grandchild sleeps'"
+ word_bank: ["Umwuzukuruza", "arahunyira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwuzukuruza", "arahunyira"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My son-in-law is helpful'"
+ word_bank: ["Umukwe", "ni", "umufasha", "Sebukwe", "ni", "inyangamugayo"]
+ correct_answer: ["Umukwe", "ni", "umufasha"]
+ xp_reward: 20
+
+ - id: 65
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My father-in-law is wise'"
+ word_bank: ["Sebukwe", "ni", "inyangamugayo", "Umukwe", "ni", "umufasha"]
+ correct_answer: ["Sebukwe", "ni", "inyangamugayo"]
+ xp_reward: 20
+
+ # 7. Zin Scramble - PIECES PROVIDED
+ - id: 66
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["ari", "Mama", "mu nzu"]
+ correct_sentence: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 67
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["ari", "Data", "mu kazi"]
+ correct_sentence: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["arakina", "Musaza", "hanze"]
+ correct_sentence: "Musaza arakina hanze"
+ translation: "My brother plays outside"
+ xp_reward: 22
+
+ - id: 69
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["arasoma", "Mushiki", "igitabo"]
+ correct_sentence: "Mushiki arasoma igitabo"
+ translation: "My sister Lees een book"
+ xp_reward: 22
+
+ - id: 70
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["Nkunda", "Nyogokuru"]
+ correct_sentence: "Nkunda Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["arasaza", "Sogokuru", "cyane"]
+ correct_sentence: "Sogokuru arasaza cyane"
+ translation: "My grandfather is heel oud"
+ xp_reward: 20
+
+ - id: 72
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["afite", "Sogokuru", "inzu"]
+ correct_sentence: "Sogokuru afite inzu"
+ translation: "My grandfather has een Huis"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Kinyarwanda Zin"
+ scrambled_words: ["araduteka", "Nyogokuru", "ibiryo"]
+ correct_sentence: "Nyogokuru araduteka ibiryo"
+ translation: "My grandmother cooks Eten"
+ xp_reward: 22
+
+ # 8. Fill in de Blank - Kies FROM OPTIONS
+ - id: 74
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Mama ___ mu nzu."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Data ___ mu kazi."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 76
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Musaza ___ hanze."
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ - id: 77
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Mushiki ___ igitabo."
+ options: ["arasoma", "arakina", "ari"]
+ correct_answer: "arasoma"
+ translation: "My sister Lees een book"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Nkunda ___."
+ options: ["Nyogokuru", "Sogokuru", "Data"]
+ correct_answer: "Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Sogokuru arasaza ___."
+ options: ["cyane", "neza", "nziza"]
+ correct_answer: "cyane"
+ translation: "My grandfather is heel oud"
+ xp_reward: 15
+
+ - id: 80
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Sogokuru ___ inzu."
+ options: ["afite", "ari", "ni"]
+ correct_answer: "afite"
+ translation: "My grandfather has een Huis"
+ xp_reward: 15
+
+ - id: 81
+ type: fill_blank
+ Vraag: "Kies de correct word naar complete de Zin"
+ text_met_blank: "Nyogokuru araduteka ___."
+ options: ["ibiryo", "amazi", "inyama"]
+ correct_answer: "ibiryo"
+ translation: "My grandmother cooks Eten"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 82
+ type: picture_word
+ Vraag: "Who is dit Familie member?"
+ image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Nyogokuru", "Sogokuru"]
+ correct_answer: "Mama"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ Vraag: "Who is dit Familie member?"
+ image_url: "https://source.unsplash.com/featured/?fatherhttps://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Musaza", "Mushiki"]
+ correct_answer: "Data"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ Vraag: "Who is dit Familie member?"
+ image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Nyogokuru", "Sogokuru", "Mama", "Data"]
+ correct_answer: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ Vraag: "Who is dit Familie member?"
+ image_url: "https://source.unsplash.com/featured/?grandfather"
+ options: ["Sogokuru", "Nyogokuru", "Data", "Marume"]
+ correct_answer: "Sogokuru"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Vraag: "Who is dit Familie member?"
+ image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Musaza", "Mushiki", "Umwana", "Data"]
+ correct_answer: "Musaza"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Vraag: "Who is dit Familie member?"
+ image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mushiki", "Musaza", "Mama", "Nyogokuru"]
+ correct_answer: "Mushiki"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Vraag: "Who is dit Familie member?"
+ image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umwana", "Umwuzukuru", "Musaza", "Mushiki"]
+ correct_answer: "Umwana"
+ xp_reward: 10
+
+ 
+ # 10. Word Koppel (Pairing)
+ - id: 90
+ type: Koppel
+ Vraag: "Koppel de Familie members"
+ pairs:
+ - Links: "Mother"
+ Rechts: "Mama"
+ - Links: "Father"
+ Rechts: "Data"
+ - Links: "Brother"
+ Rechts: "Musaza"
+ - Links: "Sister"
+ Rechts: "Mushiki"
+ - Links: "Child"
+ Rechts: "Umwana"
+ - Links: "Grandmother"
+ Rechts: "Nyogokuru"
+ - Links: "Grandfather"
+ Rechts: "Sogokuru"
+ - Links: "Husband"
+ Rechts: "Umugabo"
+ - Links: "Wife"
+ Rechts: "Umugore"
+ xp_reward: 25
+
+ - id: 91
+ type: Koppel
+ Vraag: "Koppel de extended Familie members"
+ pairs:
+ - Links: "Paternal uncle"
+ Rechts: "Datawabo"
+ - Links: "Maternal uncle"
+ Rechts: "Marume"
+ - Links: "Paternal aunt"
+ Rechts: "Masenge"
+ - Links: "Maternal aunt"
+ Rechts: "Nyirarume"
+ - Links: "Grandchild"
+ Rechts: "Umwuzukuru"
+ - Links: "Great-grandchild"
+ Rechts: "Umwuzukuruza"
+ - Links: "Son-in-law"
+ Rechts: "Umukwe"
+ - Links: "Father-in-law"
+ Rechts: "Sebukwe"
+ xp_reward: 25
+
+ - id: 92
+ type: Koppel
+ Vraag: "Koppel de actions met Familie members"
+ pairs:
+ - Links: "is at home"
+ Rechts: "ari mu nzu"
+ - Links: "is working"
+ Rechts: "ari mu kazi"
+ - Links: "plays outside"
+ Rechts: "arakina hanze"
+ - Links: "Lees een book"
+ Rechts: "arasoma igitabo"
+ - Links: "cooks Eten"
+ Rechts: "araduteka ibiryo"
+ - Links: "has een Huis"
+ Rechts: "afite inzu"
+ xp_reward: 25
+
+ # 11. Kies Missing Word
+ - id: 97
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Mama ___ mu nzu."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 98
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Data ___ mu kazi."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 99
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Musaza ___ hanze."
+ missing_word_position: 2
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ # 12. Lees en Antwoord - Vraag in English, Antwoord based op Kinyarwanda text
+ - id: 100
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Mama ari mu nzu. Data ari mu kazi."
+ Vraag: "Where is de mother?"
+ options: ["At home", "At work", "Outside", "At de Markt"]
+ correct_answer: "At home"
+ xp_reward: 20
+
+ - id: 101
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+ Vraag: "Wat is de sister doing?"
+ options: ["Playing", "Lees een book", "Working", "Cooking"]
+ correct_answer: "Lees een book"
+ xp_reward: 22
+
+ - id: 102
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+ Vraag: "Wat betekent de grandfather have?"
+ options: ["een Koe", "een Huis", "een Geit", "een book"]
+ correct_answer: "een Huis"
+ xp_reward: 20
+
+ - id: 103
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Datawabo afite ihene. Marume afite inka."
+ Vraag: "Wat betekent de maternal uncle have?"
+ options: ["een Geit", "een Koe", "een Huis", "een Kip"]
+ correct_answer: "een Koe"
+ xp_reward: 22
+
+ # 13. True / False
+ - id: 104
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Mama ni umugore."
+ translation: "Mother is een woman"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 105
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Data ni umugore."
+ translation: "Father is een woman"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 106
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Nyogokuru arasaza cyane."
+ translation: "Grandmother is heel oud"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 107
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Umwana arakina hanze."
+ translation: "de child plays outside"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 108
+ type: conversation
+ Vraag: "Respond naar de Vraag by building een Zin"
+ bot_message: "Mama ari he?"
+ translation: "Where is mother?"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "ari", "mu kazi"]
+ correct_response: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 109
+ type: conversation
+ Vraag: "Respond naar de Vraag"
+ bot_message: "Umuryango umeze ute?"
+ translation: "How is de Familie?"
+ options:
+ - "Umeze neza"
+ - "Umeze nabi"
+ - "Umeze ute"
+ correct_response: "Umeze neza"
+ xp_reward: 15
+
+ - id: 110
+ type: conversation
+ Vraag: "Respond naar de Vraag by building een Zin"
+ bot_message: "Data ari he?"
+ translation: "Where is father?"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "ari", "mu nzu"]
+ correct_response: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build Zin from pieces
+ - id: 111
+ type: story
+ title: "My Familie - Umuryango Wanjye"
+ story_intro: "Lees about de Familie. Then build de Zin."
+ story_segments:
+ - text: "My mother is at home."
+ image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+ - text: "My father is working."
+ - text: "My brother plays outside."
+ - text: "My sister Lees een book."
+ - text: "My grandmother cooks Eten."
+ - text: "My grandfather has een Huis."
+ exercises:
+ - type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ - type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ - type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ - type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'My grandmother cooks Eten'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 112
+ type: pronunciation
+ Vraag: "Say dit Familie member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ Vraag: "Say dit Familie member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ Vraag: "Say dit Zin"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 115
+ type: identify_meaning
+ Vraag: "Wat betekent 'Mama' mean in dit Zin?"
+ context_sentence: "Mama ari mu nzu."
+ word: "Mama"
+ options: ["father", "mother", "brother", "sister"]
+ correct_answer: "mother"
+ xp_reward: 15
+
+ - id: 116
+ type: identify_meaning
+ Vraag: "Wat betekent 'arakina' mean in dit Zin?"
+ context_sentence: "Musaza arakina hanze."
+ word: "arakina"
+ options: ["Lees", "plays", "works", "cooks"]
+ correct_answer: "plays"
+ xp_reward: 18
+
+ - id: 117
+ type: identify_meaning
+ Vraag: "Wat betekent 'araduteka' mean in dit Zin?"
+ context_sentence: "Nyogokuru araduteka ibiryo."
+ word: "araduteka"
+ options: ["cooks", "eten", "has", "loves"]
+ correct_answer: "cooks"
+ xp_reward: 18
+
+ # 18. Speed Koppel
+ - id: 118
+ type: speed_Koppel
+ title: "Koppel Madness: Familie"
+ time_limit_seconds: 45
+ pairs:
+ - Links: "Mother"
+ Rechts: "Mama"
+ - Links: "Father"
+ Rechts: "Data"
+ - Links: "Brother"
+ Rechts: "Musaza"
+ - Links: "Sister"
+ Rechts: "Mushiki"
+ - Links: "Grandmother"
+ Rechts: "Nyogokuru"
+ - Links: "Grandfather"
+ Rechts: "Sogokuru"
+ - Links: "Child"
+ Rechts: "Umwana"
+ - Links: "Husband"
+ Rechts: "Umugabo"
+ - Links: "Wife"
+ Rechts: "Umugore"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 119
+ type: timed_challenge
+ title: "Lightning Round: Familie"
+ time_limit_seconds: 30
+ Vraag_count: 5
+ Vraag:
+ - Vraag: "Mother"
+ Antwoord: "Mama"
+ - Vraag: "Father"
+ Antwoord: "Data"
+ - Vraag: "Brother"
+ Antwoord: "Musaza"
+ - Vraag: "Sister"
+ Antwoord: "Mushiki"
+ - Vraag: "Grandmother"
+ Antwoord: "Nyogokuru"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Vraag: "Flashcards"
+ Flashcards:
+ - front: "Mama"
+ back: "Mother"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Data"
+ back: "Father"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Musaza"
+ back: "Brother"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Mushiki"
+ back: "Sister"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umwana"
+ back: "Child"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyogokuru"
+ back: "Grandmother"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Sogokuru"
+ back: "Grandfather"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugabo"
+ back: "Husband"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugore"
+ back: "Wife"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Datawabo"
+ back: "Paternal uncle"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

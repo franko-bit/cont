@@ -4,7 +4,6 @@ lesson:
   xp_reward: 500
 
 exercises:
-
   # 1. Translation Exercises - Past Tense Verbs ONLY (Safe for single words)
   # Basic Past Tense Verbs
   - id: 1
@@ -693,7 +692,7 @@ exercises:
   - id: 88
     type: picture_word
     question: "Yakoze iki? (igihe cyashize)"
-    image_url: "https://source.unsplash.com/featured/?eating"
+    image_url: "https://images.unsplash.com/photo-1495521821757-a1efb6729352?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["ate", "drank", "went"]
     correct_answer: "ate"
     xp_reward: 15
@@ -701,7 +700,7 @@ exercises:
   - id: 89
     type: picture_word
     question: "Yakoze iki? (igihe cyashize)"
-    image_url: "https://source.unsplash.com/featured/?drinking"
+    image_url: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["ate", "drank", "worked"]
     correct_answer: "drank"
     xp_reward: 15
@@ -709,7 +708,7 @@ exercises:
   - id: 90
     type: picture_word
     question: "Yakoze iki? (igihe cyashize)"
-    image_url: "https://source.unsplash.com/featured/?walking-away"
+    image_url: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["ate", "drank", "went"]
     correct_answer: "went"
     xp_reward: 15
@@ -717,7 +716,7 @@ exercises:
   - id: 91
     type: picture_word
     question: "Yakoze iki? (igihe cyashize)"
-    image_url: "https://source.unsplash.com/featured/?looking"
+    image_url: "https://images.unsplash.com/photo-1503454537688-e0fa8fdd8271?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["saw", "met", "said"]
     correct_answer: "saw"
     xp_reward: 15
@@ -725,7 +724,7 @@ exercises:
   - id: 92
     type: picture_word
     question: "Yakoze iki? (igihe cyashize)"
-    image_url: "https://source.unsplash.com/featured/?meeting"
+    image_url: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["saw", "met", "bought"]
     correct_answer: "met"
     xp_reward: 15
@@ -733,7 +732,7 @@ exercises:
   - id: 93
     type: picture_word
     question: "Yakoze iki? (igihe cyashize)"
-    image_url: "https://source.unsplash.com/featured/?shopping"
+    image_url: "https://images.unsplash.com/photo-1488459716781-6518c6e4b65b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["bought", "saw", "ate"]
     correct_answer: "bought"
     xp_reward: 15
@@ -741,7 +740,7 @@ exercises:
   - id: 94
     type: picture_word
     question: "Abana bakoze iki? (igihe cyashize)"
-    image_url: "https://source.unsplash.com/featured/?playing"
+    image_url: "https://images.unsplash.com/photo-1594615802327-68416c6f468a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["played", "slept", "learned"]
     correct_answer: "played"
     xp_reward: 15
@@ -749,7 +748,7 @@ exercises:
   - id: 95
     type: picture_word
     question: "Yakoze iki? (igihe cyashize)"
-    image_url: "https://source.unsplash.com/featured/?sleeping"
+    image_url: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600&h=400&fit=crop"
     options: ["slept", "played", "worked"]
     correct_answer: "slept"
     xp_reward: 15
@@ -819,7 +818,7 @@ exercises:
         right: "ate"
     xp_reward: 15
 
-  # 12. Choose Missing Word
+  # 11. Choose Missing Word
   - id: 99
     type: choose_missing
     question: "Hitamo inshinga ikwiye y'igihe cyashize"
@@ -870,7 +869,7 @@ exercises:
     translation: "Yarahunyiriye neza"
     xp_reward: 15
 
-  # 13. Read and Answer
+  # 12. Read and Answer
   - id: 104
     type: read_answer
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
@@ -916,7 +915,7 @@ exercises:
     correct_answer: "A book"
     xp_reward: 15
 
-  # 14. True / False
+  # 13. True / False
   - id: 109
     type: true_false
     question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
@@ -959,7 +958,7 @@ exercises:
     correct_answer: true
     xp_reward: 15
 
-  # 15. Conversation Exercise
+  # 14. Conversation Exercise
   - id: 115
     type: conversation
     question: "Subiza ikibazo ukoresheje amagambo atanzwe"
@@ -1002,7 +1001,7 @@ exercises:
     correct_response: "They played"
     xp_reward: 15
 
-  # 16. Story Exercise
+  # 15. Story Exercise
   - id: 119
     type: story
     title: "Ejo Hashize"
@@ -1016,42 +1015,7 @@ exercises:
       - text: "The children played."
       - text: "He slept well."
       - text: "They said hello."
-    exercises:
-      - type: word_bank
-        question: "Ubaka 'I ate food'"
-        word_bank: ["I", "ate", "food", "drank", "water"]
-        correct_answer: ["I", "ate", "food"]
-      - type: word_bank
-        question: "Ubaka 'I drank water'"
-        word_bank: ["I", "drank", "water", "ate", "food"]
-        correct_answer: ["I", "drank", "water"]
-      - type: word_bank
-        question: "Ubaka 'He went to the market'"
-        word_bank: ["He", "went", "to", "the", "market", "school"]
-        correct_answer: ["He", "went", "to", "the", "market"]
-      - type: word_bank
-        question: "Ubaka 'She met her friend'"
-        word_bank: ["She", "met", "her", "friend", "family"]
-        correct_answer: ["She", "met", "her", "friend"]
-      - type: word_bank
-        question: "Ubaka 'I bought a book'"
-        word_bank: ["I", "bought", "a", "book", "car"]
-        correct_answer: ["I", "bought", "a", "book"]
-      - type: word_bank
-        question: "Ubaka 'The children played'"
-        word_bank: ["The", "children", "played", "slept"]
-        correct_answer: ["The", "children", "played"]
-      - type: word_bank
-        question: "Ubaka 'He slept well'"
-        word_bank: ["He", "slept", "well", "badly"]
-        correct_answer: ["He", "slept", "well"]
-      - type: word_bank
-        question: "Ubaka 'They said hello'"
-        word_bank: ["They", "said", "hello", "goodbye"]
-        correct_answer: ["They", "said", "hello"]
-    xp_reward: 50
-
-  # 17. Pronunciation Check
+  # 16. Pronunciation Check
   - id: 120
     type: pronunciation
     question: "Vuga iyi nshinga y'igihe cyashize mu Cyongereza neza"
@@ -1101,7 +1065,7 @@ exercises:
     translation: "He went to the market"
     xp_reward: 20
 
-  # 18. Identify Correct Meaning
+  # 17. Identify Correct Meaning
   - id: 127
     type: identify_meaning
     question: "'yariye' bisobanura iki muri iyi nteruro?"
@@ -1147,7 +1111,7 @@ exercises:
     correct_answer: "well"
     xp_reward: 15
 
-  # 19. Speed Matching
+  # 18. Speed Matching
   - id: 132
     type: speed_matching
     title: "Huza Byihuse: Igihe Cyashize"
@@ -1175,7 +1139,7 @@ exercises:
         right: "yakoze"
     xp_reward: 30
 
-  # 20. Timed Challenges
+  # 19. Timed Challenges
   - id: 133
     type: timed_challenge
     title: "Kubahuka: Igihe Cyashize"
@@ -1194,223 +1158,40 @@ exercises:
         answer: "met"
     xp_reward: 35
 
-  # 21. Character Writing
-  - id: 134
-    type: character_writing
-    question: "Yandika iyi nshinga y'igihe cyashize mu Cyongereza"
-    prompt: "yariye"
-    translation: "ate"
-    xp_reward: 15
-
-  - id: 135
-    type: character_writing
-    question: "Yandika iyi nshinga y'igihe cyashize mu Cyongereza"
-    prompt: "yanyoye"
-    translation: "drank"
-    xp_reward: 15
-
-  - id: 136
-    type: character_writing
-    question: "Yandika iyi nteruro y'igihe cyashize mu Cyongereza"
-    prompt: "Nariye"
-    translation: "I ate"
-    xp_reward: 18
-
-  - id: 137
-    type: character_writing
-    question: "Yandika iyi nteruro y'igihe cyashize mu Cyongereza"
-    prompt: "Twariye"
-    translation: "We ate"
-    xp_reward: 18
-
-  # 22. Spaced Repetition Review
-  - id: 138
-    type: review
-    title: "Isubiramo: Igihe Cyashize"
-    exercises:
-      - type: translation
-        question: "yariye"
-        answer: "ate"
-      - type: multiple_choice
-        question: "yanyoye"
-        options: ["ate", "drank", "went"]
-        answer: "drank"
-      - type: fill_blank
-        question: "I drank ___."
-        text_with_blank: "I drank ___."
-        options: ["water", "milk", "food"]
-        correct_answer: "water"
-      - type: matching
-        question: "Huza 'I ate'"
-        pairs:
-          - left: "I ate"
-            right: "Nariye"
-      - type: sentence_scramble
-        question: "Tondeka: He went to the market"
-        scrambled_words: ["market", "to", "He", "went", "the"]
-        correct_sentence: "He went to the market"
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "ate"
+      back: "yariye"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "drank"
+      back: "yanyoye"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "went"
+      back: "yagiye"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "came"
+      back: "yazanywe"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "saw"
+      back: "yabonye"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "met"
+      back: "yahuye"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "bought"
+      back: "yaguzwe"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "played"
+      back: "yakinnye"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "slept"
+      back: "yarahunyiriye"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "said"
+      back: "yavuze"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
     xp_reward: 30
 
-  # 23. Listening Comprehension
-  - id: 139
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "yariye"
-    options:
-      - "ate"
-      - "drank"
-      - "went"
-    correct_answer: "ate"
-    xp_reward: 15
-
-  - id: 140
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "yanyoye"
-    options:
-      - "ate"
-      - "drank"
-      - "went"
-    correct_answer: "drank"
-    xp_reward: 15
-
-  - id: 141
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "yagiye"
-    options:
-      - "ate"
-      - "drank"
-      - "went"
-    correct_answer: "went"
-    xp_reward: 15
-
-  - id: 142
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibisobanuro bikwiye"
-    audio: "yabonye"
-    options:
-      - "saw"
-      - "met"
-      - "bought"
-    correct_answer: "saw"
-    xp_reward: 15
-
-  # 24. Grammar Selection
-  - id: 143
-    type: grammar
-    question: "Hitamo inshinga ikwiye y'igihe cyashize isobanura 'I ate'"
-    options: ["ate", "drank", "went"]
-    correct_answer: "ate"
-    explanation: "'Nariye' means 'I ate'"
-    xp_reward: 15
-
-  - id: 144
-    type: grammar
-    question: "Hitamo inshinga ikwiye y'igihe cyashize isobanura 'they ate'"
-    options: ["ate", "drank", "went"]
-    correct_answer: "ate"
-    explanation: "'Bariye' means 'they ate'"
-    xp_reward: 15
-
-  - id: 145
-    type: grammar
-    question: "Hitamo inshinga ikwiye y'igihe cyashize isobanura 'drank'"
-    options: ["drank", "ate", "went"]
-    correct_answer: "drank"
-    explanation: "'yanyoye' means 'drank'"
-    xp_reward: 15
-
-  - id: 146
-    type: grammar
-    question: "Hitamo inshinga ikwiye y'igihe cyashize isobanura 'went'"
-    options: ["went", "ate", "drank"]
-    correct_answer: "went"
-    explanation: "'yagiye' means 'went'"
-    xp_reward: 15
-
-  # 25. Error Correction
-  - id: 147
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I drank food."
-    translation: "Yanyoye ibiryo (ntibishoboka)"
-    word_bank_for_fix: ["I", "drank", "water", "ate", "food"]
-    correct_sentence: "I drank water."
-    explanation: "You drink water (water), not food (food)."
-    xp_reward: 18
-
-  - id: 148
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza"
-    incorrect_sentence: "I ate water."
-    translation: "Yariye amazi (ntibishoboka)"
-    word_bank_for_fix: ["I", "ate", "food", "drank", "water"]
-    correct_sentence: "I ate food."
-    explanation: "You eat food (food), not water (water)."
-    xp_reward: 18
-
-  - id: 149
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro y'icyongereza - inshinga ikwiye"
-    incorrect_sentence: "I ate to the market."
-    translation: "Nariye ku isoko (ntibishoboka)"
-    word_bank_for_fix: ["I", "went", "to", "the", "market", "ate"]
-    correct_sentence: "I went to the market."
-    explanation: "Use 'went' for going somewhere, not 'ate'."
-    xp_reward: 18
-
-  # Flashcards
-  - id: 150
-    type: flashcards
-    question: "Iyi ni modero y'amafishi y'igihe cyashize"
-    flashcards:
-      - front: "yariye"
-        back: "ate"
-        image: "https://source.unsplash.com/featured/?eating"
-      - front: "yanyoye"
-        back: "drank"
-        image: "https://source.unsplash.com/featured/?drinking"
-      - front: "yagiye"
-        back: "went"
-        image: "https://source.unsplash.com/featured/?walking-away"
-      - front: "yabonye"
-        back: "saw"
-        image: "https://source.unsplash.com/featured/?looking"
-      - front: "yahuye"
-        back: "met"
-        image: "https://source.unsplash.com/featured/?meeting"
-      - front: "yaguzwe"
-        back: "bought"
-        image: "https://source.unsplash.com/featured/?shopping"
-      - front: "yakinnye"
-        back: "played"
-        image: "https://source.unsplash.com/featured/?playing"
-      - front: "yarahunyiriye"
-        back: "slept"
-        image: "https://source.unsplash.com/featured/?sleeping"
-      - front: "yavuze"
-        back: "said"
-        image: "https://source.unsplash.com/featured/?talking"
-      - front: "yakoze"
-        back: "worked"
-        image: "https://source.unsplash.com/featured/?working"
-      - front: "Nariye"
-        back: "I ate"
-        image: "https://source.unsplash.com/featured/?person-eating"
-      - front: "Twariye"
-        back: "We ate"
-        image: "https://source.unsplash.com/featured/?people-eating"
-      - front: "Nanyoye amazi"
-        back: "I drank water"
-        image: "https://source.unsplash.com/featured/?drinking-water"
-      - front: "Yagiye ku isoko"
-        back: "He went to the market"
-        image: "https://source.unsplash.com/featured/?market"
-      - front: "Yahuye n'inshuti ye"
-        back: "She met her friend"
-        image: "https://source.unsplash.com/featured/?friends-meeting"
-      - front: "Naguriye igitabo"
-        back: "I bought a book"
-        image: "https://source.unsplash.com/featured/?buying-book"
-    xp_reward: 45

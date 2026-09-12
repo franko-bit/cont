@@ -1,0 +1,907 @@
+lesson:
+ name: "Kolory"
+ description: "Naucz się basic Kolory in Kinyarwanda with Zwierzęta and objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Kolory ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Pytanie: "Jak się mówi 'Czerwony' po kinyarwanda?"
+ Odpowiedź: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Pytanie: "Jak się mówi 'Niebieski' po kinyarwanda?"
+ Odpowiedź: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Pytanie: "Jak się mówi 'Zielony' po kinyarwanda?"
+ Odpowiedź: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Pytanie: "Jak się mówi 'Żółty' po kinyarwanda?"
+ Odpowiedź: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Pytanie: "Jak się mówi 'Czarny' po kinyarwanda?"
+ Odpowiedź: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Pytanie: "Jak się mówi 'Biały' po kinyarwanda?"
+ Odpowiedź: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Pytanie: "Jak się mówi 'Pomarańczowy' po kinyarwanda?"
+ Odpowiedź: "Pomarańczowy"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, not full Zdanie)
+ - id: 8
+ type: translation
+ Pytanie: "Jak się mówi 'Czerwony apple' po kinyarwanda?"
+ Odpowiedź: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Pytanie: "Jak się mówi 'Niebieski sky' po kinyarwanda?"
+ Odpowiedź: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Pytanie: "Jak się mówi 'Zielony grass' po kinyarwanda?"
+ Odpowiedź: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Pytanie: "Jak się mówi 'Żółty sun' po kinyarwanda?"
+ Odpowiedź: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Pytanie: "Jak się mówi 'Czarny Kot' po kinyarwanda?"
+ Odpowiedź: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Pytanie: "Jak się mówi 'Biały Krowa' po kinyarwanda?"
+ Odpowiedź: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Pytanie: "Jak się mówi 'Pomarańczowy carrot' po kinyarwanda?"
+ Odpowiedź: "Karoti ya Pomarańczowy"
+ xp_reward: 15
+
+ # Translation - Kolory with Zwierzęta (Noun + Color phrases)
+ - id: 15
+ type: translation
+ Pytanie: "Jak się mówi 'Czerwony Ptak' po kinyarwanda?"
+ Odpowiedź: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Pytanie: "Jak się mówi 'Zielony Żaba' po kinyarwanda?"
+ Odpowiedź: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Pytanie: "Jak się mówi 'Niebieski Ryba' po kinyarwanda?"
+ Odpowiedź: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Pytanie: "Jak się mówi 'Żółty Kurczak' po kinyarwanda?"
+ Odpowiedź: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Pytanie: "Jak się mówi 'Czarny Królik' po kinyarwanda?"
+ Odpowiedź: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Pytanie: "Jak się mówi 'Biały Koza' po kinyarwanda?"
+ Odpowiedź: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers with Kolory (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ Pytanie: "Jak się mówi 'One Czerwony apple' po kinyarwanda?"
+ Odpowiedź: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Pytanie: "Jak się mówi 'Two Niebieski Ptak' po kinyarwanda?"
+ Odpowiedź: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Pytanie: "Jak się mówi 'Three Żółty Kurczak' po kinyarwanda?"
+ Odpowiedź: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Pytanie: "Jak się mówi 'Four Czarny Kot' po kinyarwanda?"
+ Odpowiedź: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Pytanie: "Jak się mówi 'Five Biały Krowa' po kinyarwanda?"
+ Odpowiedź: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color Pytanie (Phrases - safe as they are fixed expressions)
+ - id: 26
+ type: translation
+ Pytanie: "Jak się pyta 'What color is the apple?' po kinyarwanda?"
+ Odpowiedź: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Pytanie: "Jak się pyta 'What color is the sky?' po kinyarwanda?"
+ Odpowiedź: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Pytanie: "Jak się pyta 'Is the Kot Czarny?' po kinyarwanda?"
+ Odpowiedź: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR FULL Zdanie OR PARAGRAPHS
+ # Instead, we use Zdanie building, Dopasuj, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Pytanie: "Co znaczy 'Umutuku' w tym zdaniu?"
+ options:
+ - "Niebieski"
+ - "Czerwony"
+ - "Zielony"
+ - "Żółty"
+ Odpowiedź: "Czerwony"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Pytanie: "Co znaczy 'Ubururu' w tym zdaniu?"
+ options:
+ - "Czerwony"
+ - "Niebieski"
+ - "Czarny"
+ - "Biały"
+ Odpowiedź: "Niebieski"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Pytanie: "Co znaczy 'Icyatsi' w tym zdaniu?"
+ options:
+ - "Zielony"
+ - "Żółty"
+ - "Pomarańczowy"
+ - "Czerwony"
+ Odpowiedź: "Zielony"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Pytanie: "Co znaczy 'Umuhondo' w tym zdaniu?"
+ options:
+ - "Niebieski"
+ - "Czerwony"
+ - "Żółty"
+ - "Biały"
+ Odpowiedź: "Żółty"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Pytanie: "Co znaczy 'Umukara' w tym zdaniu?"
+ options:
+ - "Biały"
+ - "Czarny"
+ - "Zielony"
+ - "Pomarańczowy"
+ Odpowiedź: "Czarny"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Pytanie: "Co znaczy 'Umweru' w tym zdaniu?"
+ options:
+ - "Czarny"
+ - "Biały"
+ - "Czerwony"
+ - "Niebieski"
+ Odpowiedź: "Biały"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Pytanie: "Co znaczy 'Inyoni itukura' w tym zdaniu?"
+ options:
+ - "Niebieski Ptak"
+ - "Czerwony Ptak"
+ - "Zielony Ptak"
+ - "Żółty Ptak"
+ Odpowiedź: "Czerwony Ptak"
+ xp_reward: 15
+
+ # 3. Słuchaj and Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_and_type
+ Pytanie: "Słuchaj and type the color"
+ tts_text: "Umutuku"
+ Odpowiedź: "Umutuku"
+ translation: "Czerwony"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Pytanie: "Słuchaj and type the color"
+ tts_text: "Ubururu"
+ Odpowiedź: "Ubururu"
+ translation: "Niebieski"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Pytanie: "Słuchaj and type the phrase"
+ tts_text: "Pome ni umutuku"
+ Odpowiedź: "Pome ni umutuku"
+ translation: "The apple is Czerwony"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_and_type
+ Pytanie: "Słuchaj and type the phrase"
+ tts_text: "Ijuru ni ubururu"
+ Odpowiedź: "Ijuru ni ubururu"
+ translation: "The sky is Niebieski"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_and_type
+ Pytanie: "Słuchaj and type the phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ Odpowiedź: "Inyoni itukura iraguruka"
+ translation: "The Czerwony Ptak flies"
+ xp_reward: 25
+
+ # 4. Słuchaj and Wybierz
+ - id: 41
+ type: listen_and_choose
+ Pytanie: "Słuchaj and Wybierz the correct color"
+ tts_text: "Umutuku"
+ options:
+ - "Czerwony"
+ - "Niebieski"
+ - "Zielony"
+ Odpowiedź: "Czerwony"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Pytanie: "Słuchaj and Wybierz the correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "Czerwony"
+ - "Żółty"
+ - "Czarny"
+ Odpowiedź: "Żółty"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Pytanie: "Słuchaj and Wybierz the correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "The apple is Czerwony"
+ - "The sky is Niebieski"
+ - "The sun is Żółty"
+ Odpowiedź: "The apple is Czerwony"
+ xp_reward: 20
+
+ # 5. Repeat / Mów Exercise
+ - id: 44
+ type: Mów
+ Pytanie: "Say this color"
+ prompt: "Umutuku"
+ translation: "Czerwony"
+ xp_reward: 15
+
+ - id: 45
+ type: Mów
+ Pytanie: "Say this color"
+ prompt: "Ubururu"
+ translation: "Niebieski"
+ xp_reward: 15
+
+ - id: 46
+ type: Mów
+ Pytanie: "Say this phrase"
+ prompt: "Pome itukura"
+ translation: "Czerwony apple"
+ xp_reward: 18
+
+ - id: 47
+ type: Mów
+ Pytanie: "Say this Zdanie"
+ prompt: "Pome ni umutuku"
+ translation: "The apple is Czerwony"
+ xp_reward: 20
+
+ - id: 48
+ type: Mów
+ Pytanie: "Say this Zdanie"
+ prompt: "Ijuru ni ubururu"
+ translation: "The sky is Niebieski"
+ xp_reward: 20
+
+ # 6. Word Bank Zdanie Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ Pytanie: "Build the Kinyarwanda Zdanie for 'The apple is Czerwony'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Pytanie: "Build the Kinyarwanda Zdanie for 'The sky is Niebieski'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ Pytanie: "Build the Kinyarwanda phrase for 'Czerwony Ptak'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Pytanie: "Build the Kinyarwanda phrase for 'Niebieski Ryba'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ Pytanie: "Build the Kinyarwanda Zdanie for 'The Czerwony Ptak flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ Pytanie: "Build the Kinyarwanda Zdanie for 'The Zielony Żaba jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. Zdanie Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ Pytanie: "Arrange these words to form a correct Kinyarwanda Zdanie"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "The apple is Czerwony"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ Pytanie: "Arrange these words to form a correct Kinyarwanda Zdanie"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "The sky is Niebieski"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ Pytanie: "Arrange these words to form a correct Kinyarwanda Zdanie"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "The Czerwony Ptak flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ Pytanie: "Arrange these words to form a correct Kinyarwanda Zdanie"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "The Zielony Żaba jumps"
+ xp_reward: 25
+
+ # 8. Fill in the Blank - Wybierz FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ Pytanie: "Wybierz the correct word to complete the Zdanie"
+ text_with_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Czerwony"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ Pytanie: "Wybierz the correct word to complete the Zdanie"
+ text_with_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Niebieski"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ Pytanie: "Wybierz the correct word to complete the Zdanie"
+ text_with_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "The grass is Zielony"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ Pytanie: "Wybierz the correct word to complete the Zdanie"
+ text_with_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "The sun is Żółty"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ Pytanie: "Wybierz the correct word to complete the phrase"
+ text_with_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Czerwony Ptak flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ Pytanie: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ Pytanie: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ Pytanie: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "Pomarańczowy", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ Pytanie: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Pytanie: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "Pomarańczowy"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Pytanie: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Pytanie: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Pomarańczowy", "Ubururu"]
+ correct_answer: "Pomarańczowy"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Pytanie: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "Pomarańczowy"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ Pytanie: "What color is this Ptak?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word Dopasuj (Pairing)
+ - id: 73
+ type: Dopasuj
+ Pytanie: "Dopasuj the Kolory"
+ pairs:
+ - Lewo: "Czerwony"
+ Prawo: "Umutuku"
+ - Lewo: "Niebieski"
+ Prawo: "Ubururu"
+ - Lewo: "Zielony"
+ Prawo: "Icyatsi"
+ - Lewo: "Żółty"
+ Prawo: "Umuhondo"
+ - Lewo: "Czarny"
+ Prawo: "Umukara"
+ - Lewo: "Biały"
+ Prawo: "Umweru"
+ - Lewo: "Pomarańczowy"
+ Prawo: "Pomarańczowy"
+ xp_reward: 25
+
+ - id: 74
+ type: Dopasuj
+ Pytanie: "Dopasuj the colored objects"
+ pairs:
+ - Lewo: "Czerwony apple"
+ Prawo: "Pome itukura"
+ - Lewo: "Niebieski sky"
+ Prawo: "Ijuru ry'ubururu"
+ - Lewo: "Zielony grass"
+ Prawo: "Ibyatsi by'icyatsi"
+ - Lewo: "Żółty sun"
+ Prawo: "Izuba ry'umuhondo"
+ - Lewo: "Czarny Kot"
+ Prawo: "Injangwe y'umukara"
+ - Lewo: "Biały Krowa"
+ Prawo: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: Dopasuj
+ Pytanie: "Dopasuj the colored Zwierzęta"
+ pairs:
+ - Lewo: "Czerwony Ptak"
+ Prawo: "Inyoni itukura"
+ - Lewo: "Zielony Żaba"
+ Prawo: "Igikeri cy'icyatsi"
+ - Lewo: "Niebieski Ryba"
+ Prawo: "Ifi y'ubururu"
+ - Lewo: "Żółty Kurczak"
+ Prawo: "Inkoko y'umuhondo"
+ - Lewo: "Czarny Królik"
+ Prawo: "Urukwavu rw'umukara"
+ - Lewo: "Biały Koza"
+ Prawo: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. Wybierz Missing Word
+ - id: 80
+ type: choose_missing
+ Pytanie: "Wybierz the missing word"
+ Zdanie: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Czerwony"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Pytanie: "Wybierz the missing word"
+ Zdanie: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Niebieski"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Pytanie: "Wybierz the missing word"
+ Zdanie: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Czerwony Ptak flies"
+ xp_reward: 18
+
+ # 12. Czytaj and Odpowiedź - Pytanie in English, Odpowiedź based on Kinyarwanda text
+ - id: 83
+ type: read_answer
+ Pytanie: "Czytaj the text and Odpowiedź the Pytanie"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ Pytanie: "What color is the apple?"
+ options: ["Czerwony", "Niebieski", "Zielony", "Żółty"]
+ correct_answer: "Czerwony"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ Pytanie: "Czytaj the text and Odpowiedź the Pytanie"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ Pytanie: "Co znaczy the Czerwony Ptak do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ Pytanie: "Czytaj the text and Odpowiedź the Pytanie"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ Pytanie: "What color is the Krowa?"
+ options: ["Czarny", "Biały", "Żółty", "Czerwony"]
+ correct_answer: "Biały"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ Pytanie: "Is this statement true or false?"
+ statement: "Pome ni umutuku."
+ translation: "The apple is Czerwony"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ Pytanie: "Is this statement true or false?"
+ statement: "Ijuru ni icyatsi."
+ translation: "The sky is Zielony"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ Pytanie: "Is this statement true or false?"
+ statement: "Inka ni umweru."
+ translation: "The Krowa is Biały"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ Pytanie: "Is this statement true or false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "The Czerwony Ptak flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ Pytanie: "Respond to the Pytanie by building a Zdanie"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ Pytanie: "Respond to the Pytanie"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is the sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ Pytanie: "Respond to the Pytanie"
+ bot_message: "Injangwe ni umukara?"
+ translation: "Is the Kot Czarny?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build Zdanie from pieces
+ - id: 93
+ type: story
+ title: "Kolory in the Field"
+ story_intro: "Czytaj about the colorful Zwierzęta. Then build the Zdanie."
+ story_segments:
+ - text: "There is a Czerwony Ptak in the sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: "The Ptak flies above."
+ - text: "There is a Zielony Żaba near the Woda."
+ - text: "The Żaba jumps."
+ - text: "There is a Niebieski Ryba in the Woda."
+ - text: "The Ryba swims."
+ exercises:
+ - type: word_bank
+ Pytanie: "Build the Kinyarwanda Zdanie for 'The Czerwony Ptak flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ Pytanie: "Build the Kinyarwanda Zdanie for 'The Zielony Żaba jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ Pytanie: "Build the Kinyarwanda Zdanie for 'The Niebieski Ryba swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ Pytanie: "Say the color"
+ prompt: "Umutuku"
+ translation: "Czerwony"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ Pytanie: "Say the color"
+ prompt: "Agasumbashyamba" # Żyrafa - testing color knowledge in context
+ translation: "Żyrafa (they are Żółty and Brązowy)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ Pytanie: "Say the phrase"
+ prompt: "Pome itukura"
+ translation: "Czerwony apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ Pytanie: "Co znaczy 'umutuku' mean in this Zdanie?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["Czerwony", "Niebieski", "Zielony", "Żółty"]
+ correct_answer: "Czerwony"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ Pytanie: "Co znaczy 'itukura' mean in this Zdanie?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["Czerwony", "Niebieski", "Zielony", "Żółty"]
+ correct_answer: "Czerwony"
+ note: "itukura is the adjective form of umutuku when describing a noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ Pytanie: "Co znaczy 'cy'icyatsi' mean in this Zdanie?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["Czerwony", "Niebieski", "Zielony", "Żółty"]
+ correct_answer: "Zielony"
+ xp_reward: 18
+
+ # 18. Speed Dopasuj
+ - id: 100
+ type: speed_Dopasuj
+ title: "Dopasuj Madness: Kolory"
+ time_limit_seconds: 45
+ pairs:
+ - Lewo: "Czerwony"
+ Prawo: "Umutuku"
+ - Lewo: "Niebieski"
+ Prawo: "Ubururu"
+ - Lewo: "Zielony"
+ Prawo: "Icyatsi"
+ - Lewo: "Żółty"
+ Prawo: "Umuhondo"
+ - Lewo: "Czarny"
+ Prawo: "Umukara"
+ - Lewo: "Biały"
+ Prawo: "Umweru"
+ - Lewo: "Pomarańczowy"
+ Prawo: "Pomarańczowy"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: Kolory"
+ time_limit_seconds: 30
+ Pytanie_count: 5
+ Pytanie:
+ - Pytanie: "Czerwony"
+ Odpowiedź: "Umutuku"
+ - Pytanie: "Niebieski"
+ Odpowiedź: "Ubururu"
+ - Pytanie: "Zielony"
+ Odpowiedź: "Icyatsi"
+ - Pytanie: "Żółty"
+ Odpowiedź: "Umuhondo"
+ - Pytanie: "Czarny"
+ Odpowiedź: "Umukara"
+ xp_reward: 35
+
+# Fiszki
+ - id: 111
+ type: Fiszki
+ Pytanie: "Fiszki"
+ Fiszki:
+ - front: "Umutuku"
+ back: "Czerwony"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "Niebieski"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "Zielony"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "Żółty"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "Czarny"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "Biały"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Pomarańczowy"
+ back: "Pomarańczowy"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "Czerwony apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "Niebieski sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "Zielony grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

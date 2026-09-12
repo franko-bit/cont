@@ -4,7 +4,6 @@ lesson:
   xp_reward: 500
 
 exercises:
-
   # 1. Translation Exercises - Basic Weather Words
   # Basic Weather Words
   - id: 1
@@ -732,7 +731,7 @@ exercises:
   - id: 94
     type: picture_word
     question: "Iki ni ibihe ki?"
-    image_url: "https://source.unsplash.com/featured/?sun"
+    image_url: "/language-platform/api/unsplash-proxy.php?action=fetch&q=sun,weather&redirect=1"
     options: ["Sun", "Rain", "Cloud"]
     correct_answer: "Sun"
     xp_reward: 10
@@ -740,7 +739,7 @@ exercises:
   - id: 95
     type: picture_word
     question: "Iki ni ibihe ki?"
-    image_url: "https://source.unsplash.com/featured/?rain"
+    image_url: "/language-platform/api/unsplash-proxy.php?action=fetch&q=rain,weather&redirect=1"
     options: ["Rain", "Snow", "Wind"]
     correct_answer: "Rain"
     xp_reward: 10
@@ -748,7 +747,7 @@ exercises:
   - id: 96
     type: picture_word
     question: "Iki ni ibihe ki?"
-    image_url: "https://source.unsplash.com/featured/?snow"
+    image_url: "/language-platform/api/unsplash-proxy.php?action=fetch&q=snow,winter&redirect=1"
     options: ["Snow", "Rain", "Fog"]
     correct_answer: "Snow"
     xp_reward: 10
@@ -756,7 +755,7 @@ exercises:
   - id: 97
     type: picture_word
     question: "Iki ni ibihe ki?"
-    image_url: "https://source.unsplash.com/featured/?cloud"
+    image_url: "/language-platform/api/unsplash-proxy.php?action=fetch&q=cloud,sky&redirect=1"
     options: ["Cloud", "Sun", "Wind"]
     correct_answer: "Cloud"
     xp_reward: 10
@@ -764,7 +763,7 @@ exercises:
   - id: 98
     type: picture_word
     question: "Iki ni ibihe ki?"
-    image_url: "https://source.unsplash.com/featured/?wind"
+    image_url: "/language-platform/api/unsplash-proxy.php?action=fetch&q=wind,weather&redirect=1"
     options: ["Wind", "Rain", "Snow"]
     correct_answer: "Wind"
     xp_reward: 10
@@ -772,7 +771,7 @@ exercises:
   - id: 99
     type: picture_word
     question: "Iki ni ibihe ki?"
-    image_url: "https://source.unsplash.com/featured/?storm"
+    image_url: "/language-platform/api/unsplash-proxy.php?action=fetch&q=storm,weather&redirect=1"
     options: ["Storm", "Sun", "Cloud"]
     correct_answer: "Storm"
     xp_reward: 15
@@ -780,7 +779,7 @@ exercises:
   - id: 100
     type: picture_word
     question: "Iki ni ibihe ki?"
-    image_url: "https://source.unsplash.com/featured/?lightning"
+    image_url: "/language-platform/api/unsplash-proxy.php?action=fetch&q=lightning,storm&redirect=1"
     options: ["Lightning", "Rain", "Cloud"]
     correct_answer: "Lightning"
     xp_reward: 15
@@ -788,7 +787,7 @@ exercises:
   - id: 101
     type: picture_word
     question: "Iki ni ibihe ki?"
-    image_url: "https://source.unsplash.com/featured/?fog"
+    image_url: "/language-platform/api/unsplash-proxy.php?action=fetch&q=fog,weather&redirect=1"
     options: ["Fog", "Cloud", "Wind"]
     correct_answer: "Fog"
     xp_reward: 12
@@ -796,7 +795,7 @@ exercises:
   - id: 102
     type: picture_word
     question: "Ubu ni ubushyuhe ki?"
-    image_url: "https://source.unsplash.com/featured/?hot-weather"
+    image_url: "/language-platform/api/unsplash-proxy.php?action=fetch&q=heat,hot,summer&redirect=1"
     options: ["Hot", "Cold", "Cool"]
     correct_answer: "Hot"
     xp_reward: 10
@@ -804,7 +803,7 @@ exercises:
   - id: 103
     type: picture_word
     question: "Ubu ni ubushyuhe ki?"
-    image_url: "https://source.unsplash.com/featured/?cold-weather"
+    image_url: "/language-platform/api/unsplash-proxy.php?action=fetch&q=cold,winter,frost&redirect=1"
     options: ["Cold", "Hot", "Warm"]
     correct_answer: "Cold"
     xp_reward: 10
@@ -886,7 +885,7 @@ exercises:
         right: "Uyu munsi ijuru ryuzuye ibicu"
     xp_reward: 25
 
-  # 12. Choose Missing Word
+  # 11. Choose Missing Word
   - id: 108
     type: choose_missing
     question: "Hitamo ijambo ribuze"
@@ -947,7 +946,7 @@ exercises:
     translation: "Uyu munsi hazagwa imvura"
     xp_reward: 15
 
-  # 13. Read and Answer
+  # 12. Read and Answer
   - id: 114
     type: read_answer
     question: "Soma ibyanditswe hanyuma usubize ikibazo"
@@ -993,7 +992,7 @@ exercises:
     correct_answer: "Sunny"
     xp_reward: 15
 
-  # 14. True / False
+  # 13. True / False
   - id: 119
     type: true_false
     question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
@@ -1036,7 +1035,7 @@ exercises:
     correct_answer: false
     xp_reward: 15
 
-  # 15. Conversation Exercise
+  # 14. Conversation Exercise
   - id: 125
     type: conversation
     question: "Subiza indamukanyo ukoresheje amagambo atanzwe"
@@ -1079,7 +1078,7 @@ exercises:
     correct_response: ["Be", "careful", "it", "is", "slippery"]
     xp_reward: 20
 
-  # 16. Story Exercise
+  # 15. Story Exercise
   - id: 129
     type: story
     title: "Umunsi w'Ibihe by'Ikirere"
@@ -1118,7 +1117,7 @@ exercises:
         correct_answer: ["Be", "careful", "it", "is", "slippery"]
     xp_reward: 45
 
-  # 17. Pronunciation Check
+  # 16. Pronunciation Check
   - id: 130
     type: pronunciation
     question: "Vuga iri jambo ry'ibihe mu Cyongereza neza"
@@ -1161,7 +1160,7 @@ exercises:
     translation: "Good morning! The sun is shining"
     xp_reward: 22
 
-  # 18. Identify Correct Meaning
+  # 17. Identify Correct Meaning
   - id: 136
     type: identify_meaning
     question: "'Izuba' risobanura iki muri iyi nteruro?"
@@ -1207,7 +1206,7 @@ exercises:
     correct_answer: "to be slippery"
     xp_reward: 18
 
-  # 19. Speed Matching
+  # 18. Speed Matching
   - id: 141
     type: speed_matching
     title: "Huza Byihuse: Ibihe"
@@ -1235,7 +1234,7 @@ exercises:
         right: "Harimo kugwa imvura"
     xp_reward: 30
 
-  # 20. Timed Challenges
+  # 19. Timed Challenges
   - id: 142
     type: timed_challenge
     title: "Kubahuka: Ibihe"
@@ -1254,229 +1253,40 @@ exercises:
         answer: "Cold"
     xp_reward: 35
 
-  # 21. Character Writing
-  - id: 143
-    type: character_writing
-    question: "Yandika iri jambo ry'ibihe mu Cyongereza"
-    prompt: "Izuba"
-    translation: "Sun"
-    xp_reward: 15
-
-  - id: 144
-    type: character_writing
-    question: "Yandika iri jambo ry'ibihe mu Cyongereza"
-    prompt: "Imvura"
-    translation: "Rain"
-    xp_reward: 15
-
-  - id: 145
-    type: character_writing
-    question: "Yandika iri jambo ry'ibihe mu Cyongereza"
-    prompt: "Umuyaga"
-    translation: "Wind"
-    xp_reward: 15
-
-  - id: 146
-    type: character_writing
-    question: "Yandika iyi nteruro mu Cyongereza"
-    prompt: "Izuba rirarashe"
-    translation: "The sun is shining"
-    xp_reward: 18
-
-  # 22. Spaced Repetition Review
-  - id: 147
-    type: review
-    title: "Isubiramo: Ibihe"
-    exercises:
-      - type: translation
-        question: "Izuba"
-        answer: "Sun"
-      - type: multiple_choice
-        question: "Imvura"
-        options: ["Sun", "Rain", "Wind"]
-        answer: "Rain"
-      - type: fill_blank
-        question: "The sun is ___."
-        text_with_blank: "The sun is ___."
-        options: ["shining", "falling", "blowing"]
-        correct_answer: "shining"
-      - type: picture_word
-        question: "Iki ni ibihe ki?"
-        image_url: "https://source.unsplash.com/featured/?snow"
-        options: ["Snow", "Rain", "Fog"]
-        correct_answer: "Snow"
-      - type: sentence_scramble
-        question: "Tondeka: Izuba rirarashe"
-        scrambled_words: ["shining", "is", "The", "sun"]
-        correct_sentence: "The sun is shining"
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Weather"
+      back: "Ibihe by"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Sun"
+      back: "Izuba"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Rain"
+      back: "Imvura"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Snow"
+      back: "Urubura"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Cloud"
+      back: "Igicu"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Wind"
+      back: "Umuyaga"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Storm"
+      back: "Umuyaga ukomeye"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Thunder"
+      back: "Inkubi y"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Lightning"
+      back: "Umuriro w"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Hot"
+      back: "Harashyushye"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
     xp_reward: 30
 
-  # 23. Listening Comprehension
-  - id: 148
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibihe bikwiye"
-    audio: "Izuba"
-    options:
-      - "Rain"
-      - "Sun"
-      - "Wind"
-    correct_answer: "Sun"
-    xp_reward: 15
-
-  - id: 149
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibihe bikwiye"
-    audio: "Imvura"
-    options:
-      - "Snow"
-      - "Rain"
-      - "Cloud"
-    correct_answer: "Rain"
-    xp_reward: 15
-
-  - id: 150
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ibihe bikwiye"
-    audio: "Umuyaga"
-    options:
-      - "Sun"
-      - "Wind"
-      - "Storm"
-    correct_answer: "Wind"
-    xp_reward: 15
-
-  - id: 151
-    type: listening_comprehension
-    question: "Tega amatwi hanyuma uhitemo ubushyuhe bukwiye"
-    audio: "Harashyushye"
-    options:
-      - "Cold"
-      - "Hot"
-      - "Cool"
-    correct_answer: "Hot"
-    xp_reward: 15
-
-  # 24. Grammar Selection
-  - id: 152
-    type: grammar
-    question: "Hitamo inshinga ikwiye isobanura 'izuba rirakaza'"
-    options: ["shining", "falling", "blowing"]
-    correct_answer: "shining"
-    explanation: "'Izuba rirarashe' means 'the sun is shining'"
-    xp_reward: 15
-
-  - id: 153
-    type: grammar
-    question: "Hitamo inshinga ikwiye isobanura 'urubura ruragwa'"
-    options: ["shining", "falling", "blowing"]
-    correct_answer: "falling"
-    explanation: "'Urubura ruragwa' means 'the snow is falling'"
-    xp_reward: 15
-
-  - id: 154
-    type: grammar
-    question: "Hitamo ijambo rikwiye risobanura 'today'"
-    options: ["Uyu munsi", "Hanze", "Nijoro"]
-    correct_answer: "Uyu munsi"
-    explanation: "'Uyu munsi' means 'today'"
-    xp_reward: 12
-
-  - id: 155
-    type: grammar
-    question: "Hitamo imvugo ikwiye isobanura 'it is hot'"
-    options: ["Birishyushye", "Bikonje", "Ni byiza"]
-    correct_answer: "Birishyushye"
-    explanation: "'Birishyushye' means 'it is hot'"
-    xp_reward: 12
-
-  # 25. Error Correction
-  - id: 156
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro"
-    incorrect_sentence: "Izuba ruragwa."
-    translation: "The sun is falling (incorrect)"
-    word_bank_for_fix: ["The", "sun", "is", "shining", "rain", "is", "falling"]
-    correct_sentence: "The sun is shining."
-    explanation: "Izuba rirakaza (shining), ntabwo rigwa (falling)."
-    xp_reward: 18
-
-  - id: 157
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro"
-    incorrect_sentence: "Uyu munsi bikonje."
-    translation: "It is cold today (but should be hot)"
-    word_bank_for_fix: ["It", "is", "hot", "today", "cold", "outside"]
-    correct_sentence: "It is hot today."
-    explanation: "Uyu munsi harashyushye (hot), ntabwo bikonje (cold)."
-    xp_reward: 15
-
-  - id: 158
-    type: error_correction
-    question: "Kosora ikosa muri iyi nteruro"
-    incorrect_sentence: "Umuyaga urakaza."
-    translation: "The wind is shining (incorrect)"
-    word_bank_for_fix: ["The", "wind", "is", "blowing", "sun", "is", "shining"]
-    correct_sentence: "The wind is blowing."
-    explanation: "Umuyaga urahuma (blows), ntabwo urakaza (shines)."
-    xp_reward: 18
-
-  # Flashcards
-  - id: 159
-    type: flashcards
-    question: "Iyi ni modero y'amafishi y'ibihe"
-    flashcards:
-      - front: "Ibihe by'ikirere"
-        back: "Weather"
-        image: "https://source.unsplash.com/featured/?weather"
-      - front: "Izuba"
-        back: "Sun"
-        image: "https://source.unsplash.com/featured/?sun"
-      - front: "Imvura"
-        back: "Rain"
-        image: "https://source.unsplash.com/featured/?rain"
-      - front: "Urubura"
-        back: "Snow"
-        image: "https://source.unsplash.com/featured/?snow"
-      - front: "Igicu"
-        back: "Cloud"
-        image: "https://source.unsplash.com/featured/?cloud"
-      - front: "Umuyaga"
-        back: "Wind"
-        image: "https://source.unsplash.com/featured/?wind"
-      - front: "Umuyaga ukomeye"
-        back: "Storm"
-        image: "https://source.unsplash.com/featured/?storm"
-      - front: "Inkubi y'umuyaga"
-        back: "Thunder"
-        image: "https://source.unsplash.com/featured/?thunder"
-      - front: "Umuriro w'amashanyarazi"
-        back: "Lightning"
-        image: "https://source.unsplash.com/featured/?lightning"
-      - front: "Harashyushye"
-        back: "Hot"
-        image: "https://source.unsplash.com/featured/?hot"
-      - front: "Bikonje"
-        back: "Cold"
-        image: "https://source.unsplash.com/featured/?cold"
-      - front: "Igitugu"
-        back: "Fog"
-        image: "https://source.unsplash.com/featured/?fog"
-      - front: "Izuba rirarashe"
-        back: "The sun is shining"
-        image: "https://source.unsplash.com/featured/?sunny"
-      - front: "Harimo kugwa imvura"
-        back: "It is raining"
-        image: "https://source.unsplash.com/featured/?rainy"
-      - front: "Uyu munsi harashyushye"
-        back: "It is hot today"
-        image: "https://source.unsplash.com/featured/?hot-weather"
-      - front: "Hanze hariho ubukonje"
-        back: "It is cold outside"
-        image: "https://source.unsplash.com/featured/?cold-weather"
-      - front: "Ijuru ryuzuye ibicu"
-        back: "The sky is cloudy"
-        image: "https://source.unsplash.com/featured/?cloudy"
-      - front: "Mwaramutse! Izuba rirarashe"
-        back: "Good morning! It is sunny"
-        image: "https://source.unsplash.com/featured/?morning-sun"
-    xp_reward: 45

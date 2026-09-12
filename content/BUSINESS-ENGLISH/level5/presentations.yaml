@@ -1,0 +1,1557 @@
+lesson:
+  name: "Presentations and Public Speaking"
+  description: "Master professional presentation skills including structure, openings, data explanation, charts, Q&A, persuasion, and vocabulary"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: PRESENTATION STRUCTURE (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-7)
+  - id: 1
+    type: multiple_choice
+    question: "What is the classic three-part structure of a professional presentation?"
+    options:
+      - "Introduction, jokes, conclusion"
+      - "Beginning, middle, end"
+      - "Tell them what you'll tell them, tell them, tell them what you told them"
+      - "Slide 1, Slide 2, Slide 3"
+    answer: "Tell them what you'll tell them, tell them, tell them what you told them"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What should be included in the introduction of a presentation?"
+    options:
+      - "Only your name"
+      - "Hook, agenda, credibility statement, and overview"
+      - "All your data and charts"
+      - "A long story about your personal life"
+    answer: "Hook, agenda, credibility statement, and overview"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "What is a 'hook' in a presentation?"
+    options:
+      - "A fishing reference"
+      - "An attention-grabbing opening statement"
+      - "The last slide"
+      - "A question at the end"
+    answer: "An attention-grabbing opening statement"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "How many main points should a typical business presentation have?"
+    options:
+      - "1-2 points"
+      - "3-5 points"
+      - "10-15 points"
+      - "As many as possible"
+    answer: "3-5 points"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "What should you include in the conclusion of a presentation?"
+    options:
+      - "New information you forgot"
+      - "Summary, key takeaway, call to action, and thank you"
+      - "More questions than answers"
+      - "An apology for any mistakes"
+    answer: "Summary, key takeaway, call to action, and thank you"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What does 'signposting' mean in a presentation?"
+    options:
+      - "Putting signs on your slides"
+      - "Using transition phrases to guide the audience ('First', 'Next', 'Finally')"
+      - "Pointing at the screen"
+      - "Reading every word on your slides"
+    answer: "Using transition phrases to guide the audience ('First', 'Next', 'Finally')"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "How much time should you typically spend on the introduction?"
+    options:
+      - "50% of the presentation"
+      - "10-15% of the presentation"
+      - "90% of the presentation"
+      - "0% - skip directly to content"
+    answer: "10-15% of the presentation"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (8-12)
+  - id: 8
+    type: fill_blank
+    question: "Complete the presentation opening structure phrase"
+    text_with_blank: "Today, I will ___ three main points about our quarterly results."
+    options: ["cover", "discuss", "present", "share"]
+    correct_answer: "cover"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the signposting phrase"
+    text_with_blank: "___ , let me begin with our sales performance."
+    options: ["First", "Initially", "To start", "Beginning"]
+    correct_answer: "First"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the transition phrase"
+    text_with_blank: "Now that we've covered sales, ___ 's move on to marketing."
+    options: ["let", "we", "shall", "will"]
+    correct_answer: "let"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the conclusion starter"
+    text_with_blank: "In ___ , our Q3 performance exceeded expectations across all metrics."
+    options: ["summary", "conclusion", "short", "closing"]
+    correct_answer: "summary"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the call to action"
+    text_with_blank: "I ___ you to approve this budget for the upcoming quarter."
+    options: ["urge", "ask", "request", "encourage"]
+    correct_answer: "urge"
+    xp_reward: 15
+
+  # TRUE / FALSE (13-15)
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? The most effective presentations have a clear beginning, middle, and end."
+    statement: "The most effective presentations have a clear beginning, middle, and end."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 14
+    type: true_false
+    question: "Is this statement true or false? You should memorize your entire presentation word for word."
+    statement: "You should memorize your entire presentation word for word."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? A clear agenda helps the audience follow your presentation."
+    statement: "A clear agenda helps the audience follow your presentation."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (16-18)
+  - id: 16
+    type: matching
+    question: "Match the presentation section with its purpose"
+    pairs:
+      - left: "Introduction"
+        right: "Grab attention, state purpose, preview structure"
+      - left: "Body"
+        right: "Present main points with evidence"
+      - left: "Conclusion"
+        right: "Summarize, reinforce key message, call to action"
+      - left: "Q&A"
+        right: "Address audience questions and concerns"
+      - left: "Closing"
+        right: "Thank audience and end professionally"
+    xp_reward: 25
+
+  - id: 17
+    type: matching
+    question: "Match the signposting phrase with its function"
+    pairs:
+      - left: "First, let me explain..."
+        right: "Introducing first point"
+      - left: "Moving on to my next point..."
+        right: "Transition between points"
+      - left: "Let me elaborate on this..."
+        right: "Adding detail to current point"
+      - left: "Turning now to..."
+        right: "Changing topic"
+      - left: "Finally, I'd like to discuss..."
+        right: "Introducing last point"
+    xp_reward: 25
+
+  - id: 18
+    type: matching
+    question: "Match the hook type with its description"
+    pairs:
+      - left: "Question hook"
+        right: "Start with a thought-provoking question"
+      - left: "Statistic hook"
+        right: "Open with a surprising number"
+      - left: "Story hook"
+        right: "Begin with a brief relevant anecdote"
+      - left: "Quote hook"
+        right: "Start with an expert or famous quote"
+      - left: "Problem hook"
+        right: "Identify a problem you will solve"
+    xp_reward: 25
+
+  # FLASHCARDS (19-20)
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Presentation Structure Elements"
+    flashcards:
+      - front: "Hook"
+        back: "Attention-grabbing opening"
+      - front: "Agenda"
+        back: "Roadmap of what you'll cover"
+      - front: "Credibility statement"
+        back: "Why you're qualified to speak"
+      - front: "Main body"
+        back: "3-5 key points with supporting evidence"
+      - front: "Call to action"
+        back: "What you want the audience to do"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Transition Phrases"
+    flashcards:
+      - front: "Let's start with"
+        back: "Introduce first topic"
+      - front: "Now let's turn to"
+        back: "Change to new topic"
+      - front: "Building on that idea"
+        back: "Add to current point"
+      - front: "This brings me to my next point"
+        back: "Natural transition"
+      - front: "To wrap up"
+        back: "Begin conclusion"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: OPENING A PRESENTATION (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-27)
+  - id: 21
+    type: multiple_choice
+    question: "What is the most effective way to open a business presentation?"
+    options:
+      - "Sorry I'm late"
+      - "Thank you all for being here. Today I'll discuss..."
+      - "Let me just check my notes"
+      - "I'm not really prepared"
+    answer: "Thank you all for being here. Today I'll discuss..."
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "Which is an example of a strong hook for a sales presentation?"
+    options:
+      - "The weather today is nice"
+      - "What if I told you we could increase your revenue by 30% in six months?"
+      - "My name is John"
+      - "Let me read this slide"
+    answer: "What if I told you we could increase your revenue by 30% in six months?"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What should you say immediately after your hook?"
+    options:
+      - "Tell a joke"
+      - "Introduce yourself and state your credibility"
+      - "Show a complex chart"
+      - "Ask if anyone has questions"
+    answer: "Introduce yourself and state your credibility"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "How do you establish credibility in a presentation opening?"
+    options:
+      - "List all your degrees and awards"
+      - "Briefly state your relevant experience or role"
+      - "Brag about your achievements for 10 minutes"
+      - "Don't mention yourself at all"
+    answer: "Briefly state your relevant experience or role"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "What should you say if you're presenting to senior executives?"
+    options:
+      - "Hey guys, listen up"
+      - "Good morning, distinguished leaders. Thank you for your time today."
+      - "Yo, what's up?"
+      - "Let me just get through this quickly"
+    answer: "Good morning, distinguished leaders. Thank you for your time today."
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What is a 'rhetorical question' in a presentation opening?"
+    options:
+      - "A question you expect the audience to answer out loud"
+      - "A question asked for effect, not expecting an answer"
+      - "A question about rhetoric"
+      - "A question with no answer"
+    answer: "A question asked for effect, not expecting an answer"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "How should you handle technical difficulties at the start of a presentation?"
+    options:
+      - "Panic and apologize repeatedly"
+      - "Cancel the presentation"
+      - "Stay calm, acknowledge the issue briefly, and have a backup plan"
+      - "Blame the IT department"
+    answer: "Stay calm, acknowledge the issue briefly, and have a backup plan"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (28-32)
+  - id: 28
+    type: fill_blank
+    question: "Complete the opening greeting"
+    text_with_blank: "Good morning, everyone. Thank you for ___ today."
+    options: ["being here", "coming", "attending", "joining"]
+    correct_answer: "joining"
+    xp_reward: 15
+
+  - id: 29
+    type: fill_blank
+    question: "Complete the hook statement"
+    text_with_blank: "___ if I told you we could cut costs by 20% without reducing quality?"
+    options: ["What", "Imagine", "Suppose", "Consider"]
+    correct_answer: "What"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the credibility statement"
+    text_with_blank: "For those who don't know me, I'm Sarah, the ___ of Marketing."
+    options: ["Director", "Head", "VP", "Manager"]
+    correct_answer: "Director"
+    xp_reward: 15
+
+  - id: 31
+    type: fill_blank
+    question: "Complete the agenda preview"
+    text_with_blank: "Today, I'll cover three areas: our results, our challenges, and our ___ for next quarter."
+    options: ["plan", "strategy", "recommendations", "proposal"]
+    correct_answer: "recommendations"
+    xp_reward: 15
+
+  - id: 32
+    type: fill_blank
+    question: "Complete the time expectation statement"
+    text_with_blank: "This presentation will take approximately 20 minutes, and we'll have ___ minutes for questions at the end."
+    options: ["10", "several", "a few", "some"]
+    correct_answer: "10"
+    xp_reward: 15
+
+  # TRUE / FALSE (33-35)
+  - id: 33
+    type: true_false
+    question: "Is this statement true or false? Starting with an apology weakens your credibility."
+    statement: "Starting with an apology weakens your credibility."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 34
+    type: true_false
+    question: "Is this statement true or false? You should never make eye contact with the audience during your opening."
+    statement: "You should never make eye contact with the audience during your opening."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 35
+    type: true_false
+    question: "Is this statement true or false? Previewing your agenda helps the audience follow your presentation."
+    statement: "Previewing your agenda helps the audience follow your presentation."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (36-38)
+  - id: 36
+    type: matching
+    question: "Match the opening element with its example"
+    pairs:
+      - left: "Hook"
+        right: "What if you could double your productivity in 30 days?"
+      - left: "Welcome and thanks"
+        right: "Thank you all for taking time out of your busy schedules"
+      - left: "Self-introduction"
+        right: "I'm Michael, and I've led this project for two years"
+      - left: "Agenda preview"
+        right: "I'll cover three areas: problem, solution, next steps"
+      - left: "Timeframe"
+        right: "This will take about 15 minutes"
+    xp_reward: 25
+
+  - id: 37
+    type: matching
+    question: "Match the hook type with its example"
+    pairs:
+      - left: "Shocking statistic"
+        right: "90% of businesses fail within the first five years"
+      - left: "Personal story"
+        right: "When I started in this role three years ago, I faced the same challenge"
+      - left: "Bold statement"
+        right: "Everything you know about marketing is about to change"
+      - left: "Question"
+        right: "How many of you have struggled with work-life balance?"
+      - left: "Quote"
+        right: "As Peter Drucker said, 'What gets measured gets managed'"
+    xp_reward: 25
+
+  - id: 38
+    type: matching
+    question: "Match the audience type with the appropriate opening"
+    pairs:
+      - left: "Senior executives"
+        right: "Good morning. Thank you for your time. I'll be brief."
+      - left: "Internal team"
+        right: "Hi everyone. Let's dive into our weekly update."
+      - left: "New clients"
+        right: "Thank you for the opportunity to present to you today."
+      - left: "Conference audience"
+        right: "Good afternoon. It's an honor to be here with you today."
+      - left: "Technical experts"
+        right: "I'll assume you're familiar with the basics, so let's jump into the data."
+    xp_reward: 25
+
+  # FLASHCARDS (39-40)
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Powerful Opening Phrases"
+    flashcards:
+      - front: "Imagine if..."
+        back: "Engages audience imagination"
+      - front: "What if I told you that..."
+        back: "Creates curiosity"
+      - front: "The problem we're solving is..."
+        back: "Immediately relevant"
+      - front: "By the end of this presentation, you'll understand..."
+        back: "Sets expectation"
+      - front: "Let me start with a story"
+        back: "Personal connection"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Opening Don'ts"
+    flashcards:
+      - front: "Sorry I'm not prepared"
+        back: "Never apologize at the start"
+      - front: "Let me just read this slide"
+        back: "Audience can read themselves"
+      - front: "I'm nervous"
+        back: "Don't admit anxiety"
+      - front: "I didn't have much time to prepare"
+        back: "Shows lack of respect"
+      - front: "I'll try to get through this quickly"
+        back: "Suggests you don't want to be there"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: EXPLAINING DATA (41-60)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-47)
+  - id: 41
+    type: multiple_choice
+    question: "When presenting data, what should you do first?"
+    options:
+      - "Show the raw numbers without context"
+      - "State the key insight or conclusion the data supports"
+      - "Apologize for the complexity"
+      - "Read every number on the slide"
+    answer: "State the key insight or conclusion the data supports"
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "What does it mean to 'contextualize' data?"
+    options:
+      - "Hide the data"
+      - "Explain what the numbers mean and why they matter"
+      - "Make the data smaller"
+      - "Ignore outliers"
+    answer: "Explain what the numbers mean and why they matter"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "Which phrase best introduces a key data point?"
+    options:
+      - "Look at this number"
+      - "The most important finding from this data is..."
+      - "Here's a chart"
+      - "This is interesting"
+    answer: "The most important finding from this data is..."
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "What should you avoid when presenting data?"
+    options:
+      - "Using clear labels"
+      - "Highlighting key numbers"
+      - "Showing unlabeled, cluttered charts"
+      - "Explaining what the data means"
+    answer: "Showing unlabeled, cluttered charts"
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "What does 'year-over-year (YoY)' mean?"
+    options:
+      - "Compared to the previous month"
+      - "Compared to the same period last year"
+      - "Compared to the budget"
+      - "Compared to the competition"
+    answer: "Compared to the same period last year"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "What does 'quarter-over-quarter (QoQ)' mean?"
+    options:
+      - "Compared to the previous quarter"
+      - "Compared to last year"
+      - "Compared to the industry average"
+      - "Compared to the target"
+    answer: "Compared to the previous quarter"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "How should you present a negative data trend?"
+    options:
+      - "Hide it completely"
+      - "Acknowledge it honestly, explain why it happened, and present solutions"
+      - "Blame someone else"
+      - "Use confusing charts to obscure it"
+    answer: "Acknowledge it honestly, explain why it happened, and present solutions"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (48-52)
+  - id: 48
+    type: fill_blank
+    question: "Complete the data insight statement"
+    text_with_blank: "As you can see from this chart, sales ___ by 15% compared to last quarter."
+    options: ["increased", "grew", "rose", "climbed"]
+    correct_answer: "increased"
+    xp_reward: 15
+
+  - id: 49
+    type: fill_blank
+    question: "Complete the comparison phrase"
+    text_with_blank: "This represents a 10% ___ year-over-year."
+    options: ["improvement", "increase", "growth", "gain"]
+    correct_answer: "improvement"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the data highlight"
+    text_with_blank: "The ___ takeaway from this data is that customer satisfaction has reached an all-time high."
+    options: ["key", "main", "primary", "major"]
+    correct_answer: "key"
+    xp_reward: 15
+
+  - id: 51
+    type: fill_blank
+    question: "Complete the trend explanation"
+    text_with_blank: "This upward ___ has continued for four consecutive quarters."
+    options: ["trend", "pattern", "movement", "direction"]
+    correct_answer: "trend"
+    xp_reward: 15
+
+  - id: 52
+    type: fill_blank
+    question: "Complete the data qualification"
+    text_with_blank: "It's important to note that these numbers are ___ based on preliminary results."
+    options: ["preliminary", "initial", "draft", "tentative"]
+    correct_answer: "preliminary"
+    xp_reward: 15
+
+  # TRUE / FALSE (53-55)
+  - id: 53
+    type: true_false
+    question: "Is this statement true or false? You should assume the audience can interpret data without your explanation."
+    statement: "You should assume the audience can interpret data without your explanation."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 54
+    type: true_false
+    question: "Is this statement true or false? Rounding numbers makes them easier to understand and remember."
+    statement: "Rounding numbers makes them easier to understand and remember."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 55
+    type: true_false
+    question: "Is this statement true or false? You should always cite the source of your data."
+    statement: "You should always cite the source of your data."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (56-58)
+  - id: 56
+    type: matching
+    question: "Match the data trend with its description"
+    pairs:
+      - left: "Upward trend"
+        right: "Numbers are increasing over time"
+      - left: "Downward trend"
+        right: "Numbers are decreasing over time"
+      - left: "Flat trend"
+        right: "Numbers are stable with little change"
+      - left: "Volatile trend"
+        right: "Numbers fluctuate significantly"
+      - left: "Seasonal trend"
+        right: "Regular patterns based on time of year"
+    xp_reward: 25
+
+  - id: 57
+    type: matching
+    question: "Match the data comparison with its description"
+    pairs:
+      - left: "Year-over-year (YoY)"
+        right: "Compared to same period last year"
+      - left: "Quarter-over-quarter (QoQ)"
+        right: "Compared to previous three months"
+      - left: "Month-over-month (MoM)"
+        right: "Compared to previous month"
+      - left: "Actual vs. budget"
+        right: "Compared to planned target"
+      - left: "Actual vs. forecast"
+        right: "Compared to predicted numbers"
+    xp_reward: 25
+
+  - id: 58
+    type: matching
+    question: "Match the data phrase with its meaning"
+    pairs:
+      - left: "Outperformed"
+        right: "Did better than expected"
+      - left: "Underperformed"
+        right: "Did worse than expected"
+      - left: "On track"
+        right: "Meeting expectations"
+      - left: "Exceeded"
+        right: "Went above target"
+      - left: "Missed"
+        right: "Fell short of target"
+    xp_reward: 25
+
+  # FLASHCARDS (59-60)
+  - id: 59
+    type: flashcards
+    question: "Flashcards: Data Presentation Phrases"
+    flashcards:
+      - front: "The data shows that"
+        back: "Introduce finding"
+      - front: "This represents a X% increase"
+        back: "Quantify change"
+      - front: "Compared to the same period last year"
+        back: "Provide context"
+      - front: "What's particularly interesting is"
+        back: "Highlight key insight"
+      - front: "This trend suggests that"
+        back: "Draw conclusion"
+    xp_reward: 30
+
+  - id: 60
+    type: flashcards
+    question: "Flashcards: Data Storytelling"
+    flashcards:
+      - front: "Start with the insight"
+        back: "Tell them what the data means first"
+      - front: "Show the evidence"
+        back: "Then present the data"
+      - front: "Explain the implications"
+        back: "Why it matters"
+      - front: "Connect to the big picture"
+        back: "How it supports your message"
+      - front: "Recommend action"
+        back: "What to do next"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: USING CHARTS AND GRAPHS (61-80)
+  # ============================================
+
+  # MULTIPLE CHOICE (61-67)
+  - id: 61
+    type: multiple_choice
+    question: "Which chart is best for showing trends over time?"
+    options:
+      - "Pie chart"
+      - "Bar chart"
+      - "Line chart"
+      - "Scatter plot"
+    answer: "Line chart"
+    xp_reward: 15
+
+  - id: 62
+    type: multiple_choice
+    question: "Which chart is best for comparing categories or ranking?"
+    options:
+      - "Line chart"
+      - "Pie chart"
+      - "Bar chart"
+      - "Area chart"
+    answer: "Bar chart"
+    xp_reward: 15
+
+  - id: 63
+    type: multiple_choice
+    question: "Which chart is best for showing parts of a whole (percentages)?"
+    options:
+      - "Line chart"
+      - "Pie chart or stacked bar"
+      - "Scatter plot"
+      - "Histogram"
+    answer: "Pie chart or stacked bar"
+    xp_reward: 15
+
+  - id: 64
+    type: multiple_choice
+    question: "What should you always include on every chart?"
+    options:
+      - "A colorful background"
+      - "Clear title, labeled axes, and legend if needed"
+      - "At least 20 data points"
+      - "Animation effects"
+    answer: "Clear title, labeled axes, and legend if needed"
+    xp_reward: 15
+
+  - id: 65
+    type: multiple_choice
+    question: "How many colors should you typically use in a chart for clarity?"
+    options:
+      - "As many as possible"
+      - "2-4 colors maximum"
+      - "Only black and white"
+      - "Rainbow all colors"
+    answer: "2-4 colors maximum"
+    xp_reward: 15
+
+  - id: 66
+    type: multiple_choice
+    question: "What does the 'x-axis' typically show on a chart?"
+    options:
+      - "The measured values"
+      - "The categories or time periods"
+      - "The title"
+      - "The data labels"
+    answer: "The categories or time periods"
+    xp_reward: 15
+
+  - id: 67
+    type: multiple_choice
+    question: "What does the 'y-axis' typically show on a chart?"
+    options:
+      - "The categories or time"
+      - "The measured values or quantities"
+      - "The chart title"
+      - "The source information"
+    answer: "The measured values or quantities"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (68-72)
+  - id: 68
+    type: fill_blank
+    question: "Complete the chart introduction"
+    text_with_blank: "Let me ___ you this chart, which shows our revenue growth over the past year."
+    options: ["show", "present", "share", "display"]
+    correct_answer: "show"
+    xp_reward: 15
+
+  - id: 69
+    type: fill_blank
+    question: "Complete the chart explanation"
+    text_with_blank: "The x-axis ___ the months, while the y-axis shows sales in thousands."
+    options: ["represents", "shows", "indicates", "displays"]
+    correct_answer: "represents"
+    xp_reward: 15
+
+  - id: 70
+    type: fill_blank
+    question: "Complete the trend identification"
+    text_with_blank: "As you can see, there's a sharp ___ in August, followed by a plateau."
+    options: ["peak", "spike", "increase", "jump"]
+    correct_answer: "spike"
+    xp_reward: 15
+
+  - id: 71
+    type: fill_blank
+    question: "Complete the comparison statement"
+    text_with_blank: "The blue bars ___ Q1 results, while the orange bars show Q2."
+    options: ["represent", "show", "indicate", "display"]
+    correct_answer: "represent"
+    xp_reward: 15
+
+  - id: 72
+    type: fill_blank
+    question: "Complete the outlier identification"
+    text_with_blank: "Notice this ___ here. That's an anomaly we need to investigate."
+    options: ["outlier", "exception", "deviation", "anomaly"]
+    correct_answer: "outlier"
+    xp_reward: 15
+
+  # TRUE / FALSE (73-75)
+  - id: 73
+    type: true_false
+    question: "Is this statement true or false? 3D charts are always clearer than 2D charts."
+    statement: "3D charts are always clearer than 2D charts."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 74
+    type: true_false
+    question: "Is this statement true or false? You should point directly at the chart when explaining it."
+    statement: "You should point directly at the chart when explaining it."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 75
+    type: true_false
+    question: "Is this statement true or false? A chart without a title is difficult for the audience to understand."
+    statement: "A chart without a title is difficult for the audience to understand."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (76-78)
+  - id: 76
+    type: matching
+    question: "Match the chart type with its best use"
+    pairs:
+      - left: "Line chart"
+        right: "Trends and changes over time"
+      - left: "Bar chart"
+        right: "Comparing categories or ranking"
+      - left: "Pie chart"
+        right: "Parts of a whole (few categories)"
+      - left: "Scatter plot"
+        right: "Relationship between two variables"
+      - left: "Stacked bar"
+        right: "Comparing totals and sub-categories"
+    xp_reward: 25
+
+  - id: 77
+    type: matching
+    question: "Match the chart element with its description"
+    pairs:
+      - left: "Title"
+        right: "What the chart shows"
+      - left: "X-axis"
+        right: "Horizontal axis (categories/time)"
+      - left: "Y-axis"
+        right: "Vertical axis (values)"
+      - left: "Legend"
+        right: "Explains what colors/bars represent"
+      - left: "Data label"
+        right: "Exact number on a bar or point"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Match the data pattern with its description"
+    pairs:
+      - left: "Peak"
+        right: "Highest point on the chart"
+      - left: "Trough"
+        right: "Lowest point on the chart"
+      - left: "Spike"
+        right: "Sudden sharp increase"
+      - left: "Plateau"
+        right: "Flat period with little change"
+      - left: "Dip"
+        right: "Temporary decrease"
+    xp_reward: 25
+
+  # FLASHCARDS (79-80)
+  - id: 79
+    type: flashcards
+    question: "Flashcards: Explaining Charts"
+    flashcards:
+      - front: "As you can see from this chart"
+        back: "Direct attention to visual"
+      - front: "This chart illustrates"
+        back: "Shows relationship"
+      - front: "Let me highlight this area"
+        back: "Focus on specific point"
+      - front: "The line peaks in March"
+        back: "Describe maximum point"
+      - front: "There's a downward trend here"
+        back: "Describe decline"
+    xp_reward: 30
+
+  - id: 80
+    type: flashcards
+    question: "Flashcards: Chart Best Practices"
+    flashcards:
+      - front: "Simplify"
+        back: "Remove unnecessary elements"
+      - front: "Label clearly"
+        back: "Direct labels over legends when possible"
+      - front: "Use consistent colors"
+        back: "Same color = same meaning"
+      - front: "Highlight what matters"
+        back: "Draw attention to key data"
+      - front: "Check accessibility"
+        back: "Colorblind-friendly palettes"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: ANSWERING QUESTIONS (81-105)
+  # ============================================
+
+  # MULTIPLE CHOICE (81-87)
+  - id: 81
+    type: multiple_choice
+    question: "When should you take questions during a presentation?"
+    options:
+      - "Never - questions are not allowed"
+      - "Only at the end, or announce a Q&A policy at the beginning"
+      - "Whenever anyone wants to interrupt"
+      - "Only if you know the answer"
+    answer: "Only at the end, or announce a Q&A policy at the beginning"
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "What should you do if you don't know the answer to a question?"
+    options:
+      - "Make up an answer"
+      - "Say 'I don't know, but I'll find out and get back to you'"
+      - "Ignore the question"
+      - "Get defensive"
+    answer: "Say 'I don't know, but I'll find out and get back to you'"
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "How should you respond to a hostile or aggressive question?"
+    options:
+      - "Fight back aggressively"
+      - "Stay calm, acknowledge their concern, and answer factually"
+      - "Walk off stage"
+      - "Tell them they're wrong"
+    answer: "Stay calm, acknowledge their concern, and answer factually"
+    xp_reward: 15
+
+  - id: 84
+    type: multiple_choice
+    question: "What should you do if someone asks a very long or rambling question?"
+    options:
+      - "Let them talk for 10 minutes"
+      - "Politely interrupt and say 'Let me make sure I understand your question' and summarize it"
+      - "Pretend you didn't hear them"
+      - "Answer a different question"
+    answer: "Politely interrupt and say 'Let me make sure I understand your question' and summarize it"
+    xp_reward: 15
+
+  - id: 85
+    type: multiple_choice
+    question: "What is a good way to start your answer to a question?"
+    options:
+      - "That's a stupid question"
+      - "That's an excellent question. Let me address that."
+      - "I already covered that"
+      - "Next question"
+    answer: "That's an excellent question. Let me address that."
+    xp_reward: 15
+
+  - id: 86
+    type: multiple_choice
+    question: "How should you handle multiple questions from the same person?"
+    options:
+      - "Answer all of them no matter how long it takes"
+      - "Answer one, then say 'Let's hear from others' and come back to them later"
+      - "Ignore them completely"
+      - "Tell them to stop asking questions"
+    answer: "Answer one, then say 'Let's hear from others' and come back to them later"
+    xp_reward: 15
+
+  - id: 87
+    type: multiple_choice
+    question: "What should you do if no one asks a question during Q&A?"
+    options:
+      - "Stand in awkward silence"
+      - "End the presentation early"
+      - "Ask yourself a question or say 'I'll be available afterward if anyone has follow-up questions'"
+      - "Get upset"
+    answer: "Ask yourself a question or say 'I'll be available afterward if anyone has follow-up questions'"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (88-92)
+  - id: 88
+    type: fill_blank
+    question: "Complete the Q&A opening"
+    text_with_blank: "We have about 10 minutes for questions. Who would like to ___ first?"
+    options: ["start", "go", "begin", "ask"]
+    correct_answer: "start"
+    xp_reward: 15
+
+  - id: 89
+    type: fill_blank
+    question: "Complete the question acknowledgment"
+    text_with_blank: "That's an ___ question. Let me address that."
+    options: ["excellent", "great", "good", "interesting"]
+    correct_answer: "excellent"
+    xp_reward: 15
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the uncertainty response"
+    text_with_blank: "That's a great question. I don't have that information right now, but I will ___ and get back to you."
+    options: ["follow up", "research", "investigate", "look into it"]
+    correct_answer: "follow up"
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the question summary"
+    text_with_blank: "If I understand correctly, you're asking ___."
+    options: ["whether", "if", "why", "when"]
+    correct_answer: "whether"
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complete the time management during Q&A"
+    text_with_blank: "We have time for ___ more question."
+    options: ["one", "a final", "just one", "one last"]
+    correct_answer: "one"
+    xp_reward: 15
+
+  # TRUE / FALSE (93-95)
+  - id: 93
+    type: true_false
+    question: "Is this statement true or false? Repeating the question before answering ensures everyone heard it."
+    statement: "Repeating the question before answering ensures everyone heard it."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 94
+    type: true_false
+    question: "Is this statement true or false? You should never admit you don't know an answer."
+    statement: "You should never admit you don't know an answer."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 95
+    type: true_false
+    question: "Is this statement true or false? Making eye contact with the questioner shows respect."
+    statement: "Making eye contact with the questioner shows respect."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (96-99)
+  - id: 96
+    type: matching
+    question: "Match the question type with the best response"
+    pairs:
+      - left: "Clarification question"
+        right: "Thank you for asking. Let me explain that point more clearly."
+      - left: "Challenge question"
+        right: "That's a fair point. Here's how we address that concern."
+      - left: "Off-topic question"
+        right: "That's an interesting question, but outside today's scope. Let's discuss afterward."
+      - left: "Hypothetical question"
+        right: "That's an interesting scenario. Based on our data, I would expect..."
+      - left: "Multiple-part question"
+        right: "Let me address your first question, then we can come back to the others."
+    xp_reward: 25
+
+  - id: 97
+    type: matching
+    question: "Match the Q&A challenge with the solution"
+    pairs:
+      - left: "Aggressive questioner"
+        right: "Stay calm, acknowledge emotion, answer facts"
+      - left: "Questioner who won't stop talking"
+        right: "Thank them, summarize, ask for next question"
+      - left: "Question outside your expertise"
+        right: "I'm not the expert on that, but I can connect you with someone who is"
+      - left: "Question already answered"
+        right: "As I mentioned earlier, the answer is..."
+      - left: "Question that reveals a mistake"
+        right: "Thank you for catching that. Let me correct the record."
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Match the Q&A phrase with its purpose"
+    pairs:
+      - left: "That's a great question"
+        right: "Positive acknowledgment"
+      - left: "I appreciate you asking that"
+        right: "Shows gratitude"
+      - left: "Let me clarify"
+        right: "Correct misunderstanding"
+      - left: "If I understand correctly"
+        right: "Confirm interpretation"
+      - left: "I'll need to follow up on that"
+        right: "Commit to later answer"
+    xp_reward: 25
+
+  - id: 99
+    type: matching
+    question: "Match the closing Q&A phrase with its situation"
+    pairs:
+      - left: "We're out of time"
+        right: "Thank you all for your excellent questions"
+      - left: "No more questions"
+        right: "I'll be available afterward if anything else comes up"
+      - left: "Someone still has hand raised"
+        right: "I see one more hand. Please make it quick."
+      - left: "Difficult question at the end"
+        right: "Let me address that briefly, then we can discuss further offline"
+      - left: "Ending on a high note"
+        right: "Thank you. That's all the time we have."
+    xp_reward: 25
+
+  # FLASHCARDS (100-103)
+  - id: 100
+    type: flashcards
+    question: "Flashcards: Q&A Opening Phrases"
+    flashcards:
+      - front: "We have time for a few questions"
+        back: "Open Q&A session"
+      - front: "Who would like to go first?"
+        back: "Invite participation"
+      - front: "Please state your name and company"
+        back: "For large audiences"
+      - front: "We'll take questions at the end"
+        back: "Set expectation early"
+      - front: "I'll save time for Q&A"
+        back: "Announce in introduction"
+    xp_reward: 30
+
+  - id: 101
+    type: flashcards
+    question: "Flashcards: Answering Phrases"
+    flashcards:
+      - front: "That's an excellent question"
+        back: "Positive acknowledgment"
+      - front: "Let me address that"
+        back: "Transition to answer"
+      - front: "The short answer is..."
+        back: "Give summary first"
+      - front: "To elaborate further..."
+        back: "Add more detail"
+      - front: "Does that answer your question?"
+        back: "Confirm satisfaction"
+    xp_reward: 30
+
+  - id: 102
+    type: flashcards
+    question: "Flashcards: Handling Unknown Answers"
+    flashcards:
+      - front: "I don't have that information"
+        back: "Honest acknowledgment"
+      - front: "Let me research that"
+        back: "Commit to action"
+      - front: "I'll follow up by email"
+        back: "Specific commitment"
+      - front: "That's outside my area"
+        back: "Acknowledge limits"
+      - front: "Let me connect you with the expert"
+        back: "Redirect helpfully"
+    xp_reward: 30
+
+  - id: 103
+    type: flashcards
+    question: "Flashcards: Closing Q&A"
+    flashcards:
+      - front: "We have time for one last question"
+        back: "Signal near end"
+      - front: "Thank you for all your questions"
+        back: "Express appreciation"
+      - front: "I'll be available afterward"
+        back: "Offer continued access"
+      - front: "My contact info is on the last slide"
+        back: "Provide follow-up channel"
+      - front: "Please reach out anytime"
+        back: "Open invitation"
+    xp_reward: 30
+
+  # TIMED CHALLENGES (104-105)
+  - id: 104
+    type: timed_challenge
+    title: "Lightning Round: Q&A Best Practices"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "What to say when you don't know an answer"
+        answer: "I'll find out and follow up"
+      - question: "How to acknowledge a good question"
+        answer: "That's an excellent question"
+      - question: "What to do before answering to ensure everyone heard"
+        answer: "Repeat the question"
+      - question: "When to take questions in a presentation"
+        answer: "At the end or announce policy upfront"
+      - question: "How to handle a rambling question"
+        answer: "Summarize it"
+    xp_reward: 35
+
+  - id: 105
+    type: timed_challenge
+    title: "Lightning Round: Difficult Questions"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "How to respond to a hostile question"
+        answer: "Stay calm and factual"
+      - question: "What to say if someone asks multiple questions"
+        answer: "Answer one then hear from others"
+      - question: "How to handle an off-topic question"
+        answer: "Discuss after the presentation"
+      - question: "What to do if no one asks a question"
+        answer: "Ask yourself a question"
+      - question: "How to confirm you understood the question"
+        answer: "If I understand correctly"
+    xp_reward: 35
+
+  # ============================================
+  # SECTION 6: PERSUASIVE SPEAKING (106-125)
+  # ============================================
+
+  # MULTIPLE CHOICE (106-112)
+  - id: 106
+    type: multiple_choice
+    question: "What is the most important element of persuasive speaking?"
+    options:
+      - "Using big words"
+      - "Speaking very fast"
+      - "Understanding your audience and their needs"
+      - "Having many slides"
+    answer: "Understanding your audience and their needs"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What is the 'problem-solution' persuasive structure?"
+    options:
+      - "State the problem, then immediately give up"
+      - "Identify a problem, then present your solution as the answer"
+      - "Talk about solutions without mentioning problems"
+      - "Only talk about problems"
+    answer: "Identify a problem, then present your solution as the answer"
+    xp_reward: 15
+
+  - id: 108
+    type: multiple_choice
+    question: "What does 'WIIFM' stand for in persuasive speaking?"
+    options:
+      - "Where Is My Food"
+      - "What's In It For Me"
+      - "Why I'm Important For Meetings"
+      - "When I'm In Final Mode"
+    answer: "What's In It For Me"
+    xp_reward: 15
+
+  - id: 109
+    type: multiple_choice
+    question: "What is a 'call to action' in a persuasive presentation?"
+    options:
+      - "Asking someone to call you"
+      - "A clear statement of what you want the audience to do next"
+      - "A phone number on the last slide"
+      - "A request for applause"
+    answer: "A clear statement of what you want the audience to do next"
+    xp_reward: 15
+
+  - id: 110
+    type: multiple_choice
+    question: "What is the 'rule of three' in persuasive speaking?"
+    options:
+      - "Speak for only three minutes"
+      - "Use three slides maximum"
+      - "Present three compelling reasons or points"
+      - "Ask three questions"
+    answer: "Present three compelling reasons or points"
+    xp_reward: 15
+
+  - id: 111
+    type: multiple_choice
+    question: "What is 'social proof' in persuasion?"
+    options:
+      - "Proof from social media"
+      - "Evidence that others have adopted your idea"
+      - "A fake testimonial"
+      - "Proof that is social"
+    answer: "Evidence that others have adopted your idea"
+    xp_reward: 15
+
+  - id: 112
+    type: multiple_choice
+    question: "What should you do to address potential objections in a persuasive presentation?"
+    options:
+      - "Ignore objections completely"
+      - "Anticipate and address common objections before the audience raises them"
+      - "Get angry when someone objects"
+      - "Tell objectors they're wrong"
+    answer: "Anticipate and address common objections before the audience raises them"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (113-117)
+  - id: 113
+    type: fill_blank
+    question: "Complete the persuasive opening"
+    text_with_blank: "Today, I'm going to ___ you why we need to invest in this initiative."
+    options: ["convince", "persuade", "show", "demonstrate"]
+    correct_answer: "convince"
+    xp_reward: 15
+
+  - id: 114
+    type: fill_blank
+    question: "Complete the problem statement"
+    text_with_blank: "The ___ we're facing is that our current process is costing us time and money."
+    options: ["challenge", "problem", "issue", "obstacle"]
+    correct_answer: "problem"
+    xp_reward: 15
+
+  - id: 115
+    type: fill_blank
+    question: "Complete the benefit statement"
+    text_with_blank: "By adopting this solution, you will ___ a 20% increase in efficiency."
+    options: ["see", "experience", "achieve", "realize"]
+    correct_answer: "see"
+    xp_reward: 15
+
+  - id: 116
+    type: fill_blank
+    question: "Complete the credibility statement"
+    text_with_blank: "We've already ___ this approach with three other clients, all with positive results."
+    options: ["tested", "tried", "implemented", "used"]
+    correct_answer: "tested"
+    xp_reward: 15
+
+  - id: 117
+    type: fill_blank
+    question: "Complete the call to action"
+    text_with_blank: "I ___ you to approve this budget so we can begin implementation next month."
+    options: ["urge", "ask", "encourage", "request"]
+    correct_answer: "urge"
+    xp_reward: 15
+
+  # TRUE / FALSE (118-120)
+  - id: 118
+    type: true_false
+    question: "Is this statement true or false? The most persuasive presentations focus on features, not benefits."
+    statement: "The most persuasive presentations focus on features, not benefits."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 119
+    type: true_false
+    question: "Is this statement true or false? Stories and examples make persuasive arguments more memorable."
+    statement: "Stories and examples make persuasive arguments more memorable."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 120
+    type: true_false
+    question: "Is this statement true or false? Using data and evidence makes your argument more convincing."
+    statement: "Using data and evidence makes your argument more convincing."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (121-123)
+  - id: 121
+    type: matching
+    question: "Match the persuasive technique with its description"
+    pairs:
+      - left: "Reciprocity"
+        right: "People want to give back when they receive something"
+      - left: "Scarcity"
+        right: "Limited availability increases desire"
+      - left: "Authority"
+        right: "Expert opinions are more convincing"
+      - left: "Consistency"
+        right: "People want to act in line with their commitments"
+      - left: "Liking"
+        right: "People say yes to those they like"
+    xp_reward: 25
+
+  - id: 122
+    type: matching
+    question: "Match the persuasive structure with its sequence"
+    pairs:
+      - left: "Problem-Solution"
+        right: "Identify problem → Present solution → Show benefits"
+      - left: "AIDA"
+        right: "Attention → Interest → Desire → Action"
+      - left: "PREP"
+        right: "Point → Reason → Example → Point"
+      - left: "Monroe's Motivated Sequence"
+        right: "Attention → Need → Satisfaction → Visualization → Action"
+      - left: "Compare-Contrast"
+        right: "Current state → Alternative → Recommended state"
+    xp_reward: 25
+
+  - id: 123
+    type: matching
+    question: "Match the persuasive appeal with its focus"
+    pairs:
+      - left: "Logos (Logic)"
+        right: "Data, facts, evidence, reasoning"
+      - left: "Pathos (Emotion)"
+        right: "Stories, values, fears, aspirations"
+      - left: "Ethos (Credibility)"
+        right: "Expertise, trustworthiness, character"
+      - left: "Kairos (Timing)"
+        right: "Sense of urgency, right moment"
+    xp_reward: 25
+
+  # FLASHCARDS (124-125)
+  - id: 124
+    type: flashcards
+    question: "Flashcards: Persuasive Phrases"
+    flashcards:
+      - front: "Imagine if you could"
+        back: "Create vision of success"
+      - front: "The data clearly shows"
+        back: "Support with evidence"
+      - front: "What if we don't act?"
+        back: "Create urgency"
+      - front: "Here's what's at stake"
+        back: "Highlight importance"
+      - front: "The choice is clear"
+        back: "Confident conclusion"
+    xp_reward: 30
+
+  - id: 125
+    type: flashcards
+    question: "Flashcards: Handling Objections"
+    flashcards:
+      - front: "I understand your concern about cost"
+        back: "Acknowledge objection"
+      - front: "What about the timeline?"
+        back: "Anticipate questions"
+      - front: "Some might worry that"
+        back: "Raise potential objection yourself"
+      - front: "Let me address that directly"
+        back: "Confront objection head-on"
+      - front: "The ROI on this is"
+        back: "Quantify value"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 7: PRESENTATION VOCABULARY (126-130)
+  # ============================================
+
+  # MATCHING (126-127)
+  - id: 126
+    type: matching
+    question: "Match the presentation vocabulary term with its definition"
+    pairs:
+      - left: "Deck"
+        right: "The complete set of presentation slides"
+      - left: "Handout"
+        right: "Printed materials given to the audience"
+      - left: "Visual aid"
+        right: "Charts, images, or videos supporting the message"
+      - left: "Podium"
+        right: "Stand where the speaker presents"
+      - left: "Teleprompter"
+        right: "Screen displaying script for the speaker"
+      - left: "White space"
+        right: "Empty area on a slide for visual clarity"
+      - left: "Font"
+        right: "Typeface used for text on slides"
+      - left: "Bullet points"
+        right: "List items marked with symbols"
+    xp_reward: 25
+
+  - id: 127
+    type: matching
+    question: "Match the presentation verb with its meaning"
+    pairs:
+      - left: "To walk through"
+        right: "To explain step by step"
+      - left: "To touch on"
+        right: "To mention briefly"
+      - left: "To expand on"
+        right: "To provide more detail"
+      - left: "To recap"
+        right: "To summarize what was said"
+      - left: "To skip over"
+        right: "To not discuss in detail"
+      - left: "To zoom in on"
+        right: "To focus on a specific detail"
+      - left: "To circle back to"
+        right: "To return to a previous topic"
+      - left: "To wrap up"
+        right: "To conclude"
+    xp_reward: 25
+
+  # FLASHCARDS (128-130)
+  - id: 128
+    type: flashcards
+    question: "Flashcards: Essential Presentation Verbs"
+    flashcards:
+      - front: "To illustrate"
+        back: "To show with an example"
+      - front: "To demonstrate"
+        back: "To show how something works"
+      - front: "To emphasize"
+        back: "To give special importance to"
+      - front: "To highlight"
+        back: "To draw attention to"
+      - front: "To summarize"
+        back: "To state the main points briefly"
+    xp_reward: 30
+
+  - id: 129
+    type: flashcards
+    question: "Flashcards: Common Presentation Phrases"
+    flashcards:
+      - front: "Let me walk you through"
+        back: "Explain step by step"
+      - front: "I'd like to draw your attention to"
+        back: "Focus on specific item"
+      - front: "This brings me to my next point"
+        back: "Transition"
+      - front: "To put it simply"
+        back: "Explain in easier terms"
+      - front: "In other words"
+        back: "Restate differently"
+    xp_reward: 30
+
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Presentation Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "Three-part presentation structure"
+        answer: "Intro body conclusion"
+      - question: "Chart type for trends over time"
+        answer: "Line chart"
+      - question: "Chart type for comparing categories"
+        answer: "Bar chart"
+      - question: "What to say when you don't know an answer"
+        answer: "I will follow up"
+      - question: "What WIIFM stands for"
+        answer: "What's in it for me"
+      - question: "How many main points to use"
+        answer: "Three to five"
+      - question: "What should every chart have"
+        answer: "Title and labels"
+      - question: "How to end a presentation"
+        answer: "Call to action"
+    xp_reward: 50

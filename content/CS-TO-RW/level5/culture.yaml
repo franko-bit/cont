@@ -1,0 +1,1240 @@
+lesson:
+ name: "Kultura - Umuco"
+ description: "Učte se about Rwandan Kultura and traditions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Kultura Words ONLY (Safe for single words)
+ # Basic Kultura Words
+ - id: 1
+ type: translation
+ Otázka: "Jak se řekne 'Kultura' v kinyarwandštině?"
+ Odpověď: "Umuco"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Otázka: "Jak se řekne 'tradition' v kinyarwandštině?"
+ Odpověď: "Umugenzo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Otázka: "Jak se řekne 'custom' v kinyarwandštině?"
+ Odpověď: "Imigenzo"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Otázka: "Jak se řekne 'ceremony' v kinyarwandštině?"
+ Odpověď: "Umuhango"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Otázka: "Jak se řekne 'festival' v kinyarwandštině?"
+ Odpověď: "Igitaramo / Umunsi mukuru"
+ note: "Both are acceptable"
+ xp_reward: 12
+
+ - id: 6
+ type: translation
+ Otázka: "Jak se řekne 'dance' v kinyarwandštině?"
+ Odpověď: "Imbyino"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Otázka: "Jak se řekne 'music' v kinyarwandštině?"
+ Odpověď: "Umuziki"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Otázka: "Jak se řekne 'song' v kinyarwandštině?"
+ Odpověď: "Indirimbo"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Otázka: "Jak se řekne 'story' v kinyarwandštině?"
+ Odpověď: "Inkuru"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Otázka: "Jak se řekne 'proverb' v kinyarwandštině?"
+ Odpověď: "Imigani"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Otázka: "Jak se řekne 'heritage' v kinyarwandštině?"
+ Odpověď: "Umurage"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Otázka: "Jak se řekne 'art' v kinyarwandštině?"
+ Odpověď: "Ubuhanzi"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Otázka: "Jak se řekne 'painting' v kinyarwandštině?"
+ Odpověď: "Igishushanyo"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Otázka: "Jak se řekne 'sculpture' v kinyarwandštině?"
+ Odpověď: "Igishushanyo mbonera"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Otázka: "Jak se řekne 'clothing' v kinyarwandštině?"
+ Odpověď: "Imyambaro gakondo"
+ note: "Traditional clothing"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ Otázka: "Jak se řekne 'community' v kinyarwandštině?"
+ Odpověď: "Umuryango / Abaturage"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ Otázka: "Jak se řekne 'Rodina' v kinyarwandštině?"
+ Odpověď: "Umuryango"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Otázka: "Jak se řekne 'greeting' v kinyarwandštině?"
+ Odpověď: "Guhura / Muraho"
+ xp_reward: 12
+
+ - id: 19
+ type: translation
+ Otázka: "Jak se řekne 'ritual' v kinyarwandštině?"
+ Odpověď: "Umuhango gakondo"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Otázka: "Jak se řekne 'language' v kinyarwandštině?"
+ Odpověď: "Ururimi"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ Otázka: "Jak se řekne 'religion' v kinyarwandštině?"
+ Odpověď: "Idini"
+ xp_reward: 10
+
+ - id: 22
+ type: translation
+ Otázka: "Jak se řekne 'belief' v kinyarwandštině?"
+ Odpověď: "Icyizere / Icyemera"
+ xp_reward: 12
+
+ # Kultura Phrases
+ - id: 23
+ type: translation
+ Otázka: "Jak se řekne 'Traditional dance is very beautiful' v kinyarwandštině?"
+ Odpověď: "Imbyino gakondo irakomeye cyane."
+ xp_reward: 18
+
+ - id: 24
+ type: translation
+ Otázka: "Jak se řekne 'We celebrate the festival every year' v kinyarwandštině?"
+ Odpověď: "Twizihiza umunsi mukuru buri mwaka."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Otázka: "Jak se řekne 'People tell stories around the fire' v kinyarwandštině?"
+ Odpověď: "Abantu bavuga inkuru hafi y'umuriro."
+ xp_reward: 18
+
+ - id: 26
+ type: translation
+ Otázka: "Jak se řekne 'Proverbs teach lessons' v kinyarwandštině?"
+ Odpověď: "Imigani yigisha amasomo."
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Otázka: "Jak se řekne 'Art is part of Kultura' v kinyarwandštině?"
+ Odpověď: "Ubuhanzi ni igice cyumuco."
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Otázka: "Jak se řekne 'Our heritage is important' v kinyarwandštině?"
+ Odpověď: "Umurage wacu ni ingenzi."
+ xp_reward: 15
+
+ - id: 29
+ type: translation
+ Otázka: "Jak se řekne 'Clothing shows tradition' v kinyarwandštině?"
+ Odpověď: "Imyambaro igaragaza umugenzo."
+ xp_reward: 15
+
+ - id: 30
+ type: translation
+ Otázka: "Jak se řekne 'Language connects people' v kinyarwandštině?"
+ Odpověď: "Ururimi ruhuza abantu."
+ xp_reward: 15
+
+ - id: 31
+ type: translation
+ Otázka: "Jak se řekne 'Religious rituals are respected' v kinyarwandštině?"
+ Odpověď: "Imihango y'idini irubahirizwa."
+ xp_reward: 18
+
+ - id: 32
+ type: translation
+ Otázka: "Jak se řekne 'Music and dance are part of every celebration' v kinyarwandštině?"
+ Odpověď: "Umuziki n'imbyino ni igice cy'ibirori byose."
+ xp_reward: 20
+
+ # 2. Multiple Choice
+ - id: 33
+ type: multiple_choice
+ Otázka: "Co znamená 'Umuco' v této větě?"
+ options:
+ - "Tradition"
+ - "Kultura"
+ - "Custom"
+ - "Heritage"
+ Odpověď: "Kultura"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Otázka: "Co znamená 'Imbyino' v této větě?"
+ options:
+ - "Music"
+ - "Song"
+ - "Dance"
+ - "Story"
+ Odpověď: "Dance"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Otázka: "Co znamená 'Umuziki' v této větě?"
+ options:
+ - "Dance"
+ - "Music"
+ - "Song"
+ - "Ceremony"
+ Odpověď: "Music"
+ xp_reward: 15
+
+ - id: 36
+ type: multiple_choice
+ Otázka: "Co znamená 'Inkuru' v této větě?"
+ options:
+ - "Proverb"
+ - "Song"
+ - "Story"
+ - "Tradition"
+ Odpověď: "Story"
+ xp_reward: 15
+
+ - id: 37
+ type: multiple_choice
+ Otázka: "Co znamená 'Imigani' v této větě?"
+ options:
+ - "Stories"
+ - "Proverbs"
+ - "Songs"
+ - "Dances"
+ Odpověď: "Proverbs"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ Otázka: "Co znamená 'Ubuhanzi' v této větě?"
+ options:
+ - "Kultura"
+ - "Heritage"
+ - "Art"
+ - "Music"
+ Odpověď: "Art"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ Otázka: "Co znamená 'Umurage' v této větě?"
+ options:
+ - "Kultura"
+ - "Heritage"
+ - "Tradition"
+ - "Rodina"
+ Odpověď: "Heritage"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ Otázka: "Co znamená 'Ururimi' v této větě?"
+ options:
+ - "Language"
+ - "Kultura"
+ - "Community"
+ - "Rodina"
+ Odpověď: "Language"
+ xp_reward: 15
+
+ # 3. Poslouchejte and Type (Dictation)
+ - id: 41
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the Kultura Slovo"
+ audio: "Umuco"
+ Odpověď: "Umuco"
+ translation: "Kultura"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the Kultura Slovo"
+ audio: "Umuziki"
+ Odpověď: "Umuziki"
+ translation: "Music"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the Kultura Slovo"
+ audio: "Imbyino"
+ Odpověď: "Imbyino"
+ translation: "Dance"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the Kultura Slovo"
+ audio: "Inkuru"
+ Odpověď: "Inkuru"
+ translation: "Story"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ audio: "Imbyino gakondo irakomeye cyane"
+ Odpověď: "Imbyino gakondo irakomeye cyane"
+ translation: "Traditional dance is very beautiful"
+ xp_reward: 25
+
+ - id: 46
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ audio: "Ubuhanzi ni igice cyumuco"
+ Odpověď: "Ubuhanzi ni igice cyumuco"
+ translation: "Art is part of Kultura"
+ xp_reward: 22
+
+ - id: 47
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ audio: "Umurage wacu ni ingenzi"
+ Odpověď: "Umurage wacu ni ingenzi"
+ translation: "Our heritage is important"
+ xp_reward: 22
+
+ - id: 48
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ audio: "Ururimi ruhuza abantu"
+ Odpověď: "Ururimi ruhuza abantu"
+ translation: "Language connects people"
+ xp_reward: 22
+
+ # 4. Poslouchejte and Vyberte
+ - id: 49
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně Slovo"
+ audio: "Umuco"
+ options:
+ - "Tradition"
+ - "Kultura"
+ - "Custom"
+ Odpověď: "Kultura"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně Slovo"
+ audio: "Imbyino"
+ options:
+ - "Music"
+ - "Dance"
+ - "Song"
+ Odpověď: "Dance"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně Slovo"
+ audio: "Imigani"
+ options:
+ - "Stories"
+ - "Proverbs"
+ - "Songs"
+ Odpověď: "Proverbs"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně phrase"
+ audio: "Umurage wacu ni ingenzi"
+ options:
+ - "Our heritage is important"
+ - "Kultura is important"
+ - "Tradition is important"
+ Odpověď: "Our heritage is important"
+ xp_reward: 18
+
+ - id: 53
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně phrase"
+ audio: "Ururimi ruhuza abantu"
+ options:
+ - "Language connects people"
+ - "Music connects people"
+ - "Dance connects people"
+ Odpověď: "Language connects people"
+ xp_reward: 18
+
+ # 5. Repeat / Mluvte Exercise
+ - id: 54
+ type: Mluvte
+ Otázka: "Say this Kultura Slovo"
+ prompt: "Umuco"
+ translation: "Kultura"
+ xp_reward: 15
+
+ - id: 55
+ type: Mluvte
+ Otázka: "Say this Kultura Slovo"
+ prompt: "Umuziki"
+ translation: "Music"
+ xp_reward: 15
+
+ - id: 56
+ type: Mluvte
+ Otázka: "Say this Kultura Slovo"
+ prompt: "Imbyino"
+ translation: "Dance"
+ xp_reward: 15
+
+ - id: 57
+ type: Mluvte
+ Otázka: "Say this Kultura Slovo"
+ prompt: "Inkuru"
+ translation: "Story"
+ xp_reward: 15
+
+ - id: 58
+ type: Mluvte
+ Otázka: "Řekněte tuto větu"
+ prompt: "Imbyino gakondo irakomeye cyane"
+ translation: "Traditional dance is very beautiful"
+ xp_reward: 22
+
+ - id: 59
+ type: Mluvte
+ Otázka: "Řekněte tuto větu"
+ prompt: "Ubuhanzi ni igice cyumuco"
+ translation: "Art is part of Kultura"
+ xp_reward: 18
+
+ - id: 60
+ type: Mluvte
+ Otázka: "Řekněte tuto větu"
+ prompt: "Umurage wacu ni ingenzi"
+ translation: "Our heritage is important"
+ xp_reward: 18
+
+ # 6. Slovo Bank Věta Building - PIECES PROVIDED
+ - id: 61
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'Traditional dance is very beautiful'"
+ word_bank: ["Imbyino", "gakondo", "irakomeye", "cyane", "umuziki", "n'imbyino"]
+ correct_answer: ["Imbyino", "gakondo", "irakomeye", "cyane"]
+ xp_reward: 22
+
+ - id: 62
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'We celebrate the festival every year'"
+ word_bank: ["Twizihiza", "umunsi mukuru", "buri", "mwaka", "umuhango", "gakondo"]
+ correct_answer: ["Twizihiza", "umunsi mukuru", "buri", "mwaka"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'People tell stories around the fire'"
+ word_bank: ["Abantu", "bavuga", "inkuru", "hafi", "y'umuriro", "imigani"]
+ correct_answer: ["Abantu", "bavuga", "inkuru", "hafi", "y'umuriro"]
+ xp_reward: 22
+
+ - id: 64
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'Proverbs teach lessons'"
+ word_bank: ["Imigani", "yigisha", "amasomo", "inkuru", "abantu"]
+ correct_answer: ["Imigani", "yigisha", "amasomo"]
+ xp_reward: 18
+
+ - id: 65
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'Art is part of Kultura'"
+ word_bank: ["Ubuhanzi", "ni", "igice", "cy'umuco", "umurage", "ingenzi"]
+ correct_answer: ["Ubuhanzi", "ni", "igice", "cy'umuco"]
+ xp_reward: 18
+
+ - id: 66
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'Our heritage is important'"
+ word_bank: ["Umurage", "wacu", "ni", "ingenzi", "umuco", "wacu"]
+ correct_answer: ["Umurage", "wacu", "ni", "ingenzi"]
+ xp_reward: 18
+
+ - id: 67
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'Clothing shows tradition'"
+ word_bank: ["Imyambaro", "igaragaza", "umugenzo", "imbyino", "gakondo"]
+ correct_answer: ["Imyambaro", "igaragaza", "umugenzo"]
+ xp_reward: 18
+
+ - id: 68
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'Language connects people'"
+ word_bank: ["Ururimi", "ruhuza", "abantu", "umuryango", "umuco"]
+ correct_answer: ["Ururimi", "ruhuza", "abantu"]
+ xp_reward: 18
+
+ - id: 69
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'Religious rituals are respected'"
+ word_bank: ["Imihango", "y'idini", "irubahirizwa", "imigenzo", "gakondo"]
+ correct_answer: ["Imihango", "y'idini", "irubahirizwa"]
+ xp_reward: 20
+
+ - id: 70
+ type: word_bank
+ Otázka: "Build the Kinyarwanda Věta for 'Music and dance are part of every celebration'"
+ word_bank: ["Umuziki", "n'imbyino", "ni", "igice", "cy'ibirori", "byose"]
+ correct_answer: ["Umuziki", "n'imbyino", "ni", "igice", "cy'ibirori", "byose"]
+ xp_reward: 25
+
+ # 7. Věta Scramble - PIECES PROVIDED
+ - id: 71
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Imbyino", "gakondo", "irakomeye", "cyane"]
+ correct_sentence: "Imbyino gakondo irakomeye cyane."
+ translation: "Traditional dance is very beautiful."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Twizihiza", "umunsi mukuru", "buri", "mwaka"]
+ correct_sentence: "Twizihiza umunsi mukuru buri mwaka."
+ translation: "We celebrate the festival every year."
+ xp_reward: 22
+
+ - id: 73
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Abantu", "bavuga", "inkuru", "hafi", "y'umuriro"]
+ correct_sentence: "Abantu bavuga inkuru hafi y'umuriro."
+ translation: "People tell stories around the fire."
+ xp_reward: 22
+
+ - id: 74
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Imigani", "yigisha", "amasomo"]
+ correct_sentence: "Imigani yigisha amasomo."
+ translation: "Proverbs teach lessons."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Ubuhanzi", "ni", "igice", "cy'umuco"]
+ correct_sentence: "Ubuhanzi ni igice cyumuco."
+ translation: "Art is part of Kultura."
+ xp_reward: 18
+
+ - id: 76
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Umurage", "wacu", "ni", "ingenzi"]
+ correct_sentence: "Umurage wacu ni ingenzi."
+ translation: "Our heritage is important."
+ xp_reward: 18
+
+ - id: 77
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Imyambaro", "igaragaza", "umugenzo"]
+ correct_sentence: "Imyambaro igaragaza umugenzo."
+ translation: "Clothing shows tradition."
+ xp_reward: 18
+
+ - id: 78
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Ururimi", "ruhuza", "abantu"]
+ correct_sentence: "Ururimi ruhuza abantu."
+ translation: "Language connects people."
+ xp_reward: 18
+
+ - id: 79
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Imihango", "y'idini", "irubahirizwa"]
+ correct_sentence: "Imihango y'idini irubahirizwa."
+ translation: "Religious rituals are respected."
+ xp_reward: 20
+
+ - id: 80
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Věta"
+ scrambled_words: ["Umuziki", "n'imbyino", "ni", "igice", "cy'ibirori", "byose"]
+ correct_sentence: "Umuziki n'imbyino ni igice cy'ibirori byose."
+ translation: "Music and dance are part of every celebration."
+ xp_reward: 25
+
+ # 8. Fill in the Blank - Vyberte FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Imbyino gakondo ___ cyane."
+ options: ["irakomeye", "ni", "igice"]
+ correct_answer: "irakomeye"
+ translation: "Traditional dance is very beautiful."
+ xp_reward: 18
+
+ - id: 82
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Twizihiza umunsi mukuru buri ___."
+ options: ["mwaka", "munsi", "gitondo"]
+ correct_answer: "mwaka"
+ translation: "We celebrate the festival every year."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Abantu bavuga inkuru hafi ___."
+ options: ["y'umuriro", "y'ishuri", "y'inzu"]
+ correct_answer: "y'umuriro"
+ translation: "People tell stories around the fire."
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Imigani yigisha ___."
+ options: ["amasomo", "abantu", "inkuru"]
+ correct_answer: "amasomo"
+ translation: "Proverbs teach lessons."
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Ubuhanzi ni igice ___."
+ options: ["cy'umuco", "wacu", "gakondo"]
+ correct_answer: "cy'umuco"
+ translation: "Art is part of Kultura."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Umurage wacu ni ___."
+ options: ["ingenzi", "cyane", "mwiza"]
+ correct_answer: "ingenzi"
+ translation: "Our heritage is important."
+ xp_reward: 15
+
+ - id: 87
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Imyambaro igaragaza ___."
+ options: ["umugenzo", "umuco", "imbyino"]
+ correct_answer: "umugenzo"
+ translation: "Clothing shows tradition."
+ xp_reward: 15
+
+ - id: 88
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Ururimi ruhuza ___."
+ options: ["abantu", "imbyino", "umuco"]
+ correct_answer: "abantu"
+ translation: "Language connects people."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Imihango y'idini ___."
+ options: ["irubahirizwa", "irakomeye", "ni ingenzi"]
+ correct_answer: "irubahirizwa"
+ translation: "Religious rituals are respected."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ Otázka: "Complete the Věta"
+ text_with_blank: "Umuziki n'imbyino ni igice cy'ibirori ___."
+ options: ["byose", "byiza", "byinshi"]
+ correct_answer: "byose"
+ translation: "Music and dance are part of every celebration."
+ xp_reward: 20
+
+ # 9. Picture → Slovo (Unsplash Images)
+ - id: 91
+ type: picture_word
+ Otázka: "Jak? kulturn? prvek je to?"
+ image_url: "https://source.unsplash.com/featured/?rwandan-dance"
+ options: ["Imbyino", "Umuziki", "Indirimbo"]
+ correct_answer: "Imbyino"
+ xp_reward: 10
+
+ - id: 92
+ type: picture_word
+ Otázka: "Jak? kulturn? prvek je to?"
+ image_url: "https://source.unsplash.com/featured/?african-music"
+ options: ["Umuziki", "Imbyino", "Indirimbo"]
+ correct_answer: "Umuziki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ Otázka: "Jak? kulturn? prvek je to?"
+ image_url: "https://source.unsplash.com/featured/?storytelling"
+ options: ["Inkuru", "Imigani", "Indirimbo"]
+ correct_answer: "Inkuru"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ Otázka: "Jak? kulturn? prvek je to?"
+ image_url: "https://source.unsplash.com/featured/?african-art"
+ options: ["Ubuhanzi", "Igishushanyo", "Umurage"]
+ correct_answer: "Ubuhanzi"
+ xp_reward: 10
+
+ - id: 95
+ type: picture_word
+ Otázka: "Jak? kulturn? prvek je to?"
+ image_url: "https://source.unsplash.com/featured/?traditional-clothing-africa"
+ options: ["Imyambaro gakondo", "Imbyino", "Umuhango"]
+ correct_answer: "Imyambaro gakondo"
+ xp_reward: 12
+
+ - id: 96
+ type: picture_word
+ Otázka: "Jak? kulturn? prvek je to?"
+ image_url: "https://source.unsplash.com/featured/?rwandan-community"
+ options: ["Umuryango", "Umuco", "Umurage"]
+ correct_answer: "Umuryango"
+ xp_reward: 10
+
+ - id: 97
+ type: picture_word
+ Otázka: "Jak? kulturn? prvek je to?"
+ image_url: "https://source.unsplash.com/featured/?ceremony"
+ options: ["Umuhango", "Igitaramo", "Umunsi mukuru"]
+ correct_answer: "Umuhango"
+ xp_reward: 10
+
+ - id: 98
+ type: picture_word
+ Otázka: "Jak? kulturn? prvek je to?"
+ image_url: "https://source.unsplash.com/featured/?african-language"
+ options: ["Ururimi", "Umuco", "Imigani"]
+ correct_answer: "Ururimi"
+ xp_reward: 10
+
+ # 10. Slovo Spojte (Pairing)
+ - id: 99
+ type: Spojte
+ Otázka: "Spojte the Kultura words"
+ pairs:
+ - Vlevo: "Kultura"
+ Vpravo: "Umuco"
+ - Vlevo: "Tradition"
+ Vpravo: "Umugenzo"
+ - Vlevo: "Custom"
+ Vpravo: "Imigenzo"
+ - Vlevo: "Ceremony"
+ Vpravo: "Umuhango"
+ - Vlevo: "Festival"
+ Vpravo: "Umunsi mukuru"
+ - Vlevo: "Heritage"
+ Vpravo: "Umurage"
+ - Vlevo: "Language"
+ Vpravo: "Ururimi"
+ - Vlevo: "Community"
+ Vpravo: "Umuryango"
+ xp_reward: 25
+
+ - id: 100
+ type: Spojte
+ Otázka: "Spojte the arts words"
+ pairs:
+ - Vlevo: "Dance"
+ Vpravo: "Imbyino"
+ - Vlevo: "Music"
+ Vpravo: "Umuziki"
+ - Vlevo: "Song"
+ Vpravo: "Indirimbo"
+ - Vlevo: "Story"
+ Vpravo: "Inkuru"
+ - Vlevo: "Proverb"
+ Vpravo: "Imigani"
+ - Vlevo: "Art"
+ Vpravo: "Ubuhanzi"
+ - Vlevo: "Painting"
+ Vpravo: "Igishushanyo"
+ - Vlevo: "Sculpture"
+ Vpravo: "Igishushanyo mbonera"
+ xp_reward: 25
+
+ - id: 101
+ type: Spojte
+ Otázka: "Spojte the phrases"
+ pairs:
+ - Vlevo: "Traditional dance is very beautiful"
+ Vpravo: "Imbyino gakondo irakomeye cyane"
+ - Vlevo: "We celebrate the festival every year"
+ Vpravo: "Twizihiza umunsi mukuru buri mwaka"
+ - Vlevo: "Art is part of Kultura"
+ Vpravo: "Ubuhanzi ni igice cyumuco"
+ - Vlevo: "Our heritage is important"
+ Vpravo: "Umurage wacu ni ingenzi"
+ - Vlevo: "Language connects people"
+ Vpravo: "Ururimi ruhuza abantu"
+ xp_reward: 28
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Vyberte Missing Slovo
+ - id: 102
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Imbyino gakondo ___ cyane."
+ missing_word_position: 3
+ options: ["irakomeye", "ni", "igice"]
+ correct_answer: "irakomeye"
+ translation: "Traditional dance is very beautiful."
+ xp_reward: 18
+
+ - id: 103
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Twizihiza umunsi mukuru buri ___."
+ missing_word_position: 5
+ options: ["mwaka", "munsi", "gitondo"]
+ correct_answer: "mwaka"
+ translation: "We celebrate the festival every year."
+ xp_reward: 18
+
+ - id: 104
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Abantu bavuga inkuru hafi ___."
+ missing_word_position: 5
+ options: ["y'umuriro", "y'ishuri", "y'inzu"]
+ correct_answer: "y'umuriro"
+ translation: "People tell stories around the fire."
+ xp_reward: 18
+
+ - id: 105
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Imigani yigisha ___."
+ missing_word_position: 3
+ options: ["amasomo", "abantu", "inkuru"]
+ correct_answer: "amasomo"
+ translation: "Proverbs teach lessons."
+ xp_reward: 15
+
+ - id: 106
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Umurage wacu ni ___."
+ missing_word_position: 4
+ options: ["ingenzi", "cyane", "mwiza"]
+ correct_answer: "ingenzi"
+ translation: "Our heritage is important."
+ xp_reward: 15
+
+ # 13. Čtěte and Odpověď - Otázka based on text
+ - id: 107
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Imbyino gakondo irakomeye cyane. Umuziki n'imbyino ni igice cy'ibirori byose."
+ Otázka: "Co je very beautiful?"
+ options: ["Music", "Traditional dance", "Stories", "Proverbs"]
+ correct_answer: "Traditional dance"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Abantu bavuga inkuru hafi y'umuriro. Imigani yigisha amasomo."
+ Otázka: "Where do people tell stories?"
+ options: ["Around the fire", "At Škola", "At home", "In the village"]
+ correct_answer: "Around the fire"
+ xp_reward: 18
+
+ - id: 109
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Ubuhanzi ni igice cyumuco. Umurage wacu ni ingenzi."
+ Otázka: "Is our heritage important?"
+ options: ["Yes", "No", "Sometimes", "Not sure"]
+ correct_answer: "Yes"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Ururimi ruhuza abantu. Imyambaro igaragaza umugenzo."
+ Otázka: "What connects people?"
+ options: ["Language", "Clothing", "Dance", "Music"]
+ correct_answer: "Language"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ Otázka: "Čtěte the text and Odpověď the Otázka"
+ text: "Twizihiza umunsi mukuru buri mwaka. Imihango y'idini irubahirizwa."
+ Otázka: "How often do we celebrate the festival?"
+ options: ["Every month", "Every year", "Every week", "Every day"]
+ correct_answer: "Every year"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 112
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Umuco means 'Kultura'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Imbyino means 'music'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Imigani means 'proverbs'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Umurage wacu ni ingenzi means 'Our heritage is important'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Ururimi ruhuza abantu means 'Music connects people'."
+ correct_answer: false
+ xp_reward: 12
+
+ - id: 117
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "Ubuhanzi means 'art'."
+ correct_answer: true
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 118
+ type: conversation
+ Otázka: "Respond to the Otázka by building a Věta"
+ bot_message: "Umuco ni iki?"
+ translation: "Co je Kultura?"
+ word_bank: ["Ubuhanzi", "n'imbyino", "n'umuziki", "ni", "igice", "cy'umuco"]
+ correct_response: ["Ubuhanzi", "n'imbyino", "n'umuziki", "ni", "igice", "cy'umuco"]
+ note: "Art, dance, and music are part of Kultura"
+ xp_reward: 25
+
+ - id: 119
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Imbyino gakondo irakomeye?"
+ translation: "Is traditional dance beautiful?"
+ options:
+ - "Yego, irakomeye cyane"
+ - "Oya, ntirakomeye"
+ - "Ntibizi"
+ correct_response: "Yego, irakomeye cyane"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ Otázka: "Respond to the Otázka by building a Věta"
+ bot_message: "Abantu bavuga iki hafi y'umuriro?"
+ translation: "What do people tell around the fire?"
+ word_bank: ["Abantu", "bavuga", "inkuru", "hafi", "y'umuriro", "imigani"]
+ correct_response: ["Abantu", "bavuga", "inkuru", "hafi", "y'umuriro"]
+ xp_reward: 22
+
+ - id: 121
+ type: conversation
+ Otázka: "Respond to the Otázka"
+ bot_message: "Umurage wacu ni ingenzi?"
+ translation: "Is our heritage important?"
+ options:
+ - "Yego, ni ingenzi"
+ - "Oya, si ingenzi"
+ - "Ntago mbizi"
+ correct_response: "Yego, ni ingenzi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build Věta from pieces
+ - id: 122
+ type: story
+ title: "Our Kultura - Umuco Wacu"
+ story_intro: "Čtěte about Rwandan Kultura. Then build the Věta."
+ story_segments:
+ - text: "Traditional dance is very beautiful."
+ - text: "We celebrate the festival every year."
+ - text: "People tell stories around the fire."
+ - text: "Proverbs teach lessons."
+ - text: "Art is part of Kultura."
+ - text: "Our heritage is important."
+ - text: "Language connects people."
+ - text: "Music and dance are part of every celebration."
+ exercises:
+ - type: word_bank
+ Otázka: "Build 'Traditional dance is very beautiful'"
+ word_bank: ["Imbyino", "gakondo", "irakomeye", "cyane"]
+ correct_answer: ["Imbyino", "gakondo", "irakomeye", "cyane"]
+ - type: word_bank
+ Otázka: "Build 'We celebrate the festival every year'"
+ word_bank: ["Twizihiza", "umunsi mukuru", "buri", "mwaka"]
+ correct_answer: ["Twizihiza", "umunsi mukuru", "buri", "mwaka"]
+ - type: word_bank
+ Otázka: "Build 'People tell stories around the fire'"
+ word_bank: ["Abantu", "bavuga", "inkuru", "hafi", "y'umuriro"]
+ correct_answer: ["Abantu", "bavuga", "inkuru", "hafi", "y'umuriro"]
+ - type: word_bank
+ Otázka: "Build 'Proverbs teach lessons'"
+ word_bank: ["Imigani", "yigisha", "amasomo"]
+ correct_answer: ["Imigani", "yigisha", "amasomo"]
+ - type: word_bank
+ Otázka: "Build 'Art is part of Kultura'"
+ word_bank: ["Ubuhanzi", "ni", "igice", "cy'umuco"]
+ correct_answer: ["Ubuhanzi", "ni", "igice", "cy'umuco"]
+ - type: word_bank
+ Otázka: "Build 'Our heritage is important'"
+ word_bank: ["Umurage", "wacu", "ni", "ingenzi"]
+ correct_answer: ["Umurage", "wacu", "ni", "ingenzi"]
+ - type: word_bank
+ Otázka: "Build 'Language connects people'"
+ word_bank: ["Ururimi", "ruhuza", "abantu"]
+ correct_answer: ["Ururimi", "ruhuza", "abantu"]
+ - type: word_bank
+ Otázka: "Build 'Music and dance are part of every celebration'"
+ word_bank: ["Umuziki", "n'imbyino", "ni", "igice", "cy'ibirori", "byose"]
+ correct_answer: ["Umuziki", "n'imbyino", "ni", "igice", "cy'ibirori", "byose"]
+ xp_reward: 55
+
+ # 17. Pronunciation Check
+ - id: 123
+ type: pronunciation
+ Otázka: "Say this Kultura Slovo"
+ prompt: "Umuco"
+ translation: "Kultura"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Otázka: "Say this Kultura Slovo"
+ prompt: "Imbyino"
+ translation: "Dance"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ Otázka: "Say this Kultura Slovo"
+ prompt: "Umuziki"
+ translation: "Music"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ Otázka: "Řekněte tuto větu"
+ prompt: "Imbyino gakondo irakomeye cyane"
+ translation: "Traditional dance is very beautiful"
+ xp_reward: 22
+
+ - id: 127
+ type: pronunciation
+ Otázka: "Řekněte tuto větu"
+ prompt: "Umurage wacu ni ingenzi"
+ translation: "Our heritage is important"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ Otázka: "Řekněte tuto větu"
+ prompt: "Ururimi ruhuza abantu"
+ translation: "Language connects people"
+ xp_reward: 18
+
+ # 18. Identify Správně Meaning
+ - id: 129
+ type: identify_meaning
+ Otázka: "Co znamená 'Umuco' mean in this Věta?"
+ context_sentence: "Ubuhanzi ni igice cyumuco."
+ Slovo: "Umuco"
+ options: ["dance", "Kultura", "music", "heritage"]
+ correct_answer: "Kultura"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ Otázka: "Co znamená 'Imbyino' mean in this Věta?"
+ context_sentence: "Imbyino gakondo irakomeye cyane."
+ Slovo: "Imbyino"
+ options: ["music", "dance", "song", "story"]
+ correct_answer: "dance"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ Otázka: "Co znamená 'Imigani' mean in this Věta?"
+ context_sentence: "Imigani yigisha amasomo."
+ Slovo: "Imigani"
+ options: ["stories", "proverbs", "songs", "dances"]
+ correct_answer: "proverbs"
+ xp_reward: 15
+
+ - id: 132
+ type: identify_meaning
+ Otázka: "Co znamená 'Umurage' mean in this Věta?"
+ context_sentence: "Umurage wacu ni ingenzi."
+ Slovo: "Umurage"
+ options: ["Kultura", "tradition", "heritage", "Rodina"]
+ correct_answer: "heritage"
+ xp_reward: 15
+
+ - id: 133
+ type: identify_meaning
+ Otázka: "Co znamená 'ingenzi' mean in this Věta?"
+ context_sentence: "Umurage wacu ni ingenzi."
+ Slovo: "ingenzi"
+ options: ["beautiful", "important", "big", "old"]
+ correct_answer: "important"
+ xp_reward: 15
+
+ # 19. Speed Spojte
+ - id: 134
+ type: speed_Spojte
+ title: "Spojte Madness: Kultura"
+ time_limit_seconds: 45
+ pairs:
+ - Vlevo: "Kultura"
+ Vpravo: "Umuco"
+ - Vlevo: "Tradition"
+ Vpravo: "Umugenzo"
+ - Vlevo: "Dance"
+ Vpravo: "Imbyino"
+ - Vlevo: "Music"
+ Vpravo: "Umuziki"
+ - Vlevo: "Story"
+ Vpravo: "Inkuru"
+ - Vlevo: "Proverb"
+ Vpravo: "Imigani"
+ - Vlevo: "Heritage"
+ Vpravo: "Umurage"
+ - Vlevo: "Art"
+ Vpravo: "Ubuhanzi"
+ - Vlevo: "Language"
+ Vpravo: "Ururimi"
+ - Vlevo: "Community"
+ Vpravo: "Umuryango"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: Kultura"
+ time_limit_seconds: 30
+ Otázka_count: 5
+ Otázka:
+ - Otázka: "Kultura"
+ Odpověď: "Umuco"
+ - Otázka: "Dance"
+ Odpověď: "Imbyino"
+ - Otázka: "Music"
+ Odpověď: "Umuziki"
+ - Otázka: "Story"
+ Odpověď: "Inkuru"
+ - Otázka: "Heritage"
+ Odpověď: "Umurage"
+ xp_reward: 35
+
+# Kartičky
+ - id: 111
+ type: Kartičky
+ Otázka: "Kartičky"
+ Kartičky:
+ - front: "Umuco"
+ back: "Kultura"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Umugenzo"
+ back: "tradition"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Imigenzo"
+ back: "custom"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhango"
+ back: "ceremony"
+ image: "https://images.pexels.com/photos/45201/kitty-Kočka-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Igitaramo / Umunsi mukuru"
+ back: "festival"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbyino"
+ back: "dance"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuziki"
+ back: "music"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Indirimbo"
+ back: "song"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkuru"
+ back: "story"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Imigani"
+ back: "proverb"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

@@ -1,0 +1,1368 @@
+lesson:
+ name: "Ristorante - Resitora"
+ description: "Impara Ristorante Vocabolario e phrases in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Ristorante Words ONLY (Safe per single words)
+ # Basic Vocabolario
+ - id: 1
+ type: translation
+ Domanda: "venire si dice 'Ristorante' in kinyarwanda?"
+ Risposta: "Resitora"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Domanda: "venire si dice 'Menu' in kinyarwanda?"
+ Risposta: "Ikarita y'ibiryo"
+ xp_reward: 15
+
+ - id: 3
+ type: translation
+ Domanda: "venire si dice 'Table' in kinyarwanda?"
+ Risposta: "Ameza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Domanda: "venire si dice 'Chair' in kinyarwanda?"
+ Risposta: "Intebe"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Domanda: "venire si dice 'Waiter' in kinyarwanda?"
+ Risposta: "Umukozi wa resitora"
+ xp_reward: 15
+
+ - id: 6
+ type: translation
+ Domanda: "venire si dice 'Waitress' in kinyarwanda?"
+ Risposta: "Umukozi w'akazi ka resitora"
+ xp_reward: 18
+
+ - id: 7
+ type: translation
+ Domanda: "venire si dice 'Customer' in kinyarwanda?"
+ Risposta: "Umukiriya"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Domanda: "venire si dice 'Order' in kinyarwanda?"
+ Risposta: "Gutumiza"
+ xp_reward: 10
+
+ # Cibo e bere
+ - id: 9
+ type: translation
+ Domanda: "venire si dice 'Cibo' in kinyarwanda?"
+ Risposta: "Ibiryo"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Domanda: "venire si dice 'bere' in kinyarwanda?"
+ Risposta: "Ikiribwa"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Domanda: "venire si dice 'Acqua' in kinyarwanda?"
+ Risposta: "Amazi"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Domanda: "venire si dice 'Juice' in kinyarwanda?"
+ Risposta: "Jus"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Domanda: "venire si dice 'Coffee' in kinyarwanda?"
+ Risposta: "Ikawa"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Domanda: "venire si dice 'Tea' in kinyarwanda?"
+ Risposta: "Icyayi"
+ xp_reward: 10
+
+ # Meals
+ - id: 15
+ type: translation
+ Domanda: "venire si dice 'Breakfast' in kinyarwanda?"
+ Risposta: "Ifunguro rya mu gitondo"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Domanda: "venire si dice 'Lunch' in kinyarwanda?"
+ Risposta: "Ifunguro rya saa sita"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Domanda: "venire si dice 'Dinner' in kinyarwanda?"
+ Risposta: "Ifunguro rya nimugoroba"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Domanda: "venire si dice 'Dessert' in kinyarwanda?"
+ Risposta: "Ibiribwa by'inyongera"
+ xp_reward: 15
+
+ # Bill e Payment
+ - id: 19
+ type: translation
+ Domanda: "venire si dice 'Bill / Check' in kinyarwanda?"
+ Risposta: "Ibarura"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ Domanda: "venire si dice 'Tip' in kinyarwanda?"
+ Risposta: "Agaciro k'umukozi"
+ xp_reward: 15
+
+ # Utensils
+ - id: 21
+ type: translation
+ Domanda: "venire si dice 'Fork' in kinyarwanda?"
+ Risposta: "Iforoke"
+ xp_reward: 10
+
+ - id: 22
+ type: translation
+ Domanda: "venire si dice 'Knife' in kinyarwanda?"
+ Risposta: "Icyuma cyo gukata"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Domanda: "venire si dice 'Spoon' in kinyarwanda?"
+ Risposta: "Ikiyiko"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ Domanda: "venire si dice 'Plate' in kinyarwanda?"
+ Risposta: "Isahani"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ Domanda: "venire si dice 'Napkin' in kinyarwanda?"
+ Risposta: "Agapapuro k'isuku"
+ xp_reward: 15
+
+ # Common Phrases
+ - id: 26
+ type: translation
+ Domanda: "venire si dice 'I would like a order Cibo' in kinyarwanda?"
+ Risposta: "Ndashaka gutumiza ibiryo."
+ xp_reward: 18
+
+ - id: 27
+ type: translation
+ Domanda: "venire si chiede 'Can I vedere il menu?' in kinyarwanda?"
+ Risposta: "Nshobora kubona ikarita y'ibiryo?"
+ xp_reward: 18
+
+ - id: 28
+ type: translation
+ Domanda: "venire si dice 'I volere Acqua' in kinyarwanda?"
+ Risposta: "Ndashaka amazi."
+ xp_reward: 12
+
+ - id: 29
+ type: translation
+ Domanda: "venire si dice 'I volere coffee' in kinyarwanda?"
+ Risposta: "Ndashaka ikawa."
+ xp_reward: 12
+
+ - id: 30
+ type: translation
+ Domanda: "venire si chiede 'Can I have il bill?' in kinyarwanda?"
+ Risposta: "Nshobora kubona ibarura?"
+ xp_reward: 15
+
+ - id: 31
+ type: translation
+ Domanda: "venire si dice 'il Cibo è delicious' in kinyarwanda?"
+ Risposta: "Ibiryo biraryoshye."
+ xp_reward: 15
+
+ - id: 32
+ type: translation
+ Domanda: "venire si chiede 'Do you have vegetarian Cibo?' in kinyarwanda?"
+ Risposta: "Mufite ibiryo by'abatarya inyama?"
+ xp_reward: 20
+
+ - id: 33
+ type: translation
+ Domanda: "venire si dice 'I am allergic a nuts' in kinyarwanda?"
+ Risposta: "Mfite allergie ku binyamisogwe."
+ xp_reward: 20
+
+ - id: 34
+ type: translation
+ Domanda: "venire si dice 'Table per two, per favore' in kinyarwanda?"
+ Risposta: "Ameza y'abantu babiri, ndabinginze."
+ xp_reward: 18
+
+ - id: 35
+ type: translation
+ Domanda: "venire si chiede 'Can I sit here?' in kinyarwanda?"
+ Risposta: "Nshobora kwicara hano?"
+ xp_reward: 15
+
+ # Frase About mangiare
+ - id: 36
+ type: translation
+ Domanda: "venire si dice 'I am mangiare rice' in kinyarwanda?"
+ Risposta: "Ndirya umuceri."
+ xp_reward: 15
+
+ - id: 37
+ type: translation
+ Domanda: "venire si dice 'She è bere juice' in kinyarwanda?"
+ Risposta: "Ari kunywa jus."
+ xp_reward: 15
+
+ - id: 38
+ type: translation
+ Domanda: "venire si dice 'We sono ordering Cibo' in kinyarwanda?"
+ Risposta: "Turimo gutumiza ibiryo."
+ xp_reward: 18
+
+ - id: 39
+ type: translation
+ Domanda: "venire si dice 'He likes coffee' in kinyarwanda?"
+ Risposta: "Akunda ikawa."
+ xp_reward: 12
+
+ - id: 40
+ type: translation
+ Domanda: "venire si dice 'They sono sharing un dessert' in kinyarwanda?"
+ Risposta: "Barimo gusangira ibiryo by'inyongera."
+ xp_reward: 20
+
+ - id: 41
+ type: translation
+ Domanda: "venire si dice 'il Ristorante è busy' in kinyarwanda?"
+ Risposta: "Resitora irakomeye."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 42
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Resitora' in questa frase?"
+ options:
+ - "Menu"
+ - "Ristorante"
+ - "Table"
+ - "Chair"
+ Risposta: "Ristorante"
+ xp_reward: 15
+
+ - id: 43
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Ikarita y'ibiryo' in questa frase?"
+ options:
+ - "Bill"
+ - "Menu"
+ - "Plate"
+ - "Fork"
+ Risposta: "Menu"
+ xp_reward: 15
+
+ - id: 44
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Ameza' in questa frase?"
+ options:
+ - "Chair"
+ - "Table"
+ - "Plate"
+ - "Spoon"
+ Risposta: "Table"
+ xp_reward: 15
+
+ - id: 45
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Ikawa' in questa frase?"
+ options:
+ - "Tea"
+ - "Coffee"
+ - "Juice"
+ - "Acqua"
+ Risposta: "Coffee"
+ xp_reward: 15
+
+ - id: 46
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Ibarura' in questa frase?"
+ options:
+ - "Menu"
+ - "Bill"
+ - "Tip"
+ - "Order"
+ Risposta: "Bill"
+ xp_reward: 15
+
+ - id: 47
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Nshobora kubona ikarita y'ibiryo?' in questa frase?"
+ options:
+ - "Can I have il bill?"
+ - "Can I vedere il menu?"
+ - "Can I sit here?"
+ - "Do you have vegetarian Cibo?"
+ Risposta: "Can I vedere il menu?"
+ xp_reward: 18
+
+ - id: 48
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Ibiryo biraryoshye' in questa frase?"
+ options:
+ - "il Cibo è cold"
+ - "il Cibo è delicious"
+ - "il Cibo è expensive"
+ - "il Cibo è spicy"
+ Risposta: "il Cibo è delicious"
+ xp_reward: 18
+
+ # 3. Ascolta e Type (Dictation)
+ - id: 49
+ type: listen_e_type
+ Domanda: "Ascolta e type il Ristorante word"
+ audio: "Resitora"
+ Risposta: "Resitora"
+ translation: "Ristorante"
+ xp_reward: 20
+
+ - id: 50
+ type: listen_e_type
+ Domanda: "Ascolta e type il Ristorante word"
+ audio: "Ameza"
+ Risposta: "Ameza"
+ translation: "Table"
+ xp_reward: 20
+
+ - id: 51
+ type: listen_e_type
+ Domanda: "Ascolta e type il Ristorante word"
+ audio: "Ikawa"
+ Risposta: "Ikawa"
+ translation: "Coffee"
+ xp_reward: 20
+
+ - id: 52
+ type: listen_e_type
+ Domanda: "Ascolta e type il Ristorante word"
+ audio: "Ibarura"
+ Risposta: "Ibarura"
+ translation: "Bill"
+ xp_reward: 20
+
+ - id: 53
+ type: listen_e_type
+ Domanda: "Ascolta e type il phrase"
+ audio: "Ndashaka amazi"
+ Risposta: "Ndashaka amazi"
+ translation: "I volere Acqua"
+ xp_reward: 22
+
+ 
+ - id: 55
+ type: listen_e_type
+ Domanda: "Ascolta e type il Frase"
+ audio: "Ibiryo biraryoshye"
+ Risposta: "Ibiryo biraryoshye"
+ translation: "il Cibo è delicious"
+ xp_reward: 22
+
+
+
+ # 4. Ascolta e Scegli
+ - id: 57
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct word"
+ audio: "Resitora"
+ options:
+ - "Menu"
+ - "Ristorante"
+ - "Table"
+ Risposta: "Ristorante"
+ xp_reward: 15
+
+ - id: 58
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct word"
+ audio: "Ikawa"
+ options:
+ - "Tea"
+ - "Coffee"
+ - "Juice"
+ Risposta: "Coffee"
+ xp_reward: 15
+
+ - id: 59
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct word"
+ audio: "Ibarura"
+ options:
+ - "Menu"
+ - "Bill"
+ - "Tip"
+ Risposta: "Bill"
+ xp_reward: 15
+
+ - id: 60
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct phrase"
+ audio: "Ndashaka amazi"
+ options:
+ - "I volere coffee"
+ - "I volere Acqua"
+ - "I volere tea"
+ Risposta: "I volere Acqua"
+ xp_reward: 18
+
+ 
+
+ # 5. Repeat / Parla Exercise
+ - id: 62
+ type: Parla
+ Domanda: "Say questo Ristorante word"
+ prompt: "Resitora"
+ translation: "Ristorante"
+ xp_reward: 15
+
+ - id: 63
+ type: Parla
+ Domanda: "Say questo Ristorante word"
+ prompt: "Ameza"
+ translation: "Table"
+ xp_reward: 15
+
+ - id: 64
+ type: Parla
+ Domanda: "Say questo Ristorante word"
+ prompt: "Ikawa"
+ translation: "Coffee"
+ xp_reward: 15
+
+ - id: 65
+ type: Parla
+ Domanda: "Say questo Ristorante word"
+ prompt: "Ibarura"
+ translation: "Bill"
+ xp_reward: 15
+
+ - id: 66
+ type: Parla
+ Domanda: "Say questo phrase"
+ prompt: "Ndashaka amazi"
+ translation: "I volere Acqua"
+ xp_reward: 18
+
+ - id: 67
+ type: Parla
+ Domanda: "Say questo phrase"
+ prompt: "Ibiryo biraryoshye"
+ translation: "il Cibo è delicious"
+ xp_reward: 18
+
+ 
+
+ - id: 69
+ type: Parla
+ Domanda: "Say questo request"
+ prompt: "Ameza yabantu babiri ndabinginze"
+ translation: "Table per two, per favore"
+ xp_reward: 20
+
+ # 6. Word Bank Frase Building - PIECES PROVIDED
+ - id: 70
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'I volere Acqua'"
+ word_bank: ["Ndashaka", "amazi", "ikawa", "icyayi", "jus"]
+ correct_answer: ["Ndashaka", "amazi"]
+ xp_reward: 15
+
+ - id: 71
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'I volere coffee'"
+ word_bank: ["Ndashaka", "ikawa", "amazi", "icyayi", "jus"]
+ correct_answer: ["Ndashaka", "ikawa"]
+ xp_reward: 15
+
+ - id: 72
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Domanda 'Can I vedere il menu?'"
+ word_bank: ["Nshobora", "kubona", "ikarita", "y'ibiryo", "ibarura"]
+ correct_answer: ["Nshobora", "kubona", "ikarita", "y'ibiryo"]
+ xp_reward: 20
+
+ - id: 73
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Domanda 'Can I have il bill?'"
+ word_bank: ["Nshobora", "kubona", "ibarura", "ikarita", "y'ibiryo"]
+ correct_answer: ["Nshobora", "kubona", "ibarura"]
+ xp_reward: 18
+
+ - id: 74
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'il Cibo è delicious'"
+ word_bank: ["Ibiryo", "biraryoshye", "birakomeye", "biraryoshe"]
+ correct_answer: ["Ibiryo", "biraryoshye"]
+ xp_reward: 15
+
+ - id: 75
+ type: word_bank
+ Domanda: "Build il Kinyarwanda request 'Table per two, per favore'"
+ word_bank: ["Ameza", "y'abantu", "babiri", "ndabinginze", "y'abantu", "batanu"]
+ correct_answer: ["Ameza", "y'abantu", "babiri", "ndabinginze"]
+ xp_reward: 20
+
+ - id: 76
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Domanda 'Can I sit here?'"
+ word_bank: ["Nshobora", "kwicara", "hano", "kubona", "ikarita"]
+ correct_answer: ["Nshobora", "kwicara", "hano"]
+ xp_reward: 15
+
+ - id: 77
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'I am mangiare rice'"
+ word_bank: ["Ndirya", "umuceri", "ndarya", "ibiryo", "nnywa"]
+ correct_answer: ["Ndirya", "umuceri"]
+ xp_reward: 15
+
+ - id: 78
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'She è bere juice'"
+ word_bank: ["Ari", "kunywa", "jus", "ikawa", "icyayi"]
+ correct_answer: ["Ari", "kunywa", "jus"]
+ xp_reward: 18
+
+ - id: 79
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'We sono ordering Cibo'"
+ word_bank: ["Turimo", "gutumiza", "ibiryo", "iby'inyongera", "iby'abatarya"]
+ correct_answer: ["Turimo", "gutumiza", "ibiryo"]
+ xp_reward: 18
+
+ - id: 80
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'He likes coffee'"
+ word_bank: ["Akunda", "ikawa", "icyayi", "jus", "amazi"]
+ correct_answer: ["Akunda", "ikawa"]
+ xp_reward: 12
+
+ - id: 81
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'il Ristorante è busy'"
+ word_bank: ["Resitora", "irakomeye", "ni nini", "ni nziza"]
+ correct_answer: ["Resitora", "irakomeye"]
+ xp_reward: 15
+
+ # 7. Frase Scramble - PIECES PROVIDED
+ - id: 82
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Ndashaka", "amazi"]
+ correct_sentence: "Ndashaka amazi."
+ translation: "I volere Acqua."
+ xp_reward: 12
+
+ - id: 83
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Ndashaka", "ikawa"]
+ correct_sentence: "Ndashaka ikawa."
+ translation: "I volere coffee."
+ xp_reward: 12
+
+ - id: 84
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Domanda"
+ scrambled_words: ["kubona", "Nshobora", "ikarita", "y'ibiryo"]
+ correct_sentence: "Nshobora kubona ikarita y'ibiryo?"
+ translation: "Can I vedere il menu?"
+ xp_reward: 20
+
+ - id: 85
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Domanda"
+ scrambled_words: ["kubona", "Nshobora", "ibarura"]
+ correct_sentence: "Nshobora kubona ibarura?"
+ translation: "Can I have il bill?"
+ xp_reward: 18
+
+ - id: 86
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Ibiryo", "biraryoshye"]
+ correct_sentence: "Ibiryo biraryoshye."
+ translation: "il Cibo è delicious."
+ xp_reward: 15
+
+ - id: 87
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct request"
+ scrambled_words: ["y'abantu", "Ameza", "babiri", "ndabinginze"]
+ correct_sentence: "Ameza y'abantu babiri, ndabinginze."
+ translation: "Table per two, per favore."
+ xp_reward: 20
+
+ - id: 88
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Domanda"
+ scrambled_words: ["kwicara", "Nshobora", "hano"]
+ correct_sentence: "Nshobora kwicara hano?"
+ translation: "Can I sit here?"
+ xp_reward: 15
+
+ - id: 89
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Ndirya", "umuceri"]
+ correct_sentence: "Ndirya umuceri."
+ translation: "I am mangiare rice."
+ xp_reward: 15
+
+ - id: 90
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Ari", "kunywa", "jus"]
+ correct_sentence: "Ari kunywa jus."
+ translation: "She è bere juice."
+ xp_reward: 18
+
+ - id: 91
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Turimo", "gutumiza", "ibiryo"]
+ correct_sentence: "Turimo gutumiza ibiryo."
+ translation: "We sono ordering Cibo."
+ xp_reward: 18
+
+ - id: 92
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Akunda", "ikawa"]
+ correct_sentence: "Akunda ikawa."
+ translation: "He likes coffee."
+ xp_reward: 12
+
+ - id: 93
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Frase"
+ scrambled_words: ["Resitora", "irakomeye"]
+ correct_sentence: "Resitora irakomeye."
+ translation: "il Ristorante è busy."
+ xp_reward: 15
+
+ # 8. Fill in il Blank - Scegli FROM OPTIONS
+ - id: 94
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Ndashaka ___."
+ options: ["amazi", "ibiryo", "ikawa"]
+ correct_answer: "amazi"
+ translation: "I volere Acqua."
+ xp_reward: 10
+
+ - id: 95
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Ndashaka ___."
+ options: ["ikawa", "amazi", "icyayi"]
+ correct_answer: "ikawa"
+ translation: "I volere coffee."
+ xp_reward: 10
+
+ - id: 96
+ type: fill_blank
+ Domanda: "Complete il Domanda"
+ text_con_blank: "Nshobora kubona ___ y'ibiryo?"
+ options: ["ikarita", "ibarura", "Ameza"]
+ correct_answer: "ikarita"
+ translation: "Can I vedere il menu?"
+ xp_reward: 15
+
+ - id: 97
+ type: fill_blank
+ Domanda: "Complete il Domanda"
+ text_con_blank: "Nshobora kubona ___?"
+ options: ["ibarura", "ikarita", "amazi"]
+ correct_answer: "ibarura"
+ translation: "Can I have il bill?"
+ xp_reward: 15
+
+ - id: 98
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Ibiryo ___."
+ options: ["biraryoshye", "birakomeye", "biraryoshe"]
+ correct_answer: "biraryoshye"
+ translation: "il Cibo è delicious."
+ xp_reward: 12
+
+ - id: 99
+ type: fill_blank
+ Domanda: "Complete il request"
+ text_con_blank: "Ameza y'abantu ___ ndabinginze."
+ options: ["babiri", "batanu", "batatu"]
+ correct_answer: "babiri"
+ translation: "Table per two, per favore."
+ xp_reward: 15
+
+ - id: 100
+ type: fill_blank
+ Domanda: "Complete il Domanda"
+ text_con_blank: "Nshobora kwicara ___?"
+ options: ["hano", "hariya", "hose"]
+ correct_answer: "hano"
+ translation: "Can I sit here?"
+ xp_reward: 12
+
+ - id: 101
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Ndirya ___."
+ options: ["umuceri", "ibiryo", "inyama"]
+ correct_answer: "umuceri"
+ translation: "I am mangiare rice."
+ xp_reward: 12
+
+ - id: 102
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Ari kunywa ___."
+ options: ["jus", "ikawa", "amazi"]
+ correct_answer: "jus"
+ translation: "She è bere juice."
+ xp_reward: 15
+
+ - id: 103
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Turimo gutumiza ___."
+ options: ["ibiryo", "ifunguro", "iby'inyongera"]
+ correct_answer: "ibiryo"
+ translation: "We sono ordering Cibo."
+ xp_reward: 15
+
+ - id: 104
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Akunda ___."
+ options: ["ikawa", "icyayi", "jus"]
+ correct_answer: "ikawa"
+ translation: "He likes coffee."
+ xp_reward: 10
+
+ - id: 105
+ type: fill_blank
+ Domanda: "Complete il Frase"
+ text_con_blank: "Resitora ___."
+ options: ["irakomeye", "ni nini", "ni nziza"]
+ correct_answer: "irakomeye"
+ translation: "il Ristorante è busy."
+ xp_reward: 12
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 106
+ type: picture_word
+ Domanda: "Cos'è questo place?"
+ image_url: "https://source.unsplash.com/featured/?restaurant"
+ options: ["Resitora", "Ameza", "Ikarita"]
+ correct_answer: "Resitora"
+ xp_reward: 10
+
+ - id: 107
+ type: picture_word
+ Domanda: "Cos'è questo furniture?"
+ image_url: "https://source.unsplash.com/featured/?table"
+ options: ["Ameza", "Intebe", "Ikarita"]
+ correct_answer: "Ameza"
+ xp_reward: 10
+
+ - id: 108
+ type: picture_word
+ Domanda: "Cos'è questo furniture?"
+ image_url: "https://source.unsplash.com/featured/?chair"
+ options: ["Intebe", "Ameza", "Iforoke"]
+ correct_answer: "Intebe"
+ xp_reward: 10
+
+ - id: 109
+ type: picture_word
+ Domanda: "What bere è questo?"
+ image_url: "https://source.unsplash.com/featured/?coffee"
+ options: ["Ikawa", "Icyayi", "Jus"]
+ correct_answer: "Ikawa"
+ xp_reward: 10
+
+ - id: 110
+ type: picture_word
+ Domanda: "What bere è questo?"
+ image_url: "https://source.unsplash.com/featured/?tea"
+ options: ["Icyayi", "Ikawa", "Amazi"]
+ correct_answer: "Icyayi"
+ xp_reward: 10
+
+ - id: 111
+ type: picture_word
+ Domanda: "What bere è questo?"
+ image_url: "https://source.unsplash.com/featured/?juice"
+ options: ["Jus", "Amazi", "Amata"]
+ correct_answer: "Jus"
+ xp_reward: 10
+
+ - id: 112
+ type: picture_word
+ Domanda: "What utensil è questo?"
+ image_url: "https://source.unsplash.com/featured/?fork"
+ options: ["Iforoke", "Ikiyiko", "Icyuma"]
+ correct_answer: "Iforoke"
+ xp_reward: 10
+
+ - id: 113
+ type: picture_word
+ Domanda: "What utensil è questo?"
+ image_url: "https://source.unsplash.com/featured/?spoon"
+ options: ["Ikiyiko", "Iforoke", "Isahani"]
+ correct_answer: "Ikiyiko"
+ xp_reward: 10
+
+ - id: 114
+ type: picture_word
+ Domanda: "What utensil è questo?"
+ image_url: "https://source.unsplash.com/featured/?knife"
+ options: ["Icyuma cyo gukata", "Iforoke", "Ikiyiko"]
+ correct_answer: "Icyuma cyo gukata"
+ xp_reward: 12
+
+ - id: 115
+ type: picture_word
+ Domanda: "Cos'è questo?"
+ image_url: "https://source.unsplash.com/featured/?plate"
+ options: ["Isahani", "Ikiyiko", "Iforoke"]
+ correct_answer: "Isahani"
+ xp_reward: 10
+
+ - id: 116
+ type: picture_word
+ Domanda: "Cos'è questo?"
+ image_url: "https://source.unsplash.com/featured/?napkin"
+ options: ["Agapapuro k'isuku", "Ikiyiko", "Isahani"]
+ correct_answer: "Agapapuro k'isuku"
+ xp_reward: 12
+
+ # 10. Word Abbina (Pairing)
+ - id: 117
+ type: Abbina
+ Domanda: "Abbina il Ristorante Vocabolario"
+ pairs:
+ - Sinistra: "Ristorante"
+ Destra: "Resitora"
+ - Sinistra: "Menu"
+ Destra: "Ikarita y'ibiryo"
+ - Sinistra: "Table"
+ Destra: "Ameza"
+ - Sinistra: "Chair"
+ Destra: "Intebe"
+ - Sinistra: "Waiter"
+ Destra: "Umukozi wa resitora"
+ - Sinistra: "Customer"
+ Destra: "Umukiriya"
+ - Sinistra: "Order"
+ Destra: "Gutumiza"
+ xp_reward: 25
+
+ - id: 118
+ type: Abbina
+ Domanda: "Abbina il bere"
+ pairs:
+ - Sinistra: "Acqua"
+ Destra: "Amazi"
+ - Sinistra: "Juice"
+ Destra: "Jus"
+ - Sinistra: "Coffee"
+ Destra: "Ikawa"
+ - Sinistra: "Tea"
+ Destra: "Icyayi"
+ xp_reward: 15
+
+ - id: 119
+ type: Abbina
+ Domanda: "Abbina il meals"
+ pairs:
+ - Sinistra: "Breakfast"
+ Destra: "Ifunguro rya mu gitondo"
+ - Sinistra: "Lunch"
+ Destra: "Ifunguro rya saa sita"
+ - Sinistra: "Dinner"
+ Destra: "Ifunguro rya nimugoroba"
+ - Sinistra: "Dessert"
+ Destra: "Ibiribwa by'inyongera"
+ xp_reward: 20
+
+ - id: 120
+ type: Abbina
+ Domanda: "Abbina il utensils"
+ pairs:
+ - Sinistra: "Fork"
+ Destra: "Iforoke"
+ - Sinistra: "Knife"
+ Destra: "Icyuma cyo gukata"
+ - Sinistra: "Spoon"
+ Destra: "Ikiyiko"
+ - Sinistra: "Plate"
+ Destra: "Isahani"
+ - Sinistra: "Napkin"
+ Destra: "Agapapuro k'isuku"
+ xp_reward: 18
+
+ - id: 121
+ type: Abbina
+ Domanda: "Abbina il common phrases"
+ pairs:
+ - Sinistra: "I volere Acqua"
+ Destra: "Ndashaka amazi"
+ - Sinistra: "Can I vedere il menu?"
+ Destra: "Nshobora kubona ikarita y'ibiryo?"
+ - Sinistra: "Can I have il bill?"
+ Destra: "Nshobora kubona ibarura?"
+ - Sinistra: "il Cibo è delicious"
+ Destra: "Ibiryo biraryoshye"
+ - Sinistra: "Table per two"
+ Destra: "Ameza y'abantu babiri"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED un PER PREVIOUS PATTERN
+
+ # 12. Scegli Missing Word
+ - id: 122
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Ndashaka ___."
+ missing_word_position: 2
+ options: ["amazi", "ibiryo", "ikawa"]
+ correct_answer: "amazi"
+ translation: "I volere Acqua."
+ xp_reward: 10
+
+ - id: 123
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Nshobora kubona ___ y'ibiryo?"
+ missing_word_position: 3
+ options: ["ikarita", "ibarura", "Ameza"]
+ correct_answer: "ikarita"
+ translation: "Can I vedere il menu?"
+ xp_reward: 15
+
+ - id: 124
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Nshobora kubona ___?"
+ missing_word_position: 3
+ options: ["ibarura", "ikarita", "amazi"]
+ correct_answer: "ibarura"
+ translation: "Can I have il bill?"
+ xp_reward: 15
+
+ - id: 125
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Ibiryo ___."
+ missing_word_position: 2
+ options: ["biraryoshye", "birakomeye", "biraryoshe"]
+ correct_answer: "biraryoshye"
+ translation: "il Cibo è delicious."
+ xp_reward: 12
+
+ - id: 126
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Ameza y'abantu ___ ndabinginze."
+ missing_word_position: 3
+ options: ["babiri", "batanu", "batatu"]
+ correct_answer: "babiri"
+ translation: "Table per two, per favore."
+ xp_reward: 15
+
+ - id: 127
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Ndirya ___."
+ missing_word_position: 2
+ options: ["umuceri", "ibiryo", "inyama"]
+ correct_answer: "umuceri"
+ translation: "I am mangiare rice."
+ xp_reward: 12
+
+ # 13. Leggi e Risposta - Domanda based su text
+ - id: 128
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Ndashaka amazi. Nshobora kubona ikarita y'ibiryo?"
+ Domanda: "Che cosa significa il person volere a bere?"
+ options: ["Coffee", "Acqua", "Tea", "Juice"]
+ correct_answer: "Acqua"
+ xp_reward: 12
+
+ - id: 129
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Ibiryo biraryoshye. Ndirya umuceri. Ari kunywa jus."
+ Domanda: "Cos'è she bere?"
+ options: ["Acqua", "Coffee", "Juice", "Tea"]
+ correct_answer: "Juice"
+ xp_reward: 15
+
+ - id: 130
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Turimo gutumiza ibiryo. Akunda ikawa. Resitora irakomeye."
+ Domanda: "è il Ristorante busy?"
+ options: ["sì", "no", "Maybe", "I don't sapere"]
+ correct_answer: "sì"
+ xp_reward: 12
+
+ - id: 131
+ type: read_answer
+ Domanda: "Leggi il conversation e Risposta il Domanda"
+ text: "un: Nshobora kubona ikarita y'ibiryo? B: Yego, nguyu."
+ Domanda: "Che cosa significa person un volere?"
+ options: ["il bill", "il menu", "Acqua", "Coffee"]
+ correct_answer: "il menu"
+ xp_reward: 15
+
+ - id: 132
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Ameza y'abantu babiri, ndabinginze. Ndashaka ikawa."
+ Domanda: "How many people sono in il group?"
+ options: ["One", "Two", "Three", "Four"]
+ correct_answer: "Two"
+ xp_reward: 12
+
+ # 14. True / False
+ - id: 133
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Resitora means 'Ristorante'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 134
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Ikarita y'ibiryo means 'bill'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 135
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Ikawa means 'coffee'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 136
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Nshobora kubona ibarura? means 'Can I vedere il menu?'"
+ correct_answer: false
+ xp_reward: 12
+
+ - id: 137
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Ibiryo biraryoshye means 'il Cibo è delicious'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 138
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Ameza y'abantu babiri means 'table per three'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 139
+ type: conversation
+ Domanda: "Respond a il waiter's Domanda by building un Frase"
+ bot_message: "Ushaka iki?"
+ translation: "What do you volere?"
+ word_bank: ["Ndashaka", "amazi", "ikawa", "ibiryo", "icyayi"]
+ correct_response: ["Ndashaka", "amazi"]
+ xp_reward: 15
+
+ - id: 140
+ type: conversation
+ Domanda: "Respond a il Domanda"
+ bot_message: "Muraho! Mwifuza iki?"
+ translation: "Ciao! What would you like?"
+ options:
+ - "Ndashaka amazi"
+ - "Ndashaka ikawa"
+ - "Ndashaka ibiryo"
+ correct_response: "Ndashaka amazi"
+ xp_reward: 12
+
+ - id: 141
+ type: conversation
+ Domanda: "Ask per il menu by building un Domanda"
+ bot_message: "Mwakora iki?"
+ translation: "What can I do per you?"
+ word_bank: ["Nshobora", "kubona", "ikarita", "y'ibiryo", "ibarura"]
+ correct_response: ["Nshobora", "kubona", "ikarita", "y'ibiryo"]
+ xp_reward: 20
+
+ - id: 142
+ type: conversation
+ Domanda: "Respond a il Domanda about il Cibo"
+ bot_message: "Ibiryo bimeze bite?"
+ translation: "How è il Cibo?"
+ options:
+ - "Biraryoshye"
+ - "Birakomeye"
+ - "Ni byiza"
+ correct_response: "Biraryoshye"
+ xp_reward: 12
+
+ - id: 143
+ type: conversation
+ Domanda: "Ask per il bill by building un Domanda"
+ bot_message: "Ikindi?"
+ translation: "Anything else?"
+ word_bank: ["Nshobora", "kubona", "ibarura", "ikarita", "y'ibiryo"]
+ correct_response: ["Nshobora", "kubona", "ibarura"]
+ xp_reward: 18
+
+ # 16. Story Exercise - Build Frase from pieces
+ - id: 144
+ type: story
+ title: "At il Ristorante - Kuri Resitora"
+ story_intro: "Leggi about dining at un Ristorante. Then build il Frase."
+ story_segments:
+ - text: "We andare a un Ristorante."
+ - text: "I ask per il menu."
+ - text: "I volere Acqua."
+ - text: "She è bere juice."
+ - text: "He likes coffee."
+ - text: "We sono ordering Cibo."
+ - text: "il Cibo è delicious."
+ - text: "I ask per il bill."
+ exercises:
+ - type: word_bank
+ Domanda: "Build 'I volere Acqua'"
+ word_bank: ["Ndashaka", "amazi", "ikawa", "icyayi"]
+ correct_answer: ["Ndashaka", "amazi"]
+ - type: word_bank
+ Domanda: "Build 'Can I vedere il menu?'"
+ word_bank: ["Nshobora", "kubona", "ikarita", "y'ibiryo", "ibarura"]
+ correct_answer: ["Nshobora", "kubona", "ikarita", "y'ibiryo"]
+ - type: word_bank
+ Domanda: "Build 'She è bere juice'"
+ word_bank: ["Ari", "kunywa", "jus", "ikawa", "amazi"]
+ correct_answer: ["Ari", "kunywa", "jus"]
+ - type: word_bank
+ Domanda: "Build 'He likes coffee'"
+ word_bank: ["Akunda", "ikawa", "icyayi", "jus"]
+ correct_answer: ["Akunda", "ikawa"]
+ - type: word_bank
+ Domanda: "Build 'We sono ordering Cibo'"
+ word_bank: ["Turimo", "gutumiza", "ibiryo", "iby'inyongera"]
+ correct_answer: ["Turimo", "gutumiza", "ibiryo"]
+ - type: word_bank
+ Domanda: "Build 'il Cibo è delicious'"
+ word_bank: ["Ibiryo", "biraryoshye", "birakomeye", "biraryoshe"]
+ correct_answer: ["Ibiryo", "biraryoshye"]
+ - type: word_bank
+ Domanda: "Build 'Can I have il bill?'"
+ word_bank: ["Nshobora", "kubona", "ibarura", "ikarita", "y'ibiryo"]
+ correct_answer: ["Nshobora", "kubona", "ibarura"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 145
+ type: pronunciation
+ Domanda: "Say questo Ristorante word"
+ prompt: "Resitora"
+ translation: "Ristorante"
+ xp_reward: 15
+
+ - id: 146
+ type: pronunciation
+ Domanda: "Say questo Ristorante word"
+ prompt: "Ikawa"
+ translation: "Coffee"
+ xp_reward: 15
+
+ - id: 147
+ type: pronunciation
+ Domanda: "Say questo phrase"
+ prompt: "Ndashaka amazi"
+ translation: "I volere Acqua"
+ xp_reward: 18
+
+ 
+ - id: 149
+ type: pronunciation
+ Domanda: "Say questo phrase"
+ prompt: "Ibiryo biraryoshye"
+ translation: "il Cibo è delicious"
+ xp_reward: 18
+
+ - id: 150
+ type: pronunciation
+ Domanda: "Say questo request"
+ prompt: "Ameza yabantu babiri ndabinginze"
+ translation: "Table per two, per favore"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 151
+ type: identify_meaning
+ Domanda: "Che cosa significa 'Ndashaka' mean in questo Frase?"
+ context_sentence: "Ndashaka amazi."
+ word: "Ndashaka"
+ options: ["I mangiare", "I bere", "I volere", "I have"]
+ correct_answer: "I volere"
+ xp_reward: 15
+
+ - id: 152
+ type: identify_meaning
+ Domanda: "Che cosa significa 'biraryoshye' mean in questo Frase?"
+ context_sentence: "Ibiryo biraryoshye."
+ word: "biraryoshye"
+ options: ["è busy", "è delicious", "è expensive", "è cold"]
+ correct_answer: "è delicious"
+ xp_reward: 15
+
+ - id: 153
+ type: identify_meaning
+ Domanda: "Che cosa significa 'irakomeye' mean in questo Frase?"
+ context_sentence: "Resitora irakomeye."
+ word: "irakomeye"
+ options: ["è delicious", "è busy", "è grande", "è piccolo"]
+ correct_answer: "è busy"
+ xp_reward: 15
+
+ - id: 154
+ type: identify_meaning
+ Domanda: "Che cosa significa 'Nshobora kubona' in questa frase?"
+ context_sentence: "Nshobora kubona ikarita y'ibiryo?"
+ word: "Nshobora kubona"
+ options: ["I volere", "I can vedere / I can have", "I mangiare", "I bere"]
+ correct_answer: "I can vedere / I can have"
+ xp_reward: 18
+
+ - id: 155
+ type: identify_meaning
+ Domanda: "Che cosa significa 'babiri' mean in questo Frase?"
+ context_sentence: "Ameza y'abantu babiri."
+ word: "babiri"
+ options: ["one", "two", "three", "four"]
+ correct_answer: "two"
+ xp_reward: 12
+
+ # 19. Speed Abbina
+ - id: 156
+ type: speed_Abbina
+ title: "Abbina Madness: Ristorante"
+ time_limit_seconds: 45
+ pairs:
+ - Sinistra: "Ristorante"
+ Destra: "Resitora"
+ - Sinistra: "Menu"
+ Destra: "Ikarita y'ibiryo"
+ - Sinistra: "Table"
+ Destra: "Ameza"
+ - Sinistra: "Coffee"
+ Destra: "Ikawa"
+ - Sinistra: "Tea"
+ Destra: "Icyayi"
+ - Sinistra: "Acqua"
+ Destra: "Amazi"
+ - Sinistra: "Juice"
+ Destra: "Jus"
+ - Sinistra: "Bill"
+ Destra: "Ibarura"
+ - Sinistra: "Fork"
+ Destra: "Iforoke"
+ - Sinistra: "Spoon"
+ Destra: "Ikiyiko"
+ - Sinistra: "Plate"
+ Destra: "Isahani"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 157
+ type: timed_challenge
+ title: "Lightning Round: Ristorante"
+ time_limit_seconds: 30
+ Domanda_count: 5
+ Domanda:
+ - Domanda: "Ristorante"
+ Risposta: "Resitora"
+ - Domanda: "Menu"
+ Risposta: "Ikarita y'ibiryo"
+ - Domanda: "Coffee"
+ Risposta: "Ikawa"
+ - Domanda: "Acqua"
+ Risposta: "Amazi"
+ - Domanda: "Bill"
+ Risposta: "Ibarura"
+ xp_reward: 35
+
+# Schede
+ - id: 111
+ type: Schede
+ Domanda: "Schede"
+ Schede:
+ - front: "Resitora"
+ back: "Ristorante"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ikarita y'ibiryo"
+ back: "Menu"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Ameza"
+ back: "Table"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Intebe"
+ back: "Chair"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukozi wa resitora"
+ back: "Waiter"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukozi w'akazi ka resitora"
+ back: "Waitress"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukiriya"
+ back: "Customer"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Gutumiza"
+ back: "Order"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibiryo"
+ back: "Cibo"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ikiribwa"
+ back: "bere"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

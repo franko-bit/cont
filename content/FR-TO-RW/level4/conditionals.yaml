@@ -1,0 +1,1026 @@
+lesson:
+  name: "Imyitwarire y'Ahazaza"
+  description: "Apprenez à exprimer les conditions et les possibilités en kinyarwanda"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Vocabulary ONLY (Safe for single words/phrases)
+  # Basic Conditional Words
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Si' en kinyarwanda ?"
+    answer: "Niba"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Quand' en kinyarwanda ?"
+    answer: "Iyo"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Sauf si' en kinyarwanda ?"
+    answer: "Keretse"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Alors' en kinyarwanda ?"
+    answer: "Hanyuma"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Pourrait' en kinyarwanda ?"
+    answer: "Ashobora"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Fera' en kinyarwanda ?"
+    answer: "Azakora"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Serait' en kinyarwanda ?"
+    answer: "Byaba"
+    xp_reward: 15
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Pourraient' en kinyarwanda ?"
+    answer: "Bashobora"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Devrait' en kinyarwanda ?"
+    answer: "Bikwiye"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Peut' en kinyarwanda ?"
+    answer: "Ashobora"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Impossible' en kinyarwanda ?"
+    answer: "Ntibishoboka"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Possible' en kinyarwanda ?"
+    answer: "Birashoboka"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Avant de' en kinyarwanda ?"
+    answer: "Mbere y'uko"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Après avoir' en kinyarwanda ?"
+    answer: "Nyuma y'uko"
+    xp_reward: 15
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Toujours' en kinyarwanda ?"
+    answer: "Buri gihe"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Jamais' en kinyarwanda ?"
+    answer: "Nta na rimwe"
+    xp_reward: 10
+
+  # Translation - Common Conditional Phrases
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'S'il pleut, je resterai à la maison' en kinyarwanda ?"
+    answer: "Niba imvura iguye, nzaguma mu rugo."
+    xp_reward: 20
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Si je vais à Kigali, je rendrai visite à mon ami' en kinyarwanda ?"
+    answer: "Niba ngiye i Kigali, nzasura inshuti yanjye."
+    xp_reward: 20
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Si tu étudies, tu réussiras' en kinyarwanda ?"
+    answer: "Niba wiga, uzatsinda."
+    xp_reward: 18
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'S'il vient, nous commencerons la réunion' en kinyarwanda ?"
+    answer: "Niba aje, tuzatangira inama."
+    xp_reward: 20
+
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'Sauf si tu te dépêches, tu rateras le bus' en kinyarwanda ?"
+    answer: "Ntiwihutira, uzacika bisi."
+    xp_reward: 20
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'Si j'avais de l'argent, j'achèterais une voiture' en kinyarwanda ?"
+    answer: "Niba nari mfite amafaranga, nari kugura imodoka."
+    xp_reward: 22
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Si elle était ici, elle pourrait aider' en kinyarwanda ?"
+    answer: "Iyo yari hano, yashoboraga gufasha."
+    xp_reward: 22
+
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'Je voyagerais si j'avais plus de temps' en kinyarwanda ?"
+    answer: "Nari gutembera iyo nari mfite igihe kinini."
+    xp_reward: 22
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'Tu devrais manger avant de partir' en kinyarwanda ?"
+    answer: "Bikwiye ko urya mbere yo kugenda."
+    xp_reward: 20
+
+  - id: 26
+    type: translation
+    question: "Comment dit-on 'Si c'est possible, je viendrai demain' en kinyarwanda ?"
+    answer: "Niba bishoboka, nzaza ejo."
+    xp_reward: 18
+
+  # 2. Choix multiples
+  - id: 27
+    type: multiple_choice
+    question: "Que signifie 'Niba' ?"
+    options:
+      - "Quand"
+      - "Si"
+      - "Alors"
+      - "Après"
+    answer: "Si"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "Que signifie 'Iyo' ?"
+    options:
+      - "Si"
+      - "Quand"
+      - "Alors"
+      - "Avant"
+    answer: "Quand"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "Que signifie 'Hanyuma' ?"
+    options:
+      - "Avant"
+      - "Après"
+      - "Alors"
+      - "Quand"
+    answer: "Alors"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "Que signifie 'Birashoboka' ?"
+    options:
+      - "Impossible"
+      - "Possible"
+      - "Toujours"
+      - "Jamais"
+    answer: "Possible"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "Que signifie 'Ntibishoboka' ?"
+    options:
+      - "Possible"
+      - "Impossible"
+      - "Toujours"
+      - "Jamais"
+    answer: "Impossible"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "Que signifie 'Buri gihe' ?"
+    options:
+      - "Jamais"
+      - "Toujours"
+      - "Parfois"
+      - "Souvent"
+    answer: "Toujours"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "Que signifie 'Nta na rimwe' ?"
+    options:
+      - "Toujours"
+      - "Parfois"
+      - "Jamais"
+      - "Souvent"
+    answer: "Jamais"
+    xp_reward: 15
+
+  # 3. ?coutez et ?crivez (dict?e)
+  - id: 34
+    type: listen_and_type
+    question: "Écoutez et tapez le mot"
+    audio: "Niba"
+    answer: "Niba"
+    translation: "Si"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Écoutez et tapez le mot"
+    audio: "Iyo"
+    answer: "Iyo"
+    translation: "Quand"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Écoutez et tapez le mot"
+    audio: "Birashoboka"
+    answer: "Birashoboka"
+    translation: "Possible"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Niba imvura iguye nzaguma mu rugo"
+    answer: "Niba imvura iguye nzaguma mu rugo"
+    translation: "S'il pleut, je resterai à la maison"
+    xp_reward: 25
+
+  - id: 38
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Niba wiga uzatsinda"
+    answer: "Niba wiga uzatsinda"
+    translation: "Si tu étudies, tu réussiras"
+    xp_reward: 22
+
+  - id: 39
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Niba bishoboka nzaza ejo"
+    answer: "Niba bishoboka nzaza ejo"
+    translation: "Si c'est possible, je viendrai demain"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 40
+    type: listen_and_choose
+    question: "Écoutez et choisissez le mot correct"
+    audio: "Niba"
+    options:
+      - "Quand"
+      - "Si"
+      - "Alors"
+    answer: "Si"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Écoutez et choisissez le mot correct"
+    audio: "Birashoboka"
+    options:
+      - "Impossible"
+      - "Possible"
+      - "Toujours"
+    answer: "Possible"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Niba wiga, uzatsinda"
+    options:
+      - "Si tu étudies, tu réussiras"
+      - "S'il pleut, je resterai à la maison"
+      - "Si c'est possible, je viendrai"
+    answer: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 43
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Niba bishoboka, nzaza ejo"
+    options:
+      - "S'il pleut, je resterai à la maison"
+      - "Si c'est possible, je viendrai demain"
+      - "Si tu étudies, tu réussiras"
+    answer: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 5. R?p?ter / Exercice oral
+  - id: 44
+    type: speaking
+    question: "Dites ce mot"
+    prompt: "Niba"
+    translation: "Si"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Dites ce mot"
+    prompt: "Birashoboka"
+    translation: "Possible"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Niba imvura iguye, nzaguma mu rugo"
+    translation: "S'il pleut, je resterai à la maison"
+    xp_reward: 20
+
+  - id: 47
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Niba wiga, uzatsinda"
+    translation: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Niba bishoboka, nzaza ejo"
+    translation: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 6. Construction de phrases avec banque de mots - PIECES PROVIDED
+  - id: 49
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'S'il pleut, je resterai à la maison'"
+    word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo", "nzaza"]
+    correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+    xp_reward: 22
+
+  - id: 50
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Si je vais à Kigali, je rendrai visite à mon ami'"
+    word_bank: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+    correct_answer: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+    xp_reward: 25
+
+  - id: 51
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Si tu étudies, tu réussiras'"
+    word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira", "inama"]
+    correct_answer: ["Niba", "wiga", "uzatsinda"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'S'il vient, nous commencerons la réunion'"
+    word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga", "uzatsinda"]
+    correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+    xp_reward: 22
+
+  - id: 53
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Si j'avais de l'argent, j'achèterais une voiture'"
+    word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+    correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+    xp_reward: 28
+
+  - id: 54
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Si elle était ici, elle pourrait aider'"
+    word_bank: ["Iyo", "yari", "hano", "yashoboraga", "gufasha", "aje"]
+    correct_answer: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+    xp_reward: 25
+
+  - id: 55
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Tu devrais manger avant de partir'"
+    word_bank: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda", "nyuma"]
+    correct_answer: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+    xp_reward: 22
+
+  - id: 56
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Si c'est possible, je viendrai demain'"
+    word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura", "iguye"]
+    correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+    xp_reward: 18
+
+  # 7. Mots m?lang?s - PIECES PROVIDED
+  - id: 57
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+    correct_sentence: "Niba imvura iguye, nzaguma mu rugo."
+    translation: "S'il pleut, je resterai à la maison."
+    xp_reward: 22
+
+  - id: 58
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Niba", "wiga", "uzatsinda"]
+    correct_sentence: "Niba wiga, uzatsinda."
+    translation: "Si tu étudies, tu réussiras."
+    xp_reward: 18
+
+  - id: 59
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Niba", "aje", "tuzatangira", "inama"]
+    correct_sentence: "Niba aje, tuzatangira inama."
+    translation: "S'il vient, nous commencerons la réunion."
+    xp_reward: 22
+
+  - id: 60
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Ntiwihutira", "uzacika", "bisi"]
+    correct_sentence: "Ntiwihutira, uzacika bisi."
+    translation: "Sauf si tu te dépêches, tu rateras le bus."
+    xp_reward: 20
+
+  - id: 61
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+    correct_sentence: "Iyo yari hano, yashoboraga gufasha."
+    translation: "Si elle était ici, elle pourrait aider."
+    xp_reward: 25
+
+  - id: 62
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+    correct_sentence: "Bikwiye ko urya mbere yo kugenda."
+    translation: "Tu devrais manger avant de partir."
+    xp_reward: 22
+
+  - id: 63
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Niba", "bishoboka", "nzaza", "ejo"]
+    correct_sentence: "Niba bishoboka, nzaza ejo."
+    translation: "Si c'est possible, je viendrai demain."
+    xp_reward: 18
+
+  # 8. Compl?ter le texte - CHOOSE FROM OPTIONS
+  - id: 64
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "___ imvura iguye, nzaguma mu rugo."
+    options: ["Niba", "Iyo", "Hanyuma"]
+    correct_answer: "Niba"
+    translation: "S'il pleut, je resterai à la maison."
+    xp_reward: 15
+
+  - id: 65
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Niba wiga, ___."
+    options: ["uzatsinda", "nzaza", "tuzatangira"]
+    correct_answer: "uzatsinda"
+    translation: "Si tu étudies, tu réussiras."
+    xp_reward: 15
+
+  - id: 66
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Niba aje, tuzatangira ___."
+    options: ["inama", "ishuri", "umuhanda"]
+    correct_answer: "inama"
+    translation: "S'il vient, nous commencerons la réunion."
+    xp_reward: 18
+
+  - id: 67
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Ntiwihutira, ___ bisi."
+    options: ["uzacika", "uzafata", "uzabona"]
+    correct_answer: "uzacika"
+    translation: "Sauf si tu te dépêches, tu rateras le bus."
+    xp_reward: 18
+
+  - id: 68
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Iyo yari hano, yashoboraga ___."
+    options: ["gufasha", "kwiga", "kurya"]
+    correct_answer: "gufasha"
+    translation: "Si elle était ici, elle pourrait aider."
+    xp_reward: 18
+
+  - id: 69
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Bikwiye ko urya ___ yo kugenda."
+    options: ["mbere", "nyuma", "hanyuma"]
+    correct_answer: "mbere"
+    translation: "Tu devrais manger avant de partir."
+    xp_reward: 18
+
+  - id: 70
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Niba bishoboka, nzaza ___."
+    options: ["ejo", "uyu munsi", "ijoro"]
+    correct_answer: "ejo"
+    translation: "Si c'est possible, je viendrai demain."
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 71
+    type: picture_word
+    question: "Que représente cette image ?"
+    image_url: "https://source.unsplash.com/featured/?rain"
+    options: ["Imvura", "Izuba", "Umuyaga"]
+    correct_answer: "Imvura"
+    xp_reward: 10
+
+  - id: 72
+    type: picture_word
+    question: "Que représente cette image ?"
+    image_url: "https://source.unsplash.com/featured/?studying"
+    options: ["Kwiga", "Gukora", "Kurya"]
+    correct_answer: "Kwiga"
+    xp_reward: 10
+
+  - id: 73
+    type: picture_word
+    question: "Que représente cette image ?"
+    image_url: "https://source.unsplash.com/featured/?money"
+    options: ["Amafaranga", "Igitabo", "Inzu"]
+    correct_answer: "Amafaranga"
+    xp_reward: 10
+
+  - id: 74
+    type: picture_word
+    question: "Que représente cette image ?"
+    image_url: "https://source.unsplash.com/featured/?car"
+    options: ["Imodoka", "Bisi", "Igare"]
+    correct_answer: "Imodoka"
+    xp_reward: 10
+
+  - id: 75
+    type: picture_word
+    question: "Que représente cette image ?"
+    image_url: "https://source.unsplash.com/featured/?helping"
+    options: ["Gufasha", "Kurira", "Guseka"]
+    correct_answer: "Gufasha"
+    xp_reward: 10
+
+  - id: 76
+    type: picture_word
+    question: "Que représente cette image ?"
+    image_url: "https://source.unsplash.com/featured/?bus"
+    options: ["Bisi", "Imodoka", "Indege"]
+    correct_answer: "Bisi"
+    xp_reward: 10
+
+  # 10. Association de mots (Pairing)
+  - id: 77
+    type: matching
+    question: "Associez les mots de condition"
+    pairs:
+      - left: "Si"
+        right: "Niba"
+      - left: "Quand"
+        right: "Iyo"
+      - left: "Alors"
+        right: "Hanyuma"
+      - left: "Avant de"
+        right: "Mbere y'uko"
+      - left: "Après avoir"
+        right: "Nyuma y'uko"
+      - left: "Toujours"
+        right: "Buri gihe"
+      - left: "Jamais"
+        right: "Nta na rimwe"
+      - left: "Possible"
+        right: "Birashoboka"
+      - left: "Impossible"
+        right: "Ntibishoboka"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Associez les verbes modaux"
+    pairs:
+      - left: "Pourrait"
+        right: "Ashobora"
+      - left: "Fera"
+        right: "Azakora"
+      - left: "Serait"
+        right: "Byaba"
+      - left: "Pourraient"
+        right: "Bashobora"
+      - left: "Devrait"
+        right: "Bikwiye"
+      - left: "Peut"
+        right: "Ashobora"
+    xp_reward: 20
+
+  - id: 79
+    type: matching
+    question: "Associez les moitiés de phrases"
+    pairs:
+      - left: "Niba imvura iguye"
+        right: "nzaguma mu rugo"
+      - left: "Niba wiga"
+        right: "uzatsinda"
+      - left: "Niba aje"
+        right: "tuzatangira inama"
+      - left: "Niba bishoboka"
+        right: "nzaza ejo"
+      - left: "Niba ngiye i Kigali"
+        right: "nzasura inshuti yanjye"
+    xp_reward: 25
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 80
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "___ imvura iguye, nzaguma mu rugo."
+    missing_word_position: 1
+    options: ["Niba", "Iyo", "Hanyuma"]
+    correct_answer: "Niba"
+    translation: "S'il pleut, je resterai à la maison."
+    xp_reward: 15
+
+  - id: 81
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Niba wiga, ___."
+    missing_word_position: 3
+    options: ["uzatsinda", "nzaza", "tuzatangira"]
+    correct_answer: "uzatsinda"
+    translation: "Si tu étudies, tu réussiras."
+    xp_reward: 15
+
+  - id: 82
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Niba aje, tuzatangira ___."
+    missing_word_position: 4
+    options: ["inama", "ishuri", "umuhanda"]
+    correct_answer: "inama"
+    translation: "S'il vient, nous commencerons la réunion."
+    xp_reward: 18
+
+  - id: 83
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Ntiwihutira, ___ bisi."
+    missing_word_position: 2
+    options: ["uzacika", "uzafata", "uzabona"]
+    correct_answer: "uzacika"
+    translation: "Sauf si tu te dépêches, tu rateras le bus."
+    xp_reward: 18
+
+  - id: 84
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Niba bishoboka, nzaza ___."
+    missing_word_position: 3
+    options: ["ejo", "uyu munsi", "ijoro"]
+    correct_answer: "ejo"
+    translation: "Si c'est possible, je viendrai demain."
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions based on text
+  - id: 85
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Niba imvura iguye, nzaguma mu rugo."
+    question: "Que se passera-t-il s'il pleut ?"
+    options: ["Je sortirai", "Je resterai à la maison", "J'irai à l'école", "Je travaillerai"]
+    correct_answer: "Je resterai à la maison"
+    xp_reward: 15
+
+  - id: 86
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Niba wiga, uzatsinda."
+    question: "Que se passera-t-il si tu étudies ?"
+    options: ["Tu échoueras", "Tu réussiras", "Tu joueras", "Tu dormiras"]
+    correct_answer: "Tu réussiras"
+    xp_reward: 15
+
+  - id: 87
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Niba aje, tuzatangira inama."
+    question: "Quand commenceront-ils la réunion ?"
+    options: ["S'il vient", "S'il pleut", "Si elle étudie", "S'ils travaillent"]
+    correct_answer: "S'il vient"
+    xp_reward: 18
+
+  - id: 88
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Niba nari mfite amafaranga, nari kugura imodoka."
+    question: "Qu'achèterais-je si j'avais de l'argent ?"
+    options: ["Une maison", "Une voiture", "De la nourriture", "Des vêtements"]
+    correct_answer: "Une voiture"
+    xp_reward: 18
+
+  - id: 89
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Niba bishoboka, nzaza ejo."
+    question: "Quand viendrai-je si c'est possible ?"
+    options: ["Aujourd'hui", "Demain", "La semaine prochaine", "Jamais"]
+    correct_answer: "Demain"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 90
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Niba means 'when'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 91
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Birashoboka means 'possible'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 92
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Niba wiga, uzatsinda means 'If you study, you will succeed'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 93
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Ntiwihutira, uzacika bisi means 'If you hurry, you will catch the bus'."
+    correct_answer: false
+    xp_reward: 15
+
+  - id: 94
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Buri gihe means 'never'."
+    correct_answer: false
+    xp_reward: 10
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 95
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Uzakora iki niba imvura iguye?"
+    translation: "Que feras-tu s'il pleut ?"
+    word_bank: ["Nzaguma", "mu rugo", "nzajya", "ku ishuri", "nzakora"]
+    correct_response: ["Nzaguma", "mu rugo"]
+    xp_reward: 18
+
+  - id: 96
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Niba wiga, uzatsinda?"
+    translation: "Si tu étudies, réussiras-tu ?"
+    options:
+      - "Yego, nzatsinda"
+      - "Oya, sinzatsinda"
+      - "Ntibishoboka"
+    correct_response: "Yego, nzatsinda"
+    xp_reward: 15
+
+  - id: 97
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Uzakora iki niba ufite amafaranga?"
+    translation: "Que feras-tu si tu as de l'argent ?"
+    word_bank: ["Nzakora", "nzabona", "imodoka", "nzaguza", "inzu"]
+    correct_response: ["Nzakora", "nzabona", "imodoka"]
+    xp_reward: 20
+
+  - id: 98
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Niba bishoboka, uzaza ejo?"
+    translation: "Si c'est possible, viendras-tu demain ?"
+    options:
+      - "Yego, nzaza ejo"
+      - "Oya, sinzaza"
+      - "Ntibishoboka"
+    correct_response: "Yego, nzaza ejo"
+    xp_reward: 15
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 99
+    type: story
+    title: "Plans et conditions - Imigambi n'Imyitwarire"
+    story_intro: "Lisez l'histoire sur différents plans et conditions. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "If it rains, I will stay home."
+      - text: "If you study, you will succeed."
+      - text: "If he comes, we will start the meeting."
+      - text: "If I had money, I would buy a car."
+      - text: "If it is possible, I will come tomorrow."
+    exercises:
+      - type: word_bank
+        question: "Construisez 'S'il pleut, je resterai à la maison'"
+        word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+        correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+      - type: word_bank
+        question: "Construisez 'Si tu étudies, tu réussiras'"
+        word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira"]
+        correct_answer: ["Niba", "wiga", "uzatsinda"]
+      - type: word_bank
+        question: "Construisez 'S'il vient, nous commencerons la réunion'"
+        word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga"]
+        correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+      - type: word_bank
+        question: "Construisez 'Si j'avais de l'argent, j'achèterais une voiture'"
+        word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+        correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+      - type: word_bank
+        question: "Construisez 'Si c'est possible, je viendrai demain'"
+        word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura"]
+        correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+    xp_reward: 45
+
+  # 17. Pronunciation Check
+  - id: 100
+    type: pronunciation
+    question: "Dites ce mot"
+    prompt: "Niba"
+    translation: "Si"
+    xp_reward: 15
+
+  - id: 101
+    type: pronunciation
+    question: "Dites ce mot"
+    prompt: "Birashoboka"
+    translation: "Possible"
+    xp_reward: 15
+
+  - id: 102
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Niba imvura iguye, nzaguma mu rugo"
+    translation: "S'il pleut, je resterai à la maison"
+    xp_reward: 22
+
+  - id: 103
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Niba wiga, uzatsinda"
+    translation: "Si tu étudies, tu réussiras"
+    xp_reward: 18
+
+  - id: 104
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Niba bishoboka, nzaza ejo"
+    translation: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 18. Identify Correct Meaning
+  - id: 105
+    type: identify_meaning
+    question: "Que signifie 'Niba' dans cette phrase ?"
+    context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+    word: "Niba"
+    options: ["Quand", "Si", "Alors", "Après"]
+    correct_answer: "Si"
+    xp_reward: 15
+
+  - id: 106
+    type: identify_meaning
+    question: "Que signifie 'uzatsinda' dans cette phrase ?"
+    context_sentence: "Niba wiga, uzatsinda."
+    word: "uzatsinda"
+    options: ["tu échoueras", "tu réussiras", "tu étudieras", "tu travailleras"]
+    correct_answer: "tu réussiras"
+    xp_reward: 15
+
+  - id: 107
+    type: identify_meaning
+    question: "Que signifie 'tuzatangira' dans cette phrase ?"
+    context_sentence: "Niba aje, tuzatangira inama."
+    word: "tuzatangira"
+    options: ["nous finirons", "nous commencerons", "nous assisterons", "nous partirons"]
+    correct_answer: "nous commencerons"
+    xp_reward: 15
+
+  - id: 108
+    type: identify_meaning
+    question: "Que signifie 'bishoboka' dans cette phrase ?"
+    context_sentence: "Niba bishoboka, nzaza ejo."
+    word: "bishoboka"
+    options: ["c'est possible", "c'est impossible", "c'est bon", "c'est mauvais"]
+    correct_answer: "c'est possible"
+    xp_reward: 15
+
+  # 19. Speed Matching
+  - id: 109
+    type: speed_matching
+    title: "Match Madness : Conditions"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Si"
+        right: "Niba"
+      - left: "Quand"
+        right: "Iyo"
+      - left: "Alors"
+        right: "Hanyuma"
+      - left: "Possible"
+        right: "Birashoboka"
+      - left: "Impossible"
+        right: "Ntibishoboka"
+      - left: "Toujours"
+        right: "Buri gihe"
+      - left: "Jamais"
+        right: "Nta na rimwe"
+      - left: "Avant de"
+        right: "Mbere y'uko"
+      - left: "Après avoir"
+        right: "Nyuma y'uko"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 110
+    type: timed_challenge
+    title: "Tour éclair : Conditions"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Si"
+        answer: "Niba"
+      - question: "Quand"
+        answer: "Iyo"
+      - question: "Possible"
+        answer: "Birashoboka"
+      - question: "Toujours"
+        answer: "Buri gihe"
+      - question: "Jamais"
+        answer: "Nta na rimwe"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Niba"
+      back: "Si"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Iyo"
+      back: "Quand"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Keretse"
+      back: "Sauf si"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Hanyuma"
+      back: "Alors"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Ashobora"
+      back: "Pourrait"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Azakora"
+      back: "Fera"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Byaba"
+      back: "Serait"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Bashobora"
+      back: "Pourraient"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Bikwiye"
+      back: "Devrait"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Ashobora"
+      back: "Peut"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

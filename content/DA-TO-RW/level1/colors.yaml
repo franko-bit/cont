@@ -1,0 +1,907 @@
+lesson:
+ name: "Farver"
+ description: "Lær basic Farver in Kinyarwanda with Dyr and objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Farver ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Rød' på kinyarwanda?"
+ Svar: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Blå' på kinyarwanda?"
+ Svar: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Grøn' på kinyarwanda?"
+ Svar: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Gul' på kinyarwanda?"
+ Svar: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Sort' på kinyarwanda?"
+ Svar: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Hvid' på kinyarwanda?"
+ Svar: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Orange' på kinyarwanda?"
+ Svar: "Orange"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, not full Sætning)
+ - id: 8
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Rød apple' på kinyarwanda?"
+ Svar: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Blå sky' på kinyarwanda?"
+ Svar: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Grøn grass' på kinyarwanda?"
+ Svar: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Gul sun' på kinyarwanda?"
+ Svar: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Sort Kat' på kinyarwanda?"
+ Svar: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Hvid Ko' på kinyarwanda?"
+ Svar: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Orange carrot' på kinyarwanda?"
+ Svar: "Karoti ya Orange"
+ xp_reward: 15
+
+ # Translation - Farver with Dyr (Noun + Color phrases)
+ - id: 15
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Rød Fugl' på kinyarwanda?"
+ Svar: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Grøn Frø' på kinyarwanda?"
+ Svar: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Blå Fisk' på kinyarwanda?"
+ Svar: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Gul Kylling' på kinyarwanda?"
+ Svar: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Sort Kanin' på kinyarwanda?"
+ Svar: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Hvid Ged' på kinyarwanda?"
+ Svar: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Tal with Farver (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ Spørgsmål: "Hvordan siger man 'One Rød apple' på kinyarwanda?"
+ Svar: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Two Blå Fugl' på kinyarwanda?"
+ Svar: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Three Gul Kylling' på kinyarwanda?"
+ Svar: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Four Sort Kat' på kinyarwanda?"
+ Svar: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Spørgsmål: "Hvordan siger man 'Five Hvid Ko' på kinyarwanda?"
+ Svar: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color Spørgsmål (Phrases - safe as they are fixed expressions)
+ - id: 26
+ type: translation
+ Spørgsmål: "Hvordan spørger man 'What color is the apple?' på kinyarwanda?"
+ Svar: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Spørgsmål: "Hvordan spørger man 'What color is the sky?' på kinyarwanda?"
+ Svar: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Spørgsmål: "Hvordan spørger man 'Is the Kat Sort?' på kinyarwanda?"
+ Svar: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR FULL Sætning OR PARAGRAPHS
+ # Instead, we use Sætning building, Match, and Ord bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Umutuku' i denne sætning?"
+ options:
+ - "Blå"
+ - "Rød"
+ - "Grøn"
+ - "Gul"
+ Svar: "Rød"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Ubururu' i denne sætning?"
+ options:
+ - "Rød"
+ - "Blå"
+ - "Sort"
+ - "Hvid"
+ Svar: "Blå"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Icyatsi' i denne sætning?"
+ options:
+ - "Grøn"
+ - "Gul"
+ - "Orange"
+ - "Rød"
+ Svar: "Grøn"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Umuhondo' i denne sætning?"
+ options:
+ - "Blå"
+ - "Rød"
+ - "Gul"
+ - "Hvid"
+ Svar: "Gul"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Umukara' i denne sætning?"
+ options:
+ - "Hvid"
+ - "Sort"
+ - "Grøn"
+ - "Orange"
+ Svar: "Sort"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Umweru' i denne sætning?"
+ options:
+ - "Sort"
+ - "Hvid"
+ - "Rød"
+ - "Blå"
+ Svar: "Hvid"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Spørgsmål: "Hvad betyder 'Inyoni itukura' i denne sætning?"
+ options:
+ - "Blå Fugl"
+ - "Rød Fugl"
+ - "Grøn Fugl"
+ - "Gul Fugl"
+ Svar: "Rød Fugl"
+ xp_reward: 15
+
+ # 3. Lyt and Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_and_type
+ Spørgsmål: "Lyt and type the color"
+ tts_text: "Umutuku"
+ Svar: "Umutuku"
+ translation: "Rød"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Spørgsmål: "Lyt and type the color"
+ tts_text: "Ubururu"
+ Svar: "Ubururu"
+ translation: "Blå"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Pome ni umutuku"
+ Svar: "Pome ni umutuku"
+ translation: "The apple is Rød"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Ijuru ni ubururu"
+ Svar: "Ijuru ni ubururu"
+ translation: "The sky is Blå"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_and_type
+ Spørgsmål: "Lyt og skriv s?tningen"
+ tts_text: "Inyoni itukura iraguruka"
+ Svar: "Inyoni itukura iraguruka"
+ translation: "The Rød Fugl flies"
+ xp_reward: 25
+
+ # 4. Lyt and Vælg
+ - id: 41
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt color"
+ tts_text: "Umutuku"
+ options:
+ - "Rød"
+ - "Blå"
+ - "Grøn"
+ Svar: "Rød"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt color"
+ tts_text: "Umuhondo"
+ options:
+ - "Rød"
+ - "Gul"
+ - "Sort"
+ Svar: "Gul"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Spørgsmål: "Lyt and Vælg the Korrekt phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "The apple is Rød"
+ - "The sky is Blå"
+ - "The sun is Gul"
+ Svar: "The apple is Rød"
+ xp_reward: 20
+
+ # 5. Repeat / Tal Exercise
+ - id: 44
+ type: Tal
+ Spørgsmål: "Say this color"
+ prompt: "Umutuku"
+ translation: "Rød"
+ xp_reward: 15
+
+ - id: 45
+ type: Tal
+ Spørgsmål: "Say this color"
+ prompt: "Ubururu"
+ translation: "Blå"
+ xp_reward: 15
+
+ - id: 46
+ type: Tal
+ Spørgsmål: "Sig denne sætning"
+ prompt: "Pome itukura"
+ translation: "Rød apple"
+ xp_reward: 18
+
+ - id: 47
+ type: Tal
+ Spørgsmål: "Say this Sætning"
+ prompt: "Pome ni umutuku"
+ translation: "The apple is Rød"
+ xp_reward: 20
+
+ - id: 48
+ type: Tal
+ Spørgsmål: "Say this Sætning"
+ prompt: "Ijuru ni ubururu"
+ translation: "The sky is Blå"
+ xp_reward: 20
+
+ # 6. Ord Bank Sætning Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'The apple is Rød'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'The sky is Blå'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ Spørgsmål: "Byg den kinyarwanda frase for 'Rød Fugl'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Spørgsmål: "Byg den kinyarwanda frase for 'Blå Fisk'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'The Rød Fugl flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'The Grøn Frø jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. Sætning Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "The apple is Rød"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "The sky is Blå"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "The Rød Fugl flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ Spørgsmål: "Arrange these words to form a Korrekt Kinyarwanda Sætning"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "The Grøn Frø jumps"
+ xp_reward: 25
+
+ # 8. Fill in the Blank - Vælg FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Rød"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Blå"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "The grass is Grøn"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the Sætning"
+ text_with_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "The sun is Gul"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ Spørgsmål: "Vælg the Korrekt Ord to complete the phrase"
+ text_with_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Rød Fugl flies"
+ xp_reward: 18
+
+ # 9. Picture → Ord (Unsplash Images)
+ - id: 64
+ type: picture_word
+ Spørgsmål: "Hvilken farve er dette?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ Spørgsmål: "Hvilken farve er dette?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ Spørgsmål: "Hvilken farve er dette?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "Orange", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ Spørgsmål: "Hvilken farve er dette?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Spørgsmål: "Hvilken farve er dette?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "Orange"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Spørgsmål: "Hvilken farve er dette?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Spørgsmål: "Hvilken farve er dette?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Orange", "Ubururu"]
+ correct_answer: "Orange"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Spørgsmål: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "Orange"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ Spørgsmål: "What color is this Fugl?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Ord Match (Pairing)
+ - id: 73
+ type: Match
+ Spørgsmål: "Match the Farver"
+ pairs:
+ - Venstre: "Rød"
+ Højre: "Umutuku"
+ - Venstre: "Blå"
+ Højre: "Ubururu"
+ - Venstre: "Grøn"
+ Højre: "Icyatsi"
+ - Venstre: "Gul"
+ Højre: "Umuhondo"
+ - Venstre: "Sort"
+ Højre: "Umukara"
+ - Venstre: "Hvid"
+ Højre: "Umweru"
+ - Venstre: "Orange"
+ Højre: "Orange"
+ xp_reward: 25
+
+ - id: 74
+ type: Match
+ Spørgsmål: "Match the colored objects"
+ pairs:
+ - Venstre: "Rød apple"
+ Højre: "Pome itukura"
+ - Venstre: "Blå sky"
+ Højre: "Ijuru ry'ubururu"
+ - Venstre: "Grøn grass"
+ Højre: "Ibyatsi by'icyatsi"
+ - Venstre: "Gul sun"
+ Højre: "Izuba ry'umuhondo"
+ - Venstre: "Sort Kat"
+ Højre: "Injangwe y'umukara"
+ - Venstre: "Hvid Ko"
+ Højre: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: Match
+ Spørgsmål: "Match the colored Dyr"
+ pairs:
+ - Venstre: "Rød Fugl"
+ Højre: "Inyoni itukura"
+ - Venstre: "Grøn Frø"
+ Højre: "Igikeri cy'icyatsi"
+ - Venstre: "Blå Fisk"
+ Højre: "Ifi y'ubururu"
+ - Venstre: "Gul Kylling"
+ Højre: "Inkoko y'umuhondo"
+ - Venstre: "Sort Kanin"
+ Højre: "Urukwavu rw'umukara"
+ - Venstre: "Hvid Ged"
+ Højre: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. Vælg Missing Ord
+ - id: 80
+ type: choose_missing
+ Spørgsmål: "Vælg the missing Ord"
+ Sætning: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Rød"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Spørgsmål: "Vælg the missing Ord"
+ Sætning: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Blå"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Spørgsmål: "Vælg the missing Ord"
+ Sætning: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Rød Fugl flies"
+ xp_reward: 18
+
+ # 12. Læs and Svar - Spørgsmål in English, Svar based on Kinyarwanda text
+ - id: 83
+ type: read_answer
+ Spørgsmål: "Læs the text and Svar the Spørgsmål"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ Spørgsmål: "What color is the apple?"
+ options: ["Rød", "Blå", "Grøn", "Gul"]
+ correct_answer: "Rød"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ Spørgsmål: "Læs the text and Svar the Spørgsmål"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ Spørgsmål: "Hvad betyder the Rød Fugl do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ Spørgsmål: "Læs the text and Svar the Spørgsmål"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ Spørgsmål: "What color is the Ko?"
+ options: ["Sort", "Hvid", "Gul", "Rød"]
+ correct_answer: "Hvid"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "Pome ni umutuku."
+ translation: "The apple is Rød"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "Ijuru ni icyatsi."
+ translation: "The sky is Grøn"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "Inka ni umweru."
+ translation: "The Ko is Hvid"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ Spørgsmål: "Er denne s?tning sand eller falsk?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "The Rød Fugl flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ Spørgsmål: "Respond to the Spørgsmål by building a Sætning"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ Spørgsmål: "Respond to the Spørgsmål"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is the sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ Spørgsmål: "Respond to the Spørgsmål"
+ bot_message: "Injangwe ni umukara?"
+ translation: "Is the Kat Sort?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build Sætning from pieces
+ - id: 93
+ type: story
+ title: "Farver in the Field"
+ story_intro: "Læs about the colorful Dyr. Then build the Sætning."
+ story_segments:
+ - text: "There is a Rød Fugl in the sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-Fugl"
+ - text: "The Fugl flies above."
+ - text: "There is a Grøn Frø near the Vand."
+ - text: "The Frø jumps."
+ - text: "There is a Blå Fisk in the Vand."
+ - text: "The Fisk swims."
+ exercises:
+ - type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'The Rød Fugl flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'The Grøn Frø jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ Spørgsmål: "Build the Kinyarwanda Sætning for 'The Blå Fisk swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ Spørgsmål: "Say the color"
+ prompt: "Umutuku"
+ translation: "Rød"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ Spørgsmål: "Say the color"
+ prompt: "Agasumbashyamba" # Giraf - testing color knowledge in context
+ translation: "Giraf (they are Gul and Brun)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ Spørgsmål: "Say the phrase"
+ prompt: "Pome itukura"
+ translation: "Rød apple"
+ xp_reward: 18
+
+ # 17. Identify Korrekt Meaning
+ - id: 97
+ type: identify_meaning
+ Spørgsmål: "Hvad betyder 'umutuku' mean in this Sætning?"
+ context_sentence: "Pome ni umutuku."
+ Ord: "umutuku"
+ options: ["Rød", "Blå", "Grøn", "Gul"]
+ correct_answer: "Rød"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ Spørgsmål: "Hvad betyder 'itukura' mean in this Sætning?"
+ context_sentence: "Inyoni itukura iraguruka."
+ Ord: "itukura"
+ options: ["Rød", "Blå", "Grøn", "Gul"]
+ correct_answer: "Rød"
+ note: "itukura is the adjective form of umutuku when describing a noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ Spørgsmål: "Hvad betyder 'cy'icyatsi' mean in this Sætning?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ Ord: "cy'icyatsi"
+ options: ["Rød", "Blå", "Grøn", "Gul"]
+ correct_answer: "Grøn"
+ xp_reward: 18
+
+ # 18. Speed Match
+ - id: 100
+ type: speed_Match
+ title: "Match Madness: Farver"
+ time_limit_seconds: 45
+ pairs:
+ - Venstre: "Rød"
+ Højre: "Umutuku"
+ - Venstre: "Blå"
+ Højre: "Ubururu"
+ - Venstre: "Grøn"
+ Højre: "Icyatsi"
+ - Venstre: "Gul"
+ Højre: "Umuhondo"
+ - Venstre: "Sort"
+ Højre: "Umukara"
+ - Venstre: "Hvid"
+ Højre: "Umweru"
+ - Venstre: "Orange"
+ Højre: "Orange"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: Farver"
+ time_limit_seconds: 30
+ Spørgsmål_count: 5
+ Spørgsmål:
+ - Spørgsmål: "Rød"
+ Svar: "Umutuku"
+ - Spørgsmål: "Blå"
+ Svar: "Ubururu"
+ - Spørgsmål: "Grøn"
+ Svar: "Icyatsi"
+ - Spørgsmål: "Gul"
+ Svar: "Umuhondo"
+ - Spørgsmål: "Sort"
+ Svar: "Umukara"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Spørgsmål: "Flashcards"
+ Flashcards:
+ - front: "Umutuku"
+ back: "Rød"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "Blå"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "Grøn"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "Gul"
+ image: "https://images.pexels.com/photos/45201/kitty-Kat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "Sort"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "Hvid"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Orange"
+ back: "Orange"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "Rød apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "Blå sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "Grøn grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

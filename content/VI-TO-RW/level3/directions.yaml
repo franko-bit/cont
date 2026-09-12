@@ -1,0 +1,1229 @@
+lesson:
+ name: "Chỉ đường - Amabwiriza y'ahantu"
+ description: "Học direction words and phrases in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Direction Words ONLY (Safe for single words)
+ # Basic Chỉ đường
+ - id: 1
+ type: translation
+ Câu hỏi: "Nói thế nào 'Trái' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Ibumoso"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Câu hỏi: "Nói thế nào 'Phải' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Iburyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Câu hỏi: "Nói thế nào 'Thẳng' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Uburyohe / Guhita imbere"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Câu hỏi: "Nói thế nào 'Back / Behind' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Inyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Câu hỏi: "Nói thế nào 'Front' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Imbere"
+ xp_reward: 10
+
+ # Cardinal Chỉ đường
+ - id: 6
+ type: translation
+ Câu hỏi: "Nói thế nào 'North' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Amajyaruguru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Câu hỏi: "Nói thế nào 'South' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Amajyepfo"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Câu hỏi: "Nói thế nào 'East' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Uburasirazuba"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Câu hỏi: "Nói thế nào 'West' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Uburengerazuba"
+ xp_reward: 10
+
+ # Location Words
+ - id: 10
+ type: translation
+ Câu hỏi: "Nói thế nào 'Near' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Hafi"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Câu hỏi: "Nói thế nào 'Far' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Hahandi / kure"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Câu hỏi: "Nói thế nào 'Around' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Hagarika / ahantu hose"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ # Places and Features
+ - id: 13
+ type: translation
+ Câu hỏi: "Nói thế nào 'Intersection / Crossroads' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Ahantu hahurira imihanda"
+ xp_reward: 18
+
+ - id: 14
+ type: translation
+ Câu hỏi: "Nói thế nào 'Street / Road' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Umuhanda"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Câu hỏi: "Nói thế nào 'Corner' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Inguni"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Câu hỏi: "Nói thế nào 'Traffic light' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Itara ry'umuhanda"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Câu hỏi: "Nói thế nào 'Sign / Signpost' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Ikimenyetso / Ikimenyetso cy'umuhanda"
+ xp_reward: 18
+
+ # Direction Commands
+ - id: 18
+ type: translation
+ Câu hỏi: "Nói thế nào 'Turn Trái' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Hagarika ibumoso."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Câu hỏi: "Nói thế nào 'Turn Phải' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Hagarika iburyo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Câu hỏi: "Nói thế nào 'Go Thẳng' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Komeza imbere."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Câu hỏi: "Nói thế nào 'Go back' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Subira inyuma."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Câu hỏi: "Nói thế nào 'Cross the street' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Kora umuhanda."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Câu hỏi: "Nói thế nào 'Stop at the traffic light' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Hagarara ku itara ry'umuhanda."
+ xp_reward: 18
+
+ # Location Câu
+ - id: 24
+ type: translation
+ Câu hỏi: "Nói thế nào 'The bank is in front of the Trường học' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Banki iri imbere y'ishuri."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Câu hỏi: "Nói thế nào 'The Chợ is near' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Isoko riri hafi."
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ Câu hỏi: "Nói thế nào 'The hospital is far' bằng tiếng Kinyarwanda?"
+ Câu trả lời: "Ibitaro biri kure."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Câu hỏi: "Nghĩa là gì 'Ibumoso' trong câu này?"
+ options:
+ - "Phải"
+ - "Trái"
+ - "Thẳng"
+ - "Front"
+ Câu trả lời: "Trái"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Câu hỏi: "Nghĩa là gì 'Iburyo' trong câu này?"
+ options:
+ - "Trái"
+ - "Phải"
+ - "Back"
+ - "North"
+ Câu trả lời: "Phải"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Câu hỏi: "Nghĩa là gì 'Imbere' trong câu này?"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ - "Far"
+ Câu trả lời: "Front"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Câu hỏi: "Nghĩa là gì 'Inyuma' trong câu này?"
+ options:
+ - "Front"
+ - "Behind"
+ - "Trái"
+ - "Phải"
+ Câu trả lời: "Behind"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Câu hỏi: "Nghĩa là gì 'Amajyaruguru' trong câu này?"
+ options:
+ - "South"
+ - "North"
+ - "East"
+ - "West"
+ Câu trả lời: "North"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Câu hỏi: "Nghĩa là gì 'Hafi' trong câu này?"
+ options:
+ - "Far"
+ - "Near"
+ - "Around"
+ - "Thẳng"
+ Câu trả lời: "Near"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Câu hỏi: "Nghĩa là gì 'Umuhanda' trong câu này?"
+ options:
+ - "Corner"
+ - "Street"
+ - "Traffic light"
+ - "Sign"
+ Câu trả lời: "Street"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Câu hỏi: "Nghĩa là gì 'Hagarika ibumoso' trong câu này?"
+ options:
+ - "Turn Phải"
+ - "Turn Trái"
+ - "Go Thẳng"
+ - "Go back"
+ Câu trả lời: "Turn Trái"
+ xp_reward: 18
+
+ # 3. Nghe and Type (Dictation)
+ - id: 35
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the direction word"
+ audio: "Ibumoso"
+ Câu trả lời: "Ibumoso"
+ translation: "Trái"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the direction word"
+ audio: "Iburyo"
+ Câu trả lời: "Iburyo"
+ translation: "Phải"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the direction word"
+ audio: "Imbere"
+ Câu trả lời: "Imbere"
+ translation: "Front"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the direction word"
+ audio: "Inyuma"
+ Câu trả lời: "Inyuma"
+ translation: "Behind"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the direction word"
+ audio: "Hafi"
+ Câu trả lời: "Hafi"
+ translation: "Near"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the command"
+ audio: "Hagarika ibumoso"
+ Câu trả lời: "Hagarika ibumoso"
+ translation: "Turn Trái"
+ xp_reward: 22
+
+ - id: 41
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the command"
+ audio: "Komeza imbere"
+ Câu trả lời: "Komeza imbere"
+ translation: "Go Thẳng"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_and_type
+ Câu hỏi: "Nghe and type the Câu"
+ audio: "Isoko riri hafi"
+ Câu trả lời: "Isoko riri hafi"
+ translation: "The Chợ is near"
+ xp_reward: 22
+
+ 
+ # 4. Nghe and Chọn
+ - id: 44
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct direction"
+ audio: "Ibumoso"
+ options:
+ - "Trái"
+ - "Phải"
+ - "Thẳng"
+ Câu trả lời: "Trái"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct direction"
+ audio: "Iburyo"
+ options:
+ - "Trái"
+ - "Phải"
+ - "Back"
+ Câu trả lời: "Phải"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct direction"
+ audio: "Imbere"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ Câu trả lời: "Front"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct command"
+ audio: "Hagarika ibumoso"
+ options:
+ - "Turn Phải"
+ - "Turn Trái"
+ - "Go Thẳng"
+ Câu trả lời: "Turn Trái"
+ xp_reward: 18
+
+ - id: 48
+ type: listen_and_choose
+ Câu hỏi: "Nghe and Chọn the correct Câu"
+ audio: "Isoko riri hafi"
+ options:
+ - "The Chợ is far"
+ - "The Chợ is near"
+ - "The Chợ is in front"
+ Câu trả lời: "The Chợ is near"
+ xp_reward: 18
+
+ # 5. Repeat / Nói Exercise
+ - id: 49
+ type: Nói
+ Câu hỏi: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "Trái"
+ xp_reward: 15
+
+ - id: 50
+ type: Nói
+ Câu hỏi: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "Phải"
+ xp_reward: 15
+
+ - id: 51
+ type: Nói
+ Câu hỏi: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 52
+ type: Nói
+ Câu hỏi: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 53
+ type: Nói
+ Câu hỏi: "Say this direction word"
+ prompt: "Hafi"
+ translation: "Near"
+ xp_reward: 15
+
+ - id: 54
+ type: Nói
+ Câu hỏi: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Trái"
+ xp_reward: 18
+
+ - id: 55
+ type: Nói
+ Câu hỏi: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Thẳng"
+ xp_reward: 18
+
+ - id: 56
+ type: Nói
+ Câu hỏi: "Say this Câu"
+ prompt: "Isoko riri hafi"
+ translation: "The Chợ is near"
+ xp_reward: 18
+
+ - id: 57
+ type: Nói
+ Câu hỏi: "Say this Câu"
+ prompt: "Banki iri imbere y'ishuri"
+ translation: "The bank is in front of the Trường học"
+ xp_reward: 22
+
+ # 6. Word Bank Câu Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ Câu hỏi: "Build the command 'Turn Trái'"
+ word_bank: ["Hagarika", "ibumoso", "iburyo", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "ibumoso"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Câu hỏi: "Build the command 'Turn Phải'"
+ word_bank: ["Hagarika", "iburyo", "ibumoso", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "iburyo"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Câu hỏi: "Build the command 'Go Thẳng'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira"]
+ correct_answer: ["Komeza", "imbere"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ Câu hỏi: "Build the command 'Go back'"
+ word_bank: ["Subira", "inyuma", "komeza", "imbere", "hagarika"]
+ correct_answer: ["Subira", "inyuma"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Câu hỏi: "Build the Câu 'The bank is in front of the Trường học'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri", "hafi"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Câu hỏi: "Build the Câu 'The Chợ is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ Câu hỏi: "Build the Câu 'The hospital is far'"
+ word_bank: ["Ibitaro", "biri", "kure", "isoko", "riri", "hafi"]
+ correct_answer: ["Ibitaro", "biri", "kure"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ Câu hỏi: "Build the command 'Cross the street'"
+ word_bank: ["Kora", "umuhanda", "hagarara", "itara", "ry'umuhanda"]
+ correct_answer: ["Kora", "umuhanda"]
+ xp_reward: 15
+
+ - id: 66
+ type: word_bank
+ Câu hỏi: "Build the command 'Stop at the traffic light'"
+ word_bank: ["Hagarara", "ku", "itara", "ry'umuhanda", "kora", "umuhanda"]
+ correct_answer: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ xp_reward: 22
+
+ # 7. Câu Scramble - PIECES PROVIDED
+ - id: 67
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "ibumoso"]
+ correct_sentence: "Hagarika ibumoso."
+ translation: "Turn Trái."
+ xp_reward: 15
+
+ - id: 68
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "iburyo"]
+ correct_sentence: "Hagarika iburyo."
+ translation: "Turn Phải."
+ xp_reward: 15
+
+ - id: 69
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct command"
+ scrambled_words: ["Komeza", "imbere"]
+ correct_sentence: "Komeza imbere."
+ translation: "Go Thẳng."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct command"
+ scrambled_words: ["Subira", "inyuma"]
+ correct_sentence: "Subira inyuma."
+ translation: "Go back."
+ xp_reward: 15
+
+ - id: 71
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct Câu"
+ scrambled_words: ["Banki", "iri", "imbere", "y'ishuri"]
+ correct_sentence: "Banki iri imbere y'ishuri."
+ translation: "The bank is in front of the Trường học."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct Câu"
+ scrambled_words: ["Isoko", "riri", "hafi"]
+ correct_sentence: "Isoko riri hafi."
+ translation: "The Chợ is near."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct Câu"
+ scrambled_words: ["Ibitaro", "biri", "kure"]
+ correct_sentence: "Ibitaro biri kure."
+ translation: "The hospital is far."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct command"
+ scrambled_words: ["Kora", "umuhanda"]
+ correct_sentence: "Kora umuhanda."
+ translation: "Cross the street."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Câu hỏi: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ correct_sentence: "Hagarara ku itara ry'umuhanda."
+ translation: "Stop at the traffic light."
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Chọn FROM OPTIONS
+ - id: 76
+ type: fill_blank
+ Câu hỏi: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Trái."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ Câu hỏi: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["iburyo", "ibumoso", "imbere"]
+ correct_answer: "iburyo"
+ translation: "Turn Phải."
+ xp_reward: 12
+
+ - id: 78
+ type: fill_blank
+ Câu hỏi: "Complete the command"
+ text_with_blank: "Komeza ___."
+ options: ["imbere", "inyuma", "ibumoso"]
+ correct_answer: "imbere"
+ translation: "Go Thẳng."
+ xp_reward: 12
+
+ - id: 79
+ type: fill_blank
+ Câu hỏi: "Complete the command"
+ text_with_blank: "Subira ___."
+ options: ["inyuma", "imbere", "iburyo"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ Câu hỏi: "Complete the Câu"
+ text_with_blank: "Isoko riri ___."
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Chợ is near."
+ xp_reward: 12
+
+ - id: 81
+ type: fill_blank
+ Câu hỏi: "Complete the Câu"
+ text_with_blank: "Ibitaro biri ___."
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 82
+ type: fill_blank
+ Câu hỏi: "Complete the Câu"
+ text_with_blank: "Banki iri imbere ___."
+ options: ["y'ishuri", "y'isoko", "y'ibitaro"]
+ correct_answer: "y'ishuri"
+ translation: "The bank is in front of the Trường học."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ Câu hỏi: "Complete the command"
+ text_with_blank: "Kora ___."
+ options: ["umuhanda", "itara", "inguni"]
+ correct_answer: "umuhanda"
+ translation: "Cross the street."
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ Câu hỏi: "Complete the command"
+ text_with_blank: "Hagarara ku ___ ry'umuhanda."
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 85
+ type: picture_word
+ Câu hỏi: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?left-arrow"
+ options: ["Ibumoso", "Iburyo", "Imbere"]
+ correct_answer: "Ibumoso"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Câu hỏi: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?right-arrow"
+ options: ["Ibumoso", "Iburyo", "Inyuma"]
+ correct_answer: "Iburyo"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Câu hỏi: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?straight-arrow"
+ options: ["Imbere", "Inyuma", "Ibumoso"]
+ correct_answer: "Imbere"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Câu hỏi: "Đây là gì this?"
+ image_url: "https://source.unsplash.com/featured/?traffic-light"
+ options: ["Itara ry'umuhanda", "Umuhanda", "Ikimenyetso"]
+ correct_answer: "Itara ry'umuhanda"
+ xp_reward: 12
+
+ - id: 89
+ type: picture_word
+ Câu hỏi: "Đây là gì this?"
+ image_url: "https://source.unsplash.com/featured/?street-corner"
+ options: ["Inguni", "Umuhanda", "Ahantu hahurira imihanda"]
+ correct_answer: "Inguni"
+ xp_reward: 10
+
+ - id: 90
+ type: picture_word
+ Câu hỏi: "Đây là gì this?"
+ image_url: "https://source.unsplash.com/featured/?road-sign"
+ options: ["Ikimenyetso", "Itara", "Umuhanda"]
+ correct_answer: "Ikimenyetso"
+ xp_reward: 10
+
+ - id: 91
+ type: picture_word
+ Câu hỏi: "Đây là gì this?"
+ image_url: "https://source.unsplash.com/featured/?intersection"
+ options: ["Ahantu hahurira imihanda", "Inguni", "Umuhanda"]
+ correct_answer: "Ahantu hahurira imihanda"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ Câu hỏi: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?bank"
+ options: ["Banki", "Isoko", "Ibitaro"]
+ correct_answer: "Banki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ Câu hỏi: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?market"
+ options: ["Isoko", "Banki", "Ibitaro"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ Câu hỏi: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?hospital"
+ options: ["Ibitaro", "Isoko", "Banki"]
+ correct_answer: "Ibitaro"
+ xp_reward: 10
+
+ # 10. Word Ghép (Pairing)
+ - id: 95
+ type: Ghép
+ Câu hỏi: "Ghép the basic Chỉ đường"
+ pairs:
+ - Trái: "Trái"
+ Phải: "Ibumoso"
+ - Trái: "Phải"
+ Phải: "Iburyo"
+ - Trái: "Thẳng"
+ Phải: "Uburyohe / Guhita imbere"
+ - Trái: "Front"
+ Phải: "Imbere"
+ - Trái: "Behind"
+ Phải: "Inyuma"
+ xp_reward: 20
+
+ - id: 96
+ type: Ghép
+ Câu hỏi: "Ghép the cardinal Chỉ đường"
+ pairs:
+ - Trái: "North"
+ Phải: "Amajyaruguru"
+ - Trái: "South"
+ Phải: "Amajyepfo"
+ - Trái: "East"
+ Phải: "Uburasirazuba"
+ - Trái: "West"
+ Phải: "Uburengerazuba"
+ xp_reward: 18
+
+ - id: 97
+ type: Ghép
+ Câu hỏi: "Ghép the location words"
+ pairs:
+ - Trái: "Near"
+ Phải: "Hafi"
+ - Trái: "Far"
+ Phải: "Hahandi / kure"
+ - Trái: "Around"
+ Phải: "Hagarika / ahantu hose"
+ xp_reward: 15
+
+ - id: 98
+ type: Ghép
+ Câu hỏi: "Ghép the commands"
+ pairs:
+ - Trái: "Turn Trái"
+ Phải: "Hagarika ibumoso"
+ - Trái: "Turn Phải"
+ Phải: "Hagarika iburyo"
+ - Trái: "Go Thẳng"
+ Phải: "Komeza imbere"
+ - Trái: "Go back"
+ Phải: "Subira inyuma"
+ - Trái: "Cross the street"
+ Phải: "Kora umuhanda"
+ - Trái: "Stop at the traffic light"
+ Phải: "Hagarara ku itara ry'umuhanda"
+ xp_reward: 25
+
+ - id: 99
+ type: Ghép
+ Câu hỏi: "Ghép the Câu"
+ pairs:
+ - Trái: "The bank is in front of the Trường học"
+ Phải: "Banki iri imbere y'ishuri"
+ - Trái: "The Chợ is near"
+ Phải: "Isoko riri hafi"
+ - Trái: "The hospital is far"
+ Phải: "Ibitaro biri kure"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Chọn Missing Word
+ - id: 100
+ type: choose_missing
+ Câu hỏi: "Chọn the missing word"
+ Câu: "Hagarika ___."
+ missing_word_position: 2
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Trái."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ Câu hỏi: "Chọn the missing word"
+ Câu: "Komeza ___."
+ missing_word_position: 2
+ options: ["imbere", "inyuma", "iburyo"]
+ correct_answer: "imbere"
+ translation: "Go Thẳng."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ Câu hỏi: "Chọn the missing word"
+ Câu: "Subira ___."
+ missing_word_position: 2
+ options: ["inyuma", "imbere", "ibumoso"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 103
+ type: choose_missing
+ Câu hỏi: "Chọn the missing word"
+ Câu: "Isoko riri ___."
+ missing_word_position: 3
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Chợ is near."
+ xp_reward: 12
+
+ - id: 104
+ type: choose_missing
+ Câu hỏi: "Chọn the missing word"
+ Câu: "Ibitaro biri ___."
+ missing_word_position: 3
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 105
+ type: choose_missing
+ Câu hỏi: "Chọn the missing phrase"
+ Câu: "Hagarara ku ___ ry'umuhanda."
+ missing_word_position: 3
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 13. Đọc and Câu trả lời - Câu hỏi based on text
+ - id: 106
+ type: read_answer
+ Câu hỏi: "Đọc the text and Câu trả lời the Câu hỏi"
+ text: "Komeza imbere. Hagarika ibumoso."
+ Câu hỏi: "Đây là gì the first instruction?"
+ options: ["Turn Trái", "Go Thẳng", "Turn Phải", "Go back"]
+ correct_answer: "Go Thẳng"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ Câu hỏi: "Đọc the text and Câu trả lời the Câu hỏi"
+ text: "Banki iri imbere y'ishuri. Isoko riri hafi."
+ Câu hỏi: "Where is the bank?"
+ options: ["Near the Chợ", "In front of the Trường học", "Far away", "Behind the Trường học"]
+ correct_answer: "In front of the Trường học"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ Câu hỏi: "Đọc the text and Câu trả lời the Câu hỏi"
+ text: "Hagarara ku itara ry'umuhanda. Kora umuhanda."
+ Câu hỏi: "What should you do at the traffic light?"
+ options: ["Turn Trái", "Stop", "Go Thẳng", "Turn Phải"]
+ correct_answer: "Stop"
+ xp_reward: 15
+
+ - id: 109
+ type: read_answer
+ Câu hỏi: "Đọc the text and Câu trả lời the Câu hỏi"
+ text: "Ibitaro biri kure. Isoko riri hafi."
+ Câu hỏi: "Is the hospital near or far?"
+ options: ["Near", "Far", "Very close", "Not mentioned"]
+ correct_answer: "Far"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ Câu hỏi: "Đọc the text and Câu trả lời the Câu hỏi"
+ text: "Subira inyuma. Hagarika iburyo."
+ Câu hỏi: "Đây là gì the second instruction?"
+ options: ["Go back", "Turn Trái", "Turn Phải", "Go Thẳng"]
+ correct_answer: "Turn Phải"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ Câu hỏi: "Is this statement true or false?"
+ statement: "Ibumoso means 'Phải'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ Câu hỏi: "Is this statement true or false?"
+ statement: "Iburyo means 'Phải'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ Câu hỏi: "Is this statement true or false?"
+ statement: "Imbere means 'front'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Câu hỏi: "Is this statement true or false?"
+ statement: "Hafi means 'far'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Câu hỏi: "Is this statement true or false?"
+ statement: "Komeza imbere means 'go Thẳng'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ Câu hỏi: "Is this statement true or false?"
+ statement: "Itara ry'umuhanda means 'street sign'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Câu hỏi: "Respond to the Câu hỏi by building a command"
+ bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+ translation: "I want to reach the Chợ. What should I do?"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira", "inyuma"]
+ correct_response: ["Komeza", "imbere"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ Câu hỏi: "Respond to the Câu hỏi"
+ bot_message: "Banki iri he?"
+ translation: "Where is the bank?"
+ options:
+ - "Imbere y'ishuri"
+ - "Hafi y'isoko"
+ - "Kure"
+ correct_response: "Imbere y'ishuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ Câu hỏi: "Respond to the Câu hỏi by building a command"
+ bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+ translation: "I want to reach the hospital. What should I do?"
+ word_bank: ["Subira", "inyuma", "hagarika", "iburyo", "komeza", "imbere"]
+ correct_response: ["Subira", "inyuma"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ Câu hỏi: "Respond to the Câu hỏi"
+ bot_message: "Isoko riri hafi?"
+ translation: "Is the Chợ near?"
+ options:
+ - "Yego, riri hafi"
+ - "Oya, riri kure"
+ - "Simenye"
+ correct_response: "Yego, riri hafi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build Câu from pieces
+ - id: 121
+ type: story
+ title: "Finding the Chợ - Gushaka Isoko"
+ story_intro: "Đọc about finding the Chợ. Then build the Câu."
+ story_segments:
+ - text: "I want to go to the Chợ."
+ - text: "Go Thẳng."
+ - text: "Turn Trái at the traffic light."
+ - text: "The Chợ is near."
+ - text: "The bank is in front of the Trường học."
+ exercises:
+ - type: word_bank
+ Câu hỏi: "Build 'Go Thẳng'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso"]
+ correct_answer: ["Komeza", "imbere"]
+ - type: word_bank
+ Câu hỏi: "Build 'Turn Trái at the traffic light'"
+ word_bank: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ correct_answer: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ - type: word_bank
+ Câu hỏi: "Build 'The Chợ is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ - type: word_bank
+ Câu hỏi: "Build 'The bank is in front of the Trường học'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Câu hỏi: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "Trái"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Câu hỏi: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "Phải"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Câu hỏi: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ Câu hỏi: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ Câu hỏi: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Trái"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ Câu hỏi: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Thẳng"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ Câu hỏi: "Say this Câu"
+ prompt: "Isoko riri hafi"
+ translation: "The Chợ is near"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 129
+ type: identify_meaning
+ Câu hỏi: "Nghĩa là gì 'Hagarika' mean in this command?"
+ context_sentence: "Hagarika ibumoso."
+ word: "Hagarika"
+ options: ["Go", "Turn", "Stop", "Cross"]
+ correct_answer: "Turn"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ Câu hỏi: "Nghĩa là gì 'Komeza' mean in this command?"
+ context_sentence: "Komeza imbere."
+ word: "Komeza"
+ options: ["Turn", "Stop", "Continue / Go", "Cross"]
+ correct_answer: "Continue / Go"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ Câu hỏi: "Nghĩa là gì 'hafi' mean in this Câu?"
+ context_sentence: "Isoko riri hafi."
+ word: "hafi"
+ options: ["far", "near", "behind", "front"]
+ correct_answer: "near"
+ xp_reward: 12
+
+ - id: 132
+ type: identify_meaning
+ Câu hỏi: "Nghĩa là gì 'kure' mean in this Câu?"
+ context_sentence: "Ibitaro biri kure."
+ word: "kure"
+ options: ["near", "far", "Trái", "Phải"]
+ correct_answer: "far"
+ xp_reward: 12
+
+ - id: 133
+ type: identify_meaning
+ Câu hỏi: "Nghĩa là gì 'imbere y'' mean in this Câu?"
+ context_sentence: "Banki iri imbere y'ishuri."
+ word: "imbere y'"
+ options: ["behind", "in front of", "next to", "far from"]
+ correct_answer: "in front of"
+ xp_reward: 15
+
+ # 19. Speed Ghép
+ - id: 134
+ type: speed_Ghép
+ title: "Ghép Madness: Chỉ đường"
+ time_limit_seconds: 45
+ pairs:
+ - Trái: "Trái"
+ Phải: "Ibumoso"
+ - Trái: "Phải"
+ Phải: "Iburyo"
+ - Trái: "Thẳng"
+ Phải: "Imbere"
+ - Trái: "Behind"
+ Phải: "Inyuma"
+ - Trái: "North"
+ Phải: "Amajyaruguru"
+ - Trái: "South"
+ Phải: "Amajyepfo"
+ - Trái: "East"
+ Phải: "Uburasirazuba"
+ - Trái: "West"
+ Phải: "Uburengerazuba"
+ - Trái: "Near"
+ Phải: "Hafi"
+ - Trái: "Far"
+ Phải: "Kure"
+ - Trái: "Turn Trái"
+ Phải: "Hagarika ibumoso"
+ - Trái: "Turn Phải"
+ Phải: "Hagarika iburyo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: Chỉ đường"
+ time_limit_seconds: 30
+ Câu hỏi_count: 5
+ Câu hỏi:
+ - Câu hỏi: "Trái"
+ Câu trả lời: "Ibumoso"
+ - Câu hỏi: "Phải"
+ Câu trả lời: "Iburyo"
+ - Câu hỏi: "Thẳng"
+ Câu trả lời: "Imbere"
+ - Câu hỏi: "Behind"
+ Câu trả lời: "Inyuma"
+ - Câu hỏi: "Near"
+ Câu trả lời: "Hafi"
+ xp_reward: 35
+
+# Thẻ học
+ - id: 111
+ type: Thẻ học
+ Câu hỏi: "Thẻ học"
+ Thẻ học:
+ - front: "Ibumoso"
+ back: "Trái"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iburyo"
+ back: "Phải"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Uburyohe / Guhita imbere"
+ back: "Thẳng"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Inyuma"
+ back: "Back / Behind"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbere"
+ back: "Front"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyaruguru"
+ back: "North"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyepfo"
+ back: "South"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburasirazuba"
+ back: "East"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburengerazuba"
+ back: "West"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Hafi"
+ back: "Near"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

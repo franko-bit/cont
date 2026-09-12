@@ -3,7 +3,8 @@ session_start();
 include '../backend/config.php';
 
 if (!isset($_SESSION['user_id']) || !isset($_SESSION['is_admin']) || $_SESSION['is_admin'] != 1) {
-    header("Location: ../frontend/login.php");
+    $current_page = basename($_SERVER['PHP_SELF']);
+    header("Location: ../frontend/signin.php?redirect_to=../../admin/" . $current_page);
     exit;
 }
 

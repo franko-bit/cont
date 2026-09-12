@@ -1,0 +1,1578 @@
+lesson:
+  name: "Meetings and Discussions"
+  description: "Master professional meeting skills including scheduling, leading, participating, note-taking, action items, and decision-making"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: SCHEDULING MEETINGS (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-6)
+  - id: 1
+    type: multiple_choice
+    question: "Which is the most professional way to suggest a meeting time?"
+    options:
+      - "We need to meet sometime."
+      - "When are you free?"
+      - "Would you be available for a 30-minute meeting on Tuesday at 2 PM?"
+      - "Let's meet whenever."
+    answer: "Would you be available for a 30-minute meeting on Tuesday at 2 PM?"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What information should always be included in a meeting invitation?"
+    options:
+      - "Only the time"
+      - "Only the location"
+      - "Date, time, duration, location/ link, agenda, and attendees"
+      - "Just the subject line"
+    answer: "Date, time, duration, location/link, agenda, and attendees"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "How much notice should you typically give for a standard team meeting?"
+    options:
+      - "5 minutes"
+      - "At least 24-48 hours"
+      - "One month"
+      - "No notice needed"
+    answer: "At least 24-48 hours"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What does 'Doodle poll' refer to in meeting scheduling?"
+    options:
+      - "A game to play during meetings"
+      - "An online tool for finding the best meeting time for multiple people"
+      - "A type of meeting agenda"
+      - "A way to vote on meeting topics"
+    answer: "An online tool for finding the best meeting time for multiple people"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "How should you reschedule a meeting that you cannot attend?"
+    options:
+      - "Simply don't show up"
+      - "Send a message after the meeting starts"
+      - "Notify all participants as early as possible and propose alternative times"
+      - "Ask someone else to run the meeting without notifying anyone"
+    answer: "Notify all participants as early as possible and propose alternative times"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What should you do if a proposed meeting time doesn't work for you?"
+    options:
+      - "Ignore the invitation"
+      - "Respond with 'No' and suggest your available times"
+      - "Accept anyway and complain later"
+      - "Delete the invitation"
+    answer: "Respond with 'No' and suggest your available times"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (7-11)
+  - id: 7
+    type: fill_blank
+    question: "Complete the meeting request"
+    text_with_blank: "Would you be ___ for a 30-minute meeting on Thursday?"
+    options: ["available", "free", "able", "open"]
+    correct_answer: "available"
+    xp_reward: 15
+
+  - id: 8
+    type: fill_blank
+    question: "Complete the scheduling question"
+    text_with_blank: "I've sent you a meeting ___ for Tuesday at 10 AM."
+    options: ["invitation", "request", "notice", "calendar"]
+    correct_answer: "invitation"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the alternative time suggestion"
+    text_with_blank: "If Tuesday doesn't work, please let me know what time would be more ___."
+    options: ["convenient", "suitable", "appropriate", "acceptable"]
+    correct_answer: "convenient"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the rescheduling notice"
+    text_with_blank: "Due to a scheduling conflict, I need to ___ our meeting to Friday."
+    options: ["reschedule", "move", "change", "adjust"]
+    correct_answer: "reschedule"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the agenda request"
+    text_with_blank: "Could you please share the meeting ___ in advance so we can prepare?"
+    options: ["agenda", "plan", "outline", "schedule"]
+    correct_answer: "agenda"
+    xp_reward: 15
+
+  # TRUE / FALSE (12-14)
+  - id: 12
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to schedule a meeting without an agenda."
+    statement: "It is acceptable to schedule a meeting without an agenda."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? You should always confirm the time zone when scheduling with international colleagues."
+    statement: "You should always confirm the time zone when scheduling with international colleagues."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 14
+    type: true_false
+    question: "Is this statement true or false? Back-to-back meetings without breaks are efficient and productive."
+    statement: "Back-to-back meetings without breaks are efficient and productive."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (15-17)
+  - id: 15
+    type: matching
+    question: "Match the scheduling phrase with its purpose"
+    pairs:
+      - left: "Are you free on Tuesday afternoon?"
+        right: "Initial availability check"
+      - left: "I'm sending a calendar invitation"
+        right: "Formal scheduling"
+      - left: "Let me check my calendar"
+        right: "Checking availability"
+      - left: "Does this time work for everyone?"
+        right: "Confirming with group"
+      - left: "Here's a link to book time on my calendar"
+        right: "Self-scheduling option"
+    xp_reward: 25
+
+  - id: 16
+    type: matching
+    question: "Match the meeting type with its typical duration"
+    pairs:
+      - left: "Quick check-in"
+        right: "15 minutes"
+      - left: "Stand-up meeting"
+        right: "15-30 minutes"
+      - left: "Team status update"
+        right: "30-60 minutes"
+      - left: "Strategy discussion"
+        right: "60-90 minutes"
+      - left: "Workshop or training"
+        right: "2-4 hours"
+    xp_reward: 25
+
+  - id: 17
+    type: matching
+    question: "Match the scheduling challenge with the solution"
+    pairs:
+      - left: "Everyone has different availability"
+        right: "Use a polling tool like Doodle"
+      - left: "Participants in different time zones"
+        right: "Rotate meeting times or use world clock"
+      - left: "No available time this week"
+        right: "Schedule for next week or send agenda via email"
+      - left: "Meeting runs too long"
+        right: "Set clear agenda with time limits"
+      - left: "Too many meetings"
+        right: "Question each meeting's necessity"
+    xp_reward: 25
+
+  # FLASHCARDS (18-20)
+  - id: 18
+    type: flashcards
+    question: "Flashcards: Meeting Invitation Elements"
+    flashcards:
+      - front: "Subject line"
+        back: "Clear, specific meeting purpose"
+      - front: "Date and time"
+        back: "Include time zone if international"
+      - front: "Duration"
+        back: "How long the meeting will last"
+      - front: "Location or link"
+        back: "Room number or video conference link"
+      - front: "Agenda"
+        back: "List of topics to discuss"
+    xp_reward: 30
+
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Scheduling Phrases"
+    flashcards:
+      - front: "When would be a good time to meet?"
+        back: "Open availability question"
+      - front: "I'd like to schedule a meeting to discuss"
+        back: "Purpose statement"
+      - front: "Please let me know your availability"
+        back: "Request for times"
+      - front: "How does Tuesday at 2 PM work for you?"
+        back: "Specific time proposal"
+      - front: "I'm sending an invite for"
+        back: "Follow-up action"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Rescheduling Phrases"
+    flashcards:
+      - front: "Due to a conflict, I need to reschedule"
+        back: "Polite reschedule notice"
+      - front: "Can we move our meeting to a different time?"
+        back: "Reschedule request"
+      - front: "I'm afraid something has come up"
+        back: "Unexpected conflict"
+      - front: "Would you be available at an alternative time?"
+        back: "Alternative proposal"
+      - front: "Thank you for your flexibility"
+        back: "Appreciation for accommodating change"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: LEADING MEETINGS (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-26)
+  - id: 21
+    type: multiple_choice
+    question: "What should a meeting leader do at the start of a meeting?"
+    options:
+      - "Start talking immediately"
+      - "Welcome attendees, state the purpose, review the agenda"
+      - "Wait for everyone to arrive in silence"
+      - "Check emails while people arrive"
+    answer: "Welcome attendees, state the purpose, review the agenda"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "How should a leader handle someone who dominates the conversation?"
+    options:
+      - "Ignore them"
+      - "Let them talk forever"
+      - "Politely say 'Thank you for your input. Let's hear from others as well.'"
+      - "Yell at them to stop talking"
+    answer: "Politely say 'Thank you for your input. Let's hear from others as well.'"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What should the meeting leader do to keep the meeting on track?"
+    options:
+      - "Let conversations go wherever they want"
+      - "Use a timer and gently redirect when off-topic"
+      - "End the meeting early every time"
+      - "Skip the agenda entirely"
+    answer: "Use a timer and gently redirect when off-topic"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "How should a leader end a meeting?"
+    options:
+      - "Just stop talking and leave"
+      - "Say 'I guess we're done'"
+      - "Summarize decisions, review action items, and confirm next meeting if needed"
+      - "Ask everyone to stay longer"
+    answer: "Summarize decisions, review action items, and confirm next meeting if needed"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "What is the best way to encourage participation from quiet team members?"
+    options:
+      - "Ignore them completely"
+      - "Call on them directly: 'Sarah, what are your thoughts on this?'"
+      - "Force them to speak"
+      - "Only let loud people talk"
+    answer: "Call on them directly: 'Sarah, what are your thoughts on this?'"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What does it mean to 'park' a topic during a meeting?"
+    options:
+      - "Put it in a parking lot to discuss later if time allows"
+      - "Cancel the topic entirely"
+      - "Park a car in the meeting room"
+      - "Make it the most important topic"
+    answer: "Put it in a parking lot to discuss later if time allows"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (27-31)
+  - id: 27
+    type: fill_blank
+    question: "Complete the meeting opening"
+    text_with_blank: "Welcome everyone. Let's ___ the meeting by reviewing our agenda."
+    options: ["start", "begin", "open", "commence"]
+    correct_answer: "start"
+    xp_reward: 15
+
+  - id: 28
+    type: fill_blank
+    question: "Complete the time management phrase"
+    text_with_blank: "We're running short on time, so let's ___ to the main topic."
+    options: ["move", "go", "proceed", "advance"]
+    correct_answer: "move"
+    xp_reward: 15
+
+  - id: 29
+    type: fill_blank
+    question: "Complete the redirection phrase"
+    text_with_blank: "That's an important point, but let's ___ it for now and circle back if time permits."
+    options: ["park", "save", "keep", "hold"]
+    correct_answer: "park"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the inclusion phrase"
+    text_with_blank: "We haven't heard from everyone yet. ___ , what's your perspective?"
+    options: ["David", "Excuse me", "Tell us", "Speak up"]
+    correct_answer: "David"
+    xp_reward: 15
+
+  - id: 31
+    type: fill_blank
+    question: "Complete the meeting closing"
+    text_with_blank: "To ___, we've decided to move forward with Option A and will follow up by Friday."
+    options: ["summarize", "recap", "conclude", "wrap"]
+    correct_answer: "summarize"
+    xp_reward: 15
+
+  # TRUE / FALSE (32-34)
+  - id: 32
+    type: true_false
+    question: "Is this statement true or false? The meeting leader is responsible for starting and ending on time."
+    statement: "The meeting leader is responsible for starting and ending on time."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 33
+    type: true_false
+    question: "Is this statement true or false? A good meeting leader talks 80% of the time."
+    statement: "A good meeting leader talks 80% of the time."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 34
+    type: true_false
+    question: "Is this statement true or false? Recording the meeting without telling participants is acceptable."
+    statement: "Recording the meeting without telling participants is acceptable."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (35-37)
+  - id: 35
+    type: matching
+    question: "Match the leader's role with the action"
+    pairs:
+      - left: "Timekeeper"
+        right: "Ensures agenda items get appropriate time"
+      - left: "Facilitator"
+        right: "Guides discussion and encourages participation"
+      - left: "Scribe"
+        right: "Takes notes and records decisions"
+      - left: "Decision maker"
+        right: "Calls for votes or makes final call"
+      - left: "Agenda setter"
+        right: "Determines topics to be discussed"
+    xp_reward: 25
+
+  - id: 36
+    type: matching
+    question: "Match the leadership challenge with the solution"
+    pairs:
+      - left: "One person dominates"
+        right: "Thank them and ask others for input"
+      - left: "Side conversations happening"
+        right: "Ask if anyone wants to share with the group"
+      - left: "Going off topic"
+        right: "Park it and return to agenda"
+      - left: "Quiet participants"
+        right: "Directly ask for their opinion"
+      - left: "Running out of time"
+        right: "Prioritize remaining agenda items"
+    xp_reward: 25
+
+  - id: 37
+    type: matching
+    question: "Match the meeting phase with the leader's focus"
+    pairs:
+      - left: "Opening (first 2 minutes)"
+        right: "State purpose and review agenda"
+      - left: "Middle section"
+        right: "Facilitate discussion, manage time"
+      - left: "Decision points"
+        right: "Confirm understanding and agreement"
+      - left: "Closing (last 5 minutes)"
+        right: "Summarize decisions and action items"
+      - left: "After meeting"
+        right: "Send notes and follow up on action items"
+    xp_reward: 25
+
+  # FLASHCARDS (38-40)
+  - id: 38
+    type: flashcards
+    question: "Flashcards: Opening a Meeting"
+    flashcards:
+      - front: "Welcome everyone"
+        back: "Standard opening greeting"
+      - front: "The purpose of today's meeting is"
+        back: "State the goal"
+      - front: "Let's review the agenda"
+        back: "Walk through planned topics"
+      - front: "We have [X] minutes for this meeting"
+        back: "Set time expectation"
+      - front: "Everyone should have received the pre-read"
+        back: "Confirm preparation"
+    xp_reward: 30
+
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Managing Discussion"
+    flashcards:
+      - front: "Let's hear from someone who hasn't spoken yet"
+        back: "Encourage participation"
+      - front: "We're getting off track"
+        back: "Politely redirect"
+      - front: "Let's park that for now"
+        back: "Save topic for later"
+      - front: "We need to wrap this up"
+        back: "Signal time pressure"
+      - front: "I want to make sure everyone has a chance to speak"
+        back: "Inclusive leadership"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Closing a Meeting"
+    flashcards:
+      - front: "Let me summarize the key decisions"
+        back: "Review what was decided"
+      - front: "Here are the action items"
+        back: "Assign tasks and deadlines"
+      - front: "Does anyone have any final questions?"
+        back: "Open floor for last input"
+      - front: "Thank you all for your time and contributions"
+        back: "Express appreciation"
+      - front: "I'll send out the meeting notes"
+        back: "Commit to follow-up"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: PARTICIPATING IN DISCUSSIONS (41-60)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-46)
+  - id: 41
+    type: multiple_choice
+    question: "How should you politely enter a discussion?"
+    options:
+      - "Just start talking loudly"
+      - "Interrupt whoever is speaking"
+      - "May I add something here?"
+      - "Ignore the conversation"
+    answer: "May I add something here?"
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "What should you do if you disagree with someone's point?"
+    options:
+      - "Tell them they're wrong"
+      - "Roll your eyes"
+      - "Say 'I see your point, but I have a different perspective'"
+      - "Stay silent and complain later"
+    answer: "Say 'I see your point, but I have a different perspective'"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "How can you show you're actively listening in a discussion?"
+    options:
+      - "Look at your phone"
+      - "Nod, maintain eye contact, and ask follow-up questions"
+      - "Stare out the window"
+      - "Work on other tasks"
+    answer: "Nod, maintain eye contact, and ask follow-up questions"
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "What does it mean to 'build on' someone's idea?"
+    options:
+      - "Destroy their idea"
+      - "Ignore what they said and share your own idea"
+      - "Add to or expand upon what they suggested"
+      - "Repeat exactly what they said"
+    answer: "Add to or expand upon what they suggested"
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "What should you say if you need clarification during a discussion?"
+    options:
+      - "What are you talking about?"
+      - "Could you please elaborate on that point?"
+      - "I don't get it"
+      - "That doesn't make sense"
+    answer: "Could you please elaborate on that point?"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "How should you handle being interrupted?"
+    options:
+      - "Yell at the interrupter"
+      - "Just stop talking and never speak again"
+      - "Politely say 'If I could just finish my thought...'"
+      - "Cry"
+    answer: "Politely say 'If I could just finish my thought...'"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (47-51)
+  - id: 47
+    type: fill_blank
+    question: "Complete the polite interruption"
+    text_with_blank: "May I ___ something to that point?"
+    options: ["add", "say", "contribute", "offer"]
+    correct_answer: "add"
+    xp_reward: 15
+
+  - id: 48
+    type: fill_blank
+    question: "Complete the agreement phrase"
+    text_with_blank: "I completely ___ with what Sarah just said."
+    options: ["agree", "concur", "align", "match"]
+    correct_answer: "agree"
+    xp_reward: 15
+
+  - id: 49
+    type: fill_blank
+    question: "Complete the building-on phrase"
+    text_with_blank: "Building on what David said, I think we should also ___ the timeline."
+    options: ["consider", "think", "review", "discuss"]
+    correct_answer: "consider"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the request to finish"
+    text_with_blank: "If I could just ___ my thought before we move on..."
+    options: ["finish", "complete", "end", "close"]
+    correct_answer: "finish"
+    xp_reward: 15
+
+  - id: 51
+    type: fill_blank
+    question: "Complete the clarification request"
+    text_with_blank: "Could you please ___ on what you mean by 'restructuring'?"
+    options: ["elaborate", "explain", "clarify", "expand"]
+    correct_answer: "elaborate"
+    xp_reward: 15
+
+  # TRUE / FALSE (52-54)
+  - id: 52
+    type: true_false
+    question: "Is this statement true or false? Asking clarifying questions shows engagement and intelligence."
+    statement: "Asking clarifying questions shows engagement and intelligence."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 53
+    type: true_false
+    question: "Is this statement true or false? You should always wait for a pause before speaking, never interrupt."
+    statement: "You should always wait for a pause before speaking, never interrupt."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 54
+    type: true_false
+    question: "Is this statement true or false? Repeating what someone said in your own words shows you were listening."
+    statement: "Repeating what someone said in your own words shows you were listening."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (55-57)
+  - id: 55
+    type: matching
+    question: "Match the participation phrase with its purpose"
+    pairs:
+      - left: "If I could add something"
+        right: "Polite interruption"
+      - left: "Just to clarify"
+        right: "Seeking understanding"
+      - left: "In my experience"
+        right: "Sharing personal perspective"
+      - left: "To build on that idea"
+        right: "Expanding someone's point"
+      - left: "I see it differently"
+        right: "Polite disagreement"
+    xp_reward: 25
+
+  - id: 56
+    type: matching
+    question: "Match the listening skill with the behavior"
+    pairs:
+      - left: "Active listening"
+        right: "Paraphrasing what was said"
+      - left: "Respectful waiting"
+        right: "Not interrupting"
+      - left: "Engaged body language"
+        right: "Eye contact and nodding"
+      - left: "Thoughtful response"
+        right: "Pausing before replying"
+      - left: "Clarifying"
+        right: "Asking follow-up questions"
+    xp_reward: 25
+
+  - id: 57
+    type: matching
+    question: "Match the virtual meeting participation best practice"
+    pairs:
+      - left: "Before speaking"
+        right: "Say your name"
+      - left: "Video call etiquette"
+        right: "Look at the camera"
+      - left: "Using chat"
+        right: "For links or brief comments"
+      - left: "Raise hand feature"
+        right: "Signal you want to speak"
+      - left: "Background noise"
+        right: "Mute when not speaking"
+    xp_reward: 25
+
+  # FLASHCARDS (58-60)
+  - id: 58
+    type: flashcards
+    question: "Flashcards: Entering a Discussion"
+    flashcards:
+      - front: "May I add something?"
+        back: "Polite way to join discussion"
+      - front: "I'd like to build on that point"
+        back: "Add to someone's idea"
+      - front: "To echo what [Name] said"
+        back: "Agree and reinforce"
+      - front: "I have a quick question"
+        back: "Request clarification"
+      - front: "Before we move on, I'd like to"
+        back: "Return to a previous point"
+    xp_reward: 30
+
+  - id: 59
+    type: flashcards
+    question: "Flashcards: Active Listening Responses"
+    flashcards:
+      - front: "I see what you mean"
+        back: "Show understanding"
+      - front: "That's a great point"
+        back: "Positive acknowledgment"
+      - front: "I hadn't thought of it that way"
+        back: "Show new perspective"
+      - front: "Could you tell me more about that?"
+        back: "Request expansion"
+      - front: "Let me make sure I understand"
+        back: "Paraphrase for confirmation"
+    xp_reward: 30
+
+  - id: 60
+    type: flashcards
+    question: "Flashcards: Virtual Participation"
+    flashcards:
+      - front: "This is [Name] speaking"
+        back: "Identify yourself on calls"
+      - front: "I think [Name] is trying to speak"
+        back: "Help manage turn-taking"
+      - front: "Can everyone see my screen?"
+        back: "Before sharing"
+      - front: "I'm having audio issues"
+        back: "Flag technical problems"
+      - front: "Let me mute myself"
+        back: "Announce before muting"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: AGREEING AND DISAGREEING (61-80)
+  # ============================================
+
+  # MULTIPLE CHOICE (61-66)
+  - id: 61
+    type: multiple_choice
+    question: "Which is the most professional way to express agreement?"
+    options:
+      - "Yeah, what they said"
+      - "I completely agree with that perspective."
+      - "Same"
+      - "Ditto"
+    answer: "I completely agree with that perspective."
+    xp_reward: 15
+
+  - id: 62
+    type: multiple_choice
+    question: "Which is the most professional way to express disagreement?"
+    options:
+      - "You're wrong"
+      - "That's a terrible idea"
+      - "I see your point, but I have a different perspective."
+      - "No way"
+    answer: "I see your point, but I have a different perspective."
+    xp_reward: 15
+
+  - id: 63
+    type: multiple_choice
+    question: "What does 'I see where you're coming from' indicate?"
+    options:
+      - "You agree completely"
+      - "You understand their perspective even if you don't agree"
+      - "You have no opinion"
+      - "You want them to leave"
+    answer: "You understand their perspective even if you don't agree"
+    xp_reward: 15
+
+  - id: 64
+    type: multiple_choice
+    question: "What is a 'compromise' in a business discussion?"
+    answers:
+      - "An agreement where both sides win completely"
+      - "An agreement where both sides give up something to reach a solution"
+      - "An argument that never ends"
+      - "Ignoring the problem"
+    answer: "An agreement where both sides give up something to reach a solution"
+    xp_reward: 15
+
+  - id: 65
+    type: multiple_choice
+    question: "How can you disagree with a superior professionally?"
+    options:
+      - "Tell them they're wrong in front of everyone"
+      - "Stay silent and complain later"
+      - "Say 'I respectfully disagree. Here's my reasoning...'"
+      - "Quit your job"
+    answer: "Say 'I respectfully disagree. Here's my reasoning...'"
+    xp_reward: 15
+
+  - id: 66
+    type: multiple_choice
+    question: "What does 'partial agreement' look like?"
+    options:
+      - "I completely disagree with everything"
+      - "I agree with your main point, but I have concerns about the timeline"
+      - "I'm not listening"
+      - "Whatever you say"
+    answer: "I agree with your main point, but I have concerns about the timeline"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (67-71)
+  - id: 67
+    type: fill_blank
+    question: "Complete the agreement phrase"
+    text_with_blank: "I couldn't ___ more. That's exactly right."
+    options: ["agree", "say", "think", "believe"]
+    correct_answer: "agree"
+    xp_reward: 15
+
+  - id: 68
+    type: fill_blank
+    question: "Complete the partial agreement"
+    text_with_blank: "I agree with your overall ___ , but I have questions about the budget."
+    options: ["direction", "point", "idea", "approach"]
+    correct_answer: "direction"
+    xp_reward: 15
+
+  - id: 69
+    type: fill_blank
+    question: "Complete the polite disagreement"
+    text_with_blank: "I see where you're ___ from, but I have a different take."
+    options: ["coming", "going", "starting", "beginning"]
+    correct_answer: "coming"
+    xp_reward: 15
+
+  - id: 70
+    type: fill_blank
+    question: "Complete the constructive disagreement"
+    text_with_blank: "I respectfully ___ . Here's why I see it differently."
+    options: ["disagree", "object", "differ", "oppose"]
+    correct_answer: "disagree"
+    xp_reward: 15
+
+  - id: 71
+    type: fill_blank
+    question: "Complete the compromise suggestion"
+    text_with_blank: "Perhaps we can ___ a middle ground on this issue."
+    options: ["find", "reach", "meet", "discover"]
+    correct_answer: "find"
+    xp_reward: 15
+
+  # TRUE / FALSE (72-74)
+  - id: 72
+    type: true_false
+    question: "Is this statement true or false? Healthy disagreement can lead to better decisions."
+    statement: "Healthy disagreement can lead to better decisions."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 73
+    type: true_false
+    question: "Is this statement true or false? You should never disagree with your boss."
+    statement: "You should never disagree with your boss."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 74
+    type: true_false
+    question: "Is this statement true or false? Saying 'I understand your perspective' before disagreeing makes your disagreement more palatable."
+    statement: "Saying 'I understand your perspective' before disagreeing makes your disagreement more palatable."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (75-77)
+  - id: 75
+    type: matching
+    question: "Match the agreement level with the phrase"
+    pairs:
+      - left: "Strong agreement"
+        right: "I couldn't agree more"
+      - left: "Standard agreement"
+        right: "I agree with that"
+      - left: "Partial agreement"
+        right: "I agree with most of what you said"
+      - left: "Conditional agreement"
+        right: "I agree, provided that..."
+      - left: "Reluctant agreement"
+        right: "I suppose you're right"
+    xp_reward: 25
+
+  - id: 76
+    type: matching
+    question: "Match the disagreement level with the phrase"
+    pairs:
+      - left: "Soft disagreement"
+        right: "I see it slightly differently"
+      - left: "Polite disagreement"
+        right: "I respectfully disagree"
+      - left: "Constructive disagreement"
+        right: "I see your point, but have you considered..."
+      - left: "Partial disagreement"
+        right: "I agree with A, but not with B"
+      - left: "Strong disagreement"
+        right: "I have significant concerns about that approach"
+    xp_reward: 25
+
+  - id: 77
+    type: matching
+    question: "Match the situation with the best approach"
+    pairs:
+      - left: "Minor point of disagreement"
+        right: "I see it slightly differently, but it's not critical"
+      - left: "Major strategic disagreement"
+        right: "Schedule a separate discussion to resolve"
+      - left: "Disagreeing with a client"
+        right: "Focus on shared goals and alternatives"
+      - left: "Disagreeing with a peer"
+        right: "Use 'I' statements and specific examples"
+      - left: "Disagreeing with your manager"
+        right: "Respectfully state your case with data"
+    xp_reward: 25
+
+  # FLASHCARDS (78-80)
+  - id: 78
+    type: flashcards
+    question: "Flashcards: Agreement Phrases"
+    flashcards:
+      - front: "I completely agree"
+        back: "Full agreement"
+      - front: "That's exactly what I was thinking"
+        back: "Aligned thinking"
+      - front: "You make a valid point"
+        back: "Acknowledging good argument"
+      - front: "I share your view on this"
+        back: "Common perspective"
+      - front: "We're on the same page"
+        back: "Mutual understanding"
+    xp_reward: 30
+
+  - id: 79
+    type: flashcards
+    question: "Flashcards: Disagreement Phrases"
+    flashcards:
+      - front: "I see it differently"
+        back: "Soft disagreement"
+      - front: "I have a different perspective"
+        back: "Polite disagreement"
+      - front: "I respectfully disagree"
+        back: "Formal disagreement"
+      - front: "I'm not sure I follow your reasoning"
+        back: "Questioning logic"
+      - front: "Have we considered the alternative?"
+        back: "Suggesting different view"
+    xp_reward: 30
+
+  - id: 80
+    type: flashcards
+    question: "Flashcards: Finding Common Ground"
+    flashcards:
+      - front: "Let's focus on where we agree"
+        back: "Build from shared views"
+      - front: "We both want the same outcome"
+        back: "Remind of shared goals"
+      - front: "Can we agree on this point first?"
+        back: "Start with small agreement"
+      - front: "What would it take to get your support?"
+        back: "Understand conditions"
+      - front: "Let's agree to disagree on this"
+        back: "Accept difference without resolution"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: MEETING NOTES & ACTION ITEMS (81-105)
+  # ============================================
+
+  # MULTIPLE CHOICE (81-86)
+  - id: 81
+    type: multiple_choice
+    question: "What is the purpose of meeting notes (minutes)?"
+    options:
+      - "To record every word spoken"
+      - "To document decisions, action items, and key discussion points"
+      - "To criticize participants"
+      - "To avoid doing actual work"
+    answer: "To document decisions, action items, and key discussion points"
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "What is an 'action item'?"
+    answers:
+      - "A movie genre"
+      - "A specific task assigned to someone with a deadline"
+      - "A type of meeting"
+      - "A way to avoid work"
+    answer: "A specific task assigned to someone with a deadline"
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "What information should each action item include?"
+    options:
+      - "Only the task"
+      - "Task, owner, and deadline"
+      - "Only the owner's name"
+      - "A paragraph explaining why"
+    answer: "Task, owner, and deadline"
+    xp_reward: 15
+
+  - id: 84
+    type: multiple_choice
+    question: "When should meeting notes be distributed?"
+    options:
+      - "One month later"
+      - "Never"
+      - "Within 24-48 hours after the meeting"
+      - "Before the meeting starts"
+    answer: "Within 24-48 hours after the meeting"
+    xp_reward: 15
+
+  - id: 85
+    type: multiple_choice
+    question: "What does RACI stand for in action item assignment?"
+    options:
+      - "Responsible, Accountable, Consulted, Informed"
+      - "Ready, Able, Capable, Involved"
+      - "Run, Act, Complete, Initiate"
+      - "Review, Approve, Create, Implement"
+    answer: "Responsible, Accountable, Consulted, Informed"
+    xp_reward: 15
+
+  - id: 86
+    type: multiple_choice
+    question: "How should you follow up on action items after a meeting?"
+    options:
+      - "Assume everyone will remember"
+      - "Send a reminder before the deadline"
+      - "Ignore completed action items"
+      - "Wait until the next meeting"
+    answer: "Send a reminder before the deadline"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (87-91)
+  - id: 87
+    type: fill_blank
+    question: "Complete the action item assignment"
+    text_with_blank: "Action item: David to ___ the presentation by Friday."
+    options: ["draft", "write", "create", "prepare"]
+    correct_answer: "draft"
+    xp_reward: 15
+
+  - id: 88
+    type: fill_blank
+    question: "Complete the deadline statement"
+    text_with_blank: "This action item is ___ by end of day Thursday."
+    options: ["due", "needed", "required", "expected"]
+    correct_answer: "due"
+    xp_reward: 15
+
+  - id: 89
+    type: fill_blank
+    question: "Complete the meeting notes distribution"
+    text_with_blank: "I will ___ the meeting notes to all participants by tomorrow."
+    options: ["send", "distribute", "share", "forward"]
+    correct_answer: "distribute"
+    xp_reward: 15
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the decision documentation"
+    text_with_blank: "The team ___ to proceed with Option B."
+    options: ["decided", "agreed", "voted", "chose"]
+    correct_answer: "decided"
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the action item status update"
+    text_with_blank: "Status update: Action item from last meeting is now ___."
+    options: ["complete", "done", "finished", "resolved"]
+    correct_answer: "complete"
+    xp_reward: 15
+
+  # TRUE / FALSE (92-94)
+  - id: 92
+    type: true_false
+    question: "Is this statement true or false? Action items without deadlines rarely get done."
+    statement: "Action items without deadlines rarely get done."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 93
+    type: true_false
+    question: "Is this statement true or false? Meeting notes should include who said what, word for word."
+    statement: "Meeting notes should include who said what, word for word."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 94
+    type: true_false
+    question: "Is this statement true or false? A single person can be accountable for multiple action items."
+    statement: "A single person can be accountable for multiple action items."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (95-97)
+  - id: 95
+    type: matching
+    question: "Match the RACI role with its responsibility"
+    pairs:
+      - left: "Responsible (R)"
+        right: "Does the work to complete the task"
+      - left: "Accountable (A)"
+        right: "Answers for success or failure"
+      - left: "Consulted (C)"
+        right: "Provides input before decisions"
+      - left: "Informed (I)"
+        right: "Kept updated on progress"
+    xp_reward: 25
+
+  - id: 96
+    type: matching
+    question: "Match the meeting note section with its content"
+    pairs:
+      - left: "Decisions made"
+        right: "What the group agreed upon"
+      - left: "Action items"
+        right: "Tasks, owners, deadlines"
+      - left: "Key discussion points"
+        right: "Important arguments or insights"
+      - left: "Open questions"
+        right: "Issues requiring more information"
+      - left: "Next meeting"
+        right: "Date, time, location of follow-up"
+    xp_reward: 25
+
+  - id: 97
+    type: matching
+    question: "Match the action item status with its meaning"
+    pairs:
+      - left: "Not started"
+        right: "No work has begun"
+      - left: "In progress"
+        right: "Work has started but not complete"
+      - left: "Blocked"
+        right: "Cannot proceed due to obstacle"
+      - left: "Complete"
+        right: "Task has been finished"
+      - left: "Deferred"
+        right: "Postponed to later date"
+    xp_reward: 25
+
+  # FLASHCARDS (98-101)
+  - id: 98
+    type: flashcards
+    question: "Flashcards: Action Item Components"
+    flashcards:
+      - front: "Task description"
+        back: "What needs to be done (action verb)"
+      - front: "Owner"
+        back: "Who is responsible (one person)"
+      - front: "Deadline"
+        back: "When it needs to be done"
+      - front: "Priority"
+        back: "High/medium/low importance"
+      - front: "Status"
+        back: "Not started/in progress/complete/blocked"
+    xp_reward: 30
+
+  - id: 99
+    type: flashcards
+    question: "Flashcards: Meeting Note Templates"
+    flashcards:
+      - front: "Meeting title"
+        back: "Clear name and date"
+      - front: "Attendees"
+        back: "List of participants"
+      - front: "Decisions"
+        back: "Bulleted list of what was decided"
+      - front: "Action items"
+        back: "Table with task, owner, deadline"
+      - front: "Next steps"
+        back: "Follow-up plan"
+    xp_reward: 30
+
+  - id: 100
+    type: flashcards
+    question: "Flashcards: Action Verb Examples"
+    flashcards:
+      - front: "Draft"
+        back: "Create first version"
+      - front: "Review"
+        back: "Check for quality/accuracy"
+      - front: "Schedule"
+        back: "Arrange time/date"
+      - front: "Coordinate"
+        back: "Organize with others"
+      - front: "Research"
+        back: "Gather information"
+    xp_reward: 30
+
+  - id: 101
+    type: flashcards
+    question: "Flashcards: Follow-up Communication"
+    flashcards:
+      - front: "Per our meeting"
+        back: "Reference to discussion"
+      - front: "As discussed"
+        back: "Follow-up confirmation"
+      - front: "Just a reminder that"
+        back: "Gentle deadline reminder"
+      - front: "Checking in on the status of"
+        back: "Progress inquiry"
+      - front: "Thank you for completing"
+        back: "Acknowledgment of completion"
+    xp_reward: 30
+
+  # TIMED CHALLENGES (102-105)
+  - id: 102
+    type: timed_challenge
+    title: "Lightning Round: Action Items"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Three things every action item needs"
+        answer: "Task owner deadline"
+      - question: "What R stands for in RACI"
+        answer: "Responsible"
+      - question: "What A stands for in RACI"
+        answer: "Accountable"
+      - question: "How soon to send meeting notes"
+        answer: "24 to 48 hours"
+      - question: "Word meaning 'to stop because of obstacle'"
+        answer: "Blocked"
+    xp_reward: 35
+
+  - id: 103
+    type: timed_challenge
+    title: "Lightning Round: Meeting Notes"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Documentation of what was agreed"
+        answer: "Decisions"
+      - question: "List of tasks to complete"
+        answer: "Action items"
+      - question: "Person who does the work"
+        answer: "Responsible"
+      - question: "Person who answers for outcome"
+        answer: "Accountable"
+      - question: "What to put after each action item"
+        answer: "Deadline"
+    xp_reward: 35
+
+  - id: 104
+    type: timed_challenge
+    title: "Lightning Round: Action Verbs"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Verb for creating first version"
+        answer: "Draft"
+      - question: "Verb for checking quality"
+        answer: "Review"
+      - question: "Verb for arranging a meeting"
+        answer: "Schedule"
+      - question: "Verb for organizing with others"
+        answer: "Coordinate"
+      - question: "Verb for gathering information"
+        answer: "Research"
+    xp_reward: 35
+
+  - id: 105
+    type: timed_challenge
+    title: "Lightning Round: Status Updates"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Status when work has begun"
+        answer: "In progress"
+      - question: "Status when task is finished"
+        answer: "Complete"
+      - question: "Status when cannot proceed"
+        answer: "Blocked"
+      - question: "Status when postponed"
+        answer: "Deferred"
+      - question: "Status when not started"
+        answer: "Not started"
+    xp_reward: 35
+
+  # ============================================
+  # SECTION 6: DECISION-MAKING LANGUAGE (106-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (106-111)
+  - id: 106
+    type: multiple_choice
+    question: "How should a leader call for a decision?"
+    options:
+      - "Someone decide now"
+      - "We need to make a decision on this. Does anyone have objections to Option A?"
+      - "Whatever you all want"
+      - "I'll decide later"
+    answer: "We need to make a decision on this. Does anyone have objections to Option A?"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What is a 'consensus' decision?"
+    options:
+      - "A decision where everyone votes"
+      - "A decision that everyone can support, even if not their first choice"
+      - "A decision made by one person"
+      - "A decision that is never final"
+    answer: "A decision that everyone can support, even if not their first choice"
+    xp_reward: 15
+
+  - id: 108
+    type: multiple_choice
+    question: "What does it mean to 'table' a decision?"
+    options:
+      - "Make the decision immediately"
+      - "Put the decision aside for later discussion"
+      - "Write the decision on a table"
+      - "Cancel the decision entirely"
+    answer: "Put the decision aside for later discussion"
+    xp_reward: 15
+
+  - id: 109
+    type: multiple_choice
+    question: "How do you confirm a decision is final?"
+    options:
+      - "Just assume it's final"
+      - "Ask 'Is everyone in agreement with this decision?'"
+      - "Never confirm anything"
+      - "Change the decision immediately"
+    answer: "Ask 'Is everyone in agreement with this decision?'"
+    xp_reward: 15
+
+  - id: 110
+    type: multiple_choice
+    question: "What does 'vote' mean in a meeting context?"
+    options:
+      - "To leave the meeting"
+      - "To express a choice among options"
+      - "To complain about everything"
+      - "To agree with everything"
+    answer: "To express a choice among options"
+    xp_reward: 15
+
+  - id: 111
+    type: multiple_choice
+    question: "What is a 'straw poll'?"
+    options:
+      - "A poll about straws"
+      - "An informal vote to gauge opinion, not final"
+      - "A legally binding vote"
+      - "A vote that requires unanimous agreement"
+    answer: "An informal vote to gauge opinion, not final"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (112-116)
+  - id: 112
+    type: fill_blank
+    question: "Complete the decision call"
+    text_with_blank: "Let's ___ a decision on this by the end of today."
+    options: ["make", "reach", "come to", "arrive at"]
+    correct_answer: "make"
+    xp_reward: 15
+
+  - id: 113
+    type: fill_blank
+    question: "Complete the consensus check"
+    text_with_blank: "Is everyone in ___ with this approach?"
+    options: ["agreement", "support", "favor", "alignment"]
+    correct_answer: "agreement"
+    xp_reward: 15
+
+  - id: 114
+    type: fill_blank
+    question: "Complete the vote request"
+    text_with_blank: "Let's take a ___ vote. All in favor say 'aye'."
+    options: ["quick", "show", "hand", "verbal"]
+    correct_answer: "quick"
+    xp_reward: 15
+
+  - id: 115
+    type: fill_blank
+    question: "Complete the deferral"
+    text_with_blank: "Let's ___ this decision until we have more data."
+    options: ["table", "postpone", "delay", "defer"]
+    correct_answer: "table"
+    xp_reward: 15
+
+  - id: 116
+    type: fill_blank
+    question: "Complete the decision confirmation"
+    text_with_blank: "So we're all ___ that we will proceed with Option B."
+    options: ["agreed", "aligned", "confirmed", "set"]
+    correct_answer: "agreed"
+    xp_reward: 15
+
+  # TRUE / FALSE (117-119)
+  - id: 117
+    type: true_false
+    question: "Is this statement true or false? Every decision needs unanimous agreement."
+    statement: "Every decision needs unanimous agreement."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 118
+    type: true_false
+    question: "Is this statement true or false? Documenting decisions prevents confusion later."
+    statement: "Documenting decisions prevents confusion later."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 119
+    type: true_false
+    question: "Is this statement true or false? 'Disagree and commit' means you can disagree but still support the team's decision."
+    statement: "'Disagree and commit' means you can disagree but still support the team's decision."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (120-123)
+  - id: 120
+    type: matching
+    question: "Match the decision type with its description"
+    pairs:
+      - left: "Unanimous decision"
+        right: "Everyone agrees completely"
+      - left: "Consensus decision"
+        right: "Everyone can support, even if not first choice"
+      - left: "Majority vote"
+        right: "More than half agree"
+      - left: "Super majority"
+        right: "Two-thirds or three-quarters agree"
+      - left: "Executive decision"
+        right: "Leader decides after input"
+    xp_reward: 25
+
+  - id: 121
+    type: matching
+    question: "Match the decision-making phrase with its purpose"
+    pairs:
+      - left: "Let's take a vote"
+        right: "Formal choice among options"
+      - left: "Does anyone object?"
+        right: "Check for blocking concerns"
+      - left: "Let's get a sense of the room"
+        right: "Informal opinion check"
+      - left: "I'm hearing support for"
+        right: "Summarize emerging consensus"
+      - left: "Let's call the question"
+        right: "End discussion and decide"
+    xp_reward: 25
+
+  - id: 122
+    type: matching
+    question: "Match the decision obstacle with the solution"
+    pairs:
+      - left: "Stalemate (tie vote)"
+        right: "Executive decision or gather more info"
+      - left: "Strong disagreement"
+        right: "Explore underlying interests"
+      - left: "Lack of information"
+        right: "Table decision, assign research"
+      - left: "Group thinks but won't speak"
+        right: "Anonymous vote or written input"
+      - left: "Urgent decision needed"
+        right: "Leader makes call with available info"
+    xp_reward: 25
+
+  - id: 123
+    type: matching
+    question: "Match the decision confirmation phrase with its use"
+    pairs:
+      - left: "So we're all agreed that"
+        right: "Confirm understanding"
+      - left: "Let me restate our decision"
+        right: "Clear verbal documentation"
+      - left: "For the record, we decided to"
+        right: "Formal documentation"
+      - left: "Does anyone want to change their vote?"
+        right: "Final check before closing"
+      - left: "I'll put this in writing"
+        right: "Commit to documentation"
+    xp_reward: 25
+
+  # FLASHCARDS (124-127)
+  - id: 124
+    type: flashcards
+    question: "Flashcards: Calling for a Decision"
+    flashcards:
+      - front: "Let's make a decision on this"
+        back: "Initiate decision process"
+      - front: "Does anyone have any objections?"
+        back: "Check for blocking concerns"
+      - front: "All in favor, say 'aye'"
+        back: "Verbal vote"
+      - front: "Please raise your hand if you support"
+        back: "Visual vote"
+      - front: "Let's take a straw poll"
+        back: "Informal preference check"
+    xp_reward: 30
+
+  - id: 125
+    type: flashcards
+    question: "Flashcards: Responding to Decisions"
+    flashcards:
+      - front: "I support this decision"
+        back: "Positive affirmation"
+      - front: "I have a concern"
+        back: "Raise issue before decision"
+      - front: "I abstain"
+        back: "Choose not to vote"
+      - front: "I disagree but I'll commit"
+        back: "Disagree and commit"
+      - front: "I need more information before deciding"
+        back: "Request more data"
+    xp_reward: 30
+
+  - id: 126
+    type: flashcards
+    question: "Flashcards: Post-Decision Phrases"
+    flashcards:
+      - front: "The decision has been made"
+        back: "Formal announcement"
+      - front: "Moving forward, we will"
+        back: "Transition to action"
+      - front: "I'll document this decision"
+        back: "Commit to recording"
+      - front: "Let's communicate this to the team"
+        back: "Plan for sharing"
+      - front: "When should we review this decision?"
+        back: "Plan for revisit if needed"
+    xp_reward: 30
+
+  - id: 127
+    type: flashcards
+    question: "Flashcards: Decision Levels"
+    flashcards:
+      - front: "Operational decision"
+        back: "Day-to-day, lower impact"
+      - front: "Tactical decision"
+        back: "Medium-term, departmental"
+      - front: "Strategic decision"
+        back: "Long-term, company-wide"
+      - front: "Urgent decision"
+        back: "Needs immediate action"
+      - front: "Delegated decision"
+        back: "Assigned to someone else to make"
+    xp_reward: 30
+
+  # TIMED CHALLENGES (128-130)
+  - id: 128
+    type: timed_challenge
+    title: "Lightning Round: Decision Language"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Word meaning 'everyone can support, not necessarily first choice'"
+        answer: "Consensus"
+      - question: "Phrase meaning 'put aside for later'"
+        answer: "Table the decision"
+      - question: "What to say to confirm everyone agrees"
+        answer: "Is everyone in agreement"
+      - question: "Informal vote to gauge opinion"
+        answer: "Straw poll"
+      - question: "What 'disagree and commit' means"
+        answer: "Support even if you disagree"
+    xp_reward: 35
+
+  - id: 129
+    type: timed_challenge
+    title: "Lightning Round: Voting Methods"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Vote where people raise hands"
+        answer: "Hand vote"
+      - question: "Vote where people say 'aye' or 'nay'"
+        answer: "Verbal vote"
+      - question: "Vote where everyone speaks one at a time"
+        answer: "Round-robin"
+      - question: "Vote using written ballots"
+        answer: "Secret vote"
+      - question: "Vote by pointing thumbs up/down"
+        answer: "Thumbs vote"
+    xp_reward: 35
+
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Final Decision Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "Three things an action item needs"
+        answer: "Task owner deadline"
+      - question: "What to say before making a decision"
+        answer: "Let's make a decision"
+      - question: "How to check for objections"
+        answer: "Does anyone object"
+      - question: "What consensus means"
+        answer: "Everyone can support"
+      - question: "What 'table' means in meetings"
+        answer: "Postpone"
+      - question: "What to say after a decision"
+        answer: "Let me document this"
+      - question: "Phrase when you disagree but will support"
+        answer: "Disagree and commit"
+      - question: "What to send after a meeting"
+        answer: "Meeting notes"
+    xp_reward: 50

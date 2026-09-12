@@ -1,0 +1,1369 @@
+lesson:
+  name: "Inzu"
+  description: "Apprenez le vocabulaire de la maison en kinyarwanda et comment parler de votre maison"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic House Words ONLY (Safe for single words)
+  # Basic House Words
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Maison' en kinyarwanda ?"
+    answer: "Inzu"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Foyer' en kinyarwanda ?"
+    answer: "Urugo"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Pièce' en kinyarwanda ?"
+    answer: "Icyumba"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Porte' en kinyarwanda ?"
+    answer: "Urugi"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Fenêtre' en kinyarwanda ?"
+    answer: "Idirishya"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Toit' en kinyarwanda ?"
+    answer: "Igisenge"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Mur' en kinyarwanda ?"
+    answer: "Urukuta"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Sol' en kinyarwanda ?"
+    answer: "Hasi"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Clé' en kinyarwanda ?"
+    answer: "Urufunguzo"
+    xp_reward: 10
+
+  # Rooms in a House
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Chambre' en kinyarwanda ?"
+    answer: "Icyumba cyo kuraramo"
+    xp_reward: 15
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Salon' en kinyarwanda ?"
+    answer: "Icyumba cyo kwakiriramo"
+    xp_reward: 15
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Cuisine' en kinyarwanda ?"
+    answer: "Igikoni"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Salle de bains' en kinyarwanda ?"
+    answer: "Ubwiherero"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Salle à manger' en kinyarwanda ?"
+    answer: "Icyumba cyo kuriramo"
+    xp_reward: 15
+
+  # Furniture
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Lit' en kinyarwanda ?"
+    answer: "Uburiri"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Table' en kinyarwanda ?"
+    answer: "Ameza"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Chaise' en kinyarwanda ?"
+    answer: "Intebe"
+    xp_reward: 10
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Canapé' en kinyarwanda ?"
+    answer: "Sofa"
+    xp_reward: 10
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Lampe' en kinyarwanda ?"
+    answer: "Itara"
+    xp_reward: 10
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'Armoire' en kinyarwanda ?"
+    answer: "Akabati"
+    xp_reward: 10
+
+  # Sentences About a House
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'J'ai une maison' en kinyarwanda ?"
+    answer: "Mfite inzu."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'La maison est grande' en kinyarwanda ?"
+    answer: "Inzu nini."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'La porte est ouverte' en kinyarwanda ?"
+    answer: "Urugi rurafunguye."
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'La fenêtre est fermée' en kinyarwanda ?"
+    answer: "Idirishya rirafunze."
+    xp_reward: 15
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'La maison a beaucoup de pièces' en kinyarwanda ?"
+    answer: "Inzu ifite ibyumba byinshi."
+    xp_reward: 18
+
+  - id: 26
+    type: translation
+    question: "Comment dit-on 'Je dors dans la chambre' en kinyarwanda ?"
+    answer: "Nsinzira mu cyumba cyo kuraramo."
+    xp_reward: 18
+
+  - id: 27
+    type: translation
+    question: "Comment dit-on 'Je cuisine dans la cuisine' en kinyarwanda ?"
+    answer: "Nteka mu gikoni."
+    xp_reward: 15
+
+  - id: 28
+    type: translation
+    question: "Comment dit-on 'Je m'assieds sur la chaise' en kinyarwanda ?"
+    answer: "Nicara ku ntebe."
+    xp_reward: 15
+
+  # Activities in the House
+  - id: 29
+    type: translation
+    question: "Comment dit-on 'J'ouvre la porte' en kinyarwanda ?"
+    answer: "Mfunguza urugi."
+    xp_reward: 15
+
+  - id: 30
+    type: translation
+    question: "Comment dit-on 'Je ferme la fenêtre' en kinyarwanda ?"
+    answer: "Mfunze idirishya."
+    xp_reward: 15
+
+  - id: 31
+    type: translation
+    question: "Comment dit-on 'Je nettoie la maison' en kinyarwanda ?"
+    answer: "Nsukura inzu."
+    xp_reward: 15
+
+  - id: 32
+    type: translation
+    question: "Comment dit-on 'Je cuisine de la nourriture dans la cuisine' en kinyarwanda ?"
+    answer: "Nteka ibiryo mu gikoni."
+    xp_reward: 18
+
+  - id: 33
+    type: translation
+    question: "Comment dit-on 'L'enfant dort sur le lit' en kinyarwanda ?"
+    answer: "Umwana asinzira ku buriri."
+    xp_reward: 18
+
+  # 2. Choix multiples
+  - id: 34
+    type: multiple_choice
+    question: "Que signifie 'Inzu' ?"
+    options:
+      - "Foyer"
+      - "Maison"
+      - "Pièce"
+      - "Porte"
+    answer: "Maison"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "Que signifie 'Urugi' ?"
+    options:
+      - "Fenêtre"
+      - "Porte"
+      - "Mur"
+      - "Toit"
+    answer: "Porte"
+    xp_reward: 15
+
+  - id: 36
+    type: multiple_choice
+    question: "Que signifie 'Idirishya' ?"
+    options:
+      - "Porte"
+      - "Fenêtre"
+      - "Clé"
+      - "Sol"
+    answer: "Fenêtre"
+    xp_reward: 15
+
+  - id: 37
+    type: multiple_choice
+    question: "Que signifie 'Igikoni' ?"
+    options:
+      - "Chambre"
+      - "Salon"
+      - "Cuisine"
+      - "Salle de bains"
+    answer: "Cuisine"
+    xp_reward: 15
+
+  - id: 38
+    type: multiple_choice
+    question: "Que signifie 'Uburiri' ?"
+    options:
+      - "Chaise"
+      - "Table"
+      - "Lit"
+      - "Canapé"
+    answer: "Lit"
+    xp_reward: 15
+
+  - id: 39
+    type: multiple_choice
+    question: "Que signifie 'Mfite inzu' ?"
+    options:
+      - "La maison est grande"
+      - "J'ai une maison"
+      - "Je nettoie la maison"
+      - "La maison a beaucoup de pièces"
+    answer: "J'ai une maison"
+    xp_reward: 15
+
+  - id: 40
+    type: multiple_choice
+    question: "Que signifie 'Urugi rurafunguye' ?"
+    options:
+      - "La fenêtre est fermée"
+      - "La porte est ouverte"
+      - "J'ouvre la porte"
+      - "Je ferme la fenêtre"
+    answer: "La porte est ouverte"
+    xp_reward: 18
+
+  # 3. ?coutez et ?crivez (dict?e)
+  - id: 41
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de la maison"
+    audio: "Inzu"
+    answer: "Inzu"
+    translation: "Maison"
+    xp_reward: 20
+
+  - id: 42
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de la maison"
+    audio: "Urugi"
+    answer: "Urugi"
+    translation: "Porte"
+    xp_reward: 20
+
+  - id: 43
+    type: listen_and_type
+    question: "Écoutez et tapez le mot de la maison"
+    audio: "Idirishya"
+    answer: "Idirishya"
+    translation: "Fenêtre"
+    xp_reward: 20
+
+  - id: 44
+    type: listen_and_type
+    question: "Écoutez et tapez la pièce"
+    audio: "Igikoni"
+    answer: "Igikoni"
+    translation: "Cuisine"
+    xp_reward: 20
+
+  - id: 45
+    type: listen_and_type
+    question: "Écoutez et tapez le meuble"
+    audio: "Uburiri"
+    answer: "Uburiri"
+    translation: "Lit"
+    xp_reward: 20
+
+  - id: 46
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Mfite inzu"
+    answer: "Mfite inzu"
+    translation: "J'ai une maison"
+    xp_reward: 22
+
+  - id: 47
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Nteka mu gikoni"
+    answer: "Nteka mu gikoni"
+    translation: "Je cuisine dans la cuisine"
+    xp_reward: 22
+
+  - id: 48
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Urugi rurafunguye"
+    answer: "Urugi rurafunguye"
+    translation: "La porte est ouverte"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 49
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon mot de la maison"
+    audio: "Inzu"
+    options:
+      - "Maison"
+      - "Foyer"
+      - "Pièce"
+    answer: "Maison"
+    xp_reward: 15
+
+  - id: 50
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon mot de la maison"
+    audio: "Urugi"
+    options:
+      - "Fenêtre"
+      - "Porte"
+      - "Mur"
+    answer: "Porte"
+    xp_reward: 15
+
+  - id: 51
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne pièce"
+    audio: "Igikoni"
+    options:
+      - "Chambre"
+      - "Cuisine"
+      - "Salle de bains"
+    answer: "Cuisine"
+    xp_reward: 15
+
+  - id: 52
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Mfite inzu"
+    options:
+      - "J'ai une maison"
+      - "La maison est grande"
+      - "Je nettoie la maison"
+    answer: "J'ai une maison"
+    xp_reward: 18
+
+  - id: 53
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Urugi rurafunguye"
+    options:
+      - "La fenêtre est fermée"
+      - "La porte est ouverte"
+      - "J'ouvre la porte"
+    answer: "La porte est ouverte"
+    xp_reward: 18
+
+  # 5. R?p?ter / Exercice oral
+  - id: 54
+    type: speaking
+    question: "Dites ce mot de la maison"
+    prompt: "Inzu"
+    translation: "Maison"
+    xp_reward: 15
+
+  - id: 55
+    type: speaking
+    question: "Dites ce mot de la maison"
+    prompt: "Urugi"
+    translation: "Porte"
+    xp_reward: 15
+
+  - id: 56
+    type: speaking
+    question: "Dites ce mot de la maison"
+    prompt: "Idirishya"
+    translation: "Fenêtre"
+    xp_reward: 15
+
+  - id: 57
+    type: speaking
+    question: "Dites cette pièce"
+    prompt: "Igikoni"
+    translation: "Cuisine"
+    xp_reward: 15
+
+  - id: 58
+    type: speaking
+    question: "Dites ce meuble"
+    prompt: "Uburiri"
+    translation: "Lit"
+    xp_reward: 15
+
+  - id: 59
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Mfite inzu"
+    translation: "J'ai une maison"
+    xp_reward: 18
+
+  - id: 60
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Nteka mu gikoni"
+    translation: "Je cuisine dans la cuisine"
+    xp_reward: 18
+
+  - id: 61
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Urugi rurafunguye"
+    translation: "La porte est ouverte"
+    xp_reward: 18
+
+  # 6. Construction de phrases avec banque de mots - PIECES PROVIDED
+  - id: 62
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'J'ai une maison'"
+    word_bank: ["Mfite", "inzu", "nini", "ifite", "ibyumba"]
+    correct_answer: ["Mfite", "inzu"]
+    xp_reward: 15
+
+  - id: 63
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'La maison est grande'"
+    word_bank: ["Inzu", "nini", "mfite", "ifite", "ibyumba"]
+    correct_answer: ["Inzu", "nini"]
+    xp_reward: 15
+
+  - id: 64
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'La porte est ouverte'"
+    word_bank: ["Urugi", "rurafunguye", "idirishya", "rirafunze"]
+    correct_answer: ["Urugi", "rurafunguye"]
+    xp_reward: 18
+
+  - id: 65
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'La fenêtre est fermée'"
+    word_bank: ["Idirishya", "rirafunze", "urugi", "rurafunguye"]
+    correct_answer: ["Idirishya", "rirafunze"]
+    xp_reward: 18
+
+  - id: 66
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'La maison a beaucoup de pièces'"
+    word_bank: ["Inzu", "ifite", "ibyumba", "byinshi", "nini"]
+    correct_answer: ["Inzu", "ifite", "ibyumba", "byinshi"]
+    xp_reward: 20
+
+  - id: 67
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je dors dans la chambre'"
+    word_bank: ["Nsinzira", "mu cyumba", "cyo kuraramo", "nte ka", "mu gikoni", "nicara"]
+    correct_answer: ["Nsinzira", "mu cyumba", "cyo kuraramo"]
+    xp_reward: 20
+
+  - id: 68
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je cuisine dans la cuisine'"
+    word_bank: ["Nteka", "mu gikoni", "nsinzira", "mu cyumba", "nicara"]
+    correct_answer: ["Nteka", "mu gikoni"]
+    xp_reward: 15
+
+  - id: 69
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je m'assieds sur la chaise'"
+    word_bank: ["Nicara", "ku ntebe", "ku buriri", "mu gikoni", "mu cyumba"]
+    correct_answer: ["Nicara", "ku ntebe"]
+    xp_reward: 15
+
+  - id: 70
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'J'ouvre la porte'"
+    word_bank: ["Mfunguza", "urugi", "mfunze", "idirishya", "nsukura", "inzu"]
+    correct_answer: ["Mfunguza", "urugi"]
+    xp_reward: 15
+
+  - id: 71
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je ferme la fenêtre'"
+    word_bank: ["Mfunze", "idirishya", "mfunguza", "urugi", "nsukura", "inzu"]
+    correct_answer: ["Mfunze", "idirishya"]
+    xp_reward: 15
+
+  - id: 72
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je nettoie la maison'"
+    word_bank: ["Nsukura", "inzu", "mfunguza", "urugi", "mfunze", "idirishya"]
+    correct_answer: ["Nsukura", "inzu"]
+    xp_reward: 15
+
+  - id: 73
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je cuisine de la nourriture dans la cuisine'"
+    word_bank: ["Nteka", "ibiryo", "mu gikoni", "nsinzira", "mu cyumba", "nicara"]
+    correct_answer: ["Nteka", "ibiryo", "mu gikoni"]
+    xp_reward: 20
+
+  - id: 74
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'L'enfant dort sur le lit'"
+    word_bank: ["Umwana", "asinzira", "ku buriri", "nte ka", "mu gikoni", "ku ntebe"]
+    correct_answer: ["Umwana", "asinzira", "ku buriri"]
+    xp_reward: 20
+
+  # 7. Mots m?lang?s - PIECES PROVIDED
+  - id: 75
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Mfite", "inzu"]
+    correct_sentence: "Mfite inzu."
+    translation: "J'ai une maison."
+    xp_reward: 15
+
+  - id: 76
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Inzu", "nini"]
+    correct_sentence: "Inzu nini."
+    translation: "La maison est grande."
+    xp_reward: 15
+
+  - id: 77
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Urugi", "rurafunguye"]
+    correct_sentence: "Urugi rurafunguye."
+    translation: "La porte est ouverte."
+    xp_reward: 18
+
+  - id: 78
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Idirishya", "rirafunze"]
+    correct_sentence: "Idirishya rirafunze."
+    translation: "La fenêtre est fermée."
+    xp_reward: 18
+
+  - id: 79
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Inzu", "ifite", "ibyumba", "byinshi"]
+    correct_sentence: "Inzu ifite ibyumba byinshi."
+    translation: "La maison a beaucoup de pièces."
+    xp_reward: 20
+
+  - id: 80
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nsinzira", "mu cyumba", "cyo kuraramo"]
+    correct_sentence: "Nsinzira mu cyumba cyo kuraramo."
+    translation: "Je dors dans la chambre."
+    xp_reward: 20
+
+  - id: 81
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nteka", "mu gikoni"]
+    correct_sentence: "Nteka mu gikoni."
+    translation: "Je cuisine dans la cuisine."
+    xp_reward: 15
+
+  - id: 82
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nicara", "ku ntebe"]
+    correct_sentence: "Nicara ku ntebe."
+    translation: "Je m'assieds sur la chaise."
+    xp_reward: 15
+
+  - id: 83
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Mfunguza", "urugi"]
+    correct_sentence: "Mfunguza urugi."
+    translation: "J'ouvre la porte."
+    xp_reward: 15
+
+  - id: 84
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Mfunze", "idirishya"]
+    correct_sentence: "Mfunze idirishya."
+    translation: "Je ferme la fenêtre."
+    xp_reward: 15
+
+  - id: 85
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nsukura", "inzu"]
+    correct_sentence: "Nsukura inzu."
+    translation: "Je nettoie la maison."
+    xp_reward: 15
+
+  - id: 86
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nteka", "ibiryo", "mu gikoni"]
+    correct_sentence: "Nteka ibiryo mu gikoni."
+    translation: "Je cuisine de la nourriture dans la cuisine."
+    xp_reward: 20
+
+  - id: 87
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Umwana", "asinzira", "ku buriri"]
+    correct_sentence: "Umwana asinzira ku buriri."
+    translation: "L'enfant dort sur le lit."
+    xp_reward: 20
+
+  # 8. Compl?ter le texte - CHOOSE FROM OPTIONS
+  - id: 88
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Mfite ___."
+    options: ["inzu", "urugi", "idirishya"]
+    correct_answer: "inzu"
+    translation: "J'ai une maison."
+    xp_reward: 12
+
+  - id: 89
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Inzu ___."
+    options: ["nini", "ifite", "byinshi"]
+    correct_answer: "nini"
+    translation: "La maison est grande."
+    xp_reward: 12
+
+  - id: 90
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Urugi ___."
+    options: ["rurafunguye", "rirafunze", "nini"]
+    correct_answer: "rurafunguye"
+    translation: "La porte est ouverte."
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Idirishya ___."
+    options: ["rirafunze", "rurafunguye", "nini"]
+    correct_answer: "rirafunze"
+    translation: "La fenêtre est fermée."
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Inzu ifite ibyumba ___."
+    options: ["byinshi", "nini", "cyinshi"]
+    correct_answer: "byinshi"
+    translation: "La maison a beaucoup de pièces."
+    xp_reward: 15
+
+  - id: 93
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nsinzira mu cyumba ___."
+    options: ["cyo kuraramo", "cyo kwakiriramo", "cyo kuriramo"]
+    correct_answer: "cyo kuraramo"
+    translation: "Je dors dans la chambre."
+    xp_reward: 18
+
+  - id: 94
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nteka ___."
+    options: ["mu gikoni", "mu cyumba", "ku ntebe"]
+    correct_answer: "mu gikoni"
+    translation: "Je cuisine dans la cuisine."
+    xp_reward: 12
+
+  - id: 95
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nicara ___."
+    options: ["ku ntebe", "ku buriri", "mu gikoni"]
+    correct_answer: "ku ntebe"
+    translation: "Je m'assieds sur la chaise."
+    xp_reward: 12
+
+  - id: 96
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Mfunguza ___."
+    options: ["urugi", "idirishya", "inzu"]
+    correct_answer: "urugi"
+    translation: "J'ouvre la porte."
+    xp_reward: 12
+
+  - id: 97
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Mfunze ___."
+    options: ["idirishya", "urugi", "inzu"]
+    correct_answer: "idirishya"
+    translation: "Je ferme la fenêtre."
+    xp_reward: 12
+
+  - id: 98
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nsukura ___."
+    options: ["inzu", "urugi", "idirishya"]
+    correct_answer: "inzu"
+    translation: "Je nettoie la maison."
+    xp_reward: 12
+
+  - id: 99
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nteka ibiryo ___."
+    options: ["mu gikoni", "mu cyumba", "ku ntebe"]
+    correct_answer: "mu gikoni"
+    translation: "Je cuisine de la nourriture dans la cuisine."
+    xp_reward: 15
+
+  - id: 100
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Umwana asinzira ___."
+    options: ["ku buriri", "ku ntebe", "mu gikoni"]
+    correct_answer: "ku buriri"
+    translation: "L'enfant dort sur le lit."
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 101
+    type: picture_word
+    question: "Qu'est-ce que c'est ?"
+    image_url: "https://source.unsplash.com/featured/?house"
+    options: ["Inzu", "Urugo", "Icyumba"]
+    correct_answer: "Inzu"
+    xp_reward: 10
+
+  - id: 102
+    type: picture_word
+    question: "Qu'est-ce que c'est ?"
+    image_url: "https://source.unsplash.com/featured/?door"
+    options: ["Urugi", "Idirishya", "Urukuta"]
+    correct_answer: "Urugi"
+    xp_reward: 10
+
+  - id: 103
+    type: picture_word
+    question: "Qu'est-ce que c'est ?"
+    image_url: "https://source.unsplash.com/featured/?window"
+    options: ["Idirishya", "Urugi", "Igisenge"]
+    correct_answer: "Idirishya"
+    xp_reward: 10
+
+  - id: 104
+    type: picture_word
+    question: "Quelle pièce est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?kitchen"
+    options: ["Igikoni", "Ubwiherero", "Icyumba cyo kuraramo"]
+    correct_answer: "Igikoni"
+    xp_reward: 10
+
+  - id: 105
+    type: picture_word
+    question: "Quelle pièce est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?bedroom"
+    options: ["Icyumba cyo kuraramo", "Icyumba cyo kwakiriramo", "Icyumba cyo kuriramo"]
+    correct_answer: "Icyumba cyo kuraramo"
+    xp_reward: 15
+
+  - id: 106
+    type: picture_word
+    question: "Quelle pièce est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?bathroom"
+    options: ["Ubwiherero", "Igikoni", "Icyumba cyo kuraramo"]
+    correct_answer: "Ubwiherero"
+    xp_reward: 10
+
+  - id: 107
+    type: picture_word
+    question: "Quel meuble est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?bed"
+    options: ["Uburiri", "Intebe", "Ameza"]
+    correct_answer: "Uburiri"
+    xp_reward: 10
+
+  - id: 108
+    type: picture_word
+    question: "Quel meuble est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?chair"
+    options: ["Intebe", "Uburiri", "Sofa"]
+    correct_answer: "Intebe"
+    xp_reward: 10
+
+  - id: 109
+    type: picture_word
+    question: "Quel meuble est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?table"
+    options: ["Ameza", "Intebe", "Akabati"]
+    correct_answer: "Ameza"
+    xp_reward: 10
+
+  - id: 110
+    type: picture_word
+    question: "Quel meuble est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?sofa"
+    options: ["Sofa", "Intebe", "Uburiri"]
+    correct_answer: "Sofa"
+    xp_reward: 10
+
+  - id: 111
+    type: picture_word
+    question: "Qu'est-ce que c'est ?"
+    image_url: "https://source.unsplash.com/featured/?key"
+    options: ["Urufunguzo", "Urugi", "Itara"]
+    correct_answer: "Urufunguzo"
+    xp_reward: 10
+
+  # 10. Association de mots (Pairing)
+  - id: 112
+    type: matching
+    question: "Associez les parties de la maison"
+    pairs:
+      - left: "Maison"
+        right: "Inzu"
+      - left: "Foyer"
+        right: "Urugo"
+      - left: "Pièce"
+        right: "Icyumba"
+      - left: "Porte"
+        right: "Urugi"
+      - left: "Fenêtre"
+        right: "Idirishya"
+      - left: "Toit"
+        right: "Igisenge"
+      - left: "Mur"
+        right: "Urukuta"
+      - left: "Sol"
+        right: "Hasi"
+      - left: "Clé"
+        right: "Urufunguzo"
+    xp_reward: 25
+
+  - id: 113
+    type: matching
+    question: "Associez les pièces"
+    pairs:
+      - left: "Chambre"
+        right: "Icyumba cyo kuraramo"
+      - left: "Salon"
+        right: "Icyumba cyo kwakiriramo"
+      - left: "Cuisine"
+        right: "Igikoni"
+      - left: "Salle de bains"
+        right: "Ubwiherero"
+      - left: "Salle à manger"
+        right: "Icyumba cyo kuriramo"
+    xp_reward: 20
+
+  - id: 114
+    type: matching
+    question: "Associez les meubles"
+    pairs:
+      - left: "Lit"
+        right: "Uburiri"
+      - left: "Table"
+        right: "Ameza"
+      - left: "Chaise"
+        right: "Intebe"
+      - left: "Canapé"
+        right: "Sofa"
+      - left: "Lampe"
+        right: "Itara"
+      - left: "Armoire"
+        right: "Akabati"
+    xp_reward: 20
+
+  - id: 115
+    type: matching
+    question: "Associez les actions"
+    pairs:
+      - left: "J'ouvre"
+        right: "Mfunguza"
+      - left: "Je ferme"
+        right: "Mfunze"
+      - left: "Je nettoie"
+        right: "Nsukura"
+      - left: "Je cuisine"
+        right: "Nteka"
+      - left: "Je dors"
+        right: "Nsinzira"
+      - left: "Je m'assieds"
+        right: "Nicara"
+    xp_reward: 18
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 116
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Mfite ___."
+    missing_word_position: 2
+    options: ["inzu", "urugi", "idirishya"]
+    correct_answer: "inzu"
+    translation: "J'ai une maison."
+    xp_reward: 12
+
+  - id: 117
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Inzu ___."
+    missing_word_position: 2
+    options: ["nini", "ifite", "byinshi"]
+    correct_answer: "nini"
+    translation: "La maison est grande."
+    xp_reward: 12
+
+  - id: 118
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Urugi ___."
+    missing_word_position: 2
+    options: ["rurafunguye", "rirafunze", "nini"]
+    correct_answer: "rurafunguye"
+    translation: "La porte est ouverte."
+    xp_reward: 15
+
+  - id: 119
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Idirishya ___."
+    missing_word_position: 2
+    options: ["rirafunze", "rurafunguye", "nini"]
+    correct_answer: "rirafunze"
+    translation: "La fenêtre est fermée."
+    xp_reward: 15
+
+  - id: 120
+    type: choose_missing
+    question: "Choisissez la bonne expression"
+    sentence: "Nsinzira ___."
+    missing_word_position: 2
+    options: ["mu cyumba cyo kuraramo", "mu gikoni", "ku ntebe"]
+    correct_answer: "mu cyumba cyo kuraramo"
+    translation: "Je dors dans la chambre."
+    xp_reward: 18
+
+  - id: 121
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Nteka ___."
+    missing_word_position: 2
+    options: ["mu gikoni", "mu cyumba", "ku ntebe"]
+    correct_answer: "mu gikoni"
+    translation: "Je cuisine dans la cuisine."
+    xp_reward: 12
+
+  - id: 122
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Nicara ___."
+    missing_word_position: 2
+    options: ["ku ntebe", "ku buriri", "mu gikoni"]
+    correct_answer: "ku ntebe"
+    translation: "Je m'assieds sur la chaise."
+    xp_reward: 12
+
+  # 13. Read and Answer - Questions based on text
+  - id: 123
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Mfite inzu. Inzu nini. Ifite ibyumba byinshi."
+    question: "Qu'est-ce que j'ai ?"
+    options: ["Une voiture", "Une maison", "Un lit", "Une table"]
+    correct_answer: "Une maison"
+    xp_reward: 12
+
+  - id: 124
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Urugi rurafunguye. Idirishya rirafunze."
+    question: "La fenêtre est ouverte ou fermée ?"
+    options: ["Ouverte", "Fermée", "Grande", "Petite"]
+    correct_answer: "Fermée"
+    xp_reward: 15
+
+  - id: 125
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Nteka mu gikoni. Nsinzira mu cyumba cyo kuraramo."
+    question: "Où est-ce que je cuisine ?"
+    options: ["Dans la chambre", "Dans la cuisine", "Dans le salon", "Dans la salle de bains"]
+    correct_answer: "Dans la cuisine"
+    xp_reward: 15
+
+  - id: 126
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Umwana asinzira ku buriri. Nicara ku ntebe."
+    question: "Où dort l'enfant ?"
+    options: ["Sur la chaise", "Sur le lit", "Sur la table", "Sur le canapé"]
+    correct_answer: "Sur le lit"
+    xp_reward: 15
+
+  - id: 127
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Nsukura inzu. Mfunguza urugi. Mfunze idirishya."
+    question: "Qu'est-ce que je ferme ?"
+    options: ["La porte", "La fenêtre", "La maison", "La pièce"]
+    correct_answer: "La fenêtre"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 128
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Inzu means 'house'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 129
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Urugi means 'window'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 130
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Igikoni means 'kitchen'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 131
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Uburiri means 'chair'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 132
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Mfite inzu means 'I have a house'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 133
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Urugi rurafunguye means 'The window is open'."
+    correct_answer: false
+    xp_reward: 15
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 134
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Ufite inzu?"
+    translation: "Avez-vous une maison ?"
+    word_bank: ["Mfite", "inzu", "nini", "ntifite"]
+    correct_response: ["Mfite", "inzu"]
+    xp_reward: 15
+
+  - id: 135
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Urugi rurafunguye?"
+    translation: "La porte est-elle ouverte ?"
+    options:
+      - "Yego, rurafunguye"
+      - "Oya, rurafunze"
+      - "Inzu nini"
+    correct_response: "Yego, rurafunguye"
+    xp_reward: 15
+
+  - id: 136
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Uteka he?"
+    translation: "Où cuisinez-vous ?"
+    word_bank: ["Nteka", "mu gikoni", "mu cyumba", "nsinzira"]
+    correct_response: ["Nteka", "mu gikoni"]
+    xp_reward: 15
+
+  - id: 137
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Usinzira he?"
+    translation: "Où dormez-vous ?"
+    options:
+      - "Mu cyumba cyo kuraramo"
+      - "Mu gikoni"
+      - "Ku ntebe"
+    correct_response: "Mu cyumba cyo kuraramo"
+    xp_reward: 18
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 138
+    type: story
+    title: "Ma maison - Inzu Yanjye"
+    story_intro: "Lisez l'histoire de ma maison. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "I have a house."
+      - text: "The house is big."
+      - text: "The house has many rooms."
+      - text: "I sleep in the bedroom."
+      - text: "I cook in the kitchen."
+      - text: "I sit on the chair."
+      - text: "I clean the house."
+    exercises:
+      - type: word_bank
+        question: "Construisez 'J'ai une maison'"
+        word_bank: ["Mfite", "inzu", "nini", "ifite"]
+        correct_answer: ["Mfite", "inzu"]
+      - type: word_bank
+        question: "Construisez 'La maison est grande'"
+        word_bank: ["Inzu", "nini", "ifite", "ibyumba"]
+        correct_answer: ["Inzu", "nini"]
+      - type: word_bank
+        question: "Construisez 'La maison a beaucoup de pièces'"
+        word_bank: ["Inzu", "ifite", "ibyumba", "byinshi"]
+        correct_answer: ["Inzu", "ifite", "ibyumba", "byinshi"]
+      - type: word_bank
+        question: "Construisez 'Je dors dans la chambre'"
+        word_bank: ["Nsinzira", "mu cyumba", "cyo kuraramo", "nte ka"]
+        correct_answer: ["Nsinzira", "mu cyumba", "cyo kuraramo"]
+      - type: word_bank
+        question: "Construisez 'Je cuisine dans la cuisine'"
+        word_bank: ["Nteka", "mu gikoni", "nsinzira", "mu cyumba"]
+        correct_answer: ["Nteka", "mu gikoni"]
+      - type: word_bank
+        question: "Construisez 'Je m'assieds sur la chaise'"
+        word_bank: ["Nicara", "ku ntebe", "ku buriri", "mu gikoni"]
+        correct_answer: ["Nicara", "ku ntebe"]
+      - type: word_bank
+        question: "Construisez 'Je nettoie la maison'"
+        word_bank: ["Nsukura", "inzu", "mfunguza", "urugi"]
+        correct_answer: ["Nsukura", "inzu"]
+    xp_reward: 45
+
+  # 17. Pronunciation Check
+  - id: 139
+    type: pronunciation
+    question: "Dites ce mot de la maison"
+    prompt: "Inzu"
+    translation: "Maison"
+    xp_reward: 15
+
+  - id: 140
+    type: pronunciation
+    question: "Dites ce mot de la maison"
+    prompt: "Urugi"
+    translation: "Porte"
+    xp_reward: 15
+
+  - id: 141
+    type: pronunciation
+    question: "Dites cette pièce"
+    prompt: "Igikoni"
+    translation: "Cuisine"
+    xp_reward: 15
+
+  - id: 142
+    type: pronunciation
+    question: "Dites ce meuble"
+    prompt: "Uburiri"
+    translation: "Lit"
+    xp_reward: 15
+
+  - id: 143
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Mfite inzu"
+    translation: "J'ai une maison"
+    xp_reward: 18
+
+  - id: 144
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Urugi rurafunguye"
+    translation: "La porte est ouverte"
+    xp_reward: 18
+
+  # 18. Identify Correct Meaning
+  - id: 145
+    type: identify_meaning
+    question: "Que signifie 'Mfite' dans cette phrase ?"
+    context_sentence: "Mfite inzu."
+    word: "Mfite"
+    options: ["J'ai", "Je vois", "Je veux", "J'achète"]
+    correct_answer: "J'ai"
+    xp_reward: 15
+
+  - id: 146
+    type: identify_meaning
+    question: "Que signifie 'nini' dans cette phrase ?"
+    context_sentence: "Inzu nini."
+    word: "nini"
+    options: ["petite", "grande", "nouvelle", "vieille"]
+    correct_answer: "grande"
+    xp_reward: 15
+
+  - id: 147
+    type: identify_meaning
+    question: "Que signifie 'rurafunguye' dans cette phrase ?"
+    context_sentence: "Urugi rurafunguye."
+    word: "rurafunguye"
+    options: ["est fermée", "est ouverte", "est grande", "est petite"]
+    correct_answer: "est ouverte"
+    xp_reward: 18
+
+  - id: 148
+    type: identify_meaning
+    question: "Que signifie 'Nteka' dans cette phrase ?"
+    context_sentence: "Nteka mu gikoni."
+    word: "Nteka"
+    options: ["Je dors", "Je cuisine", "Je mange", "Je m'assieds"]
+    correct_answer: "Je cuisine"
+    xp_reward: 15
+
+  - id: 149
+    type: identify_meaning
+    question: "Que signifie 'asinzira' dans cette phrase ?"
+    context_sentence: "Umwana asinzira ku buriri."
+    word: "asinzira"
+    options: ["mange", "dort", "joue", "cuisine"]
+    correct_answer: "dort"
+    xp_reward: 15
+
+  # 19. Speed Matching
+  - id: 150
+    type: speed_matching
+    title: "Match Madness : Maison"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Maison"
+        right: "Inzu"
+      - left: "Porte"
+        right: "Urugi"
+      - left: "Fenêtre"
+        right: "Idirishya"
+      - left: "Cuisine"
+        right: "Igikoni"
+      - left: "Chambre"
+        right: "Icyumba cyo kuraramo"
+      - left: "Salle de bains"
+        right: "Ubwiherero"
+      - left: "Lit"
+        right: "Uburiri"
+      - left: "Chaise"
+        right: "Intebe"
+      - left: "Table"
+        right: "Ameza"
+      - left: "Clé"
+        right: "Urufunguzo"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 151
+    type: timed_challenge
+    title: "Tour éclair : Maison"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Maison"
+        answer: "Inzu"
+      - question: "Porte"
+        answer: "Urugi"
+      - question: "Fenêtre"
+        answer: "Idirishya"
+      - question: "Cuisine"
+        answer: "Igikoni"
+      - question: "Lit"
+        answer: "Uburiri"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Inzu"
+      back: "Maison"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Urugo"
+      back: "Foyer"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Icyumba"
+      back: "Pièce"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Urugi"
+      back: "Porte"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Idirishya"
+      back: "Fenêtre"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Igisenge"
+      back: "Toit"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Urukuta"
+      back: "Mur"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Hasi"
+      back: "Sol"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Urufunguzo"
+      back: "Clé"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Icyumba cyo kuraramo"
+      back: "Chambre"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

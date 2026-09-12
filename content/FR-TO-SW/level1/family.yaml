@@ -1,0 +1,1058 @@
+lesson:
+  name: "Familia"
+  description: "Apprenez les noms des membres de la famille en Kiswahili"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Family Members ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Mère' en Kiswahili ?"
+    answer: "Mama"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Père' en Kiswahili ?"
+    answer: "Baba"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Frère' en Kiswahili ?"
+    answer: "Kaka"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Sœur' en Kiswahili ?"
+    answer: "Dada"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Enfant' en Kiswahili ?"
+    answer: "Mtoto"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Grand-mère' en Kiswahili ?"
+    answer: "Bibi"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Grand-père' en Kiswahili ?"
+    answer: "Bab"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Mari' en Kiswahili ?"
+    answer: "Mume"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Femme' en Kiswahili ?"
+    answer: "Mke"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Oncle paternel' en Kiswahili ?"
+    answer: "Mjomba (baba)"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Oncle maternel' en Kiswahili ?"
+    answer: "Mjomba (mama)"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Tante paternelle' en Kiswahili ?"
+    answer: "Shangazi (baba)"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Tante maternelle' en Kiswahili ?"
+    answer: "Shangazi (mama)"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Petit-enfant' en Kiswahili ?"
+    answer: "Mjukuu"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Arrière-petit-enfant' en Kiswahili ?"
+    answer: "Mkukuu"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Gendre' en Kiswahili ?"
+    answer: "Mkwe wanaume"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Beau-père' en Kiswahili ?"
+    answer: "Baba mkwe"
+    xp_reward: 10
+
+  # Translation - Greetings & Basic Phrases (Safe as fixed expressions)
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Bonjour, maman !' en Kiswahili ?"
+    answer: "Habari, Mama!"
+    xp_reward: 12
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Bonjour, papa !' en Kiswahili ?"
+    answer: "Habari, Baba!"
+    xp_reward: 12
+
+  - id: 20
+    type: translation
+    question: "Comment demande-t-on 'Comment va la famille ?' en Kiswahili ?"
+    answer: "Familia ikoje?"
+    xp_reward: 15
+
+  # Translation - Possession (Simple phrases with "have")
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'J'ai un frère' en Kiswahili ?"
+    answer: "Nina Kaka."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'J'ai une sœur' en Kiswahili ?"
+    answer: "Nina Dada."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Mon grand-père a une maison' en Kiswahili ?"
+    answer: "Bab ana nyumba."
+    xp_reward: 15
+
+  # NO DIRECT TRANSLATION FOR COMPLEX SENTENCES OR PARAGRAPHS
+  # Instead, we use sentence building, matching, and word bank exercises
+
+  # 2. Multiple Choice
+  - id: 24
+    type: multiple_choice
+    question: "Que signifie 'Mama' ?"
+    options:
+      - "Père"
+      - "Mère"
+      - "Frère"
+      - "Sœur"
+    answer: "Mère"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "Que signifie 'Baba' ?"
+    options:
+      - "Mère"
+      - "Père"
+      - "Grand-père"
+      - "Oncle"
+    answer: "Père"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "Que signifie 'Kaka' ?"
+    options:
+      - "Sœur"
+      - "Frère"
+      - "Enfant"
+      - "Mari"
+    answer: "Frère"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "Que signifie 'Dada' ?"
+    options:
+      - "Frère"
+      - "Sœur"
+      - "Mère"
+      - "Tante"
+    answer: "Sœur"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "Que signifie 'Bibi' ?"
+    options:
+      - "Grand-père"
+      - "Grand-mère"
+      - "Tante"
+      - "Oncle"
+    answer: "Grand-mère"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "Que signifie 'Bab' ?"
+    options:
+      - "Grand-mère"
+      - "Grand-père"
+      - "Beau-père"
+      - "Oncle"
+    answer: "Grand-père"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "Que signifie 'Mjomba (baba)' ?"
+    options:
+      - "Oncle maternel"
+      - "Oncle paternel"
+      - "Beau-père"
+      - "Grand-père"
+    answer: "Oncle paternel"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "Que signifie 'Mjomba (mama)' ?"
+    options:
+      - "Oncle paternel"
+      - "Oncle maternel"
+      - "Frère"
+      - "Gendre"
+    answer: "Oncle maternel"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation) - Safe because audio is provided
+  - id: 32
+    type: listen_and_type
+    question: "Écoutez et tapez le membre de la famille"
+    tts_text: "Mama"
+    answer: "Mama"
+    translation: "Mère"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Écoutez et tapez le membre de la famille"
+    tts_text: "Baba"
+    answer: "Baba"
+    translation: "Père"
+    xp_reward: 20
+
+  - id: 34
+    type: listen_and_type
+    question: "Écoutez et tapez le membre de la famille"
+    tts_text: "Bibi"
+    answer: "Bibi"
+    translation: "Grand-mère"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Mama yuko nyumbani"
+    answer: "Mama yuko nyumbani"
+    translation: "Maman est à la maison"
+    xp_reward: 25
+
+  - id: 36
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Baba yuko kazini"
+    answer: "Baba yuko kazini"
+    translation: "Papa travaille"
+    xp_reward: 25
+
+  - id: 37
+    type: listen_and_type
+    question: "Écoutez et tapez la question"
+    tts_text: "Familia ikoje"
+    answer: "Familia ikoje"
+    translation: "Comment va la famille ?"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 38
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon membre de la famille"
+    tts_text: "Mama"
+    options:
+      - "Père"
+      - "Mère"
+      - "Frère"
+    answer: "Mère"
+    xp_reward: 15
+
+  - id: 39
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon membre de la famille"
+    tts_text: "Baba"
+    options:
+      - "Mère"
+      - "Père"
+      - "Sœur"
+    answer: "Père"
+    xp_reward: 15
+
+  - id: 40
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon membre de la famille"
+    tts_text: "Kaka"
+    options:
+      - "Sœur"
+      - "Frère"
+      - "Enfant"
+    answer: "Frère"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    tts_text: "Mama yuko nyumbani"
+    options:
+      - "Maman est à la maison"
+      - "Papa travaille"
+      - "Frère joue"
+    answer: "Maman est à la maison"
+    xp_reward: 20
+
+  # 5. Repeat / Speaking Exercise
+  - id: 42
+    type: speaking
+    question: "Dites ce membre de la famille"
+    prompt: "Mama"
+    translation: "Mère"
+    xp_reward: 15
+
+  - id: 43
+    type: speaking
+    question: "Dites ce membre de la famille"
+    prompt: "Baba"
+    translation: "Père"
+    xp_reward: 15
+
+  - id: 44
+    type: speaking
+    question: "Dites ce membre de la famille"
+    prompt: "Bibi"
+    translation: "Grand-mère"
+    xp_reward: 18
+
+  - id: 45
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Mama yuko nyumbani"
+    translation: "Maman est à la maison"
+    xp_reward: 20
+
+  - id: 46
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Baba yuko kazini"
+    translation: "Papa travaille"
+    xp_reward: 20
+
+  - id: 47
+    type: speaking
+    question: "Dites cette question"
+    prompt: "Familia ikoje"
+    translation: "Comment va la famille ?"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+  - id: 48
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Maman est à la maison'"
+    word_bank: ["Mama", "yuko", "nyumbani", "Baba", "kazini", "yuko"]
+    correct_answer: ["Mama", "yuko", "nyumbani"]
+    xp_reward: 20
+
+  - id: 49
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Papa travaille'"
+    word_bank: ["Baba", "yuko", "kazini", "Mama", "nyumbani", "yuko"]
+    correct_answer: ["Baba", "yuko", "kazini"]
+    xp_reward: 20
+
+  - id: 50
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Mon frère joue dehors'"
+    word_bank: ["Kaka", "anacheza", "nje", "Dada", "anasoma", "kitabu"]
+    correct_answer: ["Kaka", "anacheza", "nje"]
+    xp_reward: 22
+
+  - id: 51
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Ma sœur lit un livre'"
+    word_bank: ["Dada", "anasoma", "kitabu", "Kaka", "anacheza", "nje"]
+    correct_answer: ["Dada", "anasoma", "kitabu"]
+    xp_reward: 22
+
+  - id: 52
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'J'aime ma grand-mère'"
+    word_bank: ["Nampenda", "Bibi", "Bab", "ni", "mzee", "sana"]
+    correct_answer: ["Nampenda", "Bibi"]
+    xp_reward: 20
+
+  - id: 53
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Mon grand-père est très vieux'"
+    word_bank: ["Bab", "ni", "mzee", "sana", "Bibi", "anapika"]
+    correct_answer: ["Bab", "ni", "mzee", "sana"]
+    xp_reward: 22
+
+  - id: 54
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'J'ai un frère'"
+    word_bank: ["Nina", "Kaka", "Dada", "Mtoto"]
+    correct_answer: ["Nina", "Kaka"]
+    xp_reward: 18
+
+  - id: 55
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Mon grand-père a une maison'"
+    word_bank: ["Bab", "ana", "nyumba", "Bibi", "anapika", "chakula"]
+    correct_answer: ["Bab", "ana", "nyumba"]
+    xp_reward: 20
+
+  - id: 56
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Ma grand-mère cuisine de la nourriture'"
+    word_bank: ["Bibi", "anapika", "chakula", "Bab", "ana", "nyumba"]
+    correct_answer: ["Bibi", "anapika", "chakula"]
+    xp_reward: 22
+
+  - id: 57
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Mon oncle paternel a une chèvre'"
+    word_bank: ["Mjomba", "(baba)", "ana", "mbuzi", "Mjomba", "(mama)", "ng'ombe", "ana"]
+    correct_answer: ["Mjomba", "(baba)", "ana", "mbuzi"]
+    xp_reward: 22
+
+  - id: 58
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Mon oncle maternel a une vache'"
+    word_bank: ["Mjomba", "(mama)", "ana", "ng'ombe", "Mjomba", "(baba)", "mbuzi", "ana"]
+    correct_answer: ["Mjomba", "(mama)", "ana", "ng'ombe"]
+    xp_reward: 22
+
+  - id: 59
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Ma tante paternelle est gentille'"
+    word_bank: ["Shangazi", "(baba)", "ni", "mwema", "Shangazi", "(mama)", "ni", "mwema", "sana"]
+    correct_answer: ["Shangazi", "(baba)", "ni", "mwema"]
+    xp_reward: 20
+
+  - id: 60
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Ma tante maternelle est très gentille'"
+    word_bank: ["Shangazi", "(mama)", "ni", "mwema", "sana", "Shangazi", "(baba)", "ni", "mwema"]
+    correct_answer: ["Shangazi", "(mama)", "ni", "mwema", "sana"]
+    xp_reward: 22
+
+  - id: 61
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Mon enfant joue'"
+    word_bank: ["Mtoto", "anacheza", "Mjukuu", "anapenda", "kusoma"]
+    correct_answer: ["Mtoto", "anacheza"]
+    xp_reward: 18
+
+  - id: 62
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Mon petit-enfant aime lire'"
+    word_bank: ["Mjukuu", "anapenda", "kusoma", "Mtoto", "anacheza"]
+    correct_answer: ["Mjukuu", "anapenda", "kusoma"]
+    xp_reward: 22
+
+  - id: 63
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Mon arrière-petit-enfant dort'"
+    word_bank: ["Mkukuu", "analala", "Mjukuu", "anapenda", "kusoma"]
+    correct_answer: ["Mkukuu", "analala"]
+    xp_reward: 20
+
+  - id: 64
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Mon gendre est serviable'"
+    word_bank: ["Mkwe", "wanaume", "ni", "msaidizi", "Baba", "mkwe", "ni", "mwema"]
+    correct_answer: ["Mkwe", "wanaume", "ni", "msaidizi"]
+    xp_reward: 20
+
+  - id: 65
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Mon beau-père est sage'"
+    word_bank: ["Baba", "mkwe", "ni", "mwema", "Mkwe", "wanaume", "ni", "msaidizi"]
+    correct_answer: ["Baba", "mkwe", "ni", "mwema"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 66
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["yuko", "Mama", "nyumbani"]
+    correct_sentence: "Mama yuko nyumbani"
+    translation: "Maman est à la maison"
+    xp_reward: 20
+
+  - id: 67
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["yuko", "Baba", "kazini"]
+    correct_sentence: "Baba yuko kazini"
+    translation: "Papa travaille"
+    xp_reward: 20
+
+  - id: 68
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["anacheza", "Kaka", "nje"]
+    correct_sentence: "Kaka anacheza nje"
+    translation: "Mon frère joue dehors"
+    xp_reward: 22
+
+  - id: 69
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["anasoma", "Dada", "kitabu"]
+    correct_sentence: "Dada anasoma kitabu"
+    translation: "Ma sœur lit un livre"
+    xp_reward: 22
+
+  - id: 70
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["Nampenda", "Bibi"]
+    correct_sentence: "Nampenda Bibi"
+    translation: "J'aime ma grand-mère"
+    xp_reward: 18
+
+  - id: 71
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["ni", "Bab", "mzee", "sana"]
+    correct_sentence: "Bab ni mzee sana"
+    translation: "Mon grand-père est très vieux"
+    xp_reward: 20
+
+  - id: 72
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["ana", "Bab", "nyumba"]
+    correct_sentence: "Bab ana nyumba"
+    translation: "Mon grand-père a une maison"
+    xp_reward: 20
+
+  - id: 73
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en Kiswahili"
+    scrambled_words: ["anapika", "Bibi", "chakula"]
+    correct_sentence: "Bibi anapika chakula"
+    translation: "Ma grand-mère cuisine de la nourriture"
+    xp_reward: 22
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 74
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Mama ___ nyumbani."
+    options: ["yuko", "ni", "ana"]
+    correct_answer: "yuko"
+    translation: "Maman est à la maison"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Baba ___ kazini."
+    options: ["yuko", "ni", "ana"]
+    correct_answer: "yuko"
+    translation: "Papa travaille"
+    xp_reward: 15
+
+  - id: 76
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Kaka ___ nje."
+    options: ["anacheza", "anasoma", "yuko"]
+    correct_answer: "anacheza"
+    translation: "Mon frère joue dehors"
+    xp_reward: 18
+
+  - id: 77
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Dada ___ kitabu."
+    options: ["anasoma", "anacheza", "yuko"]
+    correct_answer: "anasoma"
+    translation: "Ma sœur lit un livre"
+    xp_reward: 18
+
+  - id: 78
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Nampenda ___."
+    options: ["Bibi", "Bab", "Baba"]
+    correct_answer: "Bibi"
+    translation: "J'aime ma grand-mère"
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Bab ni mzee ___."
+    options: ["sana", "kidogo", "pia"]
+    correct_answer: "sana"
+    translation: "Mon grand-père est très vieux"
+    xp_reward: 15
+
+  - id: 80
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Bab ___ nyumba."
+    options: ["ana", "yuko", "ni"]
+    correct_answer: "ana"
+    translation: "Mon grand-père a une maison"
+    xp_reward: 15
+
+  - id: 81
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Bibi anapika ___."
+    options: ["chakula", "maji", "nyama"]
+    correct_answer: "chakula"
+    translation: "Ma grand-mère cuisine de la nourriture"
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 82
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Mama", "Baba", "Bibi", "Bab"]
+    correct_answer: "Mama"
+    xp_reward: 10
+
+  - id: 83
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Mama", "Baba", "Kaka", "Dada"]
+    correct_answer: "Baba"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Bibi", "Bab", "Mama", "Baba"]
+    correct_answer: "Bibi"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1581007115376-1f8732065a2a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Bab", "Bibi", "Baba", "Mjomba"]
+    correct_answer: "Bab"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Kaka", "Dada", "Mtoto", "Baba"]
+    correct_answer: "Kaka"
+    xp_reward: 10
+
+  - id: 87
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Dada", "Kaka", "Mama", "Bibi"]
+    correct_answer: "Dada"
+    xp_reward: 10
+
+  - id: 88
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Mtoto", "Mjukuu", "Kaka", "Dada"]
+    correct_answer: "Mtoto"
+    xp_reward: 10
+
+  # 10. Word Matching (Pairing)
+  - id: 90
+    type: matching
+    question: "Associez les membres de la famille"
+    pairs:
+      - left: "Mère"
+        right: "Mama"
+      - left: "Père"
+        right: "Baba"
+      - left: "Frère"
+        right: "Kaka"
+      - left: "Sœur"
+        right: "Dada"
+      - left: "Enfant"
+        right: "Mtoto"
+      - left: "Grand-mère"
+        right: "Bibi"
+      - left: "Grand-père"
+        right: "Bab"
+      - left: "Mari"
+        right: "Mume"
+      - left: "Femme"
+        right: "Mke"
+    xp_reward: 25
+
+  - id: 91
+    type: matching
+    question: "Associez les membres de la famille élargie"
+    pairs:
+      - left: "Oncle paternel"
+        right: "Mjomba (baba)"
+      - left: "Oncle maternel"
+        right: "Mjomba (mama)"
+      - left: "Tante paternelle"
+        right: "Shangazi (baba)"
+      - left: "Tante maternelle"
+        right: "Shangazi (mama)"
+      - left: "Petit-enfant"
+        right: "Mjukuu"
+      - left: "Arrière-petit-enfant"
+        right: "Mkukuu"
+      - left: "Gendre"
+        right: "Mkwe wanaume"
+      - left: "Beau-père"
+        right: "Baba mkwe"
+    xp_reward: 25
+
+  - id: 92
+    type: matching
+    question: "Associez les actions avec les membres de la famille"
+    pairs:
+      - left: "est à la maison"
+        right: "yuko nyumbani"
+      - left: "travaille"
+        right: "yuko kazini"
+      - left: "joue dehors"
+        right: "anacheza nje"
+      - left: "lit un livre"
+        right: "anasoma kitabu"
+      - left: "cuisine de la nourriture"
+        right: "anapika chakula"
+      - left: "a une maison"
+        right: "ana nyumba"
+    xp_reward: 25
+
+  # 11. Choose Missing Word
+  - id: 97
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Mama ___ nyumbani."
+    missing_word_position: 2
+    options: ["yuko", "ni", "ana"]
+    correct_answer: "yuko"
+    translation: "Maman est à la maison"
+    xp_reward: 15
+
+  - id: 98
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Baba ___ kazini."
+    missing_word_position: 2
+    options: ["yuko", "ni", "ana"]
+    correct_answer: "yuko"
+    translation: "Papa travaille"
+    xp_reward: 15
+
+  - id: 99
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Kaka ___ nje."
+    missing_word_position: 2
+    options: ["anacheza", "anasoma", "yuko"]
+    correct_answer: "anacheza"
+    translation: "Mon frère joue dehors"
+    xp_reward: 18
+
+  # 12. Read and Answer - Questions in French, answers based on Kiswahili text
+  - id: 100
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Mama yuko nyumbani. Baba yuko kazini."
+    question: "Où est la mère ?"
+    options: ["À la maison", "Au travail", "Dehors", "Au marché"]
+    correct_answer: "À la maison"
+    xp_reward: 20
+
+  - id: 101
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Kaka anacheza nje. Dada anasoma kitabu."
+    question: "Que fait la sœur ?"
+    options: ["Joue", "Lit un livre", "Travaille", "Cuisine"]
+    correct_answer: "Lit un livre"
+    xp_reward: 22
+
+  - id: 102
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Bibi anapika chakula. Bab ana nyumba."
+    question: "Qu'est-ce que le grand-père a ?"
+    options: ["Une vache", "Une maison", "Une chèvre", "Un livre"]
+    correct_answer: "Une maison"
+    xp_reward: 20
+
+  - id: 103
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Mjomba (baba) ana mbuzi. Mjomba (mama) ana ng'ombe."
+    question: "Qu'est-ce que l'oncle maternel a ?"
+    options: ["Une chèvre", "Une vache", "Une maison", "Un poulet"]
+    correct_answer: "Une vache"
+    xp_reward: 22
+
+  # 13. True / False
+  - id: 104
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Mama ni mwanamke."
+    translation: "La mère est une femme"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 105
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Baba ni mwanamke."
+    translation: "Le père est une femme"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 106
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Bibi ni mzee sana."
+    translation: "La grand-mère est très vieille"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 107
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Mtoto anacheza nje."
+    translation: "L'enfant joue dehors"
+    correct_answer: true
+    xp_reward: 10
+
+  # 14. Conversation Exercise - Build responses from pieces
+  - id: 108
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Mama yuko wapi?"
+    translation: "Où est maman ?"
+    word_bank: ["Mama", "yuko", "nyumbani", "Baba", "yuko", "kazini"]
+    correct_response: ["Mama", "yuko", "nyumbani"]
+    xp_reward: 20
+
+  - id: 109
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Familia ikoje?"
+    translation: "Comment va la famille ?"
+    options:
+      - "Iko vizuri"
+      - "Iko mbaya"
+      - "Haiko sawa"
+    correct_response: "Iko vizuri"
+    xp_reward: 15
+
+  - id: 110
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Baba yuko wapi?"
+    translation: "Où est papa ?"
+    word_bank: ["Baba", "yuko", "kazini", "Mama", "yuko", "nyumbani"]
+    correct_response: ["Baba", "yuko", "kazini"]
+    xp_reward: 20
+
+  # 15. Story Exercise - Build sentences from pieces
+  - id: 111
+    type: story
+    title: "Ma famille - Familia Yangu"
+    story_intro: "Lisez l'histoire sur la famille. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "Ma mère est à la maison."
+        image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+      - text: "Mon père travaille."
+      - text: "Mon frère joue dehors."
+      - text: "Ma sœur lit un livre."
+      - text: "Ma grand-mère cuisine de la nourriture."
+      - text: "Mon grand-père a une maison."
+    exercises:
+      - type: word_bank
+        question: "Construisez la phrase en Kiswahili pour 'Ma mère est à la maison'"
+        word_bank: ["Mama", "yuko", "nyumbani", "Baba", "kazini", "yuko"]
+        correct_answer: ["Mama", "yuko", "nyumbani"]
+      - type: word_bank
+        question: "Construisez la phrase en Kiswahili pour 'Mon père travaille'"
+        word_bank: ["Baba", "yuko", "kazini", "Mama", "nyumbani", "yuko"]
+        correct_answer: ["Baba", "yuko", "kazini"]
+      - type: word_bank
+        question: "Construisez la phrase en Kiswahili pour 'Mon frère joue dehors'"
+        word_bank: ["Kaka", "anacheza", "nje", "Dada", "anasoma", "kitabu"]
+        correct_answer: ["Kaka", "anacheza", "nje"]
+      - type: word_bank
+        question: "Construisez la phrase en Kiswahili pour 'Ma grand-mère cuisine de la nourriture'"
+        word_bank: ["Bibi", "anapika", "chakula", "Bab", "ana", "nyumba"]
+        correct_answer: ["Bibi", "anapika", "chakula"]
+    xp_reward: 40
+
+  # 16. Pronunciation Check
+  - id: 112
+    type: pronunciation
+    question: "Dites ce membre de la famille"
+    prompt: "Mama"
+    translation: "Mère"
+    xp_reward: 15
+
+  - id: 113
+    type: pronunciation
+    question: "Dites ce membre de la famille"
+    prompt: "Bibi"
+    translation: "Grand-mère"
+    xp_reward: 18
+
+  - id: 114
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Mama yuko nyumbani"
+    translation: "Maman est à la maison"
+    xp_reward: 20
+
+  # 17. Identify Correct Meaning
+  - id: 115
+    type: identify_meaning
+    question: "Que signifie 'Mama' dans cette phrase ?"
+    context_sentence: "Mama yuko nyumbani."
+    word: "Mama"
+    options: ["père", "mère", "frère", "sœur"]
+    correct_answer: "mère"
+    xp_reward: 15
+
+  - id: 116
+    type: identify_meaning
+    question: "Que signifie 'anacheza' dans cette phrase ?"
+    context_sentence: "Kaka anacheza nje."
+    word: "anacheza"
+    options: ["anasoma", "anacheza", "anafanya kazi", "anapika"]
+    correct_answer: "anacheza"
+    xp_reward: 18
+
+  - id: 117
+    type: identify_meaning
+    question: "Que signifie 'anapika' dans cette phrase ?"
+    context_sentence: "Bibi anapika chakula."
+    word: "anapika"
+    options: ["anakula", "anapika", "ana", "anapenda"]
+    correct_answer: "anapika"
+    xp_reward: 18
+
+  # 18. Speed Matching
+  - id: 118
+    type: speed_matching
+    title: "Match Madness : Familia"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Mère"
+        right: "Mama"
+      - left: "Père"
+        right: "Baba"
+      - left: "Frère"
+        right: "Kaka"
+      - left: "Sœur"
+        right: "Dada"
+      - left: "Grand-mère"
+        right: "Bibi"
+      - left: "Grand-père"
+        right: "Bab"
+      - left: "Enfant"
+        right: "Mtoto"
+      - left: "Mari"
+        right: "Mume"
+      - left: "Femme"
+        right: "Mke"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 119
+    type: timed_challenge
+    title: "Tour éclair : Familia"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Mère"
+        answer: "Mama"
+      - question: "Père"
+        answer: "Baba"
+      - question: "Frère"
+        answer: "Kaka"
+      - question: "Sœur"
+        answer: "Dada"
+      - question: "Grand-mère"
+        answer: "Bibi"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Mama"
+      back: "Mère"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Baba"
+      back: "Père"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Kaka"
+      back: "Frère"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Dada"
+      back: "Sœur"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Mtoto"
+      back: "Enfant"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Bibi"
+      back: "Grand-mère"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Bab"
+      back: "Grand-père"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Mume"
+      back: "Mari"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Mke"
+      back: "Femme"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Mjomba (baba)"
+      back: "Oncle paternel"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

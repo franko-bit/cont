@@ -1,0 +1,1221 @@
+lesson:
+ name: "Numbers - Imibare mu Kinyarwanda"
+ description: "Funda numbers in Kinyarwanda from 0 to 1,000,000"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Numbers ONLY (Safe for single words)
+ # Basic Numbers 0-10
+ - id: 1
+ type: translation
+ Umbuzo: "Usho kanjani '0' ngesiKinyarwanda?"
+ Impendulo: "Zero"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Umbuzo: "Usho kanjani '1' ngesiKinyarwanda?"
+ Impendulo: "Rimwe"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Umbuzo: "Usho kanjani '2' ngesiKinyarwanda?"
+ Impendulo: "Kabiri"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Umbuzo: "Usho kanjani '3' ngesiKinyarwanda?"
+ Impendulo: "Gatatu"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Umbuzo: "Usho kanjani '4' ngesiKinyarwanda?"
+ Impendulo: "Kane"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Umbuzo: "Usho kanjani '5' ngesiKinyarwanda?"
+ Impendulo: "Gatanu"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Umbuzo: "Usho kanjani '6' ngesiKinyarwanda?"
+ Impendulo: "Gatandatu"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Umbuzo: "Usho kanjani '7' ngesiKinyarwanda?"
+ Impendulo: "Karindwi"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Umbuzo: "Usho kanjani '8' ngesiKinyarwanda?"
+ Impendulo: "Umunani"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Umbuzo: "Usho kanjani '9' ngesiKinyarwanda?"
+ Impendulo: "Icyenda"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Umbuzo: "Usho kanjani '10' ngesiKinyarwanda?"
+ Impendulo: "Icumi"
+ xp_reward: 10
+
+ # Numbers 11-20
+ - id: 12
+ type: translation
+ Umbuzo: "Usho kanjani '11' ngesiKinyarwanda?"
+ Impendulo: "Cumi na rimwe"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Umbuzo: "Usho kanjani '12' ngesiKinyarwanda?"
+ Impendulo: "Cumi na kabiri"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Umbuzo: "Usho kanjani '13' ngesiKinyarwanda?"
+ Impendulo: "Cumi na gatatu"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Umbuzo: "Usho kanjani '14' ngesiKinyarwanda?"
+ Impendulo: "Cumi na kane"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Umbuzo: "Usho kanjani '15' ngesiKinyarwanda?"
+ Impendulo: "Cumi na gatanu"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Umbuzo: "Usho kanjani '16' ngesiKinyarwanda?"
+ Impendulo: "Cumi na gatandatu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Umbuzo: "Usho kanjani '17' ngesiKinyarwanda?"
+ Impendulo: "Cumi na karindwi"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Umbuzo: "Usho kanjani '18' ngesiKinyarwanda?"
+ Impendulo: "Cumi na umunani"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Umbuzo: "Usho kanjani '19' ngesiKinyarwanda?"
+ Impendulo: "Cumi na icyenda"
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Umbuzo: "Usho kanjani '20' ngesiKinyarwanda?"
+ Impendulo: "Makumyabiri"
+ xp_reward: 15
+
+ # Tens (Multiples of 10)
+ - id: 22
+ type: translation
+ Umbuzo: "Usho kanjani '30' ngesiKinyarwanda?"
+ Impendulo: "Makumyatatu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Umbuzo: "Usho kanjani '40' ngesiKinyarwanda?"
+ Impendulo: "Makumyane"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Umbuzo: "Usho kanjani '50' ngesiKinyarwanda?"
+ Impendulo: "Mirongo itanu"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Umbuzo: "Usho kanjani '60' ngesiKinyarwanda?"
+ Impendulo: "Mirongo itandatu"
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ Umbuzo: "Usho kanjani '70' ngesiKinyarwanda?"
+ Impendulo: "Mirongo irindwi"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Umbuzo: "Usho kanjani '80' ngesiKinyarwanda?"
+ Impendulo: "Mirongo inani"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Umbuzo: "Usho kanjani '90' ngesiKinyarwanda?"
+ Impendulo: "Mirongo icenda"
+ xp_reward: 15
+
+ - id: 29
+ type: translation
+ Umbuzo: "Usho kanjani '100' ngesiKinyarwanda?"
+ Impendulo: "Ijana"
+ xp_reward: 10
+
+ # Hundreds
+ - id: 30
+ type: translation
+ Umbuzo: "Usho kanjani '200' ngesiKinyarwanda?"
+ Impendulo: "Magana abiri"
+ xp_reward: 15
+
+ - id: 31
+ type: translation
+ Umbuzo: "Usho kanjani '300' ngesiKinyarwanda?"
+ Impendulo: "Magana atatu"
+ xp_reward: 15
+
+ - id: 32
+ type: translation
+ Umbuzo: "Usho kanjani '400' ngesiKinyarwanda?"
+ Impendulo: "Magana ane"
+ xp_reward: 15
+
+ - id: 33
+ type: translation
+ Umbuzo: "Usho kanjani '500' ngesiKinyarwanda?"
+ Impendulo: "Magana atanu"
+ xp_reward: 15
+
+ - id: 34
+ type: translation
+ Umbuzo: "Usho kanjani '600' ngesiKinyarwanda?"
+ Impendulo: "Magana atandatu"
+ xp_reward: 15
+
+ - id: 35
+ type: translation
+ Umbuzo: "Usho kanjani '700' ngesiKinyarwanda?"
+ Impendulo: "Magana arindwi"
+ xp_reward: 15
+
+ - id: 36
+ type: translation
+ Umbuzo: "Usho kanjani '800' ngesiKinyarwanda?"
+ Impendulo: "Magana umunani"
+ xp_reward: 15
+
+ - id: 37
+ type: translation
+ Umbuzo: "Usho kanjani '900' ngesiKinyarwanda?"
+ Impendulo: "Magana icyenda"
+ xp_reward: 15
+
+ - id: 38
+ type: translation
+ Umbuzo: "Usho kanjani '1000' ngesiKinyarwanda?"
+ Impendulo: "Igihumbi"
+ xp_reward: 10
+
+ # Thousands
+ - id: 39
+ type: translation
+ Umbuzo: "Usho kanjani '2,000' ngesiKinyarwanda?"
+ Impendulo: "Ibihumbi bibiri"
+ xp_reward: 15
+
+ - id: 40
+ type: translation
+ Umbuzo: "Usho kanjani '3,000' ngesiKinyarwanda?"
+ Impendulo: "Ibihumbi bitatu"
+ xp_reward: 15
+
+ - id: 41
+ type: translation
+ Umbuzo: "Usho kanjani '4,000' ngesiKinyarwanda?"
+ Impendulo: "Ibihumbi bine"
+ xp_reward: 15
+
+ - id: 42
+ type: translation
+ Umbuzo: "Usho kanjani '5,000' ngesiKinyarwanda?"
+ Impendulo: "Ibihumbi bitanu"
+ xp_reward: 15
+
+ - id: 43
+ type: translation
+ Umbuzo: "Usho kanjani '10,000' ngesiKinyarwanda?"
+ Impendulo: "Ibihumbi icumi"
+ xp_reward: 15
+
+ - id: 44
+ type: translation
+ Umbuzo: "Usho kanjani '20,000' ngesiKinyarwanda?"
+ Impendulo: "Ibihumbi makumyabiri"
+ xp_reward: 18
+
+ - id: 45
+ type: translation
+ Umbuzo: "Usho kanjani '50,000' ngesiKinyarwanda?"
+ Impendulo: "Ibihumbi mirongo itanu"
+ xp_reward: 18
+
+ - id: 46
+ type: translation
+ Umbuzo: "Usho kanjani '100,000' ngesiKinyarwanda?"
+ Impendulo: "Ijana ibihumbi"
+ xp_reward: 15
+
+ - id: 47
+ type: translation
+ Umbuzo: "Usho kanjani '200,000' ngesiKinyarwanda?"
+ Impendulo: "Magana abiri ibihumbi"
+ xp_reward: 18
+
+ - id: 48
+ type: translation
+ Umbuzo: "Usho kanjani '500,000' ngesiKinyarwanda?"
+ Impendulo: "Magana atanu ibihumbi"
+ xp_reward: 18
+
+ - id: 49
+ type: translation
+ Umbuzo: "Usho kanjani '1,000,000' ngesiKinyarwanda?"
+ Impendulo: "Miliyoni imwe"
+ xp_reward: 15
+
+ # Money Context - Amafaranga (Safe as phrases)
+ - id: 50
+ type: translation
+ Umbuzo: "Usho kanjani '100 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga ijana"
+ xp_reward: 15
+
+ - id: 51
+ type: translation
+ Umbuzo: "Usho kanjani '200 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga magana abiri"
+ xp_reward: 15
+
+ - id: 52
+ type: translation
+ Umbuzo: "Usho kanjani '500 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga magana atanu"
+ xp_reward: 15
+
+ - id: 53
+ type: translation
+ Umbuzo: "Usho kanjani '1,000 RWF' ngesiKinyarwanda?"
+ Impendulo: "Ifaranga igihumbi"
+ xp_reward: 15
+
+ - id: 54
+ type: translation
+ Umbuzo: "Usho kanjani '2,000 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga ibihumbi bibiri"
+ xp_reward: 15
+
+ - id: 55
+ type: translation
+ Umbuzo: "Usho kanjani '5,000 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga ibihumbi bitanu"
+ xp_reward: 15
+
+ - id: 56
+ type: translation
+ Umbuzo: "Usho kanjani '10,000 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga ibihumbi icumi"
+ xp_reward: 15
+
+ - id: 57
+ type: translation
+ Umbuzo: "Usho kanjani '20,000 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga ibihumbi makumyabiri"
+ xp_reward: 18
+
+ - id: 58
+ type: translation
+ Umbuzo: "Usho kanjani '50,000 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga ibihumbi mirongo itanu"
+ xp_reward: 18
+
+ - id: 59
+ type: translation
+ Umbuzo: "Usho kanjani '100,000 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga ijana ibihumbi"
+ xp_reward: 18
+
+ - id: 60
+ type: translation
+ Umbuzo: "Usho kanjani '200,000 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga magana abiri ibihumbi"
+ xp_reward: 20
+
+ - id: 61
+ type: translation
+ Umbuzo: "Usho kanjani '500,000 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga magana atanu ibihumbi"
+ xp_reward: 20
+
+ - id: 62
+ type: translation
+ Umbuzo: "Usho kanjani '1,000,000 RWF' ngesiKinyarwanda?"
+ Impendulo: "Amafaranga miliyoni imwe"
+ xp_reward: 18
+
+ # NO DIRECT TRANSLATION FOR COMPLEX COMBINED NUMBERS OR FULL Umusho
+ # Instead, we use Umusho building, Qondanisa, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 63
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Rimwe' kulomusho?"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ - "4"
+ Impendulo: "1"
+ xp_reward: 15
+
+ - id: 64
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Kabiri' kulomusho?"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ - "4"
+ Impendulo: "2"
+ xp_reward: 15
+
+ - id: 65
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Gatanu' kulomusho?"
+ options:
+ - "4"
+ - "5"
+ - "6"
+ - "7"
+ Impendulo: "5"
+ xp_reward: 15
+
+ - id: 66
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Icumi' kulomusho?"
+ options:
+ - "5"
+ - "10"
+ - "15"
+ - "20"
+ Impendulo: "10"
+ xp_reward: 15
+
+ - id: 67
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Makumyabiri' kulomusho?"
+ options:
+ - "10"
+ - "20"
+ - "30"
+ - "40"
+ Impendulo: "20"
+ xp_reward: 15
+
+ - id: 68
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Ijana' kulomusho?"
+ options:
+ - "10"
+ - "100"
+ - "1000"
+ - "1,000,000"
+ Impendulo: "100"
+ xp_reward: 15
+
+ - id: 69
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Igihumbi' kulomusho?"
+ options:
+ - "100"
+ - "1000"
+ - "10,000"
+ - "1,000,000"
+ Impendulo: "1000"
+ xp_reward: 15
+
+ - id: 70
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Miliyoni imwe' kulomusho?"
+ options:
+ - "1,000"
+ - "10,000"
+ - "100,000"
+ - "1,000,000"
+ Impendulo: "1,000,000"
+ xp_reward: 18
+
+ # 3. Lalela and Type (Dictation) - Safe because audio is provided
+ - id: 71
+ type: listen_and_type
+ Umbuzo: "Lalela and type the number"
+ tts_text: "Rimwe"
+ Impendulo: "Rimwe"
+ translation: "1"
+ xp_reward: 20
+
+ - id: 72
+ type: listen_and_type
+ Umbuzo: "Lalela and type the number"
+ tts_text: "Kabiri"
+ Impendulo: "Kabiri"
+ translation: "2"
+ xp_reward: 20
+
+ - id: 73
+ type: listen_and_type
+ Umbuzo: "Lalela and type the number"
+ tts_text: "Icumi"
+ Impendulo: "Icumi"
+ translation: "10"
+ xp_reward: 20
+
+ - id: 74
+ type: listen_and_type
+ Umbuzo: "Lalela and type the number"
+ tts_text: "Cumi na rimwe"
+ Impendulo: "Cumi na rimwe"
+ translation: "11"
+ xp_reward: 22
+
+ - id: 75
+ type: listen_and_type
+ Umbuzo: "Lalela and type the number"
+ tts_text: "Makumyabiri"
+ Impendulo: "Makumyabiri"
+ translation: "20"
+ xp_reward: 20
+
+ - id: 76
+ type: listen_and_type
+ Umbuzo: "Lalela and type the number"
+ tts_text: "Ijana"
+ Impendulo: "Ijana"
+ translation: "100"
+ xp_reward: 20
+
+ - id: 77
+ type: listen_and_type
+ Umbuzo: "Lalela and type the number"
+ tts_text: "Igihumbi"
+ Impendulo: "Igihumbi"
+ translation: "1000"
+ xp_reward: 20
+
+ - id: 78
+ type: listen_and_type
+ Umbuzo: "Lalela and type the money phrase"
+ tts_text: "Amafaranga ijana"
+ Impendulo: "Amafaranga ijana"
+ translation: "100 RWF"
+ xp_reward: 22
+
+ - id: 79
+ type: listen_and_type
+ Umbuzo: "Lalela and type the money phrase"
+ tts_text: "Amafaranga ibihumbi bitanu"
+ Impendulo: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 25
+
+ # 4. Lalela and Khetha
+ - id: 80
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct number"
+ tts_text: "Rimwe"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ Impendulo: "1"
+ xp_reward: 15
+
+ - id: 81
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct number"
+ tts_text: "Gatanu"
+ options:
+ - "4"
+ - "5"
+ - "6"
+ Impendulo: "5"
+ xp_reward: 15
+
+ - id: 82
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct number"
+ tts_text: "Icumi"
+ options:
+ - "5"
+ - "10"
+ - "15"
+ Impendulo: "10"
+ xp_reward: 15
+
+ - id: 83
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct number"
+ tts_text: "Makumyabiri"
+ options:
+ - "10"
+ - "20"
+ - "30"
+ Impendulo: "20"
+ xp_reward: 15
+
+ - id: 84
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct amount"
+ tts_text: "Amafaranga igihumbi"
+ options:
+ - "100 RWF"
+ - "1,000 RWF"
+ - "10,000 RWF"
+ Impendulo: "1,000 RWF"
+ xp_reward: 18
+
+ # 5. Repeat / Khuluma Exercise
+ - id: 85
+ type: Khuluma
+ Umbuzo: "Say this number"
+ prompt: "Rimwe"
+ translation: "1"
+ xp_reward: 15
+
+ - id: 86
+ type: Khuluma
+ Umbuzo: "Say this number"
+ prompt: "Kabiri"
+ translation: "2"
+ xp_reward: 15
+
+ - id: 87
+ type: Khuluma
+ Umbuzo: "Say this number"
+ prompt: "Icumi"
+ translation: "10"
+ xp_reward: 15
+
+ - id: 88
+ type: Khuluma
+ Umbuzo: "Say this number"
+ prompt: "Cumi na rimwe"
+ translation: "11"
+ xp_reward: 18
+
+ - id: 89
+ type: Khuluma
+ Umbuzo: "Say this number"
+ prompt: "Makumyabiri"
+ translation: "20"
+ xp_reward: 15
+
+ - id: 90
+ type: Khuluma
+ Umbuzo: "Say this number"
+ prompt: "Ijana"
+ translation: "100"
+ xp_reward: 15
+
+ - id: 91
+ type: Khuluma
+ Umbuzo: "Say this number"
+ prompt: "Igihumbi"
+ translation: "1000"
+ xp_reward: 15
+
+ - id: 92
+ type: Khuluma
+ Umbuzo: "Say this money amount"
+ prompt: "Amafaranga ijana"
+ translation: "100 RWF"
+ xp_reward: 18
+
+ - id: 93
+ type: Khuluma
+ Umbuzo: "Say this money amount"
+ prompt: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 20
+
+ # 6. Word Bank Umusho Building - PIECES PROVIDED
+ - id: 94
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'I have 3 apples'"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_answer: ["Mfite", "amapera", "atatu"]
+ xp_reward: 22
+
+ - id: 95
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'He bought 12 pens'"
+ word_bank: ["Yanguriye", "amakaramu", "cumi na kabiri", "cumi na rimwe", "ibiri"]
+ correct_answer: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ xp_reward: 22
+
+ - id: 96
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'The book costs 2,000 RWF'"
+ word_bank: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri", "ibihumbi bitatu", "ijana"]
+ correct_answer: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ xp_reward: 25
+
+ - id: 97
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'My Indlu costs 1,000,000 RWF'"
+ word_bank: ["Inzu", "yanjye", "ni", "amafaranga", "miliyoni imwe", "ibihumbi"]
+ correct_answer: ["Inzu", "yanjye", "ni", "amafaranga", "miliyoni imwe"]
+ xp_reward: 25
+
+ - id: 98
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'There are 50 students in the class'"
+ word_bank: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri", "mirongo itatu"]
+ correct_answer: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ xp_reward: 22
+
+ - id: 99
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'She has 100 RWF'"
+ word_bank: ["Afite", "amafaranga", "ijana", "magana abiri", "ibihumbi"]
+ correct_answer: ["Afite", "amafaranga", "ijana"]
+ xp_reward: 20
+
+ - id: 100
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda phrase for 'The bag costs 123,456 RWF'"
+ word_bank: ["Isakoshi", "ni", "amafaranga", "ijana na makumyabiri na gatatu", "ibihumbi", "na magana ane na mirongo itanu na gatandatu"]
+ correct_answer: ["Isakoshi", "ni", "amafaranga", "ijana na makumyabiri na gatatu", "ibihumbi", "na magana ane na mirongo itanu na gatandatu"]
+ xp_reward: 30
+
+ # 7. Umusho Scramble - PIECES PROVIDED
+ - id: 101
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Mfite", "amapera", "atatu"]
+ correct_sentence: "Mfite amapera atatu."
+ translation: "I have 3 apples."
+ xp_reward: 20
+
+ - id: 102
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ correct_sentence: "Yanguriye amakaramu cumi na kabiri."
+ translation: "He bought 12 pens."
+ xp_reward: 22
+
+ - id: 103
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ correct_sentence: "Igitabo ni amafaranga ibihumbi bibiri."
+ translation: "The book costs 2,000 RWF."
+ xp_reward: 22
+
+ - id: 104
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ correct_sentence: "Hari abanyeshuri mirongo itanu mu ishuri."
+ translation: "There are 50 students in the class."
+ xp_reward: 22
+
+ - id: 105
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Afite", "amafaranga", "ijana"]
+ correct_sentence: "Afite amafaranga ijana."
+ translation: "She has 100 RWF."
+ xp_reward: 18
+
+ # 8. Fill in the Blank - Khetha FROM OPTIONS
+ - id: 106
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Mfite amapera ___."
+ options: ["atatu", "kabiri", "rimwe"]
+ correct_answer: "atatu"
+ translation: "I have 3 apples."
+ xp_reward: 18
+
+ - id: 107
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Yanguriye amakaramu ___."
+ options: ["cumi na kabiri", "cumi na rimwe", "makumyabiri"]
+ correct_answer: "cumi na kabiri"
+ translation: "He bought 12 pens."
+ xp_reward: 18
+
+ - id: 108
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Igitabo ni amafaranga ___."
+ options: ["ibihumbi bibiri", "ibihumbi bitatu", "ijana"]
+ correct_answer: "ibihumbi bibiri"
+ translation: "The book costs 2,000 RWF."
+ xp_reward: 20
+
+ - id: 109
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Hari abanyeshuri ___ mu ishuri."
+ options: ["mirongo itanu", "mirongo itatu", "cumi"]
+ correct_answer: "mirongo itanu"
+ translation: "There are 50 students in the class."
+ xp_reward: 18
+
+ - id: 110
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Afite amafaranga ___."
+ options: ["ijana", "magana abiri", "igihumbi"]
+ correct_answer: "ijana"
+ translation: "She has 100 RWF."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 111
+ type: picture_word
+ Umbuzo: "How many apples do you see?"
+ image_url: "https://source.unsplash.com/featured/?1-apple"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Rimwe"
+ xp_reward: 15
+
+ - id: 112
+ type: picture_word
+ Umbuzo: "How many apples do you see?"
+ image_url: "https://source.unsplash.com/featured/?2-apples"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Kabiri"
+ xp_reward: 15
+
+ - id: 113
+ type: picture_word
+ Umbuzo: "How many apples do you see?"
+ image_url: "https://source.unsplash.com/featured/?3-apples"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Gatatu"
+ xp_reward: 15
+
+ - id: 114
+ type: picture_word
+ Umbuzo: "How many pens do you see?"
+ image_url: "https://source.unsplash.com/featured/?10-pens"
+ options: ["Icumi", "Makumyabiri", "Ijana"]
+ correct_answer: "Icumi"
+ xp_reward: 15
+
+ - id: 115
+ type: picture_word
+ Umbuzo: "Yini this number?"
+ image_url: "https://images.unsplash.com/photo-1621440318464-72633426377b?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D00"
+ options: ["Ijana", "Igihumbi", "Icumi"]
+ correct_answer: "Ijana"
+ xp_reward: 15
+
+ - id: 116
+ type: picture_word
+ Umbuzo: "Yini this amount of money?"
+ image_url: "https://source.unsplash.com/featured/?1000-franc-note"
+ options: ["Amafaranga igihumbi", "Amafaranga ijana", "Amafaranga ibihumbi icumi"]
+ correct_answer: "Amafaranga igihumbi"
+ xp_reward: 20
+
+ # 10. Word Qondanisa (Pairing)
+ - id: 117
+ type: Qondanisa
+ Umbuzo: "Qondanisa the numbers"
+ pairs:
+ - Kwesokunxele: "1"
+ Kwesokudla: "Rimwe"
+ - Kwesokunxele: "2"
+ Kwesokudla: "Kabiri"
+ - Kwesokunxele: "3"
+ Kwesokudla: "Gatatu"
+ - Kwesokunxele: "4"
+ Kwesokudla: "Kane"
+ - Kwesokunxele: "5"
+ Kwesokudla: "Gatanu"
+ - Kwesokunxele: "6"
+ Kwesokudla: "Gatandatu"
+ - Kwesokunxele: "7"
+ Kwesokudla: "Karindwi"
+ - Kwesokunxele: "8"
+ Kwesokudla: "Umunani"
+ - Kwesokunxele: "9"
+ Kwesokudla: "Icyenda"
+ - Kwesokunxele: "10"
+ Kwesokudla: "Icumi"
+ xp_reward: 25
+
+ - id: 118
+ type: Qondanisa
+ Umbuzo: "Qondanisa the tens"
+ pairs:
+ - Kwesokunxele: "20"
+ Kwesokudla: "Makumyabiri"
+ - Kwesokunxele: "30"
+ Kwesokudla: "Makumyatatu"
+ - Kwesokunxele: "40"
+ Kwesokudla: "Makumyane"
+ - Kwesokunxele: "50"
+ Kwesokudla: "Mirongo itanu"
+ - Kwesokunxele: "60"
+ Kwesokudla: "Mirongo itandatu"
+ - Kwesokunxele: "70"
+ Kwesokudla: "Mirongo irindwi"
+ - Kwesokunxele: "80"
+ Kwesokudla: "Mirongo inani"
+ - Kwesokunxele: "90"
+ Kwesokudla: "Mirongo icenda"
+ xp_reward: 25
+
+ - id: 119
+ type: Qondanisa
+ Umbuzo: "Qondanisa the hundreds and thousands"
+ pairs:
+ - Kwesokunxele: "100"
+ Kwesokudla: "Ijana"
+ - Kwesokunxele: "200"
+ Kwesokudla: "Magana abiri"
+ - Kwesokunxele: "500"
+ Kwesokudla: "Magana atanu"
+ - Kwesokunxele: "1000"
+ Kwesokudla: "Igihumbi"
+ - Kwesokunxele: "2000"
+ Kwesokudla: "Ibihumbi bibiri"
+ - Kwesokunxele: "5000"
+ Kwesokudla: "Ibihumbi bitanu"
+ - Kwesokunxele: "10,000"
+ Kwesokudla: "Ibihumbi icumi"
+ - Kwesokunxele: "1,000,000"
+ Kwesokudla: "Miliyoni imwe"
+ xp_reward: 25
+
+ - id: 120
+ type: Qondanisa
+ Umbuzo: "Qondanisa the money amounts"
+ pairs:
+ - Kwesokunxele: "100 RWF"
+ Kwesokudla: "Amafaranga ijana"
+ - Kwesokunxele: "1,000 RWF"
+ Kwesokudla: "Ifaranga igihumbi"
+ - Kwesokunxele: "5,000 RWF"
+ Kwesokudla: "Amafaranga ibihumbi bitanu"
+ - Kwesokunxele: "10,000 RWF"
+ Kwesokudla: "Amafaranga ibihumbi icumi"
+ - Kwesokunxele: "50,000 RWF"
+ Kwesokudla: "Amafaranga ibihumbi mirongo itanu"
+ - Kwesokunxele: "100,000 RWF"
+ Kwesokudla: "Amafaranga ijana ibihumbi"
+ - Kwesokunxele: "1,000,000 RWF"
+ Kwesokudla: "Amafaranga miliyoni imwe"
+ xp_reward: 28
+
+ # 11. Khetha Missing Word
+ - id: 124
+ type: choose_missing
+ Umbuzo: "Khetha the missing number"
+ Umusho: "Mfite amapera ___."
+ missing_word_position: 3
+ options: ["atatu", "kabiri", "rimwe"]
+ correct_answer: "atatu"
+ translation: "I have 3 apples."
+ xp_reward: 15
+
+ - id: 125
+ type: choose_missing
+ Umbuzo: "Khetha the missing number"
+ Umusho: "Yanguriye amakaramu ___."
+ missing_word_position: 3
+ options: ["cumi na kabiri", "cumi na rimwe", "makumyabiri"]
+ correct_answer: "cumi na kabiri"
+ translation: "He bought 12 pens."
+ xp_reward: 18
+
+ - id: 126
+ type: choose_missing
+ Umbuzo: "Khetha the missing amount"
+ Umusho: "Igitabo ni amafaranga ___."
+ missing_word_position: 4
+ options: ["ibihumbi bibiri", "ijana", "ibihumbi icumi"]
+ correct_answer: "ibihumbi bibiri"
+ translation: "The book costs 2,000 RWF."
+ xp_reward: 18
+
+ # 12. Funda and Impendulo - Umbuzo based on text
+ - id: 127
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "Mfite amapera atatu. Yanguriye amakaramu cumi na kabiri."
+ Umbuzo: "How many apples do I have?"
+ options: ["1", "2", "3", "12"]
+ correct_answer: "3"
+ xp_reward: 15
+
+ - id: 128
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "Igitabo ni amafaranga ibihumbi bibiri. Inzu yanjye ni amafaranga miliyoni imwe."
+ Umbuzo: "How much is the book?"
+ options: ["100 RWF", "1,000 RWF", "2,000 RWF", "1,000,000 RWF"]
+ correct_answer: "2,000 RWF"
+ xp_reward: 18
+
+ - id: 129
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "Hari abanyeshuri mirongo itanu mu ishuri."
+ Umbuzo: "How many students are there?"
+ options: ["15", "20", "50", "100"]
+ correct_answer: "50"
+ xp_reward: 15
+
+ # 13. True / False
+ - id: 130
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Kabiri means 2."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 131
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Icumi means 20."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 132
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Ijana means 100."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 133
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Igihumbi means 1,000,000."
+ correct_answer: false
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 134
+ type: conversation
+ Umbuzo: "Respond to the Umbuzo by building a Umusho"
+ bot_message: "Ufite amapera angahe?"
+ translation: "How many apples do you have?"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_response: ["Mfite", "amapera", "atatu"]
+ xp_reward: 20
+
+ - id: 135
+ type: conversation
+ Umbuzo: "Respond to the Umbuzo about price"
+ bot_message: "Igitabo ni angahe?"
+ translation: "How much is the book?"
+ options:
+ - "Amafaranga ibihumbi bibiri"
+ - "Amafaranga ijana"
+ - "Amafaranga miliyoni imwe"
+ correct_response: "Amafaranga ibihumbi bibiri"
+ xp_reward: 18
+
+ - id: 136
+ type: conversation
+ Umbuzo: "Respond to the Umbuzo by building a Umusho"
+ bot_message: "Hari abanyeshuri bangahe mu ishuri?"
+ translation: "How many students are in the class?"
+ word_bank: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ correct_response: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build Umusho from pieces
+ - id: 137
+ type: story
+ title: "Ukuthenga - Kugura"
+ story_intro: "Funda about Ukuthenga. Then build the Umusho."
+ story_segments:
+ - text: "I have 3 apples."
+ - text: "He bought 12 pens."
+ - text: "The book costs 2,000 RWF."
+ - text: "My Indlu costs 1,000,000 RWF."
+ - text: "She has 100 RWF."
+ exercises:
+ - type: word_bank
+ Umbuzo: "Build 'I have 3 apples'"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_answer: ["Mfite", "amapera", "atatu"]
+ - type: word_bank
+ Umbuzo: "Build 'He bought 12 pens'"
+ word_bank: ["Yanguriye", "amakaramu", "cumi na kabiri", "cumi na rimwe"]
+ correct_answer: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ - type: word_bank
+ Umbuzo: "Build 'The book costs 2,000 RWF'"
+ word_bank: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ correct_answer: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ - type: word_bank
+ Umbuzo: "Build 'She has 100 RWF'"
+ word_bank: ["Afite", "amafaranga", "ijana"]
+ correct_answer: ["Afite", "amafaranga", "ijana"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 138
+ type: pronunciation
+ Umbuzo: "Say this number"
+ prompt: "Rimwe"
+ translation: "1"
+ xp_reward: 15
+
+ - id: 139
+ type: pronunciation
+ Umbuzo: "Say this number"
+ prompt: "Makumyabiri"
+ translation: "20"
+ xp_reward: 15
+
+ - id: 140
+ type: pronunciation
+ Umbuzo: "Say this amount"
+ prompt: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 141
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'atatu' mean in this Umusho?"
+ context_sentence: "Mfite amapera atatu."
+ word: "atatu"
+ options: ["1", "2", "3", "4"]
+ correct_answer: "3"
+ xp_reward: 15
+
+ - id: 142
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'ibihumbi bibiri' kulomusho?"
+ context_sentence: "Igitabo ni amafaranga ibihumbi bibiri."
+ word: "ibihumbi bibiri"
+ options: ["100 RWF", "1,000 RWF", "2,000 RWF", "20,000 RWF"]
+ correct_answer: "2,000 RWF"
+ xp_reward: 18
+
+ # 18. Speed Qondanisa
+ - id: 143
+ type: speed_Qondanisa
+ title: "Qondanisa Madness: Numbers"
+ time_limit_seconds: 45
+ pairs:
+ - Kwesokunxele: "1"
+ Kwesokudla: "Rimwe"
+ - Kwesokunxele: "2"
+ Kwesokudla: "Kabiri"
+ - Kwesokunxele: "3"
+ Kwesokudla: "Gatatu"
+ - Kwesokunxele: "4"
+ Kwesokudla: "Kane"
+ - Kwesokunxele: "5"
+ Kwesokudla: "Gatanu"
+ - Kwesokunxele: "10"
+ Kwesokudla: "Icumi"
+ - Kwesokunxele: "20"
+ Kwesokudla: "Makumyabiri"
+ - Kwesokunxele: "100"
+ Kwesokudla: "Ijana"
+ - Kwesokunxele: "1000"
+ Kwesokudla: "Igihumbi"
+ - Kwesokunxele: "1,000,000"
+ Kwesokudla: "Miliyoni imwe"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 144
+ type: timed_challenge
+ title: "Lightning Round: Numbers"
+ time_limit_seconds: 30
+ Umbuzo_count: 5
+ Umbuzo:
+ - Umbuzo: "1"
+ Impendulo: "Rimwe"
+ - Umbuzo: "2"
+ Impendulo: "Kabiri"
+ - Umbuzo: "3"
+ Impendulo: "Gatatu"
+ - Umbuzo: "10"
+ Impendulo: "Icumi"
+ - Umbuzo: "100"
+ Impendulo: "Ijana"
+ xp_reward: 35
+
+# Amakhadi emfundo
+ - id: 111
+ type: Amakhadi emfundo
+ Umbuzo: "Amakhadi emfundo"
+ Amakhadi emfundo:
+ - front: "Rimwe"
+ back: "1"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Kabiri"
+ back: "2"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Gatatu"
+ back: "3"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Kane"
+ back: "4"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Gatanu"
+ back: "5"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Gatandatu"
+ back: "6"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Karindwi"
+ back: "7"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunani"
+ back: "8"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Icyenda"
+ back: "9"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Icumi"
+ back: "10"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

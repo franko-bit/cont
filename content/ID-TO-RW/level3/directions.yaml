@@ -1,0 +1,1229 @@
+lesson:
+ name: "Arah - Amabwiriza y'ahantu"
+ description: "Belajar direction words and phrases in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Direction Words ONLY (Safe for single words)
+ # Basic Arah
+ - id: 1
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Kiri' dalam bahasa Kinyarwanda?"
+ Jawaban: "Ibumoso"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Kanan' dalam bahasa Kinyarwanda?"
+ Jawaban: "Iburyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Lurus' dalam bahasa Kinyarwanda?"
+ Jawaban: "Uburyohe / Guhita imbere"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Back / Behind' dalam bahasa Kinyarwanda?"
+ Jawaban: "Inyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Front' dalam bahasa Kinyarwanda?"
+ Jawaban: "Imbere"
+ xp_reward: 10
+
+ # Cardinal Arah
+ - id: 6
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'North' dalam bahasa Kinyarwanda?"
+ Jawaban: "Amajyaruguru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'South' dalam bahasa Kinyarwanda?"
+ Jawaban: "Amajyepfo"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'East' dalam bahasa Kinyarwanda?"
+ Jawaban: "Uburasirazuba"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'West' dalam bahasa Kinyarwanda?"
+ Jawaban: "Uburengerazuba"
+ xp_reward: 10
+
+ # Location Words
+ - id: 10
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Near' dalam bahasa Kinyarwanda?"
+ Jawaban: "Hafi"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Far' dalam bahasa Kinyarwanda?"
+ Jawaban: "Hahandi / kure"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Around' dalam bahasa Kinyarwanda?"
+ Jawaban: "Hagarika / ahantu hose"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ # Places and Features
+ - id: 13
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Intersection / Crossroads' dalam bahasa Kinyarwanda?"
+ Jawaban: "Ahantu hahurira imihanda"
+ xp_reward: 18
+
+ - id: 14
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Street / Road' dalam bahasa Kinyarwanda?"
+ Jawaban: "Umuhanda"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Corner' dalam bahasa Kinyarwanda?"
+ Jawaban: "Inguni"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Traffic light' dalam bahasa Kinyarwanda?"
+ Jawaban: "Itara ry'umuhanda"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Sign / Signpost' dalam bahasa Kinyarwanda?"
+ Jawaban: "Ikimenyetso / Ikimenyetso cy'umuhanda"
+ xp_reward: 18
+
+ # Direction Commands
+ - id: 18
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Turn Kiri' dalam bahasa Kinyarwanda?"
+ Jawaban: "Hagarika ibumoso."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Turn Kanan' dalam bahasa Kinyarwanda?"
+ Jawaban: "Hagarika iburyo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Go Lurus' dalam bahasa Kinyarwanda?"
+ Jawaban: "Komeza imbere."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Go back' dalam bahasa Kinyarwanda?"
+ Jawaban: "Subira inyuma."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Cross the street' dalam bahasa Kinyarwanda?"
+ Jawaban: "Kora umuhanda."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'Stop at the traffic light' dalam bahasa Kinyarwanda?"
+ Jawaban: "Hagarara ku itara ry'umuhanda."
+ xp_reward: 18
+
+ # Location Kalimat
+ - id: 24
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'The bank is in front of the Sekolah' dalam bahasa Kinyarwanda?"
+ Jawaban: "Banki iri imbere y'ishuri."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'The Pasar is near' dalam bahasa Kinyarwanda?"
+ Jawaban: "Isoko riri hafi."
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ Pertanyaan: "Bagaimana mengatakan 'The hospital is far' dalam bahasa Kinyarwanda?"
+ Jawaban: "Ibitaro biri kure."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Ibumoso' artinya?"
+ options:
+ - "Kanan"
+ - "Kiri"
+ - "Lurus"
+ - "Front"
+ Jawaban: "Kiri"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Iburyo' artinya?"
+ options:
+ - "Kiri"
+ - "Kanan"
+ - "Back"
+ - "North"
+ Jawaban: "Kanan"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Imbere' artinya?"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ - "Far"
+ Jawaban: "Front"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Inyuma' artinya?"
+ options:
+ - "Front"
+ - "Behind"
+ - "Kiri"
+ - "Kanan"
+ Jawaban: "Behind"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Amajyaruguru' artinya?"
+ options:
+ - "South"
+ - "North"
+ - "East"
+ - "West"
+ Jawaban: "North"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Hafi' artinya?"
+ options:
+ - "Far"
+ - "Near"
+ - "Around"
+ - "Lurus"
+ Jawaban: "Near"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Umuhanda' artinya?"
+ options:
+ - "Corner"
+ - "Street"
+ - "Traffic light"
+ - "Sign"
+ Jawaban: "Street"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Pertanyaan: "Apa arti 'Hagarika ibumoso' artinya?"
+ options:
+ - "Turn Kanan"
+ - "Turn Kiri"
+ - "Go Lurus"
+ - "Go back"
+ Jawaban: "Turn Kiri"
+ xp_reward: 18
+
+ # 3. Dengarkan and Type (Dictation)
+ - id: 35
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the direction word"
+ audio: "Ibumoso"
+ Jawaban: "Ibumoso"
+ translation: "Kiri"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the direction word"
+ audio: "Iburyo"
+ Jawaban: "Iburyo"
+ translation: "Kanan"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the direction word"
+ audio: "Imbere"
+ Jawaban: "Imbere"
+ translation: "Front"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the direction word"
+ audio: "Inyuma"
+ Jawaban: "Inyuma"
+ translation: "Behind"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the direction word"
+ audio: "Hafi"
+ Jawaban: "Hafi"
+ translation: "Near"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the command"
+ audio: "Hagarika ibumoso"
+ Jawaban: "Hagarika ibumoso"
+ translation: "Turn Kiri"
+ xp_reward: 22
+
+ - id: 41
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the command"
+ audio: "Komeza imbere"
+ Jawaban: "Komeza imbere"
+ translation: "Go Lurus"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_and_type
+ Pertanyaan: "Dengarkan and type the Kalimat"
+ audio: "Isoko riri hafi"
+ Jawaban: "Isoko riri hafi"
+ translation: "The Pasar is near"
+ xp_reward: 22
+
+ 
+ # 4. Dengarkan and Pilih
+ - id: 44
+ type: listen_and_choose
+ Pertanyaan: "Dengarkan and Pilih the correct direction"
+ audio: "Ibumoso"
+ options:
+ - "Kiri"
+ - "Kanan"
+ - "Lurus"
+ Jawaban: "Kiri"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_and_choose
+ Pertanyaan: "Dengarkan and Pilih the correct direction"
+ audio: "Iburyo"
+ options:
+ - "Kiri"
+ - "Kanan"
+ - "Back"
+ Jawaban: "Kanan"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ Pertanyaan: "Dengarkan and Pilih the correct direction"
+ audio: "Imbere"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ Jawaban: "Front"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_and_choose
+ Pertanyaan: "Dengarkan and Pilih the correct command"
+ audio: "Hagarika ibumoso"
+ options:
+ - "Turn Kanan"
+ - "Turn Kiri"
+ - "Go Lurus"
+ Jawaban: "Turn Kiri"
+ xp_reward: 18
+
+ - id: 48
+ type: listen_and_choose
+ Pertanyaan: "Dengarkan and Pilih the correct Kalimat"
+ audio: "Isoko riri hafi"
+ options:
+ - "The Pasar is far"
+ - "The Pasar is near"
+ - "The Pasar is in front"
+ Jawaban: "The Pasar is near"
+ xp_reward: 18
+
+ # 5. Repeat / Bicara Exercise
+ - id: 49
+ type: Bicara
+ Pertanyaan: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "Kiri"
+ xp_reward: 15
+
+ - id: 50
+ type: Bicara
+ Pertanyaan: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "Kanan"
+ xp_reward: 15
+
+ - id: 51
+ type: Bicara
+ Pertanyaan: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 52
+ type: Bicara
+ Pertanyaan: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 53
+ type: Bicara
+ Pertanyaan: "Say this direction word"
+ prompt: "Hafi"
+ translation: "Near"
+ xp_reward: 15
+
+ - id: 54
+ type: Bicara
+ Pertanyaan: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Kiri"
+ xp_reward: 18
+
+ - id: 55
+ type: Bicara
+ Pertanyaan: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Lurus"
+ xp_reward: 18
+
+ - id: 56
+ type: Bicara
+ Pertanyaan: "Say this Kalimat"
+ prompt: "Isoko riri hafi"
+ translation: "The Pasar is near"
+ xp_reward: 18
+
+ - id: 57
+ type: Bicara
+ Pertanyaan: "Say this Kalimat"
+ prompt: "Banki iri imbere y'ishuri"
+ translation: "The bank is in front of the Sekolah"
+ xp_reward: 22
+
+ # 6. Word Bank Kalimat Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ Pertanyaan: "Build the command 'Turn Kiri'"
+ word_bank: ["Hagarika", "ibumoso", "iburyo", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "ibumoso"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Pertanyaan: "Build the command 'Turn Kanan'"
+ word_bank: ["Hagarika", "iburyo", "ibumoso", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "iburyo"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Pertanyaan: "Build the command 'Go Lurus'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira"]
+ correct_answer: ["Komeza", "imbere"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ Pertanyaan: "Build the command 'Go back'"
+ word_bank: ["Subira", "inyuma", "komeza", "imbere", "hagarika"]
+ correct_answer: ["Subira", "inyuma"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Pertanyaan: "Build the Kalimat 'The bank is in front of the Sekolah'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri", "hafi"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Pertanyaan: "Build the Kalimat 'The Pasar is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ Pertanyaan: "Build the Kalimat 'The hospital is far'"
+ word_bank: ["Ibitaro", "biri", "kure", "isoko", "riri", "hafi"]
+ correct_answer: ["Ibitaro", "biri", "kure"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ Pertanyaan: "Build the command 'Cross the street'"
+ word_bank: ["Kora", "umuhanda", "hagarara", "itara", "ry'umuhanda"]
+ correct_answer: ["Kora", "umuhanda"]
+ xp_reward: 15
+
+ - id: 66
+ type: word_bank
+ Pertanyaan: "Build the command 'Stop at the traffic light'"
+ word_bank: ["Hagarara", "ku", "itara", "ry'umuhanda", "kora", "umuhanda"]
+ correct_answer: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ xp_reward: 22
+
+ # 7. Kalimat Scramble - PIECES PROVIDED
+ - id: 67
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "ibumoso"]
+ correct_sentence: "Hagarika ibumoso."
+ translation: "Turn Kiri."
+ xp_reward: 15
+
+ - id: 68
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "iburyo"]
+ correct_sentence: "Hagarika iburyo."
+ translation: "Turn Kanan."
+ xp_reward: 15
+
+ - id: 69
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct command"
+ scrambled_words: ["Komeza", "imbere"]
+ correct_sentence: "Komeza imbere."
+ translation: "Go Lurus."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct command"
+ scrambled_words: ["Subira", "inyuma"]
+ correct_sentence: "Subira inyuma."
+ translation: "Go back."
+ xp_reward: 15
+
+ - id: 71
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kalimat"
+ scrambled_words: ["Banki", "iri", "imbere", "y'ishuri"]
+ correct_sentence: "Banki iri imbere y'ishuri."
+ translation: "The bank is in front of the Sekolah."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kalimat"
+ scrambled_words: ["Isoko", "riri", "hafi"]
+ correct_sentence: "Isoko riri hafi."
+ translation: "The Pasar is near."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct Kalimat"
+ scrambled_words: ["Ibitaro", "biri", "kure"]
+ correct_sentence: "Ibitaro biri kure."
+ translation: "The hospital is far."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct command"
+ scrambled_words: ["Kora", "umuhanda"]
+ correct_sentence: "Kora umuhanda."
+ translation: "Cross the street."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Pertanyaan: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ correct_sentence: "Hagarara ku itara ry'umuhanda."
+ translation: "Stop at the traffic light."
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Pilih FROM OPTIONS
+ - id: 76
+ type: fill_blank
+ Pertanyaan: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Kiri."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ Pertanyaan: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["iburyo", "ibumoso", "imbere"]
+ correct_answer: "iburyo"
+ translation: "Turn Kanan."
+ xp_reward: 12
+
+ - id: 78
+ type: fill_blank
+ Pertanyaan: "Complete the command"
+ text_with_blank: "Komeza ___."
+ options: ["imbere", "inyuma", "ibumoso"]
+ correct_answer: "imbere"
+ translation: "Go Lurus."
+ xp_reward: 12
+
+ - id: 79
+ type: fill_blank
+ Pertanyaan: "Complete the command"
+ text_with_blank: "Subira ___."
+ options: ["inyuma", "imbere", "iburyo"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ Pertanyaan: "Complete the Kalimat"
+ text_with_blank: "Isoko riri ___."
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Pasar is near."
+ xp_reward: 12
+
+ - id: 81
+ type: fill_blank
+ Pertanyaan: "Complete the Kalimat"
+ text_with_blank: "Ibitaro biri ___."
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 82
+ type: fill_blank
+ Pertanyaan: "Complete the Kalimat"
+ text_with_blank: "Banki iri imbere ___."
+ options: ["y'ishuri", "y'isoko", "y'ibitaro"]
+ correct_answer: "y'ishuri"
+ translation: "The bank is in front of the Sekolah."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ Pertanyaan: "Complete the command"
+ text_with_blank: "Kora ___."
+ options: ["umuhanda", "itara", "inguni"]
+ correct_answer: "umuhanda"
+ translation: "Cross the street."
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ Pertanyaan: "Complete the command"
+ text_with_blank: "Hagarara ku ___ ry'umuhanda."
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 85
+ type: picture_word
+ Pertanyaan: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?left-arrow"
+ options: ["Ibumoso", "Iburyo", "Imbere"]
+ correct_answer: "Ibumoso"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Pertanyaan: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?right-arrow"
+ options: ["Ibumoso", "Iburyo", "Inyuma"]
+ correct_answer: "Iburyo"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Pertanyaan: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?straight-arrow"
+ options: ["Imbere", "Inyuma", "Ibumoso"]
+ correct_answer: "Imbere"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Pertanyaan: "Apa itu this?"
+ image_url: "https://source.unsplash.com/featured/?traffic-light"
+ options: ["Itara ry'umuhanda", "Umuhanda", "Ikimenyetso"]
+ correct_answer: "Itara ry'umuhanda"
+ xp_reward: 12
+
+ - id: 89
+ type: picture_word
+ Pertanyaan: "Apa itu this?"
+ image_url: "https://source.unsplash.com/featured/?street-corner"
+ options: ["Inguni", "Umuhanda", "Ahantu hahurira imihanda"]
+ correct_answer: "Inguni"
+ xp_reward: 10
+
+ - id: 90
+ type: picture_word
+ Pertanyaan: "Apa itu this?"
+ image_url: "https://source.unsplash.com/featured/?road-sign"
+ options: ["Ikimenyetso", "Itara", "Umuhanda"]
+ correct_answer: "Ikimenyetso"
+ xp_reward: 10
+
+ - id: 91
+ type: picture_word
+ Pertanyaan: "Apa itu this?"
+ image_url: "https://source.unsplash.com/featured/?intersection"
+ options: ["Ahantu hahurira imihanda", "Inguni", "Umuhanda"]
+ correct_answer: "Ahantu hahurira imihanda"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ Pertanyaan: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?bank"
+ options: ["Banki", "Isoko", "Ibitaro"]
+ correct_answer: "Banki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ Pertanyaan: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?market"
+ options: ["Isoko", "Banki", "Ibitaro"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ Pertanyaan: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?hospital"
+ options: ["Ibitaro", "Isoko", "Banki"]
+ correct_answer: "Ibitaro"
+ xp_reward: 10
+
+ # 10. Word Cocokkan (Pairing)
+ - id: 95
+ type: Cocokkan
+ Pertanyaan: "Cocokkan the basic Arah"
+ pairs:
+ - Kiri: "Kiri"
+ Kanan: "Ibumoso"
+ - Kiri: "Kanan"
+ Kanan: "Iburyo"
+ - Kiri: "Lurus"
+ Kanan: "Uburyohe / Guhita imbere"
+ - Kiri: "Front"
+ Kanan: "Imbere"
+ - Kiri: "Behind"
+ Kanan: "Inyuma"
+ xp_reward: 20
+
+ - id: 96
+ type: Cocokkan
+ Pertanyaan: "Cocokkan the cardinal Arah"
+ pairs:
+ - Kiri: "North"
+ Kanan: "Amajyaruguru"
+ - Kiri: "South"
+ Kanan: "Amajyepfo"
+ - Kiri: "East"
+ Kanan: "Uburasirazuba"
+ - Kiri: "West"
+ Kanan: "Uburengerazuba"
+ xp_reward: 18
+
+ - id: 97
+ type: Cocokkan
+ Pertanyaan: "Cocokkan the location words"
+ pairs:
+ - Kiri: "Near"
+ Kanan: "Hafi"
+ - Kiri: "Far"
+ Kanan: "Hahandi / kure"
+ - Kiri: "Around"
+ Kanan: "Hagarika / ahantu hose"
+ xp_reward: 15
+
+ - id: 98
+ type: Cocokkan
+ Pertanyaan: "Cocokkan the commands"
+ pairs:
+ - Kiri: "Turn Kiri"
+ Kanan: "Hagarika ibumoso"
+ - Kiri: "Turn Kanan"
+ Kanan: "Hagarika iburyo"
+ - Kiri: "Go Lurus"
+ Kanan: "Komeza imbere"
+ - Kiri: "Go back"
+ Kanan: "Subira inyuma"
+ - Kiri: "Cross the street"
+ Kanan: "Kora umuhanda"
+ - Kiri: "Stop at the traffic light"
+ Kanan: "Hagarara ku itara ry'umuhanda"
+ xp_reward: 25
+
+ - id: 99
+ type: Cocokkan
+ Pertanyaan: "Cocokkan the Kalimat"
+ pairs:
+ - Kiri: "The bank is in front of the Sekolah"
+ Kanan: "Banki iri imbere y'ishuri"
+ - Kiri: "The Pasar is near"
+ Kanan: "Isoko riri hafi"
+ - Kiri: "The hospital is far"
+ Kanan: "Ibitaro biri kure"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Pilih Missing Word
+ - id: 100
+ type: choose_missing
+ Pertanyaan: "Pilih the missing word"
+ Kalimat: "Hagarika ___."
+ missing_word_position: 2
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Kiri."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ Pertanyaan: "Pilih the missing word"
+ Kalimat: "Komeza ___."
+ missing_word_position: 2
+ options: ["imbere", "inyuma", "iburyo"]
+ correct_answer: "imbere"
+ translation: "Go Lurus."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ Pertanyaan: "Pilih the missing word"
+ Kalimat: "Subira ___."
+ missing_word_position: 2
+ options: ["inyuma", "imbere", "ibumoso"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 103
+ type: choose_missing
+ Pertanyaan: "Pilih the missing word"
+ Kalimat: "Isoko riri ___."
+ missing_word_position: 3
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Pasar is near."
+ xp_reward: 12
+
+ - id: 104
+ type: choose_missing
+ Pertanyaan: "Pilih the missing word"
+ Kalimat: "Ibitaro biri ___."
+ missing_word_position: 3
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 105
+ type: choose_missing
+ Pertanyaan: "Pilih the missing phrase"
+ Kalimat: "Hagarara ku ___ ry'umuhanda."
+ missing_word_position: 3
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 13. Baca and Jawaban - Pertanyaan based on text
+ - id: 106
+ type: read_answer
+ Pertanyaan: "Baca the text and Jawaban the Pertanyaan"
+ text: "Komeza imbere. Hagarika ibumoso."
+ Pertanyaan: "Apa itu the first instruction?"
+ options: ["Turn Kiri", "Go Lurus", "Turn Kanan", "Go back"]
+ correct_answer: "Go Lurus"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ Pertanyaan: "Baca the text and Jawaban the Pertanyaan"
+ text: "Banki iri imbere y'ishuri. Isoko riri hafi."
+ Pertanyaan: "Where is the bank?"
+ options: ["Near the Pasar", "In front of the Sekolah", "Far away", "Behind the Sekolah"]
+ correct_answer: "In front of the Sekolah"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ Pertanyaan: "Baca the text and Jawaban the Pertanyaan"
+ text: "Hagarara ku itara ry'umuhanda. Kora umuhanda."
+ Pertanyaan: "What should you do at the traffic light?"
+ options: ["Turn Kiri", "Stop", "Go Lurus", "Turn Kanan"]
+ correct_answer: "Stop"
+ xp_reward: 15
+
+ - id: 109
+ type: read_answer
+ Pertanyaan: "Baca the text and Jawaban the Pertanyaan"
+ text: "Ibitaro biri kure. Isoko riri hafi."
+ Pertanyaan: "Is the hospital near or far?"
+ options: ["Near", "Far", "Very close", "Not mentioned"]
+ correct_answer: "Far"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ Pertanyaan: "Baca the text and Jawaban the Pertanyaan"
+ text: "Subira inyuma. Hagarika iburyo."
+ Pertanyaan: "Apa itu the second instruction?"
+ options: ["Go back", "Turn Kiri", "Turn Kanan", "Go Lurus"]
+ correct_answer: "Turn Kanan"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ Pertanyaan: "Is this statement true or false?"
+ statement: "Ibumoso means 'Kanan'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ Pertanyaan: "Is this statement true or false?"
+ statement: "Iburyo means 'Kanan'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ Pertanyaan: "Is this statement true or false?"
+ statement: "Imbere means 'front'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Pertanyaan: "Is this statement true or false?"
+ statement: "Hafi means 'far'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Pertanyaan: "Is this statement true or false?"
+ statement: "Komeza imbere means 'go Lurus'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ Pertanyaan: "Is this statement true or false?"
+ statement: "Itara ry'umuhanda means 'street sign'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Pertanyaan: "Respond to the Pertanyaan by building a command"
+ bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+ translation: "I want to reach the Pasar. What should I do?"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira", "inyuma"]
+ correct_response: ["Komeza", "imbere"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ Pertanyaan: "Respond to the Pertanyaan"
+ bot_message: "Banki iri he?"
+ translation: "Where is the bank?"
+ options:
+ - "Imbere y'ishuri"
+ - "Hafi y'isoko"
+ - "Kure"
+ correct_response: "Imbere y'ishuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ Pertanyaan: "Respond to the Pertanyaan by building a command"
+ bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+ translation: "I want to reach the hospital. What should I do?"
+ word_bank: ["Subira", "inyuma", "hagarika", "iburyo", "komeza", "imbere"]
+ correct_response: ["Subira", "inyuma"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ Pertanyaan: "Respond to the Pertanyaan"
+ bot_message: "Isoko riri hafi?"
+ translation: "Is the Pasar near?"
+ options:
+ - "Yego, riri hafi"
+ - "Oya, riri kure"
+ - "Simenye"
+ correct_response: "Yego, riri hafi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build Kalimat from pieces
+ - id: 121
+ type: story
+ title: "Finding the Pasar - Gushaka Isoko"
+ story_intro: "Baca about finding the Pasar. Then build the Kalimat."
+ story_segments:
+ - text: "I want to go to the Pasar."
+ - text: "Go Lurus."
+ - text: "Turn Kiri at the traffic light."
+ - text: "The Pasar is near."
+ - text: "The bank is in front of the Sekolah."
+ exercises:
+ - type: word_bank
+ Pertanyaan: "Build 'Go Lurus'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso"]
+ correct_answer: ["Komeza", "imbere"]
+ - type: word_bank
+ Pertanyaan: "Build 'Turn Kiri at the traffic light'"
+ word_bank: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ correct_answer: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ - type: word_bank
+ Pertanyaan: "Build 'The Pasar is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ - type: word_bank
+ Pertanyaan: "Build 'The bank is in front of the Sekolah'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Pertanyaan: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "Kiri"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Pertanyaan: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "Kanan"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Pertanyaan: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ Pertanyaan: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ Pertanyaan: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Kiri"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ Pertanyaan: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Lurus"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ Pertanyaan: "Say this Kalimat"
+ prompt: "Isoko riri hafi"
+ translation: "The Pasar is near"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 129
+ type: identify_meaning
+ Pertanyaan: "Apa arti 'Hagarika' mean in this command?"
+ context_sentence: "Hagarika ibumoso."
+ word: "Hagarika"
+ options: ["Go", "Turn", "Stop", "Cross"]
+ correct_answer: "Turn"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ Pertanyaan: "Apa arti 'Komeza' mean in this command?"
+ context_sentence: "Komeza imbere."
+ word: "Komeza"
+ options: ["Turn", "Stop", "Continue / Go", "Cross"]
+ correct_answer: "Continue / Go"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ Pertanyaan: "Apa arti 'hafi' mean in this Kalimat?"
+ context_sentence: "Isoko riri hafi."
+ word: "hafi"
+ options: ["far", "near", "behind", "front"]
+ correct_answer: "near"
+ xp_reward: 12
+
+ - id: 132
+ type: identify_meaning
+ Pertanyaan: "Apa arti 'kure' mean in this Kalimat?"
+ context_sentence: "Ibitaro biri kure."
+ word: "kure"
+ options: ["near", "far", "Kiri", "Kanan"]
+ correct_answer: "far"
+ xp_reward: 12
+
+ - id: 133
+ type: identify_meaning
+ Pertanyaan: "Apa arti 'imbere y'' mean in this Kalimat?"
+ context_sentence: "Banki iri imbere y'ishuri."
+ word: "imbere y'"
+ options: ["behind", "in front of", "next to", "far from"]
+ correct_answer: "in front of"
+ xp_reward: 15
+
+ # 19. Speed Cocokkan
+ - id: 134
+ type: speed_Cocokkan
+ title: "Cocokkan Madness: Arah"
+ time_limit_seconds: 45
+ pairs:
+ - Kiri: "Kiri"
+ Kanan: "Ibumoso"
+ - Kiri: "Kanan"
+ Kanan: "Iburyo"
+ - Kiri: "Lurus"
+ Kanan: "Imbere"
+ - Kiri: "Behind"
+ Kanan: "Inyuma"
+ - Kiri: "North"
+ Kanan: "Amajyaruguru"
+ - Kiri: "South"
+ Kanan: "Amajyepfo"
+ - Kiri: "East"
+ Kanan: "Uburasirazuba"
+ - Kiri: "West"
+ Kanan: "Uburengerazuba"
+ - Kiri: "Near"
+ Kanan: "Hafi"
+ - Kiri: "Far"
+ Kanan: "Kure"
+ - Kiri: "Turn Kiri"
+ Kanan: "Hagarika ibumoso"
+ - Kiri: "Turn Kanan"
+ Kanan: "Hagarika iburyo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: Arah"
+ time_limit_seconds: 30
+ Pertanyaan_count: 5
+ Pertanyaan:
+ - Pertanyaan: "Kiri"
+ Jawaban: "Ibumoso"
+ - Pertanyaan: "Kanan"
+ Jawaban: "Iburyo"
+ - Pertanyaan: "Lurus"
+ Jawaban: "Imbere"
+ - Pertanyaan: "Behind"
+ Jawaban: "Inyuma"
+ - Pertanyaan: "Near"
+ Jawaban: "Hafi"
+ xp_reward: 35
+
+# Kartu kata
+ - id: 111
+ type: Kartu kata
+ Pertanyaan: "Kartu kata"
+ Kartu kata:
+ - front: "Ibumoso"
+ back: "Kiri"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iburyo"
+ back: "Kanan"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Uburyohe / Guhita imbere"
+ back: "Lurus"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Inyuma"
+ back: "Back / Behind"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbere"
+ back: "Front"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyaruguru"
+ back: "North"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyepfo"
+ back: "South"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburasirazuba"
+ back: "East"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburengerazuba"
+ back: "West"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Hafi"
+ back: "Near"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

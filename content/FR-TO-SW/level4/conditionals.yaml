@@ -1,0 +1,846 @@
+lesson:
+  name: "Masharti na Uwezekano"
+  description: "Apprenez Ã  exprimer les conditions et les possibilitÃ©s en Kiswahili"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Vocabulary ONLY (Safe for single words/phrases)
+  # Basic Conditional Words
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Si' en Kiswahili ?"
+    answer: "Kama"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Quand' en Kiswahili ?"
+    answer: "Wakati"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Sauf si' en Kiswahili ?"
+    answer: "Isipokuwa"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Alors' en Kiswahili ?"
+    answer: "Basi"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Pourrait' en Kiswahili ?"
+    answer: "Anaweza"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Fera' en Kiswahili ?"
+    answer: "Atafanya"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Serait' en Kiswahili ?"
+    answer: "Ingekuwa"
+    xp_reward: 15
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Pourraient' en Kiswahili ?"
+    answer: "Wanaweza"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Devrait' en Kiswahili ?"
+    answer: "Inapaswa"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Peut' en Kiswahili ?"
+    answer: "Anaweza"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Impossible' en Kiswahili ?"
+    answer: "Haiwezekani"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Possible' en Kiswahili ?"
+    answer: "Inawezekana"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Avant de' en Kiswahili ?"
+    answer: "Kabla ya"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'AprÃ¨s avoir' en Kiswahili ?"
+    answer: "Baada ya"
+    xp_reward: 15
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Toujours' en Kiswahili ?"
+    answer: "Daima"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Jamais' en Kiswahili ?"
+    answer: "Kamwe"
+    xp_reward: 10
+
+  # Translation - Common Conditional Phrases
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'S'il pleut, je resterai Ã  la maison' en Kiswahili ?"
+    answer: "Kama mvua itanyesha, nitabaki nyumbani."
+    xp_reward: 20
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Si je vais Ã  Kigali, je rendrai visite Ã  mon ami' en Kiswahili ?"
+    answer: "Kama nitaenda Kigali, nitamtembelea rafiki yangu."
+    xp_reward: 20
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Si tu Ã©tudies, tu rÃ©ussiras' en Kiswahili ?"
+    answer: "Kama utasoma, utafaulu."
+    xp_reward: 18
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'S'il vient, nous commencerons la rÃ©union' en Kiswahili ?"
+    answer: "Kama atakuja, tutaanza mkutano."
+    xp_reward: 20
+
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'Sauf si tu te dÃ©pÃªches, tu rateras le bus' en Kiswahili ?"
+    answer: "Isipokuwa ukifanya haraka, utakosa basi."
+    xp_reward: 20
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'Si j'avais de l'argent, j'achÃ¨terais une voiture' en Kiswahili ?"
+    answer: "Kama ningekuwa na pesa, ningenunua gari."
+    xp_reward: 22
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Si elle Ã©tait ici, elle pourrait aider' en Kiswahili ?"
+    answer: "Kama angekuwa hapa, angeweza kusaidia."
+    xp_reward: 22
+
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'Je voyagerais si j'avais plus de temps' en Kiswahili ?"
+    answer: "Ningesafiri kama ningekuwa na muda zaidi."
+    xp_reward: 22
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'Tu devrais manger avant de partir' en Kiswahili ?"
+    answer: "Unapaswa kula kabla ya kuondoka."
+    xp_reward: 20
+
+  - id: 26
+    type: translation
+    question: "Comment dit-on 'Si c'est possible, je viendrai demain' en Kiswahili ?"
+    answer: "Kama inawezekana, nitakuja kesho."
+    xp_reward: 18
+
+  # 2. Multiple Choice
+  - id: 27
+    type: multiple_choice
+    question: "Que signifie 'Kama' ?"
+    options:
+      - "Wakati"
+      - "Kama"
+      - "Basi"
+      - "Baada ya"
+    answer: "Kama"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "Que signifie 'Wakati' ?"
+    options:
+      - "Kama"
+      - "Wakati"
+      - "Basi"
+      - "Kabla ya"
+    answer: "Wakati"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "Que signifie 'Basi' ?"
+    options:
+      - "Kabla ya"
+      - "Baada ya"
+      - "Basi"
+      - "Wakati"
+    answer: "Basi"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "Que signifie 'Inawezekana' ?"
+    options:
+      - "Haiwezekani"
+      - "Inawezekana"
+      - "Daima"
+      - "Kamwe"
+    answer: "Inawezekana"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "Que signifie 'Haiwezekani' ?"
+    options:
+      - "Inawezekana"
+      - "Haiwezekani"
+      - "Daima"
+      - "Kamwe"
+    answer: "Haiwezekani"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "Que signifie 'Daima' ?"
+    options:
+      - "Kamwe"
+      - "Daima"
+      - "Wakati mwingine"
+      - "Mara nyingi"
+    answer: "Daima"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "Que signifie 'Kamwe' ?"
+    options:
+      - "Daima"
+      - "Wakati mwingine"
+      - "Kamwe"
+      - "Mara nyingi"
+    answer: "Kamwe"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 34
+    type: listen_and_type
+    question: "Ã‰coutez et tapez le mot"
+    audio: "Kama"
+    answer: "Kama"
+    translation: "Si"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Ã‰coutez et tapez le mot"
+    audio: "Wakati"
+    answer: "Wakati"
+    translation: "Quand"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Ã‰coutez et tapez le mot"
+    audio: "Inawezekana"
+    answer: "Inawezekana"
+    translation: "Possible"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Ã‰coutez et tapez la phrase"
+    audio: "Kama mvua itanyesha nitabaki nyumbani"
+    answer: "Kama mvua itanyesha nitabaki nyumbani"
+    translation: "S'il pleut, je resterai Ã  la maison"
+    xp_reward: 25
+
+  - id: 38
+    type: listen_and_type
+    question: "Ã‰coutez et tapez la phrase"
+    audio: "Kama utasoma utafaulu"
+    answer: "Kama utasoma utafaulu"
+    translation: "Si tu Ã©tudies, tu rÃ©ussiras"
+    xp_reward: 22
+
+  - id: 39
+    type: listen_and_type
+    question: "Ã‰coutez et tapez la phrase"
+    audio: "Kama inawezekana nitakuja kesho"
+    answer: "Kama inawezekana nitakuja kesho"
+    translation: "Si c'est possible, je viendrai demain"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 40
+    type: listen_and_choose
+    question: "Ã‰coutez et choisissez le mot correct"
+    audio: "Kama"
+    options:
+      - "Wakati"
+      - "Kama"
+      - "Basi"
+    answer: "Kama"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Ã‰coutez et choisissez le mot correct"
+    audio: "Inawezekana"
+    options:
+      - "Haiwezekani"
+      - "Inawezekana"
+      - "Daima"
+    answer: "Inawezekana"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Ã‰coutez et choisissez la bonne phrase"
+    audio: "Kama utasoma utafaulu"
+    options:
+      - "Kama utasoma utafaulu"
+      - "Kama mvua itanyesha nitabaki nyumbani"
+      - "Kama inawezekana nitakuja"
+    answer: "Kama utasoma utafaulu"
+    xp_reward: 18
+
+  - id: 43
+    type: listen_and_choose
+    question: "Ã‰coutez et choisissez la bonne phrase"
+    audio: "Kama inawezekana nitakuja kesho"
+    options:
+      - "Kama mvua itanyesha nitabaki nyumbani"
+      - "Kama utasoma utafaulu"
+      - "Kama inawezekana nitakuja kesho"
+    answer: "Kama inawezekana nitakuja kesho"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 44
+    type: speaking
+    question: "Dites ce mot"
+    prompt: "Kama"
+    translation: "Si"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Dites ce mot"
+    prompt: "Inawezekana"
+    translation: "Possible"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Kama mvua itanyesha nitabaki nyumbani"
+    translation: "S'il pleut, je resterai Ã  la maison"
+    xp_reward: 20
+
+  - id: 47
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Kama utasoma utafaulu"
+    translation: "Si tu Ã©tudies, tu rÃ©ussiras"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Kama inawezekana nitakuja kesho"
+    translation: "Si c'est possible, je viendrai demain"
+    xp_reward: 18
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED
+  - id: 49
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'S'il pleut, je resterai Ã  la maison'"
+    word_bank: ["Kama", "mvua", "itanyesha", "nitabaki", "nyumbani", "nitakuja"]
+    correct_answer: ["Kama", "mvua", "itanyesha", "nitabaki", "nyumbani"]
+    xp_reward: 22
+
+  - id: 50
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Si je vais Ã  Kigali, je rendrai visite Ã  mon ami'"
+    word_bank: ["Kama", "nitaenda", "Kigali", "nitamtembelea", "rafiki", "yangu"]
+    correct_answer: ["Kama", "nitaenda", "Kigali", "nitamtembelea", "rafiki", "yangu"]
+    xp_reward: 25
+
+  - id: 51
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Si tu Ã©tudies, tu rÃ©ussiras'"
+    word_bank: ["Kama", "utasoma", "utafaulu", "atakuja", "tutaanza", "mkutano"]
+    correct_answer: ["Kama", "utasoma", "utafaulu"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'S'il vient, nous commencerons la rÃ©union'"
+    word_bank: ["Kama", "atakuja", "tutaanza", "mkutano", "utasoma", "utafaulu"]
+    correct_answer: ["Kama", "atakuja", "tutaanza", "mkutano"]
+    xp_reward: 22
+
+  - id: 53
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Si j'avais de l'argent, j'achÃ¨terais une voiture'"
+    word_bank: ["Kama", "ningekuwa", "na", "pesa", "ningenunua", "gari"]
+    correct_answer: ["Kama", "ningekuwa", "na", "pesa", "ningenunua", "gari"]
+    xp_reward: 28
+
+  - id: 54
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Si elle Ã©tait ici, elle pourrait aider'"
+    word_bank: ["Kama", "angekuwa", "hapa", "angeweza", "kusaidia", "atakuja"]
+    correct_answer: ["Kama", "angekuwa", "hapa", "angeweza", "kusaidia"]
+    xp_reward: 25
+
+  - id: 55
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Tu devrais manger avant de partir'"
+    word_bank: ["Unapaswa", "kula", "kabla", "ya", "kuondoka", "baada", "ya"]
+    correct_answer: ["Unapaswa", "kula", "kabla", "ya", "kuondoka"]
+    xp_reward: 22
+
+  - id: 56
+    type: word_bank
+    question: "Construisez la phrase en Kiswahili pour 'Si c'est possible, je viendrai demain'"
+    word_bank: ["Kama", "inawezekana", "nitakuja", "kesho", "mvua", "itanyesha"]
+    correct_answer: ["Kama", "inawezekana", "nitakuja", "kesho"]
+    xp_reward: 18
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 57
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Kama", "mvua", "itanyesha", "nitabaki", "nyumbani"]
+    correct_sentence: "Kama mvua itanyesha, nitabaki nyumbani."
+    translation: "S'il pleut, je resterai Ã  la maison."
+    xp_reward: 22
+
+  - id: 58
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Kama", "utasoma", "utafaulu"]
+    correct_sentence: "Kama utasoma, utafaulu."
+    translation: "Si tu Ã©tudies, tu rÃ©ussiras."
+    xp_reward: 18
+
+  - id: 59
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Kama", "atakuja", "tutaanza", "mkutano"]
+    correct_sentence: "Kama atakuja, tutaanza mkutano."
+    translation: "S'il vient, nous commencerons la rÃ©union."
+    xp_reward: 22
+
+  - id: 60
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Isipokuwa", "ukifanya", "haraka", "utakosa", "basi"]
+    correct_sentence: "Isipokuwa ukifanya haraka, utakosa basi."
+    translation: "Sauf si tu te dÃ©pÃªches, tu rateras le bus."
+    xp_reward: 20
+
+  - id: 62
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Kama", "angekuwa", "hapa", "angeweza", "kusaidia"]
+    correct_sentence: "Kama angekuwa hapa, angewesa kusaidia."
+    translation: "Si elle Ã©tait ici, elle pourrait aider."
+    xp_reward: 25
+
+  - id: 63
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Unapaswa", "kula", "kabla", "ya", "kuondoka"]
+    correct_sentence: "Unapaswa kula kabla ya kuondoka."
+    translation: "Tu devrais manger avant de partir."
+    xp_reward: 22
+
+  - id: 64
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Kama", "inawezekana", "nitakuja", "kesho"]
+    correct_sentence: "Kama inawezekana, nitakuja kesho."
+    translation: "Si c'est possible, je viendrai demain."
+    xp_reward: 18
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 65
+    type: fill_blank
+    question: "ComplÃ©tez la phrase"
+    text_with_blank: "___ mvua itanyesha, nitabaki nyumbani."
+    options: ["Kama", "Wakati", "Basi"]
+    correct_answer: "Kama"
+    translation: "S'il pleut, je resterai Ã  la maison."
+    xp_reward: 15
+
+  - id: 66
+    type: fill_blank
+    question: "ComplÃ©tez la phrase"
+    text_with_blank: "Kama utasoma, ___."
+    options: ["utafaulu", "nitakuja", "tutaanza"]
+    correct_answer: "utafaulu"
+    translation: "Si tu Ã©tudies, tu rÃ©ussiras."
+    xp_reward: 15
+
+  - id: 67
+    type: fill_blank
+    question: "ComplÃ©tez la phrase"
+    text_with_blank: "Kama atakuja, tutaanza ___."
+    options: ["mkutano", "shule", "barabara"]
+    correct_answer: "mkutano"
+    translation: "S'il vient, nous commencerons la rÃ©union."
+    xp_reward: 18
+
+  - id: 68
+    type: fill_blank
+    question: "ComplÃ©tez la phrase"
+    text_with_blank: "Isipokuwa ukifanya haraka, ___ basi."
+    options: ["utakosa", "utafata", "utaona"]
+    correct_answer: "utakosa"
+    translation: "Sauf si tu te dÃ©pÃªches, tu rateras le bus."
+    xp_reward: 18
+
+  - id: 69
+    type: fill_blank
+    question: "ComplÃ©tez la phrase"
+    text_with_blank: "Kama angekuwa hapa, angewesa ___."
+    options: ["kusaidia", "kusoma", "kula"]
+    correct_answer: "kusaidia"
+    translation: "Si elle Ã©tait ici, elle pourrait aider."
+    xp_reward: 18
+
+  - id: 70
+    type: fill_blank
+    question: "ComplÃ©tez la phrase"
+    text_with_blank: "Unapaswa kula ___ ya kuondoka."
+    options: ["kabla", "baada", "basi"]
+    correct_answer: "kabla"
+    translation: "Tu devrais manger avant de partir."
+    xp_reward: 18
+
+  - id: 71
+    type: fill_blank
+    question: "ComplÃ©tez la phrase"
+    text_with_blank: "Kama inawezekana, nitakuja ___."
+    options: ["kesho", "leo", "usiku"]
+    correct_answer: "kesho"
+    translation: "Si c'est possible, je viendrai demain."
+    xp_reward: 15
+
+  # 9. Picture â†’ Word (Unsplash Images)
+  - id: 72
+    type: picture_word
+    question: "Picha hii inawakilisha nini?"
+    image_url: "https://source.unsplash.com/featured/?rain"
+    options: ["Mvua", "Jua", "Upepo"]
+    correct_answer: "Mvua"
+    xp_reward: 10
+
+  - id: 73
+    type: picture_word
+    question: "Picha hii inawakilisha nini?"
+    image_url: "https://source.unsplash.com/featured/?studying"
+    options: ["Kusoma", "Kufanya kazi", "Kula"]
+    correct_answer: "Kusoma"
+    xp_reward: 10
+
+  - id: 74
+    type: picture_word
+    question: "Picha hii inawakilisha nini?"
+    image_url: "https://source.unsplash.com/featured/?money"
+    options: ["Pesa", "Kitabu", "Nyumba"]
+    correct_answer: "Pesa"
+    xp_reward: 10
+
+  - id: 75
+    type: picture_word
+    question: "Picha hii inawakilisha nini?"
+    image_url: "https://source.unsplash.com/featured/?car"
+    options: ["Gari", "Basi", "Baiskeli"]
+    correct_answer: "Gari"
+    xp_reward: 10
+
+  - id: 76
+    type: picture_word
+    question: "Picha hii inawakilisha nini?"
+    image_url: "https://source.unsplash.com/featured/?helping"
+    options: ["Kusaidia", "Kulia", "Kucheka"]
+    correct_answer: "Kusaidia"
+    xp_reward: 10
+
+  - id: 77
+    type: picture_word
+    question: "Picha hii inawakilisha nini?"
+    image_url: "https://source.unsplash.com/featured/?bus"
+    options: ["Basi", "Gari", "Ndege"]
+    correct_answer: "Basi"
+    xp_reward: 10
+
+  # 10. Word Matching (Pairing)
+  - id: 78
+    type: matching
+    question: "Linganisha maneno ya masharti"
+    pairs:
+      - left: "Kama"
+        right: "Si"
+      - left: "Wakati"
+        right: "Quand"
+      - left: "Basi"
+        right: "Alors"
+      - left: "Kabla ya"
+        right: "Avant de"
+      - left: "Baada ya"
+        right: "AprÃ¨s avoir"
+      - left: "Daima"
+        right: "Toujours"
+      - left: "Kamwe"
+        right: "Jamais"
+      - left: "Inawezekana"
+        right: "Possible"
+      - left: "Haiwezekani"
+        right: "Impossible"
+    xp_reward: 25
+
+  - id: 79
+    type: matching
+    question: "Linganisha vitenzi vya hali"
+    pairs:
+      - left: "Anaweza"
+        right: "Pourrait / Peut"
+      - left: "Atafanya"
+        right: "Fera"
+      - left: "Ingekuwa"
+        right: "Serait"
+      - left: "Wanaweza"
+        right: "Pourraient"
+      - left: "Inapaswa"
+        right: "Devrait"
+    xp_reward: 20
+
+  - id: 80
+    type: matching
+    question: "Linganisha nusu za sentensi"
+    pairs:
+      - left: "Kama mvua itanyesha"
+        right: "nitabaki nyumbani"
+      - left: "Kama utasoma"
+        right: "utafaulu"
+      - left: "Kama atakuja"
+        right: "tutaanza mkutano"
+      - left: "Kama inawezekana"
+        right: "nitakuja kesho"
+      - left: "Kama nitaenda Kigali"
+        right: "nitamtembelea rafiki yangu"
+    xp_reward: 25
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 81
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "___ mvua itanyesha, nitabaki nyumbani."
+    missing_word_position: 1
+    options: ["Kama", "Wakati", "Basi"]
+    correct_answer: "Kama"
+    translation: "S'il pleut, je resterai Ã  la maison."
+    xp_reward: 15
+
+  - id: 82
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "Kama utasoma, ___."
+    missing_word_position: 3
+    options: ["utafaulu", "nitakuja", "tutaanza"]
+    correct_answer: "utafaulu"
+    translation: "Si tu Ã©tudies, tu rÃ©ussiras."
+    xp_reward: 15
+
+  - id: 83
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "Kama atakuja, tutaanza ___."
+    missing_word_position: 4
+    options: ["mkutano", "shule", "barabara"]
+    correct_answer: "mkutano"
+    translation: "S'il vient, nous commencerons la rÃ©union."
+    xp_reward: 18
+
+  - id: 84
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "Isipokuwa ukifanya haraka, ___ basi."
+    missing_word_position: 2
+    options: ["utakosa", "utafata", "utaona"]
+    correct_answer: "utakosa"
+    translation: "Sauf si tu te dÃ©pÃªches, tu rateras le bus."
+    xp_reward: 18
+
+  - id: 85
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "Kama inawezekana, nitakuja ___."
+    missing_word_position: 3
+    options: ["kesho", "leo", "usiku"]
+    correct_answer: "kesho"
+    translation: "Si c'est possible, je viendrai demain."
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions based on text
+  - id: 86
+    type: read_answer
+    question: "Soma maandishi kisha ujibu swali"
+    text: "Kama mvua itanyesha, nitabaki nyumbani."
+    question: "Nitafanya nini kama mvua itanyesha?"
+    options: ["Nitatoka nje", "Nitabaki nyumbani", "Nitaenda shuleni", "Nitafanya kazi"]
+    correct_answer: "Nitabaki nyumbani"
+    xp_reward: 15
+
+  - id: 87
+    type: read_answer
+    question: "Soma maandishi kisha ujibu swali"
+    text: "Kama utasoma, utafaulu."
+    question: "Utafanyia nini kama utasoma?"
+    options: ["Utashindwa", "Utafaulu", "Utacheza", "Utalala"]
+    correct_answer: "Utafaulu"
+    xp_reward: 15
+
+  - id: 88
+    type: read_answer
+    question: "Soma maandishi kisha ujibu swali"
+    text: "Kama atakuja, tutaanza mkutano."
+    question: "Wataanza lini mkutano?"
+    options: ["Akikuja", "Kama mvua ikinyesha", "Akisoma", "Wakifanya kazi"]
+    correct_answer: "Akikuja"
+    xp_reward: 18
+
+  - id: 89
+    type: read_answer
+    question: "Soma maandishi kisha ujibu swali"
+    text: "Kama ningekuwa na pesa, ningenunua gari."
+    question: "Ningenunua nini kama ningekuwa na pesa?"
+    options: ["Nyumba", "Gari", "Chakula", "Nguo"]
+    correct_answer: "Gari"
+    xp_reward: 18
+
+  - id: 90
+    type: read_answer
+    question: "Soma maandishi kisha ujibu swali"
+    text: "Kama inawezekana, nitakuja kesho."
+    question: "Nitakuja lini ikiwezekana?"
+    options: ["Leo", "Kesho", "Wiki ijayo", "Kamwe"]
+    correct_answer: "Kesho"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 91
+    type: true_false
+    question: "Je, kauli hii ni kweli au si kweli?"
+    statement: "Kama means 'when'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 92
+    type: true_false
+    question: "Je, kauli hii ni kweli au si kweli?"
+    statement: "Inawezekana means 'possible'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 93
+    type: true_false
+    question: "Je, kauli hii ni kweli au si kweli?"
+    statement: "Kama utasoma, utafaulu means 'If you study, you will succeed'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 94
+    type: true_false
+    question: "Je, kauli hii ni kweli au si kweli?"
+    statement: "Isipokuwa ukifanya haraka, utakosa basi means 'If you hurry, you will catch the bus'."
+    correct_answer: false
+    xp_reward: 15
+
+  - id: 95
+    type: true_false
+    question: "Je, kauli hii ni kweli au si kweli?"
+    statement: "Daima means 'never'."
+    correct_answer: false
+    xp_reward: 10
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 96
+    type: conversation
+    question: "Jibu swali kwa kuunda sentensi"
+    bot_message: "Nitafanya nini kama mvua itanyesha?"
+    translation: "Que ferai-je s'il pleut?"
+    word_bank: ["Nitabaki", "nyumbani", "nitaenda", "shuleni", "nitafanya"]
+    correct_response: ["Nitabaki", "nyumbani"]
+    xp_reward: 18
+
+  - id: 97
+    type: conversation
+    question: "Jibu swali"
+    bot_message: "Kama utasoma, utafaulu?"
+    translation: "Si tu Ã©tudies, rÃ©ussiras-tu ?"
+    options:
+      - "Ndiyo, nitafaulu"
+      - "Hapana, sitafaulu"
+      - "Haiwezekani"
+    correct_response: "Ndiyo, nitafaulu"
+    xp_reward: 15
+
+  - id: 98
+    type: conversation
+    question: "Jibu swali kwa kuunda sentensi"
+    bot_message: "Utanunua nini kama utakuwa na pesa?"
+    translation: "Que feras-tu si tu as de l'argent ?"
+    word_bank: ["Nitanunua", "gari", "nyumba", "chakula"]
+    correct_response: ["Nitanunua", "gari"]
+    xp_reward: 20
+
+  - id: 99
+    type: conversation
+    question: "Jibu swali"
+    bot_message: "Kama inawezekana, utakuja kesho?"
+    translation: "Si c'est possible, viendras-tu demain ?"
+    options:
+      - "Ndiyo, nitakuja kesho"
+      - "Hapana, sitakuja"
+      - "Haiwezekani"
+    correct_response: "Ndiyo, nitakuja kesho"
+    xp_reward: 15
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 100
+    type: story
+    title: "Mipango na Masharti - Imigambi n'Imyitwarire"
+    story_intro: "Soma hadithi kuhusu mipango na masharti tofauti. Kisha jenga sentensi kwa Kiswahili."
+    story_segments:
+      - text: "If it rains, I will stay home."
+      - text: "If you study, you will succeed."
+      - text: "If he comes, we will start the meeting."
+      - text: "If I had money, I would buy a car."
+      - text: "If it is possible, I will come tomorrow."

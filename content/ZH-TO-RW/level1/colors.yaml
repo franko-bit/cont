@@ -1,0 +1,907 @@
+lesson:
+ name: "颜色"
+ description: "学习 basic 颜色 在 Kinyarwanda 和 动物 和 objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - 颜色 ONLY (Safe 为了 single words)
+ - id: 1
+ type: translation
+ 问题: "怎么说 '红色' 用基尼阿万达语？"
+ 答案: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 问题: "怎么说 '蓝色' 用基尼阿万达语？"
+ 答案: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 问题: "怎么说 '绿色' 用基尼阿万达语？"
+ 答案: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ 问题: "怎么说 '黄色' 用基尼阿万达语？"
+ 答案: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 问题: "怎么说 '黑色' 用基尼阿万达语？"
+ 答案: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ 问题: "怎么说 '白色' 用基尼阿万达语？"
+ 答案: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 问题: "怎么说 '橙色' 用基尼阿万达语？"
+ 答案: "橙色"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, 不 full 句子)
+ - id: 8
+ type: translation
+ 问题: "怎么说 '红色 apple' 用基尼阿万达语？"
+ 答案: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ 问题: "怎么说 '蓝色 sky' 用基尼阿万达语？"
+ 答案: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ 问题: "怎么说 '绿色 grass' 用基尼阿万达语？"
+ 答案: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ 问题: "怎么说 '黄色 sun' 用基尼阿万达语？"
+ 答案: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ 问题: "怎么说 '黑色 猫' 用基尼阿万达语？"
+ 答案: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ 问题: "怎么说 '白色 牛' 用基尼阿万达语？"
+ 答案: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ 问题: "怎么说 '橙色 carrot' 用基尼阿万达语？"
+ 答案: "Karoti ya 橙色"
+ xp_reward: 15
+
+ # Translation - 颜色 和 动物 (Noun + Color phrases)
+ - id: 15
+ type: translation
+ 问题: "怎么说 '红色 鸟' 用基尼阿万达语？"
+ 答案: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ 问题: "怎么说 '绿色 青蛙' 用基尼阿万达语？"
+ 答案: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ 问题: "怎么说 '蓝色 鱼' 用基尼阿万达语？"
+ 答案: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ 问题: "怎么说 '黄色 鸡' 用基尼阿万达语？"
+ 答案: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ 问题: "怎么说 '黑色 兔子' 用基尼阿万达语？"
+ 答案: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ 问题: "怎么说 '白色 山羊' 用基尼阿万达语？"
+ 答案: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers 和 颜色 (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ 问题: "怎么说 'One 红色 apple' 用基尼阿万达语？"
+ 答案: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ 问题: "怎么说 'Two 蓝色 鸟' 用基尼阿万达语？"
+ 答案: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ 问题: "怎么说 'Three 黄色 鸡' 用基尼阿万达语？"
+ 答案: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ 问题: "怎么说 'Four 黑色 猫' 用基尼阿万达语？"
+ 答案: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ 问题: "怎么说 'Five 白色 牛' 用基尼阿万达语？"
+ 答案: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color 问题 (Phrases - safe 一个 they 是 fixed expressions)
+ - id: 26
+ type: translation
+ 问题: "怎么问 'What color 是  apple?' 用基尼阿万达语？"
+ 答案: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ 问题: "怎么问 'What color 是  sky?' 用基尼阿万达语？"
+ 答案: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ 问题: "怎么问 '是  猫 黑色?' 用基尼阿万达语？"
+ 答案: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # 不 DIRECT TRANSLATION 为了 FULL 句子 或 PARAGRAPHS
+ # Instead, we use 句子 building, 配对, 和 word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ 问题: "是什么意思 'Umutuku' 是什么意思"
+ options:
+ - "蓝色"
+ - "红色"
+ - "绿色"
+ - "黄色"
+ 答案: "红色"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ 问题: "是什么意思 'Ubururu' 是什么意思"
+ options:
+ - "红色"
+ - "蓝色"
+ - "黑色"
+ - "白色"
+ 答案: "蓝色"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ 问题: "是什么意思 'Icyatsi' 是什么意思"
+ options:
+ - "绿色"
+ - "黄色"
+ - "橙色"
+ - "红色"
+ 答案: "绿色"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ 问题: "是什么意思 'Umuhondo' 是什么意思"
+ options:
+ - "蓝色"
+ - "红色"
+ - "黄色"
+ - "白色"
+ 答案: "黄色"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ 问题: "是什么意思 'Umukara' 是什么意思"
+ options:
+ - "白色"
+ - "黑色"
+ - "绿色"
+ - "橙色"
+ 答案: "黑色"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ 问题: "是什么意思 'Umweru' 是什么意思"
+ options:
+ - "黑色"
+ - "白色"
+ - "红色"
+ - "蓝色"
+ 答案: "白色"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ 问题: "是什么意思 'Inyoni itukura' 是什么意思"
+ options:
+ - "蓝色 鸟"
+ - "红色 鸟"
+ - "绿色 鸟"
+ - "黄色 鸟"
+ 答案: "红色 鸟"
+ xp_reward: 15
+
+ # 3. 听 和 Type (Dictation) - Safe because audio 是 provided
+ - id: 36
+ type: listen_和_type
+ 问题: "听 和 type  color"
+ tts_text: "Umutuku"
+ 答案: "Umutuku"
+ translation: "红色"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_和_type
+ 问题: "听 和 type  color"
+ tts_text: "Ubururu"
+ 答案: "Ubururu"
+ translation: "蓝色"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Pome ni umutuku"
+ 答案: "Pome ni umutuku"
+ translation: " apple 是 红色"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Ijuru ni ubururu"
+ 答案: "Ijuru ni ubururu"
+ translation: " sky 是 蓝色"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_和_type
+ 问题: "听 和 type  phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ 答案: "Inyoni itukura iraguruka"
+ translation: " 红色 鸟 flies"
+ xp_reward: 25
+
+ # 4. 听 和 选择
+ - id: 41
+ type: listen_和_choose
+ 问题: "听 和 选择  correct color"
+ tts_text: "Umutuku"
+ options:
+ - "红色"
+ - "蓝色"
+ - "绿色"
+ 答案: "红色"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_和_choose
+ 问题: "听 和 选择  correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "红色"
+ - "黄色"
+ - "黑色"
+ 答案: "黄色"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_和_choose
+ 问题: "听 和 选择  correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - " apple 是 红色"
+ - " sky 是 蓝色"
+ - " sun 是 黄色"
+ 答案: " apple 是 红色"
+ xp_reward: 20
+
+ # 5. Repeat / 说 Exercise
+ - id: 44
+ type: 说
+ 问题: "Say 这 color"
+ prompt: "Umutuku"
+ translation: "红色"
+ xp_reward: 15
+
+ - id: 45
+ type: 说
+ 问题: "Say 这 color"
+ prompt: "Ubururu"
+ translation: "蓝色"
+ xp_reward: 15
+
+ - id: 46
+ type: 说
+ 问题: "Say 这 phrase"
+ prompt: "Pome itukura"
+ translation: "红色 apple"
+ xp_reward: 18
+
+ - id: 47
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Pome ni umutuku"
+ translation: " apple 是 红色"
+ xp_reward: 20
+
+ - id: 48
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Ijuru ni ubururu"
+ translation: " sky 是 蓝色"
+ xp_reward: 20
+
+ # 6. Word Bank 句子 Building - PIECES PROVIDED, 不 TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' apple 是 红色'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' sky 是 蓝色'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ 问题: "Build  Kinyarwanda phrase 为了 '红色 鸟'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ 问题: "Build  Kinyarwanda phrase 为了 '蓝色 鱼'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 红色 鸟 flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 绿色 青蛙 jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. 句子 Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: " apple 是 红色"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: " sky 是 蓝色"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: " 红色 鸟 flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct Kinyarwanda 句子"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: " 绿色 青蛙 jumps"
+ xp_reward: 25
+
+ # 8. Fill 在  Blank - 选择 FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: " apple 是 红色"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: " sky 是 蓝色"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: " grass 是 绿色"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  句子"
+ text_和_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: " sun 是 黄色"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ 问题: "选择  correct word 到 complete  phrase"
+ text_和_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: " 红色 鸟 flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ 问题: "What color 是 这?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ 问题: "What color 是 这?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ 问题: "What color 是 这?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "橙色", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ 问题: "What color 是 这?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ 问题: "What color 是 这?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "橙色"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ 问题: "What color 是 这?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ 问题: "What color 是 这?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "橙色", "Ubururu"]
+ correct_answer: "橙色"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ 问题: "What color 是 这 apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "橙色"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ 问题: "What color 是 这 鸟?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word 配对 (Pairing)
+ - id: 73
+ type: 配对
+ 问题: "配对  颜色"
+ pairs:
+ - 左: "红色"
+ 右: "Umutuku"
+ - 左: "蓝色"
+ 右: "Ubururu"
+ - 左: "绿色"
+ 右: "Icyatsi"
+ - 左: "黄色"
+ 右: "Umuhondo"
+ - 左: "黑色"
+ 右: "Umukara"
+ - 左: "白色"
+ 右: "Umweru"
+ - 左: "橙色"
+ 右: "橙色"
+ xp_reward: 25
+
+ - id: 74
+ type: 配对
+ 问题: "配对  colored objects"
+ pairs:
+ - 左: "红色 apple"
+ 右: "Pome itukura"
+ - 左: "蓝色 sky"
+ 右: "Ijuru ry'ubururu"
+ - 左: "绿色 grass"
+ 右: "Ibyatsi by'icyatsi"
+ - 左: "黄色 sun"
+ 右: "Izuba ry'umuhondo"
+ - 左: "黑色 猫"
+ 右: "Injangwe y'umukara"
+ - 左: "白色 牛"
+ 右: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: 配对
+ 问题: "配对  colored 动物"
+ pairs:
+ - 左: "红色 鸟"
+ 右: "Inyoni itukura"
+ - 左: "绿色 青蛙"
+ 右: "Igikeri cy'icyatsi"
+ - 左: "蓝色 鱼"
+ 右: "Ifi y'ubururu"
+ - 左: "黄色 鸡"
+ 右: "Inkoko y'umuhondo"
+ - 左: "黑色 兔子"
+ 右: "Urukwavu rw'umukara"
+ - 左: "白色 山羊"
+ 右: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. 选择 Missing Word
+ - id: 80
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: " apple 是 红色"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: " sky 是 蓝色"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: " 红色 鸟 flies"
+ xp_reward: 18
+
+ # 12. 读 和 答案 - 问题 在 English, 答案 based 在 Kinyarwanda text
+ - id: 83
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ 问题: "What color 是  apple?"
+ options: ["红色", "蓝色", "绿色", "黄色"]
+ correct_answer: "红色"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ 问题: "是什么意思  红色 鸟 do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ 问题: "What color 是  牛?"
+ options: ["黑色", "白色", "黄色", "红色"]
+ correct_answer: "白色"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Pome ni umutuku."
+ translation: " apple 是 红色"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Ijuru ni icyatsi."
+ translation: " sky 是 绿色"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Inka ni umweru."
+ translation: " 牛 是 白色"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: " 红色 鸟 flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ 问题: "Respond 到  问题 by building 一个 句子"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color 是 这 apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ 问题: "Respond 到  问题"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color 是  sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ 问题: "Respond 到  问题"
+ bot_message: "Injangwe ni umukara?"
+ translation: "是  猫 黑色?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build 句子 from pieces
+ - id: 93
+ type: story
+ title: "颜色 在  Field"
+ story_intro: "读 about  colorful 动物. Then build  句子."
+ story_segments:
+ - text: "There 是 一个 红色 鸟 在  sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: " 鸟 flies above."
+ - text: "There 是 一个 绿色 青蛙 near  水."
+ - text: " 青蛙 jumps."
+ - text: "There 是 一个 蓝色 鱼 在  水."
+ - text: " 鱼 swims."
+ exercises:
+ - type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 红色 鸟 flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 绿色 青蛙 jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 ' 蓝色 鱼 swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ 问题: "Say  color"
+ prompt: "Umutuku"
+ translation: "红色"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ 问题: "Say  color"
+ prompt: "Agasumbashyamba" # 长颈鹿 - testing color knowledge 在 context
+ translation: "长颈鹿 (they 是 黄色 和 棕色)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ 问题: "Say  phrase"
+ prompt: "Pome itukura"
+ translation: "红色 apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ 问题: "是什么意思 'umutuku' mean 在 这 句子?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["红色", "蓝色", "绿色", "黄色"]
+ correct_answer: "红色"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ 问题: "是什么意思 'itukura' mean 在 这 句子?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["红色", "蓝色", "绿色", "黄色"]
+ correct_answer: "红色"
+ note: "itukura 是  adjective form 的 umutuku when describing 一个 noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ 问题: "是什么意思 'cy'icyatsi' mean 在 这 句子?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["红色", "蓝色", "绿色", "黄色"]
+ correct_answer: "绿色"
+ xp_reward: 18
+
+ # 18. Speed 配对
+ - id: 100
+ type: speed_配对
+ title: "配对 Madness: 颜色"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "红色"
+ 右: "Umutuku"
+ - 左: "蓝色"
+ 右: "Ubururu"
+ - 左: "绿色"
+ 右: "Icyatsi"
+ - 左: "黄色"
+ 右: "Umuhondo"
+ - 左: "黑色"
+ 右: "Umukara"
+ - 左: "白色"
+ 右: "Umweru"
+ - 左: "橙色"
+ 右: "橙色"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: 颜色"
+ time_limit_seconds: 30
+ 问题_count: 5
+ 问题:
+ - 问题: "红色"
+ 答案: "Umutuku"
+ - 问题: "蓝色"
+ 答案: "Ubururu"
+ - 问题: "绿色"
+ 答案: "Icyatsi"
+ - 问题: "黄色"
+ 答案: "Umuhondo"
+ - 问题: "黑色"
+ 答案: "Umukara"
+ xp_reward: 35
+
+# 闪卡
+ - id: 111
+ type: 闪卡
+ 问题: "闪卡"
+ 闪卡:
+ - front: "Umutuku"
+ back: "红色"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "蓝色"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "绿色"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "黄色"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "黑色"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "白色"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "橙色"
+ back: "橙色"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "红色 apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "蓝色 sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "绿色 grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

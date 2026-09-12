@@ -1,0 +1,1455 @@
+lesson:
+  name: "Advanced Business English"
+  description: "Master advanced business English for executive-level communication including corporate strategy, business reports, industry analysis, crisis communication, governance, and high-stakes negotiations"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: EXECUTIVE COMMUNICATION (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-7)
+  - id: 1
+    type: multiple_choice
+    question: "What is 'executive communication'?"
+    options:
+      - "Communication by executives"
+      - "Strategic communication used by senior leaders to influence stakeholders, align teams, and drive organizational direction"
+      - "Internal memos only"
+      - "Press releases"
+    answer: "Strategic communication used by senior leaders to influence stakeholders, align teams, and drive organizational direction"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What is the 'executive summary' in a business document?"
+    options:
+      - "A summary written by executives"
+      - "A concise overview at the beginning of a document highlighting key findings and recommendations"
+      - "A table of contents"
+      - "An appendix"
+    answer: "A concise overview at the beginning of a document highlighting key findings and recommendations"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "What is 'BLUF' (Bottom Line Up Front) communication?"
+    options:
+      - "A type of military communication"
+      - "Presenting the main conclusion or recommendation first, then supporting details"
+      - "A writing style"
+      - "An email format"
+    answer: "Presenting the main conclusion or recommendation first, then supporting details"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What is the ideal length of an executive summary?"
+    options:
+      - "20-30 pages"
+      - "1-2 pages"
+      - "5-10 sentences"
+      - "10-15 pages"
+    answer: "1-2 pages"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "What is 'board-level communication'?"
+    options:
+      - "Communication at board level"
+      - "Communication directed to or from a board of directors, focusing on strategy, governance, and major decisions"
+      - "Internal team communication"
+      - "Shareholder letters"
+    answer: "Communication directed to or from a board of directors, focusing on strategy, governance, and major decisions"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What is 'stakeholder management' in executive communication?"
+    options:
+      - "Managing stakeholders"
+      - "Identifying, understanding, and communicating with all parties affected by business decisions"
+      - "A type of project management"
+      - "Investor relations only"
+    answer: "Identifying, understanding, and communicating with all parties affected by business decisions"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "What is the 'Pyramid Principle' in business writing?"
+    options:
+      - "A pyramid-shaped document"
+      - "A communication structure where the main answer comes first, followed by supporting arguments and data"
+      - "A type of organizational chart"
+      - "A leadership model"
+    answer: "A communication structure where the main answer comes first, followed by supporting arguments and data"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (8-12)
+  - id: 8
+    type: fill_blank
+    question: "Complete the executive summary opening"
+    text_with_blank: "This report recommends a strategic ___ into the Asian market with an initial investment of $25M."
+    options: ["expansion", "entry", "penetration", "move"]
+    correct_answer: "expansion"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the BLUF statement"
+    text_with_blank: "___ : We recommend proceeding with the acquisition of TechCorp."
+    options: ["Bottom line", "BLUF", "Conclusion", "Recommendation"]
+    correct_answer: "BLUF"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the board communication phrase"
+    text_with_blank: "The board has ___ the proposed budget for the upcoming fiscal year."
+    options: ["approved", "authorized", "ratified", "endorsed"]
+    correct_answer: "approved"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the stakeholder update phrase"
+    text_with_blank: "We are ___ to all stakeholders that the merger will close by Q3."
+    options: ["communicating", "announcing", "confirming", "advising"]
+    correct_answer: "communicating"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the executive briefing phrase"
+    text_with_blank: "Please provide a ___ briefing on the competitive landscape before the strategy offsite."
+    options: ["concise", "brief", "high-level", "executive"]
+    correct_answer: "concise"
+    xp_reward: 15
+
+  # TRUE / FALSE (13-15)
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? Executive summaries should be written in dense, technical language."
+    statement: "Executive summaries should be written in dense, technical language."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 14
+    type: true_false
+    question: "Is this statement true or false? BLUF communication is most effective when the recipient needs to make a quick decision."
+    statement: "BLUF communication is most effective when the recipient needs to make a quick decision."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? Executive communication should focus on strategic implications, not operational details."
+    statement: "Executive communication should focus on strategic implications, not operational details."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (16-18)
+  - id: 16
+    type: matching
+    question: "Match the executive communication type with its purpose"
+    pairs:
+      - left: "Board deck"
+        right: "Quarterly business review for directors"
+      - left: "Executive brief"
+        right: "Concise update for senior leadership"
+      - left: "Strategy memo"
+        right: "Document outlining strategic direction"
+      - left: "Investor letter"
+        right: "Annual or quarterly communication to shareholders"
+      - left: "Town hall"
+        right: "Company-wide address by leadership"
+    xp_reward: 25
+
+  - id: 17
+    type: matching
+    question: "Match the stakeholder group with the communication focus"
+    pairs:
+      - left: "Board of directors"
+        right: "Strategy, governance, risk, financial performance"
+      - left: "Investors"
+        right: "Growth, returns, market position, outlook"
+      - left: "Employees"
+        right: "Vision, culture, job security, recognition"
+      - left: "Customers"
+        right: "Product value, service quality, partnership"
+      - left: "Regulators"
+        right: "Compliance, reporting, legal obligations"
+    xp_reward: 25
+
+  - id: 18
+    type: matching
+    question: "Match the executive communication principle with its description"
+    pairs:
+      - left: "Clarity"
+        right: "Avoid jargon, be precise"
+      - left: "Conciseness"
+        right: "Say more with fewer words"
+      - left: "Action-orientation"
+        right: "Focus on decisions and next steps"
+      - left: "Strategic perspective"
+        right: "Connect to larger business objectives"
+      - left: "Transparency"
+        right: "Be honest about challenges and risks"
+    xp_reward: 25
+
+  # FLASHCARDS (19-20)
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Executive Communication Formats"
+    flashcards:
+      - front: "One-page memo"
+        right: "Single page strategic summary"
+      - front: "Executive dashboard"
+        right: "Visual KPI summary for leadership"
+      - front: "Talking points"
+        right: "Key messages for executive speeches"
+      - front: "FAQ document"
+        right: "Anticipated questions and answers"
+      - front: "Decision memo"
+        right: "Document requesting a specific decision"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Executive Communication Verbs"
+    flashcards:
+      - front: "To authorize"
+        right: "To give official approval"
+      - front: "To mandate"
+        right: "To require by authority"
+      - front: "To ratify"
+        right: "To formally approve"
+      - front: "To delegate"
+        right: "To assign authority to others"
+      - front: "To escalate"
+        right: "To raise to higher authority"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: CORPORATE STRATEGY (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-28)
+  - id: 21
+    type: multiple_choice
+    question: "What is 'corporate strategy'?"
+    options:
+      - "A strategy for corporations"
+      - "The overall scope, direction, and resource allocation of a company to achieve its long-term goals"
+      - "A business unit strategy"
+      - "A marketing plan"
+    answer: "The overall scope, direction, and resource allocation of a company to achieve its long-term goals"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "What is 'portfolio strategy' in corporate strategy?"
+    options:
+      - "A strategy for portfolios"
+      - "Management of a company's collection of business units and investments"
+      - "A type of investment strategy"
+      - "A product strategy"
+    answer: "Management of a company's collection of business units and investments"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What is the BCG Matrix used for?"
+    options:
+      - "A consulting tool"
+      - "Portfolio analysis categorizing business units as Stars, Cash Cows, Question Marks, or Dogs"
+      - "A financial analysis tool"
+      - "A market research tool"
+    answer: "Portfolio analysis categorizing business units as Stars, Cash Cows, Question Marks, or Dogs"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "What is a 'Cash Cow' in the BCG Matrix?"
+    options:
+      - "A cow made of cash"
+      - "A business unit with high market share in a low-growth market - generates steady cash"
+      - "A high-growth business unit"
+      - "A struggling business unit"
+    answer: "A business unit with high market share in a low-growth market - generates steady cash"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "What is 'organic growth'?"
+    options:
+      - "Growth that is natural"
+      - "Growth achieved through internal activities and expansion, not acquisitions"
+      - "Growth from farming"
+      - "Slow growth"
+    answer: "Growth achieved through internal activities and expansion, not acquisitions"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What is 'inorganic growth'?"
+    options:
+      - "Growth that is artificial"
+      - "Growth achieved through mergers, acquisitions, and strategic partnerships"
+      - "Unnatural growth"
+      - "Rapid growth"
+    answer: "Growth achieved through mergers, acquisitions, and strategic partnerships"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "What is 'vertical integration'?"
+    options:
+      - "Integration that is vertical"
+      - "A strategy where a company acquires suppliers or distributors to control its supply chain"
+      - "A type of merger"
+      - "Horizontal expansion"
+    answer: "A strategy where a company acquires suppliers or distributors to control its supply chain"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "What is 'horizontal integration'?"
+    options:
+      - "Integration that is horizontal"
+      - "A strategy where a company acquires competitors in the same industry"
+      - "A type of merger"
+      - "Vertical expansion"
+    answer: "A strategy where a company acquires competitors in the same industry"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (29-33)
+  - id: 29
+    type: fill_blank
+    question: "Complete the strategic pillar statement"
+    text_with_blank: "Our corporate strategy rests on three pillars: customer intimacy, operational excellence, and product ___."
+    options: ["leadership", "innovation", "differentiation", "superiority"]
+    correct_answer: "leadership"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the strategic trade-off statement"
+    text_with_blank: "A key strategic ___ is between market share and profitability."
+    options: ["trade-off", "choice", "decision", "dilemma"]
+    correct_answer: "trade-off"
+    xp_reward: 15
+
+  - id: 31
+    type: fill_blank
+    question: "Complete the divestiture statement"
+    text_with_blank: "We have decided to ___ our underperforming consumer electronics division."
+    options: ["divest", "sell", "spin off", "dispose of"]
+    correct_answer: "divest"
+    xp_reward: 15
+
+  - id: 32
+    type: fill_blank
+    question: "Complete the synergy statement"
+    text_with_blank: "The acquisition will create significant ___ by combining our distribution networks."
+    options: ["synergies", "efficiencies", "benefits", "advantages"]
+    correct_answer: "synergies"
+    xp_reward: 15
+
+  - id: 33
+    type: fill_blank
+    question: "Complete the strategic moat statement"
+    text_with_blank: "Our brand reputation creates a durable ___ that competitors cannot easily cross."
+    options: ["moat", "barrier", "advantage", "defense"]
+    correct_answer: "moat"
+    xp_reward: 15
+
+  # TRUE / FALSE (34-36)
+  - id: 34
+    type: true_false
+    question: "Is this statement true or false? A company's mission, vision, and values should guide corporate strategy."
+    statement: "A company's mission, vision, and values should guide corporate strategy."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 35
+    type: true_false
+    question: "Is this statement true or false? Corporate strategy is reviewed once a year and never changed."
+    statement: "Corporate strategy is reviewed once a year and never changed."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 36
+    type: true_false
+    question: "Is this statement true or false? A 'blue ocean strategy' involves creating new market space rather than competing in existing markets."
+    statement: "A 'blue ocean strategy' involves creating new market space rather than competing in existing markets."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (37-38)
+  - id: 37
+    type: matching
+    question: "Match the strategic concept with its description"
+    pairs:
+      - left: "Core competency"
+        right: "Unique capability that provides competitive advantage"
+      - left: "Competitive advantage"
+        right: "Something a company does better than rivals"
+      - left: "Sustainable advantage"
+        right: "Advantage that competitors cannot easily copy"
+      - left: "Strategic positioning"
+        right: "Choosing a unique place in the market"
+      - left: "Resource allocation"
+        right: "Deciding where to invest capital and talent"
+    xp_reward: 25
+
+  - id: 38
+    type: matching
+    question: "Match the BCG Matrix quadrant with the appropriate action"
+    pairs:
+      - left: "Star"
+        right: "Invest for growth"
+      - left: "Cash Cow"
+        right: "Harvest cash, maintain"
+      - left: "Question Mark"
+        right: "Invest selectively or divest"
+      - left: "Dog"
+        right: "Divest or discontinue"
+    xp_reward: 25
+
+  # FLASHCARDS (39-40)
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Strategy Frameworks"
+    flashcards:
+      - front: "Porter's Five Forces"
+        right: "Industry competitiveness analysis"
+      - front: "SWOT"
+        right: "Internal/External assessment"
+      - front: "PESTEL"
+        right: "Macro-environment analysis"
+      - front: "VRIO"
+        right: "Resource value assessment"
+      - front: "Ansoff Matrix"
+        right: "Growth strategy selection"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Strategic Choices"
+    flashcards:
+      - front: "Cost leadership"
+        right: "Lowest cost producer"
+      - front: "Differentiation"
+        right: "Unique product/service"
+      - front: "Focus"
+        right: "Narrow market segment"
+      - front: "Stuck in the middle"
+        right: "No clear strategy (avoid)"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: BUSINESS REPORTS (41-60)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-48)
+  - id: 41
+    type: multiple_choice
+    question: "What is a 'business report'?"
+    options:
+      - "A report about business"
+      - "A formal document that presents information, analysis, and recommendations for decision-making"
+      - "A financial statement"
+      - "A meeting summary"
+    answer: "A formal document that presents information, analysis, and recommendations for decision-making"
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "What are the three main sections of a formal business report?"
+    options:
+      - "Introduction, middle, end"
+      - "Executive summary, body, conclusions/recommendations"
+      - "Title, content, appendix"
+      - "Problem, solution, outcome"
+    answer: "Executive summary, body, conclusions/recommendations"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "What is the purpose of an appendix in a business report?"
+    options:
+      - "To add extra pages"
+      - "To provide supporting data, charts, and detailed information without cluttering the main body"
+      - "To list references"
+      - "To include author biographies"
+    answer: "To provide supporting data, charts, and detailed information without cluttering the main body"
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "What is a 'recommendation report'?"
+    options:
+      - "A report with recommendations"
+      - "A report that analyzes options and recommends a specific course of action"
+      - "A decision memo"
+      - "A proposal"
+    answer: "A report that analyzes options and recommends a specific course of action"
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "What is a 'feasibility study' report?"
+    options:
+      - "A study about feasibility"
+      - "A report assessing the viability of a proposed project or initiative"
+      - "A market research report"
+      - "A financial analysis"
+    answer: "A report assessing the viability of a proposed project or initiative"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "What is a 'post-mortem' or 'after-action review' report?"
+    options:
+      - "A report after death"
+      - "A report analyzing what went well and what didn't after a project completion"
+      - "A financial audit"
+      - "A performance review"
+    answer: "A report analyzing what went well and what didn't after a project completion"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "What is data triangulation in business reporting?"
+    options:
+      - "A three-sided shape"
+      - "Using multiple data sources or methods to validate findings"
+      - "A type of chart"
+      - "A statistical method"
+    answer: "Using multiple data sources or methods to validate findings"
+    xp_reward: 15
+
+  - id: 48
+    type: multiple_choice
+    question: "What is a 'gap analysis' report?"
+    options:
+      - "A report about gaps"
+      - "A report comparing current performance to desired performance to identify gaps"
+      - "A market analysis"
+      - "A competitive analysis"
+    answer: "A report comparing current performance to desired performance to identify gaps"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (49-53)
+  - id: 49
+    type: fill_blank
+    question: "Complete the report structure statement"
+    text_with_blank: "The report begins with an executive ___, followed by a detailed analysis."
+    options: ["summary", "overview", "synopsis", "abstract"]
+    correct_answer: "summary"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the conclusion statement"
+    text_with_blank: "The ___ of this report is that immediate action is required to address the supply chain risks."
+    options: ["conclusion", "finding", "determination", "verdict"]
+    correct_answer: "conclusion"
+    xp_reward: 15
+
+  - id: 51
+    type: fill_blank
+    question: "Complete the recommendation phrase"
+    text_with_blank: "Based on our analysis, we ___ implementing a phased rollout."
+    options: ["recommend", "propose", "suggest", "advise"]
+    correct_answer: "recommend"
+    xp_reward: 15
+
+  - id: 52
+    type: fill_blank
+    question: "Complete the data citation phrase"
+    text_with_blank: "As ___ in Appendix A, customer satisfaction scores have declined for three consecutive quarters."
+    options: ["shown", "illustrated", "demonstrated", "presented"]
+    correct_answer: "shown"
+    xp_reward: 15
+
+  - id: 53
+    type: fill_blank
+    question: "Complete the limitation statement"
+    text_with_blank: "A ___ of this analysis is that we were unable to obtain competitor pricing data."
+    options: ["limitation", "constraint", "shortcoming", "weakness"]
+    correct_answer: "limitation"
+    xp_reward: 15
+
+  # TRUE / FALSE (54-56)
+  - id: 54
+    type: true_false
+    question: "Is this statement true or false? Business reports should be objective and data-driven."
+    statement: "Business reports should be objective and data-driven."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 55
+    type: true_false
+    question: "Is this statement true or false? Executive summaries should contain information not included in the main report."
+    statement: "Executive summaries should contain information not included in the main report."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 56
+    type: true_false
+    question: "Is this statement true or false? Visuals like charts and graphs make business reports more effective."
+    statement: "Visuals like charts and graphs make business reports more effective."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (57-58)
+  - id: 57
+    type: matching
+    question: "Match the report type with its purpose"
+    pairs:
+      - left: "Annual report"
+        right: "Yearly financial and operational summary to shareholders"
+      - left: "White paper"
+        right: "Authoritative guide or deep dive on a topic"
+      - left: "Case study"
+        right: "Detailed analysis of specific customer or project"
+      - left: "Benchmarking report"
+        right: "Comparing performance against industry standards"
+      - left: "Risk assessment"
+        right: "Identifying and evaluating potential threats"
+    xp_reward: 25
+
+  - id: 58
+    type: matching
+    question: "Match the report section with its content"
+    pairs:
+      - left: "Methodology"
+        right: "How data was collected and analyzed"
+      - left: "Findings"
+        right: "What the data shows"
+      - left: "Analysis"
+        right: "Interpretation of findings"
+      - left: "Conclusions"
+        right: "Key takeaways from analysis"
+      - left: "Recommendations"
+        right: "Proposed actions based on conclusions"
+    xp_reward: 25
+
+  # FLASHCARDS (59-60)
+  - id: 59
+    type: flashcards
+    question: "Flashcards: Report Writing Verbs"
+    flashcards:
+      - front: "To analyze"
+        right: "Examine in detail"
+      - front: "To evaluate"
+        right: "Assess value or quality"
+      - front: "To synthesize"
+        right: "Combine into coherent whole"
+      - front: "To contextualize"
+        right: "Place in appropriate context"
+      - front: "To extrapolate"
+        right: "Project from known data"
+    xp_reward: 30
+
+  - id: 60
+    type: flashcards
+    question: "Flashcards: Report Quality Criteria"
+    flashcards:
+      - front: "Accuracy"
+        right: "Free from errors"
+      - front: "Completeness"
+        right: "All relevant information included"
+      - front: "Objectivity"
+        right: "Unbiased presentation"
+      - front: "Timeliness"
+        right: "Released when relevant"
+      - front: "Actionability"
+        right: "Enables decisions"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: INDUSTRY ANALYSIS (61-80)
+  # ============================================
+
+  # MULTIPLE CHOICE (61-68)
+  - id: 61
+    type: multiple_choice
+    question: "What is 'industry analysis'?"
+    options:
+      - "Analysis of an industry"
+      - "The assessment of market structure, competitive dynamics, trends, and profitability of an industry"
+      - "A company analysis"
+      - "A market research report"
+    answer: "The assessment of market structure, competitive dynamics, trends, and profitability of an industry"
+    xp_reward: 15
+
+  - id: 62
+    type: multiple_choice
+    question: "What are 'Porter's Five Forces' used for?"
+    options:
+      - "A physics theory"
+      - "Analyzing industry competitiveness and profitability"
+      - "A marketing framework"
+      - "A financial model"
+    answer: "Analyzing industry competitiveness and profitability"
+    xp_reward: 15
+
+  - id: 63
+    type: multiple_choice
+    question: "What are the five forces in Porter's model?"
+    options:
+      - "Gravity, electromagnetism, strong, weak, nuclear"
+      - "Threat of new entrants, supplier power, buyer power, threat of substitutes, industry rivalry"
+      - "Price, product, promotion, place, people"
+      - "Planning, organizing, leading, controlling, staffing"
+    answer: "Threat of new entrants, supplier power, buyer power, threat of substitutes, industry rivalry"
+    xp_reward: 15
+
+  - id: 64
+    type: multiple_choice
+    question: "What is 'market share'?"
+    options:
+      - "A share of the market"
+      - "The percentage of total market sales captured by a company or product"
+      - "A stock price"
+      - "A revenue number"
+    answer: "The percentage of total market sales captured by a company or product"
+    xp_reward: 15
+
+  - id: 65
+    type: multiple_choice
+    question: "What is 'Total Addressable Market' (TAM)?"
+    options:
+      - "The total market"
+      - "The total revenue opportunity available for a product or service"
+      - "Market size"
+      - "A sales metric"
+    answer: "The total revenue opportunity available for a product or service"
+    xp_reward: 15
+
+  - id: 66
+    type: multiple_choice
+    question: "What is 'Serviceable Available Market' (SAM)?"
+    options:
+      - "Market that can be served"
+      - "The portion of TAM that your product can actually reach"
+      - "A market segment"
+      - "A geographic market"
+    answer: "The portion of TAM that your product can actually reach"
+    xp_reward: 15
+
+  - id: 67
+    type: multiple_choice
+    question: "What is 'Serviceable Obtainable Market' (SOM)?"
+    options:
+      - "Market that can be obtained"
+      - "The portion of SAM that you can realistically capture given competition and capacity"
+      - "A sales target"
+      - "A market share metric"
+    answer: "The portion of SAM that you can realistically capture given competition and capacity"
+    xp_reward: 15
+
+  - id: 68
+    type: multiple_choice
+    question: "What is 'market concentration'?"
+    options:
+      - "Concentration of market"
+      - "The degree to which market share is concentrated among a few large firms"
+      - "A type of market structure"
+      - "A competitive metric"
+    answer: "The degree to which market share is concentrated among a few large firms"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (69-73)
+  - id: 69
+    type: fill_blank
+    question: "Complete the industry lifecycle statement"
+    text_with_blank: "The electric vehicle industry is currently in the ___ stage of its lifecycle."
+    options: ["growth", "emerging", "expansion", "rapid growth"]
+    correct_answer: "growth"
+    xp_reward: 15
+
+  - id: 70
+    type: fill_blank
+    question: "Complete the barrier to entry statement"
+    text_with_blank: "High capital requirements create significant barriers to ___ in this industry."
+    options: ["entry", "market entry", "entry barriers", "entrance"]
+    correct_answer: "entry"
+    xp_reward: 15
+
+  - id: 71
+    type: fill_blank
+    question: "Complete the competitive intensity statement"
+    text_with_blank: "The industry is highly fragmented with low ___ among the top players."
+    options: ["concentration", "consolidation", "market share concentration", "rivalry"]
+    correct_answer: "concentration"
+    xp_reward: 15
+
+  - id: 72
+    type: fill_blank
+    question: "Complete the substitute threat statement"
+    text_with_blank: "The threat of ___ is high as customers can easily switch to alternative solutions."
+    options: ["substitutes", "alternatives", "replacements", "competitors"]
+    correct_answer: "substitutes"
+    xp_reward: 15
+
+  - id: 73
+    type: fill_blank
+    question: "Complete the market sizing statement"
+    text_with_blank: "We estimate the global TAM for this product at approximately $5 ___."
+    options: ["billion", "trillion", "million", "billion dollars"]
+    correct_answer: "billion"
+    xp_reward: 15
+
+  # TRUE / FALSE (74-76)
+  - id: 74
+    type: true_false
+    question: "Is this statement true or false? A concentrated market (high industry concentration) means many small competitors."
+    statement: "A concentrated market (high industry concentration) means many small competitors."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 75
+    type: true_false
+    question: "Is this statement true or false? TAM is typically larger than SAM, which is larger than SOM."
+    statement: "TAM is typically larger than SAM, which is larger than SOM."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 76
+    type: true_false
+    question: "Is this statement true or false? High switching costs for customers increase supplier bargaining power."
+    statement: "High switching costs for customers increase supplier bargaining power."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (77-78)
+  - id: 77
+    type: matching
+    question: "Match the Porter's Five Forces with what increases industry profit potential"
+    pairs:
+      - left: "Threat of new entrants"
+        right: "Low threat = higher profit"
+      - left: "Supplier power"
+        right: "Low supplier power = higher profit"
+      - left: "Buyer power"
+        right: "Low buyer power = higher profit"
+      - left: "Threat of substitutes"
+        right: "Low substitute threat = higher profit"
+      - left: "Industry rivalry"
+        right: "Low rivalry = higher profit"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Match the industry lifecycle stage with its characteristics"
+    pairs:
+      - left: "Introduction"
+        right: "Slow growth, high uncertainty, many new entrants"
+      - left: "Growth"
+        right: "Rapid growth, increasing competition, consolidation begins"
+      - left: "Maturity"
+        right: "Stable growth, intense competition, price pressure"
+      - left: "Decline"
+        right: "Negative growth, consolidation, exit of weaker players"
+    xp_reward: 25
+
+  # FLASHCARDS (79-80)
+  - id: 79
+    type: flashcards
+    question: "Flashcards: Industry Analysis Metrics"
+    flashcards:
+      - front: "CAGR"
+        right: "Compound Annual Growth Rate"
+      - front: "Market concentration ratio (CR4, CR8)"
+        right: "Market share of top 4 or 8 firms"
+      - front: "Herfindahl-Hirschman Index (HHI)"
+        right: "Market concentration measure"
+      - front: "Price elasticity"
+        right: "Demand sensitivity to price changes"
+      - front: "Capacity utilization"
+        right: "Percentage of productive capacity used"
+    xp_reward: 30
+
+  - id: 80
+    type: flashcards
+    question: "Flashcards: Industry Analysis Sources"
+    flashcards:
+      - front: "Gartner"
+        right: "Technology research"
+      - front: "Forrester"
+        right: "Market research and advisory"
+      - front: "McKinsey"
+        right: "Management consulting research"
+      - front: "IBISWorld"
+        right: "Industry market research"
+      - front: "Statista"
+        right: "Market and consumer data"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: CRISIS COMMUNICATION (81-100)
+  # ============================================
+
+  # MULTIPLE CHOICE (81-88)
+  - id: 81
+    type: multiple_choice
+    question: "What is 'crisis communication'?"
+    options:
+      - "Communication during a crisis"
+      - "The strategic management of information during a crisis to protect organizational reputation"
+      - "Emergency response"
+      - "Public relations"
+    answer: "The strategic management of information during a crisis to protect organizational reputation"
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "What is the 'golden hour' in crisis communication?"
+    options:
+      - "The first hour of daylight"
+      - "The critical first hour(s) after a crisis when initial response shapes public perception"
+      - "A TV show"
+      - "A financial term"
+    answer: "The critical first hour(s) after a crisis when initial response shapes public perception"
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "What are the three C's of crisis communication?"
+    options:
+      - "Communication, Coordination, Control"
+      - "Care, Concern, Competence"
+      - "Crisis, Communication, Control"
+      - "Credibility, Compassion, Confidence"
+    answer: "Care, Concern, Competence"
+    xp_reward: 15
+
+  - id: 84
+    type: multiple_choice
+    question: "What is the first step in crisis communication response?"
+    options:
+      - "Blame someone else"
+      - "Acknowledge the situation and express concern for those affected"
+      - "Say nothing"
+      - "Issue a legal threat"
+    answer: "Acknowledge the situation and express concern for those affected"
+    xp_reward: 15
+
+  - id: 85
+    type: multiple_choice
+    question: "What is a 'holding statement' in crisis communication?"
+    options:
+      - "A statement that holds"
+      - "An initial brief statement acknowledging the situation while more information is gathered"
+      - "A legal document"
+      - "A press release"
+    answer: "An initial brief statement acknowledging the situation while more information is gathered"
+    xp_reward: 15
+
+  - id: 86
+    type: multiple_choice
+    question: "What is 'reputation management' in crisis contexts?"
+    options:
+      - "Managing reputation"
+      - "The strategic effort to protect and restore organizational credibility after a crisis"
+      - "Public relations"
+      - "Brand management"
+    answer: "The strategic effort to protect and restore organizational credibility after a crisis"
+    xp_reward: 15
+
+  - id: 87
+    type: multiple_choice
+    question: "What should you avoid in crisis communication?"
+    options:
+      - "Expressing empathy"
+      - "No comment" (without explanation), speculation, blaming others
+      - "Taking responsibility"
+      - "Being transparent"
+    answer: "No comment" (without explanation), speculation, blaming others
+    xp_reward: 15
+
+  - id: 88
+    type: multiple_choice
+    question: "What is a 'communication cascade' in crisis response?"
+    options:
+      - "A waterfall of communication"
+      - "The systematic dissemination of consistent messages from leadership through all levels of the organization"
+      - "A type of email"
+      - "A press strategy"
+    answer: "The systematic dissemination of consistent messages from leadership through all levels of the organization"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (89-93)
+  - id: 89
+    type: fill_blank
+    question: "Complete the crisis acknowledgment statement"
+    text_with_blank: "We are aware of the situation and are actively ___ the matter as a top priority."
+    options: ["investigating", "addressing", "handling", "managing"]
+    correct_answer: "investigating"
+    xp_reward: 15
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the empathy statement"
+    text_with_blank: "Our deepest ___ go out to all those affected by this incident."
+    options: ["condolences", "sympathies", "regrets", "concerns"]
+    correct_answer: "sympathies"
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the accountability statement"
+    text_with_blank: "We take full ___ for this error and are implementing corrective measures."
+    options: ["responsibility", "accountability", "ownership", "liability"]
+    correct_answer: "responsibility"
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complete the action statement"
+    text_with_blank: "We have ___ an independent investigation to determine the root cause."
+    options: ["launched", "initiated", "commissioned", "started"]
+    correct_answer: "launched"
+    xp_reward: 15
+
+  - id: 93
+    type: fill_blank
+    question: "Complete the commitment statement"
+    text_with_blank: "We ___ to sharing regular updates as more information becomes available."
+    options: ["commit", "pledge", "promise", "undertake"]
+    correct_answer: "commit"
+    xp_reward: 15
+
+  # TRUE / FALSE (94-96)
+  - id: 94
+    type: true_false
+    question: "Is this statement true or false? During a crisis, it is best to say nothing until you have all the facts."
+    statement: "During a crisis, it is best to say nothing until you have all the facts."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 95
+    type: true_false
+    question: "Is this statement true or false? A sincere apology can help rebuild trust after a crisis."
+    statement: "A sincere apology can help rebuild trust after a crisis."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 96
+    type: true_false
+    question: "Is this statement true or false? Internal communication during a crisis is just as important as external communication."
+    statement: "Internal communication during a crisis is just as important as external communication."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (97-98)
+  - id: 97
+    type: matching
+    question: "Match the crisis response strategy with the situation"
+    pairs:
+      - left: "Denial"
+        right: "When the crisis allegation is false"
+      - left: "Excuse/Acceptance"
+        right: "When the crisis is minor or unavoidable"
+      - left: "Justification"
+        right: "When the act was justified given circumstances"
+      - left: "Apology/Compensation"
+        right: "When the organization is clearly at fault"
+      - left: "Corrective action"
+        right: "When fixing the problem is the priority"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Match the stakeholder with the crisis communication priority"
+    pairs:
+      - left: "Employees"
+        right: "Job security, safety, consistent messaging"
+      - left: "Customers"
+        right: "Product safety, service continuity, transparency"
+      - left: "Investors"
+        right: "Financial impact, recovery plan"
+      - left: "Regulators"
+        right: "Compliance, reporting, cooperation"
+      - left: "Media/Public"
+        right: "Facts, accountability, empathy"
+    xp_reward: 25
+
+  # FLASHCARDS (99-100)
+  - id: 99
+    type: flashcards
+    question: "Flashcards: Crisis Types"
+    flashcards:
+      - front: "Product recall"
+        right: "Safety issue with product"
+      - front: "Data breach"
+        right: "Customer information compromised"
+      - front: "Executive misconduct"
+        right: "Leadership ethics violation"
+      - front: "Natural disaster"
+        right: "Weather or environmental event"
+      - front: "Workplace incident"
+        right: "Accident or safety event"
+    xp_reward: 30
+
+  - id: 100
+    type: flashcards
+    question: "Flashcards: Crisis Communication Channels"
+    flashcards:
+      - front: "Press release"
+        right: "Formal public statement"
+      - front: "Social media"
+        right: "Real-time updates"
+      - front: "Internal memo"
+        right: "Employee communication"
+      - front: "Press conference"
+        right: "Managed media interaction"
+      - front: "Website banner"
+        right: "Prominent public notice"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: CORPORATE GOVERNANCE (101-120)
+  # ============================================
+
+  # MULTIPLE CHOICE (101-108)
+  - id: 101
+    type: multiple_choice
+    question: "What is 'corporate governance'?"
+    options:
+      - "The governance of corporations"
+      - "The system of rules, practices, and processes by which a company is directed and controlled"
+      - "A legal framework"
+      - "Management structure"
+    answer: "The system of rules, practices, and processes by which a company is directed and controlled"
+    xp_reward: 15
+
+  - id: 102
+    type: multiple_choice
+    question: "What is the role of the Board of Directors?"
+    options:
+      - "To manage day-to-day operations"
+      - "To oversee management, protect shareholder interests, and provide strategic guidance"
+      - "To hire employees"
+      - "To handle customer service"
+    answer: "To oversee management, protect shareholder interests, and provide strategic guidance"
+    xp_reward: 15
+
+  - id: 103
+    type: multiple_choice
+    question: "What is the difference between an 'executive director' and a 'non-executive director'?"
+    options:
+      - "One is executive, one is not"
+      - "Executive directors are company employees; non-executive directors are independent external board members"
+      - "Executive directors are paid more"
+      - "Non-executive directors make all decisions"
+    answer: "Executive directors are company employees; non-executive directors are independent external board members"
+    xp_reward: 15
+
+  - id: 104
+    type: multiple_choice
+    question: "What is 'fiduciary duty'?"
+    options:
+      - "A duty about trust"
+      - "The legal obligation of board members to act in the best interest of shareholders"
+      - "A financial responsibility"
+      - "A legal requirement"
+    answer: "The legal obligation of board members to act in the best interest of shareholders"
+    xp_reward: 15
+
+  - id: 105
+    type: multiple_choice
+    question: "What are the components of fiduciary duty?"
+    options:
+      - "Care and trust"
+      - "Duty of care and duty of loyalty"
+      - "Honesty and integrity"
+      - "Profit and loss"
+    answer: "Duty of care and duty of loyalty"
+    xp_reward: 15
+
+  - id: 106
+    type: multiple_choice
+    question: "What is 'corporate social responsibility' (CSR)?"
+    options:
+      - "A responsibility to society"
+      - "A self-regulating business model that helps a company be socially accountable"
+      - "A marketing program"
+      - "A legal requirement"
+    answer: "A self-regulating business model that helps a company be socially accountable"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What is 'ESG' in corporate governance?"
+    options:
+      - "Environmental, Social, and Governance criteria for evaluating corporate behavior"
+      - "A type of report"
+      - "A sustainability framework"
+      - "A rating system"
+    answer: "Environmental, Social, and Governance criteria for evaluating corporate behavior"
+    xp_reward: 15
+
+  - id: 108
+    type: multiple_choice
+    question: "What is 'proxy voting' in corporate governance?"
+    options:
+      - "A vote about proxies"
+      - "A vote cast by one person on behalf of another (e.g., shareholders voting by proxy)"
+      - "A type of election"
+      - "A board vote"
+    answer: "A vote cast by one person on behalf of another (e.g., shareholders voting by proxy)"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (109-113)
+  - id: 109
+    type: fill_blank
+    question: "Complete the board oversight statement"
+    text_with_blank: "The board has established an audit ___ to oversee financial reporting."
+    options: ["committee", "subcommittee", "panel", "working group"]
+    correct_answer: "committee"
+    xp_reward: 15
+
+  - id: 110
+    type: fill_blank
+    question: "Complete the compliance statement"
+    text_with_blank: "We have implemented a robust compliance program to ensure ___ with all applicable regulations."
+    options: ["compliance", "adherence", "conformity", "alignment"]
+    correct_answer: "compliance"
+    xp_reward: 15
+
+  - id: 111
+    type: fill_blank
+    question: "Complete the whistleblower statement"
+    text_with_blank: "Our whistleblower ___ protects employees who report misconduct in good faith."
+    options: ["policy", "procedure", "protocol", "mechanism"]
+    correct_answer: "policy"
+    xp_reward: 15
+
+  - id: 112
+    type: fill_blank
+    question: "Complete the shareholder statement"
+    text_with_blank: "The annual general meeting will be held on June 15th for ___ to vote on key matters."
+    options: ["shareholders", "stockholders", "investors", "owners"]
+    correct_answer: "shareholders"
+    xp_reward: 15
+
+  - id: 113
+    type: fill_blank
+    question: "Complete the ethics statement"
+    text_with_blank: "Our code of ___ sets the standard for ethical behavior across the organization."
+    options: ["conduct", "ethics", "behavior", "practice"]
+    correct_answer: "conduct"
+    xp_reward: 15
+
+  # TRUE / FALSE (114-116)
+  - id: 114
+    type: true_false
+    question: "Is this statement true or false? A majority of board members should be independent (non-executive) directors."
+    statement: "A majority of board members should be independent (non-executive) directors."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Is this statement true or false? Executive compensation should be tied to long-term performance, not short-term results."
+    statement: "Executive compensation should be tied to long-term performance, not short-term results."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 116
+    type: true_false
+    question: "Is this statement true or false? Good corporate governance reduces risk and increases investor confidence."
+    statement: "Good corporate governance reduces risk and increases investor confidence."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (117-118)
+  - id: 117
+    type: matching
+    question: "Match the board committee with its responsibility"
+    pairs:
+      - left: "Audit committee"
+        right: "Financial reporting, internal controls, external audit"
+      - left: "Compensation committee"
+        right: "Executive pay, benefits, incentives"
+      - left: "Nominating/governance committee"
+        right: "Board composition, director nominations"
+      - left: "Risk committee"
+        right: "Enterprise risk management"
+      - left: "Ethics/compliance committee"
+        right: "Code of conduct, compliance program"
+    xp_reward: 25
+
+  - id: 118
+    type: matching
+    question: "Match the governance document with its purpose"
+    pairs:
+      - left: "Corporate charter"
+        right: "Legal formation document"
+      - left: "Bylaws"
+        right: "Internal governance rules"
+      - left: "Shareholder agreement"
+        right: "Rights and obligations of shareholders"
+      - left: "Code of conduct"
+        right: "Ethical behavior standards"
+      - left: "Proxy statement"
+        right: "Information for shareholder voting"
+    xp_reward: 25
+
+  # FLASHCARDS (119-120)
+  - id: 119
+    type: flashcards
+    question: "Flashcards: Governance Best Practices"
+    flashcards:
+      - front: "Board diversity"
+        right: "Mix of skills, backgrounds, perspectives"
+      - front: "Board evaluation"
+        right: "Annual assessment of board performance"
+      - front: "Succession planning"
+        right: "Preparing for leadership transitions"
+      - front: "Shareholder engagement"
+        right: "Active dialogue with investors"
+      - front: "Transparency"
+        right: "Clear disclosure of policies and decisions"
+    xp_reward: 30
+
+  - id: 120
+    type: flashcards
+    question: "Flashcards: Governance Red Flags"
+    flashcards:
+      - front: "CEO also Board Chair"
+        right: "Concentration of power risk"
+      - front: "Non-independent directors"
+        right: "Potential conflicts of interest"
+      - front: "No whistleblower policy"
+        right: "Retaliation risk"
+      - front: "Poor meeting attendance"
+        right: "Board engagement concerns"
+      - front: "Excessive executive pay"
+        right: "Alignment risk"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 7: HIGH-LEVEL NEGOTIATIONS (121-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (121-125)
+  - id: 121
+    type: multiple_choice
+    question: "What distinguishes 'high-level negotiations' from standard negotiations?"
+    options:
+      - "More people involved"
+      - "Higher stakes, strategic importance, and longer-term implications"
+      - "More money involved"
+      - "More time required"
+    answer: "Higher stakes, strategic importance, and longer-term implications"
+    xp_reward: 15
+
+  - id: 122
+    type: multiple_choice
+    question: "What is a 'strategic negotiation'?"
+    options:
+      - "A negotiation about strategy"
+      - "A negotiation focused on long-term relationships and broad outcomes, not just transactional terms"
+      - "A high-value negotiation"
+      - "A complex negotiation"
+    answer: "A negotiation focused on long-term relationships and broad outcomes, not just transactional terms"
+    xp_reward: 15
+
+  - id: 123
+    type: multiple_choice
+    question: "What is 'principled negotiation' from Getting to Yes?"
+    options:
+      - "Negotiation based on principles"
+      - "Separate people from problem, focus on interests not positions, invent options, use objective criteria"
+      - "A type of negotiation strategy"
+      - "A negotiation framework"
+    answer: "Separate people from problem, focus on interests not positions, invent options, use objective criteria"
+    xp_reward: 15
+
+  - id: 124
+    type: multiple_choice
+    question: "What is a 'BATNA' in high-level negotiations?"
+    options:
+      - "Best Alternative To a Negotiated Agreement"
+      - "The best outcome if no deal is reached"
+      - "A walkaway point"
+      - "A negotiation tactic"
+    answer: "The best alternative if no deal is reached"
+    xp_reward: 15
+
+  - id: 125
+    type: multiple_choice
+    question: "What is 'negotiation leverage'?"
+    options:
+      - "A tool for negotiating"
+      - "The advantage that enables one party to influence the other"
+      - "A type of power"
+      - "A bargaining chip"
+    answer: "The advantage that enables one party to influence the other"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (126-128)
+  - id: 126
+    type: fill_blank
+    question: "Complete the strategic negotiation phrase"
+    text_with_blank: "We need to approach this as a ___ negotiation, not a one-off transaction."
+    options: ["strategic", "partnership", "long-term", "relational"]
+    correct_answer: "strategic"
+    xp_reward: 15
+
+  - id: 127
+    type: fill_blank
+    question: "Complete the interest exploration phrase"
+    text_with_blank: "Let's explore our underlying ___ rather than just debating positions."
+    options: ["interests", "needs", "concerns", "motivations"]
+    correct_answer: "interests"
+    xp_reward: 15
+
+  - id: 128
+    type: fill_blank
+    question: "Complete the objective criteria phrase"
+    text_with_blank: "Rather than haggling, let's agree on ___ criteria for evaluating the offer."
+    options: ["objective", "neutral", "fair", "standard"]
+    correct_answer: "objective"
+    xp_reward: 15
+
+  # TRUE / FALSE (129)
+  - id: 129
+    type: true_false
+    question: "Is this statement true or false? In high-level negotiations, preserving the relationship is often more important than winning every point."
+    statement: "In high-level negotiations, preserving the relationship is often more important than winning every point."
+    correct_answer: true
+    xp_reward: 10
+
+  # TIMED CHALLENGE (130)
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Advanced Business Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "What does BLUF stand for"
+        answer: "Bottom Line Up Front"
+      - question: "What are Porter's Five Forces"
+        answer: "Entry substitutes supplier power buyer power rivalry"
+      - question: "What does ESG stand for"
+        answer: "Environmental Social Governance"
+      - question: "What is fiduciary duty"
+        answer: "Legal obligation to act in shareholder interest"
+      - question: "What are the three C's of crisis communication"
+        answer: "Care Concern Competence"
+      - question: "What is TAM in market analysis"
+        answer: "Total Addressable Market"
+      - question: "What is the pyramid principle"
+        answer: "Main answer first then supporting"
+      - question: "What is BATNA in negotiations"
+        answer: "Best Alternative To Negotiated Agreement"
+    xp_reward: 50

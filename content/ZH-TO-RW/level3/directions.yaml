@@ -1,0 +1,1229 @@
+lesson:
+ name: "方向 - Amabwiriza y'ahantu"
+ description: "学习 direction words 和 phrases 在 Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Direction Words ONLY (Safe 为了 single words)
+ # Basic 方向
+ - id: 1
+ type: translation
+ 问题: "怎么说 '左' 用基尼阿万达语？"
+ 答案: "Ibumoso"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ 问题: "怎么说 '右' 用基尼阿万达语？"
+ 答案: "Iburyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 问题: "怎么说 '直走' 用基尼阿万达语？"
+ 答案: "Uburyohe / Guhita imbere"
+ note: "Both 是 acceptable"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ 问题: "怎么说 'Back / Behind' 用基尼阿万达语？"
+ 答案: "Inyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ 问题: "怎么说 'Front' 用基尼阿万达语？"
+ 答案: "Imbere"
+ xp_reward: 10
+
+ # Cardinal 方向
+ - id: 6
+ type: translation
+ 问题: "怎么说 'North' 用基尼阿万达语？"
+ 答案: "Amajyaruguru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 问题: "怎么说 'South' 用基尼阿万达语？"
+ 答案: "Amajyepfo"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 问题: "怎么说 'East' 用基尼阿万达语？"
+ 答案: "Uburasirazuba"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ 问题: "怎么说 'West' 用基尼阿万达语？"
+ 答案: "Uburengerazuba"
+ xp_reward: 10
+
+ # Location Words
+ - id: 10
+ type: translation
+ 问题: "怎么说 'Near' 用基尼阿万达语？"
+ 答案: "Hafi"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 问题: "怎么说 'Far' 用基尼阿万达语？"
+ 答案: "Hahandi / kure"
+ note: "Both 是 acceptable"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ 问题: "怎么说 'Around' 用基尼阿万达语？"
+ 答案: "Hagarika / ahantu hose"
+ note: "Both 是 acceptable"
+ xp_reward: 15
+
+ # Places 和 Features
+ - id: 13
+ type: translation
+ 问题: "怎么说 'Intersection / Crossroads' 用基尼阿万达语？"
+ 答案: "Ahantu hahurira imihanda"
+ xp_reward: 18
+
+ - id: 14
+ type: translation
+ 问题: "怎么说 'Street / Road' 用基尼阿万达语？"
+ 答案: "Umuhanda"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ 问题: "怎么说 'Corner' 用基尼阿万达语？"
+ 答案: "Inguni"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ 问题: "怎么说 'Traffic light' 用基尼阿万达语？"
+ 答案: "Itara ry'umuhanda"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ 问题: "怎么说 'Sign / Signpost' 用基尼阿万达语？"
+ 答案: "Ikimenyetso / Ikimenyetso cy'umuhanda"
+ xp_reward: 18
+
+ # Direction Commands
+ - id: 18
+ type: translation
+ 问题: "怎么说 'Turn 左' 用基尼阿万达语？"
+ 答案: "Hagarika ibumoso."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ 问题: "怎么说 'Turn 右' 用基尼阿万达语？"
+ 答案: "Hagarika iburyo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ 问题: "怎么说 '去 直走' 用基尼阿万达语？"
+ 答案: "Komeza imbere."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ 问题: "怎么说 '去 back' 用基尼阿万达语？"
+ 答案: "Subira inyuma."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ 问题: "怎么说 'Cross  street' 用基尼阿万达语？"
+ 答案: "Kora umuhanda."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ 问题: "怎么说 'Stop at  traffic light' 用基尼阿万达语？"
+ 答案: "Hagarara ku itara ry'umuhanda."
+ xp_reward: 18
+
+ # Location 句子
+ - id: 24
+ type: translation
+ 问题: "怎么说 ' bank 是 在 front 的  学校' 用基尼阿万达语？"
+ 答案: "Banki iri imbere y'ishuri."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ 问题: "怎么说 ' 市场 是 near' 用基尼阿万达语？"
+ 答案: "Isoko riri hafi."
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ 问题: "怎么说 ' hospital 是 far' 用基尼阿万达语？"
+ 答案: "Ibitaro biri kure."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ 问题: "是什么意思 'Ibumoso' 是什么意思"
+ options:
+ - "右"
+ - "左"
+ - "直走"
+ - "Front"
+ 答案: "左"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ 问题: "是什么意思 'Iburyo' 是什么意思"
+ options:
+ - "左"
+ - "右"
+ - "Back"
+ - "North"
+ 答案: "右"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ 问题: "是什么意思 'Imbere' 是什么意思"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ - "Far"
+ 答案: "Front"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ 问题: "是什么意思 'Inyuma' 是什么意思"
+ options:
+ - "Front"
+ - "Behind"
+ - "左"
+ - "右"
+ 答案: "Behind"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ 问题: "是什么意思 'Amajyaruguru' 是什么意思"
+ options:
+ - "South"
+ - "North"
+ - "East"
+ - "West"
+ 答案: "North"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ 问题: "是什么意思 'Hafi' 是什么意思"
+ options:
+ - "Far"
+ - "Near"
+ - "Around"
+ - "直走"
+ 答案: "Near"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ 问题: "是什么意思 'Umuhanda' 是什么意思"
+ options:
+ - "Corner"
+ - "Street"
+ - "Traffic light"
+ - "Sign"
+ 答案: "Street"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ 问题: "是什么意思 'Hagarika ibumoso' 是什么意思"
+ options:
+ - "Turn 右"
+ - "Turn 左"
+ - "去 直走"
+ - "去 back"
+ 答案: "Turn 左"
+ xp_reward: 18
+
+ # 3. 听 和 Type (Dictation)
+ - id: 35
+ type: listen_和_type
+ 问题: "听 和 type  direction word"
+ audio: "Ibumoso"
+ 答案: "Ibumoso"
+ translation: "左"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_和_type
+ 问题: "听 和 type  direction word"
+ audio: "Iburyo"
+ 答案: "Iburyo"
+ translation: "右"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_和_type
+ 问题: "听 和 type  direction word"
+ audio: "Imbere"
+ 答案: "Imbere"
+ translation: "Front"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_和_type
+ 问题: "听 和 type  direction word"
+ audio: "Inyuma"
+ 答案: "Inyuma"
+ translation: "Behind"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_和_type
+ 问题: "听 和 type  direction word"
+ audio: "Hafi"
+ 答案: "Hafi"
+ translation: "Near"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_和_type
+ 问题: "听 和 type  command"
+ audio: "Hagarika ibumoso"
+ 答案: "Hagarika ibumoso"
+ translation: "Turn 左"
+ xp_reward: 22
+
+ - id: 41
+ type: listen_和_type
+ 问题: "听 和 type  command"
+ audio: "Komeza imbere"
+ 答案: "Komeza imbere"
+ translation: "去 直走"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_和_type
+ 问题: "听 和 type  句子"
+ audio: "Isoko riri hafi"
+ 答案: "Isoko riri hafi"
+ translation: " 市场 是 near"
+ xp_reward: 22
+
+ 
+ # 4. 听 和 选择
+ - id: 44
+ type: listen_和_choose
+ 问题: "听 和 选择  correct direction"
+ audio: "Ibumoso"
+ options:
+ - "左"
+ - "右"
+ - "直走"
+ 答案: "左"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_和_choose
+ 问题: "听 和 选择  correct direction"
+ audio: "Iburyo"
+ options:
+ - "左"
+ - "右"
+ - "Back"
+ 答案: "右"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_和_choose
+ 问题: "听 和 选择  correct direction"
+ audio: "Imbere"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ 答案: "Front"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_和_choose
+ 问题: "听 和 选择  correct command"
+ audio: "Hagarika ibumoso"
+ options:
+ - "Turn 右"
+ - "Turn 左"
+ - "去 直走"
+ 答案: "Turn 左"
+ xp_reward: 18
+
+ - id: 48
+ type: listen_和_choose
+ 问题: "听 和 选择  correct 句子"
+ audio: "Isoko riri hafi"
+ options:
+ - " 市场 是 far"
+ - " 市场 是 near"
+ - " 市场 是 在 front"
+ 答案: " 市场 是 near"
+ xp_reward: 18
+
+ # 5. Repeat / 说 Exercise
+ - id: 49
+ type: 说
+ 问题: "Say 这 direction word"
+ prompt: "Ibumoso"
+ translation: "左"
+ xp_reward: 15
+
+ - id: 50
+ type: 说
+ 问题: "Say 这 direction word"
+ prompt: "Iburyo"
+ translation: "右"
+ xp_reward: 15
+
+ - id: 51
+ type: 说
+ 问题: "Say 这 direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 52
+ type: 说
+ 问题: "Say 这 direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 53
+ type: 说
+ 问题: "Say 这 direction word"
+ prompt: "Hafi"
+ translation: "Near"
+ xp_reward: 15
+
+ - id: 54
+ type: 说
+ 问题: "Say 这 command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn 左"
+ xp_reward: 18
+
+ - id: 55
+ type: 说
+ 问题: "Say 这 command"
+ prompt: "Komeza imbere"
+ translation: "去 直走"
+ xp_reward: 18
+
+ - id: 56
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Isoko riri hafi"
+ translation: " 市场 是 near"
+ xp_reward: 18
+
+ - id: 57
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Banki iri imbere y'ishuri"
+ translation: " bank 是 在 front 的  学校"
+ xp_reward: 22
+
+ # 6. Word Bank 句子 Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ 问题: "Build  command 'Turn 左'"
+ word_bank: ["Hagarika", "ibumoso", "iburyo", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "ibumoso"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ 问题: "Build  command 'Turn 右'"
+ word_bank: ["Hagarika", "iburyo", "ibumoso", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "iburyo"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ 问题: "Build  command '去 直走'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira"]
+ correct_answer: ["Komeza", "imbere"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ 问题: "Build  command '去 back'"
+ word_bank: ["Subira", "inyuma", "komeza", "imbere", "hagarika"]
+ correct_answer: ["Subira", "inyuma"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ 问题: "Build  句子 ' bank 是 在 front 的  学校'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri", "hafi"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ 问题: "Build  句子 ' 市场 是 near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ 问题: "Build  句子 ' hospital 是 far'"
+ word_bank: ["Ibitaro", "biri", "kure", "isoko", "riri", "hafi"]
+ correct_answer: ["Ibitaro", "biri", "kure"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ 问题: "Build  command 'Cross  street'"
+ word_bank: ["Kora", "umuhanda", "hagarara", "itara", "ry'umuhanda"]
+ correct_answer: ["Kora", "umuhanda"]
+ xp_reward: 15
+
+ - id: 66
+ type: word_bank
+ 问题: "Build  command 'Stop at  traffic light'"
+ word_bank: ["Hagarara", "ku", "itara", "ry'umuhanda", "kora", "umuhanda"]
+ correct_answer: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ xp_reward: 22
+
+ # 7. 句子 Scramble - PIECES PROVIDED
+ - id: 67
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct command"
+ scrambled_words: ["Hagarika", "ibumoso"]
+ correct_sentence: "Hagarika ibumoso."
+ translation: "Turn 左."
+ xp_reward: 15
+
+ - id: 68
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct command"
+ scrambled_words: ["Hagarika", "iburyo"]
+ correct_sentence: "Hagarika iburyo."
+ translation: "Turn 右."
+ xp_reward: 15
+
+ - id: 69
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct command"
+ scrambled_words: ["Komeza", "imbere"]
+ correct_sentence: "Komeza imbere."
+ translation: "去 直走."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct command"
+ scrambled_words: ["Subira", "inyuma"]
+ correct_sentence: "Subira inyuma."
+ translation: "去 back."
+ xp_reward: 15
+
+ - id: 71
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Banki", "iri", "imbere", "y'ishuri"]
+ correct_sentence: "Banki iri imbere y'ishuri."
+ translation: " bank 是 在 front 的  学校."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Isoko", "riri", "hafi"]
+ correct_sentence: "Isoko riri hafi."
+ translation: " 市场 是 near."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Ibitaro", "biri", "kure"]
+ correct_sentence: "Ibitaro biri kure."
+ translation: " hospital 是 far."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct command"
+ scrambled_words: ["Kora", "umuhanda"]
+ correct_sentence: "Kora umuhanda."
+ translation: "Cross  street."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct command"
+ scrambled_words: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ correct_sentence: "Hagarara ku itara ry'umuhanda."
+ translation: "Stop at  traffic light."
+ xp_reward: 22
+
+ # 8. Fill 在  Blank - 选择 FROM OPTIONS
+ - id: 76
+ type: fill_blank
+ 问题: "Complete  command"
+ text_和_blank: "Hagarika ___."
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn 左."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ 问题: "Complete  command"
+ text_和_blank: "Hagarika ___."
+ options: ["iburyo", "ibumoso", "imbere"]
+ correct_answer: "iburyo"
+ translation: "Turn 右."
+ xp_reward: 12
+
+ - id: 78
+ type: fill_blank
+ 问题: "Complete  command"
+ text_和_blank: "Komeza ___."
+ options: ["imbere", "inyuma", "ibumoso"]
+ correct_answer: "imbere"
+ translation: "去 直走."
+ xp_reward: 12
+
+ - id: 79
+ type: fill_blank
+ 问题: "Complete  command"
+ text_和_blank: "Subira ___."
+ options: ["inyuma", "imbere", "iburyo"]
+ correct_answer: "inyuma"
+ translation: "去 back."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Isoko riri ___."
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: " 市场 是 near."
+ xp_reward: 12
+
+ - id: 81
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Ibitaro biri ___."
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: " hospital 是 far."
+ xp_reward: 12
+
+ - id: 82
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Banki iri imbere ___."
+ options: ["y'ishuri", "y'isoko", "y'ibitaro"]
+ correct_answer: "y'ishuri"
+ translation: " bank 是 在 front 的  学校."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ 问题: "Complete  command"
+ text_和_blank: "Kora ___."
+ options: ["umuhanda", "itara", "inguni"]
+ correct_answer: "umuhanda"
+ translation: "Cross  street."
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ 问题: "Complete  command"
+ text_和_blank: "Hagarara ku ___ ry'umuhanda."
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at  traffic light."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 85
+ type: picture_word
+ 问题: "What direction does 这 sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?left-arrow"
+ options: ["Ibumoso", "Iburyo", "Imbere"]
+ correct_answer: "Ibumoso"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ 问题: "What direction does 这 sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?right-arrow"
+ options: ["Ibumoso", "Iburyo", "Inyuma"]
+ correct_answer: "Iburyo"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ 问题: "What direction does 这 sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?straight-arrow"
+ options: ["Imbere", "Inyuma", "Ibumoso"]
+ correct_answer: "Imbere"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ 问题: "什么是 这?"
+ image_url: "https://source.unsplash.com/featured/?traffic-light"
+ options: ["Itara ry'umuhanda", "Umuhanda", "Ikimenyetso"]
+ correct_answer: "Itara ry'umuhanda"
+ xp_reward: 12
+
+ - id: 89
+ type: picture_word
+ 问题: "什么是 这?"
+ image_url: "https://source.unsplash.com/featured/?street-corner"
+ options: ["Inguni", "Umuhanda", "Ahantu hahurira imihanda"]
+ correct_answer: "Inguni"
+ xp_reward: 10
+
+ - id: 90
+ type: picture_word
+ 问题: "什么是 这?"
+ image_url: "https://source.unsplash.com/featured/?road-sign"
+ options: ["Ikimenyetso", "Itara", "Umuhanda"]
+ correct_answer: "Ikimenyetso"
+ xp_reward: 10
+
+ - id: 91
+ type: picture_word
+ 问题: "什么是 这?"
+ image_url: "https://source.unsplash.com/featured/?intersection"
+ options: ["Ahantu hahurira imihanda", "Inguni", "Umuhanda"]
+ correct_answer: "Ahantu hahurira imihanda"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ 问题: "What place 是 这?"
+ image_url: "https://source.unsplash.com/featured/?bank"
+ options: ["Banki", "Isoko", "Ibitaro"]
+ correct_answer: "Banki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ 问题: "What place 是 这?"
+ image_url: "https://source.unsplash.com/featured/?market"
+ options: ["Isoko", "Banki", "Ibitaro"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ 问题: "What place 是 这?"
+ image_url: "https://source.unsplash.com/featured/?hospital"
+ options: ["Ibitaro", "Isoko", "Banki"]
+ correct_answer: "Ibitaro"
+ xp_reward: 10
+
+ # 10. Word 配对 (Pairing)
+ - id: 95
+ type: 配对
+ 问题: "配对  basic 方向"
+ pairs:
+ - 左: "左"
+ 右: "Ibumoso"
+ - 左: "右"
+ 右: "Iburyo"
+ - 左: "直走"
+ 右: "Uburyohe / Guhita imbere"
+ - 左: "Front"
+ 右: "Imbere"
+ - 左: "Behind"
+ 右: "Inyuma"
+ xp_reward: 20
+
+ - id: 96
+ type: 配对
+ 问题: "配对  cardinal 方向"
+ pairs:
+ - 左: "North"
+ 右: "Amajyaruguru"
+ - 左: "South"
+ 右: "Amajyepfo"
+ - 左: "East"
+ 右: "Uburasirazuba"
+ - 左: "West"
+ 右: "Uburengerazuba"
+ xp_reward: 18
+
+ - id: 97
+ type: 配对
+ 问题: "配对  location words"
+ pairs:
+ - 左: "Near"
+ 右: "Hafi"
+ - 左: "Far"
+ 右: "Hahandi / kure"
+ - 左: "Around"
+ 右: "Hagarika / ahantu hose"
+ xp_reward: 15
+
+ - id: 98
+ type: 配对
+ 问题: "配对  commands"
+ pairs:
+ - 左: "Turn 左"
+ 右: "Hagarika ibumoso"
+ - 左: "Turn 右"
+ 右: "Hagarika iburyo"
+ - 左: "去 直走"
+ 右: "Komeza imbere"
+ - 左: "去 back"
+ 右: "Subira inyuma"
+ - 左: "Cross  street"
+ 右: "Kora umuhanda"
+ - 左: "Stop at  traffic light"
+ 右: "Hagarara ku itara ry'umuhanda"
+ xp_reward: 25
+
+ - id: 99
+ type: 配对
+ 问题: "配对  句子"
+ pairs:
+ - 左: " bank 是 在 front 的  学校"
+ 右: "Banki iri imbere y'ishuri"
+ - 左: " 市场 是 near"
+ 右: "Isoko riri hafi"
+ - 左: " hospital 是 far"
+ 右: "Ibitaro biri kure"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED 一个 PER PREVIOUS PATTERN
+
+ # 12. 选择 Missing Word
+ - id: 100
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Hagarika ___."
+ missing_word_position: 2
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn 左."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Komeza ___."
+ missing_word_position: 2
+ options: ["imbere", "inyuma", "iburyo"]
+ correct_answer: "imbere"
+ translation: "去 直走."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Subira ___."
+ missing_word_position: 2
+ options: ["inyuma", "imbere", "ibumoso"]
+ correct_answer: "inyuma"
+ translation: "去 back."
+ xp_reward: 12
+
+ - id: 103
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Isoko riri ___."
+ missing_word_position: 3
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: " 市场 是 near."
+ xp_reward: 12
+
+ - id: 104
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Ibitaro biri ___."
+ missing_word_position: 3
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: " hospital 是 far."
+ xp_reward: 12
+
+ - id: 105
+ type: choose_missing
+ 问题: "选择  missing phrase"
+ 句子: "Hagarara ku ___ ry'umuhanda."
+ missing_word_position: 3
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at  traffic light."
+ xp_reward: 15
+
+ # 13. 读 和 答案 - 问题 based 在 text
+ - id: 106
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Komeza imbere. Hagarika ibumoso."
+ 问题: "什么是  first instruction?"
+ options: ["Turn 左", "去 直走", "Turn 右", "去 back"]
+ correct_answer: "去 直走"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Banki iri imbere y'ishuri. Isoko riri hafi."
+ 问题: "Where 是  bank?"
+ options: ["Near  市场", "在 front 的  学校", "Far away", "Behind  学校"]
+ correct_answer: "在 front 的  学校"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Hagarara ku itara ry'umuhanda. Kora umuhanda."
+ 问题: "What should you do at  traffic light?"
+ options: ["Turn 左", "Stop", "去 直走", "Turn 右"]
+ correct_answer: "Stop"
+ xp_reward: 15
+
+ - id: 109
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Ibitaro biri kure. Isoko riri hafi."
+ 问题: "是  hospital near 或 far?"
+ options: ["Near", "Far", "很 close", "不 mentioned"]
+ correct_answer: "Far"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Subira inyuma. Hagarika iburyo."
+ 问题: "什么是  second instruction?"
+ options: ["去 back", "Turn 左", "Turn 右", "去 直走"]
+ correct_answer: "Turn 右"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Ibumoso means '右'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Iburyo means '右'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Imbere means 'front'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Hafi means 'far'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Komeza imbere means '去 直走'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Itara ry'umuhanda means 'street sign'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ 问题: "Respond 到  问题 by building 一个 command"
+ bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+ translation: "I 要 到 reach  市场. What should I do?"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira", "inyuma"]
+ correct_response: ["Komeza", "imbere"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ 问题: "Respond 到  问题"
+ bot_message: "Banki iri he?"
+ translation: "Where 是  bank?"
+ options:
+ - "Imbere y'ishuri"
+ - "Hafi y'isoko"
+ - "Kure"
+ correct_response: "Imbere y'ishuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ 问题: "Respond 到  问题 by building 一个 command"
+ bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+ translation: "I 要 到 reach  hospital. What should I do?"
+ word_bank: ["Subira", "inyuma", "hagarika", "iburyo", "komeza", "imbere"]
+ correct_response: ["Subira", "inyuma"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ 问题: "Respond 到  问题"
+ bot_message: "Isoko riri hafi?"
+ translation: "是  市场 near?"
+ options:
+ - "Yego, riri hafi"
+ - "Oya, riri kure"
+ - "Simenye"
+ correct_response: "Yego, riri hafi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build 句子 from pieces
+ - id: 121
+ type: story
+ title: "Finding  市场 - Gushaka Isoko"
+ story_intro: "读 about finding  市场. Then build  句子."
+ story_segments:
+ - text: "I 要 到 去 到  市场."
+ - text: "去 直走."
+ - text: "Turn 左 at  traffic light."
+ - text: " 市场 是 near."
+ - text: " bank 是 在 front 的  学校."
+ exercises:
+ - type: word_bank
+ 问题: "Build '去 直走'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso"]
+ correct_answer: ["Komeza", "imbere"]
+ - type: word_bank
+ 问题: "Build 'Turn 左 at  traffic light'"
+ word_bank: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ correct_answer: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ - type: word_bank
+ 问题: "Build ' 市场 是 near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ - type: word_bank
+ 问题: "Build ' bank 是 在 front 的  学校'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ 问题: "Say 这 direction word"
+ prompt: "Ibumoso"
+ translation: "左"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ 问题: "Say 这 direction word"
+ prompt: "Iburyo"
+ translation: "右"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ 问题: "Say 这 direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ 问题: "Say 这 direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ 问题: "Say 这 command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn 左"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ 问题: "Say 这 command"
+ prompt: "Komeza imbere"
+ translation: "去 直走"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ 问题: "Say 这 句子"
+ prompt: "Isoko riri hafi"
+ translation: " 市场 是 near"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 129
+ type: identify_meaning
+ 问题: "是什么意思 'Hagarika' mean 在 这 command?"
+ context_sentence: "Hagarika ibumoso."
+ word: "Hagarika"
+ options: ["去", "Turn", "Stop", "Cross"]
+ correct_answer: "Turn"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ 问题: "是什么意思 'Komeza' mean 在 这 command?"
+ context_sentence: "Komeza imbere."
+ word: "Komeza"
+ options: ["Turn", "Stop", "Continue / 去", "Cross"]
+ correct_answer: "Continue / 去"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ 问题: "是什么意思 'hafi' mean 在 这 句子?"
+ context_sentence: "Isoko riri hafi."
+ word: "hafi"
+ options: ["far", "near", "behind", "front"]
+ correct_answer: "near"
+ xp_reward: 12
+
+ - id: 132
+ type: identify_meaning
+ 问题: "是什么意思 'kure' mean 在 这 句子?"
+ context_sentence: "Ibitaro biri kure."
+ word: "kure"
+ options: ["near", "far", "左", "右"]
+ correct_answer: "far"
+ xp_reward: 12
+
+ - id: 133
+ type: identify_meaning
+ 问题: "是什么意思 'imbere y'' mean 在 这 句子?"
+ context_sentence: "Banki iri imbere y'ishuri."
+ word: "imbere y'"
+ options: ["behind", "在 front 的", "next 到", "far from"]
+ correct_answer: "在 front 的"
+ xp_reward: 15
+
+ # 19. Speed 配对
+ - id: 134
+ type: speed_配对
+ title: "配对 Madness: 方向"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "左"
+ 右: "Ibumoso"
+ - 左: "右"
+ 右: "Iburyo"
+ - 左: "直走"
+ 右: "Imbere"
+ - 左: "Behind"
+ 右: "Inyuma"
+ - 左: "North"
+ 右: "Amajyaruguru"
+ - 左: "South"
+ 右: "Amajyepfo"
+ - 左: "East"
+ 右: "Uburasirazuba"
+ - 左: "West"
+ 右: "Uburengerazuba"
+ - 左: "Near"
+ 右: "Hafi"
+ - 左: "Far"
+ 右: "Kure"
+ - 左: "Turn 左"
+ 右: "Hagarika ibumoso"
+ - 左: "Turn 右"
+ 右: "Hagarika iburyo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: 方向"
+ time_limit_seconds: 30
+ 问题_count: 5
+ 问题:
+ - 问题: "左"
+ 答案: "Ibumoso"
+ - 问题: "右"
+ 答案: "Iburyo"
+ - 问题: "直走"
+ 答案: "Imbere"
+ - 问题: "Behind"
+ 答案: "Inyuma"
+ - 问题: "Near"
+ 答案: "Hafi"
+ xp_reward: 35
+
+# 闪卡
+ - id: 111
+ type: 闪卡
+ 问题: "闪卡"
+ 闪卡:
+ - front: "Ibumoso"
+ back: "左"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iburyo"
+ back: "右"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Uburyohe / Guhita imbere"
+ back: "直走"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Inyuma"
+ back: "Back / Behind"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbere"
+ back: "Front"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyaruguru"
+ back: "North"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyepfo"
+ back: "South"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburasirazuba"
+ back: "East"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburengerazuba"
+ back: "West"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Hafi"
+ back: "Near"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

@@ -1,0 +1,1461 @@
+lesson:
+  name: "International Business English"
+  description: "Master professional international business communication including cross-cultural communication, global trade, business travel, networking, partnerships, and global markets"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: CROSS-CULTURAL COMMUNICATION (1-20)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-7)
+  - id: 1
+    type: multiple_choice
+    question: "What is 'cross-cultural communication'?"
+    options:
+      - "Communication across different cultures"
+      - "The process of exchanging information between people from different cultural backgrounds"
+      - "A type of language learning"
+      - "Communication about culture"
+    answer: "The process of exchanging information between people from different cultural backgrounds"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What is 'high-context culture'?"
+    options:
+      - "A culture with high context"
+      - "A culture where communication relies heavily on implicit messages, non-verbal cues, and shared context"
+      - "A culture that talks a lot"
+      - "A culture that is formal"
+    answer: "A culture where communication relies heavily on implicit messages, non-verbal cues, and shared context"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "What is 'low-context culture'?"
+    options:
+      - "A culture with low context"
+      - "A culture where communication is explicit, direct, and relies primarily on words"
+      - "A culture that is informal"
+      - "A culture that is quiet"
+    answer: "A culture where communication is explicit, direct, and relies primarily on words"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "Which countries are typically considered high-context cultures?"
+    options:
+      - "USA, Germany, Canada"
+      - "Japan, China, Arab countries"
+      - "Australia, UK, New Zealand"
+      - "Brazil, Mexico, Spain"
+    answer: "Japan, China, Arab countries"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "What is 'cultural intelligence' (CQ)?"
+    options:
+      - "Intelligence about culture"
+      - "The ability to function effectively across different cultural contexts"
+      - "A type of IQ test"
+      - "Knowledge of foreign languages"
+    answer: "The ability to function effectively across different cultural contexts"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What is 'chronemics' in cross-cultural communication?"
+    options:
+      - "The study of time"
+      - "The study of how time perception and use varies across cultures"
+      - "A type of chronograph"
+      - "Time management"
+    answer: "The study of how time perception and use varies across cultures"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "What is the difference between monochronic and polychronic cultures?"
+    options:
+      - "No difference"
+      - "Monochronic cultures prefer doing one thing at a time; polychronic cultures prefer multitasking"
+      - "Monochronic is faster; polychronic is slower"
+      - "Monochronic is Western; polychronic is Eastern"
+    answer: "Monochronic cultures prefer doing one thing at a time; polychronic cultures prefer multitasking"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (8-12)
+  - id: 8
+    type: fill_blank
+    question: "Complete the cultural awareness statement"
+    text_with_blank: "When doing business in Japan, it's important to be aware of the cultural ___ around bowing and exchanging business cards."
+    options: ["norms", "customs", "practices", "etiquette"]
+    correct_answer: "norms"
+    xp_reward: 15
+
+  - id: 9
+    type: fill_blank
+    question: "Complete the direct vs indirect statement"
+    text_with_blank: "In low-context cultures like Germany, communication tends to be very ___ and direct."
+    options: ["explicit", "clear", "straightforward", "overt"]
+    correct_answer: "explicit"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the cultural sensitivity phrase"
+    text_with_blank: "We need to be culturally ___ when negotiating with partners from different backgrounds."
+    options: ["sensitive", "aware", "mindful", "attentive"]
+    correct_answer: "sensitive"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the time orientation statement"
+    text_with_blank: "In ___ cultures, being late to a meeting is considered disrespectful."
+    options: ["monochronic", "linear-time", "strict", "punctual"]
+    correct_answer: "monochronic"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the non-verbal communication statement"
+    text_with_blank: "The 'OK' hand gesture has different ___ in different countries, so be careful using it."
+    options: ["meanings", "interpretations", "significance", "implications"]
+    correct_answer: "meanings"
+    xp_reward: 15
+
+  # TRUE / FALSE (13-15)
+  - id: 13
+    type: true_false
+    question: "Is this statement true or false? Direct eye contact is considered respectful in all cultures."
+    statement: "Direct eye contact is considered respectful in all cultures."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 14
+    type: true_false
+    question: "Is this statement true or false? In many Asian cultures, saving face is an important concept in business interactions."
+    statement: "In many Asian cultures, saving face is an important concept in business interactions."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? Silence during a conversation always means agreement in every culture."
+    statement: "Silence during a conversation always means agreement in every culture."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (16-18)
+  - id: 16
+    type: matching
+    question: "Match the cultural dimension (Hofstede) with its description"
+    pairs:
+      - left: "Power distance"
+        right: "Acceptance of unequal power distribution"
+      - left: "Individualism vs. collectivism"
+        right: "Focus on self vs. group"
+      - left: "Uncertainty avoidance"
+        right: "Tolerance for ambiguity and risk"
+      - left: "Masculinity vs. femininity"
+        right: "Competitiveness vs. cooperation focus"
+      - left: "Long-term orientation"
+        right: "Focus on future vs. present/past"
+    xp_reward: 25
+
+  - id: 17
+    type: matching
+    question: "Match the non-verbal communication with its cultural variation"
+    pairs:
+      - left: "Handshake"
+        right: "Firm vs. soft, duration varies by culture"
+      - left: "Personal space"
+        right: "Distance varies (Latin America closer, Northern Europe farther)"
+      - left: "Nodding"
+        right: "May mean 'I hear you' not 'I agree' in some cultures"
+      - left: "Pointing"
+        right: "Use whole hand in some cultures; pointing with finger is rude"
+      - left: "Thumbs up"
+        right: "Positive in West, offensive in parts of Middle East"
+    xp_reward: 25
+
+  - id: 18
+    type: matching
+    question: "Match the cultural practice with the region"
+    pairs:
+      - left: "Exchange business cards with two hands"
+        right: "Japan"
+      - left: "Small talk before business (often 15+ minutes)"
+        right: "Middle East"
+      - left: "Direct 'no' is acceptable"
+        right: "Netherlands, Germany"
+      - left: "Gift giving is expected"
+        right: "China, Japan, Korea"
+      - left: "Decision making is hierarchical"
+        right: "Many Asian and Latin American countries"
+    xp_reward: 25
+
+  # FLASHCARDS (19-20)
+  - id: 19
+    type: flashcards
+    question: "Flashcards: Cultural Dimensions"
+    flashcards:
+      - front: "Universalism vs. particularism"
+        right: "Rules apply equally vs. exceptions based on relationships"
+      - front: "Neutral vs. affective"
+        right: "Control emotions vs. express emotions openly"
+      - front: "Specific vs. diffuse"
+        right: "Separate work/personal vs. integrated"
+      - front: "Achievement vs. ascription"
+        right: "Status based on performance vs. birth/age/connections"
+      - front: "Sequential vs. synchronous"
+        right: "Linear time vs. flexible time"
+    xp_reward: 30
+
+  - id: 20
+    type: flashcards
+    question: "Flashcards: Cultural Faux Pas to Avoid"
+    flashcards:
+      - front: "Left hand for eating/giving"
+        right: "Offensive in Middle East, India, parts of Africa"
+      - front: "Showing soles of shoes"
+        right: "Offensive in many Asian and Arab cultures"
+      - front: "Touching someone's head"
+        right: "Head is sacred in Buddhist cultures"
+      - front: "Giving white flowers"
+        right: "Associated with funerals in many Asian cultures"
+      - front: "Giving clocks or sharp objects"
+        right: "Gift taboos in Chinese culture"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: GLOBAL BUSINESS VOCABULARY (21-40)
+  # ============================================
+
+  # MULTIPLE CHOICE (21-28)
+  - id: 21
+    type: multiple_choice
+    question: "What is 'globalization'?"
+    options:
+      - "The process of becoming global"
+      - "The increasing integration and interdependence of economies, cultures, and populations across the world"
+      - "A type of business strategy"
+      - "International trade only"
+    answer: "The increasing integration and interdependence of economies, cultures, and populations across the world"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "What is a 'multinational corporation' (MNC)?"
+    options:
+      - "A corporation with many nations"
+      - "A company that operates in multiple countries"
+      - "A corporation that is very large"
+      - "A company that exports goods"
+    answer: "A company that operates in multiple countries"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "What is 'offshoring'?"
+    options:
+      - "Shoring something off"
+      - "Moving business processes to another country, often for cost savings"
+      - "Outsourcing to another company"
+      - "A type of shipping"
+    answer: "Moving business processes to another country, often for cost savings"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "What is 'outsourcing'?"
+    options:
+      - "Sourcing from outside"
+      - "Contracting business functions to an external third-party company"
+      - "A type of offshoring"
+      - "Hiring consultants"
+    answer: "Contracting business functions to an external third-party company"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "What is 'cultural adaptation' in global business?"
+    options:
+      - "Adapting culture"
+      - "Adjusting business practices, products, or communication to fit local cultural norms"
+      - "A type of training"
+      - "Learning a new language"
+    answer: "Adjusting business practices, products, or communication to fit local cultural norms"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "What is a 'glocalization' strategy?"
+    options:
+      - "Global + Local"
+      - "Adapting global products to meet local market needs"
+      - "A type of localization"
+      - "A global strategy"
+    answer: "Adapting global products to meet local market needs"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "What is 'business English as a lingua franca'?"
+    options:
+      - "English spoken in France"
+      - "The use of English as a common language between non-native speakers in international business"
+      - "A type of English course"
+      - "British English"
+    answer: "The use of English as a common language between non-native speakers in international business"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "What does 'HQ' stand for in international business?"
+    options:
+      - "High Quality"
+      - "Headquarters - the main office of a multinational company"
+      - "Human Query"
+      - "High Quota"
+    answer: "Headquarters - the main office of a multinational company"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (29-33)
+  - id: 29
+    type: fill_blank
+    question: "Complete the global expansion statement"
+    text_with_blank: "Our company is planning to ___ into three new international markets next year."
+    options: ["expand", "enter", "penetrate", "move"]
+    correct_answer: "expand"
+    xp_reward: 15
+
+  - id: 30
+    type: fill_blank
+    question: "Complete the market entry statement"
+    text_with_blank: "We are considering a joint ___ with a local partner to enter the Asian market."
+    options: ["venture", "agreement", "partnership", "collaboration"]
+    correct_answer: "venture"
+    xp_reward: 15
+
+  - id: 31
+    type: fill_blank
+    question: "Complete the localization statement"
+    text_with_blank: "We need to ___ our marketing materials for the Japanese audience."
+    options: ["localize", "adapt", "customize", "tailor"]
+    correct_answer: "localize"
+    xp_reward: 15
+
+  - id: 32
+    type: fill_blank
+    question: "Complete the subsidiary statement"
+    text_with_blank: "Our European ___ is based in London and handles all regional operations."
+    options: ["subsidiary", "branch", "office", "division"]
+    correct_answer: "subsidiary"
+    xp_reward: 15
+
+  - id: 33
+    type: fill_blank
+    question: "Complete the expatriate statement"
+    text_with_blank: "The company is sending several ___ to manage the new office in Singapore."
+    options: ["expatriates", "expats", "international staff", "overseas employees"]
+    correct_answer: "expatriates"
+    xp_reward: 15
+
+  # TRUE / FALSE (34-36)
+  - id: 34
+    type: true_false
+    question: "Is this statement true or false? A global strategy means treating every market exactly the same."
+    statement: "A global strategy means treating every market exactly the same."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 35
+    type: true_false
+    question: "Is this statement true or false? English is the dominant language of international business."
+    statement: "English is the dominant language of international business."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 36
+    type: true_false
+    question: "Is this statement true or false? Repatriation refers to bringing employees back to their home country after an international assignment."
+    statement: "Repatriation refers to bringing employees back to their home country after an international assignment."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (37-38)
+  - id: 37
+    type: matching
+    question: "Match the global business term with its definition"
+    pairs:
+      - left: "Parent company"
+        right: "Company that owns or controls subsidiaries"
+      - left: "Branch office"
+        right: "Secondary office location, not a separate legal entity"
+      - left: "Representative office"
+        right: "Limited function office for market research, not for sales"
+      - left: "Foreign Direct Investment (FDI)"
+        right: "Investment controlling ownership in foreign business"
+      - left: "Greenfield investment"
+        right: "Building new operations from scratch in foreign country"
+    xp_reward: 25
+
+  - id: 38
+    type: matching
+    question: "Match the market entry mode with its risk level"
+    pairs:
+      - left: "Exporting"
+        right: "Low risk, low control"
+      - left: "Licensing/Franchising"
+        right: "Low-moderate risk, moderate control"
+      - left: "Joint venture"
+        right: "Moderate-high risk, shared control"
+      - left: "Wholly-owned subsidiary"
+        right: "High risk, high control"
+      - left: "Strategic alliance"
+        right: "Moderate risk, collaborative control"
+    xp_reward: 25
+
+  # FLASHCARDS (39-40)
+  - id: 39
+    type: flashcards
+    question: "Flashcards: Global Business Roles"
+    flashcards:
+      - front: "Global manager"
+        right: "Manages operations across multiple countries"
+      - front: "Country manager"
+        right: "Responsible for operations in specific country"
+      - front: "Regional director"
+        right: "Oversees operations in geographic region (e.g., Asia-Pacific)"
+      - front: "Global account manager"
+        right: "Manages client relationships across borders"
+      - front: "International HR manager"
+        right: "Handles global staffing and expatriate management"
+    xp_reward: 30
+
+  - id: 40
+    type: flashcards
+    question: "Flashcards: Global Business Challenges"
+    flashcards:
+      - front: "Currency fluctuation"
+        right: "Changes in exchange rates affecting profits"
+      - front: "Language barriers"
+        right: "Difficulties in communication across languages"
+      - front: "Regulatory differences"
+        right: "Varying laws and regulations by country"
+      - front: "Talent management"
+        right: "Finding and retaining skilled international staff"
+      - front: "Supply chain complexity"
+        right: "Managing logistics across borders"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: INTERNATIONAL TRADE (41-60)
+  # ============================================
+
+  # MULTIPLE CHOICE (41-48)
+  - id: 41
+    type: multiple_choice
+    question: "What is 'international trade'?"
+    options:
+      - "Trade within a country"
+      - "The exchange of goods, services, and capital across international borders"
+      - "A type of trade agreement"
+      - "Importing only"
+    answer: "The exchange of goods, services, and capital across international borders"
+    xp_reward: 15
+
+  - id: 42
+    type: multiple_choice
+    question: "What is 'exporting'?"
+    options:
+      - "Porting out"
+      - "Selling goods or services produced in one country to another country"
+      - "Buying from another country"
+      - "A type of shipping"
+    answer: "Selling goods or services produced in one country to another country"
+    xp_reward: 15
+
+  - id: 43
+    type: multiple_choice
+    question: "What is 'importing'?"
+    options:
+      - "Porting in"
+      - "Buying goods or services from another country for domestic use"
+      - "Selling to another country"
+      - "A type of customs"
+    answer: "Buying goods or services from another country for domestic use"
+    xp_reward: 15
+
+  - id: 44
+    type: multiple_choice
+    question: "What is a 'tariff'?"
+    options:
+      - "A type of phone plan"
+      - "A tax imposed on imported or exported goods"
+      - "A trade agreement"
+      - "A shipping cost"
+    answer: "A tax imposed on imported or exported goods"
+    xp_reward: 15
+
+  - id: 45
+    type: multiple_choice
+    question: "What is a 'quota' in international trade?"
+    options:
+      - "A portion of something"
+      - "A government-imposed limit on the quantity of a good that can be imported or exported"
+      - "A trade agreement"
+      - "A tariff"
+    answer: "A government-imposed limit on the quantity of a good that can be imported or exported"
+    xp_reward: 15
+
+  - id: 46
+    type: multiple_choice
+    question: "What is a 'free trade agreement' (FTA)?"
+    options:
+      - "An agreement about free trade"
+      - "An agreement between countries to reduce or eliminate trade barriers"
+      - "A type of contract"
+      - "A tariff system"
+    answer: "An agreement between countries to reduce or eliminate trade barriers"
+    xp_reward: 15
+
+  - id: 47
+    type: multiple_choice
+    question: "What does 'FOB' stand for in international shipping?"
+    options:
+      - "Free On Board - seller delivers goods onto vessel, risk transfers at that point"
+      - "Forward Operating Base"
+      - "Freight On Board"
+      - "Final Order Bill"
+    answer: "Free On Board - seller delivers goods onto vessel, risk transfers at that point"
+    xp_reward: 15
+
+  - id: 48
+    type: multiple_choice
+    question: "What does 'CIF' stand for in international shipping?"
+    options:
+      - "Cost, Insurance, Freight - seller covers cost, insurance, and freight to destination port"
+      - "Customs, Inspection, Fee"
+      - "Container Import Fee"
+      - "Cargo Insurance Form"
+    answer: "Cost, Insurance, Freight - seller covers cost, insurance, and freight to destination port"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (49-53)
+  - id: 49
+    type: fill_blank
+    question: "Complete the trade balance statement"
+    text_with_blank: "A country has a trade ___ when exports exceed imports."
+    options: ["surplus", "positive", "excess", "favorable"]
+    correct_answer: "surplus"
+    xp_reward: 15
+
+  - id: 50
+    type: fill_blank
+    question: "Complete the trade deficit statement"
+    text_with_blank: "A trade ___ occurs when imports exceed exports."
+    options: ["deficit", "shortfall", "negative", "unfavorable"]
+    correct_answer: "deficit"
+    xp_reward: 15
+
+  - id: 51
+    type: fill_blank
+    question: "Complete the customs phrase"
+    text_with_blank: "All imported goods must clear ___ before entering the country."
+    options: ["customs", "border control", "inspection", "clearance"]
+    correct_answer: "customs"
+    xp_reward: 15
+
+  - id: 52
+    type: fill_blank
+    question: "Complete the Incoterms statement"
+    text_with_blank: "International trade contracts should specify which ___ apply to define risk and cost allocation."
+    options: ["Incoterms", "terms", "rules", "conditions"]
+    correct_answer: "Incoterms"
+    xp_reward: 15
+
+  - id: 53
+    type: fill_blank
+    question: "Complete the letter of credit statement"
+    text_with_blank: "To reduce risk, we require a letter of ___ from the buyer's bank."
+    options: ["credit", "guarantee", "assurance", "commitment"]
+    correct_answer: "credit"
+    xp_reward: 15
+
+  # TRUE / FALSE (54-56)
+  - id: 54
+    type: true_false
+    question: "Is this statement true or false? The World Trade Organization (WTO) regulates international trade between nations."
+    statement: "The World Trade Organization (WTO) regulates international trade between nations."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 55
+    type: true_false
+    question: "Is this statement true or false? Protectionism refers to policies that restrict free trade to protect domestic industries."
+    statement: "Protectionism refers to policies that restrict free trade to protect domestic industries."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 56
+    type: true_false
+    question: "Is this statement true or false? A bill of lading is a receipt for shipped goods and a contract of carriage."
+    statement: "A bill of lading is a receipt for shipped goods and a contract of carriage."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (57-58)
+  - id: 57
+    type: matching
+    question: "Match the trade term with its meaning"
+    pairs:
+      - left: "EXW (Ex Works)"
+        right: "Buyer takes all responsibility from seller's premises"
+      - left: "FAS (Free Alongside Ship)"
+        right: "Seller delivers alongside vessel at named port"
+      - left: "CFR (Cost and Freight)"
+        right: "Seller covers cost and freight to destination port"
+      - left: "DDP (Delivered Duty Paid)"
+        right: "Seller covers all costs including duties and delivery"
+      - left: "Incoterms 2020"
+        right: "Latest version of international commercial terms"
+    xp_reward: 25
+
+  - id: 58
+    type: matching
+    question: "Match the trade organization with its purpose"
+    pairs:
+      - left: "WTO"
+        right: "World Trade Organization - global trade rules"
+      - left: "IMF"
+        right: "International Monetary Fund - financial stability"
+      - left: "World Bank"
+        right: "Provides loans for development projects"
+      - left: "EU"
+        right: "European Union - single market in Europe"
+      - left: "NAFTA/USMCA"
+        right: "North American trade agreement"
+    xp_reward: 25
+
+  # FLASHCARDS (59-60)
+  - id: 59
+    type: flashcards
+    question: "Flashcards: Trade Documents"
+    flashcards:
+      - front: "Commercial invoice"
+        right: "Bill for goods from seller to buyer"
+      - front: "Packing list"
+        right: "Details of shipment contents and packaging"
+      - front: "Certificate of origin"
+        right: "Documents where goods were produced"
+      - front: "Insurance certificate"
+        right: "Proof of cargo insurance coverage"
+      - front: "Export license"
+        right: "Government permission to export certain goods"
+    xp_reward: 30
+
+  - id: 60
+    type: flashcards
+    question: "Flashcards: Trade Barriers"
+    flashcards:
+      - front: "Tariff barrier"
+        right: "Tax on imports"
+      - front: "Non-tariff barrier"
+        right: "Quotas, licenses, standards, regulations"
+      - front: "Subsidy"
+        right: "Government payment to domestic producers"
+      - front: "Anti-dumping duty"
+        right: "Tariff on imports priced below fair market value"
+      - front: "Embargo"
+        right: "Complete ban on trade with specific country"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: BUSINESS TRAVEL (61-80)
+  # ============================================
+
+  # MULTIPLE CHOICE (61-68)
+  - id: 61
+    type: multiple_choice
+    question: "What is 'business travel'?"
+    options:
+      - "Travel for vacation"
+      - "Travel undertaken for work purposes, such as meetings, conferences, or client visits"
+      - "A type of tourism"
+      - "Commuting to work"
+    answer: "Travel undertaken for work purposes, such as meetings, conferences, or client visits"
+    xp_reward: 15
+
+  - id: 62
+    type: multiple_choice
+    question: "What is a 'visa' in the context of business travel?"
+    options:
+      - "A credit card"
+      - "An official authorization allowing a person to enter, stay, or leave a country"
+      - "A type of travel insurance"
+      - "A flight ticket"
+    answer: "An official authorization allowing a person to enter, stay, or leave a country"
+    xp_reward: 15
+
+  - id: 63
+    type: multiple_choice
+    question: "What is a 'business visa'?"
+    options:
+      - "A visa for vacation"
+      - "A visa specifically for business-related activities like meetings, conferences, or negotiations"
+      - "A work permit"
+      - "A transit visa"
+    answer: "A visa specifically for business-related activities like meetings, conferences, or negotiations"
+    xp_reward: 15
+
+  - id: 64
+    type: multiple_choice
+    question: "What should you do before traveling internationally for business?"
+    options:
+      - "Nothing - just go"
+      - "Check passport validity, obtain necessary visas, research local customs, arrange travel insurance"
+      - "Only book flights"
+      - "Only pack clothes"
+    answer: "Check passport validity, obtain necessary visas, research local customs, arrange travel insurance"
+    xp_reward: 15
+
+  - id: 65
+    type: multiple_choice
+    question: "What is a 'per diem' in business travel?"
+    options:
+      - "A type of diamond"
+      - "A daily allowance for meals and incidental expenses while traveling"
+      - "A per-day rate"
+      - "A travel policy"
+    answer: "A daily allowance for meals and incidental expenses while traveling"
+    xp_reward: 15
+
+  - id: 66
+    type: multiple_choice
+    question: "What is 'jet lag'?"
+    options:
+      - "A type of aircraft"
+      - "Temporary fatigue and disorientation caused by traveling across multiple time zones"
+      - "A flight delay"
+      - "A luggage problem"
+    answer: "Temporary fatigue and disorientation caused by traveling across multiple time zones"
+    xp_reward: 15
+
+  - id: 67
+    type: multiple_choice
+    question: "What should you say when checking into a hotel for a business stay?"
+    options:
+      - "Give me a room"
+      - "I have a reservation under [Name]. I'm here for a business conference."
+      - "Any room is fine"
+      - "Just take my money"
+    answer: "I have a reservation under [Name]. I'm here for a business conference."
+    xp_reward: 15
+
+  - id: 68
+    type: multiple_choice
+    question: "What is a 'travel expense report'?"
+    options:
+      - "A report about travel expenses"
+      - "A document submitted to claim reimbursement for business travel costs"
+      - "A budget for travel"
+      - "A travel itinerary"
+    answer: "A document submitted to claim reimbursement for business travel costs"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (69-73)
+  - id: 69
+    type: fill_blank
+    question: "Complete the travel preparation phrase"
+    text_with_blank: "I need to check if I need a ___ for my upcoming trip to China."
+    options: ["visa", "permit", "authorization", "clearance"]
+    correct_answer: "visa"
+    xp_reward: 15
+
+  - id: 70
+    type: fill_blank
+    question: "Complete the hotel check-in phrase"
+    text_with_blank: "I have a ___ under the name of Michael Chen."
+    options: ["reservation", "booking", "room", "stay"]
+    correct_answer: "reservation"
+    xp_reward: 15
+
+  - id: 71
+    type: fill_blank
+    question: "Complete the per diem statement"
+    text_with_blank: "Our company policy provides a $75 per ___ allowance for meals and incidentals."
+    options: ["diem", "day", "travel day", "calendar day"]
+    correct_answer: "diem"
+    xp_reward: 15
+
+  - id: 72
+    type: fill_blank
+    question: "Complete the expense reimbursement phrase"
+    text_with_blank: "Please submit your travel ___ receipts to accounting within two weeks."
+    options: ["expense", "cost", "spending", "expenditure"]
+    correct_answer: "expense"
+    xp_reward: 15
+
+  - id: 73
+    type: fill_blank
+    question: "Complete the travel schedule phrase"
+    text_with_blank: "My flight ___ at 2 PM local time, so I'll be at the office by 4 PM."
+    options: ["arrives", "lands", "touches down", "gets in"]
+    correct_answer: "arrives"
+    xp_reward: 15
+
+  # TRUE / FALSE (74-76)
+  - id: 74
+    type: true_false
+    question: "Is this statement true or false? It is important to inform your bank when traveling internationally to avoid card freezes."
+    statement: "It is important to inform your bank when traveling internationally to avoid card freezes."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 75
+    type: true_false
+    question: "Is this statement true or false? Business casual attire is appropriate for all international business meetings."
+    statement: "Business casual attire is appropriate for all international business meetings."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 76
+    type: true_false
+    question: "Is this statement true or false? International driving permits are required in many countries for renting cars."
+    statement: "International driving permits are required in many countries for renting cars."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (77-78)
+  - id: 77
+    type: matching
+    question: "Match the airport phrase with its meaning"
+    pairs:
+      - left: "Boarding pass"
+        right: "Document allowing you to board the plane"
+      - left: "Gate"
+        right: "Departure area for specific flight"
+      - left: "Baggage claim"
+        right: "Area where you collect checked luggage"
+      - left: "Customs"
+        right: "Inspection point for international arrivals"
+      - left: "Transit/connecting flight"
+        right: "Flight change at intermediate airport"
+    xp_reward: 25
+
+  - id: 78
+    type: matching
+    question: "Match the hotel phrase with its meaning"
+    pairs:
+      - left: "Check-in time"
+        right: "Time when rooms are available"
+      - left: "Check-out time"
+        right: "Time by which you must vacate room"
+      - left: "Late checkout"
+        right: "Request to stay past standard checkout time"
+      - left: "Room service"
+        right: "Food delivered to your room"
+      - left: "Wake-up call"
+        right: "Phone call at requested time to wake you"
+    xp_reward: 25
+
+  # FLASHCARDS (79-80)
+  - id: 79
+    type: flashcards
+    question: "Flashcards: Travel Preparation Checklist"
+    flashcards:
+      - front: "Passport validity"
+        right: "Check expiration date (often 6 months minimum)"
+      - front: "Visa requirements"
+        right: "Obtain necessary visas before travel"
+      - front: "Vaccinations"
+        right: "Check required or recommended vaccines"
+      - front: "Travel insurance"
+        right: "Coverage for medical, trip cancellation, luggage"
+      - front: "Local currency"
+        right: "Have some cash for immediate needs"
+    xp_reward: 30
+
+  - id: 80
+    type: flashcards
+    question: "Flashcards: Business Travel Etiquette"
+    flashcards:
+      - front: "Pack light"
+        right: "Bring only what you need for the trip duration"
+      - front: "Arrive early"
+        right: "Give yourself buffer time for flights and meetings"
+      - front: "Respect local time"
+        right: "Schedule meetings according to local business hours"
+      - front: "Stay connected"
+        right: "Have international phone/data plan"
+      - front: "Be grateful"
+        right: "Thank hosts and colleagues for their hospitality"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: NETWORKING (81-100)
+  # ============================================
+
+  # MULTIPLE CHOICE (81-88)
+  - id: 81
+    type: multiple_choice
+    question: "What is 'business networking'?"
+    options:
+      - "Working on a computer network"
+      - "Building and maintaining professional relationships for mutual benefit"
+      - "Attending parties"
+      - "Social media use"
+    answer: "Building and maintaining professional relationships for mutual benefit"
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "What is an 'elevator pitch' in networking?"
+    options:
+      - "A pitch in an elevator"
+      - "A brief, compelling summary of who you are and what you do (30-60 seconds)"
+      - "A sales presentation"
+      - "A job interview"
+    answer: "A brief, compelling summary of who you are and what you do (30-60 seconds)"
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "What should you include in your elevator pitch?"
+    options:
+      - "Your entire life story"
+      - "Who you are, what you do, who you help, and what you're looking for"
+      - "Only your name"
+      - "Your salary expectations"
+    answer: "Who you are, what you do, who you help, and what you're looking for"
+    xp_reward: 15
+
+  - id: 84
+    type: multiple_choice
+    question: "What is a 'business card' used for in networking?"
+    options:
+      - "A card with business information"
+      - "A small card containing professional contact information exchanged during networking"
+      - "A credit card"
+      - "A membership card"
+    answer: "A small card containing professional contact information exchanged during networking"
+    xp_reward: 15
+
+  - id: 85
+    type: multiple_choice
+    question: "What is proper business card etiquette in Japan?"
+    options:
+      - "Take it with one hand and put it in your pocket immediately"
+      - "Receive with both hands, study it briefly, and place respectfully on the table"
+      - "Write notes on it immediately"
+      - "Refuse to accept it"
+    answer: "Receive with both hands, study it briefly, and place respectfully on the table"
+    xp_reward: 15
+
+  - id: 86
+    type: multiple_choice
+    question: "What is 'follow-up' in networking?"
+    options:
+      - "Following someone up"
+      - "The action of contacting someone after an initial meeting to continue the relationship"
+      - "A type of email"
+      - "A phone call"
+    answer: "The action of contacting someone after an initial meeting to continue the relationship"
+    xp_reward: 15
+
+  - id: 87
+    type: multiple_choice
+    question: "What is LinkedIn used for in professional networking?"
+    options:
+      - "A social media platform for connecting with professionals, finding jobs, and sharing industry content"
+      - "A dating app"
+      - "A gaming platform"
+      - "A video streaming service"
+    answer: "A social media platform for connecting with professionals, finding jobs, and sharing industry content"
+    xp_reward: 15
+
+  - id: 88
+    type: multiple_choice
+    question: "What should you avoid during networking conversations?"
+    options:
+      - "Asking about the other person's work"
+      - "Monopolizing the conversation or only talking about yourself"
+      - "Exchanging business cards"
+      - "Following up after the event"
+    answer: "Monopolizing the conversation or only talking about yourself"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (89-93)
+  - id: 89
+    type: fill_blank
+    question: "Complete the networking introduction"
+    text_with_blank: "Hi, I'm Sarah from Acme Corp. I ___ in digital marketing strategy."
+    options: ["specialize", "focus", "work", "am"]
+    correct_answer: "specialize"
+    xp_reward: 15
+
+  - id: 90
+    type: fill_blank
+    question: "Complete the contact exchange phrase"
+    text_with_blank: "Do you have a business ___ I could have?"
+    options: ["card", "contact", "information", "detail"]
+    correct_answer: "card"
+    xp_reward: 15
+
+  - id: 91
+    type: fill_blank
+    question: "Complete the follow-up phrase"
+    text_with_blank: "It was great ___ you at the conference. I'll send you a LinkedIn invitation."
+    options: ["meeting", "connecting with", "talking to", "seeing"]
+    correct_answer: "meeting"
+    xp_reward: 15
+
+  - id: 92
+    type: fill_blank
+    question: "Complete the referral request"
+    text_with_blank: "Could you ___ me to someone in your network who specializes in supply chain management?"
+    options: ["refer", "introduce", "connect", "recommend"]
+    correct_answer: "introduce"
+    xp_reward: 15
+
+  - id: 93
+    type: fill_blank
+    question: "Complete the value offer"
+    text_with_blank: "I'd be happy to ___ you with any questions you have about the Asian market."
+    options: ["assist", "help", "support", "aid"]
+    correct_answer: "assist"
+    xp_reward: 15
+
+  # TRUE / FALSE (94-96)
+  - id: 94
+    type: true_false
+    question: "Is this statement true or false? Networking is only about what others can do for you."
+    statement: "Networking is only about what others can do for you."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 95
+    type: true_false
+    question: "Is this statement true or false? Following up within 24-48 hours after meeting someone is considered good networking practice."
+    statement: "Following up within 24-48 hours after meeting someone is considered good networking practice."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 96
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to send connection requests on LinkedIn without a personalized message."
+    statement: "It is acceptable to send connection requests on LinkedIn without a personalized message."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (97-98)
+  - id: 97
+    type: matching
+    question: "Match the networking question with its purpose"
+    pairs:
+      - left: "What brings you to this event?"
+        right: "Opens conversation, finds common ground"
+      - left: "What do you do?"
+        right: "Learn about their professional role"
+      - left: "How did you get started in that field?"
+        right: "Shows deeper interest in their journey"
+      - left: "What are you working on right now?"
+        right: "Current projects and opportunities"
+      - left: "Is there anyone here you think I should meet?"
+        right: "Requests introductions"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Match the networking event type with its description"
+    pairs:
+      - left: "Conference"
+        right: "Large industry gathering with sessions and exhibits"
+      - left: "Trade show"
+        right: "Companies showcase products and services"
+      - left: "Meetup"
+        right: "Informal gathering around specific interest"
+      - left: "Chamber of Commerce"
+        right: "Local business association networking"
+      - left: "Industry association dinner"
+        right: "Formal networking meal for professionals"
+    xp_reward: 25
+
+  # FLASHCARDS (99-100)
+  - id: 99
+    type: flashcards
+    question: "Flashcards: Networking Follow-up"
+    flashcards:
+      - front: "Send within 48 hours"
+        right: "Timing for follow-up messages"
+      - front: "Reference your conversation"
+        right: "Mention something specific you discussed"
+      - front: "Offer value"
+        right: "Share an article or introduction"
+      - front: "Propose next step"
+        right: "Coffee, call, or LinkedIn connection"
+      - front: "Be persistent but polite"
+        right: "Follow up 1-2 times if no response"
+    xp_reward: 30
+
+  - id: 100
+    type: flashcards
+    question: "Flashcards: Networking Conversation Starters"
+    flashcards:
+      - front: "I loved your presentation on..."
+        right: "Specific compliment"
+      - front: "How did you get involved in this industry?"
+        right: "Career path question"
+      - front: "What do you think about the recent trend in...?"
+        right: "Opinion question"
+      - front: "Are you attending any other sessions this week?"
+        right: "Event-related question"
+      - front: "What are the biggest challenges you're facing right now?"
+        right: "Problem-focused question"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 6: PARTNERSHIPS (101-120)
+  # ============================================
+
+  # MULTIPLE CHOICE (101-108)
+  - id: 101
+    type: multiple_choice
+    question: "What is a 'business partnership'?"
+    options:
+      - "Two people walking together"
+      - "A formal arrangement where two or more parties agree to cooperate to advance mutual interests"
+      - "A type of contract"
+      - "A merger"
+    answer: "A formal arrangement where two or more parties agree to cooperate to advance mutual interests"
+    xp_reward: 15
+
+  - id: 102
+    type: multiple_choice
+    question: "What is a 'strategic alliance'?"
+    options:
+      - "A strategic alliance"
+      - "An agreement between companies to pursue mutual goals while remaining independent"
+      - "A merger"
+      - "A joint venture"
+    answer: "An agreement between companies to pursue mutual goals while remaining independent"
+    xp_reward: 15
+
+  - id: 103
+    type: multiple_choice
+    question: "What is a 'joint venture' (JV)?"
+    options:
+      - "A venture that is joint"
+      - "A business arrangement where two or more parties create a new, separate entity"
+      - "A partnership agreement"
+      - "A merger"
+    answer: "A business arrangement where two or more parties create a new, separate entity"
+    xp_reward: 15
+
+  - id: 104
+    type: multiple_choice
+    question: "What is a 'memorandum of understanding' (MOU)?"
+    options:
+      - "A memorandum about understanding"
+      - "A non-binding document outlining the broad terms of a potential partnership"
+      - "A binding contract"
+      - "A partnership agreement"
+    answer: "A non-binding document outlining the broad terms of a potential partnership"
+    xp_reward: 15
+
+  - id: 105
+    type: multiple_choice
+    question: "What is a 'distribution agreement'?"
+    options:
+      - "An agreement about distribution"
+      - "A contract where one company agrees to distribute another company's products"
+      - "A type of sales agreement"
+      - "A licensing agreement"
+    answer: "A contract where one company agrees to distribute another company's products"
+    xp_reward: 15
+
+  - id: 106
+    type: multiple_choice
+    question: "What is a 'licensing agreement'?"
+    options:
+      - "An agreement about licenses"
+      - "A contract allowing one party to use another's intellectual property"
+      - "A distribution agreement"
+      - "A franchise agreement"
+    answer: "A contract allowing one party to use another's intellectual property"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What is a 'partnership agreement'?"
+    options:
+      - "An agreement about partnership"
+      - "A legal document outlining the terms, roles, responsibilities, and profit-sharing of a partnership"
+      - "A memorandum of understanding"
+      - "A joint venture agreement"
+    answer: "A legal document outlining the terms, roles, responsibilities, and profit-sharing of a partnership"
+    xp_reward: 15
+
+  - id: 108
+    type: multiple_choice
+    question: "What is 'due diligence' in partnership formation?"
+    options:
+      - "Careful attention"
+      - "The investigation and research conducted before entering into a partnership"
+      - "A legal requirement"
+      - "A type of audit"
+    answer: "The investigation and research conducted before entering into a partnership"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (109-113)
+  - id: 109
+    type: fill_blank
+    question: "Complete the partnership proposal"
+    text_with_blank: "We are interested in forming a strategic ___ with your company to expand into the European market."
+    options: ["alliance", "partnership", "relationship", "collaboration"]
+    correct_answer: "alliance"
+    xp_reward: 15
+
+  - id: 110
+    type: fill_blank
+    question: "Complete the JV statement"
+    text_with_blank: "We propose creating a joint ___ that will be 50% owned by each party."
+    options: ["venture", "enterprise", "entity", "company"]
+    correct_answer: "venture"
+    xp_reward: 15
+
+  - id: 111
+    type: fill_blank
+    question: "Complete the MOU statement"
+    text_with_blank: "Let's start with a non-binding ___ to outline our shared objectives before drafting a formal contract."
+    options: ["MOU", "memorandum of understanding", "letter of intent", "agreement in principle"]
+    correct_answer: "MOU"
+    xp_reward: 15
+
+  - id: 112
+    type: fill_blank
+    question: "Complete the partner selection phrase"
+    text_with_blank: "We are looking for a ___ partner with complementary capabilities and shared values."
+    options: ["strategic", "ideal", "suitable", "compatible"]
+    correct_answer: "strategic"
+    xp_reward: 15
+
+  - id: 113
+    type: fill_blank
+    question: "Complete the partnership termination phrase"
+    text_with_blank: "Either party may ___ the partnership with 90 days written notice."
+    options: ["terminate", "end", "dissolve", "cancel"]
+    correct_answer: "terminate"
+    xp_reward: 15
+
+  # TRUE / FALSE (114-116)
+  - id: 114
+    type: true_false
+    question: "Is this statement true or false? Successful partnerships require clear communication and aligned expectations."
+    statement: "Successful partnerships require clear communication and aligned expectations."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Is this statement true or false? A partnership agreement should always be in writing, even for informal arrangements."
+    statement: "A partnership agreement should always be in writing, even for informal arrangements."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 116
+    type: true_false
+    question: "Is this statement true or false? Cultural differences between partner companies never affect partnership success."
+    statement: "Cultural differences between partner companies never affect partnership success."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (117-118)
+  - id: 117
+    type: matching
+    question: "Match the partnership type with its description"
+    pairs:
+      - left: "Equity partnership"
+        right: "Parties invest capital and share ownership"
+      - left: "Non-equity partnership"
+        right: "Contractual arrangement without shared ownership"
+      - left: "Exclusive partnership"
+        right: "Partners work only with each other in specific area"
+      - left: "Non-exclusive partnership"
+        right: "Partners may work with other companies as well"
+      - left: "Co-marketing partnership"
+        right: "Joint promotion of products or services"
+    xp_reward: 25
+
+  - id: 118
+    type: matching
+    question: "Match the partnership risk with the mitigation strategy"
+    pairs:
+      - left: "Misaligned goals"
+        right: "Clearly define objectives in written agreement"
+      - left: "Cultural clash"
+        right: "Cross-cultural training and regular communication"
+      - left: "Unequal contribution"
+        right: "Define roles, responsibilities, and contribution metrics"
+      - left: "Trust issues"
+        right: "Transparent reporting and regular reviews"
+      - left: "Intellectual property leakage"
+        right: "Strong confidentiality and IP protection clauses"
+    xp_reward: 25
+
+  # FLASHCARDS (119-120)
+  - id: 119
+    type: flashcards
+    question: "Flashcards: Partnership Agreement Components"
+    flashcards:
+      - front: "Purpose and scope"
+        right: "What the partnership will achieve"
+      - front: "Term and termination"
+        right: "Duration and exit conditions"
+      - front: "Governance structure"
+        right: "Decision-making process"
+      - front: "Financial arrangements"
+        right: "Investment, profit sharing, expenses"
+      - front: "Dispute resolution"
+        right: "Process for resolving disagreements"
+    xp_reward: 30
+
+  - id: 120
+    type: flashcards
+    question: "Flashcards: Successful Partnership Traits"
+    flashcards:
+      - front: "Trust"
+        right: "Foundation of any partnership"
+      - front: "Transparency"
+        right: "Open sharing of information"
+      - front: "Reciprocity"
+        right: "Mutual benefit and give-and-take"
+      - front: "Flexibility"
+        right: "Ability to adapt to changing circumstances"
+      - front: "Commitment"
+        right: "Dedication to making it work"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 7: GLOBAL MARKETS (121-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (121-125)
+  - id: 121
+    type: multiple_choice
+    question: "What is a 'global market'?"
+    options:
+      - "A market around the globe"
+      - "The interconnected economic system where goods, services, and capital flow across international borders"
+      - "A stock market"
+      - "A trade agreement"
+    answer: "The interconnected economic system where goods, services, and capital flow across international borders"
+    xp_reward: 15
+
+  - id: 122
+    type: multiple_choice
+    question: "What is an 'emerging market'?"
+    options:
+      - "A market that is emerging"
+      - "A country with developing economy moving toward more advanced economic status"
+      - "A new market"
+      - "A small market"
+    answer: "A country with developing economy moving toward more advanced economic status"
+    xp_reward: 15
+
+  - id: 123
+    type: multiple_choice
+    question: "What are 'BRICS' countries?"
+    options:
+      - "A type of building material"
+      - "Brazil, Russia, India, China, South Africa - major emerging economies"
+      - "A trade organization"
+      - "A currency"
+    answer: "Brazil, Russia, India, China, South Africa - major emerging economies"
+    xp_reward: 15
+
+  - id: 124
+    type: multiple_choice
+    question: "What is 'market entry strategy'?"
+    options:
+      - "A strategy to enter a market"
+      - "The planned method for entering and competing in a new market"
+      - "A type of marketing plan"
+      - "A pricing strategy"
+    answer: "The planned method for entering and competing in a new market"
+    xp_reward: 15
+
+  - id: 125
+    type: multiple_choice
+    question: "What is 'market research' in global context?"
+    options:
+      - "Research about a market"
+      - "The systematic gathering and analysis of information about foreign markets, customers, and competitors"
+      - "A type of survey"
+      - "A marketing activity"
+    answer: "The systematic gathering and analysis of information about foreign markets, customers, and competitors"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (126-128)
+  - id: 126
+    type: fill_blank
+    question: "Complete the market assessment statement"
+    text_with_blank: "We need to conduct a market ___ assessment before deciding to enter the Southeast Asian market."
+    options: ["opportunity", "entry", "feasibility", "potential"]
+    correct_answer: "opportunity"
+    xp_reward: 15
+
+  - id: 127
+    type: fill_blank
+    question: "Complete the market selection phrase"
+    text_with_blank: "Our top ___ for expansion are Mexico, Brazil, and Colombia."
+    options: ["targets", "priorities", "candidates", "destinations"]
+    correct_answer: "targets"
+    xp_reward: 15
+
+  - id: 128
+    type: fill_blank
+    question: "Complete the competitive analysis statement"
+    text_with_blank: "We need to understand the ___ landscape in each potential market."
+    options: ["competitive", "competitor", "industry", "market"]
+    correct_answer: "competitive"
+    xp_reward: 15
+
+  # TRUE / FALSE (129)
+  - id: 129
+    type: true_false
+    question: "Is this statement true or false? The same marketing strategy can be used successfully in all global markets."
+    statement: "The same marketing strategy can be used successfully in all global markets."
+    correct_answer: false
+    xp_reward: 10
+
+  # TIMED CHALLENGE (130)
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: International Business Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "Difference between high-context and low-context cultures"
+        answer: "High context implicit low context explicit"
+      - question: "What does FOB stand for in shipping"
+        answer: "Free On Board"
+      - question: "What does CIF stand for"
+        answer: "Cost Insurance Freight"
+      - question: "What is a business visa"
+        answer: "Authorization for business travel"
+      - question: "What is an elevator pitch"
+        answer: "Brief 30-60 second self introduction"
+      - question: "What is a joint venture"
+        answer: "New separate entity created by partners"
+      - question: "What are BRICS countries"
+        answer: "Brazil Russia India China South Africa"
+      - question: "What is cultural intelligence"
+        answer: "Ability to function across cultures"
+    xp_reward: 50

@@ -1,0 +1,1094 @@
+lesson:
+  name: "Salamu - Habari"
+  description: "Apprenez les salutations et expressions courantes en Kiswahili"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Single Greetings ONLY (Safe for single words/phrases)
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Bonjour' en Kiswahili ?"
+    answer: "Habari"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Bonjour (matin)' en Kiswahili ?"
+    answer: "Habari za asubuhi"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Bonsoir' en Kiswahili ?"
+    answer: "Habari za jioni"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Bonne nuit' en Kiswahili ?"
+    answer: "Usiku mwema"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment demande-t-on 'Comment allez-vous ?' en Kiswahili ?"
+    answer: "Habari yako"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Ça va bien' en Kiswahili ?"
+    answer: "Nzuri"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Bienvenue' en Kiswahili ?"
+    answer: "Karibu"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'À plus tard' en Kiswahili ?"
+    answer: "Tutaonana baadaye"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Au revoir' en Kiswahili ?"
+    answer: "Kwa heri"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Bonne journée' en Kiswahili ?"
+    answer: "Siku njema"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Prends soin de toi' en Kiswahili ?"
+    answer: "Jitunze"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Ça fait longtemps qu'on ne s'est pas vus' en Kiswahili ?"
+    answer: "Ni muda mrefu hatujaonana"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Comment demande-t-on 'Quoi de neuf ?' en Kiswahili ?"
+    answer: "Kuna nini?"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Enchanté de faire votre connaissance' en Kiswahili ?"
+    answer: "Nimefurahi kukutana nawe"
+    xp_reward: 15
+
+  # Translation - Greetings with Family Members (Simple combinations)
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Bonjour, maman !' en Kiswahili ?"
+    answer: "Habari, Mama!"
+    xp_reward: 12
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Bonjour, papa !' en Kiswahili ?"
+    answer: "Habari za asubuhi, Baba!"
+    xp_reward: 12
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Bonne nuit, mon enfant !' en Kiswahili ?"
+    answer: "Usiku mwema, mtoto wangu!"
+    xp_reward: 15
+
+  # Translation - Common Questions (Fixed expressions)
+  - id: 18
+    type: translation
+    question: "Comment demande-t-on 'Comment allez-vous aujourd'hui ?' en Kiswahili ?"
+    answer: "Habari yako leo?"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Ça va bien, merci' en Kiswahili ?"
+    answer: "Nzuri, asante."
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Comment demande-t-on 'Quoi de neuf avec toi aujourd'hui ?' en Kiswahili ?"
+    answer: "Kuna nini kwako leo?"
+    xp_reward: 18
+
+  # NO DIRECT TRANSLATION FOR COMPLEX DIALOGUES OR PARAGRAPHS
+  # Instead, we use sentence building, matching, and word bank exercises
+
+  # 2. Multiple Choice
+  - id: 21
+    type: multiple_choice
+    question: "Que signifie 'Habari' ?"
+    options:
+      - "Au revoir"
+      - "Bonjour"
+      - "Bonsoir"
+      - "Bonne nuit"
+    answer: "Bonjour"
+    xp_reward: 15
+
+  - id: 22
+    type: multiple_choice
+    question: "Que signifie 'Habari za asubuhi' ?"
+    options:
+      - "Bonsoir"
+      - "Bonjour (matin)"
+      - "Bonne nuit"
+      - "Au revoir"
+    answer: "Bonjour (matin)"
+    xp_reward: 15
+
+  - id: 23
+    type: multiple_choice
+    question: "Que signifie 'Habari yako' ?"
+    options:
+      - "Au revoir"
+      - "Bienvenue"
+      - "Comment allez-vous ?"
+      - "À plus tard"
+    answer: "Comment allez-vous ?"
+    xp_reward: 15
+
+  - id: 24
+    type: multiple_choice
+    question: "Que signifie 'Nzuri' ?"
+    options:
+      - "Ça va bien"
+      - "Merci"
+      - "Bienvenue"
+      - "Prends soin de toi"
+    answer: "Ça va bien"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "Que signifie 'Kwa heri' ?"
+    options:
+      - "Bonjour"
+      - "Bienvenue"
+      - "Au revoir"
+      - "À plus tard"
+    answer: "Au revoir"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "Que signifie 'Tutaonana baadaye' ?"
+    options:
+      - "Au revoir"
+      - "À plus tard"
+      - "Bon retour"
+      - "Prends soin de toi"
+    answer: "À plus tard"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "Que signifie 'Nimefurahi kukutana nawe' ?"
+    options:
+      - "Bonjour"
+      - "Enchanté de faire votre connaissance"
+      - "Bienvenue"
+      - "Prends soin de toi"
+    answer: "Enchanté de faire votre connaissance"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation) - Safe because audio is provided
+  - id: 28
+    type: listen_and_type
+    question: "Écoutez et tapez la salutation"
+    tts_text: "Habari"
+    answer: "Habari"
+    translation: "Bonjour"
+    xp_reward: 20
+
+  - id: 29
+    type: listen_and_type
+    question: "Écoutez et tapez la salutation"
+    tts_text: "Habari za asubuhi"
+    answer: "Habari za asubuhi"
+    translation: "Bonjour (matin)"
+    xp_reward: 20
+
+  - id: 30
+    type: listen_and_type
+    question: "Écoutez et tapez la salutation"
+    tts_text: "Habari za jioni"
+    answer: "Habari za jioni"
+    translation: "Bonsoir"
+    xp_reward: 20
+
+  - id: 31
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Usiku mwema"
+    answer: "Usiku mwema"
+    translation: "Bonne nuit"
+    xp_reward: 20
+
+  - id: 32
+    type: listen_and_type
+    question: "Écoutez et tapez la question"
+    tts_text: "Habari yako"
+    answer: "Habari yako"
+    translation: "Comment allez-vous ?"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Écoutez et tapez la réponse"
+    tts_text: "Nzuri"
+    answer: "Nzuri"
+    translation: "Ça va bien"
+    xp_reward: 20
+
+  - id: 34
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Karibu"
+    answer: "Karibu"
+    translation: "Bienvenue"
+    xp_reward: 22
+
+  - id: 35
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Tutaonana baadaye"
+    answer: "Tutaonana baadaye"
+    translation: "À plus tard"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Kwa heri"
+    answer: "Kwa heri"
+    translation: "Au revoir"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Ni muda mrefu hatujaonana"
+    answer: "Ni muda mrefu hatujaonana"
+    translation: "Ça fait longtemps qu'on ne s'est pas vus"
+    xp_reward: 25
+
+  - id: 38
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Nimefurahi kukutana nawe"
+    answer: "Nimefurahi kukutana nawe"
+    translation: "Enchanté de faire votre connaissance"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 39
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne salutation"
+    tts_text: "Habari"
+    options:
+      - "Au revoir"
+      - "Bonjour"
+      - "Bonsoir"
+    answer: "Bonjour"
+    xp_reward: 15
+
+  - id: 40
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne salutation"
+    tts_text: "Habari za asubuhi"
+    options:
+      - "Bonsoir"
+      - "Bonjour (matin)"
+      - "Bonne nuit"
+    answer: "Bonjour (matin)"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne salutation"
+    tts_text: "Habari za jioni"
+    options:
+      - "Bonjour"
+      - "Bonsoir"
+      - "Bonne nuit"
+    answer: "Bonsoir"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne signification"
+    tts_text: "Habari yako"
+    options:
+      - "Au revoir"
+      - "Comment allez-vous ?"
+      - "Bienvenue"
+    answer: "Comment allez-vous ?"
+    xp_reward: 15
+
+  - id: 43
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne réponse"
+    tts_text: "Nzuri"
+    options:
+      - "Ça va bien"
+      - "Merci"
+      - "Bienvenue"
+    answer: "Ça va bien"
+    xp_reward: 15
+
+  - id: 44
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon au revoir"
+    tts_text: "Kwa heri"
+    options:
+      - "Bonjour"
+      - "Au revoir"
+      - "À plus tard"
+    answer: "Au revoir"
+    xp_reward: 15
+
+  # 5. Repeat / Speaking Exercise
+  - id: 45
+    type: speaking
+    question: "Dites cette salutation"
+    prompt: "Habari"
+    translation: "Bonjour"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Dites cette salutation"
+    prompt: "Habari za asubuhi"
+    translation: "Bonjour (matin)"
+    xp_reward: 15
+
+  - id: 47
+    type: speaking
+    question: "Dites cette salutation"
+    prompt: "Habari za jioni"
+    translation: "Bonsoir"
+    xp_reward: 15
+
+  - id: 48
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Usiku mwema"
+    translation: "Bonne nuit"
+    xp_reward: 18
+
+  - id: 49
+    type: speaking
+    question: "Demandez 'Comment allez-vous ?' en Kiswahili"
+    prompt: "Habari yako"
+    translation: "Comment allez-vous ?"
+    xp_reward: 15
+
+  - id: 50
+    type: speaking
+    question: "Dites 'Ça va bien' en Kiswahili"
+    prompt: "Nzuri"
+    translation: "Ça va bien"
+    xp_reward: 15
+
+  - id: 51
+    type: speaking
+    question: "Dites 'Bienvenue' en Kiswahili"
+    prompt: "Karibu"
+    translation: "Bienvenue"
+    xp_reward: 18
+
+  - id: 52
+    type: speaking
+    question: "Dites 'À plus tard' en Kiswahili"
+    prompt: "Tutaonana baadaye"
+    translation: "À plus tard"
+    xp_reward: 18
+
+  - id: 53
+    type: speaking
+    question: "Dites 'Au revoir' en Kiswahili"
+    prompt: "Kwa heri"
+    translation: "Au revoir"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Dites 'Ça fait longtemps qu'on ne s'est pas vus' en Kiswahili"
+    prompt: "Ni muda mrefu hatujaonana"
+    translation: "Ça fait longtemps qu'on ne s'est pas vus"
+    xp_reward: 22
+
+  - id: 55
+    type: speaking
+    question: "Dites 'Enchanté de faire votre connaissance' en Kiswahili"
+    prompt: "Nimefurahi kukutana nawe"
+    translation: "Enchanté de faire votre connaissance"
+    xp_reward: 20
+
+  - id: 56
+    type: speaking
+    question: "Dites 'Bonjour, maman !' en Kiswahili"
+    prompt: "Habari, Mama!"
+    translation: "Bonjour, maman !"
+    xp_reward: 18
+
+  - id: 57
+    type: speaking
+    question: "Dites 'Bonjour, papa !' en Kiswahili"
+    prompt: "Habari za asubuhi, Baba!"
+    translation: "Bonjour, papa !"
+    xp_reward: 18
+
+  # 6. Word Bank Sentence Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+  - id: 58
+    type: word_bank
+    question: "Construisez la salutation pour 'Bonjour, maman !'"
+    word_bank: ["Habari", "Mama", "Baba", "Habari za asubuhi"]
+    correct_answer: ["Habari", "Mama"]
+    xp_reward: 18
+
+  - id: 59
+    type: word_bank
+    question: "Construisez la salutation pour 'Bonjour, papa !'"
+    word_bank: ["Habari za asubuhi", "Baba", "Habari", "Mama"]
+    correct_answer: ["Habari za asubuhi", "Baba"]
+    xp_reward: 18
+
+  - id: 60
+    type: word_bank
+    question: "Construisez la salutation pour 'Bonne nuit, mon enfant !'"
+    word_bank: ["Usiku mwema", "mtoto wangu", "Habari", "Mama"]
+    correct_answer: ["Usiku mwema", "mtoto wangu"]
+    xp_reward: 20
+
+  - id: 61
+    type: word_bank
+    question: "Construisez la question 'Comment allez-vous aujourd'hui ?'"
+    word_bank: ["Habari yako", "leo", "Nzuri", "asante"]
+    correct_answer: ["Habari yako", "leo"]
+    xp_reward: 20
+
+  - id: 62
+    type: word_bank
+    question: "Construisez la réponse 'Ça va bien, merci'"
+    word_bank: ["Nzuri", "asante", "Habari yako", "leo"]
+    correct_answer: ["Nzuri", "asante"]
+    xp_reward: 20
+
+  - id: 63
+    type: word_bank
+    question: "Construisez l'au revoir 'À plus tard à l'école'"
+    word_bank: ["Tutaonana baadaye", "shuleni", "Kwa heri", "kesho"]
+    correct_answer: ["Tutaonana baadaye", "shuleni"]
+    xp_reward: 20
+
+  - id: 64
+    type: word_bank
+    question: "Construisez l'au revoir 'Au revoir, à demain'"
+    word_bank: ["Kwa heri", "tutaonana", "kesho", "Tutaonana baadaye"]
+    correct_answer: ["Kwa heri", "tutaonana", "kesho"]
+    xp_reward: 22
+
+  - id: 65
+    type: word_bank
+    question: "Construisez le souhait 'Bonne journée au travail'"
+    word_bank: ["Siku njema", "kazini", "Jitunze", "safari"]
+    correct_answer: ["Siku njema", "kazini"]
+    xp_reward: 20
+
+  - id: 66
+    type: word_bank
+    question: "Construisez la phrase 'Prends soin de toi dans ton voyage'"
+    word_bank: ["Jitunze", "katika safari yako", "Siku njema", "kazini"]
+    correct_answer: ["Jitunze", "katika safari yako"]
+    xp_reward: 20
+
+  - id: 67
+    type: word_bank
+    question: "Construisez la salutation 'Ça fait longtemps qu'on ne s'est pas vus, mon ami'"
+    word_bank: ["Ni muda mrefu hatujaonana", "rafiki yangu", "Habari", "Habari yako"]
+    correct_answer: ["Ni muda mrefu hatujaonana", "rafiki yangu"]
+    xp_reward: 22
+
+  - id: 68
+    type: word_bank
+    question: "Construisez la question 'Quoi de neuf avec toi aujourd'hui ?'"
+    word_bank: ["Kuna nini", "kwako", "leo", "Habari yako"]
+    correct_answer: ["Kuna nini", "kwako", "leo"]
+    xp_reward: 22
+
+  - id: 69
+    type: word_bank
+    question: "Construisez la phrase 'Enchanté de faire votre connaissance à la fête'"
+    word_bank: ["Nimefurahi kukutana nawe", "kwenye sherehe", "Karibu", "nyumbani"]
+    correct_answer: ["Nimefurahi kukutana nawe", "kwenye sherehe"]
+    xp_reward: 22
+
+  # 7. Sentence Scramble - PIECES PROVIDED
+  - id: 70
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une salutation correcte"
+    scrambled_words: ["Habari", "Mama"]
+    correct_sentence: "Habari, Mama!"
+    translation: "Bonjour, maman !"
+    xp_reward: 18
+
+  - id: 71
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une salutation correcte"
+    scrambled_words: ["Habari za asubuhi", "Baba"]
+    correct_sentence: "Habari za asubuhi, Baba!"
+    translation: "Bonjour, papa !"
+    xp_reward: 18
+
+  - id: 72
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["mwema", "Usiku", "mtoto", "wangu"]
+    correct_sentence: "Usiku mwema, mtoto wangu!"
+    translation: "Bonne nuit, mon enfant !"
+    xp_reward: 20
+
+  - id: 73
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une question correcte"
+    scrambled_words: ["yako", "Habari", "leo"]
+    correct_sentence: "Habari yako leo?"
+    translation: "Comment allez-vous aujourd'hui ?"
+    xp_reward: 18
+
+  - id: 74
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une réponse correcte"
+    scrambled_words: ["Nzuri", "asante"]
+    correct_sentence: "Nzuri, asante."
+    translation: "Ça va bien, merci."
+    xp_reward: 18
+
+  - id: 75
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former un au revoir correct"
+    scrambled_words: ["Tutaonana baadaye", "shuleni"]
+    correct_sentence: "Tutaonana baadaye shuleni."
+    translation: "À plus tard à l'école."
+    xp_reward: 20
+
+  - id: 76
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former un au revoir correct"
+    scrambled_words: ["Kwa heri", "tutaonana", "kesho"]
+    correct_sentence: "Kwa heri, tutaonana kesho."
+    translation: "Au revoir, à demain."
+    xp_reward: 22
+
+  - id: 77
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former un souhait correct"
+    scrambled_words: ["njema", "Siku", "kazini"]
+    correct_sentence: "Siku njema kazini."
+    translation: "Bonne journée au travail."
+    xp_reward: 20
+
+  - id: 78
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Jitunze", "safari", "katika", "yako"]
+    correct_sentence: "Jitunze katika safari yako."
+    translation: "Prends soin de toi dans ton voyage."
+    xp_reward: 20
+
+  - id: 79
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une salutation correcte"
+    scrambled_words: ["muda", "Ni", "mrefu", "hatujaonana", "rafiki", "yangu"]
+    correct_sentence: "Ni muda mrefu hatujaonana, rafiki yangu."
+    translation: "Ça fait longtemps qu'on ne s'est pas vus, mon ami."
+    xp_reward: 25
+
+  - id: 80
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une question correcte"
+    scrambled_words: ["nini", "Kuna", "kwako", "leo"]
+    correct_sentence: "Kuna nini kwako leo?"
+    translation: "Quoi de neuf avec toi aujourd'hui ?"
+    xp_reward: 22
+
+  # 8. Fill in the Blank - CHOOSE FROM OPTIONS
+  - id: 81
+    type: fill_blank
+    question: "Complétez la salutation"
+    text_with_blank: "___ , Mama!"
+    options: ["Habari", "Habari za asubuhi", "Habari za jioni"]
+    correct_answer: "Habari"
+    translation: "Bonjour, maman !"
+    xp_reward: 15
+
+  - id: 82
+    type: fill_blank
+    question: "Complétez la salutation"
+    text_with_blank: "___ , Baba!"
+    options: ["Habari", "Habari za asubuhi", "Habari za jioni"]
+    correct_answer: "Habari za asubuhi"
+    translation: "Bonjour, papa !"
+    xp_reward: 15
+
+  - id: 83
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Usiku ___, mtoto wangu!"
+    options: ["mwema", "njema", "nzuri"]
+    correct_answer: "mwema"
+    translation: "Bonne nuit, mon enfant !"
+    xp_reward: 18
+
+  - id: 84
+    type: fill_blank
+    question: "Complétez la question"
+    text_with_blank: "___ leo?"
+    options: ["Habari yako", "Nzuri", "Habari"]
+    correct_answer: "Habari yako"
+    translation: "Comment allez-vous aujourd'hui ?"
+    xp_reward: 15
+
+  - id: 85
+    type: fill_blank
+    question: "Complétez la réponse"
+    text_with_blank: "Nzuri, ___."
+    options: ["asante", "Habari", "Habari yako"]
+    correct_answer: "asante"
+    translation: "Ça va bien, merci."
+    xp_reward: 15
+
+  - id: 86
+    type: fill_blank
+    question: "Complétez l'au revoir"
+    text_with_blank: "Tutaonana baadaye ___."
+    options: ["shuleni", "nyumbani", "kazini"]
+    correct_answer: "shuleni"
+    translation: "À plus tard à l'école."
+    xp_reward: 18
+
+  - id: 87
+    type: fill_blank
+    question: "Complétez l'au revoir"
+    text_with_blank: "Kwa heri, tutaonana ___."
+    options: ["kesho", "leo", "mwema"]
+    correct_answer: "kesho"
+    translation: "Au revoir, à demain."
+    xp_reward: 18
+
+  - id: 88
+    type: fill_blank
+    question: "Complétez le souhait"
+    text_with_blank: "Siku njema ___."
+    options: ["kazini", "nyumbani", "shuleni"]
+    correct_answer: "kazini"
+    translation: "Bonne journée au travail."
+    xp_reward: 15
+
+  - id: 89
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Jitunze katika ___ yako."
+    options: ["safari", "kazi", "nyumba"]
+    correct_answer: "safari"
+    translation: "Prends soin de toi dans ton voyage."
+    xp_reward: 18
+
+  - id: 90
+    type: fill_blank
+    question: "Complétez la salutation"
+    text_with_blank: "Ni muda mrefu ___, rafiki yangu."
+    options: ["hatujaonana", "tutaonana", "tutarudi"]
+    correct_answer: "hatujaonana"
+    translation: "Ça fait longtemps qu'on ne s'est pas vus, mon ami."
+    xp_reward: 20
+
+  - id: 91
+    type: fill_blank
+    question: "Complétez la question"
+    text_with_blank: "Kuna nini kwako ___?"
+    options: ["leo", "kesho", "mwema"]
+    correct_answer: "leo"
+    translation: "Quoi de neuf avec toi aujourd'hui ?"
+    xp_reward: 18
+
+  # 9. Word Matching (Pairing)
+  - id: 98
+    type: matching
+    question: "Associez les salutations à leurs significations"
+    pairs:
+      - left: "Habari"
+        right: "Bonjour"
+      - left: "Habari za asubuhi"
+        right: "Bonjour (matin)"
+      - left: "Habari za jioni"
+        right: "Bonsoir"
+      - left: "Usiku mwema"
+        right: "Bonne nuit"
+      - left: "Habari yako"
+        right: "Comment allez-vous ?"
+      - left: "Nzuri"
+        right: "Ça va bien"
+    xp_reward: 25
+
+  - id: 99
+    type: matching
+    question: "Associez les au revoir et souhaits"
+    pairs:
+      - left: "Kwa heri"
+        right: "Au revoir"
+      - left: "Tutaonana baadaye"
+        right: "À plus tard"
+      - left: "Siku njema"
+        right: "Bonne journée"
+      - left: "Jitunze"
+        right: "Prends soin de toi"
+      - left: "Ni muda mrefu hatujaonana"
+        right: "Ça fait longtemps qu'on ne s'est pas vus"
+      - left: "Nimefurahi kukutana nawe"
+        right: "Enchanté de faire votre connaissance"
+    xp_reward: 25
+
+  - id: 100
+    type: matching
+    question: "Associez les phrases avec les membres de la famille"
+    pairs:
+      - left: "Habari, Mama!"
+        right: "Bonjour, maman !"
+      - left: "Habari za asubuhi, Baba!"
+        right: "Bonjour, papa !"
+      - left: "Usiku mwema, mtoto wangu!"
+        right: "Bonne nuit, mon enfant !"
+      - left: "Ni muda mrefu hatujaonana, rafiki yangu"
+        right: "Ça fait longtemps qu'on ne s'est pas vus, mon ami"
+    xp_reward: 25
+
+  # 10. Choose Missing Word
+  - id: 107
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "___ leo?"
+    missing_word_position: 1
+    options: ["Habari yako", "Habari", "Nzuri"]
+    correct_answer: "Habari yako"
+    translation: "Comment allez-vous aujourd'hui ?"
+    xp_reward: 15
+
+  - id: 108
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Nzuri, ___."
+    missing_word_position: 2
+    options: ["asante", "Habari yako", "Habari"]
+    correct_answer: "asante"
+    translation: "Ça va bien, merci."
+    xp_reward: 15
+
+  - id: 109
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Siku njema ___."
+    missing_word_position: 3
+    options: ["kazini", "nyumbani", "shuleni"]
+    correct_answer: "kazini"
+    translation: "Bonne journée au travail."
+    xp_reward: 15
+
+  # 11. Read and Answer - Questions based on context
+  - id: 110
+    type: read_answer
+    question: "Lisez le dialogue et répondez à la question"
+    text: "A: Habari! Habari yako? B: Nzuri, asante."
+    question: "Comment va la personne B ?"
+    options: ["Triste", "Bien", "Fatigué", "Affamé"]
+    correct_answer: "Bien"
+    xp_reward: 15
+
+  - id: 111
+    type: read_answer
+    question: "Lisez le dialogue et répondez à la question"
+    text: "A: Habari za asubuhi, Baba! B: Habari za asubuhi, mtoto wangu!"
+    question: "Quel moment de la journée est-ce ?"
+    options: ["Matin", "Après-midi", "Soir", "Nuit"]
+    correct_answer: "Matin"
+    xp_reward: 18
+
+  - id: 112
+    type: read_answer
+    question: "Lisez le dialogue et répondez à la question"
+    text: "A: Tutaonana baadaye shuleni. B: Kwa heri!"
+    question: "Où se reverront-ils plus tard ?"
+    options: ["À la maison", "À l'école", "Au travail", "Au marché"]
+    correct_answer: "À l'école"
+    xp_reward: 15
+
+  # 12. True / False
+  - id: 113
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "'Habari za asubuhi' s'utilise le matin."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 114
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "'Habari za jioni' s'utilise seulement la nuit."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "'Kwa heri' signifie bonjour."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 116
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "'Nimefurahi kukutana nawe' signifie 'Enchanté de faire votre connaissance'."
+    correct_answer: true
+    xp_reward: 15
+
+  # 13. Conversation Exercise - Build responses from pieces
+  - id: 117
+    type: conversation
+    question: "Répondez à la salutation en construisant une phrase"
+    bot_message: "Habari! Habari yako?"
+    translation: "Bonjour ! Comment allez-vous ?"
+    word_bank: ["Nzuri", "asante", "Habari yako", "Habari"]
+    correct_response: ["Nzuri", "asante"]
+    xp_reward: 20
+
+  - id: 118
+    type: conversation
+    question: "Choisissez la réponse appropriée"
+    bot_message: "Habari za asubuhi, Mama!"
+    translation: "Bonjour, maman !"
+    options:
+      - "Habari za asubuhi, mtoto wangu!"
+      - "Habari za jioni, mtoto wangu!"
+      - "Usiku mwema, mtoto wangu!"
+    correct_response: "Habari za asubuhi, mtoto wangu!"
+    xp_reward: 18
+
+  - id: 119
+    type: conversation
+    question: "Répondez à l'au revoir"
+    bot_message: "Tutaonana baadaye shuleni."
+    translation: "À plus tard à l'école."
+    options:
+      - "Kwa heri!"
+      - "Habari!"
+      - "Habari yako!"
+    correct_response: "Kwa heri!"
+    xp_reward: 15
+
+  - id: 120
+    type: conversation
+    question: "Construisez une réponse à la question"
+    bot_message: "Habari yako leo?"
+    translation: "Comment allez-vous aujourd'hui ?"
+    word_bank: ["Nzuri", "asante", "Habari yako", "leo"]
+    correct_response: ["Nzuri", "asante"]
+    xp_reward: 20
+
+  # 14. Story Exercise - Build sentences from pieces
+  - id: 121
+    type: story
+    title: "Rencontre avec un ami - Kukutana na Rafiki"
+    story_intro: "Lisez la conversation. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "La personne A dit bonjour."
+      - text: "La personne A demande comment ça va."
+      - text: "La personne B dit que ça va bien et remercie."
+      - text: "La personne A dit qu'elle est enchantée de la rencontrer."
+      - text: "La personne B souhaite la bienvenue."
+      - text: "La personne A dit à plus tard."
+      - text: "La personne B dit au revoir."
+    exercises:
+      - type: word_bank
+        question: "Construisez la salutation en Kiswahili pour 'Bonjour !'"
+        word_bank: ["Habari", "Habari yako", "Nzuri"]
+        correct_answer: ["Habari"]
+      - type: word_bank
+        question: "Construisez la question 'Comment allez-vous ?'"
+        word_bank: ["Habari yako", "Habari", "Nzuri"]
+        correct_answer: ["Habari yako"]
+      - type: word_bank
+        question: "Construisez la réponse 'Ça va bien, merci'"
+        word_bank: ["Nzuri", "asante", "Habari yako"]
+        correct_answer: ["Nzuri", "asante"]
+      - type: word_bank
+        question: "Construisez la phrase 'Enchanté de faire votre connaissance'"
+        word_bank: ["Nimefurahi", "kukutana nawe", "Karibu"]
+        correct_answer: ["Nimefurahi", "kukutana nawe"]
+      - type: word_bank
+        question: "Construisez l'au revoir 'À plus tard'"
+        word_bank: ["Tutaonana baadaye", "Kwa heri", "Habari"]
+        correct_answer: ["Tutaonana baadaye"]
+      - type: word_bank
+        question: "Construisez l'au revoir 'Au revoir'"
+        word_bank: ["Kwa heri", "Tutaonana baadaye", "Habari"]
+        correct_answer: ["Kwa heri"]
+    xp_reward: 40
+
+  # 15. Pronunciation Check
+  - id: 122
+    type: pronunciation
+    question: "Dites cette salutation"
+    prompt: "Habari"
+    translation: "Bonjour"
+    xp_reward: 15
+
+  - id: 123
+    type: pronunciation
+    question: "Dites cette salutation"
+    prompt: "Habari za asubuhi"
+    translation: "Bonjour (matin)"
+    xp_reward: 15
+
+  - id: 124
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Nimefurahi kukutana nawe"
+    translation: "Enchanté de faire votre connaissance"
+    xp_reward: 20
+
+  - id: 125
+    type: pronunciation
+    question: "Dites cet au revoir"
+    prompt: "Kwa heri"
+    translation: "Au revoir"
+    xp_reward: 15
+
+  # 16. Identify Correct Meaning
+  - id: 126
+    type: identify_meaning
+    question: "Que signifie 'Habari' ?"
+    context_sentence: "Habari! Habari yako?"
+    word: "Habari"
+    options: ["Au revoir", "Bonjour", "Merci", "Bienvenue"]
+    correct_answer: "Bonjour"
+    xp_reward: 15
+
+  - id: 127
+    type: identify_meaning
+    question: "Que signifie 'asante' dans cette phrase ?"
+    context_sentence: "Nzuri, asante."
+    word: "asante"
+    options: ["s'il vous plaît", "merci", "bienvenue", "au revoir"]
+    correct_answer: "merci"
+    xp_reward: 15
+
+  - id: 128
+    type: identify_meaning
+    question: "Que signifie 'Habari za jioni' ?"
+    context_sentence: "Habari za jioni, rafiki!"
+    word: "Habari za jioni"
+    options: ["Bonjour", "Bonsoir", "Bonne nuit", "Au revoir"]
+    correct_answer: "Bonsoir"
+    xp_reward: 18
+
+  # 17. Speed Matching
+  - id: 129
+    type: speed_matching
+    title: "Match Madness : Salutations"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Bonjour"
+        right: "Habari"
+      - left: "Bonjour (matin)"
+        right: "Habari za asubuhi"
+      - left: "Bonsoir"
+        right: "Habari za jioni"
+      - left: "Bonne nuit"
+        right: "Usiku mwema"
+      - left: "Comment allez-vous ?"
+        right: "Habari yako"
+      - left: "Ça va bien"
+        right: "Nzuri"
+      - left: "Bienvenue"
+        right: "Karibu"
+      - left: "À plus tard"
+        right: "Tutaonana baadaye"
+      - left: "Au revoir"
+        right: "Kwa heri"
+      - left: "Prends soin de toi"
+        right: "Jitunze"
+    xp_reward: 30
+
+  # 18. Timed Challenges
+  - id: 130
+    type: timed_challenge
+    title: "Tour éclair : Salutations"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Bonjour"
+        answer: "Habari"
+      - question: "Bonjour (matin)"
+        answer: "Habari za asubuhi"
+      - question: "Bonne nuit"
+        answer: "Usiku mwema"
+      - question: "Comment allez-vous ?"
+        answer: "Habari yako"
+      - question: "Au revoir"
+        answer: "Kwa heri"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Habari"
+      back: "Bonjour"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Habari za asubuhi"
+      back: "Bonjour (matin)"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Habari za jioni"
+      back: "Bonsoir"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Usiku mwema"
+      back: "Bonne nuit"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Habari yako"
+      back: "Comment allez-vous ?"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Nzuri"
+      back: "Ça va bien"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Karibu"
+      back: "Bienvenue"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Tutaonana baadaye"
+      back: "À plus tard"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Kwa heri"
+      back: "Au revoir"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Siku njema"
+      back: "Bonne journée"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

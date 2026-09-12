@@ -1,0 +1,1229 @@
+lesson:
+ name: "Yönler - Amabwiriza y'ahantu"
+ description: "Öğren direction words and phrases in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Direction Words ONLY (Safe for single words)
+ # Basic Yönler
+ - id: 1
+ type: translation
+ Soru: "Nasıl dersin 'Sol' Kinyarwanda'da?"
+ Cevap: "Ibumoso"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Soru: "Nasıl dersin 'Sağ' Kinyarwanda'da?"
+ Cevap: "Iburyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Soru: "Nasıl dersin 'Düz' Kinyarwanda'da?"
+ Cevap: "Uburyohe / Guhita imbere"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Soru: "Nasıl dersin 'Back / Behind' Kinyarwanda'da?"
+ Cevap: "Inyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Soru: "Nasıl dersin 'Front' Kinyarwanda'da?"
+ Cevap: "Imbere"
+ xp_reward: 10
+
+ # Cardinal Yönler
+ - id: 6
+ type: translation
+ Soru: "Nasıl dersin 'North' Kinyarwanda'da?"
+ Cevap: "Amajyaruguru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Soru: "Nasıl dersin 'South' Kinyarwanda'da?"
+ Cevap: "Amajyepfo"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Soru: "Nasıl dersin 'East' Kinyarwanda'da?"
+ Cevap: "Uburasirazuba"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Soru: "Nasıl dersin 'West' Kinyarwanda'da?"
+ Cevap: "Uburengerazuba"
+ xp_reward: 10
+
+ # Location Words
+ - id: 10
+ type: translation
+ Soru: "Nasıl dersin 'Near' Kinyarwanda'da?"
+ Cevap: "Hafi"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Soru: "Nasıl dersin 'Far' Kinyarwanda'da?"
+ Cevap: "Hahandi / kure"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Soru: "Nasıl dersin 'Around' Kinyarwanda'da?"
+ Cevap: "Hagarika / ahantu hose"
+ note: "Both are acceptable"
+ xp_reward: 15
+
+ # Places and Features
+ - id: 13
+ type: translation
+ Soru: "Nasıl dersin 'Intersection / Crossroads' Kinyarwanda'da?"
+ Cevap: "Ahantu hahurira imihanda"
+ xp_reward: 18
+
+ - id: 14
+ type: translation
+ Soru: "Nasıl dersin 'Street / Road' Kinyarwanda'da?"
+ Cevap: "Umuhanda"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Soru: "Nasıl dersin 'Corner' Kinyarwanda'da?"
+ Cevap: "Inguni"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Soru: "Nasıl dersin 'Traffic light' Kinyarwanda'da?"
+ Cevap: "Itara ry'umuhanda"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Soru: "Nasıl dersin 'Sign / Signpost' Kinyarwanda'da?"
+ Cevap: "Ikimenyetso / Ikimenyetso cy'umuhanda"
+ xp_reward: 18
+
+ # Direction Commands
+ - id: 18
+ type: translation
+ Soru: "Nasıl dersin 'Turn Sol' Kinyarwanda'da?"
+ Cevap: "Hagarika ibumoso."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Soru: "Nasıl dersin 'Turn Sağ' Kinyarwanda'da?"
+ Cevap: "Hagarika iburyo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Soru: "Nasıl dersin 'Go Düz' Kinyarwanda'da?"
+ Cevap: "Komeza imbere."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Soru: "Nasıl dersin 'Go back' Kinyarwanda'da?"
+ Cevap: "Subira inyuma."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Soru: "Nasıl dersin 'Cross the street' Kinyarwanda'da?"
+ Cevap: "Kora umuhanda."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Soru: "Nasıl dersin 'Stop at the traffic light' Kinyarwanda'da?"
+ Cevap: "Hagarara ku itara ry'umuhanda."
+ xp_reward: 18
+
+ # Location Cümle
+ - id: 24
+ type: translation
+ Soru: "Nasıl dersin 'The bank is in front of the Okul' Kinyarwanda'da?"
+ Cevap: "Banki iri imbere y'ishuri."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Soru: "Nasıl dersin 'The Pazar is near' Kinyarwanda'da?"
+ Cevap: "Isoko riri hafi."
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ Soru: "Nasıl dersin 'The hospital is far' Kinyarwanda'da?"
+ Cevap: "Ibitaro biri kure."
+ xp_reward: 15
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Ibumoso' bu cümlede?"
+ options:
+ - "Sağ"
+ - "Sol"
+ - "Düz"
+ - "Front"
+ Cevap: "Sol"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Iburyo' bu cümlede?"
+ options:
+ - "Sol"
+ - "Sağ"
+ - "Back"
+ - "North"
+ Cevap: "Sağ"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Imbere' bu cümlede?"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ - "Far"
+ Cevap: "Front"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Inyuma' bu cümlede?"
+ options:
+ - "Front"
+ - "Behind"
+ - "Sol"
+ - "Sağ"
+ Cevap: "Behind"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Amajyaruguru' bu cümlede?"
+ options:
+ - "South"
+ - "North"
+ - "East"
+ - "West"
+ Cevap: "North"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Hafi' bu cümlede?"
+ options:
+ - "Far"
+ - "Near"
+ - "Around"
+ - "Düz"
+ Cevap: "Near"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Umuhanda' bu cümlede?"
+ options:
+ - "Corner"
+ - "Street"
+ - "Traffic light"
+ - "Sign"
+ Cevap: "Street"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Hagarika ibumoso' bu cümlede?"
+ options:
+ - "Turn Sağ"
+ - "Turn Sol"
+ - "Go Düz"
+ - "Go back"
+ Cevap: "Turn Sol"
+ xp_reward: 18
+
+ # 3. Dinle and Type (Dictation)
+ - id: 35
+ type: listen_and_type
+ Soru: "Dinle and type the direction word"
+ audio: "Ibumoso"
+ Cevap: "Ibumoso"
+ translation: "Sol"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Soru: "Dinle and type the direction word"
+ audio: "Iburyo"
+ Cevap: "Iburyo"
+ translation: "Sağ"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Soru: "Dinle and type the direction word"
+ audio: "Imbere"
+ Cevap: "Imbere"
+ translation: "Front"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Soru: "Dinle and type the direction word"
+ audio: "Inyuma"
+ Cevap: "Inyuma"
+ translation: "Behind"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_and_type
+ Soru: "Dinle and type the direction word"
+ audio: "Hafi"
+ Cevap: "Hafi"
+ translation: "Near"
+ xp_reward: 20
+
+ - id: 40
+ type: listen_and_type
+ Soru: "Dinle and type the command"
+ audio: "Hagarika ibumoso"
+ Cevap: "Hagarika ibumoso"
+ translation: "Turn Sol"
+ xp_reward: 22
+
+ - id: 41
+ type: listen_and_type
+ Soru: "Dinle and type the command"
+ audio: "Komeza imbere"
+ Cevap: "Komeza imbere"
+ translation: "Go Düz"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_and_type
+ Soru: "Dinle and type the Cümle"
+ audio: "Isoko riri hafi"
+ Cevap: "Isoko riri hafi"
+ translation: "The Pazar is near"
+ xp_reward: 22
+
+ 
+ # 4. Dinle and Seç
+ - id: 44
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct direction"
+ audio: "Ibumoso"
+ options:
+ - "Sol"
+ - "Sağ"
+ - "Düz"
+ Cevap: "Sol"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct direction"
+ audio: "Iburyo"
+ options:
+ - "Sol"
+ - "Sağ"
+ - "Back"
+ Cevap: "Sağ"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct direction"
+ audio: "Imbere"
+ options:
+ - "Behind"
+ - "Front"
+ - "Near"
+ Cevap: "Front"
+ xp_reward: 15
+
+ - id: 47
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct command"
+ audio: "Hagarika ibumoso"
+ options:
+ - "Turn Sağ"
+ - "Turn Sol"
+ - "Go Düz"
+ Cevap: "Turn Sol"
+ xp_reward: 18
+
+ - id: 48
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct Cümle"
+ audio: "Isoko riri hafi"
+ options:
+ - "The Pazar is far"
+ - "The Pazar is near"
+ - "The Pazar is in front"
+ Cevap: "The Pazar is near"
+ xp_reward: 18
+
+ # 5. Repeat / Konuş Exercise
+ - id: 49
+ type: Konuş
+ Soru: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "Sol"
+ xp_reward: 15
+
+ - id: 50
+ type: Konuş
+ Soru: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "Sağ"
+ xp_reward: 15
+
+ - id: 51
+ type: Konuş
+ Soru: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 52
+ type: Konuş
+ Soru: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 53
+ type: Konuş
+ Soru: "Say this direction word"
+ prompt: "Hafi"
+ translation: "Near"
+ xp_reward: 15
+
+ - id: 54
+ type: Konuş
+ Soru: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Sol"
+ xp_reward: 18
+
+ - id: 55
+ type: Konuş
+ Soru: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Düz"
+ xp_reward: 18
+
+ - id: 56
+ type: Konuş
+ Soru: "Say this Cümle"
+ prompt: "Isoko riri hafi"
+ translation: "The Pazar is near"
+ xp_reward: 18
+
+ - id: 57
+ type: Konuş
+ Soru: "Say this Cümle"
+ prompt: "Banki iri imbere y'ishuri"
+ translation: "The bank is in front of the Okul"
+ xp_reward: 22
+
+ # 6. Word Bank Cümle Building - PIECES PROVIDED
+ - id: 58
+ type: word_bank
+ Soru: "Build the command 'Turn Sol'"
+ word_bank: ["Hagarika", "ibumoso", "iburyo", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "ibumoso"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Soru: "Build the command 'Turn Sağ'"
+ word_bank: ["Hagarika", "iburyo", "ibumoso", "komeza", "imbere"]
+ correct_answer: ["Hagarika", "iburyo"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Soru: "Build the command 'Go Düz'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira"]
+ correct_answer: ["Komeza", "imbere"]
+ xp_reward: 15
+
+ - id: 61
+ type: word_bank
+ Soru: "Build the command 'Go back'"
+ word_bank: ["Subira", "inyuma", "komeza", "imbere", "hagarika"]
+ correct_answer: ["Subira", "inyuma"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Soru: "Build the Cümle 'The bank is in front of the Okul'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri", "hafi"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Soru: "Build the Cümle 'The Pazar is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ xp_reward: 15
+
+ - id: 64
+ type: word_bank
+ Soru: "Build the Cümle 'The hospital is far'"
+ word_bank: ["Ibitaro", "biri", "kure", "isoko", "riri", "hafi"]
+ correct_answer: ["Ibitaro", "biri", "kure"]
+ xp_reward: 15
+
+ - id: 65
+ type: word_bank
+ Soru: "Build the command 'Cross the street'"
+ word_bank: ["Kora", "umuhanda", "hagarara", "itara", "ry'umuhanda"]
+ correct_answer: ["Kora", "umuhanda"]
+ xp_reward: 15
+
+ - id: 66
+ type: word_bank
+ Soru: "Build the command 'Stop at the traffic light'"
+ word_bank: ["Hagarara", "ku", "itara", "ry'umuhanda", "kora", "umuhanda"]
+ correct_answer: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ xp_reward: 22
+
+ # 7. Cümle Scramble - PIECES PROVIDED
+ - id: 67
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "ibumoso"]
+ correct_sentence: "Hagarika ibumoso."
+ translation: "Turn Sol."
+ xp_reward: 15
+
+ - id: 68
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarika", "iburyo"]
+ correct_sentence: "Hagarika iburyo."
+ translation: "Turn Sağ."
+ xp_reward: 15
+
+ - id: 69
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct command"
+ scrambled_words: ["Komeza", "imbere"]
+ correct_sentence: "Komeza imbere."
+ translation: "Go Düz."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct command"
+ scrambled_words: ["Subira", "inyuma"]
+ correct_sentence: "Subira inyuma."
+ translation: "Go back."
+ xp_reward: 15
+
+ - id: 71
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Banki", "iri", "imbere", "y'ishuri"]
+ correct_sentence: "Banki iri imbere y'ishuri."
+ translation: "The bank is in front of the Okul."
+ xp_reward: 22
+
+ - id: 72
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Isoko", "riri", "hafi"]
+ correct_sentence: "Isoko riri hafi."
+ translation: "The Pazar is near."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Cümle"
+ scrambled_words: ["Ibitaro", "biri", "kure"]
+ correct_sentence: "Ibitaro biri kure."
+ translation: "The hospital is far."
+ xp_reward: 15
+
+ - id: 74
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct command"
+ scrambled_words: ["Kora", "umuhanda"]
+ correct_sentence: "Kora umuhanda."
+ translation: "Cross the street."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct command"
+ scrambled_words: ["Hagarara", "ku", "itara", "ry'umuhanda"]
+ correct_sentence: "Hagarara ku itara ry'umuhanda."
+ translation: "Stop at the traffic light."
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Seç FROM OPTIONS
+ - id: 76
+ type: fill_blank
+ Soru: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Sol."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ Soru: "Complete the command"
+ text_with_blank: "Hagarika ___."
+ options: ["iburyo", "ibumoso", "imbere"]
+ correct_answer: "iburyo"
+ translation: "Turn Sağ."
+ xp_reward: 12
+
+ - id: 78
+ type: fill_blank
+ Soru: "Complete the command"
+ text_with_blank: "Komeza ___."
+ options: ["imbere", "inyuma", "ibumoso"]
+ correct_answer: "imbere"
+ translation: "Go Düz."
+ xp_reward: 12
+
+ - id: 79
+ type: fill_blank
+ Soru: "Complete the command"
+ text_with_blank: "Subira ___."
+ options: ["inyuma", "imbere", "iburyo"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Isoko riri ___."
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Pazar is near."
+ xp_reward: 12
+
+ - id: 81
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Ibitaro biri ___."
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 82
+ type: fill_blank
+ Soru: "Complete the Cümle"
+ text_with_blank: "Banki iri imbere ___."
+ options: ["y'ishuri", "y'isoko", "y'ibitaro"]
+ correct_answer: "y'ishuri"
+ translation: "The bank is in front of the Okul."
+ xp_reward: 18
+
+ - id: 83
+ type: fill_blank
+ Soru: "Complete the command"
+ text_with_blank: "Kora ___."
+ options: ["umuhanda", "itara", "inguni"]
+ correct_answer: "umuhanda"
+ translation: "Cross the street."
+ xp_reward: 12
+
+ - id: 84
+ type: fill_blank
+ Soru: "Complete the command"
+ text_with_blank: "Hagarara ku ___ ry'umuhanda."
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 85
+ type: picture_word
+ Soru: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?left-arrow"
+ options: ["Ibumoso", "Iburyo", "Imbere"]
+ correct_answer: "Ibumoso"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Soru: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?right-arrow"
+ options: ["Ibumoso", "Iburyo", "Inyuma"]
+ correct_answer: "Iburyo"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Soru: "What direction does this sign indicate?"
+ image_url: "https://source.unsplash.com/featured/?straight-arrow"
+ options: ["Imbere", "Inyuma", "Ibumoso"]
+ correct_answer: "Imbere"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Soru: "Ne this?"
+ image_url: "https://source.unsplash.com/featured/?traffic-light"
+ options: ["Itara ry'umuhanda", "Umuhanda", "Ikimenyetso"]
+ correct_answer: "Itara ry'umuhanda"
+ xp_reward: 12
+
+ - id: 89
+ type: picture_word
+ Soru: "Ne this?"
+ image_url: "https://source.unsplash.com/featured/?street-corner"
+ options: ["Inguni", "Umuhanda", "Ahantu hahurira imihanda"]
+ correct_answer: "Inguni"
+ xp_reward: 10
+
+ - id: 90
+ type: picture_word
+ Soru: "Ne this?"
+ image_url: "https://source.unsplash.com/featured/?road-sign"
+ options: ["Ikimenyetso", "Itara", "Umuhanda"]
+ correct_answer: "Ikimenyetso"
+ xp_reward: 10
+
+ - id: 91
+ type: picture_word
+ Soru: "Ne this?"
+ image_url: "https://source.unsplash.com/featured/?intersection"
+ options: ["Ahantu hahurira imihanda", "Inguni", "Umuhanda"]
+ correct_answer: "Ahantu hahurira imihanda"
+ xp_reward: 15
+
+ - id: 92
+ type: picture_word
+ Soru: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?bank"
+ options: ["Banki", "Isoko", "Ibitaro"]
+ correct_answer: "Banki"
+ xp_reward: 10
+
+ - id: 93
+ type: picture_word
+ Soru: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?market"
+ options: ["Isoko", "Banki", "Ibitaro"]
+ correct_answer: "Isoko"
+ xp_reward: 10
+
+ - id: 94
+ type: picture_word
+ Soru: "What place is this?"
+ image_url: "https://source.unsplash.com/featured/?hospital"
+ options: ["Ibitaro", "Isoko", "Banki"]
+ correct_answer: "Ibitaro"
+ xp_reward: 10
+
+ # 10. Word Eşleştir (Pairing)
+ - id: 95
+ type: Eşleştir
+ Soru: "Eşleştir the basic Yönler"
+ pairs:
+ - Sol: "Sol"
+ Sağ: "Ibumoso"
+ - Sol: "Sağ"
+ Sağ: "Iburyo"
+ - Sol: "Düz"
+ Sağ: "Uburyohe / Guhita imbere"
+ - Sol: "Front"
+ Sağ: "Imbere"
+ - Sol: "Behind"
+ Sağ: "Inyuma"
+ xp_reward: 20
+
+ - id: 96
+ type: Eşleştir
+ Soru: "Eşleştir the cardinal Yönler"
+ pairs:
+ - Sol: "North"
+ Sağ: "Amajyaruguru"
+ - Sol: "South"
+ Sağ: "Amajyepfo"
+ - Sol: "East"
+ Sağ: "Uburasirazuba"
+ - Sol: "West"
+ Sağ: "Uburengerazuba"
+ xp_reward: 18
+
+ - id: 97
+ type: Eşleştir
+ Soru: "Eşleştir the location words"
+ pairs:
+ - Sol: "Near"
+ Sağ: "Hafi"
+ - Sol: "Far"
+ Sağ: "Hahandi / kure"
+ - Sol: "Around"
+ Sağ: "Hagarika / ahantu hose"
+ xp_reward: 15
+
+ - id: 98
+ type: Eşleştir
+ Soru: "Eşleştir the commands"
+ pairs:
+ - Sol: "Turn Sol"
+ Sağ: "Hagarika ibumoso"
+ - Sol: "Turn Sağ"
+ Sağ: "Hagarika iburyo"
+ - Sol: "Go Düz"
+ Sağ: "Komeza imbere"
+ - Sol: "Go back"
+ Sağ: "Subira inyuma"
+ - Sol: "Cross the street"
+ Sağ: "Kora umuhanda"
+ - Sol: "Stop at the traffic light"
+ Sağ: "Hagarara ku itara ry'umuhanda"
+ xp_reward: 25
+
+ - id: 99
+ type: Eşleştir
+ Soru: "Eşleştir the Cümle"
+ pairs:
+ - Sol: "The bank is in front of the Okul"
+ Sağ: "Banki iri imbere y'ishuri"
+ - Sol: "The Pazar is near"
+ Sağ: "Isoko riri hafi"
+ - Sol: "The hospital is far"
+ Sağ: "Ibitaro biri kure"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Seç Missing Word
+ - id: 100
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Hagarika ___."
+ missing_word_position: 2
+ options: ["ibumoso", "iburyo", "imbere"]
+ correct_answer: "ibumoso"
+ translation: "Turn Sol."
+ xp_reward: 12
+
+ - id: 101
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Komeza ___."
+ missing_word_position: 2
+ options: ["imbere", "inyuma", "iburyo"]
+ correct_answer: "imbere"
+ translation: "Go Düz."
+ xp_reward: 12
+
+ - id: 102
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Subira ___."
+ missing_word_position: 2
+ options: ["inyuma", "imbere", "ibumoso"]
+ correct_answer: "inyuma"
+ translation: "Go back."
+ xp_reward: 12
+
+ - id: 103
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Isoko riri ___."
+ missing_word_position: 3
+ options: ["hafi", "kure", "imbere"]
+ correct_answer: "hafi"
+ translation: "The Pazar is near."
+ xp_reward: 12
+
+ - id: 104
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Ibitaro biri ___."
+ missing_word_position: 3
+ options: ["kure", "hafi", "imbere"]
+ correct_answer: "kure"
+ translation: "The hospital is far."
+ xp_reward: 12
+
+ - id: 105
+ type: choose_missing
+ Soru: "Seç the missing phrase"
+ Cümle: "Hagarara ku ___ ry'umuhanda."
+ missing_word_position: 3
+ options: ["itara", "ikimenyetso", "inguni"]
+ correct_answer: "itara"
+ translation: "Stop at the traffic light."
+ xp_reward: 15
+
+ # 13. Oku and Cevap - Soru based on text
+ - id: 106
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Komeza imbere. Hagarika ibumoso."
+ Soru: "Ne the first instruction?"
+ options: ["Turn Sol", "Go Düz", "Turn Sağ", "Go back"]
+ correct_answer: "Go Düz"
+ xp_reward: 15
+
+ - id: 107
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Banki iri imbere y'ishuri. Isoko riri hafi."
+ Soru: "Where is the bank?"
+ options: ["Near the Pazar", "In front of the Okul", "Far away", "Behind the Okul"]
+ correct_answer: "In front of the Okul"
+ xp_reward: 18
+
+ - id: 108
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Hagarara ku itara ry'umuhanda. Kora umuhanda."
+ Soru: "What should you do at the traffic light?"
+ options: ["Turn Sol", "Stop", "Go Düz", "Turn Sağ"]
+ correct_answer: "Stop"
+ xp_reward: 15
+
+ - id: 109
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Ibitaro biri kure. Isoko riri hafi."
+ Soru: "Is the hospital near or far?"
+ options: ["Near", "Far", "Very close", "Not mentioned"]
+ correct_answer: "Far"
+ xp_reward: 12
+
+ - id: 110
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Subira inyuma. Hagarika iburyo."
+ Soru: "Ne the second instruction?"
+ options: ["Go back", "Turn Sol", "Turn Sağ", "Go Düz"]
+ correct_answer: "Turn Sağ"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 111
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Ibumoso means 'Sağ'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 112
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Iburyo means 'Sağ'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 113
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Imbere means 'front'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Hafi means 'far'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Komeza imbere means 'go Düz'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 116
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Itara ry'umuhanda means 'street sign'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Soru: "Respond to the Soru by building a command"
+ bot_message: "Nshaka kugera ku isoko. Nkora iki?"
+ translation: "I want to reach the Pazar. What should I do?"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso", "subira", "inyuma"]
+ correct_response: ["Komeza", "imbere"]
+ xp_reward: 18
+
+ - id: 118
+ type: conversation
+ Soru: "Respond to the Soru"
+ bot_message: "Banki iri he?"
+ translation: "Where is the bank?"
+ options:
+ - "Imbere y'ishuri"
+ - "Hafi y'isoko"
+ - "Kure"
+ correct_response: "Imbere y'ishuri"
+ xp_reward: 15
+
+ - id: 119
+ type: conversation
+ Soru: "Respond to the Soru by building a command"
+ bot_message: "Nshaka kugera ku bitaro. Nkora iki?"
+ translation: "I want to reach the hospital. What should I do?"
+ word_bank: ["Subira", "inyuma", "hagarika", "iburyo", "komeza", "imbere"]
+ correct_response: ["Subira", "inyuma"]
+ xp_reward: 18
+
+ - id: 120
+ type: conversation
+ Soru: "Respond to the Soru"
+ bot_message: "Isoko riri hafi?"
+ translation: "Is the Pazar near?"
+ options:
+ - "Yego, riri hafi"
+ - "Oya, riri kure"
+ - "Simenye"
+ correct_response: "Yego, riri hafi"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build Cümle from pieces
+ - id: 121
+ type: story
+ title: "Finding the Pazar - Gushaka Isoko"
+ story_intro: "Oku about finding the Pazar. Then build the Cümle."
+ story_segments:
+ - text: "I want to go to the Pazar."
+ - text: "Go Düz."
+ - text: "Turn Sol at the traffic light."
+ - text: "The Pazar is near."
+ - text: "The bank is in front of the Okul."
+ exercises:
+ - type: word_bank
+ Soru: "Build 'Go Düz'"
+ word_bank: ["Komeza", "imbere", "hagarika", "ibumoso"]
+ correct_answer: ["Komeza", "imbere"]
+ - type: word_bank
+ Soru: "Build 'Turn Sol at the traffic light'"
+ word_bank: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ correct_answer: ["Hagarika", "ibumoso", "ku", "itara", "ry'umuhanda"]
+ - type: word_bank
+ Soru: "Build 'The Pazar is near'"
+ word_bank: ["Isoko", "riri", "hafi", "bitaro", "biri", "kure"]
+ correct_answer: ["Isoko", "riri", "hafi"]
+ - type: word_bank
+ Soru: "Build 'The bank is in front of the Okul'"
+ word_bank: ["Banki", "iri", "imbere", "y'ishuri", "isoko", "riri"]
+ correct_answer: ["Banki", "iri", "imbere", "y'ishuri"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Soru: "Say this direction word"
+ prompt: "Ibumoso"
+ translation: "Sol"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Soru: "Say this direction word"
+ prompt: "Iburyo"
+ translation: "Sağ"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Soru: "Say this direction word"
+ prompt: "Imbere"
+ translation: "Front"
+ xp_reward: 15
+
+ - id: 125
+ type: pronunciation
+ Soru: "Say this direction word"
+ prompt: "Inyuma"
+ translation: "Behind"
+ xp_reward: 15
+
+ - id: 126
+ type: pronunciation
+ Soru: "Say this command"
+ prompt: "Hagarika ibumoso"
+ translation: "Turn Sol"
+ xp_reward: 18
+
+ - id: 127
+ type: pronunciation
+ Soru: "Say this command"
+ prompt: "Komeza imbere"
+ translation: "Go Düz"
+ xp_reward: 18
+
+ - id: 128
+ type: pronunciation
+ Soru: "Say this Cümle"
+ prompt: "Isoko riri hafi"
+ translation: "The Pazar is near"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 129
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'Hagarika' mean in this command?"
+ context_sentence: "Hagarika ibumoso."
+ word: "Hagarika"
+ options: ["Go", "Turn", "Stop", "Cross"]
+ correct_answer: "Turn"
+ xp_reward: 15
+
+ - id: 130
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'Komeza' mean in this command?"
+ context_sentence: "Komeza imbere."
+ word: "Komeza"
+ options: ["Turn", "Stop", "Continue / Go", "Cross"]
+ correct_answer: "Continue / Go"
+ xp_reward: 15
+
+ - id: 131
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'hafi' mean in this Cümle?"
+ context_sentence: "Isoko riri hafi."
+ word: "hafi"
+ options: ["far", "near", "behind", "front"]
+ correct_answer: "near"
+ xp_reward: 12
+
+ - id: 132
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'kure' mean in this Cümle?"
+ context_sentence: "Ibitaro biri kure."
+ word: "kure"
+ options: ["near", "far", "Sol", "Sağ"]
+ correct_answer: "far"
+ xp_reward: 12
+
+ - id: 133
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'imbere y'' mean in this Cümle?"
+ context_sentence: "Banki iri imbere y'ishuri."
+ word: "imbere y'"
+ options: ["behind", "in front of", "next to", "far from"]
+ correct_answer: "in front of"
+ xp_reward: 15
+
+ # 19. Speed Eşleştir
+ - id: 134
+ type: speed_Eşleştir
+ title: "Eşleştir Madness: Yönler"
+ time_limit_seconds: 45
+ pairs:
+ - Sol: "Sol"
+ Sağ: "Ibumoso"
+ - Sol: "Sağ"
+ Sağ: "Iburyo"
+ - Sol: "Düz"
+ Sağ: "Imbere"
+ - Sol: "Behind"
+ Sağ: "Inyuma"
+ - Sol: "North"
+ Sağ: "Amajyaruguru"
+ - Sol: "South"
+ Sağ: "Amajyepfo"
+ - Sol: "East"
+ Sağ: "Uburasirazuba"
+ - Sol: "West"
+ Sağ: "Uburengerazuba"
+ - Sol: "Near"
+ Sağ: "Hafi"
+ - Sol: "Far"
+ Sağ: "Kure"
+ - Sol: "Turn Sol"
+ Sağ: "Hagarika ibumoso"
+ - Sol: "Turn Sağ"
+ Sağ: "Hagarika iburyo"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 135
+ type: timed_challenge
+ title: "Lightning Round: Yönler"
+ time_limit_seconds: 30
+ Soru_count: 5
+ Soru:
+ - Soru: "Sol"
+ Cevap: "Ibumoso"
+ - Soru: "Sağ"
+ Cevap: "Iburyo"
+ - Soru: "Düz"
+ Cevap: "Imbere"
+ - Soru: "Behind"
+ Cevap: "Inyuma"
+ - Soru: "Near"
+ Cevap: "Hafi"
+ xp_reward: 35
+
+# Kartlar
+ - id: 111
+ type: Kartlar
+ Soru: "Kartlar"
+ Kartlar:
+ - front: "Ibumoso"
+ back: "Sol"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iburyo"
+ back: "Sağ"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Uburyohe / Guhita imbere"
+ back: "Düz"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Inyuma"
+ back: "Back / Behind"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Imbere"
+ back: "Front"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyaruguru"
+ back: "North"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amajyepfo"
+ back: "South"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburasirazuba"
+ back: "East"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Uburengerazuba"
+ back: "West"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Hafi"
+ back: "Near"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

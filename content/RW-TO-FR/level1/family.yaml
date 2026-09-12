@@ -1,0 +1,1056 @@
+lesson:
+  name: "Umuryango"
+  description: "Learn family member names in French"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Family Members ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Wavuga ute 'Mama' mu igifaransa?"
+    answer: "Mère"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Wavuga ute 'Data' mu igifaransa?"
+    answer: "Père"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Wavuga ute 'Musaza' mu igifaransa?"
+    answer: "Frère"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Wavuga ute 'Mushiki' mu igifaransa?"
+    answer: "Sœur"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Wavuga ute 'Umwana' mu igifaransa?"
+    answer: "Enfant"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Wavuga ute 'Nyogokuru' mu igifaransa?"
+    answer: "Grand-mère"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Wavuga ute 'Sogokuru' mu igifaransa?"
+    answer: "Grand-père"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Wavuga ute 'Umugabo' mu igifaransa?"
+    answer: "Mari"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Wavuga ute 'Umugore' mu igifaransa?"
+    answer: "Femme"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Wavuga ute 'Datawabo' mu igifaransa?"
+    answer: "Oncle paternel"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Wavuga ute 'Marume' mu igifaransa?"
+    answer: "Oncle maternel"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Wavuga ute 'Masenge' mu igifaransa?"
+    answer: "Tante paternelle"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Wavuga ute 'Nyirarume' mu igifaransa?"
+    answer: "Tante maternelle"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Wavuga ute 'Umwuzukuru' mu igifaransa?"
+    answer: "Petit-enfant"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Wavuga ute 'Umwuzukuruza' mu igifaransa?"
+    answer: "Arrière-petit-enfant"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Wavuga ute 'Umukwe' mu igifaransa?"
+    answer: "Gendre"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "Wavuga ute 'Sebukwe' mu igifaransa?"
+    answer: "Beau-père"
+    xp_reward: 10
+
+  # Translation - Greetings & Basic Phrases
+  - id: 18
+    type: translation
+    question: "Wavuga ute 'Muraho, Mama!' mu igifaransa?"
+    answer: "Bonjour, mère !"
+    xp_reward: 12
+
+  - id: 19
+    type: translation
+    question: "Wavuga ute 'Muraho, Data!' mu igifaransa?"
+    answer: "Bonjour, père !"
+    xp_reward: 12
+
+  - id: 20
+    type: translation
+    question: "Wavuga ute 'Umuryango umeze ute?' mu igifaransa?"
+    answer: "Comment va la famille ?"
+    xp_reward: 15
+
+  # Translation - Possession (Simple phrases with "have")
+  - id: 21
+    type: translation
+    question: "Wavuga ute 'Mfite Musaza.' mu igifaransa?"
+    answer: "J'ai un frère."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Wavuga ute 'Mfite Mushiki.' mu igifaransa?"
+    answer: "J'ai une sœur."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Wavuga ute 'Sogokuru afite inzu.' mu igifaransa?"
+    answer: "Mon grand-père a une maison."
+    xp_reward: 15
+
+  # 2. Multiple Choice
+  - id: 24
+    type: multiple_choice
+    question: "'Mama' bisobanura iki mu igifaransa?"
+    options:
+      - "Père"
+      - "Mère"
+      - "Frère"
+      - "Sœur"
+    answer: "Mère"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "'Data' bisobanura iki mu igifaransa?"
+    options:
+      - "Mère"
+      - "Père"
+      - "Grand-père"
+      - "Oncle"
+    answer: "Père"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "'Musaza' bisobanura iki mu igifaransa?"
+    options:
+      - "Sœur"
+      - "Frère"
+      - "Enfant"
+      - "Mari"
+    answer: "Frère"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "'Mushiki' bisobanura iki mu igifaransa?"
+    options:
+      - "Frère"
+      - "Sœur"
+      - "Mère"
+      - "Tante"
+    answer: "Sœur"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Nyogokuru' bisobanura iki mu igifaransa?"
+    options:
+      - "Grand-père"
+      - "Grand-mère"
+      - "Tante"
+      - "Oncle"
+    answer: "Grand-mère"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Sogokuru' bisobanura iki mu igifaransa?"
+    options:
+      - "Grand-mère"
+      - "Grand-père"
+      - "Beau-père"
+      - "Oncle"
+    answer: "Grand-père"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Datawabo' bisobanura iki mu igifaransa?"
+    options:
+      - "Oncle maternel"
+      - "Oncle paternel"
+      - "Beau-père"
+      - "Grand-père"
+    answer: "Oncle paternel"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Marume' bisobanura iki mu igifaransa?"
+    options:
+      - "Oncle paternel"
+      - "Oncle maternel"
+      - "Frère"
+      - "Gendre"
+    answer: "Oncle maternel"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 32
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike umwe mu muryango mu igifaransa"
+    tts_text: "Mama"
+    answer: "Mère"
+    translation: "Mama"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike umwe mu muryango mu igifaransa"
+    tts_text: "Data"
+    answer: "Père"
+    translation: "Data"
+    xp_reward: 20
+
+  - id: 34
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike umwe mu muryango mu igifaransa"
+    tts_text: "Nyogokuru"
+    answer: "Grand-mère"
+    translation: "Nyogokuru"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Mama ari mu nzu"
+    answer: "La mère est à la maison"
+    translation: "Mama ari mu nzu"
+    xp_reward: 25
+
+  - id: 36
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike interuro mu igifaransa"
+    tts_text: "Data ari mu kazi"
+    answer: "Le père travaille"
+    translation: "Data ari mu kazi"
+    xp_reward: 25
+
+  - id: 37
+    type: listen_and_type
+    question: "Tega amatwi hanyuma wandike ikibazo mu igifaransa"
+    tts_text: "Umuryango umeze ute"
+    answer: "Comment va la famille ?"
+    translation: "Umuryango umeze ute"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 38
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo umwe mu muryango ukwiye mu igifaransa"
+    tts_text: "Mama"
+    options:
+      - "Père"
+      - "Mère"
+      - "Frère"
+    answer: "Mère"
+    xp_reward: 15
+
+  - id: 39
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo umwe mu muryango ukwiye mu igifaransa"
+    tts_text: "Data"
+    options:
+      - "Mère"
+      - "Père"
+      - "Sœur"
+    answer: "Père"
+    xp_reward: 15
+
+  - id: 40
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo umwe mu muryango ukwiye mu igifaransa"
+    tts_text: "Musaza"
+    options:
+      - "Sœur"
+      - "Frère"
+      - "Enfant"
+    answer: "Frère"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Tega amatwi hanyuma uhitemo interuro ikwiye mu igifaransa"
+    tts_text: "Mama ari mu nzu"
+    options:
+      - "La mère est à la maison"
+      - "Le père travaille"
+      - "Le frère joue"
+    answer: "La mère est à la maison"
+    xp_reward: 20
+
+  # 5. Repeat / Speaking Exercise
+  - id: 42
+    type: speaking
+    question: "Vuga uyu mwe mu muryango mu igifaransa"
+    prompt: "Mama"
+    translation: "Mère"
+    xp_reward: 15
+
+  - id: 43
+    type: speaking
+    question: "Vuga uyu mwe mu muryango mu igifaransa"
+    prompt: "Data"
+    translation: "Père"
+    xp_reward: 15
+
+  - id: 44
+    type: speaking
+    question: "Vuga uyu mwe mu muryango mu igifaransa"
+    prompt: "Nyogokuru"
+    translation: "Grand-mère"
+    xp_reward: 18
+
+  - id: 45
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Mama ari mu nzu"
+    translation: "La mère est à la maison"
+    xp_reward: 20
+
+  - id: 46
+    type: speaking
+    question: "Vuga iyi nteruro mu igifaransa"
+    prompt: "Data ari mu kazi"
+    translation: "Le père travaille"
+    xp_reward: 20
+
+  - id: 47
+    type: speaking
+    question: "Vuga iki kibazo mu igifaransa"
+    prompt: "Umuryango umeze ute"
+    translation: "Comment va la famille ?"
+    xp_reward: 20
+
+  # 6. Word Bank Sentence Building
+  - id: 48
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Mama ari mu nzu'"
+    word_bank: ["La", "mère", "est", "à", "la", "maison", "Le", "père", "travaille"]
+    correct_answer: ["La", "mère", "est", "à", "la", "maison"]
+    xp_reward: 20
+
+  - id: 49
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Data ari mu kazi'"
+    word_bank: ["Le", "père", "travaille", "La", "mère", "est", "à", "la", "maison"]
+    correct_answer: ["Le", "père", "travaille"]
+    xp_reward: 20
+
+  - id: 50
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Musaza arakina hanze'"
+    word_bank: ["Mon", "frère", "joue", "dehors", "Ma", "sœur", "lit", "un", "livre"]
+    correct_answer: ["Mon", "frère", "joue", "dehors"]
+    xp_reward: 22
+
+  - id: 51
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Mushiki arasoma igitabo'"
+    word_bank: ["Ma", "sœur", "lit", "un", "livre", "Mon", "frère", "joue", "dehors"]
+    correct_answer: ["Ma", "sœur", "lit", "un", "livre"]
+    xp_reward: 22
+
+  - id: 52
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Nkunda Nyogokuru'"
+    word_bank: ["J'", "aime", "ma", "grand-mère", "grand-père", "est", "vieux"]
+    correct_answer: ["J'", "aime", "ma", "grand-mère"]
+    xp_reward: 20
+
+  - id: 53
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Sogokuru arasaza cyane'"
+    word_bank: ["Mon", "grand-père", "est", "très", "vieux", "grand-mère", "cuisine"]
+    correct_answer: ["Mon", "grand-père", "est", "très", "vieux"]
+    xp_reward: 22
+
+  - id: 54
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Mfite Musaza'"
+    word_bank: ["J'", "ai", "un", "frère", "sœur", "enfant"]
+    correct_answer: ["J'", "ai", "un", "frère"]
+    xp_reward: 18
+
+  - id: 55
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Sogokuru afite inzu'"
+    word_bank: ["Mon", "grand-père", "a", "une", "maison", "grand-mère", "cuisine", "de", "la", "nourriture"]
+    correct_answer: ["Mon", "grand-père", "a", "une", "maison"]
+    xp_reward: 20
+
+  - id: 56
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Nyogokuru araduteka ibiryo'"
+    word_bank: ["Ma", "grand-mère", "cuisine", "de", "la", "nourriture", "grand-père", "a", "une", "maison"]
+    correct_answer: ["Ma", "grand-mère", "cuisine", "de", "la", "nourriture"]
+    xp_reward: 22
+
+  - id: 57
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Datawabo afite ihene'"
+    word_bank: ["Mon", "oncle", "paternel", "a", "une", "chèvre", "mon", "oncle", "maternel", "a", "une", "vache"]
+    correct_answer: ["Mon", "oncle", "paternel", "a", "une", "chèvre"]
+    xp_reward: 22
+
+  - id: 58
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Marume afite inka'"
+    word_bank: ["Mon", "oncle", "maternel", "a", "une", "vache", "mon", "oncle", "paternel", "a", "une", "chèvre"]
+    correct_answer: ["Mon", "oncle", "maternel", "a", "une", "vache"]
+    xp_reward: 22
+
+  - id: 59
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Masenge ni mwiza'"
+    word_bank: ["Ma", "tante", "paternelle", "est", "gentille", "ma", "tante", "maternelle", "est", "très", "sympa"]
+    correct_answer: ["Ma", "tante", "paternelle", "est", "gentille"]
+    xp_reward: 20
+
+  - id: 60
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Nyirarume ni mwiza cyane'"
+    word_bank: ["Ma", "tante", "maternelle", "est", "très", "sympa", "ma", "tante", "paternelle", "est", "gentille"]
+    correct_answer: ["Ma", "tante", "maternelle", "est", "très", "sympa"]
+    xp_reward: 22
+
+  - id: 61
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Umwana arakinira'"
+    word_bank: ["Mon", "enfant", "joue", "mon", "petit-enfant", "aime", "lire"]
+    correct_answer: ["Mon", "enfant", "joue"]
+    xp_reward: 18
+
+  - id: 62
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Umwuzukuru akunda gusoma'"
+    word_bank: ["Mon", "petit-enfant", "aime", "lire", "mon", "enfant", "joue"]
+    correct_answer: ["Mon", "petit-enfant", "aime", "lire"]
+    xp_reward: 22
+
+  - id: 63
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Umwuzukuruza arahunyira'"
+    word_bank: ["Mon", "arrière-petit-enfant", "dort", "mon", "petit-enfant", "aime", "lire"]
+    correct_answer: ["Mon", "arrière-petit-enfant", "dort"]
+    xp_reward: 20
+
+  - id: 64
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Umukwe ni umufasha'"
+    word_bank: ["Mon", "gendre", "est", "serviable", "mon", "beau-père", "est", "sage"]
+    correct_answer: ["Mon", "gendre", "est", "serviable"]
+    xp_reward: 20
+
+  - id: 65
+    type: word_bank
+    question: "Ubaka interuro y'igifaransa isobanura 'Sebukwe ni inyangamugayo'"
+    word_bank: ["Mon", "beau-père", "est", "sage", "mon", "gendre", "est", "serviable"]
+    correct_answer: ["Mon", "beau-père", "est", "sage"]
+    xp_reward: 20
+
+  # 7. Sentence Scramble
+  - id: 66
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Mama ari mu nzu'"
+    scrambled_words: ["est", "La", "mère", "à", "la", "maison"]
+    correct_sentence: "La mère est à la maison"
+    translation: "Mama ari mu nzu"
+    xp_reward: 20
+
+  - id: 67
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Data ari mu kazi'"
+    scrambled_words: ["travaille", "Le", "père"]
+    correct_sentence: "Le père travaille"
+    translation: "Data ari mu kazi"
+    xp_reward: 20
+
+  - id: 68
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Musaza arakina hanze'"
+    scrambled_words: ["frère", "Mon", "joue", "dehors"]
+    correct_sentence: "Mon frère joue dehors"
+    translation: "Musaza arakina hanze"
+    xp_reward: 22
+
+  - id: 69
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Mushiki arasoma igitabo'"
+    scrambled_words: ["sœur", "Ma", "lit", "un", "livre"]
+    correct_sentence: "Ma sœur lit un livre"
+    translation: "Mushiki arasoma igitabo"
+    xp_reward: 22
+
+  - id: 70
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nkunda Nyogokuru'"
+    scrambled_words: ["aime", "J'", "ma", "grand-mère"]
+    correct_sentence: "J'aime ma grand-mère"
+    translation: "Nkunda Nyogokuru"
+    xp_reward: 18
+
+  - id: 71
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Sogokuru arasaza cyane'"
+    scrambled_words: ["grand-père", "Mon", "est", "très", "vieux"]
+    correct_sentence: "Mon grand-père est très vieux"
+    translation: "Sogokuru arasaza cyane"
+    xp_reward: 20
+
+  - id: 72
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Sogokuru afite inzu'"
+    scrambled_words: ["grand-père", "Mon", "a", "une", "maison"]
+    correct_sentence: "Mon grand-père a une maison"
+    translation: "Sogokuru afite inzu"
+    xp_reward: 20
+
+  - id: 73
+    type: sentence_scramble
+    question: "Tondeka aya magambo mu buryo bukwiye bwerekana 'Nyogokuru araduteka ibiryo'"
+    scrambled_words: ["grand-mère", "Ma", "cuisine", "de", "la", "nourriture"]
+    correct_sentence: "Ma grand-mère cuisine de la nourriture"
+    translation: "Nyogokuru araduteka ibiryo"
+    xp_reward: 22
+
+  # 8. Fill in the Blank
+  - id: 74
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "La mère ___ à la maison."
+    options: ["est", "sont", "a"]
+    correct_answer: "est"
+    translation: "Mama ari mu nzu"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "Le père ___."
+    options: ["travaille", "joue", "lit"]
+    correct_answer: "travaille"
+    translation: "Data ari mu kazi"
+    xp_reward: 15
+
+  - id: 76
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "Mon frère ___ dehors."
+    options: ["joue", "lit", "travaille"]
+    correct_answer: "joue"
+    translation: "Musaza arakina hanze"
+    xp_reward: 18
+
+  - id: 77
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "Ma sœur ___ un livre."
+    options: ["lit", "joue", "cuisine"]
+    correct_answer: "lit"
+    translation: "Mushiki arasoma igitabo"
+    xp_reward: 18
+
+  - id: 78
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "J'aime ma ___."
+    options: ["grand-mère", "grand-père", "père"]
+    correct_answer: "grand-mère"
+    translation: "Nkunda Nyogokuru"
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "Mon grand-père est très ___."
+    options: ["vieux", "jeune", "grand"]
+    correct_answer: "vieux"
+    translation: "Sogokuru arasaza cyane"
+    xp_reward: 15
+
+  - id: 80
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "Mon grand-père ___ une maison."
+    options: ["a", "est", "sont"]
+    correct_answer: "a"
+    translation: "Sogokuru afite inzu"
+    xp_reward: 15
+
+  - id: 81
+    type: fill_blank
+    question: "Hitamo ijambo rikwiye ruzuza interuro"
+    text_with_blank: "Ma grand-mère cuisine de la ___."
+    options: ["nourriture", "eau", "viande"]
+    correct_answer: "nourriture"
+    translation: "Nyogokuru araduteka ibiryo"
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 82
+    type: picture_word
+    question: "Uyu mwe mu muryango ni nde mu igifaransa?"
+    image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Mère", "Père", "Grand-mère", "Grand-père"]
+    correct_answer: "Mère"
+    xp_reward: 10
+
+  - id: 83
+    type: picture_word
+    question: "Uyu mwe mu muryango ni nde mu igifaransa?"
+    image_url: "https://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Mère", "Père", "Frère", "Sœur"]
+    correct_answer: "Père"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "Uyu mwe mu muryango ni nde mu igifaransa?"
+    image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Grand-mère", "Grand-père", "Mère", "Père"]
+    correct_answer: "Grand-mère"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "Uyu mwe mu muryango ni nde mu igifaransa?"
+    image_url: "https://images.unsplash.com/photo-1581007115376-1f8732065a2a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Grand-père", "Grand-mère", "Père", "Oncle"]
+    correct_answer: "Grand-père"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Uyu mwe mu muryango ni nde mu igifaransa?"
+    image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Frère", "Sœur", "Enfant", "Père"]
+    correct_answer: "Frère"
+    xp_reward: 10
+
+  - id: 87
+    type: picture_word
+    question: "Uyu mwe mu muryango ni nde mu igifaransa?"
+    image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Sœur", "Frère", "Mère", "Grand-mère"]
+    correct_answer: "Sœur"
+    xp_reward: 10
+
+  - id: 88
+    type: picture_word
+    question: "Uyu mwe mu muryango ni nde mu igifaransa?"
+    image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Enfant", "Petit-enfant", "Frère", "Sœur"]
+    correct_answer: "Enfant"
+    xp_reward: 10
+
+  # 10. Word Matching (Pairing)
+  - id: 90
+    type: matching
+    question: "Huza abo mu muryango mu igifaransa"
+    pairs:
+      - left: "Mère"
+        right: "Mama"
+      - left: "Père"
+        right: "Data"
+      - left: "Frère"
+        right: "Musaza"
+      - left: "Sœur"
+        right: "Mushiki"
+      - left: "Enfant"
+        right: "Umwana"
+      - left: "Grand-mère"
+        right: "Nyogokuru"
+      - left: "Grand-père"
+        right: "Sogokuru"
+      - left: "Mari"
+        right: "Umugabo"
+      - left: "Femme"
+        right: "Umugore"
+    xp_reward: 25
+
+  - id: 91
+    type: matching
+    question: "Huza abo mu muryango bakuze mu igifaransa"
+    pairs:
+      - left: "Oncle paternel"
+        right: "Datawabo"
+      - left: "Oncle maternel"
+        right: "Marume"
+      - left: "Tante paternelle"
+        right: "Masenge"
+      - left: "Tante maternelle"
+        right: "Nyirarume"
+      - left: "Petit-enfant"
+        right: "Umwuzukuru"
+      - left: "Arrière-petit-enfant"
+        right: "Umwuzukuruza"
+      - left: "Gendre"
+        right: "Umukwe"
+      - left: "Beau-père"
+        right: "Sebukwe"
+    xp_reward: 25
+
+  - id: 92
+    type: matching
+    question: "Huza ibikorwa n'abo mu muryango mu igifaransa"
+    pairs:
+      - left: "est à la maison"
+        right: "ari mu nzu"
+      - left: "travaille"
+        right: "ari mu kazi"
+      - left: "joue dehors"
+        right: "arakina hanze"
+      - left: "lit un livre"
+        right: "arasoma igitabo"
+      - left: "cuisine de la nourriture"
+        right: "araduteka ibiryo"
+      - left: "a une maison"
+        right: "afite inzu"
+    xp_reward: 25
+
+  # 11. Choose Missing Word
+  - id: 97
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "La mère ___ à la maison."
+    missing_word_position: 3
+    options: ["est", "sont", "a"]
+    correct_answer: "est"
+    translation: "Mama ari mu nzu"
+    xp_reward: 15
+
+  - id: 98
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "Le père ___."
+    missing_word_position: 3
+    options: ["travaille", "joue", "lit"]
+    correct_answer: "travaille"
+    translation: "Data ari mu kazi"
+    xp_reward: 15
+
+  - id: 99
+    type: choose_missing
+    question: "Hitamo ijambo ribuze"
+    sentence: "Mon frère ___ dehors."
+    missing_word_position: 3
+    options: ["joue", "lit", "travaille"]
+    correct_answer: "joue"
+    translation: "Musaza arakina hanze"
+    xp_reward: 18
+
+  # 12. Read and Answer
+  - id: 100
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Mama ari mu nzu. Data ari mu kazi."
+    question: "Mama ari he mu igifaransa?"
+    options: ["À la maison", "Au travail", "Dehors", "Au marché"]
+    correct_answer: "À la maison"
+    xp_reward: 20
+
+  - id: 101
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+    question: "Mushiki akora iki mu igifaransa?"
+    options: ["Joue", "Lit un livre", "Travaille", "Cuisine"]
+    correct_answer: "Lit un livre"
+    xp_reward: 22
+
+  - id: 102
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+    question: "Sogokuru afite iki mu igifaransa?"
+    options: ["Une vache", "Une maison", "Une chèvre", "Un livre"]
+    correct_answer: "Une maison"
+    xp_reward: 20
+
+  - id: 103
+    type: read_answer
+    question: "Soma ibyanditswe hanyuma usubize ikibazo"
+    text: "Datawabo afite ihene. Marume afite inka."
+    question: "Marume afite iki mu igifaransa?"
+    options: ["Une chèvre", "Une vache", "Une maison", "Un poulet"]
+    correct_answer: "Une vache"
+    xp_reward: 22
+
+  # 13. True / False
+  - id: 104
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "Mama ni umugore."
+    translation: "La mère est une femme"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 105
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "Data ni umugore."
+    translation: "Le père est une femme"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 106
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "Nyogokuru arasaza cyane."
+    translation: "La grand-mère est très vieille"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 107
+    type: true_false
+    question: "Ese iki kintu ni ukuri cyangwa ikinyoma?"
+    statement: "Umwana arakina hanze."
+    translation: "L'enfant joue dehors"
+    correct_answer: true
+    xp_reward: 10
+
+  # 14. Conversation Exercise
+  - id: 108
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe"
+    bot_message: "Mama ari he?"
+    translation: "Où est la mère ?"
+    word_bank: ["La", "mère", "est", "à", "la", "maison", "Le", "père", "travaille"]
+    correct_response: ["La", "mère", "est", "à", "la", "maison"]
+    xp_reward: 20
+
+  - id: 109
+    type: conversation
+    question: "Subiza ikibazo"
+    bot_message: "Umuryango umeze ute?"
+    translation: "Comment va la famille ?"
+    options:
+      - "Elle va bien"
+      - "Elle va mal"
+      - "Comment ça va"
+    correct_response: "Elle va bien"
+    xp_reward: 15
+
+  - id: 110
+    type: conversation
+    question: "Subiza ikibazo ukoresheje amagambo atanzwe"
+    bot_message: "Data ari he?"
+    translation: "Où est le père ?"
+    word_bank: ["Le", "père", "travaille", "La", "mère", "est", "à", "la", "maison"]
+    correct_response: ["Le", "père", "travaille"]
+    xp_reward: 20
+
+  # 15. Story Exercise
+  - id: 111
+    type: story
+    title: "Umuryango Wanjye"
+    story_intro: "Soma inkuru y'umuryango. Hanyuma ubake interuro mu igifaransa."
+    story_segments:
+      - text: "Mama ari mu nzu."
+        image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - text: "Data ari mu kazi."
+      - text: "Musaza arakina hanze."
+      - text: "Mushiki arasoma igitabo."
+      - text: "Nyogokuru araduteka ibiryo."
+      - text: "Sogokuru afite inzu."
+    exercises:
+      - type: word_bank
+        question: "Ubaka interuro y'igifaransa isobanura 'Mama ari mu nzu'"
+        word_bank: ["La", "mère", "est", "à", "la", "maison", "Le", "père", "travaille"]
+        correct_answer: ["La", "mère", "est", "à", "la", "maison"]
+      - type: word_bank
+        question: "Ubaka interuro y'igifaransa isobanura 'Data ari mu kazi'"
+        word_bank: ["Le", "père", "travaille", "La", "mère", "est", "à", "la", "maison"]
+        correct_answer: ["Le", "père", "travaille"]
+      - type: word_bank
+        question: "Ubaka interuro y'igifaransa isobanura 'Musaza arakina hanze'"
+        word_bank: ["Mon", "frère", "joue", "dehors", "Ma", "sœur", "lit", "un", "livre"]
+        correct_answer: ["Mon", "frère", "joue", "dehors"]
+      - type: word_bank
+        question: "Ubaka interuro y'igifaransa isobanura 'Nyogokuru araduteka ibiryo'"
+        word_bank: ["Ma", "grand-mère", "cuisine", "de", "la", "nourriture", "Mon", "grand-père", "a", "une", "maison"]
+        correct_answer: ["Ma", "grand-mère", "cuisine", "de", "la", "nourriture"]
+    xp_reward: 40
+
+  # 16. Pronunciation Check
+  - id: 112
+    type: pronunciation
+    question: "Vuga uyu mwe mu muryango mu igifaransa neza"
+    prompt: "Mama"
+    translation: "Mère"
+    xp_reward: 15
+
+  - id: 113
+    type: pronunciation
+    question: "Vuga uyu mwe mu muryango mu igifaransa neza"
+    prompt: "Nyogokuru"
+    translation: "Grand-mère"
+    xp_reward: 18
+
+  - id: 114
+    type: pronunciation
+    question: "Vuga iyi nteruro mu igifaransa neza"
+    prompt: "Mama ari mu nzu"
+    translation: "La mère est à la maison"
+    xp_reward: 20
+
+  # 17. Identify Correct Meaning
+  - id: 115
+    type: identify_meaning
+    question: "'Mama' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Mama ari mu nzu."
+    word: "Mama"
+    options: ["père", "mère", "frère", "sœur"]
+    correct_answer: "mère"
+    xp_reward: 15
+
+  - id: 116
+    type: identify_meaning
+    question: "'Arakina' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Musaza arakina hanze."
+    word: "arakina"
+    options: ["lit", "joue", "travaille", "cuisine"]
+    correct_answer: "joue"
+    xp_reward: 18
+
+  - id: 117
+    type: identify_meaning
+    question: "'Araduteka' bisobanura iki mu igifaransa muri iyi nteruro?"
+    context_sentence: "Nyogokuru araduteka ibiryo."
+    word: "araduteka"
+    options: ["cuisine", "mange", "a", "aime"]
+    correct_answer: "cuisine"
+    xp_reward: 18
+
+  # 18. Speed Matching
+  - id: 118
+    type: speed_matching
+    title: "Huza Byihuse: Umuryango"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Mère"
+        right: "Mama"
+      - left: "Père"
+        right: "Data"
+      - left: "Frère"
+        right: "Musaza"
+      - left: "Sœur"
+        right: "Mushiki"
+      - left: "Grand-mère"
+        right: "Nyogokuru"
+      - left: "Grand-père"
+        right: "Sogokuru"
+      - left: "Enfant"
+        right: "Umwana"
+      - left: "Mari"
+        right: "Umugabo"
+      - left: "Femme"
+        right: "Umugore"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 119
+    type: timed_challenge
+    title: "Kubahuka: Umuryango"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Mama"
+        answer: "Mère"
+      - question: "Data"
+        answer: "Père"
+      - question: "Musaza"
+        answer: "Frère"
+      - question: "Mushiki"
+        answer: "Sœur"
+      - question: "Nyogokuru"
+        answer: "Grand-mère"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Mère"
+      back: "Mama"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Père"
+      back: "Data"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Frère"
+      back: "Musaza"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Sœur"
+      back: "Mushiki"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Enfant"
+      back: "Umwana"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Grand-mère"
+      back: "Nyogokuru"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Grand-père"
+      back: "Sogokuru"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Mari"
+      back: "Umugabo"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Femme"
+      back: "Umugore"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Oncle paternel"
+      back: "Datawabo"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

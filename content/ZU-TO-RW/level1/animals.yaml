@@ -1,0 +1,882 @@
+lesson:
+ name: "Izilwane"
+ description: "Funda animal names in Kinyarwanda by categories"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Words ONLY (Safe for single words)
+ # Domestic / Farm Izilwane
+ - id: 1
+ type: translation
+ Umbuzo: "Usho kanjani 'Inkomo' ngesiKinyarwanda?"
+ Impendulo: "Inka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Umbuzo: "Usho kanjani 'Inja' ngesiKinyarwanda?"
+ Impendulo: "Imbwa"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Umbuzo: "Usho kanjani 'Ikati' ngesiKinyarwanda?"
+ Impendulo: "Injangwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Umbuzo: "Usho kanjani 'Imbuzi' ngesiKinyarwanda?"
+ Impendulo: "Ihene"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Umbuzo: "Usho kanjani 'Imvu' ngesiKinyarwanda?"
+ Impendulo: "Intama"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Umbuzo: "Usho kanjani 'Ingulube' ngesiKinyarwanda?"
+ Impendulo: "Ingurube"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Umbuzo: "Usho kanjani 'Inkukhu' ngesiKinyarwanda?"
+ Impendulo: "Inkoko"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Umbuzo: "Usho kanjani 'Umvundla' ngesiKinyarwanda?"
+ Impendulo: "Urukwavu"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Umbuzo: "Usho kanjani 'Idonki' ngesiKinyarwanda?"
+ Impendulo: "Indogobe"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Umbuzo: "Usho kanjani 'Ijuba' ngesiKinyarwanda?"
+ Impendulo: "Inuma"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Umbuzo: "Usho kanjani 'Inyoni' ngesiKinyarwanda?"
+ Impendulo: "Inyoni"
+ xp_reward: 10
+
+ # Wildlife Izilwane
+ - id: 12
+ type: translation
+ Umbuzo: "Usho kanjani 'Ingonyama' ngesiKinyarwanda?"
+ Impendulo: "Intare"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Umbuzo: "Usho kanjani 'Indlovu' ngesiKinyarwanda?"
+ Impendulo: "Inzovu"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Umbuzo: "Usho kanjani 'Ingagi yasezintabeni' ngesiKinyarwanda?"
+ Impendulo: "Ingagi"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Umbuzo: "Usho kanjani 'Ingwe' ngesiKinyarwanda?"
+ Impendulo: "Ingwe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Umbuzo: "Usho kanjani 'Inyathi' ngesiKinyarwanda?"
+ Impendulo: "Imbogo"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Umbuzo: "Usho kanjani 'Isidumiso' ngesiKinyarwanda?"
+ Impendulo: "Imparage"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Umbuzo: "Usho kanjani 'Imvubu' ngesiKinyarwanda?"
+ Impendulo: "Imvubu"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ Umbuzo: "Usho kanjani 'Indlulamithi' ngesiKinyarwanda?"
+ Impendulo: "Agasumbashyamba"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ Umbuzo: "Usho kanjani 'Ihena' ngesiKinyarwanda?"
+ Impendulo: "Imfyisi"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ Umbuzo: "Usho kanjani 'Inkawu' ngesiKinyarwanda?"
+ Impendulo: "Inkende"
+ xp_reward: 10
+
+ # Inyoni, Reptiles, Insects, Inhlanzi
+ - id: 22
+ type: translation
+ Umbuzo: "Usho kanjani 'Ikhanka elimsundu' ngesiKinyarwanda?"
+ Impendulo: "Umusambi"
+ xp_reward: 10
+
+ - id: 23
+ type: translation
+ Umbuzo: "Usho kanjani 'Inyoka' ngesiKinyarwanda?"
+ Impendulo: "Inzoka"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ Umbuzo: "Usho kanjani 'Ikikeri' ngesiKinyarwanda?"
+ Impendulo: "Igikeri"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ Umbuzo: "Usho kanjani 'Inhlanzi' ngesiKinyarwanda?"
+ Impendulo: "Ifi"
+ xp_reward: 10
+
+ - id: 26
+ type: translation
+ Umbuzo: "Usho kanjani 'Inyezi' ngesiKinyarwanda?"
+ Impendulo: "Inzuki"
+ xp_reward: 10
+
+ # Animal Actions (Verbs)
+ - id: 27
+ type: translation
+ Umbuzo: "Usho kanjani 'eats' ngesiKinyarwanda?"
+ Impendulo: "irya"
+ xp_reward: 10
+
+ - id: 28
+ type: translation
+ Umbuzo: "Usho kanjani 'drinks' ngesiKinyarwanda?"
+ Impendulo: "inywa"
+ xp_reward: 10
+
+ - id: 29
+ type: translation
+ Umbuzo: "Usho kanjani 'sleeps' ngesiKinyarwanda?"
+ Impendulo: "irasinzira"
+ xp_reward: 10
+
+ - id: 30
+ type: translation
+ Umbuzo: "Usho kanjani 'runs' ngesiKinyarwanda?"
+ Impendulo: "iriruka"
+ xp_reward: 10
+
+ - id: 31
+ type: translation
+ Umbuzo: "Usho kanjani 'flies' ngesiKinyarwanda?"
+ Impendulo: "iraguruka"
+ xp_reward: 10
+
+ - id: 32
+ type: translation
+ Umbuzo: "Usho kanjani 'swims' ngesiKinyarwanda?"
+ Impendulo: "iroga"
+ xp_reward: 10
+
+ - id: 33
+ type: translation
+ Umbuzo: "Usho kanjani 'plays' ngesiKinyarwanda?"
+ Impendulo: "irakina"
+ xp_reward: 10
+
+ # Animal Ukudla
+ - id: 34
+ type: translation
+ Umbuzo: "Usho kanjani 'grass' ngesiKinyarwanda?"
+ Impendulo: "ibyatsi"
+ xp_reward: 10
+
+ - id: 35
+ type: translation
+ Umbuzo: "Usho kanjani 'Amanzi' ngesiKinyarwanda?"
+ Impendulo: "amazi"
+ xp_reward: 10
+
+ - id: 36
+ type: translation
+ Umbuzo: "Usho kanjani 'meat' ngesiKinyarwanda?"
+ Impendulo: "inyama"
+ xp_reward: 10
+
+ # NO DIRECT TRANSLATION FOR Umusho OR PARAGRAPHS
+ # Instead, we use Umusho building, Qondanisa, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 37
+ type: multiple_choice
+ Umbuzo: "Yini 'Inka'?"
+ options:
+ - "Inja"
+ - "Inkomo"
+ - "Ikati"
+ - "Imbuzi"
+ Impendulo: "Inkomo"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ Umbuzo: "Yini 'Intare'?"
+ options:
+ - "Ingonyama"
+ - "Indlovu"
+ - "Inkawu"
+ - "Inja"
+ Impendulo: "Ingonyama"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'irya' kulomusho?"
+ options:
+ - "drinks"
+ - "eats"
+ - "sleeps"
+ - "runs"
+ Impendulo: "eats"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'ibyatsi' kulomusho?"
+ options:
+ - "Amanzi"
+ - "meat"
+ - "grass"
+ - "milk"
+ Impendulo: "grass"
+ xp_reward: 15
+
+ # 3. Lalela and Type (Dictation) - SINGLE WORDS ONLY
+ - id: 41
+ type: listen_and_type
+ Umbuzo: "Lalela and type the animal name"
+ tts_text: "Inka"
+ Impendulo: "Inka"
+ translation: "Inkomo"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_and_type
+ Umbuzo: "Lalela and type the animal name"
+ tts_text: "Imbwa"
+ Impendulo: "Imbwa"
+ translation: "Inja"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_and_type
+ Umbuzo: "Lalela and type the animal name"
+ tts_text: "Injangwe"
+ Impendulo: "Injangwe"
+ translation: "Ikati"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_and_type
+ Umbuzo: "Lalela and type the animal name"
+ tts_text: "Ihene"
+ Impendulo: "Ihene"
+ translation: "Imbuzi"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_and_type
+ Umbuzo: "Lalela and type the animal name"
+ tts_text: "Intama"
+ Impendulo: "Intama"
+ translation: "Imvu"
+ xp_reward: 20
+
+ - id: 46
+ type: listen_and_type
+ Umbuzo: "Lalela and type the animal name"
+ tts_text: "Inkoko"
+ Impendulo: "Inkoko"
+ translation: "Inkukhu"
+ xp_reward: 20
+
+ # 4. Lalela and Khetha - SINGLE WORDS ONLY
+ - id: 47
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct animal"
+ tts_text: "Imbwa"
+ options:
+ - "Ikati"
+ - "Inja"
+ - "Inkomo"
+ Impendulo: "Inja"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct animal"
+ tts_text: "Intare"
+ options:
+ - "Ingonyama"
+ - "Indlovu"
+ - "Indlulamithi"
+ Impendulo: "Ingonyama"
+ xp_reward: 15
+
+ - id: 49
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct animal"
+ tts_text: "Intama"
+ options:
+ - "Imbuzi"
+ - "Imvu"
+ - "Inkomo"
+ Impendulo: "Imvu"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct animal"
+ tts_text: "Inkoko"
+ options:
+ - "Inkukhu"
+ - "Inyoni"
+ - "Duck"
+ Impendulo: "Inkukhu"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct animal"
+ tts_text: "Injangwe"
+ options:
+ - "Inja"
+ - "Ikati"
+ - "Umvundla"
+ Impendulo: "Ikati"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct animal"
+ tts_text: "Ihene"
+ options:
+ - "Imbuzi"
+ - "Imvu"
+ - "Inkomo"
+ Impendulo: "Imbuzi"
+ xp_reward: 15
+
+ # 5. Repeat / Khuluma Exercise
+ - id: 53
+ type: Khuluma
+ Umbuzo: "Say this word"
+ prompt: "Inka"
+ translation: "Inkomo"
+ xp_reward: 15
+
+ - id: 54
+ type: Khuluma
+ Umbuzo: "Say this word"
+ prompt: "Imbwa"
+ translation: "Inja"
+ xp_reward: 15
+
+ - id: 55
+ type: Khuluma
+ Umbuzo: "Say this word"
+ prompt: "Injangwe"
+ translation: "Ikati"
+ xp_reward: 15
+
+ - id: 56
+ type: Khuluma
+ Umbuzo: "Say this Umusho"
+ prompt: "Inka irya ibyatsi"
+ translation: "The Inkomo eats grass"
+ xp_reward: 20
+
+ # 6. Word Bank Umusho Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 57
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Inkomo eats grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Inja drinks Amanzi'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 20
+
+ - id: 59
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Inyoni flies'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Inhlanzi swims'"
+ word_bank: ["Ifi", "iroga", "amazi", "Inyoni", "iraguruka", "hejuru"]
+ correct_answer: ["Ifi", "iroga"]
+ xp_reward: 20
+
+ # 7. Umusho Scramble - PIECES PROVIDED
+ - id: 61
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Kinyarwanda Umusho"
+ scrambled_words: ["irya", "Inka", "ibyatsi"]
+ correct_sentence: "Inka irya ibyatsi"
+ translation: "The Inkomo eats grass"
+ xp_reward: 20
+
+ - id: 62
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Kinyarwanda Umusho"
+ scrambled_words: ["inywa", "Imbwa", "amazi"]
+ correct_sentence: "Imbwa inywa amazi"
+ translation: "The Inja drinks Amanzi"
+ xp_reward: 20
+
+ - id: 63
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Kinyarwanda Umusho"
+ scrambled_words: ["iraguruka", "Inyoni", "hejuru"]
+ correct_sentence: "Inyoni iraguruka hejuru"
+ translation: "The Inyoni flies above"
+ xp_reward: 20
+
+ # 8. Fill in the Blank - Khetha FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Umbuzo: "Khetha the correct word to complete the Umusho"
+ text_with_blank: "Inka ___ ibyatsi."
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "The Inkomo eats grass"
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Umbuzo: "Khetha the correct word to complete the Umusho"
+ text_with_blank: "Imbwa ___ amazi."
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "The Inja drinks Amanzi"
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Umbuzo: "Khetha the correct word to complete the Umusho"
+ text_with_blank: "Inyoni ___ hejuru."
+ options: ["iraguruka", "iriruka", "iroga"]
+ correct_answer: "iraguruka"
+ translation: "The Inyoni flies above"
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 67
+ type: picture_word
+ Umbuzo: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Intama", "Ihene"]
+ correct_answer: "Inka"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Umbuzo: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Injangwe", "Inkoko"]
+ correct_answer: "Imbwa"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Umbuzo: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Intare", "Ingwe", "Imbogo"]
+ correct_answer: "Intare"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Umbuzo: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Imvubu", "Ingagi", "Imparage"]
+ correct_answer: "Inzovu"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Umbuzo: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inyoni", "Inkoko", "Inuma", "Umusambi"]
+ correct_answer: "Inyoni"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Umbuzo: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Ifi", "Inzoka", "Igikeri", "Akanyamasyo"]
+ correct_answer: "Ifi"
+ xp_reward: 10
+
+ # 10. Word Qondanisa (Pairing)
+ - id: 73
+ type: Qondanisa
+ Umbuzo: "Qondanisa the Izilwane"
+ pairs:
+ - Kwesokunxele: "Inkomo"
+ Kwesokudla: "Inka"
+ - Kwesokunxele: "Inja"
+ Kwesokudla: "Imbwa"
+ - Kwesokunxele: "Ikati"
+ Kwesokudla: "Injangwe"
+ - Kwesokunxele: "Ingonyama"
+ Kwesokudla: "Intare"
+ - Kwesokunxele: "Indlovu"
+ Kwesokudla: "Inzovu"
+ - Kwesokunxele: "Inyoni"
+ Kwesokudla: "Inyoni"
+ - Kwesokunxele: "Inhlanzi"
+ Kwesokudla: "Ifi"
+ xp_reward: 25
+
+ - id: 74
+ type: Qondanisa
+ Umbuzo: "Qondanisa the actions"
+ pairs:
+ - Kwesokunxele: "eats"
+ Kwesokudla: "irya"
+ - Kwesokunxele: "drinks"
+ Kwesokudla: "inywa"
+ - Kwesokunxele: "sleeps"
+ Kwesokudla: "irasinzira"
+ - Kwesokunxele: "flies"
+ Kwesokudla: "iraguruka"
+ - Kwesokunxele: "swims"
+ Kwesokudla: "iroga"
+ - Kwesokunxele: "runs"
+ Kwesokudla: "iriruka"
+ xp_reward: 25
+
+ - id: 75
+ type: Qondanisa
+ Umbuzo: "Qondanisa the animal Ukudla"
+ pairs:
+ - Kwesokunxele: "grass"
+ Kwesokudla: "ibyatsi"
+ - Kwesokunxele: "Amanzi"
+ Kwesokudla: "amazi"
+ - Kwesokunxele: "meat"
+ Kwesokudla: "inyama"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - PIECES PROVIDED
+ - id: 76
+ type: tap_hear
+ Umbuzo: "Tap the words you hear in order"
+ tts_text: "Inka irya ibyatsi"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_taps: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 25
+
+ - id: 77
+ type: tap_hear
+ Umbuzo: "Tap the words you hear in order"
+ tts_text: "Imbwa inywa amazi"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_taps: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 25
+
+ - id: 78
+ type: tap_hear
+ Umbuzo: "Tap the words you hear in order"
+ tts_text: "Inyoni iraguruka hejuru"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_taps: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 25
+
+ # 12. Khetha Missing Word
+ - id: 79
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Inka ___ ibyatsi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "The Inkomo eats grass"
+ xp_reward: 15
+
+ - id: 80
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Imbwa ___ amazi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "The Inja drinks Amanzi"
+ xp_reward: 15
+
+ # 13. Funda and Impendulo - Umbuzo in English, Impendulo based on Kinyarwanda text
+ - id: 81
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
+ Umbuzo: "Where is the Inkomo?"
+ options: ["In the Indlu", "In the field", "At the Imakethe", "Near the Inja"]
+ correct_answer: "In the field"
+ xp_reward: 25
+
+ - id: 82
+ type: read_answer
+ Umbuzo: "Funda the text and Impendulo the Umbuzo"
+ text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
+ Umbuzo: "Kusho ukuthini the Ingonyama eat?"
+ options: ["Grass", "Amanzi", "Meat", "Inhlanzi"]
+ correct_answer: "Meat"
+ xp_reward: 20
+
+ # 14. True / False
+ - id: 83
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Imbwa ni inyamaswa."
+ translation: "A Inja is an animal"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 84
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Inka iraguruka."
+ translation: "A Inkomo flies"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 85
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "Ifi iroga."
+ translation: "A Inhlanzi swims"
+ correct_answer: true
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 86
+ type: conversation
+ Umbuzo: "Respond to the Umbuzo by building a Umusho"
+ bot_message: "Iyi ni inyamaswa ki?"
+ translation: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ word_bank: ["Inka", "ni", "inyamaswa", "Imbwa", "ni", "igikeri"]
+ correct_response: ["Inka", "ni", "inyamaswa"]
+ xp_reward: 20
+
+ - id: 87
+ type: conversation
+ Umbuzo: "Respond to the Umbuzo"
+ bot_message: "Inka iri he?"
+ translation: "Where is the Inkomo?"
+ options:
+ - "Mu murima"
+ - "Mu nzu"
+ - "Ku isoko"
+ correct_response: "Mu murima"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Umusho from pieces
+ - id: 88
+ type: story
+ title: "The Inkomo and Friends"
+ story_intro: "Funda about the Izilwane. Then build the Umusho."
+ story_segments:
+ - text: "There is a Inkomo in the field."
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ - text: "The Inkomo eats grass."
+ - text: "A Inja is near the Inkomo."
+ - text: "The Inja drinks Amanzi."
+ - text: "A Inyoni flies above."
+ exercises:
+ - type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Inkomo eats grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ - type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Inja drinks Amanzi'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ - type: word_bank
+ Umbuzo: "Build the Kinyarwanda Umusho for 'The Inyoni flies above'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 89
+ type: pronunciation
+ Umbuzo: "Say the word"
+ prompt: "Inka"
+ translation: "Inkomo"
+ xp_reward: 15
+
+ - id: 90
+ type: pronunciation
+ Umbuzo: "Say the word"
+ prompt: "Imbwa"
+ translation: "Inja"
+ xp_reward: 15
+
+ - id: 91
+ type: pronunciation
+ Umbuzo: "Say the word"
+ prompt: "Injangwe"
+ translation: "Ikati"
+ xp_reward: 15
+
+ - id: 92
+ type: pronunciation
+ Umbuzo: "Say the word"
+ prompt: "Intare"
+ translation: "Ingonyama"
+ xp_reward: 15
+
+ - id: 93
+ type: pronunciation
+ Umbuzo: "Say the word"
+ prompt: "Agasumbashyamba"
+ translation: "Indlulamithi"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 94
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'amazi' mean in this Umusho?"
+ context_sentence: "Imbwa inywa amazi."
+ word: "amazi"
+ options: ["milk", "Amanzi", "Ukudla", "grass"]
+ correct_answer: "Amanzi"
+ xp_reward: 15
+
+ - id: 95
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'irya' mean in this Umusho?"
+ context_sentence: "Inka irya ibyatsi."
+ word: "irya"
+ options: ["drinks", "eats", "runs", "flies"]
+ correct_answer: "eats"
+ xp_reward: 15
+
+ # 19. Speed Qondanisa
+ - id: 96
+ type: speed_Qondanisa
+ title: "Qondanisa Madness: Izilwane"
+ time_limit_seconds: 45
+ pairs:
+ - Kwesokunxele: "Inkomo"
+ Kwesokudla: "Inka"
+ - Kwesokunxele: "Inja"
+ Kwesokudla: "Imbwa"
+ - Kwesokunxele: "Ikati"
+ Kwesokudla: "Injangwe"
+ - Kwesokunxele: "Ingonyama"
+ Kwesokudla: "Intare"
+ - Kwesokunxele: "Indlovu"
+ Kwesokudla: "Inzovu"
+ - Kwesokunxele: "Inyoni"
+ Kwesokudla: "Inyoni"
+ - Kwesokunxele: "Inhlanzi"
+ Kwesokudla: "Ifi"
+ - Kwesokunxele: "Imbuzi"
+ Kwesokudla: "Ihene"
+ - Kwesokunxele: "Imvu"
+ Kwesokudla: "Intama"
+ - Kwesokunxele: "Inkukhu"
+ Kwesokudla: "Inkoko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 97
+ type: timed_challenge
+ title: "Lightning Round: Izilwane"
+ time_limit_seconds: 30
+ Umbuzo_count: 5
+ Umbuzo:
+ - Umbuzo: "Inkomo"
+ Impendulo: "Inka"
+ - Umbuzo: "Inja"
+ Impendulo: "Imbwa"
+ - Umbuzo: "Ikati"
+ Impendulo: "Injangwe"
+ - Umbuzo: "Ingonyama"
+ Impendulo: "Intare"
+ - Umbuzo: "Indlovu"
+ Impendulo: "Inzovu"
+ xp_reward: 35
+
+# Amakhadi emfundo
+ - id: 111
+ type: Amakhadi emfundo
+ Umbuzo: "Amakhadi emfundo"
+ Amakhadi emfundo:
+ - front: "Inka"
+ back: "Inkomo"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Imbwa"
+ back: "Inja"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Injangwe"
+ back: "Ikati"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ihene"
+ back: "Imbuzi"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Intama"
+ back: "Imvu"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ingurube"
+ back: "Ingulube"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkoko"
+ back: "Inkukhu"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Urukwavu"
+ back: "Umvundla"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Indogobe"
+ back: "Idonki"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Inuma"
+ back: "Ijuba"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

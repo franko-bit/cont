@@ -1,0 +1,1059 @@
+lesson:
+  name: "Umuryango"
+  description: "Apprenez les noms des membres de la famille en kinyarwanda"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Family Members ONLY (Safe for single words)
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Mère' en kinyarwanda ?"
+    answer: "Mama"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Père' en kinyarwanda ?"
+    answer: "Data"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Frère' en kinyarwanda ?"
+    answer: "Musaza"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Sœur' en kinyarwanda ?"
+    answer: "Mushiki"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Enfant' en kinyarwanda ?"
+    answer: "Umwana"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Grand-mère' en kinyarwanda ?"
+    answer: "Nyogokuru"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Grand-père' en kinyarwanda ?"
+    answer: "Sogokuru"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Mari' en kinyarwanda ?"
+    answer: "Umugabo"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Femme' en kinyarwanda ?"
+    answer: "Umugore"
+    xp_reward: 10
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Oncle paternel' en kinyarwanda ?"
+    answer: "Datawabo"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Oncle maternel' en kinyarwanda ?"
+    answer: "Marume"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Tante paternelle' en kinyarwanda ?"
+    answer: "Masenge"
+    xp_reward: 10
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Tante maternelle' en kinyarwanda ?"
+    answer: "Nyirarume"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Petit-enfant' en kinyarwanda ?"
+    answer: "Umwuzukuru"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Arrière-petit-enfant' en kinyarwanda ?"
+    answer: "Umwuzukuruza"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Gendre' en kinyarwanda ?"
+    answer: "Umukwe"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Beau-père' en kinyarwanda ?"
+    answer: "Sebukwe"
+    xp_reward: 10
+
+  # Translation - Greetings & Basic Phrases (Safe as fixed expressions)
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Bonjour, maman !' en kinyarwanda ?"
+    answer: "Muraho, Mama!"
+    xp_reward: 12
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Bonjour, papa !' en kinyarwanda ?"
+    answer: "Muraho, Data!"
+    xp_reward: 12
+
+  - id: 20
+    type: translation
+    question: "Comment demande-t-on 'Comment va la famille ?' en kinyarwanda ?"
+    answer: "Umuryango umeze ute?"
+    xp_reward: 15
+
+  # Translation - Possession (Simple phrases with "have")
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'J'ai un frère' en kinyarwanda ?"
+    answer: "Mfite Musaza."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'J'ai une sœur' en kinyarwanda ?"
+    answer: "Mfite Mushiki."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Mon grand-père a une maison' en kinyarwanda ?"
+    answer: "Sogokuru afite inzu."
+    xp_reward: 15
+
+  # NO DIRECT TRANSLATION FOR COMPLEX SENTENCES OR PARAGRAPHS
+  # Instead, we use sentence building, matching, and word bank exercises
+
+  # 2. Choix multiples
+  - id: 24
+    type: multiple_choice
+    question: "Que signifie 'Mama' ?"
+    options:
+      - "Père"
+      - "Mère"
+      - "Frère"
+      - "Sœur"
+    answer: "Mère"
+    xp_reward: 15
+
+  - id: 25
+    type: multiple_choice
+    question: "Que signifie 'Data' ?"
+    options:
+      - "Mère"
+      - "Père"
+      - "Grand-père"
+      - "Oncle"
+    answer: "Père"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "Que signifie 'Musaza' ?"
+    options:
+      - "Sœur"
+      - "Frère"
+      - "Enfant"
+      - "Mari"
+    answer: "Frère"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "Que signifie 'Mushiki' ?"
+    options:
+      - "Frère"
+      - "Sœur"
+      - "Mère"
+      - "Tante"
+    answer: "Sœur"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "Que signifie 'Nyogokuru' ?"
+    options:
+      - "Grand-père"
+      - "Grand-mère"
+      - "Tante"
+      - "Oncle"
+    answer: "Grand-mère"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "Que signifie 'Sogokuru' ?"
+    options:
+      - "Grand-mère"
+      - "Grand-père"
+      - "Beau-père"
+      - "Oncle"
+    answer: "Grand-père"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "Que signifie 'Datawabo' ?"
+    options:
+      - "Oncle maternel"
+      - "Oncle paternel"
+      - "Beau-père"
+      - "Grand-père"
+    answer: "Oncle paternel"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "Que signifie 'Marume' ?"
+    options:
+      - "Oncle paternel"
+      - "Oncle maternel"
+      - "Frère"
+      - "Gendre"
+    answer: "Oncle maternel"
+    xp_reward: 15
+
+  # 3. ?coutez et ?crivez (dict?e) - S?r car l?audio est fourni
+  - id: 32
+    type: listen_and_type
+    question: "Écoutez et tapez le membre de la famille"
+    tts_text: "Mama"
+    answer: "Mama"
+    translation: "Mère"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Écoutez et tapez le membre de la famille"
+    tts_text: "Data"
+    answer: "Data"
+    translation: "Père"
+    xp_reward: 20
+
+  - id: 34
+    type: listen_and_type
+    question: "Écoutez et tapez le membre de la famille"
+    tts_text: "Nyogokuru"
+    answer: "Nyogokuru"
+    translation: "Grand-mère"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Mama ari mu nzu"
+    answer: "Mama ari mu nzu"
+    translation: "Maman est à la maison"
+    xp_reward: 25
+
+  - id: 36
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    tts_text: "Data ari mu kazi"
+    answer: "Data ari mu kazi"
+    translation: "Papa travaille"
+    xp_reward: 25
+
+  - id: 37
+    type: listen_and_type
+    question: "Écoutez et tapez la question"
+    tts_text: "Umuryango umeze ute"
+    answer: "Umuryango umeze ute"
+    translation: "Comment va la famille ?"
+    xp_reward: 25
+
+  # 4. Listen and Choose
+  - id: 38
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon membre de la famille"
+    tts_text: "Mama"
+    options:
+      - "Père"
+      - "Mère"
+      - "Frère"
+    answer: "Mère"
+    xp_reward: 15
+
+  - id: 39
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon membre de la famille"
+    tts_text: "Data"
+    options:
+      - "Mère"
+      - "Père"
+      - "Sœur"
+    answer: "Père"
+    xp_reward: 15
+
+  - id: 40
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon membre de la famille"
+    tts_text: "Musaza"
+    options:
+      - "Sœur"
+      - "Frère"
+      - "Enfant"
+    answer: "Frère"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    tts_text: "Mama ari mu nzu"
+    options:
+      - "Maman est à la maison"
+      - "Papa travaille"
+      - "Frère joue"
+    answer: "Maman est à la maison"
+    xp_reward: 20
+
+  # 5. R?p?ter / Exercice oral
+  - id: 42
+    type: speaking
+    question: "Dites ce membre de la famille"
+    prompt: "Mama"
+    translation: "Mère"
+    xp_reward: 15
+
+  - id: 43
+    type: speaking
+    question: "Dites ce membre de la famille"
+    prompt: "Data"
+    translation: "Père"
+    xp_reward: 15
+
+  - id: 44
+    type: speaking
+    question: "Dites ce membre de la famille"
+    prompt: "Nyogokuru"
+    translation: "Grand-mère"
+    xp_reward: 18
+
+  - id: 45
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Mama ari mu nzu"
+    translation: "Maman est à la maison"
+    xp_reward: 20
+
+  - id: 46
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Data ari mu kazi"
+    translation: "Papa travaille"
+    xp_reward: 20
+
+  - id: 47
+    type: speaking
+    question: "Dites cette question"
+    prompt: "Umuryango umeze ute"
+    translation: "Comment va la famille ?"
+    xp_reward: 20
+
+  # 6. Construction de phrases avec banque de mots - PIECES PROVIDED, NO TRANSLATION NEEDED
+  - id: 48
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Maman est à la maison'"
+    word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+    correct_answer: ["Mama", "ari", "mu nzu"]
+    xp_reward: 20
+
+  - id: 49
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Papa travaille'"
+    word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+    correct_answer: ["Data", "ari", "mu kazi"]
+    xp_reward: 20
+
+  - id: 50
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Mon frère joue dehors'"
+    word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+    correct_answer: ["Musaza", "arakina", "hanze"]
+    xp_reward: 22
+
+  - id: 51
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Ma sœur lit un livre'"
+    word_bank: ["Mushiki", "arasoma", "igitabo", "Musaza", "arakina", "hanze"]
+    correct_answer: ["Mushiki", "arasoma", "igitabo"]
+    xp_reward: 22
+
+  - id: 52
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'J'aime ma grand-mère'"
+    word_bank: ["Nkunda", "Nyogokuru", "Sogokuru", "arasaza", "cyane"]
+    correct_answer: ["Nkunda", "Nyogokuru"]
+    xp_reward: 20
+
+  - id: 53
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Mon grand-père est très vieux'"
+    word_bank: ["Sogokuru", "arasaza", "cyane", "Nyogokuru", "araduteka"]
+    correct_answer: ["Sogokuru", "arasaza", "cyane"]
+    xp_reward: 22
+
+  - id: 54
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'J'ai un frère'"
+    word_bank: ["Mfite", "Musaza", "Mushiki", "Umwana"]
+    correct_answer: ["Mfite", "Musaza"]
+    xp_reward: 18
+
+  - id: 55
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Mon grand-père a une maison'"
+    word_bank: ["Sogokuru", "afite", "inzu", "Nyogokuru", "araduteka", "ibiryo"]
+    correct_answer: ["Sogokuru", "afite", "inzu"]
+    xp_reward: 20
+
+  - id: 56
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Ma grand-mère cuisine de la nourriture'"
+    word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+    correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+    xp_reward: 22
+
+  - id: 57
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Mon oncle paternel a une chèvre'"
+    word_bank: ["Datawabo", "afite", "ihene", "Marume", "inka", "afite"]
+    correct_answer: ["Datawabo", "afite", "ihene"]
+    xp_reward: 22
+
+  - id: 58
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Mon oncle maternel a une vache'"
+    word_bank: ["Marume", "afite", "inka", "Datawabo", "ihene", "afite"]
+    correct_answer: ["Marume", "afite", "inka"]
+    xp_reward: 22
+
+  - id: 59
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Ma tante paternelle est gentille'"
+    word_bank: ["Masenge", "ni", "mwiza", "Nyirarume", "ni", "mwiza", "cyane"]
+    correct_answer: ["Masenge", "ni", "mwiza"]
+    xp_reward: 20
+
+  - id: 60
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Ma tante maternelle est très gentille'"
+    word_bank: ["Nyirarume", "ni", "mwiza", "cyane", "Masenge", "ni", "mwiza"]
+    correct_answer: ["Nyirarume", "ni", "mwiza", "cyane"]
+    xp_reward: 22
+
+  - id: 61
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Mon enfant joue'"
+    word_bank: ["Umwana", "arakinira", "Umwuzukuru", "akunda", "gusoma"]
+    correct_answer: ["Umwana", "arakinira"]
+    xp_reward: 18
+
+  - id: 62
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Mon petit-enfant aime lire'"
+    word_bank: ["Umwuzukuru", "akunda", "gusoma", "Umwana", "arakinira"]
+    correct_answer: ["Umwuzukuru", "akunda", "gusoma"]
+    xp_reward: 22
+
+  - id: 63
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Mon arrière-petit-enfant dort'"
+    word_bank: ["Umwuzukuruza", "arahunyira", "Umwuzukuru", "akunda", "gusoma"]
+    correct_answer: ["Umwuzukuruza", "arahunyira"]
+    xp_reward: 20
+
+  - id: 64
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Mon gendre est serviable'"
+    word_bank: ["Umukwe", "ni", "umufasha", "Sebukwe", "ni", "inyangamugayo"]
+    correct_answer: ["Umukwe", "ni", "umufasha"]
+    xp_reward: 20
+
+  - id: 65
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Mon beau-père est sage'"
+    word_bank: ["Sebukwe", "ni", "inyangamugayo", "Umukwe", "ni", "umufasha"]
+    correct_answer: ["Sebukwe", "ni", "inyangamugayo"]
+    xp_reward: 20
+
+  # 7. Mots m?lang?s - PIECES PROVIDED
+  - id: 66
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["ari", "Mama", "mu nzu"]
+    correct_sentence: "Mama ari mu nzu"
+    translation: "Maman est à la maison"
+    xp_reward: 20
+
+  - id: 67
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["ari", "Data", "mu kazi"]
+    correct_sentence: "Data ari mu kazi"
+    translation: "Papa travaille"
+    xp_reward: 20
+
+  - id: 68
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["arakina", "Musaza", "hanze"]
+    correct_sentence: "Musaza arakina hanze"
+    translation: "Mon frère joue dehors"
+    xp_reward: 22
+
+  - id: 69
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["arasoma", "Mushiki", "igitabo"]
+    correct_sentence: "Mushiki arasoma igitabo"
+    translation: "Ma sœur lit un livre"
+    xp_reward: 22
+
+  - id: 70
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["Nkunda", "Nyogokuru"]
+    correct_sentence: "Nkunda Nyogokuru"
+    translation: "J'aime ma grand-mère"
+    xp_reward: 18
+
+  - id: 71
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["arasaza", "Sogokuru", "cyane"]
+    correct_sentence: "Sogokuru arasaza cyane"
+    translation: "Mon grand-père est très vieux"
+    xp_reward: 20
+
+  - id: 72
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["afite", "Sogokuru", "inzu"]
+    correct_sentence: "Sogokuru afite inzu"
+    translation: "Mon grand-père a une maison"
+    xp_reward: 20
+
+  - id: 73
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte en kinyarwanda"
+    scrambled_words: ["araduteka", "Nyogokuru", "ibiryo"]
+    correct_sentence: "Nyogokuru araduteka ibiryo"
+    translation: "Ma grand-mère cuisine de la nourriture"
+    xp_reward: 22
+
+  # 8. Compl?ter le texte - CHOOSE FROM OPTIONS
+  - id: 74
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Mama ___ mu nzu."
+    options: ["ari", "ni", "afite"]
+    correct_answer: "ari"
+    translation: "Maman est à la maison"
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Data ___ mu kazi."
+    options: ["ari", "ni", "afite"]
+    correct_answer: "ari"
+    translation: "Papa travaille"
+    xp_reward: 15
+
+  - id: 76
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Musaza ___ hanze."
+    options: ["arakina", "arasoma", "ari"]
+    correct_answer: "arakina"
+    translation: "Mon frère joue dehors"
+    xp_reward: 18
+
+  - id: 77
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Mushiki ___ igitabo."
+    options: ["arasoma", "arakina", "ari"]
+    correct_answer: "arasoma"
+    translation: "Ma sœur lit un livre"
+    xp_reward: 18
+
+  - id: 78
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Nkunda ___."
+    options: ["Nyogokuru", "Sogokuru", "Data"]
+    correct_answer: "Nyogokuru"
+    translation: "J'aime ma grand-mère"
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Sogokuru arasaza ___."
+    options: ["cyane", "neza", "nziza"]
+    correct_answer: "cyane"
+    translation: "Mon grand-père est très vieux"
+    xp_reward: 15
+
+  - id: 80
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Sogokuru ___ inzu."
+    options: ["afite", "ari", "ni"]
+    correct_answer: "afite"
+    translation: "Mon grand-père a une maison"
+    xp_reward: 15
+
+  - id: 81
+    type: fill_blank
+    question: "Choisissez le mot correct pour compléter la phrase"
+    text_with_blank: "Nyogokuru araduteka ___."
+    options: ["ibiryo", "amazi", "inyama"]
+    correct_answer: "ibiryo"
+    translation: "Ma grand-mère cuisine de la nourriture"
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 82
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Mama", "Data", "Nyogokuru", "Sogokuru"]
+    correct_answer: "Mama"
+    xp_reward: 10
+
+  - id: 83
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Mama", "Data", "Musaza", "Mushiki"]
+    correct_answer: "Data"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Nyogokuru", "Sogokuru", "Mama", "Data"]
+    correct_answer: "Nyogokuru"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1581007115376-1f8732065a2a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Sogokuru", "Nyogokuru", "Data", "Marume"]
+    correct_answer: "Sogokuru"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Musaza", "Mushiki", "Umwana", "Data"]
+    correct_answer: "Musaza"
+    xp_reward: 10
+
+  - id: 87
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Mushiki", "Musaza", "Mama", "Nyogokuru"]
+    correct_answer: "Mushiki"
+    xp_reward: 10
+
+  - id: 88
+    type: picture_word
+    question: "Qui est ce membre de la famille ?"
+    image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Umwana", "Umwuzukuru", "Musaza", "Mushiki"]
+    correct_answer: "Umwana"
+    xp_reward: 10
+
+  # 10. Association de mots (Pairing)
+  - id: 90
+    type: matching
+    question: "Associez les membres de la famille"
+    pairs:
+      - left: "Mère"
+        right: "Mama"
+      - left: "Père"
+        right: "Data"
+      - left: "Frère"
+        right: "Musaza"
+      - left: "Sœur"
+        right: "Mushiki"
+      - left: "Enfant"
+        right: "Umwana"
+      - left: "Grand-mère"
+        right: "Nyogokuru"
+      - left: "Grand-père"
+        right: "Sogokuru"
+      - left: "Mari"
+        right: "Umugabo"
+      - left: "Femme"
+        right: "Umugore"
+    xp_reward: 25
+
+  - id: 91
+    type: matching
+    question: "Associez les membres de la famille élargie"
+    pairs:
+      - left: "Oncle paternel"
+        right: "Datawabo"
+      - left: "Oncle maternel"
+        right: "Marume"
+      - left: "Tante paternelle"
+        right: "Masenge"
+      - left: "Tante maternelle"
+        right: "Nyirarume"
+      - left: "Petit-enfant"
+        right: "Umwuzukuru"
+      - left: "Arrière-petit-enfant"
+        right: "Umwuzukuruza"
+      - left: "Gendre"
+        right: "Umukwe"
+      - left: "Beau-père"
+        right: "Sebukwe"
+    xp_reward: 25
+
+  - id: 92
+    type: matching
+    question: "Associez les actions avec les membres de la famille"
+    pairs:
+      - left: "est à la maison"
+        right: "ari mu nzu"
+      - left: "travaille"
+        right: "ari mu kazi"
+      - left: "joue dehors"
+        right: "arakina hanze"
+      - left: "lit un livre"
+        right: "arasoma igitabo"
+      - left: "cuisine de la nourriture"
+        right: "araduteka ibiryo"
+      - left: "a une maison"
+        right: "afite inzu"
+    xp_reward: 25
+
+  # 11. Choisir le mot manquant
+  - id: 97
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Mama ___ mu nzu."
+    missing_word_position: 2
+    options: ["ari", "ni", "afite"]
+    correct_answer: "ari"
+    translation: "Maman est à la maison"
+    xp_reward: 15
+
+  - id: 98
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Data ___ mu kazi."
+    missing_word_position: 2
+    options: ["ari", "ni", "afite"]
+    correct_answer: "ari"
+    translation: "Papa travaille"
+    xp_reward: 15
+
+  - id: 99
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Musaza ___ hanze."
+    missing_word_position: 2
+    options: ["arakina", "arasoma", "ari"]
+    correct_answer: "arakina"
+    translation: "Mon frère joue dehors"
+    xp_reward: 18
+
+  # 12. Lire et r?pondre - Questions in French, answers based on Kinyarwanda text
+  - id: 100
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Mama ari mu nzu. Data ari mu kazi."
+    question: "Où est la mère ?"
+    options: ["À la maison", "Au travail", "Dehors", "Au marché"]
+    correct_answer: "À la maison"
+    xp_reward: 20
+
+  - id: 101
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+    question: "Que fait la sœur ?"
+    options: ["Joue", "Lit un livre", "Travaille", "Cuisine"]
+    correct_answer: "Lit un livre"
+    xp_reward: 22
+
+  - id: 102
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+    question: "Qu'est-ce que le grand-père a ?"
+    options: ["Une vache", "Une maison", "Une chèvre", "Un livre"]
+    correct_answer: "Une maison"
+    xp_reward: 20
+
+  - id: 103
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Datawabo afite ihene. Marume afite inka."
+    question: "Qu'est-ce que l'oncle maternel a ?"
+    options: ["Une chèvre", "Une vache", "Une maison", "Un poulet"]
+    correct_answer: "Une vache"
+    xp_reward: 22
+
+  # 13. Vrai / Faux
+  - id: 104
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Mama ni umugore."
+    translation: "La mère est une femme"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 105
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Data ni umugore."
+    translation: "Le père est une femme"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 106
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Nyogokuru arasaza cyane."
+    translation: "La grand-mère est très vieille"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 107
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Umwana arakina hanze."
+    translation: "L'enfant joue dehors"
+    correct_answer: true
+    xp_reward: 10
+
+  # 14. Exercice de conversation - Build responses from pieces
+  - id: 108
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Mama ari he?"
+    translation: "Où est maman ?"
+    word_bank: ["Mama", "ari", "mu nzu", "Data", "ari", "mu kazi"]
+    correct_response: ["Mama", "ari", "mu nzu"]
+    xp_reward: 20
+
+  - id: 109
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Umuryango umeze ute?"
+    translation: "Comment va la famille ?"
+    options:
+      - "Umeze neza"
+      - "Umeze nabi"
+      - "Umeze ute"
+    correct_response: "Umeze neza"
+    xp_reward: 15
+
+  - id: 110
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Data ari he?"
+    translation: "Où est papa ?"
+    word_bank: ["Data", "ari", "mu kazi", "Mama", "ari", "mu nzu"]
+    correct_response: ["Data", "ari", "mu kazi"]
+    xp_reward: 20
+
+  # 15. Exercice de narration - Build sentences from pieces
+  - id: 111
+    type: story
+    title: "Ma famille - Umuryango Wanjye"
+    story_intro: "Lisez l'histoire sur la famille. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "Ma mère est à la maison."
+        image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+      - text: "Mon père travaille."
+      - text: "Mon frère joue dehors."
+      - text: "Ma sœur lit un livre."
+      - text: "Ma grand-mère cuisine de la nourriture."
+      - text: "Mon grand-père a une maison."
+    exercises:
+      - type: word_bank
+        question: "Construisez la phrase en kinyarwanda pour 'Ma mère est à la maison'"
+        word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+        correct_answer: ["Mama", "ari", "mu nzu"]
+      - type: word_bank
+        question: "Construisez la phrase en kinyarwanda pour 'Mon père travaille'"
+        word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+        correct_answer: ["Data", "ari", "mu kazi"]
+      - type: word_bank
+        question: "Construisez la phrase en kinyarwanda pour 'Mon frère joue dehors'"
+        word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+        correct_answer: ["Musaza", "arakina", "hanze"]
+      - type: word_bank
+        question: "Construisez la phrase en kinyarwanda pour 'Ma grand-mère cuisine de la nourriture'"
+        word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+        correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+    xp_reward: 40
+
+  # 16. V?rification de la prononciation
+  - id: 112
+    type: pronunciation
+    question: "Dites ce membre de la famille"
+    prompt: "Mama"
+    translation: "Mère"
+    xp_reward: 15
+
+  - id: 113
+    type: pronunciation
+    question: "Dites ce membre de la famille"
+    prompt: "Nyogokuru"
+    translation: "Grand-mère"
+    xp_reward: 18
+
+  - id: 114
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Mama ari mu nzu"
+    translation: "Maman est à la maison"
+    xp_reward: 20
+
+  # 17. Identifier le bon sens
+  - id: 115
+    type: identify_meaning
+    question: "Que signifie 'Mama' dans cette phrase ?"
+    context_sentence: "Mama ari mu nzu."
+    word: "Mama"
+    options: ["père", "mère", "frère", "sœur"]
+    correct_answer: "mère"
+    xp_reward: 15
+
+  - id: 116
+    type: identify_meaning
+    question: "Que signifie 'arakina' dans cette phrase ?"
+    context_sentence: "Musaza arakina hanze."
+    word: "arakina"
+    options: ["lit", "joue", "travaille", "cuisine"]
+    correct_answer: "joue"
+    xp_reward: 18
+
+  - id: 117
+    type: identify_meaning
+    question: "Que signifie 'araduteka' dans cette phrase ?"
+    context_sentence: "Nyogokuru araduteka ibiryo."
+    word: "araduteka"
+    options: ["cuisine", "mange", "a", "aime"]
+    correct_answer: "cuisine"
+    xp_reward: 18
+
+  # 18. Association rapide
+  - id: 118
+    type: speed_matching
+    title: "Match Madness : Famille"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Mère"
+        right: "Mama"
+      - left: "Père"
+        right: "Data"
+      - left: "Frère"
+        right: "Musaza"
+      - left: "Sœur"
+        right: "Mushiki"
+      - left: "Grand-mère"
+        right: "Nyogokuru"
+      - left: "Grand-père"
+        right: "Sogokuru"
+      - left: "Enfant"
+        right: "Umwana"
+      - left: "Mari"
+        right: "Umugabo"
+      - left: "Femme"
+        right: "Umugore"
+    xp_reward: 30
+
+  # 19. D?fis chronom?tr?s
+  - id: 119
+    type: timed_challenge
+    title: "Tour éclair : Famille"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Mère"
+        answer: "Mama"
+      - question: "Père"
+        answer: "Data"
+      - question: "Frère"
+        answer: "Musaza"
+      - question: "Sœur"
+        answer: "Mushiki"
+      - question: "Grand-mère"
+        answer: "Nyogokuru"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Mama"
+      back: "Mère"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Data"
+      back: "Père"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Musaza"
+      back: "Frère"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Mushiki"
+      back: "Sœur"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Umwana"
+      back: "Enfant"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Nyogokuru"
+      back: "Grand-mère"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Sogokuru"
+      back: "Grand-père"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Umugabo"
+      back: "Mari"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Umugore"
+      back: "Femme"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Datawabo"
+      back: "Oncle paternel"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

@@ -1,0 +1,1060 @@
+lesson:
+ name: "Famiglia - Umuryango"
+ description: "Impara Famiglia member names in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Famiglia Members ONLY (Safe per single words)
+ - id: 1
+ type: translation
+ Domanda: "venire si dice 'Mother' in kinyarwanda?"
+ Risposta: "Mama"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Domanda: "venire si dice 'Father' in kinyarwanda?"
+ Risposta: "Data"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Domanda: "venire si dice 'Brother' in kinyarwanda?"
+ Risposta: "Musaza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Domanda: "venire si dice 'Sister' in kinyarwanda?"
+ Risposta: "Mushiki"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Domanda: "venire si dice 'Child' in kinyarwanda?"
+ Risposta: "Umwana"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Domanda: "venire si dice 'Grandmother' in kinyarwanda?"
+ Risposta: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Domanda: "venire si dice 'Grandfather' in kinyarwanda?"
+ Risposta: "Sogokuru"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Domanda: "venire si dice 'Husband' in kinyarwanda?"
+ Risposta: "Umugabo"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Domanda: "venire si dice 'Wife' in kinyarwanda?"
+ Risposta: "Umugore"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Domanda: "venire si dice 'Paternal uncle' in kinyarwanda?"
+ Risposta: "Datawabo"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Domanda: "venire si dice 'Maternal uncle' in kinyarwanda?"
+ Risposta: "Marume"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Domanda: "venire si dice 'Paternal aunt' in kinyarwanda?"
+ Risposta: "Masenge"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Domanda: "venire si dice 'Maternal aunt' in kinyarwanda?"
+ Risposta: "Nyirarume"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Domanda: "venire si dice 'Grandchild' in kinyarwanda?"
+ Risposta: "Umwuzukuru"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Domanda: "venire si dice 'Great-grandchild' in kinyarwanda?"
+ Risposta: "Umwuzukuruza"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Domanda: "venire si dice 'Son-in-law / Groom' in kinyarwanda?"
+ Risposta: "Umukwe"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Domanda: "venire si dice 'Father-in-law' in kinyarwanda?"
+ Risposta: "Sebukwe"
+ xp_reward: 10
+
+ # Translation - Greetings & Basic Phrases (Safe un fixed expressions)
+ - id: 18
+ type: translation
+ Domanda: "venire si dice 'Ciao, mother!' in kinyarwanda?"
+ Risposta: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 19
+ type: translation
+ Domanda: "venire si dice 'Ciao, father!' in kinyarwanda?"
+ Risposta: "Muraho, Data!"
+ xp_reward: 12
+
+ - id: 20
+ type: translation
+ Domanda: "venire si chiede 'How è il Famiglia?' in kinyarwanda?"
+ Risposta: "Umuryango umeze ute?"
+ xp_reward: 15
+
+ # Translation - Possession (Simple phrases con "have")
+ - id: 21
+ type: translation
+ Domanda: "venire si dice 'I have un brother' in kinyarwanda?"
+ Risposta: "Mfite Musaza."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Domanda: "venire si dice 'I have un sister' in kinyarwanda?"
+ Risposta: "Mfite Mushiki."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Domanda: "venire si dice 'My grandfather has un Casa' in kinyarwanda?"
+ Risposta: "Sogokuru afite inzu."
+ xp_reward: 15
+
+ # no DIRECT TRANSLATION per COMPLEX Frase o PARAGRAPHS
+ # Instead, we use Frase building, Abbina, e word bank exercises
+
+ # 2. Multiple Choice
+ - id: 24
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Mama' in questa frase?"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ - "Sister"
+ Risposta: "Mother"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Data' in questa frase?"
+ options:
+ - "Mother"
+ - "Father"
+ - "Grandfather"
+ - "Uncle"
+ Risposta: "Father"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Musaza' in questa frase?"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ - "Husband"
+ Risposta: "Brother"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Mushiki' in questa frase?"
+ options:
+ - "Brother"
+ - "Sister"
+ - "Mother"
+ - "Aunt"
+ Risposta: "Sister"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Nyogokuru' in questa frase?"
+ options:
+ - "Grandfather"
+ - "Grandmother"
+ - "Aunt"
+ - "Uncle"
+ Risposta: "Grandmother"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Sogokuru' in questa frase?"
+ options:
+ - "Grandmother"
+ - "Grandfather"
+ - "Father-in-law"
+ - "Uncle"
+ Risposta: "Grandfather"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Datawabo' in questa frase?"
+ options:
+ - "Maternal uncle"
+ - "Paternal uncle"
+ - "Father-in-law"
+ - "Grandfather"
+ Risposta: "Paternal uncle"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Domanda: "Che cosa significa 'Marume' in questa frase?"
+ options:
+ - "Paternal uncle"
+ - "Maternal uncle"
+ - "Brother"
+ - "Son-in-law"
+ Risposta: "Maternal uncle"
+ xp_reward: 15
+
+ # 3. Ascolta e Type (Dictation) - Safe because audio è provided
+ - id: 32
+ type: listen_e_type
+ Domanda: "Ascolta e type il Famiglia member"
+ tts_text: "Mama"
+ Risposta: "Mama"
+ translation: "Mother"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_e_type
+ Domanda: "Ascolta e type il Famiglia member"
+ tts_text: "Data"
+ Risposta: "Data"
+ translation: "Father"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_e_type
+ Domanda: "Ascolta e type il Famiglia member"
+ tts_text: "Nyogokuru"
+ Risposta: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_e_type
+ Domanda: "Ascolta e type il phrase"
+ tts_text: "Mama ari mu nzu"
+ Risposta: "Mama ari mu nzu"
+ translation: "Mother è at home"
+ xp_reward: 25
+
+ - id: 36
+ type: listen_e_type
+ Domanda: "Ascolta e type il phrase"
+ tts_text: "Data ari mu kazi"
+ Risposta: "Data ari mu kazi"
+ translation: "Father è working"
+ xp_reward: 25
+
+ - id: 37
+ type: listen_e_type
+ Domanda: "Ascolta e type il Domanda"
+ tts_text: "Umuryango umeze ute"
+ Risposta: "Umuryango umeze ute"
+ translation: "How è il Famiglia?"
+ xp_reward: 25
+
+ # 4. Ascolta e Scegli
+ - id: 38
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct Famiglia member"
+ tts_text: "Mama"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ Risposta: "Mother"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct Famiglia member"
+ tts_text: "Data"
+ options:
+ - "Mother"
+ - "Father"
+ - "Sister"
+ Risposta: "Father"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct Famiglia member"
+ tts_text: "Musaza"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ Risposta: "Brother"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_e_choose
+ Domanda: "Ascolta e Scegli il correct phrase"
+ tts_text: "Mama ari mu nzu"
+ options:
+ - "Mother è at home"
+ - "Father è working"
+ - "Brother è playing"
+ Risposta: "Mother è at home"
+ xp_reward: 20
+
+ # 5. Repeat / Parla Exercise
+ - id: 42
+ type: Parla
+ Domanda: "Say questo Famiglia member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 43
+ type: Parla
+ Domanda: "Say questo Famiglia member"
+ prompt: "Data"
+ translation: "Father"
+ xp_reward: 15
+
+ - id: 44
+ type: Parla
+ Domanda: "Say questo Famiglia member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 45
+ type: Parla
+ Domanda: "Say questo Frase"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother è at home"
+ xp_reward: 20
+
+ - id: 46
+ type: Parla
+ Domanda: "Say questo Frase"
+ prompt: "Data ari mu kazi"
+ translation: "Father è working"
+ xp_reward: 20
+
+ - id: 47
+ type: Parla
+ Domanda: "Say questo Domanda"
+ prompt: "Umuryango umeze ute"
+ translation: "How è il Famiglia?"
+ xp_reward: 20
+
+ # 6. Word Bank Frase Building - PIECES PROVIDED, no TRANSLATION NEEDED
+ - id: 48
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'Mother è at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 49
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'Father è working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ xp_reward: 22
+
+ - id: 51
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My sister Leggi un book'"
+ word_bank: ["Mushiki", "arasoma", "igitabo", "Musaza", "arakina", "hanze"]
+ correct_answer: ["Mushiki", "arasoma", "igitabo"]
+ xp_reward: 22
+
+ - id: 52
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'I love my grandmother'"
+ word_bank: ["Nkunda", "Nyogokuru", "Sogokuru", "arasaza", "cyane"]
+ correct_answer: ["Nkunda", "Nyogokuru"]
+ xp_reward: 20
+
+ - id: 53
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My grandfather è molto vecchio'"
+ word_bank: ["Sogokuru", "arasaza", "cyane", "Nyogokuru", "araduteka"]
+ correct_answer: ["Sogokuru", "arasaza", "cyane"]
+ xp_reward: 22
+
+ - id: 54
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'I have un brother'"
+ word_bank: ["Mfite", "Musaza", "Mushiki", "Umwana"]
+ correct_answer: ["Mfite", "Musaza"]
+ xp_reward: 18
+
+ - id: 55
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My grandfather has un Casa'"
+ word_bank: ["Sogokuru", "afite", "inzu", "Nyogokuru", "araduteka", "ibiryo"]
+ correct_answer: ["Sogokuru", "afite", "inzu"]
+ xp_reward: 20
+
+ - id: 56
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My grandmother cooks Cibo'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 22
+
+ - id: 57
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My paternal uncle has un Capra'"
+ word_bank: ["Datawabo", "afite", "ihene", "Marume", "inka", "afite"]
+ correct_answer: ["Datawabo", "afite", "ihene"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My maternal uncle has un Mucca'"
+ word_bank: ["Marume", "afite", "inka", "Datawabo", "ihene", "afite"]
+ correct_answer: ["Marume", "afite", "inka"]
+ xp_reward: 22
+
+ - id: 59
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My paternal aunt è kind'"
+ word_bank: ["Masenge", "ni", "mwiza", "Nyirarume", "ni", "mwiza", "cyane"]
+ correct_answer: ["Masenge", "ni", "mwiza"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My maternal aunt è molto nice'"
+ word_bank: ["Nyirarume", "ni", "mwiza", "cyane", "Masenge", "ni", "mwiza"]
+ correct_answer: ["Nyirarume", "ni", "mwiza", "cyane"]
+ xp_reward: 22
+
+ - id: 61
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My child è playing'"
+ word_bank: ["Umwana", "arakinira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwana", "arakinira"]
+ xp_reward: 18
+
+ - id: 62
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My grandchild likes a Leggi'"
+ word_bank: ["Umwuzukuru", "akunda", "gusoma", "Umwana", "arakinira"]
+ correct_answer: ["Umwuzukuru", "akunda", "gusoma"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My great-grandchild sleeps'"
+ word_bank: ["Umwuzukuruza", "arahunyira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwuzukuruza", "arahunyira"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My son-in-law è helpful'"
+ word_bank: ["Umukwe", "ni", "umufasha", "Sebukwe", "ni", "inyangamugayo"]
+ correct_answer: ["Umukwe", "ni", "umufasha"]
+ xp_reward: 20
+
+ - id: 65
+ type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My father-in-law è wise'"
+ word_bank: ["Sebukwe", "ni", "inyangamugayo", "Umukwe", "ni", "umufasha"]
+ correct_answer: ["Sebukwe", "ni", "inyangamugayo"]
+ xp_reward: 20
+
+ # 7. Frase Scramble - PIECES PROVIDED
+ - id: 66
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Kinyarwanda Frase"
+ scrambled_words: ["ari", "Mama", "mu nzu"]
+ correct_sentence: "Mama ari mu nzu"
+ translation: "Mother è at home"
+ xp_reward: 20
+
+ - id: 67
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Kinyarwanda Frase"
+ scrambled_words: ["ari", "Data", "mu kazi"]
+ correct_sentence: "Data ari mu kazi"
+ translation: "Father è working"
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Kinyarwanda Frase"
+ scrambled_words: ["arakina", "Musaza", "hanze"]
+ correct_sentence: "Musaza arakina hanze"
+ translation: "My brother plays outside"
+ xp_reward: 22
+
+ - id: 69
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Kinyarwanda Frase"
+ scrambled_words: ["arasoma", "Mushiki", "igitabo"]
+ correct_sentence: "Mushiki arasoma igitabo"
+ translation: "My sister Leggi un book"
+ xp_reward: 22
+
+ - id: 70
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Kinyarwanda Frase"
+ scrambled_words: ["Nkunda", "Nyogokuru"]
+ correct_sentence: "Nkunda Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Kinyarwanda Frase"
+ scrambled_words: ["arasaza", "Sogokuru", "cyane"]
+ correct_sentence: "Sogokuru arasaza cyane"
+ translation: "My grandfather è molto vecchio"
+ xp_reward: 20
+
+ - id: 72
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Kinyarwanda Frase"
+ scrambled_words: ["afite", "Sogokuru", "inzu"]
+ correct_sentence: "Sogokuru afite inzu"
+ translation: "My grandfather has un Casa"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Domanda: "Arrange these words a form un correct Kinyarwanda Frase"
+ scrambled_words: ["araduteka", "Nyogokuru", "ibiryo"]
+ correct_sentence: "Nyogokuru araduteka ibiryo"
+ translation: "My grandmother cooks Cibo"
+ xp_reward: 22
+
+ # 8. Fill in il Blank - Scegli FROM OPTIONS
+ - id: 74
+ type: fill_blank
+ Domanda: "Scegli il correct word a complete il Frase"
+ text_con_blank: "Mama ___ mu nzu."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother è at home"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ Domanda: "Scegli il correct word a complete il Frase"
+ text_con_blank: "Data ___ mu kazi."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father è working"
+ xp_reward: 15
+
+ - id: 76
+ type: fill_blank
+ Domanda: "Scegli il correct word a complete il Frase"
+ text_con_blank: "Musaza ___ hanze."
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ - id: 77
+ type: fill_blank
+ Domanda: "Scegli il correct word a complete il Frase"
+ text_con_blank: "Mushiki ___ igitabo."
+ options: ["arasoma", "arakina", "ari"]
+ correct_answer: "arasoma"
+ translation: "My sister Leggi un book"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ Domanda: "Scegli il correct word a complete il Frase"
+ text_con_blank: "Nkunda ___."
+ options: ["Nyogokuru", "Sogokuru", "Data"]
+ correct_answer: "Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ Domanda: "Scegli il correct word a complete il Frase"
+ text_con_blank: "Sogokuru arasaza ___."
+ options: ["cyane", "neza", "nziza"]
+ correct_answer: "cyane"
+ translation: "My grandfather è molto vecchio"
+ xp_reward: 15
+
+ - id: 80
+ type: fill_blank
+ Domanda: "Scegli il correct word a complete il Frase"
+ text_con_blank: "Sogokuru ___ inzu."
+ options: ["afite", "ari", "ni"]
+ correct_answer: "afite"
+ translation: "My grandfather has un Casa"
+ xp_reward: 15
+
+ - id: 81
+ type: fill_blank
+ Domanda: "Scegli il correct word a complete il Frase"
+ text_con_blank: "Nyogokuru araduteka ___."
+ options: ["ibiryo", "amazi", "inyama"]
+ correct_answer: "ibiryo"
+ translation: "My grandmother cooks Cibo"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 82
+ type: picture_word
+ Domanda: "Who è questo Famiglia member?"
+ image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Nyogokuru", "Sogokuru"]
+ correct_answer: "Mama"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ Domanda: "Who è questo Famiglia member?"
+ image_url: "https://source.unsplash.com/featured/?fatherhttps://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Musaza", "Mushiki"]
+ correct_answer: "Data"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ Domanda: "Who è questo Famiglia member?"
+ image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Nyogokuru", "Sogokuru", "Mama", "Data"]
+ correct_answer: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ Domanda: "Who è questo Famiglia member?"
+ image_url: "https://source.unsplash.com/featured/?grandfather"
+ options: ["Sogokuru", "Nyogokuru", "Data", "Marume"]
+ correct_answer: "Sogokuru"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Domanda: "Who è questo Famiglia member?"
+ image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Musaza", "Mushiki", "Umwana", "Data"]
+ correct_answer: "Musaza"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ Domanda: "Who è questo Famiglia member?"
+ image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mushiki", "Musaza", "Mama", "Nyogokuru"]
+ correct_answer: "Mushiki"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ Domanda: "Who è questo Famiglia member?"
+ image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umwana", "Umwuzukuru", "Musaza", "Mushiki"]
+ correct_answer: "Umwana"
+ xp_reward: 10
+
+ 
+ # 10. Word Abbina (Pairing)
+ - id: 90
+ type: Abbina
+ Domanda: "Abbina il Famiglia members"
+ pairs:
+ - Sinistra: "Mother"
+ Destra: "Mama"
+ - Sinistra: "Father"
+ Destra: "Data"
+ - Sinistra: "Brother"
+ Destra: "Musaza"
+ - Sinistra: "Sister"
+ Destra: "Mushiki"
+ - Sinistra: "Child"
+ Destra: "Umwana"
+ - Sinistra: "Grandmother"
+ Destra: "Nyogokuru"
+ - Sinistra: "Grandfather"
+ Destra: "Sogokuru"
+ - Sinistra: "Husband"
+ Destra: "Umugabo"
+ - Sinistra: "Wife"
+ Destra: "Umugore"
+ xp_reward: 25
+
+ - id: 91
+ type: Abbina
+ Domanda: "Abbina il extended Famiglia members"
+ pairs:
+ - Sinistra: "Paternal uncle"
+ Destra: "Datawabo"
+ - Sinistra: "Maternal uncle"
+ Destra: "Marume"
+ - Sinistra: "Paternal aunt"
+ Destra: "Masenge"
+ - Sinistra: "Maternal aunt"
+ Destra: "Nyirarume"
+ - Sinistra: "Grandchild"
+ Destra: "Umwuzukuru"
+ - Sinistra: "Great-grandchild"
+ Destra: "Umwuzukuruza"
+ - Sinistra: "Son-in-law"
+ Destra: "Umukwe"
+ - Sinistra: "Father-in-law"
+ Destra: "Sebukwe"
+ xp_reward: 25
+
+ - id: 92
+ type: Abbina
+ Domanda: "Abbina il actions con Famiglia members"
+ pairs:
+ - Sinistra: "è at home"
+ Destra: "ari mu nzu"
+ - Sinistra: "è working"
+ Destra: "ari mu kazi"
+ - Sinistra: "plays outside"
+ Destra: "arakina hanze"
+ - Sinistra: "Leggi un book"
+ Destra: "arasoma igitabo"
+ - Sinistra: "cooks Cibo"
+ Destra: "araduteka ibiryo"
+ - Sinistra: "has un Casa"
+ Destra: "afite inzu"
+ xp_reward: 25
+
+ # 11. Scegli Missing Word
+ - id: 97
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Mama ___ mu nzu."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother è at home"
+ xp_reward: 15
+
+ - id: 98
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Data ___ mu kazi."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father è working"
+ xp_reward: 15
+
+ - id: 99
+ type: choose_missing
+ Domanda: "Scegli il missing word"
+ Frase: "Musaza ___ hanze."
+ missing_word_position: 2
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ # 12. Leggi e Risposta - Domanda in English, Risposta based su Kinyarwanda text
+ - id: 100
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Mama ari mu nzu. Data ari mu kazi."
+ Domanda: "Where è il mother?"
+ options: ["At home", "At work", "Outside", "At il Mercato"]
+ correct_answer: "At home"
+ xp_reward: 20
+
+ - id: 101
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+ Domanda: "Cos'è il sister doing?"
+ options: ["Playing", "Leggi un book", "Working", "Cooking"]
+ correct_answer: "Leggi un book"
+ xp_reward: 22
+
+ - id: 102
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+ Domanda: "Che cosa significa il grandfather have?"
+ options: ["un Mucca", "un Casa", "un Capra", "un book"]
+ correct_answer: "un Casa"
+ xp_reward: 20
+
+ - id: 103
+ type: read_answer
+ Domanda: "Leggi il text e Risposta il Domanda"
+ text: "Datawabo afite ihene. Marume afite inka."
+ Domanda: "Che cosa significa il maternal uncle have?"
+ options: ["un Capra", "un Mucca", "un Casa", "un Pollo"]
+ correct_answer: "un Mucca"
+ xp_reward: 22
+
+ # 13. True / False
+ - id: 104
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Mama ni umugore."
+ translation: "Mother è un woman"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 105
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Data ni umugore."
+ translation: "Father è un woman"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 106
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Nyogokuru arasaza cyane."
+ translation: "Grandmother è molto vecchio"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 107
+ type: true_false
+ Domanda: "è questo statement true o false?"
+ statement: "Umwana arakina hanze."
+ translation: "il child plays outside"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 108
+ type: conversation
+ Domanda: "Respond a il Domanda by building un Frase"
+ bot_message: "Mama ari he?"
+ translation: "Where è mother?"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "ari", "mu kazi"]
+ correct_response: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 109
+ type: conversation
+ Domanda: "Respond a il Domanda"
+ bot_message: "Umuryango umeze ute?"
+ translation: "How è il Famiglia?"
+ options:
+ - "Umeze neza"
+ - "Umeze nabi"
+ - "Umeze ute"
+ correct_response: "Umeze neza"
+ xp_reward: 15
+
+ - id: 110
+ type: conversation
+ Domanda: "Respond a il Domanda by building un Frase"
+ bot_message: "Data ari he?"
+ translation: "Where è father?"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "ari", "mu nzu"]
+ correct_response: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build Frase from pieces
+ - id: 111
+ type: story
+ title: "My Famiglia - Umuryango Wanjye"
+ story_intro: "Leggi about il Famiglia. Then build il Frase."
+ story_segments:
+ - text: "My mother è at home."
+ image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+ - text: "My father è working."
+ - text: "My brother plays outside."
+ - text: "My sister Leggi un book."
+ - text: "My grandmother cooks Cibo."
+ - text: "My grandfather has un Casa."
+ exercises:
+ - type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My mother è at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ - type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My father è working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ - type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ - type: word_bank
+ Domanda: "Build il Kinyarwanda Frase per 'My grandmother cooks Cibo'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 112
+ type: pronunciation
+ Domanda: "Say questo Famiglia member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ Domanda: "Say questo Famiglia member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ Domanda: "Say questo Frase"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother è at home"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 115
+ type: identify_meaning
+ Domanda: "Che cosa significa 'Mama' mean in questo Frase?"
+ context_sentence: "Mama ari mu nzu."
+ word: "Mama"
+ options: ["father", "mother", "brother", "sister"]
+ correct_answer: "mother"
+ xp_reward: 15
+
+ - id: 116
+ type: identify_meaning
+ Domanda: "Che cosa significa 'arakina' mean in questo Frase?"
+ context_sentence: "Musaza arakina hanze."
+ word: "arakina"
+ options: ["Leggi", "plays", "works", "cooks"]
+ correct_answer: "plays"
+ xp_reward: 18
+
+ - id: 117
+ type: identify_meaning
+ Domanda: "Che cosa significa 'araduteka' mean in questo Frase?"
+ context_sentence: "Nyogokuru araduteka ibiryo."
+ word: "araduteka"
+ options: ["cooks", "mangiare", "has", "loves"]
+ correct_answer: "cooks"
+ xp_reward: 18
+
+ # 18. Speed Abbina
+ - id: 118
+ type: speed_Abbina
+ title: "Abbina Madness: Famiglia"
+ time_limit_seconds: 45
+ pairs:
+ - Sinistra: "Mother"
+ Destra: "Mama"
+ - Sinistra: "Father"
+ Destra: "Data"
+ - Sinistra: "Brother"
+ Destra: "Musaza"
+ - Sinistra: "Sister"
+ Destra: "Mushiki"
+ - Sinistra: "Grandmother"
+ Destra: "Nyogokuru"
+ - Sinistra: "Grandfather"
+ Destra: "Sogokuru"
+ - Sinistra: "Child"
+ Destra: "Umwana"
+ - Sinistra: "Husband"
+ Destra: "Umugabo"
+ - Sinistra: "Wife"
+ Destra: "Umugore"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 119
+ type: timed_challenge
+ title: "Lightning Round: Famiglia"
+ time_limit_seconds: 30
+ Domanda_count: 5
+ Domanda:
+ - Domanda: "Mother"
+ Risposta: "Mama"
+ - Domanda: "Father"
+ Risposta: "Data"
+ - Domanda: "Brother"
+ Risposta: "Musaza"
+ - Domanda: "Sister"
+ Risposta: "Mushiki"
+ - Domanda: "Grandmother"
+ Risposta: "Nyogokuru"
+ xp_reward: 35
+
+# Schede
+ - id: 111
+ type: Schede
+ Domanda: "Schede"
+ Schede:
+ - front: "Mama"
+ back: "Mother"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Data"
+ back: "Father"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Musaza"
+ back: "Brother"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Mushiki"
+ back: "Sister"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umwana"
+ back: "Child"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyogokuru"
+ back: "Grandmother"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Sogokuru"
+ back: "Grandfather"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugabo"
+ back: "Husband"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugore"
+ back: "Wife"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Datawabo"
+ back: "Paternal uncle"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

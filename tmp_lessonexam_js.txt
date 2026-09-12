@@ -1,0 +1,929 @@
+
+// ========== SMART ADAPTIVE EXAM WITH REAL YAML ==========
+
+// Exercise data from YAML file
+const EXERCISES = <?php 
+$js_exercises = [];
+foreach ($all_exercises as $ex) {
+  $e = [];
+  $e['id'] = $ex['id'];
+  $e['type'] = $ex['type'] ?? 'multiple_choice';
+  $e['xp'] = $ex['xp'] ?? 10;
+  $e['difficulty'] = $ex['difficulty'] ?? 'medium';
+  $e['topic'] = $ex['topic'] ?? 'general';
+  $e['question'] = $ex['question'] ?? $ex['title'] ?? 'Exercise';
+  $e['options'] = $ex['options'] ?? [];
+  $e['answer'] = $ex['answer'] ?? $ex['correct'] ?? '';
+  $e['tts_text'] = $ex['tts_text'] ?? $ex['tts'] ?? '';
+  $e['text'] = $ex['text'] ?? '';
+  $e['image_url'] = $ex['image_url'] ?? '';
+  $e['word_bank'] = $ex['word_bank'] ?? $ex['words'] ?? [];
+  $e['cards'] = $ex['cards'] ?? $ex['flashcards'] ?? [];
+  $e['segments'] = $ex['segments'] ?? $ex['story_segments'] ?? [];
+  $e['bot'] = $ex['bot'] ?? $ex['bot_message'] ?? '';
+  $e['incorrect_sentence'] = $ex['incorrect_sentence'] ?? '';
+  $e['time_limit_seconds'] = $ex['time_limit_seconds'] ?? 45;
+  $e['prompt'] = $ex['prompt'] ?? $ex['question'] ?? '';
+  $e['story_exercises'] = $ex['story_exercises'] ?? $ex['exercises'] ?? [];
+  $e['pairs'] = $ex['pairs'] ?? [];
+  $e['correct_sentence'] = $ex['correct_sentence'] ?? $ex['correct_answer'] ?? '';
+  $e['min_sentences'] = $ex['min_sentences'] ?? 3;
+  $e['title'] = $ex['title'] ?? '';
+  $e['questions'] = $ex['questions'] ?? [];
+  $js_exercises[] = $e;
+}
+echo json_encode($js_exercises, JSON_UNESCAPED_UNICODE);
+?>;
+
+// Completed exercises (empty for testing)
+const completedExercises = [];
+
+// State
+let queue = [];
+let currentIndex = 0;
+let earnedXP = 0;
+let correctCount = 0;
+let currentTimer = null;
+let examTimer = null;
+let examTimeLeft = 3600;
+let isLocked = false;
+let performanceHistory = [];
+let currentDifficulty = 'medium';
+let questionStartTime = 0;
+let currentAnswerSelected = false;
+
+console.log('📚 EXERCISES loaded from YAML:', EXERCISES.length);
+console.log('📚 Exercise types:', [...new Set(EXERCISES.map(e => e.type))]);
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function calculatePerformanceMetrics() {
+  const totalAnswered = performanceHistory.length;
+  if (totalAnswered === 0) return { accuracy: 50, streak: 0 };
+  const correctAnswers = performanceHistory.filter(p => p.correct).length;
+  const accuracy = (correctAnswers / totalAnswered) * 100;
+  let streak = 0;
+  for (let i = performanceHistory.length - 1; i >= 0; i--) {
+    if (performanceHistory[i].correct) streak++;
+    else break;
+  }
+  return { accuracy, streak };
+}
+
+function updateDifficulty() {
+  const metrics = calculatePerformanceMetrics();
+  const { accuracy, streak } = metrics;
+  
+  if (streak === 0 && performanceHistory.length >= 3) {
+    const lastThree = performanceHistory.slice(-3);
+    if (lastThree.every(p => !p.correct)) {
+      if (currentDifficulty === 'hard') currentDifficulty = 'medium';
+      else if (currentDifficulty === 'medium') currentDifficulty = 'easy';
+    }
+  }
+  
+  if (performanceHistory.length >= 5 && accuracy < 50) {
+    if (currentDifficulty === 'hard') currentDifficulty = 'medium';
+    else if (currentDifficulty === 'medium') currentDifficulty = 'easy';
+  }
+  
+  if (accuracy >= 80 && streak >= 3) {
+    if (currentDifficulty === 'easy') currentDifficulty = 'medium';
+    else if (currentDifficulty === 'medium') currentDifficulty = 'hard';
+  }
+  
+  const levelSpan = document.getElementById('currentDifficultyLevel');
+  if (levelSpan) levelSpan.textContent = currentDifficulty.charAt(0).toUpperCase() + currentDifficulty.slice(1);
+  const container = document.getElementById('difficultyIndicator');
+  container.classList.remove('difficulty-easy', 'difficulty-medium', 'difficulty-hard');
+  container.classList.add(`difficulty-${currentDifficulty}`);
+  
+  const accSpan = document.getElementById('statusAccuracy');
+  if (accSpan) accSpan.textContent = `Accuracy: ${Math.round(accuracy)}%`;
+  const streakSpan = document.getElementById('statusStreak');
+  if (streakSpan) streakSpan.textContent = `Streak: ${streak}`;
+}
+
+function updateProgress() {
+  const pct = queue.length ? (currentIndex / queue.length) * 100 : 0;
+  const progressFill = document.getElementById('progress-fill');
+  const lessonProg = document.getElementById('lesson-prog');
+  const lessonCounter = document.getElementById('lesson-counter');
+  const lessonXp = document.getElementById('lesson-xp');
+  const ovXp = document.getElementById('ov-xp');
+  if (progressFill) progressFill.style.width = pct + '%';
+  if (lessonProg) lessonProg.style.width = pct + '%';
+  if (lessonCounter) lessonCounter.textContent = currentIndex + '/' + queue.length;
+  if (lessonXp) lessonXp.textContent = earnedXP;
+  if (ovXp) ovXp.textContent = earnedXP;
+}
+
+function showFeedback(isCorrect, msg) {
+    const fb = document.getElementById('fb');
+    if (!fb) return;
+    fb.className = 'feedback show ' + (isCorrect ? 'correct' : 'wrong');
+    fb.textContent = msg;
+}
+
+function recordAnswer(exerciseId, isCorrect, xpAmount, topic, responseTime) {
+  if (isLocked) return;
+  isLocked = true;
+  
+  if (currentTimer) {
+    clearInterval(currentTimer);
+    currentTimer = null;
+  }
+  
+  performanceHistory.push({
+    id: exerciseId,
+    correct: isCorrect,
+    difficulty: currentDifficulty,
+    topic: topic,
+    responseTime: responseTime
+  });
+  
+  console.log(`📊 Answer recorded - Exercise ${exerciseId}, Correct: ${isCorrect}, XP: ${xpAmount}`);
+  
+  if (isCorrect) {
+    earnedXP += xpAmount;
+    correctCount++;
+  }
+  
+  updateDifficulty();
+  updateProgress();
+  
+  currentIndex++;
+  
+  setTimeout(() => {
+    moveToNextQuestion();
+  }, 800);
+}
+
+function moveToNextQuestion() {
+  if (currentTimer) {
+    clearInterval(currentTimer);
+    currentTimer = null;
+  }
+  
+  if (currentIndex >= queue.length) {
+    showCompletion();
+    return;
+  }
+  
+  isLocked = false;
+  currentAnswerSelected = false;
+  renderExercise();
+}
+
+function fuzzyMatch(user, correct) {
+    const u = (user || '').trim().toLowerCase();
+    const c = (correct || '').trim().toLowerCase();
+    if (u === c) return true;
+    if (Math.abs(u.length - c.length) <= 2) {
+        let diff = 0;
+        const minLen = Math.min(u.length, c.length);
+        for (let i = 0; i < minLen; i++) {
+            if (u[i] !== c[i]) diff++;
+        }
+        diff += Math.abs(u.length - c.length);
+        return diff <= Math.min(2, Math.floor(c.length * 0.25));
+    }
+    return false;
+}
+
+function speakText(text, btn) {
+  if (!text) return;
+  if (!window.speechSynthesis) {
+    if (btn) btn.textContent = '🔇 Not supported';
+    return;
+  }
+  
+  const origLabel = btn ? btn.textContent : '🔊 Play Audio';
+  if (btn) {
+    btn.textContent = '🔊 Playing…';
+    btn.disabled = true;
+  }
+  
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.rate = 0.85;
+  utterance.pitch = 1.1;
+  utterance.lang = 'en-US';
+  
+  utterance.onend = () => {
+    if (btn) {
+      btn.textContent = origLabel;
+      btn.disabled = false;
+    }
+  };
+  utterance.onerror = () => {
+    if (btn) {
+      btn.textContent = origLabel;
+      btn.disabled = false;
+    }
+  };
+  
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utterance);
+}
+
+function handleMCQ(btn, chosen, correct) {
+    const grid = btn.closest('.mcq-grid');
+    if (!grid || grid.dataset.answered === '1') return;
+    if (isLocked || currentAnswerSelected) return;
+    grid.dataset.answered = '1';
+
+    const ok = chosen.toLowerCase() === correct.toLowerCase();
+    const ex = queue[currentIndex];
+    const responseTime = (Date.now() - questionStartTime) / 1000;
+
+    const allBtns = grid.querySelectorAll('.mcq-btn');
+    for (let i = 0; i < allBtns.length; i++) {
+        allBtns[i].style.pointerEvents = 'none';
+    }
+    btn.classList.add(ok ? 'correct' : 'wrong');
+    if (!ok) {
+        const optBtns = grid.querySelectorAll('[data-option]');
+        for (let i = 0; i < optBtns.length; i++) {
+            if ((optBtns[i].dataset.option || '').toLowerCase() === correct.toLowerCase()) {
+                optBtns[i].classList.add('correct');
+            }
+        }
+    }
+    showFeedback(ok, ok ? '✓ Correct!' : '✗ Correct answer: ' + correct);
+
+    currentAnswerSelected = true;
+    recordAnswer(ex.id, ok, ex.xp || 10, ex.topic || 'general', responseTime);
+}
+
+function handleTF(btn, selected, correct) {
+  if (isLocked || currentAnswerSelected) return;
+  const ok = selected === correct;
+  const ex = queue[currentIndex];
+  const responseTime = (Date.now() - questionStartTime) / 1000;
+  
+  const grid = btn.closest('.tf-grid');
+  if (grid) {
+    const allBtns = grid.querySelectorAll('.tf-btn');
+    allBtns.forEach(b => b.style.pointerEvents = 'none');
+    btn.classList.add(ok ? 'correct' : 'wrong');
+    if (!ok) {
+      allBtns.forEach(b => {
+        if (b.textContent.includes(correct)) b.classList.add('correct');
+      });
+    }
+  }
+  
+  showFeedback(ok, ok ? '✓ Correct!' : '✗ Correct answer: ' + correct);
+  currentAnswerSelected = true;
+  recordAnswer(ex.id, ok, ex.xp || 10, ex.topic || 'general', responseTime);
+}
+
+function handleTextAnswer() {
+  if (isLocked || currentAnswerSelected) return;
+  const input = document.getElementById('answerInput');
+  if (!input) return;
+  
+  const userAnswer = input.value.trim();
+  const ex = queue[currentIndex];
+  const responseTime = (Date.now() - questionStartTime) / 1000;
+  const correctAnswer = (ex.answer || ex.correct || '').toLowerCase();
+  const ok = fuzzyMatch(userAnswer, correctAnswer);
+  
+  input.disabled = true;
+  input.classList.add(ok ? 'correct' : 'wrong');
+  
+  showFeedback(ok, ok ? '✓ Correct!' : '✗ Correct answer: ' + (ex.answer || ex.correct || ''));
+  
+  currentAnswerSelected = true;
+  recordAnswer(ex.id, ok, ex.xp || 10, ex.topic || 'general', responseTime);
+}
+
+function handleSpeakingAnswer(expectedText, btn) {
+  if (isLocked || currentAnswerSelected) return;
+  
+  showFeedback(true, '✓ Speaking exercise complete!');
+  currentAnswerSelected = true;
+  const ex = queue[currentIndex];
+  recordAnswer(ex.id, true, ex.xp || 10, ex.topic || 'general', (Date.now() - questionStartTime) / 1000);
+}
+
+function getTimeLimit(ex) {
+  return ex.time_limit_seconds || 45;
+}
+
+function getDifficultyClass(diff) {
+  switch(diff) {
+    case 'easy': return 'diff-easy';
+    case 'medium': return 'diff-medium';
+    case 'hard': return 'diff-hard';
+    default: return 'diff-medium';
+  }
+}
+
+function updateExamTimerDisplay() {
+  const mins = Math.floor(examTimeLeft / 60);
+  const secs = examTimeLeft % 60;
+  const timerSpan = document.getElementById('timerSeconds');
+  if (timerSpan) timerSpan.textContent = `${mins.toString().padStart(2,'0')}:${secs.toString().padStart(2,'0')}`;
+}
+
+function startExamTimer() {
+  if (examTimer) clearInterval(examTimer);
+  examTimer = setInterval(() => {
+    if (examTimeLeft > 0) {
+      examTimeLeft--;
+      updateExamTimerDisplay();
+      if (examTimeLeft <= 0) {
+        clearInterval(examTimer);
+        alert('⏰ Time is up!');
+        showCompletion();
+      }
+    }
+  }, 1000);
+}
+
+function stopExamTimer() { 
+  if (examTimer) { 
+    clearInterval(examTimer); 
+    examTimer = null; 
+  } 
+}
+
+function startQuestionTimer(seconds, onExpire) {
+  if (currentTimer) clearInterval(currentTimer);
+  let timeLeftVal = seconds;
+  const timerDisplay = document.getElementById('timerDisplay');
+  
+  currentTimer = setInterval(() => {
+    if (timeLeftVal <= 0) {
+      clearInterval(currentTimer);
+      currentTimer = null;
+      if (onExpire && !isLocked && !currentAnswerSelected) {
+        onExpire();
+      }
+    } else {
+      timeLeftVal--;
+      if (timerDisplay) timerDisplay.innerHTML = `⏱️ ${timeLeftVal}s`;
+      if (timeLeftVal <= 10) timerDisplay.classList.add('timer-danger');
+      else timerDisplay.classList.remove('timer-danger');
+    }
+  }, 1000);
+}
+
+function renderExercise() {
+  if (currentIndex >= queue.length) {
+    showCompletion();
+    return;
+  }
+  
+  isLocked = false;
+  currentAnswerSelected = false;
+  questionStartTime = Date.now();
+  
+  const ex = queue[currentIndex];
+  if (!ex) {
+    console.error('No exercise at index', currentIndex);
+    moveToNextQuestion();
+    return;
+  }
+  
+  console.log('🎯 Rendering:', ex.type, ex.id);
+  
+  const main = document.getElementById('lesson-main');
+  const typeName = (ex.type || '').replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  const difficulty = ex.difficulty || currentDifficulty;
+  const timeLimit = getTimeLimit(ex);
+  const letters = ['A', 'B', 'C', 'D'];
+  
+  let html = `
+    <div class="ex-card">
+      <div class="ex-meta">
+        <span class="ex-type">${typeName}</span>
+        <span class="ex-topic">📁 ${escapeHtml(ex.topic)}</span>
+        <span class="ex-difficulty ${getDifficultyClass(difficulty)}">${difficulty}</span>
+        <span style="color:var(--muted);font-size:.85rem">${currentIndex + 1}/${queue.length}</span>
+        <span class="ex-xp">+${ex.xp || 10} XP</span>
+      </div>
+  `;
+  
+  // Handle different exercise types
+  if (ex.type === 'multiple_choice' || ex.type === 'fill_blank' || ex.type === 'choose_missing' || 
+      ex.type === 'read_answer' || ex.type === 'identify_meaning' || ex.type === 'grammar') {
+    
+    const options = ex.options || [];
+    const correct = ex.answer || ex.correct || '';
+    
+    if (ex.type === 'read_answer' && ex.text) {
+      html += `<div class="read-context">${escapeHtml(ex.text)}</div>`;
+    }
+    
+    html += `<div class="question-box">${escapeHtml(ex.question)}</div>`;
+    html += `<div class="mcq-grid" data-answered="0" data-correct="${escapeHtml(correct)}">`;
+    options.forEach((opt, idx) => {
+      const letter = letters[idx] || String.fromCharCode(65 + idx);
+      html += `<button class="mcq-btn" data-option="${escapeHtml(opt)}" onclick="handleMCQ(this, '${escapeHtml(opt)}', '${escapeHtml(correct)}')">
+        <span class="opt-key">${letter}</span>${escapeHtml(opt)}</button>`;
+    });
+    html += `</div>`;
+    html += `<div id="fb" class="feedback"></div>`;
+    
+  } else if (ex.type === 'translation' || ex.type === 'listen_and_type') {
+    if (ex.type === 'listen_and_type' && ex.tts_text) {
+      html += `<button class="audio-btn" id="audioBtn" data-tts="${escapeHtml(ex.tts_text)}">🔊 Listen to Audio</button>`;
+    }
+    html += `<div class="question-box">${escapeHtml(ex.question)}</div>`;
+    html += `<input type="text" class="text-input" id="answerInput" placeholder="Type your answer..." autocomplete="off">`;
+    html += `<div id="fb" class="feedback"></div>`;
+    
+  } else if (ex.type === 'true_false') {
+    html += `<div class="question-box">${escapeHtml(ex.question || ex.statement)}</div>`;
+    const tfCorrect = (ex.correct === true || ex.correct_answer === true) ? 'True' : 'False';
+    html += `<div class="tf-grid">
+      <button class="tf-btn true-btn" onclick="handleTF(this, 'True', '${tfCorrect}')">✓ TRUE</button>
+      <button class="tf-btn false-btn" onclick="handleTF(this, 'False', '${tfCorrect}')">✗ FALSE</button>
+    </div>`;
+    html += `<div id="fb" class="feedback"></div>`;
+    
+  } else if (ex.type === 'speaking' || ex.type === 'pronunciation') {
+    const promptToSpeak = ex.prompt || ex.question || '';
+    html += `<div class="speaking-prompt-box">🗣️ "${escapeHtml(promptToSpeak)}"</div>`;
+    if (ex.tts_text) {
+      html += `<button class="audio-btn" id="listenBtn" data-tts="${escapeHtml(ex.tts_text)}">🔊 Listen to Example</button>`;
+    }
+    html += `<button class="mic-btn" id="speakBtn" data-prompt="${escapeHtml(promptToSpeak)}">🎤 Tap to Speak</button>`;
+    html += `<div id="fb" class="feedback"></div>`;
+    
+  } else if (ex.type === 'listen_and_choose' || ex.type === 'listening_comprehension') {
+    const options = ex.options || [];
+    const correct = ex.answer || ex.correct || '';
+    
+    if (ex.tts_text) {
+      html += `<button class="audio-btn" id="audioBtn" data-tts="${escapeHtml(ex.tts_text)}">🔊 Listen to Audio</button>`;
+    }
+    
+    html += `<div class="question-box">${escapeHtml(ex.question)}</div>`;
+    html += `<div class="mcq-grid" data-answered="0" data-correct="${escapeHtml(correct)}">`;
+    options.forEach((opt, idx) => {
+      const letter = letters[idx] || String.fromCharCode(65 + idx);
+      html += `<button class="mcq-btn" data-option="${escapeHtml(opt)}" onclick="handleMCQ(this, '${escapeHtml(opt)}', '${escapeHtml(correct)}')">
+        <span class="opt-key">${letter}</span>${escapeHtml(opt)}</button>`;
+    });
+    html += `</div>`;
+    html += `<div id="fb" class="feedback"></div>`;
+    
+  } else if (ex.type === 'picture_word') {
+    const options = ex.options || [];
+    const correct = ex.answer || ex.correct || '';
+    
+    if (ex.image_url) {
+      html += `<img src="${escapeHtml(ex.image_url)}" class="ex-image" alt="" onerror="this.style.display='none'">`;
+    }
+    
+    html += `<div class="question-box">${escapeHtml(ex.question)}</div>`;
+    html += `<div class="mcq-grid" data-answered="0" data-correct="${escapeHtml(correct)}">`;
+    options.forEach((opt, idx) => {
+      const letter = letters[idx] || String.fromCharCode(65 + idx);
+      html += `<button class="mcq-btn" data-option="${escapeHtml(opt)}" onclick="handleMCQ(this, '${escapeHtml(opt)}', '${escapeHtml(correct)}')">
+        <span class="opt-key">${letter}</span>${escapeHtml(opt)}</button>`;
+    });
+    html += `</div>`;
+    html += `<div id="fb" class="feedback"></div>`;
+    
+  } else if (ex.type === 'sentence_scramble' || ex.type === 'word_bank') {
+    const wb = ex.word_bank || [];
+    let wbHtml = '';
+    for (let i = 0; i < wb.length; i++) {
+      wbHtml += `<span class="bank-word" data-word="${escapeHtml(wb[i])}">${escapeHtml(wb[i])}</span>`;
+    }
+    
+    html += `<div class="question-box">${escapeHtml(ex.question)}</div>`;
+    html += `<div class="sentence-builder" id="builder-wb"><span class="builder-placeholder">Tap words below to build sentence...</span></div>`;
+    html += `<div class="word-bank" id="bank-wb">${wbHtml}</div>`;
+    html += `<div id="fb" class="feedback"></div>`;
+    html += `<button class="check-btn" id="checkWbBtn">Check Answer</button>`;
+    
+    // Setup word bank after render
+    setTimeout(() => {
+      const correctAnswer = ex.answer || ex.correct || ex.correct_sentence || [];
+      setupWordBank(ex.word_bank || [], correctAnswer);
+    }, 50);
+    
+  } else if (ex.type === 'error_correction') {
+    const incorrect = ex.incorrect_sentence || '';
+    html += `<div class="question-box">✏️ ${escapeHtml(ex.question)}</div>`;
+    html += `<div class="read-context" style="background:var(--coral-l);border-color:var(--coral);margin-bottom:16px;">❌ ${escapeHtml(incorrect)}</div>`;
+    html += `<input type="text" class="text-input" id="answerInput" placeholder="Type the correct sentence..." autocomplete="off">`;
+    html += `<div id="fb" class="feedback"></div>`;
+    
+  } else if (ex.type === 'matching' || ex.type === 'speed_matching') {
+    const pairs = ex.pairs || [];
+    const leftItems = [];
+    const rightItems = [];
+    
+    for (let i = 0; i < pairs.length; i++) {
+      leftItems.push({ val: pairs[i].left || pairs[i].l, pair: pairs[i].right || pairs[i].r });
+      rightItems.push(pairs[i].right || pairs[i].r);
+    }
+    // Shuffle right items
+    for (let i = rightItems.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [rightItems[i], rightItems[j]] = [rightItems[j], rightItems[i]];
+    }
+    
+    html += `<div class="question-box">${escapeHtml(ex.question || ex.title || 'Match the pairs')}</div>`;
+    html += `<div class="match-score" id="match-score">0 / ${pairs.length} matched</div>`;
+    html += `<div class="match-grid" id="match-wrap">`;
+    html += `<div class="match-col">`;
+    for (let i = 0; i < leftItems.length; i++) {
+      html += `<div class="match-item" data-side="left" data-val="${escapeHtml(leftItems[i].val)}" data-pair="${escapeHtml(leftItems[i].pair)}">${escapeHtml(leftItems[i].val)}</div>`;
+    }
+    html += `</div><div class="match-col">`;
+    for (let i = 0; i < rightItems.length; i++) {
+      html += `<div class="match-item" data-side="right" data-val="${escapeHtml(rightItems[i])}">${escapeHtml(rightItems[i])}</div>`;
+    }
+    html += `</div></div>`;
+    html += `<div id="fb" class="feedback"></div>`;
+    
+    // Setup matching after render
+    setTimeout(() => setupMatching(pairs, ex), 50);
+    
+  } else if (ex.type === 'writing') {
+    const minSentences = ex.min_sentences || 3;
+    html += `<div class="question-box">✍️ ${escapeHtml(ex.question)}</div>`;
+    html += `<textarea class="writing-textarea" id="writingTextarea" rows="6" placeholder="Write your answer here... (${minSentences}+ sentences)"></textarea>`;
+    html += `<button class="check-btn" id="checkWritingBtn">Submit Answer</button>`;
+    html += `<div id="fb" class="feedback"></div>`;
+    
+  } else {
+    html += `<div class="question-box">${escapeHtml(ex.question)}</div>`;
+    html += `<div id="fb" class="feedback"></div>`;
+  }
+  
+  html += `<button class="continue-btn" id="continueBtn">Continue →</button>`;
+  html += `</div>`;
+  
+  main.innerHTML = html;
+  
+  // Set up event handlers
+  const audioBtn = document.getElementById('audioBtn');
+  if (audioBtn && audioBtn.dataset.tts) {
+    audioBtn.onclick = () => speakText(audioBtn.dataset.tts, audioBtn);
+  }
+  
+  const listenBtn = document.getElementById('listenBtn');
+  if (listenBtn && listenBtn.dataset.tts) {
+    listenBtn.onclick = () => speakText(listenBtn.dataset.tts, listenBtn);
+  }
+  
+  const speakBtn = document.getElementById('speakBtn');
+  if (speakBtn) {
+    const promptToSpeak = speakBtn.dataset.prompt || '';
+    speakBtn.onclick = () => handleSpeakingAnswer(promptToSpeak, speakBtn);
+  }
+  
+  const answerInput = document.getElementById('answerInput');
+  if (answerInput) {
+    answerInput.onkeypress = (e) => { if (e.key === 'Enter') handleTextAnswer(); };
+    setTimeout(() => answerInput.focus(), 100);
+  }
+  
+  const checkWritingBtn = document.getElementById('checkWritingBtn');
+  if (checkWritingBtn) {
+    checkWritingBtn.onclick = () => handleWritingAnswer();
+  }
+  
+  const continueBtn = document.getElementById('continueBtn');
+  if (continueBtn) {
+    continueBtn.onclick = () => {
+      if (!currentAnswerSelected && !isLocked) {
+        const exCurrent = queue[currentIndex];
+        const responseTime = (Date.now() - questionStartTime) / 1000;
+        showFeedback(false, 'No answer selected - moving to next');
+        currentAnswerSelected = true;
+        recordAnswer(exCurrent.id, false, exCurrent.xp || 10, exCurrent.topic || 'general', responseTime);
+      }
+    };
+  }
+  
+  startQuestionTimer(timeLimit, () => {
+    if (!isLocked && !currentAnswerSelected) {
+      const exCurrent = queue[currentIndex];
+      const responseTime = (Date.now() - questionStartTime) / 1000;
+      showFeedback(false, 'Time is up!');
+      currentAnswerSelected = true;
+      recordAnswer(exCurrent.id, false, exCurrent.xp || 10, exCurrent.topic || 'general', responseTime);
+    }
+  });
+}
+
+// Word Bank Functions
+let builtWords = [];
+
+function setupWordBank(words, correct) {
+    builtWords = [];
+    const bank = document.getElementById('bank-wb');
+    const builder = document.getElementById('builder-wb');
+    if (!bank || !builder) return;
+    
+    const bankWords = bank.querySelectorAll('.bank-word');
+    for (let i = 0; i < bankWords.length; i++) {
+        bankWords[i].addEventListener('click', function() {
+            if (this.classList.contains('used')) return;
+            this.classList.add('used');
+            builtWords.push(this.dataset.word);
+            updateBuilder(builder, builtWords, bank, correct);
+        });
+    }
+    
+    const checkBtn = document.getElementById('checkWbBtn');
+    if (checkBtn) {
+        checkBtn.onclick = () => checkWordBank(correct);
+    }
+}
+
+function updateBuilder(builder, words, bank, correct) {
+    if (words.length === 0) {
+        builder.innerHTML = '<span class="builder-placeholder">Tap words below to build sentence...</span>';
+        builder.classList.remove('has-words');
+    } else {
+        builder.classList.add('has-words');
+        let html = '';
+        for (let i = 0; i < words.length; i++) {
+            html += '<span class="built-word" data-idx="' + i + '">' + words[i] + ' <span class="rm">✕</span></span>';
+        }
+        builder.innerHTML = html;
+        
+        const builtWordsEls = builder.querySelectorAll('.built-word');
+        for (let i = 0; i < builtWordsEls.length; i++) {
+            builtWordsEls[i].querySelector('.rm').addEventListener('click', function() {
+                const idx = parseInt(builtWordsEls[i].dataset.idx);
+                const removed = builtWords.splice(idx, 1)[0];
+                const bankWords = bank.querySelectorAll('.bank-word');
+                for (let j = 0; j < bankWords.length; j++) {
+                    if (bankWords[j].dataset.word === removed && bankWords[j].classList.contains('used')) {
+                        bankWords[j].classList.remove('used');
+                        break;
+                    }
+                }
+                updateBuilder(builder, builtWords, bank, correct);
+            });
+        }
+    }
+}
+
+function checkWordBank(correct) {
+    if (builtWords.length === 0) {
+        showFeedback(false, 'Please build a sentence first');
+        return;
+    }
+    const isArr = Array.isArray(correct);
+    let ok = false;
+    const ex = queue[currentIndex];
+
+    if (isArr) {
+        ok = builtWords.length === correct.length;
+        if (ok) {
+            for (let i = 0; i < builtWords.length; i++) {
+                if (builtWords[i].toLowerCase() !== correct[i].toLowerCase()) {
+                    ok = false;
+                    break;
+                }
+            }
+        }
+    } else {
+        ok = builtWords.join(' ').toLowerCase() === correct.toLowerCase();
+    }
+
+    showFeedback(ok, ok ? '✓ Correct!' : '✗ Correct: ' + (isArr ? correct.join(' ') : correct));
+
+    if (ok && ex) {
+        correctCount++;
+        earnedXP += ex.xp;
+        updateProgress();
+        recordAnswer(ex.id, true, ex.xp, ex.topic || 'general', (Date.now() - questionStartTime) / 1000);
+    } else if (ex) {
+        recordAnswer(ex.id, false, ex.xp, ex.topic || 'general', (Date.now() - questionStartTime) / 1000);
+    }
+}
+
+// Matching Functions
+let matchLeft = null;
+let matchPairsMatched = 0;
+let matchTotalPairs = 0;
+
+function setupMatching(pairs, ex) {
+    matchLeft = null;
+    matchPairsMatched = 0;
+    matchTotalPairs = pairs.length;
+    
+    const matchItems = document.querySelectorAll('.match-item');
+    const scoreSpan = document.getElementById('match-score');
+    if (scoreSpan) scoreSpan.textContent = `0 / ${matchTotalPairs} matched`;
+    
+    for (let i = 0; i < matchItems.length; i++) {
+        matchItems[i].removeEventListener('click', matchClickHandler);
+        matchItems[i].addEventListener('click', matchClickHandler);
+    }
+    
+    function matchClickHandler() {
+        if (isLocked || currentAnswerSelected) return;
+        
+        if (this.classList.contains('matched')) return;
+        
+        if (this.dataset.side === 'left') {
+            document.querySelectorAll('.match-item.selected').forEach(el => el.classList.remove('selected'));
+            this.classList.add('selected');
+            matchLeft = this;
+        } else if (matchLeft && this.dataset.side === 'right') {
+            const leftVal = matchLeft.dataset.val;
+            const rightVal = this.dataset.val;
+            const isMatch = leftVal === rightVal;
+            
+            if (isMatch) {
+                matchLeft.classList.add('matched');
+                this.classList.add('matched');
+                matchLeft.classList.remove('selected');
+                matchPairsMatched++;
+                if (scoreSpan) scoreSpan.textContent = `${matchPairsMatched} / ${matchTotalPairs} matched`;
+                
+                if (matchPairsMatched === matchTotalPairs) {
+                    showFeedback(true, '✓ All matched!');
+                    const responseTime = (Date.now() - questionStartTime) / 1000;
+                    currentAnswerSelected = true;
+                    recordAnswer(ex.id, true, ex.xp || 10, ex.topic || 'general', responseTime);
+                }
+            } else {
+                matchLeft.classList.add('flash-wrong');
+                this.classList.add('flash-wrong');
+                setTimeout(() => {
+                    matchLeft.classList.remove('flash-wrong', 'selected');
+                    this.classList.remove('flash-wrong');
+                }, 400);
+            }
+            matchLeft = null;
+        }
+    }
+}
+
+function handleWritingAnswer() {
+  if (isLocked || currentAnswerSelected) return;
+  const textarea = document.getElementById('writingTextarea');
+  if (!textarea) return;
+  
+  const userAnswer = textarea.value.trim();
+  const ex = queue[currentIndex];
+  const responseTime = (Date.now() - questionStartTime) / 1000;
+  
+  const sentenceCount = (userAnswer.match(/[.!?]+/g) || []).length;
+  const minSentences = ex.min_sentences || 3;
+  const ok = sentenceCount >= minSentences && userAnswer.length > 50;
+  
+  textarea.disabled = true;
+  
+  showFeedback(ok, ok ? `✓ Good! (${sentenceCount} sentences)` : `✗ Please write at least ${minSentences} sentences (${sentenceCount} detected)`);
+  
+  if (ok) {
+    currentAnswerSelected = true;
+    recordAnswer(ex.id, true, ex.xp || 10, ex.topic || 'general', responseTime);
+  } else {
+    setTimeout(() => {
+      textarea.disabled = false;
+      textarea.focus();
+    }, 2000);
+  }
+}
+
+function showCompletion() {
+  stopExamTimer();
+  if (currentTimer) clearInterval(currentTimer);
+  
+  const main = document.getElementById('lesson-main');
+  const accuracy = queue.length ? Math.round((correctCount / queue.length) * 100) : 0;
+  
+  main.innerHTML = `
+    <div class="completion">
+      <div style="font-size:3rem;margin-bottom:8px">🎉</div>
+      <div class="comp-title">Exam Complete!</div>
+      <div class="comp-sub">You've completed all ${queue.length} questions</div>
+      <div class="comp-stats">
+        <div class="comp-stat"><div class="comp-stat-n">${correctCount}</div><div class="comp-stat-l">Correct</div></div>
+        <div class="comp-stat"><div class="comp-stat-n">${earnedXP}</div><div class="comp-stat-l">XP Earned</div></div>
+        <div class="comp-stat"><div class="comp-stat-n">${accuracy}%</div><div class="comp-stat-l">Accuracy</div></div>
+        <div class="comp-stat"><div class="comp-stat-n">${currentDifficulty}</div><div class="comp-stat-l">Final Level</div></div>
+      </div>
+      <button class="comp-btn" onclick="backToOverview()">← Back to Dashboard</button>
+    </div>
+  `;
+  
+  const progressFill = document.getElementById('progress-fill');
+  const lessonProg = document.getElementById('lesson-prog');
+  if (progressFill) progressFill.style.width = '100%';
+  if (lessonProg) lessonProg.style.width = '100%';
+  if (document.exitFullscreen) document.exitFullscreen();
+}
+
+function backToOverview() {
+  stopExamTimer();
+  if (currentTimer) clearInterval(currentTimer);
+  document.getElementById('lesson').style.display = 'none';
+  document.querySelector('.lesson-nav').style.display = 'flex';
+  document.getElementById('overview').style.display = 'block';
+  window.scrollTo({ top: 0 });
+}
+
+function confirmClose() { 
+  document.getElementById('close-modal').style.display = 'flex'; 
+}
+
+function closeLesson() {
+  document.getElementById('close-modal').style.display = 'none';
+  stopExamTimer();
+  if (currentTimer) clearInterval(currentTimer);
+  backToOverview();
+}
+
+function startLesson() {
+  console.log('🚀 Starting exam...');
+  console.log('Total exercises available:', EXERCISES.length);
+  
+  if (EXERCISES.length === 0) {
+    alert('No exercises available! Please check the YAML file.');
+    return;
+  }
+  
+  // Reset all state
+  queue = [];
+  currentIndex = 0;
+  earnedXP = 0;
+  correctCount = 0;
+  performanceHistory = [];
+  currentDifficulty = 'medium';
+  examTimeLeft = 3600;
+  isLocked = false;
+  currentAnswerSelected = false;
+  
+  // Pick 40 random questions from ALL exercises
+  let available = [...EXERCISES];
+  shuffle(available);
+  queue = available.slice(0, Math.min(40, available.length));
+  
+  console.log('📋 Exam started with', queue.length, 'questions');
+  console.log('📋 Question types:', queue.map(q => q.type).join(', '));
+  
+  if (queue.length === 0) {
+    alert('No questions available!');
+    return;
+  }
+  
+  updateProgress();
+  updateDifficulty();
+  
+  document.getElementById('overview').style.display = 'none';
+  document.querySelector('.lesson-nav').style.display = 'none';
+  document.getElementById('lesson').style.display = 'block';
+  
+  updateExamTimerDisplay();
+  startExamTimer();
+  enterFullscreen();
+  renderExercise();
+}
+
+function enterFullscreen() {
+  const docEl = document.documentElement;
+  if (docEl.requestFullscreen) docEl.requestFullscreen();
+}
+
+function initOverview() {
+  const totalXp = EXERCISES.slice(0, 40).reduce((sum, ex) => sum + (ex.xp || 0), 0);
+  const ovXpTotal = document.getElementById('ov-xp-total');
+  if (ovXpTotal) ovXpTotal.textContent = totalXp;
+  
+  const startBtn = document.getElementById('startLessonBtn');
+  if (startBtn) {
+    startBtn.onclick = startLesson;
+  }
+  
+  console.log('📚 Exercises available from YAML:', EXERCISES.length);
+}
+
+// Disable right click and shortcuts
+document.addEventListener('contextmenu', (e) => e.preventDefault());
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I') || (e.ctrlKey && e.key === 'u')) {
+    e.preventDefault();
+  }
+});
+
+initOverview();
+

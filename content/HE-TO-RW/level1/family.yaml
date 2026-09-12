@@ -1,0 +1,1060 @@
+lesson:
+ name: "משפחה - Umuryango"
+ description: "למד משפחה member names in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - משפחה Members ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ שאלה: "איך אומרים 'Mother' בקיניארוואנדה?"
+ תשובה: "Mama"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ שאלה: "איך אומרים 'Father' בקיניארוואנדה?"
+ תשובה: "Data"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ שאלה: "איך אומרים 'Brother' בקיניארוואנדה?"
+ תשובה: "Musaza"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ שאלה: "איך אומרים 'Sister' בקיניארוואנדה?"
+ תשובה: "Mushiki"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ שאלה: "איך אומרים 'Child' בקיניארוואנדה?"
+ תשובה: "Umwana"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ שאלה: "איך אומרים 'Grandmother' בקיניארוואנדה?"
+ תשובה: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ שאלה: "איך אומרים 'Grandfather' בקיניארוואנדה?"
+ תשובה: "Sogokuru"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ שאלה: "איך אומרים 'Husband' בקיניארוואנדה?"
+ תשובה: "Umugabo"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ שאלה: "איך אומרים 'Wife' בקיניארוואנדה?"
+ תשובה: "Umugore"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ שאלה: "איך אומרים 'Paternal uncle' בקיניארוואנדה?"
+ תשובה: "Datawabo"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ שאלה: "איך אומרים 'Maternal uncle' בקיניארוואנדה?"
+ תשובה: "Marume"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ שאלה: "איך אומרים 'Paternal aunt' בקיניארוואנדה?"
+ תשובה: "Masenge"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ שאלה: "איך אומרים 'Maternal aunt' בקיניארוואנדה?"
+ תשובה: "Nyirarume"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ שאלה: "איך אומרים 'Grandchild' בקיניארוואנדה?"
+ תשובה: "Umwuzukuru"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ שאלה: "איך אומרים 'Great-grandchild' בקיניארוואנדה?"
+ תשובה: "Umwuzukuruza"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ שאלה: "איך אומרים 'Son-in-law / Groom' בקיניארוואנדה?"
+ תשובה: "Umukwe"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ שאלה: "איך אומרים 'Father-in-law' בקיניארוואנדה?"
+ תשובה: "Sebukwe"
+ xp_reward: 10
+
+ # Translation - Greetings & Basic Phrases (Safe as fixed expressions)
+ - id: 18
+ type: translation
+ שאלה: "איך אומרים 'שלום, mother!' בקיניארוואנדה?"
+ תשובה: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 19
+ type: translation
+ שאלה: "איך אומרים 'שלום, father!' בקיניארוואנדה?"
+ תשובה: "Muraho, Data!"
+ xp_reward: 12
+
+ - id: 20
+ type: translation
+ שאלה: "איך שואלים 'How is the משפחה?' בקיניארוואנדה?"
+ תשובה: "Umuryango umeze ute?"
+ xp_reward: 15
+
+ # Translation - Possession (Simple phrases with "have")
+ - id: 21
+ type: translation
+ שאלה: "איך אומרים 'I have a brother' בקיניארוואנדה?"
+ תשובה: "Mfite Musaza."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ שאלה: "איך אומרים 'I have a sister' בקיניארוואנדה?"
+ תשובה: "Mfite Mushiki."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ שאלה: "איך אומרים 'My grandfather has a בית' בקיניארוואנדה?"
+ תשובה: "Sogokuru afite inzu."
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR COMPLEX משפט OR PARAGRAPHS
+ # Instead, we use משפט building, התאם, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 24
+ type: multiple_choice
+ שאלה: "מה פירוש 'Mama' במשפט הזה?"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ - "Sister"
+ תשובה: "Mother"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ שאלה: "מה פירוש 'Data' במשפט הזה?"
+ options:
+ - "Mother"
+ - "Father"
+ - "Grandfather"
+ - "Uncle"
+ תשובה: "Father"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ שאלה: "מה פירוש 'Musaza' במשפט הזה?"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ - "Husband"
+ תשובה: "Brother"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ שאלה: "מה פירוש 'Mushiki' במשפט הזה?"
+ options:
+ - "Brother"
+ - "Sister"
+ - "Mother"
+ - "Aunt"
+ תשובה: "Sister"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ שאלה: "מה פירוש 'Nyogokuru' במשפט הזה?"
+ options:
+ - "Grandfather"
+ - "Grandmother"
+ - "Aunt"
+ - "Uncle"
+ תשובה: "Grandmother"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ שאלה: "מה פירוש 'Sogokuru' במשפט הזה?"
+ options:
+ - "Grandmother"
+ - "Grandfather"
+ - "Father-in-law"
+ - "Uncle"
+ תשובה: "Grandfather"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ שאלה: "מה פירוש 'Datawabo' במשפט הזה?"
+ options:
+ - "Maternal uncle"
+ - "Paternal uncle"
+ - "Father-in-law"
+ - "Grandfather"
+ תשובה: "Paternal uncle"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ שאלה: "מה פירוש 'Marume' במשפט הזה?"
+ options:
+ - "Paternal uncle"
+ - "Maternal uncle"
+ - "Brother"
+ - "Son-in-law"
+ תשובה: "Maternal uncle"
+ xp_reward: 15
+
+ # 3. הקשב and Type (Dictation) - Safe because audio is provided
+ - id: 32
+ type: listen_and_type
+ שאלה: "הקשב and type the משפחה member"
+ tts_text: "Mama"
+ תשובה: "Mama"
+ translation: "Mother"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ שאלה: "הקשב and type the משפחה member"
+ tts_text: "Data"
+ תשובה: "Data"
+ translation: "Father"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ שאלה: "הקשב and type the משפחה member"
+ tts_text: "Nyogokuru"
+ תשובה: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ tts_text: "Mama ari mu nzu"
+ תשובה: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 25
+
+ - id: 36
+ type: listen_and_type
+ שאלה: "הקשב and type the phrase"
+ tts_text: "Data ari mu kazi"
+ תשובה: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 25
+
+ - id: 37
+ type: listen_and_type
+ שאלה: "הקשב and type the שאלה"
+ tts_text: "Umuryango umeze ute"
+ תשובה: "Umuryango umeze ute"
+ translation: "How is the משפחה?"
+ xp_reward: 25
+
+ # 4. הקשב and בחר
+ - id: 38
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct משפחה member"
+ tts_text: "Mama"
+ options:
+ - "Father"
+ - "Mother"
+ - "Brother"
+ תשובה: "Mother"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct משפחה member"
+ tts_text: "Data"
+ options:
+ - "Mother"
+ - "Father"
+ - "Sister"
+ תשובה: "Father"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct משפחה member"
+ tts_text: "Musaza"
+ options:
+ - "Sister"
+ - "Brother"
+ - "Child"
+ תשובה: "Brother"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ שאלה: "הקשב and בחר the correct phrase"
+ tts_text: "Mama ari mu nzu"
+ options:
+ - "Mother is at home"
+ - "Father is working"
+ - "Brother is playing"
+ תשובה: "Mother is at home"
+ xp_reward: 20
+
+ # 5. Repeat / דבר Exercise
+ - id: 42
+ type: דבר
+ שאלה: "Say this משפחה member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 43
+ type: דבר
+ שאלה: "Say this משפחה member"
+ prompt: "Data"
+ translation: "Father"
+ xp_reward: 15
+
+ - id: 44
+ type: דבר
+ שאלה: "Say this משפחה member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 45
+ type: דבר
+ שאלה: "Say this משפט"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 46
+ type: דבר
+ שאלה: "Say this משפט"
+ prompt: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 47
+ type: דבר
+ שאלה: "Say this שאלה"
+ prompt: "Umuryango umeze ute"
+ translation: "How is the משפחה?"
+ xp_reward: 20
+
+ # 6. Word Bank משפט Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 48
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'Mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 49
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'Father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ xp_reward: 22
+
+ - id: 51
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My sister קרא a book'"
+ word_bank: ["Mushiki", "arasoma", "igitabo", "Musaza", "arakina", "hanze"]
+ correct_answer: ["Mushiki", "arasoma", "igitabo"]
+ xp_reward: 22
+
+ - id: 52
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'I love my grandmother'"
+ word_bank: ["Nkunda", "Nyogokuru", "Sogokuru", "arasaza", "cyane"]
+ correct_answer: ["Nkunda", "Nyogokuru"]
+ xp_reward: 20
+
+ - id: 53
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My grandfather is very old'"
+ word_bank: ["Sogokuru", "arasaza", "cyane", "Nyogokuru", "araduteka"]
+ correct_answer: ["Sogokuru", "arasaza", "cyane"]
+ xp_reward: 22
+
+ - id: 54
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'I have a brother'"
+ word_bank: ["Mfite", "Musaza", "Mushiki", "Umwana"]
+ correct_answer: ["Mfite", "Musaza"]
+ xp_reward: 18
+
+ - id: 55
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My grandfather has a בית'"
+ word_bank: ["Sogokuru", "afite", "inzu", "Nyogokuru", "araduteka", "ibiryo"]
+ correct_answer: ["Sogokuru", "afite", "inzu"]
+ xp_reward: 20
+
+ - id: 56
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My grandmother cooks אוכל'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 22
+
+ - id: 57
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My paternal uncle has a עז'"
+ word_bank: ["Datawabo", "afite", "ihene", "Marume", "inka", "afite"]
+ correct_answer: ["Datawabo", "afite", "ihene"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My maternal uncle has a פרה'"
+ word_bank: ["Marume", "afite", "inka", "Datawabo", "ihene", "afite"]
+ correct_answer: ["Marume", "afite", "inka"]
+ xp_reward: 22
+
+ - id: 59
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My paternal aunt is kind'"
+ word_bank: ["Masenge", "ni", "mwiza", "Nyirarume", "ni", "mwiza", "cyane"]
+ correct_answer: ["Masenge", "ni", "mwiza"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My maternal aunt is very nice'"
+ word_bank: ["Nyirarume", "ni", "mwiza", "cyane", "Masenge", "ni", "mwiza"]
+ correct_answer: ["Nyirarume", "ni", "mwiza", "cyane"]
+ xp_reward: 22
+
+ - id: 61
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My child is playing'"
+ word_bank: ["Umwana", "arakinira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwana", "arakinira"]
+ xp_reward: 18
+
+ - id: 62
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My grandchild likes to קרא'"
+ word_bank: ["Umwuzukuru", "akunda", "gusoma", "Umwana", "arakinira"]
+ correct_answer: ["Umwuzukuru", "akunda", "gusoma"]
+ xp_reward: 22
+
+ - id: 63
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My great-grandchild sleeps'"
+ word_bank: ["Umwuzukuruza", "arahunyira", "Umwuzukuru", "akunda", "gusoma"]
+ correct_answer: ["Umwuzukuruza", "arahunyira"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My son-in-law is helpful'"
+ word_bank: ["Umukwe", "ni", "umufasha", "Sebukwe", "ni", "inyangamugayo"]
+ correct_answer: ["Umukwe", "ni", "umufasha"]
+ xp_reward: 20
+
+ - id: 65
+ type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My father-in-law is wise'"
+ word_bank: ["Sebukwe", "ni", "inyangamugayo", "Umukwe", "ni", "umufasha"]
+ correct_answer: ["Sebukwe", "ni", "inyangamugayo"]
+ xp_reward: 20
+
+ # 7. משפט Scramble - PIECES PROVIDED
+ - id: 66
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct Kinyarwanda משפט"
+ scrambled_words: ["ari", "Mama", "mu nzu"]
+ correct_sentence: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ - id: 67
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct Kinyarwanda משפט"
+ scrambled_words: ["ari", "Data", "mu kazi"]
+ correct_sentence: "Data ari mu kazi"
+ translation: "Father is working"
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct Kinyarwanda משפט"
+ scrambled_words: ["arakina", "Musaza", "hanze"]
+ correct_sentence: "Musaza arakina hanze"
+ translation: "My brother plays outside"
+ xp_reward: 22
+
+ - id: 69
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct Kinyarwanda משפט"
+ scrambled_words: ["arasoma", "Mushiki", "igitabo"]
+ correct_sentence: "Mushiki arasoma igitabo"
+ translation: "My sister קרא a book"
+ xp_reward: 22
+
+ - id: 70
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct Kinyarwanda משפט"
+ scrambled_words: ["Nkunda", "Nyogokuru"]
+ correct_sentence: "Nkunda Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct Kinyarwanda משפט"
+ scrambled_words: ["arasaza", "Sogokuru", "cyane"]
+ correct_sentence: "Sogokuru arasaza cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 20
+
+ - id: 72
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct Kinyarwanda משפט"
+ scrambled_words: ["afite", "Sogokuru", "inzu"]
+ correct_sentence: "Sogokuru afite inzu"
+ translation: "My grandfather has a בית"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ שאלה: "Arrange these words to form a correct Kinyarwanda משפט"
+ scrambled_words: ["araduteka", "Nyogokuru", "ibiryo"]
+ correct_sentence: "Nyogokuru araduteka ibiryo"
+ translation: "My grandmother cooks אוכל"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - בחר FROM OPTIONS
+ - id: 74
+ type: fill_blank
+ שאלה: "בחר the correct word to complete the משפט"
+ text_with_blank: "Mama ___ mu nzu."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ שאלה: "בחר the correct word to complete the משפט"
+ text_with_blank: "Data ___ mu kazi."
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 76
+ type: fill_blank
+ שאלה: "בחר the correct word to complete the משפט"
+ text_with_blank: "Musaza ___ hanze."
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ - id: 77
+ type: fill_blank
+ שאלה: "בחר the correct word to complete the משפט"
+ text_with_blank: "Mushiki ___ igitabo."
+ options: ["arasoma", "arakina", "ari"]
+ correct_answer: "arasoma"
+ translation: "My sister קרא a book"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ שאלה: "בחר the correct word to complete the משפט"
+ text_with_blank: "Nkunda ___."
+ options: ["Nyogokuru", "Sogokuru", "Data"]
+ correct_answer: "Nyogokuru"
+ translation: "I love my grandmother"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ שאלה: "בחר the correct word to complete the משפט"
+ text_with_blank: "Sogokuru arasaza ___."
+ options: ["cyane", "neza", "nziza"]
+ correct_answer: "cyane"
+ translation: "My grandfather is very old"
+ xp_reward: 15
+
+ - id: 80
+ type: fill_blank
+ שאלה: "בחר the correct word to complete the משפט"
+ text_with_blank: "Sogokuru ___ inzu."
+ options: ["afite", "ari", "ni"]
+ correct_answer: "afite"
+ translation: "My grandfather has a בית"
+ xp_reward: 15
+
+ - id: 81
+ type: fill_blank
+ שאלה: "בחר the correct word to complete the משפט"
+ text_with_blank: "Nyogokuru araduteka ___."
+ options: ["ibiryo", "amazi", "inyama"]
+ correct_answer: "ibiryo"
+ translation: "My grandmother cooks אוכל"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 82
+ type: picture_word
+ שאלה: "Who is this משפחה member?"
+ image_url: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Nyogokuru", "Sogokuru"]
+ correct_answer: "Mama"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ שאלה: "Who is this משפחה member?"
+ image_url: "https://source.unsplash.com/featured/?fatherhttps://images.unsplash.com/photo-1605812830455-2fadc55bc4ba?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mama", "Data", "Musaza", "Mushiki"]
+ correct_answer: "Data"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ שאלה: "Who is this משפחה member?"
+ image_url: "https://images.unsplash.com/photo-1663429122432-c2769373768f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Nyogokuru", "Sogokuru", "Mama", "Data"]
+ correct_answer: "Nyogokuru"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ שאלה: "Who is this משפחה member?"
+ image_url: "https://source.unsplash.com/featured/?grandfather"
+ options: ["Sogokuru", "Nyogokuru", "Data", "Marume"]
+ correct_answer: "Sogokuru"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ שאלה: "Who is this משפחה member?"
+ image_url: "https://images.unsplash.com/photo-1621001584613-ef89d5fd810a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Musaza", "Mushiki", "Umwana", "Data"]
+ correct_answer: "Musaza"
+ xp_reward: 10
+
+ - id: 87
+ type: picture_word
+ שאלה: "Who is this משפחה member?"
+ image_url: "https://images.unsplash.com/photo-1527090975279-5d5ef18c6734?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Mushiki", "Musaza", "Mama", "Nyogokuru"]
+ correct_answer: "Mushiki"
+ xp_reward: 10
+
+ - id: 88
+ type: picture_word
+ שאלה: "Who is this משפחה member?"
+ image_url: "https://images.unsplash.com/photo-1440288736878-766bd5839edb?q=80&w=874&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umwana", "Umwuzukuru", "Musaza", "Mushiki"]
+ correct_answer: "Umwana"
+ xp_reward: 10
+
+ 
+ # 10. Word התאם (Pairing)
+ - id: 90
+ type: התאם
+ שאלה: "התאם the משפחה members"
+ pairs:
+ - שמאל: "Mother"
+ ימין: "Mama"
+ - שמאל: "Father"
+ ימין: "Data"
+ - שמאל: "Brother"
+ ימין: "Musaza"
+ - שמאל: "Sister"
+ ימין: "Mushiki"
+ - שמאל: "Child"
+ ימין: "Umwana"
+ - שמאל: "Grandmother"
+ ימין: "Nyogokuru"
+ - שמאל: "Grandfather"
+ ימין: "Sogokuru"
+ - שמאל: "Husband"
+ ימין: "Umugabo"
+ - שמאל: "Wife"
+ ימין: "Umugore"
+ xp_reward: 25
+
+ - id: 91
+ type: התאם
+ שאלה: "התאם the extended משפחה members"
+ pairs:
+ - שמאל: "Paternal uncle"
+ ימין: "Datawabo"
+ - שמאל: "Maternal uncle"
+ ימין: "Marume"
+ - שמאל: "Paternal aunt"
+ ימין: "Masenge"
+ - שמאל: "Maternal aunt"
+ ימין: "Nyirarume"
+ - שמאל: "Grandchild"
+ ימין: "Umwuzukuru"
+ - שמאל: "Great-grandchild"
+ ימין: "Umwuzukuruza"
+ - שמאל: "Son-in-law"
+ ימין: "Umukwe"
+ - שמאל: "Father-in-law"
+ ימין: "Sebukwe"
+ xp_reward: 25
+
+ - id: 92
+ type: התאם
+ שאלה: "התאם the actions with משפחה members"
+ pairs:
+ - שמאל: "is at home"
+ ימין: "ari mu nzu"
+ - שמאל: "is working"
+ ימין: "ari mu kazi"
+ - שמאל: "plays outside"
+ ימין: "arakina hanze"
+ - שמאל: "קרא a book"
+ ימין: "arasoma igitabo"
+ - שמאל: "cooks אוכל"
+ ימין: "araduteka ibiryo"
+ - שמאל: "has a בית"
+ ימין: "afite inzu"
+ xp_reward: 25
+
+ # 11. בחר Missing Word
+ - id: 97
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "Mama ___ mu nzu."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Mother is at home"
+ xp_reward: 15
+
+ - id: 98
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "Data ___ mu kazi."
+ missing_word_position: 2
+ options: ["ari", "ni", "afite"]
+ correct_answer: "ari"
+ translation: "Father is working"
+ xp_reward: 15
+
+ - id: 99
+ type: choose_missing
+ שאלה: "בחר the missing word"
+ משפט: "Musaza ___ hanze."
+ missing_word_position: 2
+ options: ["arakina", "arasoma", "ari"]
+ correct_answer: "arakina"
+ translation: "My brother plays outside"
+ xp_reward: 18
+
+ # 12. קרא and תשובה - שאלה in English, תשובה based on Kinyarwanda text
+ - id: 100
+ type: read_answer
+ שאלה: "קרא the text and תשובה the שאלה"
+ text: "Mama ari mu nzu. Data ari mu kazi."
+ שאלה: "Where is the mother?"
+ options: ["At home", "At work", "Outside", "At the שוק"]
+ correct_answer: "At home"
+ xp_reward: 20
+
+ - id: 101
+ type: read_answer
+ שאלה: "קרא the text and תשובה the שאלה"
+ text: "Musaza arakina hanze. Mushiki arasoma igitabo."
+ שאלה: "מה זה the sister doing?"
+ options: ["Playing", "קרא a book", "Working", "Cooking"]
+ correct_answer: "קרא a book"
+ xp_reward: 22
+
+ - id: 102
+ type: read_answer
+ שאלה: "קרא the text and תשובה the שאלה"
+ text: "Nyogokuru araduteka ibiryo. Sogokuru afite inzu."
+ שאלה: "מה פירוש the grandfather have?"
+ options: ["A פרה", "A בית", "A עז", "A book"]
+ correct_answer: "A בית"
+ xp_reward: 20
+
+ - id: 103
+ type: read_answer
+ שאלה: "קרא the text and תשובה the שאלה"
+ text: "Datawabo afite ihene. Marume afite inka."
+ שאלה: "מה פירוש the maternal uncle have?"
+ options: ["A עז", "A פרה", "A בית", "A תרנגולת"]
+ correct_answer: "A פרה"
+ xp_reward: 22
+
+ # 13. True / False
+ - id: 104
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "Mama ni umugore."
+ translation: "Mother is a woman"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 105
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "Data ni umugore."
+ translation: "Father is a woman"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 106
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "Nyogokuru arasaza cyane."
+ translation: "Grandmother is very old"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 107
+ type: true_false
+ שאלה: "Is this statement true or false?"
+ statement: "Umwana arakina hanze."
+ translation: "The child plays outside"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 108
+ type: conversation
+ שאלה: "Respond to the שאלה by building a משפט"
+ bot_message: "Mama ari he?"
+ translation: "Where is mother?"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "ari", "mu kazi"]
+ correct_response: ["Mama", "ari", "mu nzu"]
+ xp_reward: 20
+
+ - id: 109
+ type: conversation
+ שאלה: "Respond to the שאלה"
+ bot_message: "Umuryango umeze ute?"
+ translation: "How is the משפחה?"
+ options:
+ - "Umeze neza"
+ - "Umeze nabi"
+ - "Umeze ute"
+ correct_response: "Umeze neza"
+ xp_reward: 15
+
+ - id: 110
+ type: conversation
+ שאלה: "Respond to the שאלה by building a משפט"
+ bot_message: "Data ari he?"
+ translation: "Where is father?"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "ari", "mu nzu"]
+ correct_response: ["Data", "ari", "mu kazi"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build משפט from pieces
+ - id: 111
+ type: story
+ title: "My משפחה - Umuryango Wanjye"
+ story_intro: "קרא about the משפחה. Then build the משפט."
+ story_segments:
+ - text: "My mother is at home."
+ image: "https://images.unsplash.com/photo-1504888060547-83cbe78ccfe0?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-home"
+ - text: "My father is working."
+ - text: "My brother plays outside."
+ - text: "My sister קרא a book."
+ - text: "My grandmother cooks אוכל."
+ - text: "My grandfather has a בית."
+ exercises:
+ - type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My mother is at home'"
+ word_bank: ["Mama", "ari", "mu nzu", "Data", "mu kazi", "ari"]
+ correct_answer: ["Mama", "ari", "mu nzu"]
+ - type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My father is working'"
+ word_bank: ["Data", "ari", "mu kazi", "Mama", "mu nzu", "ari"]
+ correct_answer: ["Data", "ari", "mu kazi"]
+ - type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My brother plays outside'"
+ word_bank: ["Musaza", "arakina", "hanze", "Mushiki", "arasoma", "igitabo"]
+ correct_answer: ["Musaza", "arakina", "hanze"]
+ - type: word_bank
+ שאלה: "Build the Kinyarwanda משפט for 'My grandmother cooks אוכל'"
+ word_bank: ["Nyogokuru", "araduteka", "ibiryo", "Sogokuru", "afite", "inzu"]
+ correct_answer: ["Nyogokuru", "araduteka", "ibiryo"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 112
+ type: pronunciation
+ שאלה: "Say this משפחה member"
+ prompt: "Mama"
+ translation: "Mother"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ שאלה: "Say this משפחה member"
+ prompt: "Nyogokuru"
+ translation: "Grandmother"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ שאלה: "Say this משפט"
+ prompt: "Mama ari mu nzu"
+ translation: "Mother is at home"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 115
+ type: identify_meaning
+ שאלה: "מה פירוש 'Mama' mean in this משפט?"
+ context_sentence: "Mama ari mu nzu."
+ word: "Mama"
+ options: ["father", "mother", "brother", "sister"]
+ correct_answer: "mother"
+ xp_reward: 15
+
+ - id: 116
+ type: identify_meaning
+ שאלה: "מה פירוש 'arakina' mean in this משפט?"
+ context_sentence: "Musaza arakina hanze."
+ word: "arakina"
+ options: ["קרא", "plays", "works", "cooks"]
+ correct_answer: "plays"
+ xp_reward: 18
+
+ - id: 117
+ type: identify_meaning
+ שאלה: "מה פירוש 'araduteka' mean in this משפט?"
+ context_sentence: "Nyogokuru araduteka ibiryo."
+ word: "araduteka"
+ options: ["cooks", "eats", "has", "loves"]
+ correct_answer: "cooks"
+ xp_reward: 18
+
+ # 18. Speed התאם
+ - id: 118
+ type: speed_התאם
+ title: "התאם Madness: משפחה"
+ time_limit_seconds: 45
+ pairs:
+ - שמאל: "Mother"
+ ימין: "Mama"
+ - שמאל: "Father"
+ ימין: "Data"
+ - שמאל: "Brother"
+ ימין: "Musaza"
+ - שמאל: "Sister"
+ ימין: "Mushiki"
+ - שמאל: "Grandmother"
+ ימין: "Nyogokuru"
+ - שמאל: "Grandfather"
+ ימין: "Sogokuru"
+ - שמאל: "Child"
+ ימין: "Umwana"
+ - שמאל: "Husband"
+ ימין: "Umugabo"
+ - שמאל: "Wife"
+ ימין: "Umugore"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 119
+ type: timed_challenge
+ title: "Lightning Round: משפחה"
+ time_limit_seconds: 30
+ שאלה_count: 5
+ שאלה:
+ - שאלה: "Mother"
+ תשובה: "Mama"
+ - שאלה: "Father"
+ תשובה: "Data"
+ - שאלה: "Brother"
+ תשובה: "Musaza"
+ - שאלה: "Sister"
+ תשובה: "Mushiki"
+ - שאלה: "Grandmother"
+ תשובה: "Nyogokuru"
+ xp_reward: 35
+
+# כרטיסים
+ - id: 111
+ type: כרטיסים
+ שאלה: "כרטיסים"
+ כרטיסים:
+ - front: "Mama"
+ back: "Mother"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Data"
+ back: "Father"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Musaza"
+ back: "Brother"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Mushiki"
+ back: "Sister"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umwana"
+ back: "Child"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyogokuru"
+ back: "Grandmother"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Sogokuru"
+ back: "Grandfather"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugabo"
+ back: "Husband"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umugore"
+ back: "Wife"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Datawabo"
+ back: "Paternal uncle"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

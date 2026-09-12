@@ -1,0 +1,903 @@
+lesson:
+  name: "Rangi"
+  description: "Learn basic colors in English with animals and objects"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Colors ONLY (Safe for single words )
+  - id: 1
+    type: translation
+    question: "Unasemaje 'Nyekundu' kwa Kiingereza?"
+    answer: "Red"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Unasemaje 'Samawati' kwa Kiingereza?"
+    answer: "Blue"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Unasemaje 'Kijani' kwa Kiingereza?"
+    answer: "Green"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Unasemaje 'Njano' kwa Kiingereza?"
+    answer: "Yellow"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Unasemaje 'Nyeusi' kwa Kiingereza?"
+    answer: "Black"
+    xp_reward: 10
+
+  - id: 6
+    type: translation
+    question: "Unasemaje 'Nyeupe' kwa Kiingereza?"
+    answer: "White"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Unasemaje 'Machungwa' kwa Kiingereza?"
+    answer: "Orange"
+    xp_reward: 10
+
+  # Translation - Color Objects (Noun + Color phrases)
+  - id: 8
+    type: translation
+    question: "Unasemaje 'Tufaha nyekundu' kwa Kiingereza?"
+    answer: "Red apple"
+    xp_reward: 15
+
+  - id: 9
+    type: translation
+    question: "Unasemaje 'Anga ya samawati' kwa Kiingereza?"
+    answer: "Blue sky"
+    xp_reward: 15
+
+  - id: 10
+    type: translation
+    question: "Unasemaje 'Nyasi za kijani' kwa Kiingereza?"
+    answer: "Green grass"
+    xp_reward: 15
+
+  - id: 11
+    type: translation
+    question: "Unasemaje 'Jua la njano' kwa Kiingereza?"
+    answer: "Yellow sun"
+    xp_reward: 15
+
+  - id: 12
+    type: translation
+    question: "Unasemaje 'Paka mweusi' kwa Kiingereza?"
+    answer: "Black cat"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Unasemaje 'Ng'ombe mweupe' kwa Kiingereza?"
+    answer: "White cow"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Unasemaje 'Karoti ya machungwa' kwa Kiingereza?"
+    answer: "Orange carrot"
+    xp_reward: 15
+
+  # Translation - Colors with Animals
+  - id: 15
+    type: translation
+    question: "Unasemaje 'Ndege nyekundu' kwa Kiingereza?"
+    answer: "Red bird"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Unasemaje 'Chura wa kijani' kwa Kiingereza?"
+    answer: "Green frog"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Unasemaje 'Samaki wa samawati' kwa Kiingereza?"
+    answer: "Blue fish"
+    xp_reward: 15
+
+  - id: 18
+    type: translation
+    question: "Unasemaje 'Kuku wa njano' kwa Kiingereza?"
+    answer: "Yellow chicken"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Unasemaje 'Sungura mweusi' kwa Kiingereza?"
+    answer: "Black rabbit"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Unasemaje 'Mbuzi mweupe' kwa Kiingereza?"
+    answer: "White goat"
+    xp_reward: 15
+
+  # Translation - Numbers with Colors
+  - id: 21
+    type: translation
+    question: "Unasemaje 'Tufaha moja nyekundu' kwa Kiingereza?"
+    answer: "One red apple"
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Unasemaje 'Ndege wawili wa samawati' kwa Kiingereza?"
+    answer: "Two blue birds"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Unasemaje 'Kuku watatu wa njano' kwa Kiingereza?"
+    answer: "Three yellow chickens"
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Unasemaje 'Paka wanne weusi' kwa Kiingereza?"
+    answer: "Four black cats"
+    xp_reward: 15
+
+  - id: 25
+    type: translation
+    question: "Unasemaje 'Ng'ombe watano weupe' kwa Kiingereza?"
+    answer: "Five white cows"
+    xp_reward: 15
+
+  # Translation - Color Questions
+  - id: 26
+    type: translation
+    question: "Unasemaje 'Tufaha lina rangi gani?' kwa Kiingereza?"
+    answer: "What color is the apple?"
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "Unasemaje 'Anga ina rangi gani?' kwa Kiingereza?"
+    answer: "What color is the sky?"
+    xp_reward: 15
+
+  - id: 28
+    type: translation
+    question: "Unasemaje 'Paka ni mweusi?' kwa Kiingereza?"
+    answer: "Is the cat black?"
+    xp_reward: 15
+
+  # 2. Multiple Choice
+  - id: 29
+    type: multiple_choice
+    question: "'Nyekundu' inamaanisha nini?"
+    options:
+      - "Blue"
+      - "Red"
+      - "Green"
+      - "Yellow"
+    answer: "Red"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Samawati' inamaanisha nini?"
+    options:
+      - "Red"
+      - "Blue"
+      - "Black"
+      - "White"
+    answer: "Blue"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Kijani' inamaanisha nini?"
+    options:
+      - "Green"
+      - "Yellow"
+      - "Orange"
+      - "Red"
+    answer: "Green"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Njano' inamaanisha nini?"
+    options:
+      - "Blue"
+      - "Red"
+      - "Yellow"
+      - "White"
+    answer: "Yellow"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Nyeusi' inamaanisha nini?"
+    options:
+      - "White"
+      - "Black"
+      - "Green"
+      - "Orange"
+    answer: "Black"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "'Nyeupe' inamaanisha nini?"
+    options:
+      - "Black"
+      - "White"
+      - "Red"
+      - "Blue"
+    answer: "White"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "'Ndege nyekundu' inamaanisha nini?"
+    options:
+      - "Blue bird"
+      - "Red bird"
+      - "Green bird"
+      - "Yellow bird"
+    answer: "Red bird"
+    xp_reward: 15
+
+  # 3. Listen and Type (Dictation)
+  - id: 36
+    type: listen_and_type
+    question: "Sikiliza kisha uandike rangi kwa Kiingereza"
+    tts_text: "Red"
+    answer: "Red"
+    translation: "Nyekundu"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Sikiliza kisha uandike rangi kwa Kiingereza"
+    tts_text: "Blue"
+    answer: "Blue"
+    translation: "Samawati"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kiingereza"
+    tts_text: "The apple is red"
+    answer: "The apple is red"
+    translation: "Tufaha ni nyekundu"
+    xp_reward: 25
+
+  - id: 39
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kiingereza"
+    tts_text: "The sky is blue"
+    answer: "The sky is blue"
+    translation: "Anga ni samawati"
+    xp_reward: 25
+
+  - id: 40
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kiingereza"
+    tts_text: "The red bird flies"
+    answer: "The red bird flies"
+    translation: "Ndege nyekundu anaruka"
+    xp_reward: 25
+
+  # Listen and Choose
+  - id: 41
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague rangi sahihi kwa Kiingereza"
+    tts_text: "Red"
+    options:
+      - "Red"
+      - "Blue"
+      - "Green"
+    answer: "Red"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague rangi sahihi kwa Kiingereza"
+    tts_text: "Yellow"
+    options:
+      - "Red"
+      - "Yellow"
+      - "Black"
+    answer: "Yellow"
+    xp_reward: 15
+
+  - id: 43
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi sahihi kwa Kiingereza"
+    tts_text: "The apple is red"
+    options:
+      - "The apple is red"
+      - "The sky is blue"
+      - "The sun is yellow"
+    answer: "The apple is red"
+    xp_reward: 20
+
+  # 4. Repeat / Speaking Exercise
+  - id: 44
+    type: speaking
+    question: "Taja neno hili kwa Kiingereza"
+    prompt: "Nyekundu"
+    translation: "Red"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Taja neno hili kwa Kiingereza"
+    prompt: "Samawati"
+    translation: "Blue"
+    xp_reward: 15
+
+  - id: 46
+    type: speaking
+    question: "Taja sentensi hii kwa Kiingereza"
+    prompt: "Tufaha nyekundu"
+    translation: "Red apple"
+    xp_reward: 18
+
+  - id: 47
+    type: speaking
+    question: "Taja sentensi hii kwa Kiingereza"
+    prompt: "Tufaha ni nyekundu"
+    translation: "The apple is red"
+    xp_reward: 20
+
+  - id: 48
+    type: speaking
+    question: "Taja sentensi hii kwa Kiingereza"
+    prompt: "Anga ni samawati"
+    translation: "The sky is blue"
+    xp_reward: 20
+
+  # 5. Word Bank Sentence Building
+  - id: 49
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Tufaha ni nyekundu'"
+    word_bank: ["The", "apple", "is", "red", "The", "sky", "is", "blue"]
+    correct_answer: ["The", "apple", "is", "red"]
+    xp_reward: 20
+
+  - id: 50
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Anga ni samawati'"
+    word_bank: ["The", "sky", "is", "blue", "The", "apple", "is", "red"]
+    correct_answer: ["The", "sky", "is", "blue"]
+    xp_reward: 20
+
+  - id: 51
+    type: word_bank
+    question: "Jenga kishazi cha Kiingereza kinachomaanisha 'Ndege nyekundu'"
+    word_bank: ["red", "bird", "blue", "fish", "yellow", "chicken"]
+    correct_answer: ["red", "bird"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Jenga kishazi cha Kiingereza kinachomaanisha 'Samaki wa samawati'"
+    word_bank: ["blue", "fish", "red", "bird", "yellow", "chicken"]
+    correct_answer: ["blue", "fish"]
+    xp_reward: 18
+
+  - id: 53
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Ndege nyekundu anaruka'"
+    word_bank: ["The", "red", "bird", "flies", "The", "blue", "fish", "swims"]
+    correct_answer: ["The", "red", "bird", "flies"]
+    xp_reward: 25
+
+  - id: 54
+    type: word_bank
+    question: "Jenga sentensi ya Kiingereza inayomaanisha 'Chura wa kijani anaruka'"
+    word_bank: ["The", "green", "frog", "jumps", "The", "red", "bird", "flies"]
+    correct_answer: ["The", "green", "frog", "jumps"]
+    xp_reward: 25
+
+  # 6. Sentence Scramble
+  - id: 55
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi unaoonyesha 'Tufaha ni nyekundu'"
+    scrambled_words: ["is", "The", "apple", "red"]
+    correct_sentence: "The apple is red"
+    translation: "Tufaha ni nyekundu"
+    xp_reward: 20
+
+  - id: 56
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi unaoonyesha 'Anga ni samawati'"
+    scrambled_words: ["is", "The", "sky", "blue"]
+    correct_sentence: "The sky is blue"
+    translation: "Anga ni samawati"
+    xp_reward: 20
+
+  - id: 57
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi unaoonyesha 'Ndege nyekundu anaruka'"
+    scrambled_words: ["flies", "red", "The", "bird"]
+    correct_sentence: "The red bird flies"
+    translation: "Ndege nyekundu anaruka"
+    xp_reward: 25
+
+  - id: 58
+    type: sentence_scramble
+    question: "Panga maneno haya kwa mpangilio sahihi unaoonyesha 'Chura wa kijani anaruka'"
+    scrambled_words: ["jumps", "green", "The", "frog"]
+    correct_sentence: "The green frog jumps"
+    translation: "Chura wa kijani anaruka"
+    xp_reward: 25
+
+  # 7. Fill in the Blank
+  - id: 59
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "The apple is ___."
+    options: ["red", "blue", "green"]
+    correct_answer: "red"
+    translation: "Tufaha ni nyekundu"
+    xp_reward: 15
+
+  - id: 60
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "The sky is ___."
+    options: ["red", "blue", "yellow"]
+    correct_answer: "blue"
+    translation: "Anga ni samawati"
+    xp_reward: 15
+
+  - id: 61
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "The grass is ___."
+    options: ["green", "blue", "red"]
+    correct_answer: "green"
+    translation: "Nyasi ni kijani"
+    xp_reward: 15
+
+  - id: 62
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "The sun is ___."
+    options: ["yellow", "red", "blue"]
+    correct_answer: "yellow"
+    translation: "Jua ni njano"
+    xp_reward: 15
+
+  - id: 63
+    type: fill_blank
+    question: "Chagua neno sahihi kukamilisha sentensi"
+    text_with_blank: "The ___ bird flies."
+    options: ["red", "blue", "yellow"]
+    correct_answer: "red"
+    translation: "Ndege nyekundu anaruka"
+    xp_reward: 18
+
+  # 8. Picture → Word
+  - id: 64
+    type: picture_word
+    question: "Rangi hii ni ipi?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Blue", "Green", "Yellow"]
+    correct_answer: "Red"
+    xp_reward: 10
+
+  - id: 65
+    type: picture_word
+    question: "Rangi hii ni ipi?"
+    image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Blue", "Black", "White"]
+    correct_answer: "Blue"
+    xp_reward: 10
+
+  - id: 66
+    type: picture_word
+    question: "Rangi hii ni ipi?"
+    image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Yellow", "Orange", "Green", "Blue"]
+    correct_answer: "Green"
+    xp_reward: 10
+
+  - id: 67
+    type: picture_word
+    question: "Rangi hii ni ipi?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Yellow", "Black", "White"]
+    correct_answer: "Yellow"
+    xp_reward: 10
+
+  - id: 68
+    type: picture_word
+    question: "Rangi hii ni ipi?"
+    image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["White", "Blue", "Black", "Orange"]
+    correct_answer: "Black"
+    xp_reward: 10
+
+  - id: 69
+    type: picture_word
+    question: "Rangi hii ni ipi?"
+    image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Black", "White", "Green", "Red"]
+    correct_answer: "White"
+    xp_reward: 10
+
+  - id: 70
+    type: picture_word
+    question: "Rangi hii ni ipi?"
+    image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Yellow", "Orange", "Blue"]
+    correct_answer: "Orange"
+    xp_reward: 10
+
+  - id: 71
+    type: picture_word
+    question: "Tufaha hili lina rangi gani?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Green", "Yellow", "Orange"]
+    correct_answer: "Red"
+    xp_reward: 15
+
+  - id: 72
+    type: picture_word
+    question: "Ndege huyu ana rangi gani?"
+    image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    options: ["Red", "Blue", "Yellow", "Green"]
+    correct_answer: "Blue"
+    xp_reward: 15
+
+  # 9. Word Matching
+  - id: 73
+    type: matching
+    question: "Linganisha rangi"
+    pairs:
+      - left: "Red"
+        right: "Nyekundu"
+      - left: "Blue"
+        right: "Samawati"
+      - left: "Green"
+        right: "Kijani"
+      - left: "Yellow"
+        right: "Njano"
+      - left: "Black"
+        right: "Nyeusi"
+      - left: "White"
+        right: "Nyeupe"
+      - left: "Orange"
+        right: "Machungwa"
+    xp_reward: 25
+
+  - id: 74
+    type: matching
+    question: "Linganisha vitu na rangi zake"
+    pairs:
+      - left: "Red apple"
+        right: "Tufaha nyekundu"
+      - left: "Blue sky"
+        right: "Anga ya samawati"
+      - left: "Green grass"
+        right: "Nyasi za kijani"
+      - left: "Yellow sun"
+        right: "Jua la njano"
+      - left: "Black cat"
+        right: "Paka mweusi"
+      - left: "White cow"
+        right: "Ng'ombe mweupe"
+    xp_reward: 25
+
+  - id: 75
+    type: matching
+    question: "Linganisha wanyama na rangi zao"
+    pairs:
+      - left: "Red bird"
+        right: "Ndege nyekundu"
+      - left: "Green frog"
+        right: "Chura wa kijani"
+      - left: "Blue fish"
+        right: "Samaki wa samawati"
+      - left: "Yellow chicken"
+        right: "Kuku wa njano"
+      - left: "Black rabbit"
+        right: "Sungura mweusi"
+      - left: "White goat"
+        right: "Mbuzi mweupe"
+    xp_reward: 25
+
+  # 10. Choose Missing Word
+  - id: 80
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "The apple is ___."
+    missing_word_position: 3
+    options: ["red", "blue", "green"]
+    correct_answer: "red"
+    translation: "Tufaha ni nyekundu"
+    xp_reward: 15
+
+  - id: 81
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "The sky is ___."
+    missing_word_position: 3
+    options: ["red", "blue", "yellow"]
+    correct_answer: "blue"
+    translation: "Anga ni samawati"
+    xp_reward: 15
+
+  - id: 82
+    type: choose_missing
+    question: "Chagua neno linalokosekana"
+    sentence: "The ___ bird flies."
+    missing_word_position: 2
+    options: ["red", "blue", "yellow"]
+    correct_answer: "red"
+    translation: "Ndege nyekundu anaruka"
+    xp_reward: 18
+
+  # 11. Read and Answer
+  - id: 83
+    type: read_answer
+    question: "Soma kifungu kisha ujibu swali"
+    text: "Tufaha ni nyekundu. Anga ni samawati. Nyasi ni kijani."
+    question: "Tufaha hili lina rangi gani?"
+    options: ["Red", "Blue", "Green", "Yellow"]
+    correct_answer: "Red"
+    xp_reward: 20
+
+  - id: 84
+    type: read_answer
+    question: "Soma kifungu kisha ujibu swali"
+    text: "Ndege nyekundu anaruka. Chura wa kijani anaruka. Samaki wa samawati anaogelea."
+    question: "Ndege nyekundu anafanya nini?"
+    options: ["Swims", "Jumps", "Flies", "Runs"]
+    correct_answer: "Flies"
+    xp_reward: 25
+
+  - id: 85
+    type: read_answer
+    question: "Soma kifungu kisha ujibu swali"
+    text: "Paka ni mweusi. Ng'ombe ni mweupe. Kuku ni wa njano."
+    question: "Ng'ombe ana rangi gani?"
+    options: ["Black", "White", "Yellow", "Red"]
+    correct_answer: "White"
+    xp_reward: 20
+
+  # 12. True / False
+  - id: 86
+    type: true_false
+    question: "Je, taarifa hii ni kweli au ni uongo?"
+    statement: "Tufaha ni nyekundu."
+    translation: "The apple is red"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 87
+    type: true_false
+    question: "Je, taarifa hii ni kweli au ni uongo?"
+    statement: "Anga ni kijani."
+    translation: "The sky is green"
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 88
+    type: true_false
+    question: "Je, taarifa hii ni kweli au ni uongo?"
+    statement: "Ng'ombe ni mweupe."
+    translation: "The cow is white"
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 89
+    type: true_false
+    question: "Je, taarifa hii ni kweli au ni uongo?"
+    statement: "Ndege nyekundu anaruka."
+    translation: "The red bird flies"
+    correct_answer: true
+    xp_reward: 10
+
+  # 13. Conversation Exercise
+  - id: 90
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa"
+    bot_message: "Tufaha hili lina rangi gani?"
+    translation: "What color is this apple?"
+    image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    word_bank: ["The", "apple", "is", "red", "The", "sky", "is", "blue"]
+    correct_response: ["The", "apple", "is", "red"]
+    xp_reward: 20
+
+  - id: 91
+    type: conversation
+    question: "Jibu swali"
+    bot_message: "Anga ina rangi gani?"
+    translation: "What color is the sky?"
+    options:
+      - "Red"
+      - "Blue"
+      - "Green"
+    correct_response: "Blue"
+    xp_reward: 15
+
+  - id: 92
+    type: conversation
+    question: "Jibu swali"
+    bot_message: "Paka ni mweusi?"
+    translation: "Is the cat black?"
+    options:
+      - "Yes, it is black"
+      - "No, it is white"
+      - "No, it is red"
+    correct_response: "Yes, it is black"
+    xp_reward: 15
+
+  # 14. Story Exercise
+  - id: 93
+    type: story
+    title: "Rangi Shambani"
+    story_intro: "Soma hadithi ya wanyama wenye rangi. Kisha jenga sentensi."
+    story_segments:
+      - text: "Kuna ndege nyekundu angani."
+        image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      - text: "Ndege anaruka juu."
+      - text: "Kuna chura wa kijani karibu na maji."
+      - text: "Chura anaruka."
+      - text: "Kuna samaki wa samawati majini."
+      - text: "Samaki anaogelea."
+    exercises:
+      - type: word_bank
+        question: "Jenga sentensi ya Kiingereza inayomaanisha 'Ndege nyekundu anaruka'"
+        word_bank: ["The", "red", "bird", "flies", "The", "green", "frog", "jumps"]
+        correct_answer: ["The", "red", "bird", "flies"]
+      - type: word_bank
+        question: "Jenga sentensi ya Kiingereza inayomaanisha 'Chura wa kijani anaruka'"
+        word_bank: ["The", "green", "frog", "jumps", "The", "blue", "fish", "swims"]
+        correct_answer: ["The", "green", "frog", "jumps"]
+      - type: word_bank
+        question: "Jenga sentensi ya Kiingereza inayomaanisha 'Samaki wa samawati anaogelea'"
+        word_bank: ["The", "blue", "fish", "swims", "The", "red", "bird", "flies"]
+        correct_answer: ["The", "blue", "fish", "swims"]
+    xp_reward: 40
+
+  # 15. Pronunciation Check
+  - id: 94
+    type: pronunciation
+    question: "Taja rangi kwa Kiingereza kwa usahihi"
+    prompt: "Nyekundu"
+    translation: "Red"
+    xp_reward: 15
+
+  - id: 95
+    type: pronunciation
+    question: "Taja neno kwa Kiingereza kwa usahihi"
+    prompt: "Twiga"
+    translation: "Giraffe"
+    xp_reward: 20
+
+  - id: 96
+    type: pronunciation
+    question: "Taja sentensi kwa Kiingereza kwa usahihi"
+    prompt: "Tufaha nyekundu"
+    translation: "Red apple"
+    xp_reward: 18
+
+  # 16. Identify Correct Meaning
+  - id: 97
+    type: identify_meaning
+    question: "'Nyekundu' inamaanisha nini katika sentensi hii?"
+    context_sentence: "Tufaha ni nyekundu."
+    word: "nyekundu"
+    options: ["red", "blue", "green", "yellow"]
+    correct_answer: "red"
+    xp_reward: 15
+
+  - id: 98
+    type: identify_meaning
+    question: "'Nyekundu' inamaanisha nini katika sentensi hii?"
+    context_sentence: "Ndege nyekundu anaruka."
+    word: "nyekundu"
+    options: ["red", "blue", "green", "yellow"]
+    correct_answer: "red"
+    note: "nyekundu ni kivumishi kinachotumiwa kuelezea kitu"
+    xp_reward: 18
+
+  - id: 99
+    type: identify_meaning
+    question: "'Wa kijani' inamaanisha nini katika sentensi hii?"
+    context_sentence: "Chura wa kijani anaruka."
+    word: "wa kijani"
+    options: ["red", "blue", "green", "yellow"]
+    correct_answer: "green"
+    xp_reward: 18
+
+  # 17. Speed Matching
+  - id: 100
+    type: speed_matching
+    title: "Mechi ya Kasi: Rangi"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Red"
+        right: "Nyekundu"
+      - left: "Blue"
+        right: "Samawati"
+      - left: "Green"
+        right: "Kijani"
+      - left: "Yellow"
+        right: "Njano"
+      - left: "Black"
+        right: "Nyeusi"
+      - left: "White"
+        right: "Nyeupe"
+      - left: "Orange"
+        right: "Machungwa"
+    xp_reward: 30
+
+  # 18. Timed Challenges
+  - id: 101
+    type: timed_challenge
+    title: "Mdundo wa Kasi: Rangi"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Nyekundu"
+        answer: "Red"
+      - question: "Samawati"
+        answer: "Blue"
+      - question: "Kijani"
+        answer: "Green"
+      - question: "Njano"
+        answer: "Yellow"
+      - question: "Nyeusi"
+        answer: "Black"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Red"
+      back: "Nyekundu"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Blue"
+      back: "Samawati"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Green"
+      back: "Kijani"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Yellow"
+      back: "Njano"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Black"
+      back: "Nyeusi"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "White"
+      back: "Nyeupe"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Orange"
+      back: "Machungwa"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Red apple"
+      back: "Tufaha nyekundu"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Blue sky"
+      back: "Anga ya samawati"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Green grass"
+      back: "Nyasi za kijani"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

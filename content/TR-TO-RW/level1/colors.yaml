@@ -1,0 +1,907 @@
+lesson:
+ name: "Renkler"
+ description: "Öğren basic Renkler in Kinyarwanda with Hayvanlar and objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Renkler ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Soru: "Nasıl dersin 'Kırmızı' Kinyarwanda'da?"
+ Cevap: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Soru: "Nasıl dersin 'Mavi' Kinyarwanda'da?"
+ Cevap: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Soru: "Nasıl dersin 'Yeşil' Kinyarwanda'da?"
+ Cevap: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Soru: "Nasıl dersin 'Sarı' Kinyarwanda'da?"
+ Cevap: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Soru: "Nasıl dersin 'Siyah' Kinyarwanda'da?"
+ Cevap: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Soru: "Nasıl dersin 'Beyaz' Kinyarwanda'da?"
+ Cevap: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Soru: "Nasıl dersin 'Turuncu' Kinyarwanda'da?"
+ Cevap: "Turuncu"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, not full Cümle)
+ - id: 8
+ type: translation
+ Soru: "Nasıl dersin 'Kırmızı apple' Kinyarwanda'da?"
+ Cevap: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Soru: "Nasıl dersin 'Mavi sky' Kinyarwanda'da?"
+ Cevap: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Soru: "Nasıl dersin 'Yeşil grass' Kinyarwanda'da?"
+ Cevap: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Soru: "Nasıl dersin 'Sarı sun' Kinyarwanda'da?"
+ Cevap: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Soru: "Nasıl dersin 'Siyah Kedi' Kinyarwanda'da?"
+ Cevap: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Soru: "Nasıl dersin 'Beyaz İnek' Kinyarwanda'da?"
+ Cevap: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Soru: "Nasıl dersin 'Turuncu carrot' Kinyarwanda'da?"
+ Cevap: "Karoti ya Turuncu"
+ xp_reward: 15
+
+ # Translation - Renkler with Hayvanlar (Noun + Color phrases)
+ - id: 15
+ type: translation
+ Soru: "Nasıl dersin 'Kırmızı Kuş' Kinyarwanda'da?"
+ Cevap: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Soru: "Nasıl dersin 'Yeşil Kurbağa' Kinyarwanda'da?"
+ Cevap: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Soru: "Nasıl dersin 'Mavi Balık' Kinyarwanda'da?"
+ Cevap: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Soru: "Nasıl dersin 'Sarı Tavuk' Kinyarwanda'da?"
+ Cevap: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Soru: "Nasıl dersin 'Siyah Tavşan' Kinyarwanda'da?"
+ Cevap: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Soru: "Nasıl dersin 'Beyaz Keçi' Kinyarwanda'da?"
+ Cevap: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers with Renkler (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ Soru: "Nasıl dersin 'One Kırmızı apple' Kinyarwanda'da?"
+ Cevap: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Soru: "Nasıl dersin 'Two Mavi Kuş' Kinyarwanda'da?"
+ Cevap: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Soru: "Nasıl dersin 'Three Sarı Tavuk' Kinyarwanda'da?"
+ Cevap: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Soru: "Nasıl dersin 'Four Siyah Kedi' Kinyarwanda'da?"
+ Cevap: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Soru: "Nasıl dersin 'Five Beyaz İnek' Kinyarwanda'da?"
+ Cevap: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color Soru (Phrases - safe as they are fixed expressions)
+ - id: 26
+ type: translation
+ Soru: "Nasıl sorarsın 'What color is the apple?' Kinyarwanda'da?"
+ Cevap: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Soru: "Nasıl sorarsın 'What color is the sky?' Kinyarwanda'da?"
+ Cevap: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Soru: "Nasıl sorarsın 'Is the Kedi Siyah?' Kinyarwanda'da?"
+ Cevap: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # NO DIRECT TRANSLATION FOR FULL Cümle OR PARAGRAPHS
+ # Instead, we use Cümle building, Eşleştir, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Umutuku' bu cümlede?"
+ options:
+ - "Mavi"
+ - "Kırmızı"
+ - "Yeşil"
+ - "Sarı"
+ Cevap: "Kırmızı"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Ubururu' bu cümlede?"
+ options:
+ - "Kırmızı"
+ - "Mavi"
+ - "Siyah"
+ - "Beyaz"
+ Cevap: "Mavi"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Icyatsi' bu cümlede?"
+ options:
+ - "Yeşil"
+ - "Sarı"
+ - "Turuncu"
+ - "Kırmızı"
+ Cevap: "Yeşil"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Umuhondo' bu cümlede?"
+ options:
+ - "Mavi"
+ - "Kırmızı"
+ - "Sarı"
+ - "Beyaz"
+ Cevap: "Sarı"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Umukara' bu cümlede?"
+ options:
+ - "Beyaz"
+ - "Siyah"
+ - "Yeşil"
+ - "Turuncu"
+ Cevap: "Siyah"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Umweru' bu cümlede?"
+ options:
+ - "Siyah"
+ - "Beyaz"
+ - "Kırmızı"
+ - "Mavi"
+ Cevap: "Beyaz"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Inyoni itukura' bu cümlede?"
+ options:
+ - "Mavi Kuş"
+ - "Kırmızı Kuş"
+ - "Yeşil Kuş"
+ - "Sarı Kuş"
+ Cevap: "Kırmızı Kuş"
+ xp_reward: 15
+
+ # 3. Dinle and Type (Dictation) - Safe because audio is provided
+ - id: 36
+ type: listen_and_type
+ Soru: "Dinle and type the color"
+ tts_text: "Umutuku"
+ Cevap: "Umutuku"
+ translation: "Kırmızı"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Soru: "Dinle and type the color"
+ tts_text: "Ubururu"
+ Cevap: "Ubururu"
+ translation: "Mavi"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_and_type
+ Soru: "Dinle and type the phrase"
+ tts_text: "Pome ni umutuku"
+ Cevap: "Pome ni umutuku"
+ translation: "The apple is Kırmızı"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_and_type
+ Soru: "Dinle and type the phrase"
+ tts_text: "Ijuru ni ubururu"
+ Cevap: "Ijuru ni ubururu"
+ translation: "The sky is Mavi"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_and_type
+ Soru: "Dinle and type the phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ Cevap: "Inyoni itukura iraguruka"
+ translation: "The Kırmızı Kuş flies"
+ xp_reward: 25
+
+ # 4. Dinle and Seç
+ - id: 41
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct color"
+ tts_text: "Umutuku"
+ options:
+ - "Kırmızı"
+ - "Mavi"
+ - "Yeşil"
+ Cevap: "Kırmızı"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "Kırmızı"
+ - "Sarı"
+ - "Siyah"
+ Cevap: "Sarı"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "The apple is Kırmızı"
+ - "The sky is Mavi"
+ - "The sun is Sarı"
+ Cevap: "The apple is Kırmızı"
+ xp_reward: 20
+
+ # 5. Repeat / Konuş Exercise
+ - id: 44
+ type: Konuş
+ Soru: "Say this color"
+ prompt: "Umutuku"
+ translation: "Kırmızı"
+ xp_reward: 15
+
+ - id: 45
+ type: Konuş
+ Soru: "Say this color"
+ prompt: "Ubururu"
+ translation: "Mavi"
+ xp_reward: 15
+
+ - id: 46
+ type: Konuş
+ Soru: "Say this phrase"
+ prompt: "Pome itukura"
+ translation: "Kırmızı apple"
+ xp_reward: 18
+
+ - id: 47
+ type: Konuş
+ Soru: "Say this Cümle"
+ prompt: "Pome ni umutuku"
+ translation: "The apple is Kırmızı"
+ xp_reward: 20
+
+ - id: 48
+ type: Konuş
+ Soru: "Say this Cümle"
+ prompt: "Ijuru ni ubururu"
+ translation: "The sky is Mavi"
+ xp_reward: 20
+
+ # 6. Word Bank Cümle Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The apple is Kırmızı'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The sky is Mavi'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ Soru: "Build the Kinyarwanda phrase for 'Kırmızı Kuş'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Soru: "Build the Kinyarwanda phrase for 'Mavi Balık'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Kırmızı Kuş flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Yeşil Kurbağa jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. Cümle Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Kinyarwanda Cümle"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "The apple is Kırmızı"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Kinyarwanda Cümle"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "The sky is Mavi"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Kinyarwanda Cümle"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "The Kırmızı Kuş flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Kinyarwanda Cümle"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "The Yeşil Kurbağa jumps"
+ xp_reward: 25
+
+ # 8. Fill in the Blank - Seç FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ Soru: "Seç the correct word to complete the Cümle"
+ text_with_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Kırmızı"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ Soru: "Seç the correct word to complete the Cümle"
+ text_with_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Mavi"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ Soru: "Seç the correct word to complete the Cümle"
+ text_with_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "The grass is Yeşil"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ Soru: "Seç the correct word to complete the Cümle"
+ text_with_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "The sun is Sarı"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ Soru: "Seç the correct word to complete the phrase"
+ text_with_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Kırmızı Kuş flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ Soru: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ Soru: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ Soru: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "Turuncu", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ Soru: "What color is this?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Soru: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "Turuncu"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Soru: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Soru: "What color is this?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Turuncu", "Ubururu"]
+ correct_answer: "Turuncu"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Soru: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "Turuncu"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ Soru: "What color is this Kuş?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word Eşleştir (Pairing)
+ - id: 73
+ type: Eşleştir
+ Soru: "Eşleştir the Renkler"
+ pairs:
+ - Sol: "Kırmızı"
+ Sağ: "Umutuku"
+ - Sol: "Mavi"
+ Sağ: "Ubururu"
+ - Sol: "Yeşil"
+ Sağ: "Icyatsi"
+ - Sol: "Sarı"
+ Sağ: "Umuhondo"
+ - Sol: "Siyah"
+ Sağ: "Umukara"
+ - Sol: "Beyaz"
+ Sağ: "Umweru"
+ - Sol: "Turuncu"
+ Sağ: "Turuncu"
+ xp_reward: 25
+
+ - id: 74
+ type: Eşleştir
+ Soru: "Eşleştir the colored objects"
+ pairs:
+ - Sol: "Kırmızı apple"
+ Sağ: "Pome itukura"
+ - Sol: "Mavi sky"
+ Sağ: "Ijuru ry'ubururu"
+ - Sol: "Yeşil grass"
+ Sağ: "Ibyatsi by'icyatsi"
+ - Sol: "Sarı sun"
+ Sağ: "Izuba ry'umuhondo"
+ - Sol: "Siyah Kedi"
+ Sağ: "Injangwe y'umukara"
+ - Sol: "Beyaz İnek"
+ Sağ: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: Eşleştir
+ Soru: "Eşleştir the colored Hayvanlar"
+ pairs:
+ - Sol: "Kırmızı Kuş"
+ Sağ: "Inyoni itukura"
+ - Sol: "Yeşil Kurbağa"
+ Sağ: "Igikeri cy'icyatsi"
+ - Sol: "Mavi Balık"
+ Sağ: "Ifi y'ubururu"
+ - Sol: "Sarı Tavuk"
+ Sağ: "Inkoko y'umuhondo"
+ - Sol: "Siyah Tavşan"
+ Sağ: "Urukwavu rw'umukara"
+ - Sol: "Beyaz Keçi"
+ Sağ: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. Seç Missing Word
+ - id: 80
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "The apple is Kırmızı"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "The sky is Mavi"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "The Kırmızı Kuş flies"
+ xp_reward: 18
+
+ # 12. Oku and Cevap - Soru in English, Cevap based on Kinyarwanda text
+ - id: 83
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ Soru: "What color is the apple?"
+ options: ["Kırmızı", "Mavi", "Yeşil", "Sarı"]
+ correct_answer: "Kırmızı"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ Soru: "Ne anlama gelir the Kırmızı Kuş do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ Soru: "What color is the İnek?"
+ options: ["Siyah", "Beyaz", "Sarı", "Kırmızı"]
+ correct_answer: "Beyaz"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Pome ni umutuku."
+ translation: "The apple is Kırmızı"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Ijuru ni icyatsi."
+ translation: "The sky is Yeşil"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Inka ni umweru."
+ translation: "The İnek is Beyaz"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "The Kırmızı Kuş flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ Soru: "Respond to the Soru by building a Cümle"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color is this apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ Soru: "Respond to the Soru"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color is the sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ Soru: "Respond to the Soru"
+ bot_message: "Injangwe ni umukara?"
+ translation: "Is the Kedi Siyah?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build Cümle from pieces
+ - id: 93
+ type: story
+ title: "Renkler in the Field"
+ story_intro: "Oku about the colorful Hayvanlar. Then build the Cümle."
+ story_segments:
+ - text: "There is a Kırmızı Kuş in the sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: "The Kuş flies above."
+ - text: "There is a Yeşil Kurbağa near the Su."
+ - text: "The Kurbağa jumps."
+ - text: "There is a Mavi Balık in the Su."
+ - text: "The Balık swims."
+ exercises:
+ - type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Kırmızı Kuş flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Yeşil Kurbağa jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Mavi Balık swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ Soru: "Say the color"
+ prompt: "Umutuku"
+ translation: "Kırmızı"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ Soru: "Say the color"
+ prompt: "Agasumbashyamba" # Zürafa - testing color knowledge in context
+ translation: "Zürafa (they are Sarı and Kahverengi)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ Soru: "Say the phrase"
+ prompt: "Pome itukura"
+ translation: "Kırmızı apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'umutuku' mean in this Cümle?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["Kırmızı", "Mavi", "Yeşil", "Sarı"]
+ correct_answer: "Kırmızı"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'itukura' mean in this Cümle?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["Kırmızı", "Mavi", "Yeşil", "Sarı"]
+ correct_answer: "Kırmızı"
+ note: "itukura is the adjective form of umutuku when describing a noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'cy'icyatsi' mean in this Cümle?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["Kırmızı", "Mavi", "Yeşil", "Sarı"]
+ correct_answer: "Yeşil"
+ xp_reward: 18
+
+ # 18. Speed Eşleştir
+ - id: 100
+ type: speed_Eşleştir
+ title: "Eşleştir Madness: Renkler"
+ time_limit_seconds: 45
+ pairs:
+ - Sol: "Kırmızı"
+ Sağ: "Umutuku"
+ - Sol: "Mavi"
+ Sağ: "Ubururu"
+ - Sol: "Yeşil"
+ Sağ: "Icyatsi"
+ - Sol: "Sarı"
+ Sağ: "Umuhondo"
+ - Sol: "Siyah"
+ Sağ: "Umukara"
+ - Sol: "Beyaz"
+ Sağ: "Umweru"
+ - Sol: "Turuncu"
+ Sağ: "Turuncu"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: Renkler"
+ time_limit_seconds: 30
+ Soru_count: 5
+ Soru:
+ - Soru: "Kırmızı"
+ Cevap: "Umutuku"
+ - Soru: "Mavi"
+ Cevap: "Ubururu"
+ - Soru: "Yeşil"
+ Cevap: "Icyatsi"
+ - Soru: "Sarı"
+ Cevap: "Umuhondo"
+ - Soru: "Siyah"
+ Cevap: "Umukara"
+ xp_reward: 35
+
+# Kartlar
+ - id: 111
+ type: Kartlar
+ Soru: "Kartlar"
+ Kartlar:
+ - front: "Umutuku"
+ back: "Kırmızı"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "Mavi"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "Yeşil"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "Sarı"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "Siyah"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "Beyaz"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Turuncu"
+ back: "Turuncu"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "Kırmızı apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "Mavi sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "Yeşil grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

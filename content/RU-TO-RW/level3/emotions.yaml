@@ -1,0 +1,1149 @@
+lesson:
+ name: "Эмоции - Amarangamutima"
+ description: "Учите emotion words in Kinyarwanda and how to express feelings"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Emotion Words ONLY (Safe for single words)
+ - id: 1
+ type: translation
+ Вопрос: "Как сказать 'Счастливый' на киньяруанда?"
+ Ответ: "Unezerewe / Nishimiye"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Вопрос: "Как сказать 'Грустный' на киньяруанда?"
+ Ответ: "Umubabaro / Nshimishijwe n'agahinda"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Вопрос: "Как сказать 'Angry' на киньяруанда?"
+ Ответ: "Umujinya / Arakaye"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Вопрос: "Как сказать 'Afraid / Scared' на киньяруанда?"
+ Ответ: "Gutinya / Atinya"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Вопрос: "Как сказать 'Surprised' на киньяруанда?"
+ Ответ: "Gutungurwa / Aratunguwe"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Вопрос: "Как сказать 'Excited' на киньяруанда?"
+ Ответ: "Akanyamuneza / Arishimye"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Вопрос: "Как сказать 'Calm' на киньяруанда?"
+ Ответ: "Amahoro / Yatuje"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Вопрос: "Как сказать 'Confused' на киньяруанда?"
+ Ответ: "Avugwaho / Yivangavanga"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Вопрос: "Как сказать 'Tired' на киньяруанда?"
+ Ответ: "Umunaniro / Ararushye"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Вопрос: "Как сказать 'Lonely' на киньяруанда?"
+ Ответ: "Kumwe n'ubwigunge / Yonyine"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Вопрос: "Как сказать 'Embarrassed' на киньяруанда?"
+ Ответ: "Kwikanga / Akemangwa"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Вопрос: "Как сказать 'Proud' на киньяруанда?"
+ Ответ: "Kwishimira / Arishimira"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Вопрос: "Как сказать 'Love / Loving' на киньяруанда?"
+ Ответ: "Urukundo / Akunda"
+ note: "Both are correct"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Вопрос: "Как сказать 'Hate' на киньяруанда?"
+ Ответ: "Ubwihebe / Arambiwe"
+ note: "Both are correct"
+ xp_reward: 10
+
+ # Предложение About Эмоции
+ - id: 15
+ type: translation
+ Вопрос: "Как сказать 'I am Счастливый' на киньяруанда?"
+ Ответ: "Nishimiye / Unezerewe."
+ note: "Both are correct"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Вопрос: "Как сказать 'She is Грустный' на киньяруанда?"
+ Ответ: "Arababaye."
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Вопрос: "Как сказать 'He is angry' на киньяруанда?"
+ Ответ: "Ararakaye."
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Вопрос: "Как сказать 'They are scared' на киньяруанда?"
+ Ответ: "Batinye."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Вопрос: "Как сказать 'I am excited about the party' на киньяруанда?"
+ Ответ: "Nishimiye ibirori."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ Вопрос: "Как сказать 'She is calm' на киньяруанда?"
+ Ответ: "Yatuje."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Вопрос: "Как сказать 'I feel lonely' на киньяруанда?"
+ Ответ: "Nonyine / Ndumva nonyine."
+ note: "Both are correct"
+ xp_reward: 18
+
+ - id: 22
+ type: translation
+ Вопрос: "Как сказать 'He is proud of his son' на киньяруанда?"
+ Ответ: "Arishimira umuhungu we."
+ xp_reward: 20
+
+ - id: 23
+ type: translation
+ Вопрос: "Как сказать 'I love my Семья' на киньяруанда?"
+ Ответ: "Nkunda umuryango wanjye."
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Вопрос: "Как сказать 'She hates lies' на киньяруанда?"
+ Ответ: "Arambiwe kubeshya."
+ xp_reward: 20
+
+ # 2. Multiple Choice
+ - id: 25
+ type: multiple_choice
+ Вопрос: "Что означает 'Nishimiye' в этой фразе?"
+ options:
+ - "Грустный"
+ - "Счастливый"
+ - "Angry"
+ - "Tired"
+ Ответ: "Счастливый"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Вопрос: "Что означает 'Arababaye' в этой фразе?"
+ options:
+ - "She is Счастливый"
+ - "She is Грустный"
+ - "She is angry"
+ - "She is calm"
+ Ответ: "She is Грустный"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Вопрос: "Что означает 'Ararakaye' в этой фразе?"
+ options:
+ - "He is scared"
+ - "He is tired"
+ - "He is angry"
+ - "He is surprised"
+ Ответ: "He is angry"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Вопрос: "Что означает 'Batinye' в этой фразе?"
+ options:
+ - "They are Счастливый"
+ - "They are scared"
+ - "They are calm"
+ - "They are proud"
+ Ответ: "They are scared"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Вопрос: "Что означает 'Yatuje' в этой фразе?"
+ options:
+ - "She is calm"
+ - "She is confused"
+ - "She is excited"
+ - "She is lonely"
+ Ответ: "She is calm"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Вопрос: "Что означает 'Nkunda umuryango wanjye' в этой фразе?"
+ options:
+ - "I hate my Семья"
+ - "I love my Семья"
+ - "I miss my Семья"
+ - "I see my Семья"
+ Ответ: "I love my Семья"
+ xp_reward: 18
+
+ # 3. Слушайте and Type (Dictation)
+ - id: 31
+ type: listen_and_type
+ Вопрос: "Слушайте and type the emotion word"
+ audio: "Nishimiye"
+ Ответ: "Nishimiye"
+ translation: "Счастливый"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_and_type
+ Вопрос: "Слушайте and type the emotion word"
+ audio: "Arababaye"
+ Ответ: "Arababaye"
+ translation: "She is Грустный"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Вопрос: "Слушайте and type the emotion word"
+ audio: "Ararakaye"
+ Ответ: "Ararakaye"
+ translation: "He is angry"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Вопрос: "Слушайте and type the emotion word"
+ audio: "Batinye"
+ Ответ: "Batinye"
+ translation: "They are scared"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_and_type
+ Вопрос: "Слушайте and type the phrase"
+ audio: "Nishimiye ibirori"
+ Ответ: "Nishimiye ibirori"
+ translation: "I am excited about the party"
+ xp_reward: 22
+
+ - id: 36
+ type: listen_and_type
+ Вопрос: "Слушайте and type the phrase"
+ audio: "Nkunda umuryango wanjye"
+ Ответ: "Nkunda umuryango wanjye"
+ translation: "I love my Семья"
+ xp_reward: 22
+
+ - id: 37
+ type: listen_and_type
+ Вопрос: "Слушайте and type the phrase"
+ audio: "Arishimira umuhungu we"
+ Ответ: "Arishimira umuhungu we"
+ translation: "He is proud of his son"
+ xp_reward: 25
+
+ # 4. Слушайте and Выберите
+ - id: 38
+ type: listen_and_choose
+ Вопрос: "Слушайте and Выберите the correct emotion"
+ audio: "Nishimiye"
+ options:
+ - "Грустный"
+ - "Счастливый"
+ - "Angry"
+ Ответ: "Счастливый"
+ xp_reward: 15
+
+ - id: 39
+ type: listen_and_choose
+ Вопрос: "Слушайте and Выберите the correct emotion"
+ audio: "Arababaye"
+ options:
+ - "She is Счастливый"
+ - "She is Грустный"
+ - "She is calm"
+ Ответ: "She is Грустный"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Вопрос: "Слушайте and Выберите the correct emotion"
+ audio: "Ararakaye"
+ options:
+ - "He is scared"
+ - "He is tired"
+ - "He is angry"
+ Ответ: "He is angry"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Вопрос: "Слушайте and Выберите the correct emotion"
+ audio: "Yatuje"
+ options:
+ - "She is calm"
+ - "She is confused"
+ - "She is excited"
+ Ответ: "She is calm"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Вопрос: "Слушайте and Выберите the correct phrase"
+ audio: "Nkunda umuryango wanjye"
+ options:
+ - "I hate my Семья"
+ - "I love my Семья"
+ - "I see my Семья"
+ Ответ: "I love my Семья"
+ xp_reward: 18
+
+ # 5. Repeat / Говорите Exercise
+ - id: 43
+ type: Говорите
+ Вопрос: "Say this emotion"
+ prompt: "Nishimiye"
+ translation: "Счастливый"
+ xp_reward: 15
+
+ - id: 44
+ type: Говорите
+ Вопрос: "Say this emotion"
+ prompt: "Arababaye"
+ translation: "She is Грустный"
+ xp_reward: 15
+
+ - id: 45
+ type: Говорите
+ Вопрос: "Say this emotion"
+ prompt: "Ararakaye"
+ translation: "He is angry"
+ xp_reward: 15
+
+ - id: 46
+ type: Говорите
+ Вопрос: "Say this emotion"
+ prompt: "Batinye"
+ translation: "They are scared"
+ xp_reward: 15
+
+ - id: 47
+ type: Говорите
+ Вопрос: "Say this phrase"
+ prompt: "Nishimiye ibirori"
+ translation: "I am excited about the party"
+ xp_reward: 18
+
+ - id: 48
+ type: Говорите
+ Вопрос: "Say this phrase"
+ prompt: "Nkunda umuryango wanjye"
+ translation: "I love my Семья"
+ xp_reward: 18
+
+ - id: 49
+ type: Говорите
+ Вопрос: "Say this phrase"
+ prompt: "Arishimira umuhungu we"
+ translation: "He is proud of his son"
+ xp_reward: 20
+
+ # 6. Word Bank Предложение Building - PIECES PROVIDED
+ - id: 50
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'I am Счастливый'"
+ word_bank: ["Nishimiye", "Arababaye", "Ararakaye", "Batinye"]
+ correct_answer: ["Nishimiye"]
+ xp_reward: 15
+
+ - id: 51
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'She is Грустный'"
+ word_bank: ["Arababaye", "Nishimiye", "Ararakaye", "Batinye"]
+ correct_answer: ["Arababaye"]
+ xp_reward: 15
+
+ - id: 52
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'He is angry'"
+ word_bank: ["Ararakaye", "Nishimiye", "Arababaye", "Batinye"]
+ correct_answer: ["Ararakaye"]
+ xp_reward: 15
+
+ - id: 53
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'They are scared'"
+ word_bank: ["Batinye", "Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: ["Batinye"]
+ xp_reward: 15
+
+ - id: 54
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'I am excited about the party'"
+ word_bank: ["Nishimiye", "ibirori", "nkunda", "umuryango", "wanjye"]
+ correct_answer: ["Nishimiye", "ibirori"]
+ xp_reward: 20
+
+ - id: 55
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'She is calm'"
+ word_bank: ["Yatuje", "Nonyine", "Arishimira", "Arababaye"]
+ correct_answer: ["Yatuje"]
+ xp_reward: 15
+
+ - id: 56
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'I feel lonely'"
+ word_bank: ["Nonyine", "Nishimiye", "Yatuje", "Arababaye"]
+ correct_answer: ["Nonyine"]
+ xp_reward: 15
+
+ - id: 57
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'He is proud of his son'"
+ word_bank: ["Arishimira", "umuhungu", "we", "nkunda", "umuryango"]
+ correct_answer: ["Arishimira", "umuhungu", "we"]
+ xp_reward: 22
+
+ - id: 58
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'I love my Семья'"
+ word_bank: ["Nkunda", "umuryango", "wanjye", "nishimiye", "ibirori"]
+ correct_answer: ["Nkunda", "umuryango", "wanjye"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Вопрос: "Build the Kinyarwanda Предложение for 'She hates lies'"
+ word_bank: ["Arambiwe", "kubeshya", "nkunda", "umuryango", "wanjye"]
+ correct_answer: ["Arambiwe", "kubeshya"]
+ xp_reward: 20
+
+ # 7. Предложение Scramble - PIECES PROVIDED
+ - id: 60
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Предложение"
+ scrambled_words: ["Nishimiye"]
+ correct_sentence: "Nishimiye."
+ translation: "I am Счастливый."
+ xp_reward: 12
+
+ - id: 61
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Предложение"
+ scrambled_words: ["Arababaye"]
+ correct_sentence: "Arababaye."
+ translation: "She is Грустный."
+ xp_reward: 12
+
+ - id: 62
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Предложение"
+ scrambled_words: ["Ararakaye"]
+ correct_sentence: "Ararakaye."
+ translation: "He is angry."
+ xp_reward: 12
+
+ - id: 63
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Предложение"
+ scrambled_words: ["Batinye"]
+ correct_sentence: "Batinye."
+ translation: "They are scared."
+ xp_reward: 12
+
+ - id: 64
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Предложение"
+ scrambled_words: ["Nishimiye", "ibirori"]
+ correct_sentence: "Nishimiye ibirori."
+ translation: "I am excited about the party."
+ xp_reward: 18
+
+ - id: 65
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Предложение"
+ scrambled_words: ["Yatuje"]
+ correct_sentence: "Yatuje."
+ translation: "She is calm."
+ xp_reward: 12
+
+ - id: 66
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Предложение"
+ scrambled_words: ["Nonyine"]
+ correct_sentence: "Nonyine."
+ translation: "I feel lonely."
+ xp_reward: 12
+
+ - id: 67
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Предложение"
+ scrambled_words: ["Arishimira", "umuhungu", "we"]
+ correct_sentence: "Arishimira umuhungu we."
+ translation: "He is proud of his son."
+ xp_reward: 20
+
+ - id: 68
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Предложение"
+ scrambled_words: ["Nkunda", "umuryango", "wanjye"]
+ correct_sentence: "Nkunda umuryango wanjye."
+ translation: "I love my Семья."
+ xp_reward: 18
+
+ - id: 69
+ type: sentence_scramble
+ Вопрос: "Arrange these words to form a correct Предложение"
+ scrambled_words: ["Arambiwe", "kubeshya"]
+ correct_sentence: "Arambiwe kubeshya."
+ translation: "She hates lies."
+ xp_reward: 18
+
+ # 8. Fill in the Blank - Выберите FROM OPTIONS
+ - id: 70
+ type: fill_blank
+ Вопрос: "Complete the Предложение"
+ text_with_blank: "___ - I am Счастливый."
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Nishimiye"
+ translation: "I am Счастливый"
+ xp_reward: 12
+
+ - id: 71
+ type: fill_blank
+ Вопрос: "Complete the Предложение"
+ text_with_blank: "___ - She is Грустный."
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Arababaye"
+ translation: "She is Грустный"
+ xp_reward: 12
+
+ - id: 72
+ type: fill_blank
+ Вопрос: "Complete the Предложение"
+ text_with_blank: "___ - He is angry."
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Ararakaye"
+ translation: "He is angry"
+ xp_reward: 12
+
+ - id: 73
+ type: fill_blank
+ Вопрос: "Complete the Предложение"
+ text_with_blank: "___ - They are scared."
+ options: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: "Batinye"
+ translation: "They are scared"
+ xp_reward: 12
+
+ - id: 74
+ type: fill_blank
+ Вопрос: "Complete the Предложение"
+ text_with_blank: "Nishimiye ___ - I am excited about the party."
+ options: ["ibirori", "umuryango", "umuhungu"]
+ correct_answer: "ibirori"
+ translation: "I am excited about the party"
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ Вопрос: "Complete the Предложение"
+ text_with_blank: "___ - She is calm."
+ options: ["Yatuje", "Batinye", "Nonyine"]
+ correct_answer: "Yatuje"
+ translation: "She is calm"
+ xp_reward: 12
+
+ - id: 76
+ type: fill_blank
+ Вопрос: "Complete the Предложение"
+ text_with_blank: "___ - I feel lonely."
+ options: ["Nonyine", "Nishimiye", "Yatuje"]
+ correct_answer: "Nonyine"
+ translation: "I feel lonely"
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ Вопрос: "Complete the Предложение"
+ text_with_blank: "Arishimira ___ - He is proud of his son."
+ options: ["umuhungu we", "umuryango wanjye", "ibirori"]
+ correct_answer: "umuhungu we"
+ translation: "He is proud of his son"
+ xp_reward: 18
+
+ - id: 78
+ type: fill_blank
+ Вопрос: "Complete the Предложение"
+ text_with_blank: "Nkunda ___ - I love my Семья."
+ options: ["umuryango wanjye", "ibirori", "umuhungu we"]
+ correct_answer: "umuryango wanjye"
+ translation: "I love my Семья"
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ Вопрос: "Complete the Предложение"
+ text_with_blank: "Arambiwe ___ - She hates lies."
+ options: ["kubeshya", "ibirori", "umuryango"]
+ correct_answer: "kubeshya"
+ translation: "She hates lies"
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 80
+ type: picture_word
+ Вопрос: "What emotion is this?"
+ image_url: "https://source.unsplash.com/featured/?happy"
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Nishimiye"
+ xp_reward: 10
+
+ - id: 81
+ type: picture_word
+ Вопрос: "What emotion is this?"
+ image_url: "https://source.unsplash.com/featured/?sad"
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Arababaye"
+ xp_reward: 10
+
+ - id: 82
+ type: picture_word
+ Вопрос: "What emotion is this?"
+ image_url: "https://source.unsplash.com/featured/?angry"
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Ararakaye"
+ xp_reward: 10
+
+ - id: 83
+ type: picture_word
+ Вопрос: "What emotion is this?"
+ image_url: "https://source.unsplash.com/featured/?scared"
+ options: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: "Batinye"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ Вопрос: "What emotion is this?"
+ image_url: "https://source.unsplash.com/featured/?calm"
+ options: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: "Yatuje"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ Вопрос: "What emotion is this?"
+ image_url: "https://source.unsplash.com/featured/?lonely"
+ options: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: "Nonyine"
+ xp_reward: 10
+
+ - id: 86
+ type: picture_word
+ Вопрос: "What emotion is this?"
+ image_url: "https://source.unsplash.com/featured/?proud"
+ options: ["Arishimira", "Arambiwe", "Nishimiye"]
+ correct_answer: "Arishimira"
+ xp_reward: 12
+
+ - id: 87
+ type: picture_word
+ Вопрос: "What emotion is this?"
+ image_url: "https://source.unsplash.com/featured/?love"
+ options: ["Nkunda", "Arambiwe", "Batinye"]
+ correct_answer: "Nkunda"
+ xp_reward: 12
+
+ # 10. Word Сопоставьте (Pairing)
+ - id: 88
+ type: Сопоставьте
+ Вопрос: "Сопоставьте the Эмоции"
+ pairs:
+ - Влево: "Счастливый"
+ Вправо: "Nishimiye"
+ - Влево: "Грустный"
+ Вправо: "Arababaye"
+ - Влево: "Angry"
+ Вправо: "Ararakaye"
+ - Влево: "Scared"
+ Вправо: "Batinye"
+ - Влево: "Calm"
+ Вправо: "Yatuje"
+ - Влево: "Lonely"
+ Вправо: "Nonyine"
+ - Влево: "Proud"
+ Вправо: "Arishimira"
+ - Влево: "Love"
+ Вправо: "Nkunda"
+ - Влево: "Hate"
+ Вправо: "Arambiwe"
+ xp_reward: 25
+
+ - id: 89
+ type: Сопоставьте
+ Вопрос: "Сопоставьте the phrases"
+ pairs:
+ - Влево: "I am Счастливый"
+ Вправо: "Nishimiye"
+ - Влево: "She is Грустный"
+ Вправо: "Arababaye"
+ - Влево: "He is angry"
+ Вправо: "Ararakaye"
+ - Влево: "They are scared"
+ Вправо: "Batinye"
+ - Влево: "I am excited about the party"
+ Вправо: "Nishimiye ibirori"
+ - Влево: "She is calm"
+ Вправо: "Yatuje"
+ - Влево: "I feel lonely"
+ Вправо: "Nonyine"
+ - Влево: "He is proud of his son"
+ Вправо: "Arishimira umuhungu we"
+ - Влево: "I love my Семья"
+ Вправо: "Nkunda umuryango wanjye"
+ - Влево: "She hates lies"
+ Вправо: "Arambiwe kubeshya"
+ xp_reward: 28
+
+ # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+ # 12. Выберите Missing Word
+ - id: 90
+ type: choose_missing
+ Вопрос: "Выберите the missing word"
+ Предложение: "___ - I am Счастливый."
+ missing_word_position: 1
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Nishimiye"
+ translation: "I am Счастливый"
+ xp_reward: 12
+
+ - id: 91
+ type: choose_missing
+ Вопрос: "Выберите the missing word"
+ Предложение: "___ - She is Грустный."
+ missing_word_position: 1
+ options: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: "Arababaye"
+ translation: "She is Грустный"
+ xp_reward: 12
+
+ - id: 92
+ type: choose_missing
+ Вопрос: "Выберите the missing word"
+ Предложение: "___ - They are scared."
+ missing_word_position: 1
+ options: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: "Batinye"
+ translation: "They are scared"
+ xp_reward: 12
+
+ - id: 93
+ type: choose_missing
+ Вопрос: "Выберите the missing word"
+ Предложение: "Nishimiye ___ - I am excited about the party."
+ missing_word_position: 2
+ options: ["ibirori", "umuryango", "umuhungu"]
+ correct_answer: "ibirori"
+ translation: "I am excited about the party"
+ xp_reward: 15
+
+ - id: 94
+ type: choose_missing
+ Вопрос: "Выберите the missing word"
+ Предложение: "Nkunda ___ - I love my Семья."
+ missing_word_position: 2
+ options: ["umuryango wanjye", "ibirori", "umuhungu we"]
+ correct_answer: "umuryango wanjye"
+ translation: "I love my Семья"
+ xp_reward: 15
+
+ # 13. Читайте and Ответ - Вопрос based on text
+ - id: 95
+ type: read_answer
+ Вопрос: "Читайте the text and Ответ the Вопрос"
+ text: "Nishimiye. Arababaye. Ararakaye."
+ Вопрос: "How am I feeling?"
+ options: ["Счастливый", "Грустный", "Angry", "Scared"]
+ correct_answer: "Счастливый"
+ xp_reward: 12
+
+ - id: 96
+ type: read_answer
+ Вопрос: "Читайте the text and Ответ the Вопрос"
+ text: "Nishimiye ibirori. Nkunda umuryango wanjye."
+ Вопрос: "What am I excited about?"
+ options: ["My Семья", "The party", "My son", "Lies"]
+ correct_answer: "The party"
+ xp_reward: 15
+
+ - id: 97
+ type: read_answer
+ Вопрос: "Читайте the text and Ответ the Вопрос"
+ text: "Arishimira umuhungu we. Arababaye."
+ Вопрос: "Who is he proud of?"
+ options: ["His daughter", "His son", "His wife", "His friend"]
+ correct_answer: "His son"
+ xp_reward: 15
+
+ - id: 98
+ type: read_answer
+ Вопрос: "Читайте the text and Ответ the Вопрос"
+ text: "Arambiwe kubeshya. Nkunda umuryango wanjye."
+ Вопрос: "Что означает she hate?"
+ options: ["Her Семья", "The party", "Lies", "Being alone"]
+ correct_answer: "Lies"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 99
+ type: true_false
+ Вопрос: "Is this statement true or false?"
+ statement: "Nishimiye means 'I am Счастливый'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 100
+ type: true_false
+ Вопрос: "Is this statement true or false?"
+ statement: "Arababaye means 'He is angry'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 101
+ type: true_false
+ Вопрос: "Is this statement true or false?"
+ statement: "Batinye means 'They are scared'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 102
+ type: true_false
+ Вопрос: "Is this statement true or false?"
+ statement: "Nkunda umuryango wanjye means 'I love my Семья'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 103
+ type: true_false
+ Вопрос: "Is this statement true or false?"
+ statement: "Arambiwe kubeshya means 'She loves lies'."
+ correct_answer: false
+ xp_reward: 12
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 104
+ type: conversation
+ Вопрос: "Respond to the Вопрос by building a Предложение"
+ bot_message: "Umeze ute?"
+ translation: "How are you?"
+ word_bank: ["Nishimiye", "Arababaye", "Ararakaye", "Batinye"]
+ correct_response: ["Nishimiye"]
+ xp_reward: 15
+
+ - id: 105
+ type: conversation
+ Вопрос: "Respond to the Вопрос"
+ bot_message: "Umeze ute?"
+ translation: "How are you?"
+ options:
+ - "Nishimiye"
+ - "Arababaye"
+ - "Ararakaye"
+ correct_response: "Nishimiye"
+ xp_reward: 12
+
+ - id: 106
+ type: conversation
+ Вопрос: "Respond to the Вопрос by building a Предложение"
+ bot_message: "Ushimishijwe n'iki?"
+ translation: "What are you excited about?"
+ word_bank: ["Nishimiye", "ibirori", "nkunda", "umuryango"]
+ correct_response: ["Nishimiye", "ibirori"]
+ xp_reward: 18
+
+ - id: 107
+ type: conversation
+ Вопрос: "Respond to the Вопрос"
+ bot_message: "Ute?"
+ translation: "How are you feeling?"
+ options:
+ - "Nonyine"
+ - "Nishimiye"
+ - "Batinye"
+ correct_response: "Nishimiye"
+ xp_reward: 12
+
+ # 16. Story Exercise - Build Предложение from pieces
+ - id: 108
+ type: story
+ title: "My Feelings - Amarangamutima Yanjye"
+ story_intro: "Читайте about feelings. Then build the Предложение."
+ story_segments:
+ - text: "I am Счастливый."
+ - text: "She is Грустный."
+ - text: "He is angry."
+ - text: "They are scared."
+ - text: "I am excited about the party."
+ - text: "She is calm."
+ - text: "I love my Семья."
+ - text: "He is proud of his son."
+ exercises:
+ - type: word_bank
+ Вопрос: "Build 'I am Счастливый'"
+ word_bank: ["Nishimiye", "Arababaye", "Ararakaye"]
+ correct_answer: ["Nishimiye"]
+ - type: word_bank
+ Вопрос: "Build 'She is Грустный'"
+ word_bank: ["Arababaye", "Nishimiye", "Ararakaye"]
+ correct_answer: ["Arababaye"]
+ - type: word_bank
+ Вопрос: "Build 'He is angry'"
+ word_bank: ["Ararakaye", "Nishimiye", "Arababaye"]
+ correct_answer: ["Ararakaye"]
+ - type: word_bank
+ Вопрос: "Build 'They are scared'"
+ word_bank: ["Batinye", "Yatuje", "Nonyine"]
+ correct_answer: ["Batinye"]
+ - type: word_bank
+ Вопрос: "Build 'I am excited about the party'"
+ word_bank: ["Nishimiye", "ibirori", "nkunda", "umuryango"]
+ correct_answer: ["Nishimiye", "ibirori"]
+ - type: word_bank
+ Вопрос: "Build 'I love my Семья'"
+ word_bank: ["Nkunda", "umuryango", "wanjye", "nishimiye"]
+ correct_answer: ["Nkunda", "umuryango", "wanjye"]
+ - type: word_bank
+ Вопрос: "Build 'He is proud of his son'"
+ word_bank: ["Arishimira", "umuhungu", "we", "umuryango"]
+ correct_answer: ["Arishimira", "umuhungu", "we"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 109
+ type: pronunciation
+ Вопрос: "Say this emotion"
+ prompt: "Nishimiye"
+ translation: "I am Счастливый"
+ xp_reward: 15
+
+ - id: 110
+ type: pronunciation
+ Вопрос: "Say this emotion"
+ prompt: "Arababaye"
+ translation: "She is Грустный"
+ xp_reward: 15
+
+ - id: 111
+ type: pronunciation
+ Вопрос: "Say this emotion"
+ prompt: "Ararakaye"
+ translation: "He is angry"
+ xp_reward: 15
+
+ - id: 112
+ type: pronunciation
+ Вопрос: "Say this emotion"
+ prompt: "Batinye"
+ translation: "They are scared"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ Вопрос: "Say this phrase"
+ prompt: "Nishimiye ibirori"
+ translation: "I am excited about the party"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ Вопрос: "Say this phrase"
+ prompt: "Nkunda umuryango wanjye"
+ translation: "I love my Семья"
+ xp_reward: 18
+
+ - id: 115
+ type: pronunciation
+ Вопрос: "Say this phrase"
+ prompt: "Arishimira umuhungu we"
+ translation: "He is proud of his son"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 116
+ type: identify_meaning
+ Вопрос: "Что означает 'Nishimiye' в этой фразе?"
+ context_sentence: "Nishimiye."
+ word: "Nishimiye"
+ options: ["I am Грустный", "I am Счастливый", "I am angry", "I am scared"]
+ correct_answer: "I am Счастливый"
+ xp_reward: 15
+
+ - id: 117
+ type: identify_meaning
+ Вопрос: "Что означает 'Arababaye' в этой фразе?"
+ context_sentence: "Arababaye."
+ word: "Arababaye"
+ options: ["He is Счастливый", "She is Грустный", "They are angry", "We are scared"]
+ correct_answer: "She is Грустный"
+ xp_reward: 15
+
+ - id: 118
+ type: identify_meaning
+ Вопрос: "Что означает 'Batinye' в этой фразе?"
+ context_sentence: "Batinye."
+ word: "Batinye"
+ options: ["I am scared", "You are scared", "They are scared", "We are scared"]
+ correct_answer: "They are scared"
+ xp_reward: 15
+
+ - id: 119
+ type: identify_meaning
+ Вопрос: "Что означает 'Nkunda' mean in this Предложение?"
+ context_sentence: "Nkunda umuryango wanjye."
+ word: "Nkunda"
+ options: ["I hate", "I love", "I see", "I want"]
+ correct_answer: "I love"
+ xp_reward: 15
+
+ - id: 120
+ type: identify_meaning
+ Вопрос: "Что означает 'kubeshya' mean in this Предложение?"
+ context_sentence: "Arambiwe kubeshya."
+ word: "kubeshya"
+ options: ["truth", "lies", "Семья", "party"]
+ correct_answer: "lies"
+ xp_reward: 18
+
+ # 19. Speed Сопоставьте
+ - id: 121
+ type: speed_Сопоставьте
+ title: "Сопоставьте Madness: Эмоции"
+ time_limit_seconds: 45
+ pairs:
+ - Влево: "Счастливый"
+ Вправо: "Nishimiye"
+ - Влево: "Грустный"
+ Вправо: "Arababaye"
+ - Влево: "Angry"
+ Вправо: "Ararakaye"
+ - Влево: "Scared"
+ Вправо: "Batinye"
+ - Влево: "Calm"
+ Вправо: "Yatuje"
+ - Влево: "Lonely"
+ Вправо: "Nonyine"
+ - Влево: "Proud"
+ Вправо: "Arishimira"
+ - Влево: "Love"
+ Вправо: "Nkunda"
+ - Влево: "Hate"
+ Вправо: "Arambiwe"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 122
+ type: timed_challenge
+ title: "Lightning Round: Эмоции"
+ time_limit_seconds: 30
+ Вопрос_count: 5
+ Вопрос:
+ - Вопрос: "Счастливый"
+ Ответ: "Nishimiye"
+ - Вопрос: "Грустный"
+ Ответ: "Arababaye"
+ - Вопрос: "Angry"
+ Ответ: "Ararakaye"
+ - Вопрос: "Scared"
+ Ответ: "Batinye"
+ - Вопрос: "Calm"
+ Ответ: "Yatuje"
+ xp_reward: 35
+
+# Карточки
+ - id: 111
+ type: Карточки
+ Вопрос: "Карточки"
+ Карточки:
+ - front: "Unezerewe / Nishimiye"
+ back: "Счастливый"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Umubabaro / Nshimishijwe n\'agahinda"
+ back: "Грустный"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Umujinya / Arakaye"
+ back: "Angry"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Gutinya / Atinya"
+ back: "Afraid / Scared"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Gutungurwa / Aratunguwe"
+ back: "Surprised"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Akanyamuneza / Arishimye"
+ back: "Excited"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Amahoro / Yatuje"
+ back: "Calm"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Avugwaho / Yivangavanga"
+ back: "Confused"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunaniro / Ararushye"
+ back: "Tired"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Kumwe n\'ubwigunge / Yonyine"
+ back: "Lonely"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

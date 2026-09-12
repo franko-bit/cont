@@ -1,0 +1,1222 @@
+lesson:
+  name: "Maagizo ya Mwelekeo"
+  description: "Learn direction words and phrases in French"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Direction Words
+  # Basic Directions
+  - id: 1
+    type: translation
+    question: "Je, unasemaje 'Kushoto' kwa Kifaransa?"
+    answer: "Gauche"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Je, unasemaje 'Kulia' kwa Kifaransa?"
+    answer: "Droite"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Je, unasemaje 'Moja kwa moja / Endelea mbele' kwa Kifaransa?"
+    answer: "Tout droit"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "Je, unasemaje 'Nyuma' kwa Kifaransa?"
+    answer: "Derrière"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Je, unasemaje 'Mbele' kwa Kifaransa?"
+    answer: "Devant"
+    xp_reward: 10
+
+  # Cardinal Directions
+  - id: 6
+    type: translation
+    question: "Je, unasemaje 'Kaskazini' kwa Kifaransa?"
+    answer: "Nord"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Je, unasemaje 'Kusini' kwa Kifaransa?"
+    answer: "Sud"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Je, unasemaje 'Mashariki' kwa Kifaransa?"
+    answer: "Est"
+    xp_reward: 10
+
+  - id: 9
+    type: translation
+    question: "Je, unasemaje 'Magharibi' kwa Kifaransa?"
+    answer: "Ouest"
+    xp_reward: 10
+
+  # Location Words
+  - id: 10
+    type: translation
+    question: "Je, unasemaje 'Karibu' kwa Kifaransa?"
+    answer: "Près"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Je, unasemaje 'Mbali' kwa Kifaransa?"
+    answer: "Loin"
+    xp_reward: 15
+
+  - id: 12
+    type: translation
+    question: "Je, unasemaje 'Kuzunguka / Pande zote' kwa Kifaransa?"
+    answer: "Autour"
+    xp_reward: 15
+
+  # Places and Features
+  - id: 13
+    type: translation
+    question: "Je, unasemaje 'Makutano ya barabara' kwa Kifaransa?"
+    answer: "Carrefour"
+    xp_reward: 18
+
+  - id: 14
+    type: translation
+    question: "Je, unasemaje 'Barabara' kwa Kifaransa?"
+    answer: "Rue"
+    xp_reward: 10
+
+  - id: 15
+    type: translation
+    question: "Je, unasemaje 'Kona' kwa Kifaransa?"
+    answer: "Coin"
+    xp_reward: 10
+
+  - id: 16
+    type: translation
+    question: "Je, unasemaje 'Taa ya barabara' kwa Kifaransa?"
+    answer: "Feu tricolore"
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Je, unasemaje 'Alama / Alama ya barabara' kwa Kifaransa?"
+    answer: "Panneau"
+    xp_reward: 18
+
+  # Direction Commands
+  - id: 18
+    type: translation
+    question: "Je, unasemaje 'Geuka kushoto' kwa Kifaransa?"
+    answer: "Tournez à gauche"
+    xp_reward: 15
+
+  - id: 19
+    type: translation
+    question: "Je, unasemaje 'Geuka kulia' kwa Kifaransa?"
+    answer: "Tournez à droite"
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Je, unasemaje 'Endelea mbele' kwa Kifaransa?"
+    answer: "Allez tout droit"
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Je, unasemaje 'Rudi nyuma' kwa Kifaransa?"
+    answer: "Reculez"
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Je, unasemaje 'Vuka barabara' kwa Kifaransa?"
+    answer: "Traversez la rue"
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Je, unasemaje 'Simama kwenye taa ya barabara' kwa Kifaransa?"
+    answer: "Arrêtez-vous au feu tricolore"
+    xp_reward: 18
+
+  # Location Sentences
+  - id: 24
+    type: translation
+    question: "Je, unasemaje 'Benki iko mbele ya shule' kwa Kifaransa?"
+    answer: "La banque est devant l'école"
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "Je, unasemaje 'Soko liko karibu' kwa Kifaransa?"
+    answer: "Le marché est près"
+    xp_reward: 15
+
+  - id: 26
+    type: translation
+    question: "Je, unasemaje 'Hospitali iko mbali' kwa Kifaransa?"
+    answer: "L'hôpital est loin"
+    xp_reward: 15
+
+  # 2. Multiple Choice
+  - id: 27
+    type: multiple_choice
+    question: "'Kushoto' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Droite"
+      - "Gauche"
+      - "Tout droit"
+      - "Devant"
+    answer: "Gauche"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "'Kulia' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Gauche"
+      - "Droite"
+      - "Derrière"
+      - "Nord"
+    answer: "Droite"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "'Mbele' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Derrière"
+      - "Devant"
+      - "Karibu"
+      - "Mbali"
+    answer: "Devant"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "'Nyuma' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Devant"
+      - "Derrière"
+      - "Kushoto"
+      - "Kulia"
+    answer: "Derrière"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "'Kaskazini' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Kusini"
+      - "Kaskazini"
+      - "Mashariki"
+      - "Magharibi"
+    answer: "Kaskazini"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "'Karibu' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Mbali"
+      - "Karibu"
+      - "Kuzunguka"
+      - "Moja kwa moja"
+    answer: "Karibu"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "'Barabara' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Kona"
+      - "Barabara"
+      - "Taa ya barabara"
+      - "Alama"
+    answer: "Barabara"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "'Geuka kushoto' inamaanisha nini kwa Kifaransa?"
+    options:
+      - "Tournez à droite"
+      - "Tournez à gauche"
+      - "Allez tout droit"
+      - "Reculez"
+    answer: "Tournez à gauche"
+    xp_reward: 18
+
+  # 3. Listen and Type (Dictation)
+  - id: 35
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la mwelekeo kwa Kifaransa"
+    tts_text: "Kushoto"
+    answer: "Gauche"
+    translation: "Kushoto"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la mwelekeo kwa Kifaransa"
+    tts_text: "Kulia"
+    answer: "Droite"
+    translation: "Kulia"
+    xp_reward: 20
+
+  - id: 37
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la mwelekeo kwa Kifaransa"
+    tts_text: "Mbele"
+    answer: "Devant"
+    translation: "Mbele"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la mwelekeo kwa Kifaransa"
+    tts_text: "Nyuma"
+    answer: "Derrière"
+    translation: "Nyuma"
+    xp_reward: 20
+
+  - id: 39
+    type: listen_and_type
+    question: "Sikiliza kisha uandike neno la mwelekeo kwa Kifaransa"
+    tts_text: "Karibu"
+    answer: "Près"
+    translation: "Karibu"
+    xp_reward: 20
+
+  - id: 40
+    type: listen_and_type
+    question: "Sikiliza kisha uandike amri kwa Kifaransa"
+    tts_text: "Geuka kushoto"
+    answer: "Tournez à gauche"
+    translation: "Geuka kushoto"
+    xp_reward: 22
+
+  - id: 41
+    type: listen_and_type
+    question: "Sikiliza kisha uandike amri kwa Kifaransa"
+    tts_text: "Endelea mbele"
+    answer: "Allez tout droit"
+    translation: "Endelea mbele"
+    xp_reward: 22
+
+  - id: 42
+    type: listen_and_type
+    question: "Sikiliza kisha uandike sentensi kwa Kifaransa"
+    tts_text: "Soko liko karibu"
+    answer: "Le marché est près"
+    translation: "Soko liko karibu"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 44
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague mwelekeo unaofaa kwa Kifaransa"
+    tts_text: "Kushoto"
+    options:
+      - "Gauche"
+      - "Droite"
+      - "Tout droit"
+    answer: "Gauche"
+    xp_reward: 15
+
+  - id: 45
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague mwelekeo unaofaa kwa Kifaransa"
+    tts_text: "Kulia"
+    options:
+      - "Gauche"
+      - "Droite"
+      - "Derrière"
+    answer: "Droite"
+    xp_reward: 15
+
+  - id: 46
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague mwelekeo unaofaa kwa Kifaransa"
+    tts_text: "Mbele"
+    options:
+      - "Derrière"
+      - "Devant"
+      - "Karibu"
+    answer: "Devant"
+    xp_reward: 15
+
+  - id: 47
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague amri inayofaa kwa Kifaransa"
+    tts_text: "Geuka kushoto"
+    options:
+      - "Tournez à droite"
+      - "Tournez à gauche"
+      - "Allez tout droit"
+    answer: "Tournez à gauche"
+    xp_reward: 18
+
+  - id: 48
+    type: listen_and_choose
+    question: "Sikiliza kisha uchague sentensi inayofaa kwa Kifaransa"
+    tts_text: "Soko liko karibu"
+    options:
+      - "Le marché est loin"
+      - "Le marché est près"
+      - "Le marché est devant"
+    answer: "Le marché est près"
+    xp_reward: 18
+
+  # 5. Repeat / Speaking Exercise
+  - id: 49
+    type: speaking
+    question: "Taja neno la mwelekeo kwa Kifaransa"
+    prompt: "Kushoto"
+    translation: "Gauche"
+    xp_reward: 15
+
+  - id: 50
+    type: speaking
+    question: "Taja neno la mwelekeo kwa Kifaransa"
+    prompt: "Kulia"
+    translation: "Droite"
+    xp_reward: 15
+
+  - id: 51
+    type: speaking
+    question: "Taja neno la mwelekeo kwa Kifaransa"
+    prompt: "Mbele"
+    translation: "Devant"
+    xp_reward: 15
+
+  - id: 52
+    type: speaking
+    question: "Taja neno la mwelekeo kwa Kifaransa"
+    prompt: "Nyuma"
+    translation: "Derrière"
+    xp_reward: 15
+
+  - id: 53
+    type: speaking
+    question: "Taja neno la mwelekeo kwa Kifaransa"
+    prompt: "Karibu"
+    translation: "Près"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Taja amri hii kwa Kifaransa"
+    prompt: "Geuka kushoto"
+    translation: "Tournez à gauche"
+    xp_reward: 18
+
+  - id: 55
+    type: speaking
+    question: "Taja amri hii kwa Kifaransa"
+    prompt: "Endelea mbele"
+    translation: "Allez tout droit"
+    xp_reward: 18
+
+  - id: 56
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Soko liko karibu"
+    translation: "Le marché est près"
+    xp_reward: 18
+
+  - id: 57
+    type: speaking
+    question: "Taja sentensi hii kwa Kifaransa"
+    prompt: "Benki iko mbele ya shule"
+    translation: "La banque est devant l'école"
+    xp_reward: 22
+
+  # 6. Word Bank Sentence Building
+  - id: 58
+    type: word_bank
+    question: "Jenga amri inayomaanisha 'Geuka kushoto' kwa Kifaransa"
+    word_bank: ["Tournez", "à", "gauche", "droite", "allez", "tout", "droit"]
+    correct_answer: ["Tournez", "à", "gauche"]
+    xp_reward: 15
+
+  - id: 59
+    type: word_bank
+    question: "Jenga amri inayomaanisha 'Geuka kulia' kwa Kifaransa"
+    word_bank: ["Tournez", "à", "droite", "gauche", "allez", "tout", "droit"]
+    correct_answer: ["Tournez", "à", "droite"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Jenga amri inayomaanisha 'Endelea mbele' kwa Kifaransa"
+    word_bank: ["Allez", "tout", "droit", "tournez", "à", "gauche", "derrière"]
+    correct_answer: ["Allez", "tout", "droit"]
+    xp_reward: 15
+
+  - id: 61
+    type: word_bank
+    question: "Jenga amri inayomaanisha 'Rudi nyuma' kwa Kifaransa"
+    word_bank: ["Reculez", "tournez", "à", "gauche", "allez", "tout", "droit"]
+    correct_answer: ["Reculez"]
+    xp_reward: 15
+
+  - id: 62
+    type: word_bank
+    question: "Jenga sentensi inayomaanisha 'Benki iko mbele ya shule' kwa Kifaransa"
+    word_bank: ["La", "banque", "est", "devant", "l'", "école", "marché", "près"]
+    correct_answer: ["La", "banque", "est", "devant", "l'", "école"]
+    xp_reward: 22
+
+  - id: 63
+    type: word_bank
+    question: "Jenga sentensi inayomaanisha 'Soko liko karibu' kwa Kifaransa"
+    word_bank: ["Le", "marché", "est", "près", "hôpital", "loin"]
+    correct_answer: ["Le", "marché", "est", "près"]
+    xp_reward: 15
+
+  - id: 64
+    type: word_bank
+    question: "Jenga sentensi inayomaanisha 'Hospitali iko mbali' kwa Kifaransa"
+    word_bank: ["L'", "hôpital", "est", "loin", "marché", "près"]
+    correct_answer: ["L'", "hôpital", "est", "loin"]
+    xp_reward: 15
+
+  - id: 65
+    type: word_bank
+    question: "Jenga amri inayomaanisha 'Vuka barabara' kwa Kifaransa"
+    word_bank: ["Traversez", "la", "rue", "arrêtez", "feu", "tricolore"]
+    correct_answer: ["Traversez", "la", "rue"]
+    xp_reward: 15
+
+  - id: 66
+    type: word_bank
+    question: "Jenga amri inayomaanisha 'Simama kwenye taa ya barabara' kwa Kifaransa"
+    word_bank: ["Arrêtez", "vous", "au", "feu", "tricolore", "traversez", "rue"]
+    correct_answer: ["Arrêtez", "vous", "au", "feu", "tricolore"]
+    xp_reward: 22
+
+  # 7. Sentence Scramble
+  - id: 67
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Geuka kushoto' kwa Kifaransa"
+    scrambled_words: ["gauche", "à", "Tournez"]
+    correct_sentence: "Tournez à gauche"
+    translation: "Geuka kushoto"
+    xp_reward: 15
+
+  - id: 68
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Geuka kulia' kwa Kifaransa"
+    scrambled_words: ["droite", "à", "Tournez"]
+    correct_sentence: "Tournez à droite"
+    translation: "Geuka kulia"
+    xp_reward: 15
+
+  - id: 69
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Endelea mbele' kwa Kifaransa"
+    scrambled_words: ["droit", "tout", "Allez"]
+    correct_sentence: "Allez tout droit"
+    translation: "Endelea mbele"
+    xp_reward: 15
+
+  - id: 70
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Rudi nyuma' kwa Kifaransa"
+    scrambled_words: ["Reculez"]
+    correct_sentence: "Reculez"
+    translation: "Rudi nyuma"
+    xp_reward: 15
+
+  - id: 71
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Benki iko mbele ya shule' kwa Kifaransa"
+    scrambled_words: ["La", "banque", "est", "devant", "l'", "école"]
+    correct_sentence: "La banque est devant l'école"
+    translation: "Benki iko mbele ya shule"
+    xp_reward: 22
+
+  - id: 72
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Soko liko karibu' kwa Kifaransa"
+    scrambled_words: ["Le", "marché", "est", "près"]
+    correct_sentence: "Le marché est près"
+    translation: "Soko liko karibu"
+    xp_reward: 15
+
+  - id: 73
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Hospitali iko mbali' kwa Kifaransa"
+    scrambled_words: ["L'", "hôpital", "est", "loin"]
+    correct_sentence: "L'hôpital est loin"
+    translation: "Hospitali iko mbali"
+    xp_reward: 15
+
+  - id: 74
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Vuka barabara' kwa Kifaransa"
+    scrambled_words: ["Traversez", "la", "rue"]
+    correct_sentence: "Traversez la rue"
+    translation: "Vuka barabara"
+    xp_reward: 15
+
+  - id: 75
+    type: sentence_scramble
+    question: "Panga maneno haya kwa utaratibu unaofaa kuonyesha 'Simama kwenye taa ya barabara' kwa Kifaransa"
+    scrambled_words: ["Arrêtez", "vous", "au", "feu", "tricolore"]
+    correct_sentence: "Arrêtez-vous au feu tricolore"
+    translation: "Simama kwenye taa ya barabara"
+    xp_reward: 22
+
+  # 8. Fill in the Blank
+  - id: 76
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha amri kwa Kifaransa"
+    text_with_blank: "Tournez ___."
+    options: ["à gauche", "à droite", "tout droit"]
+    correct_answer: "à gauche"
+    translation: "Geuka kushoto"
+    xp_reward: 12
+
+  - id: 77
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha amri kwa Kifaransa"
+    text_with_blank: "Tournez ___."
+    options: ["à droite", "à gauche", "tout droit"]
+    correct_answer: "à droite"
+    translation: "Geuka kulia"
+    xp_reward: 12
+
+  - id: 78
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha amri kwa Kifaransa"
+    text_with_blank: "Allez ___."
+    options: ["tout droit", "à gauche", "à droite"]
+    correct_answer: "tout droit"
+    translation: "Endelea mbele"
+    xp_reward: 12
+
+  - id: 79
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha amri kwa Kifaransa"
+    text_with_blank: "___."
+    options: ["Reculez", "Tournez", "Allez"]
+    correct_answer: "Reculez"
+    translation: "Rudi nyuma"
+    xp_reward: 12
+
+  - id: 80
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "Le marché est ___."
+    options: ["près", "loin", "devant"]
+    correct_answer: "près"
+    translation: "Soko liko karibu"
+    xp_reward: 12
+
+  - id: 81
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "L'hôpital est ___."
+    options: ["loin", "près", "derrière"]
+    correct_answer: "loin"
+    translation: "Hospitali iko mbali"
+    xp_reward: 12
+
+  - id: 82
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha sentensi kwa Kifaransa"
+    text_with_blank: "La banque est devant ___ l'école."
+    options: ["de", "à", "sur"]
+    correct_answer: "de"
+    translation: "Benki iko mbele ya shule"
+    xp_reward: 18
+
+  - id: 83
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha amri kwa Kifaransa"
+    text_with_blank: "Traversez la ___."
+    options: ["rue", "route", "ville"]
+    correct_answer: "rue"
+    translation: "Vuka barabara"
+    xp_reward: 12
+
+  - id: 84
+    type: fill_blank
+    question: "Chagua neno linalofaa kukamilisha amri kwa Kifaransa"
+    text_with_blank: "Arrêtez-vous au feu ___."
+    options: ["tricolore", "rouge", "vert"]
+    correct_answer: "tricolore"
+    translation: "Simama kwenye taa ya barabara"
+    xp_reward: 15
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 85
+    type: picture_word
+    question: "Alama hii inaonyesha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?left-arrow"
+    options: ["Gauche", "Droite", "Tout droit"]
+    correct_answer: "Gauche"
+    xp_reward: 10
+
+  - id: 86
+    type: picture_word
+    question: "Alama hii inaonyesha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?right-arrow"
+    options: ["Gauche", "Droite", "Derrière"]
+    correct_answer: "Droite"
+    xp_reward: 10
+
+  - id: 87
+    type: picture_word
+    question: "Alama hii inaonyesha nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?straight-arrow"
+    options: ["Tout droit", "Derrière", "Gauche"]
+    correct_answer: "Tout droit"
+    xp_reward: 10
+
+  - id: 88
+    type: picture_word
+    question: "Hiki ni nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?traffic-light"
+    options: ["Feu tricolore", "Barabara", "Alama"]
+    correct_answer: "Feu tricolore"
+    xp_reward: 12
+
+  - id: 89
+    type: picture_word
+    question: "Hiki ni nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?street-corner"
+    options: ["Kona", "Barabara", "Makutano ya barabara"]
+    correct_answer: "Kona"
+    xp_reward: 10
+
+  - id: 90
+    type: picture_word
+    question: "Hiki ni nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?road-sign"
+    options: ["Alama", "Taa", "Barabara"]
+    correct_answer: "Alama"
+    xp_reward: 10
+
+  - id: 91
+    type: picture_word
+    question: "Hiki ni nini kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?intersection"
+    options: ["Makutano ya barabara", "Kona", "Barabara"]
+    correct_answer: "Makutano ya barabara"
+    xp_reward: 15
+
+  - id: 92
+    type: picture_word
+    question: "Hapa ni wapi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?bank"
+    options: ["Benki", "Soko", "Hospitali"]
+    correct_answer: "Benki"
+    xp_reward: 10
+
+  - id: 93
+    type: picture_word
+    question: "Hapa ni wapi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?market"
+    options: ["Soko", "Benki", "Hospitali"]
+    correct_answer: "Soko"
+    xp_reward: 10
+
+  - id: 94
+    type: picture_word
+    question: "Hapa ni wapi kwa Kifaransa?"
+    image_url: "https://source.unsplash.com/featured/?hospital"
+    options: ["Hospitali", "Soko", "Benki"]
+    correct_answer: "Hospitali"
+    xp_reward: 10
+
+  # 10. Word Matching
+  - id: 95
+    type: matching
+    question: "Linganisha mwelekeo wa msingi kwa Kifaransa"
+    pairs:
+      - left: "Gauche"
+        right: "Kushoto"
+      - left: "Droite"
+        right: "Kulia"
+      - left: "Tout droit"
+        right: "Moja kwa moja / Endelea mbele"
+      - left: "Devant"
+        right: "Mbele"
+      - left: "Derrière"
+        right: "Nyuma"
+    xp_reward: 20
+
+  - id: 96
+    type: matching
+    question: "Linganisha alama za nchi kwa Kifaransa"
+    pairs:
+      - left: "Kaskazini"
+        right: "Nord"
+      - left: "Kusini"
+        right: "Sud"
+      - left: "Mashariki"
+        right: "Est"
+      - left: "Magharibi"
+        right: "Ouest"
+    xp_reward: 18
+
+  - id: 97
+    type: matching
+    question: "Linganisha maneno ya eneo kwa Kifaransa"
+    pairs:
+      - left: "Karibu"
+        right: "Près"
+      - left: "Mbali"
+        right: "Loin"
+      - left: "Kuzunguka / Pande zote"
+        right: "Autour"
+    xp_reward: 15
+
+  - id: 98
+    type: matching
+    question: "Linganisha amri kwa Kifaransa"
+    pairs:
+      - left: "Tournez à gauche"
+        right: "Geuka kushoto"
+      - left: "Tournez à droite"
+        right: "Geuka kulia"
+      - left: "Allez tout droit"
+        right: "Endelea mbele"
+      - left: "Reculez"
+        right: "Rudi nyuma"
+      - left: "Traversez la rue"
+        right: "Vuka barabara"
+      - left: "Arrêtez-vous au feu tricolore"
+        right: "Simama kwenye taa ya barabara"
+    xp_reward: 25
+
+  - id: 99
+    type: matching
+    question: "Linganisha sentensi kwa Kifaransa"
+    pairs:
+      - left: "La banque est devant l'école"
+        right: "Benki iko mbele ya shule"
+      - left: "Le marché est près"
+        right: "Soko liko karibu"
+      - left: "L'hôpital est loin"
+        right: "Hospitali iko mbali"
+    xp_reward: 20
+
+  # 11. Choose Missing Word
+  - id: 100
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Tournez ___."
+    missing_word_position: 2
+    options: ["à gauche", "à droite", "tout droit"]
+    correct_answer: "à gauche"
+    translation: "Geuka kushoto"
+    xp_reward: 12
+
+  - id: 101
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Allez ___."
+    missing_word_position: 2
+    options: ["tout droit", "à gauche", "à droite"]
+    correct_answer: "tout droit"
+    translation: "Endelea mbele"
+    xp_reward: 12
+
+  - id: 102
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "___."
+    missing_word_position: 1
+    options: ["Reculez", "Tournez", "Allez"]
+    correct_answer: "Reculez"
+    translation: "Rudi nyuma"
+    xp_reward: 12
+
+  - id: 103
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Le marché est ___."
+    missing_word_position: 4
+    options: ["près", "loin", "derrière"]
+    correct_answer: "près"
+    translation: "Soko liko karibu"
+    xp_reward: 12
+
+  - id: 104
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "L'hôpital est ___."
+    missing_word_position: 4
+    options: ["loin", "près", "devant"]
+    correct_answer: "loin"
+    translation: "Hospitali iko mbali"
+    xp_reward: 12
+
+  - id: 105
+    type: choose_missing
+    question: "Chagua neno linalokosekana kwa Kifaransa"
+    sentence: "Arrêtez-vous au feu ___."
+    missing_word_position: 5
+    options: ["tricolore", "rouge", "vert"]
+    correct_answer: "tricolore"
+    translation: "Simama kwenye taa ya barabara"
+    xp_reward: 15
+
+  # 12. Read and Answer
+  - id: 106
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Endelea mbele. Geuka kushoto."
+    question: "Amri ya kwanza ni ipi?"
+    options: ["Geuka kushoto", "Endelea mbele", "Geuka kulia", "Rudi nyuma"]
+    correct_answer: "Endelea mbele"
+    xp_reward: 15
+
+  - id: 107
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Benki iko mbele ya shule. Soko liko karibu."
+    question: "Benki iko wapi?"
+    options: ["Karibu na soko", "Mbele ya shule", "Mbali", "Nyuma ya shule"]
+    correct_answer: "Mbele ya shule"
+    xp_reward: 18
+
+  - id: 108
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Simama kwenye taa ya barabara. Vuka barabara."
+    question: "Unapaswa kufanya nini kwenye taa ya barabara?"
+    options: ["Geuka kushoto", "Simama", "Endelea mbele", "Geuka kulia"]
+    correct_answer: "Simama"
+    xp_reward: 15
+
+  - id: 109
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Hospitali iko mbali. Soko liko karibu."
+    question: "Hospitali iko karibu au mbali?"
+    options: ["Karibu", "Mbali", "Karibu sana", "Haijatajwa"]
+    correct_answer: "Mbali"
+    xp_reward: 12
+
+  - id: 110
+    type: read_answer
+    question: "Soma kile kilichoandikwa kisha ujibu swali kwa Kifaransa"
+    text: "Rudi nyuma. Geuka kulia."
+    question: "Amri ya pili ni ipi?"
+    options: ["Rudi nyuma", "Geuka kushoto", "Geuka kulia", "Endelea mbele"]
+    correct_answer: "Geuka kulia"
+    xp_reward: 15
+
+  # 13. True / False
+  - id: 111
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Kushoto' means 'right'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 112
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Kulia' means 'right'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Mbele' means 'front'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 114
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Karibu' means 'far'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Endelea mbele' means 'go straight'."
+    correct_answer: true
+    xp_reward: 12
+
+  - id: 116
+    type: true_false
+    question: "Je, hili ni kweli au si kweli?"
+    statement: "'Taa ya barabara' means 'street sign'."
+    correct_answer: false
+    xp_reward: 12
+
+  # 14. Conversation Exercise
+  - id: 117
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Nataka kufika sokoni. Nifanye nini?"
+    translation: "I want to reach the market. What should I do?"
+    word_bank: ["Allez", "tout", "droit", "tournez", "à", "gauche", "reculez"]
+    correct_response: ["Allez", "tout", "droit"]
+    xp_reward: 18
+
+  - id: 118
+    type: conversation
+    question: "Jibu swali kwa Kifaransa"
+    bot_message: "Benki iko wapi?"
+    translation: "Where is the bank?"
+    options:
+      - "Devant l'école"
+      - "Près du marché"
+      - "Loin"
+    correct_response: "Devant l'école"
+    xp_reward: 15
+
+  - id: 119
+    type: conversation
+    question: "Jibu swali kwa kutumia maneno yaliyotolewa kwa Kifaransa"
+    bot_message: "Nataka kufika hospitalini. Nifanye nini?"
+    translation: "I want to reach the hospital. What should I do?"
+    word_bank: ["Reculez", "tournez", "à", "droite", "allez", "tout", "droit"]
+    correct_response: ["Reculez"]
+    xp_reward: 18
+
+  - id: 120
+    type: conversation
+    question: "Jibu swali kwa Kifaransa"
+    bot_message: "Soko liko karibu?"
+    translation: "Is the market near?"
+    options:
+      - "Oui, il est près"
+      - "Non, il est loin"
+      - "Je ne sais pas"
+    correct_response: "Oui, il est près"
+    xp_reward: 12
+
+  # 15. Story Exercise
+  - id: 121
+    type: story
+    title: "Kutafuta Soko"
+    story_intro: "Soma hadithi ya kutafuta soko. Kisha jenga sentensi kwa Kifaransa."
+    story_segments:
+      - text: "I want to go to the market."
+      - text: "Go straight."
+      - text: "Turn left at the traffic light."
+      - text: "The market is near."
+      - text: "The bank is in front of the school."
+    exercises:
+      - type: word_bank
+        question: "Jenga 'Allez tout droit' kwa Kifaransa"
+        word_bank: ["Allez", "tout", "droit", "tournez", "à", "gauche"]
+        correct_answer: ["Allez", "tout", "droit"]
+      - type: word_bank
+        question: "Jenga 'Tournez à gauche au feu tricolore' kwa Kifaransa"
+        word_bank: ["Tournez", "à", "gauche", "au", "feu", "tricolore"]
+        correct_answer: ["Tournez", "à", "gauche", "au", "feu", "tricolore"]
+      - type: word_bank
+        question: "Jenga 'Le marché est près' kwa Kifaransa"
+        word_bank: ["Le", "marché", "est", "près", "hôpital", "loin"]
+        correct_answer: ["Le", "marché", "est", "près"]
+      - type: word_bank
+        question: "Jenga 'La banque est devant l'école' kwa Kifaransa"
+        word_bank: ["La", "banque", "est", "devant", "l'", "école"]
+        correct_answer: ["La", "banque", "est", "devant", "l'", "école"]
+    xp_reward: 40
+
+  # 16. Pronunciation Check
+  - id: 122
+    type: pronunciation
+    question: "Taja neno la mwelekeo kwa Kifaransa vizuri"
+    prompt: "Kushoto"
+    translation: "Gauche"
+    xp_reward: 15
+
+  - id: 123
+    type: pronunciation
+    question: "Taja neno la mwelekeo kwa Kifaransa vizuri"
+    prompt: "Kulia"
+    translation: "Droite"
+    xp_reward: 15
+
+  - id: 124
+    type: pronunciation
+    question: "Taja neno la mwelekeo kwa Kifaransa vizuri"
+    prompt: "Mbele"
+    translation: "Devant"
+    xp_reward: 15
+
+  - id: 125
+    type: pronunciation
+    question: "Taja neno la mwelekeo kwa Kifaransa vizuri"
+    prompt: "Nyuma"
+    translation: "Derrière"
+    xp_reward: 15
+
+  - id: 126
+    type: pronunciation
+    question: "Taja amri hii kwa Kifaransa vizuri"
+    prompt: "Geuka kushoto"
+    translation: "Tournez à gauche"
+    xp_reward: 18
+
+  - id: 127
+    type: pronunciation
+    question: "Taja amri hii kwa Kifaransa vizuri"
+    prompt: "Endelea mbele"
+    translation: "Allez tout droit"
+    xp_reward: 18
+
+  - id: 128
+    type: pronunciation
+    question: "Taja sentensi hii kwa Kifaransa vizuri"
+    prompt: "Soko liko karibu"
+    translation: "Le marché est près"
+    xp_reward: 18
+
+  # 17. Identify Correct Meaning
+  - id: 129
+    type: identify_meaning
+    question: "'Geuka' inamaanisha nini kwa Kifaransa katika amri hii?"
+    context_sentence: "Geuka kushoto."
+    word: "Geuka"
+    options: ["Endelea", "Geuka", "Simama", "Vuka"]
+    correct_answer: "Geuka"
+    xp_reward: 15
+
+  - id: 130
+    type: identify_meaning
+    question: "'Endelea' inamaanisha nini kwa Kifaransa katika amri hii?"
+    context_sentence: "Endelea mbele."
+    word: "Endelea"
+    options: ["Geuka", "Simama", "Endelea / Nenda", "Vuka"]
+    correct_answer: "Endelea / Nenda"
+    xp_reward: 15
+
+  - id: 131
+    type: identify_meaning
+    question: "'Karibu' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Soko liko karibu."
+    word: "karibu"
+    options: ["mbali", "karibu", "nyuma", "mbele"]
+    correct_answer: "karibu"
+    xp_reward: 12
+
+  - id: 132
+    type: identify_meaning
+    question: "'Mbali' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Hospitali iko mbali."
+    word: "mbali"
+    options: ["karibu", "mbali", "kushoto", "kulia"]
+    correct_answer: "mbali"
+    xp_reward: 12
+
+  - id: 133
+    type: identify_meaning
+    question: "'Mbele ya' inamaanisha nini kwa Kifaransa katika sentensi hii?"
+    context_sentence: "Benki iko mbele ya shule."
+    word: "mbele ya"
+    options: ["nyuma ya", "mbele ya", "karibu na", "mbali na"]
+    correct_answer: "mbele ya"
+    xp_reward: 15
+
+  # 18. Speed Matching
+  - id: 134
+    type: speed_matching
+    title: "Linganisha kwa Kasi: Maagizo"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Gauche"
+        right: "Kushoto"
+      - left: "Droite"
+        right: "Kulia"
+      - left: "Tout droit"
+        right: "Mbele"
+      - left: "Derrière"
+        right: "Nyuma"
+      - left: "Kaskazini"
+        right: "Nord"
+      - left: "Kusini"
+        right: "Sud"
+      - left: "Mashariki"
+        right: "Est"
+      - left: "Magharibi"
+        right: "Ouest"
+      - left: "Karibu"
+        right: "Près"
+      - left: "Mbali"
+        right: "Loin"
+      - left: "Geuka kushoto"
+        right: "Tournez à gauche"
+      - left: "Geuka kulia"
+        right: "Tournez à droite"
+    xp_reward: 30
+
+  # 19. Timed Challenges
+  - id: 135
+    type: timed_challenge
+    title: "Haraka: Maagizo"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Kushoto"
+        answer: "Gauche"
+      - question: "Kulia"
+        answer: "Droite"
+      - question: "Mbele"
+        answer: "Tout droit"
+      - question: "Nyuma"
+        answer: "Derrière"
+      - question: "Karibu"
+        answer: "Près"
+    xp_reward: 35
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Gauche"
+      back: "Kushoto"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Droite"
+      back: "Kulia"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Tout droit"
+      back: "Moja kwa moja / Endelea mbele"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Derrière"
+      back: "Nyuma"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Devant"
+      back: "Mbele"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Nord"
+      back: "Kaskazini"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Sud"
+      back: "Kusini"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Est"
+      back: "Mashariki"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Ouest"
+      back: "Magharibi"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Près"
+      back: "Karibu"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

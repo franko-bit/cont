@@ -1,0 +1,1221 @@
+lesson:
+ name: "Numbers - Imibare mu Kinyarwanda"
+ description: "Öğren numbers in Kinyarwanda from 0 to 1,000,000"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Numbers ONLY (Safe for single words)
+ # Basic Numbers 0-10
+ - id: 1
+ type: translation
+ Soru: "Nasıl dersin '0' Kinyarwanda'da?"
+ Cevap: "Zero"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Soru: "Nasıl dersin '1' Kinyarwanda'da?"
+ Cevap: "Rimwe"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Soru: "Nasıl dersin '2' Kinyarwanda'da?"
+ Cevap: "Kabiri"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Soru: "Nasıl dersin '3' Kinyarwanda'da?"
+ Cevap: "Gatatu"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Soru: "Nasıl dersin '4' Kinyarwanda'da?"
+ Cevap: "Kane"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Soru: "Nasıl dersin '5' Kinyarwanda'da?"
+ Cevap: "Gatanu"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Soru: "Nasıl dersin '6' Kinyarwanda'da?"
+ Cevap: "Gatandatu"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Soru: "Nasıl dersin '7' Kinyarwanda'da?"
+ Cevap: "Karindwi"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Soru: "Nasıl dersin '8' Kinyarwanda'da?"
+ Cevap: "Umunani"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Soru: "Nasıl dersin '9' Kinyarwanda'da?"
+ Cevap: "Icyenda"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Soru: "Nasıl dersin '10' Kinyarwanda'da?"
+ Cevap: "Icumi"
+ xp_reward: 10
+
+ # Numbers 11-20
+ - id: 12
+ type: translation
+ Soru: "Nasıl dersin '11' Kinyarwanda'da?"
+ Cevap: "Cumi na rimwe"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Soru: "Nasıl dersin '12' Kinyarwanda'da?"
+ Cevap: "Cumi na kabiri"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Soru: "Nasıl dersin '13' Kinyarwanda'da?"
+ Cevap: "Cumi na gatatu"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Soru: "Nasıl dersin '14' Kinyarwanda'da?"
+ Cevap: "Cumi na kane"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Soru: "Nasıl dersin '15' Kinyarwanda'da?"
+ Cevap: "Cumi na gatanu"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Soru: "Nasıl dersin '16' Kinyarwanda'da?"
+ Cevap: "Cumi na gatandatu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Soru: "Nasıl dersin '17' Kinyarwanda'da?"
+ Cevap: "Cumi na karindwi"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Soru: "Nasıl dersin '18' Kinyarwanda'da?"
+ Cevap: "Cumi na umunani"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Soru: "Nasıl dersin '19' Kinyarwanda'da?"
+ Cevap: "Cumi na icyenda"
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ Soru: "Nasıl dersin '20' Kinyarwanda'da?"
+ Cevap: "Makumyabiri"
+ xp_reward: 15
+
+ # Tens (Multiples of 10)
+ - id: 22
+ type: translation
+ Soru: "Nasıl dersin '30' Kinyarwanda'da?"
+ Cevap: "Makumyatatu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Soru: "Nasıl dersin '40' Kinyarwanda'da?"
+ Cevap: "Makumyane"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Soru: "Nasıl dersin '50' Kinyarwanda'da?"
+ Cevap: "Mirongo itanu"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Soru: "Nasıl dersin '60' Kinyarwanda'da?"
+ Cevap: "Mirongo itandatu"
+ xp_reward: 15
+
+ - id: 26
+ type: translation
+ Soru: "Nasıl dersin '70' Kinyarwanda'da?"
+ Cevap: "Mirongo irindwi"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Soru: "Nasıl dersin '80' Kinyarwanda'da?"
+ Cevap: "Mirongo inani"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Soru: "Nasıl dersin '90' Kinyarwanda'da?"
+ Cevap: "Mirongo icenda"
+ xp_reward: 15
+
+ - id: 29
+ type: translation
+ Soru: "Nasıl dersin '100' Kinyarwanda'da?"
+ Cevap: "Ijana"
+ xp_reward: 10
+
+ # Hundreds
+ - id: 30
+ type: translation
+ Soru: "Nasıl dersin '200' Kinyarwanda'da?"
+ Cevap: "Magana abiri"
+ xp_reward: 15
+
+ - id: 31
+ type: translation
+ Soru: "Nasıl dersin '300' Kinyarwanda'da?"
+ Cevap: "Magana atatu"
+ xp_reward: 15
+
+ - id: 32
+ type: translation
+ Soru: "Nasıl dersin '400' Kinyarwanda'da?"
+ Cevap: "Magana ane"
+ xp_reward: 15
+
+ - id: 33
+ type: translation
+ Soru: "Nasıl dersin '500' Kinyarwanda'da?"
+ Cevap: "Magana atanu"
+ xp_reward: 15
+
+ - id: 34
+ type: translation
+ Soru: "Nasıl dersin '600' Kinyarwanda'da?"
+ Cevap: "Magana atandatu"
+ xp_reward: 15
+
+ - id: 35
+ type: translation
+ Soru: "Nasıl dersin '700' Kinyarwanda'da?"
+ Cevap: "Magana arindwi"
+ xp_reward: 15
+
+ - id: 36
+ type: translation
+ Soru: "Nasıl dersin '800' Kinyarwanda'da?"
+ Cevap: "Magana umunani"
+ xp_reward: 15
+
+ - id: 37
+ type: translation
+ Soru: "Nasıl dersin '900' Kinyarwanda'da?"
+ Cevap: "Magana icyenda"
+ xp_reward: 15
+
+ - id: 38
+ type: translation
+ Soru: "Nasıl dersin '1000' Kinyarwanda'da?"
+ Cevap: "Igihumbi"
+ xp_reward: 10
+
+ # Thousands
+ - id: 39
+ type: translation
+ Soru: "Nasıl dersin '2,000' Kinyarwanda'da?"
+ Cevap: "Ibihumbi bibiri"
+ xp_reward: 15
+
+ - id: 40
+ type: translation
+ Soru: "Nasıl dersin '3,000' Kinyarwanda'da?"
+ Cevap: "Ibihumbi bitatu"
+ xp_reward: 15
+
+ - id: 41
+ type: translation
+ Soru: "Nasıl dersin '4,000' Kinyarwanda'da?"
+ Cevap: "Ibihumbi bine"
+ xp_reward: 15
+
+ - id: 42
+ type: translation
+ Soru: "Nasıl dersin '5,000' Kinyarwanda'da?"
+ Cevap: "Ibihumbi bitanu"
+ xp_reward: 15
+
+ - id: 43
+ type: translation
+ Soru: "Nasıl dersin '10,000' Kinyarwanda'da?"
+ Cevap: "Ibihumbi icumi"
+ xp_reward: 15
+
+ - id: 44
+ type: translation
+ Soru: "Nasıl dersin '20,000' Kinyarwanda'da?"
+ Cevap: "Ibihumbi makumyabiri"
+ xp_reward: 18
+
+ - id: 45
+ type: translation
+ Soru: "Nasıl dersin '50,000' Kinyarwanda'da?"
+ Cevap: "Ibihumbi mirongo itanu"
+ xp_reward: 18
+
+ - id: 46
+ type: translation
+ Soru: "Nasıl dersin '100,000' Kinyarwanda'da?"
+ Cevap: "Ijana ibihumbi"
+ xp_reward: 15
+
+ - id: 47
+ type: translation
+ Soru: "Nasıl dersin '200,000' Kinyarwanda'da?"
+ Cevap: "Magana abiri ibihumbi"
+ xp_reward: 18
+
+ - id: 48
+ type: translation
+ Soru: "Nasıl dersin '500,000' Kinyarwanda'da?"
+ Cevap: "Magana atanu ibihumbi"
+ xp_reward: 18
+
+ - id: 49
+ type: translation
+ Soru: "Nasıl dersin '1,000,000' Kinyarwanda'da?"
+ Cevap: "Miliyoni imwe"
+ xp_reward: 15
+
+ # Money Context - Amafaranga (Safe as phrases)
+ - id: 50
+ type: translation
+ Soru: "Nasıl dersin '100 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga ijana"
+ xp_reward: 15
+
+ - id: 51
+ type: translation
+ Soru: "Nasıl dersin '200 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga magana abiri"
+ xp_reward: 15
+
+ - id: 52
+ type: translation
+ Soru: "Nasıl dersin '500 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga magana atanu"
+ xp_reward: 15
+
+ - id: 53
+ type: translation
+ Soru: "Nasıl dersin '1,000 RWF' Kinyarwanda'da?"
+ Cevap: "Ifaranga igihumbi"
+ xp_reward: 15
+
+ - id: 54
+ type: translation
+ Soru: "Nasıl dersin '2,000 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga ibihumbi bibiri"
+ xp_reward: 15
+
+ - id: 55
+ type: translation
+ Soru: "Nasıl dersin '5,000 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga ibihumbi bitanu"
+ xp_reward: 15
+
+ - id: 56
+ type: translation
+ Soru: "Nasıl dersin '10,000 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga ibihumbi icumi"
+ xp_reward: 15
+
+ - id: 57
+ type: translation
+ Soru: "Nasıl dersin '20,000 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga ibihumbi makumyabiri"
+ xp_reward: 18
+
+ - id: 58
+ type: translation
+ Soru: "Nasıl dersin '50,000 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga ibihumbi mirongo itanu"
+ xp_reward: 18
+
+ - id: 59
+ type: translation
+ Soru: "Nasıl dersin '100,000 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga ijana ibihumbi"
+ xp_reward: 18
+
+ - id: 60
+ type: translation
+ Soru: "Nasıl dersin '200,000 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga magana abiri ibihumbi"
+ xp_reward: 20
+
+ - id: 61
+ type: translation
+ Soru: "Nasıl dersin '500,000 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga magana atanu ibihumbi"
+ xp_reward: 20
+
+ - id: 62
+ type: translation
+ Soru: "Nasıl dersin '1,000,000 RWF' Kinyarwanda'da?"
+ Cevap: "Amafaranga miliyoni imwe"
+ xp_reward: 18
+
+ # NO DIRECT TRANSLATION FOR COMPLEX COMBINED NUMBERS OR FULL Cümle
+ # Instead, we use Cümle building, Eşleştir, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 63
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Rimwe' bu cümlede?"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ - "4"
+ Cevap: "1"
+ xp_reward: 15
+
+ - id: 64
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Kabiri' bu cümlede?"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ - "4"
+ Cevap: "2"
+ xp_reward: 15
+
+ - id: 65
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Gatanu' bu cümlede?"
+ options:
+ - "4"
+ - "5"
+ - "6"
+ - "7"
+ Cevap: "5"
+ xp_reward: 15
+
+ - id: 66
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Icumi' bu cümlede?"
+ options:
+ - "5"
+ - "10"
+ - "15"
+ - "20"
+ Cevap: "10"
+ xp_reward: 15
+
+ - id: 67
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Makumyabiri' bu cümlede?"
+ options:
+ - "10"
+ - "20"
+ - "30"
+ - "40"
+ Cevap: "20"
+ xp_reward: 15
+
+ - id: 68
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Ijana' bu cümlede?"
+ options:
+ - "10"
+ - "100"
+ - "1000"
+ - "1,000,000"
+ Cevap: "100"
+ xp_reward: 15
+
+ - id: 69
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Igihumbi' bu cümlede?"
+ options:
+ - "100"
+ - "1000"
+ - "10,000"
+ - "1,000,000"
+ Cevap: "1000"
+ xp_reward: 15
+
+ - id: 70
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'Miliyoni imwe' bu cümlede?"
+ options:
+ - "1,000"
+ - "10,000"
+ - "100,000"
+ - "1,000,000"
+ Cevap: "1,000,000"
+ xp_reward: 18
+
+ # 3. Dinle and Type (Dictation) - Safe because audio is provided
+ - id: 71
+ type: listen_and_type
+ Soru: "Dinle and type the number"
+ tts_text: "Rimwe"
+ Cevap: "Rimwe"
+ translation: "1"
+ xp_reward: 20
+
+ - id: 72
+ type: listen_and_type
+ Soru: "Dinle and type the number"
+ tts_text: "Kabiri"
+ Cevap: "Kabiri"
+ translation: "2"
+ xp_reward: 20
+
+ - id: 73
+ type: listen_and_type
+ Soru: "Dinle and type the number"
+ tts_text: "Icumi"
+ Cevap: "Icumi"
+ translation: "10"
+ xp_reward: 20
+
+ - id: 74
+ type: listen_and_type
+ Soru: "Dinle and type the number"
+ tts_text: "Cumi na rimwe"
+ Cevap: "Cumi na rimwe"
+ translation: "11"
+ xp_reward: 22
+
+ - id: 75
+ type: listen_and_type
+ Soru: "Dinle and type the number"
+ tts_text: "Makumyabiri"
+ Cevap: "Makumyabiri"
+ translation: "20"
+ xp_reward: 20
+
+ - id: 76
+ type: listen_and_type
+ Soru: "Dinle and type the number"
+ tts_text: "Ijana"
+ Cevap: "Ijana"
+ translation: "100"
+ xp_reward: 20
+
+ - id: 77
+ type: listen_and_type
+ Soru: "Dinle and type the number"
+ tts_text: "Igihumbi"
+ Cevap: "Igihumbi"
+ translation: "1000"
+ xp_reward: 20
+
+ - id: 78
+ type: listen_and_type
+ Soru: "Dinle and type the money phrase"
+ tts_text: "Amafaranga ijana"
+ Cevap: "Amafaranga ijana"
+ translation: "100 RWF"
+ xp_reward: 22
+
+ - id: 79
+ type: listen_and_type
+ Soru: "Dinle and type the money phrase"
+ tts_text: "Amafaranga ibihumbi bitanu"
+ Cevap: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 25
+
+ # 4. Dinle and Seç
+ - id: 80
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct number"
+ tts_text: "Rimwe"
+ options:
+ - "1"
+ - "2"
+ - "3"
+ Cevap: "1"
+ xp_reward: 15
+
+ - id: 81
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct number"
+ tts_text: "Gatanu"
+ options:
+ - "4"
+ - "5"
+ - "6"
+ Cevap: "5"
+ xp_reward: 15
+
+ - id: 82
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct number"
+ tts_text: "Icumi"
+ options:
+ - "5"
+ - "10"
+ - "15"
+ Cevap: "10"
+ xp_reward: 15
+
+ - id: 83
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct number"
+ tts_text: "Makumyabiri"
+ options:
+ - "10"
+ - "20"
+ - "30"
+ Cevap: "20"
+ xp_reward: 15
+
+ - id: 84
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct amount"
+ tts_text: "Amafaranga igihumbi"
+ options:
+ - "100 RWF"
+ - "1,000 RWF"
+ - "10,000 RWF"
+ Cevap: "1,000 RWF"
+ xp_reward: 18
+
+ # 5. Repeat / Konuş Exercise
+ - id: 85
+ type: Konuş
+ Soru: "Say this number"
+ prompt: "Rimwe"
+ translation: "1"
+ xp_reward: 15
+
+ - id: 86
+ type: Konuş
+ Soru: "Say this number"
+ prompt: "Kabiri"
+ translation: "2"
+ xp_reward: 15
+
+ - id: 87
+ type: Konuş
+ Soru: "Say this number"
+ prompt: "Icumi"
+ translation: "10"
+ xp_reward: 15
+
+ - id: 88
+ type: Konuş
+ Soru: "Say this number"
+ prompt: "Cumi na rimwe"
+ translation: "11"
+ xp_reward: 18
+
+ - id: 89
+ type: Konuş
+ Soru: "Say this number"
+ prompt: "Makumyabiri"
+ translation: "20"
+ xp_reward: 15
+
+ - id: 90
+ type: Konuş
+ Soru: "Say this number"
+ prompt: "Ijana"
+ translation: "100"
+ xp_reward: 15
+
+ - id: 91
+ type: Konuş
+ Soru: "Say this number"
+ prompt: "Igihumbi"
+ translation: "1000"
+ xp_reward: 15
+
+ - id: 92
+ type: Konuş
+ Soru: "Say this money amount"
+ prompt: "Amafaranga ijana"
+ translation: "100 RWF"
+ xp_reward: 18
+
+ - id: 93
+ type: Konuş
+ Soru: "Say this money amount"
+ prompt: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 20
+
+ # 6. Word Bank Cümle Building - PIECES PROVIDED
+ - id: 94
+ type: word_bank
+ Soru: "Build the Kinyarwanda phrase for 'I have 3 apples'"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_answer: ["Mfite", "amapera", "atatu"]
+ xp_reward: 22
+
+ - id: 95
+ type: word_bank
+ Soru: "Build the Kinyarwanda phrase for 'He bought 12 pens'"
+ word_bank: ["Yanguriye", "amakaramu", "cumi na kabiri", "cumi na rimwe", "ibiri"]
+ correct_answer: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ xp_reward: 22
+
+ - id: 96
+ type: word_bank
+ Soru: "Build the Kinyarwanda phrase for 'The book costs 2,000 RWF'"
+ word_bank: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri", "ibihumbi bitatu", "ijana"]
+ correct_answer: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ xp_reward: 25
+
+ - id: 97
+ type: word_bank
+ Soru: "Build the Kinyarwanda phrase for 'My Ev costs 1,000,000 RWF'"
+ word_bank: ["Inzu", "yanjye", "ni", "amafaranga", "miliyoni imwe", "ibihumbi"]
+ correct_answer: ["Inzu", "yanjye", "ni", "amafaranga", "miliyoni imwe"]
+ xp_reward: 25
+
+ - id: 98
+ type: word_bank
+ Soru: "Build the Kinyarwanda phrase for 'There are 50 students in the class'"
+ word_bank: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri", "mirongo itatu"]
+ correct_answer: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ xp_reward: 22
+
+ - id: 99
+ type: word_bank
+ Soru: "Build the Kinyarwanda phrase for 'She has 100 RWF'"
+ word_bank: ["Afite", "amafaranga", "ijana", "magana abiri", "ibihumbi"]
+ correct_answer: ["Afite", "amafaranga", "ijana"]
+ xp_reward: 20
+
+ - id: 100
+ type: word_bank
+ Soru: "Build the Kinyarwanda phrase for 'The bag costs 123,456 RWF'"
+ word_bank: ["Isakoshi", "ni", "amafaranga", "ijana na makumyabiri na gatatu", "ibihumbi", "na magana ane na mirongo itanu na gatandatu"]
+ correct_answer: ["Isakoshi", "ni", "amafaranga", "ijana na makumyabiri na gatatu", "ibihumbi", "na magana ane na mirongo itanu na gatandatu"]
+ xp_reward: 30
+
+ # 7. Cümle Scramble - PIECES PROVIDED
+ - id: 101
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Mfite", "amapera", "atatu"]
+ correct_sentence: "Mfite amapera atatu."
+ translation: "I have 3 apples."
+ xp_reward: 20
+
+ - id: 102
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ correct_sentence: "Yanguriye amakaramu cumi na kabiri."
+ translation: "He bought 12 pens."
+ xp_reward: 22
+
+ - id: 103
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ correct_sentence: "Igitabo ni amafaranga ibihumbi bibiri."
+ translation: "The book costs 2,000 RWF."
+ xp_reward: 22
+
+ - id: 104
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ correct_sentence: "Hari abanyeshuri mirongo itanu mu ishuri."
+ translation: "There are 50 students in the class."
+ xp_reward: 22
+
+ - id: 105
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Afite", "amafaranga", "ijana"]
+ correct_sentence: "Afite amafaranga ijana."
+ translation: "She has 100 RWF."
+ xp_reward: 18
+
+ # 8. Fill in the Blank - Seç FROM OPTIONS
+ - id: 106
+ type: fill_blank
+ Soru: "Complete the phrase"
+ text_with_blank: "Mfite amapera ___."
+ options: ["atatu", "kabiri", "rimwe"]
+ correct_answer: "atatu"
+ translation: "I have 3 apples."
+ xp_reward: 18
+
+ - id: 107
+ type: fill_blank
+ Soru: "Complete the phrase"
+ text_with_blank: "Yanguriye amakaramu ___."
+ options: ["cumi na kabiri", "cumi na rimwe", "makumyabiri"]
+ correct_answer: "cumi na kabiri"
+ translation: "He bought 12 pens."
+ xp_reward: 18
+
+ - id: 108
+ type: fill_blank
+ Soru: "Complete the phrase"
+ text_with_blank: "Igitabo ni amafaranga ___."
+ options: ["ibihumbi bibiri", "ibihumbi bitatu", "ijana"]
+ correct_answer: "ibihumbi bibiri"
+ translation: "The book costs 2,000 RWF."
+ xp_reward: 20
+
+ - id: 109
+ type: fill_blank
+ Soru: "Complete the phrase"
+ text_with_blank: "Hari abanyeshuri ___ mu ishuri."
+ options: ["mirongo itanu", "mirongo itatu", "cumi"]
+ correct_answer: "mirongo itanu"
+ translation: "There are 50 students in the class."
+ xp_reward: 18
+
+ - id: 110
+ type: fill_blank
+ Soru: "Complete the phrase"
+ text_with_blank: "Afite amafaranga ___."
+ options: ["ijana", "magana abiri", "igihumbi"]
+ correct_answer: "ijana"
+ translation: "She has 100 RWF."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 111
+ type: picture_word
+ Soru: "How many apples do you see?"
+ image_url: "https://source.unsplash.com/featured/?1-apple"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Rimwe"
+ xp_reward: 15
+
+ - id: 112
+ type: picture_word
+ Soru: "How many apples do you see?"
+ image_url: "https://source.unsplash.com/featured/?2-apples"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Kabiri"
+ xp_reward: 15
+
+ - id: 113
+ type: picture_word
+ Soru: "How many apples do you see?"
+ image_url: "https://source.unsplash.com/featured/?3-apples"
+ options: ["Rimwe", "Kabiri", "Gatatu"]
+ correct_answer: "Gatatu"
+ xp_reward: 15
+
+ - id: 114
+ type: picture_word
+ Soru: "How many pens do you see?"
+ image_url: "https://source.unsplash.com/featured/?10-pens"
+ options: ["Icumi", "Makumyabiri", "Ijana"]
+ correct_answer: "Icumi"
+ xp_reward: 15
+
+ - id: 115
+ type: picture_word
+ Soru: "Ne this number?"
+ image_url: "https://images.unsplash.com/photo-1621440318464-72633426377b?q=80&w=867&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D00"
+ options: ["Ijana", "Igihumbi", "Icumi"]
+ correct_answer: "Ijana"
+ xp_reward: 15
+
+ - id: 116
+ type: picture_word
+ Soru: "Ne this amount of money?"
+ image_url: "https://source.unsplash.com/featured/?1000-franc-note"
+ options: ["Amafaranga igihumbi", "Amafaranga ijana", "Amafaranga ibihumbi icumi"]
+ correct_answer: "Amafaranga igihumbi"
+ xp_reward: 20
+
+ # 10. Word Eşleştir (Pairing)
+ - id: 117
+ type: Eşleştir
+ Soru: "Eşleştir the numbers"
+ pairs:
+ - Sol: "1"
+ Sağ: "Rimwe"
+ - Sol: "2"
+ Sağ: "Kabiri"
+ - Sol: "3"
+ Sağ: "Gatatu"
+ - Sol: "4"
+ Sağ: "Kane"
+ - Sol: "5"
+ Sağ: "Gatanu"
+ - Sol: "6"
+ Sağ: "Gatandatu"
+ - Sol: "7"
+ Sağ: "Karindwi"
+ - Sol: "8"
+ Sağ: "Umunani"
+ - Sol: "9"
+ Sağ: "Icyenda"
+ - Sol: "10"
+ Sağ: "Icumi"
+ xp_reward: 25
+
+ - id: 118
+ type: Eşleştir
+ Soru: "Eşleştir the tens"
+ pairs:
+ - Sol: "20"
+ Sağ: "Makumyabiri"
+ - Sol: "30"
+ Sağ: "Makumyatatu"
+ - Sol: "40"
+ Sağ: "Makumyane"
+ - Sol: "50"
+ Sağ: "Mirongo itanu"
+ - Sol: "60"
+ Sağ: "Mirongo itandatu"
+ - Sol: "70"
+ Sağ: "Mirongo irindwi"
+ - Sol: "80"
+ Sağ: "Mirongo inani"
+ - Sol: "90"
+ Sağ: "Mirongo icenda"
+ xp_reward: 25
+
+ - id: 119
+ type: Eşleştir
+ Soru: "Eşleştir the hundreds and thousands"
+ pairs:
+ - Sol: "100"
+ Sağ: "Ijana"
+ - Sol: "200"
+ Sağ: "Magana abiri"
+ - Sol: "500"
+ Sağ: "Magana atanu"
+ - Sol: "1000"
+ Sağ: "Igihumbi"
+ - Sol: "2000"
+ Sağ: "Ibihumbi bibiri"
+ - Sol: "5000"
+ Sağ: "Ibihumbi bitanu"
+ - Sol: "10,000"
+ Sağ: "Ibihumbi icumi"
+ - Sol: "1,000,000"
+ Sağ: "Miliyoni imwe"
+ xp_reward: 25
+
+ - id: 120
+ type: Eşleştir
+ Soru: "Eşleştir the money amounts"
+ pairs:
+ - Sol: "100 RWF"
+ Sağ: "Amafaranga ijana"
+ - Sol: "1,000 RWF"
+ Sağ: "Ifaranga igihumbi"
+ - Sol: "5,000 RWF"
+ Sağ: "Amafaranga ibihumbi bitanu"
+ - Sol: "10,000 RWF"
+ Sağ: "Amafaranga ibihumbi icumi"
+ - Sol: "50,000 RWF"
+ Sağ: "Amafaranga ibihumbi mirongo itanu"
+ - Sol: "100,000 RWF"
+ Sağ: "Amafaranga ijana ibihumbi"
+ - Sol: "1,000,000 RWF"
+ Sağ: "Amafaranga miliyoni imwe"
+ xp_reward: 28
+
+ # 11. Seç Missing Word
+ - id: 124
+ type: choose_missing
+ Soru: "Seç the missing number"
+ Cümle: "Mfite amapera ___."
+ missing_word_position: 3
+ options: ["atatu", "kabiri", "rimwe"]
+ correct_answer: "atatu"
+ translation: "I have 3 apples."
+ xp_reward: 15
+
+ - id: 125
+ type: choose_missing
+ Soru: "Seç the missing number"
+ Cümle: "Yanguriye amakaramu ___."
+ missing_word_position: 3
+ options: ["cumi na kabiri", "cumi na rimwe", "makumyabiri"]
+ correct_answer: "cumi na kabiri"
+ translation: "He bought 12 pens."
+ xp_reward: 18
+
+ - id: 126
+ type: choose_missing
+ Soru: "Seç the missing amount"
+ Cümle: "Igitabo ni amafaranga ___."
+ missing_word_position: 4
+ options: ["ibihumbi bibiri", "ijana", "ibihumbi icumi"]
+ correct_answer: "ibihumbi bibiri"
+ translation: "The book costs 2,000 RWF."
+ xp_reward: 18
+
+ # 12. Oku and Cevap - Soru based on text
+ - id: 127
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Mfite amapera atatu. Yanguriye amakaramu cumi na kabiri."
+ Soru: "How many apples do I have?"
+ options: ["1", "2", "3", "12"]
+ correct_answer: "3"
+ xp_reward: 15
+
+ - id: 128
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Igitabo ni amafaranga ibihumbi bibiri. Inzu yanjye ni amafaranga miliyoni imwe."
+ Soru: "How much is the book?"
+ options: ["100 RWF", "1,000 RWF", "2,000 RWF", "1,000,000 RWF"]
+ correct_answer: "2,000 RWF"
+ xp_reward: 18
+
+ - id: 129
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Hari abanyeshuri mirongo itanu mu ishuri."
+ Soru: "How many students are there?"
+ options: ["15", "20", "50", "100"]
+ correct_answer: "50"
+ xp_reward: 15
+
+ # 13. True / False
+ - id: 130
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Kabiri means 2."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 131
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Icumi means 20."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 132
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Ijana means 100."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 133
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Igihumbi means 1,000,000."
+ correct_answer: false
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 134
+ type: conversation
+ Soru: "Respond to the Soru by building a Cümle"
+ bot_message: "Ufite amapera angahe?"
+ translation: "How many apples do you have?"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_response: ["Mfite", "amapera", "atatu"]
+ xp_reward: 20
+
+ - id: 135
+ type: conversation
+ Soru: "Respond to the Soru about price"
+ bot_message: "Igitabo ni angahe?"
+ translation: "How much is the book?"
+ options:
+ - "Amafaranga ibihumbi bibiri"
+ - "Amafaranga ijana"
+ - "Amafaranga miliyoni imwe"
+ correct_response: "Amafaranga ibihumbi bibiri"
+ xp_reward: 18
+
+ - id: 136
+ type: conversation
+ Soru: "Respond to the Soru by building a Cümle"
+ bot_message: "Hari abanyeshuri bangahe mu ishuri?"
+ translation: "How many students are in the class?"
+ word_bank: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ correct_response: ["Hari", "abanyeshuri", "mirongo itanu", "mu ishuri"]
+ xp_reward: 20
+
+ # 15. Story Exercise - Build Cümle from pieces
+ - id: 137
+ type: story
+ title: "Alışveriş - Kugura"
+ story_intro: "Oku about Alışveriş. Then build the Cümle."
+ story_segments:
+ - text: "I have 3 apples."
+ - text: "He bought 12 pens."
+ - text: "The book costs 2,000 RWF."
+ - text: "My Ev costs 1,000,000 RWF."
+ - text: "She has 100 RWF."
+ exercises:
+ - type: word_bank
+ Soru: "Build 'I have 3 apples'"
+ word_bank: ["Mfite", "amapera", "atatu", "ibiri", "rimwe"]
+ correct_answer: ["Mfite", "amapera", "atatu"]
+ - type: word_bank
+ Soru: "Build 'He bought 12 pens'"
+ word_bank: ["Yanguriye", "amakaramu", "cumi na kabiri", "cumi na rimwe"]
+ correct_answer: ["Yanguriye", "amakaramu", "cumi na kabiri"]
+ - type: word_bank
+ Soru: "Build 'The book costs 2,000 RWF'"
+ word_bank: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ correct_answer: ["Igitabo", "ni", "amafaranga", "ibihumbi bibiri"]
+ - type: word_bank
+ Soru: "Build 'She has 100 RWF'"
+ word_bank: ["Afite", "amafaranga", "ijana"]
+ correct_answer: ["Afite", "amafaranga", "ijana"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 138
+ type: pronunciation
+ Soru: "Say this number"
+ prompt: "Rimwe"
+ translation: "1"
+ xp_reward: 15
+
+ - id: 139
+ type: pronunciation
+ Soru: "Say this number"
+ prompt: "Makumyabiri"
+ translation: "20"
+ xp_reward: 15
+
+ - id: 140
+ type: pronunciation
+ Soru: "Say this amount"
+ prompt: "Amafaranga ibihumbi bitanu"
+ translation: "5,000 RWF"
+ xp_reward: 20
+
+ # 17. Identify Correct Meaning
+ - id: 141
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'atatu' mean in this Cümle?"
+ context_sentence: "Mfite amapera atatu."
+ word: "atatu"
+ options: ["1", "2", "3", "4"]
+ correct_answer: "3"
+ xp_reward: 15
+
+ - id: 142
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'ibihumbi bibiri' bu cümlede?"
+ context_sentence: "Igitabo ni amafaranga ibihumbi bibiri."
+ word: "ibihumbi bibiri"
+ options: ["100 RWF", "1,000 RWF", "2,000 RWF", "20,000 RWF"]
+ correct_answer: "2,000 RWF"
+ xp_reward: 18
+
+ # 18. Speed Eşleştir
+ - id: 143
+ type: speed_Eşleştir
+ title: "Eşleştir Madness: Numbers"
+ time_limit_seconds: 45
+ pairs:
+ - Sol: "1"
+ Sağ: "Rimwe"
+ - Sol: "2"
+ Sağ: "Kabiri"
+ - Sol: "3"
+ Sağ: "Gatatu"
+ - Sol: "4"
+ Sağ: "Kane"
+ - Sol: "5"
+ Sağ: "Gatanu"
+ - Sol: "10"
+ Sağ: "Icumi"
+ - Sol: "20"
+ Sağ: "Makumyabiri"
+ - Sol: "100"
+ Sağ: "Ijana"
+ - Sol: "1000"
+ Sağ: "Igihumbi"
+ - Sol: "1,000,000"
+ Sağ: "Miliyoni imwe"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 144
+ type: timed_challenge
+ title: "Lightning Round: Numbers"
+ time_limit_seconds: 30
+ Soru_count: 5
+ Soru:
+ - Soru: "1"
+ Cevap: "Rimwe"
+ - Soru: "2"
+ Cevap: "Kabiri"
+ - Soru: "3"
+ Cevap: "Gatatu"
+ - Soru: "10"
+ Cevap: "Icumi"
+ - Soru: "100"
+ Cevap: "Ijana"
+ xp_reward: 35
+
+# Kartlar
+ - id: 111
+ type: Kartlar
+ Soru: "Kartlar"
+ Kartlar:
+ - front: "Rimwe"
+ back: "1"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Kabiri"
+ back: "2"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Gatatu"
+ back: "3"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Kane"
+ back: "4"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Gatanu"
+ back: "5"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Gatandatu"
+ back: "6"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Karindwi"
+ back: "7"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunani"
+ back: "8"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Icyenda"
+ back: "9"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Icumi"
+ back: "10"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

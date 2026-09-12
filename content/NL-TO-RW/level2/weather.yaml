@@ -1,0 +1,1294 @@
+lesson:
+ name: "Weer - Ibihe by'ikirere"
+ description: "Leer Weer expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Weer Words ONLY (Safe voor single words)
+ # Basic Weer Words
+ - id: 1
+ type: translation
+ Vraag: "Hoe zeg je 'Weer' in het Kinyarwanda?"
+ Antwoord: "Ibihe by'ikirere"
+ xp_reward: 15
+
+ - id: 2
+ type: translation
+ Vraag: "Hoe zeg je 'Sun' in het Kinyarwanda?"
+ Antwoord: "Izuba"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Vraag: "Hoe zeg je 'Rain' in het Kinyarwanda?"
+ Antwoord: "Imvura"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Vraag: "Hoe zeg je 'Snow' in het Kinyarwanda?"
+ Antwoord: "Urubura"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Vraag: "Hoe zeg je 'Cloud' in het Kinyarwanda?"
+ Antwoord: "Igicu"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Vraag: "Hoe zeg je 'Wind' in het Kinyarwanda?"
+ Antwoord: "Umuyaga"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Vraag: "Hoe zeg je 'Storm' in het Kinyarwanda?"
+ Antwoord: "Umuyaga ukomeye"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Vraag: "Hoe zeg je 'Thunder' in het Kinyarwanda?"
+ Antwoord: "Inkubi y'umuyaga"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Vraag: "Hoe zeg je 'Lightning' in het Kinyarwanda?"
+ Antwoord: "Umuriro w'amashanyarazi"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Vraag: "Hoe zeg je 'Hot' in het Kinyarwanda?"
+ Antwoord: "Harashyushye"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Vraag: "Hoe zeg je 'Cold' in het Kinyarwanda?"
+ Antwoord: "Bikonje"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Vraag: "Hoe zeg je 'Warm' in het Kinyarwanda?"
+ Antwoord: "Harashyushye buhoro"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Vraag: "Hoe zeg je 'Cool' in het Kinyarwanda?"
+ Antwoord: "Bikonje buhoro"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Vraag: "Hoe zeg je 'Humid' in het Kinyarwanda?"
+ Antwoord: "Humide"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Vraag: "Hoe zeg je 'Fog' in het Kinyarwanda?"
+ Antwoord: "Igitugu"
+ xp_reward: 10
+
+ # Zin About Weer
+ - id: 16
+ type: translation
+ Vraag: "Hoe zeg je 'de sun is shining' in het Kinyarwanda?"
+ Antwoord: "Izuba rirarashe."
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Vraag: "Hoe zeg je 'It is raining' in het Kinyarwanda?"
+ Antwoord: "Harimo kugwa imvura"
+ xp_reward: 18
+
+ - id: 18
+ type: translation
+ Vraag: "Hoe zeg je 'de snow is falling' in het Kinyarwanda?"
+ Antwoord: "Urubura ruragwa."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Vraag: "Hoe zeg je 'de wind is strong' in het Kinyarwanda?"
+ Antwoord: "Umuyaga urakomeye."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Vraag: "Hoe zeg je 'de sky is cloudy' in het Kinyarwanda?"
+ Antwoord: "Ijuru ryuzuye ibicu."
+ xp_reward: 18
+
+ - id: 21
+ type: translation
+ Vraag: "Hoe zeg je 'It is hot today' in het Kinyarwanda?"
+ Antwoord: "Uyu munsi Harashyushye."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Vraag: "Hoe zeg je 'It is cold outside' in het Kinyarwanda?"
+ Antwoord: "Hanze hariho ubukonje."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Vraag: "Hoe zeg je 'de Weer is nice' in het Kinyarwanda?"
+ Antwoord: "Ibihe by'ikirere ni byiza."
+ xp_reward: 15
+
+ # Daily Weer Expressions
+ - id: 24
+ type: translation
+ Vraag: "Hoe zeg je 'goed morning! It is sunny' in het Kinyarwanda?"
+ Antwoord: "Mwaramutse! Izuba rirarashe."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Vraag: "Hoe zeg je 'It will rain today' in het Kinyarwanda?"
+ Antwoord: "Uyu munsi hazagwa imvura."
+ xp_reward: 18
+
+ - id: 26
+ type: translation
+ Vraag: "Hoe zeg je 'de wind is blowing' in het Kinyarwanda?"
+ Antwoord: "Umuyaga urahuma."
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Vraag: "Hoe zeg je 'Be careful, it is slippery' in het Kinyarwanda?"
+ Antwoord: "Wirinde, birashobora gusogongera."
+ xp_reward: 20
+
+ - id: 28
+ type: translation
+ Vraag: "Hoe zeg je 'It is cloudy today' in het Kinyarwanda?"
+ Antwoord: "Uyu munsi ijuru ryuzuye ibicu."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Vraag: "Wat betekent 'Izuba' in deze zin?"
+ options:
+ - "Rain"
+ - "Sun"
+ - "Wind"
+ - "Cloud"
+ Antwoord: "Sun"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Vraag: "Wat betekent 'Imvura' in deze zin?"
+ options:
+ - "Snow"
+ - "Rain"
+ - "Storm"
+ - "Fog"
+ Antwoord: "Rain"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Vraag: "Wat betekent 'Umuyaga' in deze zin?"
+ options:
+ - "Sun"
+ - "Cloud"
+ - "Wind"
+ - "Storm"
+ Antwoord: "Wind"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Vraag: "Wat betekent 'Harashyushye' in deze zin?"
+ options:
+ - "Cold"
+ - "Hot"
+ - "Warm"
+ - "Cool"
+ Antwoord: "Hot"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Vraag: "Wat betekent 'Bikonje' in deze zin?"
+ options:
+ - "Hot"
+ - "Warm"
+ - "Cold"
+ - "Cool"
+ Antwoord: "Cold"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Vraag: "Wat betekent 'Izuba rirarashe' in deze zin?"
+ options:
+ - "It is raining"
+ - "de sun is shining"
+ - "de wind is strong"
+ - "de sky is cloudy"
+ Antwoord: "de sun is shining"
+ xp_reward: 18
+
+ # 3. Luister en Type (Dictation)
+ - id: 35
+ type: listen_en_type
+ Vraag: "Luister en type de Weer word"
+ audio: "Izuba"
+ Antwoord: "Izuba"
+ translation: "Sun"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_en_type
+ Vraag: "Luister en type de Weer word"
+ audio: "Imvura"
+ Antwoord: "Imvura"
+ translation: "Rain"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_en_type
+ Vraag: "Luister en type de Weer word"
+ audio: "Umuyaga"
+ Antwoord: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_en_type
+ Vraag: "Luister en type de Weer word"
+ audio: "Urubura"
+ Antwoord: "Urubura"
+ translation: "Snow"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ audio: "Izuba rirarashe"
+ Antwoord: "Izuba rirarashe"
+ translation: "de sun is shining"
+ xp_reward: 22
+
+ - id: 40
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ audio: "Harimo kugwa imvura"
+ Antwoord: "Harimo kugwa imvura"
+ translation: "It is raining"
+ xp_reward: 25
+
+ - id: 41
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ audio: "Uyu munsi birishyushye"
+ Antwoord: "Uyu munsi birishyushye"
+ translation: "It is hot today"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_en_type
+ Vraag: "Luister en type de expression"
+ audio: "Mwaramutse Izuba ryarashe"
+ Antwoord: "Mwaramutse Izuba ryarashe"
+ translation: "goed morning! de sun is shining"
+ xp_reward: 25
+
+ # 4. Luister en Kies
+ - id: 43
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct Weer word"
+ audio: "Izuba"
+ options:
+ - "Rain"
+ - "Sun"
+ - "Wind"
+ Antwoord: "Sun"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct Weer word"
+ audio: "Imvura"
+ options:
+ - "Snow"
+ - "Rain"
+ - "Cloud"
+ Antwoord: "Rain"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct Weer word"
+ audio: "Umuyaga"
+ options:
+ - "Sun"
+ - "Wind"
+ - "Storm"
+ Antwoord: "Wind"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct phrase"
+ audio: "Izuba rirarashe"
+ options:
+ - "It is raining"
+ - "de sun is shining"
+ - "de wind is strong"
+ Antwoord: "de sun is shining"
+ xp_reward: 18
+
+ - id: 47
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct phrase"
+ audio: "Harimo kugwa imvura"
+ options:
+ - "It is hot today"
+ - "It is raining"
+ - "de sky is cloudy"
+ Antwoord: "It is raining"
+ xp_reward: 20
+
+ # 5. Repeat / Praat Exercise
+ - id: 48
+ type: Praat
+ Vraag: "Say dit Weer word"
+ prompt: "Izuba"
+ translation: "Sun"
+ xp_reward: 15
+
+ - id: 49
+ type: Praat
+ Vraag: "Say dit Weer word"
+ prompt: "Imvura"
+ translation: "Rain"
+ xp_reward: 15
+
+ - id: 50
+ type: Praat
+ Vraag: "Say dit Weer word"
+ prompt: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 15
+
+ - id: 51
+ type: Praat
+ Vraag: "Say dit Weer word"
+ prompt: "Urubura"
+ translation: "Snow"
+ xp_reward: 15
+
+ - id: 52
+ type: Praat
+ Vraag: "Say dit phrase"
+ prompt: "Izuba rirarashe"
+ translation: "de sun is shining"
+ xp_reward: 18
+
+ - id: 53
+ type: Praat
+ Vraag: "Say dit phrase"
+ prompt: "Harimo kugwa imvura"
+ translation: "It is raining"
+ xp_reward: 20
+
+ - id: 54
+ type: Praat
+ Vraag: "Say dit phrase"
+ prompt: "Uyu munsi birishyushye"
+ translation: "It is hot today"
+ xp_reward: 18
+
+ - id: 55
+ type: Praat
+ Vraag: "Say dit expression"
+ prompt: "Mwaramutse Izuba ryarashe"
+ translation: "goed morning! de sun is shining"
+ xp_reward: 22
+
+ # 6. Word Bank Zin Building - PIECES PROVIDED
+ - id: 56
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de sun is shining'"
+ word_bank: ["Izuba", "rirakaza", "imvura", "irakaza", "umuyaga"]
+ correct_answer: ["Izuba", "rirakaza"]
+ xp_reward: 15
+
+ - id: 57
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'It is raining'"
+ word_bank: ["Birimo", "kugwa", "imvura", "urubura", "ruragwa"]
+ correct_answer: ["Birimo", "kugwa", "imvura"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de snow is falling'"
+ word_bank: ["Urubura", "ruragwa", "imvura", "irakaza", "izuba"]
+ correct_answer: ["Urubura", "ruragwa"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de wind is strong'"
+ word_bank: ["Umuyaga", "urakomeye", "izuba", "rirakaza", "imvura"]
+ correct_answer: ["Umuyaga", "urakomeye"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de sky is cloudy'"
+ word_bank: ["Ijuru", "ryuzuye", "ibicu", "izuba", "rirakaza", "umuyaga"]
+ correct_answer: ["Ijuru", "ryuzuye", "ibicu"]
+ xp_reward: 18
+
+ - id: 61
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'It is hot today'"
+ word_bank: ["Uyu", "munsi", "birishyushye", "bikonje", "ubukonje"]
+ correct_answer: ["Uyu", "munsi", "birishyushye"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'It is cold outside'"
+ word_bank: ["Hanze", "hariho", "ubukonje", "birishyushye", "umuyaga"]
+ correct_answer: ["Hanze", "hariho", "ubukonje"]
+ xp_reward: 15
+
+ - id: 63
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de Weer is nice'"
+ word_bank: ["Ibihe", "by'ikirere", "ni", "byiza", "ibicu", "ryuzuye"]
+ correct_answer: ["Ibihe", "by'ikirere", "ni", "byiza"]
+ xp_reward: 18
+
+ - id: 64
+ type: word_bank
+ Vraag: "Build de Kinyarwanda expression voor 'goed morning! It is sunny'"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_answer: ["Mwaramutse", "Izuba", "rirakaza"]
+ xp_reward: 18
+
+ - id: 65
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'It will rain today'"
+ word_bank: ["Uyu", "munsi", "hazagwa", "imvura", "urubura", "ruragwa"]
+ correct_answer: ["Uyu", "munsi", "hazagwa", "imvura"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'de wind is blowing'"
+ word_bank: ["Umuyaga", "urahuma", "urakomeye", "izuba", "rirakaza"]
+ correct_answer: ["Umuyaga", "urahuma"]
+ xp_reward: 15
+
+ - id: 67
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'Be careful, it is slippery'"
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "hanze", "hariho", "ubukonje"]
+ correct_answer: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'It is cloudy today'"
+ word_bank: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu", "birishyushye"]
+ correct_answer: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu"]
+ xp_reward: 20
+
+ # 7. Zin Scramble - PIECES PROVIDED
+ - id: 69
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Izuba", "rirakaza"]
+ correct_sentence: "Izuba rirarashe."
+ translation: "de sun is shining."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Birimo", "kugwa", "imvura"]
+ correct_sentence: "Harimo kugwa imvura."
+ translation: "It is raining."
+ xp_reward: 20
+
+ - id: 71
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Urubura", "ruragwa"]
+ correct_sentence: "Urubura ruragwa."
+ translation: "de snow is falling."
+ xp_reward: 15
+
+ - id: 72
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Umuyaga", "urakomeye"]
+ correct_sentence: "Umuyaga urakomeye."
+ translation: "de wind is strong."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Ijuru", "ryuzuye", "ibicu"]
+ correct_sentence: "Ijuru ryuzuye ibicu."
+ translation: "de sky is cloudy."
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Uyu", "munsi", "birishyushye"]
+ correct_sentence: "Uyu munsi birishyushye."
+ translation: "It is hot today."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Hanze", "hariho", "ubukonje"]
+ correct_sentence: "Hanze hariho ubukonje."
+ translation: "It is cold outside."
+ xp_reward: 15
+
+ - id: 76
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Ibihe", "by'ikirere", "ni", "byiza"]
+ correct_sentence: "Ibihe by'ikirere ni byiza."
+ translation: "de Weer is nice."
+ xp_reward: 18
+
+ - id: 77
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct expression"
+ scrambled_words: ["Mwaramutse", "Izuba", "rirakaza"]
+ correct_sentence: "Mwaramutse! Izuba rirarashe."
+ translation: "goed morning! de sun is shining."
+ xp_reward: 18
+
+ - id: 78
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Uyu", "munsi", "hazagwa", "imvura"]
+ correct_sentence: "Uyu munsi hazagwa imvura."
+ translation: "It will rain today."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Umuyaga", "urahuma"]
+ correct_sentence: "Umuyaga urahuma."
+ translation: "de wind is blowing."
+ xp_reward: 15
+
+ - id: 80
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Wirinde", "birashobora", "gusogongera"]
+ correct_sentence: "Wirinde, birashobora gusogongera."
+ translation: "Be careful, it is slippery."
+ xp_reward: 22
+
+ - id: 81
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu"]
+ correct_sentence: "Uyu munsi ijuru ryuzuye ibicu."
+ translation: "It is cloudy today."
+ xp_reward: 20
+
+ # 8. Fill in de Blank - Kies FROM OPTIONS
+ - id: 82
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Izuba ___."
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "de sun is shining."
+ xp_reward: 12
+
+ - id: 83
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Birimo kugwa ___."
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It is raining."
+ xp_reward: 15
+
+ - id: 84
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Urubura ___."
+ options: ["ruragwa", "rirakaza", "urahuma"]
+ correct_answer: "ruragwa"
+ translation: "de snow is falling."
+ xp_reward: 12
+
+ - id: 85
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Umuyaga ___."
+ options: ["urakomeye", "rirakaza", "ryuzuye"]
+ correct_answer: "urakomeye"
+ translation: "de wind is strong."
+ xp_reward: 12
+
+ - id: 86
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Ijuru ryuzuye ___."
+ options: ["ibicu", "imvura", "urubura"]
+ correct_answer: "ibicu"
+ translation: "de sky is cloudy."
+ xp_reward: 15
+
+ - id: 87
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Uyu munsi ___."
+ options: ["birishyushye", "bikonje", "byiza"]
+ correct_answer: "birishyushye"
+ translation: "It is hot today."
+ xp_reward: 12
+
+ - id: 88
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Hanze hariho ___."
+ options: ["ubukonje", "ubushyuhe", "ibicu"]
+ correct_answer: "ubukonje"
+ translation: "It is cold outside."
+ xp_reward: 12
+
+ - id: 89
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Ibihe by'ikirere ni ___."
+ options: ["byiza", "bikonje", "birishyushye"]
+ correct_answer: "byiza"
+ translation: "de Weer is nice."
+ xp_reward: 12
+
+ - id: 90
+ type: fill_blank
+ Vraag: "Complete de expression"
+ text_met_blank: "Mwaramutse! Izuba ___."
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "goed morning! de sun is shining."
+ xp_reward: 15
+
+ - id: 91
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Uyu munsi hazagwa ___."
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It will rain today."
+ xp_reward: 15
+
+ - id: 92
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Umuyaga ___."
+ options: ["urahuma", "rirakaza", "ruragwa"]
+ correct_answer: "urahuma"
+ translation: "de wind is blowing."
+ xp_reward: 12
+
+ - id: 93
+ type: fill_blank
+ Vraag: "Complete de warning"
+ text_met_blank: "Wirinde, birashobora ___."
+ options: ["gusogongera", "kugwa imvura", "kubura"]
+ correct_answer: "gusogongera"
+ translation: "Be careful, it is slippery."
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 94
+ type: picture_word
+ Vraag: "What Weer is dit?"
+ image_url: "https://source.unsplash.com/featured/?sun"
+ options: ["Izuba", "Imvura", "Igicu"]
+ correct_answer: "Izuba"
+ xp_reward: 10
+
+ - id: 95
+ type: picture_word
+ Vraag: "What Weer is dit?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Urubura", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 96
+ type: picture_word
+ Vraag: "What Weer is dit?"
+ image_url: "https://source.unsplash.com/featured/?snow"
+ options: ["Urubura", "Imvura", "Igitugu"]
+ correct_answer: "Urubura"
+ xp_reward: 10
+
+ - id: 97
+ type: picture_word
+ Vraag: "What Weer is dit?"
+ image_url: "https://source.unsplash.com/featured/?cloud"
+ options: ["Igicu", "Izuba", "Umuyaga"]
+ correct_answer: "Igicu"
+ xp_reward: 10
+
+ - id: 98
+ type: picture_word
+ Vraag: "What Weer is dit?"
+ image_url: "https://source.unsplash.com/featured/?wind"
+ options: ["Umuyaga", "Imvura", "Urubura"]
+ correct_answer: "Umuyaga"
+ xp_reward: 10
+
+ - id: 99
+ type: picture_word
+ Vraag: "What Weer is dit?"
+ image_url: "https://source.unsplash.com/featured/?storm"
+ options: ["Umuyaga ukomeye", "Izuba", "Igicu"]
+ correct_answer: "Umuyaga ukomeye"
+ xp_reward: 15
+
+ - id: 100
+ type: picture_word
+ Vraag: "What Weer is dit?"
+ image_url: "https://source.unsplash.com/featured/?lightning"
+ options: ["Umuriro w'amashanyarazi", "Imvura", "Igicu"]
+ correct_answer: "Umuriro w'amashanyarazi"
+ xp_reward: 15
+
+ - id: 101
+ type: picture_word
+ Vraag: "What Weer is dit?"
+ image_url: "https://source.unsplash.com/featured/?fog"
+ options: ["Igitugu", "Igicu", "Umuyaga"]
+ correct_answer: "Igitugu"
+ xp_reward: 12
+
+ - id: 102
+ type: picture_word
+ Vraag: "What temperature is dit?"
+ image_url: "https://source.unsplash.com/featured/?hot-weather"
+ options: ["Harashyushye", "Bikonje", "Bikonje buhoro"]
+ correct_answer: "Harashyushye"
+ xp_reward: 10
+
+ - id: 103
+ type: picture_word
+ Vraag: "What temperature is dit?"
+ image_url: "https://source.unsplash.com/featured/?cold-weather"
+ options: ["Bikonje", "Harashyushye", "Harashyushye buhoro"]
+ correct_answer: "Bikonje"
+ xp_reward: 10
+
+ # 10. Word Koppel (Pairing)
+ - id: 104
+ type: Koppel
+ Vraag: "Koppel de Weer words"
+ pairs:
+ - Links: "Sun"
+ Rechts: "Izuba"
+ - Links: "Rain"
+ Rechts: "Imvura"
+ - Links: "Snow"
+ Rechts: "Urubura"
+ - Links: "Cloud"
+ Rechts: "Igicu"
+ - Links: "Wind"
+ Rechts: "Umuyaga"
+ - Links: "Storm"
+ Rechts: "Umuyaga ukomeye"
+ - Links: "Thunder"
+ Rechts: "Inkubi y'umuyaga"
+ - Links: "Lightning"
+ Rechts: "Umuriro w'amashanyarazi"
+ - Links: "Fog"
+ Rechts: "Igitugu"
+ xp_reward: 25
+
+ - id: 105
+ type: Koppel
+ Vraag: "Koppel de temperatures"
+ pairs:
+ - Links: "Hot"
+ Rechts: "Harashyushye"
+ - Links: "Cold"
+ Rechts: "Bikonje"
+ - Links: "Warm"
+ Rechts: "Harashyushye buhoro"
+ - Links: "Cool"
+ Rechts: "Bikonje buhoro"
+ - Links: "Humid"
+ Rechts: "Humide"
+ xp_reward: 20
+
+ - id: 106
+ type: Koppel
+ Vraag: "Koppel de Weer Zin"
+ pairs:
+ - Links: "de sun is shining"
+ Rechts: "Izuba rirarashe"
+ - Links: "It is raining"
+ Rechts: "Harimo kugwa imvura"
+ - Links: "de snow is falling"
+ Rechts: "Urubura ruragwa"
+ - Links: "de wind is strong"
+ Rechts: "Umuyaga urakomeye"
+ - Links: "de sky is cloudy"
+ Rechts: "Ijuru ryuzuye ibicu"
+ - Links: "It is hot today"
+ Rechts: "Uyu munsi birishyushye"
+ - Links: "It is cold outside"
+ Rechts: "Hanze hariho ubukonje"
+ xp_reward: 25
+
+ - id: 107
+ type: Koppel
+ Vraag: "Koppel de daily expressions"
+ pairs:
+ - Links: "goed morning! It is sunny"
+ Rechts: "Mwaramutse! Izuba rirarashe"
+ - Links: "It will rain today"
+ Rechts: "Uyu munsi hazagwa imvura"
+ - Links: "de wind is blowing"
+ Rechts: "Umuyaga urahuma"
+ - Links: "Be careful, it is slippery"
+ Rechts: "Wirinde, birashobora gusogongera"
+ - Links: "It is cloudy today"
+ Rechts: "Uyu munsi ijuru ryuzuye ibicu"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED een PER PREVIOUS PATTERN
+
+ # 12. Kies Missing Word
+ - id: 108
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Izuba ___."
+ missing_word_position: 2
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "de sun is shining."
+ xp_reward: 12
+
+ - id: 109
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Birimo kugwa ___."
+ missing_word_position: 3
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It is raining."
+ xp_reward: 15
+
+ - id: 110
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Umuyaga ___."
+ missing_word_position: 2
+ options: ["urakomeye", "rirakaza", "ruragwa"]
+ correct_answer: "urakomeye"
+ translation: "de wind is strong."
+ xp_reward: 12
+
+ - id: 111
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Uyu munsi ___."
+ missing_word_position: 3
+ options: ["birishyushye", "bikonje", "byiza"]
+ correct_answer: "birishyushye"
+ translation: "It is hot today."
+ xp_reward: 12
+
+ - id: 112
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Hanze hariho ___."
+ missing_word_position: 3
+ options: ["ubukonje", "ubushyuhe", "ibicu"]
+ correct_answer: "ubukonje"
+ translation: "It is cold outside."
+ xp_reward: 12
+
+ - id: 113
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Uyu munsi hazagwa ___."
+ missing_word_position: 4
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It will rain today."
+ xp_reward: 15
+
+ # 13. Lees en Antwoord - Vraag based op text
+ - id: 114
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Izuba rirarashe. Ibihe by'ikirere ni byiza."
+ Vraag: "Wat is de Weer like?"
+ options: ["Rainy", "Sunny", "Cloudy", "Windy"]
+ correct_answer: "Sunny"
+ xp_reward: 12
+
+ - id: 115
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Harimo kugwa imvura. Umuyaga urakomeye."
+ Vraag: "Wat is happening?"
+ options: ["It is snowing", "It is raining", "It is sunny", "It is cloudy"]
+ correct_answer: "It is raining"
+ xp_reward: 15
+
+ - id: 116
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Uyu munsi birishyushye. Izuba rirarashe."
+ Vraag: "How is de temperature today?"
+ options: ["Cold", "Hot", "Cool", "Warm"]
+ correct_answer: "Hot"
+ xp_reward: 12
+
+ - id: 117
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Ijuru ryuzuye ibicu. Hazagwa imvura."
+ Vraag: "What will happen today?"
+ options: ["It will snow", "It will rain", "de sun will shine", "de wind will blow"]
+ correct_answer: "It will rain"
+ xp_reward: 15
+
+ - id: 118
+ type: read_answer
+ Vraag: "Lees de conversation en Antwoord de Vraag"
+ text: "een: Mwaramutse! Izuba rirarashe. B: Yego, ibihe ni byiza."
+ Vraag: "Wat is de Weer?"
+ options: ["Rainy", "Sunny", "Cloudy", "Windy"]
+ correct_answer: "Sunny"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 119
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Izuba means 'sun'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 120
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Imvura means 'snow'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 121
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Umuyaga urakomeye means 'de wind is strong'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 122
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Bikonje means 'hot'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 123
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Harimo kugwa imvura means 'it is raining'."
+ correct_answer: true
+ xp_reward: 15
+
+ - id: 124
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Uyu munsi hazagwa urubura means 'it will rain today'."
+ correct_answer: false
+ xp_reward: 15
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 125
+ type: conversation
+ Vraag: "Respond naar de greeting by building een Zin"
+ bot_message: "Mwaramutse!"
+ translation: "goed morning!"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_response: ["Mwaramutse"]
+ xp_reward: 10
+
+ - id: 126
+ type: conversation
+ Vraag: "Respond naar de Vraag about Weer"
+ bot_message: "Ibihe by'ikirere bimeze bite?"
+ translation: "How is de Weer?"
+ options:
+ - "Izuba rirarashe"
+ - "Harimo kugwa imvura"
+ - "Umuyaga urakomeye"
+ correct_response: "Izuba rirarashe"
+ xp_reward: 15
+
+ - id: 127
+ type: conversation
+ Vraag: "Respond naar de statement"
+ bot_message: "Uyu munsi birishyushye."
+ translation: "It is hot today."
+ options:
+ - "Yego, Izuba rirarashe"
+ - "Oya, bikonje"
+ - "Harimo kugwa imvura"
+ correct_response: "Yego, Izuba rirarashe"
+ xp_reward: 12
+
+ - id: 128
+ type: conversation
+ Vraag: "Respond naar de warning by building een Zin"
+ bot_message: "Hanze hariho ubukonje."
+ translation: "It is cold outside."
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "umuyaga", "urahuma"]
+ correct_response: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 20
+
+ # 16. Story Exercise - Build Zin from pieces
+ - id: 129
+ type: story
+ title: "een Day van Weer - Umunsi w'Ibihe by'Ikirere"
+ story_intro: "Lees about de Weer. Then build de Zin."
+ story_segments:
+ - text: "goed morning! de sun is shining."
+ - text: "It is hot today."
+ - text: "de sky is cloudy."
+ - text: "It will rain today."
+ - text: "de wind is blowing."
+ - text: "Be careful, it is slippery."
+ exercises:
+ - type: word_bank
+ Vraag: "Build 'goed morning! de sun is shining'"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_answer: ["Mwaramutse", "Izuba", "rirakaza"]
+ - type: word_bank
+ Vraag: "Build 'It is hot today'"
+ word_bank: ["Uyu", "munsi", "birishyushye", "bikonje", "ubukonje"]
+ correct_answer: ["Uyu", "munsi", "birishyushye"]
+ - type: word_bank
+ Vraag: "Build 'de sky is cloudy'"
+ word_bank: ["Ijuru", "ryuzuye", "ibicu", "izuba", "rirakaza"]
+ correct_answer: ["Ijuru", "ryuzuye", "ibicu"]
+ - type: word_bank
+ Vraag: "Build 'It will rain today'"
+ word_bank: ["Uyu", "munsi", "hazagwa", "imvura", "urubura"]
+ correct_answer: ["Uyu", "munsi", "hazagwa", "imvura"]
+ - type: word_bank
+ Vraag: "Build 'de wind is blowing'"
+ word_bank: ["Umuyaga", "urahuma", "urakomeye", "izuba"]
+ correct_answer: ["Umuyaga", "urahuma"]
+ - type: word_bank
+ Vraag: "Build 'Be careful, it is slippery'"
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "hanze", "hariho", "ubukonje"]
+ correct_answer: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 130
+ type: pronunciation
+ Vraag: "Say dit Weer word"
+ prompt: "Izuba"
+ translation: "Sun"
+ xp_reward: 15
+
+ - id: 131
+ type: pronunciation
+ Vraag: "Say dit Weer word"
+ prompt: "Imvura"
+ translation: "Rain"
+ xp_reward: 15
+
+ - id: 132
+ type: pronunciation
+ Vraag: "Say dit Weer word"
+ prompt: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 15
+
+ - id: 133
+ type: pronunciation
+ Vraag: "Say dit phrase"
+ prompt: "Izuba rirarashe"
+ translation: "de sun is shining"
+ xp_reward: 18
+
+ - id: 134
+ type: pronunciation
+ Vraag: "Say dit phrase"
+ prompt: "Harimo kugwa imvura"
+ translation: "It is raining"
+ xp_reward: 20
+
+ - id: 135
+ type: pronunciation
+ Vraag: "Say dit expression"
+ prompt: "Mwaramutse Izuba ryarashe"
+ translation: "goed morning! de sun is shining"
+ xp_reward: 22
+
+ # 18. Identify Correct Meaning
+ - id: 136
+ type: identify_meaning
+ Vraag: "Wat betekent 'Izuba' mean in dit Zin?"
+ context_sentence: "Izuba rirarashe."
+ word: "Izuba"
+ options: ["Rain", "Sun", "Wind", "Cloud"]
+ correct_answer: "Sun"
+ xp_reward: 12
+
+ - id: 137
+ type: identify_meaning
+ Vraag: "Wat betekent 'rirakaza' mean in dit Zin?"
+ context_sentence: "Izuba rirarashe."
+ word: "rirakaza"
+ options: ["is falling", "is shining", "is blowing", "is strong"]
+ correct_answer: "is shining"
+ xp_reward: 15
+
+ - id: 138
+ type: identify_meaning
+ Vraag: "Wat betekent 'birishyushye' mean in dit Zin?"
+ context_sentence: "Uyu munsi birishyushye."
+ word: "birishyushye"
+ options: ["cold", "hot", "cool", "warm"]
+ correct_answer: "hot"
+ xp_reward: 12
+
+ - id: 139
+ type: identify_meaning
+ Vraag: "Wat betekent 'hazagwa' mean in dit Zin?"
+ context_sentence: "Uyu munsi hazagwa imvura."
+ word: "hazagwa"
+ options: ["is falling", "will fall", "is blowing", "will blow"]
+ correct_answer: "will fall"
+ xp_reward: 18
+
+ - id: 140
+ type: identify_meaning
+ Vraag: "Wat betekent 'gusogongera' mean in dit Zin?"
+ context_sentence: "Wirinde, birashobora gusogongera."
+ word: "gusogongera"
+ options: ["naar be cold", "naar be slippery", "naar be hot", "naar be windy"]
+ correct_answer: "naar be slippery"
+ xp_reward: 18
+
+ # 19. Speed Koppel
+ - id: 141
+ type: speed_Koppel
+ title: "Koppel Madness: Weer"
+ time_limit_seconds: 45
+ pairs:
+ - Links: "Sun"
+ Rechts: "Izuba"
+ - Links: "Rain"
+ Rechts: "Imvura"
+ - Links: "Snow"
+ Rechts: "Urubura"
+ - Links: "Cloud"
+ Rechts: "Igicu"
+ - Links: "Wind"
+ Rechts: "Umuyaga"
+ - Links: "Hot"
+ Rechts: "Harashyushye"
+ - Links: "Cold"
+ Rechts: "Bikonje"
+ - Links: "Fog"
+ Rechts: "Igitugu"
+ - Links: "Sunny"
+ Rechts: "Izuba rirarashe"
+ - Links: "Rainy"
+ Rechts: "Harimo kugwa imvura"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 142
+ type: timed_challenge
+ title: "Lightning Round: Weer"
+ time_limit_seconds: 30
+ Vraag_count: 5
+ Vraag:
+ - Vraag: "Sun"
+ Antwoord: "Izuba"
+ - Vraag: "Rain"
+ Antwoord: "Imvura"
+ - Vraag: "Wind"
+ Antwoord: "Umuyaga"
+ - Vraag: "Hot"
+ Antwoord: "Harashyushye"
+ - Vraag: "Cold"
+ Antwoord: "Bikonje"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Vraag: "Flashcards"
+ Flashcards:
+ - front: "Ibihe by\'ikirere"
+ back: "Weer"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Izuba"
+ back: "Sun"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Imvura"
+ back: "Rain"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Urubura"
+ back: "Snow"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Igicu"
+ back: "Cloud"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuyaga"
+ back: "Wind"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuyaga ukomeye"
+ back: "Storm"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkubi y\'umuyaga"
+ back: "Thunder"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuriro w\'amashanyarazi"
+ back: "Lightning"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Harashyushye"
+ back: "Hot"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

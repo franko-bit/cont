@@ -1,0 +1,907 @@
+lesson:
+ name: "Rangi"
+ description: "Jifunze basic Rangi katika Kinyarwanda na Wanyama na objects"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Rangi ONLY (Safe kwa single words)
+ - id: 1
+ type: translation
+ Swali: "Unasemaje 'Nyekundu' kwa Kinyarwanda?"
+ Jibu: "Umutuku"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Swali: "Unasemaje 'Bluu' kwa Kinyarwanda?"
+ Jibu: "Ubururu"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Swali: "Unasemaje 'Kijani' kwa Kinyarwanda?"
+ Jibu: "Icyatsi"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Swali: "Unasemaje 'Njano' kwa Kinyarwanda?"
+ Jibu: "Umuhondo"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Swali: "Unasemaje 'Nyeusi' kwa Kinyarwanda?"
+ Jibu: "Umukara"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Swali: "Unasemaje 'Nyeupe' kwa Kinyarwanda?"
+ Jibu: "Umweru"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Swali: "Unasemaje 'Rangi ya machungwa' kwa Kinyarwanda?"
+ Jibu: "Rangi ya machungwa"
+ xp_reward: 10
+
+ # Translation - Color Objects (Noun + Color phrases - single items, si full Sentensi)
+ - id: 8
+ type: translation
+ Swali: "Unasemaje 'Nyekundu apple' kwa Kinyarwanda?"
+ Jibu: "Pome itukura"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Swali: "Unasemaje 'Bluu sky' kwa Kinyarwanda?"
+ Jibu: "Ijuru ry'ubururu"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Swali: "Unasemaje 'Kijani grass' kwa Kinyarwanda?"
+ Jibu: "Ibyatsi by'icyatsi"
+ xp_reward: 15
+
+ - id: 11
+ type: translation
+ Swali: "Unasemaje 'Njano sun' kwa Kinyarwanda?"
+ Jibu: "Izuba ry'umuhondo"
+ xp_reward: 15
+
+ - id: 12
+ type: translation
+ Swali: "Unasemaje 'Nyeusi Paka' kwa Kinyarwanda?"
+ Jibu: "Injangwe y'umukara"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Swali: "Unasemaje 'Nyeupe Ng'ombe' kwa Kinyarwanda?"
+ Jibu: "Inka y'umweru"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Swali: "Unasemaje 'Rangi ya machungwa carrot' kwa Kinyarwanda?"
+ Jibu: "Karoti ya Rangi ya machungwa"
+ xp_reward: 15
+
+ # Translation - Rangi na Wanyama (Noun + Color phrases)
+ - id: 15
+ type: translation
+ Swali: "Unasemaje 'Nyekundu Ndege' kwa Kinyarwanda?"
+ Jibu: "Inyoni itukura"
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ Swali: "Unasemaje 'Kijani Chura' kwa Kinyarwanda?"
+ Jibu: "Igikeri cy'icyatsi"
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Swali: "Unasemaje 'Bluu Samaki' kwa Kinyarwanda?"
+ Jibu: "Ifi y'ubururu"
+ xp_reward: 15
+
+ - id: 18
+ type: translation
+ Swali: "Unasemaje 'Njano Kuku' kwa Kinyarwanda?"
+ Jibu: "Inkoko y'umuhondo"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Swali: "Unasemaje 'Nyeusi Sungura' kwa Kinyarwanda?"
+ Jibu: "Urukwavu rw'umukara"
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Swali: "Unasemaje 'Nyeupe Mbuzi' kwa Kinyarwanda?"
+ Jibu: "Ihene y'umweru"
+ xp_reward: 15
+
+ # Translation - Numbers na Rangi (Number + Noun + Color phrases)
+ - id: 21
+ type: translation
+ Swali: "Unasemaje 'One Nyekundu apple' kwa Kinyarwanda?"
+ Jibu: "Pome imwe itukura"
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Swali: "Unasemaje 'Two Bluu Ndege' kwa Kinyarwanda?"
+ Jibu: "Inyoni ebyiri z'ubururu"
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Swali: "Unasemaje 'Three Njano Kuku' kwa Kinyarwanda?"
+ Jibu: "Inkoko eshatu z'umuhondo"
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ Swali: "Unasemaje 'Four Nyeusi Paka' kwa Kinyarwanda?"
+ Jibu: "Injangwe enye z'umukara"
+ xp_reward: 15
+
+ - id: 25
+ type: translation
+ Swali: "Unasemaje 'Five Nyeupe Ng'ombe' kwa Kinyarwanda?"
+ Jibu: "Inka eshanu z'umweru"
+ xp_reward: 15
+
+ # Translation - Color Swali (Phrases - safe moja they ni fixed expressions)
+ - id: 26
+ type: translation
+ Swali: "Unauliza vipi 'What color ni ya apple?' kwa Kinyarwanda?"
+ Jibu: "Pome ni ibara ki?"
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Swali: "Unauliza vipi 'What color ni ya sky?' kwa Kinyarwanda?"
+ Jibu: "Ijuru ni ibara ki?"
+ xp_reward: 15
+
+ - id: 28
+ type: translation
+ Swali: "Unauliza vipi 'ni ya Paka Nyeusi?' kwa Kinyarwanda?"
+ Jibu: "Injangwe ni umukara?"
+ xp_reward: 15
+
+ # hapana DIRECT TRANSLATION kwa FULL Sentensi au PARAGRAPHS
+ # Instead, we use Sentensi building, Tingiza, na word bank exercises
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Umutuku' kwa sentensi hii?"
+ options:
+ - "Bluu"
+ - "Nyekundu"
+ - "Kijani"
+ - "Njano"
+ Jibu: "Nyekundu"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Ubururu' kwa sentensi hii?"
+ options:
+ - "Nyekundu"
+ - "Bluu"
+ - "Nyeusi"
+ - "Nyeupe"
+ Jibu: "Bluu"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Icyatsi' kwa sentensi hii?"
+ options:
+ - "Kijani"
+ - "Njano"
+ - "Rangi ya machungwa"
+ - "Nyekundu"
+ Jibu: "Kijani"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Umuhondo' kwa sentensi hii?"
+ options:
+ - "Bluu"
+ - "Nyekundu"
+ - "Njano"
+ - "Nyeupe"
+ Jibu: "Njano"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Umukara' kwa sentensi hii?"
+ options:
+ - "Nyeupe"
+ - "Nyeusi"
+ - "Kijani"
+ - "Rangi ya machungwa"
+ Jibu: "Nyeusi"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Umweru' kwa sentensi hii?"
+ options:
+ - "Nyeusi"
+ - "Nyeupe"
+ - "Nyekundu"
+ - "Bluu"
+ Jibu: "Nyeupe"
+ xp_reward: 15
+
+ - id: 35
+ type: multiple_choice
+ Swali: "Inamaanisha nini 'Inyoni itukura' kwa sentensi hii?"
+ options:
+ - "Bluu Ndege"
+ - "Nyekundu Ndege"
+ - "Kijani Ndege"
+ - "Njano Ndege"
+ Jibu: "Nyekundu Ndege"
+ xp_reward: 15
+
+ # 3. Sikiliza na Type (Dictation) - Safe because audio ni provided
+ - id: 36
+ type: listen_na_type
+ Swali: "Sikiliza na type ya color"
+ tts_text: "Umutuku"
+ Jibu: "Umutuku"
+ translation: "Nyekundu"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_na_type
+ Swali: "Sikiliza na type ya color"
+ tts_text: "Ubururu"
+ Jibu: "Ubururu"
+ translation: "Bluu"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ tts_text: "Pome ni umutuku"
+ Jibu: "Pome ni umutuku"
+ translation: "ya apple ni Nyekundu"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ tts_text: "Ijuru ni ubururu"
+ Jibu: "Ijuru ni ubururu"
+ translation: "ya sky ni Bluu"
+ xp_reward: 25
+
+ - id: 40
+ type: listen_na_type
+ Swali: "Sikiliza na type ya phrase"
+ tts_text: "Inyoni itukura iraguruka"
+ Jibu: "Inyoni itukura iraguruka"
+ translation: "ya Nyekundu Ndege flies"
+ xp_reward: 25
+
+ # 4. Sikiliza na Chagua
+ - id: 41
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct color"
+ tts_text: "Umutuku"
+ options:
+ - "Nyekundu"
+ - "Bluu"
+ - "Kijani"
+ Jibu: "Nyekundu"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct color"
+ tts_text: "Umuhondo"
+ options:
+ - "Nyekundu"
+ - "Njano"
+ - "Nyeusi"
+ Jibu: "Njano"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_na_choose
+ Swali: "Sikiliza na Chagua ya correct phrase"
+ tts_text: "Pome ni umutuku"
+ options:
+ - "ya apple ni Nyekundu"
+ - "ya sky ni Bluu"
+ - "ya sun ni Njano"
+ Jibu: "ya apple ni Nyekundu"
+ xp_reward: 20
+
+ # 5. Repeat / Ongea Exercise
+ - id: 44
+ type: Ongea
+ Swali: "Say hii color"
+ prompt: "Umutuku"
+ translation: "Nyekundu"
+ xp_reward: 15
+
+ - id: 45
+ type: Ongea
+ Swali: "Say hii color"
+ prompt: "Ubururu"
+ translation: "Bluu"
+ xp_reward: 15
+
+ - id: 46
+ type: Ongea
+ Swali: "Say hii phrase"
+ prompt: "Pome itukura"
+ translation: "Nyekundu apple"
+ xp_reward: 18
+
+ - id: 47
+ type: Ongea
+ Swali: "Say hii Sentensi"
+ prompt: "Pome ni umutuku"
+ translation: "ya apple ni Nyekundu"
+ xp_reward: 20
+
+ - id: 48
+ type: Ongea
+ Swali: "Say hii Sentensi"
+ prompt: "Ijuru ni ubururu"
+ translation: "ya sky ni Bluu"
+ xp_reward: 20
+
+ # 6. Word Bank Sentensi Building - PIECES PROVIDED, hapana TRANSLATION NEEDED
+ - id: 49
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya apple ni Nyekundu'"
+ word_bank: ["Pome", "ni", "umutuku", "Ijuru", "ubururu", "ni"]
+ correct_answer: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 50
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya sky ni Bluu'"
+ word_bank: ["Ijuru", "ni", "ubururu", "Pome", "umutuku", "ni"]
+ correct_answer: ["Ijuru", "ni", "ubururu"]
+ xp_reward: 20
+
+ - id: 51
+ type: word_bank
+ Swali: "Build ya Kinyarwanda phrase kwa 'Nyekundu Ndege'"
+ word_bank: ["Inyoni", "itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: ["Inyoni", "itukura"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Swali: "Build ya Kinyarwanda phrase kwa 'Bluu Samaki'"
+ word_bank: ["Ifi", "y'ubururu", "itukura", "y'umuhondo"]
+ correct_answer: ["Ifi", "y'ubururu"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya Nyekundu Ndege flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Ifi", "iroga", "hejuru"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ xp_reward: 25
+
+ - id: 54
+ type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya Kijani Chura jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ xp_reward: 25
+
+ # 7. Sentensi Scramble - PIECES PROVIDED
+ - id: 55
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Kinyarwanda Sentensi"
+ scrambled_words: ["ni", "Pome", "umutuku"]
+ correct_sentence: "Pome ni umutuku"
+ translation: "ya apple ni Nyekundu"
+ xp_reward: 20
+
+ - id: 56
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Kinyarwanda Sentensi"
+ scrambled_words: ["ni", "Ijuru", "ubururu"]
+ correct_sentence: "Ijuru ni ubururu"
+ translation: "ya sky ni Bluu"
+ xp_reward: 20
+
+ - id: 57
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Kinyarwanda Sentensi"
+ scrambled_words: ["itukura", "Inyoni", "iraguruka"]
+ correct_sentence: "Inyoni itukura iraguruka"
+ translation: "ya Nyekundu Ndege flies"
+ xp_reward: 25
+
+ - id: 58
+ type: sentence_scramble
+ Swali: "Arrange these words kwa form moja correct Kinyarwanda Sentensi"
+ scrambled_words: ["cy'icyatsi", "Igikeri", "kirasimbuka"]
+ correct_sentence: "Igikeri cy'icyatsi kirasimbuka"
+ translation: "ya Kijani Chura jumps"
+ xp_reward: 25
+
+ # 8. Fill katika ya Blank - Chagua FROM OPTIONS
+ - id: 59
+ type: fill_blank
+ Swali: "Chagua ya correct word kwa complete ya Sentensi"
+ text_na_blank: "Pome ni ___."
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "ya apple ni Nyekundu"
+ xp_reward: 15
+
+ - id: 60
+ type: fill_blank
+ Swali: "Chagua ya correct word kwa complete ya Sentensi"
+ text_na_blank: "Ijuru ni ___."
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "ya sky ni Bluu"
+ xp_reward: 15
+
+ - id: 61
+ type: fill_blank
+ Swali: "Chagua ya correct word kwa complete ya Sentensi"
+ text_na_blank: "Ibyatsi ni ___."
+ options: ["icyatsi", "ubururu", "umutuku"]
+ correct_answer: "icyatsi"
+ translation: "ya grass ni Kijani"
+ xp_reward: 15
+
+ - id: 62
+ type: fill_blank
+ Swali: "Chagua ya correct word kwa complete ya Sentensi"
+ text_na_blank: "Izuba ni ___."
+ options: ["umuhondo", "umutuku", "ubururu"]
+ correct_answer: "umuhondo"
+ translation: "ya sun ni Njano"
+ xp_reward: 15
+
+ - id: 63
+ type: fill_blank
+ Swali: "Chagua ya correct word kwa complete ya phrase"
+ text_na_blank: "Inyoni ___ iraguruka."
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "ya Nyekundu Ndege flies"
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 64
+ type: picture_word
+ Swali: "What color ni hii?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Icyatsi", "Umuhondo"]
+ correct_answer: "Umutuku"
+ xp_reward: 10
+
+ - id: 65
+ type: picture_word
+ Swali: "What color ni hii?"
+ image_url: "https://images.unsplash.com/photo-1588421357574-87938a86fa28?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umukara", "Umweru"]
+ correct_answer: "Ubururu"
+ xp_reward: 10
+
+ - id: 66
+ type: picture_word
+ Swali: "What color ni hii?"
+ image_url: "https://images.unsplash.com/photo-1601370690183-1c7796ecec61?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umuhondo", "Rangi ya machungwa", "Icyatsi", "Ubururu"]
+ correct_answer: "Icyatsi"
+ xp_reward: 10
+
+ - id: 67
+ type: picture_word
+ Swali: "What color ni hii?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510329-8a4035a7238f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Umukara", "Umweru"]
+ correct_answer: "Umuhondo"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Swali: "What color ni hii?"
+ image_url: "https://images.unsplash.com/photo-1569470451072-68314f596aec?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umweru", "Ubururu", "Umukara", "Rangi ya machungwa"]
+ correct_answer: "Umukara"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Swali: "What color ni hii?"
+ image_url: "https://images.unsplash.com/photo-1588587786374-ab73fa246083?q=80&w=1030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umukara", "Umweru", "Icyatsi", "Umutuku"]
+ correct_answer: "Umweru"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Swali: "What color ni hii?"
+ image_url: "https://images.unsplash.com/photo-1530982011887-3cc11cc85693?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Umuhondo", "Rangi ya machungwa", "Ubururu"]
+ correct_answer: "Rangi ya machungwa"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Swali: "What color ni hii apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ options: ["Umutuku", "Icyatsi", "Umuhondo", "Rangi ya machungwa"]
+ correct_answer: "Umutuku"
+ xp_reward: 15
+
+ - id: 72
+ type: picture_word
+ Swali: "What color ni hii Ndege?"
+ image_url: "https://images.unsplash.com/photo-1506220926022-cc5c12acdb35?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Umutuku", "Ubururu", "Umuhondo", "Icyatsi"]
+ correct_answer: "Ubururu"
+ xp_reward: 15
+
+ # 10. Word Tingiza (Pairing)
+ - id: 73
+ type: Tingiza
+ Swali: "Tingiza ya Rangi"
+ pairs:
+ - Kushoto: "Nyekundu"
+ Kulia: "Umutuku"
+ - Kushoto: "Bluu"
+ Kulia: "Ubururu"
+ - Kushoto: "Kijani"
+ Kulia: "Icyatsi"
+ - Kushoto: "Njano"
+ Kulia: "Umuhondo"
+ - Kushoto: "Nyeusi"
+ Kulia: "Umukara"
+ - Kushoto: "Nyeupe"
+ Kulia: "Umweru"
+ - Kushoto: "Rangi ya machungwa"
+ Kulia: "Rangi ya machungwa"
+ xp_reward: 25
+
+ - id: 74
+ type: Tingiza
+ Swali: "Tingiza ya colored objects"
+ pairs:
+ - Kushoto: "Nyekundu apple"
+ Kulia: "Pome itukura"
+ - Kushoto: "Bluu sky"
+ Kulia: "Ijuru ry'ubururu"
+ - Kushoto: "Kijani grass"
+ Kulia: "Ibyatsi by'icyatsi"
+ - Kushoto: "Njano sun"
+ Kulia: "Izuba ry'umuhondo"
+ - Kushoto: "Nyeusi Paka"
+ Kulia: "Injangwe y'umukara"
+ - Kushoto: "Nyeupe Ng'ombe"
+ Kulia: "Inka y'umweru"
+ xp_reward: 25
+
+ - id: 75
+ type: Tingiza
+ Swali: "Tingiza ya colored Wanyama"
+ pairs:
+ - Kushoto: "Nyekundu Ndege"
+ Kulia: "Inyoni itukura"
+ - Kushoto: "Kijani Chura"
+ Kulia: "Igikeri cy'icyatsi"
+ - Kushoto: "Bluu Samaki"
+ Kulia: "Ifi y'ubururu"
+ - Kushoto: "Njano Kuku"
+ Kulia: "Inkoko y'umuhondo"
+ - Kushoto: "Nyeusi Sungura"
+ Kulia: "Urukwavu rw'umukara"
+ - Kushoto: "Nyeupe Mbuzi"
+ Kulia: "Ihene y'umweru"
+ xp_reward: 25
+
+ # 11. Chagua Missing Word
+ - id: 80
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Pome ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "icyatsi"]
+ correct_answer: "umutuku"
+ translation: "ya apple ni Nyekundu"
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Ijuru ni ___."
+ missing_word_position: 3
+ options: ["umutuku", "ubururu", "umuhondo"]
+ correct_answer: "ubururu"
+ translation: "ya sky ni Bluu"
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Swali: "Chagua ya missing word"
+ Sentensi: "Inyoni ___ iraguruka."
+ missing_word_position: 2
+ options: ["itukura", "y'ubururu", "y'umuhondo"]
+ correct_answer: "itukura"
+ translation: "ya Nyekundu Ndege flies"
+ xp_reward: 18
+
+ # 12. Soma na Jibu - Swali katika English, Jibu based juu Kinyarwanda text
+ - id: 83
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Pome ni umutuku. Ijuru ni ubururu. Ibyatsi ni icyatsi."
+ Swali: "What color ni ya apple?"
+ options: ["Nyekundu", "Bluu", "Kijani", "Njano"]
+ correct_answer: "Nyekundu"
+ xp_reward: 20
+
+ - id: 84
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Inyoni itukura iraguruka. Igikeri ki cyatsi kirasimbuka. Ifi yubururu iroga."
+ Swali: "Inamaanisha nini ya Nyekundu Ndege do?"
+ options: ["Swims", "Jumps", "Flies", "Runs"]
+ correct_answer: "Flies"
+ xp_reward: 25
+
+ - id: 85
+ type: read_answer
+ Swali: "Soma ya text na Jibu ya Swali"
+ text: "Injangwe ni umukara. Inka ni umweru. Inkoko ni umuhondo."
+ Swali: "What color ni ya Ng'ombe?"
+ options: ["Nyeusi", "Nyeupe", "Njano", "Nyekundu"]
+ correct_answer: "Nyeupe"
+ xp_reward: 20
+
+ # 13. True / False
+ - id: 86
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Pome ni umutuku."
+ translation: "ya apple ni Nyekundu"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 87
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Ijuru ni icyatsi."
+ translation: "ya sky ni Kijani"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 88
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Inka ni umweru."
+ translation: "ya Ng'ombe ni Nyeupe"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 89
+ type: true_false
+ Swali: "ni hii statement true au false?"
+ statement: "Inyoni itukura iraguruka."
+ translation: "ya Nyekundu Ndege flies"
+ correct_answer: true
+ xp_reward: 10
+
+ # 14. Conversation Exercise - Build responses from pieces
+ - id: 90
+ type: conversation
+ Swali: "Respond kwa ya Swali by building moja Sentensi"
+ bot_message: "Iri pome ni ibara ki?"
+ translation: "What color ni hii apple?"
+ image_url: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-apple"
+ word_bank: ["Pome", "ni", "umutuku", "ni", "ubururu", "ni"]
+ correct_response: ["Pome", "ni", "umutuku"]
+ xp_reward: 20
+
+ - id: 91
+ type: conversation
+ Swali: "Respond kwa ya Swali"
+ bot_message: "Ijuru ni ibara ki?"
+ translation: "What color ni ya sky?"
+ options:
+ - "Umutuku"
+ - "Ubururu"
+ - "Icyatsi"
+ correct_response: "Ubururu"
+ xp_reward: 15
+
+ - id: 92
+ type: conversation
+ Swali: "Respond kwa ya Swali"
+ bot_message: "Injangwe ni umukara?"
+ translation: "ni ya Paka Nyeusi?"
+ options:
+ - "Yego, ni umukara"
+ - "Oya, ni umweru"
+ - "Oya, ni umutuku"
+ correct_response: "Yego, ni umukara"
+ xp_reward: 15
+
+ # 15. Story Exercise - Build Sentensi from pieces
+ - id: 93
+ type: story
+ title: "Rangi katika ya Field"
+ story_intro: "Soma about ya colorful Wanyama. Then build ya Sentensi."
+ story_segments:
+ - text: "There ni moja Nyekundu Ndege katika ya sky."
+ image: "https://images.unsplash.com/flagged/photo-1593005510509-d05b264f1c9c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D-bird"
+ - text: "ya Ndege flies above."
+ - text: "There ni moja Kijani Chura near ya Maji."
+ - text: "ya Chura jumps."
+ - text: "There ni moja Bluu Samaki katika ya Maji."
+ - text: "ya Samaki swims."
+ exercises:
+ - type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya Nyekundu Ndege flies'"
+ word_bank: ["Inyoni", "itukura", "iraguruka", "Igikeri", "cy'icyatsi", "kirasimbuka"]
+ correct_answer: ["Inyoni", "itukura", "iraguruka"]
+ - type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya Kijani Chura jumps'"
+ word_bank: ["Igikeri", "cy'icyatsi", "kirasimbuka", "Ifi", "y'ubururu", "iroga"]
+ correct_answer: ["Igikeri", "cy'icyatsi", "kirasimbuka"]
+ - type: word_bank
+ Swali: "Build ya Kinyarwanda Sentensi kwa 'ya Bluu Samaki swims'"
+ word_bank: ["Ifi", "y'ubururu", "iroga", "Inyoni", "itukura", "iraguruka"]
+ correct_answer: ["Ifi", "y'ubururu", "iroga"]
+ xp_reward: 40
+
+ # 16. Pronunciation Check
+ - id: 94
+ type: pronunciation
+ Swali: "Say ya color"
+ prompt: "Umutuku"
+ translation: "Nyekundu"
+ xp_reward: 15
+
+ - id: 95
+ type: pronunciation
+ Swali: "Say ya color"
+ prompt: "Agasumbashyamba" # Twiga - testing color knowledge katika context
+ translation: "Twiga (they ni Njano na Brown)"
+ xp_reward: 20
+
+ - id: 96
+ type: pronunciation
+ Swali: "Say ya phrase"
+ prompt: "Pome itukura"
+ translation: "Nyekundu apple"
+ xp_reward: 18
+
+ # 17. Identify Correct Meaning
+ - id: 97
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'umutuku' mean katika hii Sentensi?"
+ context_sentence: "Pome ni umutuku."
+ word: "umutuku"
+ options: ["Nyekundu", "Bluu", "Kijani", "Njano"]
+ correct_answer: "Nyekundu"
+ xp_reward: 15
+
+ - id: 98
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'itukura' mean katika hii Sentensi?"
+ context_sentence: "Inyoni itukura iraguruka."
+ word: "itukura"
+ options: ["Nyekundu", "Bluu", "Kijani", "Njano"]
+ correct_answer: "Nyekundu"
+ note: "itukura ni ya adjective form ya umutuku when describing moja noun"
+ xp_reward: 18
+
+ - id: 99
+ type: identify_meaning
+ Swali: "Inamaanisha nini 'cy'icyatsi' mean katika hii Sentensi?"
+ context_sentence: "Igikeri cy'icyatsi kirasimbuka."
+ word: "cy'icyatsi"
+ options: ["Nyekundu", "Bluu", "Kijani", "Njano"]
+ correct_answer: "Kijani"
+ xp_reward: 18
+
+ # 18. Speed Tingiza
+ - id: 100
+ type: speed_Tingiza
+ title: "Tingiza Madness: Rangi"
+ time_limit_seconds: 45
+ pairs:
+ - Kushoto: "Nyekundu"
+ Kulia: "Umutuku"
+ - Kushoto: "Bluu"
+ Kulia: "Ubururu"
+ - Kushoto: "Kijani"
+ Kulia: "Icyatsi"
+ - Kushoto: "Njano"
+ Kulia: "Umuhondo"
+ - Kushoto: "Nyeusi"
+ Kulia: "Umukara"
+ - Kushoto: "Nyeupe"
+ Kulia: "Umweru"
+ - Kushoto: "Rangi ya machungwa"
+ Kulia: "Rangi ya machungwa"
+ xp_reward: 30
+
+ # 19. Timed Challenges
+ - id: 101
+ type: timed_challenge
+ title: "Lightning Round: Rangi"
+ time_limit_seconds: 30
+ Swali_count: 5
+ Swali:
+ - Swali: "Nyekundu"
+ Jibu: "Umutuku"
+ - Swali: "Bluu"
+ Jibu: "Ubururu"
+ - Swali: "Kijani"
+ Jibu: "Icyatsi"
+ - Swali: "Njano"
+ Jibu: "Umuhondo"
+ - Swali: "Nyeusi"
+ Jibu: "Umukara"
+ xp_reward: 35
+
+# Kadi za kujifunzia
+ - id: 111
+ type: Kadi za kujifunzia
+ Swali: "Kadi za kujifunzia"
+ Kadi za kujifunzia:
+ - front: "Umutuku"
+ back: "Nyekundu"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ubururu"
+ back: "Bluu"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyatsi"
+ back: "Kijani"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Umuhondo"
+ back: "Njano"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umukara"
+ back: "Nyeusi"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umweru"
+ back: "Nyeupe"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Rangi ya machungwa"
+ back: "Rangi ya machungwa"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Pome itukura"
+ back: "Nyekundu apple"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Ijuru ry\'ubururu"
+ back: "Bluu sky"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ibyatsi by\'icyatsi"
+ back: "Kijani grass"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

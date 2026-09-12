@@ -1,0 +1,1097 @@
+lesson:
+ name: "Pozdravy - Amakuru"
+ description: "Učte se common Pozdravy and expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Pozdravy ONLY (Safe for single words/phrases)
+ - id: 1
+ type: translation
+ Otázka: "Jak se řekne 'Ahoj' v kinyarwandštině?"
+ Odpověď: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Otázka: "Jak se řekne 'Dobr? r?no' v kinyarwandštině?"
+ Odpověď: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Otázka: "Jak se řekne 'Good afternoon / Good evening' v kinyarwandštině?"
+ Odpověď: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Otázka: "Jak se řekne 'Dobrou noc' v kinyarwandštině?"
+ Odpověď: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Otázka: "Jak se zeptáte 'Jak se m?te?' v kinyarwandštině?"
+ Odpověď: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Otázka: "Jak se řekne 'I'm fine' v kinyarwandštině?"
+ Odpověď: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Otázka: "Jak se řekne 'Welcome' v kinyarwandštině?"
+ Odpověď: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Otázka: "Jak se řekne 'See you later' v kinyarwandštině?"
+ Odpověď: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Otázka: "Jak se řekne 'Na shledanou' v kinyarwandštině?"
+ Odpověď: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Otázka: "Jak se řekne 'Have a nice day' v kinyarwandštině?"
+ Odpověď: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Otázka: "Jak se řekne 'Take care' v kinyarwandštině?"
+ Odpověď: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Otázka: "Jak se řekne 'Long time no see' v kinyarwandštině?"
+ Odpověď: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Otázka: "Jak se zeptáte 'What's up?' v kinyarwandštině?"
+ Odpověď: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Otázka: "Jak se řekne 'Nice to meet you' v kinyarwandštině?"
+ Odpověď: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Pozdravy with Rodina Members (Simple combinations)
+ - id: 15
+ type: translation
+ Otázka: "Jak se řekne 'Ahoj, mother!' v kinyarwandštině?"
+ Odpověď: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ Otázka: "Jak se řekne 'Dobr? r?no, father!' v kinyarwandštině?"
+ Odpověď: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ Otázka: "Jak se řekne 'Dobrou noc, my child!' v kinyarwandštině?"
+ Odpověď: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common Otázka (Fixed expressions)
+ - id: 18
+ type: translation
+ Otázka: "Jak se zeptáte 'How are you today?' v kinyarwandštině?"
+ Odpověď: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Otázka: "Jak se řekne 'I'm fine, thank you' v kinyarwandštině?"
+ Odpověď: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Otázka: "Jak se zeptáte 'What's up with you today?' v kinyarwandštině?"
+ Odpověď: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # NO DIRECT TRANSLATION FOR COMPLEX DIALOGUES OR PARAGRAPHS
+ # Instead, we use Věta building, Spojte, and Slovo bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ Otázka: "Co znamená 'Muraho' v této větě?"
+ options:
+ - "Na shledanou"
+ - "Ahoj"
+ - "Dobr? r?no"
+ - "Dobrou noc"
+ Odpověď: "Ahoj"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ Otázka: "Co znamená 'Mwaramutse' v této větě?"
+ options:
+ - "Good evening"
+ - "Dobr? r?no"
+ - "Dobrou noc"
+ - "Na shledanou"
+ Odpověď: "Dobr? r?no"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ Otázka: "Co znamená 'Amakuru' v této větě?"
+ options:
+ - "Na shledanou"
+ - "Welcome"
+ - "Jak se m?te?"
+ - "See you later"
+ Odpověď: "Jak se m?te?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ Otázka: "Co znamená 'Ni meza' v této větě?"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ Odpověď: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Otázka: "Co znamená 'Murabeho' v této větě?"
+ options:
+ - "Ahoj"
+ - "Welcome"
+ - "Na shledanou"
+ - "See you later"
+ Odpověď: "Na shledanou"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Otázka: "Co znamená 'Tuzasubira' v této větě?"
+ options:
+ - "Na shledanou"
+ - "See you later"
+ - "Welcome back"
+ - "Take care"
+ Odpověď: "See you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Otázka: "Co znamená 'Nishimiye kukubona' v této větě?"
+ options:
+ - "Dobr? r?no"
+ - "Nice to meet you"
+ - "Welcome"
+ - "Take care"
+ Odpověď: "Nice to meet you"
+ xp_reward: 18
+
+ # 3. Poslouchejte and Type (Dictation) - Safe because audio is provided
+ - id: 28
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the greeting"
+ tts_text: "Muraho"
+ Odpověď: "Muraho"
+ translation: "Ahoj"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the greeting"
+ tts_text: "Mwaramutse"
+ Odpověď: "Mwaramutse"
+ translation: "Dobr? r?no"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the greeting"
+ tts_text: "Mwiriwe"
+ Odpověď: "Mwiriwe"
+ translation: "Good afternoon / Good evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ tts_text: "Ijoro ryiza"
+ Odpověď: "Ijoro ryiza"
+ translation: "Dobrou noc"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the Otázka"
+ tts_text: "Amakuru"
+ Odpověď: "Amakuru"
+ translation: "Jak se m?te?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the response"
+ tts_text: "Ni meza"
+ Odpověď: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ tts_text: "Murakaza neza"
+ Odpověď: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ tts_text: "Tuzasubira"
+ Odpověď: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ tts_text: "Murabeho"
+ Odpověď: "Murabeho"
+ translation: "Na shledanou"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ Odpověď: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ Otázka: "Poslouchejte and type the phrase"
+ tts_text: "Nishimiye kukubona"
+ Odpověď: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 25
+
+ # 4. Poslouchejte and Vyberte
+ - id: 39
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně greeting"
+ tts_text: "Muraho"
+ options:
+ - "Na shledanou"
+ - "Ahoj"
+ - "Dobr? r?no"
+ Odpověď: "Ahoj"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "Good evening"
+ - "Dobr? r?no"
+ - "Dobrou noc"
+ Odpověď: "Dobr? r?no"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "Dobr? r?no"
+ - "Good afternoon/evening"
+ - "Dobrou noc"
+ Odpověď: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně meaning"
+ tts_text: "Amakuru"
+ options:
+ - "Na shledanou"
+ - "Jak se m?te?"
+ - "Welcome"
+ Odpověď: "Jak se m?te?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ Odpověď: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_and_choose
+ Otázka: "Poslouchejte and Vyberte the Správně farewell"
+ tts_text: "Murabeho"
+ options:
+ - "Ahoj"
+ - "Na shledanou"
+ - "See you later"
+ Odpověď: "Na shledanou"
+ xp_reward: 15
+
+ # 5. Repeat / Mluvte Exercise
+ - id: 45
+ type: Mluvte
+ Otázka: "Say this greeting"
+ prompt: "Muraho"
+ translation: "Ahoj"
+ xp_reward: 15
+
+ - id: 46
+ type: Mluvte
+ Otázka: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Dobr? r?no"
+ xp_reward: 15
+
+ - id: 47
+ type: Mluvte
+ Otázka: "Say this greeting"
+ prompt: "Mwiriwe"
+ translation: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: Mluvte
+ Otázka: "Řekněte tuto větu"
+ prompt: "Ijoro ryiza"
+ translation: "Dobrou noc"
+ xp_reward: 18
+
+ - id: 49
+ type: Mluvte
+ Otázka: "Ask 'Jak se m?te?' in Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "Jak se m?te?"
+ xp_reward: 15
+
+ - id: 50
+ type: Mluvte
+ Otázka: "Say 'I'm fine' in Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: Mluvte
+ Otázka: "Say 'Welcome' in Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: Mluvte
+ Otázka: "Say 'See you later' in Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 18
+
+ - id: 53
+ type: Mluvte
+ Otázka: "Say 'Na shledanou' in Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "Na shledanou"
+ xp_reward: 15
+
+ - id: 54
+ type: Mluvte
+ Otázka: "Say 'Long time no see' in Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 22
+
+ - id: 55
+ type: Mluvte
+ Otázka: "Say 'Nice to meet you' in Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: Mluvte
+ Otázka: "Say 'Ahoj, mother!' in Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "Ahoj, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: Mluvte
+ Otázka: "Say 'Dobr? r?no, father!' in Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "Dobr? r?no, father!"
+ xp_reward: 18
+
+ # 6. Slovo Bank Věta Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ Otázka: "Build the greeting for 'Ahoj, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Otázka: "Build the greeting for 'Dobr? r?no, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ Otázka: "Build the greeting for 'Dobrou noc, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ Otázka: "Build the Otázka 'How are you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ Otázka: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ Otázka: "Build the farewell 'See you later at Škola'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Otázka: "Build the farewell 'Na shledanou, see you Zítra'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ Otázka: "Build the well-wish 'Have a nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Otázka: "Build the phrase 'Take care on your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ Otázka: "Build the greeting 'Long time no see, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Otázka: "Build the Otázka 'What's up with you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ Otázka: "Build the phrase 'Nice to meet you at the party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. Věta Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "Ahoj, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "Dobr? r?no, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ Otázka: "Uspořádejte tato slova do správné fráze"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "Dobrou noc, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Otázka"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "See you later at Škola."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "Na shledanou, see you Zítra."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have a nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ Otázka: "Uspořádejte tato slova do správné fráze"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care on your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time no see, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ Otázka: "Arrange these words to form a Správně Otázka"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up with you today?"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Vyberte FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ Otázka: "Complete the greeting"
+ text_with_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "Ahoj, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Otázka: "Complete the greeting"
+ text_with_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "Dobr? r?no, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ Otázka: "Dopl?te fr?zi"
+ text_with_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "Dobrou noc, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Otázka: "Complete the Otázka"
+ text_with_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Otázka: "Complete the response"
+ text_with_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Otázka: "Complete the farewell"
+ text_with_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "See you later at Škola."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ Otázka: "Complete the farewell"
+ text_with_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "Na shledanou, see you Zítra."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ Otázka: "Complete the well-wish"
+ text_with_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ Otázka: "Dopl?te fr?zi"
+ text_with_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care on your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ Otázka: "Complete the greeting"
+ text_with_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time no see, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ Otázka: "Complete the Otázka"
+ text_with_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up with you today?"
+ xp_reward: 18
+
+
+
+ # 9. Slovo Spojte (Pairing)
+ - id: 98
+ type: Spojte
+ Otázka: "Spojte the Pozdravy to their meanings"
+ pairs:
+ - Vlevo: "Muraho"
+ Vpravo: "Ahoj"
+ - Vlevo: "Mwaramutse"
+ Vpravo: "Dobr? r?no"
+ - Vlevo: "Mwiriwe"
+ Vpravo: "Good afternoon/evening"
+ - Vlevo: "Ijoro ryiza"
+ Vpravo: "Dobrou noc"
+ - Vlevo: "Amakuru"
+ Vpravo: "Jak se m?te?"
+ - Vlevo: "Ni meza"
+ Vpravo: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: Spojte
+ Otázka: "Spojte the farewells and well-wishes"
+ pairs:
+ - Vlevo: "Murabeho"
+ Vpravo: "Na shledanou"
+ - Vlevo: "Tuzasubira"
+ Vpravo: "See you later"
+ - Vlevo: "Umunsi mwiza"
+ Vpravo: "Have a nice day"
+ - Vlevo: "Wirinde"
+ Vpravo: "Take care"
+ - Vlevo: "Hashize igihe tutabonanye"
+ Vpravo: "Long time no see"
+ - Vlevo: "Nishimiye kukubona"
+ Vpravo: "Nice to meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: Spojte
+ Otázka: "Spojte the phrases with Rodina members"
+ pairs:
+ - Vlevo: "Muraho, Mama!"
+ Vpravo: "Ahoj, mother!"
+ - Vlevo: "Mwaramutse, Data!"
+ Vpravo: "Dobr? r?no, father!"
+ - Vlevo: "Ijoro ryiza, mwana wanjye!"
+ Vpravo: "Dobrou noc, my child!"
+ - Vlevo: "Hashize igihe tutabonanye, nshuti yanjye"
+ Vpravo: "Long time no see, my friend"
+ xp_reward: 25
+
+ # 10. Vyberte Missing Slovo
+ - id: 107
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ Otázka: "Vyberte the missing Slovo"
+ Věta: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ # 11. Čtěte and Odpověď - Otázka based on context
+ - id: 110
+ type: read_answer
+ Otázka: "Čtěte the dialogue and Odpověď the Otázka"
+ text: "A: Muraho! Amakuru? B: Ni meza, murakoze."
+ Otázka: "How is person B?"
+ options: ["Smutný", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ Otázka: "Čtěte the dialogue and Odpověď the Otázka"
+ text: "A: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ Otázka: "What time of day is it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ Otázka: "Čtěte the dialogue and Odpověď the Otázka"
+ text: "A: Tuzasubira ku ishuri. B: Murabeho!"
+ Otázka: "Where will they see each other later?"
+ options: ["At home", "At Škola", "At work", "At the Trh"]
+ correct_answer: "At Škola"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "'Mwaramutse' is used in the morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "'Mwiriwe' is used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "'Murabeho' means Ahoj."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ Otázka: "Je tato v?ta pravdiv? nebo nepravdiv??"
+ statement: "'Nishimiye kukubona' means 'Nice to meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Otázka: "Respond to the greeting by building a Věta"
+ bot_message: "Muraho! Amakuru?"
+ translation: "Ahoj! Jak se m?te?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ Otázka: "Vyberte the appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "Dobr? r?no, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ Otázka: "Respond to the farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "See you later at Škola."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ Otázka: "Build a response to the Otázka"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build Věta from pieces
+ - id: 121
+ type: story
+ title: "schůzka a Friend - Guhura n'inshuti"
+ story_intro: "Čtěte the conversation. Then build the Věta."
+ story_segments:
+ - text: "Person A says Ahoj."
+ - text: "Person A asks how they are."
+ - text: "Person B says they are fine and thanks them."
+ - text: "Person A says nice to meet them."
+ - text: "Person B welcomes them."
+ - text: "Person A says see you later."
+ - text: "Person B says Na shledanou."
+ exercises:
+ - type: word_bank
+ Otázka: "Vytvořte kinyarwandské pozdravení pro 'Ahoj!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ Otázka: "Build the Otázka 'Jak se m?te?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ Otázka: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ Otázka: "Build the phrase 'Nice to meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ Otázka: "Build the farewell 'See you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ Otázka: "Build the farewell 'Na shledanou'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Otázka: "Say this greeting"
+ prompt: "Muraho"
+ translation: "Ahoj"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Otázka: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Dobr? r?no"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Otázka: "Řekněte tuto větu"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ Otázka: "Say this farewell"
+ prompt: "Murabeho"
+ translation: "Na shledanou"
+ xp_reward: 15
+
+ # 16. Identify Správně Meaning
+ - id: 126
+ type: identify_meaning
+ Otázka: "Co znamená 'Muraho' v této větě?"
+ context_sentence: "Muraho! Amakuru?"
+ Slovo: "Muraho"
+ options: ["Na shledanou", "Ahoj", "Thank you", "Welcome"]
+ correct_answer: "Ahoj"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ Otázka: "Co znamená 'murakoze' mean in this Věta?"
+ context_sentence: "Ni meza, murakoze."
+ Slovo: "murakoze"
+ options: ["Prosím", "thank you", "welcome", "Na shledanou"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ Otázka: "Co znamená 'Mwiriwe' v této větě?"
+ context_sentence: "Mwiriwe, nshuti!"
+ Slovo: "Mwiriwe"
+ options: ["Dobr? r?no", "Good afternoon/evening", "Dobrou noc", "Ahoj"]
+ correct_answer: "Good afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed Spojte
+ - id: 129
+ type: speed_Spojte
+ title: "Spojte Madness: Pozdravy"
+ time_limit_seconds: 45
+ pairs:
+ - Vlevo: "Ahoj"
+ Vpravo: "Muraho"
+ - Vlevo: "Dobr? r?no"
+ Vpravo: "Mwaramutse"
+ - Vlevo: "Good afternoon"
+ Vpravo: "Mwiriwe"
+ - Vlevo: "Dobrou noc"
+ Vpravo: "Ijoro ryiza"
+ - Vlevo: "Jak se m?te?"
+ Vpravo: "Amakuru"
+ - Vlevo: "I'm fine"
+ Vpravo: "Ni meza"
+ - Vlevo: "Welcome"
+ Vpravo: "Murakaza neza"
+ - Vlevo: "See you later"
+ Vpravo: "Tuzasubira"
+ - Vlevo: "Na shledanou"
+ Vpravo: "Murabeho"
+ - Vlevo: "Take care"
+ Vpravo: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Pozdravy"
+ time_limit_seconds: 30
+ Otázka_count: 5
+ Otázka:
+ - Otázka: "Ahoj"
+ Odpověď: "Muraho"
+ - Otázka: "Dobr? r?no"
+ Odpověď: "Mwaramutse"
+ - Otázka: "Dobrou noc"
+ Odpověď: "Ijoro ryiza"
+ - Otázka: "Jak se m?te?"
+ Odpověď: "Amakuru"
+ - Otázka: "Na shledanou"
+ Odpověď: "Murabeho"
+ xp_reward: 35
+
+# Kartičky
+ - id: 111
+ type: Kartičky
+ Otázka: "Kartičky"
+ Kartičky:
+ - front: "Muraho"
+ back: "Ahoj"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "Dobr? r?no"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "Good afternoon / Good evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "Dobrou noc"
+ image: "https://images.pexels.com/photos/45201/kitty-Kočka-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "Jak se m?te?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "See you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "Na shledanou"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have a nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

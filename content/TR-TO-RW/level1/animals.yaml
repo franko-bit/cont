@@ -1,0 +1,882 @@
+lesson:
+ name: "Hayvanlar"
+ description: "Öğren animal names in Kinyarwanda by categories"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Words ONLY (Safe for single words)
+ # Domestic / Farm Hayvanlar
+ - id: 1
+ type: translation
+ Soru: "Nasıl dersin 'İnek' Kinyarwanda'da?"
+ Cevap: "Inka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Soru: "Nasıl dersin 'Köpek' Kinyarwanda'da?"
+ Cevap: "Imbwa"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Soru: "Nasıl dersin 'Kedi' Kinyarwanda'da?"
+ Cevap: "Injangwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Soru: "Nasıl dersin 'Keçi' Kinyarwanda'da?"
+ Cevap: "Ihene"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Soru: "Nasıl dersin 'Koyun' Kinyarwanda'da?"
+ Cevap: "Intama"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Soru: "Nasıl dersin 'Domuz' Kinyarwanda'da?"
+ Cevap: "Ingurube"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Soru: "Nasıl dersin 'Tavuk' Kinyarwanda'da?"
+ Cevap: "Inkoko"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Soru: "Nasıl dersin 'Tavşan' Kinyarwanda'da?"
+ Cevap: "Urukwavu"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Soru: "Nasıl dersin 'Eşek' Kinyarwanda'da?"
+ Cevap: "Indogobe"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Soru: "Nasıl dersin 'Güvercin' Kinyarwanda'da?"
+ Cevap: "Inuma"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Soru: "Nasıl dersin 'Kuş' Kinyarwanda'da?"
+ Cevap: "Inyoni"
+ xp_reward: 10
+
+ # Wildlife Hayvanlar
+ - id: 12
+ type: translation
+ Soru: "Nasıl dersin 'Aslan' Kinyarwanda'da?"
+ Cevap: "Intare"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Soru: "Nasıl dersin 'Fil' Kinyarwanda'da?"
+ Cevap: "Inzovu"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Soru: "Nasıl dersin 'Dağ gorili' Kinyarwanda'da?"
+ Cevap: "Ingagi"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Soru: "Nasıl dersin 'Leopar' Kinyarwanda'da?"
+ Cevap: "Ingwe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Soru: "Nasıl dersin 'Mandıra' Kinyarwanda'da?"
+ Cevap: "Imbogo"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Soru: "Nasıl dersin 'Zebra' Kinyarwanda'da?"
+ Cevap: "Imparage"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Soru: "Nasıl dersin 'Su aygırı' Kinyarwanda'da?"
+ Cevap: "Imvubu"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ Soru: "Nasıl dersin 'Zürafa' Kinyarwanda'da?"
+ Cevap: "Agasumbashyamba"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ Soru: "Nasıl dersin 'Sırtlan' Kinyarwanda'da?"
+ Cevap: "Imfyisi"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ Soru: "Nasıl dersin 'Maymun' Kinyarwanda'da?"
+ Cevap: "Inkende"
+ xp_reward: 10
+
+ # Kuş, Reptiles, Insects, Balık
+ - id: 22
+ type: translation
+ Soru: "Nasıl dersin 'Gri taçlı turna' Kinyarwanda'da?"
+ Cevap: "Umusambi"
+ xp_reward: 10
+
+ - id: 23
+ type: translation
+ Soru: "Nasıl dersin 'Yılan' Kinyarwanda'da?"
+ Cevap: "Inzoka"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ Soru: "Nasıl dersin 'Kurbağa' Kinyarwanda'da?"
+ Cevap: "Igikeri"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ Soru: "Nasıl dersin 'Balık' Kinyarwanda'da?"
+ Cevap: "Ifi"
+ xp_reward: 10
+
+ - id: 26
+ type: translation
+ Soru: "Nasıl dersin 'Arı' Kinyarwanda'da?"
+ Cevap: "Inzuki"
+ xp_reward: 10
+
+ # Animal Actions (Verbs)
+ - id: 27
+ type: translation
+ Soru: "Nasıl dersin 'eats' Kinyarwanda'da?"
+ Cevap: "irya"
+ xp_reward: 10
+
+ - id: 28
+ type: translation
+ Soru: "Nasıl dersin 'drinks' Kinyarwanda'da?"
+ Cevap: "inywa"
+ xp_reward: 10
+
+ - id: 29
+ type: translation
+ Soru: "Nasıl dersin 'sleeps' Kinyarwanda'da?"
+ Cevap: "irasinzira"
+ xp_reward: 10
+
+ - id: 30
+ type: translation
+ Soru: "Nasıl dersin 'runs' Kinyarwanda'da?"
+ Cevap: "iriruka"
+ xp_reward: 10
+
+ - id: 31
+ type: translation
+ Soru: "Nasıl dersin 'flies' Kinyarwanda'da?"
+ Cevap: "iraguruka"
+ xp_reward: 10
+
+ - id: 32
+ type: translation
+ Soru: "Nasıl dersin 'swims' Kinyarwanda'da?"
+ Cevap: "iroga"
+ xp_reward: 10
+
+ - id: 33
+ type: translation
+ Soru: "Nasıl dersin 'plays' Kinyarwanda'da?"
+ Cevap: "irakina"
+ xp_reward: 10
+
+ # Animal Yiyecek
+ - id: 34
+ type: translation
+ Soru: "Nasıl dersin 'grass' Kinyarwanda'da?"
+ Cevap: "ibyatsi"
+ xp_reward: 10
+
+ - id: 35
+ type: translation
+ Soru: "Nasıl dersin 'Su' Kinyarwanda'da?"
+ Cevap: "amazi"
+ xp_reward: 10
+
+ - id: 36
+ type: translation
+ Soru: "Nasıl dersin 'meat' Kinyarwanda'da?"
+ Cevap: "inyama"
+ xp_reward: 10
+
+ # NO DIRECT TRANSLATION FOR Cümle OR PARAGRAPHS
+ # Instead, we use Cümle building, Eşleştir, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 37
+ type: multiple_choice
+ Soru: "Ne 'Inka'?"
+ options:
+ - "Köpek"
+ - "İnek"
+ - "Kedi"
+ - "Keçi"
+ Cevap: "İnek"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ Soru: "Ne 'Intare'?"
+ options:
+ - "Aslan"
+ - "Fil"
+ - "Maymun"
+ - "Köpek"
+ Cevap: "Aslan"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'irya' bu cümlede?"
+ options:
+ - "drinks"
+ - "eats"
+ - "sleeps"
+ - "runs"
+ Cevap: "eats"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ Soru: "Ne anlama gelir 'ibyatsi' bu cümlede?"
+ options:
+ - "Su"
+ - "meat"
+ - "grass"
+ - "milk"
+ Cevap: "grass"
+ xp_reward: 15
+
+ # 3. Dinle and Type (Dictation) - SINGLE WORDS ONLY
+ - id: 41
+ type: listen_and_type
+ Soru: "Dinle and type the animal name"
+ tts_text: "Inka"
+ Cevap: "Inka"
+ translation: "İnek"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_and_type
+ Soru: "Dinle and type the animal name"
+ tts_text: "Imbwa"
+ Cevap: "Imbwa"
+ translation: "Köpek"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_and_type
+ Soru: "Dinle and type the animal name"
+ tts_text: "Injangwe"
+ Cevap: "Injangwe"
+ translation: "Kedi"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_and_type
+ Soru: "Dinle and type the animal name"
+ tts_text: "Ihene"
+ Cevap: "Ihene"
+ translation: "Keçi"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_and_type
+ Soru: "Dinle and type the animal name"
+ tts_text: "Intama"
+ Cevap: "Intama"
+ translation: "Koyun"
+ xp_reward: 20
+
+ - id: 46
+ type: listen_and_type
+ Soru: "Dinle and type the animal name"
+ tts_text: "Inkoko"
+ Cevap: "Inkoko"
+ translation: "Tavuk"
+ xp_reward: 20
+
+ # 4. Dinle and Seç - SINGLE WORDS ONLY
+ - id: 47
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct animal"
+ tts_text: "Imbwa"
+ options:
+ - "Kedi"
+ - "Köpek"
+ - "İnek"
+ Cevap: "Köpek"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct animal"
+ tts_text: "Intare"
+ options:
+ - "Aslan"
+ - "Fil"
+ - "Zürafa"
+ Cevap: "Aslan"
+ xp_reward: 15
+
+ - id: 49
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct animal"
+ tts_text: "Intama"
+ options:
+ - "Keçi"
+ - "Koyun"
+ - "İnek"
+ Cevap: "Koyun"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct animal"
+ tts_text: "Inkoko"
+ options:
+ - "Tavuk"
+ - "Kuş"
+ - "Duck"
+ Cevap: "Tavuk"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct animal"
+ tts_text: "Injangwe"
+ options:
+ - "Köpek"
+ - "Kedi"
+ - "Tavşan"
+ Cevap: "Kedi"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_and_choose
+ Soru: "Dinle and Seç the correct animal"
+ tts_text: "Ihene"
+ options:
+ - "Keçi"
+ - "Koyun"
+ - "İnek"
+ Cevap: "Keçi"
+ xp_reward: 15
+
+ # 5. Repeat / Konuş Exercise
+ - id: 53
+ type: Konuş
+ Soru: "Say this word"
+ prompt: "Inka"
+ translation: "İnek"
+ xp_reward: 15
+
+ - id: 54
+ type: Konuş
+ Soru: "Say this word"
+ prompt: "Imbwa"
+ translation: "Köpek"
+ xp_reward: 15
+
+ - id: 55
+ type: Konuş
+ Soru: "Say this word"
+ prompt: "Injangwe"
+ translation: "Kedi"
+ xp_reward: 15
+
+ - id: 56
+ type: Konuş
+ Soru: "Say this Cümle"
+ prompt: "Inka irya ibyatsi"
+ translation: "The İnek eats grass"
+ xp_reward: 20
+
+ # 6. Word Bank Cümle Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 57
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The İnek eats grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Köpek drinks Su'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 20
+
+ - id: 59
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Kuş flies'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Balık swims'"
+ word_bank: ["Ifi", "iroga", "amazi", "Inyoni", "iraguruka", "hejuru"]
+ correct_answer: ["Ifi", "iroga"]
+ xp_reward: 20
+
+ # 7. Cümle Scramble - PIECES PROVIDED
+ - id: 61
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Kinyarwanda Cümle"
+ scrambled_words: ["irya", "Inka", "ibyatsi"]
+ correct_sentence: "Inka irya ibyatsi"
+ translation: "The İnek eats grass"
+ xp_reward: 20
+
+ - id: 62
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Kinyarwanda Cümle"
+ scrambled_words: ["inywa", "Imbwa", "amazi"]
+ correct_sentence: "Imbwa inywa amazi"
+ translation: "The Köpek drinks Su"
+ xp_reward: 20
+
+ - id: 63
+ type: sentence_scramble
+ Soru: "Arrange these words to form a correct Kinyarwanda Cümle"
+ scrambled_words: ["iraguruka", "Inyoni", "hejuru"]
+ correct_sentence: "Inyoni iraguruka hejuru"
+ translation: "The Kuş flies above"
+ xp_reward: 20
+
+ # 8. Fill in the Blank - Seç FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Soru: "Seç the correct word to complete the Cümle"
+ text_with_blank: "Inka ___ ibyatsi."
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "The İnek eats grass"
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Soru: "Seç the correct word to complete the Cümle"
+ text_with_blank: "Imbwa ___ amazi."
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "The Köpek drinks Su"
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Soru: "Seç the correct word to complete the Cümle"
+ text_with_blank: "Inyoni ___ hejuru."
+ options: ["iraguruka", "iriruka", "iroga"]
+ correct_answer: "iraguruka"
+ translation: "The Kuş flies above"
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 67
+ type: picture_word
+ Soru: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Intama", "Ihene"]
+ correct_answer: "Inka"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Soru: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Injangwe", "Inkoko"]
+ correct_answer: "Imbwa"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Soru: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Intare", "Ingwe", "Imbogo"]
+ correct_answer: "Intare"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Soru: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Imvubu", "Ingagi", "Imparage"]
+ correct_answer: "Inzovu"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Soru: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inyoni", "Inkoko", "Inuma", "Umusambi"]
+ correct_answer: "Inyoni"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Soru: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Ifi", "Inzoka", "Igikeri", "Akanyamasyo"]
+ correct_answer: "Ifi"
+ xp_reward: 10
+
+ # 10. Word Eşleştir (Pairing)
+ - id: 73
+ type: Eşleştir
+ Soru: "Eşleştir the Hayvanlar"
+ pairs:
+ - Sol: "İnek"
+ Sağ: "Inka"
+ - Sol: "Köpek"
+ Sağ: "Imbwa"
+ - Sol: "Kedi"
+ Sağ: "Injangwe"
+ - Sol: "Aslan"
+ Sağ: "Intare"
+ - Sol: "Fil"
+ Sağ: "Inzovu"
+ - Sol: "Kuş"
+ Sağ: "Inyoni"
+ - Sol: "Balık"
+ Sağ: "Ifi"
+ xp_reward: 25
+
+ - id: 74
+ type: Eşleştir
+ Soru: "Eşleştir the actions"
+ pairs:
+ - Sol: "eats"
+ Sağ: "irya"
+ - Sol: "drinks"
+ Sağ: "inywa"
+ - Sol: "sleeps"
+ Sağ: "irasinzira"
+ - Sol: "flies"
+ Sağ: "iraguruka"
+ - Sol: "swims"
+ Sağ: "iroga"
+ - Sol: "runs"
+ Sağ: "iriruka"
+ xp_reward: 25
+
+ - id: 75
+ type: Eşleştir
+ Soru: "Eşleştir the animal Yiyecek"
+ pairs:
+ - Sol: "grass"
+ Sağ: "ibyatsi"
+ - Sol: "Su"
+ Sağ: "amazi"
+ - Sol: "meat"
+ Sağ: "inyama"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - PIECES PROVIDED
+ - id: 76
+ type: tap_hear
+ Soru: "Tap the words you hear in order"
+ tts_text: "Inka irya ibyatsi"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_taps: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 25
+
+ - id: 77
+ type: tap_hear
+ Soru: "Tap the words you hear in order"
+ tts_text: "Imbwa inywa amazi"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_taps: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 25
+
+ - id: 78
+ type: tap_hear
+ Soru: "Tap the words you hear in order"
+ tts_text: "Inyoni iraguruka hejuru"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_taps: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 25
+
+ # 12. Seç Missing Word
+ - id: 79
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Inka ___ ibyatsi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "The İnek eats grass"
+ xp_reward: 15
+
+ - id: 80
+ type: choose_missing
+ Soru: "Seç the missing word"
+ Cümle: "Imbwa ___ amazi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "The Köpek drinks Su"
+ xp_reward: 15
+
+ # 13. Oku and Cevap - Soru in English, Cevap based on Kinyarwanda text
+ - id: 81
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
+ Soru: "Where is the İnek?"
+ options: ["In the Ev", "In the field", "At the Pazar", "Near the Köpek"]
+ correct_answer: "In the field"
+ xp_reward: 25
+
+ - id: 82
+ type: read_answer
+ Soru: "Oku the text and Cevap the Soru"
+ text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
+ Soru: "Ne anlama gelir the Aslan eat?"
+ options: ["Grass", "Su", "Meat", "Balık"]
+ correct_answer: "Meat"
+ xp_reward: 20
+
+ # 14. True / False
+ - id: 83
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Imbwa ni inyamaswa."
+ translation: "A Köpek is an animal"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 84
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Inka iraguruka."
+ translation: "A İnek flies"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 85
+ type: true_false
+ Soru: "Is this statement true or false?"
+ statement: "Ifi iroga."
+ translation: "A Balık swims"
+ correct_answer: true
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 86
+ type: conversation
+ Soru: "Respond to the Soru by building a Cümle"
+ bot_message: "Iyi ni inyamaswa ki?"
+ translation: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ word_bank: ["Inka", "ni", "inyamaswa", "Imbwa", "ni", "igikeri"]
+ correct_response: ["Inka", "ni", "inyamaswa"]
+ xp_reward: 20
+
+ - id: 87
+ type: conversation
+ Soru: "Respond to the Soru"
+ bot_message: "Inka iri he?"
+ translation: "Where is the İnek?"
+ options:
+ - "Mu murima"
+ - "Mu nzu"
+ - "Ku isoko"
+ correct_response: "Mu murima"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Cümle from pieces
+ - id: 88
+ type: story
+ title: "The İnek and Friends"
+ story_intro: "Oku about the Hayvanlar. Then build the Cümle."
+ story_segments:
+ - text: "There is a İnek in the field."
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ - text: "The İnek eats grass."
+ - text: "A Köpek is near the İnek."
+ - text: "The Köpek drinks Su."
+ - text: "A Kuş flies above."
+ exercises:
+ - type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The İnek eats grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ - type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Köpek drinks Su'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ - type: word_bank
+ Soru: "Build the Kinyarwanda Cümle for 'The Kuş flies above'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 89
+ type: pronunciation
+ Soru: "Say the word"
+ prompt: "Inka"
+ translation: "İnek"
+ xp_reward: 15
+
+ - id: 90
+ type: pronunciation
+ Soru: "Say the word"
+ prompt: "Imbwa"
+ translation: "Köpek"
+ xp_reward: 15
+
+ - id: 91
+ type: pronunciation
+ Soru: "Say the word"
+ prompt: "Injangwe"
+ translation: "Kedi"
+ xp_reward: 15
+
+ - id: 92
+ type: pronunciation
+ Soru: "Say the word"
+ prompt: "Intare"
+ translation: "Aslan"
+ xp_reward: 15
+
+ - id: 93
+ type: pronunciation
+ Soru: "Say the word"
+ prompt: "Agasumbashyamba"
+ translation: "Zürafa"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 94
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'amazi' mean in this Cümle?"
+ context_sentence: "Imbwa inywa amazi."
+ word: "amazi"
+ options: ["milk", "Su", "Yiyecek", "grass"]
+ correct_answer: "Su"
+ xp_reward: 15
+
+ - id: 95
+ type: identify_meaning
+ Soru: "Ne anlama gelir 'irya' mean in this Cümle?"
+ context_sentence: "Inka irya ibyatsi."
+ word: "irya"
+ options: ["drinks", "eats", "runs", "flies"]
+ correct_answer: "eats"
+ xp_reward: 15
+
+ # 19. Speed Eşleştir
+ - id: 96
+ type: speed_Eşleştir
+ title: "Eşleştir Madness: Hayvanlar"
+ time_limit_seconds: 45
+ pairs:
+ - Sol: "İnek"
+ Sağ: "Inka"
+ - Sol: "Köpek"
+ Sağ: "Imbwa"
+ - Sol: "Kedi"
+ Sağ: "Injangwe"
+ - Sol: "Aslan"
+ Sağ: "Intare"
+ - Sol: "Fil"
+ Sağ: "Inzovu"
+ - Sol: "Kuş"
+ Sağ: "Inyoni"
+ - Sol: "Balık"
+ Sağ: "Ifi"
+ - Sol: "Keçi"
+ Sağ: "Ihene"
+ - Sol: "Koyun"
+ Sağ: "Intama"
+ - Sol: "Tavuk"
+ Sağ: "Inkoko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 97
+ type: timed_challenge
+ title: "Lightning Round: Hayvanlar"
+ time_limit_seconds: 30
+ Soru_count: 5
+ Soru:
+ - Soru: "İnek"
+ Cevap: "Inka"
+ - Soru: "Köpek"
+ Cevap: "Imbwa"
+ - Soru: "Kedi"
+ Cevap: "Injangwe"
+ - Soru: "Aslan"
+ Cevap: "Intare"
+ - Soru: "Fil"
+ Cevap: "Inzovu"
+ xp_reward: 35
+
+# Kartlar
+ - id: 111
+ type: Kartlar
+ Soru: "Kartlar"
+ Kartlar:
+ - front: "Inka"
+ back: "İnek"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Imbwa"
+ back: "Köpek"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Injangwe"
+ back: "Kedi"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ihene"
+ back: "Keçi"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Intama"
+ back: "Koyun"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ingurube"
+ back: "Domuz"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkoko"
+ back: "Tavuk"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Urukwavu"
+ back: "Tavşan"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Indogobe"
+ back: "Eşek"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Inuma"
+ back: "Güvercin"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

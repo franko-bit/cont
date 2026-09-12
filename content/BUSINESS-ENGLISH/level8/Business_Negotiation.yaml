@@ -1,0 +1,1535 @@
+lesson:
+  name: "Business Negotiation"
+  description: "Master professional business negotiation skills including strategies, offers, counteroffers, agreements, contracts, pricing, and conflict resolution"
+  xp_reward: 500
+
+exercises:
+
+  # ============================================
+  # SECTION 1: NEGOTIATION STRATEGIES (1-25)
+  # ============================================
+
+  # MULTIPLE CHOICE (1-8)
+  - id: 1
+    type: multiple_choice
+    question: "What is the most important thing to do before entering any negotiation?"
+    options:
+      - "Prepare thoroughly: know your goals, BATNA, and walk-away point"
+      - "Show up and improvise"
+      - "Assume you'll get everything you want"
+      - "Plan to argue aggressively"
+    answer: "Prepare thoroughly: know your goals, BATNA, and walk-away point"
+    xp_reward: 15
+
+  - id: 2
+    type: multiple_choice
+    question: "What does 'BATNA' stand for in negotiation?"
+    options:
+      - "Best Alternative To a Negotiated Agreement"
+      - "Basic Agreement Terms and Negotiation Approach"
+      - "Business And Trade Negotiation Association"
+      - "Before Any Talk, Note Alternatives"
+    answer: "Best Alternative To a Negotiated Agreement"
+    xp_reward: 15
+
+  - id: 3
+    type: multiple_choice
+    question: "What is a 'win-win' negotiation outcome?"
+    options:
+      - "One side wins everything, the other loses everything"
+      - "Both parties walk away feeling they gained value"
+      - "Neither side gets anything"
+      - "The negotiation ends in a tie"
+    answer: "Both parties walk away feeling they gained value"
+    xp_reward: 15
+
+  - id: 4
+    type: multiple_choice
+    question: "What is 'ZOPA' in negotiation?"
+    options:
+      - "Zone of Possible Agreement - the range where both parties can find common ground"
+      - "Zero Profit Agreement"
+      - "Zonal Operating Procedure Agreement"
+      - "Zone of Preferred Alternatives"
+    answer: "Zone of Possible Agreement - the range where both parties can find common ground"
+    xp_reward: 15
+
+  - id: 5
+    type: multiple_choice
+    question: "What is the difference between 'positional' and 'interest-based' negotiation?"
+    options:
+      - "Positional focuses on stated demands; interest-based focuses on underlying needs"
+      - "They are exactly the same"
+      - "Positional is always better"
+      - "Interest-based ignores what parties want"
+    answer: "Positional focuses on stated demands; interest-based focuses on underlying needs"
+    xp_reward: 15
+
+  - id: 6
+    type: multiple_choice
+    question: "What is 'anchoring' in negotiation strategy?"
+    options:
+      - "A boat reference"
+      - "Making the first offer to set the reference point for the negotiation"
+      - "Refusing to move from your position"
+      - "Ending the negotiation early"
+    answer: "Making the first offer to set the reference point for the negotiation"
+    xp_reward: 15
+
+  - id: 7
+    type: multiple_choice
+    question: "What does 'distributive negotiation' refer to?"
+    options:
+      - "A negotiation where parties try to distribute value equally"
+      - "A 'fixed pie' negotiation where one party's gain is the other's loss"
+      - "A negotiation about distribution of goods"
+      - "A collaborative negotiation approach"
+    answer: "A 'fixed pie' negotiation where one party's gain is the other's loss"
+    xp_reward: 15
+
+  - id: 8
+    type: multiple_choice
+    question: "What is 'integrative negotiation'?"
+    options:
+      - "A competitive, adversarial approach"
+      - "A collaborative approach seeking to expand the pie for mutual gain"
+      - "A negotiation about integration"
+      - "A one-sided negotiation"
+    answer: "A collaborative approach seeking to expand the pie for mutual gain"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (9-14)
+  - id: 9
+    type: fill_blank
+    question: "Complete the BATNA statement"
+    text_with_blank: "Before we begin, I want to be clear about our ___ . We have other suppliers interested."
+    options: ["BATNA", "alternatives", "options", "leverage"]
+    correct_answer: "BATNA"
+    xp_reward: 15
+
+  - id: 10
+    type: fill_blank
+    question: "Complete the interest exploration"
+    text_with_blank: "Instead of focusing on positions, let's explore our underlying ___ ."
+    options: ["interests", "needs", "concerns", "motivations"]
+    correct_answer: "interests"
+    xp_reward: 15
+
+  - id: 11
+    type: fill_blank
+    question: "Complete the collaboration invitation"
+    text_with_blank: "Let's work ___ to find a solution that benefits both of us."
+    options: ["together", "collaboratively", "jointly", "cooperatively"]
+    correct_answer: "together"
+    xp_reward: 15
+
+  - id: 12
+    type: fill_blank
+    question: "Complete the ZOPA identification"
+    text_with_blank: "I believe there's a ___ of possible agreement between $45,000 and $52,000."
+    options: ["zone", "range", "area", "window"]
+    correct_answer: "zone"
+    xp_reward: 15
+
+  - id: 13
+    type: fill_blank
+    question: "Complete the preparation statement"
+    text_with_blank: "Before our meeting, I've ___ my objectives and walk-away points."
+    options: ["prepared", "defined", "clarified", "identified"]
+    correct_answer: "defined"
+    xp_reward: 15
+
+  - id: 14
+    type: fill_blank
+    question: "Complete the value creation statement"
+    text_with_blank: "How can we ___ value here rather than just dividing it?"
+    options: ["create", "generate", "add", "expand"]
+    correct_answer: "create"
+    xp_reward: 15
+
+  # TRUE / FALSE (15-17)
+  - id: 15
+    type: true_false
+    question: "Is this statement true or false? The best negotiators focus on winning at all costs, even if it damages relationships."
+    statement: "The best negotiators focus on winning at all costs, even if it damages relationships."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 16
+    type: true_false
+    question: "Is this statement true or false? Preparation is more important than in-negotiation tactics."
+    statement: "Preparation is more important than in-negotiation tactics."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 17
+    type: true_false
+    question: "Is this statement true or false? A strong BATNA gives you leverage in negotiation."
+    statement: "A strong BATNA gives you leverage in negotiation."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (18-21)
+  - id: 18
+    type: matching
+    question: "Match the negotiation concept with its definition"
+    pairs:
+      - left: "BATNA"
+        right: "Best alternative if no deal is reached"
+      - left: "Reservation price"
+        right: "Your walk-away point"
+      - left: "ZOPA"
+        right: "Range where agreement is possible"
+      - left: "Anchoring"
+        right: "Setting the reference point with first offer"
+      - left: "Leverage"
+        right: "Advantage or power in negotiation"
+    xp_reward: 25
+
+  - id: 19
+    type: matching
+    question: "Match the negotiation style with its characteristics"
+    pairs:
+      - left: "Competitive"
+        right: "Winning is primary, aggressive, short-term focus"
+      - left: "Collaborative"
+        right: "Problem-solving, mutual gain, long-term relationship"
+      - left: "Accommodating"
+        right: "Prioritizes relationship over outcome"
+      - left: "Avoiding"
+        right: "Postpones or withdraws from negotiation"
+      - left: "Compromising"
+        right: "Splits differences, moderate outcome"
+    xp_reward: 25
+
+  - id: 20
+    type: matching
+    question: "Match the negotiation phase with the key activity"
+    pairs:
+      - left: "Preparation"
+        right: "Research, set goals, know BATNA"
+      - left: "Opening"
+        right: "Set the tone, make first offer"
+      - left: "Exploration"
+        right: "Ask questions, identify interests"
+      - left: "Bargaining"
+        right: "Exchange offers, make concessions"
+      - left: "Closing"
+        right: "Finalize agreement, confirm terms"
+    xp_reward: 25
+
+  - id: 21
+    type: matching
+    question: "Match the psychological tactic with its description"
+    pairs:
+      - left: "Framing"
+        right: "Presenting information to influence perception"
+      - left: "Reciprocity"
+        right: "Giving something to get something"
+      - left: "Scarcity"
+        right: "Highlighting limited availability"
+      - left: "Social proof"
+        right: "Mentioning what others have agreed to"
+      - left: "Authority"
+        right: "Referencing experts or data"
+    xp_reward: 25
+
+  # FLASHCARDS (22-25)
+  - id: 22
+    type: flashcards
+    question: "Flashcards: Pre-negotiation Preparation"
+    flashcards:
+      - front: "Know your BATNA"
+        right: "Your best alternative if no deal"
+      - front: "Know your reservation price"
+        right: "Your walk-away point"
+      - front: "Identify your interests"
+        right: "What you really need (not just positions)"
+      - front: "Research the other party"
+        right: "Understand their needs and constraints"
+      - front: "Set aspirational goals"
+        right: "Aim high but realistically"
+    xp_reward: 30
+
+  - id: 23
+    type: flashcards
+    question: "Flashcards: Opening Strategies"
+    flashcards:
+      - front: "Make the first offer"
+        right: "Anchors the negotiation in your favor"
+      - front: "Start with a range"
+        right: "Softens your anchor point"
+      - front: "Ask for more than you expect"
+        right: "Creates room to concede"
+      - front: "Start with an extreme anchor"
+        right: "Very high first offer (use cautiously)"
+      - front: "Defer making the first offer"
+        right: "Let the other party anchor first"
+    xp_reward: 30
+
+  - id: 24
+    type: flashcards
+    question: "Flashcards: Power in Negotiation"
+    flashcards:
+      - front: "Alternatives = power"
+        right: "Strong BATNA = more leverage"
+      - front: "Information = power"
+        right: "Know more than the other party"
+      - front: "Time = power"
+        right: "Less time pressure = more power"
+      - front: "Expertise = power"
+        right: "Unique knowledge or skill"
+      - front: "Legitimacy = power"
+        right: "Authority, title, or position"
+    xp_reward: 30
+
+  - id: 25
+    type: flashcards
+    question: "Flashcards: Common Negotiation Mistakes"
+    flashcards:
+      - front: "Failing to prepare"
+        right: "Entering without BATNA or goals"
+      - front: "Conceding too quickly"
+        right: "Not testing the other side"
+      - front: "Taking positions personally"
+        right: "Emotional attachment to demands"
+      - front: "Not listening enough"
+        right: "Missing valuable information"
+      - front: "Leaving value on the table"
+        right: "Not exploring creative options"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 2: MAKING OFFERS (26-50)
+  # ============================================
+
+  # MULTIPLE CHOICE (26-33)
+  - id: 26
+    type: multiple_choice
+    question: "What is the best way to present your first offer?"
+    options:
+      - "Demand aggressively"
+      - "State your offer confidently, with justification, and leave room to negotiate"
+      - "Whisper it quietly"
+      - "Don't make an offer at all"
+    answer: "State your offer confidently, with justification, and leave room to negotiate"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "What is a 'conditional offer'?"
+    options:
+      - "An offer that depends on something else happening"
+      - "An offer with no conditions"
+      - "An offer that is final"
+      - "An offer that is vague"
+    answer: "An offer that depends on something else happening"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "How should you phrase a professional offer?"
+    options:
+      - "Take it or leave it"
+      - "We are prepared to offer $50,000, subject to a 30-day payment term"
+      - "Here's what we'll give you"
+      - "This is our final offer"
+    answer: "We are prepared to offer $50,000, subject to a 30-day payment term"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "What is a 'package offer'?"
+    options:
+      - "An offer in a package"
+      - "An offer that bundles multiple items or terms together"
+      - "A discounted offer"
+      - "A final offer"
+    answer: "An offer that bundles multiple items or terms together"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "What should you include when making a proposal offer?"
+    options:
+      - "Only the price"
+      - "Price, terms, conditions, timeline, and any contingencies"
+      - "Only your demands"
+      - "A threat"
+    answer: "Price, terms, conditions, timeline, and any contingencies"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "What does it mean to 'test an offer'?"
+    options:
+      - "To test if the offer is physically strong"
+      - "To propose an offer informally to gauge reaction before making it formally"
+      - "To reject an offer"
+      - "To accept an offer immediately"
+    answer: "To propose an offer informally to gauge reaction before making it formally"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "What is a 'take-it-or-leave-it' offer also known as?"
+    options:
+      - "Anchoring offer"
+      - "Boulwarism or final offer"
+      - "Conditional offer"
+      - "Opening offer"
+    answer: "Boulwarism or final offer"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "When is a 'take-it-or-leave-it' offer appropriate?"
+    options:
+      - "In every negotiation"
+      - "Never"
+      - "When you have strong BATNA and no interest in ongoing relationship"
+      - "Only when you're angry"
+    answer: "When you have strong BATNA and no interest in ongoing relationship"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (34-39)
+  - id: 34
+    type: fill_blank
+    question: "Complete the offer presentation"
+    text_with_blank: "We are ___ to offer $75,000 for the initial contract."
+    options: ["prepared", "ready", "willing", "able"]
+    correct_answer: "prepared"
+    xp_reward: 15
+
+  - id: 35
+    type: fill_blank
+    question: "Complete the conditional offer"
+    text_with_blank: "We can agree to that price, ___ on delivery being completed by December 15th."
+    options: ["conditional", "subject", "dependent", "contingent"]
+    correct_answer: "subject"
+    xp_reward: 15
+
+  - id: 36
+    type: fill_blank
+    question: "Complete the package offer description"
+    text_with_blank: "Our ___ includes the software license, training, and 12 months of support."
+    options: ["package", "bundle", "offer", "proposal"]
+    correct_answer: "package"
+    xp_reward: 15
+
+  - id: 37
+    type: fill_blank
+    question: "Complete the offer justification"
+    text_with_blank: "Our offer is based on market rates and the ___ of the project."
+    options: ["scope", "size", "complexity", "scale"]
+    correct_answer: "scope"
+    xp_reward: 15
+
+  - id: 38
+    type: fill_blank
+    question: "Complete the test offer phrase"
+    text_with_blank: "I want to ___ an idea. What would you think of a three-year contract?"
+    options: ["test", "float", "propose", "suggest"]
+    correct_answer: "test"
+    xp_reward: 15
+
+  - id: 39
+    type: fill_blank
+    question: "Complete the proposal delivery"
+    text_with_blank: "I'll ___ a formal proposal by the end of the week."
+    options: ["send", "submit", "provide", "deliver"]
+    correct_answer: "send"
+    xp_reward: 15
+
+  # TRUE / FALSE (40-42)
+  - id: 40
+    type: true_false
+    question: "Is this statement true or false? Your first offer should always be your best and final offer."
+    statement: "Your first offer should always be your best and final offer."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 41
+    type: true_false
+    question: "Is this statement true or false? Offering too low can offend the other party and harm the negotiation."
+    statement: "Offering too low can offend the other party and harm the negotiation."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 42
+    type: true_false
+    question: "Is this statement true or false? You should always explain the rationale behind your offer."
+    statement: "You should always explain the rationale behind your offer."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (43-46)
+  - id: 43
+    type: matching
+    question: "Match the offer type with its description"
+    pairs:
+      - left: "Opening offer"
+        right: "First offer made in negotiation"
+      - left: "Aspirational offer"
+        right: "Ideal outcome, higher than expected"
+      - left: "Concession offer"
+        right: "Moving from previous position"
+      - left: "Final offer"
+        right: "Last offer before walking away"
+      - left: "Split-the-difference offer"
+        right: "Meeting exactly in the middle"
+    xp_reward: 25
+
+  - id: 44
+    type: matching
+    question: "Match the offer component with what it addresses"
+    pairs:
+      - left: "Price/Financial terms"
+        right: "Monetary value"
+      - left: "Timeline/Delivery"
+        right: "When something happens"
+      - left: "Quality/Specifications"
+        right: "What is being delivered"
+      - left: "Terms and conditions"
+        right: "Legal and operational requirements"
+      - left: "Contingencies"
+        right: "What must happen for offer to be valid"
+    xp_reward: 25
+
+  - id: 45
+    type: matching
+    question: "Match the offer justification with its example"
+    pairs:
+      - left: "Market-based"
+        right: "Our research shows similar services cost between X and Y"
+      - left: "Cost-based"
+        right: "Our costs for materials have increased 15% this year"
+      - left: "Value-based"
+        right: "This solution will save you $100,000 annually"
+      - left: "Competitor-based"
+        right: "Our competitors are offering similar terms at this price point"
+      - left: "Relationship-based"
+        right: "Given our long partnership, we're offering our best terms"
+    xp_reward: 25
+
+  - id: 46
+    type: matching
+    question: "Match the offer delivery style with the situation"
+    pairs:
+      - left: "Direct and confident"
+        right: "When you have strong leverage"
+      - left: "Tentative and exploratory"
+        right: "Early stage, building relationship"
+      - left: "Formal and documented"
+        right: "Major contract, legal review needed"
+      - left: "Quick and verbal"
+        right: "Small items, established relationship"
+      - left: "Conditional with qualifiers"
+        right: "Complex multi-party negotiation"
+    xp_reward: 25
+
+  # FLASHCARDS (47-50)
+  - id: 47
+    type: flashcards
+    question: "Flashcards: Making Your First Offer"
+    flashcards:
+      - front: "Anchor high but credibly"
+        right: "Set a high but justifiable starting point"
+      - front: "Provide justification"
+        right: "Explain why your offer is reasonable"
+      - front: "Leave room to move"
+        right: "Don't start at your bottom line"
+      - front: "Be specific, not round"
+        right: "$47,500 sounds more researched than $50,000"
+      - front: "Use conditional language"
+        right: "Subject to... based on... assuming that..."
+    xp_reward: 30
+
+  - id: 48
+    type: flashcards
+    question: "Flashcards: Offer Phrases"
+    flashcards:
+      - front: "We propose the following terms"
+        right: "Formal offer introduction"
+      - front: "Our proposal is as follows"
+        right: "Alternative formal opening"
+      - front: "What if we structured it this way?"
+        right: "Exploratory offer"
+      - front: "We could consider [X] if you can agree to [Y]"
+        right: "Conditional offer"
+      - front: "Based on what we've discussed, we're prepared to offer"
+        right: "Building on conversation"
+    xp_reward: 30
+
+  - id: 49
+    type: flashcards
+    question: "Flashcards: Responding to an Offer"
+    flashcards:
+      - front: "Thank you for the proposal"
+        right: "Polite acknowledgment"
+      - front: "Let me review this with my team"
+        right: "Buy time to consider"
+      - front: "I appreciate your offer. However..."
+        right: "Polite rejection or counter"
+      - front: "That's an interesting starting point"
+        right: "Neutral response to high anchor"
+      - front: "We're not in alignment yet, but let's explore"
+        right: "Keep negotiation open"
+    xp_reward: 30
+
+  - id: 50
+    type: flashcards
+    question: "Flashcards: Negotiation Variables"
+    flashcards:
+      - front: "Price"
+        right: "Monetary amount"
+      - front: "Payment terms"
+        right: "When and how payment is made"
+      - front: "Delivery schedule"
+        right: "Timing of goods or services"
+      - front: "Warranty/guarantee"
+        right: "Assurances and protections"
+      - front: "Service level"
+        right: "Quality and responsiveness of support"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 3: COUNTEROFFERS (51-75)
+  # ============================================
+
+  # MULTIPLE CHOICE (51-58)
+  - id: 51
+    type: multiple_choice
+    question: "What is the best way to respond to an offer you find unreasonable?"
+    options:
+      - "Get angry and walk away"
+      - "Accept it anyway"
+      - "Stay calm, acknowledge the offer, and make a counteroffer"
+      - "Ignore it completely"
+    answer: "Stay calm, acknowledge the offer, and make a counteroffer"
+    xp_reward: 15
+
+  - id: 52
+    type: multiple_choice
+    question: "What is a 'bracketing' counteroffer strategy?"
+    options:
+      - "Putting the offer in a bracket"
+      - "Moving from your anchor toward their offer, but less than half"
+      - "Accepting immediately"
+      - "Rejecting without alternative"
+    answer: "Moving from your anchor toward their offer, but less than half"
+    xp_reward: 15
+
+  - id: 53
+    type: multiple_choice
+    question: "What should you avoid when making a counteroffer?"
+    options:
+      - "Providing justification"
+      - "Making a counteroffer without a clear rationale"
+      - "Being polite"
+      - "Leaving room to negotiate"
+    answer: "Making a counteroffer without a clear rationale"
+    xp_reward: 15
+
+  - id: 54
+    type: multiple_choice
+    question: "What does 'concession pattern' refer to?"
+    options:
+      - "A pattern on clothing"
+      - "The size and frequency of your concessions during negotiation"
+      - "A type of negotiation strategy"
+      - "A legal document"
+    answer: "The size and frequency of your concessions during negotiation"
+    xp_reward: 15
+
+  - id: 55
+    type: multiple_choice
+    question: "What is the recommended concession pattern?"
+    options:
+      - "Large first concession, then smaller, then none"
+      - "Make the same size concessions every time"
+      - "Start small, then get larger"
+      - "Never make any concessions"
+    answer: "Large first concession, then smaller, then none"
+    xp_reward: 15
+
+  - id: 56
+    type: multiple_choice
+    question: "What is 'reciprocal concession'?"
+    options:
+      - "Making a concession without getting anything"
+      - "Only conceding when the other side also concedes"
+      - "Never conceding"
+      - "Conceding everything at once"
+    answer: "Only conceding when the other side also concedes"
+    xp_reward: 15
+
+  - id: 57
+    type: multiple_choice
+    question: "What should you say when you receive a counteroffer?"
+    options:
+      - "That's ridiculous"
+      - "Thank you. Let me consider this and get back to you."
+      - "Never talk to me again"
+      - "I accept immediately"
+    answer: "Thank you. Let me consider this and get back to you."
+    xp_reward: 15
+
+  - id: 58
+    type: multiple_choice
+    question: "What is a 'deadline concession'?"
+    options:
+      - "Conceding because you're out of time"
+      - "Giving the other party more time to respond"
+      - "Conceding on the deadline itself"
+      - "Using time pressure as leverage"
+    answer: "Using time pressure as leverage"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (59-64)
+  - id: 59
+    type: fill_blank
+    question: "Complete the counteroffer opening"
+    text_with_blank: "I appreciate your offer. However, we were hoping for something in the ___ of $60,000."
+    options: ["range", "area", "neighborhood", "ballpark"]
+    correct_answer: "range"
+    xp_reward: 15
+
+  - id: 60
+    type: fill_blank
+    question: "Complete the bracketing example"
+    text_with_blank: "You offered $40,000. We proposed $60,000. How about we ___ the difference at $50,000?"
+    options: ["split", "halve", "divide", "meet"]
+    correct_answer: "split"
+    xp_reward: 15
+
+  - id: 61
+    type: fill_blank
+    question: "Complete the reciprocal concession statement"
+    text_with_blank: "If you can move on price, we may be able to ___ on delivery timeline."
+    options: ["compromise", "concede", "flex", "adjust"]
+    correct_answer: "compromise"
+    xp_reward: 15
+
+  - id: 62
+    type: fill_blank
+    question: "Complete the justification for counteroffer"
+    text_with_blank: "Our counteroffer is based on the additional ___ we're bringing to this project."
+    options: ["value", "expertise", "resources", "capabilities"]
+    correct_answer: "value"
+    xp_reward: 15
+
+  - id: 63
+    type: fill_blank
+    question: "Complete the concession pattern statement"
+    text_with_blank: "We've already moved ___ on several points. We need to see movement from your side."
+    options: ["significantly", "substantially", "considerably", "materially"]
+    correct_answer: "significantly"
+    xp_reward: 15
+
+  - id: 64
+    type: fill_blank
+    question: "Complete the counteroffer limitation"
+    text_with_blank: "This is our best and ___ counteroffer."
+    options: ["final", "last", "ultimate", "conclusive"]
+    correct_answer: "final"
+    xp_reward: 15
+
+  # TRUE / FALSE (65-67)
+  - id: 65
+    type: true_false
+    question: "Is this statement true or false? You should always counteroffer, never accept the first offer."
+    statement: "You should always counteroffer, never accept the first offer."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 66
+    type: true_false
+    question: "Is this statement true or false? Making concessions too quickly signals weakness."
+    statement: "Making concessions too quickly signals weakness."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 67
+    type: true_false
+    question: "Is this statement true or false? Each concession should be smaller than the previous one."
+    statement: "Each concession should be smaller than the previous one."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (68-71)
+  - id: 68
+    type: matching
+    question: "Match the counteroffer strategy with its description"
+    pairs:
+      - left: "Bracketing"
+        right: "Split the difference by moving less than halfway"
+      - left: "Reciprocal concession"
+        right: "Only concede when they concede"
+      - left: "Decoupling"
+        right: "Separate issues to trade on different items"
+      - left: "Logrolling"
+        right: "Trade concessions on different priorities"
+      - left: "Nibbling"
+        right: "Ask for small extras after main agreement"
+    xp_reward: 25
+
+  - id: 69
+    type: matching
+    question: "Match the concession pattern with the perception it creates"
+    pairs:
+      - left: "Concessions get smaller"
+        right: "You're reaching your limit"
+      - left: "Concessions get larger"
+        right: "You're desperate"
+      - left: "Equal concessions each time"
+        right: "You have a formula (weakness)"
+      - left: "One large then stop"
+        right: "Significant move, now firm"
+      - left: "No concessions at all"
+        right: "Rigid, difficult to work with"
+    xp_reward: 25
+
+  - id: 70
+    type: matching
+    question: "Match the counteroffer phrase with its intent"
+    pairs:
+      - left: "We can't accept that, but here's what we can do"
+        right: "Polite rejection with alternative"
+      - left: "If you can move on X, we can move on Y"
+        right: "Conditional proposal"
+      - left: "We've come as far as we can on price"
+        right: "Signaling limit"
+      - left: "What would it take to get to your number?"
+        right: "Explore path to agreement"
+      - left: "Let's look at the whole package"
+        right: "Shift to integrative view"
+    xp_reward: 25
+
+  - id: 71
+    type: matching
+    question: "Match the counteroffer situation with the best response"
+    pairs:
+      - left: "Their offer is close to your target"
+        right: "Minor counteroffer, show goodwill"
+      - left: "Their offer is far from your target"
+        right: "Significant counteroffer with strong justification"
+      - left: "Their offer is below your walkaway"
+        right: "Counter or walk away"
+      - left: "Their offer is above your target"
+        right: "Consider accepting or minor adjustment"
+      - left: "You've made multiple counteroffers"
+        right: "Signal approaching final position"
+    xp_reward: 25
+
+  # FLASHCARDS (72-75)
+  - id: 72
+    type: flashcards
+    question: "Flashcards: Counteroffer Best Practices"
+    flashcards:
+      - front: "Always respond, don't ignore"
+        right: "Acknowledge every offer"
+      - front: "Provide counteroffer rationale"
+        right: "Explain why your number is reasonable"
+      - front: "Use conditional language"
+        right: "If you, then I"
+      - front: "Signal when you're nearing limit"
+        right: "This is our best offer"
+      - front: "Get something for every concession"
+        right: "Reciprocity is key"
+    xp_reward: 30
+
+  - id: 73
+    type: flashcards
+    question: "Flashcards: Concession Phrases"
+    flashcards:
+      - front: "We could potentially stretch to"
+        right: "Willing to increase offer"
+      - front: "If you agree to X, we can agree to Y"
+        right: "Trade concession"
+      - front: "We've moved as much as we can"
+        right: "Signaling bottom line"
+      - front: "This is a significant concession on our part"
+        right: "Highlight your movement"
+      - front: "We need to see movement from you"
+        right: "Request reciprocity"
+    xp_reward: 30
+
+  - id: 74
+    type: flashcards
+    question: "Flashcards: Handling Low Offers"
+    flashcards:
+      - front: "Don't react emotionally"
+        right: "Stay calm and professional"
+      - front: "Ask how they arrived at that number"
+        right: "Understand their reasoning"
+      - front: "Counter with justification"
+        right: "Explain why your number is right"
+      - front: "Use silence effectively"
+        right: "Let them fill the void"
+      - front: "Be prepared to walk away"
+        right: "Know your BATNA"
+    xp_reward: 30
+
+  - id: 75
+    type: flashcards
+    question: "Flashcards: Counteroffer Tactics"
+    flashcards:
+      - front: "Flincher"
+        right: "React visibly to anchor lower"
+      - front: "Reluctant seller/buyer"
+        right: "Show hesitation to concede"
+      - front: "Vice versa"
+        right: "Exchange concessions on different issues"
+      - front: "Higher authority"
+        right: "Need approval for concessions"
+      - front: "Good guy/bad guy"
+        right: "One tough, one reasonable (use cautiously)"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 4: REACHING AGREEMENTS (76-100)
+  # ============================================
+
+  # MULTIPLE CHOICE (76-83)
+  - id: 76
+    type: multiple_choice
+    question: "What is the best way to confirm an agreement verbally?"
+    options:
+      - "Just shake hands and leave"
+      - "Let me summarize what we've agreed: [list points]. Do I have that right?"
+      - "Whatever you say"
+      - "We're done"
+    answer: "Let me summarize what we've agreed: [list points]. Do I have that right?"
+    xp_reward: 15
+
+  - id: 77
+    type: multiple_choice
+    question: "Why is it important to document agreements in writing?"
+    options:
+      - "To waste paper"
+      - "To prevent misunderstandings and provide a reference"
+      - "To confuse people"
+      - "To make the negotiation longer"
+    answer: "To prevent misunderstandings and provide a reference"
+    xp_reward: 15
+
+  - id: 78
+    type: multiple_choice
+    question: "What is a 'letter of intent' (LOI)?"
+    options:
+      - "A letter saying you intend to do something"
+      - "A non-binding document outlining preliminary agreement terms"
+      - "A binding contract"
+      - "A rejection letter"
+    answer: "A non-binding document outlining preliminary agreement terms"
+    xp_reward: 15
+
+  - id: 79
+    type: multiple_choice
+    question: "What is a 'memorandum of understanding' (MOU)?"
+    options:
+      - "A formal document outlining the broad terms of an agreement"
+      - "A memo about understanding"
+      - "A binding contract"
+      - "A marketing document"
+    answer: "A formal document outlining the broad terms of an agreement"
+    xp_reward: 15
+
+  - id: 80
+    type: multiple_choice
+    question: "What should you do before signing any contract?"
+    options:
+      - "Sign immediately without reading"
+      - "Have it reviewed by legal counsel"
+      - "Assume everything is fine"
+      - "Ignore it"
+    answer: "Have it reviewed by legal counsel"
+    xp_reward: 15
+
+  - id: 81
+    type: multiple_choice
+    question: "What is a 'handshake deal' in business?"
+    options:
+      - "A deal made with a handshake"
+      - "An informal, verbal agreement based on trust"
+      - "A legally binding contract"
+      - "A type of greeting"
+    answer: "An informal, verbal agreement based on trust"
+    xp_reward: 15
+
+  - id: 82
+    type: multiple_choice
+    question: "What should you do if you need to walk away from a negotiation?"
+    options:
+      - "Storm out angrily"
+      - "Politely state that you cannot reach an agreement and leave the door open for future discussion"
+      - "Say nothing and just leave"
+      - "Blame the other party"
+    answer: "Politely state that you cannot reach an agreement and leave the door open for future discussion"
+    xp_reward: 15
+
+  - id: 83
+    type: multiple_choice
+    question: "What does 'closing the deal' mean?"
+    options:
+      - "Physically closing a door"
+      - "Finalizing the agreement and getting signatures"
+      - "Ending the conversation"
+      - "Rejecting the offer"
+    answer: "Finalizing the agreement and getting signatures"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (84-89)
+  - id: 84
+    type: fill_blank
+    question: "Complete the summary confirmation"
+    text_with_blank: "Let me ___ what we've agreed so far to ensure we're aligned."
+    options: ["summarize", "recap", "review", "repeat"]
+    correct_answer: "summarize"
+    xp_reward: 15
+
+  - id: 85
+    type: fill_blank
+    question: "Complete the agreement document statement"
+    text_with_blank: "I'll ___ a draft agreement for your review by tomorrow."
+    options: ["send", "provide", "share", "forward"]
+    correct_answer: "send"
+    xp_reward: 15
+
+  - id: 86
+    type: fill_blank
+    question: "Complete the final check"
+    text_with_blank: "Does this ___ reflect our understanding of the agreement?"
+    options: ["draft", "document", "summary", "recap"]
+    correct_answer: "draft"
+    xp_reward: 15
+
+  - id: 87
+    type: fill_blank
+    question: "Complete the walk-away statement"
+    text_with_blank: "It seems we're too far apart to reach an agreement today. Perhaps we can ___ this in the future."
+    options: ["revisit", "discuss again", "reopen", "reconsider"]
+    correct_answer: "revisit"
+    xp_reward: 15
+
+  - id: 88
+    type: fill_blank
+    question: "Complete the closing statement"
+    text_with_blank: "We have a ___ . Let's get this documented and signed."
+    options: ["deal", "agreement", "understanding", "commitment"]
+    correct_answer: "deal"
+    xp_reward: 15
+
+  - id: 89
+    type: fill_blank
+    question: "Complete the post-agreement phrase"
+    text_with_blank: "It's been a ___ working with you on this."
+    options: ["pleasure", "honor", "privilege", "joy"]
+    correct_answer: "pleasure"
+    xp_reward: 15
+
+  # TRUE / FALSE (90-92)
+  - id: 90
+    type: true_false
+    question: "Is this statement true or false? A verbal agreement is legally binding in many jurisdictions."
+    statement: "A verbal agreement is legally binding in many jurisdictions."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 91
+    type: true_false
+    question: "Is this statement true or false? You should celebrate and acknowledge the other party's cooperation after reaching an agreement."
+    statement: "You should celebrate and acknowledge the other party's cooperation after reaching an agreement."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 92
+    type: true_false
+    question: "Is this statement true or false? It is acceptable to change terms after a verbal agreement is reached."
+    statement: "It is acceptable to change terms after a verbal agreement is reached."
+    correct_answer: false
+    xp_reward: 10
+
+  # MATCHING (93-96)
+  - id: 93
+    type: matching
+    question: "Match the agreement document with its purpose"
+    pairs:
+      - left: "Letter of Intent (LOI)"
+        right: "Non-binding outline of proposed terms"
+      - left: "Memorandum of Understanding (MOU)"
+        right: "Broad agreement framework, often non-binding"
+      - left: "Term sheet"
+        right: "Key economic terms, non-binding"
+      - left: "Heads of Agreement"
+        right: "Preliminary agreement before final contract"
+      - left: "Final contract"
+        right: "Legally binding, detailed agreement"
+    xp_reward: 25
+
+  - id: 94
+    type: matching
+    question: "Match the closing sign with its meaning"
+    pairs:
+      - left: "We have a meeting of the minds"
+        right: "Both parties understand and agree"
+      - left: "Let's put this in writing"
+        right: "Time to document"
+      - left: "We're aligned on the major points"
+        right: "Framework agreement reached"
+      - left: "We've got a deal"
+        right: "Final agreement reached"
+      - left: "Let's shake on it"
+        right: "Traditional closing gesture"
+    xp_reward: 25
+
+  - id: 95
+    type: matching
+    question: "Match the agreement obstacle with the solution"
+    pairs:
+      - left: "One final point of disagreement"
+        right: "Compromise on that point or set aside"
+      - left: "Legal concerns about wording"
+        right: "Involve legal counsel to review"
+      - left: "Authority to sign not present"
+        right: "Escalate to decision-maker"
+      - left: "Timing of implementation"
+        right: "Agree on phased approach"
+      - left: "Post-agreement concerns"
+        right: "Build in review and adjustment mechanisms"
+    xp_reward: 25
+
+  - id: 96
+    type: matching
+    question: "Match the walk-away phrase with the situation"
+    pairs:
+      - left: "We're too far apart"
+        right: "Price or terms gap cannot be bridged"
+      - left: "I need to consult with my team"
+        right: "Need time or authority to decide"
+      - left: "This isn't the right time for us"
+        right: "Timing issue, not deal issue"
+      - left: "Let's agree to disagree"
+        right: "Accept impasse respectfully"
+      - left: "I'm going to pursue other options"
+        right: "Exercise BATNA, not dead forever"
+    xp_reward: 25
+
+  # FLASHCARDS (97-100)
+  - id: 97
+    type: flashcards
+    question: "Flashcards: Closing Phrases"
+    flashcards:
+      - front: "We have an agreement"
+        right: "Final confirmation"
+      - front: "I'm comfortable moving forward"
+        right: "Personal commitment"
+      - front: "Let's sign the paperwork"
+        right: "Next action step"
+      - front: "Congratulations on the deal"
+        right: "Positive acknowledgment"
+      - front: "I look forward to working with you"
+        right: "Relationship forward"
+    xp_reward: 30
+
+  - id: 98
+    type: flashcards
+    question: "Flashcards: Post-Agreement Actions"
+    flashcards:
+      - front: "Document in writing"
+        right: "Draft and review contract"
+      - front: "Obtain signatures"
+        right: "Formalize agreement"
+      - front: "Share with relevant teams"
+        right: "Internal communication"
+      - front: "Schedule implementation kickoff"
+        right: "Begin execution phase"
+      - front: "Set follow-up checkpoints"
+        right: "Monitor progress"
+    xp_reward: 30
+
+  - id: 99
+    type: flashcards
+    question: "Flashcards: Agreement Confirmation"
+    flashcards:
+      - front: "Let me send a confirmation email"
+        right: "Document verbal agreement"
+      - front: "Please confirm receipt of these terms"
+        right: "Acknowledge receipt"
+      - front: "I'll have legal review the final draft"
+        right: "Compliance check"
+      - front: "When can we expect the signed copy?"
+        right: "Timeline expectation"
+      - front: "Thank you for your collaboration"
+        right: "Positive closing"
+    xp_reward: 30
+
+  - id: 100
+    type: flashcards
+    question: "Flashcards: No-Deal Phrases"
+    flashcards:
+      - front: "We'll have to agree to disagree"
+        right: "Accept different positions"
+      - front: "Perhaps another time"
+        right: "Future possibility"
+      - front: "I appreciate your time regardless"
+        right: "Respectful regardless of outcome"
+      - front: "Let's keep the door open"
+        right: "No hard feelings"
+      - front: "I'll reach out if our situation changes"
+        right: "Reopen possibility"
+    xp_reward: 30
+
+  # ============================================
+  # SECTION 5: CONTRACT DISCUSSIONS (101-115)
+  # ============================================
+
+  # MULTIPLE CHOICE (101-107)
+  - id: 101
+    type: multiple_choice
+    question: "What is a 'force majeure' clause in a contract?"
+    options:
+      - "A clause about military force"
+      - "A clause excusing performance due to unforeseen, uncontrollable events"
+      - "A clause about payment terms"
+      - "A clause about confidentiality"
+    answer: "A clause excusing performance due to unforeseen, uncontrollable events"
+    xp_reward: 15
+
+  - id: 102
+    type: multiple_choice
+    question: "What is a 'confidentiality agreement' also known as?"
+    options:
+      - "A public statement"
+      - "An NDA (Non-Disclosure Agreement)"
+      - "A marketing document"
+      - "A termination notice"
+    answer: "An NDA (Non-Disclosure Agreement)"
+    xp_reward: 15
+
+  - id: 103
+    type: multiple_choice
+    question: "What does 'indemnification' mean in a contract?"
+    options:
+      - "Making payments on time"
+      - "One party agreeing to compensate the other for certain losses or damages"
+      - "Ending the contract early"
+      - "Renewing the contract automatically"
+    answer: "One party agreeing to compensate the other for certain losses or damages"
+    xp_reward: 15
+
+  - id: 104
+    type: multiple_choice
+    question: "What is a 'termination clause'?"
+    options:
+      - "A clause that ends the contract immediately"
+      - "A clause specifying how and when the contract can be ended"
+      - "A clause about killing contracts"
+      - "A clause about holidays"
+    answer: "A clause specifying how and when the contract can be ended"
+    xp_reward: 15
+
+  - id: 105
+    type: multiple_choice
+    question: "What does 'governing law' refer to in a contract?"
+    options:
+      - "The law that applies to the contract"
+      - "The government's role in the contract"
+      - "The rules of governance"
+      - "The law of gravity"
+    answer: "The law that applies to the contract"
+    xp_reward: 15
+
+  - id: 106
+    type: multiple_choice
+    question: "What is a 'renewal clause'?"
+    options:
+      - "A clause that ends the contract"
+      - "A clause specifying terms for extending the contract"
+      - "A clause about new products"
+      - "A clause about returning items"
+    answer: "A clause specifying terms for extending the contract"
+    xp_reward: 15
+
+  - id: 107
+    type: multiple_choice
+    question: "What is the purpose of a 'dispute resolution clause'?"
+    options:
+      - "To create disputes"
+      - "To outline how disputes will be handled (mediation, arbitration, litigation)"
+      - "To ignore disputes"
+      - "To end disputes without resolution"
+    answer: "To outline how disputes will be handled (mediation, arbitration, litigation)"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (108-111)
+  - id: 108
+    type: fill_blank
+    question: "Complete the confidentiality discussion"
+    text_with_blank: "Before we share detailed information, we'll need you to sign an ___."
+    options: ["NDA", "confidentiality agreement", "non-disclosure agreement", "privacy agreement"]
+    correct_answer: "NDA"
+    xp_reward: 15
+
+  - id: 109
+    type: fill_blank
+    question: "Complete the termination discussion"
+    text_with_blank: "Either party may ___ this agreement with 30 days written notice."
+    options: ["terminate", "end", "cancel", "conclude"]
+    correct_answer: "terminate"
+    xp_reward: 15
+
+  - id: 110
+    type: fill_blank
+    question: "Complete the force majeure discussion"
+    text_with_blank: "Neither party will be liable for delays ___ beyond their reasonable control."
+    options: ["caused by events", "due to circumstances", "resulting from", "arising from"]
+    correct_answer: "caused by events"
+    xp_reward: 15
+
+  - id: 111
+    type: fill_blank
+    question: "Complete the indemnification statement"
+    text_with_blank: "The vendor shall indemnify and hold the client ___ from any third-party claims."
+    options: ["harmless", "safe", "protected", "secure"]
+    correct_answer: "harmless"
+    xp_reward: 15
+
+  # TRUE / FALSE (112-113)
+  - id: 112
+    type: true_false
+    question: "Is this statement true or false? Verbal agreements are never legally binding, even in contract discussions."
+    statement: "Verbal agreements are never legally binding, even in contract discussions."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Is this statement true or false? It is wise to have a lawyer review any significant contract before signing."
+    statement: "It is wise to have a lawyer review any significant contract before signing."
+    correct_answer: true
+    xp_reward: 10
+
+  # MATCHING (114-115)
+  - id: 114
+    type: matching
+    question: "Match the contract clause with its purpose"
+    pairs:
+      - left: "Non-disclosure (NDA)"
+        right: "Protects confidential information"
+      - left: "Non-compete"
+        right: "Restricts competition after contract ends"
+      - left: "Non-solicit"
+        right: "Prevents poaching employees or clients"
+      - left: "Exclusivity"
+        right: "Prevents working with competitors"
+      - left: "Most favored nation"
+        right: "Ensures best pricing"
+    xp_reward: 25
+
+  - id: 115
+    type: matching
+    question: "Match the contract phrase with its meaning"
+    pairs:
+      - left: "Subject to contract"
+        right: "Agreement is not final until written contract signed"
+      - left: "Without prejudice"
+        right: "Negotiation offers cannot be used in court"
+      - left: "Binding in honor only"
+        right: "Morally but not legally binding"
+      - left: "Entire agreement"
+        right: "Contract supersedes all previous discussions"
+      - left: "Severability"
+        right: "If one clause invalid, rest remains"
+    xp_reward: 25
+
+  # ============================================
+  # SECTION 6: PRICING DISCUSSIONS (116-125)
+  # ============================================
+
+  # MULTIPLE CHOICE (116-120)
+  - id: 116
+    type: multiple_choice
+    question: "What is 'value-based pricing'?"
+    options:
+      - "Pricing based on the cost of materials"
+      - "Pricing based on the perceived value to the customer"
+      - "Pricing based on what competitors charge"
+      - "Pricing based on what you want to earn"
+    answer: "Pricing based on the perceived value to the customer"
+    xp_reward: 15
+
+  - id: 117
+    type: multiple_choice
+    question: "What is 'volume discount'?"
+    options:
+      - "A discount for small volumes"
+      - "A reduced price for purchasing larger quantities"
+      - "A discount on volume measurements"
+      - "A discount that changes volume"
+    answer: "A reduced price for purchasing larger quantities"
+    xp_reward: 15
+
+  - id: 118
+    type: multiple_choice
+    question: "What does 'payment terms net 30' mean?"
+    options:
+      - "Pay 30% now"
+      - "Pay within 30 days of invoice"
+      - "Pay $30"
+      - "Pay after 30 months"
+    answer: "Pay within 30 days of invoice"
+    xp_reward: 15
+
+  - id: 119
+    type: multiple_choice
+    question: "What is a 'price escalation clause'?"
+    options:
+      - "A clause that lowers prices over time"
+      - "A clause allowing price increases based on certain conditions"
+      - "A clause that escalates the negotiation"
+      - "A clause about elevator prices"
+    answer: "A clause allowing price increases based on certain conditions"
+    xp_reward: 15
+
+  - id: 120
+    type: multiple_choice
+    question: "What is the best way to discuss price when the customer says 'It's too expensive'?"
+    options:
+      - "Agree and lower the price immediately"
+      - "Acknowledge their concern, reinforce value, then discuss options"
+      - "Argue that it's actually cheap"
+      - "Walk away"
+    answer: "Acknowledge their concern, reinforce value, then discuss options"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (121-123)
+  - id: 121
+    type: fill_blank
+    question: "Complete the value justification"
+    text_with_blank: "While the upfront cost is higher, the long-term ___ makes this a sound investment."
+    options: ["value", "savings", "return", "benefit"]
+    correct_answer: "value"
+    xp_reward: 15
+
+  - id: 122
+    type: fill_blank
+    question: "Complete the volume discount offer"
+    text_with_blank: "If you increase your order to 1,000 units, we can offer a 15% volume ___."
+    options: ["discount", "reduction", "break", "allowance"]
+    correct_answer: "discount"
+    xp_reward: 15
+
+  - id: 123
+    type: fill_blank
+    question: "Complete the payment terms statement"
+    text_with_blank: "Our standard payment terms are net 30, but we could ___ to net 45 for a long-term partner."
+    options: ["extend", "stretch", "expand", "lengthen"]
+    correct_answer: "extend"
+    xp_reward: 15
+
+  # MATCHING (124-125)
+  - id: 124
+    type: matching
+    question: "Match the pricing term with its definition"
+    pairs:
+      - left: "Unit price"
+        right: "Cost per single item"
+      - left: "Tiered pricing"
+        right: "Different prices based on quantity brackets"
+      - left: "Dynamic pricing"
+        right: "Prices change based on demand or other factors"
+      - left: "Promotional pricing"
+        right: "Temporary price reduction"
+      - left: "Bundle pricing"
+        right: "Multiple products sold together at discount"
+    xp_reward: 25
+
+  - id: 125
+    type: matching
+    question: "Match the payment term with its meaning"
+    pairs:
+      - left: "Net 30"
+        right: "Full payment due in 30 days"
+      - left: "2/10 Net 30"
+        right: "2% discount if paid in 10 days, otherwise net 30"
+      - left: "COD"
+        right: "Cash on delivery"
+      - left: "Prepayment"
+        right: "Payment required before delivery"
+      - left: "Milestone payments"
+        right: "Payments tied to project stages"
+    xp_reward: 25
+
+  # ============================================
+  # SECTION 7: CONFLICT RESOLUTION (126-130)
+  # ============================================
+
+  # MULTIPLE CHOICE (126-128)
+  - id: 126
+    type: multiple_choice
+    question: "What is the first step in resolving a negotiation conflict?"
+    options:
+      - "Get angry"
+      - "Blame the other party"
+      - "Identify the root cause of the conflict"
+      - "Walk away"
+    answer: "Identify the root cause of the conflict"
+    xp_reward: 15
+
+  - id: 127
+    type: multiple_choice
+    question: "What is 'mediation' in conflict resolution?"
+    options:
+      - "A type of meditation"
+      - "A neutral third party helps facilitate a resolution without making a binding decision"
+      - "A legally binding arbitration process"
+      - "A court proceeding"
+    answer: "A neutral third party helps facilitate a resolution without making a binding decision"
+    xp_reward: 15
+
+  - id: 128
+    type: multiple_choice
+    question: "What is the difference between mediation and arbitration?"
+    options:
+      - "They are the same thing"
+      - "Mediation is non-binding; arbitration is binding"
+      - "Arbitration is non-binding; mediation is binding"
+      - "Mediation involves lawyers; arbitration does not"
+    answer: "Mediation is non-binding; arbitration is binding"
+    xp_reward: 15
+
+  # FILL IN THE BLANK (129)
+  - id: 129
+    type: fill_blank
+    question: "Complete the conflict resolution opening"
+    text_with_blank: "It seems we have a ___ on this point. Let's step back and understand each other's concerns."
+    options: ["disagreement", "conflict", "difference", "misalignment"]
+    correct_answer: "disagreement"
+    xp_reward: 15
+
+  # TIMED CHALLENGE (130)
+  - id: 130
+    type: timed_challenge
+    title: "Lightning Round: Business Negotiation Review"
+    time_limit_seconds: 45
+    questions_count: 8
+    questions:
+      - question: "What does BATNA stand for"
+        answer: "Best Alternative To Negotiated Agreement"
+      - question: "What does ZOPA stand for"
+        answer: "Zone of Possible Agreement"
+      - question: "Best strategy for first offer"
+        answer: "Anchor high with justification"
+      - question: "Pattern for concession sizes"
+        answer: "Each concession smaller"
+      - question: "What to do after reaching verbal agreement"
+        answer: "Summarize and document"
+      - question: "What NDA stands for"
+        answer: "Non-Disclosure Agreement"
+      - question: "What net 30 means"
+        answer: "Pay within 30 days"
+      - question: "Difference between mediation and arbitration"
+        answer: "Mediation non-binding arbitration binding"
+    xp_reward: 50

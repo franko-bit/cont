@@ -1,0 +1,1028 @@
+lesson:
+ name: "Conditionals - Imyitwarire y'Ahazaza"
+ description: "Leer how naar express conditions en possibilities in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Woordenschat ONLY (Safe voor single words/phrases)
+ # Basic Conditional Words
+ - id: 1
+ type: translation
+ Vraag: "Hoe zeg je 'If' in het Kinyarwanda?"
+ Antwoord: "Niba"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Vraag: "Hoe zeg je 'When' in het Kinyarwanda?"
+ Antwoord: "Iyo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Vraag: "Hoe zeg je 'Unless' in het Kinyarwanda?"
+ Antwoord: "Keretse"
+ note: "Also expressed een 'Nti... niba'"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ Vraag: "Hoe zeg je 'Then' in het Kinyarwanda?"
+ Antwoord: "Hanyuma"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Vraag: "Hoe zeg je 'Might' in het Kinyarwanda?"
+ Antwoord: "Ashobora"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Vraag: "Hoe zeg je 'Will' in het Kinyarwanda?"
+ Antwoord: "Azakora"
+ note: "Also 'Azaba' depending op context"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Vraag: "Hoe zeg je 'Would' in het Kinyarwanda?"
+ Antwoord: "Byaba"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Vraag: "Hoe zeg je 'Could' in het Kinyarwanda?"
+ Antwoord: "Bashobora"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Vraag: "Hoe zeg je 'Should' in het Kinyarwanda?"
+ Antwoord: "Bikwiye"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Vraag: "Hoe zeg je 'Can' in het Kinyarwanda?"
+ Antwoord: "Ashobora"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Vraag: "Hoe zeg je 'Impossible' in het Kinyarwanda?"
+ Antwoord: "Ntibishoboka"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Vraag: "Hoe zeg je 'Possible' in het Kinyarwanda?"
+ Antwoord: "Birashoboka"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Vraag: "Hoe zeg je 'Before' in het Kinyarwanda?"
+ Antwoord: "Mbere y'uko"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Vraag: "Hoe zeg je 'After' in het Kinyarwanda?"
+ Antwoord: "Nyuma y'uko"
+ xp_reward: 15
+
+ - id: 15
+ type: translation
+ Vraag: "Hoe zeg je 'Always' in het Kinyarwanda?"
+ Antwoord: "Buri gihe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Vraag: "Hoe zeg je 'Never' in het Kinyarwanda?"
+ Antwoord: "Nta na rimwe"
+ xp_reward: 10
+
+ # Translation - Common Conditional Phrases
+ - id: 17
+ type: translation
+ Vraag: "Hoe zeg je 'If it rains, I will stay home' in het Kinyarwanda?"
+ Antwoord: "Niba imvura iguye, nzaguma mu rugo."
+ xp_reward: 20
+
+ - id: 18
+ type: translation
+ Vraag: "Hoe zeg je 'If I gaan naar Kigali, I will visit my friend' in het Kinyarwanda?"
+ Antwoord: "Niba ngiye i Kigali, nzasura inshuti yanjye."
+ xp_reward: 20
+
+ - id: 19
+ type: translation
+ Vraag: "Hoe zeg je 'If you study, you will succeed' in het Kinyarwanda?"
+ Antwoord: "Niba wiga, uzatsinda."
+ xp_reward: 18
+
+ - id: 20
+ type: translation
+ Vraag: "Hoe zeg je 'If he komen, we will start de meeting' in het Kinyarwanda?"
+ Antwoord: "Niba aje, tuzatangira inama."
+ xp_reward: 20
+
+ - id: 21
+ type: translation
+ Vraag: "Hoe zeg je 'Unless you hurry, you will miss de bus' in het Kinyarwanda?"
+ Antwoord: "Ntiwihutira, uzacika bisi."
+ xp_reward: 20
+
+ - id: 22
+ type: translation
+ Vraag: "Hoe zeg je 'If I had money, I would buy een car' in het Kinyarwanda?"
+ Antwoord: "Niba nari mfite amafaranga, nari kugura imodoka."
+ xp_reward: 22
+
+ - id: 23
+ type: translation
+ Vraag: "Hoe zeg je 'If she waren here, she could help' in het Kinyarwanda?"
+ Antwoord: "Iyo yari hano, yashoboraga gufasha."
+ xp_reward: 22
+
+ - id: 24
+ type: translation
+ Vraag: "Hoe zeg je 'I would Reizen if I had more time' in het Kinyarwanda?"
+ Antwoord: "Nari gutembera iyo nari mfite igihe kinini."
+ xp_reward: 22
+
+ - id: 25
+ type: translation
+ Vraag: "Hoe zeg je 'You should eten before leaving' in het Kinyarwanda?"
+ Antwoord: "Bikwiye ko urya mbere yo kugenda."
+ xp_reward: 20
+
+ - id: 26
+ type: translation
+ Vraag: "Hoe zeg je 'If it is possible, I will komen Morgen' in het Kinyarwanda?"
+ Antwoord: "Niba bishoboka, nzaza ejo."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 27
+ type: multiple_choice
+ Vraag: "Wat betekent 'Niba' in deze zin?"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ - "After"
+ Antwoord: "If"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ Vraag: "Wat betekent 'Iyo' in deze zin?"
+ options:
+ - "If"
+ - "When"
+ - "Then"
+ - "Before"
+ Antwoord: "When"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ Vraag: "Wat betekent 'Hanyuma' in deze zin?"
+ options:
+ - "Before"
+ - "After"
+ - "Then"
+ - "When"
+ Antwoord: "Then"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Vraag: "Wat betekent 'Birashoboka' in deze zin?"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ - "Never"
+ Antwoord: "Possible"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Vraag: "Wat betekent 'Ntibishoboka' in deze zin?"
+ options:
+ - "Possible"
+ - "Impossible"
+ - "Always"
+ - "Never"
+ Antwoord: "Impossible"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Vraag: "Wat betekent 'Buri gihe' in deze zin?"
+ options:
+ - "Never"
+ - "Always"
+ - "Sometimes"
+ - "Often"
+ Antwoord: "Always"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Vraag: "Wat betekent 'Nta na rimwe' in deze zin?"
+ options:
+ - "Always"
+ - "Sometimes"
+ - "Never"
+ - "Often"
+ Antwoord: "Never"
+ xp_reward: 15
+
+ # 3. Luister en Type (Dictation)
+ - id: 34
+ type: listen_en_type
+ Vraag: "Luister en type de word"
+ audio: "Niba"
+ Antwoord: "Niba"
+ translation: "If"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_en_type
+ Vraag: "Luister en type de word"
+ audio: "Iyo"
+ Antwoord: "Iyo"
+ translation: "When"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_en_type
+ Vraag: "Luister en type de word"
+ audio: "Birashoboka"
+ Antwoord: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ audio: "Niba imvura iguye nzaguma mu rugo"
+ Antwoord: "Niba imvura iguye nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ audio: "Niba wiga uzatsinda"
+ Antwoord: "Niba wiga uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 22
+
+ - id: 39
+ type: listen_en_type
+ Vraag: "Luister en type de phrase"
+ audio: "Niba bishoboka nzaza ejo"
+ Antwoord: "Niba bishoboka nzaza ejo"
+ translation: "If it is possible, I will komen Morgen"
+ xp_reward: 22
+
+ # 4. Luister en Kies
+ - id: 40
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct word"
+ audio: "Niba"
+ options:
+ - "When"
+ - "If"
+ - "Then"
+ Antwoord: "If"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct word"
+ audio: "Birashoboka"
+ options:
+ - "Impossible"
+ - "Possible"
+ - "Always"
+ Antwoord: "Possible"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct phrase"
+ audio: "Niba wiga, uzatsinda"
+ options:
+ - "If you study, you will succeed"
+ - "If it rains, I will stay home"
+ - "If it is possible, I will komen"
+ Antwoord: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 43
+ type: listen_en_choose
+ Vraag: "Luister en Kies de correct phrase"
+ audio: "Niba bishoboka, nzaza ejo"
+ options:
+ - "If it rains, I will stay home"
+ - "If it is possible, I will komen Morgen"
+ - "If you study, you will succeed"
+ Antwoord: "If it is possible, I will komen Morgen"
+ xp_reward: 18
+
+ # 5. Repeat / Praat Exercise
+ - id: 44
+ type: Praat
+ Vraag: "Say dit word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 45
+ type: Praat
+ Vraag: "Say dit word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 46
+ type: Praat
+ Vraag: "Say dit phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 20
+
+ - id: 47
+ type: Praat
+ Vraag: "Say dit phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 48
+ type: Praat
+ Vraag: "Say dit phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will komen Morgen"
+ xp_reward: 18
+
+ # 6. Word Bank Zin Building - PIECES PROVIDED
+ - id: 49
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo", "nzaza"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ xp_reward: 22
+
+ - id: 50
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'If I gaan naar Kigali, I will visit my friend'"
+ word_bank: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ correct_answer: ["Niba", "ngiye", "i Kigali", "nzasura", "inshuti", "yanjye"]
+ xp_reward: 25
+
+ - id: 51
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira", "inama"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'If he komen, we will start de meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga", "uzatsinda"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ xp_reward: 22
+
+ - id: 53
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'If I had money, I would buy een car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ xp_reward: 28
+
+ - id: 54
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'If she waren here, she could help'"
+ word_bank: ["Iyo", "yari", "hano", "yashoboraga", "gufasha", "aje"]
+ correct_answer: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ xp_reward: 25
+
+ - id: 55
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'You should eten before leaving'"
+ word_bank: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda", "nyuma"]
+ correct_answer: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ xp_reward: 22
+
+ - id: 56
+ type: word_bank
+ Vraag: "Build de Kinyarwanda Zin voor 'If it is possible, I will komen Morgen'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura", "iguye"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 18
+
+ # 7. Zin Scramble - PIECES PROVIDED
+ - id: 57
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ translation: "If it rains, I will stay home."
+ xp_reward: 22
+
+ - id: 58
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Niba", "wiga", "uzatsinda"]
+ correct_sentence: "Niba wiga, uzatsinda."
+ translation: "If you study, you will succeed."
+ xp_reward: 18
+
+ - id: 59
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Niba", "aje", "tuzatangira", "inama"]
+ correct_sentence: "Niba aje, tuzatangira inama."
+ translation: "If he komen, we will start de meeting."
+ xp_reward: 22
+
+ - id: 60
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Ntiwihutira", "uzacika", "bisi"]
+ correct_sentence: "Ntiwihutira, uzacika bisi."
+ translation: "Unless you hurry, you will miss de bus."
+ xp_reward: 20
+
+ - id: 61
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Iyo", "yari", "hano", "yashoboraga", "gufasha"]
+ correct_sentence: "Iyo yari hano, yashoboraga gufasha."
+ translation: "If she waren here, she could help."
+ xp_reward: 25
+
+ - id: 62
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Bikwiye", "ko", "urya", "mbere", "yo", "kugenda"]
+ correct_sentence: "Bikwiye ko urya mbere yo kugenda."
+ translation: "You should eten before leaving."
+ xp_reward: 22
+
+ - id: 63
+ type: sentence_scramble
+ Vraag: "Arrange these words naar form een correct Zin"
+ scrambled_words: ["Niba", "bishoboka", "nzaza", "ejo"]
+ correct_sentence: "Niba bishoboka, nzaza ejo."
+ translation: "If it is possible, I will komen Morgen."
+ xp_reward: 18
+
+ # 8. Fill in de Blank - Kies FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "___ imvura iguye, nzaguma mu rugo."
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Niba wiga, ___."
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Niba aje, tuzatangira ___."
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he komen, we will start de meeting."
+ xp_reward: 18
+
+ - id: 67
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Ntiwihutira, ___ bisi."
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss de bus."
+ xp_reward: 18
+
+ - id: 68
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Iyo yari hano, yashoboraga ___."
+ options: ["gufasha", "kwiga", "kurya"]
+ correct_answer: "gufasha"
+ translation: "If she waren here, she could help."
+ xp_reward: 18
+
+ - id: 69
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Bikwiye ko urya ___ yo kugenda."
+ options: ["mbere", "nyuma", "hanyuma"]
+ correct_answer: "mbere"
+ translation: "You should eten before leaving."
+ xp_reward: 18
+
+ - id: 70
+ type: fill_blank
+ Vraag: "Complete de Zin"
+ text_met_blank: "Niba bishoboka, nzaza ___."
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will komen Morgen."
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 71
+ type: picture_word
+ Vraag: "Wat betekent dit image represent?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Izuba", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Vraag: "Wat betekent dit image represent?"
+ image_url: "https://source.unsplash.com/featured/?studying"
+ options: ["Kwiga", "Gukora", "Kurya"]
+ correct_answer: "Kwiga"
+ xp_reward: 10
+
+ - id: 73
+ type: picture_word
+ Vraag: "Wat betekent dit image represent?"
+ image_url: "https://source.unsplash.com/featured/?money"
+ options: ["Amafaranga", "Igitabo", "Inzu"]
+ correct_answer: "Amafaranga"
+ xp_reward: 10
+
+ - id: 74
+ type: picture_word
+ Vraag: "Wat betekent dit image represent?"
+ image_url: "https://source.unsplash.com/featured/?car"
+ options: ["Imodoka", "Bisi", "Igare"]
+ correct_answer: "Imodoka"
+ xp_reward: 10
+
+ - id: 75
+ type: picture_word
+ Vraag: "Wat betekent dit image represent?"
+ image_url: "https://source.unsplash.com/featured/?helping"
+ options: ["Gufasha", "Kurira", "Guseka"]
+ correct_answer: "Gufasha"
+ xp_reward: 10
+
+ - id: 76
+ type: picture_word
+ Vraag: "Wat betekent dit image represent?"
+ image_url: "https://source.unsplash.com/featured/?bus"
+ options: ["Bisi", "Imodoka", "Indege"]
+ correct_answer: "Bisi"
+ xp_reward: 10
+
+ # 10. Word Koppel (Pairing)
+ - id: 77
+ type: Koppel
+ Vraag: "Koppel de conditional words"
+ pairs:
+ - Links: "If"
+ Rechts: "Niba"
+ - Links: "When"
+ Rechts: "Iyo"
+ - Links: "Then"
+ Rechts: "Hanyuma"
+ - Links: "Before"
+ Rechts: "Mbere y'uko"
+ - Links: "After"
+ Rechts: "Nyuma y'uko"
+ - Links: "Always"
+ Rechts: "Buri gihe"
+ - Links: "Never"
+ Rechts: "Nta na rimwe"
+ - Links: "Possible"
+ Rechts: "Birashoboka"
+ - Links: "Impossible"
+ Rechts: "Ntibishoboka"
+ xp_reward: 25
+
+ - id: 78
+ type: Koppel
+ Vraag: "Koppel de modal verbs"
+ pairs:
+ - Links: "Might"
+ Rechts: "Ashobora"
+ - Links: "Will"
+ Rechts: "Azakora"
+ - Links: "Would"
+ Rechts: "Byaba"
+ - Links: "Could"
+ Rechts: "Bashobora"
+ - Links: "Should"
+ Rechts: "Bikwiye"
+ - Links: "Can"
+ Rechts: "Ashobora"
+ xp_reward: 20
+
+ - id: 79
+ type: Koppel
+ Vraag: "Koppel de Zin halves"
+ pairs:
+ - Links: "Niba imvura iguye"
+ Rechts: "nzaguma mu rugo"
+ - Links: "Niba wiga"
+ Rechts: "uzatsinda"
+ - Links: "Niba aje"
+ Rechts: "tuzatangira inama"
+ - Links: "Niba bishoboka"
+ Rechts: "nzaza ejo"
+ - Links: "Niba ngiye i Kigali"
+ Rechts: "nzasura inshuti yanjye"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED een PER PREVIOUS PATTERN
+
+ # 12. Kies Missing Word
+ - id: 80
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "___ imvura iguye, nzaguma mu rugo."
+ missing_word_position: 1
+ options: ["Niba", "Iyo", "Hanyuma"]
+ correct_answer: "Niba"
+ translation: "If it rains, I will stay home."
+ xp_reward: 15
+
+ - id: 81
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Niba wiga, ___."
+ missing_word_position: 3
+ options: ["uzatsinda", "nzaza", "tuzatangira"]
+ correct_answer: "uzatsinda"
+ translation: "If you study, you will succeed."
+ xp_reward: 15
+
+ - id: 82
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Niba aje, tuzatangira ___."
+ missing_word_position: 4
+ options: ["inama", "ishuri", "umuhanda"]
+ correct_answer: "inama"
+ translation: "If he komen, we will start de meeting."
+ xp_reward: 18
+
+ - id: 83
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Ntiwihutira, ___ bisi."
+ missing_word_position: 2
+ options: ["uzacika", "uzafata", "uzabona"]
+ correct_answer: "uzacika"
+ translation: "Unless you hurry, you will miss de bus."
+ xp_reward: 18
+
+ - id: 84
+ type: choose_missing
+ Vraag: "Kies de missing word"
+ Zin: "Niba bishoboka, nzaza ___."
+ missing_word_position: 3
+ options: ["ejo", "uyu munsi", "ijoro"]
+ correct_answer: "ejo"
+ translation: "If it is possible, I will komen Morgen."
+ xp_reward: 15
+
+ # 13. Lees en Antwoord - Vraag based op text
+ - id: 85
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Niba imvura iguye, nzaguma mu rugo."
+ Vraag: "What will happen if it rains?"
+ options: ["I will gaan out", "I will stay home", "I will gaan naar School", "I will work"]
+ correct_answer: "I will stay home"
+ xp_reward: 15
+
+ - id: 86
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Niba wiga, uzatsinda."
+ Vraag: "What will happen if you study?"
+ options: ["You will fail", "You will succeed", "You will play", "You will sleep"]
+ correct_answer: "You will succeed"
+ xp_reward: 15
+
+ - id: 87
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Niba aje, tuzatangira inama."
+ Vraag: "When will they start de meeting?"
+ options: ["If he komen", "If it rains", "If she studies", "If they work"]
+ correct_answer: "If he komen"
+ xp_reward: 18
+
+ - id: 88
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Niba nari mfite amafaranga, nari kugura imodoka."
+ Vraag: "What would I buy if I had money?"
+ options: ["een Huis", "een car", "Eten", "Clothes"]
+ correct_answer: "een car"
+ xp_reward: 18
+
+ - id: 89
+ type: read_answer
+ Vraag: "Lees de text en Antwoord de Vraag"
+ text: "Niba bishoboka, nzaza ejo."
+ Vraag: "When will I komen if it is possible?"
+ options: ["Today", "Morgen", "Next week", "Never"]
+ correct_answer: "Morgen"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 90
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Niba means 'when'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 91
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Birashoboka means 'possible'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 92
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Niba wiga, uzatsinda means 'If you study, you will succeed'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 93
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Ntiwihutira, uzacika bisi means 'If you hurry, you will catch de bus'."
+ correct_answer: false
+ xp_reward: 15
+
+ - id: 94
+ type: true_false
+ Vraag: "is dit statement true of false?"
+ statement: "Buri gihe means 'never'."
+ correct_answer: false
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 95
+ type: conversation
+ Vraag: "Respond naar de Vraag by building een Zin"
+ bot_message: "Uzakora iki niba imvura iguye?"
+ translation: "What will you do if it rains?"
+ word_bank: ["Nzaguma", "mu rugo", "nzajya", "ku ishuri", "nzakora"]
+ correct_response: ["Nzaguma", "mu rugo"]
+ xp_reward: 18
+
+ - id: 96
+ type: conversation
+ Vraag: "Respond naar de Vraag"
+ bot_message: "Niba wiga, uzatsinda?"
+ translation: "If you study, will you succeed?"
+ options:
+ - "Yego, nzatsinda"
+ - "Oya, sinzatsinda"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzatsinda"
+ xp_reward: 15
+
+ - id: 97
+ type: conversation
+ Vraag: "Respond naar de Vraag by building een Zin"
+ bot_message: "Uzakora iki niba ufite amafaranga?"
+ translation: "What will you do if you have money?"
+ word_bank: ["Nzakora", "nzabona", "imodoka", "nzaguza", "inzu"]
+ correct_response: ["Nzakora", "nzabona", "imodoka"]
+ xp_reward: 20
+
+ - id: 98
+ type: conversation
+ Vraag: "Respond naar de Vraag"
+ bot_message: "Niba bishoboka, uzaza ejo?"
+ translation: "If it is possible, will you komen Morgen?"
+ options:
+ - "Yego, nzaza ejo"
+ - "Oya, sinzaza"
+ - "Ntibishoboka"
+ correct_response: "Yego, nzaza ejo"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Zin from pieces
+ - id: 99
+ type: story
+ title: "Plans en Conditions - Imigambi n'Imyitwarire"
+ story_intro: "Lees about different plans en conditions. Then build de Zin."
+ story_segments:
+ - text: "If it rains, I will stay home."
+ - text: "If you study, you will succeed."
+ - text: "If he komen, we will start de meeting."
+ - text: "If I had money, I would buy een car."
+ - text: "If it is possible, I will komen Morgen."
+ exercises:
+ - type: word_bank
+ Vraag: "Build 'If it rains, I will stay home'"
+ word_bank: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ correct_answer: ["Niba", "imvura", "iguye", "nzaguma", "mu rugo"]
+ - type: word_bank
+ Vraag: "Build 'If you study, you will succeed'"
+ word_bank: ["Niba", "wiga", "uzatsinda", "aje", "tuzatangira"]
+ correct_answer: ["Niba", "wiga", "uzatsinda"]
+ - type: word_bank
+ Vraag: "Build 'If he komen, we will start de meeting'"
+ word_bank: ["Niba", "aje", "tuzatangira", "inama", "wiga"]
+ correct_answer: ["Niba", "aje", "tuzatangira", "inama"]
+ - type: word_bank
+ Vraag: "Build 'If I had money, I would buy een car'"
+ word_bank: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ correct_answer: ["Niba", "nari", "mfite", "amafaranga", "nari", "kugura", "imodoka"]
+ - type: word_bank
+ Vraag: "Build 'If it is possible, I will komen Morgen'"
+ word_bank: ["Niba", "bishoboka", "nzaza", "ejo", "imvura"]
+ correct_answer: ["Niba", "bishoboka", "nzaza", "ejo"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 100
+ type: pronunciation
+ Vraag: "Say dit word"
+ prompt: "Niba"
+ translation: "If"
+ xp_reward: 15
+
+ - id: 101
+ type: pronunciation
+ Vraag: "Say dit word"
+ prompt: "Birashoboka"
+ translation: "Possible"
+ xp_reward: 15
+
+ - id: 102
+ type: pronunciation
+ Vraag: "Say dit phrase"
+ prompt: "Niba imvura iguye, nzaguma mu rugo"
+ translation: "If it rains, I will stay home"
+ xp_reward: 22
+
+ - id: 103
+ type: pronunciation
+ Vraag: "Say dit phrase"
+ prompt: "Niba wiga, uzatsinda"
+ translation: "If you study, you will succeed"
+ xp_reward: 18
+
+ - id: 104
+ type: pronunciation
+ Vraag: "Say dit phrase"
+ prompt: "Niba bishoboka, nzaza ejo"
+ translation: "If it is possible, I will komen Morgen"
+ xp_reward: 18
+
+ # 18. Identify Correct Meaning
+ - id: 105
+ type: identify_meaning
+ Vraag: "Wat betekent 'Niba' mean in dit Zin?"
+ context_sentence: "Niba imvura iguye, nzaguma mu rugo."
+ word: "Niba"
+ options: ["When", "If", "Then", "After"]
+ correct_answer: "If"
+ xp_reward: 15
+
+ - id: 106
+ type: identify_meaning
+ Vraag: "Wat betekent 'uzatsinda' mean in dit Zin?"
+ context_sentence: "Niba wiga, uzatsinda."
+ word: "uzatsinda"
+ options: ["you will fail", "you will succeed", "you will study", "you will work"]
+ correct_answer: "you will succeed"
+ xp_reward: 15
+
+ - id: 107
+ type: identify_meaning
+ Vraag: "Wat betekent 'tuzatangira' mean in dit Zin?"
+ context_sentence: "Niba aje, tuzatangira inama."
+ word: "tuzatangira"
+ options: ["we will finish", "we will start", "we will attend", "we will leave"]
+ correct_answer: "we will start"
+ xp_reward: 15
+
+ - id: 108
+ type: identify_meaning
+ Vraag: "Wat betekent 'bishoboka' mean in dit Zin?"
+ context_sentence: "Niba bishoboka, nzaza ejo."
+ word: "bishoboka"
+ options: ["it is possible", "it is impossible", "it is goed", "it is slecht"]
+ correct_answer: "it is possible"
+ xp_reward: 15
+
+ # 19. Speed Koppel
+ - id: 109
+ type: speed_Koppel
+ title: "Koppel Madness: Conditionals"
+ time_limit_seconds: 45
+ pairs:
+ - Links: "If"
+ Rechts: "Niba"
+ - Links: "When"
+ Rechts: "Iyo"
+ - Links: "Then"
+ Rechts: "Hanyuma"
+ - Links: "Possible"
+ Rechts: "Birashoboka"
+ - Links: "Impossible"
+ Rechts: "Ntibishoboka"
+ - Links: "Always"
+ Rechts: "Buri gihe"
+ - Links: "Never"
+ Rechts: "Nta na rimwe"
+ - Links: "Before"
+ Rechts: "Mbere y'uko"
+ - Links: "After"
+ Rechts: "Nyuma y'uko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 110
+ type: timed_challenge
+ title: "Lightning Round: Conditionals"
+ time_limit_seconds: 30
+ Vraag_count: 5
+ Vraag:
+ - Vraag: "If"
+ Antwoord: "Niba"
+ - Vraag: "When"
+ Antwoord: "Iyo"
+ - Vraag: "Possible"
+ Antwoord: "Birashoboka"
+ - Vraag: "Always"
+ Antwoord: "Buri gihe"
+ - Vraag: "Never"
+ Antwoord: "Nta na rimwe"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Vraag: "Flashcards"
+ Flashcards:
+ - front: "Niba"
+ back: "If"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Iyo"
+ back: "When"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Keretse"
+ back: "Unless"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Hanyuma"
+ back: "Then"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Might"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Azakora"
+ back: "Will"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Byaba"
+ back: "Would"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Bashobora"
+ back: "Could"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Bikwiye"
+ back: "Should"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ashobora"
+ back: "Can"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

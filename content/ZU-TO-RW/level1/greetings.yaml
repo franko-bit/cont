@@ -1,0 +1,1097 @@
+lesson:
+ name: "Greetings - Amakuru"
+ description: "Funda common greetings and expressions in Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Single Greetings ONLY (Safe for single words/phrases)
+ - id: 1
+ type: translation
+ Umbuzo: "Usho kanjani 'Sawubona' ngesiKinyarwanda?"
+ Impendulo: "Muraho"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Umbuzo: "Usho kanjani 'Good morning' ngesiKinyarwanda?"
+ Impendulo: "Mwaramutse"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Umbuzo: "Usho kanjani 'Good afternoon / Good evening' ngesiKinyarwanda?"
+ Impendulo: "Mwiriwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Umbuzo: "Usho kanjani 'Good night' ngesiKinyarwanda?"
+ Impendulo: "Ijoro ryiza"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Umbuzo: "Ubuzwa kanjani 'How are you?' ngesiKinyarwanda?"
+ Impendulo: "Amakuru"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Umbuzo: "Usho kanjani 'I'm fine' ngesiKinyarwanda?"
+ Impendulo: "Ni meza"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Umbuzo: "Usho kanjani 'Welcome' ngesiKinyarwanda?"
+ Impendulo: "Murakaza neza"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Umbuzo: "Usho kanjani 'See you later' ngesiKinyarwanda?"
+ Impendulo: "Tuzasubira"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Umbuzo: "Usho kanjani 'Sala kahle' ngesiKinyarwanda?"
+ Impendulo: "Murabeho"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Umbuzo: "Usho kanjani 'Have a nice day' ngesiKinyarwanda?"
+ Impendulo: "Umunsi mwiza"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Umbuzo: "Usho kanjani 'Take care' ngesiKinyarwanda?"
+ Impendulo: "Wirinde"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Umbuzo: "Usho kanjani 'Long time no see' ngesiKinyarwanda?"
+ Impendulo: "Hashize igihe tutabonanye"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Umbuzo: "Ubuzwa kanjani 'What's up?' ngesiKinyarwanda?"
+ Impendulo: "Ni iki?"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Umbuzo: "Usho kanjani 'Nice to meet you' ngesiKinyarwanda?"
+ Impendulo: "Nishimiye kukubona"
+ xp_reward: 15
+
+ # Translation - Greetings with Umndeni Members (Simple combinations)
+ - id: 15
+ type: translation
+ Umbuzo: "Usho kanjani 'Sawubona, mother!' ngesiKinyarwanda?"
+ Impendulo: "Muraho, Mama!"
+ xp_reward: 12
+
+ - id: 16
+ type: translation
+ Umbuzo: "Usho kanjani 'Good morning, father!' ngesiKinyarwanda?"
+ Impendulo: "Mwaramutse, Data!"
+ xp_reward: 12
+
+ - id: 17
+ type: translation
+ Umbuzo: "Usho kanjani 'Good night, my child!' ngesiKinyarwanda?"
+ Impendulo: "Ijoro ryiza, mwana wanjye!"
+ xp_reward: 15
+
+ # Translation - Common Umbuzo (Fixed expressions)
+ - id: 18
+ type: translation
+ Umbuzo: "Ubuzwa kanjani 'How are you today?' ngesiKinyarwanda?"
+ Impendulo: "Amakuru uyu munsi?"
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Umbuzo: "Usho kanjani 'I'm fine, thank you' ngesiKinyarwanda?"
+ Impendulo: "Ni meza, murakoze."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Umbuzo: "Ubuzwa kanjani 'What's up with you today?' ngesiKinyarwanda?"
+ Impendulo: "Ni iki kuri wowe uyu munsi?"
+ xp_reward: 18
+
+ # NO DIRECT TRANSLATION FOR COMPLEX DIALOGUES OR PARAGRAPHS
+ # Instead, we use Umusho building, Qondanisa, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 21
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Muraho' kulomusho?"
+ options:
+ - "Sala kahle"
+ - "Sawubona"
+ - "Good morning"
+ - "Good night"
+ Impendulo: "Sawubona"
+ xp_reward: 15
+
+ - id: 22
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Mwaramutse' kulomusho?"
+ options:
+ - "Good evening"
+ - "Good morning"
+ - "Good night"
+ - "Sala kahle"
+ Impendulo: "Good morning"
+ xp_reward: 15
+
+ - id: 23
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Amakuru' kulomusho?"
+ options:
+ - "Sala kahle"
+ - "Welcome"
+ - "How are you?"
+ - "See you later"
+ Impendulo: "How are you?"
+ xp_reward: 15
+
+ - id: 24
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Ni meza' kulomusho?"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ - "Take care"
+ Impendulo: "I'm fine"
+ xp_reward: 15
+
+ - id: 25
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Murabeho' kulomusho?"
+ options:
+ - "Sawubona"
+ - "Welcome"
+ - "Sala kahle"
+ - "See you later"
+ Impendulo: "Sala kahle"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Tuzasubira' kulomusho?"
+ options:
+ - "Sala kahle"
+ - "See you later"
+ - "Welcome back"
+ - "Take care"
+ Impendulo: "See you later"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ Umbuzo: "Kusho ukuthini 'Nishimiye kukubona' kulomusho?"
+ options:
+ - "Good morning"
+ - "Nice to meet you"
+ - "Welcome"
+ - "Take care"
+ Impendulo: "Nice to meet you"
+ xp_reward: 18
+
+ # 3. Lalela and Type (Dictation) - Safe because audio is provided
+ - id: 28
+ type: listen_and_type
+ Umbuzo: "Lalela and type the greeting"
+ tts_text: "Muraho"
+ Impendulo: "Muraho"
+ translation: "Sawubona"
+ xp_reward: 20
+
+ - id: 29
+ type: listen_and_type
+ Umbuzo: "Lalela and type the greeting"
+ tts_text: "Mwaramutse"
+ Impendulo: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 20
+
+ - id: 30
+ type: listen_and_type
+ Umbuzo: "Lalela and type the greeting"
+ tts_text: "Mwiriwe"
+ Impendulo: "Mwiriwe"
+ translation: "Good afternoon / Good evening"
+ xp_reward: 20
+
+ - id: 31
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ tts_text: "Ijoro ryiza"
+ Impendulo: "Ijoro ryiza"
+ translation: "Good night"
+ xp_reward: 20
+
+ - id: 32
+ type: listen_and_type
+ Umbuzo: "Lalela and type the Umbuzo"
+ tts_text: "Amakuru"
+ Impendulo: "Amakuru"
+ translation: "How are you?"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_and_type
+ Umbuzo: "Lalela and type the response"
+ tts_text: "Ni meza"
+ Impendulo: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 20
+
+ - id: 34
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ tts_text: "Murakaza neza"
+ Impendulo: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 22
+
+ - id: 35
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ tts_text: "Tuzasubira"
+ Impendulo: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ tts_text: "Murabeho"
+ Impendulo: "Murabeho"
+ translation: "Sala kahle"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ tts_text: "Hashize igihe tutabonanye"
+ Impendulo: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 25
+
+ - id: 38
+ type: listen_and_type
+ Umbuzo: "Lalela and type the phrase"
+ tts_text: "Nishimiye kukubona"
+ Impendulo: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 25
+
+ # 4. Lalela and Khetha
+ - id: 39
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct greeting"
+ tts_text: "Muraho"
+ options:
+ - "Sala kahle"
+ - "Sawubona"
+ - "Good morning"
+ Impendulo: "Sawubona"
+ xp_reward: 15
+
+ - id: 40
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct greeting"
+ tts_text: "Mwaramutse"
+ options:
+ - "Good evening"
+ - "Good morning"
+ - "Good night"
+ Impendulo: "Good morning"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct greeting"
+ tts_text: "Mwiriwe"
+ options:
+ - "Good morning"
+ - "Good afternoon/evening"
+ - "Good night"
+ Impendulo: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct meaning"
+ tts_text: "Amakuru"
+ options:
+ - "Sala kahle"
+ - "How are you?"
+ - "Welcome"
+ Impendulo: "How are you?"
+ xp_reward: 15
+
+ - id: 43
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct response"
+ tts_text: "Ni meza"
+ options:
+ - "I'm fine"
+ - "Thank you"
+ - "Welcome"
+ Impendulo: "I'm fine"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_and_choose
+ Umbuzo: "Lalela and Khetha the correct farewell"
+ tts_text: "Murabeho"
+ options:
+ - "Sawubona"
+ - "Sala kahle"
+ - "See you later"
+ Impendulo: "Sala kahle"
+ xp_reward: 15
+
+ # 5. Repeat / Khuluma Exercise
+ - id: 45
+ type: Khuluma
+ Umbuzo: "Say this greeting"
+ prompt: "Muraho"
+ translation: "Sawubona"
+ xp_reward: 15
+
+ - id: 46
+ type: Khuluma
+ Umbuzo: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 15
+
+ - id: 47
+ type: Khuluma
+ Umbuzo: "Say this greeting"
+ prompt: "Mwiriwe"
+ translation: "Good afternoon/evening"
+ xp_reward: 15
+
+ - id: 48
+ type: Khuluma
+ Umbuzo: "Say this phrase"
+ prompt: "Ijoro ryiza"
+ translation: "Good night"
+ xp_reward: 18
+
+ - id: 49
+ type: Khuluma
+ Umbuzo: "Ask 'How are you?' in Kinyarwanda"
+ prompt: "Amakuru"
+ translation: "How are you?"
+ xp_reward: 15
+
+ - id: 50
+ type: Khuluma
+ Umbuzo: "Say 'I'm fine' in Kinyarwanda"
+ prompt: "Ni meza"
+ translation: "I'm fine"
+ xp_reward: 15
+
+ - id: 51
+ type: Khuluma
+ Umbuzo: "Say 'Welcome' in Kinyarwanda"
+ prompt: "Murakaza neza"
+ translation: "Welcome"
+ xp_reward: 18
+
+ - id: 52
+ type: Khuluma
+ Umbuzo: "Say 'See you later' in Kinyarwanda"
+ prompt: "Tuzasubira"
+ translation: "See you later"
+ xp_reward: 18
+
+ - id: 53
+ type: Khuluma
+ Umbuzo: "Say 'Sala kahle' in Kinyarwanda"
+ prompt: "Murabeho"
+ translation: "Sala kahle"
+ xp_reward: 15
+
+ - id: 54
+ type: Khuluma
+ Umbuzo: "Say 'Long time no see' in Kinyarwanda"
+ prompt: "Hashize igihe tutabonanye"
+ translation: "Long time no see"
+ xp_reward: 22
+
+ - id: 55
+ type: Khuluma
+ Umbuzo: "Say 'Nice to meet you' in Kinyarwanda"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 56
+ type: Khuluma
+ Umbuzo: "Say 'Sawubona, mother!' in Kinyarwanda"
+ prompt: "Muraho, Mama!"
+ translation: "Sawubona, mother!"
+ xp_reward: 18
+
+ - id: 57
+ type: Khuluma
+ Umbuzo: "Say 'Good morning, father!' in Kinyarwanda"
+ prompt: "Mwaramutse, Data!"
+ translation: "Good morning, father!"
+ xp_reward: 18
+
+ # 6. Word Bank Umusho Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 58
+ type: word_bank
+ Umbuzo: "Build the greeting for 'Sawubona, mother!'"
+ word_bank: ["Muraho", "Mama", "Data", "Mwaramutse"]
+ correct_answer: ["Muraho", "Mama"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ Umbuzo: "Build the greeting for 'Good morning, father!'"
+ word_bank: ["Mwaramutse", "Data", "Muraho", "Mama"]
+ correct_answer: ["Mwaramutse", "Data"]
+ xp_reward: 18
+
+ - id: 60
+ type: word_bank
+ Umbuzo: "Build the greeting for 'Good night, my child!'"
+ word_bank: ["Ijoro ryiza", "mwana wanjye", "Muraho", "Mama"]
+ correct_answer: ["Ijoro ryiza", "mwana wanjye"]
+ xp_reward: 20
+
+ - id: 61
+ type: word_bank
+ Umbuzo: "Build the Umbuzo 'How are you today?'"
+ word_bank: ["Amakuru", "uyu munsi", "Ni meza", "murakoze"]
+ correct_answer: ["Amakuru", "uyu munsi"]
+ xp_reward: 20
+
+ - id: 62
+ type: word_bank
+ Umbuzo: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_answer: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 63
+ type: word_bank
+ Umbuzo: "Build the farewell 'See you later at Isikole'"
+ word_bank: ["Tuzasubira", "ku ishuri", "Murabeho", "ejo"]
+ correct_answer: ["Tuzasubira", "ku ishuri"]
+ xp_reward: 20
+
+ - id: 64
+ type: word_bank
+ Umbuzo: "Build the farewell 'Sala kahle, see you Kusasa'"
+ word_bank: ["Murabeho", "tuzabonana", "ejo", "Tuzasubira"]
+ correct_answer: ["Murabeho", "tuzabonana", "ejo"]
+ xp_reward: 22
+
+ - id: 65
+ type: word_bank
+ Umbuzo: "Build the well-wish 'Have a nice day at work'"
+ word_bank: ["Umunsi mwiza", "mu kazi", "Wirinde", "mu rugendo"]
+ correct_answer: ["Umunsi mwiza", "mu kazi"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Umbuzo: "Build the phrase 'Take care on your trip'"
+ word_bank: ["Wirinde", "mu rugendo rwawe", "Umunsi mwiza", "mu kazi"]
+ correct_answer: ["Wirinde", "mu rugendo rwawe"]
+ xp_reward: 20
+
+ - id: 67
+ type: word_bank
+ Umbuzo: "Build the greeting 'Long time no see, my friend'"
+ word_bank: ["Hashize igihe tutabonanye", "nshuti yanjye", "Muraho", "Amakuru"]
+ correct_answer: ["Hashize igihe tutabonanye", "nshuti yanjye"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Umbuzo: "Build the Umbuzo 'What's up with you today?'"
+ word_bank: ["Ni iki", "kuri wowe", "uyu munsi", "Amakuru"]
+ correct_answer: ["Ni iki", "kuri wowe", "uyu munsi"]
+ xp_reward: 22
+
+ - id: 69
+ type: word_bank
+ Umbuzo: "Build the phrase 'Nice to meet you at the party'"
+ word_bank: ["Nishimiye kukubona", "mu birori", "Murakaza neza", "mu nzu"]
+ correct_answer: ["Nishimiye kukubona", "mu birori"]
+ xp_reward: 22
+
+ # 7. Umusho Scramble - PIECES PROVIDED
+ - id: 70
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct greeting"
+ scrambled_words: ["Muraho", "Mama"]
+ correct_sentence: "Muraho, Mama!"
+ translation: "Sawubona, mother!"
+ xp_reward: 18
+
+ - id: 71
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct greeting"
+ scrambled_words: ["Mwaramutse", "Data"]
+ correct_sentence: "Mwaramutse, Data!"
+ translation: "Good morning, father!"
+ xp_reward: 18
+
+ - id: 72
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["ryiza", "Ijoro", "mwana", "wanjye"]
+ correct_sentence: "Ijoro ryiza, mwana wanjye!"
+ translation: "Good night, my child!"
+ xp_reward: 20
+
+ - id: 73
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Umbuzo"
+ scrambled_words: ["uyu", "Amakuru", "munsi"]
+ correct_sentence: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct response"
+ scrambled_words: ["meza", "Ni", "murakoze"]
+ correct_sentence: "Ni meza, murakoze."
+ translation: "I'm fine, thank you."
+ xp_reward: 18
+
+ - id: 75
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct farewell"
+ scrambled_words: ["Tuzasubira", "ishuri", "ku"]
+ correct_sentence: "Tuzasubira ku ishuri."
+ translation: "See you later at Isikole."
+ xp_reward: 20
+
+ - id: 76
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct farewell"
+ scrambled_words: ["Murabeho", "tuzabonana", "ejo"]
+ correct_sentence: "Murabeho, tuzabonana ejo."
+ translation: "Sala kahle, see you Kusasa."
+ xp_reward: 22
+
+ - id: 77
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct well-wish"
+ scrambled_words: ["mwiza", "Umunsi", "kazi", "mu"]
+ correct_sentence: "Umunsi mwiza mu kazi."
+ translation: "Have a nice day at work."
+ xp_reward: 20
+
+ - id: 78
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct phrase"
+ scrambled_words: ["Wirinde", "rugendo", "mu", "rwawe"]
+ correct_sentence: "Wirinde mu rugendo rwawe."
+ translation: "Take care on your trip."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct greeting"
+ scrambled_words: ["igihe", "Hashize", "tutabonanye", "nshuti", "yanjye"]
+ correct_sentence: "Hashize igihe tutabonanye, nshuti yanjye."
+ translation: "Long time no see, my friend."
+ xp_reward: 25
+
+ - id: 80
+ type: sentence_scramble
+ Umbuzo: "Arrange these words to form a correct Umbuzo"
+ scrambled_words: ["iki", "Ni", "kuri", "wowe", "uyu", "munsi"]
+ correct_sentence: "Ni iki kuri wowe uyu munsi?"
+ translation: "What's up with you today?"
+ xp_reward: 22
+
+ # 8. Fill in the Blank - Khetha FROM OPTIONS
+ - id: 81
+ type: fill_blank
+ Umbuzo: "Complete the greeting"
+ text_with_blank: "___ , Mama!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Muraho"
+ translation: "Sawubona, mother!"
+ xp_reward: 15
+
+ - id: 82
+ type: fill_blank
+ Umbuzo: "Complete the greeting"
+ text_with_blank: "___ , Data!"
+ options: ["Muraho", "Mwaramutse", "Mwiriwe"]
+ correct_answer: "Mwaramutse"
+ translation: "Good morning, father!"
+ xp_reward: 15
+
+ - id: 83
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Ijoro ___, mwana wanjye!"
+ options: ["ryiza", "mwiza", "neza"]
+ correct_answer: "ryiza"
+ translation: "Good night, my child!"
+ xp_reward: 18
+
+ - id: 84
+ type: fill_blank
+ Umbuzo: "Complete the Umbuzo"
+ text_with_blank: "___ uyu munsi?"
+ options: ["Amakuru", "Ni meza", "Muraho"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 85
+ type: fill_blank
+ Umbuzo: "Complete the response"
+ text_with_blank: "Ni meza, ___."
+ options: ["murakoze", "Muraho", "Amakuru"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 86
+ type: fill_blank
+ Umbuzo: "Complete the farewell"
+ text_with_blank: "Tuzasubira ___."
+ options: ["ku ishuri", "mu nzu", "mu kazi"]
+ correct_answer: "ku ishuri"
+ translation: "See you later at Isikole."
+ xp_reward: 18
+
+ - id: 87
+ type: fill_blank
+ Umbuzo: "Complete the farewell"
+ text_with_blank: "Murabeho, tuzabonana ___."
+ options: ["ejo", "uyu munsi", "ryiza"]
+ correct_answer: "ejo"
+ translation: "Sala kahle, see you Kusasa."
+ xp_reward: 18
+
+ - id: 88
+ type: fill_blank
+ Umbuzo: "Complete the well-wish"
+ text_with_blank: "Umunsi mwiza ___."
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ - id: 89
+ type: fill_blank
+ Umbuzo: "Complete the phrase"
+ text_with_blank: "Wirinde mu ___ rwawe."
+ options: ["rugendo", "kazi", "nzu"]
+ correct_answer: "rugendo"
+ translation: "Take care on your trip."
+ xp_reward: 18
+
+ - id: 90
+ type: fill_blank
+ Umbuzo: "Complete the greeting"
+ text_with_blank: "Hashize igihe ___, nshuti yanjye."
+ options: ["tutabonanye", "tuzabonana", "turasubira"]
+ correct_answer: "tutabonanye"
+ translation: "Long time no see, my friend."
+ xp_reward: 20
+
+ - id: 91
+ type: fill_blank
+ Umbuzo: "Complete the Umbuzo"
+ text_with_blank: "Ni iki kuri wowe ___?"
+ options: ["uyu munsi", "ejo", "ryiza"]
+ correct_answer: "uyu munsi"
+ translation: "What's up with you today?"
+ xp_reward: 18
+
+
+
+ # 9. Word Qondanisa (Pairing)
+ - id: 98
+ type: Qondanisa
+ Umbuzo: "Qondanisa the greetings to their meanings"
+ pairs:
+ - Kwesokunxele: "Muraho"
+ Kwesokudla: "Sawubona"
+ - Kwesokunxele: "Mwaramutse"
+ Kwesokudla: "Good morning"
+ - Kwesokunxele: "Mwiriwe"
+ Kwesokudla: "Good afternoon/evening"
+ - Kwesokunxele: "Ijoro ryiza"
+ Kwesokudla: "Good night"
+ - Kwesokunxele: "Amakuru"
+ Kwesokudla: "How are you?"
+ - Kwesokunxele: "Ni meza"
+ Kwesokudla: "I'm fine"
+ xp_reward: 25
+
+ - id: 99
+ type: Qondanisa
+ Umbuzo: "Qondanisa the farewells and well-wishes"
+ pairs:
+ - Kwesokunxele: "Murabeho"
+ Kwesokudla: "Sala kahle"
+ - Kwesokunxele: "Tuzasubira"
+ Kwesokudla: "See you later"
+ - Kwesokunxele: "Umunsi mwiza"
+ Kwesokudla: "Have a nice day"
+ - Kwesokunxele: "Wirinde"
+ Kwesokudla: "Take care"
+ - Kwesokunxele: "Hashize igihe tutabonanye"
+ Kwesokudla: "Long time no see"
+ - Kwesokunxele: "Nishimiye kukubona"
+ Kwesokudla: "Nice to meet you"
+ xp_reward: 25
+
+ - id: 100
+ type: Qondanisa
+ Umbuzo: "Qondanisa the phrases with Umndeni members"
+ pairs:
+ - Kwesokunxele: "Muraho, Mama!"
+ Kwesokudla: "Sawubona, mother!"
+ - Kwesokunxele: "Mwaramutse, Data!"
+ Kwesokudla: "Good morning, father!"
+ - Kwesokunxele: "Ijoro ryiza, mwana wanjye!"
+ Kwesokudla: "Good night, my child!"
+ - Kwesokunxele: "Hashize igihe tutabonanye, nshuti yanjye"
+ Kwesokudla: "Long time no see, my friend"
+ xp_reward: 25
+
+ # 10. Khetha Missing Word
+ - id: 107
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "___ uyu munsi?"
+ missing_word_position: 1
+ options: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: "Amakuru"
+ translation: "How are you today?"
+ xp_reward: 15
+
+ - id: 108
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Ni meza, ___."
+ missing_word_position: 3
+ options: ["murakoze", "Amakuru", "Muraho"]
+ correct_answer: "murakoze"
+ translation: "I'm fine, thank you."
+ xp_reward: 15
+
+ - id: 109
+ type: choose_missing
+ Umbuzo: "Khetha the missing word"
+ Umusho: "Umunsi mwiza ___."
+ missing_word_position: 3
+ options: ["mu kazi", "mu nzu", "ku ishuri"]
+ correct_answer: "mu kazi"
+ translation: "Have a nice day at work."
+ xp_reward: 15
+
+ # 11. Funda and Impendulo - Umbuzo based on context
+ - id: 110
+ type: read_answer
+ Umbuzo: "Funda the dialogue and Impendulo the Umbuzo"
+ text: "A: Muraho! Amakuru? B: Ni meza, murakoze."
+ Umbuzo: "How is person B?"
+ options: ["Dabuka", "Fine", "Tired", "Hungry"]
+ correct_answer: "Fine"
+ xp_reward: 15
+
+ - id: 111
+ type: read_answer
+ Umbuzo: "Funda the dialogue and Impendulo the Umbuzo"
+ text: "A: Mwaramutse, Data! B: Mwaramutse, mwana wanjye!"
+ Umbuzo: "What time of day is it?"
+ options: ["Morning", "Afternoon", "Evening", "Night"]
+ correct_answer: "Morning"
+ xp_reward: 18
+
+ - id: 112
+ type: read_answer
+ Umbuzo: "Funda the dialogue and Impendulo the Umbuzo"
+ text: "A: Tuzasubira ku ishuri. B: Murabeho!"
+ Umbuzo: "Where will they see each other later?"
+ options: ["At home", "At Isikole", "At work", "At the Imakethe"]
+ correct_answer: "At Isikole"
+ xp_reward: 15
+
+ # 12. True / False
+ - id: 113
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "'Mwaramutse' is used in the morning."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 114
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "'Mwiriwe' is used only at night."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 115
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "'Murabeho' means Sawubona."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 116
+ type: true_false
+ Umbuzo: "Is this statement true or false?"
+ statement: "'Nishimiye kukubona' means 'Nice to meet you'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 13. Conversation Exercise - Build responses from pieces
+ - id: 117
+ type: conversation
+ Umbuzo: "Respond to the greeting by building a Umusho"
+ bot_message: "Muraho! Amakuru?"
+ translation: "Sawubona! How are you?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "Muraho"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ - id: 118
+ type: conversation
+ Umbuzo: "Khetha the appropriate response"
+ bot_message: "Mwaramutse, Mama!"
+ translation: "Good morning, mother!"
+ options:
+ - "Mwaramutse, mwana wanjye!"
+ - "Mwiriwe, mwana wanjye!"
+ - "Ijoro ryiza, mwana wanjye!"
+ correct_response: "Mwaramutse, mwana wanjye!"
+ xp_reward: 18
+
+ - id: 119
+ type: conversation
+ Umbuzo: "Respond to the farewell"
+ bot_message: "Tuzasubira ku ishuri."
+ translation: "See you later at Isikole."
+ options:
+ - "Murabeho!"
+ - "Muraho!"
+ - "Amakuru!"
+ correct_response: "Murabeho!"
+ xp_reward: 15
+
+ - id: 120
+ type: conversation
+ Umbuzo: "Build a response to the Umbuzo"
+ bot_message: "Amakuru uyu munsi?"
+ translation: "How are you today?"
+ word_bank: ["Ni meza", "murakoze", "Amakuru", "uyu munsi"]
+ correct_response: ["Ni meza", "murakoze"]
+ xp_reward: 20
+
+ # 14. Story Exercise - Build Umusho from pieces
+ - id: 121
+ type: story
+ title: "Meeting a Friend - Guhura n'inshuti"
+ story_intro: "Funda the conversation. Then build the Umusho."
+ story_segments:
+ - text: "Person A says Sawubona."
+ - text: "Person A asks how they are."
+ - text: "Person B says they are fine and thanks them."
+ - text: "Person A says nice to meet them."
+ - text: "Person B welcomes them."
+ - text: "Person A says see you later."
+ - text: "Person B says Sala kahle."
+ exercises:
+ - type: word_bank
+ Umbuzo: "Build the Kinyarwanda greeting for 'Sawubona!'"
+ word_bank: ["Muraho", "Amakuru", "Ni meza"]
+ correct_answer: ["Muraho"]
+ - type: word_bank
+ Umbuzo: "Build the Umbuzo 'How are you?'"
+ word_bank: ["Amakuru", "Muraho", "Ni meza"]
+ correct_answer: ["Amakuru"]
+ - type: word_bank
+ Umbuzo: "Build the response 'I'm fine, thank you'"
+ word_bank: ["Ni meza", "murakoze", "Amakuru"]
+ correct_answer: ["Ni meza", "murakoze"]
+ - type: word_bank
+ Umbuzo: "Build the phrase 'Nice to meet you'"
+ word_bank: ["Nishimiye", "kukubona", "Murakaza neza"]
+ correct_answer: ["Nishimiye", "kukubona"]
+ - type: word_bank
+ Umbuzo: "Build the farewell 'See you later'"
+ word_bank: ["Tuzasubira", "Murabeho", "Muraho"]
+ correct_answer: ["Tuzasubira"]
+ - type: word_bank
+ Umbuzo: "Build the farewell 'Sala kahle'"
+ word_bank: ["Murabeho", "Tuzasubira", "Muraho"]
+ correct_answer: ["Murabeho"]
+ xp_reward: 40
+
+ # 15. Pronunciation Check
+ - id: 122
+ type: pronunciation
+ Umbuzo: "Say this greeting"
+ prompt: "Muraho"
+ translation: "Sawubona"
+ xp_reward: 15
+
+ - id: 123
+ type: pronunciation
+ Umbuzo: "Say this greeting"
+ prompt: "Mwaramutse"
+ translation: "Good morning"
+ xp_reward: 15
+
+ - id: 124
+ type: pronunciation
+ Umbuzo: "Say this phrase"
+ prompt: "Nishimiye kukubona"
+ translation: "Nice to meet you"
+ xp_reward: 20
+
+ - id: 125
+ type: pronunciation
+ Umbuzo: "Say this farewell"
+ prompt: "Murabeho"
+ translation: "Sala kahle"
+ xp_reward: 15
+
+ # 16. Identify Correct Meaning
+ - id: 126
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'Muraho' kulomusho?"
+ context_sentence: "Muraho! Amakuru?"
+ word: "Muraho"
+ options: ["Sala kahle", "Sawubona", "Thank you", "Welcome"]
+ correct_answer: "Sawubona"
+ xp_reward: 15
+
+ - id: 127
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'murakoze' mean in this Umusho?"
+ context_sentence: "Ni meza, murakoze."
+ word: "murakoze"
+ options: ["please", "thank you", "welcome", "Sala kahle"]
+ correct_answer: "thank you"
+ xp_reward: 15
+
+ - id: 128
+ type: identify_meaning
+ Umbuzo: "Kusho ukuthini 'Mwiriwe' kulomusho?"
+ context_sentence: "Mwiriwe, nshuti!"
+ word: "Mwiriwe"
+ options: ["Good morning", "Good afternoon/evening", "Good night", "Sawubona"]
+ correct_answer: "Good afternoon/evening"
+ xp_reward: 18
+
+ # 17. Speed Qondanisa
+ - id: 129
+ type: speed_Qondanisa
+ title: "Qondanisa Madness: Greetings"
+ time_limit_seconds: 45
+ pairs:
+ - Kwesokunxele: "Sawubona"
+ Kwesokudla: "Muraho"
+ - Kwesokunxele: "Good morning"
+ Kwesokudla: "Mwaramutse"
+ - Kwesokunxele: "Good afternoon"
+ Kwesokudla: "Mwiriwe"
+ - Kwesokunxele: "Good night"
+ Kwesokudla: "Ijoro ryiza"
+ - Kwesokunxele: "How are you?"
+ Kwesokudla: "Amakuru"
+ - Kwesokunxele: "I'm fine"
+ Kwesokudla: "Ni meza"
+ - Kwesokunxele: "Welcome"
+ Kwesokudla: "Murakaza neza"
+ - Kwesokunxele: "See you later"
+ Kwesokudla: "Tuzasubira"
+ - Kwesokunxele: "Sala kahle"
+ Kwesokudla: "Murabeho"
+ - Kwesokunxele: "Take care"
+ Kwesokudla: "Wirinde"
+ xp_reward: 30
+
+ # 18. Timed Challenges
+ - id: 130
+ type: timed_challenge
+ title: "Lightning Round: Greetings"
+ time_limit_seconds: 30
+ Umbuzo_count: 5
+ Umbuzo:
+ - Umbuzo: "Sawubona"
+ Impendulo: "Muraho"
+ - Umbuzo: "Good morning"
+ Impendulo: "Mwaramutse"
+ - Umbuzo: "Good night"
+ Impendulo: "Ijoro ryiza"
+ - Umbuzo: "How are you?"
+ Impendulo: "Amakuru"
+ - Umbuzo: "Sala kahle"
+ Impendulo: "Murabeho"
+ xp_reward: 35
+
+# Amakhadi emfundo
+ - id: 111
+ type: Amakhadi emfundo
+ Umbuzo: "Amakhadi emfundo"
+ Amakhadi emfundo:
+ - front: "Muraho"
+ back: "Sawubona"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Mwaramutse"
+ back: "Good morning"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Mwiriwe"
+ back: "Good afternoon / Good evening"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ijoro ryiza"
+ back: "Good night"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Amakuru"
+ back: "How are you?"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ni meza"
+ back: "I"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Murakaza neza"
+ back: "Welcome"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Tuzasubira"
+ back: "See you later"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Murabeho"
+ back: "Sala kahle"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Umunsi mwiza"
+ back: "Have a nice day"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

@@ -1,0 +1,1004 @@
+lesson:
+  name: "Impaka"
+  description: "Apprenez le vocabulaire des débats et les expressions d'opinion en kinyarwanda"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Debate Vocabulary ONLY (Safe for single words/phrases)
+  # Debate Terms
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Débat' en kinyarwanda ?"
+    answer: "Impaka"
+    xp_reward: 10
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Opinion' en kinyarwanda ?"
+    answer: "Igitekerezo"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'Être d'accord' en kinyarwanda ?"
+    answer: "Kwemera"
+    xp_reward: 10
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Ne pas être d'accord' en kinyarwanda ?"
+    answer: "Kutemera"
+    xp_reward: 10
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'Argument' en kinyarwanda ?"
+    answer: "Impamvu"
+    xp_reward: 15
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Preuve' en kinyarwanda ?"
+    answer: "Ibimenyetso"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Fait' en kinyarwanda ?"
+    answer: "Ukuri"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Opinion personnelle' en kinyarwanda ?"
+    answer: "Igitekerezo cy'umuntu"
+    xp_reward: 15
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Point de vue' en kinyarwanda ?"
+    answer: "Inyungu"
+    xp_reward: 15
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Discussion' en kinyarwanda ?"
+    answer: "Ikiganiro"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Orateur' en kinyarwanda ?"
+    answer: "Umuvugizi"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Public' en kinyarwanda ?"
+    answer: "Abumvise"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Persuader' en kinyarwanda ?"
+    answer: "Guhindura igitekerezo"
+    xp_reward: 15
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'Contre-argument' en kinyarwanda ?"
+    answer: "Igitekerezo cy'ukundi"
+    xp_reward: 15
+
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'Réfuter' en kinyarwanda ?"
+    answer: "Guhakana"
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Question' en kinyarwanda ?"
+    answer: "Ikibazo"
+    xp_reward: 10
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Réponse' en kinyarwanda ?"
+    answer: "Igisubizo"
+    xp_reward: 10
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Conclusion' en kinyarwanda ?"
+    answer: "Umusozo"
+    xp_reward: 15
+
+  # Phrases - Expressing Opinions
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Je pense que...' en kinyarwanda ?"
+    answer: "Ntekereza ko..."
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'À mon avis...' en kinyarwanda ?"
+    answer: "Mu bitekerezo byanjye..."
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'Je suis d'accord avec toi' en kinyarwanda ?"
+    answer: "Ndemeranya nawe."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'Je ne suis pas d'accord' en kinyarwanda ?"
+    answer: "Sinemeye."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Peux-tu expliquer pourquoi ?' en kinyarwanda ?"
+    answer: "Ushobora gusobanura impamvu?"
+    xp_reward: 18
+
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'J'ai des preuves que...' en kinyarwanda ?"
+    answer: "Mfite ibimenyetso byerekana ko..."
+    xp_reward: 18
+
+  - id: 25
+    type: translation
+    question: "Comment dit-on 'Discutons de ce point' en kinyarwanda ?"
+    answer: "Turebe iki gitekerezo."
+    xp_reward: 18
+
+  - id: 26
+    type: translation
+    question: "Comment demande-t-on 'Qu'en penses-tu ?' en kinyarwanda ?"
+    answer: "Utekereza iki?"
+    xp_reward: 15
+
+  - id: 27
+    type: translation
+    question: "Comment dit-on 'C'est un argument solide' en kinyarwanda ?"
+    answer: "Icyo ni igitekerezo gikomeye."
+    xp_reward: 18
+
+  - id: 28
+    type: translation
+    question: "Comment dit-on 'J'ai besoin de plus de faits' en kinyarwanda ?"
+    answer: "Nkeneye ibindi by'ukuri."
+    xp_reward: 18
+
+  # 2. Choix multiples
+  - id: 29
+    type: multiple_choice
+    question: "Que signifie 'Impaka' ?"
+    options:
+      - "Opinion"
+      - "Débat"
+      - "Discussion"
+      - "Argument"
+    answer: "Débat"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "Que signifie 'Igitekerezo' ?"
+    options:
+      - "Fait"
+      - "Preuve"
+      - "Opinion"
+      - "Question"
+    answer: "Opinion"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "Que signifie 'Kwemera' ?"
+    options:
+      - "Ne pas être d'accord"
+      - "Être d'accord"
+      - "Réfuter"
+      - "Persuader"
+    answer: "Être d'accord"
+    xp_reward: 15
+
+  - id: 32
+    type: multiple_choice
+    question: "Que signifie 'Kutemera' ?"
+    options:
+      - "Être d'accord"
+      - "Ne pas être d'accord"
+      - "Discuter"
+      - "Questionner"
+    answer: "Ne pas être d'accord"
+    xp_reward: 15
+
+  - id: 33
+    type: multiple_choice
+    question: "Que signifie 'Ibimenyetso' ?"
+    options:
+      - "Opinion"
+      - "Fait"
+      - "Preuve"
+      - "Conclusion"
+    answer: "Preuve"
+    xp_reward: 15
+
+  - id: 34
+    type: multiple_choice
+    question: "Que signifie 'Ukuri' ?"
+    options:
+      - "Opinion"
+      - "Fait"
+      - "Preuve"
+      - "Débat"
+    answer: "Fait"
+    xp_reward: 15
+
+  - id: 35
+    type: multiple_choice
+    question: "Que signifie 'Ndemeranya nawe' ?"
+    options:
+      - "Je ne suis pas d'accord"
+      - "Je suis d'accord avec toi"
+      - "Je pense que"
+      - "Qu'en penses-tu ?"
+    answer: "Je suis d'accord avec toi"
+    xp_reward: 18
+
+  - id: 36
+    type: multiple_choice
+    question: "Que signifie 'Sinemeye' ?"
+    options:
+      - "Je suis d'accord"
+      - "Je ne suis pas d'accord"
+      - "Je pense"
+      - "J'ai besoin de faits"
+    answer: "Je ne suis pas d'accord"
+    xp_reward: 18
+
+  # 3. ?coutez et ?crivez (dict?e)
+  - id: 37
+    type: listen_and_type
+    question: "Écoutez et tapez le terme de débat"
+    audio: "Impaka"
+    answer: "Impaka"
+    translation: "Débat"
+    xp_reward: 20
+
+  - id: 38
+    type: listen_and_type
+    question: "Écoutez et tapez le terme de débat"
+    audio: "Igitekerezo"
+    answer: "Igitekerezo"
+    translation: "Opinion"
+    xp_reward: 20
+
+  - id: 39
+    type: listen_and_type
+    question: "Écoutez et tapez le terme de débat"
+    audio: "Ibimenyetso"
+    answer: "Ibimenyetso"
+    translation: "Preuve"
+    xp_reward: 20
+
+  - id: 40
+    type: listen_and_type
+    question: "Écoutez et tapez le terme de débat"
+    audio: "Ikibazo"
+    answer: "Ikibazo"
+    translation: "Question"
+    xp_reward: 20
+
+  - id: 42
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Sinemeye"
+    answer: "Sinemeye"
+    translation: "Je ne suis pas d'accord"
+    xp_reward: 22
+
+  - id: 44
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Ntekereza ko"
+    answer: "Ntekereza ko"
+    translation: "Je pense que..."
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 45
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon terme de débat"
+    audio: "Impaka"
+    options:
+      - "Opinion"
+      - "Débat"
+      - "Discussion"
+    answer: "Débat"
+    xp_reward: 15
+
+  - id: 46
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon terme de débat"
+    audio: "Igitekerezo"
+    options:
+      - "Fait"
+      - "Opinion"
+      - "Preuve"
+    answer: "Opinion"
+    xp_reward: 15
+
+  - id: 47
+    type: listen_and_choose
+    question: "Écoutez et choisissez le bon terme de débat"
+    audio: "Ibimenyetso"
+    options:
+      - "Preuve"
+      - "Fait"
+      - "Conclusion"
+    answer: "Preuve"
+    xp_reward: 15
+
+  - id: 49
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne phrase"
+    audio: "Sinemeye"
+    options:
+      - "Je suis d'accord"
+      - "Je ne suis pas d'accord"
+      - "Je pense"
+    answer: "Je ne suis pas d'accord"
+    xp_reward: 18
+
+  # 5. R?p?ter / Exercice oral
+  - id: 51
+    type: speaking
+    question: "Dites ce terme de débat"
+    prompt: "Impaka"
+    translation: "Débat"
+    xp_reward: 15
+
+  - id: 52
+    type: speaking
+    question: "Dites ce terme de débat"
+    prompt: "Igitekerezo"
+    translation: "Opinion"
+    xp_reward: 15
+
+  - id: 53
+    type: speaking
+    question: "Dites ce terme de débat"
+    prompt: "Ibimenyetso"
+    translation: "Preuve"
+    xp_reward: 15
+
+  - id: 54
+    type: speaking
+    question: "Dites ce terme de débat"
+    prompt: "Ukuri"
+    translation: "Fait"
+    xp_reward: 15
+
+  - id: 55
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Ndemeranya nawe"
+    translation: "Je suis d'accord avec toi"
+    xp_reward: 18
+
+  - id: 56
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Sinemeye"
+    translation: "Je ne suis pas d'accord"
+    xp_reward: 18
+
+  - id: 57
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Ntekereza ko"
+    translation: "Je pense que..."
+    xp_reward: 18
+
+  - id: 58
+    type: speaking
+    question: "Dites cette question"
+    prompt: "Utekereza iki"
+    translation: "Qu'en penses-tu ?"
+    xp_reward: 18
+
+  - id: 59
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Icyo ni igitekerezo gikomeye"
+    translation: "C'est un argument solide"
+    xp_reward: 20
+
+  # 6. Construction de phrases avec banque de mots - PIECES PROVIDED
+  - id: 60
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je suis d'accord avec toi'"
+    word_bank: ["Ndemeranya", "nawe", "Sinemeye", "ntekereza"]
+    correct_answer: ["Ndemeranya", "nawe"]
+    xp_reward: 18
+
+  - id: 61
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je ne suis pas d'accord'"
+    word_bank: ["Sinemeye", "ndemeranya", "nawe", "ntekereza"]
+    correct_answer: ["Sinemeye"]
+    xp_reward: 15
+
+  - id: 62
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je pense que...'"
+    word_bank: ["Ntekereza", "ko", "ndemeranya", "sinemeye"]
+    correct_answer: ["Ntekereza", "ko"]
+    xp_reward: 18
+
+  - id: 63
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'À mon avis...'"
+    word_bank: ["Mu", "bitekerezo", "byanjye", "ntekereza", "ko"]
+    correct_answer: ["Mu", "bitekerezo", "byanjye"]
+    xp_reward: 20
+
+  - id: 64
+    type: word_bank
+    question: "Construisez la question en kinyarwanda 'Qu'en penses-tu ?'"
+    word_bank: ["Utekereza", "iki", "ute", "iki"]
+    correct_answer: ["Utekereza", "iki"]
+    xp_reward: 15
+
+  - id: 65
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Peux-tu expliquer pourquoi ?'"
+    word_bank: ["Ushobora", "gusobanura", "impamvu", "ntekereza", "ko"]
+    correct_answer: ["Ushobora", "gusobanura", "impamvu"]
+    xp_reward: 20
+
+  - id: 66
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'J'ai des preuves que...'"
+    word_bank: ["Mfite", "ibimenyetso", "byerekana", "ko", "ibindi", "by'ukuri"]
+    correct_answer: ["Mfite", "ibimenyetso", "byerekana", "ko"]
+    xp_reward: 22
+
+  - id: 67
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Discutons de ce point'"
+    word_bank: ["Turebe", "iki", "gitekerezo", "iki", "kibazo"]
+    correct_answer: ["Turebe", "iki", "gitekerezo"]
+    xp_reward: 20
+
+  - id: 68
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'C'est un argument solide'"
+    word_bank: ["Icyo", "ni", "igitekerezo", "gikomeye", "icyo", "ni", "ukuri"]
+    correct_answer: ["Icyo", "ni", "igitekerezo", "gikomeye"]
+    xp_reward: 22
+
+  - id: 69
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'J'ai besoin de plus de faits'"
+    word_bank: ["Nkeneye", "ibindi", "by'ukuri", "ibimenyetso", "ibitekerezo"]
+    correct_answer: ["Nkeneye", "ibindi", "by'ukuri"]
+    xp_reward: 20
+
+  # 7. Mots m?lang?s - PIECES PROVIDED
+  - id: 70
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Ndemeranya", "nawe"]
+    correct_sentence: "Ndemeranya nawe."
+    translation: "Je suis d'accord avec toi."
+    xp_reward: 18
+
+  - id: 71
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Sinemeye"]
+    correct_sentence: "Sinemeye."
+    translation: "Je ne suis pas d'accord."
+    xp_reward: 15
+
+  - id: 72
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Ntekereza", "ko"]
+    correct_sentence: "Ntekereza ko..."
+    translation: "Je pense que..."
+    xp_reward: 18
+
+  - id: 73
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Mu", "bitekerezo", "byanjye"]
+    correct_sentence: "Mu bitekerezo byanjye..."
+    translation: "À mon avis..."
+    xp_reward: 20
+
+  - id: 74
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une question correcte"
+    scrambled_words: ["Utekereza", "iki"]
+    correct_sentence: "Utekereza iki?"
+    translation: "Qu'en penses-tu ?"
+    xp_reward: 15
+
+  - id: 75
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une question correcte"
+    scrambled_words: ["Ushobora", "gusobanura", "impamvu"]
+    correct_sentence: "Ushobora gusobanura impamvu?"
+    translation: "Peux-tu expliquer pourquoi ?"
+    xp_reward: 20
+
+  - id: 76
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Mfite", "ibimenyetso", "byerekana", "ko"]
+    correct_sentence: "Mfite ibimenyetso byerekana ko..."
+    translation: "J'ai des preuves que..."
+    xp_reward: 22
+
+  - id: 77
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Turebe", "iki", "gitekerezo"]
+    correct_sentence: "Turebe iki gitekerezo."
+    translation: "Discutons de ce point."
+    xp_reward: 20
+
+  - id: 78
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Icyo", "ni", "igitekerezo", "gikomeye"]
+    correct_sentence: "Icyo ni igitekerezo gikomeye."
+    translation: "C'est un argument solide."
+    xp_reward: 22
+
+  - id: 79
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nkeneye", "ibindi", "by'ukuri"]
+    correct_sentence: "Nkeneye ibindi by'ukuri."
+    translation: "J'ai besoin de plus de faits."
+    xp_reward: 20
+
+  # 8. Compl?ter le texte - CHOOSE FROM OPTIONS
+  - id: 80
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Ndemeranya ___."
+    options: ["nawe", "ko", "iki"]
+    correct_answer: "nawe"
+    translation: "Je suis d'accord avec toi."
+    xp_reward: 15
+
+  - id: 81
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Ntekereza ___."
+    options: ["ko", "nawe", "iki"]
+    correct_answer: "ko"
+    translation: "Je pense que..."
+    xp_reward: 15
+
+  - id: 82
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Mu bitekerezo ___."
+    options: ["byanjye", "byawe", "byacu"]
+    correct_answer: "byanjye"
+    translation: "À mon avis..."
+    xp_reward: 18
+
+  - id: 83
+    type: fill_blank
+    question: "Complétez la question"
+    text_with_blank: "Utekereza ___?"
+    options: ["iki", "ko", "nawe"]
+    correct_answer: "iki"
+    translation: "Qu'en penses-tu ?"
+    xp_reward: 12
+
+  - id: 84
+    type: fill_blank
+    question: "Complétez la question"
+    text_with_blank: "Ushobora gusobanura ___?"
+    options: ["impamvu", "igitekerezo", "ikibazo"]
+    correct_answer: "impamvu"
+    translation: "Peux-tu expliquer pourquoi ?"
+    xp_reward: 18
+
+  - id: 85
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Mfite ibimenyetso ___ ko..."
+    options: ["byerekana", "by'ukuri", "byiza"]
+    correct_answer: "byerekana"
+    translation: "J'ai des preuves que..."
+    xp_reward: 18
+
+  - id: 86
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Turebe iki ___."
+    options: ["gitekerezo", "kibazo", "gitabo"]
+    correct_answer: "gitekerezo"
+    translation: "Discutons de ce point."
+    xp_reward: 18
+
+  - id: 87
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Icyo ni igitekerezo ___."
+    options: ["gikomeye", "cyiza", "kinini"]
+    correct_answer: "gikomeye"
+    translation: "C'est un argument solide."
+    xp_reward: 18
+
+  - id: 88
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nkeneye ibindi ___."
+    options: ["by'ukuri", "by'ibimenyetso", "by'ibitekerezo"]
+    correct_answer: "by'ukuri"
+    translation: "J'ai besoin de plus de faits."
+    xp_reward: 15
+
+  # 9. Picture → Word (Conceptual images for abstract debate terms)
+  - id: 89
+    type: picture_word
+    question: "Quel concept de débat cette image représente-t-elle ?"
+    image_url: "https://source.unsplash.com/featured/?debate"
+    options: ["Impaka", "Ikiganiro", "Umuvugizi"]
+    correct_answer: "Impaka"
+    xp_reward: 12
+
+  - id: 90
+    type: picture_word
+    question: "Quel concept de débat cette image représente-t-elle ?"
+    image_url: "https://source.unsplash.com/featured/?opinion"
+    options: ["Igitekerezo", "Ukuri", "Ibimenyetso"]
+    correct_answer: "Igitekerezo"
+    xp_reward: 12
+
+  - id: 91
+    type: picture_word
+    question: "Quel concept de débat cette image représente-t-elle ?"
+    image_url: "https://source.unsplash.com/featured/?agreement"
+    options: ["Kwemera", "Kutemera", "Guhakana"]
+    correct_answer: "Kwemera"
+    xp_reward: 12
+
+  - id: 92
+    type: picture_word
+    question: "Quel concept de débat cette image représente-t-elle ?"
+    image_url: "https://source.unsplash.com/featured/?disagreement"
+    options: ["Kutemera", "Kwemera", "Guhindura igitekerezo"]
+    correct_answer: "Kutemera"
+    xp_reward: 12
+
+  - id: 93
+    type: picture_word
+    question: "Quel concept de débat cette image représente-t-elle ?"
+    image_url: "https://source.unsplash.com/featured/?evidence"
+    options: ["Ibimenyetso", "Ukuri", "Igisubizo"]
+    correct_answer: "Ibimenyetso"
+    xp_reward: 12
+
+  - id: 94
+    type: picture_word
+    question: "Quel concept de débat cette image représente-t-elle ?"
+    image_url: "https://source.unsplash.com/featured/?fact"
+    options: ["Ukuri", "Igitekerezo", "Impamvu"]
+    correct_answer: "Ukuri"
+    xp_reward: 12
+
+  - id: 95
+    type: picture_word
+    question: "Quel concept de débat cette image représente-t-elle ?"
+    image_url: "https://source.unsplash.com/featured/?speaker"
+    options: ["Umuvugizi", "Abumvise", "Umuntu"]
+    correct_answer: "Umuvugizi"
+    xp_reward: 12
+
+  - id: 96
+    type: picture_word
+    question: "Quel concept de débat cette image représente-t-elle ?"
+    image_url: "https://source.unsplash.com/featured/?audience"
+    options: ["Abumvise", "Abareba", "Abantu"]
+    correct_answer: "Abumvise"
+    xp_reward: 12
+
+  # 10. Association de mots (Pairing)
+  - id: 97
+    type: matching
+    question: "Associez les termes de débat"
+    pairs:
+      - left: "Débat"
+        right: "Impaka"
+      - left: "Opinion"
+        right: "Igitekerezo"
+      - left: "Être d'accord"
+        right: "Kwemera"
+      - left: "Ne pas être d'accord"
+        right: "Kutemera"
+      - left: "Preuve"
+        right: "Ibimenyetso"
+      - left: "Fait"
+        right: "Ukuri"
+      - left: "Question"
+        right: "Ikibazo"
+      - left: "Réponse"
+        right: "Igisubizo"
+      - left: "Orateur"
+        right: "Umuvugizi"
+      - left: "Public"
+        right: "Abumvise"
+    xp_reward: 25
+
+  - id: 98
+    type: matching
+    question: "Associez les phrases de débat"
+    pairs:
+      - left: "Je suis d'accord avec toi"
+        right: "Ndemeranya nawe"
+      - left: "Je ne suis pas d'accord"
+        right: "Sinemeye"
+      - left: "Je pense que..."
+        right: "Ntekereza ko..."
+      - left: "À mon avis..."
+        right: "Mu bitekerezo byanjye..."
+      - left: "Qu'en penses-tu ?"
+        right: "Utekereza iki?"
+      - left: "Peux-tu expliquer pourquoi ?"
+        right: "Ushobora gusobanura impamvu?"
+      - left: "C'est un argument solide"
+        right: "Icyo ni igitekerezo gikomeye"
+      - left: "J'ai besoin de plus de faits"
+        right: "Nkeneye ibindi by'ukuri"
+    xp_reward: 25
+
+  - id: 99
+    type: matching
+    question: "Associez les termes de débat avancés"
+    pairs:
+      - left: "Argument"
+        right: "Impamvu"
+      - left: "Opinion personnelle"
+        right: "Igitekerezo cy'umuntu"
+      - left: "Point de vue"
+        right: "Inyungu"
+      - left: "Discussion"
+        right: "Ikiganiro"
+      - left: "Persuader"
+        right: "Guhindura igitekerezo"
+      - left: "Contre-argument"
+        right: "Igitekerezo cy'ukundi"
+      - left: "Réfuter"
+        right: "Guhakana"
+      - left: "Conclusion"
+        right: "Umusozo"
+    xp_reward: 25
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 100
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Ndemeranya ___."
+    missing_word_position: 2
+    options: ["nawe", "ko", "iki"]
+    correct_answer: "nawe"
+    translation: "Je suis d'accord avec toi."
+    xp_reward: 12
+
+  - id: 101
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Ntekereza ___."
+    missing_word_position: 2
+    options: ["ko", "nawe", "iki"]
+    correct_answer: "ko"
+    translation: "Je pense que..."
+    xp_reward: 12
+
+  - id: 102
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Mu bitekerezo ___."
+    missing_word_position: 3
+    options: ["byanjye", "byawe", "byacu"]
+    correct_answer: "byanjye"
+    translation: "À mon avis..."
+    xp_reward: 15
+
+  - id: 103
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Utekereza ___?"
+    missing_word_position: 2
+    options: ["iki", "ko", "nawe"]
+    correct_answer: "iki"
+    translation: "Qu'en penses-tu ?"
+    xp_reward: 10
+
+  - id: 104
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Ushobora gusobanura ___?"
+    missing_word_position: 3
+    options: ["impamvu", "igitekerezo", "ikibazo"]
+    correct_answer: "impamvu"
+    translation: "Peux-tu expliquer pourquoi ?"
+    xp_reward: 15
+
+  - id: 105
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Mfite ibimenyetso ___ ko..."
+    missing_word_position: 3
+    options: ["byerekana", "by'ukuri", "byiza"]
+    correct_answer: "byerekana"
+    translation: "J'ai des preuves que..."
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions based on text
+  - id: 106
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Mu bitekerezo byanjye, impaka ni ngombwa. Ndemeranya ko tugomba kuvuga ibitekerezo byacu."
+    translation: "À mon avis, le débat est important. Je suis d'accord que nous devons exprimer nos opinions."
+    question: "Qu'est-ce qui est important selon l'orateur ?"
+    options: ["Nourriture", "Débat", "École", "Travail"]
+    correct_answer: "Débat"
+    xp_reward: 15
+
+  - id: 107
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "A: Ntekereza ko ibimenyetso ari ngombwa. B: Ndemeranya nawe. Mfite ibimenyetso byerekana ko ari ukuri."
+    question: "La personne B est-elle d'accord avec la personne A ?"
+    options: ["Oui", "Non", "Peut-être", "Pas sûr"]
+    correct_answer: "Oui"
+    xp_reward: 12
+
+  - id: 108
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "A: Icyo ni igitekerezo gikomeye. B: Sinemeye. Nkeneye ibindi by'ukuri."
+    question: "La personne B est-elle d'accord avec la personne A ?"
+    options: ["Oui", "Non", "Peut-être", "Pas sûr"]
+    correct_answer: "Non"
+    xp_reward: 12
+
+  - id: 109
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Umuvugizi yatanze ibimenyetso byinshi. Abumvise bumvise neza."
+    question: "Qu'a fourni l'orateur ?"
+    options: ["Questions", "Preuves", "Nourriture", "Livres"]
+    correct_answer: "Preuves"
+    xp_reward: 15
+
+  - id: 110
+    type: read_answer
+    question: "Lisez la conversation et répondez à la question"
+    text: "A: Ushobora gusobanura impamvu? B: Ntekereza ko impaka ari ngombwa kubera ko twiga ibitekerezo by'abandi."
+    question: "Que pense B du débat ?"
+    options: ["C'est ennuyeux", "C'est important", "C'est difficile", "C'est facile"]
+    correct_answer: "C'est important"
+    xp_reward: 18
+
+  # 14. True / False
+  - id: 111
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Impaka means 'debate'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 112
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Igitekerezo means 'fact'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 113
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Kwemera means 'to agree'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 114
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Kutemera means 'to agree'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 115
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Ndemeranya nawe means 'I disagree with you'."
+    correct_answer: false
+    xp_reward: 12
+
+  - id: 116
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Sinemeye means 'I disagree'."
+    correct_answer: true
+    xp_reward: 12
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 117
+    type: conversation
+    question: "Répondez à la déclaration en construisant une phrase"
+    bot_message: "Ntekereza ko impaka ari ngombwa."
+    translation: "Je pense que le débat est important."
+    word_bank: ["Ndemeranya", "nawe", "sinemeye", "ntekereza", "ko"]
+    correct_response: ["Ndemeranya", "nawe"]
+    xp_reward: 18
+
+  - id: 118
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Utekereza iki?"
+    translation: "Qu'en penses-tu ?"
+    options:
+      - "Ntekereza ko ari ukuri"
+      - "Ndemeranya nawe"
+      - "Sinemeye"
+    correct_response: "Ntekereza ko ari ukuri"
+    xp_reward: 15
+
+  - id: 119
+    type: conversation
+    question: "Répondez à la déclaration en construisant une phrase"
+    bot_message: "Icyo ni igitekerezo gikomeye."
+    translation: "C'est un argument solide."
+    word_bank: ["Ndemeranya", "nawe", "sinemeye", "nkeneye", "ibindi by'ukuri"]
+    correct_response: ["Ndemeranya", "nawe"]
+    xp_reward: 18
+
+  - id: 120
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Ushobora gusobanura impamvu?"
+    translation: "Peux-tu expliquer pourquoi ?"
+    options:
+      - "Ntekereza ko impaka ari ngombwa"
+      - "Ndemeranya nawe"
+      - "Sinemeye"
+    correct_response: "Ntekereza ko impaka ari ngombwa"
+    xp_reward: 18
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 121
+    type: story
+    title: "Un débat - Impaka"
+    story_intro: "Lisez l'histoire d'un débat. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "Speaker A: In my opinion, debate is important."
+      - text: "Speaker A: I have evidence that shows this."
+      - text: "Speaker B: I disagree."
+      - text: "Speaker B: I need more facts."
+      - text: "Speaker A: That is a strong argument."
+      - text: "Speaker B: Can you explain why?"
+      - text: "Speaker A: I think that we learn from each other."
+      - text: "Speaker B: I agree with you."

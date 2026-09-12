@@ -1,0 +1,882 @@
+lesson:
+ name: "Eläimet"
+ description: "Opettele animal names in Kinyarwanda by categories"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Words ONLY (Safe for single words)
+ # Domestic / Farm Eläimet
+ - id: 1
+ type: translation
+ Kysymys: "Miten sanotaan 'Lehmä' kinyarwandaksi?"
+ Vastaus: "Inka"
+ xp_reward: 10
+
+ - id: 2
+ type: translation
+ Kysymys: "Miten sanotaan 'Koira' kinyarwandaksi?"
+ Vastaus: "Imbwa"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Kysymys: "Miten sanotaan 'Kissa' kinyarwandaksi?"
+ Vastaus: "Injangwe"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Kysymys: "Miten sanotaan 'Vuohi' kinyarwandaksi?"
+ Vastaus: "Ihene"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Kysymys: "Miten sanotaan 'Lammas' kinyarwandaksi?"
+ Vastaus: "Intama"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Kysymys: "Miten sanotaan 'Sika' kinyarwandaksi?"
+ Vastaus: "Ingurube"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Kysymys: "Miten sanotaan 'Kana' kinyarwandaksi?"
+ Vastaus: "Inkoko"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ Kysymys: "Miten sanotaan 'Jänis' kinyarwandaksi?"
+ Vastaus: "Urukwavu"
+ xp_reward: 10
+
+ - id: 9
+ type: translation
+ Kysymys: "Miten sanotaan 'Aasi' kinyarwandaksi?"
+ Vastaus: "Indogobe"
+ xp_reward: 10
+
+ - id: 10
+ type: translation
+ Kysymys: "Miten sanotaan 'Kyyhkynen' kinyarwandaksi?"
+ Vastaus: "Inuma"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Kysymys: "Miten sanotaan 'Lintu' kinyarwandaksi?"
+ Vastaus: "Inyoni"
+ xp_reward: 10
+
+ # Wildlife Eläimet
+ - id: 12
+ type: translation
+ Kysymys: "Miten sanotaan 'Leijona' kinyarwandaksi?"
+ Vastaus: "Intare"
+ xp_reward: 10
+
+ - id: 13
+ type: translation
+ Kysymys: "Miten sanotaan 'Norsu' kinyarwandaksi?"
+ Vastaus: "Inzovu"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ Kysymys: "Miten sanotaan 'Vuorigoorilla' kinyarwandaksi?"
+ Vastaus: "Ingagi"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Kysymys: "Miten sanotaan 'Leopardi' kinyarwandaksi?"
+ Vastaus: "Ingwe"
+ xp_reward: 10
+
+ - id: 16
+ type: translation
+ Kysymys: "Miten sanotaan 'Puhveli' kinyarwandaksi?"
+ Vastaus: "Imbogo"
+ xp_reward: 10
+
+ - id: 17
+ type: translation
+ Kysymys: "Miten sanotaan 'Seepra' kinyarwandaksi?"
+ Vastaus: "Imparage"
+ xp_reward: 10
+
+ - id: 18
+ type: translation
+ Kysymys: "Miten sanotaan 'Virtahepo' kinyarwandaksi?"
+ Vastaus: "Imvubu"
+ xp_reward: 10
+
+ - id: 19
+ type: translation
+ Kysymys: "Miten sanotaan 'Kirahvi' kinyarwandaksi?"
+ Vastaus: "Agasumbashyamba"
+ xp_reward: 10
+
+ - id: 20
+ type: translation
+ Kysymys: "Miten sanotaan 'Hyeena' kinyarwandaksi?"
+ Vastaus: "Imfyisi"
+ xp_reward: 10
+
+ - id: 21
+ type: translation
+ Kysymys: "Miten sanotaan 'Apina' kinyarwandaksi?"
+ Vastaus: "Inkende"
+ xp_reward: 10
+
+ # Lintu, Reptiles, Insects, Kala
+ - id: 22
+ type: translation
+ Kysymys: "Miten sanotaan 'Harmaakruunu-kurki' kinyarwandaksi?"
+ Vastaus: "Umusambi"
+ xp_reward: 10
+
+ - id: 23
+ type: translation
+ Kysymys: "Miten sanotaan 'Käärme' kinyarwandaksi?"
+ Vastaus: "Inzoka"
+ xp_reward: 10
+
+ - id: 24
+ type: translation
+ Kysymys: "Miten sanotaan 'Sammakko' kinyarwandaksi?"
+ Vastaus: "Igikeri"
+ xp_reward: 10
+
+ - id: 25
+ type: translation
+ Kysymys: "Miten sanotaan 'Kala' kinyarwandaksi?"
+ Vastaus: "Ifi"
+ xp_reward: 10
+
+ - id: 26
+ type: translation
+ Kysymys: "Miten sanotaan 'Mehiläinen' kinyarwandaksi?"
+ Vastaus: "Inzuki"
+ xp_reward: 10
+
+ # Animal Actions (Verbs)
+ - id: 27
+ type: translation
+ Kysymys: "Miten sanotaan 'eats' kinyarwandaksi?"
+ Vastaus: "irya"
+ xp_reward: 10
+
+ - id: 28
+ type: translation
+ Kysymys: "Miten sanotaan 'drinks' kinyarwandaksi?"
+ Vastaus: "inywa"
+ xp_reward: 10
+
+ - id: 29
+ type: translation
+ Kysymys: "Miten sanotaan 'sleeps' kinyarwandaksi?"
+ Vastaus: "irasinzira"
+ xp_reward: 10
+
+ - id: 30
+ type: translation
+ Kysymys: "Miten sanotaan 'runs' kinyarwandaksi?"
+ Vastaus: "iriruka"
+ xp_reward: 10
+
+ - id: 31
+ type: translation
+ Kysymys: "Miten sanotaan 'flies' kinyarwandaksi?"
+ Vastaus: "iraguruka"
+ xp_reward: 10
+
+ - id: 32
+ type: translation
+ Kysymys: "Miten sanotaan 'swims' kinyarwandaksi?"
+ Vastaus: "iroga"
+ xp_reward: 10
+
+ - id: 33
+ type: translation
+ Kysymys: "Miten sanotaan 'plays' kinyarwandaksi?"
+ Vastaus: "irakina"
+ xp_reward: 10
+
+ # Animal Ruoka
+ - id: 34
+ type: translation
+ Kysymys: "Miten sanotaan 'grass' kinyarwandaksi?"
+ Vastaus: "ibyatsi"
+ xp_reward: 10
+
+ - id: 35
+ type: translation
+ Kysymys: "Miten sanotaan 'Vesi' kinyarwandaksi?"
+ Vastaus: "amazi"
+ xp_reward: 10
+
+ - id: 36
+ type: translation
+ Kysymys: "Miten sanotaan 'meat' kinyarwandaksi?"
+ Vastaus: "inyama"
+ xp_reward: 10
+
+ # NO DIRECT TRANSLATION FOR Lause OR PARAGRAPHS
+ # Instead, we use Lause building, Yhdistä, and word bank exercises
+
+ # 2. Multiple Choice
+ - id: 37
+ type: multiple_choice
+ Kysymys: "Mikä on 'Inka'?"
+ options:
+ - "Koira"
+ - "Lehmä"
+ - "Kissa"
+ - "Vuohi"
+ Vastaus: "Lehmä"
+ xp_reward: 15
+
+ - id: 38
+ type: multiple_choice
+ Kysymys: "Mikä on 'Intare'?"
+ options:
+ - "Leijona"
+ - "Norsu"
+ - "Apina"
+ - "Koira"
+ Vastaus: "Leijona"
+ xp_reward: 15
+
+ - id: 39
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'irya' tässä lauseessa?"
+ options:
+ - "drinks"
+ - "eats"
+ - "sleeps"
+ - "runs"
+ Vastaus: "eats"
+ xp_reward: 15
+
+ - id: 40
+ type: multiple_choice
+ Kysymys: "Mitä tarkoittaa 'ibyatsi' tässä lauseessa?"
+ options:
+ - "Vesi"
+ - "meat"
+ - "grass"
+ - "milk"
+ Vastaus: "grass"
+ xp_reward: 15
+
+ # 3. Kuuntele and Type (Dictation) - SINGLE WORDS ONLY
+ - id: 41
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the animal name"
+ tts_text: "Inka"
+ Vastaus: "Inka"
+ translation: "Lehmä"
+ xp_reward: 20
+
+ - id: 42
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the animal name"
+ tts_text: "Imbwa"
+ Vastaus: "Imbwa"
+ translation: "Koira"
+ xp_reward: 20
+
+ - id: 43
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the animal name"
+ tts_text: "Injangwe"
+ Vastaus: "Injangwe"
+ translation: "Kissa"
+ xp_reward: 20
+
+ - id: 44
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the animal name"
+ tts_text: "Ihene"
+ Vastaus: "Ihene"
+ translation: "Vuohi"
+ xp_reward: 20
+
+ - id: 45
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the animal name"
+ tts_text: "Intama"
+ Vastaus: "Intama"
+ translation: "Lammas"
+ xp_reward: 20
+
+ - id: 46
+ type: listen_and_type
+ Kysymys: "Kuuntele and type the animal name"
+ tts_text: "Inkoko"
+ Vastaus: "Inkoko"
+ translation: "Kana"
+ xp_reward: 20
+
+ # 4. Kuuntele and Valitse - SINGLE WORDS ONLY
+ - id: 47
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct animal"
+ tts_text: "Imbwa"
+ options:
+ - "Kissa"
+ - "Koira"
+ - "Lehmä"
+ Vastaus: "Koira"
+ xp_reward: 15
+
+ - id: 48
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct animal"
+ tts_text: "Intare"
+ options:
+ - "Leijona"
+ - "Norsu"
+ - "Kirahvi"
+ Vastaus: "Leijona"
+ xp_reward: 15
+
+ - id: 49
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct animal"
+ tts_text: "Intama"
+ options:
+ - "Vuohi"
+ - "Lammas"
+ - "Lehmä"
+ Vastaus: "Lammas"
+ xp_reward: 15
+
+ - id: 50
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct animal"
+ tts_text: "Inkoko"
+ options:
+ - "Kana"
+ - "Lintu"
+ - "Duck"
+ Vastaus: "Kana"
+ xp_reward: 15
+
+ - id: 51
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct animal"
+ tts_text: "Injangwe"
+ options:
+ - "Koira"
+ - "Kissa"
+ - "Jänis"
+ Vastaus: "Kissa"
+ xp_reward: 15
+
+ - id: 52
+ type: listen_and_choose
+ Kysymys: "Kuuntele and Valitse the correct animal"
+ tts_text: "Ihene"
+ options:
+ - "Vuohi"
+ - "Lammas"
+ - "Lehmä"
+ Vastaus: "Vuohi"
+ xp_reward: 15
+
+ # 5. Repeat / Puhu Exercise
+ - id: 53
+ type: Puhu
+ Kysymys: "Say this word"
+ prompt: "Inka"
+ translation: "Lehmä"
+ xp_reward: 15
+
+ - id: 54
+ type: Puhu
+ Kysymys: "Say this word"
+ prompt: "Imbwa"
+ translation: "Koira"
+ xp_reward: 15
+
+ - id: 55
+ type: Puhu
+ Kysymys: "Say this word"
+ prompt: "Injangwe"
+ translation: "Kissa"
+ xp_reward: 15
+
+ - id: 56
+ type: Puhu
+ Kysymys: "Say this Lause"
+ prompt: "Inka irya ibyatsi"
+ translation: "The Lehmä eats grass"
+ xp_reward: 20
+
+ # 6. Word Bank Lause Building - PIECES PROVIDED, NO TRANSLATION NEEDED
+ - id: 57
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Lehmä eats grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Koira drinks Vesi'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 20
+
+ - id: 59
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Lintu flies'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka"]
+ xp_reward: 20
+
+ - id: 60
+ type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Kala swims'"
+ word_bank: ["Ifi", "iroga", "amazi", "Inyoni", "iraguruka", "hejuru"]
+ correct_answer: ["Ifi", "iroga"]
+ xp_reward: 20
+
+ # 7. Lause Scramble - PIECES PROVIDED
+ - id: 61
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["irya", "Inka", "ibyatsi"]
+ correct_sentence: "Inka irya ibyatsi"
+ translation: "The Lehmä eats grass"
+ xp_reward: 20
+
+ - id: 62
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["inywa", "Imbwa", "amazi"]
+ correct_sentence: "Imbwa inywa amazi"
+ translation: "The Koira drinks Vesi"
+ xp_reward: 20
+
+ - id: 63
+ type: sentence_scramble
+ Kysymys: "Arrange these words to form a correct Kinyarwanda Lause"
+ scrambled_words: ["iraguruka", "Inyoni", "hejuru"]
+ correct_sentence: "Inyoni iraguruka hejuru"
+ translation: "The Lintu flies above"
+ xp_reward: 20
+
+ # 8. Fill in the Blank - Valitse FROM OPTIONS
+ - id: 64
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Inka ___ ibyatsi."
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "The Lehmä eats grass"
+ xp_reward: 15
+
+ - id: 65
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Imbwa ___ amazi."
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "The Koira drinks Vesi"
+ xp_reward: 15
+
+ - id: 66
+ type: fill_blank
+ Kysymys: "Valitse the correct word to complete the Lause"
+ text_with_blank: "Inyoni ___ hejuru."
+ options: ["iraguruka", "iriruka", "iroga"]
+ correct_answer: "iraguruka"
+ translation: "The Lintu flies above"
+ xp_reward: 15
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 67
+ type: picture_word
+ Kysymys: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Intama", "Ihene"]
+ correct_answer: "Inka"
+ xp_reward: 10
+
+ - id: 68
+ type: picture_word
+ Kysymys: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inka", "Imbwa", "Injangwe", "Inkoko"]
+ correct_answer: "Imbwa"
+ xp_reward: 10
+
+ - id: 69
+ type: picture_word
+ Kysymys: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1585468274952-66591eb14165?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Intare", "Ingwe", "Imbogo"]
+ correct_answer: "Intare"
+ xp_reward: 10
+
+ - id: 70
+ type: picture_word
+ Kysymys: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1581852017103-68ac65514cf7?q=80&w=873&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inzovu", "Imvubu", "Ingagi", "Imparage"]
+ correct_answer: "Inzovu"
+ xp_reward: 10
+
+ - id: 71
+ type: picture_word
+ Kysymys: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Inyoni", "Inkoko", "Inuma", "Umusambi"]
+ correct_answer: "Inyoni"
+ xp_reward: 10
+
+ - id: 72
+ type: picture_word
+ Kysymys: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1497671954146-59a89ff626ff?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ options: ["Ifi", "Inzoka", "Igikeri", "Akanyamasyo"]
+ correct_answer: "Ifi"
+ xp_reward: 10
+
+ # 10. Word Yhdistä (Pairing)
+ - id: 73
+ type: Yhdistä
+ Kysymys: "Yhdistä the Eläimet"
+ pairs:
+ - Vasen: "Lehmä"
+ Oikea: "Inka"
+ - Vasen: "Koira"
+ Oikea: "Imbwa"
+ - Vasen: "Kissa"
+ Oikea: "Injangwe"
+ - Vasen: "Leijona"
+ Oikea: "Intare"
+ - Vasen: "Norsu"
+ Oikea: "Inzovu"
+ - Vasen: "Lintu"
+ Oikea: "Inyoni"
+ - Vasen: "Kala"
+ Oikea: "Ifi"
+ xp_reward: 25
+
+ - id: 74
+ type: Yhdistä
+ Kysymys: "Yhdistä the actions"
+ pairs:
+ - Vasen: "eats"
+ Oikea: "irya"
+ - Vasen: "drinks"
+ Oikea: "inywa"
+ - Vasen: "sleeps"
+ Oikea: "irasinzira"
+ - Vasen: "flies"
+ Oikea: "iraguruka"
+ - Vasen: "swims"
+ Oikea: "iroga"
+ - Vasen: "runs"
+ Oikea: "iriruka"
+ xp_reward: 25
+
+ - id: 75
+ type: Yhdistä
+ Kysymys: "Yhdistä the animal Ruoka"
+ pairs:
+ - Vasen: "grass"
+ Oikea: "ibyatsi"
+ - Vasen: "Vesi"
+ Oikea: "amazi"
+ - Vasen: "meat"
+ Oikea: "inyama"
+ xp_reward: 20
+
+ # 11. Tap What You Hear - PIECES PROVIDED
+ - id: 76
+ type: tap_hear
+ Kysymys: "Tap the words you hear in order"
+ tts_text: "Inka irya ibyatsi"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_taps: ["Inka", "irya", "ibyatsi"]
+ xp_reward: 25
+
+ - id: 77
+ type: tap_hear
+ Kysymys: "Tap the words you hear in order"
+ tts_text: "Imbwa inywa amazi"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_taps: ["Imbwa", "inywa", "amazi"]
+ xp_reward: 25
+
+ - id: 78
+ type: tap_hear
+ Kysymys: "Tap the words you hear in order"
+ tts_text: "Inyoni iraguruka hejuru"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_taps: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 25
+
+ # 12. Valitse Missing Word
+ - id: 79
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Inka ___ ibyatsi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "ikunda"]
+ correct_answer: "irya"
+ translation: "The Lehmä eats grass"
+ xp_reward: 15
+
+ - id: 80
+ type: choose_missing
+ Kysymys: "Valitse the missing word"
+ Lause: "Imbwa ___ amazi."
+ missing_word_position: 2
+ options: ["irya", "inywa", "irasinzira"]
+ correct_answer: "inywa"
+ translation: "The Koira drinks Vesi"
+ xp_reward: 15
+
+ # 13. Lue and Vastaus - Kysymys in English, Vastaus based on Kinyarwanda text
+ - id: 81
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Inka iri mu murima. Inka irya ibyatsi. Imbwa iri hafi yayo."
+ Kysymys: "Where is the Lehmä?"
+ options: ["In the Talo", "In the field", "At the Markkinat", "Near the Koira"]
+ correct_answer: "In the field"
+ xp_reward: 25
+
+ - id: 82
+ type: read_answer
+ Kysymys: "Lue the text and Vastaus the Kysymys"
+ text: "Intare ni nini. Intare irya inyama. Intare iratontoma."
+ Kysymys: "Mitä tarkoittaa the Leijona eat?"
+ options: ["Grass", "Vesi", "Meat", "Kala"]
+ correct_answer: "Meat"
+ xp_reward: 20
+
+ # 14. True / False
+ - id: 83
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Imbwa ni inyamaswa."
+ translation: "A Koira is an animal"
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 84
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Inka iraguruka."
+ translation: "A Lehmä flies"
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 85
+ type: true_false
+ Kysymys: "Is this statement true or false?"
+ statement: "Ifi iroga."
+ translation: "A Kala swims"
+ correct_answer: true
+ xp_reward: 10
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 86
+ type: conversation
+ Kysymys: "Respond to the Kysymys by building a Lause"
+ bot_message: "Iyi ni inyamaswa ki?"
+ translation: "What animal is this?"
+ image_url: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ word_bank: ["Inka", "ni", "inyamaswa", "Imbwa", "ni", "igikeri"]
+ correct_response: ["Inka", "ni", "inyamaswa"]
+ xp_reward: 20
+
+ - id: 87
+ type: conversation
+ Kysymys: "Respond to the Kysymys"
+ bot_message: "Inka iri he?"
+ translation: "Where is the Lehmä?"
+ options:
+ - "Mu murima"
+ - "Mu nzu"
+ - "Ku isoko"
+ correct_response: "Mu murima"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build Lause from pieces
+ - id: 88
+ type: story
+ title: "The Lehmä and Friends"
+ story_intro: "Lue about the Eläimet. Then build the Lause."
+ story_segments:
+ - text: "There is a Lehmä in the field."
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+ - text: "The Lehmä eats grass."
+ - text: "A Koira is near the Lehmä."
+ - text: "The Koira drinks Vesi."
+ - text: "A Lintu flies above."
+ exercises:
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Lehmä eats grass'"
+ word_bank: ["Inka", "irya", "ibyatsi", "Imbwa", "inywa", "amazi"]
+ correct_answer: ["Inka", "irya", "ibyatsi"]
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Koira drinks Vesi'"
+ word_bank: ["Imbwa", "inywa", "amazi", "Inka", "irya", "ibyatsi"]
+ correct_answer: ["Imbwa", "inywa", "amazi"]
+ - type: word_bank
+ Kysymys: "Build the Kinyarwanda Lause for 'The Lintu flies above'"
+ word_bank: ["Inyoni", "iraguruka", "hejuru", "Imbwa", "iriruka", "iri"]
+ correct_answer: ["Inyoni", "iraguruka", "hejuru"]
+ xp_reward: 40
+
+ # 17. Pronunciation Check
+ - id: 89
+ type: pronunciation
+ Kysymys: "Say the word"
+ prompt: "Inka"
+ translation: "Lehmä"
+ xp_reward: 15
+
+ - id: 90
+ type: pronunciation
+ Kysymys: "Say the word"
+ prompt: "Imbwa"
+ translation: "Koira"
+ xp_reward: 15
+
+ - id: 91
+ type: pronunciation
+ Kysymys: "Say the word"
+ prompt: "Injangwe"
+ translation: "Kissa"
+ xp_reward: 15
+
+ - id: 92
+ type: pronunciation
+ Kysymys: "Say the word"
+ prompt: "Intare"
+ translation: "Leijona"
+ xp_reward: 15
+
+ - id: 93
+ type: pronunciation
+ Kysymys: "Say the word"
+ prompt: "Agasumbashyamba"
+ translation: "Kirahvi"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 94
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'amazi' mean in this Lause?"
+ context_sentence: "Imbwa inywa amazi."
+ word: "amazi"
+ options: ["milk", "Vesi", "Ruoka", "grass"]
+ correct_answer: "Vesi"
+ xp_reward: 15
+
+ - id: 95
+ type: identify_meaning
+ Kysymys: "Mitä tarkoittaa 'irya' mean in this Lause?"
+ context_sentence: "Inka irya ibyatsi."
+ word: "irya"
+ options: ["drinks", "eats", "runs", "flies"]
+ correct_answer: "eats"
+ xp_reward: 15
+
+ # 19. Speed Yhdistä
+ - id: 96
+ type: speed_Yhdistä
+ title: "Yhdistä Madness: Eläimet"
+ time_limit_seconds: 45
+ pairs:
+ - Vasen: "Lehmä"
+ Oikea: "Inka"
+ - Vasen: "Koira"
+ Oikea: "Imbwa"
+ - Vasen: "Kissa"
+ Oikea: "Injangwe"
+ - Vasen: "Leijona"
+ Oikea: "Intare"
+ - Vasen: "Norsu"
+ Oikea: "Inzovu"
+ - Vasen: "Lintu"
+ Oikea: "Inyoni"
+ - Vasen: "Kala"
+ Oikea: "Ifi"
+ - Vasen: "Vuohi"
+ Oikea: "Ihene"
+ - Vasen: "Lammas"
+ Oikea: "Intama"
+ - Vasen: "Kana"
+ Oikea: "Inkoko"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 97
+ type: timed_challenge
+ title: "Lightning Round: Eläimet"
+ time_limit_seconds: 30
+ Kysymys_count: 5
+ Kysymys:
+ - Kysymys: "Lehmä"
+ Vastaus: "Inka"
+ - Kysymys: "Koira"
+ Vastaus: "Imbwa"
+ - Kysymys: "Kissa"
+ Vastaus: "Injangwe"
+ - Kysymys: "Leijona"
+ Vastaus: "Intare"
+ - Kysymys: "Norsu"
+ Vastaus: "Inzovu"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Kysymys: "Flashcards"
+ Flashcards:
+ - front: "Inka"
+ back: "Lehmä"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Imbwa"
+ back: "Koira"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Injangwe"
+ back: "Kissa"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ihene"
+ back: "Vuohi"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Intama"
+ back: "Lammas"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Ingurube"
+ back: "Sika"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkoko"
+ back: "Kana"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Urukwavu"
+ back: "Jänis"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Indogobe"
+ back: "Aasi"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Inuma"
+ back: "Kyyhkynen"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

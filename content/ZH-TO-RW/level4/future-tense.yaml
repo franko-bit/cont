@@ -1,0 +1,1146 @@
+lesson:
+ name: "Future Tense - Igihe Kizaza"
+ description: "学习 how 到 talk about future actions 在 Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Future Words ONLY (Safe 为了 single words/phrases)
+ # Basic Future 词汇
+ - id: 1
+ type: translation
+ 问题: "怎么说 'Will' 用基尼阿万达语？ (一个 在 'will 去')"
+ 答案: "Nzajya / Azajya"
+ note: "Nzajya means 'I will 去', Azajya means 'he/she will 去'"
+ xp_reward: 15
+
+ - id: 2
+ type: translation
+ 问题: "怎么说 '明天' 用基尼阿万达语？"
+ 答案: "Ejo"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ 问题: "怎么说 'Next week' 用基尼阿万达语？"
+ 答案: "Icyumweru gitaha"
+ xp_reward: 15
+
+ - id: 4
+ type: translation
+ 问题: "怎么说 'Next month' 用基尼阿万达语？"
+ 答案: "Ukwezi gutaha"
+ xp_reward: 15
+
+ - id: 5
+ type: translation
+ 问题: "怎么说 'Next year' 用基尼阿万达语？"
+ 答案: "Umwaka utaha"
+ xp_reward: 15
+
+ - id: 6
+ type: translation
+ 问题: "怎么说 'Soon' 用基尼阿万达语？"
+ 答案: "Vuba"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ 问题: "怎么说 'Later' 用基尼阿万达语？"
+ 答案: "Nyuma"
+ xp_reward: 10
+
+ - id: 8
+ type: translation
+ 问题: "怎么说 'Soon after' 用基尼阿万达语？"
+ 答案: "Vuba nyuma"
+ xp_reward: 12
+
+ - id: 9
+ type: translation
+ 问题: "怎么说 'Later 在' 用基尼阿万达语？"
+ 答案: "Nyuma yaho"
+ xp_reward: 12
+
+ - id: 10
+ type: translation
+ 问题: "怎么说 'Next' 用基尼阿万达语？"
+ 答案: "Ukurikira"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ 问题: "怎么说 'Plan' 用基尼阿万达语？"
+ 答案: "Gahunda"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ 问题: "怎么说 'Intend' 用基尼阿万达语？"
+ 答案: "Gahunda / Gushaka"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ 问题: "怎么说 'Promise' 用基尼阿万达语？"
+ 答案: "Kwiyemeza"
+ xp_reward: 10
+
+ - id: 14
+ type: translation
+ 问题: "怎么说 'Expect' 用基尼阿万达语？"
+ 答案: "Kwitega"
+ xp_reward: 10
+
+ # Common Future Tense Phrases
+ - id: 15
+ type: translation
+ 问题: "怎么说 'I will 去 到 Kigali' 用基尼阿万达语？"
+ 答案: "Nzajya i Kigali."
+ xp_reward: 15
+
+ - id: 16
+ type: translation
+ 问题: "怎么说 'She will 来 明天' 用基尼阿万达语？"
+ 答案: "Azaza ejo."
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ 问题: "怎么说 'They will 吃 lunch soon' 用基尼阿万达语？"
+ 答案: "Bazarya ifunguro rya saa sita vuba."
+ xp_reward: 18
+
+ - id: 18
+ type: translation
+ 问题: "怎么说 'We will 旅行 next week' 用基尼阿万达语？"
+ 答案: "Tuzagenda icyumweru gitaha."
+ xp_reward: 18
+
+ - id: 19
+ type: translation
+ 问题: "怎么说 'He will study 明天' 用基尼阿万达语？"
+ 答案: "Aziga ejo."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ 问题: "怎么说 'I am 去 到 buy 一个 car' 用基尼阿万达语？"
+ 答案: "Nzagura imodoka."
+ xp_reward: 15
+
+ - id: 21
+ type: translation
+ 问题: "怎么说 'We will meet at  市场' 用基尼阿万达语？"
+ 答案: "Tuzahurira ku isoko."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ 问题: "怎么说 'She will help her friend' 用基尼阿万达语？"
+ 答案: "Azafasha inshuti ye."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ 问题: "怎么说 'I will call you later' 用基尼阿万达语？"
+ 答案: "Nzahamagara nyuma."
+ xp_reward: 15
+
+ - id: 24
+ type: translation
+ 问题: "怎么说 'They will visit  学校 next month' 用基尼阿万达语？"
+ 答案: "Bazasura ishuri ukwezi gutaha."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 25
+ type: multiple_choice
+ 问题: "是什么意思 'Ejo' 是什么意思"
+ options:
+ - "昨天"
+ - "明天"
+ - "Today"
+ - "Next week"
+ 答案: "明天"
+ xp_reward: 15
+
+ - id: 26
+ type: multiple_choice
+ 问题: "是什么意思 'Icyumweru gitaha' 是什么意思"
+ options:
+ - "这 week"
+ - "Last week"
+ - "Next week"
+ - "Every week"
+ 答案: "Next week"
+ xp_reward: 15
+
+ - id: 27
+ type: multiple_choice
+ 问题: "是什么意思 'Vuba' 是什么意思"
+ options:
+ - "Later"
+ - "Soon"
+ - "Never"
+ - "Always"
+ 答案: "Soon"
+ xp_reward: 15
+
+ - id: 28
+ type: multiple_choice
+ 问题: "是什么意思 'Nyuma' 是什么意思"
+ options:
+ - "Soon"
+ - "Later"
+ - "Before"
+ - "During"
+ 答案: "Later"
+ xp_reward: 15
+
+ - id: 29
+ type: multiple_choice
+ 问题: "是什么意思 'Nzajya i Kigali' 是什么意思"
+ options:
+ - "I went 到 Kigali"
+ - "I will 去 到 Kigali"
+ - "I am 在 Kigali"
+ - "I like Kigali"
+ 答案: "I will 去 到 Kigali"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ 问题: "是什么意思 'Azaza ejo' 是什么意思"
+ options:
+ - "He came 昨天"
+ - "He will 来 明天"
+ - "He 是 coming now"
+ - "He never 来"
+ 答案: "He will 来 明天"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ 问题: "是什么意思 'Tuzagenda icyumweru gitaha' 是什么意思"
+ options:
+ - "We 旅行 last week"
+ - "We will 旅行 next week"
+ - "We 旅行 every week"
+ - "We 是 旅行 now"
+ 答案: "We will 旅行 next week"
+ xp_reward: 18
+
+ # 3. 听 和 Type (Dictation)
+ - id: 32
+ type: listen_和_type
+ 问题: "听 和 type  future time phrase"
+ audio: "Ejo"
+ 答案: "Ejo"
+ translation: "明天"
+ xp_reward: 20
+
+ - id: 33
+ type: listen_和_type
+ 问题: "听 和 type  future time phrase"
+ audio: "Icyumweru gitaha"
+ 答案: "Icyumweru gitaha"
+ translation: "Next week"
+ xp_reward: 22
+
+ - id: 34
+ type: listen_和_type
+ 问题: "听 和 type  future time phrase"
+ audio: "Vuba"
+ 答案: "Vuba"
+ translation: "Soon"
+ xp_reward: 20
+
+ - id: 35
+ type: listen_和_type
+ 问题: "听 和 type  future time phrase"
+ audio: "Nyuma"
+ 答案: "Nyuma"
+ translation: "Later"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_和_type
+ 问题: "听 和 type  句子"
+ audio: "Nzajya i Kigali"
+ 答案: "Nzajya i Kigali"
+ translation: "I will 去 到 Kigali"
+ xp_reward: 22
+
+ - id: 37
+ type: listen_和_type
+ 问题: "听 和 type  句子"
+ audio: "Azaza ejo"
+ 答案: "Azaza ejo"
+ translation: "She will 来 明天"
+ xp_reward: 22
+
+ - id: 38
+ type: listen_和_type
+ 问题: "听 和 type  句子"
+ audio: "Tuzagenda icyumweru gitaha"
+ 答案: "Tuzagenda icyumweru gitaha"
+ translation: "We will 旅行 next week"
+ xp_reward: 25
+
+ - id: 39
+ type: listen_和_type
+ 问题: "听 和 type  句子"
+ audio: "Nzahamagara nyuma"
+ 答案: "Nzahamagara nyuma"
+ translation: "I will call you later"
+ xp_reward: 22
+
+ # 4. 听 和 选择
+ - id: 40
+ type: listen_和_choose
+ 问题: "听 和 选择  correct meaning"
+ audio: "Ejo"
+ options:
+ - "Today"
+ - "明天"
+ - "昨天"
+ 答案: "明天"
+ xp_reward: 15
+
+ - id: 41
+ type: listen_和_choose
+ 问题: "听 和 选择  correct meaning"
+ audio: "Vuba"
+ options:
+ - "Later"
+ - "Soon"
+ - "Never"
+ 答案: "Soon"
+ xp_reward: 15
+
+ - id: 42
+ type: listen_和_choose
+ 问题: "听 和 选择  correct meaning"
+ audio: "Nzajya i Kigali"
+ options:
+ - "I went 到 Kigali"
+ - "I will 去 到 Kigali"
+ - "I am 在 Kigali"
+ 答案: "I will 去 到 Kigali"
+ xp_reward: 18
+
+ - id: 43
+ type: listen_和_choose
+ 问题: "听 和 选择  correct meaning"
+ audio: "Azaza ejo"
+ options:
+ - "He came 昨天"
+ - "He will 来 明天"
+ - "He 是 coming now"
+ 答案: "He will 来 明天"
+ xp_reward: 18
+
+ # 5. Repeat / 说 Exercise
+ - id: 44
+ type: 说
+ 问题: "Say 这 future time phrase"
+ prompt: "Ejo"
+ translation: "明天"
+ xp_reward: 15
+
+ - id: 45
+ type: 说
+ 问题: "Say 这 future time phrase"
+ prompt: "Icyumweru gitaha"
+ translation: "Next week"
+ xp_reward: 18
+
+ - id: 46
+ type: 说
+ 问题: "Say 这 future time phrase"
+ prompt: "Vuba"
+ translation: "Soon"
+ xp_reward: 15
+
+ - id: 47
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Nzajya i Kigali"
+ translation: "I will 去 到 Kigali"
+ xp_reward: 18
+
+ - id: 48
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Azaza ejo"
+ translation: "She will 来 明天"
+ xp_reward: 18
+
+ - id: 49
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Tuzagenda icyumweru gitaha"
+ translation: "We will 旅行 next week"
+ xp_reward: 20
+
+ - id: 50
+ type: 说
+ 问题: "Say 这 句子"
+ prompt: "Nzahamagara nyuma"
+ translation: "I will call you later"
+ xp_reward: 18
+
+ # 6. Word Bank 句子 Building - PIECES PROVIDED
+ - id: 51
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'I will 去 到 Kigali'"
+ word_bank: ["Nzajya", "i", "Kigali", "ejo", "nyuma", "vuba"]
+ correct_answer: ["Nzajya", "i", "Kigali"]
+ xp_reward: 18
+
+ - id: 52
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'She will 来 明天'"
+ word_bank: ["Azaza", "ejo", "vuba", "nyuma", "i", "Kigali"]
+ correct_answer: ["Azaza", "ejo"]
+ xp_reward: 18
+
+ - id: 53
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'They will 吃 lunch soon'"
+ word_bank: ["Bazarya", "ifunguro", "rya saa sita", "vuba", "ejo", "nyuma"]
+ correct_answer: ["Bazarya", "ifunguro", "rya saa sita", "vuba"]
+ xp_reward: 22
+
+ - id: 54
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'We will 旅行 next week'"
+ word_bank: ["Tuzagenda", "icyumweru", "gitaha", "ukwezi", "gutaha", "ejo"]
+ correct_answer: ["Tuzagenda", "icyumweru", "gitaha"]
+ xp_reward: 20
+
+ - id: 55
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'He will study 明天'"
+ word_bank: ["Aziga", "ejo", "vuba", "nyuma", "i", "Kigali"]
+ correct_answer: ["Aziga", "ejo"]
+ xp_reward: 15
+
+ - id: 56
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'I am 去 到 buy 一个 car'"
+ word_bank: ["Nzagura", "imodoka", "ejo", "nyuma", "vuba", "i", "Kigali"]
+ correct_answer: ["Nzagura", "imodoka"]
+ xp_reward: 15
+
+ - id: 57
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'We will meet at  市场'"
+ word_bank: ["Tuzahurira", "ku", "isoko", "ejo", "nyuma", "vuba"]
+ correct_answer: ["Tuzahurira", "ku", "isoko"]
+ xp_reward: 18
+
+ - id: 58
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'She will help her friend'"
+ word_bank: ["Azafasha", "inshuti", "ye", "ejo", "nyuma", "vuba"]
+ correct_answer: ["Azafasha", "inshuti", "ye"]
+ xp_reward: 18
+
+ - id: 59
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'I will call you later'"
+ word_bank: ["Nzahamagara", "nyuma", "ejo", "vuba", "i", "Kigali"]
+ correct_answer: ["Nzahamagara", "nyuma"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ 问题: "Build  Kinyarwanda 句子 为了 'They will visit  学校 next month'"
+ word_bank: ["Bazasura", "ishuri", "ukwezi", "gutaha", "icyumweru", "gitaha", "ejo"]
+ correct_answer: ["Bazasura", "ishuri", "ukwezi", "gutaha"]
+ xp_reward: 22
+
+ # 7. 句子 Scramble - PIECES PROVIDED
+ - id: 61
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Nzajya", "i", "Kigali"]
+ correct_sentence: "Nzajya i Kigali."
+ translation: "I will 去 到 Kigali."
+ xp_reward: 18
+
+ - id: 62
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Azaza", "ejo"]
+ correct_sentence: "Azaza ejo."
+ translation: "She will 来 明天."
+ xp_reward: 15
+
+ - id: 63
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Bazarya", "ifunguro", "rya saa sita", "vuba"]
+ correct_sentence: "Bazarya ifunguro rya saa sita vuba."
+ translation: "They will 吃 lunch soon."
+ xp_reward: 22
+
+ - id: 64
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Tuzagenda", "icyumweru", "gitaha"]
+ correct_sentence: "Tuzagenda icyumweru gitaha."
+ translation: "We will 旅行 next week."
+ xp_reward: 20
+
+ - id: 65
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Aziga", "ejo"]
+ correct_sentence: "Aziga ejo."
+ translation: "He will study 明天."
+ xp_reward: 15
+
+ - id: 66
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Nzagura", "imodoka"]
+ correct_sentence: "Nzagura imodoka."
+ translation: "I am 去 到 buy 一个 car."
+ xp_reward: 15
+
+ - id: 67
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Tuzahurira", "ku", "isoko"]
+ correct_sentence: "Tuzahurira ku isoko."
+ translation: "We will meet at  市场."
+ xp_reward: 18
+
+ - id: 68
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Azafasha", "inshuti", "ye"]
+ correct_sentence: "Azafasha inshuti ye."
+ translation: "She will help her friend."
+ xp_reward: 18
+
+ - id: 69
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Nzahamagara", "nyuma"]
+ correct_sentence: "Nzahamagara nyuma."
+ translation: "I will call you later."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ 问题: "Arrange these words 到 form 一个 correct 句子"
+ scrambled_words: ["Bazasura", "ishuri", "ukwezi", "gutaha"]
+ correct_sentence: "Bazasura ishuri ukwezi gutaha."
+ translation: "They will visit  学校 next month."
+ xp_reward: 22
+
+ # 8. Fill 在  Blank - 选择 FROM OPTIONS
+ - id: 71
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Nzajya i ___."
+ options: ["Kigali", "ejo", "nyuma"]
+ correct_answer: "Kigali"
+ translation: "I will 去 到 Kigali."
+ xp_reward: 12
+
+ - id: 72
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Azaza ___."
+ options: ["ejo", "nyuma", "vuba"]
+ correct_answer: "ejo"
+ translation: "She will 来 明天."
+ xp_reward: 12
+
+ - id: 73
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Bazarya ifunguro rya saa sita ___."
+ options: ["vuba", "nyuma", "ejo"]
+ correct_answer: "vuba"
+ translation: "They will 吃 lunch soon."
+ xp_reward: 18
+
+ - id: 74
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Tuzagenda ___."
+ options: ["icyumweru gitaha", "ukwezi gutaha", "umwaka utaha"]
+ correct_answer: "icyumweru gitaha"
+ translation: "We will 旅行 next week."
+ xp_reward: 15
+
+ - id: 75
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Aziga ___."
+ options: ["ejo", "nyuma", "vuba"]
+ correct_answer: "ejo"
+ translation: "He will study 明天."
+ xp_reward: 12
+
+ - id: 76
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Nzagura ___."
+ options: ["imodoka", "inyanya", "igitabo"]
+ correct_answer: "imodoka"
+ translation: "I am 去 到 buy 一个 car."
+ xp_reward: 12
+
+ - id: 77
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Tuzahurira ku ___."
+ options: ["isoko", "ishuri", "kazi"]
+ correct_answer: "isoko"
+ translation: "We will meet at  市场."
+ xp_reward: 15
+
+ - id: 78
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Azafasha ___."
+ options: ["inshuti ye", "umuryango we", "abana be"]
+ correct_answer: "inshuti ye"
+ translation: "She will help her friend."
+ xp_reward: 15
+
+ - id: 79
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Nzahamagara ___."
+ options: ["nyuma", "ejo", "vuba"]
+ correct_answer: "nyuma"
+ translation: "I will call you later."
+ xp_reward: 12
+
+ - id: 80
+ type: fill_blank
+ 问题: "Complete  句子"
+ text_和_blank: "Bazasura ishuri ___."
+ options: ["ukwezi gutaha", "icyumweru gitaha", "umwaka utaha"]
+ correct_answer: "ukwezi gutaha"
+ translation: "They will visit  学校 next month."
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 81
+ type: picture_word
+ 问题: "What future time 是 这?"
+ image_url: "https://source.unsplash.com/featured/?tomorrow"
+ options: ["Ejo", "Vuba", "Nyuma"]
+ correct_answer: "Ejo"
+ xp_reward: 10
+
+ - id: 82
+ type: picture_word
+ 问题: "What future time 是 这?"
+ image_url: "https://source.unsplash.com/featured/?calendar-week"
+ options: ["Icyumweru gitaha", "Ukwezi gutaha", "Umwaka utaha"]
+ correct_answer: "Icyumweru gitaha"
+ xp_reward: 12
+
+ - id: 83
+ type: picture_word
+ 问题: "What future time 是 这?"
+ image_url: "https://source.unsplash.com/featured/?soon"
+ options: ["Vuba", "Nyuma", "Ejo"]
+ correct_answer: "Vuba"
+ xp_reward: 10
+
+ - id: 84
+ type: picture_word
+ 问题: "What future time 是 这?"
+ image_url: "https://source.unsplash.com/featured/?later"
+ options: ["Nyuma", "Vuba", "Ejo"]
+ correct_answer: "Nyuma"
+ xp_reward: 10
+
+ - id: 85
+ type: picture_word
+ 问题: "What activity 是 这?"
+ image_url: "https://source.unsplash.com/featured/?travel"
+ options: ["Tuzagenda", "Nzajya", "Azaza"]
+ correct_answer: "Tuzagenda"
+ xp_reward: 12
+
+ - id: 86
+ type: picture_word
+ 问题: "What activity 是 这?"
+ image_url: "https://source.unsplash.com/featured/?studying"
+ options: ["Aziga", "Azarya", "Azanywa"]
+ correct_answer: "Aziga"
+ xp_reward: 12
+
+ - id: 87
+ type: picture_word
+ 问题: "What activity 是 这?"
+ image_url: "https://source.unsplash.com/featured/?buying-car"
+ options: ["Nzagura imodoka", "Nzajya i Kigali", "Nzahamagara"]
+ correct_answer: "Nzagura imodoka"
+ xp_reward: 15
+
+ # 10. Word 配对 (Pairing)
+ - id: 88
+ type: 配对
+ 问题: "配对  future time phrases"
+ pairs:
+ - 左: "明天"
+ 右: "Ejo"
+ - 左: "Next week"
+ 右: "Icyumweru gitaha"
+ - 左: "Next month"
+ 右: "Ukwezi gutaha"
+ - 左: "Next year"
+ 右: "Umwaka utaha"
+ - 左: "Soon"
+ 右: "Vuba"
+ - 左: "Later"
+ 右: "Nyuma"
+ - 左: "Soon after"
+ 右: "Vuba nyuma"
+ - 左: "Later 在"
+ 右: "Nyuma yaho"
+ xp_reward: 25
+
+ - id: 89
+ type: 配对
+ 问题: "配对  future tense verbs"
+ pairs:
+ - 左: "I will 去"
+ 右: "Nzajya"
+ - 左: "She will 来"
+ 右: "Azaza"
+ - 左: "They will 吃"
+ 右: "Bazarya"
+ - 左: "We will 旅行"
+ 右: "Tuzagenda"
+ - 左: "He will study"
+ 右: "Aziga"
+ - 左: "I will buy"
+ 右: "Nzagura"
+ - 左: "We will meet"
+ 右: "Tuzahurira"
+ - 左: "She will help"
+ 右: "Azafasha"
+ - 左: "I will call"
+ 右: "Nzahamagara"
+ - 左: "They will visit"
+ 右: "Bazasura"
+ xp_reward: 25
+
+ - id: 90
+ type: 配对
+ 问题: "配对  句子"
+ pairs:
+ - 左: "I will 去 到 Kigali"
+ 右: "Nzajya i Kigali"
+ - 左: "She will 来 明天"
+ 右: "Azaza ejo"
+ - 左: "We will 旅行 next week"
+ 右: "Tuzagenda icyumweru gitaha"
+ - 左: "I will call you later"
+ 右: "Nzahamagara nyuma"
+ - 左: "They will visit  学校 next month"
+ 右: "Bazasura ishuri ukwezi gutaha"
+ xp_reward: 22
+
+ # 11. Tap What You Hear - EXCLUDED 一个 PER PREVIOUS PATTERN
+
+ # 12. 选择 Missing Word
+ - id: 91
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Nzajya i ___."
+ missing_word_position: 3
+ options: ["Kigali", "ejo", "nyuma"]
+ correct_answer: "Kigali"
+ translation: "I will 去 到 Kigali."
+ xp_reward: 12
+
+ - id: 92
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Azaza ___."
+ missing_word_position: 2
+ options: ["ejo", "nyuma", "vuba"]
+ correct_answer: "ejo"
+ translation: "She will 来 明天."
+ xp_reward: 12
+
+ - id: 93
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Tuzagenda ___."
+ missing_word_position: 2
+ options: ["icyumweru gitaha", "ukwezi gutaha", "umwaka utaha"]
+ correct_answer: "icyumweru gitaha"
+ translation: "We will 旅行 next week."
+ xp_reward: 15
+
+ - id: 94
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Nzahamagara ___."
+ missing_word_position: 2
+ options: ["nyuma", "ejo", "vuba"]
+ correct_answer: "nyuma"
+ translation: "I will call you later."
+ xp_reward: 12
+
+ - id: 95
+ type: choose_missing
+ 问题: "选择  missing word"
+ 句子: "Bazasura ishuri ___."
+ missing_word_position: 3
+ options: ["ukwezi gutaha", "icyumweru gitaha", "umwaka utaha"]
+ correct_answer: "ukwezi gutaha"
+ translation: "They will visit  学校 next month."
+ xp_reward: 15
+
+ # 13. 读 和 答案 - 问题 based 在 text
+ - id: 96
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Nzajya i Kigali ejo."
+ 问题: "Where will I 去?"
+ options: ["Kigali", " 市场", "学校", "Home"]
+ correct_answer: "Kigali"
+ xp_reward: 12
+
+ - id: 97
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Azaza ejo. Azafasha inshuti ye."
+ 问题: "When will she 来?"
+ options: ["Today", "明天", "Next week", "Later"]
+ correct_answer: "明天"
+ xp_reward: 15
+
+ - id: 98
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Tuzagenda icyumweru gitaha. Tuzahurira ku isoko."
+ 问题: "When will we 旅行?"
+ options: ["Today", "明天", "Next week", "Next month"]
+ correct_answer: "Next week"
+ xp_reward: 15
+
+ - id: 99
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Nzagura imodoka. Nzahamagara nyuma."
+ 问题: "What will I buy?"
+ options: ["一个 car", "一个 房子", "食物", "Clothes"]
+ correct_answer: "一个 car"
+ xp_reward: 12
+
+ - id: 100
+ type: read_answer
+ 问题: "读  text 和 答案  问题"
+ text: "Bazasura ishuri ukwezi gutaha."
+ 问题: "When will they visit  学校?"
+ options: ["Next week", "Next month", "Next year", "明天"]
+ correct_answer: "Next month"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 101
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Ejo means '明天'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 102
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Nyuma means 'soon'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 103
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Tuzagenda means 'we will 旅行'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 104
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Nzajya i Kigali means 'I went 到 Kigali'."
+ correct_answer: false
+ xp_reward: 12
+
+ - id: 105
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Icyumweru gitaha means 'next week'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 106
+ type: true_false
+ 问题: "是 这 statement true 或 false?"
+ statement: "Bazasura ishuri ukwezi gutaha means 'They will visit  学校 next month'."
+ correct_answer: true
+ xp_reward: 15
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 107
+ type: conversation
+ 问题: "Respond 到  问题 by building 一个 句子"
+ bot_message: "Uzajya he?"
+ translation: "Where will you 去?"
+ word_bank: ["Nzajya", "i", "Kigali", "ku", "isoko", "ejo"]
+ correct_response: ["Nzajya", "i", "Kigali"]
+ xp_reward: 18
+
+ - id: 108
+ type: conversation
+ 问题: "Respond 到  问题"
+ bot_message: "Azaza ryari?"
+ translation: "When will she 来?"
+ options:
+ - "Azaza ejo"
+ - "Azaza vuba"
+ - "Azaza nyuma"
+ correct_response: "Azaza ejo"
+ xp_reward: 15
+
+ - id: 109
+ type: conversation
+ 问题: "Respond 到  问题 by building 一个 句子"
+ bot_message: "Muzagenda ryari?"
+ translation: "When will you (plural) 旅行?"
+ word_bank: ["Tuzagenda", "icyumweru", "gitaha", "ukwezi", "gutaha", "ejo"]
+ correct_response: ["Tuzagenda", "icyumweru", "gitaha"]
+ xp_reward: 20
+
+ - id: 110
+ type: conversation
+ 问题: "Respond 到  问题"
+ bot_message: "Uzagura iki?"
+ translation: "What will you buy?"
+ options:
+ - "Nzagura imodoka"
+ - "Nzagura umugati"
+ - "Nzagura igitabo"
+ correct_response: "Nzagura imodoka"
+ xp_reward: 15
+
+ # 16. Story Exercise - Build 句子 from pieces
+ - id: 111
+ type: story
+ title: "My Plans - Gahunda Zanjye"
+ story_intro: "读 about future plans. Then build  句子."
+ story_segments:
+ - text: "I will 去 到 Kigali."
+ - text: "She will 来 明天."
+ - text: "They will 吃 lunch soon."
+ - text: "We will 旅行 next week."
+ - text: "He will study 明天."
+ - text: "I am 去 到 buy 一个 car."
+ - text: "We will meet at  市场."
+ - text: "She will help her friend."
+ - text: "I will call you later."
+ - text: "They will visit  学校 next month."
+ exercises:
+ - type: word_bank
+ 问题: "Build 'I will 去 到 Kigali'"
+ word_bank: ["Nzajya", "i", "Kigali", "ejo", "nyuma"]
+ correct_answer: ["Nzajya", "i", "Kigali"]
+ - type: word_bank
+ 问题: "Build 'She will 来 明天'"
+ word_bank: ["Azaza", "ejo", "vuba", "nyuma"]
+ correct_answer: ["Azaza", "ejo"]
+ - type: word_bank
+ 问题: "Build 'We will 旅行 next week'"
+ word_bank: ["Tuzagenda", "icyumweru", "gitaha", "ukwezi", "gutaha"]
+ correct_answer: ["Tuzagenda", "icyumweru", "gitaha"]
+ - type: word_bank
+ 问题: "Build 'I am 去 到 buy 一个 car'"
+ word_bank: ["Nzagura", "imodoka", "inyanya", "igitabo"]
+ correct_answer: ["Nzagura", "imodoka"]
+ - type: word_bank
+ 问题: "Build 'We will meet at  市场'"
+ word_bank: ["Tuzahurira", "ku", "isoko", "ku", "ishuri"]
+ correct_answer: ["Tuzahurira", "ku", "isoko"]
+ - type: word_bank
+ 问题: "Build 'She will help her friend'"
+ word_bank: ["Azafasha", "inshuti", "ye", "umuryango", "we"]
+ correct_answer: ["Azafasha", "inshuti", "ye"]
+ - type: word_bank
+ 问题: "Build 'I will call you later'"
+ word_bank: ["Nzahamagara", "nyuma", "ejo", "vuba"]
+ correct_answer: ["Nzahamagara", "nyuma"]
+ xp_reward: 50
+
+ # 17. Pronunciation Check
+ - id: 112
+ type: pronunciation
+ 问题: "Say 这 future time word"
+ prompt: "Ejo"
+ translation: "明天"
+ xp_reward: 15
+
+ - id: 113
+ type: pronunciation
+ 问题: "Say 这 future time phrase"
+ prompt: "Icyumweru gitaha"
+ translation: "Next week"
+ xp_reward: 18
+
+ - id: 114
+ type: pronunciation
+ 问题: "Say 这 future verb"
+ prompt: "Nzajya"
+ translation: "I will 去"
+ xp_reward: 15
+
+ - id: 115
+ type: pronunciation
+ 问题: "Say 这 句子"
+ prompt: "Nzajya i Kigali"
+ translation: "I will 去 到 Kigali"
+ xp_reward: 18
+
+ - id: 116
+ type: pronunciation
+ 问题: "Say 这 句子"
+ prompt: "Tuzagenda icyumweru gitaha"
+ translation: "We will 旅行 next week"
+ xp_reward: 20
+
+ # 18. Identify Correct Meaning
+ - id: 117
+ type: identify_meaning
+ 问题: "是什么意思 'Nzajya' mean 在 这 句子?"
+ context_sentence: "Nzajya i Kigali."
+ word: "Nzajya"
+ options: ["I went", "I will 去", "I am 去", "I 去"]
+ correct_answer: "I will 去"
+ xp_reward: 15
+
+ - id: 118
+ type: identify_meaning
+ 问题: "是什么意思 'Azaza' mean 在 这 句子?"
+ context_sentence: "Azaza ejo."
+ word: "Azaza"
+ options: ["He came", "He will 来", "He 是 coming", "He 来"]
+ correct_answer: "He will 来"
+ xp_reward: 15
+
+ - id: 119
+ type: identify_meaning
+ 问题: "是什么意思 'ejo' mean 在 这 句子?"
+ context_sentence: "Aziga ejo."
+ word: "ejo"
+ options: ["today", "明天", "昨天", "soon"]
+ correct_answer: "明天"
+ xp_reward: 12
+
+ - id: 120
+ type: identify_meaning
+ 问题: "是什么意思 'icyumweru gitaha' 是什么意思"
+ context_sentence: "Tuzagenda icyumweru gitaha."
+ word: "icyumweru gitaha"
+ options: ["这 week", "next week", "last week", "every week"]
+ correct_answer: "next week"
+ xp_reward: 15
+
+ # 19. Speed 配对
+ - id: 121
+ type: speed_配对
+ title: "配对 Madness: Future Tense"
+ time_limit_seconds: 45
+ pairs:
+ - 左: "明天"
+ 右: "Ejo"
+ - 左: "Next week"
+ 右: "Icyumweru gitaha"
+ - 左: "Next month"
+ 右: "Ukwezi gutaha"
+ - 左: "Soon"
+ 右: "Vuba"
+ - 左: "Later"
+ 右: "Nyuma"
+ - 左: "I will 去"
+ 右: "Nzajya"
+ - 左: "She will 来"
+ 右: "Azaza"
+ - 左: "We will 旅行"
+ 右: "Tuzagenda"
+ - 左: "I will buy"
+ 右: "Nzagura"
+ - 左: "I will call"
+ 右: "Nzahamagara"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 122
+ type: timed_challenge
+ title: "Lightning Round: Future Tense"
+ time_limit_seconds: 30
+ 问题_count: 5
+ 问题:
+ - 问题: "明天"
+ 答案: "Ejo"
+ - 问题: "Next week"
+ 答案: "Icyumweru gitaha"
+ - 问题: "Soon"
+ 答案: "Vuba"
+ - 问题: "Later"
+ 答案: "Nyuma"
+ - 问题: "I will 去"
+ 答案: "Nzajya"
+ xp_reward: 35
+
+# 闪卡
+ - id: 111
+ type: 闪卡
+ 问题: "闪卡"
+ 闪卡:
+ - front: "Nzajya / Azajya"
+ back: "Will"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Ejo"
+ back: "明天"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Icyumweru gitaha"
+ back: "Next week"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Ukwezi gutaha"
+ back: "Next month"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Umwaka utaha"
+ back: "Next year"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Vuba"
+ back: "Soon"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyuma"
+ back: "Later"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Vuba nyuma"
+ back: "Soon after"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Nyuma yaho"
+ back: "Later 在"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Ukurikira"
+ back: "Next"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30

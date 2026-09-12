@@ -1,0 +1,1145 @@
+lesson:
+  name: "Igihe Kizaza"
+  description: "Apprenez à parler des actions futures en kinyarwanda"
+  xp_reward: 500
+
+exercises:
+  # 1. Translation Exercises - Basic Future Words ONLY (Safe for single words/phrases)
+  # Basic Future Vocabulary
+  - id: 1
+    type: translation
+    question: "Comment dit-on 'Irai' (comme dans 'j'irai') en kinyarwanda ?"
+    answer: "Nzajya / Azajya"
+    xp_reward: 15
+
+  - id: 2
+    type: translation
+    question: "Comment dit-on 'Demain' en kinyarwanda ?"
+    answer: "Ejo"
+    xp_reward: 10
+
+  - id: 3
+    type: translation
+    question: "Comment dit-on 'La semaine prochaine' en kinyarwanda ?"
+    answer: "Icyumweru gitaha"
+    xp_reward: 15
+
+  - id: 4
+    type: translation
+    question: "Comment dit-on 'Le mois prochain' en kinyarwanda ?"
+    answer: "Ukwezi gutaha"
+    xp_reward: 15
+
+  - id: 5
+    type: translation
+    question: "Comment dit-on 'L'année prochaine' en kinyarwanda ?"
+    answer: "Umwaka utaha"
+    xp_reward: 15
+
+  - id: 6
+    type: translation
+    question: "Comment dit-on 'Bientôt' en kinyarwanda ?"
+    answer: "Vuba"
+    xp_reward: 10
+
+  - id: 7
+    type: translation
+    question: "Comment dit-on 'Plus tard' en kinyarwanda ?"
+    answer: "Nyuma"
+    xp_reward: 10
+
+  - id: 8
+    type: translation
+    question: "Comment dit-on 'Peu après' en kinyarwanda ?"
+    answer: "Vuba nyuma"
+    xp_reward: 12
+
+  - id: 9
+    type: translation
+    question: "Comment dit-on 'Plus tard dans la journée' en kinyarwanda ?"
+    answer: "Nyuma yaho"
+    xp_reward: 12
+
+  - id: 10
+    type: translation
+    question: "Comment dit-on 'Prochain' en kinyarwanda ?"
+    answer: "Ukurikira"
+    xp_reward: 10
+
+  - id: 11
+    type: translation
+    question: "Comment dit-on 'Plan' en kinyarwanda ?"
+    answer: "Gahunda"
+    xp_reward: 10
+
+  - id: 12
+    type: translation
+    question: "Comment dit-on 'Avoir l'intention de' en kinyarwanda ?"
+    answer: "Gahunda / Gushaka"
+    xp_reward: 15
+
+  - id: 13
+    type: translation
+    question: "Comment dit-on 'Promettre' en kinyarwanda ?"
+    answer: "Kwiyemeza"
+    xp_reward: 10
+
+  - id: 14
+    type: translation
+    question: "Comment dit-on 'S'attendre à' en kinyarwanda ?"
+    answer: "Kwitega"
+    xp_reward: 10
+
+  # Common Future Tense Phrases
+  - id: 15
+    type: translation
+    question: "Comment dit-on 'J'irai à Kigali' en kinyarwanda ?"
+    answer: "Nzajya i Kigali."
+    xp_reward: 15
+
+  - id: 16
+    type: translation
+    question: "Comment dit-on 'Elle viendra demain' en kinyarwanda ?"
+    answer: "Azaza ejo."
+    xp_reward: 15
+
+  - id: 17
+    type: translation
+    question: "Comment dit-on 'Ils déjeuneront bientôt' en kinyarwanda ?"
+    answer: "Bazarya ifunguro rya saa sita vuba."
+    xp_reward: 18
+
+  - id: 18
+    type: translation
+    question: "Comment dit-on 'Nous voyagerons la semaine prochaine' en kinyarwanda ?"
+    answer: "Tuzagenda icyumweru gitaha."
+    xp_reward: 18
+
+  - id: 19
+    type: translation
+    question: "Comment dit-on 'Il étudiera demain' en kinyarwanda ?"
+    answer: "Aziga ejo."
+    xp_reward: 15
+
+  - id: 20
+    type: translation
+    question: "Comment dit-on 'Je vais acheter une voiture' en kinyarwanda ?"
+    answer: "Nzagura imodoka."
+    xp_reward: 15
+
+  - id: 21
+    type: translation
+    question: "Comment dit-on 'Nous nous retrouverons au marché' en kinyarwanda ?"
+    answer: "Tuzahurira ku isoko."
+    xp_reward: 15
+
+  - id: 22
+    type: translation
+    question: "Comment dit-on 'Elle aidera son ami' en kinyarwanda ?"
+    answer: "Azafasha inshuti ye."
+    xp_reward: 15
+
+  - id: 23
+    type: translation
+    question: "Comment dit-on 'Je t'appellerai plus tard' en kinyarwanda ?"
+    answer: "Nzahamagara nyuma."
+    xp_reward: 15
+
+  - id: 24
+    type: translation
+    question: "Comment dit-on 'Ils visiteront l'école le mois prochain' en kinyarwanda ?"
+    answer: "Bazasura ishuri ukwezi gutaha."
+    xp_reward: 18
+
+  # 2. Choix multiples
+  - id: 25
+    type: multiple_choice
+    question: "Que signifie 'Ejo' ?"
+    options:
+      - "Hier"
+      - "Demain"
+      - "Aujourd'hui"
+      - "La semaine prochaine"
+    answer: "Demain"
+    xp_reward: 15
+
+  - id: 26
+    type: multiple_choice
+    question: "Que signifie 'Icyumweru gitaha' ?"
+    options:
+      - "Cette semaine"
+      - "La semaine dernière"
+      - "La semaine prochaine"
+      - "Chaque semaine"
+    answer: "La semaine prochaine"
+    xp_reward: 15
+
+  - id: 27
+    type: multiple_choice
+    question: "Que signifie 'Vuba' ?"
+    options:
+      - "Plus tard"
+      - "Bientôt"
+      - "Jamais"
+      - "Toujours"
+    answer: "Bientôt"
+    xp_reward: 15
+
+  - id: 28
+    type: multiple_choice
+    question: "Que signifie 'Nyuma' ?"
+    options:
+      - "Bientôt"
+      - "Plus tard"
+      - "Avant"
+      - "Pendant"
+    answer: "Plus tard"
+    xp_reward: 15
+
+  - id: 29
+    type: multiple_choice
+    question: "Que signifie 'Nzajya i Kigali' ?"
+    options:
+      - "Je suis allé à Kigali"
+      - "J'irai à Kigali"
+      - "Je suis à Kigali"
+      - "J'aime Kigali"
+    answer: "J'irai à Kigali"
+    xp_reward: 15
+
+  - id: 30
+    type: multiple_choice
+    question: "Que signifie 'Azaza ejo' ?"
+    options:
+      - "Il est venu hier"
+      - "Il viendra demain"
+      - "Il vient maintenant"
+      - "Il ne vient jamais"
+    answer: "Il viendra demain"
+    xp_reward: 15
+
+  - id: 31
+    type: multiple_choice
+    question: "Que signifie 'Tuzagenda icyumweru gitaha' ?"
+    options:
+      - "Nous avons voyagé la semaine dernière"
+      - "Nous voyagerons la semaine prochaine"
+      - "Nous voyageons chaque semaine"
+      - "Nous voyageons maintenant"
+    answer: "Nous voyagerons la semaine prochaine"
+    xp_reward: 18
+
+  # 3. ?coutez et ?crivez (dict?e)
+  - id: 32
+    type: listen_and_type
+    question: "Écoutez et tapez l'expression de temps futur"
+    audio: "Ejo"
+    answer: "Ejo"
+    translation: "Demain"
+    xp_reward: 20
+
+  - id: 33
+    type: listen_and_type
+    question: "Écoutez et tapez l'expression de temps futur"
+    audio: "Icyumweru gitaha"
+    answer: "Icyumweru gitaha"
+    translation: "La semaine prochaine"
+    xp_reward: 22
+
+  - id: 34
+    type: listen_and_type
+    question: "Écoutez et tapez l'expression de temps futur"
+    audio: "Vuba"
+    answer: "Vuba"
+    translation: "Bientôt"
+    xp_reward: 20
+
+  - id: 35
+    type: listen_and_type
+    question: "Écoutez et tapez l'expression de temps futur"
+    audio: "Nyuma"
+    answer: "Nyuma"
+    translation: "Plus tard"
+    xp_reward: 20
+
+  - id: 36
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Nzajya i Kigali"
+    answer: "Nzajya i Kigali"
+    translation: "J'irai à Kigali"
+    xp_reward: 22
+
+  - id: 37
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Azaza ejo"
+    answer: "Azaza ejo"
+    translation: "Elle viendra demain"
+    xp_reward: 22
+
+  - id: 38
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Tuzagenda icyumweru gitaha"
+    answer: "Tuzagenda icyumweru gitaha"
+    translation: "Nous voyagerons la semaine prochaine"
+    xp_reward: 25
+
+  - id: 39
+    type: listen_and_type
+    question: "Écoutez et tapez la phrase"
+    audio: "Nzahamagara nyuma"
+    answer: "Nzahamagara nyuma"
+    translation: "Je t'appellerai plus tard"
+    xp_reward: 22
+
+  # 4. Listen and Choose
+  - id: 40
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne signification"
+    audio: "Ejo"
+    options:
+      - "Aujourd'hui"
+      - "Demain"
+      - "Hier"
+    answer: "Demain"
+    xp_reward: 15
+
+  - id: 41
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne signification"
+    audio: "Vuba"
+    options:
+      - "Plus tard"
+      - "Bientôt"
+      - "Jamais"
+    answer: "Bientôt"
+    xp_reward: 15
+
+  - id: 42
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne signification"
+    audio: "Nzajya i Kigali"
+    options:
+      - "Je suis allé à Kigali"
+      - "J'irai à Kigali"
+      - "Je suis à Kigali"
+    answer: "J'irai à Kigali"
+    xp_reward: 18
+
+  - id: 43
+    type: listen_and_choose
+    question: "Écoutez et choisissez la bonne signification"
+    audio: "Azaza ejo"
+    options:
+      - "Il est venu hier"
+      - "Il viendra demain"
+      - "Il vient maintenant"
+    answer: "Il viendra demain"
+    xp_reward: 18
+
+  # 5. R?p?ter / Exercice oral
+  - id: 44
+    type: speaking
+    question: "Dites cette expression de temps futur"
+    prompt: "Ejo"
+    translation: "Demain"
+    xp_reward: 15
+
+  - id: 45
+    type: speaking
+    question: "Dites cette expression de temps futur"
+    prompt: "Icyumweru gitaha"
+    translation: "La semaine prochaine"
+    xp_reward: 18
+
+  - id: 46
+    type: speaking
+    question: "Dites cette expression de temps futur"
+    prompt: "Vuba"
+    translation: "Bientôt"
+    xp_reward: 15
+
+  - id: 47
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Nzajya i Kigali"
+    translation: "J'irai à Kigali"
+    xp_reward: 18
+
+  - id: 48
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Azaza ejo"
+    translation: "Elle viendra demain"
+    xp_reward: 18
+
+  - id: 49
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Tuzagenda icyumweru gitaha"
+    translation: "Nous voyagerons la semaine prochaine"
+    xp_reward: 20
+
+  - id: 50
+    type: speaking
+    question: "Dites cette phrase"
+    prompt: "Nzahamagara nyuma"
+    translation: "Je t'appellerai plus tard"
+    xp_reward: 18
+
+  # 6. Construction de phrases avec banque de mots - PIECES PROVIDED
+  - id: 51
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'J'irai à Kigali'"
+    word_bank: ["Nzajya", "i", "Kigali", "ejo", "nyuma", "vuba"]
+    correct_answer: ["Nzajya", "i", "Kigali"]
+    xp_reward: 18
+
+  - id: 52
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Elle viendra demain'"
+    word_bank: ["Azaza", "ejo", "vuba", "nyuma", "i", "Kigali"]
+    correct_answer: ["Azaza", "ejo"]
+    xp_reward: 18
+
+  - id: 53
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Ils déjeuneront bientôt'"
+    word_bank: ["Bazarya", "ifunguro", "rya saa sita", "vuba", "ejo", "nyuma"]
+    correct_answer: ["Bazarya", "ifunguro", "rya saa sita", "vuba"]
+    xp_reward: 22
+
+  - id: 54
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Nous voyagerons la semaine prochaine'"
+    word_bank: ["Tuzagenda", "icyumweru", "gitaha", "ukwezi", "gutaha", "ejo"]
+    correct_answer: ["Tuzagenda", "icyumweru", "gitaha"]
+    xp_reward: 20
+
+  - id: 55
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Il étudiera demain'"
+    word_bank: ["Aziga", "ejo", "vuba", "nyuma", "i", "Kigali"]
+    correct_answer: ["Aziga", "ejo"]
+    xp_reward: 15
+
+  - id: 56
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je vais acheter une voiture'"
+    word_bank: ["Nzagura", "imodoka", "ejo", "nyuma", "vuba", "i", "Kigali"]
+    correct_answer: ["Nzagura", "imodoka"]
+    xp_reward: 15
+
+  - id: 57
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Nous nous retrouverons au marché'"
+    word_bank: ["Tuzahurira", "ku", "isoko", "ejo", "nyuma", "vuba"]
+    correct_answer: ["Tuzahurira", "ku", "isoko"]
+    xp_reward: 18
+
+  - id: 58
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Elle aidera son ami'"
+    word_bank: ["Azafasha", "inshuti", "ye", "ejo", "nyuma", "vuba"]
+    correct_answer: ["Azafasha", "inshuti", "ye"]
+    xp_reward: 18
+
+  - id: 59
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Je t'appellerai plus tard'"
+    word_bank: ["Nzahamagara", "nyuma", "ejo", "vuba", "i", "Kigali"]
+    correct_answer: ["Nzahamagara", "nyuma"]
+    xp_reward: 15
+
+  - id: 60
+    type: word_bank
+    question: "Construisez la phrase en kinyarwanda pour 'Ils visiteront l'école le mois prochain'"
+    word_bank: ["Bazasura", "ishuri", "ukwezi", "gutaha", "icyumweru", "gitaha", "ejo"]
+    correct_answer: ["Bazasura", "ishuri", "ukwezi", "gutaha"]
+    xp_reward: 22
+
+  # 7. Mots m?lang?s - PIECES PROVIDED
+  - id: 61
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nzajya", "i", "Kigali"]
+    correct_sentence: "Nzajya i Kigali."
+    translation: "J'irai à Kigali."
+    xp_reward: 18
+
+  - id: 62
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Azaza", "ejo"]
+    correct_sentence: "Azaza ejo."
+    translation: "Elle viendra demain."
+    xp_reward: 15
+
+  - id: 63
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Bazarya", "ifunguro", "rya saa sita", "vuba"]
+    correct_sentence: "Bazarya ifunguro rya saa sita vuba."
+    translation: "Ils déjeuneront bientôt."
+    xp_reward: 22
+
+  - id: 64
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Tuzagenda", "icyumweru", "gitaha"]
+    correct_sentence: "Tuzagenda icyumweru gitaha."
+    translation: "Nous voyagerons la semaine prochaine."
+    xp_reward: 20
+
+  - id: 65
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Aziga", "ejo"]
+    correct_sentence: "Aziga ejo."
+    translation: "Il étudiera demain."
+    xp_reward: 15
+
+  - id: 66
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nzagura", "imodoka"]
+    correct_sentence: "Nzagura imodoka."
+    translation: "Je vais acheter une voiture."
+    xp_reward: 15
+
+  - id: 67
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Tuzahurira", "ku", "isoko"]
+    correct_sentence: "Tuzahurira ku isoko."
+    translation: "Nous nous retrouverons au marché."
+    xp_reward: 18
+
+  - id: 68
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Azafasha", "inshuti", "ye"]
+    correct_sentence: "Azafasha inshuti ye."
+    translation: "Elle aidera son ami."
+    xp_reward: 18
+
+  - id: 69
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Nzahamagara", "nyuma"]
+    correct_sentence: "Nzahamagara nyuma."
+    translation: "Je t'appellerai plus tard."
+    xp_reward: 15
+
+  - id: 70
+    type: sentence_scramble
+    question: "Remettez ces mots dans l'ordre pour former une phrase correcte"
+    scrambled_words: ["Bazasura", "ishuri", "ukwezi", "gutaha"]
+    correct_sentence: "Bazasura ishuri ukwezi gutaha."
+    translation: "Ils visiteront l'école le mois prochain."
+    xp_reward: 22
+
+  # 8. Compl?ter le texte - CHOOSE FROM OPTIONS
+  - id: 71
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nzajya i ___."
+    options: ["Kigali", "ejo", "nyuma"]
+    correct_answer: "Kigali"
+    translation: "J'irai à Kigali."
+    xp_reward: 12
+
+  - id: 72
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Azaza ___."
+    options: ["ejo", "nyuma", "vuba"]
+    correct_answer: "ejo"
+    translation: "Elle viendra demain."
+    xp_reward: 12
+
+  - id: 73
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Bazarya ifunguro rya saa sita ___."
+    options: ["vuba", "nyuma", "ejo"]
+    correct_answer: "vuba"
+    translation: "Ils déjeuneront bientôt."
+    xp_reward: 18
+
+  - id: 74
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Tuzagenda ___."
+    options: ["icyumweru gitaha", "ukwezi gutaha", "umwaka utaha"]
+    correct_answer: "icyumweru gitaha"
+    translation: "Nous voyagerons la semaine prochaine."
+    xp_reward: 15
+
+  - id: 75
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Aziga ___."
+    options: ["ejo", "nyuma", "vuba"]
+    correct_answer: "ejo"
+    translation: "Il étudiera demain."
+    xp_reward: 12
+
+  - id: 76
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nzagura ___."
+    options: ["imodoka", "inyanya", "igitabo"]
+    correct_answer: "imodoka"
+    translation: "Je vais acheter une voiture."
+    xp_reward: 12
+
+  - id: 77
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Tuzahurira ku ___."
+    options: ["isoko", "ishuri", "kazi"]
+    correct_answer: "isoko"
+    translation: "Nous nous retrouverons au marché."
+    xp_reward: 15
+
+  - id: 78
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Azafasha ___."
+    options: ["inshuti ye", "umuryango we", "abana be"]
+    correct_answer: "inshuti ye"
+    translation: "Elle aidera son ami."
+    xp_reward: 15
+
+  - id: 79
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Nzahamagara ___."
+    options: ["nyuma", "ejo", "vuba"]
+    correct_answer: "nyuma"
+    translation: "Je t'appellerai plus tard."
+    xp_reward: 12
+
+  - id: 80
+    type: fill_blank
+    question: "Complétez la phrase"
+    text_with_blank: "Bazasura ishuri ___."
+    options: ["ukwezi gutaha", "icyumweru gitaha", "umwaka utaha"]
+    correct_answer: "ukwezi gutaha"
+    translation: "Ils visiteront l'école le mois prochain."
+    xp_reward: 18
+
+  # 9. Picture → Word (Unsplash Images)
+  - id: 81
+    type: picture_word
+    question: "Quelle expression de temps futur est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?tomorrow"
+    options: ["Ejo", "Vuba", "Nyuma"]
+    correct_answer: "Ejo"
+    xp_reward: 10
+
+  - id: 82
+    type: picture_word
+    question: "Quelle expression de temps futur est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?calendar-week"
+    options: ["Icyumweru gitaha", "Ukwezi gutaha", "Umwaka utaha"]
+    correct_answer: "Icyumweru gitaha"
+    xp_reward: 12
+
+  - id: 83
+    type: picture_word
+    question: "Quelle expression de temps futur est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?soon"
+    options: ["Vuba", "Nyuma", "Ejo"]
+    correct_answer: "Vuba"
+    xp_reward: 10
+
+  - id: 84
+    type: picture_word
+    question: "Quelle expression de temps futur est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?later"
+    options: ["Nyuma", "Vuba", "Ejo"]
+    correct_answer: "Nyuma"
+    xp_reward: 10
+
+  - id: 85
+    type: picture_word
+    question: "Quelle activité est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?travel"
+    options: ["Tuzagenda", "Nzajya", "Azaza"]
+    correct_answer: "Tuzagenda"
+    xp_reward: 12
+
+  - id: 86
+    type: picture_word
+    question: "Quelle activité est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?studying"
+    options: ["Aziga", "Azarya", "Azanywa"]
+    correct_answer: "Aziga"
+    xp_reward: 12
+
+  - id: 87
+    type: picture_word
+    question: "Quelle activité est-ce ?"
+    image_url: "https://source.unsplash.com/featured/?buying-car"
+    options: ["Nzagura imodoka", "Nzajya i Kigali", "Nzahamagara"]
+    correct_answer: "Nzagura imodoka"
+    xp_reward: 15
+
+  # 10. Association de mots (Pairing)
+  - id: 88
+    type: matching
+    question: "Associez les expressions de temps futur"
+    pairs:
+      - left: "Demain"
+        right: "Ejo"
+      - left: "La semaine prochaine"
+        right: "Icyumweru gitaha"
+      - left: "Le mois prochain"
+        right: "Ukwezi gutaha"
+      - left: "L'année prochaine"
+        right: "Umwaka utaha"
+      - left: "Bientôt"
+        right: "Vuba"
+      - left: "Plus tard"
+        right: "Nyuma"
+      - left: "Peu après"
+        right: "Vuba nyuma"
+      - left: "Plus tard dans la journée"
+        right: "Nyuma yaho"
+    xp_reward: 25
+
+  - id: 89
+    type: matching
+    question: "Associez les verbes au futur"
+    pairs:
+      - left: "J'irai"
+        right: "Nzajya"
+      - left: "Elle viendra"
+        right: "Azaza"
+      - left: "Ils mangeront"
+        right: "Bazarya"
+      - left: "Nous voyagerons"
+        right: "Tuzagenda"
+      - left: "Il étudiera"
+        right: "Aziga"
+      - left: "J'achèterai"
+        right: "Nzagura"
+      - left: "Nous nous retrouverons"
+        right: "Tuzahurira"
+      - left: "Elle aidera"
+        right: "Azafasha"
+      - left: "J'appellerai"
+        right: "Nzahamagara"
+      - left: "Ils visiteront"
+        right: "Bazasura"
+    xp_reward: 25
+
+  - id: 90
+    type: matching
+    question: "Associez les phrases"
+    pairs:
+      - left: "J'irai à Kigali"
+        right: "Nzajya i Kigali"
+      - left: "Elle viendra demain"
+        right: "Azaza ejo"
+      - left: "Nous voyagerons la semaine prochaine"
+        right: "Tuzagenda icyumweru gitaha"
+      - left: "Je t'appellerai plus tard"
+        right: "Nzahamagara nyuma"
+      - left: "Ils visiteront l'école le mois prochain"
+        right: "Bazasura ishuri ukwezi gutaha"
+    xp_reward: 22
+
+  # 11. Tap What You Hear - EXCLUDED AS PER PREVIOUS PATTERN
+
+  # 12. Choose Missing Word
+  - id: 91
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Nzajya i ___."
+    missing_word_position: 3
+    options: ["Kigali", "ejo", "nyuma"]
+    correct_answer: "Kigali"
+    translation: "J'irai à Kigali."
+    xp_reward: 12
+
+  - id: 92
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Azaza ___."
+    missing_word_position: 2
+    options: ["ejo", "nyuma", "vuba"]
+    correct_answer: "ejo"
+    translation: "Elle viendra demain."
+    xp_reward: 12
+
+  - id: 93
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Tuzagenda ___."
+    missing_word_position: 2
+    options: ["icyumweru gitaha", "ukwezi gutaha", "umwaka utaha"]
+    correct_answer: "icyumweru gitaha"
+    translation: "Nous voyagerons la semaine prochaine."
+    xp_reward: 15
+
+  - id: 94
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Nzahamagara ___."
+    missing_word_position: 2
+    options: ["nyuma", "ejo", "vuba"]
+    correct_answer: "nyuma"
+    translation: "Je t'appellerai plus tard."
+    xp_reward: 12
+
+  - id: 95
+    type: choose_missing
+    question: "Choisissez le mot manquant"
+    sentence: "Bazasura ishuri ___."
+    missing_word_position: 3
+    options: ["ukwezi gutaha", "icyumweru gitaha", "umwaka utaha"]
+    correct_answer: "ukwezi gutaha"
+    translation: "Ils visiteront l'école le mois prochain."
+    xp_reward: 15
+
+  # 13. Read and Answer - Questions based on text
+  - id: 96
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Nzajya i Kigali ejo."
+    question: "Où irai-je ?"
+    options: ["Kigali", "Le marché", "L'école", "La maison"]
+    correct_answer: "Kigali"
+    xp_reward: 12
+
+  - id: 97
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Azaza ejo. Azafasha inshuti ye."
+    question: "Quand viendra-t-elle ?"
+    options: ["Aujourd'hui", "Demain", "La semaine prochaine", "Plus tard"]
+    correct_answer: "Demain"
+    xp_reward: 15
+
+  - id: 98
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Tuzagenda icyumweru gitaha. Tuzahurira ku isoko."
+    question: "Quand voyagerons-nous ?"
+    options: ["Aujourd'hui", "Demain", "La semaine prochaine", "Le mois prochain"]
+    correct_answer: "La semaine prochaine"
+    xp_reward: 15
+
+  - id: 99
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Nzagura imodoka. Nzahamagara nyuma."
+    question: "Qu'achèterai-je ?"
+    options: ["Une voiture", "Une maison", "De la nourriture", "Des vêtements"]
+    correct_answer: "Une voiture"
+    xp_reward: 12
+
+  - id: 100
+    type: read_answer
+    question: "Lisez le texte et répondez à la question"
+    text: "Bazasura ishuri ukwezi gutaha."
+    question: "Quand visiteront-ils l'école ?"
+    options: ["La semaine prochaine", "Le mois prochain", "L'année prochaine", "Demain"]
+    correct_answer: "Le mois prochain"
+    xp_reward: 15
+
+  # 14. True / False
+  - id: 101
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Ejo means 'tomorrow'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 102
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Nyuma means 'soon'."
+    correct_answer: false
+    xp_reward: 10
+
+  - id: 103
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Tuzagenda means 'we will travel'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 104
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Nzajya i Kigali means 'I went to Kigali'."
+    correct_answer: false
+    xp_reward: 12
+
+  - id: 105
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Icyumweru gitaha means 'next week'."
+    correct_answer: true
+    xp_reward: 10
+
+  - id: 106
+    type: true_false
+    question: "Cette affirmation est-elle vraie ou fausse ?"
+    statement: "Bazasura ishuri ukwezi gutaha means 'They will visit the school next month'."
+    correct_answer: true
+    xp_reward: 15
+
+  # 15. Conversation Exercise - Build responses from pieces
+  - id: 107
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Uzajya he?"
+    translation: "Où irez-vous ?"
+    word_bank: ["Nzajya", "i", "Kigali", "ku", "isoko", "ejo"]
+    correct_response: ["Nzajya", "i", "Kigali"]
+    xp_reward: 18
+
+  - id: 108
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Azaza ryari?"
+    translation: "Quand viendra-t-elle ?"
+    options:
+      - "Azaza ejo"
+      - "Azaza vuba"
+      - "Azaza nyuma"
+    correct_response: "Azaza ejo"
+    xp_reward: 15
+
+  - id: 109
+    type: conversation
+    question: "Répondez à la question en construisant une phrase"
+    bot_message: "Muzagenda ryari?"
+    translation: "Quand voyagerez-vous (pluriel) ?"
+    word_bank: ["Tuzagenda", "icyumweru", "gitaha", "ukwezi", "gutaha", "ejo"]
+    correct_response: ["Tuzagenda", "icyumweru", "gitaha"]
+    xp_reward: 20
+
+  - id: 110
+    type: conversation
+    question: "Répondez à la question"
+    bot_message: "Uzagura iki?"
+    translation: "Qu'achèterez-vous ?"
+    options:
+      - "Nzagura imodoka"
+      - "Nzagura umugati"
+      - "Nzagura igitabo"
+    correct_response: "Nzagura imodoka"
+    xp_reward: 15
+
+  # 16. Story Exercise - Build sentences from pieces
+  - id: 111
+    type: story
+    title: "Mes projets - Gahunda Zanjye"
+    story_intro: "Lisez l'histoire sur les projets futurs. Ensuite, construisez les phrases."
+    story_segments:
+      - text: "I will go to Kigali."
+      - text: "She will come tomorrow."
+      - text: "They will eat lunch soon."
+      - text: "We will travel next week."
+      - text: "He will study tomorrow."
+      - text: "I am going to buy a car."
+      - text: "We will meet at the market."
+      - text: "She will help her friend."
+      - text: "I will call you later."
+      - text: "They will visit the school next month."
+    exercises:
+      - type: word_bank
+        question: "Construisez 'J'irai à Kigali'"
+        word_bank: ["Nzajya", "i", "Kigali", "ejo", "nyuma"]
+        correct_answer: ["Nzajya", "i", "Kigali"]
+      - type: word_bank
+        question: "Construisez 'Elle viendra demain'"
+        word_bank: ["Azaza", "ejo", "vuba", "nyuma"]
+        correct_answer: ["Azaza", "ejo"]
+      - type: word_bank
+        question: "Construisez 'Nous voyagerons la semaine prochaine'"
+        word_bank: ["Tuzagenda", "icyumweru", "gitaha", "ukwezi", "gutaha"]
+        correct_answer: ["Tuzagenda", "icyumweru", "gitaha"]
+      - type: word_bank
+        question: "Construisez 'Je vais acheter une voiture'"
+        word_bank: ["Nzagura", "imodoka", "inyanya", "igitabo"]
+        correct_answer: ["Nzagura", "imodoka"]
+      - type: word_bank
+        question: "Construisez 'Nous nous retrouverons au marché'"
+        word_bank: ["Tuzahurira", "ku", "isoko", "ku", "ishuri"]
+        correct_answer: ["Tuzahurira", "ku", "isoko"]
+      - type: word_bank
+        question: "Construisez 'Elle aidera son ami'"
+        word_bank: ["Azafasha", "inshuti", "ye", "umuryango", "we"]
+        correct_answer: ["Azafasha", "inshuti", "ye"]
+      - type: word_bank
+        question: "Construisez 'Je t'appellerai plus tard'"
+        word_bank: ["Nzahamagara", "nyuma", "ejo", "vuba"]
+        correct_answer: ["Nzahamagara", "nyuma"]
+    xp_reward: 50
+
+  # 17. Pronunciation Check
+  - id: 112
+    type: pronunciation
+    question: "Dites ce mot de temps futur"
+    prompt: "Ejo"
+    translation: "Demain"
+    xp_reward: 15
+
+  - id: 113
+    type: pronunciation
+    question: "Dites cette expression de temps futur"
+    prompt: "Icyumweru gitaha"
+    translation: "La semaine prochaine"
+    xp_reward: 18
+
+  - id: 114
+    type: pronunciation
+    question: "Dites ce verbe au futur"
+    prompt: "Nzajya"
+    translation: "J'irai"
+    xp_reward: 15
+
+  - id: 115
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Nzajya i Kigali"
+    translation: "J'irai à Kigali"
+    xp_reward: 18
+
+  - id: 116
+    type: pronunciation
+    question: "Dites cette phrase"
+    prompt: "Tuzagenda icyumweru gitaha"
+    translation: "Nous voyagerons la semaine prochaine"
+    xp_reward: 20
+
+  # 18. Identify Correct Meaning
+  - id: 117
+    type: identify_meaning
+    question: "Que signifie 'Nzajya' dans cette phrase ?"
+    context_sentence: "Nzajya i Kigali."
+    word: "Nzajya"
+    options: ["Je suis allé", "J'irai", "Je vais", "Je vais (présent)"]
+    correct_answer: "J'irai"
+    xp_reward: 15
+
+  - id: 118
+    type: identify_meaning
+    question: "Que signifie 'Azaza' dans cette phrase ?"
+    context_sentence: "Azaza ejo."
+    word: "Azaza"
+    options: ["Il est venu", "Il viendra", "Il vient", "Il vient (présent)"]
+    correct_answer: "Il viendra"
+    xp_reward: 15
+
+  - id: 119
+    type: identify_meaning
+    question: "Que signifie 'ejo' dans cette phrase ?"
+    context_sentence: "Aziga ejo."
+    word: "ejo"
+    options: ["aujourd'hui", "demain", "hier", "bientôt"]
+    correct_answer: "demain"
+    xp_reward: 12
+
+  - id: 120
+    type: identify_meaning
+    question: "Que signifie 'icyumweru gitaha' ?"
+    context_sentence: "Tuzagenda icyumweru gitaha."
+    word: "icyumweru gitaha"
+    options: ["cette semaine", "la semaine prochaine", "la semaine dernière", "chaque semaine"]
+    correct_answer: "la semaine prochaine"
+    xp_reward: 15
+
+  # 19. Speed Matching
+  - id: 121
+    type: speed_matching
+    title: "Match Madness : Futur"
+    time_limit_seconds: 45
+    pairs:
+      - left: "Demain"
+        right: "Ejo"
+      - left: "La semaine prochaine"
+        right: "Icyumweru gitaha"
+      - left: "Le mois prochain"
+        right: "Ukwezi gutaha"
+      - left: "Bientôt"
+        right: "Vuba"
+      - left: "Plus tard"
+        right: "Nyuma"
+      - left: "J'irai"
+        right: "Nzajya"
+      - left: "Elle viendra"
+        right: "Azaza"
+      - left: "Nous voyagerons"
+        right: "Tuzagenda"
+      - left: "J'achèterai"
+        right: "Nzagura"
+      - left: "J'appellerai"
+        right: "Nzahamagara"
+    xp_reward: 30
+
+  # 20. Timed Challenges
+  - id: 122
+    type: timed_challenge
+    title: "Tour éclair : Futur"
+    time_limit_seconds: 30
+    questions_count: 5
+    questions:
+      - question: "Demain"
+        answer: "Ejo"
+      - question: "La semaine prochaine"
+        answer: "Icyumweru gitaha"
+      - question: "Bientôt"
+        answer: "Vuba"
+      - question: "Plus tard"
+        answer: "Nyuma"
+      - question: "J'irai"
+        answer: "Nzajya"
+    xp_reward: 35
+
+# Flashcards
+  - id: 111
+    type: flashcards
+    question: "Flashcards"
+    flashcards:
+    - front: "Nzajya / Azajya"
+      back: "Irai"
+      image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+    - front: "Ejo"
+      back: "Demain"
+      image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+    - front: "Icyumweru gitaha"
+      back: "La semaine prochaine"
+      image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+    - front: "Ukwezi gutaha"
+      back: "Le mois prochain"
+      image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+    - front: "Umwaka utaha"
+      back: "L"
+      image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+    - front: "Vuba"
+      back: "Bientôt"
+      image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+    - front: "Nyuma"
+      back: "Plus tard"
+      image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+    - front: "Vuba nyuma"
+      back: "Peu après"
+      image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+    - front: "Nyuma yaho"
+      back: "Plus tard dans la journée"
+      image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+    - front: "Ukurikira"
+      back: "Prochain"
+      image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+    xp_reward: 30
+

@@ -1,0 +1,1294 @@
+lesson:
+ name: "Väder - Ibihe by'ikirere"
+ description: "Lär dig Väder expressions i Kinyarwanda"
+ xp_reward: 500
+
+exercises:
+
+ # 1. Translation Exercises - Basic Väder Words ONLY (Safe för single words)
+ # Basic Väder Words
+ - id: 1
+ type: translation
+ Fråga: "Hur säger man 'Väder' på kinyarwanda?"
+ Svar: "Ibihe by'ikirere"
+ xp_reward: 15
+
+ - id: 2
+ type: translation
+ Fråga: "Hur säger man 'Sun' på kinyarwanda?"
+ Svar: "Izuba"
+ xp_reward: 10
+
+ - id: 3
+ type: translation
+ Fråga: "Hur säger man 'Rain' på kinyarwanda?"
+ Svar: "Imvura"
+ xp_reward: 10
+
+ - id: 4
+ type: translation
+ Fråga: "Hur säger man 'Snow' på kinyarwanda?"
+ Svar: "Urubura"
+ xp_reward: 10
+
+ - id: 5
+ type: translation
+ Fråga: "Hur säger man 'Cloud' på kinyarwanda?"
+ Svar: "Igicu"
+ xp_reward: 10
+
+ - id: 6
+ type: translation
+ Fråga: "Hur säger man 'Wind' på kinyarwanda?"
+ Svar: "Umuyaga"
+ xp_reward: 10
+
+ - id: 7
+ type: translation
+ Fråga: "Hur säger man 'Storm' på kinyarwanda?"
+ Svar: "Umuyaga ukomeye"
+ xp_reward: 15
+
+ - id: 8
+ type: translation
+ Fråga: "Hur säger man 'Thunder' på kinyarwanda?"
+ Svar: "Inkubi y'umuyaga"
+ xp_reward: 15
+
+ - id: 9
+ type: translation
+ Fråga: "Hur säger man 'Lightning' på kinyarwanda?"
+ Svar: "Umuriro w'amashanyarazi"
+ xp_reward: 15
+
+ - id: 10
+ type: translation
+ Fråga: "Hur säger man 'Hot' på kinyarwanda?"
+ Svar: "Harashyushye"
+ xp_reward: 10
+
+ - id: 11
+ type: translation
+ Fråga: "Hur säger man 'Cold' på kinyarwanda?"
+ Svar: "Bikonje"
+ xp_reward: 10
+
+ - id: 12
+ type: translation
+ Fråga: "Hur säger man 'Warm' på kinyarwanda?"
+ Svar: "Harashyushye buhoro"
+ xp_reward: 15
+
+ - id: 13
+ type: translation
+ Fråga: "Hur säger man 'Cool' på kinyarwanda?"
+ Svar: "Bikonje buhoro"
+ xp_reward: 15
+
+ - id: 14
+ type: translation
+ Fråga: "Hur säger man 'Humid' på kinyarwanda?"
+ Svar: "Humide"
+ xp_reward: 10
+
+ - id: 15
+ type: translation
+ Fråga: "Hur säger man 'Fog' på kinyarwanda?"
+ Svar: "Igitugu"
+ xp_reward: 10
+
+ # Sats About Väder
+ - id: 16
+ type: translation
+ Fråga: "Hur säger man 'den sun är shining' på kinyarwanda?"
+ Svar: "Izuba rirarashe."
+ xp_reward: 15
+
+ - id: 17
+ type: translation
+ Fråga: "Hur säger man 'It är raining' på kinyarwanda?"
+ Svar: "Harimo kugwa imvura"
+ xp_reward: 18
+
+ - id: 18
+ type: translation
+ Fråga: "Hur säger man 'den snow är falling' på kinyarwanda?"
+ Svar: "Urubura ruragwa."
+ xp_reward: 15
+
+ - id: 19
+ type: translation
+ Fråga: "Hur säger man 'den wind är strong' på kinyarwanda?"
+ Svar: "Umuyaga urakomeye."
+ xp_reward: 15
+
+ - id: 20
+ type: translation
+ Fråga: "Hur säger man 'den sky är cloudy' på kinyarwanda?"
+ Svar: "Ijuru ryuzuye ibicu."
+ xp_reward: 18
+
+ - id: 21
+ type: translation
+ Fråga: "Hur säger man 'It är hot today' på kinyarwanda?"
+ Svar: "Uyu munsi Harashyushye."
+ xp_reward: 15
+
+ - id: 22
+ type: translation
+ Fråga: "Hur säger man 'It är cold outside' på kinyarwanda?"
+ Svar: "Hanze hariho ubukonje."
+ xp_reward: 15
+
+ - id: 23
+ type: translation
+ Fråga: "Hur säger man 'den Väder är nice' på kinyarwanda?"
+ Svar: "Ibihe by'ikirere ni byiza."
+ xp_reward: 15
+
+ # Daily Väder Expressions
+ - id: 24
+ type: translation
+ Fråga: "Hur säger man 'bra morning! It är sunny' på kinyarwanda?"
+ Svar: "Mwaramutse! Izuba rirarashe."
+ xp_reward: 18
+
+ - id: 25
+ type: translation
+ Fråga: "Hur säger man 'It will rain today' på kinyarwanda?"
+ Svar: "Uyu munsi hazagwa imvura."
+ xp_reward: 18
+
+ - id: 26
+ type: translation
+ Fråga: "Hur säger man 'den wind är blowing' på kinyarwanda?"
+ Svar: "Umuyaga urahuma."
+ xp_reward: 15
+
+ - id: 27
+ type: translation
+ Fråga: "Hur säger man 'Be careful, it är slippery' på kinyarwanda?"
+ Svar: "Wirinde, birashobora gusogongera."
+ xp_reward: 20
+
+ - id: 28
+ type: translation
+ Fråga: "Hur säger man 'It är cloudy today' på kinyarwanda?"
+ Svar: "Uyu munsi ijuru ryuzuye ibicu."
+ xp_reward: 18
+
+ # 2. Multiple Choice
+ - id: 29
+ type: multiple_choice
+ Fråga: "Vad betyder 'Izuba' i den här meningen?"
+ options:
+ - "Rain"
+ - "Sun"
+ - "Wind"
+ - "Cloud"
+ Svar: "Sun"
+ xp_reward: 15
+
+ - id: 30
+ type: multiple_choice
+ Fråga: "Vad betyder 'Imvura' i den här meningen?"
+ options:
+ - "Snow"
+ - "Rain"
+ - "Storm"
+ - "Fog"
+ Svar: "Rain"
+ xp_reward: 15
+
+ - id: 31
+ type: multiple_choice
+ Fråga: "Vad betyder 'Umuyaga' i den här meningen?"
+ options:
+ - "Sun"
+ - "Cloud"
+ - "Wind"
+ - "Storm"
+ Svar: "Wind"
+ xp_reward: 15
+
+ - id: 32
+ type: multiple_choice
+ Fråga: "Vad betyder 'Harashyushye' i den här meningen?"
+ options:
+ - "Cold"
+ - "Hot"
+ - "Warm"
+ - "Cool"
+ Svar: "Hot"
+ xp_reward: 15
+
+ - id: 33
+ type: multiple_choice
+ Fråga: "Vad betyder 'Bikonje' i den här meningen?"
+ options:
+ - "Hot"
+ - "Warm"
+ - "Cold"
+ - "Cool"
+ Svar: "Cold"
+ xp_reward: 15
+
+ - id: 34
+ type: multiple_choice
+ Fråga: "Vad betyder 'Izuba rirarashe' i den här meningen?"
+ options:
+ - "It är raining"
+ - "den sun är shining"
+ - "den wind är strong"
+ - "den sky är cloudy"
+ Svar: "den sun är shining"
+ xp_reward: 18
+
+ # 3. Lyssna och Type (Dictation)
+ - id: 35
+ type: listen_och_type
+ Fråga: "Lyssna och type den Väder word"
+ audio: "Izuba"
+ Svar: "Izuba"
+ translation: "Sun"
+ xp_reward: 20
+
+ - id: 36
+ type: listen_och_type
+ Fråga: "Lyssna och type den Väder word"
+ audio: "Imvura"
+ Svar: "Imvura"
+ translation: "Rain"
+ xp_reward: 20
+
+ - id: 37
+ type: listen_och_type
+ Fråga: "Lyssna och type den Väder word"
+ audio: "Umuyaga"
+ Svar: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 20
+
+ - id: 38
+ type: listen_och_type
+ Fråga: "Lyssna och type den Väder word"
+ audio: "Urubura"
+ Svar: "Urubura"
+ translation: "Snow"
+ xp_reward: 20
+
+ - id: 39
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ audio: "Izuba rirarashe"
+ Svar: "Izuba rirarashe"
+ translation: "den sun är shining"
+ xp_reward: 22
+
+ - id: 40
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ audio: "Harimo kugwa imvura"
+ Svar: "Harimo kugwa imvura"
+ translation: "It är raining"
+ xp_reward: 25
+
+ - id: 41
+ type: listen_och_type
+ Fråga: "Lyssna och type den phrase"
+ audio: "Uyu munsi birishyushye"
+ Svar: "Uyu munsi birishyushye"
+ translation: "It är hot today"
+ xp_reward: 22
+
+ - id: 42
+ type: listen_och_type
+ Fråga: "Lyssna och type den expression"
+ audio: "Mwaramutse Izuba ryarashe"
+ Svar: "Mwaramutse Izuba ryarashe"
+ translation: "bra morning! den sun är shining"
+ xp_reward: 25
+
+ # 4. Lyssna och Välj
+ - id: 43
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct Väder word"
+ audio: "Izuba"
+ options:
+ - "Rain"
+ - "Sun"
+ - "Wind"
+ Svar: "Sun"
+ xp_reward: 15
+
+ - id: 44
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct Väder word"
+ audio: "Imvura"
+ options:
+ - "Snow"
+ - "Rain"
+ - "Cloud"
+ Svar: "Rain"
+ xp_reward: 15
+
+ - id: 45
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct Väder word"
+ audio: "Umuyaga"
+ options:
+ - "Sun"
+ - "Wind"
+ - "Storm"
+ Svar: "Wind"
+ xp_reward: 15
+
+ - id: 46
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct phrase"
+ audio: "Izuba rirarashe"
+ options:
+ - "It är raining"
+ - "den sun är shining"
+ - "den wind är strong"
+ Svar: "den sun är shining"
+ xp_reward: 18
+
+ - id: 47
+ type: listen_och_choose
+ Fråga: "Lyssna och Välj den correct phrase"
+ audio: "Harimo kugwa imvura"
+ options:
+ - "It är hot today"
+ - "It är raining"
+ - "den sky är cloudy"
+ Svar: "It är raining"
+ xp_reward: 20
+
+ # 5. Repeat / Prata Exercise
+ - id: 48
+ type: Prata
+ Fråga: "Say denna Väder word"
+ prompt: "Izuba"
+ translation: "Sun"
+ xp_reward: 15
+
+ - id: 49
+ type: Prata
+ Fråga: "Say denna Väder word"
+ prompt: "Imvura"
+ translation: "Rain"
+ xp_reward: 15
+
+ - id: 50
+ type: Prata
+ Fråga: "Say denna Väder word"
+ prompt: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 15
+
+ - id: 51
+ type: Prata
+ Fråga: "Say denna Väder word"
+ prompt: "Urubura"
+ translation: "Snow"
+ xp_reward: 15
+
+ - id: 52
+ type: Prata
+ Fråga: "Say denna phrase"
+ prompt: "Izuba rirarashe"
+ translation: "den sun är shining"
+ xp_reward: 18
+
+ - id: 53
+ type: Prata
+ Fråga: "Say denna phrase"
+ prompt: "Harimo kugwa imvura"
+ translation: "It är raining"
+ xp_reward: 20
+
+ - id: 54
+ type: Prata
+ Fråga: "Say denna phrase"
+ prompt: "Uyu munsi birishyushye"
+ translation: "It är hot today"
+ xp_reward: 18
+
+ - id: 55
+ type: Prata
+ Fråga: "Say denna expression"
+ prompt: "Mwaramutse Izuba ryarashe"
+ translation: "bra morning! den sun är shining"
+ xp_reward: 22
+
+ # 6. Word Bank Sats Building - PIECES PROVIDED
+ - id: 56
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den sun är shining'"
+ word_bank: ["Izuba", "rirakaza", "imvura", "irakaza", "umuyaga"]
+ correct_answer: ["Izuba", "rirakaza"]
+ xp_reward: 15
+
+ - id: 57
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'It är raining'"
+ word_bank: ["Birimo", "kugwa", "imvura", "urubura", "ruragwa"]
+ correct_answer: ["Birimo", "kugwa", "imvura"]
+ xp_reward: 20
+
+ - id: 58
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den snow är falling'"
+ word_bank: ["Urubura", "ruragwa", "imvura", "irakaza", "izuba"]
+ correct_answer: ["Urubura", "ruragwa"]
+ xp_reward: 15
+
+ - id: 59
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den wind är strong'"
+ word_bank: ["Umuyaga", "urakomeye", "izuba", "rirakaza", "imvura"]
+ correct_answer: ["Umuyaga", "urakomeye"]
+ xp_reward: 15
+
+ - id: 60
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den sky är cloudy'"
+ word_bank: ["Ijuru", "ryuzuye", "ibicu", "izuba", "rirakaza", "umuyaga"]
+ correct_answer: ["Ijuru", "ryuzuye", "ibicu"]
+ xp_reward: 18
+
+ - id: 61
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'It är hot today'"
+ word_bank: ["Uyu", "munsi", "birishyushye", "bikonje", "ubukonje"]
+ correct_answer: ["Uyu", "munsi", "birishyushye"]
+ xp_reward: 15
+
+ - id: 62
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'It är cold outside'"
+ word_bank: ["Hanze", "hariho", "ubukonje", "birishyushye", "umuyaga"]
+ correct_answer: ["Hanze", "hariho", "ubukonje"]
+ xp_reward: 15
+
+ - id: 63
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den Väder är nice'"
+ word_bank: ["Ibihe", "by'ikirere", "ni", "byiza", "ibicu", "ryuzuye"]
+ correct_answer: ["Ibihe", "by'ikirere", "ni", "byiza"]
+ xp_reward: 18
+
+ - id: 64
+ type: word_bank
+ Fråga: "Build den Kinyarwanda expression för 'bra morning! It är sunny'"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_answer: ["Mwaramutse", "Izuba", "rirakaza"]
+ xp_reward: 18
+
+ - id: 65
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'It will rain today'"
+ word_bank: ["Uyu", "munsi", "hazagwa", "imvura", "urubura", "ruragwa"]
+ correct_answer: ["Uyu", "munsi", "hazagwa", "imvura"]
+ xp_reward: 20
+
+ - id: 66
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'den wind är blowing'"
+ word_bank: ["Umuyaga", "urahuma", "urakomeye", "izuba", "rirakaza"]
+ correct_answer: ["Umuyaga", "urahuma"]
+ xp_reward: 15
+
+ - id: 67
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'Be careful, it är slippery'"
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "hanze", "hariho", "ubukonje"]
+ correct_answer: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 22
+
+ - id: 68
+ type: word_bank
+ Fråga: "Build den Kinyarwanda Sats för 'It är cloudy today'"
+ word_bank: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu", "birishyushye"]
+ correct_answer: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu"]
+ xp_reward: 20
+
+ # 7. Sats Scramble - PIECES PROVIDED
+ - id: 69
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Izuba", "rirakaza"]
+ correct_sentence: "Izuba rirarashe."
+ translation: "den sun är shining."
+ xp_reward: 15
+
+ - id: 70
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Birimo", "kugwa", "imvura"]
+ correct_sentence: "Harimo kugwa imvura."
+ translation: "It är raining."
+ xp_reward: 20
+
+ - id: 71
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Urubura", "ruragwa"]
+ correct_sentence: "Urubura ruragwa."
+ translation: "den snow är falling."
+ xp_reward: 15
+
+ - id: 72
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Umuyaga", "urakomeye"]
+ correct_sentence: "Umuyaga urakomeye."
+ translation: "den wind är strong."
+ xp_reward: 15
+
+ - id: 73
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Ijuru", "ryuzuye", "ibicu"]
+ correct_sentence: "Ijuru ryuzuye ibicu."
+ translation: "den sky är cloudy."
+ xp_reward: 18
+
+ - id: 74
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Uyu", "munsi", "birishyushye"]
+ correct_sentence: "Uyu munsi birishyushye."
+ translation: "It är hot today."
+ xp_reward: 15
+
+ - id: 75
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Hanze", "hariho", "ubukonje"]
+ correct_sentence: "Hanze hariho ubukonje."
+ translation: "It är cold outside."
+ xp_reward: 15
+
+ - id: 76
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Ibihe", "by'ikirere", "ni", "byiza"]
+ correct_sentence: "Ibihe by'ikirere ni byiza."
+ translation: "den Väder är nice."
+ xp_reward: 18
+
+ - id: 77
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct expression"
+ scrambled_words: ["Mwaramutse", "Izuba", "rirakaza"]
+ correct_sentence: "Mwaramutse! Izuba rirarashe."
+ translation: "bra morning! den sun är shining."
+ xp_reward: 18
+
+ - id: 78
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Uyu", "munsi", "hazagwa", "imvura"]
+ correct_sentence: "Uyu munsi hazagwa imvura."
+ translation: "It will rain today."
+ xp_reward: 20
+
+ - id: 79
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Umuyaga", "urahuma"]
+ correct_sentence: "Umuyaga urahuma."
+ translation: "den wind är blowing."
+ xp_reward: 15
+
+ - id: 80
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Wirinde", "birashobora", "gusogongera"]
+ correct_sentence: "Wirinde, birashobora gusogongera."
+ translation: "Be careful, it är slippery."
+ xp_reward: 22
+
+ - id: 81
+ type: sentence_scramble
+ Fråga: "Arrange these words till form en correct Sats"
+ scrambled_words: ["Uyu", "munsi", "ijuru", "ryuzuye", "ibicu"]
+ correct_sentence: "Uyu munsi ijuru ryuzuye ibicu."
+ translation: "It är cloudy today."
+ xp_reward: 20
+
+ # 8. Fill i den Blank - Välj FROM OPTIONS
+ - id: 82
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Izuba ___."
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "den sun är shining."
+ xp_reward: 12
+
+ - id: 83
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Birimo kugwa ___."
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It är raining."
+ xp_reward: 15
+
+ - id: 84
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Urubura ___."
+ options: ["ruragwa", "rirakaza", "urahuma"]
+ correct_answer: "ruragwa"
+ translation: "den snow är falling."
+ xp_reward: 12
+
+ - id: 85
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Umuyaga ___."
+ options: ["urakomeye", "rirakaza", "ryuzuye"]
+ correct_answer: "urakomeye"
+ translation: "den wind är strong."
+ xp_reward: 12
+
+ - id: 86
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Ijuru ryuzuye ___."
+ options: ["ibicu", "imvura", "urubura"]
+ correct_answer: "ibicu"
+ translation: "den sky är cloudy."
+ xp_reward: 15
+
+ - id: 87
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Uyu munsi ___."
+ options: ["birishyushye", "bikonje", "byiza"]
+ correct_answer: "birishyushye"
+ translation: "It är hot today."
+ xp_reward: 12
+
+ - id: 88
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Hanze hariho ___."
+ options: ["ubukonje", "ubushyuhe", "ibicu"]
+ correct_answer: "ubukonje"
+ translation: "It är cold outside."
+ xp_reward: 12
+
+ - id: 89
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Ibihe by'ikirere ni ___."
+ options: ["byiza", "bikonje", "birishyushye"]
+ correct_answer: "byiza"
+ translation: "den Väder är nice."
+ xp_reward: 12
+
+ - id: 90
+ type: fill_blank
+ Fråga: "Complete den expression"
+ text_med_blank: "Mwaramutse! Izuba ___."
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "bra morning! den sun är shining."
+ xp_reward: 15
+
+ - id: 91
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Uyu munsi hazagwa ___."
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It will rain today."
+ xp_reward: 15
+
+ - id: 92
+ type: fill_blank
+ Fråga: "Complete den Sats"
+ text_med_blank: "Umuyaga ___."
+ options: ["urahuma", "rirakaza", "ruragwa"]
+ correct_answer: "urahuma"
+ translation: "den wind är blowing."
+ xp_reward: 12
+
+ - id: 93
+ type: fill_blank
+ Fråga: "Complete den warning"
+ text_med_blank: "Wirinde, birashobora ___."
+ options: ["gusogongera", "kugwa imvura", "kubura"]
+ correct_answer: "gusogongera"
+ translation: "Be careful, it är slippery."
+ xp_reward: 18
+
+ # 9. Picture → Word (Unsplash Images)
+ - id: 94
+ type: picture_word
+ Fråga: "What Väder är denna?"
+ image_url: "https://source.unsplash.com/featured/?sun"
+ options: ["Izuba", "Imvura", "Igicu"]
+ correct_answer: "Izuba"
+ xp_reward: 10
+
+ - id: 95
+ type: picture_word
+ Fråga: "What Väder är denna?"
+ image_url: "https://source.unsplash.com/featured/?rain"
+ options: ["Imvura", "Urubura", "Umuyaga"]
+ correct_answer: "Imvura"
+ xp_reward: 10
+
+ - id: 96
+ type: picture_word
+ Fråga: "What Väder är denna?"
+ image_url: "https://source.unsplash.com/featured/?snow"
+ options: ["Urubura", "Imvura", "Igitugu"]
+ correct_answer: "Urubura"
+ xp_reward: 10
+
+ - id: 97
+ type: picture_word
+ Fråga: "What Väder är denna?"
+ image_url: "https://source.unsplash.com/featured/?cloud"
+ options: ["Igicu", "Izuba", "Umuyaga"]
+ correct_answer: "Igicu"
+ xp_reward: 10
+
+ - id: 98
+ type: picture_word
+ Fråga: "What Väder är denna?"
+ image_url: "https://source.unsplash.com/featured/?wind"
+ options: ["Umuyaga", "Imvura", "Urubura"]
+ correct_answer: "Umuyaga"
+ xp_reward: 10
+
+ - id: 99
+ type: picture_word
+ Fråga: "What Väder är denna?"
+ image_url: "https://source.unsplash.com/featured/?storm"
+ options: ["Umuyaga ukomeye", "Izuba", "Igicu"]
+ correct_answer: "Umuyaga ukomeye"
+ xp_reward: 15
+
+ - id: 100
+ type: picture_word
+ Fråga: "What Väder är denna?"
+ image_url: "https://source.unsplash.com/featured/?lightning"
+ options: ["Umuriro w'amashanyarazi", "Imvura", "Igicu"]
+ correct_answer: "Umuriro w'amashanyarazi"
+ xp_reward: 15
+
+ - id: 101
+ type: picture_word
+ Fråga: "What Väder är denna?"
+ image_url: "https://source.unsplash.com/featured/?fog"
+ options: ["Igitugu", "Igicu", "Umuyaga"]
+ correct_answer: "Igitugu"
+ xp_reward: 12
+
+ - id: 102
+ type: picture_word
+ Fråga: "What temperature är denna?"
+ image_url: "https://source.unsplash.com/featured/?hot-weather"
+ options: ["Harashyushye", "Bikonje", "Bikonje buhoro"]
+ correct_answer: "Harashyushye"
+ xp_reward: 10
+
+ - id: 103
+ type: picture_word
+ Fråga: "What temperature är denna?"
+ image_url: "https://source.unsplash.com/featured/?cold-weather"
+ options: ["Bikonje", "Harashyushye", "Harashyushye buhoro"]
+ correct_answer: "Bikonje"
+ xp_reward: 10
+
+ # 10. Word Para ihop (Pairing)
+ - id: 104
+ type: Para ihop
+ Fråga: "Para ihop den Väder words"
+ pairs:
+ - Vänster: "Sun"
+ Höger: "Izuba"
+ - Vänster: "Rain"
+ Höger: "Imvura"
+ - Vänster: "Snow"
+ Höger: "Urubura"
+ - Vänster: "Cloud"
+ Höger: "Igicu"
+ - Vänster: "Wind"
+ Höger: "Umuyaga"
+ - Vänster: "Storm"
+ Höger: "Umuyaga ukomeye"
+ - Vänster: "Thunder"
+ Höger: "Inkubi y'umuyaga"
+ - Vänster: "Lightning"
+ Höger: "Umuriro w'amashanyarazi"
+ - Vänster: "Fog"
+ Höger: "Igitugu"
+ xp_reward: 25
+
+ - id: 105
+ type: Para ihop
+ Fråga: "Para ihop den temperatures"
+ pairs:
+ - Vänster: "Hot"
+ Höger: "Harashyushye"
+ - Vänster: "Cold"
+ Höger: "Bikonje"
+ - Vänster: "Warm"
+ Höger: "Harashyushye buhoro"
+ - Vänster: "Cool"
+ Höger: "Bikonje buhoro"
+ - Vänster: "Humid"
+ Höger: "Humide"
+ xp_reward: 20
+
+ - id: 106
+ type: Para ihop
+ Fråga: "Para ihop den Väder Sats"
+ pairs:
+ - Vänster: "den sun är shining"
+ Höger: "Izuba rirarashe"
+ - Vänster: "It är raining"
+ Höger: "Harimo kugwa imvura"
+ - Vänster: "den snow är falling"
+ Höger: "Urubura ruragwa"
+ - Vänster: "den wind är strong"
+ Höger: "Umuyaga urakomeye"
+ - Vänster: "den sky är cloudy"
+ Höger: "Ijuru ryuzuye ibicu"
+ - Vänster: "It är hot today"
+ Höger: "Uyu munsi birishyushye"
+ - Vänster: "It är cold outside"
+ Höger: "Hanze hariho ubukonje"
+ xp_reward: 25
+
+ - id: 107
+ type: Para ihop
+ Fråga: "Para ihop den daily expressions"
+ pairs:
+ - Vänster: "bra morning! It är sunny"
+ Höger: "Mwaramutse! Izuba rirarashe"
+ - Vänster: "It will rain today"
+ Höger: "Uyu munsi hazagwa imvura"
+ - Vänster: "den wind är blowing"
+ Höger: "Umuyaga urahuma"
+ - Vänster: "Be careful, it är slippery"
+ Höger: "Wirinde, birashobora gusogongera"
+ - Vänster: "It är cloudy today"
+ Höger: "Uyu munsi ijuru ryuzuye ibicu"
+ xp_reward: 25
+
+ # 11. Tap What You Hear - EXCLUDED en PER PREVIOUS PATTERN
+
+ # 12. Välj Missing Word
+ - id: 108
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Izuba ___."
+ missing_word_position: 2
+ options: ["rirakaza", "ruragwa", "urahuma"]
+ correct_answer: "rirakaza"
+ translation: "den sun är shining."
+ xp_reward: 12
+
+ - id: 109
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Birimo kugwa ___."
+ missing_word_position: 3
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It är raining."
+ xp_reward: 15
+
+ - id: 110
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Umuyaga ___."
+ missing_word_position: 2
+ options: ["urakomeye", "rirakaza", "ruragwa"]
+ correct_answer: "urakomeye"
+ translation: "den wind är strong."
+ xp_reward: 12
+
+ - id: 111
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Uyu munsi ___."
+ missing_word_position: 3
+ options: ["birishyushye", "bikonje", "byiza"]
+ correct_answer: "birishyushye"
+ translation: "It är hot today."
+ xp_reward: 12
+
+ - id: 112
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Hanze hariho ___."
+ missing_word_position: 3
+ options: ["ubukonje", "ubushyuhe", "ibicu"]
+ correct_answer: "ubukonje"
+ translation: "It är cold outside."
+ xp_reward: 12
+
+ - id: 113
+ type: choose_missing
+ Fråga: "Välj den missing word"
+ Sats: "Uyu munsi hazagwa ___."
+ missing_word_position: 4
+ options: ["imvura", "urubura", "ibicu"]
+ correct_answer: "imvura"
+ translation: "It will rain today."
+ xp_reward: 15
+
+ # 13. Läs och Svar - Fråga based på text
+ - id: 114
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Izuba rirarashe. Ibihe by'ikirere ni byiza."
+ Fråga: "Vad är den Väder like?"
+ options: ["Rainy", "Sunny", "Cloudy", "Windy"]
+ correct_answer: "Sunny"
+ xp_reward: 12
+
+ - id: 115
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Harimo kugwa imvura. Umuyaga urakomeye."
+ Fråga: "Vad är happening?"
+ options: ["It är snowing", "It är raining", "It är sunny", "It är cloudy"]
+ correct_answer: "It är raining"
+ xp_reward: 15
+
+ - id: 116
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Uyu munsi birishyushye. Izuba rirarashe."
+ Fråga: "How är den temperature today?"
+ options: ["Cold", "Hot", "Cool", "Warm"]
+ correct_answer: "Hot"
+ xp_reward: 12
+
+ - id: 117
+ type: read_answer
+ Fråga: "Läs den text och Svar den Fråga"
+ text: "Ijuru ryuzuye ibicu. Hazagwa imvura."
+ Fråga: "What will happen today?"
+ options: ["It will snow", "It will rain", "den sun will shine", "den wind will blow"]
+ correct_answer: "It will rain"
+ xp_reward: 15
+
+ - id: 118
+ type: read_answer
+ Fråga: "Läs den conversation och Svar den Fråga"
+ text: "en: Mwaramutse! Izuba rirarashe. B: Yego, ibihe ni byiza."
+ Fråga: "Vad är den Väder?"
+ options: ["Rainy", "Sunny", "Cloudy", "Windy"]
+ correct_answer: "Sunny"
+ xp_reward: 15
+
+ # 14. True / False
+ - id: 119
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Izuba means 'sun'."
+ correct_answer: true
+ xp_reward: 10
+
+ - id: 120
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Imvura means 'snow'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 121
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Umuyaga urakomeye means 'den wind är strong'."
+ correct_answer: true
+ xp_reward: 12
+
+ - id: 122
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Bikonje means 'hot'."
+ correct_answer: false
+ xp_reward: 10
+
+ - id: 123
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Harimo kugwa imvura means 'it är raining'."
+ correct_answer: true
+ xp_reward: 15
+
+ - id: 124
+ type: true_false
+ Fråga: "är denna statement true eller false?"
+ statement: "Uyu munsi hazagwa urubura means 'it will rain today'."
+ correct_answer: false
+ xp_reward: 15
+
+ # 15. Conversation Exercise - Build responses from pieces
+ - id: 125
+ type: conversation
+ Fråga: "Respond till den greeting by building en Sats"
+ bot_message: "Mwaramutse!"
+ translation: "bra morning!"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_response: ["Mwaramutse"]
+ xp_reward: 10
+
+ - id: 126
+ type: conversation
+ Fråga: "Respond till den Fråga about Väder"
+ bot_message: "Ibihe by'ikirere bimeze bite?"
+ translation: "How är den Väder?"
+ options:
+ - "Izuba rirarashe"
+ - "Harimo kugwa imvura"
+ - "Umuyaga urakomeye"
+ correct_response: "Izuba rirarashe"
+ xp_reward: 15
+
+ - id: 127
+ type: conversation
+ Fråga: "Respond till den statement"
+ bot_message: "Uyu munsi birishyushye."
+ translation: "It är hot today."
+ options:
+ - "Yego, Izuba rirarashe"
+ - "Oya, bikonje"
+ - "Harimo kugwa imvura"
+ correct_response: "Yego, Izuba rirarashe"
+ xp_reward: 12
+
+ - id: 128
+ type: conversation
+ Fråga: "Respond till den warning by building en Sats"
+ bot_message: "Hanze hariho ubukonje."
+ translation: "It är cold outside."
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "umuyaga", "urahuma"]
+ correct_response: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 20
+
+ # 16. Story Exercise - Build Sats from pieces
+ - id: 129
+ type: story
+ title: "en Day av Väder - Umunsi w'Ibihe by'Ikirere"
+ story_intro: "Läs about den Väder. Then build den Sats."
+ story_segments:
+ - text: "bra morning! den sun är shining."
+ - text: "It är hot today."
+ - text: "den sky är cloudy."
+ - text: "It will rain today."
+ - text: "den wind är blowing."
+ - text: "Be careful, it är slippery."
+ exercises:
+ - type: word_bank
+ Fråga: "Build 'bra morning! den sun är shining'"
+ word_bank: ["Mwaramutse", "Izuba", "rirakaza", "imvura", "irakaza"]
+ correct_answer: ["Mwaramutse", "Izuba", "rirakaza"]
+ - type: word_bank
+ Fråga: "Build 'It är hot today'"
+ word_bank: ["Uyu", "munsi", "birishyushye", "bikonje", "ubukonje"]
+ correct_answer: ["Uyu", "munsi", "birishyushye"]
+ - type: word_bank
+ Fråga: "Build 'den sky är cloudy'"
+ word_bank: ["Ijuru", "ryuzuye", "ibicu", "izuba", "rirakaza"]
+ correct_answer: ["Ijuru", "ryuzuye", "ibicu"]
+ - type: word_bank
+ Fråga: "Build 'It will rain today'"
+ word_bank: ["Uyu", "munsi", "hazagwa", "imvura", "urubura"]
+ correct_answer: ["Uyu", "munsi", "hazagwa", "imvura"]
+ - type: word_bank
+ Fråga: "Build 'den wind är blowing'"
+ word_bank: ["Umuyaga", "urahuma", "urakomeye", "izuba"]
+ correct_answer: ["Umuyaga", "urahuma"]
+ - type: word_bank
+ Fråga: "Build 'Be careful, it är slippery'"
+ word_bank: ["Wirinde", "birashobora", "gusogongera", "hanze", "hariho", "ubukonje"]
+ correct_answer: ["Wirinde", "birashobora", "gusogongera"]
+ xp_reward: 45
+
+ # 17. Pronunciation Check
+ - id: 130
+ type: pronunciation
+ Fråga: "Say denna Väder word"
+ prompt: "Izuba"
+ translation: "Sun"
+ xp_reward: 15
+
+ - id: 131
+ type: pronunciation
+ Fråga: "Say denna Väder word"
+ prompt: "Imvura"
+ translation: "Rain"
+ xp_reward: 15
+
+ - id: 132
+ type: pronunciation
+ Fråga: "Say denna Väder word"
+ prompt: "Umuyaga"
+ translation: "Wind"
+ xp_reward: 15
+
+ - id: 133
+ type: pronunciation
+ Fråga: "Say denna phrase"
+ prompt: "Izuba rirarashe"
+ translation: "den sun är shining"
+ xp_reward: 18
+
+ - id: 134
+ type: pronunciation
+ Fråga: "Say denna phrase"
+ prompt: "Harimo kugwa imvura"
+ translation: "It är raining"
+ xp_reward: 20
+
+ - id: 135
+ type: pronunciation
+ Fråga: "Say denna expression"
+ prompt: "Mwaramutse Izuba ryarashe"
+ translation: "bra morning! den sun är shining"
+ xp_reward: 22
+
+ # 18. Identify Correct Meaning
+ - id: 136
+ type: identify_meaning
+ Fråga: "Vad betyder 'Izuba' mean i denna Sats?"
+ context_sentence: "Izuba rirarashe."
+ word: "Izuba"
+ options: ["Rain", "Sun", "Wind", "Cloud"]
+ correct_answer: "Sun"
+ xp_reward: 12
+
+ - id: 137
+ type: identify_meaning
+ Fråga: "Vad betyder 'rirakaza' mean i denna Sats?"
+ context_sentence: "Izuba rirarashe."
+ word: "rirakaza"
+ options: ["är falling", "är shining", "är blowing", "är strong"]
+ correct_answer: "är shining"
+ xp_reward: 15
+
+ - id: 138
+ type: identify_meaning
+ Fråga: "Vad betyder 'birishyushye' mean i denna Sats?"
+ context_sentence: "Uyu munsi birishyushye."
+ word: "birishyushye"
+ options: ["cold", "hot", "cool", "warm"]
+ correct_answer: "hot"
+ xp_reward: 12
+
+ - id: 139
+ type: identify_meaning
+ Fråga: "Vad betyder 'hazagwa' mean i denna Sats?"
+ context_sentence: "Uyu munsi hazagwa imvura."
+ word: "hazagwa"
+ options: ["är falling", "will fall", "är blowing", "will blow"]
+ correct_answer: "will fall"
+ xp_reward: 18
+
+ - id: 140
+ type: identify_meaning
+ Fråga: "Vad betyder 'gusogongera' mean i denna Sats?"
+ context_sentence: "Wirinde, birashobora gusogongera."
+ word: "gusogongera"
+ options: ["till be cold", "till be slippery", "till be hot", "till be windy"]
+ correct_answer: "till be slippery"
+ xp_reward: 18
+
+ # 19. Speed Para ihop
+ - id: 141
+ type: speed_Para ihop
+ title: "Para ihop Madness: Väder"
+ time_limit_seconds: 45
+ pairs:
+ - Vänster: "Sun"
+ Höger: "Izuba"
+ - Vänster: "Rain"
+ Höger: "Imvura"
+ - Vänster: "Snow"
+ Höger: "Urubura"
+ - Vänster: "Cloud"
+ Höger: "Igicu"
+ - Vänster: "Wind"
+ Höger: "Umuyaga"
+ - Vänster: "Hot"
+ Höger: "Harashyushye"
+ - Vänster: "Cold"
+ Höger: "Bikonje"
+ - Vänster: "Fog"
+ Höger: "Igitugu"
+ - Vänster: "Sunny"
+ Höger: "Izuba rirarashe"
+ - Vänster: "Rainy"
+ Höger: "Harimo kugwa imvura"
+ xp_reward: 30
+
+ # 20. Timed Challenges
+ - id: 142
+ type: timed_challenge
+ title: "Lightning Round: Väder"
+ time_limit_seconds: 30
+ Fråga_count: 5
+ Fråga:
+ - Fråga: "Sun"
+ Svar: "Izuba"
+ - Fråga: "Rain"
+ Svar: "Imvura"
+ - Fråga: "Wind"
+ Svar: "Umuyaga"
+ - Fråga: "Hot"
+ Svar: "Harashyushye"
+ - Fråga: "Cold"
+ Svar: "Bikonje"
+ xp_reward: 35
+
+# Flashcards
+ - id: 111
+ type: Flashcards
+ Fråga: "Flashcards"
+ Flashcards:
+ - front: "Ibihe by\'ikirere"
+ back: "Väder"
+ image: "https://images.unsplash.com/photo-1568308844852-6c20ae76caa5?w=400&h=267&fit=crop"
+ - front: "Izuba"
+ back: "Sun"
+ image: "https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=400&h=267&fit=crop"
+ - front: "Imvura"
+ back: "Rain"
+ image: "https://images.unsplash.com/photo-1575502742937-87b0e848c3b8?w=400&h=267&fit=crop"
+ - front: "Urubura"
+ back: "Snow"
+ image: "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?w=400&h=267&fit=crop"
+ - front: "Igicu"
+ back: "Cloud"
+ image: "https://images.pexels.com/photos/675420/pexels-photo-675420.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuyaga"
+ back: "Wind"
+ image: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuyaga ukomeye"
+ back: "Storm"
+ image: "https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?w=400&h=267&fit=crop"
+ - front: "Inkubi y\'umuyaga"
+ back: "Thunder"
+ image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?w=400&h=267&fit=crop"
+ - front: "Umuriro w\'amashanyarazi"
+ back: "Lightning"
+ image: "https://images.pexels.com/photos/257488/pexels-photo-257488.jpeg?w=400&h=267&fit=crop"
+ - front: "Harashyushye"
+ back: "Hot"
+ image: "https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?w=400&h=267&fit=crop"
+ xp_reward: 30
